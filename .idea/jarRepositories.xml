@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="ai.snapshots.repository" />
+      <option name="name" value="ai.snapshots.repository" />
+      <option name="url" value="http://archiva.local/repository/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://nexus.ai.intra/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ai.internal.repository" />
+      <option name="name" value="ai.internal.repository" />
+      <option name="url" value="http://archiva.local/repository/internal/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus.public.repository" />
+      <option name="name" value="nexus.public.repository" />
+      <option name="url" value="https://nexus.ai.intra/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus.snapshots.repository" />
+      <option name="name" value="nexus.snapshots.repository" />
+      <option name="url" value="https://nexus.ai.intra/repository/maven-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus.internal.repository" />
+      <option name="name" value="nexus.internal.repository" />
+      <option name="url" value="https://nexus.ai.intra/repository/maven-releases/" />
+    </remote-repository>
+  </component>
+</project>

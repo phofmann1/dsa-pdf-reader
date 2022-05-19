@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%d [%t] %-5level %logger{36} - %msg%n%throwable"/>
+        </Console>
+        <RollingFile name="FILE_EXPORT" fileName="log/trick.csv" ignoreExceptions="false"
+                     filePattern="log/trick_%i.csv">
+            <PatternLayout>
+                <Pattern>%m%n</Pattern>
+                <charset>UTF-8</charset>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="512MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="1"/>
+        </RollingFile>
+        <RollingFile name="FILE_ANALYSE" fileName="log/analyse.csv" ignoreExceptions="false"
+                     filePattern="log/analyse_%i.csv">
+            <PatternLayout>
+                <Pattern>%m%n</Pattern>
+                <charset>UTF-8</charset>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="512MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="1"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="analyseLogger" level="ERROR" additivity="false">
+            <AppenderRef ref="FILE_ANALYSE"/>
+        </Logger>
+        <Logger name="fileLogger" level="INFO" additivity="false">
+            <AppenderRef ref="FILE_EXPORT"/>
+        </Logger>
+        <Root level="DEBUG">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
