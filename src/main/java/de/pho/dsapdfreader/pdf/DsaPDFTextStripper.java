@@ -2,11 +2,12 @@ package de.pho.dsapdfreader.pdf;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 
@@ -14,10 +15,10 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaPDFTextStripper extends PDFTextStripper
 {
-    static final Logger LOGGER_ANALYSE = LogManager.getLogger("analyseLogger");
     private final String publication;
 
-    public ArrayList<TextWithMetaInfo> resultTexts;
+    public List<TextWithMetaInfo> resultTexts;
+    public Map<Integer, List<TextWithMetaInfo>> resultTextPerPage;
 
 
     /**
@@ -30,6 +31,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
         super();
         this.publication = publication;
         this.resultTexts = new ArrayList<>();
+        this.resultTextPerPage = new HashMap<>();
         // see https://pdfbox.apache.org/2.0/getting-started.html
         System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider");
     }
@@ -66,15 +68,13 @@ public class DsaPDFTextStripper extends PDFTextStripper
 
             // convert content to result text model
             this.buildResultTexts();
-
-            // export analysis log
-            this.logAnalysis();
         }
 
     }
 
     private void buildResultTexts()
     {
+        List<TextWithMetaInfo> localResultTexts = new ArrayList<>();
         StringBuilder b = new StringBuilder();
 
         AtomicBoolean wasBold = new AtomicBoolean(false);
@@ -103,7 +103,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
                         ? text.replaceAll(":", "").trim()
                         : text;
 
-                    resultTexts.add(new TextWithMetaInfo(
+                    localResultTexts.add(new TextWithMetaInfo(
                         text,
                         wasBold.get(),
                         wasItalic.get(),
@@ -123,23 +123,10 @@ public class DsaPDFTextStripper extends PDFTextStripper
             wasFont.setLength(0);
             wasFont.append(font);
         }));
+        this.resultTexts.addAll(localResultTexts);
+        this.resultTextPerPage.put(this.getCurrentPageNo(), localResultTexts);
     }
 
-    private void logAnalysis()
-    {
-        this.resultTexts.forEach(t -> LOGGER_ANALYSE.info(
-            publication + ";"
-                + convertBooleanForExcel(t.isBold) + ";"
-                + convertBooleanForExcel(t.isItalic) + ";"
-                + t.size + ";"
-                + t.font + ";"
-                + t.text));
-    }
-
-    public String convertBooleanForExcel(boolean b)
-    {
-        return b ? "WAHR" : "FALSCH";
-    }
 }
 
     

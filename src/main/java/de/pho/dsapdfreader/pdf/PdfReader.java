@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.pdf;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -41,7 +42,38 @@ public class PdfReader
         pdDoc.close();
         cosDoc.close();
 
+        logAnalysisForPage(publication, generalParser.resultTextPerPage);
+
         return generalParser.resultTexts;
+    }
+
+    private static void logAnalysisForPage(String publication, Map<Integer, List<TextWithMetaInfo>> resultTextPerPage)
+    {
+        LOGGER_ANALYSE.info("publication;page;isBold;isItalic;size;font;text");
+        resultTextPerPage.forEach((k, v) -> logAnalysis(publication, v, k.intValue()));
+    }
+
+
+    private static void logAnalysis(String publication, List<TextWithMetaInfo> resultTexts, int... page)
+    {
+        String pageString = page == null ? "" : page[0] + ";";
+        if (page == null)
+            LOGGER_ANALYSE.info("publication;isBold;isItalic;size;font;text");
+
+        resultTexts.forEach(t -> LOGGER_ANALYSE.info(
+            publication + ";"
+                + pageString
+                + convertBooleanForExcel(t.isBold) + ";"
+                + convertBooleanForExcel(t.isItalic) + ";"
+                + t.size + ";"
+                + t.font + ";"
+                + t.text));
+    }
+
+
+    private static String convertBooleanForExcel(boolean b)
+    {
+        return b ? "WAHR" : "FALSCH";
     }
 
 

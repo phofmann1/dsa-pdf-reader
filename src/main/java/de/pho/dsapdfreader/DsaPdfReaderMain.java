@@ -37,7 +37,6 @@ public class DsaPdfReaderMain
 
         LOGGER.debug("init config");
         initConfig();
-        LOGGER_ANALYSE.info("publication;isBold;isItalic;size;font;text");
         LOGGER_FILE_MS_SMALL.info("publication;name;topic;duration;range;targetCategory;feature;description");
         LOGGER_FILE_MS_MEDIUM.info("publication;name;check;topic;castingDuration;duration;range;targetCategory;cost;feature;remarks;advancementCategory;description;effect");
 

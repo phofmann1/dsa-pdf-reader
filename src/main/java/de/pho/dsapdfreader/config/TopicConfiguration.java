@@ -32,6 +32,8 @@ public class TopicConfiguration
     public int endSize;
     @CsvBindByName
     public String endContent;
+    @CsvBindByName
+    public String strategyMapping;
 
     public TopicConfiguration()
     {
