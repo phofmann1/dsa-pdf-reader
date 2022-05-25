@@ -2,21 +2,21 @@ package de.pho.dsapdfreader;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
+import java.nio.file.InvalidPathException;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
-import de.pho.dsapdfreader.config.TopicEnum;
-import de.pho.dsapdfreader.dsa.DsaConverter;
-import de.pho.dsapdfreader.dsa.model.Trick;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillMedium;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillSmall;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillMedium;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillSmall;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
@@ -25,7 +25,8 @@ public class DsaPdfReaderMain
 
     private static List<TopicConfiguration> configs = null;
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final Logger LOGGER_FILE = LogManager.getLogger("fileLogger");
+    public static final Logger LOGGER_FILE_MS_SMALL = LogManager.getLogger("exportLoggerMsSmall");
+    private static final Logger LOGGER_FILE_MS_MEDIUM = LogManager.getLogger("exportLoggerMsMedium");
     public static final Logger LOGGER_ANALYSE = LogManager.getLogger("analyseLogger");
 
     public static void main(String[] args)
@@ -37,27 +38,39 @@ public class DsaPdfReaderMain
         LOGGER.debug("init config");
         initConfig();
         LOGGER_ANALYSE.info("publication;isBold;isItalic;size;font;text");
-        LOGGER_FILE.info("Publication;name;duration;range;targetCategory;feature;description");
+        LOGGER_FILE_MS_SMALL.info("publication;name;topic;duration;range;targetCategory;feature;description");
+        LOGGER_FILE_MS_MEDIUM.info("publication;name;check;topic;castingDuration;duration;range;targetCategory;cost;feature;remarks;advancementCategory;description;effect");
+
         configs.stream()
-            .filter(c -> c != null)
+            .filter(c -> c != null && c.active)
             .forEach(conf -> {
                 LOGGER.debug("----------------------------------");
-                LOGGER.info("Config verarbeiten: " + conf.getPublication());
-                LOGGER.debug("reading file: " + conf.getPdfName());
+                LOGGER.debug("Config verarbeiten: " + conf);
+
                 try
                 {
-                    File f = new File(DsaPdfReaderMain.class.getClassLoader().getResource(conf.getPdfName()).getFile());
 
-                    List<TextWithMetaInfo> resultList = PdfReader.convertToText(f, conf.getFromPage(), conf.getUntilPage(), conf.getPublication());
+                    String path = conf.path;
+                    if (path == null)
+                    {
+                        URL urlPdfLibInClassPath = DsaPdfReaderMain.class.getClassLoader().getResource("./pdf_lib");
+                        if (urlPdfLibInClassPath == null)
+                        {
+                            throw new InvalidPathException("./pdf_lib", "der Pfad für die PDF-Bibliothek konnte nicht gefunden werden");
+                        }
+                        path = urlPdfLibInClassPath.getFile();
+                    }
+                    LOGGER.debug("File einlesen: " + path + "/" + conf.pdfName);
+                    File f = new File(path + "/" + conf.pdfName);
 
+                    List<TextWithMetaInfo> resultList = PdfReader.convertToText(f, conf.fromPage, conf.untilPage, conf.publication);
+                    parseResult(resultList, conf);
 
-                     parseResult(resultList, conf);
-
-
-                } catch (IOException e)
+                } catch (IOException | NullPointerException e)
                 {
-                    LOGGER.error(e);
+                    LOGGER.error(e.getMessage(), e);
                 }
+
                 LOGGER.debug("----------------------------------");
             });
         Instant end = Instant.now();
@@ -76,49 +89,68 @@ public class DsaPdfReaderMain
 
     private static void initConfig()
     {
-        configs  = ConfigurationInitializer.readTopicConfigurations();
+        configs = ConfigurationInitializer.readTopicConfigurations();
     }
 
-    private static List parseResult(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
+    private static void parseResult(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
     {
-        switch (conf.getTopic())
+        if (conf.topic == null)
         {
-            case TRICKS -> {
-                logTrickList(DsaConverter.convertTextWithMetaInfoToTrick(resultList, conf), conf.getPublication());
-            }
-            case SPELLS -> {
-                //return parseResultToSpells(result);
-            }
-            case RITUALS -> {
-            }
+            LOGGER.error("Das Topic in der Konfiguration konnte nicht interpretiert werden");
         }
-        return new ArrayList();
+        switch (conf.topic)
+        {
+            case BLESSINGS, TRICKS -> logMsSmallList(new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(resultList, conf), conf.publication);
+            case SPELLS, LITURGIES -> logMsMediumList(new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(resultList, conf), conf.publication);
+            case RITUALS, CEREMONIES -> {
+            }
+            default -> LOGGER.error("Unexpected value: " + conf.topic);
+        }
     }
 
-    private static void logTrickList(List<Trick> trickList, String publication)
+    private static void logMsMediumList(List<MysticalSkillMedium> msList, String publication)
     {
-        trickList.stream()
-            .filter(t -> t.name != null && t.targetCategory != null && t.feature != null && t.duration != null && t.range != null && t.description != null)
-            .filter(t -> !t.name.isEmpty() && !t.targetCategory.isEmpty() && !t.feature.isEmpty() && !t.duration.isEmpty() && !t.range.isEmpty() && !t.description.isEmpty())
-            .forEach(t -> {
-                String msg = publication + ";"
-                    + t.name + ";" +
-                    t.duration + ";" +
-                    t.range + ";" +
-                    t.targetCategory + ";" +
-                    t.feature + ";" +
-                    t.description;
-                LOGGER_FILE.info(msg);
+        msList.forEach(t -> {
+            String msg = publication + ";" +
+                t.name + ";" +
+                t.check + ";" +
+                t.topic + ";" +
+                t.castingDuration + ";" +
+                t.duration + ";" +
+                t.range + ";" +
+                t.targetCategory + ";" +
+                t.cost + ";" +
+                t.feature + ";" +
+                t.remarks + ";" +
+                t.advancementCategory + ";" +
+                t.description + ";" +
+                t.effect + ";" +
+                (t.qs1 == null ? "" : t.qs1) + ";" +
+                (t.qs2 == null ? "" : t.qs2) + ";" +
+                (t.qs3 == null ? "" : t.qs3) + ";" +
+                (t.qs4 == null ? "" : t.qs4) + ";" +
+                (t.qs5 == null ? "" : t.qs5) + ";" +
+                (t.qs6 == null ? "" : t.qs6);
 
-            });
-
+            LOGGER_FILE_MS_MEDIUM.info(msg);
+        });
     }
 
-
-    private static List<Trick> parseResultToSpells(String result)
+    private static void logMsSmallList(List<MysticalSkillSmall> msList, String publication)
     {
-        LOGGER.debug("parseResultToSpell");
-        return null;
+        msList.forEach(t -> {
+            String msg = publication + ";" +
+                t.name + ";" +
+                t.topic + ";" +
+                t.duration + ";" +
+                t.range + ";" +
+                t.targetCategory + ";" +
+                t.feature + ";" +
+                t.description;
+            LOGGER_FILE_MS_SMALL.info(msg);
+
+        });
+
     }
 
 }

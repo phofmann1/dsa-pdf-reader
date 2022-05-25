@@ -2,150 +2,59 @@ package de.pho.dsapdfreader.config;
 
 
 import com.opencsv.bean.CsvBindByName;
-
-import de.pho.dsapdfreader.config.TopicEnum;
+import com.opencsv.bean.CsvCustomBindByName;
 
 public class TopicConfiguration
 {
-    @CsvBindByName(column="publication")
-    private String publication;
     @CsvBindByName
-    private String pdfName;
+    public boolean active;
     @CsvBindByName
-    private String topicString;
+    public String publication;
     @CsvBindByName
-    private int fromPage;
+    public String path;
     @CsvBindByName
-    private int untilPage;
+    public String pdfName;
+    @CsvCustomBindByName(converter = TopicEnumConvert.class)
+    public TopicEnum topic;
     @CsvBindByName
-    private int startSize;
+    public int fromPage;
     @CsvBindByName
-    private String startContent;
+    public int untilPage;
     @CsvBindByName
-    private int nameSize;
+    public int startSize;
     @CsvBindByName
-    private int dataSize;
+    public String startContent;
     @CsvBindByName
-    private int endSize;
+    public int nameSize;
     @CsvBindByName
-    private String endContent;
+    public int dataSize;
+    @CsvBindByName
+    public int endSize;
+    @CsvBindByName
+    public String endContent;
 
     public TopicConfiguration()
     {
     }
 
-    public TopicEnum getTopic()
+    @Override
+    public String toString()
     {
-        return TopicEnum.valueOf(this.topicString);
+        return "TopicConfiguration{" +
+            "active=" + active +
+            ", publication='" + publication + '\'' +
+            ", path='" + path + '\'' +
+            ", pdfName='" + pdfName + '\'' +
+            ", topic='" + topic + '\'' +
+            ", fromPage=" + fromPage +
+            ", untilPage=" + untilPage +
+            ", startSize=" + startSize +
+            ", startContent='" + startContent + '\'' +
+            ", nameSize=" + nameSize +
+            ", dataSize=" + dataSize +
+            ", endSize=" + endSize +
+            ", endContent='" + endContent + '\'' +
+            '}';
     }
 
-    public String getPublication()
-    {
-        return publication;
-    }
-
-    public void setPublication(String publication)
-    {
-        this.publication = publication;
-    }
-
-    public String getPdfName()
-    {
-        return pdfName;
-    }
-
-    public void setPdfName(String pdfName)
-    {
-        this.pdfName = pdfName;
-    }
-
-    public String getTopicString()
-    {
-        return topicString;
-    }
-
-    public void setTopicString(String topicString)
-    {
-        this.topicString = topicString;
-    }
-
-    public int getFromPage()
-    {
-        return fromPage;
-    }
-
-    public void setFromPage(int fromPage)
-    {
-        this.fromPage = fromPage;
-    }
-
-    public int getUntilPage()
-    {
-        return untilPage;
-    }
-
-    public void setUntilPage(int untilPage)
-    {
-        this.untilPage = untilPage;
-    }
-
-    public int getStartSize()
-    {
-        return startSize;
-    }
-
-    public void setStartSize(int startSize)
-    {
-        this.startSize = startSize;
-    }
-
-    public String getStartContent()
-    {
-        return startContent;
-    }
-
-    public void setStartContent(String startContent)
-    {
-        this.startContent = startContent;
-    }
-
-    public int getNameSize()
-    {
-        return nameSize;
-    }
-
-    public void setNameSize(int nameSize)
-    {
-        this.nameSize = nameSize;
-    }
-
-    public int getDataSize()
-    {
-        return dataSize;
-    }
-
-    public void setDataSize(int dataSize)
-    {
-        this.dataSize = dataSize;
-    }
-
-    public int getEndSize()
-    {
-        return endSize;
-    }
-
-    public void setEndSize(int endSize)
-    {
-        this.endSize = endSize;
-    }
-
-    public String getEndContent()
-    {
-        return endContent;
-    }
-
-    public void setEndContent(String endContent)
-    {
-        this.endContent = endContent;
-    }
 }

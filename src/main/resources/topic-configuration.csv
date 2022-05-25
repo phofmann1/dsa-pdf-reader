@@ -1,4 +1,3 @@
-publication;pdfName;topicString;fromPage;untilPage;startSize;startContent;nameSize;dataSize;endSize;endContent
-Magie_1;Aventurische_Magie_I.pdf;TRICKS;112;114;1200;Kapitel 4: Zauber;1300;1100;1800;Zaubersprüche
-Magie_2;Aventurische_Magie_II.pdf;TRICKS;93;97;1800;Zaubertricks;1300;1100;1800;Zauber
-Magie_3;Aventurische_Magie_III.pdf;TRICKS;123;126;1800;Zaubertricks;1300;1100;1800;Zaubersprüche
+active;publication;path;pdfName;topic;fromPage;untilPage;startSize;startContent;nameSize;dataSize;endSize;endContent
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;300;1000;vorgestellten Aussagen zu Fertigkeiten und die in diesem Kapitel erläuterten Regeln zu Zaubern.;1300;1100;1800;Rituale
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;324;326;1000;START;1300;1100;1300;END

@@ -2,7 +2,6 @@ package de.pho.dsapdfreader.pdf;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -13,19 +12,20 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class GeneralParser extends PDFTextStripper
+public class DsaPDFTextStripper extends PDFTextStripper
 {
     static final Logger LOGGER_ANALYSE = LogManager.getLogger("analyseLogger");
     private final String publication;
 
     public ArrayList<TextWithMetaInfo> resultTexts;
 
+
     /**
      * Instantiate a new PDFTextStripper object.
      *
      * @throws IOException If there is an error loading the properties.
      */
-    public GeneralParser(String publication) throws IOException
+    public DsaPDFTextStripper(String publication) throws IOException
     {
         super();
         this.publication = publication;
@@ -34,38 +34,42 @@ public class GeneralParser extends PDFTextStripper
         System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider");
     }
 
+
     @Override
     public void processPage(PDPage page) throws IOException
     {
-        int numberOfArticleSections = 1;
-
-        int originalSize = this.charactersByArticle.size();
-        this.charactersByArticle.ensureCapacity(numberOfArticleSections);
-        int lastIndex = Math.max(numberOfArticleSections, originalSize);
-
-        for (int i = 0; i < lastIndex; ++i)
+        if (this.getCurrentPageNo() >= this.getStartPage()
+            && this.getCurrentPageNo() <= this.getEndPage())
         {
-            if (i < originalSize)
+
+            int numberOfArticleSections = 1;
+
+            int originalSize = this.charactersByArticle.size();
+            this.charactersByArticle.ensureCapacity(numberOfArticleSections);
+            int lastIndex = Math.max(numberOfArticleSections, originalSize);
+
+            for (int i = 0; i < lastIndex; ++i)
             {
-                ((List) this.charactersByArticle.get(i)).clear();
-            } else if (numberOfArticleSections < originalSize)
-            {
-                this.charactersByArticle.remove(i);
-            } else
-            {
-                this.charactersByArticle.add(new ArrayList());
+                if (i < originalSize)
+                {
+                    this.charactersByArticle.get(i).clear();
+                } else
+                {
+                    //noinspection unchecked,rawtypes
+                    this.charactersByArticle.add(new ArrayList());
+                }
+
+                super.processPage(page);
+                super.writePage();
+                super.endPage(page);
             }
 
-            super.processPage(page);
-            super.writePage();
-            super.endPage(page);
+            // convert content to result text model
+            this.buildResultTexts();
+
+            // export analysis log
+            this.logAnalysis();
         }
-
-        // convert content to result text model
-        this.buildResultTexts();
-
-        // export analysis log
-        this.logAnalysis();
 
     }
 
@@ -93,11 +97,11 @@ public class GeneralParser extends PDFTextStripper
             if (boldChanged || italicChanged || sizeChanged || fontChanged)
             {
                 String text = b.toString();
-                if (text != null && !text.isEmpty())
+                if (!text.isEmpty())
                 {
                     text = wasBold.get()
                         ? text.replaceAll(":", "").trim()
-                        : text.replaceAll("-", "").trim();
+                        : text;
 
                     resultTexts.add(new TextWithMetaInfo(
                         text,

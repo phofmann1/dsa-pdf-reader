@@ -23,4 +23,15 @@ public class TextWithMetaInfo
         this.font = font;
     }
 
+    @Override
+    public String toString()
+    {
+        return "TextWithMetaInfo{" +
+            "text='" + text + '\'' +
+            ", isBold=" + isBold +
+            ", isItalic=" + isItalic +
+            ", size=" + size +
+            ", font='" + font + '\'' +
+            '}';
+    }
 }

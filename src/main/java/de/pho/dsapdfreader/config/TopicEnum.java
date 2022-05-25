@@ -5,4 +5,7 @@ public enum TopicEnum
     TRICKS,
     SPELLS,
     RITUALS,
+    BLESSINGS,
+    LITURGIES,
+    CEREMONIES,
 }
