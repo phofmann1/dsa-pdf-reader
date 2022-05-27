@@ -17,9 +17,9 @@ public class TopicConfiguration
     @CsvCustomBindByName(converter = TopicEnumConvert.class)
     public TopicEnum topic;
     @CsvBindByName
-    public int fromPage;
+    public int startPage;
     @CsvBindByName
-    public int untilPage;
+    public int endPage;
     @CsvBindByName
     public int startSize;
     @CsvBindByName
@@ -48,8 +48,8 @@ public class TopicConfiguration
             ", path='" + path + '\'' +
             ", pdfName='" + pdfName + '\'' +
             ", topic='" + topic + '\'' +
-            ", fromPage=" + fromPage +
-            ", untilPage=" + untilPage +
+            ", startPage=" + startPage +
+            ", endPage=" + endPage +
             ", startSize=" + startSize +
             ", startContent='" + startContent + '\'' +
             ", nameSize=" + nameSize +

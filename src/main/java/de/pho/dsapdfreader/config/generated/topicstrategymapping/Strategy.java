@@ -1,8 +1,8 @@
 //
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// �nderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2022.05.25 um 06:19:00 PM CEST 
+// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+// Generiert: 2022.05.26 um 10:14:07 AM CEST 
 //
 
 
@@ -14,17 +14,17 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse f�r anonymous complex type.
+ * <p>Java-Klasse für Strategy complex type.
  *
  * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
  *
  * <pre>
- * &lt;complexType>
+ * &lt;complexType name="Strategy">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -36,7 +36,7 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence maxOccurs="unbounded">
- *                   &lt;element ref="{}parameter"/>
+ *                   &lt;element name="parameter" type="{}Parameter"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -49,13 +49,15 @@ import javax.xml.bind.annotation.XmlType;
  * </pre>
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
+@XmlType(name = "Strategy", propOrder = {
     "startPage",
     "endPage",
     "strategyClass",
     "params"
 })
-@XmlRootElement(name = "strategy")
+@XmlSeeAlso({
+    de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies.Strategy.class
+})
 public class Strategy
 {
 
@@ -79,8 +81,10 @@ public class Strategy
     /**
      * Legt den Wert der startPage-Eigenschaft fest.
      *
-     * @param value allowed object is
-     *              {@link Integer }
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *
      */
     public void setStartPage(Integer value)
     {
@@ -90,8 +94,10 @@ public class Strategy
     /**
      * Ruft den Wert der endPage-Eigenschaft ab.
      *
-     * @return possible object is
-     * {@link Integer }
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *
      */
     public Integer getEndPage()
     {
@@ -101,8 +107,10 @@ public class Strategy
     /**
      * Legt den Wert der endPage-Eigenschaft fest.
      *
-     * @param value allowed object is
-     *              {@link Integer }
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *
      */
     public void setEndPage(Integer value)
     {
@@ -112,8 +120,10 @@ public class Strategy
     /**
      * Ruft den Wert der strategyClass-Eigenschaft ab.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getStrategyClass()
     {
@@ -123,8 +133,10 @@ public class Strategy
     /**
      * Legt den Wert der strategyClass-Eigenschaft fest.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setStrategyClass(String value)
     {
@@ -134,8 +146,10 @@ public class Strategy
     /**
      * Ruft den Wert der params-Eigenschaft ab.
      *
-     * @return possible object is
-     * {@link Strategy.Params }
+     * @return
+     *     possible object is
+     *     {@link Strategy.Params }
+     *
      */
     public Strategy.Params getParams()
     {
@@ -145,8 +159,10 @@ public class Strategy
     /**
      * Legt den Wert der params-Eigenschaft fest.
      *
-     * @param value allowed object is
-     *              {@link Strategy.Params }
+     * @param value
+     *     allowed object is
+     *     {@link Strategy.Params }
+     *
      */
     public void setParams(Strategy.Params value)
     {
@@ -155,7 +171,7 @@ public class Strategy
 
 
     /**
-     * <p>Java-Klasse f�r anonymous complex type.
+     * <p>Java-Klasse für anonymous complex type.
      *
      * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
      *
@@ -164,12 +180,14 @@ public class Strategy
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence maxOccurs="unbounded">
-     *         &lt;element ref="{}parameter"/>
+     *         &lt;element name="parameter" type="{}Parameter"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {

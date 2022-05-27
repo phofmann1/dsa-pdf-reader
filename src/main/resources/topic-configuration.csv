@@ -1,3 +1,2 @@
-active;publication;path;pdfName;topic;fromPage;untilPage;startSize;startContent;nameSize;dataSize;endSize;endContent
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;300;1000;vorgestellten Aussagen zu Fertigkeiten und die in diesem Kapitel erläuterten Regeln zu Zaubern.;1300;1100;1800;Rituale
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;324;326;1000;START;1300;1100;1300;END
+active;publication;path;pdfName;topic;startPage;endPage;startSize;startContent;nameSize;dataSize;endSize;endContent;strategyMapping
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;334;1000;allgemein;1300;1100;1800;Zeremonien;topic-mapping-base-liturigies.xml

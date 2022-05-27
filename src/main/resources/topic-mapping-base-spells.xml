@@ -1,0 +1,81 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Switch content on page 296" index="1">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>28</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>97</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Split QS6 of duplicatus from effect" index="2">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>293</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>50</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>43</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="End QS6 of duplicatus with bold line" index="3">
+        <strategyClass>StrategyInsertEmptyBold</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>293</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>50</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Split QS6 of odem arcanum from effect" index="4">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>78</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="End QS6 of duplicatus with bold line" index="5">
+        <strategyClass>StrategyInsertEmptyBold</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

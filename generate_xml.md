@@ -5,4 +5,4 @@ dazugehörigen Befehle, welche im Wurzelverzeichnis des Projekts ausgeführt werde
 
 **XSD** | **Command-Line** | **Beschreibung**
 ---|---|---
-[topic-mapping.xsd](./src/main/resources/topic-mapping.xsd) | ```xjc -d src/main/java -p de.pho.dsapdfreader.config.generated.topicstrategymapping ./src/main/resources/topic-mapping.xsd``` | Beschreibt Strategien, welche auf die Konvertierung dieser Konfiguration angewendet werden können
+[topic-mapping.xsd](./src/main/resources/topic-mapping.xsd) | ```xjc -d src/main/java -p de.pho.dsapdfreader.config.generated.topicstrategymapping -encoding UTF-8 ./src/main/resources/topic-mapping.xsd``` | Beschreibt Strategien, welche auf die Konvertierung dieser Konfiguration angewendet werden können

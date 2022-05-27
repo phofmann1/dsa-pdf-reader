@@ -1,8 +1,8 @@
 //
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// �nderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2022.05.25 um 06:19:00 PM CEST 
+// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+// Generiert: 2022.05.26 um 10:14:07 AM CEST 
 //
 
 
@@ -37,11 +37,27 @@ public class ObjectFactory
     }
 
     /**
-     * Create an instance of {@link Strategy }
+     * Create an instance of {@link TopicStrategies }
      */
-    public Strategy createStrategy()
+    public TopicStrategies createTopicStrategies()
     {
-        return new Strategy();
+        return new TopicStrategies();
+    }
+
+    /**
+     * Create an instance of {@link de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy }
+     */
+    public de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy createStrategy()
+    {
+        return new de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy();
+    }
+
+    /**
+     * Create an instance of {@link TopicStrategies.Strategy }
+     */
+    public TopicStrategies.Strategy createTopicStrategiesStrategy()
+    {
+        return new TopicStrategies.Strategy();
     }
 
     /**
@@ -53,19 +69,12 @@ public class ObjectFactory
     }
 
     /**
-     * Create an instance of {@link TopicMappings }
+     * Create an instance of {@link de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy.Params }
+     *
      */
-    public TopicMappings createTopicMappings()
+    public de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy.Params createStrategyParams()
     {
-        return new TopicMappings();
-    }
-
-    /**
-     * Create an instance of {@link Strategy.Params }
-     */
-    public Strategy.Params createStrategyParams()
-    {
-        return new Strategy.Params();
+        return new de.pho.dsapdfreader.config.generated.topicstrategymapping.Strategy.Params();
     }
 
 }

@@ -2,7 +2,7 @@ package de.pho.dsapdfreader.pdf;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -31,7 +31,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
         super();
         this.publication = publication;
         this.resultTexts = new ArrayList<>();
-        this.resultTextPerPage = new HashMap<>();
+        this.resultTextPerPage = new LinkedHashMap<>();
         // see https://pdfbox.apache.org/2.0/getting-started.html
         System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider");
     }
@@ -84,7 +84,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
 
         charactersByArticle.forEach(a -> a.forEach(tp -> {
 
-            boolean isBold = tp.getFont().toString().contains("Bold");
+            boolean isBold = tp.getFont().toString().contains("Bold") || tp.getFont().equals("PDType0Font/PDCIDFontType2, PostScript name: HPQTGU+GentiumBasic");
             boolean isItalic = tp.getFont().toString().contains("Italic");
             int size = (int) (tp.getFontSizeInPt() * 100);
             String font = tp.getFont().toString();
