@@ -49,7 +49,7 @@ public class DsaPdfReaderMain
         LOGGER.debug("init config");
         initConfig();
         LOGGER_FILE_MS_SMALL.info("publication;name;topic;duration;range;targetCategory;feature;description");
-        LOGGER_FILE_MS_MEDIUM.info("publication;name;check;topic;castingDuration;duration;range;targetCategory;cost;feature;remarks;advancementCategory;description;effect");
+        LOGGER_FILE_MS_MEDIUM.info("publication;name;check;topic;castingDuration;duration;range;targetCategory;cost;commonness;feature;remarks;advancementCategory;description;effect;QS 1;QS 2;QS 3;QS 4;QS 5;QS 6;additionl infos");
 
         configs.stream()
             .filter(c -> c != null && c.active)
@@ -86,6 +86,10 @@ public class DsaPdfReaderMain
                         .map(e -> e.toArray(new TextWithMetaInfo[e.size()]))
                         .flatMap(Stream::of)
                         .collect(Collectors.toList());
+
+                    LOGGER.debug("remove lines with only - from list");
+                    resultList = resultList.stream().filter(t -> !t.text.trim().equals("-")).collect(Collectors.toList());
+
                     parseResult(resultList, conf);
 
                 } catch (IOException | NullPointerException e)
@@ -126,8 +130,7 @@ public class DsaPdfReaderMain
                         DsaConverterStrategy currentStrategy = (DsaConverterStrategy) Class.forName(STRATEGY_PACKAGE + s.getStrategyClass().trim())
                             .getDeclaredConstructor()
                             .newInstance();
-                        LOGGER.debug("Applying strategy: " + s.getName());
-                        returnValue = currentStrategy.applyStrategy(returnValue, s.getParams().getParameter());
+                        returnValue = currentStrategy.applyStrategy(returnValue, s.getParams().getParameter(), s.getName());
                     } catch (InstantiationException
                         | IllegalAccessException
                         | InvocationTargetException
@@ -191,22 +194,24 @@ public class DsaPdfReaderMain
                 t.name + ";" +
                 t.check + ";" +
                 t.topic + ";" +
-                /*t.castingDuration + ";" +
+                t.castingDuration + ";" +
                 t.duration + ";" +
                 t.range + ";" +
                 t.targetCategory + ";" +
                 t.cost + ";" +
+                t.commonness + ";" +
                 t.feature + ";" +
                 t.remarks + ";" +
                 t.advancementCategory + ";" +
-                t.description + ";" +*/
+                t.description + ";" +
                 t.effect + ";" +
                 (t.qs1 == null ? "" : t.qs1) + ";" +
                 (t.qs2 == null ? "" : t.qs2) + ";" +
                 (t.qs3 == null ? "" : t.qs3) + ";" +
                 (t.qs4 == null ? "" : t.qs4) + ";" +
                 (t.qs5 == null ? "" : t.qs5) + ";" +
-                (t.qs6 == null ? "" : t.qs6) +
+                (t.qs6 == null ? "" : t.qs6) + ";" +
+                (t.furtherInformation == null ? "" : t.furtherInformation) +
                 "";
             LOGGER_FILE_MS_MEDIUM.info(msg);
         });

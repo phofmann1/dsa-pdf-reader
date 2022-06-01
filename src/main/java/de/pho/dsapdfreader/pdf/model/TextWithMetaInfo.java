@@ -7,13 +7,15 @@ public class TextWithMetaInfo
     public boolean isItalic;
     public int size;
     public String font;
+    public int onPage;
 
     public TextWithMetaInfo(
         String text,
         boolean isBold,
         boolean isItalic,
         int size,
-        String font
+        String font,
+        int onPage
     )
     {
         this.text = text;
@@ -21,6 +23,7 @@ public class TextWithMetaInfo
         this.isItalic = isItalic;
         this.size = size;
         this.font = font;
+        this.onPage = onPage;
     }
 
     @Override

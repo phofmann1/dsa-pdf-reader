@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
@@ -20,7 +21,8 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final Pattern patternIsNumber = Pattern.compile("-?\\d+(\\.\\d+)?");
 
     private static final String KEY_DURATION = "Wirkungsdauer";
-    private static final String KEY_FAETURE = "Merkmal";
+    private static final String KEY_FEATURE = "Merkmal";
+    private static final String KEY_ASPEKT = "Aspekt";
     private static final String KEY_RANGE = "Reichweite";
     private static final String KEY_REMARK = "Anmerkung";
     private static final String KEY_TARGET_CATEGORY = "Zielkategorie";
@@ -34,10 +36,12 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final String KEY_COST_KAP = "KaP-Kosten";
     private static final String KEY_COMMONNESS = "Verbreitung";
     private static final String KEY_ADVANCEMENT_CATEGORY = "Steigerungsfaktor";
+    private static final String KEY_VARIANTS = "Zaubererweiterungen";
 
     private static final String[] KEYS = {
         KEY_DURATION,
-        KEY_FAETURE,
+        KEY_FEATURE,
+        KEY_ASPEKT,
         KEY_RANGE,
         KEY_REMARK,
         KEY_TARGET_CATEGORY,
@@ -51,13 +55,14 @@ public abstract class DsaConverter<T extends DsaObjectI>
         KEY_COST_KAP,
         KEY_COMMONNESS,
         KEY_ADVANCEMENT_CATEGORY,
+        KEY_VARIANTS
     };
 
     private static void applyFlagsForKey(AtomicConverterFlag flags, String text)
     {
         flags.wasName.set(false);
         flags.wasDuration.set(text.trim().equals(KEY_DURATION));
-        flags.wasFeature.set(text.trim().equals(KEY_FAETURE));
+        flags.wasFeature.set(text.trim().equals(KEY_FEATURE) || text.trim().equals(KEY_ASPEKT));
         flags.wasRange.set(text.trim().equals(KEY_RANGE));
         flags.wasRemarks.set(text.trim().equals(KEY_REMARK));
         flags.wasTargetCategory.set(text.trim().equals(KEY_TARGET_CATEGORY));
@@ -70,11 +75,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
         flags.wasCost.set(text.trim().equals(KEY_COST_APS) || text.trim().equals(KEY_COST_KAP));
         flags.wasCommonness.set(text.trim().equals(KEY_COMMONNESS));
         flags.wasAdvancementCategory.set(text.trim().equals(KEY_ADVANCEMENT_CATEGORY));
-    }
-
-    private static boolean validateIsStarted(TextWithMetaInfo t, TopicConfiguration conf)
-    {
-        return t.size == conf.startSize && t.text.trim().equals(conf.startContent);
+        flags.wasVariants.set(text.trim().equals(KEY_VARIANTS));
     }
 
     protected static String concatForDataValue(String origin, String newValue)
@@ -110,11 +111,6 @@ public abstract class DsaConverter<T extends DsaObjectI>
         return t.size == conf.nameSize;
     }
 
-    private static boolean validateIsFinished(TextWithMetaInfo t, TopicConfiguration conf)
-    {
-        return t.size == conf.endSize
-            && t.text.trim().equals(conf.endContent);
-    }
 
     private static boolean isNumeric(String strNum)
     {
@@ -131,23 +127,51 @@ public abstract class DsaConverter<T extends DsaObjectI>
         LOGGER.debug("parse  result to " + initializeType().getClass().getName());
         AtomicConverterFlag flags = new AtomicConverterFlag();
 
+        AtomicInteger lineOnPage = new AtomicInteger(0);
+        AtomicInteger lastPage = new AtomicInteger(0);
         resultList
             .forEach(t -> {
+                // if Page is changed, reset the line count
+                if (lastPage.get() != t.onPage)
+                {
+                    lastPage.set(t.onPage);
+                    lineOnPage.set(0);
+                }
+                lineOnPage.incrementAndGet();
+
+                // handle line if it config was not finished
                 if (!flags.wasFinished.get())
                 {
 
-                    boolean isStarted = validateIsStarted(t, conf);
-                    boolean isFinished = validateIsFinished(t, conf);
+                    // determine if current line is the start after which configuration gets interpreted
+                    boolean isStarted = t.onPage >= conf.startPage && (
+                        conf.startAfterLine <= 0 || (lineOnPage.get() >= conf.startAfterLine)
+                    );
 
+                    // determine if current line is the last line for which configuration gets interpreted
+                    boolean isFinished = t.onPage >= conf.endPage && (
+                        conf.endAfterLine > 0 && (lineOnPage.get() > conf.endAfterLine)
+                    );
+
+                    // as long as it was started and is not finished
                     if (flags.wasStarted.get() && !isFinished)
                     {
+                        // validate the flags for conf
                         boolean isName = validateIsName(t, conf);
-                        boolean isNameSkipped = isName && isNumeric(t.text);
+                        boolean isNameSkipped = isName && isNumeric(t.text); // gets skipped, when the name is a number (Page Number in some documents)
                         boolean isDataKey = validateIsDataKey(t, conf);
                         boolean isDataValue = validateIsDataValue(t, conf);
+                        boolean isVariant = validateIsVariant(t, flags);
 
+                        // handle new variant, find out which one.
+                        // assemble text and assign to right one
+                        // turn over to next
+                        // do a good finish
+
+                        // validate the QS flags, they act differently, because they are also part of the effect
                         handleWasQsValues(flags, t);
 
+                        // handle name
                         if (isName && !isNameSkipped)
                         {
                             returnValue.add(initializeType());
@@ -155,16 +179,20 @@ public abstract class DsaConverter<T extends DsaObjectI>
                             last(returnValue).setName(t.text.trim());
                             last(returnValue).setTopic(conf.topic);
                         }
+
+                        // handle keys
                         if (isDataKey)
                         {
                             applyFlagsForKey(flags, t.text);
                         }
 
+                        // handle values
                         if (isDataValue)
                         {
                             applyDataValue(last(returnValue), t, flags);
                             applyFlagsForQs(flags, t.text);
                         }
+
                         if (isName)
                         {
                             flags.wasName.set(true);
@@ -178,6 +206,11 @@ public abstract class DsaConverter<T extends DsaObjectI>
                 }
             });
         return returnValue;
+    }
+
+    protected boolean validateIsVariant(TextWithMetaInfo t, AtomicConverterFlag flags)
+    {
+        return flags.wasVariants.get() && t.isItalic;
     }
 
     private void applyFlagsForQs(AtomicConverterFlag flags, String text)

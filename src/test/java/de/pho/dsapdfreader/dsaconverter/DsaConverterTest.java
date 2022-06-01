@@ -24,10 +24,8 @@ class DsaConverterTest
         c.topic = TopicEnum.BLESSINGS;
         c.dataSize = 1100;
         c.nameSize = 1300;
-        c.startSize = 1600;
-        c.startContent = "START";
-        c.endSize = 1000;
-        c.endContent = "END";
+        c.startAfterLine = 1;
+        c.endAfterLine = 4;
         List<MysticalSkillSmall> result = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(r, c);
         assertEquals(1, result.size());
         assertEquals("Name", result.get(0).name);
@@ -61,7 +59,8 @@ class DsaConverterTest
             true,
             false,
             1600,
-            "PDTrueTypeFont STCRBN+GentiumBasic-Bold"
+            "PDTrueTypeFont STCRBN+GentiumBasic-Bold",
+            1
         );
 
         TextWithMetaInfo l1 = new TextWithMetaInfo(
@@ -69,35 +68,40 @@ class DsaConverterTest
             true,
             false,
             1300,
-            "PDTrueTypeFont STCRBN+GentiumBasic-Bold"
+            "PDTrueTypeFont STCRBN+GentiumBasic-Bold",
+            1
         );
         TextWithMetaInfo l2 = new TextWithMetaInfo(
             " Text 1 ",
             false,
             false,
             1000,
-            "PDTrueTypeFont CICZLT+GentiumBasic"
+            "PDTrueTypeFont CICZLT+GentiumBasic",
+            2
         );
         TextWithMetaInfo l3 = new TextWithMetaInfo(
             " Text 2 ",
             false,
             false,
             1000,
-            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic"
+            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
+            2
         );
         TextWithMetaInfo l4 = new TextWithMetaInfo(
             "END",
             false,
             false,
             1000,
-            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic"
+            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
+            2
         );
         TextWithMetaInfo l5 = new TextWithMetaInfo(
             "Text der nicht erscheinen darf",
             false,
             false,
             1000,
-            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic"
+            "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
+            3
         );
         returnValue.add(l0);
         returnValue.add(l1);

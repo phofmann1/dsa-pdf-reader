@@ -21,17 +21,13 @@ public class TopicConfiguration
     @CsvBindByName
     public int endPage;
     @CsvBindByName
-    public int startSize;
-    @CsvBindByName
-    public String startContent;
+    public int startAfterLine;
     @CsvBindByName
     public int nameSize;
     @CsvBindByName
     public int dataSize;
     @CsvBindByName
-    public int endSize;
-    @CsvBindByName
-    public String endContent;
+    public int endAfterLine;
     @CsvBindByName
     public String strategyMapping;
 
@@ -50,12 +46,10 @@ public class TopicConfiguration
             ", topic='" + topic + '\'' +
             ", startPage=" + startPage +
             ", endPage=" + endPage +
-            ", startSize=" + startSize +
-            ", startContent='" + startContent + '\'' +
+            ", startLine=" + startAfterLine +
             ", nameSize=" + nameSize +
             ", dataSize=" + dataSize +
-            ", endSize=" + endSize +
-            ", endContent='" + endContent + '\'' +
+            ", endLine=" + endAfterLine +
             '}';
     }
 

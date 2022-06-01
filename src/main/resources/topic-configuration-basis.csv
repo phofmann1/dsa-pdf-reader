@@ -1,7 +1,0 @@
-active;publication;path;pdfName;topic;startPage;endPage;startSize;startContent;nameSize;dataSize;endSize;endContent;strategyMapping
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;TRICKS;289;290;1000;Zaubertricks können nicht modifiziert werden.;1300;1100;1800;Zaubersprüche;
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;BLESSINGS;325;327;1000;In der einen oder anderen Form können Segnungen in fast allen Kirchen oder Kulten erlernt werden, auch wenn sie leicht abweichende Wirkungen haben. Deshalb sind alle Segnungen mit der Verbreitung allgemein versehen.;1300;1100;1300;Bann der Furcht;
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;303;1000;vorgestellten Aussagen zu Fertigkeiten und die in diesem Kapitel erläuterten Regeln zu Zaubern.;1300;1100;1800;Rituale;topic-mapping-base-spells.xml
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RITUALS;303;304;1800;Rituale;1300;1100;;;
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;334;1000;allgemein;1300;1100;1800;Zeremonien;topic-mapping-base-liturigies.xml
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;336;1800;Zeremonien;1300;1100;;;

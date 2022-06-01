@@ -16,6 +16,7 @@ public class MysticalSkillMedium extends MysticalSkillSmall
     public String qs4;
     public String qs5;
     public String qs6;
+    public String furtherInformation;
     public String[] variants;
 
     @Override
@@ -37,6 +38,7 @@ public class MysticalSkillMedium extends MysticalSkillSmall
             ", commonness='" + commonness + '\'' +
             ", advancementCategory='" + advancementCategory + '\'' +
             ", variants=" + Arrays.toString(variants) +
+            ", furtherInformation='" + furtherInformation + '\'' +
             '}';
     }
 }

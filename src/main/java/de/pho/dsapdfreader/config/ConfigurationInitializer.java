@@ -26,7 +26,7 @@ public class ConfigurationInitializer
 
         try
         {
-            URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-configuration.csv");
+            URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf.csv");
 
             Reader reader = Files.newBufferedReader(Path.of(url.toURI()));
             CsvToBean cb = new CsvToBeanBuilder(reader)

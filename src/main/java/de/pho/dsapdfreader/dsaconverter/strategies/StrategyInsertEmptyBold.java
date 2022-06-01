@@ -13,7 +13,7 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
     private static final String INSERT_AFTER = "insertAfterLineNo";
 
     @Override
-    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters)
+    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
     {
         try
         {
@@ -25,6 +25,7 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
             resultsByPage.forEach((k, v) -> {
                 if (k.intValue() == applyToPage)
                 {
+                    logApplicationOfStrategy(description);
                     returnValue.put(k, applyStrategyToPage(v, insertAfter));
                 } else returnValue.put(k, v);
             });
@@ -36,9 +37,10 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
         return resultsByPage;
     }
 
+
     private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int insertAfter)
     {
-        TextWithMetaInfo emptyBoldLine = new TextWithMetaInfo("", true, false, 1, "");
+        TextWithMetaInfo emptyBoldLine = new TextWithMetaInfo("Wirkung", true, false, 1, "", textList.get(insertAfter).onPage);
         textList.add(insertAfter, emptyBoldLine);
         return textList;
     }

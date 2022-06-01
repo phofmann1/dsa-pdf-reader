@@ -1,0 +1,7 @@
+active;publication;path;pdfName;topic;startPage;startAfterLine;endPage;endAfterLine;nameSize;dataSize;strategyMapping
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;TRICKS;289;9;290;68;1300;1100;
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;74;303;23;1300;1100;topic-mapping-base.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RITUALS;303;24;304;28;1300;1100;topic-mapping-base.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;BLESSINGS;325;10;327;10;1300;1100;
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;10;334;87;1300;1100;topic-mapping-base.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;

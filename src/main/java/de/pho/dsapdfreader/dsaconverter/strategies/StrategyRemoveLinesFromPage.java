@@ -8,10 +8,10 @@ import de.pho.dsapdfreader.config.generated.topicstrategymapping.Parameter;
 import de.pho.dsapdfreader.dsaconverter.exceptions.DsaConverterException;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class StrategySplitLineAfterPosition extends DsaConverterStrategy
+public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
 {
-    private static final String SPLIT_LINE = "splitLine";
-    private static final String SPLIT_AFTER_POSITION = "splitAfterPosition";
+    private static final String FROM_LINE = "fromLine";
+    private static final String UNTIL_LINE = "untilLine";
 
     @Override
     public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
@@ -19,8 +19,8 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
         try
         {
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int splitLine = super.extractParameterInt(parameters, SPLIT_LINE);
-            int splitAfterPosition = super.extractParameterInt(parameters, SPLIT_AFTER_POSITION);
+            int fromLine = extractParameterInt(parameters, FROM_LINE);
+            int untilLine = extractOptionalParameterInt(parameters, UNTIL_LINE);
 
             Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
 
@@ -28,10 +28,9 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
                 if (k.intValue() == applyToPage)
                 {
                     logApplicationOfStrategy(description);
-                    returnValue.put(k, applyStrategyToPage(v, splitLine, splitAfterPosition));
+                    returnValue.put(k, applyStrategyToPage(v, fromLine, untilLine));
                 } else returnValue.put(k, v);
             });
-
             return returnValue;
         } catch (DsaConverterException e)
         {
@@ -40,22 +39,10 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
         return resultsByPage;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int splitLine, int splitAfterPosition)
+    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int fromLine, int untilLine)
     {
-        TextWithMetaInfo lineToSplit = textList.get(splitLine - 1);
-
-        String newLineText = lineToSplit.text.substring(splitAfterPosition);
-        TextWithMetaInfo newLine = new TextWithMetaInfo(
-            newLineText,
-            lineToSplit.isBold,
-            lineToSplit.isItalic,
-            lineToSplit.size,
-            lineToSplit.font,
-            lineToSplit.onPage
-        );
-
-        lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition);
-        textList.add(splitLine, newLine);
+        int endLine = untilLine > fromLine ? untilLine : textList.size();
+        textList.subList(fromLine - 1, endLine).clear();
         return textList;
     }
 }

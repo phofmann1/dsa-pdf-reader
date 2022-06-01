@@ -17,7 +17,19 @@ public abstract class DsaConverterStrategy
 
     private final Logger LOGGER = LogManager.getLogger();
 
-    public abstract Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters);
+    public abstract Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description);
+
+    protected int extractOptionalParameterInt(List<Parameter> parameterMap, String parameterName)
+    {
+        try
+        {
+            return extractParameterInt(parameterMap, parameterName);
+        } catch (DsaConverterException e)
+        {
+            LOGGER.info("Optional parameter <" + parameterName + "> was not set. Default <-1> is returned");
+        }
+        return -1;
+    }
 
     protected int extractParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
     {
@@ -56,5 +68,10 @@ public abstract class DsaConverterStrategy
     {
         LOGGER.error("Strategy[" + this.getClass().getName() + "] not applied");
         LOGGER.error(e.getMessage(), e);
+    }
+
+    protected void logApplicationOfStrategy(String description)
+    {
+        LOGGER.debug("Applying strategy: " + description);
     }
 }

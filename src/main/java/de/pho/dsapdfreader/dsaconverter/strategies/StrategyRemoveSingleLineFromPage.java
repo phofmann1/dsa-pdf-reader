@@ -8,10 +8,9 @@ import de.pho.dsapdfreader.config.generated.topicstrategymapping.Parameter;
 import de.pho.dsapdfreader.dsaconverter.exceptions.DsaConverterException;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class StrategySplitLineAfterPosition extends DsaConverterStrategy
+public class StrategyRemoveSingleLineFromPage extends DsaConverterStrategy
 {
-    private static final String SPLIT_LINE = "splitLine";
-    private static final String SPLIT_AFTER_POSITION = "splitAfterPosition";
+    private static final String LINE_NO = "lineNo";
 
     @Override
     public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
@@ -19,8 +18,7 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
         try
         {
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int splitLine = super.extractParameterInt(parameters, SPLIT_LINE);
-            int splitAfterPosition = super.extractParameterInt(parameters, SPLIT_AFTER_POSITION);
+            int lineNo = extractParameterInt(parameters, LINE_NO);
 
             Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
 
@@ -28,10 +26,9 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
                 if (k.intValue() == applyToPage)
                 {
                     logApplicationOfStrategy(description);
-                    returnValue.put(k, applyStrategyToPage(v, splitLine, splitAfterPosition));
+                    returnValue.put(k, applyStrategyToPage(v, lineNo));
                 } else returnValue.put(k, v);
             });
-
             return returnValue;
         } catch (DsaConverterException e)
         {
@@ -40,22 +37,9 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
         return resultsByPage;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int splitLine, int splitAfterPosition)
+    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int lineNo)
     {
-        TextWithMetaInfo lineToSplit = textList.get(splitLine - 1);
-
-        String newLineText = lineToSplit.text.substring(splitAfterPosition);
-        TextWithMetaInfo newLine = new TextWithMetaInfo(
-            newLineText,
-            lineToSplit.isBold,
-            lineToSplit.isItalic,
-            lineToSplit.size,
-            lineToSplit.font,
-            lineToSplit.onPage
-        );
-
-        lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition);
-        textList.add(splitLine, newLine);
+        textList.remove(lineNo - 1);
         return textList;
     }
 }

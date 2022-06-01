@@ -15,7 +15,7 @@ public class StrategyPutToEndOfPage extends DsaConverterStrategy
     private static final String END_ENTRY_LINE_NO = "endEntryLineNo";
 
     @Override
-    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters)
+    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
     {
         try
         {
@@ -28,6 +28,7 @@ public class StrategyPutToEndOfPage extends DsaConverterStrategy
             resultsByPage.forEach((k, v) -> {
                 if (k.intValue() == applyToPage)
                 {
+                    logApplicationOfStrategy(description);
                     returnValue.put(k, applyStrategyToPage(v, startEntryLineNo, endEntryLineNo));
                 } else returnValue.put(k, v);
             });
