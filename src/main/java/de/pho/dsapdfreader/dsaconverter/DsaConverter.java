@@ -98,12 +98,12 @@ public abstract class DsaConverter<T extends DsaObjectI>
 
     private static boolean validateIsDataValue(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && !Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
+        return t.size == conf.dataSize && !Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
     }
 
     private static boolean validateIsDataKey(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
+        return t.size == conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
     }
 
     private static boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf)
@@ -174,10 +174,16 @@ public abstract class DsaConverter<T extends DsaObjectI>
                         // handle name
                         if (isName && !isNameSkipped)
                         {
-                            returnValue.add(initializeType());
-                            flags.initDataFlags();
-                            last(returnValue).setName(t.text.trim());
-                            last(returnValue).setTopic(conf.topic);
+                            if (!flags.wasName.get())
+                            {
+                                T newEntry = initializeType();
+                                flags.initDataFlags();
+                                newEntry.setTopic(conf.topic);
+                                returnValue.add(newEntry);
+                            }
+
+                            last(returnValue).setName(concatForDataValue(last(returnValue).getName(), t.text.trim()));
+
                         }
 
                         // handle keys
@@ -193,10 +199,8 @@ public abstract class DsaConverter<T extends DsaObjectI>
                             applyFlagsForQs(flags, t.text);
                         }
 
-                        if (isName)
-                        {
-                            flags.wasName.set(true);
-                        }
+                        flags.wasName.set(isName && !isNameSkipped);
+
                     }
                     if (!flags.wasStarted.get())
                     {

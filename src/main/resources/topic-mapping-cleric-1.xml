@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove Ratte from Page 126" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>126</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>43</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Schakal from Page 127" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>62</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>133</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Box from Page 128" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>128</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>190</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Split effect of Herbeirufung from poison on page 128">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>128</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>183</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Vampirfledermäuse and Wolfsspinnen from Page 128" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>128</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>183</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

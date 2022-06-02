@@ -24,6 +24,11 @@ public class AtomicConverterFlag
     public AtomicBoolean wasQs4;
     public AtomicBoolean wasQs5;
     public AtomicBoolean wasQs6;
+    public AtomicBoolean wasFurtherInformation;
+    public AtomicBoolean wasVariants;
+    public AtomicBoolean wasVariant1;
+    public AtomicBoolean wasVariant2;
+    public AtomicBoolean wasVariant3;
 
     public AtomicConverterFlag()
     {
@@ -52,5 +57,10 @@ public class AtomicConverterFlag
         this.wasQs4 = new AtomicBoolean(false);
         this.wasQs5 = new AtomicBoolean(false);
         this.wasQs6 = new AtomicBoolean(false);
+        this.wasFurtherInformation = new AtomicBoolean(false);
+        this.wasVariants = new AtomicBoolean(false);
+        this.wasVariant1 = new AtomicBoolean(false);
+        this.wasVariant2 = new AtomicBoolean(false);
+        this.wasVariant3 = new AtomicBoolean(false);
     }
 }
