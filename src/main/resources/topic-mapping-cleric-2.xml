@@ -15,7 +15,7 @@
         </params>
     </strategy>
     <strategy name="Remove Hund from Page 101" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
@@ -28,7 +28,7 @@
         </params>
     </strategy>
     <strategy name="Remove Sonnenluchs from Page 104" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>

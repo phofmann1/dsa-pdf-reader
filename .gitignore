@@ -2,3 +2,4 @@
 /target/
 /log/
 /src/main/resources/pdf_lib/*
+/exports/*

@@ -31,6 +31,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final String KEY_CASTING_DURATION_SPELL = "Zauberdauer";
     private static final String KEY_CASTING_DURATION_RITUAL = "Ritualdauer";
     private static final String KEY_CASTING_DURATION_LITURGY = "Liturgiedauer";
+    private static final String KEY_CASTING_DURATION_LITURGY_TYPO_1 = "Liturgiedauerdauer";
     private static final String KEY_CASTING_DURATION_CEREMONY = "Zeremoniedauer";
     private static final String KEY_COST_APS = "AsP-Kosten";
     private static final String KEY_COST_KAP = "KaP-Kosten";
@@ -50,6 +51,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
         KEY_CASTING_DURATION_SPELL,
         KEY_CASTING_DURATION_RITUAL,
         KEY_CASTING_DURATION_LITURGY,
+        KEY_CASTING_DURATION_LITURGY_TYPO_1,
         KEY_CASTING_DURATION_CEREMONY,
         KEY_COST_APS,
         KEY_COST_KAP,
@@ -71,6 +73,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
         flags.wasCastingDuration.set(text.trim().equals(KEY_CASTING_DURATION_SPELL)
             || text.trim().equals(KEY_CASTING_DURATION_RITUAL)
             || text.trim().equals(KEY_CASTING_DURATION_LITURGY)
+            || text.trim().equals(KEY_CASTING_DURATION_LITURGY_TYPO_1)
             || text.trim().equals(KEY_CASTING_DURATION_CEREMONY));
         flags.wasCost.set(text.trim().equals(KEY_COST_APS) || text.trim().equals(KEY_COST_KAP));
         flags.wasCommonness.set(text.trim().equals(KEY_COMMONNESS));
@@ -98,12 +101,12 @@ public abstract class DsaConverter<T extends DsaObjectI>
 
     private static boolean validateIsDataValue(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size == conf.dataSize && !Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
+        return t.size <= conf.dataSize && Arrays.stream(KEYS).noneMatch(k -> k.equals(t.text.trim()));
     }
 
     private static boolean validateIsDataKey(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size == conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
+        return t.size <= conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
     }
 
     private static boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf)
