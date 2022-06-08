@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
-import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillSmall;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 
@@ -26,7 +26,7 @@ class DsaConverterTest
         c.nameSize = 1300;
         c.startAfterLine = 1;
         c.endAfterLine = 4;
-        List<MysticalSkillSmall> result = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(r, c);
+        List<MysticalSkillRaw> result = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(r, c);
         assertEquals(1, result.size());
         assertEquals("Name", result.get(0).name);
         assertEquals("Text 1 Text 2", result.get(0).description);

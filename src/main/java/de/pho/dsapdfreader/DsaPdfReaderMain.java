@@ -1,12 +1,16 @@
 package de.pho.dsapdfreader;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.nio.file.InvalidPathException;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -24,21 +28,24 @@ import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillMedium;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillSmall;
-import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillMedium;
-import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillSmall;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
+import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
+import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
+import de.pho.dsapdfreader.tools.csv.CsvHandler;
 
 public class DsaPdfReaderMain
 {
 
     private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
+    private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\target\\export\\";
+    private static final String FILE_RAW_MYSTICAL_SKILLS = PATH_BASE + "raw_mystical_skills.csv";
+    private static final String FILE_ANALYSE_PDF_TEXT = PATH_BASE + "<publication>_analyse.csv";
+
     private static List<TopicConfiguration> configs = null;
     private static final Logger LOGGER = LogManager.getLogger();
-    private static final Logger LOGGER_ANALYSE = LogManager.getLogger("analyseLogger");
-    private static final Logger LOGGER_FILE_MS_SMALL = LogManager.getLogger("exportLoggerMsSmall");
-    private static final Logger LOGGER_FILE_MS_MEDIUM = LogManager.getLogger("exportLoggerMsMedium");
 
     public static void main(String[] args)
     {
@@ -46,16 +53,74 @@ public class DsaPdfReaderMain
         LOGGER.debug("start");
         Instant start = Instant.now();
 
+        boolean isParse = Arrays.asList(args).contains("parse");
+        boolean isConvertRaws = Arrays.asList(args).contains("convertRaw");
+
+        isParse = isParse || !(isParse || isConvertRaws);
+        isConvertRaws = isConvertRaws || !(isParse || isConvertRaws);
+
+        if (isParse) parsePdfs();
+        if (isConvertRaws) convertRaws();
+
+        Instant end = Instant.now();
+        Duration timeElapsed = Duration.between(start, end);
+
+        LOGGER.debug(timeElapsed.toString()
+            .substring(2)
+            .replaceAll("(\\d[HMS])(?!$)", "$1 ")
+            .toLowerCase());
+
+        LOGGER.debug("----------------------------------");
+        LOGGER.debug("finish");
+        LOGGER.debug("----------------------------------");
+
+    }
+
+    private static void convertRaws()
+    {
+        File rawMysticalSkillsFile = new File(FILE_RAW_MYSTICAL_SKILLS);
+
+        if (rawMysticalSkillsFile.exists() && !rawMysticalSkillsFile.isDirectory())
+        {
+            List<MysticalSkillRaw> rawMysticalSkills = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, rawMysticalSkillsFile);
+            List<MysticalSkill> mysticalSkills = rawMysticalSkills.stream().map(msm -> LoadToMysticalSkill.migrate(msm)).collect(Collectors.toList());
+        }
+
+    }
+
+    private static String readFile(String file) throws IOException
+    {
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        String line = null;
+        StringBuilder stringBuilder = new StringBuilder();
+        String ls = System.getProperty("line.separator");
+
+        try
+        {
+            while ((line = reader.readLine()) != null)
+            {
+                stringBuilder.append(line);
+                stringBuilder.append(ls);
+            }
+
+            return stringBuilder.toString();
+        } finally
+        {
+            reader.close();
+        }
+    }
+
+    private static void parsePdfs()
+    {
         LOGGER.debug("init config");
         initConfig();
-        LOGGER_FILE_MS_SMALL.info("publication;name;topic;duration;range;targetCategory;feature;description");
-        LOGGER_FILE_MS_MEDIUM.info("publication;name;check;topic;castingDuration;duration;range;targetCategory;cost;commonness;feature;remarks;advancementCategory;description;effect;QS 1;QS 2;QS 3;QS 4;QS 5;QS 6;additionl infos");
+        LOGGER.debug("----------------------------------");
 
+        List results = new ArrayList();
         configs.stream()
             .filter(c -> c != null && c.active)
             .forEach(conf -> {
-                LOGGER.debug("----------------------------------");
-                LOGGER.debug("Config verarbeiten: " + conf);
+                LOGGER.debug("Config verarbeiten: " + conf.publication + " (" + conf.topic + ")");
 
                 try
                 {
@@ -70,47 +135,47 @@ public class DsaPdfReaderMain
                         }
                         path = urlPdfLibInClassPath.getFile();
                     }
-                    LOGGER.debug("File einlesen: " + path + "/" + conf.pdfName);
                     File f = new File(path + "/" + conf.pdfName);
                     Map<Integer, List<TextWithMetaInfo>> resultListForPage = PdfReader.convertToText(f, conf);
 
                     LOGGER.debug("applyStrategies");
-
                     resultListForPage = applyStrategies(resultListForPage, conf);
 
-                    logAnalysisForPage(conf.publication, resultListForPage);
-
-
-                    LOGGER.debug("flatten map to list");
                     List<TextWithMetaInfo> resultList = resultListForPage.values().stream()
                         .map(e -> e.toArray(new TextWithMetaInfo[e.size()]))
                         .flatMap(Stream::of)
                         .collect(Collectors.toList());
 
-                    LOGGER.debug("remove lines with only - from list");
+                    LOGGER.debug("Log analysis fo publication <" + conf.publication + ">");
+                    logAnalysisForPublication(conf.publication, resultList);
+
+                    //cleanup list from "-"
                     resultList = resultList.stream().filter(t -> !t.text.trim().equals("-")).collect(Collectors.toList());
 
-                    parseResult(resultList, conf);
+                    LOGGER.debug("parse results to raw");
+                    results.addAll(parseResult(resultList, conf));
 
                 } catch (IOException | NullPointerException e)
                 {
                     LOGGER.error(e.getMessage(), e);
                 }
-
-                LOGGER.debug("----------------------------------");
+                LOGGER.debug("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             });
-        Instant end = Instant.now();
-        Duration timeElapsed = Duration.between(start, end);
 
-        LOGGER.debug(timeElapsed.toString()
-            .substring(2)
-            .replaceAll("(\\d[HMS])(?!$)", "$1 ")
-            .toLowerCase());
 
-        LOGGER.debug("----------------------------------");
-        LOGGER.debug("finish");
-        LOGGER.debug("----------------------------------");
+        LOGGER.debug("write results to File by type");
+        writeCsvFilesByType(results);
+    }
 
+    private static void writeCsvFilesByType(List<Object> results)
+    {
+        List<MysticalSkillRaw> rawMysticalSkills = results.stream()
+            .filter(MysticalSkillRaw.class::isInstance)
+            .map(MysticalSkillRaw.class::cast)
+            .collect(Collectors.toList());
+
+        File output = new File(FILE_RAW_MYSTICAL_SKILLS);
+        CsvHandler.writeBeanToUrl(output, rawMysticalSkills);
     }
 
     private static Map<Integer, List<TextWithMetaInfo>> applyStrategies(Map<Integer, List<TextWithMetaInfo>> resultListForPage, TopicConfiguration conf)
@@ -173,96 +238,29 @@ public class DsaPdfReaderMain
         configs = ConfigurationInitializer.readTopicConfigurations();
     }
 
-    private static void parseResult(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
+    private static List parseResult(List<TextWithMetaInfo> texts, TopicConfiguration conf)
     {
         if (conf.topic == null)
         {
             LOGGER.error("Das Topic in der Konfiguration konnte nicht interpretiert werden oder ist nicht gesetzt.");
         }
+
+        List results = null;
         switch (conf.topic)
         {
-            case BLESSINGS, TRICKS -> logMsSmallList(new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(resultList, conf), conf.publication);
-            case SPELLS, LITURGIES, RITUALS, CEREMONIES -> logMsMediumList(new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(resultList, conf), conf.publication);
+            case BLESSINGS, TRICKS -> results = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(texts, conf);
+            case SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(texts, conf);
             default -> LOGGER.error("Unexpected value: " + conf.topic);
         }
+        return results;
     }
 
-    private static void logMsMediumList(List<MysticalSkillMedium> msList, String publication)
+    private static void logAnalysisForPublication(String publication, List<TextWithMetaInfo> rawList)
     {
-        msList.forEach(t -> {
-            String msg = publication + ";" +
-                t.name + ";" +
-                t.check + ";" +
-                t.topic + ";" +
-                t.castingDuration + ";" +
-                t.duration + ";" +
-                t.range + ";" +
-                t.targetCategory + ";" +
-                t.cost + ";" +
-                t.commonness + ";" +
-                t.feature + ";" +
-                t.remarks + ";" +
-                t.advancementCategory + ";" +
-                t.description + ";" +
-                t.effect + ";" +
-                (t.qs1 == null ? "" : t.qs1) + ";" +
-                (t.qs2 == null ? "" : t.qs2) + ";" +
-                (t.qs3 == null ? "" : t.qs3) + ";" +
-                (t.qs4 == null ? "" : t.qs4) + ";" +
-                (t.qs5 == null ? "" : t.qs5) + ";" +
-                (t.qs6 == null ? "" : t.qs6) + ";" +
-                (t.furtherInformation == null ? "" : t.furtherInformation) +
-                "";
-            LOGGER_FILE_MS_MEDIUM.info(msg);
-        });
+        String fileName = FILE_ANALYSE_PDF_TEXT.replaceAll("<publication>", publication);
+        File output = new File(fileName);
+        CsvHandler.writeBeanToUrl(output, rawList);
     }
-
-    private static void logMsSmallList(List<MysticalSkillSmall> msList, String publication)
-    {
-        msList.forEach(t -> {
-            String msg = publication + ";" +
-                t.name + ";" +
-                t.topic + ";" +
-                t.duration + ";" +
-                t.range + ";" +
-                t.targetCategory + ";" +
-                t.feature + ";" +
-                t.description;
-            LOGGER_FILE_MS_SMALL.info(msg);
-
-        });
-
-    }
-
-    private static void logAnalysisForPage(String publication, Map<Integer, List<TextWithMetaInfo>> resultTextPerPage)
-    {
-        LOGGER_ANALYSE.info("publication;page;isBold;isItalic;size;font;text");
-        resultTextPerPage.forEach((k, v) -> logAnalysis(publication, v, k.intValue()));
-    }
-
-
-    private static void logAnalysis(String publication, List<TextWithMetaInfo> resultTexts, int... page)
-    {
-        String pageString = page == null ? "" : page[0] + ";";
-        if (page == null)
-            LOGGER_ANALYSE.info("publication;isBold;isItalic;size;font;text");
-
-        resultTexts.forEach(t -> LOGGER_ANALYSE.info(
-            publication + ";"
-                + pageString
-                + convertBooleanForExcel(t.isBold) + ";"
-                + convertBooleanForExcel(t.isItalic) + ";"
-                + t.size + ";"
-                + t.font + ";"
-                + t.text));
-    }
-
-
-    private static String convertBooleanForExcel(boolean b)
-    {
-        return b ? "WAHR" : "FALSCH";
-    }
-
 
 }
 

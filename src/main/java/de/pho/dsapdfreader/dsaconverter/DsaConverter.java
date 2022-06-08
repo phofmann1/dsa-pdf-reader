@@ -182,6 +182,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
                                 T newEntry = initializeType();
                                 flags.initDataFlags();
                                 newEntry.setTopic(conf.topic);
+                                newEntry.setPublication(conf.publication);
                                 returnValue.add(newEntry);
                             }
 

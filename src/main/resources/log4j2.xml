@@ -5,32 +5,15 @@
             <PatternLayout
                     pattern="%d [%t] %-5level %logger{36} - %msg%n%throwable"/>
         </Console>
-        <File name="FILE_EXPORT_MS_SMALL" fileName="target/export/mystical-skills-small.csv" append="false">
-            <PatternLayout>
-                <Pattern>%m%n</Pattern>
-            </PatternLayout>
-        </File>
-        <File name="FILE_EXPORT_MS_MEDIUM" fileName="target/export/mystical-skills.csv" append="false">
-            <PatternLayout>
-                <Pattern>%m%n</Pattern>
-            </PatternLayout>
-        </File>
-        <File name="FILE_ANALYSE" fileName="target/export/analyse.csv" append="false">
+        <File name="FILE_LOAD_ERRORS" fileName="target/export/load-errors.log" append="false">
             <PatternLayout>
                 <Pattern>%m%n</Pattern>
             </PatternLayout>
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="analyseLogger" level="DEBUG" additivity="false">
-            <AppenderRef ref="FILE_ANALYSE"/>
-        </Logger>
-        <Logger name="exportLoggerMsSmall" level="DEBUG" additivity="false">
-            <AppenderRef ref="FILE_EXPORT_MS_SMALL"/>
-        </Logger>
-
-        <Logger name="exportLoggerMsMedium" level="DEBUG" additivity="false">
-            <AppenderRef ref="FILE_EXPORT_MS_MEDIUM"/>
+        <Logger name="fileLoadErrors" level="DEBUG" additivity="false">
+            <AppenderRef ref="FILE_LOAD_ERRORS"/>
         </Logger>
         <Root level="DEBUG">
             <AppenderRef ref="ConsoleAppender"/>

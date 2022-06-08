@@ -1,13 +1,21 @@
 package de.pho.dsapdfreader.pdf.model;
 
+import com.opencsv.bean.CsvBindByName;
+
 public class TextWithMetaInfo
 {
-    public String text;
-    public boolean isBold;
-    public boolean isItalic;
-    public int size;
-    public String font;
+    @CsvBindByName
     public int onPage;
+    @CsvBindByName
+    public boolean isBold;
+    @CsvBindByName
+    public boolean isItalic;
+    @CsvBindByName
+    public int size;
+    @CsvBindByName
+    public String font;
+    @CsvBindByName
+    public String text;
 
     public TextWithMetaInfo(
         String text,

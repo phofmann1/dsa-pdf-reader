@@ -9,4 +9,6 @@ public interface DsaObjectI
     void setName(String name);
 
     void setTopic(TopicEnum topic);
+
+    void setPublication(String publication);
 }

@@ -4,21 +4,21 @@ package de.pho.dsapdfreader.dsaconverter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillMedium;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterMysticalSkillMedium extends DsaConverter<MysticalSkillMedium>
+public class DsaConverterMysticalSkillMedium extends DsaConverter<MysticalSkillRaw>
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
     @Override
-    protected MysticalSkillMedium initializeType()
+    protected MysticalSkillRaw initializeType()
     {
-        return new MysticalSkillMedium();
+        return new MysticalSkillRaw();
     }
 
     @Override
-    protected void applyDataValue(MysticalSkillMedium ms, TextWithMetaInfo t, AtomicConverterFlag flags)
+    protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, AtomicConverterFlag flags)
     {
         if (ms != null)
         {
