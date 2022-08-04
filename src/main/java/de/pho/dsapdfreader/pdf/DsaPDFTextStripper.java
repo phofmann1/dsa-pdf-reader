@@ -2,23 +2,22 @@ package de.pho.dsapdfreader.pdf;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaPDFTextStripper extends PDFTextStripper
 {
     private final String publication;
+    private final TopicEnum topic;
 
     public List<TextWithMetaInfo> resultTexts;
-    public Map<Integer, List<TextWithMetaInfo>> resultTextPerPage;
 
 
     /**
@@ -26,12 +25,12 @@ public class DsaPDFTextStripper extends PDFTextStripper
      *
      * @throws IOException If there is an error loading the properties.
      */
-    public DsaPDFTextStripper(String publication) throws IOException
+    public DsaPDFTextStripper(String publication, TopicEnum topic) throws IOException
     {
         super();
         this.publication = publication;
+        this.topic = topic;
         this.resultTexts = new ArrayList<>();
-        this.resultTextPerPage = new LinkedHashMap<>();
         // see https://pdfbox.apache.org/2.0/getting-started.html
         System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider");
     }
@@ -82,6 +81,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
         AtomicInteger wasSize = new AtomicInteger(0);
         StringBuilder wasFont = new StringBuilder();
 
+        AtomicInteger currentLine = new AtomicInteger(1);
         charactersByArticle.forEach(a -> a.forEach(tp -> {
 
             boolean isBold = tp.getFont().toString().contains("Bold") || tp.getFont().equals("PDType0Font/PDCIDFontType2, PostScript name: HPQTGU+GentiumBasic");
@@ -97,6 +97,7 @@ public class DsaPDFTextStripper extends PDFTextStripper
             if (boldChanged || italicChanged || sizeChanged || fontChanged)
             {
                 String text = b.toString();
+
                 if (!text.isEmpty())
                 {
                     text = wasBold.get()
@@ -110,7 +111,9 @@ public class DsaPDFTextStripper extends PDFTextStripper
                         wasItalic.get(),
                         wasSize.get(),
                         wasFont.toString(),
-                        this.getCurrentPageNo()
+                        this.getCurrentPageNo(),
+                        currentLine.getAndIncrement(),
+                        publication
                     ));
                 }
                 b.setLength(0);
@@ -126,7 +129,6 @@ public class DsaPDFTextStripper extends PDFTextStripper
             wasFont.append(font);
         }));
         this.resultTexts.addAll(localResultTexts);
-        this.resultTextPerPage.put(this.getCurrentPageNo(), localResultTexts);
     }
 
 }

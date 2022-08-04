@@ -1,20 +1,21 @@
 active;publication;path;pdfName;topic;startPage;startAfterLine;endPage;endAfterLine;nameSize;dataSize;strategyMapping
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;TRICKS;289;9;290;68;1300;1100;
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;74;303;23;1300;1100;topic-mapping-base.xml
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RITUALS;303;24;304;28;1300;1100;topic-mapping-base.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;TRICKS;289;9;290;68;1300;1100;topic-mapping-base-tricks.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPELLS;290;74;303;23;1300;1100;topic-mapping-base-spells.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RITUALS;303;24;304;48;1300;1100;topic-mapping-base-rituals.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CURSES;285;2;286;17;1300;1100;
 true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;BLESSINGS;325;10;327;10;1300;1100;
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;10;334;87;1300;1100;topic-mapping-base.xml
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;
-true;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;LITURGIES;112;9;141;84;1300;1100;topic-mapping-cleric-1.xml
-true;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;CEREMONIES;141;84;165;63;1300;1100;
-true;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;LITURGIES;76;15;92;44;1300;1100;topic-mapping-cleric-2.xml
-true;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;CEREMONIES;92;44;110;999;1300;1100;topic-mapping-cleric-2.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;10;334;87;1300;1100;topic-mapping-base-liturgies.xml
+true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;topic-mapping-base-ceremonies.xml
+true;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;LITURGIES;112;9;141;84;1300;1100;topic-mapping-cleric-1-liturgies.xml
+true;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;CEREMONIES;141;84;165;63;1300;1100;topic-mapping-cleric-1-ceremonies.xml
+true;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;LITURGIES;76;15;92;44;1300;1100;topic-mapping-cleric-2-liturgies.xml
+true;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;CEREMONIES;92;44;110;999;1300;1100;topic-mapping-cleric-2-ceremonies.xml
 true;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;TRICKS;113;1;115;49;1300;1100;
-true;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;SPELLS;115;50;149;;1300;1100;topic-mapping-magic-1.xml
-true;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;RITUALS;149;56;154;;1300;1100;topic-mapping-magic-1.xml
+true;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;SPELLS;115;50;149;;1300;1100;topic-mapping-magic-1-spells.xml
+true;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;RITUALS;149;56;154;;1300;1100;topic-mapping-magic-1-rituals.xml
 true;Magie_2;C:/privat/pdf.lib/import;Aventurische Magie II - 01 - Regeln.pdf;TRICKS;94;14;98;47;1300;1100;
-true;Magie_2;C:/privat/pdf.lib/import;Aventurische Magie II - 01 - Regeln.pdf;SPELLS;98;47;127;35;1300;1100;topic-mapping-magic-2.xml
+true;Magie_2;C:/privat/pdf.lib/import;Aventurische Magie II - 01 - Regeln.pdf;SPELLS;98;47;127;35;1300;1100;topic-mapping-magic-2-spells.xml
 true;Magie_2;C:/privat/pdf.lib/import;Aventurische Magie II - 01 - Regeln.pdf;RITUALS;127;35;140;990;1300;1100;
 true;Magie_3;C:/privat/pdf.lib/import;Aventurische Magie III - 01 - Regeln.pdf;TRICKS;124;12;127;37;1300;1100;
-true;Magie_3;C:/privat/pdf.lib/import;Aventurische Magie III - 01 - Regeln.pdf;SPELLS;127;37;140;990;1300;1100;topic-mapping-magic-3.xml
-true;Magie_3;C:/privat/pdf.lib/import;Aventurische Magie III - 01 - Regeln.pdf;RITUALS;141;1;145;999;1300;1100;topic-mapping-magic-3.xml
+true;Magie_3;C:/privat/pdf.lib/import;Aventurische Magie III - 01 - Regeln.pdf;SPELLS;127;37;140;990;1300;1100;topic-mapping-magic-3-spells.xml
+true;Magie_3;C:/privat/pdf.lib/import;Aventurische Magie III - 01 - Regeln.pdf;RITUALS;141;1;145;999;1300;1100;topic-mapping-magic-3-rituals.xml

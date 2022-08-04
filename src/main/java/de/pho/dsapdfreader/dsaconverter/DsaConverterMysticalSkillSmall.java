@@ -18,16 +18,17 @@ public class DsaConverterMysticalSkillSmall extends DsaConverter<MysticalSkillRa
     }
 
     @Override
-    protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, AtomicConverterFlag flags)
+    protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
     {
         if (ms != null)
         {
-            if (flags.wasName.get()) ms.description = concatForDataValue(ms.description, t.text);
-            if (flags.wasRange.get()) ms.range = concatForDataValue(ms.range, t.text);
-            if (flags.wasDuration.get()) ms.duration = concatForDataValue(ms.duration, t.text);
-            if (flags.wasFeature.get()) ms.feature = concatForDataValue(ms.feature, t.text);
-            if (flags.wasTargetCategory.get()) ms.targetCategory = concatForDataValue(ms.targetCategory, t.text);
-            if (flags.wasRemarks.get()) ms.remarks = concatForDataValue(ms.remarks, t.text);
+            if ((flags.wasName.get() || flags.wasDescription.get()) && !flags.wasVariants.get())
+                ms.description = concatForDataValue(ms.description, cleanText);
+            if (flags.wasRange.get()) ms.range = concatForDataValue(ms.range, cleanText);
+            if (flags.wasDuration.get()) ms.duration = concatForDataValue(ms.duration, cleanText);
+            if (flags.wasFeature.get()) ms.feature = concatForDataValue(ms.feature, cleanText);
+            if (flags.wasTargetCategory.get()) ms.targetCategory = concatForDataValue(ms.targetCategory, cleanText);
+            if (flags.wasRemarks.get()) ms.remarks = concatForDataValue(ms.remarks, cleanText);
         } else
         {
             LOGGER.error("ms was null: " + t);

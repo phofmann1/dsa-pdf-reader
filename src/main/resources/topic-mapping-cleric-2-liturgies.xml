@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove PageNo from Page 83" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>83</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>91</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove PageNo from Page 89" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>89</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>124</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

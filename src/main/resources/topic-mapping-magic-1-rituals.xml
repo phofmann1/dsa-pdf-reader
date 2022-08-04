@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Remove Wettertabelle from Page 151" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>151</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>70</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Switch content on page 151" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>151</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>40</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

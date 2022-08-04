@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Remove Box from Page 131" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>131</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>88</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Split text from QS6 Invinculo on page 134" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>134</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>57</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>26</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="End QS6 of Invinulo with bold line on page 134" index="10">
+        <strategyClass>StrategyInsertEmptyBold</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>134</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>57</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

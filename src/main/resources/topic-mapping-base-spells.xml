@@ -1,0 +1,90 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Split QS6 of duplicatus from effect on page 293" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>293</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>50</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>43</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove OdemArcanum Table from Page 299" index="2">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>98</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>110</value>
+            </parameter>
+
+        </params>
+    </strategy>
+    <strategy name="Split QS6 of odem arcanum from effect on page 299" index="4">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>78</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage on page 299" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>28</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>97</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="End QS6 of OdemArcanum with bold line page 299" index="5">
+        <strategyClass>StrategyInsertEmptyBold</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>299</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>insertSmall</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

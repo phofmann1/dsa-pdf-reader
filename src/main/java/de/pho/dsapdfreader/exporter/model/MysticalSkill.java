@@ -23,7 +23,7 @@ public class MysticalSkill
     public MysticalSkillModification[] allowedModifications;
     public TraditionKey[] traditions;
 
-    public MysticalSkillVariant[] spellVariants;
+    public List<MysticalSkillVariant> spellVariants;
 
     public Publication publication;
 

@@ -98,10 +98,6 @@
                 <key>fromLine</key>
                 <value>77</value>
             </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>133</value>
-            </parameter>
         </params>
     </strategy>
     <strategy name="Remove Box from Page 126" index="1">
@@ -182,7 +178,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="End QS6 of exliptifactus with bold line on page 126" index="2">
+    <strategy name="End QS6 of ecliptifactus with bold line on page 126" index="2">
         <strategyClass>StrategyInsertEmptyBold</strategyClass>
         <params>
             <parameter>
@@ -191,11 +187,11 @@
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>61</value>
+                <value>66</value>
             </parameter>
         </params>
     </strategy>
-    <strategy name="Remove Box from Page 129" index="1">
+    <strategy name="StrategyRemoveLinesFromPage (Box) from Page 129" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
@@ -304,6 +300,23 @@
             </parameter>
         </params>
     </strategy>
+    <strategy name="Remove boxes from Page 141" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>141</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>49</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="Switch content on page 141 - I" index="2">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -315,11 +328,11 @@
             </parameter>
             <parameter>
                 <key>startEntryLineNo</key>
-                <value>21</value>
+                <value>20.1</value>
             </parameter>
             <parameter>
                 <key>endEntryLineNo</key>
-                <value>46</value>
+                <value>40</value>
             </parameter>
         </params>
     </strategy>
@@ -334,11 +347,11 @@
             </parameter>
             <parameter>
                 <key>startEntryLineNo</key>
-                <value>43</value>
+                <value>68</value>
             </parameter>
             <parameter>
                 <key>endEntryLineNo</key>
-                <value>57</value>
+                <value>82</value>
             </parameter>
         </params>
     </strategy>
@@ -369,42 +382,6 @@
             <parameter>
                 <key>fromLine</key>
                 <value>74</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="Remove Wettertabelle from Page 151" index="1">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>151</value>
-            </parameter>
-            <parameter>
-                <key>fromLine</key>
-                <value>41</value>
-            </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>70</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="Switch content on page 151" index="2">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>151</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>1</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>40</value>
             </parameter>
         </params>
     </strategy>

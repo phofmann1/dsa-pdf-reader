@@ -33,7 +33,7 @@ public enum TraditionKey
     qabalya,
     rahja,
     rondra,
-    shaman,
+    shaman_all,
     illusionist,
     harlequin,
     swafnir,
@@ -42,5 +42,5 @@ public enum TraditionKey
     alchimist,
     dancer,
     zibilja,
-    brobim_geode
+    shaman_ferkina, shaman_fjarninger, shaman_gjalsker, shaman_moha, shaman_nivese, shaman_trollzacker, brobim_geode
 }

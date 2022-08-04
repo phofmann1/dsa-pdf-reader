@@ -1,0 +1,19 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove TablePart from Page 304" index="6">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>304</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>9</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>34</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

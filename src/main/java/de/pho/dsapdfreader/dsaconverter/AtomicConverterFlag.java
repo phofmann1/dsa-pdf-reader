@@ -6,6 +6,7 @@ public class AtomicConverterFlag
 {
     public AtomicBoolean wasStarted;
     public AtomicBoolean wasName;
+    public AtomicBoolean wasDescription;
     public AtomicBoolean wasFeature;
     public AtomicBoolean wasDuration;
     public AtomicBoolean wasRemarks;
@@ -26,9 +27,6 @@ public class AtomicConverterFlag
     public AtomicBoolean wasQs6;
     public AtomicBoolean wasFurtherInformation;
     public AtomicBoolean wasVariants;
-    public AtomicBoolean wasVariant1;
-    public AtomicBoolean wasVariant2;
-    public AtomicBoolean wasVariant3;
 
     public AtomicConverterFlag()
     {
@@ -40,6 +38,7 @@ public class AtomicConverterFlag
     public void initDataFlags()
     {
         this.wasName = new AtomicBoolean(false);
+        this.wasDescription = new AtomicBoolean(false);
         this.wasFeature = new AtomicBoolean(false);
         this.wasDuration = new AtomicBoolean(false);
         this.wasRemarks = new AtomicBoolean(false);
@@ -59,8 +58,5 @@ public class AtomicConverterFlag
         this.wasQs6 = new AtomicBoolean(false);
         this.wasFurtherInformation = new AtomicBoolean(false);
         this.wasVariants = new AtomicBoolean(false);
-        this.wasVariant1 = new AtomicBoolean(false);
-        this.wasVariant2 = new AtomicBoolean(false);
-        this.wasVariant3 = new AtomicBoolean(false);
     }
 }

@@ -1,10 +1,10 @@
 package de.pho.dsapdfreader.dsaconverter.model;
 
-import java.util.Arrays;
-
 import com.opencsv.bean.CsvBindByName;
+import com.opencsv.bean.CsvCustomBindByName;
 
 import de.pho.dsapdfreader.config.TopicEnum;
+import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
 
 public class MysticalSkillRaw implements DsaObjectI
 {
@@ -26,7 +26,6 @@ public class MysticalSkillRaw implements DsaObjectI
     public String remarks = "";
     @CsvBindByName
     public TopicEnum topic;
-
     @CsvBindByName
     public String check;
     @CsvBindByName
@@ -54,7 +53,17 @@ public class MysticalSkillRaw implements DsaObjectI
     @CsvBindByName
     public String furtherInformation;
     @CsvBindByName
-    public String[] variants;
+    public String variantsText;
+    @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
+    public MysticalSkillVariant variant1;
+    @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
+    public MysticalSkillVariant variant2;
+    @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
+    public MysticalSkillVariant variant3;
+    @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
+    public MysticalSkillVariant variant4;
+    @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
+    public MysticalSkillVariant variant5;
 
     @Override
     public String toString()
@@ -75,7 +84,11 @@ public class MysticalSkillRaw implements DsaObjectI
             ", publication=" + publication +
             ", commonness='" + commonness + '\'' +
             ", advancementCategory='" + advancementCategory + '\'' +
-            ", variants=" + Arrays.toString(variants) +
+            ", variant1=" + variant1 +
+            ", variant2=" + variant2 +
+            ", variant3=" + variant3 +
+            ", variant4=" + variant4 +
+            ", variant5=" + variant5 +
             ", furtherInformation='" + furtherInformation + '\'' +
             '}';
     }

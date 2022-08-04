@@ -1,10 +1,10 @@
 package de.pho.dsapdfreader.dsaconverter.strategies;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.Parameter;
 import de.pho.dsapdfreader.dsaconverter.exceptions.DsaConverterException;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
@@ -15,55 +15,49 @@ public class StrategyPutToEndOfPage extends DsaConverterStrategy
     private static final String END_ENTRY_LINE_NO = "endEntryLineNo";
 
     @Override
-    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
+    public List<TextWithMetaInfo> applyStrategy(List<TextWithMetaInfo> texts, List<Parameter> parameters, String description, String publication, TopicEnum topic)
     {
+        List<TextWithMetaInfo> returnValue = texts;
         try
         {
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int startEntryLineNo = super.extractParameterInt(parameters, START_ENTRY_LINE_NO);
-            int endEntryLineNo = super.extractParameterInt(parameters, END_ENTRY_LINE_NO);
+            double startEntryLineNo = super.extractParameterDouble(parameters, START_ENTRY_LINE_NO);
+            double endEntryLineNo = super.extractParameterDouble(parameters, END_ENTRY_LINE_NO);
 
-            Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
+            logApplicationOfStrategy(description);
+            List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
+            resultsByPage = applyStrategyToPage(resultsByPage, startEntryLineNo, endEntryLineNo);
 
-            resultsByPage.forEach((k, v) -> {
-                if (k.intValue() == applyToPage)
-                {
-                    logApplicationOfStrategy(description);
-                    returnValue.put(k, applyStrategyToPage(v, startEntryLineNo, endEntryLineNo));
-                } else returnValue.put(k, v);
-            });
+            returnValue = super.replacePage(texts, applyToPage, resultsByPage);
 
-            return returnValue;
         } catch (DsaConverterException e)
         {
             logException(e);
         }
-        return resultsByPage;
+        return returnValue;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int startLinNo, int endLineNo)
+    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double startLinNo, double endLineNo)
     {
         TextWithMetaInfo current;
 
-        List<TextWithMetaInfo> newList = new ArrayList<>();
-        List<TextWithMetaInfo> moveList = new ArrayList();
+        AtomicInteger order = new AtomicInteger(0);
+        List<TextWithMetaInfo> newList = textList.stream()
+            .filter(t -> t.onLine < startLinNo || t.onLine > endLineNo)
+            .map(t -> {
+                t.order = order.incrementAndGet();
+                return t;
+            })
+            .collect(Collectors.toList());
 
-        boolean started;
-        boolean stopped;
 
-        for (int i = 0; i < textList.size(); i++)
-        {
-            current = textList.get(i);
-            started = i >= startLinNo - 1;
-            stopped = i > endLineNo - 1;
-            if (!started || stopped)
-            {
-                newList.add(current);
-            } else
-            {
-                moveList.add(current);
-            }
-        }
+        List<TextWithMetaInfo> moveList = textList.stream()
+            .filter(t -> t.onLine >= startLinNo && t.onLine <= endLineNo)
+            .map(t -> {
+                t.order = order.incrementAndGet();
+                return t;
+            })
+            .collect(Collectors.toList());
 
         newList.addAll(moveList);
         return newList;

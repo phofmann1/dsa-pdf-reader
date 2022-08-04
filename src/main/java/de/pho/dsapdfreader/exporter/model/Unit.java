@@ -36,5 +36,5 @@ public enum Unit
     target_asp,
     area_of_effect,
     lep,
-    duplicate,
+    duplicate, combat_round, kg, meters_square,
 }

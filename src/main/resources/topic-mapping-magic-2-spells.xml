@@ -177,7 +177,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="Remove Serpentialisgift from Page 120" index="1">
+    <strategy name="Remove Seelentier und Serpentialisgift from Page 120" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
@@ -186,7 +186,7 @@
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>44</value>
+                <value>40</value>
             </parameter>
             <parameter>
                 <key>untilLine</key>
@@ -194,6 +194,60 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyPutToEndOfPage Serpentialis on page 120" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>39</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage Serpentialis Varianten on page 120" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>100</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>107</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove page Number from Page 120" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>108</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="Remove Hexenspinnen from Page 121" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>

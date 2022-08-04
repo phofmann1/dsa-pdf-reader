@@ -1,9 +1,9 @@
 package de.pho.dsapdfreader.dsaconverter.strategies;
 
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.stream.Collectors;
 
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.Parameter;
 import de.pho.dsapdfreader.dsaconverter.exceptions.DsaConverterException;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
@@ -14,35 +14,31 @@ public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
     private static final String UNTIL_LINE = "untilLine";
 
     @Override
-    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
+    public List<TextWithMetaInfo> applyStrategy(List<TextWithMetaInfo> texts, List<Parameter> parameters, String description, String publication, TopicEnum topic)
     {
+        List<TextWithMetaInfo> returnValue = texts;
         try
         {
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int fromLine = extractParameterInt(parameters, FROM_LINE);
-            int untilLine = extractOptionalParameterInt(parameters, UNTIL_LINE);
+            double fromLine = extractParameterDouble(parameters, FROM_LINE);
+            double untilLine = extractOptionalParameterDouble(parameters, UNTIL_LINE);
 
-            Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
+            logApplicationOfStrategy(description);
+            List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
+            resultsByPage = applyStrategyToPage(resultsByPage, fromLine, untilLine, description);
+            returnValue = replacePage(texts, applyToPage, resultsByPage);
 
-            resultsByPage.forEach((k, v) -> {
-                if (k.intValue() == applyToPage)
-                {
-                    logApplicationOfStrategy(description);
-                    returnValue.put(k, applyStrategyToPage(v, fromLine, untilLine));
-                } else returnValue.put(k, v);
-            });
-            return returnValue;
         } catch (DsaConverterException e)
         {
             logException(e);
         }
-        return resultsByPage;
+
+        return returnValue;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int fromLine, int untilLine)
+    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double fromLine, double untilLine, String d)
     {
-        int endLine = untilLine > fromLine ? untilLine : textList.size();
-        textList.subList(fromLine - 1, endLine).clear();
-        return textList;
+        double endLine = untilLine > fromLine ? untilLine : textList.size();
+        return textList.stream().filter(t -> t.onLine < fromLine || t.onLine > endLine).collect(Collectors.toList());
     }
 }

@@ -1,0 +1,19 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove Löwe from Page 335" index="12">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>335</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>56</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>108</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

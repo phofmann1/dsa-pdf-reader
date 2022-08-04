@@ -5,7 +5,16 @@ import com.opencsv.bean.CsvBindByName;
 public class TextWithMetaInfo
 {
     @CsvBindByName
+    public String publication;
+    @CsvBindByName
     public int onPage;
+
+    @CsvBindByName
+    public double onLine;
+
+    @CsvBindByName
+    public double order = -1;
+
     @CsvBindByName
     public boolean isBold;
     @CsvBindByName
@@ -17,13 +26,19 @@ public class TextWithMetaInfo
     @CsvBindByName
     public String text;
 
+    public TextWithMetaInfo()
+    {
+    }
+
     public TextWithMetaInfo(
         String text,
         boolean isBold,
         boolean isItalic,
         int size,
         String font,
-        int onPage
+        int onPage,
+        double onLine,
+        String publication
     )
     {
         this.text = text;
@@ -32,17 +47,14 @@ public class TextWithMetaInfo
         this.size = size;
         this.font = font;
         this.onPage = onPage;
+        this.onLine = onLine;
+        this.publication = publication;
     }
 
-    @Override
-    public String toString()
+    public double sortIndex()
     {
-        return "TextWithMetaInfo{" +
-            "text='" + text + '\'' +
-            ", isBold=" + isBold +
-            ", isItalic=" + isItalic +
-            ", size=" + size +
-            ", font='" + font + '\'' +
-            '}';
+        return onPage * 10000 + (order > 0
+            ? order
+            : onLine);
     }
 }

@@ -2,10 +2,7 @@ package de.pho.dsapdfreader.pdf;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +18,7 @@ public class PdfReader
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public static Map<Integer, List<TextWithMetaInfo>> convertToText(File f, TopicConfiguration conf) throws IOException
+    public static List<TextWithMetaInfo> convertToText(File f, TopicConfiguration conf) throws IOException
     {
         LOGGER.debug("init PDFParser");
         PDFParser parser = new PDFParser(new RandomAccessFile(f, "r"));
@@ -30,7 +27,7 @@ public class PdfReader
         LOGGER.debug("retrieve COSDocument");
         COSDocument cosDoc = parser.getDocument();
         LOGGER.debug("strip PDF");
-        DsaPDFTextStripper generalParser = new DsaPDFTextStripper(conf.publication);
+        DsaPDFTextStripper generalParser = new DsaPDFTextStripper(conf.publication, conf.topic);
         LOGGER.debug("generate PDDocument");
         PDDocument pdDoc = new PDDocument(cosDoc);
 
@@ -44,22 +41,6 @@ public class PdfReader
         pdDoc.close();
         cosDoc.close();
 
-        Map<Integer, List<TextWithMetaInfo>> returnValue = sortResultTextByPage(generalParser.resultTextPerPage);
-
-        return returnValue;
-    }
-
-    private static Map<Integer, List<TextWithMetaInfo>> sortResultTextByPage(Map<Integer, List<TextWithMetaInfo>> resultTextPerPage)
-    {
-        Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
-
-        List<Integer> sortedKeys = resultTextPerPage.keySet().stream().sorted().collect(Collectors.toList());
-
-        for (Integer key : sortedKeys)
-        {
-            returnValue.put(key, resultTextPerPage.get(key));
-        }
-
-        return returnValue;
+        return generalParser.resultTexts;
     }
 }

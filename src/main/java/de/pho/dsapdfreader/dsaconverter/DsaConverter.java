@@ -3,19 +3,26 @@ package de.pho.dsapdfreader.dsaconverter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.javatuples.Triplet;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.DsaObjectI;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public abstract class DsaConverter<T extends DsaObjectI>
 {
+
+    private static final String REGEX_TITLE_CHARS = "[a-z A-Z0-9äöüÄÖÜß!\\-,\\/\\.]";
+    private static final String KEY_VARIANT_SPELL = "Zaubererweiterungen";
+    private static final String KEY_VARIANT_LITURGY = "Liturgieerweiterungen";
 
     private static final Logger LOGGER = LogManager.getLogger();
     private static final Pattern patternIsNumber = Pattern.compile("-?\\d+(\\.\\d+)?");
@@ -37,8 +44,6 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final String KEY_COST_KAP = "KaP-Kosten";
     private static final String KEY_COMMONNESS = "Verbreitung";
     private static final String KEY_ADVANCEMENT_CATEGORY = "Steigerungsfaktor";
-    private static final String KEY_VARIANTS = "Zaubererweiterungen";
-
     private static final String[] KEYS = {
         KEY_DURATION,
         KEY_FEATURE,
@@ -57,12 +62,32 @@ public abstract class DsaConverter<T extends DsaObjectI>
         KEY_COST_KAP,
         KEY_COMMONNESS,
         KEY_ADVANCEMENT_CATEGORY,
-        KEY_VARIANTS
+        KEY_VARIANT_SPELL,
+        KEY_VARIANT_LITURGY
     };
+    private static final int VARIANT_I_REQ = 8;
+    private static final int VARIANT_II_REQ = -1;
+    private static final int VARIANT_III_REQ = 12;
+    private static final int VARIANT_IV_REQ = -1;
+    private static final int VARIANT_V_REQ = 16;
+    /*
+        (<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]{1,2}<\/i>){0,1}<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(<\/i>){0,1}([1-3]){0,1} (\(FW|\(<\/i> FW)|\.[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)|^[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)
+     */
+    final String REGEX_EXTRACT_TITLE = "(<i>" + REGEX_TITLE_CHARS + "{1,2}<\\/i> ){0,1}" + //case "<i>L</i> <i>ängere Wirkungsdauer</i>"
+        "<i>" + REGEX_TITLE_CHARS + "*" + //case "<i>Längere Wirkungsdauer"
+        "(<\\/i>){0,1} " +
+        "([1-3] ){0,1}" + // case "<i>Längere Wirkungsdauer</i> 1 (FW"
+        "(\\(FW|\\(<\\/i> FW)" + //cases "</i> (FW" or " (</i> FW"
+        "|" + //ALTERNATIVE: in one case the italic is missing, so the match is with the preceding "."
+        "\\." + REGEX_TITLE_CHARS + "*(\\(FW)" + //case ". Längere Wirkungsdauer (FW"
+        "|" +
+        "^" + REGEX_TITLE_CHARS + "*(\\(FW)"; //case Begin line: "Längere Wirkungsdauer (FW "
+    Pattern PATTERN_EXTRACT_TITLE = Pattern.compile(REGEX_EXTRACT_TITLE);
 
     private static void applyFlagsForKey(AtomicConverterFlag flags, String text)
     {
         flags.wasName.set(false);
+        flags.wasDescription.set(false);
         flags.wasDuration.set(text.trim().equals(KEY_DURATION));
         flags.wasFeature.set(text.trim().equals(KEY_FEATURE) || text.trim().equals(KEY_ASPEKT));
         flags.wasRange.set(text.trim().equals(KEY_RANGE));
@@ -78,7 +103,12 @@ public abstract class DsaConverter<T extends DsaObjectI>
         flags.wasCost.set(text.trim().equals(KEY_COST_APS) || text.trim().equals(KEY_COST_KAP));
         flags.wasCommonness.set(text.trim().equals(KEY_COMMONNESS));
         flags.wasAdvancementCategory.set(text.trim().equals(KEY_ADVANCEMENT_CATEGORY));
-        flags.wasVariants.set(text.trim().equals(KEY_VARIANTS));
+        flags.wasVariants.set(text.trim().equals(KEY_VARIANT_LITURGY)
+            || text.trim().equals(KEY_VARIANT_SPELL));
+        if (flags.wasVariants.get())
+        {
+            flags.wasFurtherInformation.set(false);
+        }
     }
 
     protected static String concatForDataValue(String origin, String newValue)
@@ -87,26 +117,35 @@ public abstract class DsaConverter<T extends DsaObjectI>
         String spacer = returnValue.endsWith("-") ? "" : " ";
         returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;
         returnValue = returnValue.trim() + spacer + newValue.trim();
-        return returnValue.trim();
+        return returnValue
+            .replaceAll("\\h", " ") // replace non breaking white space with white space
+            .replaceAll("(?<=[a-zßöäü])-(?=[a-zßöäü])", "") // replace "-" between lower chars wit ""
+            .replaceAll("(?<=[a-zßöäü]) -(?=[a-zßöäü])", "") // replace " -" between lower chars wit ""
+            .replaceAll("> -", ">-") // case: "<i>Sinnesschärfe</i> -Probe"
+            .replaceAll("^ :|^:", "") // case: ": Sinnesschärfe-Probe"
+            .trim();
     }
 
-    protected static String concatForEffect(String origin, TextWithMetaInfo t)
+    protected static String concatForDataValueWithMarkup(String origin, TextWithMetaInfo t, String cleanText)
     {
-        String newText = t.text;
-        if (t.isBold) newText = "<b>" + newText + "</b>";
-        if (t.isItalic) newText = "<i>" + newText + "</i>";
+        String newText = cleanText;
+        if (!newText.isEmpty())
+        {
+            if (t.isBold) newText = "<b>" + newText + "</b>";
+            if (t.isItalic) newText = "<i>" + newText + "</i>";
+        }
         return concatForDataValue(origin, newText);
     }
 
 
-    private static boolean validateIsDataValue(TextWithMetaInfo t, TopicConfiguration conf)
+    private static boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && Arrays.stream(KEYS).noneMatch(k -> k.equals(t.text.trim()));
+        return t.size <= conf.dataSize && Arrays.stream(KEYS).noneMatch(k -> k.equals(cleanText));
     }
 
-    private static boolean validateIsDataKey(TextWithMetaInfo t, TopicConfiguration conf)
+    private static boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(t.text.trim()));
+        return t.size <= conf.dataSize && t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(cleanText));
     }
 
     private static boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf)
@@ -134,6 +173,10 @@ public abstract class DsaConverter<T extends DsaObjectI>
         AtomicInteger lastPage = new AtomicInteger(0);
         resultList
             .forEach(t -> {
+
+                String cleanText = t.text
+                    .trim();
+
                 // if Page is changed, reset the line count
                 if (lastPage.get() != t.onPage)
                 {
@@ -146,79 +189,136 @@ public abstract class DsaConverter<T extends DsaObjectI>
                 if (!flags.wasFinished.get())
                 {
 
-                    // determine if current line is the start after which configuration gets interpreted
-                    boolean isStarted = t.onPage >= conf.startPage && (
-                        conf.startAfterLine <= 0 || (lineOnPage.get() >= conf.startAfterLine)
-                    );
 
-                    // determine if current line is the last line for which configuration gets interpreted
-                    boolean isFinished = t.onPage >= conf.endPage && (
-                        conf.endAfterLine > 0 && (lineOnPage.get() > conf.endAfterLine)
-                    );
+                    // validate the flags for conf
+                    boolean isName = validateIsName(t, conf);
+                    boolean isNameSkipped = isName && isNumeric(t.text); // gets skipped, when the name is a number (Page Number in some documents)
+                    boolean isDataKey = validateIsDataKey(t, cleanText, conf);
+                    boolean isDataValue = validateIsDataValue(t, cleanText, conf);
 
-                    // as long as it was started and is not finished
-                    if (flags.wasStarted.get() && !isFinished)
+                    // validate the QS flags, they act differently, because they are also part of the effect
+                    handleWasQsValues(flags, t);
+
+                    // handle name
+                    if (isName && !isNameSkipped)
                     {
-                        // validate the flags for conf
-                        boolean isName = validateIsName(t, conf);
-                        boolean isNameSkipped = isName && isNumeric(t.text); // gets skipped, when the name is a number (Page Number in some documents)
-                        boolean isDataKey = validateIsDataKey(t, conf);
-                        boolean isDataValue = validateIsDataValue(t, conf);
-                        boolean isVariant = validateIsVariant(t, flags);
-
-                        // handle new variant, find out which one.
-                        // assemble text and assign to right one
-                        // turn over to next
-                        // do a good finish
-
-                        // validate the QS flags, they act differently, because they are also part of the effect
-                        handleWasQsValues(flags, t);
-
-                        // handle name
-                        if (isName && !isNameSkipped)
+                        if (!flags.wasName.get())
                         {
-                            if (!flags.wasName.get())
-                            {
-                                T newEntry = initializeType();
-                                flags.initDataFlags();
-                                newEntry.setTopic(conf.topic);
-                                newEntry.setPublication(conf.publication);
-                                returnValue.add(newEntry);
-                            }
-
-                            last(returnValue).setName(concatForDataValue(last(returnValue).getName(), t.text.trim()));
-
+                            concludeVariantsOfPredecessor(returnValue);
+                            T newEntry = initializeType();
+                            flags.initDataFlags();
+                            newEntry.setTopic(conf.topic);
+                            newEntry.setPublication(conf.publication);
+                            returnValue.add(newEntry);
                         }
 
-                        // handle keys
-                        if (isDataKey)
-                        {
-                            applyFlagsForKey(flags, t.text);
-                        }
-
-                        // handle values
-                        if (isDataValue)
-                        {
-                            applyDataValue(last(returnValue), t, flags);
-                            applyFlagsForQs(flags, t.text);
-                        }
-
-                        flags.wasName.set(isName && !isNameSkipped);
+                        last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
 
                     }
-                    if (!flags.wasStarted.get())
+
+                    // handle keys
+                    if (isDataKey)
                     {
-                        flags.wasStarted.set(isStarted);
+                        applyFlagsForKey(flags, t.text);
                     }
-                    flags.wasFinished.set(isFinished);
+
+                    // handle values
+                    if (isDataValue)
+                    {
+                        applyDataValue(last(returnValue), t, cleanText, flags);
+                        applyFlagsForQs(flags, t.text);
+                    }
+
+                    flags.wasName.set(isName && !isNameSkipped);
                 }
             });
+        concludeVariantsOfPredecessor(returnValue);
         return returnValue;
     }
 
-    protected boolean validateIsVariant(TextWithMetaInfo t, AtomicConverterFlag flags)
+    private void concludeVariantsOfPredecessor(List<T> elementList)
     {
-        return flags.wasVariants.get() && t.isItalic;
+        T element = last(elementList);
+        if (element instanceof MysticalSkillRaw)
+        {
+            MysticalSkillRaw ms = (MysticalSkillRaw) element;
+
+            if (ms.variantsText != null)
+            {
+                ms.variantsText = ms.variantsText
+                    .replace("• ", "")
+                    .replace("  ", " ");
+
+
+                Matcher matcher = PATTERN_EXTRACT_TITLE.matcher(ms.variantsText);
+
+                StringBuilder res = new StringBuilder();
+                res.append(ms.variantsText + "\r\n");
+                // Check all occurrences
+                List<Triplet<Integer, Integer, String>> variantTitleMatches = new ArrayList<>();
+                while (matcher.find())
+                {
+                    res.append("Start index: " + matcher.start());
+                    res.append(" End index: " + matcher.end());
+                    res.append(" Found: " + matcher.group() + "\r\n");
+                    variantTitleMatches.add(new Triplet<>(matcher.start(), matcher.end(), matcher.group()));
+                }
+
+                if (variantTitleMatches.size() < 3)
+                    LOGGER.error("VARIANTS NOT CORRECT:\r\n " + ms.publication + "." + ms.name + " -->\r\n" + res + "\r\n");
+
+                AtomicInteger endOfPreviousHeadline = new AtomicInteger(-1);
+
+                List<MysticalSkillVariant> variants = new ArrayList<>();
+
+                variantTitleMatches.forEach(t -> {
+                    MysticalSkillVariant msv = new MysticalSkillVariant();
+                    msv.name = t.getValue2()
+                        .replace("<i>", "")
+                        .replace("</i>", "")
+                        .replace(" (FW", "")
+                        .replace(".", "")
+                        .trim();
+                    int indexComma = ms.variantsText.indexOf(',', t.getValue1());
+                    int indexClosingBracket = ms.variantsText.indexOf("AP)", indexComma + 1);
+                    msv.minLevel = Integer.valueOf(ms.variantsText.substring(t.getValue1(), indexComma).trim());
+                    msv.ap = Integer.valueOf(ms.variantsText.substring(indexComma + 1, indexClosingBracket).trim());
+
+                    if (endOfPreviousHeadline.get() > 0)
+                    {
+                        variants.get(variants.size() - 1).description = ms.variantsText
+                            .substring(endOfPreviousHeadline.get() + 1, t.getValue0())
+                            .trim();
+                    }
+
+                    endOfPreviousHeadline.set(indexClosingBracket + 3);
+
+                    variants.add(msv);
+                });
+
+                if (variants.size() > 0)
+                    variants.get(variants.size() - 1).description = ms.variantsText.substring(endOfPreviousHeadline.get());
+
+                variants.forEach(v -> {
+                    if (v.minLevel == VARIANT_I_REQ)
+                    {
+                        ms.variant1 = v;
+                    } else if (v.minLevel == VARIANT_II_REQ)
+                    {
+                        ms.variant2 = v;
+                    } else if (v.minLevel == VARIANT_III_REQ)
+                    {
+                        ms.variant3 = v;
+                    } else if (v.minLevel == VARIANT_IV_REQ)
+                    {
+                        ms.variant4 = v;
+                    } else if (v.minLevel == VARIANT_V_REQ)
+                    {
+                        ms.variant5 = v;
+                    }
+                });
+            }
+        }
     }
 
     private void applyFlagsForQs(AtomicConverterFlag flags, String text)
@@ -243,7 +343,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
 
     protected abstract T initializeType();
 
-    protected abstract void applyDataValue(T last, TextWithMetaInfo t, AtomicConverterFlag flags);
+    protected abstract void applyDataValue(T last, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags);
 
     private T last(List<T> returnValue)
     {
@@ -254,12 +354,5 @@ public abstract class DsaConverter<T extends DsaObjectI>
         {
             return null;
         }
-    }
-
-    protected String handleQsDescription(AtomicBoolean wasQs, String effect, String text, AtomicBoolean wasEffect)
-    {
-        effect = concatForDataValue(effect, text);
-        wasEffect.set(true);
-        return effect;
     }
 }

@@ -1,19 +1,23 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
-
-    <strategy name="Remove PageNo from Page 83" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+    <strategy name="Remove Tiergestalten from Page 92" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>83</value>
+                <value>92</value>
             </parameter>
             <parameter>
-                <key>lineNo</key>
-                <value>91</value>
+                <key>fromLine</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>47</value>
             </parameter>
         </params>
     </strategy>
+
     <strategy name="Remove Hund from Page 101" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
@@ -24,6 +28,19 @@
             <parameter>
                 <key>fromLine</key>
                 <value>62</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Box Tätowierungen from Page 103" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>103</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>108</value>
             </parameter>
         </params>
     </strategy>

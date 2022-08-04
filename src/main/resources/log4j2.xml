@@ -5,17 +5,17 @@
             <PatternLayout
                     pattern="%d [%t] %-5level %logger{36} - %msg%n%throwable"/>
         </Console>
-        <File name="FILE_LOAD_ERRORS" fileName="target/export/load-errors.log" append="false">
+        <File name="FILE_LOAD_ERRORS" fileName="target/export-log/load-errors.log" append="false">
             <PatternLayout>
                 <Pattern>%m%n</Pattern>
             </PatternLayout>
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="fileLoadErrors" level="DEBUG" additivity="false">
+        <Logger name="fileLoadErrors" level="INFO" additivity="false">
             <AppenderRef ref="FILE_LOAD_ERRORS"/>
         </Logger>
-        <Root level="DEBUG">
+        <Root level="INFO">
             <AppenderRef ref="ConsoleAppender"/>
         </Root>
     </Loggers>

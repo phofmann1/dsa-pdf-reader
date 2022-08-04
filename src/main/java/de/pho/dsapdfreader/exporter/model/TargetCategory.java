@@ -15,4 +15,5 @@ public enum TargetCategory
     supernatural,
     being,
     zone,
+    plant, fairy, undead, ghost, posessed, trick, living_being, liturgy, ceremony,
 }

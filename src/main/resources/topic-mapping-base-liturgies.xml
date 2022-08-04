@@ -1,79 +1,78 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
-    <strategy name="Remove Box from Page 131" index="1">
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove Box from Page 328" index="6">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>131</value>
+                <value>328</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>88</value>
+                <value>136</value>
             </parameter>
         </params>
     </strategy>
-    <strategy name="Split text from QS6 Invinculo on page 134" index="1">
+    <strategy name="Split QS6 of Magiesicht from effect on page 331" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>134</value>
+                <value>331</value>
             </parameter>
             <parameter>
                 <key>splitLine</key>
-                <value>57</value>
+                <value>41</value>
             </parameter>
             <parameter>
                 <key>splitAfterPosition</key>
-                <value>26</value>
+                <value>112</value>
             </parameter>
         </params>
     </strategy>
-    <strategy name="End QS6 of Invinulo with bold line on page 134" index="10">
+    <strategy name="End QS6 of Magiesicht with bold line on page 331" index="10">
         <strategyClass>StrategyInsertEmptyBold</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>134</value>
+                <value>331</value>
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>57</value>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>insertSmall</key>
+                <value>true</value>
             </parameter>
         </params>
     </strategy>
-    <!--RITUALS-->
-    <strategy name="Switch content on page 141" index="2">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>141</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>3</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>67</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="Remove Box from Page 144" index="1">
+    <strategy name="Remove Stabschlange from Page 332" index="11">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>144</value>
+                <value>332</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>88</value>
+                <value>128</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Löwe from Page 335" index="12">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>335</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>56</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>108</value>
             </parameter>
         </params>
     </strategy>

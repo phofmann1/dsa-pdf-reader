@@ -1,9 +1,9 @@
 package de.pho.dsapdfreader.dsaconverter.strategies;
 
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.stream.Collectors;
 
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.Parameter;
 import de.pho.dsapdfreader.dsaconverter.exceptions.DsaConverterException;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
@@ -13,33 +13,21 @@ public class StrategyRemoveSingleLineFromPage extends DsaConverterStrategy
     private static final String LINE_NO = "lineNo";
 
     @Override
-    public Map<Integer, List<TextWithMetaInfo>> applyStrategy(Map<Integer, List<TextWithMetaInfo>> resultsByPage, List<Parameter> parameters, String description)
+    public List<TextWithMetaInfo> applyStrategy(List<TextWithMetaInfo> texts, List<Parameter> parameters, String description, String publication, TopicEnum topic)
     {
+        List<TextWithMetaInfo> returnValue = texts;
         try
         {
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int lineNo = extractParameterInt(parameters, LINE_NO);
+            double lineNo = extractParameterDouble(parameters, LINE_NO);
+            logApplicationOfStrategy(description);
 
-            Map<Integer, List<TextWithMetaInfo>> returnValue = new LinkedHashMap<>();
+            returnValue = texts.stream().filter(t -> t.onPage != applyToPage || t.onLine != lineNo).collect(Collectors.toList());
 
-            resultsByPage.forEach((k, v) -> {
-                if (k.intValue() == applyToPage)
-                {
-                    logApplicationOfStrategy(description);
-                    returnValue.put(k, applyStrategyToPage(v, lineNo));
-                } else returnValue.put(k, v);
-            });
-            return returnValue;
         } catch (DsaConverterException e)
         {
             logException(e);
         }
-        return resultsByPage;
-    }
-
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, int lineNo)
-    {
-        textList.remove(lineNo - 1);
-        return textList;
+        return returnValue;
     }
 }

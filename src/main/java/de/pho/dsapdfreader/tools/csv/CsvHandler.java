@@ -30,14 +30,20 @@ public class CsvHandler
 
     public static <T> List<T> readBeanFromFile(Class<T> clazz, File f)
     {
-        try (Reader reader = Files.newBufferedReader(f.toPath(), StandardCharsets.UTF_8))
+        return readBeanFromPath(clazz, f.toPath());
+    }
+
+    public static <T> List<T> readBeanFromPath(Class<T> clazz, Path p)
+    {
+        try (Reader reader = Files.newBufferedReader(p, StandardCharsets.UTF_8))
         {
             return readBeanFromReader(clazz, reader);
         } catch (IOException e)
         {
+            if (p != null) LOGGER.error(p);
             LOGGER.error(e);
         }
-        return new ArrayList<>();
+        return new ArrayList<T>();
     }
 
 

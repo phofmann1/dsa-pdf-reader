@@ -60,7 +60,9 @@ class DsaConverterTest
             false,
             1600,
             "PDTrueTypeFont STCRBN+GentiumBasic-Bold",
-            1
+            1,
+            1,
+            "TestPub"
         );
 
         TextWithMetaInfo l1 = new TextWithMetaInfo(
@@ -69,7 +71,9 @@ class DsaConverterTest
             false,
             1300,
             "PDTrueTypeFont STCRBN+GentiumBasic-Bold",
-            1
+            1,
+            2,
+            "TestPub"
         );
         TextWithMetaInfo l2 = new TextWithMetaInfo(
             " Text 1 ",
@@ -77,7 +81,9 @@ class DsaConverterTest
             false,
             1000,
             "PDTrueTypeFont CICZLT+GentiumBasic",
-            2
+            2,
+            1,
+            "TestPub"
         );
         TextWithMetaInfo l3 = new TextWithMetaInfo(
             " Text 2 ",
@@ -85,7 +91,9 @@ class DsaConverterTest
             false,
             1000,
             "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
-            2
+            2,
+            2,
+            "TestPub"
         );
         TextWithMetaInfo l4 = new TextWithMetaInfo(
             "END",
@@ -93,7 +101,9 @@ class DsaConverterTest
             false,
             1000,
             "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
-            2
+            2,
+            3,
+            "TestPub"
         );
         TextWithMetaInfo l5 = new TextWithMetaInfo(
             "Text der nicht erscheinen darf",
@@ -101,7 +111,9 @@ class DsaConverterTest
             false,
             1000,
             "PDType0Font/PDCIDFontType2, PostScript name: FYEYJD+GentiumBasic",
-            3
+            3,
+            1,
+            "TestPub"
         );
         returnValue.add(l0);
         returnValue.add(l1);
