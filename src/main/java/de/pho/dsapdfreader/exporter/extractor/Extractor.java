@@ -211,6 +211,7 @@ public abstract class Extractor
                 case LITURGIES -> MysticalSkillCategory.liturgy;
                 case CEREMONIES -> MysticalSkillCategory.ceremony;
                 case CURSES -> MysticalSkillCategory.curse;
+                case ELFENSONGS -> MysticalSkillCategory.elfensong;
             };
     }
 

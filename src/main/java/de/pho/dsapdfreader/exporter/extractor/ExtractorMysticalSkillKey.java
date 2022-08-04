@@ -23,6 +23,7 @@ public class ExtractorMysticalSkillKey extends Extractor
                 .replaceAll("__", "_")
                 .replaceAll("ß", "ss")
                 .replaceAll("&", "und")
+                .replaceAll("!", "")
                 .replaceAll("\\(", "")
                 .replaceAll("\\)", "");
             returnValue = MysticalSkillKey.valueOf(skillKeyString);

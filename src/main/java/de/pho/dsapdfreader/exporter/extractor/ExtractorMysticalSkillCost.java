@@ -18,10 +18,16 @@ public class ExtractorMysticalSkillCost extends Extractor
             "(?= (AsP|KaP)" + //followed by "AsP" or "KaP"
             "(?! (pro|für|bzw\\.)))" //not followed by "pro" or "für" or "bzw."
     );
-    // \d*(?= (AsP|KaP) pro)
+    // \d*(?= (AsP|KaP|Aktivierungskosten) pro)
     protected static final Pattern PAT_COST_PLUS = Pattern.compile(
         "\\d*" + //digit
-            "(?= (AsP|KaP) pro)" //followed by "AsP pro" or "KaP pro"
+            "(?= (AsP|KaP|Aktivierungskosten) pro)" //followed by " AsP pro" or " KaP pro" or " Aktivierungskosten pro"
+    );
+
+    //(?<=\+ ).*
+    protected static final Pattern PAT_COST_PLUS_TEXT = Pattern.compile(
+        "(?<=\\+ )" +// preceding: "+ "
+            ".*" // everything after
     );
     //(?<= (AsP|KaP) (pro|für) )\d*( )*\p{L}*
     protected static final Pattern PAT_COST_PLUS_UNIT = Pattern.compile(
@@ -32,28 +38,28 @@ public class ExtractorMysticalSkillCost extends Extractor
             "( )*" + // zero to n " "
             "\\p{L}*" //all Latin letters (allow second word)
     );
-    //mindestens (jedoch ){0,1}\d* (AsP|KaP)
+    //mindestens (jedoch )?\d* (AsP|KaP)
     protected static final Pattern PAT_COST_MIN = Pattern.compile(
-        "mindestens (jedoch ){0,1}" + // leading with "mindestens (jedoch )"
+        "mindestens (jedoch )?" + // leading with "mindestens (jedoch )"
             "\\d*" + //any digits
             " (AsP|KaP)" //followed by " AsP" or " KaP"
     );
-    //(davon){0,1} \\d*( (AsP|KaP)){0,1}( davon){0,1} permanent
+    //(davon)? \\d*( (AsP|KaP))?( davon)? permanent
     protected static final Pattern PAT_COST_PERMANENT = Pattern.compile(
-        "(davon){0,1} " + // case "davon 4 KaP permanent"
+        "(davon)? " + // case "davon 4 KaP permanent"
             "\\d*" + //digits
-            "( (AsP|KaP)){0,1}" +  // case "4 KaP permanent"
-            "( davon){0,1}" + // case "4 davon permanent"
+            "( (AsP|KaP))?" +  // case "4 KaP permanent"
+            "( davon)?" + // case "4 davon permanent"
             " permanent" // keyword " permanent"
     );
 
-    //\d*\/\d*\/\d*\/\d*(\/\d*){0,1}| \p{L}*\/\p{L}*\/\p{L}*\/\p{L}*(\/\p{L}*){0,1}
+    //\d*\/\d*\/\d*\/\d*(\/\d*)?| \p{L}*\/\p{L}*\/\p{L}*\/\p{L}*(\/\p{L}*)?
     protected static final Pattern PAT_COST_LIST = Pattern.compile(
         "\\d*\\/\\d*\\/\\d*\\/\\d*" + // case "2/4/8/16"
-            "(\\/\\d*){0,1}" + // case "2/4/8/16/32"
+            "(\\/\\d*)?" + // case "2/4/8/16/32"
             "|" + // OR
             " \\p{L}*\\/\\p{L}*\\/\\p{L}*\\/\\p{L}*" + // case " Tasse/Truhe/Tür/Burgtor"
-            "(\\/\\p{L}*){0,1}" // case " winzig/klein/normal/groß/riesig"
+            "(\\/\\p{L}*)?" // case " winzig/klein/normal/groß/riesig"
     );
 
     //(\d* (AsP|KaP) für RS \d)+
@@ -71,32 +77,120 @@ public class ExtractorMysticalSkillCost extends Extractor
         Cost returnValue = new Cost();
         String restOfTxt = msr.cost;
 
-        Matcher m = PAT_COST_BASE.matcher(restOfTxt);
+        restOfTxt = applyBaseCost(returnValue, restOfTxt);
+        restOfTxt = applyMinimalCost(returnValue, restOfTxt, msr);
+        restOfTxt = applyPermanentCost(returnValue, restOfTxt, msr);
+        restOfTxt = applyPlusCost(returnValue, restOfTxt, msr);
+        restOfTxt = applyListCost(returnValue, restOfTxt);
+        restOfTxt = applyArmorSpellCost(returnValue, restOfTxt, msr);
+        restOfTxt = applyCounterSpellCost(returnValue, restOfTxt, msr);
+        // unapplied: returnValue.costPlusPerMax = 0;
+        applySpecialCost(returnValue, restOfTxt);
 
+        return returnValue;
+    }
+
+    private static String applySpecialCost(Cost returnValue, String restOfTxt)
+    {
+        if (returnValue.cost == 0 && returnValue.costMin == 0 && returnValue.costList == null)
+        {
+            returnValue.costSpecial = restOfTxt;
+        }
+        return "";
+    }
+
+    private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+    {
+        Matcher m = PAT_COST_COUNTER_SKILL.matcher(restOfTxt);
         if (m.find())
         {
-            String costBaseString = m.group();
-            returnValue.cost = Integer.valueOf(costBaseString);
-            restOfTxt = restOfTxt.replace(costBaseString, "");
-        }
+            String counterSkillString = m.group();
+            List<Integer> numbers = extractNumbersFromText(counterSkillString);
+            if (numbers.size() != 2)
+            {
+                String msg = String.format(
+                    "%s Kosten (%s) für Antimagie-Spruch hat keine zwei Zahlen",
+                    getPrefix(msr),
+                    restOfTxt
+                );
+                LOGGER.error(msg);
+            } else
+            {
+                returnValue.costList = new ArrayList<>();
+                returnValue.costListValues = new ArrayList<>();
 
-        m = PAT_COST_MIN.matcher(restOfTxt);
+                returnValue.costList.add(numbers.get(0));
+                returnValue.costList.add(numbers.get(1));
+                returnValue.costListValues.add("");
+                returnValue.costListValues.add("Zauber mit der Zielkategorie Zone");
+            }
+            restOfTxt = restOfTxt.replace(counterSkillString, "");
+        }
+        return restOfTxt;
+    }
+
+    private static String applyArmorSpellCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+    {
+        Matcher m = PAT_COST_ARMOR_SKILLS.matcher(restOfTxt);
         if (m.find())
         {
-            String costMinString = m.group();
-            returnValue.costMin = extractFirstNumberFromText(costMinString, msr);
-            restOfTxt = restOfTxt.replace(costMinString, "");
-        }
+            List<Integer> costs = new ArrayList<>();
+            List<String> values = new ArrayList<>();
+            do
+            {
+                String armorString = m.group();
+                List<Integer> numbers = extractNumbersFromText(armorString);
+                if (numbers.size() != 2)
+                {
+                    String msg = String.format(
+                        "%s Die Kosten für einen RS-Skill (%s) haben keine eindeutig findbaren Zahlen für Kosten und Rüstung",
+                        getPrefix(msr),
+                        m.group()
+                    );
+                    LOGGER.error(msg);
+                } else
+                {
+                    costs.add(numbers.get(0));
+                    values.add("RS " + numbers.get(1));
+                }
+                restOfTxt = restOfTxt.replace(armorString, "");
+            }
+            while (m.find());
 
-        m = PAT_COST_PERMANENT.matcher(restOfTxt);
+            returnValue.costList = costs;
+            returnValue.costListValues = values;
+        }
+        return restOfTxt;
+    }
+
+    private static String applyListCost(Cost returnValue, String restOfTxt)
+    {
+        Matcher m = PAT_COST_LIST.matcher(restOfTxt);
         if (m.find())
         {
-            String costPermanentString = m.group();
-            returnValue.costPermanent = extractFirstNumberFromText(costPermanentString, msr);
-            restOfTxt = restOfTxt.replace(costPermanentString, "");
+            String costListString = m.group();
+            returnValue.costList = Arrays.stream(costListString.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
+            restOfTxt = restOfTxt.replace(costListString, "");
         }
+        if (m.find())
+        {
+            String costListValuesString = m.group();
+            returnValue.costListValues = Arrays.asList(costListValuesString.split("\\/"));
+            restOfTxt = restOfTxt.replace(costListValuesString, "");
+        }
+        if (m.find())
+        {
+            String costListPerm = m.group();
+            returnValue.costListPermanent = Arrays.stream(costListPerm.split("\\/")).map(s -> Integer.valueOf(s.trim())).toList();
+            restOfTxt = restOfTxt.replace(costListPerm, "");
+        }
+        return restOfTxt;
 
-        m = PAT_COST_PLUS.matcher(restOfTxt);
+    }
+
+    private static String applyPlusCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+    {
+        Matcher m = PAT_COST_PLUS.matcher(restOfTxt);
         if (m.find())
         {
             String costPlusString = m.group();
@@ -118,71 +212,54 @@ public class ExtractorMysticalSkillCost extends Extractor
                 restOfTxt = restOfTxt.replace(costPlusUnitString, "");
             }
 
-            if (returnValue.costPlusUnit != null && returnValue.costPlus == 0)
-            {
-                returnValue.costSpecialPlus = restOfTxt;
-            }
+
         }
 
-        m = PAT_COST_LIST.matcher(restOfTxt);
+        m = PAT_COST_PLUS_TEXT.matcher(msr.cost);
+        if (m.find() && (returnValue.costPlusUnit != null || returnValue.costPlus == 0))
+        {
+            String costSpecialPlusString = m.group();
+            returnValue.costSpecialPlus = costSpecialPlusString;
+            restOfTxt = restOfTxt.replace(costSpecialPlusString, "");
+        }
+
+        return restOfTxt;
+    }
+
+    private static String applyPermanentCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+    {
+        Matcher m = PAT_COST_PERMANENT.matcher(restOfTxt);
         if (m.find())
         {
-            String costListString = m.group();
-            returnValue.costList = Arrays.stream(costListString.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
+            String costPermanentString = m.group();
+            returnValue.costPermanent = extractFirstNumberFromText(costPermanentString, msr);
+            restOfTxt = restOfTxt.replace(costPermanentString, "");
         }
+        return restOfTxt;
+    }
+
+    private static String applyMinimalCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+    {
+        Matcher m = PAT_COST_MIN.matcher(restOfTxt);
         if (m.find())
         {
-            String costListValuesString = m.group();
-            returnValue.costListValues = Arrays.asList(costListValuesString.split("\\/"));
+            String costMinString = m.group();
+            returnValue.costMin = extractFirstNumberFromText(costMinString, msr);
+            restOfTxt = restOfTxt.replace(costMinString, "");
         }
+        return restOfTxt;
+    }
+
+    private static String applyBaseCost(Cost returnValue, String restOfTxt)
+    {
+        Matcher m = PAT_COST_BASE.matcher(restOfTxt);
+
         if (m.find())
         {
-            String costListPerm = m.group();
-            returnValue.costListPermanent = Arrays.stream(costListPerm.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
+            String costBaseString = m.group();
+            returnValue.cost = Integer.valueOf(costBaseString);
+            restOfTxt = restOfTxt.replace(costBaseString, "");
         }
-
-        m = PAT_COST_ARMOR_SKILLS.matcher(restOfTxt);
-        if (m.find())
-        {
-            List<Integer> costs = new ArrayList<>();
-            List<String> values = new ArrayList<>();
-            do
-            {
-                List<Integer> numbers = extractNumbersFromText(m.group());
-                if (numbers.size() != 2)
-                {
-                    LOGGER.error("Die Kosten für einen RS-Skill (" + m.group() + ") haben keine eindeutig findbaren Zahlen für Kosten und Rüstung");
-                } else
-                {
-                    costs.add(numbers.get(0));
-                    values.add("RS " + numbers.get(1));
-                }
-            }
-            while (m.find());
-
-            m = PAT_COST_COUNTER_SKILL.matcher(restOfTxt);
-            if (m.find())
-            {
-                String counterSkillString = m.group();
-                List<Integer> numbers = extractNumbersFromText(counterSkillString);
-                if (numbers.size() != 2)
-                {
-                    LOGGER.error("Kosten (" + restOfTxt + ") für Antimagie-Spruch hat keine zwei Zahlen");
-                }
-            }
-
-            returnValue.costList = costs;
-            returnValue.costListValues = values;
-        }
-
-        if (returnValue.cost == 0 && returnValue.costMin == 0 && returnValue.costList == null)
-        {
-            returnValue.costSpecial = restOfTxt;
-        }
-        returnValue.costPlusPerMax = 0;
-        returnValue.costSpecialPlus = "";
-
-
-        return returnValue;
+        return restOfTxt;
     }
 }

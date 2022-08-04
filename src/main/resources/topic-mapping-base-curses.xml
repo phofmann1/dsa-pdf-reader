@@ -1,0 +1,32 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Split check of 'Pech an den Hals wünschen' from effect on page 285" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>285</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>56</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>31</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="End Check of 'Pech an den Hals wünschen' with bold line on page 285" index="2">
+        <strategyClass>StrategyInsertEmptyBold</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>285</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>56</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

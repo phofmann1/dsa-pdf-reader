@@ -7,8 +7,7 @@ public class MysticalSkill
     public MysticalSkillKey key;
     public String name;
     public AttributeShort[] check;
-    public AttributeShort resist;
-    public int resistMultiplier;
+    public ResistDifficulty difficulty;
     public CastingDuration casting;
     public MysticalSkillCategory category;
 

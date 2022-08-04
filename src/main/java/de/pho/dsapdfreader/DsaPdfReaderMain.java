@@ -1,9 +1,12 @@
 package de.pho.dsapdfreader;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.nio.file.Files;
@@ -25,11 +28,14 @@ import javax.xml.bind.Unmarshaller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillMedium;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillSmall;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
@@ -81,10 +87,10 @@ public class DsaPdfReaderMain
 
 
         isToText = false;
-        isToStrategy = false;
-        isToRaws = false;
+        isToStrategy = true;
+        isToRaws = true;
         isToJson = true;
-        isSummarize = false;
+        isSummarize = true;
 
         if (isToText) convertToText();
         if (isToText && isSummarize) summarizeTextCsv(PATH_PDF_2_TEXT, "all_txt.csv");
@@ -93,6 +99,7 @@ public class DsaPdfReaderMain
         if (isToRaws) convertToRaws();
         if (isToRaws && isSummarize) summarizeMsCsv(PATH_STRATEGY_2_RAW, "all_raw.csv");
         if (isToJson) convertToJson();
+        if (isToJson && isSummarize) summarizeMsJson(PATH_RAW_2_JSON, "all.json");
 
         Instant end = Instant.now();
         Duration timeElapsed = Duration.between(start, end);
@@ -114,6 +121,7 @@ public class DsaPdfReaderMain
         {
             List<TextWithMetaInfo> concatList = new ArrayList<>();
             paths.filter(Files::isRegularFile)
+                .filter(p -> !p.endsWith(file))
                 .map(p -> CsvHandler.readBeanFromPath(TextWithMetaInfo.class, p))
                 .forEach(l -> concatList.addAll(l));
             File fOut = new File(path, file);
@@ -130,6 +138,7 @@ public class DsaPdfReaderMain
         {
             List<MysticalSkillRaw> concatList = new ArrayList<>();
             paths.filter(Files::isRegularFile)
+                .filter(p -> !p.endsWith(file))
                 .map(p -> CsvHandler.readBeanFromPath(MysticalSkillRaw.class, p))
                 .forEach(l -> concatList.addAll(l));
             File fOut = new File(path, file);
@@ -138,6 +147,61 @@ public class DsaPdfReaderMain
         {
             LOGGER.error(e.getMessage(), e);
         }
+    }
+
+    private static void summarizeMsJson(String path, String file)
+    {
+        try (Stream<Path> paths = Files.walk(Paths.get(path)))
+        {
+            List<MysticalSkill> mysticalSkills = new ArrayList<>();
+            paths.filter(Files::isRegularFile)
+                .filter(p -> !p.endsWith(file))
+                .map(p -> {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    String json = readFromInputStream(new File(p.toString()));
+                    try
+                    {
+                        return objectMapper.readValue(json, new TypeReference<List<MysticalSkill>>()
+                        {
+                        });
+                    } catch (JsonProcessingException e)
+                    {
+                        LOGGER.error("JSON processing Error in " + path, e);
+                    }
+                    return new ArrayList<MysticalSkill>();
+                })
+                .forEach(l -> mysticalSkills.addAll(l));
+            ObjectMapper mapper = new ObjectMapper();
+            String jsonResult = mapper
+                .writerWithDefaultPrettyPrinter()
+                .writeValueAsString(mysticalSkills);
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(path + file));
+            writer.write(jsonResult);
+            writer.flush();
+            writer.close();
+        } catch (IOException e)
+        {
+            LOGGER.error(e.getMessage(), e);
+        }
+    }
+
+    private static String readFromInputStream(File file)
+    {
+        StringBuilder resultStringBuilder = new StringBuilder();
+        try (BufferedReader br
+                 = new BufferedReader(new InputStreamReader(new FileInputStream(file))))
+        {
+            String line;
+            while ((line = br.readLine()) != null)
+            {
+                resultStringBuilder.append(line).append("\n");
+            }
+        } catch (IOException e)
+        {
+            LOGGER.error("Error reading File (" + file.getAbsolutePath() + ")");
+        }
+        return resultStringBuilder.toString();
     }
 
 
@@ -217,6 +281,7 @@ public class DsaPdfReaderMain
 
 
                     File fOut = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+                    LOGGER.info("# of MysticalSkills of Type (" + conf.topic + "): " + results.size());
                     CsvHandler.writeBeanToUrl(fOut, results);
                 } catch (NullPointerException e)
                 {
@@ -352,8 +417,8 @@ public class DsaPdfReaderMain
         switch (conf.topic)
         {
             case BLESSINGS, TRICKS -> results = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(texts, conf);
-            case SPELLS, LITURGIES, RITUALS, CEREMONIES, CURSES ->
-                results = new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(texts, conf);
+            case SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(texts, conf);
+            case CURSES, ELFENSONGS -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
             default -> LOGGER.error("Unexpected value: " + conf.topic);
         }
         return results;

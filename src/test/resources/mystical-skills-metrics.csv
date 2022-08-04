@@ -6,9 +6,9 @@ Basis;RITUAL;6
 Basis;TRICK;12
 Basis;SPELL;45
 Götter 1;CEREMONY;66
-Götter 1;LITURGY;85
+Götter 1;LITURGY;86
 Götter 2;CEREMONY;49
-Götter 2;LITURGY;
+Götter 2;LITURGY;51
 Magie 1;TRICK;23
 Magie 1;SPELL;91
 Magie 1;RITUAL;13
@@ -17,4 +17,4 @@ Magie 2;SPELL;75
 Magie 2;RITUAL;36
 Magie 3;TRICK;24
 Magie 3;SPELL;39
-Magie 3;RITUAL;
+Magie 3;RITUAL;14

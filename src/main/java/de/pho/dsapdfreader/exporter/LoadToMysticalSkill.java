@@ -8,6 +8,7 @@ import de.pho.dsapdfreader.exporter.extractor.ExtractorCheck;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorFeature;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillCost;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillKey;
+import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillModifications;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillVariant;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorSkillDuration;
 import de.pho.dsapdfreader.exporter.extractor.ExtractorSkillRange;
@@ -19,6 +20,11 @@ import de.pho.dsapdfreader.exporter.model.Publication;
 
 public class LoadToMysticalSkill
 {
+
+    private LoadToMysticalSkill()
+    {
+    }
+
     public static MysticalSkill migrate(MysticalSkillRaw msr)
     {
         MysticalSkill returnValue = new MysticalSkill();
@@ -37,13 +43,9 @@ public class LoadToMysticalSkill
         returnValue.traditions = ExtractorTradtion.retrieveTraditions(msr, returnValue.category);
         returnValue.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
         returnValue.skillCost = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
-
-        /*
-        returnValue.elementalCategories = retrieveElementalCategories(msr);
-        returnValue.resist = retrieveResistAttribute(msr.check);
-        returnValue.resistMultiplier = retrieveResistMultiplier(msr.check);
-        returnValue.allowedModifications = retrieveAllowedModifications(msr);
-        */
+        returnValue.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
+        returnValue.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
+        // elemental Categories are missing
         return returnValue;
     }
 

@@ -28,7 +28,7 @@ public class ExtractorCastingDuration extends Extractor
             }
         }
 
-        if (returnValue.castingDuration <= 0 || returnValue.castingDurationUnit == null)
+        if (returnValue != null && (returnValue.castingDuration <= 0 || returnValue.castingDurationUnit == null))
         {
             LOGGER.error(getPrefix(msr) + "casting Duration not interpretable:\r\n" + msr.castingDuration);
         }

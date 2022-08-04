@@ -1,0 +1,15 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove Tradition from Page 286" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>286</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>80</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

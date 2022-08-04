@@ -8,5 +8,6 @@ public enum TopicEnum
     BLESSINGS,
     LITURGIES,
     CEREMONIES,
-    CURSES
+    CURSES,
+    ELFENSONGS
 }

@@ -44,6 +44,20 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final String KEY_COST_KAP = "KaP-Kosten";
     private static final String KEY_COMMONNESS = "Verbreitung";
     private static final String KEY_ADVANCEMENT_CATEGORY = "Steigerungsfaktor";
+    /*
+        (<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]{1,2}<\/i>){0,1}<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(<\/i>){0,1}([1-3]){0,1} (\(FW|\(<\/i> FW)|\.[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)|^[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)
+     */
+    final String REGEX_EXTRACT_TITLE = "(<i>" + REGEX_TITLE_CHARS + "{1,2}<\\/i> ){0,1}" + //case "<i>L</i> <i>ängere Wirkungsdauer</i>"
+        "<i>" + REGEX_TITLE_CHARS + "*" + //case "<i>Längere Wirkungsdauer"
+        "(<\\/i>){0,1} " +
+        "([1-3] ){0,1}" + // case "<i>Längere Wirkungsdauer</i> 1 (FW"
+        "(\\(FW|\\(<\\/i> FW)" + //cases "</i> (FW" or " (</i> FW"
+        "|" + //ALTERNATIVE: in one case the italic is missing, so the match is with the preceding "."
+        "\\." + REGEX_TITLE_CHARS + "*(\\(FW)" + //case ". Längere Wirkungsdauer (FW"
+        "|" +
+        "^" + REGEX_TITLE_CHARS + "*(\\(FW)"; //case Begin line: "Längere Wirkungsdauer (FW "
+    Pattern PATTERN_EXTRACT_TITLE = Pattern.compile(REGEX_EXTRACT_TITLE);
+
     private static final String[] KEYS = {
         KEY_DURATION,
         KEY_FEATURE,
@@ -70,21 +84,8 @@ public abstract class DsaConverter<T extends DsaObjectI>
     private static final int VARIANT_III_REQ = 12;
     private static final int VARIANT_IV_REQ = -1;
     private static final int VARIANT_V_REQ = 16;
-    /*
-        (<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]{1,2}<\/i>){0,1}<i>[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(<\/i>){0,1}([1-3]){0,1} (\(FW|\(<\/i> FW)|\.[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)|^[a-z A-Z0-9äöüÄÖÜß!\-,\/\.]*(\(FW)
-     */
-    final String REGEX_EXTRACT_TITLE = "(<i>" + REGEX_TITLE_CHARS + "{1,2}<\\/i> ){0,1}" + //case "<i>L</i> <i>ängere Wirkungsdauer</i>"
-        "<i>" + REGEX_TITLE_CHARS + "*" + //case "<i>Längere Wirkungsdauer"
-        "(<\\/i>){0,1} " +
-        "([1-3] ){0,1}" + // case "<i>Längere Wirkungsdauer</i> 1 (FW"
-        "(\\(FW|\\(<\\/i> FW)" + //cases "</i> (FW" or " (</i> FW"
-        "|" + //ALTERNATIVE: in one case the italic is missing, so the match is with the preceding "."
-        "\\." + REGEX_TITLE_CHARS + "*(\\(FW)" + //case ". Längere Wirkungsdauer (FW"
-        "|" +
-        "^" + REGEX_TITLE_CHARS + "*(\\(FW)"; //case Begin line: "Längere Wirkungsdauer (FW "
-    Pattern PATTERN_EXTRACT_TITLE = Pattern.compile(REGEX_EXTRACT_TITLE);
 
-    private static void applyFlagsForKey(AtomicConverterFlag flags, String text)
+    protected static void applyFlagsForKey(AtomicConverterFlag flags, String text)
     {
         flags.wasName.set(false);
         flags.wasDescription.set(false);
@@ -345,7 +346,7 @@ public abstract class DsaConverter<T extends DsaObjectI>
 
     protected abstract void applyDataValue(T last, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags);
 
-    private T last(List<T> returnValue)
+    protected T last(List<T> returnValue)
     {
         if (returnValue != null && returnValue.size() > 0)
         {

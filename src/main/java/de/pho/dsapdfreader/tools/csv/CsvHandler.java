@@ -25,6 +25,9 @@ import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
 public class CsvHandler
 {
+    private CsvHandler()
+    {
+    }
     private static final char SEPARATOR = ';';
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -41,9 +44,9 @@ public class CsvHandler
         } catch (IOException e)
         {
             if (p != null) LOGGER.error(p);
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage(), e);
         }
-        return new ArrayList<T>();
+        return new ArrayList<>();
     }
 
 
@@ -55,7 +58,7 @@ public class CsvHandler
             return readBeanFromReader(clazz, reader);
         } catch (IOException | URISyntaxException e)
         {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage(), e);
         }
         return new ArrayList<>();
     }
@@ -65,7 +68,7 @@ public class CsvHandler
         List<T> returnValue;
         try
         {
-            CsvToBean cb = new CsvToBeanBuilder(reader)
+            CsvToBean<T> cb = new CsvToBeanBuilder(reader)
                 .withType(clazz)
                 .withSeparator(SEPARATOR)
                 .build();
@@ -74,7 +77,7 @@ public class CsvHandler
             return returnValue;
         } catch (IOException e)
         {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage(), e);
         }
         return new ArrayList<>();
     }
@@ -90,10 +93,11 @@ public class CsvHandler
                 .build();
 
             sbc.write(list);
+            writer.flush();
             writer.close();
         } catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e)
         {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage(), e);
         }
 
     }
