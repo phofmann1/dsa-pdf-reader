@@ -16,7 +16,8 @@ public class ExtractorMysticalSkillKey extends Extractor
         }
         catch (IllegalArgumentException e)
         {
-            LOGGER.error(getPrefix(msr) + "key (" + skillKeyString + ") could not be interpreted.");
+            String msg = String.format("%s key (%s) could not be interpreted.", getPrefix(msr), skillKeyString);
+            LOGGER.error(msg);
         }
         return returnValue;
     }
@@ -27,16 +28,16 @@ public class ExtractorMysticalSkillKey extends Extractor
             .toUpperCase() + "_"
             + name
             .toUpperCase()
-            .replaceAll(" ", "_")
-            .replaceAll("Ä", "AE")
-            .replaceAll("Ö", "OE")
-            .replaceAll("Ü", "UE")
-            .replaceAll("__", "_")
-            .replaceAll("ß", "SS")
-            .replaceAll("&", "UND")
-            .replaceAll("!", "")
-            .replaceAll("\\(", "")
-            .replaceAll("\\)", "");
+            .replace(" ", "_")
+            .replace("Ä", "AE")
+            .replace("Ö", "OE")
+            .replace("Ü", "UE")
+            .replace("__", "_")
+            .replace("ß", "SS")
+            .replace("&", "UND")
+            .replace("!", "")
+            .replace("(", "")
+            .replace(")", "");
         return MysticalSkillKey.valueOf(skillKeyString);
     }
 }

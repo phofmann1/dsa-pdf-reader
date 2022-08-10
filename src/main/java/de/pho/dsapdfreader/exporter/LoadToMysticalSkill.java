@@ -19,7 +19,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
-import de.pho.dsapdfreader.tools.csv.ValueMapperTool;
+import de.pho.dsapdfreader.tools.csv.DsaStringCleanupTool;
 
 
 public class LoadToMysticalSkill
@@ -36,7 +36,7 @@ public class LoadToMysticalSkill
         returnValue.name = msr.name;
         returnValue.advancementCategory = ExtractorAdvancementCategory.retrieveAdvancementCategory(msr);
         returnValue.features = ExtractorFeature.retrieveFeatures(msr);
-        returnValue.publication = Publication.valueOf(ValueMapperTool.mapStringToEnumName(msr.publication));
+        returnValue.publication = Publication.valueOf(DsaStringCleanupTool.mapStringToEnumName(msr.publication));
         returnValue.category = Extractor.retrieveCategory(msr.topic);
         returnValue.check = ExtractorCheck.retrieveCheck(msr, returnValue.category);
         returnValue.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, returnValue.category);

@@ -8,7 +8,7 @@ import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionSubKey;
-import de.pho.dsapdfreader.tools.csv.ValueMapperTool;
+import de.pho.dsapdfreader.tools.csv.DsaStringCleanupTool;
 
 public class ExtractorTradtion extends Extractor
 {
@@ -32,7 +32,7 @@ public class ExtractorTradtion extends Extractor
     {
         String[] tTrads = msr.commonness.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
         return Arrays.stream(tTrads)
-            .map(t -> TraditionSubKey.valueOf(ValueMapperTool.mapStringToEnumName(
+            .map(t -> TraditionSubKey.valueOf(DsaStringCleanupTool.mapStringToEnumName(
                 t.toLowerCase()
                     .replace("derwische", "derwisch")
             )))

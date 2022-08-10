@@ -9,20 +9,20 @@ import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkillRaw>
+public class DsaConverterMysticalSkillActivity extends DsaConverterMysticalSkill
 {
-    protected static boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+    protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return !t.isBold && Arrays.stream(KEYS).noneMatch(k -> k.equals(cleanText))
+        return !t.isBold && Arrays.stream(getKeys()).noneMatch(k -> k.equals(cleanText))
             || t.text.startsWith("QS "); // exception for QS lists
     }
 
-    protected static boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+    protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(cleanText));
+        return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(cleanText));
     }
 
-    protected static boolean validateIsName(TextWithMetaInfo t)
+    protected boolean validateIsName(TextWithMetaInfo t)
     {
         return t.text.endsWith("Probe") && t.isBold;
     }
@@ -48,7 +48,7 @@ public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkil
             boolean isDataValue = validateIsDataValue(t, cleanText, conf);
 
             // validate the QS flags, they act differently, because they are also part of the effect
-            handleWasQsValues(flags, t);
+            handleWasNoKeyStrings(flags, t);
 
             // handle name
             if (isName)
@@ -82,7 +82,7 @@ public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkil
             if (isDataValue)
             {
                 applyDataValue(last(returnValue), t, cleanText, flags);
-                applyFlagsForQs(flags, t.text);
+                applyFlagsForNoKeyStrings(flags, t.text);
             }
         });
         return returnValue;
@@ -91,7 +91,7 @@ public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkil
     @Override
     protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
     {
-        new DsaConverterMysticalSkillMedium().applyDataValue(ms, t, cleanText, flags);
+        new DsaConverterMysticalSkill().applyDataValue(ms, t, cleanText, flags);
         if (flags.wasTalent.get()) ms.talentKey = concatForDataValue(ms.talentKey, cleanText).replace(":", "").trim();
     }
 }

@@ -39,12 +39,10 @@ import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
-import de.pho.dsapdfreader.dsaconverter.DsaConverterApplyChangesToMysticalSkills;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMeritsAndFlaws;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkill;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
-import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillMedium;
-import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillSmall;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
@@ -433,12 +431,13 @@ public class DsaPdfReaderMain
         switch (conf.topic)
         {
             case MERITS -> results = new DsaConverterMeritsAndFlaws().convertTextWithMetaInfo(texts, conf);
-            case BLESSINGS, TRICKS -> results = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(texts, conf);
-            case SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(texts, conf);
+            //case  -> results = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(texts, conf);
+            case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES ->
+                results = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
             case CURSES, ELFENSONGS, MELODIES, DANCES -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
             case MYSTICAL_SKILL_VARIANTS ->
             {
-                List<MysticalSkillRaw> msrs = new DsaConverterApplyChangesToMysticalSkills().convertTextWithMetaInfo(texts, conf);
+                List<MysticalSkillRaw> msrs = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
                 applyToBasis(msrs, conf);
                 results = msrs;
             }
