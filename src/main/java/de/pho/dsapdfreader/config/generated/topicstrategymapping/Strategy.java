@@ -223,7 +223,7 @@ public class Strategy
         {
             if (parameter == null)
             {
-                parameter = new ArrayList<Parameter>();
+                parameter = new ArrayList<>();
             }
             return this.parameter;
         }

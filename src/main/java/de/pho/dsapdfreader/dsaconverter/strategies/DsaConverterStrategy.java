@@ -17,6 +17,8 @@ public abstract class DsaConverterStrategy
     protected static final String APPLY_TO_PAGE = "applyToPage";
 
     protected static final String INSERT_SMALL = "insertSmall";
+    protected static final String FROM_LINE = "fromLine";
+    protected static final String UNTIL_LINE = "untilLine";
 
     protected static final double NEW_LINE_IDX = 0.1;
     protected static final double NEW_LINE_SMALL_IDX = 0.01;

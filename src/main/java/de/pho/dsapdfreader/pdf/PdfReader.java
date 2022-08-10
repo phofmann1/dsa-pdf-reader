@@ -18,6 +18,10 @@ public class PdfReader
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
+    private PdfReader()
+    {
+    }
+
     public static List<TextWithMetaInfo> convertToText(File f, TopicConfiguration conf) throws IOException
     {
         LOGGER.debug("init PDFParser");

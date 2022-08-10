@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Remove spells by category from page 175" index="12">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>175</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>47</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

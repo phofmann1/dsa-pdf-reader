@@ -1,5 +1,7 @@
 package de.pho.dsapdfreader.exporter.model;
 
+import de.pho.dsapdfreader.exporter.model.enums.Unit;
+
 public class SkillRange
 {
     public int range;

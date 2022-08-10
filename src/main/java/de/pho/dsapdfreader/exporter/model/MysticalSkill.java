@@ -2,11 +2,24 @@ package de.pho.dsapdfreader.exporter.model;
 
 import java.util.List;
 
+import de.pho.dsapdfreader.exporter.model.enums.AdvancementCategory;
+import de.pho.dsapdfreader.exporter.model.enums.AttributeShort;
+import de.pho.dsapdfreader.exporter.model.enums.ElementKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillModification;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.TargetCategory;
+import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
+import de.pho.dsapdfreader.exporter.model.enums.TraditionSubKey;
+
 public class MysticalSkill
 {
     public MysticalSkillKey key;
     public String name;
-    public AttributeShort[] check;
+    public List<AttributeShort> check;
     public ResistDifficulty difficulty;
     public CastingDuration casting;
     public MysticalSkillCategory category;
@@ -14,17 +27,19 @@ public class MysticalSkill
     public Cost skillCost;
     public SkillRange skillRange;
     public Duration skillDuration;
-    public TargetCategory[] targetCategories;
+    public List<TargetCategory> targetCategories;
 
     public List<MysticalSkillFeature> features;
-    public ElementKey[] elementalCategories;
+    public List<ElementKey> elementalCategories;
     public AdvancementCategory advancementCategory;
-    public MysticalSkillModification[] allowedModifications;
-    public TraditionKey[] traditions;
+    public List<MysticalSkillModification> allowedModifications;
+    public List<TraditionKey> traditions;
 
     public List<MysticalSkillVariant> spellVariants;
 
     public Publication publication;
+    public List<TraditionSubKey> traditionSubs;
+    public List<SkillKey> skillKeys;
 
     // public boolean favorite;
     // public boolean isElementalAttuned;

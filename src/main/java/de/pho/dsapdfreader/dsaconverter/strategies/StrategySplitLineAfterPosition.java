@@ -46,42 +46,50 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
     {
         try
         {
-            Optional<TextWithMetaInfo> lineToSplitOptional = textList.stream().filter(t -> t.onLine == splitLine).findFirst();
-            if (lineToSplitOptional.isPresent())
-            {
-                TextWithMetaInfo lineToSplit = lineToSplitOptional.get();
-                try
-                {
-                    String newLineText = lineToSplit.text.substring(splitAfterPosition);
-                    double idx = insertSmall ? NEW_LINE_SMALL_IDX : NEW_LINE_IDX;
-                    TextWithMetaInfo newLine = new TextWithMetaInfo(
-                        newLineText,
-                        lineToSplit.isBold,
-                        lineToSplit.isItalic,
-                        lineToSplit.size,
-                        lineToSplit.font,
-                        lineToSplit.onPage,
-                        lineToSplit.onLine + idx,
-                        lineToSplit.publication
-                    );
-
-                    newLine.order = lineToSplit.order + idx;
-
-                    lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition);
-                    textList.add((int) splitLine, newLine);
-                } catch (StringIndexOutOfBoundsException e)
-                {
-                    String msg = "Split Line(" + splitLine + " of " + textList.size() + ") on Position (" + splitAfterPosition + " of " + lineToSplit.text.length() + "): \r\n\t" + lineToSplit.text;
-                    super.logException(this.getClass(), e, d, msg);
-                }
-            } else
-            {
-                LOGGER.debug("Line(" + splitLine + ") not existing in List. REASON: dropped by previous rule?");
-            }
-        } catch (IndexOutOfBoundsException e)
+            textList = this.splitLineAfterPosition(textList, splitLine, splitAfterPosition, insertSmall, d);
+        }
+        catch (IndexOutOfBoundsException e)
         {
             String msg = "Split Line does not exist(" + splitLine + " of " + textList.size() + ")";
             super.logException(this.getClass(), e, d, msg);
+        }
+        return textList;
+    }
+
+    private List<TextWithMetaInfo> splitLineAfterPosition(List<TextWithMetaInfo> textList, double splitLine, int splitAfterPosition, boolean insertSmall, String d)
+    {
+        Optional<TextWithMetaInfo> lineToSplitOptional = textList.stream().filter(t -> t.onLine == splitLine).findFirst();
+        if (lineToSplitOptional.isPresent())
+        {
+            TextWithMetaInfo lineToSplit = lineToSplitOptional.get();
+            try
+            {
+                String newLineText = lineToSplit.text.substring(splitAfterPosition);
+                double idx = insertSmall ? NEW_LINE_SMALL_IDX : NEW_LINE_IDX;
+                TextWithMetaInfo newLine = new TextWithMetaInfo(
+                    newLineText,
+                    lineToSplit.isBold,
+                    lineToSplit.isItalic,
+                    lineToSplit.size,
+                    lineToSplit.font,
+                    lineToSplit.onPage,
+                    lineToSplit.onLine + idx,
+                    lineToSplit.publication
+                );
+
+                newLine.order = lineToSplit.order + idx;
+
+                lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition);
+                textList.add((int) splitLine, newLine);
+            }
+            catch (StringIndexOutOfBoundsException e)
+            {
+                String msg = "Split Line(" + splitLine + " of " + textList.size() + ") on Position (" + splitAfterPosition + " of " + lineToSplit.text.length() + "): \r\n\t" + lineToSplit.text;
+                super.logException(this.getClass(), e, d, msg);
+            }
+        } else
+        {
+            LOGGER.debug("Line(" + splitLine + ") not existing in List. REASON: dropped by previous rule?");
         }
         return textList;
     }

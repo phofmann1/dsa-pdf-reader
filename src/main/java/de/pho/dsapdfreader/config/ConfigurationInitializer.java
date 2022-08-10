@@ -11,6 +11,10 @@ import de.pho.dsapdfreader.tools.csv.CsvHandler;
 
 public class ConfigurationInitializer
 {
+    private ConfigurationInitializer()
+    {
+    }
+
     public static final Logger LOGGER = LogManager.getLogger();
 
     public static List<TopicConfiguration> readTopicConfigurations()

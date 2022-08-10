@@ -17,7 +17,10 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -34,7 +37,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterApplyChangesToMysticalSkills;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMeritsAndFlaws;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillMedium;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillSmall;
@@ -42,6 +49,7 @@ import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.CsvHandler;
@@ -60,18 +68,19 @@ public class DsaPdfReaderMain
     private static final String FILE_STRATEGY_2_RAW = PATH_STRATEGY_2_RAW + DOCUMENT + "_raw.csv";
     private static final String PATH_RAW_2_JSON = PATH_BASE + "04 - json\\";
     private static final String FILE_RAW_2_JSON = PATH_RAW_2_JSON + DOCUMENT + ".json";
+    private static final String SEPARATOR = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 
     private static List<TopicConfiguration> configs = null;
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static void main(String[] args)
     {
-        LOGGER.info("----------------------------------");
+        LOGGER.info(SEPARATOR);
         LOGGER.info("start");
         Instant start = Instant.now();
         LOGGER.debug("init config");
         initConfig();
-        LOGGER.info("----------------------------------");
+        LOGGER.info(SEPARATOR);
 
         boolean isToText = Arrays.asList(args).contains("toText");
         boolean isToStrategy = Arrays.asList(args).contains("toStrategy");
@@ -87,9 +96,9 @@ public class DsaPdfReaderMain
 
 
         isToText = false;
-        isToStrategy = true;
+        isToStrategy = false;
         isToRaws = true;
-        isToJson = true;
+        isToJson = false;
         isSummarize = true;
 
         if (isToText) convertToText();
@@ -102,12 +111,12 @@ public class DsaPdfReaderMain
         if (isToJson && isSummarize) summarizeMsJson(PATH_RAW_2_JSON, "all.json");
 
         Instant end = Instant.now();
-        Duration timeElapsed = Duration.between(start, end);
-
-        LOGGER.info(timeElapsed.toString()
+        String timeString = Duration.between(start, end)
+            .toString()
             .substring(2)
             .replaceAll("(\\d[HMS])(?!$)", "$1 ")
-            .toLowerCase());
+            .toLowerCase();
+        LOGGER.info(timeString);
 
         LOGGER.info("----------------------------------");
         LOGGER.info("finish");
@@ -166,7 +175,7 @@ public class DsaPdfReaderMain
                         });
                     } catch (JsonProcessingException e)
                     {
-                        LOGGER.error("JSON processing Error in " + path, e);
+                        LOGGER.error("JSON processing Error in %s", path, e);
                     }
                     return new ArrayList<MysticalSkill>();
                 })
@@ -176,10 +185,11 @@ public class DsaPdfReaderMain
                 .writerWithDefaultPrettyPrinter()
                 .writeValueAsString(mysticalSkills);
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter(path + file));
-            writer.write(jsonResult);
-            writer.flush();
-            writer.close();
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(path + file)))
+            {
+                writer.write(jsonResult);
+                writer.flush();
+            }
         } catch (IOException e)
         {
             LOGGER.error(e.getMessage(), e);
@@ -199,7 +209,7 @@ public class DsaPdfReaderMain
             }
         } catch (IOException e)
         {
-            LOGGER.error("Error reading File (" + file.getAbsolutePath() + ")");
+            LOGGER.error("Error reading File (%s)", file.getAbsolutePath());
         }
         return resultStringBuilder.toString();
     }
@@ -210,7 +220,7 @@ public class DsaPdfReaderMain
         configs.stream()
             .filter(c -> c != null && c.active)
             .forEach(conf -> {
-                LOGGER.info("Config PDF import verarbeiten: " + conf.publication + " (" + conf.topic + ")");
+                LOGGER.info("Config PDF import verarbeiten: %s (%s)", conf.publication, conf.topic);
 
                 List<TextWithMetaInfo> pdfResults;
                 try
@@ -226,13 +236,13 @@ public class DsaPdfReaderMain
                         .sorted((a, b) -> a.sortIndex() < b.sortIndex() ? -1 : 1)
                         .collect(Collectors.toList());
 
-                    File fOut = new File(FILE_PDF_2_TEXT.replaceAll(DOCUMENT, conf.publication + "_" + conf.topic));
+                    File fOut = new File(FILE_PDF_2_TEXT.replace(DOCUMENT, conf.publication + "_" + conf.topic));
                     CsvHandler.writeBeanToUrl(fOut, texts);
                 } catch (IOException | NullPointerException e)
                 {
                     LOGGER.error(e.getMessage(), e);
                 }
-                LOGGER.debug("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                LOGGER.debug(SEPARATOR);
             });
     }
 
@@ -241,7 +251,8 @@ public class DsaPdfReaderMain
         configs.stream()
             .filter(c -> c != null && c.active)
             .forEach(conf -> {
-                LOGGER.info("Config Strategie verarbeiten: " + conf.publication + " (" + conf.topic + ")");
+                String msg = String.format("Config Strategie verarbeiten: %s (%s)", conf.publication, conf.topic);
+                LOGGER.info(msg);
                 LOGGER.debug(generateFileName(FILE_PDF_2_TEXT, conf));
                 File fIn = new File(generateFileName(FILE_PDF_2_TEXT, conf));
 
@@ -252,13 +263,13 @@ public class DsaPdfReaderMain
 
                     texts = applyStrategies(texts, conf);
 
-                    File fOut = new File(FILE_TEXT_2_STRATEGY.replaceAll(DOCUMENT, conf.publication + "_" + conf.topic));
+                    File fOut = new File(FILE_TEXT_2_STRATEGY.replace(DOCUMENT, conf.publication + "_" + conf.topic));
                     CsvHandler.writeBeanToUrl(fOut, texts);
                 } catch (NullPointerException e)
                 {
                     LOGGER.error(e.getMessage(), e);
                 }
-                LOGGER.debug("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                LOGGER.debug(SEPARATOR);
             });
     }
 
@@ -268,7 +279,8 @@ public class DsaPdfReaderMain
         configs.stream()
             .filter(conf -> conf != null && conf.active)
             .forEach(conf -> {
-                LOGGER.info("Config zu raw-objects verarbeiten: " + conf.publication + " (" + conf.topic + ")");
+                String msg = String.format("Config zu raw-objects verarbeiten: %s (%s)", conf.publication, conf.topic);
+                LOGGER.info(msg);
 
                 File fIn = new File(generateFileName(FILE_TEXT_2_STRATEGY, conf));
 
@@ -279,30 +291,34 @@ public class DsaPdfReaderMain
 
                     List results = parseResult(texts, conf);
 
-
-                    File fOut = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
-                    LOGGER.info("# of MysticalSkills of Type (" + conf.topic + "): " + results.size());
-                    CsvHandler.writeBeanToUrl(fOut, results);
+                    if (results != null)
+                    {
+                        File fOut = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+                        msg = String.format("# of MysticalSkills of Type (%s): %s", conf.topic, results.size());
+                        LOGGER.info(msg);
+                        CsvHandler.writeBeanToUrl(fOut, results);
+                    }
                 } catch (NullPointerException e)
                 {
                     LOGGER.error(e.getMessage(), e);
                 }
-                LOGGER.debug("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                LOGGER.debug(SEPARATOR);
             });
     }
 
     private static String generateFileName(String filePattern, TopicConfiguration conf)
     {
-        return filePattern.replaceAll(DOCUMENT, conf.publication + "_" + conf.topic);
+        return filePattern.replace(DOCUMENT, conf.publication + "_" + conf.topic);
     }
 
 
     private static void convertToJson()
     {
         configs.stream()
-            .filter(conf -> conf != null && conf.active)
+            .filter(conf -> conf != null && conf.active && conf.topic != TopicEnum.MYSTICAL_SKILL_VARIANTS && conf.topic != TopicEnum.MYSTICAL_SKILL_COMMONNESS)
             .forEach(conf -> {
-                LOGGER.info("Config zu JSON verarbeiten: " + conf.publication + " (" + conf.topic + ")");
+                String msg = String.format("Config zu JSON verarbeiten: %s (%s)", conf.publication, conf.topic);
+                LOGGER.info(msg);
                 try
                 {
 
@@ -387,7 +403,7 @@ public class DsaPdfReaderMain
 
     private static TopicStrategies unmarshall(String fileName)
     {
-        LOGGER.debug("initialize Strategy mapping: " + fileName);
+        LOGGER.debug("initialize Strategy mapping: %s", fileName);
         URL url = DsaPdfReaderMain.class.getResource("/" + fileName);
         File file = new File(url.getFile());
         JAXBContext jaxbContext;
@@ -416,17 +432,99 @@ public class DsaPdfReaderMain
         List results = null;
         switch (conf.topic)
         {
+            case MERITS -> results = new DsaConverterMeritsAndFlaws().convertTextWithMetaInfo(texts, conf);
             case BLESSINGS, TRICKS -> results = new DsaConverterMysticalSkillSmall().convertTextWithMetaInfo(texts, conf);
             case SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkillMedium().convertTextWithMetaInfo(texts, conf);
-            case CURSES, ELFENSONGS -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
-            default -> LOGGER.error("Unexpected value: " + conf.topic);
+            case CURSES, ELFENSONGS, MELODIES, DANCES -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
+            case MYSTICAL_SKILL_VARIANTS ->
+            {
+                List<MysticalSkillRaw> msrs = new DsaConverterApplyChangesToMysticalSkills().convertTextWithMetaInfo(texts, conf);
+                applyToBasis(msrs, conf);
+                results = msrs;
+            }
+            case MYSTICAL_SKILL_COMMONNESS ->
+            {
+                Map<String, List<String>> commonness = new DsaConverterMsyticalSkillCommonness().convertTextWithMetaInfo(texts);
+                applyToMysticalSkills(commonness);
+            }
+            default -> LOGGER.error("Unexpected value: %s", conf.topic);
         }
         return results;
     }
 
+    private static void applyToMysticalSkills(Map<String, List<String>> commonnessList)
+    {
+        try (Stream<Path> paths = Files.walk(Paths.get(PATH_STRATEGY_2_RAW)))
+        {
+            HashMap<Path, List<MysticalSkillRaw>> resultMap = new HashMap();
+            paths.filter(Files::isRegularFile)
+                .filter(p -> !p.endsWith("all_raw.csv"))
+                .forEach(p -> resultMap.put(p, CsvHandler.readBeanFromPath(MysticalSkillRaw.class, p)));
+
+            resultMap.forEach((k, v) -> {
+                List<MysticalSkillRaw> newMsList = v.stream().map(msr -> {
+                    if (commonnessList.containsKey(msr.name))
+                    {
+                        for (String commonness : commonnessList.get(msr.name))
+                        {
+                            if (!(msr.commonness.contains(commonness) || msr.commonness.contains(commonness.toLowerCase())))
+                                msr.commonness = msr.commonness + ", " + commonness;
+                        }
+                    }
+                    return msr;
+                }).collect(Collectors.toList());
+                File fOut = new File(k.toString());
+                CsvHandler.writeBeanToUrl(fOut, newMsList);
+            });
+        }
+        catch (IOException e)
+        {
+            LOGGER.error(e.getMessage(), e);
+        }
+    }
+
+    private static void applyToBasis(List<MysticalSkillRaw> variants, TopicConfiguration conf)
+    {
+        LOGGER.info("Apply to BASIS: " + conf.publication + " (" + conf.topic + ")");
+        if (conf.publication.equals("Magie_1"))
+        {
+            applyVariantsToBasisMysticalSkills(variants, TopicEnum.SPELLS);
+            applyVariantsToBasisMysticalSkills(variants, TopicEnum.RITUALS);
+        }
+        if (conf.publication.equals("Götter_1"))
+        {
+            applyVariantsToBasisMysticalSkills(variants, TopicEnum.LITURGIES);
+            applyVariantsToBasisMysticalSkills(variants, TopicEnum.CEREMONIES);
+        }
+    }
+
+    private static void applyVariantsToBasisMysticalSkills(List<MysticalSkillRaw> variants, TopicEnum topic)
+    {
+        File fIn = new File(FILE_STRATEGY_2_RAW.replace(DOCUMENT, Publication.BASIS + "_" + topic));
+        List<MysticalSkillRaw> spells = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, fIn);
+        List<MysticalSkillRaw> results = spells.stream().map(msr -> {
+            Optional<MysticalSkillRaw> applicablveVariatnMsr = variants.stream().filter(v -> v.name.equals(msr.name)).findFirst();
+            if (applicablveVariatnMsr.isPresent())
+            {
+                msr.variantsText = applicablveVariatnMsr.get().variantsText;
+                msr.variant1 = applicablveVariatnMsr.get().variant1;
+                msr.variant2 = applicablveVariatnMsr.get().variant2;
+                msr.variant3 = applicablveVariatnMsr.get().variant3;
+                msr.variant4 = applicablveVariatnMsr.get().variant4;
+                msr.variant5 = applicablveVariatnMsr.get().variant5;
+            } else
+            {
+                LOGGER.error("Für das Topic (%s)  (%s) wurden keine Varianten gefunden.", topic, msr.name);
+            }
+            return msr;
+        }).collect(Collectors.toList());
+
+        CsvHandler.writeBeanToUrl(fIn, results);
+    }
+
     private static void logAnalysisForPublication(String publication, List<TextWithMetaInfo> rawList)
     {
-        String fileName = FILE_PDF_2_TEXT.replaceAll(DOCUMENT, publication);
+        String fileName = FILE_PDF_2_TEXT.replace(DOCUMENT, publication);
         File output = new File(fileName);
         CsvHandler.writeBeanToUrl(output, rawList);
     }

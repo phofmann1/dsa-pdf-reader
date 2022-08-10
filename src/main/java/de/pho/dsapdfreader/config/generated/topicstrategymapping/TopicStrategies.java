@@ -78,7 +78,7 @@ public class TopicStrategies
     {
         if (strategy == null)
         {
-            strategy = new ArrayList<TopicStrategies.Strategy>();
+            strategy = new ArrayList<>();
         }
         return this.strategy;
     }

@@ -18,38 +18,38 @@ public class DsaConverterMysticalSkillMedium extends DsaConverter<MysticalSkillR
     }
 
     @Override
-    protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
+    protected void applyDataValue(MysticalSkillRaw msr, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
     {
-        if (ms != null)
+        if (msr != null)
         {
-            new DsaConverterMysticalSkillSmall().applyDataValue(ms, t, cleanText, flags);
+            new DsaConverterMysticalSkillSmall().applyDataValue(msr, t, cleanText, flags);
 
-            if (flags.wasCheck.get()) ms.check = concatForDataValue(ms.check, cleanText).replace(":", "").trim();
-            if (flags.wasEffect.get()) ms.effect = concatForDataValueWithMarkup(ms.effect, t, cleanText);
-            if (flags.wasCastingDuration.get()) ms.castingDuration = concatForDataValue(ms.castingDuration, cleanText);
-            if (flags.wasCost.get()) ms.cost = concatForDataValue(ms.cost, cleanText);
-            if (flags.wasCommonness.get()) ms.commonness = concatForDataValue(ms.commonness, cleanText);
-            if (flags.wasFurtherInformation.get()) ms.furtherInformation = concatForDataValue(ms.furtherInformation, cleanText);
+            if (flags.wasCheck.get()) msr.check = concatForDataValue(msr.check, cleanText).replace(":", "").trim();
+            if (flags.wasEffect.get()) msr.effect = concatForDataValueWithMarkup(msr.effect, t, cleanText);
+            if (flags.wasCastingDuration.get()) msr.castingDuration = concatForDataValue(msr.castingDuration, cleanText);
+            if (flags.wasCost.get()) msr.cost = concatForDataValue(msr.cost, cleanText);
+            if (flags.wasCommonness.get()) msr.commonness = concatForDataValue(msr.commonness, cleanText);
+            if (flags.wasFurtherInformation.get()) msr.furtherInformation = concatForDataValue(msr.furtherInformation, cleanText);
 
             if (flags.wasAdvancementCategory.get())
             {
-                ms.advancementCategory = concatForDataValue(ms.advancementCategory, cleanText);
+                msr.advancementCategory = concatForDataValue(msr.advancementCategory, cleanText);
                 flags.wasAdvancementCategory.set(false);
                 flags.wasFurtherInformation.set(true);
             }
 
-            if (flags.wasQs1.get()) ms.qs1 = concatForDataValue(ms.qs1, cleanText).replace(":", "").trim();
-            if (flags.wasQs2.get()) ms.qs2 = concatForDataValue(ms.qs2, cleanText).replace(":", "").trim();
-            if (flags.wasQs3.get()) ms.qs3 = concatForDataValue(ms.qs3, cleanText);
-            if (flags.wasQs4.get()) ms.qs4 = concatForDataValue(ms.qs4, cleanText);
-            if (flags.wasQs5.get()) ms.qs5 = concatForDataValue(ms.qs5, cleanText);
-            if (flags.wasQs6.get()) ms.qs6 = concatForDataValue(ms.qs6, cleanText);
+            if (flags.wasQs1.get()) msr.qs1 = concatForDataValue(msr.qs1, cleanText).replace(":", "").trim();
+            if (flags.wasQs2.get()) msr.qs2 = concatForDataValue(msr.qs2, cleanText).replace(":", "").trim();
+            if (flags.wasQs3.get()) msr.qs3 = concatForDataValue(msr.qs3, cleanText);
+            if (flags.wasQs4.get()) msr.qs4 = concatForDataValue(msr.qs4, cleanText);
+            if (flags.wasQs5.get()) msr.qs5 = concatForDataValue(msr.qs5, cleanText);
+            if (flags.wasQs6.get()) msr.qs6 = concatForDataValue(msr.qs6, cleanText);
 
-            if (flags.wasVariants.get()) ms.variantsText = concatForDataValueWithMarkup(ms.variantsText, t, cleanText);
+            if (flags.wasVariants.get()) msr.variantsText = concatForDataValueWithMarkup(msr.variantsText, t, cleanText);
 
         } else
         {
-            LOGGER.error("msMedium was null: " + t.text);
+            LOGGER.error("MysticalSkillRaw was null: " + t.text);
         }
     }
 }

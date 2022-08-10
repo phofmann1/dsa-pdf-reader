@@ -2,9 +2,14 @@ package de.pho.dsapdfreader.exporter.model;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import de.pho.dsapdfreader.exporter.model.enums.Unit;
+
 public class Cost
 {
-    public int cost;
+    @JsonProperty("cost")
+    public int costValue;
     public int costPlus;
     public Unit[] costPlusUnit;
     public String costSpecial;

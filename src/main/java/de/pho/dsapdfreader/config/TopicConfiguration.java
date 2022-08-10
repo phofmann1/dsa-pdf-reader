@@ -31,10 +31,6 @@ public class TopicConfiguration
     @CsvBindByName
     public String strategyMapping;
 
-    public TopicConfiguration()
-    {
-    }
-
     @Override
     public String toString()
     {

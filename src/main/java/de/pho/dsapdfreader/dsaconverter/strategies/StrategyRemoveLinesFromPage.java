@@ -10,8 +10,6 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
 {
-    private static final String FROM_LINE = "fromLine";
-    private static final String UNTIL_LINE = "untilLine";
 
     @Override
     public List<TextWithMetaInfo> applyStrategy(List<TextWithMetaInfo> texts, List<Parameter> parameters, String description, String publication, TopicEnum topic)
@@ -25,7 +23,7 @@ public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
 
             logApplicationOfStrategy(description);
             List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
-            resultsByPage = applyStrategyToPage(resultsByPage, fromLine, untilLine, description);
+            resultsByPage = applyStrategyToPage(resultsByPage, fromLine, untilLine);
             returnValue = replacePage(texts, applyToPage, resultsByPage);
 
         } catch (DsaConverterException e)
@@ -36,7 +34,7 @@ public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
         return returnValue;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double fromLine, double untilLine, String d)
+    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double fromLine, double untilLine)
     {
         double endLine = untilLine > fromLine ? untilLine : textList.size();
         return textList.stream().filter(t -> t.onLine < fromLine || t.onLine > endLine).collect(Collectors.toList());

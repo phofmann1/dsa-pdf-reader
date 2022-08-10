@@ -103,7 +103,8 @@ public class DsaPDFTextStripper extends PDFTextStripper
                     text = wasBold.get()
                         ? text.replaceAll(":", "").trim()
                         : text;
-                    text = text.replaceAll(";", "<br>");
+                    text = text.replaceAll(";", "<br>")
+                        .replaceAll("\\…", "...");
 
                     localResultTexts.add(new TextWithMetaInfo(
                         text,

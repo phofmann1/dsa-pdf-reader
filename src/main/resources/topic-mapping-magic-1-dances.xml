@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Concat Wirkung on Page 59" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>59</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>5</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

@@ -39,7 +39,6 @@ public class StrategyPutToEndOfPage extends DsaConverterStrategy
 
     private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double startLinNo, double endLineNo)
     {
-        TextWithMetaInfo current;
 
         AtomicInteger order = new AtomicInteger(0);
         List<TextWithMetaInfo> newList = textList.stream()

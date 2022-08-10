@@ -9,7 +9,7 @@ import com.opencsv.exceptions.CsvDataTypeMismatchException;
 
 import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
 
-public class MysticalSkillVariantConvert extends AbstractBeanField
+public class MysticalSkillVariantConvert extends AbstractBeanField<MysticalSkillVariant, String>
 {
     public static final String MSV_SEPARATOR = "|";
     private static final String MSV_SEPARATOR_REGEX = "\\" + MSV_SEPARATOR;
@@ -32,7 +32,7 @@ public class MysticalSkillVariantConvert extends AbstractBeanField
                 returnValue.requiredVariantName = (values[4] != null && !values[4].isEmpty() && !values[4].equalsIgnoreCase("null")) ? values[4] : null;
             } else
             {
-                LOGGER.error("Not a valid Variant string: " + s);
+                LOGGER.error("Not a valid Variant string ({0}): {1}", MSV_SEPARATOR_REGEX, s);
             }
         }
         return returnValue;

@@ -1,21 +1,25 @@
 package de.pho.dsapdfreader.exporter;
 
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
-import de.pho.dsapdfreader.exporter.extractor.Extractor;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorAdvancementCategory;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorCastingDuration;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorCheck;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorFeature;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillCost;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillKey;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillModifications;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorMysticalSkillVariant;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorSkillDuration;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorSkillRange;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorTargetCategory;
-import de.pho.dsapdfreader.exporter.extractor.ExtractorTradtion;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAdvancementCategory;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCastingDuration;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCheck;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorFeature;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillDifficulty;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillModifications;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillVariant;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillDuration;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillRange;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTargetCategory;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
-import de.pho.dsapdfreader.exporter.model.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
+import de.pho.dsapdfreader.tools.csv.ValueMapperTool;
 
 
 public class LoadToMysticalSkill
@@ -32,7 +36,7 @@ public class LoadToMysticalSkill
         returnValue.name = msr.name;
         returnValue.advancementCategory = ExtractorAdvancementCategory.retrieveAdvancementCategory(msr);
         returnValue.features = ExtractorFeature.retrieveFeatures(msr);
-        returnValue.publication = Publication.valueOf(msr.publication);
+        returnValue.publication = Publication.valueOf(ValueMapperTool.mapStringToEnumName(msr.publication));
         returnValue.category = Extractor.retrieveCategory(msr.topic);
         returnValue.check = ExtractorCheck.retrieveCheck(msr, returnValue.category);
         returnValue.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, returnValue.category);
@@ -41,10 +45,18 @@ public class LoadToMysticalSkill
         returnValue.targetCategories = ExtractorTargetCategory.retrieveTargetCategories(msr);
         returnValue.skillRange = ExtractorSkillRange.retrieveSkillRange(msr);
         returnValue.traditions = ExtractorTradtion.retrieveTraditions(msr, returnValue.category);
+        if (
+            returnValue.traditions.contains(TraditionKey.DANCER)
+                || returnValue.traditions.contains(TraditionKey.BARDE)
+        )
+        {
+            returnValue.traditionSubs = ExtractorTradtion.retrieveTraditionSubs(msr);
+        }
         returnValue.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
         returnValue.skillCost = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
         returnValue.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
         returnValue.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
+        returnValue.skillKeys = ExtractorSkillKey.retrieveSkillKeys(msr);
         // elemental Categories are missing
         return returnValue;
     }

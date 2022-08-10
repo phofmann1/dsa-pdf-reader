@@ -64,6 +64,8 @@ public class MysticalSkillRaw implements DsaObjectI
     public MysticalSkillVariant variant4;
     @CsvCustomBindByName(converter = MysticalSkillVariantConvert.class)
     public MysticalSkillVariant variant5;
+    @CsvBindByName
+    public String talentKey;
 
     @Override
     public String toString()

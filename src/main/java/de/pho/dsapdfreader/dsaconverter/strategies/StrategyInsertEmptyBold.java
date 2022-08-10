@@ -38,6 +38,7 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
 
     private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double insertAfterLine, boolean insertSmall, String d)
     {
+        List<TextWithMetaInfo> returnValue = textList;
         OptionalInt addAfterIndexOpt = IntStream.range(0, textList.size())
             .filter(i -> insertAfterLine == textList.get(i).onLine)
             .findFirst();
@@ -56,12 +57,12 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
                 textList.get(addAfterIndex).publication
             );
             emptyBoldLine.order = textList.get(addAfterIndex).order + idx;
-            textList.add(addAfterIndex, emptyBoldLine);
+            returnValue.add(addAfterIndex, emptyBoldLine);
         } catch (IndexOutOfBoundsException e)
         {
             String msg = "insertAfter line(" + insertAfterLine + ") with index(" + addAfterIndex + ") outside pageSize(" + textList.size() + ")";
             super.logException(this.getClass(), e, d, msg);
         }
-        return textList;
+        return returnValue;
     }
 }

@@ -1,6 +1,7 @@
 package de.pho.dsapdfreader.dsaconverter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
@@ -10,6 +11,28 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkillRaw>
 {
+    protected static boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+    {
+        return !t.isBold && Arrays.stream(KEYS).noneMatch(k -> k.equals(cleanText))
+            || t.text.startsWith("QS "); // exception for QS lists
+    }
+
+    protected static boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+    {
+        return t.isBold && Arrays.stream(KEYS).anyMatch(k -> k.equals(cleanText));
+    }
+
+    protected static boolean validateIsName(TextWithMetaInfo t)
+    {
+        return t.text.endsWith("Probe") && t.isBold;
+    }
+
+    @Override
+    protected MysticalSkillRaw initializeType()
+    {
+        return new MysticalSkillRaw();
+    }
+
     @Override
     public List<MysticalSkillRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> texts, TopicConfiguration conf)
     {
@@ -21,8 +44,11 @@ public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkil
             String cleanText = t.text.trim();
 
             boolean isName = validateIsName(t);
-            boolean isDataKey = t.isBold;
-            boolean isDataValue = !t.isBold;
+            boolean isDataKey = validateIsDataKey(t, cleanText, conf);
+            boolean isDataValue = validateIsDataValue(t, cleanText, conf);
+
+            // validate the QS flags, they act differently, because they are also part of the effect
+            handleWasQsValues(flags, t);
 
             // handle name
             if (isName)
@@ -56,26 +82,16 @@ public class DsaConverterMysticalSkillActivity extends DsaConverter<MysticalSkil
             if (isDataValue)
             {
                 applyDataValue(last(returnValue), t, cleanText, flags);
+                applyFlagsForQs(flags, t.text);
             }
         });
         return returnValue;
-    }
-
-
-    @Override
-    protected MysticalSkillRaw initializeType()
-    {
-        return new MysticalSkillRaw();
     }
 
     @Override
     protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
     {
         new DsaConverterMysticalSkillMedium().applyDataValue(ms, t, cleanText, flags);
-    }
-
-    private boolean validateIsName(TextWithMetaInfo t)
-    {
-        return t.text.endsWith("Probe") && t.isBold;
+        if (flags.wasTalent.get()) ms.talentKey = concatForDataValue(ms.talentKey, cleanText).replace(":", "").trim();
     }
 }

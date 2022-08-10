@@ -1,0 +1,30 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Remove bold line from Page 47" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>82</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove bold line from Page 47" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>120</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>
