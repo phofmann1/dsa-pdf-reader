@@ -31,6 +31,7 @@ public class DsaStringCleanupTool
             .replaceAll("(?<=[a-zßöäü]) -(?=[a-zßöäü])", "") // replace " -" between lower chars with ""
             .replace("> -", ">-") // case: "<i>Sinnesschärfe</i> -Probe"
             .replaceAll("^ :|^:", "") // case: ": Sinnesschärfe-Probe"
+            .replace(" –", "")
             .trim();
     }
 }

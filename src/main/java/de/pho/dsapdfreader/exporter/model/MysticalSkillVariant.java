@@ -1,6 +1,6 @@
 package de.pho.dsapdfreader.exporter.model;
 
-import static de.pho.dsapdfreader.dsaconverter.model.MysticalSkillVariantConvert.MSV_SEPARATOR;
+import static de.pho.dsapdfreader.dsaconverter.model.CsvCustomConvertMysticalSkillVariant.MSV_SEPARATOR;
 
 public class MysticalSkillVariant
 {

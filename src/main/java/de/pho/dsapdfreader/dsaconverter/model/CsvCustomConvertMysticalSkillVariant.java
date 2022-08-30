@@ -4,19 +4,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.opencsv.bean.AbstractBeanField;
-import com.opencsv.exceptions.CsvConstraintViolationException;
-import com.opencsv.exceptions.CsvDataTypeMismatchException;
 
 import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
 
-public class MysticalSkillVariantConvert extends AbstractBeanField<MysticalSkillVariant, String>
+public class CsvCustomConvertMysticalSkillVariant extends AbstractBeanField<MysticalSkillVariant, String>
 {
     public static final String MSV_SEPARATOR = "|";
     private static final String MSV_SEPARATOR_REGEX = "\\" + MSV_SEPARATOR;
     private static final Logger LOGGER = LogManager.getLogger();
 
     @Override
-    protected MysticalSkillVariant convert(String s) throws CsvDataTypeMismatchException, CsvConstraintViolationException
+    protected MysticalSkillVariant convert(String s)
     {
         MysticalSkillVariant returnValue = null;
         if (s != null && !s.isEmpty())

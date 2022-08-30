@@ -10,10 +10,17 @@ import org.apache.logging.log4j.Logger;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.DsaObjectI;
+import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsI;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.DsaStringCleanupTool;
 
-public abstract class DsaConverter<T extends DsaObjectI>
+/**
+ * Basis Converter für das umwandeln von TextWithMedaInfo in ein RAW Format
+ *
+ * @param <T> gewünschtes Ergebnis der Konvertierung. Muss vm Typ {@link de.pho.dsapdfreader.dsaconverter.model.DsaObjectI} sein.
+ * @param <F> flags zum differenzieren der aktuell gelesenen Inhalte. Abhängig von T. Muss vom Typ {@link ConverterAtomicFlagsI} sein.
+ */
+public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtomicFlagsI>
 {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final Pattern patternIsNumber = Pattern.compile("-?\\d+(\\.\\d+)?");
@@ -27,12 +34,27 @@ public abstract class DsaConverter<T extends DsaObjectI>
         return DsaStringCleanupTool.cleanupString(returnValue);
     }
 
+    protected static String concatForDataValueWithMarkup(String origin, String cleanText, boolean isBold, boolean isItalic)
+    {
+        String newText = cleanText;
+        if (!newText.isEmpty())
+        {
+            if (isBold) newText = "<b>" + newText + "</b>";
+            if (isItalic) newText = "<i>" + newText + "</i>";
+        }
+        return concatForDataValue(origin, newText);
+    }
+
+    protected static boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
+    {
+        return t.size == conf.nameSize;
+    }
+
     public List<T> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
     {
         List<T> returnValue = new ArrayList<>();
-        String msg = String.format("parse  result to %s", initializeType().getClass().getName());
+        String msg = String.format("parse  result to %s", getClassName());
         LOGGER.debug(msg);
-        AtomicConverterFlag flags = new AtomicConverterFlag();
 
         resultList
             .forEach(t -> {
@@ -41,61 +63,99 @@ public abstract class DsaConverter<T extends DsaObjectI>
                     .trim();
 
                 // validate the flags for conf
-                boolean isName = validateIsName(t, conf);
-                boolean isNameSkipped = isName && isNumeric(t.text); // gets skipped, when the name is a number (Page Number in some documents)
+                boolean isFirstValue = validateIsFirstValue(t, conf);
+                boolean isFirstValueSkipped = isFirstValue && isNumeric(t.text); // gets skipped, when the firstValue is a number (Page Number in some documents)
                 boolean isDataKey = validateIsDataKey(t, cleanText, conf);
                 boolean isDataValue = validateIsDataValue(t, cleanText, conf);
+                handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-                // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
-                handleWasNoKeyStrings(flags, t);
-                handleName(isName, isNameSkipped, flags, returnValue, conf, cleanText);
+                finishPredecessorAndStartNew(isFirstValue, isFirstValueSkipped, returnValue, conf, cleanText);
 
                 // handle keys
                 if (isDataKey)
                 {
-                    applyFlagsForKey(flags, t.text);
+                    applyFlagsForKey(t.text);
                 }
 
                 // handle values
                 if (isDataValue)
                 {
-                    applyDataValue(last(returnValue), t, cleanText, flags);
-                    applyFlagsForNoKeyStrings(flags, t.text);
+                    applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
+                    applyFlagsForNoKeyStrings(getFlags(), t.text);
                 }
 
-                flags.wasName.set(isName && !isNameSkipped);
+                getFlags().getFirstFlag().set(isFirstValue && !isFirstValueSkipped);
 
             });
-        concludePredecessor(returnValue); //finish the last entry in list
+        concludePredecessor(last(returnValue)); //finish the last entry in list
         return returnValue;
     }
 
-    protected void applyFlagsForNoKeyStrings(AtomicConverterFlag flags, String text)
+    protected void finishPredecessorAndStartNew(boolean isFirstValue, boolean isFirstValueSkipped, List<T> returnValue, TopicConfiguration conf, String cleanText)
     {
+        if (isFirstValue && !isFirstValueSkipped && !getFlags().getFirstFlag().get())
+        {
+            concludePredecessor(last(returnValue));
+            handleFirstValue(returnValue, conf, cleanText);
+        }
     }
 
-    protected void handleWasNoKeyStrings(AtomicConverterFlag flags, TextWithMetaInfo t)
-    {
-    }
-
-    protected abstract void applyFlagsForKey(AtomicConverterFlag flags, String text);
-
+    /**
+     * gibt alle Strings zurück welche einen KEY in den konvertierten Texten darstellt. Diese sind abhängig von dem Typen (T)
+     *
+     * @return Array mit Keys eines DSA Objekts. Arbeitet mit den flags zusammen.
+     */
     protected abstract String[] getKeys();
+
+    /**
+     * gibt alle Flags zur Konvertierung für den Text in das Zielobjekt zurück. Diese sind abhängig von dem Typen (T)
+     *
+     * @return Objekt mit Atomic Flags zum Abarbeiten der eines DSA Objekts. Arbeitet mit den keys zusammen.
+     */
+    protected abstract F getFlags();
+
+    /**
+     * gibt den Klassennamen der tatsächlichen Instanz für das Logging zurück
+     *
+     * @return name der tatsächlichen Implementierung
+     */
+    protected abstract String getClassName();
+
+    /**
+     * initialisiert das Zielobjekt, wenn der aktuelle Text als erstes Element eines DSA Objekts identifiziert wurde.
+     *
+     * @param returnValue
+     * @param conf
+     * @param cleanText
+     */
+    protected abstract void handleFirstValue(List<T> returnValue, TopicConfiguration conf, String cleanText);
+
+    /**
+     * Übernimmt einen key und setzt die entsprechenden flags
+     *
+     * @param key Text, welcher einen key repräsentieren sollte
+     */
+    protected abstract void applyFlagsForKey(String key);
+
+    /**
+     * Wendet einen Datenwert auf das aktuellste Zielobjekt an
+     *
+     * @param currentDataObject das aktuellste Zielobjekt
+     * @param cleanText         bereinigte Version des textes zum Setzen im aktuellen Zielobjekt
+     * @param isBold            markiert den Text als Fettdruck
+     * @param isItalic          markiert den Text als Kursivdruck
+     */
+    protected abstract void applyDataValue(T currentDataObject, String cleanText, boolean isBold, boolean isItalic);
+
+    protected abstract void concludePredecessor(T lastEntry);
 
     protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
         return t.size <= conf.dataSize && Arrays.stream(getKeys()).noneMatch(k -> k.equals(cleanText));
     }
 
-    protected static String concatForDataValueWithMarkup(String origin, TextWithMetaInfo t, String cleanText)
+    protected void applyFlagsForNoKeyStrings(F flags, String text)
     {
-        String newText = cleanText;
-        if (!newText.isEmpty())
-        {
-            if (t.isBold) newText = "<b>" + newText + "</b>";
-            if (t.isItalic) newText = "<i>" + newText + "</i>";
-        }
-        return concatForDataValue(origin, newText);
     }
 
     protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
@@ -103,9 +163,8 @@ public abstract class DsaConverter<T extends DsaObjectI>
         return t.size <= conf.dataSize && t.isBold && Arrays.asList(getKeys()).contains(cleanText);
     }
 
-    protected static boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf)
+    protected void handleWasNoKeyStrings(F flags, TextWithMetaInfo t)
     {
-        return t.size == conf.nameSize;
     }
 
     private static boolean isNumeric(String strNum)
@@ -116,32 +175,6 @@ public abstract class DsaConverter<T extends DsaObjectI>
         }
         return patternIsNumber.matcher(strNum).matches();
     }
-
-
-    private void handleName(boolean isName, boolean isNameSkipped, AtomicConverterFlag flags, List<T> returnValue, TopicConfiguration conf, String cleanText)
-    {
-        // handle name
-        if (isName && !isNameSkipped)
-        {
-            if (!flags.wasName.get())
-            {
-                concludePredecessor(returnValue);
-                T newEntry = initializeType();
-                flags.initDataFlags();
-                newEntry.setTopic(conf.topic);
-                newEntry.setPublication(conf.publication);
-                returnValue.add(newEntry);
-            }
-
-            last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
-        }
-    }
-
-    protected abstract void concludePredecessor(List<T> elementList);
-
-    protected abstract T initializeType();
-
-    protected abstract void applyDataValue(T last, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags);
 
     protected T last(List<T> returnValue)
     {

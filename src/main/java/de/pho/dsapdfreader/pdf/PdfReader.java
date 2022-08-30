@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.pdf;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,6 +14,7 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
+import de.pho.dsapdfreader.tools.csv.DsaStringCleanupTool;
 
 public class PdfReader
 {
@@ -35,16 +37,19 @@ public class PdfReader
         LOGGER.debug("generate PDDocument");
         PDDocument pdDoc = new PDDocument(cosDoc);
 
-        LOGGER.debug("reduce to pages");
-        generalParser.setStartPage(conf.startPage);
-        generalParser.setEndPage(conf.endPage);
-        LOGGER.debug("extract text");
+      LOGGER.debug("reduce to pages");
+      generalParser.setStartPage(conf.startPage);
+      generalParser.setEndPage(conf.endPage);
+      LOGGER.debug("extract text");
 
-        generalParser.getText(pdDoc);
+      generalParser.getText(pdDoc);
 
-        pdDoc.close();
-        cosDoc.close();
+      pdDoc.close();
+      cosDoc.close();
 
-        return generalParser.resultTexts;
+      return generalParser.resultTexts.stream().map(t -> {
+        t.text = DsaStringCleanupTool.cleanupString(t.text);
+        return t;
+      }).collect(Collectors.toList());
     }
 }

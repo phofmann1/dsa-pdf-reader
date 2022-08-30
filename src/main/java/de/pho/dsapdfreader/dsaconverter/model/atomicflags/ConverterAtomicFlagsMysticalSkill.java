@@ -1,20 +1,18 @@
-package de.pho.dsapdfreader.dsaconverter;
+package de.pho.dsapdfreader.dsaconverter.model.atomicflags;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class AtomicConverterFlag
+public class ConverterAtomicFlagsMysticalSkill implements ConverterAtomicFlagsI
 {
-    public AtomicBoolean wasStarted;
-    public AtomicBoolean wasName;
-    public AtomicBoolean wasDescription;
-    public AtomicBoolean wasFeature;
-    public AtomicBoolean wasDuration;
-    public AtomicBoolean wasRemarks;
-    public AtomicBoolean wasTargetCategory;
-    public AtomicBoolean wasRange;
-    public AtomicBoolean wasFinished;
-    public AtomicBoolean wasCheck;
-    public AtomicBoolean wasEffect;
+  public AtomicBoolean wasName;
+  public AtomicBoolean wasDescription;
+  public AtomicBoolean wasFeature;
+  public AtomicBoolean wasDuration;
+  public AtomicBoolean wasRemarks;
+  public AtomicBoolean wasTargetCategory;
+  public AtomicBoolean wasRange;
+  public AtomicBoolean wasCheck;
+  public AtomicBoolean wasEffect;
     public AtomicBoolean wasCastingDuration;
     public AtomicBoolean wasCost;
     public AtomicBoolean wasCommonness;
@@ -29,12 +27,10 @@ public class AtomicConverterFlag
     public AtomicBoolean wasVariants;
     public AtomicBoolean wasTalent;
 
-    public AtomicConverterFlag()
-    {
-        this.wasStarted = new AtomicBoolean(false);
-        this.initDataFlags();
-        this.wasFinished = new AtomicBoolean(false);
-    }
+  public ConverterAtomicFlagsMysticalSkill()
+  {
+    this.initDataFlags();
+  }
 
     public void initDataFlags()
     {
@@ -51,14 +47,20 @@ public class AtomicConverterFlag
         this.wasCost = new AtomicBoolean(false);
         this.wasCommonness = new AtomicBoolean(false);
         this.wasAdvancementCategory = new AtomicBoolean(false);
-        this.wasQs1 = new AtomicBoolean(false);
-        this.wasQs2 = new AtomicBoolean(false);
-        this.wasQs3 = new AtomicBoolean(false);
-        this.wasQs4 = new AtomicBoolean(false);
-        this.wasQs5 = new AtomicBoolean(false);
-        this.wasQs6 = new AtomicBoolean(false);
-        this.wasTalent = new AtomicBoolean(false);
-        this.wasFurtherInformation = new AtomicBoolean(false);
-        this.wasVariants = new AtomicBoolean(false);
+      this.wasQs1 = new AtomicBoolean(false);
+      this.wasQs2 = new AtomicBoolean(false);
+      this.wasQs3 = new AtomicBoolean(false);
+      this.wasQs4 = new AtomicBoolean(false);
+      this.wasQs5 = new AtomicBoolean(false);
+      this.wasQs6 = new AtomicBoolean(false);
+      this.wasTalent = new AtomicBoolean(false);
+      this.wasFurtherInformation = new AtomicBoolean(false);
+      this.wasVariants = new AtomicBoolean(false);
     }
+
+  @Override
+  public AtomicBoolean getFirstFlag()
+  {
+    return this.wasName;
+  }
 }

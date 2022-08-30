@@ -214,8 +214,7 @@ public abstract class Extractor
                 case ELFENSONGS -> MysticalSkillCategory.ELFENSONG;
                 case MELODIES -> MysticalSkillCategory.MELODY;
                 case DANCES -> MysticalSkillCategory.DANCE;
-                case MYSTICAL_SKILL_VARIANTS, MYSTICAL_SKILL_COMMONNESS, MERITS -> null;
-
+              default -> null;
             };
     }
 

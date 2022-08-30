@@ -42,7 +42,7 @@ public class DsaConverterMsyticalSkillCommonness
         while (msNameMatcher.find())
         {
             String key = msNameMatcher.group().replace("Invovatio", "Invocatio").trim();
-            if (key != null)
+            if (!key.isEmpty())
             {
                 if (!returnValue.containsKey(key)) returnValue.put(key, new ArrayList<>());
 

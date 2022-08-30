@@ -1,0 +1,74 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove PreSAStart from Page 249" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>249</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>68</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Box Finte from Page 250" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>250</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>71</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>73</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Box Verteidigungshaltung from Page 253" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>253</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>92</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>93</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage End Column 2 on page 220" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>220</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>82</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

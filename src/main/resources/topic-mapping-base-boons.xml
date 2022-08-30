@@ -1,0 +1,424 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="Remove Spätweihe from Page 168" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>43</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Fuchssinn and Glück Boxes from Page 168" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>75</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>79</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove geweihte Zauberer from Page 168" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>80</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage Geweihter on page 168" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage End of Geweihter on page 168" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>81</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>85</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Beispiel für Magische Einstimmung from Page 170" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>170</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>52</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>68</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Hitze und Kälteresistenz Box from Page 170" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>170</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>78</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Mystiker und Pragmatiker Box from Page 170" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>170</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>90</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Beispiel für Schwer zu verzaubern from Page 171" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>171</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>57</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>60</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Reichtum wichtig oder nicht? from Page 171" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>171</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>71</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>72</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Kombination Soziale Anpassungsfähigkeit und Unfrei Box from Page 171" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>171</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>86</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Nachteil from Page 173" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>173</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>76</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage Arm + artifactbound on page 168" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>173</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>61</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>75</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Beispiel Hitzeempfindlich from Page 175" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>175</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>33</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Beispiel Kälteempfindlich from Page 175" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>175</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>44</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>46</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Box Keine Flugsalbe from Page 175" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>175</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>92</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>93</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Box Beispiele Magische Einschränkung from Page 176" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>176</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>52</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Box Beispiele Magische Einschränkung Zusatznotiz from Page 176" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>176</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>63</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>66</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Remove Box Beispiele Persönlichkeitsschwächen I from Page 177" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>177</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>67</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>96</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Box Beispiele Persönlichkeitsschwächen II + Beispiel Prinzipientreue from Page 178" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>178</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>5</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>59</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Box Beispiele schlechte Angewohnheit from Page 179" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>179</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>74</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Box Beispiele schlechte Eigenschaften from Page 180" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>180</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>48</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="Remove Box Beispiele Stigmata from Page 181" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>181</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>35</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Remove Box Beispiele Verpflichtungen from Page 182" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>182</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>11</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>17</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

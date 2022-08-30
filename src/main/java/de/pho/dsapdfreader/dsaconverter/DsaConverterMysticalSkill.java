@@ -11,11 +11,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Triplet;
 
+import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsMysticalSkill;
 import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
+public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw, ConverterAtomicFlagsMysticalSkill>
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -88,34 +90,49 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
         "^" + REGEX_TITLE_CHARS + "*(\\(FW)"; //case Begin line: "Längere Wirkungsdauer (FW "
     private static final Pattern PATTERN_EXTRACT_TITLE = Pattern.compile(REGEX_EXTRACT_TITLE);
 
+
+    ConverterAtomicFlagsMysticalSkill flags = new ConverterAtomicFlagsMysticalSkill();
+
     public String[] getKeys()
     {
         return KEYS;
     }
 
     @Override
-    protected void applyFlagsForKey(AtomicConverterFlag flags, String text)
+    protected ConverterAtomicFlagsMysticalSkill getFlags()
+    {
+        return flags;
+    }
+
+    @Override
+    protected String getClassName()
+    {
+        return this.getClass().getName();
+    }
+
+    @Override
+    protected void applyFlagsForKey(String key)
     {
         flags.wasName.set(false);
         flags.wasDescription.set(false);
-        flags.wasDuration.set(text.trim().equals(KEY_DURATION_1) || text.trim().equals(KEY_DURATION_2));
-        flags.wasFeature.set(text.trim().equals(KEY_FEATURE) || text.trim().equals(KEY_ASPEKT));
-        flags.wasRange.set(text.trim().equals(KEY_RANGE));
-        flags.wasRemarks.set(text.trim().equals(KEY_REMARK));
-        flags.wasTargetCategory.set(text.trim().equals(KEY_TARGET_CATEGORY));
-        flags.wasCheck.set(text.trim().equals(KEY_CHECK));
-        flags.wasEffect.set(text.trim().equals(KEY_EFFECT));
-        flags.wasCastingDuration.set(text.trim().equals(KEY_CASTING_DURATION_SPELL)
-            || text.trim().equals(KEY_CASTING_DURATION_RITUAL)
-            || text.trim().equals(KEY_CASTING_DURATION_LITURGY)
-            || text.trim().equals(KEY_CASTING_DURATION_LITURGY_TYPO_1)
-            || text.trim().equals(KEY_CASTING_DURATION_CEREMONY));
-        flags.wasCost.set(text.trim().equals(KEY_COST_APS) || text.trim().equals(KEY_COST_KAP));
-        flags.wasCommonness.set(text.trim().equals(KEY_COMMONNESS) || text.trim().equals(KEY_MUSIC_TRADITION));
-        flags.wasAdvancementCategory.set(text.trim().equals(KEY_ADVANCEMENT_CATEGORY));
-        flags.wasVariants.set(text.trim().equals(KEY_VARIANT_LITURGY)
-            || text.trim().equals(KEY_VARIANT_SPELL));
-        flags.wasTalent.set(text.trim().equals(KEY_TALENT));
+        flags.wasDuration.set(key.trim().equals(KEY_DURATION_1) || key.trim().equals(KEY_DURATION_2));
+        flags.wasFeature.set(key.trim().equals(KEY_FEATURE) || key.trim().equals(KEY_ASPEKT));
+        flags.wasRange.set(key.trim().equals(KEY_RANGE));
+        flags.wasRemarks.set(key.trim().equals(KEY_REMARK));
+        flags.wasTargetCategory.set(key.trim().equals(KEY_TARGET_CATEGORY));
+        flags.wasCheck.set(key.trim().equals(KEY_CHECK));
+        flags.wasEffect.set(key.trim().equals(KEY_EFFECT));
+        flags.wasCastingDuration.set(key.trim().equals(KEY_CASTING_DURATION_SPELL)
+            || key.trim().equals(KEY_CASTING_DURATION_RITUAL)
+            || key.trim().equals(KEY_CASTING_DURATION_LITURGY)
+            || key.trim().equals(KEY_CASTING_DURATION_LITURGY_TYPO_1)
+            || key.trim().equals(KEY_CASTING_DURATION_CEREMONY));
+        flags.wasCost.set(key.trim().equals(KEY_COST_APS) || key.trim().equals(KEY_COST_KAP));
+        flags.wasCommonness.set(key.trim().equals(KEY_COMMONNESS) || key.trim().equals(KEY_MUSIC_TRADITION));
+        flags.wasAdvancementCategory.set(key.trim().equals(KEY_ADVANCEMENT_CATEGORY));
+        flags.wasVariants.set(key.trim().equals(KEY_VARIANT_LITURGY)
+            || key.trim().equals(KEY_VARIANT_SPELL));
+        flags.wasTalent.set(key.trim().equals(KEY_TALENT));
         if (flags.wasVariants.get())
         {
             flags.wasFurtherInformation.set(false);
@@ -123,58 +140,53 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
     }
 
     @Override
-    protected MysticalSkillRaw initializeType()
+    protected void applyDataValue(MysticalSkillRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
     {
-        return new MysticalSkillRaw();
-    }
-
-    @Override
-    protected void applyDataValue(MysticalSkillRaw msr, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
-    {
-        if (msr != null)
+        if (currentDataObject != null)
         {
 
             if ((flags.wasName.get() || flags.wasDescription.get()) && !flags.wasVariants.get())
-                msr.description = concatForDataValue(msr.description, cleanText);
-            if (flags.wasRange.get()) msr.range = concatForDataValue(msr.range, cleanText);
-            if (flags.wasDuration.get()) msr.duration = concatForDataValue(msr.duration, cleanText);
-            if (flags.wasFeature.get()) msr.feature = concatForDataValue(msr.feature, cleanText);
-            if (flags.wasTargetCategory.get()) msr.targetCategory = concatForDataValue(msr.targetCategory, cleanText);
-            if (flags.wasRemarks.get()) msr.remarks = concatForDataValue(msr.remarks, cleanText);
+                currentDataObject.description = concatForDataValue(currentDataObject.description, cleanText);
+            if (flags.wasRange.get()) currentDataObject.range = concatForDataValue(currentDataObject.range, cleanText);
+            if (flags.wasDuration.get()) currentDataObject.duration = concatForDataValue(currentDataObject.duration, cleanText);
+            if (flags.wasFeature.get()) currentDataObject.feature = concatForDataValue(currentDataObject.feature, cleanText);
+            if (flags.wasTargetCategory.get()) currentDataObject.targetCategory = concatForDataValue(currentDataObject.targetCategory, cleanText);
+            if (flags.wasRemarks.get()) currentDataObject.remarks = concatForDataValue(currentDataObject.remarks, cleanText);
 
-            if (flags.wasCheck.get()) msr.check = concatForDataValue(msr.check, cleanText).replace(":", "").trim();
-            if (flags.wasEffect.get()) msr.effect = concatForDataValueWithMarkup(msr.effect, t, cleanText);
-            if (flags.wasCastingDuration.get()) msr.castingDuration = concatForDataValue(msr.castingDuration, cleanText);
-            if (flags.wasCost.get()) msr.cost = concatForDataValue(msr.cost, cleanText);
-            if (flags.wasCommonness.get()) msr.commonness = concatForDataValue(msr.commonness, cleanText);
-            if (flags.wasFurtherInformation.get()) msr.furtherInformation = concatForDataValue(msr.furtherInformation, cleanText);
+            if (flags.wasCheck.get()) currentDataObject.check = concatForDataValue(currentDataObject.check, cleanText).replace(":", "").trim();
+            if (flags.wasEffect.get()) currentDataObject.effect = concatForDataValueWithMarkup(currentDataObject.effect, cleanText, isBold, isItalic);
+            if (flags.wasCastingDuration.get()) currentDataObject.castingDuration = concatForDataValue(currentDataObject.castingDuration, cleanText);
+            if (flags.wasCost.get()) currentDataObject.cost = concatForDataValue(currentDataObject.cost, cleanText);
+            if (flags.wasCommonness.get()) currentDataObject.commonness = concatForDataValue(currentDataObject.commonness, cleanText);
+            if (flags.wasFurtherInformation.get())
+                currentDataObject.furtherInformation = concatForDataValue(currentDataObject.furtherInformation, cleanText);
 
             if (flags.wasAdvancementCategory.get())
             {
-                msr.advancementCategory = concatForDataValue(msr.advancementCategory, cleanText);
+                currentDataObject.advancementCategory = concatForDataValue(currentDataObject.advancementCategory, cleanText);
                 flags.wasAdvancementCategory.set(false);
                 flags.wasFurtherInformation.set(true);
             }
 
-            if (flags.wasQs1.get()) msr.qs1 = concatForDataValue(msr.qs1, cleanText).replace(":", "").trim();
-            if (flags.wasQs2.get()) msr.qs2 = concatForDataValue(msr.qs2, cleanText).replace(":", "").trim();
-            if (flags.wasQs3.get()) msr.qs3 = concatForDataValue(msr.qs3, cleanText);
-            if (flags.wasQs4.get()) msr.qs4 = concatForDataValue(msr.qs4, cleanText);
-            if (flags.wasQs5.get()) msr.qs5 = concatForDataValue(msr.qs5, cleanText);
-            if (flags.wasQs6.get()) msr.qs6 = concatForDataValue(msr.qs6, cleanText);
+            if (flags.wasQs1.get()) currentDataObject.qs1 = concatForDataValue(currentDataObject.qs1, cleanText).replace(":", "").trim();
+            if (flags.wasQs2.get()) currentDataObject.qs2 = concatForDataValue(currentDataObject.qs2, cleanText).replace(":", "").trim();
+            if (flags.wasQs3.get()) currentDataObject.qs3 = concatForDataValue(currentDataObject.qs3, cleanText);
+            if (flags.wasQs4.get()) currentDataObject.qs4 = concatForDataValue(currentDataObject.qs4, cleanText);
+            if (flags.wasQs5.get()) currentDataObject.qs5 = concatForDataValue(currentDataObject.qs5, cleanText);
+            if (flags.wasQs6.get()) currentDataObject.qs6 = concatForDataValue(currentDataObject.qs6, cleanText);
 
-            if (flags.wasVariants.get()) msr.variantsText = concatForDataValueWithMarkup(msr.variantsText, t, cleanText);
+            if (flags.wasVariants.get())
+                currentDataObject.variantsText = concatForDataValueWithMarkup(currentDataObject.variantsText, cleanText, isBold, isItalic);
 
         } else
         {
-            LOGGER.error("MysticalSkillRaw was null: " + t.text);
+            LOGGER.error("MysticalSkillRaw was null: " + cleanText);
         }
     }
 
     @Override
-    protected void concludePredecessor(List<MysticalSkillRaw> mysticalSkillRawList)
+    protected void concludePredecessor(MysticalSkillRaw msr)
     {
-        MysticalSkillRaw msr = last(mysticalSkillRawList);
         if (msr != null && msr.variantsText != null)
         {
 
@@ -269,7 +281,7 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
 
 
     @Override
-    protected void applyFlagsForNoKeyStrings(AtomicConverterFlag flags, String text)
+    protected void applyFlagsForNoKeyStrings(ConverterAtomicFlagsMysticalSkill flags, String text)
     {
         if (text.trim().equals("QS 1") || text.trim().equals("1 QS") || text.trim().equals("1-2 QS")) flags.wasQs1.set(true);
         if (text.trim().equals("QS 2") || text.trim().equals("2 QS") || text.trim().equals("1-2 QS")) flags.wasQs2.set(true);
@@ -282,7 +294,7 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
     }
 
     @Override
-    protected void handleWasNoKeyStrings(AtomicConverterFlag flags, TextWithMetaInfo t)
+    protected void handleWasNoKeyStrings(ConverterAtomicFlagsMysticalSkill flags, TextWithMetaInfo t)
     {
         flags.wasQs1.set(flags.wasQs1.get() && !t.isBold);
         flags.wasQs2.set(flags.wasQs2.get() && !t.isBold);
@@ -290,5 +302,21 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw>
         flags.wasQs4.set(flags.wasQs4.get() && !t.isBold);
         flags.wasQs5.set(flags.wasQs5.get() && !t.isBold);
         flags.wasQs6.set(flags.wasQs6.get() && !t.isBold);
+    }
+
+    @Override
+    protected void handleFirstValue(List<MysticalSkillRaw> returnValue, TopicConfiguration conf, String cleanText)
+    {
+
+        if (!flags.getFirstFlag().get())
+        {
+            MysticalSkillRaw newEntry = new MysticalSkillRaw();
+            flags.initDataFlags();
+            newEntry.setTopic(conf.topic);
+            newEntry.setPublication(conf.publication);
+            returnValue.add(newEntry);
+        }
+
+        last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
     }
 }

@@ -7,6 +7,7 @@ import java.util.List;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsMysticalSkill;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterMysticalSkillActivity extends DsaConverterMysticalSkill
@@ -28,16 +29,10 @@ public class DsaConverterMysticalSkillActivity extends DsaConverterMysticalSkill
     }
 
     @Override
-    protected MysticalSkillRaw initializeType()
-    {
-        return new MysticalSkillRaw();
-    }
-
-    @Override
     public List<MysticalSkillRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> texts, TopicConfiguration conf)
     {
-        List<MysticalSkillRaw> returnValue = new ArrayList<>();
-        AtomicConverterFlag flags = new AtomicConverterFlag();
+      List<MysticalSkillRaw> returnValue = new ArrayList<>();
+      ConverterAtomicFlagsMysticalSkill flags = new ConverterAtomicFlagsMysticalSkill();
 
         texts.forEach(t -> {
 
@@ -75,23 +70,23 @@ public class DsaConverterMysticalSkillActivity extends DsaConverterMysticalSkill
             // handle keys
             if (isDataKey)
             {
-                applyFlagsForKey(flags, t.text);
+              applyFlagsForKey(t.text);
             }
 
             // handle values
             if (isDataValue)
             {
-                applyDataValue(last(returnValue), t, cleanText, flags);
-                applyFlagsForNoKeyStrings(flags, t.text);
+              applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
+              applyFlagsForNoKeyStrings(flags, t.text);
             }
         });
         return returnValue;
     }
 
-    @Override
-    protected void applyDataValue(MysticalSkillRaw ms, TextWithMetaInfo t, String cleanText, AtomicConverterFlag flags)
-    {
-        new DsaConverterMysticalSkill().applyDataValue(ms, t, cleanText, flags);
-        if (flags.wasTalent.get()) ms.talentKey = concatForDataValue(ms.talentKey, cleanText).replace(":", "").trim();
-    }
+  @Override
+  protected void applyDataValue(MysticalSkillRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
+  {
+    new DsaConverterMysticalSkill().applyDataValue(currentDataObject, cleanText, isBold, isItalic);
+    if (flags.wasTalent.get()) currentDataObject.talentKey = concatForDataValue(currentDataObject.talentKey, cleanText).replace(":", "").trim();
+  }
 }
