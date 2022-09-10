@@ -1,0 +1,305 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+
+
+    <strategy name="Applicatus - Variante" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>344</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Längere Wirkungsdauer 2 (FW 16, 6 AP): Die Wirkungsdauer erhöht sich auf QS x 15 Stunden. Voraussetzung: Längere Wirkungsdauer
+                    1.
+                </value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Arcanovi - Variante" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>346</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Weniger Erschwernis 2 (FW 16, 12 AP): Die Erschwernisse
+                    bei zusätzlichen Aufladungen bei Zauberspeicher-
+                    Artfakten sinken beim ARCANOVI und
+                    den auf dem Artefakt gespeicherten Zauber um –1 (bis
+                    zu einem Minimum von 0). Voraussetzung: Zaubererweiterung
+                    Weniger Erschwernis 1
+                </value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Chronoklassis - Variante" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>359</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Länger zurückreichender Zeitpunkt (FW 16,
+                    12 AP): Der Zeitpunkt, bis zu dem das Ritual zurückreicht,
+                    liegt bis zu QS x 250 Jahre in der Vergangenheit.
+                </value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Infinitum - Variante" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>384</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Drei Zauber (FW 16, 12 AP): Es können 3 Zauber
+                    permanent auf ein Artefakt gewirkt werden. Voraussetzung:
+                    Zaubererweiterung Zwei Zauber.
+                </value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Körperlose Reise - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>391</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>43</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>örperlose Reise</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Körperlose Reise - sort" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>391</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Movimento - Split Reversalis" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>400</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>44</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>12</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Movimento - make der regular">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>400</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>44.1</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Staub wandle - make Variants Headline">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>415</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Weiches erstarre - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>426</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>45</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>eisheit der Bäume</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Weiches erstarre - sort" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>426</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Weiches erstarre - Split Reversalis" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>425</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>54</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>12</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Weiches erstarre - make der regular">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>425</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>54.1</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="Wirbelform - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>429</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>irbelform</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Wirbelform erstarre - sort" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>429</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>38</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

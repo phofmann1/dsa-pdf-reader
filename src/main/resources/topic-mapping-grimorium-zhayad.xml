@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+    <strategy name="Zhayad - Rituals" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>456</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>3</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Transformatio Jal’Widh Agra Esaigra ArcalInvocatio MaximaJal’shezzazim sche-LaurothInvocatio MinorJal’helizim
+                    sche-LaurothMeister der ElementeJal’bizbizorimen sche-LaurothNekropathiaJalla’uk Tiiaren KoolPlanastraleInzuul Hoch’auruunRuf der
+                    FeenwesenJal’K’zoaStein WandleVizagrasfal sche-LaurothTotes HandleTjaa’asfal Tiaarviz KooljinaarTransmutareCal biz’vizesaiviz
+                    IjnauraarWeiches ErstarreWidh Mev’esaigr ArcalWiderwilleIrib Uaraz Jahutiz AarXenographusIribizaar
+                </value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

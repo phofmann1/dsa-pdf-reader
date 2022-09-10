@@ -46,26 +46,36 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
     {
         try
         {
-            textList = this.splitLineAfterPosition(textList, splitLine, splitAfterPosition, insertSmall, d);
+          textList = this.splitLineAfterPosition(textList, splitLine, splitAfterPosition, insertSmall, d);
         }
         catch (IndexOutOfBoundsException e)
         {
-            String msg = "Split Line does not exist(" + splitLine + " of " + textList.size() + ")";
-            super.logException(this.getClass(), e, d, msg);
+          String msg = "Split Line does not exist(" + splitLine + " of " + textList.size() + ")";
+          super.logException(this.getClass(), e, d, msg);
         }
-        return textList;
+      return textList;
     }
 
-    private List<TextWithMetaInfo> splitLineAfterPosition(List<TextWithMetaInfo> textList, double splitLine, int splitAfterPosition, boolean insertSmall, String d)
+  public static double round(double value, int places)
+  {
+    if (places < 0) throw new IllegalArgumentException();
+
+    long factor = (long) Math.pow(10, places);
+    value = value * factor;
+    long tmp = Math.round(value);
+    return (double) tmp / factor;
+  }
+
+  private List<TextWithMetaInfo> splitLineAfterPosition(List<TextWithMetaInfo> textList, double splitLine, int splitAfterPosition, boolean insertSmall, String d)
+  {
+    Optional<TextWithMetaInfo> lineToSplitOptional = textList.stream().filter(t -> t.onLine == splitLine).findFirst();
+    if (lineToSplitOptional.isPresent())
     {
-        Optional<TextWithMetaInfo> lineToSplitOptional = textList.stream().filter(t -> t.onLine == splitLine).findFirst();
-        if (lineToSplitOptional.isPresent())
-        {
-            TextWithMetaInfo lineToSplit = lineToSplitOptional.get();
-            try
-            {
-                String newLineText = lineToSplit.text.substring(splitAfterPosition);
-                double idx = insertSmall ? NEW_LINE_SMALL_IDX : NEW_LINE_IDX;
+      TextWithMetaInfo lineToSplit = lineToSplitOptional.get();
+      try
+      {
+        String newLineText = lineToSplit.text.substring(splitAfterPosition).trim();
+        double idx = insertSmall ? NEW_LINE_SMALL_IDX : NEW_LINE_IDX;
                 TextWithMetaInfo newLine = new TextWithMetaInfo(
                     newLineText,
                     lineToSplit.isBold,
@@ -73,14 +83,14 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
                     lineToSplit.size,
                     lineToSplit.font,
                     lineToSplit.onPage,
-                    lineToSplit.onLine + idx,
+                    round(lineToSplit.onLine + idx, 2),
                     lineToSplit.publication
                 );
 
-                newLine.order = lineToSplit.order + idx;
+        newLine.order = round(lineToSplit.order + idx, 2);
 
-                lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition);
-                textList.add((int) splitLine, newLine);
+        lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition).trim();
+        textList.add((int) splitLine, newLine);
             }
             catch (StringIndexOutOfBoundsException e)
             {

@@ -42,23 +42,35 @@ public abstract class DsaConverterStrategy
         else throw new DsaConverterException(this.genExMsg(parameterName, "not valid"));
     }
 
-    protected int extractParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+  protected int extractParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+  {
+    String returnValue = this.extractParameterString(parameterMap, parameterName);
+    if (returnValue != null && !returnValue.isEmpty()) return Integer.valueOf(returnValue);
+    else throw new DsaConverterException(this.genExMsg(parameterName, "not valid"));
+  }
+
+  protected int extractOptionalParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+  {
+    try
     {
-        String returnValue = this.extractParameterString(parameterMap, parameterName);
-        if (returnValue != null && !returnValue.isEmpty()) return Integer.valueOf(returnValue);
-        else throw new DsaConverterException(this.genExMsg(parameterName, "not valid"));
+      return this.extractParameterInt(parameterMap, parameterName);
     }
-
-
-    protected boolean extractOptionalParameterBoolean(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+    catch (DsaConverterException e)
     {
-        String p = this.extractOptionalParameterString(parameterMap, parameterName);
-        return (p != null && !p.isEmpty())
-            ? Boolean.valueOf(p)
-            : false;
+      LOGGER.debug("Optional parameter <" + parameterName + "> was not set. Default <-1> is returned");
     }
+    return -1;
+  }
 
-    protected String extractOptionalParameterString(List<Parameter> parameterMap, String parameterName)
+  protected boolean extractOptionalParameterBoolean(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+  {
+    String p = this.extractOptionalParameterString(parameterMap, parameterName);
+    return (p != null && !p.isEmpty())
+        ? Boolean.valueOf(p)
+        : false;
+  }
+
+  protected String extractOptionalParameterString(List<Parameter> parameterMap, String parameterName)
     {
         try
         {

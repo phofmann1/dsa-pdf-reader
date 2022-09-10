@@ -42,7 +42,7 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
       KEY_VARIANTS,
       KEY_EQUIP
   };
-  ConverterAtomicFlagsProfession flags;
+  private ConverterAtomicFlagsProfession flags;
 
   @Override
   protected String[] getKeys()
@@ -97,7 +97,6 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
       if (isName)
       {
         currentProfessionName.set(t.text);
-        isDataKey = false;
         ProfessionRaw currentEntry = last(returnValue);
         isDataKey = false;
         this.getFlags().initDataFlags();

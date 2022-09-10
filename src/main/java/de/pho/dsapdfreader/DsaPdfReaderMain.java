@@ -41,8 +41,12 @@ import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillIncantations;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkill;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimorium;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimoriumTricks;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterProfession;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityClericBase;
@@ -95,11 +99,11 @@ public class DsaPdfReaderMain
     isToJson = isToJson || isNone;
 
 
-    isToText = false;
+    isToText = true;
     isToStrategy = true;
     isToRaws = true;
     isToJson = false;
-    isSummarize = true;
+    isSummarize = false;
 
     if (isToText) convertToText();
     if (isToText && isSummarize) summarizeTextCsv(PATH_PDF_2_TEXT, "all_txt.csv");
@@ -241,10 +245,10 @@ public class DsaPdfReaderMain
                       boolean isEndPage = t.onPage == conf.endPage;
                       boolean isStartPageValidLine = isStartPage && isEndPage
                           ? (t.onLine > conf.startAfterLine || conf.startAfterLine == 0) && (t.onLine <= conf.endAfterLine || conf.endAfterLine == 0)
-                          : (t.onLine > conf.startAfterLine || conf.startAfterLine == 0);
-                      boolean isEndPageValidLine = isStartPageValidLine = isStartPage && isEndPage
+                          : isStartPage && (t.onLine > conf.startAfterLine || conf.startAfterLine == 0);
+                      boolean isEndPageValidLine = isStartPage && isEndPage
                           ? isStartPageValidLine
-                          : (t.onLine <= conf.endAfterLine || conf.endAfterLine == 0);
+                          : isEndPage && (t.onLine <= conf.endAfterLine || conf.endAfterLine == 0);
                       return isStartPageValidLine || isNormalPage || isEndPageValidLine;
                     }
                 )
@@ -454,11 +458,34 @@ public class DsaPdfReaderMain
     switch (conf.topic)
     {
     case MERITS, FLAWS -> results = new DsaConverterBoon().convertTextWithMetaInfo(texts, conf);
-    case SPECIAL_ABILITY_MUNDANE, SPECIAL_ABILITY_FATE, SPECIAL_ABILITY_COMBAT, SPECIAL_ABILITY_MAGIC, SPECIAL_ABILITY_CLERIC ->
+    case SPECIAL_ABILITY_MUNDANE, SPECIAL_ABILITY_FATE, SPECIAL_ABILITY_COMBAT, SPECIAL_ABILITY_MAGIC, SPECIAL_ABILITY_CLERIC, SPECIAL_ABILITY_SERMONS, SPECIAL_ABILITY_VISIONS ->
         results = new DsaConverterSpecialAbility().convertTextWithMetaInfo(texts, conf);
     case SPECIAL_ABILITY_CLERIC_BASE -> results = new DsaConverterSpecialAbilityClericBase().convertTextWithMetaInfo(texts, conf);
     case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
+    case SPELLS_GRIMORIUM, RITUALS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimorium().convertTextWithMetaInfo(texts, conf);
+    case TRICKS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimoriumTricks().convertTextWithMetaInfo(texts, conf);
     case CURSES, ELFENSONGS, MELODIES, DANCES -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
+    case TRADITIONS_GRIMORIUM -> System.out.println("IMPLEMENTIER MICH");
+    case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM ->
+    {
+      Map<String, String> incantations = new DsaConverterMsyticalSkillIncantations().convertTextWithMetaInfo(texts);
+      applyContentMapToMysticalSkills(incantations, TopicEnum.SPELLS, conf.topic, conf.publication);
+    }
+    case INCANTATIONS_RIME_RITUALS_GRIMORIUM, INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM ->
+    {
+      Map<String, String> incantations = new DsaConverterMsyticalSkillIncantations().convertTextWithMetaInfo(texts);
+      applyContentMapToMysticalSkills(incantations, TopicEnum.RITUALS, conf.topic, conf.publication);
+    }
+    case ELEMENTS_SPELLS_GRIMORIUM ->
+    {
+      Map<String, String> spellsToElements = new DsaConverterMsyticalSkillElements().convertTextWithMetaInfo(texts);
+      applyContentMapToMysticalSkills(spellsToElements, TopicEnum.SPELLS, conf.topic, conf.publication);
+    }
+    case ELEMENTS_RITUALS_GRIMORIUM ->
+    {
+      Map<String, String> spellsToElements = new DsaConverterMsyticalSkillElements().convertTextWithMetaInfo(texts);
+      applyContentMapToMysticalSkills(spellsToElements, TopicEnum.RITUALS, conf.topic, conf.publication);
+    }
     case MYSTICAL_SKILL_VARIANTS ->
     {
       List<MysticalSkillRaw> msrs = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
@@ -474,6 +501,57 @@ public class DsaPdfReaderMain
     default -> LOGGER.error("Unexpected value: %s", conf.topic);
     }
     return results;
+  }
+
+  private static void applyContentMapToMysticalSkills(Map<String, String> contentMap, TopicEnum topicApplyTo, TopicEnum topicFrom, String publication)
+  {
+    try (Stream<Path> paths = Files.walk(Paths.get(PATH_STRATEGY_2_RAW)))
+    {
+      HashMap<Path, List<MysticalSkillRaw>> resultMap = new HashMap();
+      HashMap<Path, List<MysticalSkillRaw>> handledResults = new HashMap<>();
+      paths.filter(Files::isRegularFile)
+          .filter(p -> !p.endsWith("all_raw.csv")
+              && (p.toString().contains(topicApplyTo.name())
+              && p.toString().contains(publication)))
+          .forEach(p -> resultMap.put(p, CsvHandler.readBeanFromPath(MysticalSkillRaw.class, p)));
+
+      resultMap.forEach((k, v) -> {
+        List newMsList = handledResults.containsKey(k)
+            ? applyNewContentToMsr(handledResults.get(k), contentMap, topicFrom)
+            : applyNewContentToMsr(v, contentMap, topicFrom);
+        handledResults.put(k, newMsList);
+        File fOut = new File(k.toString());
+        CsvHandler.writeBeanToUrl(fOut, newMsList);
+      });
+    }
+    catch (IOException e)
+    {
+      LOGGER.error(e.getMessage(), e);
+    }
+  }
+
+  private static List applyNewContentToMsr(List<MysticalSkillRaw> valueList, Map<String, String> contentMap, TopicEnum topic)
+  {
+    return valueList.stream().map(msr -> {
+      Optional<String> incantationKeyOptional = contentMap.keySet().stream().filter(c ->
+          c.toLowerCase().contains(msr.name.toLowerCase())
+              || msr.name.toLowerCase().contains(c.toLowerCase())).findFirst();
+      return applyContentToMysticalSkillRaw(msr, contentMap, incantationKeyOptional, topic);
+    }).collect(Collectors.toList());
+  }
+
+  private static MysticalSkillRaw applyContentToMysticalSkillRaw(MysticalSkillRaw msr, Map<String, String> contentMap, Optional<String> keyOptional, TopicEnum topicFrom)
+  {
+    if (keyOptional.isPresent())
+    {
+      if (topicFrom == TopicEnum.INCANTATIONS_RIME_SPELLS_GRIMORIUM || topicFrom == TopicEnum.INCANTATIONS_RIME_RITUALS_GRIMORIUM)
+        msr.rime = contentMap.get(keyOptional.get());
+      if (topicFrom == TopicEnum.INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM || topicFrom == TopicEnum.INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM)
+        msr.zhayad = contentMap.get(keyOptional.get());
+      if (topicFrom == TopicEnum.ELEMENTS_SPELLS_GRIMORIUM || topicFrom == TopicEnum.ELEMENTS_RITUALS_GRIMORIUM)
+        msr.elements = contentMap.get(keyOptional.get());
+    }
+    return msr;
   }
 
   private static void applyToMysticalSkills(Map<String, List<String>> commonnessList)

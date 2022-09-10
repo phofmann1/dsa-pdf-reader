@@ -56,6 +56,8 @@ public class DsaConverterSpecialAbility extends DsaConverter<SpecialAbilityRaw, 
       returnValue.add(newEntry);
     }
     last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
+
+    this.getFlags().wasName.set(true);
   }
 
   @Override

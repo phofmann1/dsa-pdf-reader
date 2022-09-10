@@ -2,6 +2,7 @@ package de.pho.dsapdfreader.dsaconverter.strategies;
 
 import java.util.List;
 import java.util.OptionalInt;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -50,19 +51,28 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
                 "Wirkung",
                 true,
                 false,
-                1,
+                800,
                 textList.get(addAfterIndex).font,
                 textList.get(addAfterIndex).onPage,
                 textList.get(addAfterIndex).onLine + idx,
                 textList.get(addAfterIndex).publication
             );
-            emptyBoldLine.order = textList.get(addAfterIndex).order + idx;
-            returnValue.add(addAfterIndex, emptyBoldLine);
-        } catch (IndexOutOfBoundsException e)
-        {
-            String msg = "insertAfter line(" + insertAfterLine + ") with index(" + addAfterIndex + ") outside pageSize(" + textList.size() + ")";
-            super.logException(this.getClass(), e, d, msg);
+          emptyBoldLine.order = textList.get(addAfterIndex).order + idx;
+          returnValue.add(addAfterIndex, emptyBoldLine);
         }
-        return returnValue;
+        catch (IndexOutOfBoundsException e)
+        {
+          String msg = "insertAfter line(" + insertAfterLine + ") with index(" + addAfterIndex + ") outside pageSize(" + textList.size() + ")";
+          super.logException(this.getClass(), e, d, msg);
+        }
+
+      AtomicInteger order = new AtomicInteger(0);
+
+      returnValue.sort((a, b) -> a.onPage < b.onPage ? -1 : 1);
+      returnValue.stream().map(r -> {
+        r.order = order.incrementAndGet();
+        return r;
+      });
+      return returnValue;
     }
 }

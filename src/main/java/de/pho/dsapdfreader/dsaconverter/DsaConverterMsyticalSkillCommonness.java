@@ -12,45 +12,46 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterMsyticalSkillCommonness
 {
-    //[A-Z]([a-z]|( [A-Z])|( [a-z]))*
-    private static final Pattern PAT_MYSTICAL_SKILL_NAME = Pattern.compile("[A-ZÜÄÖ]([a-züäöß]|( [A-ZÜÖÄ])|( [a-züöäß]))*");
+  //[A-ZÄÖÜ](([- ’(][A-ZÄÖÜ])|[a-zöäüß!?,\/)’ -])*
+  protected static final Pattern PAT_MYSTICAL_SKILL_NAME = Pattern.compile("[A-ZÄÖÜ](([- ’(][A-ZÄÖÜ])|[a-zöäüß!?,\\/)’ -])*");
 
-    public Map<String, List<String>> convertTextWithMetaInfo(List<TextWithMetaInfo> texts)
+  public Map<String, List<String>> convertTextWithMetaInfo(List<TextWithMetaInfo> texts)
+  {
+    Map<String, List<String>> returnValue = new HashMap<>();
+
+    AtomicReference<String> currentTradition = new AtomicReference<>();
+
+
+    texts.forEach(t -> {
+      if (t.isBold)
+      {
+        currentTradition.set(t.text);
+      }
+      else
+      {
+        handleCommonness(returnValue, t, currentTradition);
+      }
+    });
+
+
+    return returnValue;
+  }
+
+  private void handleCommonness(Map<String, List<String>> returnValue, TextWithMetaInfo t, AtomicReference<String> currentTradition)
+  {
+    Matcher msNameMatcher = PAT_MYSTICAL_SKILL_NAME.matcher(t.text);
+    while (msNameMatcher.find())
     {
-        Map<String, List<String>> returnValue = new HashMap<>();
+      String key = msNameMatcher.group().replace("Invovatio", "Invocatio").trim();
+      if (!key.isEmpty())
+      {
+        if (!returnValue.containsKey(key)) returnValue.put(key, new ArrayList<>());
 
-        AtomicReference<String> currentTradition = new AtomicReference<>();
-
-
-        texts.forEach(t -> {
-            if (t.isBold)
-            {
-                currentTradition.set(t.text);
-            } else
-            {
-                handleCommonness(returnValue, t, currentTradition);
-            }
-        });
-
-
-        return returnValue;
-    }
-
-    private void handleCommonness(Map<String, List<String>> returnValue, TextWithMetaInfo t, AtomicReference<String> currentTradition)
-    {
-        Matcher msNameMatcher = PAT_MYSTICAL_SKILL_NAME.matcher(t.text);
-        while (msNameMatcher.find())
+        if (!returnValue.get(key).contains(currentTradition.get()))
         {
-            String key = msNameMatcher.group().replace("Invovatio", "Invocatio").trim();
-            if (!key.isEmpty())
-            {
-                if (!returnValue.containsKey(key)) returnValue.put(key, new ArrayList<>());
-
-                if (!returnValue.get(key).contains(currentTradition.get()))
-                {
-                    returnValue.get(key).add(currentTradition.get());
-                }
-            }
+          returnValue.get(key).add(currentTradition.get());
         }
+      }
     }
+  }
 }

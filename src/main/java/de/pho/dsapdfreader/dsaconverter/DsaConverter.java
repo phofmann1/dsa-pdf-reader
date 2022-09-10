@@ -1,7 +1,6 @@
 package de.pho.dsapdfreader.dsaconverter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -28,9 +27,12 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
     protected static String concatForDataValue(String origin, String newValue)
     {
         String returnValue = origin == null ? "" : origin.trim();
-        String spacer = returnValue.endsWith("-") ? "" : " ";
+        String spacer = (returnValue.endsWith("-") || returnValue.length() == 1) ? "" : " ";
         returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;
         returnValue = returnValue.trim() + spacer + newValue.trim();
+        returnValue = returnValue.replaceAll("\\s\\s", " ");
+        returnValue = returnValue.replaceAll("Uberlegener", "Überlegener");
+        returnValue = returnValue.replaceAll("Angste", "Ängste");
         return DsaStringCleanupTool.cleanupString(returnValue);
     }
 
@@ -85,6 +87,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
                 }
 
                 getFlags().getFirstFlag().set(isFirstValue && !isFirstValueSkipped);
+
 
             });
         concludePredecessor(last(returnValue)); //finish the last entry in list
@@ -151,7 +154,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && Arrays.stream(getKeys()).noneMatch(k -> k.equals(cleanText));
+        return t.size == 900;
     }
 
     protected void applyFlagsForNoKeyStrings(F flags, String text)
@@ -160,11 +163,12 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return t.size <= conf.dataSize && t.isBold && Arrays.asList(getKeys()).contains(cleanText);
+        return t.size == 800 && !t.text.isEmpty();
     }
 
     protected void handleWasNoKeyStrings(F flags, TextWithMetaInfo t)
     {
+
     }
 
     private static boolean isNumeric(String strNum)

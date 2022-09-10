@@ -8,15 +8,6 @@
                 <key>applyToPage</key>
                 <value>47</value>
             </parameter>
-        </params>
-    </strategy>
-    <strategy name="Remove bold line from Page 47" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>47</value>
-            </parameter>
             <parameter>
                 <key>lineNo</key>
                 <value>120</value>
