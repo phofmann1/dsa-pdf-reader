@@ -63,16 +63,16 @@ public class DsaPdfReaderMain
 {
 
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  private static final String DOCUMENT = "<DOCUMENT>";
   private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
-  private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + DOCUMENT + "_txt.csv";
+  private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
-  private static final String FILE_TEXT_2_STRATEGY = PATH_TEXT_2_STRATEGY + DOCUMENT + "_str.csv";
+  private static final String FILE_TEXT_2_STRATEGY = PATH_TEXT_2_STRATEGY + "%s_str.csv";
   private static final String PATH_STRATEGY_2_RAW = PATH_BASE + "03 - raw\\";
-  private static final String FILE_STRATEGY_2_RAW = PATH_STRATEGY_2_RAW + DOCUMENT + "_raw.csv";
-  private static final String PATH_RAW_2_JSON = PATH_BASE + "04 - json\\";
-  private static final String FILE_RAW_2_JSON = PATH_RAW_2_JSON + DOCUMENT + ".json";
+  private static final String FILE_STRATEGY_2_RAW = PATH_STRATEGY_2_RAW + "%s_raw.csv";
+  private static final String FILE_STRATEGY_2_RAW_ALL = PATH_STRATEGY_2_RAW + "\\%s\\all.csv";
+  private static final String PATH_RAW_2_JSON = PATH_BASE + "04 - json\\%s\\";
+  private static final String FILE_RAW_2_JSON = PATH_RAW_2_JSON + "%s.json";
   private static final String SEPARATOR = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
   private static final Logger LOGGER = LogManager.getLogger();
   private static List<TopicConfiguration> configs = null;
@@ -99,20 +99,17 @@ public class DsaPdfReaderMain
     isToJson = isToJson || isNone;
 
 
-    isToText = true;
+    isToText = false;
     isToStrategy = true;
     isToRaws = true;
-    isToJson = false;
-    isSummarize = false;
+    isToJson = true;
+    isSummarize = true;
 
     if (isToText) convertToText();
-    if (isToText && isSummarize) summarizeTextCsv(PATH_PDF_2_TEXT, "all_txt.csv");
     if (isToStrategy) convertToStrategy();
-    if (isToStrategy && isSummarize) summarizeTextCsv(PATH_TEXT_2_STRATEGY, "all_str.csv");
     if (isToRaws) convertToRaws();
-    if (isToRaws && isSummarize) summarizeMsCsv(PATH_STRATEGY_2_RAW, "all_raw.csv");
+    if (isSummarize) summarizeRawByType();
     if (isToJson) convertToJson();
-    if (isToJson && isSummarize) summarizeMsJson(PATH_RAW_2_JSON, "all.json");
 
     Instant end = Instant.now();
     String timeString = Duration.between(start, end)
@@ -127,6 +124,7 @@ public class DsaPdfReaderMain
     LOGGER.info("----------------------------------");
 
   }
+
 
   private static void summarizeTextCsv(String path, String file)
   {
@@ -255,7 +253,7 @@ public class DsaPdfReaderMain
                 .sorted((a, b) -> a.sortIndex() < b.sortIndex() ? -1 : 1)
                 .collect(Collectors.toList());
 
-            File fOut = new File(FILE_PDF_2_TEXT.replace(DOCUMENT, conf.publication + "_" + conf.topic));
+            File fOut = new File(String.format(FILE_PDF_2_TEXT, conf.publication + "_" + conf.topic));
             CsvHandler.writeBeanToUrl(fOut, texts);
           }
           catch (IOException | NullPointerException e)
@@ -283,7 +281,7 @@ public class DsaPdfReaderMain
 
             texts = applyStrategies(texts, conf);
 
-            File fOut = new File(FILE_TEXT_2_STRATEGY.replace(DOCUMENT, conf.publication + "_" + conf.topic));
+            File fOut = new File(String.format(FILE_TEXT_2_STRATEGY, conf.publication + "_" + conf.topic));
             CsvHandler.writeBeanToUrl(fOut, texts);
           }
           catch (NullPointerException e)
@@ -330,41 +328,92 @@ public class DsaPdfReaderMain
 
   private static String generateFileName(String filePattern, TopicConfiguration conf)
   {
-    return filePattern.replace(DOCUMENT, conf.publication + "_" + conf.topic);
+    return String.format(filePattern, conf.publication + "_" + conf.topic);
+  }
+
+  private static String generateFileNameTypedDirectory(String filePattern, TopicConfiguration conf, String type)
+  {
+    return String.format(filePattern, type, conf.publication + "_" + conf.topic);
   }
 
 
   private static void convertToJson()
   {
     configs.stream()
-        .filter(conf -> conf != null && conf.active && conf.topic != TopicEnum.MYSTICAL_SKILL_VARIANTS && conf.topic != TopicEnum.MYSTICAL_SKILL_COMMONNESS)
+        .filter(conf -> conf != null && conf.active)
+        .forEach(DsaPdfReaderMain::parseToJson);
+  }
+
+  private static void summarizeRawByType()
+  {
+    Map<String, List<MysticalSkillRaw>> allByTypeMap = new HashMap<>();
+
+    configs.stream()
+        .filter(conf -> conf != null && conf.active)
         .forEach(conf -> {
           String msg = String.format("Config zu JSON verarbeiten: %s (%s)", conf.publication, conf.topic);
           LOGGER.info(msg);
-          try
+          switch (conf.topic)
           {
-
-            File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
-
-            List<MysticalSkillRaw> rawMysticalSkills = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, fIn);
-            List<MysticalSkill> mysticalSkills = rawMysticalSkills.stream().map(LoadToMysticalSkill::migrate).collect(Collectors.toList());
-
-            ObjectMapper mapper = new ObjectMapper();
-            String jsonResult = mapper
-                .writerWithDefaultPrettyPrinter()
-                .writeValueAsString(mysticalSkills);
-
-            BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileName(FILE_RAW_2_JSON, conf)));
-            writer.write(jsonResult);
-
-            writer.close();
-
+          case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, CURSES, ELFENSONGS, MELODIES, DANCES ->
+          {
+            List<MysticalSkillRaw> mysticalSkillRawList = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, new File(generateFileName(FILE_STRATEGY_2_RAW, conf)));
+            if (allByTypeMap.containsKey(MysticalSkill.TYPE)) allByTypeMap.get(MysticalSkill.TYPE).addAll(mysticalSkillRawList);
+            else allByTypeMap.put(MysticalSkill.TYPE, mysticalSkillRawList);
           }
-          catch (IOException e)
+          case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_RIME_RITUALS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM, ELEMENTS_SPELLS_GRIMORIUM, ELEMENTS_RITUALS_GRIMORIUM ->
           {
-            LOGGER.error(e.getMessage(), e);
+            break;
+          }
+          default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
           }
         });
+
+    allByTypeMap.forEach((k, v) -> CsvHandler.writeBeanToUrl(new File(String.format(FILE_STRATEGY_2_RAW_ALL, k)), v));
+
+  }
+
+
+  private static void parseToJson(TopicConfiguration conf)
+  {
+    String msg = String.format("Config zu JSON verarbeiten: %s (%s)", conf.publication, conf.topic);
+    LOGGER.info(msg);
+    switch (conf.topic)
+    {
+    case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, CURSES, ELFENSONGS, MELODIES, DANCES ->
+    {
+      try
+      {
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+
+        List<MysticalSkillRaw> rawMysticalSkills = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, fIn);
+        List<MysticalSkill> mysticalSkills = rawMysticalSkills.stream().map(LoadToMysticalSkill::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(mysticalSkills);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "mysticalskills")));
+        writer.write(jsonResult);
+
+        writer.close();
+      }
+      catch (JsonProcessingException e)
+      {
+        throw new RuntimeException(e);
+      }
+      catch (IOException e)
+      {
+        throw new RuntimeException(e);
+      }
+    }
+    case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_RIME_RITUALS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM, ELEMENTS_SPELLS_GRIMORIUM, ELEMENTS_RITUALS_GRIMORIUM ->
+    {
+      break;
+    }
+    default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
+    }
   }
 
   private static List<TextWithMetaInfo> extractPdfResults(TopicConfiguration conf) throws IOException
@@ -498,7 +547,7 @@ public class DsaPdfReaderMain
       applyToMysticalSkills(commonness);
     }
     case PROFESSIONS -> results = new DsaConverterProfession().convertTextWithMetaInfo(texts, conf);
-    default -> LOGGER.error("Unexpected value: %s", conf.topic);
+    default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
     }
     return results;
   }
@@ -603,7 +652,7 @@ public class DsaPdfReaderMain
 
   private static void applyVariantsToBasisMysticalSkills(List<MysticalSkillRaw> variants, TopicEnum topic)
   {
-    File fIn = new File(FILE_STRATEGY_2_RAW.replace(DOCUMENT, Publication.BASIS + "_" + topic));
+    File fIn = new File(String.format(FILE_STRATEGY_2_RAW, Publication.BASIS + "_" + topic));
     List<MysticalSkillRaw> spells = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, fIn);
     List<MysticalSkillRaw> results = spells.stream().map(msr -> {
       Optional<MysticalSkillRaw> applicableVariantMsr = variants.stream().filter(v -> v.name.equals(msr.name)).findFirst();

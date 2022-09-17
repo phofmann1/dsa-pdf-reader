@@ -141,17 +141,17 @@ public abstract class Extractor
         return l.toArray(new Unit[l.size()]);
     }
 
-    public static TraditionKey extractTraditionFromText(String t)
+    public static TraditionKey extractTraditionKeyFromText(String t)
     {
-        if (t.contains("allgemein (Schamanenritus)")) return TraditionKey.SHAMAN_ALL;
-        if (t.contains("allgemein") | t.contains("Allgemein")) return TraditionKey.ALL;
-        //if(t.contains("")) return TraditionKey.ALCHIMIST;
-        if (t.contains("Angrosch")) return TraditionKey.ANGROSCH;
-        //if(t.contains("")) return TraditionKey.ANIMIST;
-        if (t.contains("Aves")) return TraditionKey.AVES;
-        if (t.contains("Ceoladir") || t.contains("Derwisch") || t.contains("Sangara")) return TraditionKey.BARDE;
-        if (t.contains("Boron")) return TraditionKey.BORON;
-        //if(t.contains("")) return TraditionKey.BROBIM_GEODE;
+      if (t.contains("allgemein (Schamanenritus)")) return TraditionKey.SHAMAN_ALL;
+      if (t.contains("allgemein") | t.contains("Allgemein")) return TraditionKey.ALL;
+      //if(t.contains("")) return TraditionKey.ALCHIMIST;
+      if (t.contains("Angrosch")) return TraditionKey.ANGROSCH;
+      //if(t.contains("")) return TraditionKey.ANIMIST;
+      if (t.contains("Aves")) return TraditionKey.AVES;
+      if (t.contains("Ceoladir") || t.contains("Derwisch") || t.contains("Sangara")) return TraditionKey.BARDE;
+      if (t.contains("Boron")) return TraditionKey.BORON;
+      //if(t.contains("")) return TraditionKey.BROBIM_GEODE;
         if (t.contains("Kristallomant")) return TraditionKey.CRISTALLOMANCER;
         if (t.contains("Majuna") || t.contains("Hazaqi") || t.contains("Rahkisa") || t.contains("Sharisad")) return TraditionKey.DANCER;
         if (t.contains("Druide")) return TraditionKey.DRUID;
@@ -160,8 +160,8 @@ public abstract class Extractor
         if (t.contains("Firun")) return TraditionKey.FIRUN;
         if (t.contains("Geode")) return TraditionKey.GEODE;
         //if(t.contains("")) return TraditionKey.GIFTED;
-        //if(t.contains("")) return TraditionKey.GOBLIN;
-        if (t.contains("Schelm")) return TraditionKey.HARLEQUIN;
+      if (t.contains("Goblinzauberinnen")) return TraditionKey.GOBLIN;
+      if (t.contains("Schelm")) return TraditionKey.HARLEQUIN;
         if (t.contains("Hesinde")) return TraditionKey.HESINDE;
         if (t.contains("Ifirn")) return TraditionKey.IFIRN;
         if (t.contains("Scharlatan")) return TraditionKey.ILLUSIONIST;
@@ -180,19 +180,18 @@ public abstract class Extractor
         if (t.contains("Rahja")) return TraditionKey.RAHJA;
         if (t.contains("Rondra")) return TraditionKey.RONDRA;
         if (t.contains("Ferkina")) return TraditionKey.SHAMAN_FERKINA;
-        if (t.contains("Fjarninger")) return TraditionKey.SHAMAN_FJARNINGER;
-        if (t.contains("Gjalsker")) return TraditionKey.SHAMAN_GJALSKER;
-        if (t.contains("Moha")) return TraditionKey.SHAMAN_MOHA;
-        if (t.contains("Nivese")) return TraditionKey.SHAMAN_NIVESE;
-        if (t.contains("Trollzacker")) return TraditionKey.SHAMAN_TROLLZACKER;
-        if (t.contains("Swafnir")) return TraditionKey.SWAFNIR;
-        if (t.contains("Travia")) return TraditionKey.TRAVIA;
-        if (t.contains("Tsa")) return TraditionKey.TSA;
-        if (t.contains("Hexe")) return TraditionKey.WITCH;
-        if (t.contains("Zibilja")) return TraditionKey.ZIBILJA;
-
-        LOGGER.error("Tradition(" + t + ") konnte nicht interpretiert werden");
-        return null;
+      if (t.contains("Fjarninger")) return TraditionKey.SHAMAN_FJARNINGER;
+      if (t.contains("Gjalsker")) return TraditionKey.SHAMAN_GJALSKER;
+      if (t.contains("Moha")) return TraditionKey.SHAMAN_MOHA;
+      if (t.contains("Nivese")) return TraditionKey.SHAMAN_NIVESE;
+      if (t.contains("Trollzacker")) return TraditionKey.SHAMAN_TROLLZACKER;
+      if (t.contains("Swafnir")) return TraditionKey.SWAFNIR;
+      if (t.contains("Travia")) return TraditionKey.TRAVIA;
+      if (t.contains("Tsa")) return TraditionKey.TSA;
+      if (t.contains("Hexe")) return TraditionKey.WITCH;
+      if (t.contains("Zibilja")) return TraditionKey.ZIBILJA;
+      if (t.contains("Borbaradianer")) return TraditionKey.BORBARAD;
+      throw new IllegalArgumentException("Tradition(" + t + ") konnte nicht interpretiert werden");
     }
 
     protected static boolean isClerical(TopicEnum topic)
@@ -204,17 +203,17 @@ public abstract class Extractor
     {
         return switch (topic)
             {
-                case TRICKS -> MysticalSkillCategory.TRICK;
-                case SPELLS -> MysticalSkillCategory.SPELL;
-                case RITUALS -> MysticalSkillCategory.RITUAL;
-                case BLESSINGS -> MysticalSkillCategory.BLESSING;
-                case LITURGIES -> MysticalSkillCategory.LITURGY;
-                case CEREMONIES -> MysticalSkillCategory.CEREMONY;
-                case CURSES -> MysticalSkillCategory.CURSE;
-                case ELFENSONGS -> MysticalSkillCategory.ELFENSONG;
-                case MELODIES -> MysticalSkillCategory.MELODY;
-                case DANCES -> MysticalSkillCategory.DANCE;
-              default -> null;
+              case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.TRICK;
+              case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.SPELL;
+              case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.RITUAL;
+              case BLESSINGS -> MysticalSkillCategory.BLESSING;
+              case LITURGIES -> MysticalSkillCategory.LITURGY;
+              case CEREMONIES -> MysticalSkillCategory.CEREMONY;
+              case CURSES -> MysticalSkillCategory.CURSE;
+              case ELFENSONGS -> MysticalSkillCategory.ELFENSONG;
+              case MELODIES -> MysticalSkillCategory.MELODY;
+              case DANCES -> MysticalSkillCategory.DANCE;
+              default -> throw new IllegalArgumentException(topic + " not found");
             };
     }
 

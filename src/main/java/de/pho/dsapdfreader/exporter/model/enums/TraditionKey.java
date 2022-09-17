@@ -40,21 +40,22 @@ public enum TraditionKey
     HARLEQUIN,
     SWAFNIR,
     TRAVIA,
-    TSA,
-    ALCHIMIST,
-    DANCER,
-    ZIBILJA,
-    BROBIM_GEODE,
-    SHAMAN_FERKINA,
-    SHAMAN_FJARNINGER,
-    SHAMAN_GJALSKER,
-    SHAMAN_MOHA,
-    SHAMAN_NIVESE,
-    SHAMAN_TROLLZACKER;
+  TSA,
+  ALCHIMIST,
+  DANCER,
+  ZIBILJA,
+  BROBIM_GEODE,
+  SHAMAN_FERKINA,
+  SHAMAN_FJARNINGER,
+  SHAMAN_GJALSKER,
+  SHAMAN_MOHA,
+  SHAMAN_NIVESE,
+  SHAMAN_TROLLZACKER,
+  BORBARAD;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 }

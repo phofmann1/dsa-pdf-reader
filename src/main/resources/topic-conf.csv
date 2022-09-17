@@ -15,16 +15,16 @@ false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;1
 false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;topic-mapping-base-ceremonies.xml
 false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CURSES;285;2;286;17;1300;1100;topic-mapping-base-curses.xml
 false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;ELFENSONGS;286;54;287;61;1300;1100;topic-mapping-base-elfensongs.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;topic-mapping-grimorium-tricks.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;
-true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRADITIONS_GRIMORIUM;459;;468;;3200;3100;
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;topic-mapping-grimorium-tricks.xml
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;
+true;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRADITIONS_GRIMORIUM;459;;468;;3200;3100;
 false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;LITURGIES;112;9;141;84;1300;1100;topic-mapping-cleric-1-liturgies.xml
 false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;CEREMONIES;141;84;165;63;1300;1100;topic-mapping-cleric-1-ceremonies.xml
 false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;SPECIAL_ABILITY_SERMONS;74;26;75;19;1300;1100;topic-mapping-cleric-1-sermons.xml

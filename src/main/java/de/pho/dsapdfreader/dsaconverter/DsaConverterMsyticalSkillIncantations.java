@@ -46,7 +46,6 @@ public class DsaConverterMsyticalSkillIncantations
         .replace("RitualZhayad-Formel", "")
         .replace("Desctructibo", "Destructibo")
         .replace("Infintum", "Infinitum")
-        .replace("Karnifilo", "Karnifilio")
         .replace("Stumgebrüll", "Sturmgebrüll")
         .replace("  ", " ")
         .replace("KrötenzungeMit", "Krötenzunge - Mit");

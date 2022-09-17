@@ -52,7 +52,8 @@ public class LoadToMysticalSkill
         {
             returnValue.traditionSubs = ExtractorTradtion.retrieveTraditionSubs(msr);
         }
-        returnValue.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
+        returnValue.traditionIncantationMap = ExtractorTradtion.retrieveIncantations(msr);
+      returnValue.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
         returnValue.skillCost = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
         returnValue.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
         returnValue.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);

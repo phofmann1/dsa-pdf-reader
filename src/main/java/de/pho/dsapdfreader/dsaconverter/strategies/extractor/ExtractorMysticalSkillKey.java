@@ -9,14 +9,13 @@ public class ExtractorMysticalSkillKey extends Extractor
     public static MysticalSkillKey retrieveMysticalSkillKey(MysticalSkillRaw msr, MysticalSkillCategory category)
     {
         MysticalSkillKey returnValue = null;
-        String skillKeyString = "";
         try
         {
             returnValue = extractKeyFromText(category, msr.name);
         }
         catch (IllegalArgumentException e)
         {
-            String msg = String.format("%s key (%s) could not be interpreted.", getPrefix(msr), skillKeyString);
+            String msg = String.format("%s key for (%s - %s) could not be interpreted.", getPrefix(msr), category, msr.name);
             LOGGER.error(msg);
         }
         return returnValue;
@@ -24,20 +23,33 @@ public class ExtractorMysticalSkillKey extends Extractor
 
     public static MysticalSkillKey extractKeyFromText(MysticalSkillCategory category, String name)
     {
-        String skillKeyString = category.name()
-            .toUpperCase() + "_"
-            + name
-            .toUpperCase()
-            .replace(" ", "_")
-            .replace("Ä", "AE")
-            .replace("Ö", "OE")
-            .replace("Ü", "UE")
-            .replace("__", "_")
-            .replace("ß", "SS")
-            .replace("&", "UND")
-            .replace("!", "")
-            .replace("(", "")
-            .replace(")", "");
-        return MysticalSkillKey.valueOf(skillKeyString);
+      MysticalSkillKey returnValue;
+      String skillKeyString = category.name()
+          .toUpperCase() + "_"
+          + name
+          .toUpperCase()
+          .replace("Ä", "AE")
+          .replace("Ö", "OE")
+          .replace("Ü", "UE")
+          .replace("__", "_")
+          .replace("ß", "SS")
+          .replace("&", "UND")
+          .replace("!", "")
+          .replace("(", "")
+          .replace(")", "")
+          .replace(" ..", "")
+          .replace("-", "_")
+          .replace(" ", "_");
+
+      try
+      {
+        returnValue = MysticalSkillKey.valueOf(skillKeyString);
+      }
+      catch (IllegalArgumentException e)
+      {
+        System.out.println(skillKeyString);
+        returnValue = MysticalSkillKey.BLESSING_EIDSEGEN;
+      }
+      return returnValue;
     }
 }

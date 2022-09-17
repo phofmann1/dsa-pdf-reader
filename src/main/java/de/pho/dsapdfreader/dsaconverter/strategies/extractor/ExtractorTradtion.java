@@ -1,7 +1,9 @@
 package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
@@ -24,20 +26,38 @@ public class ExtractorTradtion extends Extractor
         }
         String[] tTrads = cTxt.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
         return Arrays.stream(tTrads)
-            .map(Extractor::extractTraditionFromText)
+            .map(Extractor::extractTraditionKeyFromText)
             .collect(Collectors.toList());
     }
 
     public static List<TraditionSubKey> retrieveTraditionSubs(MysticalSkillRaw msr)
     {
-        String[] tTrads = msr.commonness.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
-        return Arrays.stream(tTrads)
-            .map(t -> TraditionSubKey.valueOf(DsaStringCleanupTool.mapStringToEnumName(
-                t.toLowerCase()
-                    .replace("derwische", "derwisch")
-            )))
-            .collect(Collectors.toList());
+      String[] tTrads = msr.commonness.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
+      return Arrays.stream(tTrads)
+          .map(t -> TraditionSubKey.valueOf(DsaStringCleanupTool.mapStringToEnumName(
+              t.toLowerCase()
+                  .replace("derwische", "derwisch")
+          )))
+          .collect(Collectors.toList());
     }
 
 
+  public static Map<TraditionKey, String> retrieveIncantations(MysticalSkillRaw msr)
+  {
+    Map<TraditionKey, String> returnValue = new HashMap<>();
+    if (msr.gesturesAndIncantations != null && !msr.gesturesAndIncantations.isEmpty())
+    {
+      List<String> traditions = List.of(msr.gesturesAndIncantations.split("#"));
+      traditions.stream()
+          .map(ts -> ts.replaceFirst(":", "|"))
+          .forEach(ts -> {
+            if (!ts.contains("|"))
+            {
+              //System.out.println(msr.name + "-->" + ts);
+              //System.out.println(ts.split("|")[0] + " --> " + ts.split("|")[1])
+            }
+          });
+    }
+    return returnValue;
+  }
 }

@@ -28,22 +28,23 @@ public enum Publication
     GOETTER_2,
     KLINGEN_DER_NACHT,
     BESTIARIUM_1,
-    BESTIARIUM_2,
-    KNEIPEN_UND_TAVERNEN,
-    FLUSSLANDE,
-    GEFANGEN_IN_DER_GRUFT_DER_KOENIGIN,
-    RUESTKAMMER_2,
-    DORNENREICH,
-    DER_DUNKLE_MHANADI,
-    HAVENA,
-    DIE_SILBERNE_WEHR,
-    HERBARIUM_1,
-    HERBARIUM_2;
+  BESTIARIUM_2,
+  KNEIPEN_UND_TAVERNEN,
+  FLUSSLANDE,
+  GEFANGEN_IN_DER_GRUFT_DER_KOENIGIN,
+  RUESTKAMMER_2,
+  DORNENREICH,
+  DER_DUNKLE_MHANADI,
+  HAVENA,
+  DIE_SILBERNE_WEHR,
+  HERBARIUM_1,
+  HERBARIUM_2,
+  GRIMORIUM;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 
 }

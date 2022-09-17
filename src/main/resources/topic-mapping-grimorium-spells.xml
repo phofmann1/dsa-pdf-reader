@@ -619,7 +619,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Karnifilio - Name" index="2">
+    <strategy name="StrategyInsertLineAfter Karnifilo - Name" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
             <parameter>
@@ -632,11 +632,11 @@
             </parameter>
             <parameter>
                 <key>text</key>
-                <value>arnifilio</value>
+                <value>arnifilo</value>
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyPutToEndOfPage Karnifilio" index="3">
+    <strategy name="StrategyPutToEndOfPage Karnifilo" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
         </strategyClass>
