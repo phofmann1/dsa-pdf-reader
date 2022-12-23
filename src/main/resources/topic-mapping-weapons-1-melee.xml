@@ -1,0 +1,87 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyReplaceStringInLine - make reference regular on page 141">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>141</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>101</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategySplitLineAfterPosition - TP from name of Parazonium on page 147" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>3</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>88</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine - make reference regular on page 147">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine - make reference regular on page 147">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>123</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst - concat Name and headline on Page 148" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>148</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>2</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>4</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

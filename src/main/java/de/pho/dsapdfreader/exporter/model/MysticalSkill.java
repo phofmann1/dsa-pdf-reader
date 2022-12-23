@@ -21,11 +21,11 @@ public class MysticalSkill
 {
   public static final String TYPE = "mysticalskills";
   public MysticalSkillKey key;
-    public String name;
-    public List<AttributeShort> check;
-    public ResistDifficulty difficulty;
-    public CastingDuration casting;
-    public MysticalSkillCategory category;
+  public String name;
+  public List<AttributeShort> check;
+  public ResistDifficulty difficulty;
+  public CastingDuration casting;
+  public MysticalSkillCategory category;
 
   public Cost skillCost;
   public SkillRange skillRange;
@@ -49,11 +49,11 @@ public class MysticalSkill
   // public boolean isElementalAttuned;
   // public boolean isFamiliarized ;
   // public RequiredByCategory requiredBy;
-    // public TraditionKey selectedTraditionKey;
-    // public MysticalSkillVariant[] selectedVariants;
-    // public int valueAdvancement ;
-    // public int valueCulture ;
-    // public int valueGenerationAdvancement ;
-    // public int valueProfession ;
+  // public TraditionKey selectedTraditionKey;
+  // public MysticalSkillVariant[] selectedVariants;
+  // public int valueAdvancement ;
+  // public int valueCulture ;
+  // public int valueGenerationAdvancement ;
+  // public int valueProfession ;
 
 }

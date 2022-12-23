@@ -141,24 +141,6 @@
             </parameter>
         </params>
     </strategy>
-
-    <strategy name="Movimento - Split Reversalis" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>400</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>44</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>12</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="Movimento - make der regular">
         <strategyClass>StrategyReplaceStringInLine</strategyClass>
         <params>
@@ -173,6 +155,119 @@
             <parameter>
                 <key>size</key>
                 <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter Madas Spiegel - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>395</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>adas Spiegel</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Madas Spiegel" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>395</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>38</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyInsertLineAfter Meister der Elemente - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>397</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>eister der Elemente</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Meister der Elemente" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>397</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>50</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyInsertLineAfter Memorabia Falsifir - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>399</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>emorabia Falsifir</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Memorabia Falsifir" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>399</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>41</value>
             </parameter>
         </params>
     </strategy>
@@ -195,7 +290,45 @@
         </params>
     </strategy>
 
-    <strategy name="Weiches erstarre - Name" index="2">
+
+    <strategy name="StrategyInsertLineAfter Weiches erstarre - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>425</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>eiches erstarre</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Weiches erstarre" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>425</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>54</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter Weisheit der Bäume - Name" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
             <parameter>
@@ -212,7 +345,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="Weiches erstarre - sort" index="3">
+    <strategy name="StrategyPutToEndOfPage Weisheit der Bäume" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
         </strategyClass>
@@ -228,40 +361,6 @@
             <parameter>
                 <key>endEntryLineNo</key>
                 <value>44</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="Weiches erstarre - Split Reversalis" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>425</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>54</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>12</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="Weiches erstarre - make der regular">
-        <strategyClass>StrategyReplaceStringInLine</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>425</value>
-            </parameter>
-            <parameter>
-                <key>onLine</key>
-                <value>54.1</value>
-            </parameter>
-            <parameter>
-                <key>size</key>
-                <value>900</value>
             </parameter>
         </params>
     </strategy>

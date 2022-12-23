@@ -42,6 +42,7 @@ class ExtractorMysticalSkillCostTest
     expected.plusCost = 1;
     expected.plusCostPerMultiplier = 1;
     expected.plusCostUnit = Unit.LEP;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -58,6 +59,7 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.cost = 16;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -77,6 +79,7 @@ class ExtractorMysticalSkillCostTest
     expected.plusCost = 8;
     expected.plusCostPerMultiplier = 5;
     expected.plusCostUnit = Unit.MINUTE;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -94,7 +97,7 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.cost = 16;
-    expected.permanentCostSpecial = "so viele eigene permanente AsP, wie im Zielobjekt gespeichert sind (Kosten nicht modifizierbar)";
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -114,6 +117,7 @@ class ExtractorMysticalSkillCostTest
     expected.plusCost = 1;
     expected.plusCostPerMultiplier = 1;
     expected.plusCostUnit = Unit.COMBAT_ROUND;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -132,6 +136,7 @@ class ExtractorMysticalSkillCostTest
     expected.costList = List.of(2, 4);
     expected.costListValues = List.of("Tasse", "Truhe");
     expected.costListUnit = Unit.SIZE;
+    expected.costText = msr.cost;
 
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -151,6 +156,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.cost = 32;
     expected.permanentCost = 8;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -169,6 +175,7 @@ class ExtractorMysticalSkillCostTest
     expected.costList = List.of(4, 8, 16);
     expected.costListUnit = Unit.RS;
     expected.costListValues = List.of("1", "2", "3");
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -188,6 +195,7 @@ class ExtractorMysticalSkillCostTest
     expected.plusCostPerMultiplier = 1;
     expected.plusCostUnit = Unit.DUPLICATE;
 
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -208,6 +216,7 @@ class ExtractorMysticalSkillCostTest
     expected.costListValues = List.of("winzig", "klein", "mittel", "groß", "riesig");
     expected.costListUnit = Unit.SIZE;
     expected.permanentCostList = List.of(1, 2, 4, 8, 16);
+    expected.costText = msr.cost;
 
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -228,6 +237,7 @@ class ExtractorMysticalSkillCostTest
     expected.costListValues = List.of("winzig", "klein", "mittel", "groß", "riesig");
     expected.costListUnit = Unit.SIZE;
     expected.permanentCostList = List.of(0, 1, 2, 4, 8);
+    expected.costText = msr.cost;
 
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -246,8 +256,9 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.cost = 64;
     expected.permanentCost = 16;
-    expected.permanentCostSpecial = "soll Techniken geben, mit denen man die Kosten des Zaubers auf andere Wesen übertragen kann, aber dieses Wissen ist nicht in der Kenntnis des Rituals selbst enthalten.";
+    // expected.permanentCostSpecial = "soll Techniken geben, mit denen man die Kosten des Zaubers auf andere Wesen übertragen kann, aber dieses Wissen ist nicht in der Kenntnis des Rituals selbst enthalten.";
 
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -265,7 +276,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.cost = 64;
     expected.permanentCost = 8;
-    expected.plusCostSpecial = "Kosten des Zaubers, der in dem Objekt wirken soll";
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -282,7 +293,7 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.cost = 8;
-    expected.plusCostSpecial = "Kosten des fixierten Zaubers";
+    expected.costText = msr.cost;
 
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -302,6 +313,7 @@ class ExtractorMysticalSkillCostTest
     expected.costList = List.of(8, 16);
     expected.costListValues = List.of("", "Zauber mit der Zielkategorie Zone");
 
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -325,6 +337,7 @@ class ExtractorMysticalSkillCostTest
     expected.plusCostList = List.of(4, 8, 16, 32);
     expected.plusCostListUnit = Unit.SIZE;
     expected.plusCostListValues = List.of("Tasse", "Truhe", "Tür", "Burgtor");
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -340,8 +353,7 @@ class ExtractorMysticalSkillCostTest
 
     //that
     Cost expected = new Cost();
-    expected.costSpecial = "abhängig von der Waffe";
-
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -357,7 +369,7 @@ class ExtractorMysticalSkillCostTest
 
     //that
     Cost expected = new Cost();
-    expected.costSpecial = "KL (t) des Tieres in AsP";
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
 
@@ -375,62 +387,12 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.costMin = 4;
-    expected.baseCostPer = 1;
-    expected.baseCostPerMultiplier = 1;
-    expected.baseCostUnit = Unit.KG;
+    expected.plusCostPerMultiplier = 5;
+    expected.plusCostUnit = Unit.MINUTE;
+    expected.plusCostHalfBase = true;
+    expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
-
-  //
-  @Test
-  void given_whenRetrieveSkillCost_thenReturnCostWithGivenValues()
-  {
-    //given
-    MysticalSkillRaw msr = initMysticalSkillRaw();
-
-    //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
-
-    //that
-    Cost expected = new Cost();
-
-    assertThat(result, samePropertyValuesAs(expected));
-  }
-
-  //
-  @Test
-  void given_whenRetrieveSkillCost_thenReturnCostWithGivenValues()
-  {
-    //given
-    MysticalSkillRaw msr = initMysticalSkillRaw();
-
-    //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
-
-    //that
-    Cost expected = new Cost();
-
-    assertThat(result, samePropertyValuesAs(expected));
-  }
-
-  //
-  @Test
-  void given_whenRetrieveSkillCost_thenReturnCostWithGivenValues()
-  {
-    //given
-    MysticalSkillRaw msr = initMysticalSkillRaw();
-
-    //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
-
-    //that
-    Cost expected = new Cost();
-
-    assertThat(result, samePropertyValuesAs(expected));
-  }
-
-
-   */
 
   private MysticalSkillRaw initMysticalSkillRaw(String name, String cost)
   {

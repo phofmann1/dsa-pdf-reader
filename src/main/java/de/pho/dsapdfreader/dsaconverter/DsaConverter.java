@@ -2,6 +2,7 @@ package de.pho.dsapdfreader.dsaconverter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
@@ -27,6 +28,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
     protected static String concatForDataValue(String origin, String newValue)
     {
         String returnValue = origin == null ? "" : origin.trim();
+        if (newValue == null) return returnValue;
         String spacer = (returnValue.endsWith("-") || returnValue.length() == 1) ? "" : " ";
         returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;
         returnValue = returnValue.trim() + spacer + newValue.trim();
@@ -36,7 +38,16 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
         return DsaStringCleanupTool.cleanupString(returnValue);
     }
 
-    protected static String concatForDataValueWithMarkup(String origin, String cleanText, boolean isBold, boolean isItalic)
+    protected static boolean isNumeric(String strNum)
+    {
+        if (strNum == null)
+        {
+            return false;
+        }
+        return patternIsNumber.matcher(strNum).matches();
+    }
+
+    protected String concatForDataValueWithMarkup(String origin, String cleanText, boolean isBold, boolean isItalic)
     {
         String newText = cleanText;
         if (!newText.isEmpty())
@@ -45,11 +56,6 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
             if (isItalic) newText = "<i>" + newText + "</i>";
         }
         return concatForDataValue(origin, newText);
-    }
-
-    protected static boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
-    {
-        return t.size == conf.nameSize;
     }
 
     public List<T> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
@@ -152,9 +158,9 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     protected abstract void concludePredecessor(T lastEntry);
 
-    protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+    public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size == 900;
+        return t.size == conf.nameSize;
     }
 
     protected void applyFlagsForNoKeyStrings(F flags, String text)
@@ -171,13 +177,9 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     }
 
-    private static boolean isNumeric(String strNum)
+    protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        if (strNum == null)
-        {
-            return false;
-        }
-        return patternIsNumber.matcher(strNum).matches();
+        return !this.validateIsDataKey(t, cleanText, conf);
     }
 
     protected T last(List<T> returnValue)
@@ -185,9 +187,34 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
         if (returnValue != null && !returnValue.isEmpty())
         {
             return returnValue.get(returnValue.size() - 1);
-        } else
+        }
+        else
         {
             return null;
         }
+    }
+
+    protected boolean isMatch(Pattern pattern, String text)
+    {
+        return pattern.matcher(text).find();
+    }
+
+    protected String firstMatch(Pattern pattern, String text)
+    {
+        List<String> results = this.matches(pattern, text);
+        return results.size() > 0 ? results.get(0) : null;
+    }
+
+    protected List<String> matches(Pattern pattern, String text)
+    {
+        List<String> returnValue = new ArrayList<>();
+        Matcher msNameMatcher = pattern.matcher(text);
+
+        while (msNameMatcher.find())
+        {
+            returnValue.add(msNameMatcher.group().trim());
+        }
+
+        return returnValue;
     }
 }

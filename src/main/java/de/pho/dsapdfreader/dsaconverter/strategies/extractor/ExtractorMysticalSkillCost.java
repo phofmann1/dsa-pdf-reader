@@ -7,6 +7,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.enums.Unit;
@@ -82,9 +85,11 @@ public class ExtractorMysticalSkillCost extends Extractor
       "\\d+ (AsP|KaP) bzw\\. \\d+ (AsP|KaP)" // "8 AsP bzw. 16 AsP"
   );
 
+  private static final Logger LOGGER = LogManager.getLogger();
   public static Cost retrieveSkillCost(MysticalSkillRaw msr)
   {
     Cost returnValue = new Cost();
+    returnValue.costText = msr.cost;
     String restOfTxt = msr.cost;
 
     if (restOfTxt.contains("für RS"))
@@ -98,22 +103,11 @@ public class ExtractorMysticalSkillCost extends Extractor
       restOfTxt = applyPermanentCost(returnValue, restOfTxt, msr);
       restOfTxt = applyPlusCost(returnValue, restOfTxt, msr);
       restOfTxt = applyListCost(returnValue, restOfTxt, msr);
-      //restOfTxt = applyListPlusCost(returnValue, restOfTxt, msr);
-      restOfTxt = applyCounterSpellCost(returnValue, restOfTxt, msr);
+      applyCounterSpellCost(returnValue, restOfTxt, msr);
       // unapplied: returnValue.costPlusPerMax = 0;
-      applySpecialCost(returnValue, restOfTxt);
     }
 
     return returnValue;
-  }
-
-  private static String applySpecialCost(Cost returnValue, String restOfTxt)
-  {
-    if (returnValue.cost == 0 && returnValue.costMin == 0 && returnValue.costList == null)
-    {
-      returnValue.costSpecial = restOfTxt;
-    }
-    return "";
   }
 
   private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
@@ -195,7 +189,7 @@ public class ExtractorMysticalSkillCost extends Extractor
       }
       catch (NumberFormatException e)
       {
-        System.out.println(returnValue + " invalid Cost List (" + costListString + ") for(" + msr.name + ")");
+        LOGGER.error(returnValue + " invalid Cost List (" + costListString + ") for(" + msr.name + ")");
       }
       restOfTxt = restOfTxt.replace(costListString, "");
     }
@@ -230,11 +224,7 @@ public class ExtractorMysticalSkillCost extends Extractor
     if (m.find())
     {
       String costPlusString = m.group();
-      if (costPlusString.isEmpty() || costPlusString.contains("/"))
-      {
-        returnValue.plusCostSpecial = restOfTxt;
-      }
-      else
+      if (!(costPlusString.isEmpty() || costPlusString.contains("/")))
       {
         returnValue.plusCost = Integer.valueOf(costPlusString);
         restOfTxt = restOfTxt.replace(costPlusString, "");
@@ -280,15 +270,6 @@ public class ExtractorMysticalSkillCost extends Extractor
       }
       restOfTxt = restOfTxt.replace(costPermanentString, "");
     }
-
-    m = PAT_COST_PERMANENT_SPECIAL.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costPermanentSpecialString = m.group();
-      returnValue.permanentCostSpecial = costPermanentSpecialString;
-      restOfTxt = restOfTxt.replace(costPermanentSpecialString, "");
-    }
-
     return restOfTxt;
   }
 

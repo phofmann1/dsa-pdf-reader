@@ -12,14 +12,14 @@ public class ExtractorSkillKey
     {
     }
 
-    public static List<SkillKey> retrieveSkillKeys(MysticalSkillRaw msr)
+    public static List<SkillKey> retrieveSkillKeysForMysticalSkillRaw(MysticalSkillRaw msr)
     {
-        List<SkillKey> returnValue = new ArrayList<>();
-        if (msr.talentKey != null)
-        {
-            if (msr.talentKey.contains("Musizieren")) returnValue.add(SkillKey.MUSIZIEREN);
-            if (msr.talentKey.contains("Singen")) returnValue.add(SkillKey.SINGEN);
-        }
-        return returnValue;
+      List<SkillKey> returnValue = new ArrayList<>();
+      if (msr.talentKey != null)
+      {
+        if (msr.talentKey.contains("Musizieren")) returnValue.add(SkillKey.MUSIZIEREN);
+        if (msr.talentKey.contains("Singen")) returnValue.add(SkillKey.SINGEN);
+      }
+      return returnValue;
     }
 }

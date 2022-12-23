@@ -1,4 +1,4 @@
-<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../topic-mapping.xsd">
     <strategy name="End Feature of handwärmer with bold line on page 289" index="2">
         <strategyClass>StrategyInsertEmptyBold</strategyClass>
         <params>

@@ -310,13 +310,25 @@ public class DsaConverterMysticalSkill extends DsaConverter<MysticalSkillRaw, Co
 
         if (!flags.getFirstFlag().get())
         {
-            MysticalSkillRaw newEntry = new MysticalSkillRaw();
-            flags.initDataFlags();
-            newEntry.setTopic(conf.topic);
-            newEntry.setPublication(conf.publication);
-            returnValue.add(newEntry);
+          MysticalSkillRaw newEntry = new MysticalSkillRaw();
+          flags.initDataFlags();
+          newEntry.setTopic(conf.topic);
+          newEntry.setPublication(conf.publication);
+          returnValue.add(newEntry);
         }
 
-        last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
+      last(returnValue).setName(concatForDataValue(last(returnValue).getName(), cleanText));
     }
+
+  @Override
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+  {
+    return t.size <= conf.dataSize && t.isBold;
+  }
+
+  @Override
+  protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+  {
+    return t.size <= conf.dataSize && !t.isBold;
+  }
 }

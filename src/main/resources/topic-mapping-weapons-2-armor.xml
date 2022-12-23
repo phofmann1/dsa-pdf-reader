@@ -1,0 +1,63 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+
+    <strategy name="StrategyReplaceStringInLine - Fünflagenharnisch ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>146</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>54</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Fünflagen­</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Fünflagenharnisch</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Rüstungsvorteil Hartholzharnisch on Page 147" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>30</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - make advantage Hartholzharnisch regular on page 147">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>30.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+</topic-strategies>

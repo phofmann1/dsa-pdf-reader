@@ -1,4 +1,4 @@
-<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../topic-mapping.xsd">
     <strategy name="Split QS6 of duplicatus from effect on page 293" index="1">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>

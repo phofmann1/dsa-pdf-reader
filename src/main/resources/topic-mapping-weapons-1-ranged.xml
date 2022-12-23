@@ -1,0 +1,23 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyAddTextToLine - Add Stn to Schleuder on Page 151" index="1">
+        <strategyClass>StrategyAddTextToLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>151</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>52</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterPosition</key>
+                <value>3</value>
+            </parameter>
+            <parameter>
+                <key>insertText</key>
+                <value>Stn</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

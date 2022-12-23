@@ -13,7 +13,7 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 public class DsaConverterMsyticalSkillCommonness
 {
   //[A-ZÄÖÜ](([- ’(][A-ZÄÖÜ])|[a-zöäüß!?,\/)’ -])*
-  protected static final Pattern PAT_MYSTICAL_SKILL_NAME = Pattern.compile("[A-ZÄÖÜ](([- ’(][A-ZÄÖÜ])|[a-zöäüß!?,\\/)’ -])*");
+  protected static final Pattern PAT_MYSTICAL_SKILL_NAME = Pattern.compile("[A-ZÄÖÜ](([- ’'(][A-ZÄÖÜ])|[a-zöäüß!?,\\/)’' -])*");
 
   public Map<String, List<String>> convertTextWithMetaInfo(List<TextWithMetaInfo> texts)
   {

@@ -11,7 +11,8 @@ public enum ElementKey
     AIR,
     STONE;
 
-    @JsonValue
+
+  @JsonValue
     public int toValue()
     {
         return ordinal();

@@ -27,7 +27,7 @@ public class CsvCustomConvertMysticalSkillVariant extends AbstractBeanField<Myst
                 returnValue.minLevel = Integer.valueOf(values[1]);
                 returnValue.ap = Integer.valueOf(values[2]);
                 returnValue.description = values[3];
-                returnValue.requiredVariantName = (values[4] != null && !values[4].isEmpty() && !values[4].equalsIgnoreCase("null")) ? values[4] : null;
+//                returnValue.requiredVariantKey = (values[4] != null && !values[4].isEmpty() && !values[4].equalsIgnoreCase("null")) ? values[4] : null;
             } else
             {
                 LOGGER.error("Not a valid Variant string ({0}): {1}", MSV_SEPARATOR_REGEX, s);

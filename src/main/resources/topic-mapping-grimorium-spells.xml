@@ -168,7 +168,7 @@
             </parameter>
             <parameter>
                 <key>splitLine</key>
-                <value>21</value>
+                <value>19</value>
             </parameter>
             <parameter>
                 <key>splitAfterPosition</key>
@@ -186,23 +186,6 @@
             <parameter>
                 <key>insertAfterLineNo</key>
                 <value>21</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyInsertLineAfter Eigne Ängste... - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>111</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>43</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>igene Ängste</value>
             </parameter>
         </params>
     </strategy>
@@ -261,23 +244,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Eiseskälte Kämpferherz... - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>115</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>41</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>iseskälte Kämpferherz</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyPutToEndOfPage Eiseskälte Kämpferherz" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -297,23 +263,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Eiswand - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>117</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>41</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>iswand</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyPutToEndOfPage Eiswand" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -330,23 +279,6 @@
             <parameter>
                 <key>endEntryLineNo</key>
                 <value>40</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyInsertLineAfter Elfenstimme - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>119</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>40</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>lfenstimme</value>
             </parameter>
         </params>
     </strategy>
@@ -526,7 +458,7 @@
             </parameter>
             <parameter>
                 <key>endEntryLineNo</key>
-                <value>23</value>
+                <value>21</value>
             </parameter>
         </params>
     </strategy>
@@ -539,7 +471,7 @@
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>24</value>
+                <value>22</value>
             </parameter>
             <parameter>
                 <key>text</key>
@@ -560,62 +492,7 @@
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>42</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategySplitLineAfterPosition Hexenspeichel - Split Reversalis" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>174</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>43</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>147</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategySplitLineAfterPosition Hexenspeichel - Split Reversalis" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>174</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>43</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>136</value>
-            </parameter>
-            <parameter>
-                <key>insertSmall</key>
-                <value>true</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyReplaceStringInLine Hexenspeichel - make Reversalis bold Line">
-        <strategyClass>StrategyReplaceStringInLine</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>174</value>
-            </parameter>
-            <parameter>
-                <key>onLine</key>
-                <value>43.01</value>
-            </parameter>
-            <parameter>
-                <key>size</key>
-                <value>800</value>
+                <value>40</value>
             </parameter>
         </params>
     </strategy>
@@ -763,23 +640,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Krabbelnder Schrecken - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>203</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>39</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>rabbelnder Schrecken</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyPutToEndOfPage Krabbelnder Schrecken" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -796,23 +656,6 @@
             <parameter>
                 <key>endEntryLineNo</key>
                 <value>38</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyInsertLineAfter Kraft des Humus - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>205</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>47</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>raft des Humus</value>
             </parameter>
         </params>
     </strategy>
@@ -907,23 +750,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Krötenruf - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>208</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>41</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>rötenruf</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyPutToEndOfPage Krötenruf" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -952,7 +778,7 @@
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>42</value>
+                <value>43</value>
             </parameter>
             <parameter>
                 <key>text</key>
@@ -1093,6 +919,114 @@
             </parameter>
         </params>
     </strategy>
+    <strategy name="StrategyInsertLineAfter Mal der Erschöpfung - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>al der Erschöpfung</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Mal der Erschöpfung" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>40</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter Manifesto - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>anifesto</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Manifesto" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>54</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter Manus Illusionis - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>221</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>anus Illusionis</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Manus Illusionis" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>221</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>46</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategySplitLineAfterPosition Manus Miraculum - Prepare for insert Komma" index="1">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
@@ -1131,7 +1065,43 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Motoricus - Steigerungsfaktor" index="2">
+    <strategy name="StrategyInsertLineAfter Menetekel - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>225</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>45</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>enetekel</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Menetekel" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>225</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter Motoricus - Name" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
             <parameter>
@@ -1140,15 +1110,30 @@
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>24</value>
+                <value>22</value>
             </parameter>
             <parameter>
                 <key>text</key>
-                <value>B</value>
+                <value>otoricus</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Motoricus" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>227</value>
             </parameter>
             <parameter>
-                <key>size</key>
-                <value>900</value>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>21</value>
             </parameter>
         </params>
     </strategy>
@@ -1208,7 +1193,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="Split Reflectimago" index="1">
+    <strategy name="StrategySplitLineAfterPosition Reflectimago - Seitenrefferenz von Zauberdauer" index="1">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
             <parameter>
@@ -1217,7 +1202,7 @@
             </parameter>
             <parameter>
                 <key>splitLine</key>
-                <value>12</value>
+                <value>10</value>
             </parameter>
             <parameter>
                 <key>splitAfterPosition</key>
@@ -1225,7 +1210,24 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Krötensprung - Geste und Formel" index="2">
+    <strategy name="StrategyReplaceStringInLine Reflectimago - Seitenrefferenz Textformat korrigieren.">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>261</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter Schlangenruf - Geste und Formel" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
             <parameter>
@@ -1333,44 +1335,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategySplitLineAfterPosition Silentium - Prepare for insert FW" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>285</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>36</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>27</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyInsertLineAfter Silentium - insert FW" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>285</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>36</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>16</value>
-            </parameter>
-            <parameter>
-                <key>insertSmall</key>
-                <value>true</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyReplaceStringInLine Sumus Elixir - exchange FW 12">
         <strategyClass>StrategyReplaceStringInLine</strategyClass>
         <params>
@@ -1455,40 +1419,6 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="Split Verwandlungsbann" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>313</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>8</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>20</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyPutToEndOfPage Verwandlungsbann - Zaubererweiterungen:" index="1">
-        <strategyClass>StrategyPutToEndOfPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>313</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>8</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>8</value>
-            </parameter>
-        </params>
-    </strategy>
     <strategy name="StrategyInsertLineAfter Vipernblick - Name" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
@@ -1555,20 +1485,24 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Wasseratem - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
+    <strategy name="StrategyReplaceStringInLine Visibili - exchange FW 18 to 8">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>319</value>
+                <value>316</value>
             </parameter>
             <parameter>
-                <key>insertAfterLineNo</key>
-                <value>41</value>
+                <key>onLine</key>
+                <value>26</value>
             </parameter>
             <parameter>
-                <key>text</key>
-                <value>asseratem</value>
+                <key>oldText</key>
+                <value>FW 18, 2 AP</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>FW 8, 2 AP</value>
             </parameter>
         </params>
     </strategy>
@@ -1627,24 +1561,7 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyInsertLineAfter Wellenlauf - Name" index="2">
-        <strategyClass>StrategyInsertLineAfter</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>323</value>
-            </parameter>
-            <parameter>
-                <key>insertAfterLineNo</key>
-                <value>39</value>
-            </parameter>
-            <parameter>
-                <key>text</key>
-                <value>ellenlauf</value>
-            </parameter>
-        </params>
-    </strategy>
-    <strategy name="StrategyPutToEndOfPage Wellenlauf" index="3">
+    <strategy name="StrategyPutToEndOfPage Wellenlauf - Content nach Namen" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
         </strategyClass>
@@ -1660,6 +1577,82 @@
             <parameter>
                 <key>endEntryLineNo</key>
                 <value>38</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Wellenlauf - Fluff nach Content" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>323</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter Wellenwand - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>325</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>45</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ellenwand</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Wellenwand" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>325</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine Windhose - add komma on Variant">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>326</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>28</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>FW 12 8 AP</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>FW 12, 8 AP</value>
             </parameter>
         </params>
     </strategy>
@@ -1699,24 +1692,39 @@
             </parameter>
         </params>
     </strategy>
-    <strategy name="StrategyReplaceStringInLine Windhose - add komma on Variant">
-        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+    <strategy name="StrategyInsertLineAfter Windstille - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>326</value>
+                <value>327</value>
             </parameter>
             <parameter>
-                <key>onLine</key>
-                <value>28</value>
+                <key>insertAfterLineNo</key>
+                <value>48</value>
             </parameter>
             <parameter>
-                <key>oldText</key>
-                <value>FW 12 8 AP</value>
+                <key>text</key>
+                <value>indstille</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Windstille" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>327</value>
             </parameter>
             <parameter>
-                <key>newText</key>
-                <value>FW 12, 8 AP</value>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>47</value>
             </parameter>
         </params>
     </strategy>
@@ -1777,6 +1785,42 @@
             </parameter>
         </params>
     </strategy>
+    <strategy name="StrategyInsertLineAfter Woge der Versteinerung - Name" index="2">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>329</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>oge der Versteinerung</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Woge der Versteinerung" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>329</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>40</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategyInsertLineAfter Wolfstatze - Name" index="2">
         <strategyClass>StrategyInsertLineAfter</strategyClass>
         <params>
@@ -1786,7 +1830,7 @@
             </parameter>
             <parameter>
                 <key>insertAfterLineNo</key>
-                <value>59</value>
+                <value>55</value>
             </parameter>
             <parameter>
                 <key>text</key>
@@ -1809,7 +1853,7 @@
             </parameter>
             <parameter>
                 <key>endEntryLineNo</key>
-                <value>58</value>
+                <value>54</value>
             </parameter>
         </params>
     </strategy>

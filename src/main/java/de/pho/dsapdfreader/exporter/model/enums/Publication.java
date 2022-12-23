@@ -39,7 +39,9 @@ public enum Publication
   DIE_SILBERNE_WEHR,
   HERBARIUM_1,
   HERBARIUM_2,
-  GRIMORIUM;
+  GRIMORIUM,
+  KODEX_DER_MAGIE,
+  RUESTAKAMMER_2;
 
   @JsonValue
   public int toValue()

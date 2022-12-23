@@ -217,9 +217,35 @@ public abstract class Extractor
             };
     }
 
-    protected static String getPrefix(MysticalSkillRaw msr)
-    {
-        return msr.publication + " - " + msr.name + ": ";
-    }
+
+  public static String extractKeyTextFromText(String txt)
+  {
+    return txt == null ? "" : (txt.toUpperCase()
+        .replace("Ä", "AE")
+        .replace("Ö", "OE")
+        .replace("Ü", "UE")
+        .replace("ß", "SS")
+        .replace("&", "UND")
+        .replace("!", "")
+        .replace("(", "")
+        .replace(")", "")
+        .replace("/", " ")
+        .replace("?", "")
+        .replace("’", " ")
+        .replace(",", " ")
+        .replace(" ..", "")
+        .replace(".", "")
+        .replaceAll("\s+", " ")
+        .replace("-", "_")
+        .replace("–", "_")
+    ).trim()
+        .replace(" ", "_")
+        .replace("__", "_");
+  }
+
+  protected static String getPrefix(MysticalSkillRaw msr)
+  {
+    return msr.publication + " - " + msr.name + ": ";
+  }
 
 }

@@ -6,15 +6,14 @@ import de.pho.dsapdfreader.exporter.model.enums.Unit;
 
 public class Cost
 {
+
+  public String costText;
   // BASE COST
   public int cost;
   public List<Integer> costList;
   public List<String> costListValues;
   public Unit costListUnit;
-  public Unit costPerUnit;
-  public int costPerUnitMultiplier;
   public int costMin;
-  public String costSpecial;
 
 
   // PLUS COST
@@ -25,7 +24,7 @@ public class Cost
   public List<Integer> plusCostList;
   public List<String> plusCostListValues;
   public Unit plusCostListUnit;
-  public String plusCostSpecial;
+  public boolean plusCostHalfBase;
 
 
   // PERMANENT COST
@@ -33,7 +32,6 @@ public class Cost
   public List<Integer> permanentCostList;
   public List<String> permanentCostValueList;
   public Unit permanentCostUnit;
-  public String permanentCostSpecial;
 
 
   public int getCost()
@@ -46,10 +44,6 @@ public class Cost
     return costMin;
   }
 
-  public String getCostSpecial()
-  {
-    return costSpecial;
-  }
 
   public int getPlusCost()
   {
@@ -71,10 +65,6 @@ public class Cost
     return plusCostPerMax;
   }
 
-  public String getPlusCostSpecial()
-  {
-    return plusCostSpecial;
-  }
 
   public int getPermanentCost()
   {
@@ -101,11 +91,6 @@ public class Cost
     return plusCostListValues;
   }
 
-  public String getPermanentCostSpecial()
-  {
-    return permanentCostSpecial;
-  }
-
   public List<String> getCostListValues()
   {
     return costListValues;
@@ -129,6 +114,16 @@ public class Cost
   public Unit getPlusCostListUnit()
   {
     return plusCostListUnit;
+  }
+
+  public boolean isPlusCostHalfBase()
+  {
+    return plusCostHalfBase;
+  }
+
+  public String getCostText()
+  {
+    return costText;
   }
 }
 

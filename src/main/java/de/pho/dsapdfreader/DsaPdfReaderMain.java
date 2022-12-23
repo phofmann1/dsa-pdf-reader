@@ -39,7 +39,9 @@ import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmor;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMeleeWeapon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillIncantations;
@@ -48,11 +50,21 @@ import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimorium;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimoriumTricks;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterProfession;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterRangedWeapon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityClericBase;
+import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
+import de.pho.dsapdfreader.dsaconverter.model.MeleeWeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.dsaconverter.model.RangedWeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
+import de.pho.dsapdfreader.exporter.LoadToArmor;
+import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
 import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
+import de.pho.dsapdfreader.exporter.model.Armor;
+import de.pho.dsapdfreader.exporter.model.MeleeWeapon;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.pdf.PdfReader;
@@ -313,7 +325,7 @@ public class DsaPdfReaderMain
             if (results != null)
             {
               File fOut = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
-              msg = String.format("# of MysticalSkills of Type (%s): %s", conf.topic, results.size());
+              msg = String.format("# of Entries of Type (%s): %s", conf.topic, results.size());
               LOGGER.info(msg);
               CsvHandler.writeBeanToUrl(fOut, results);
             }
@@ -347,6 +359,9 @@ public class DsaPdfReaderMain
   private static void summarizeRawByType()
   {
     Map<String, List<MysticalSkillRaw>> allByTypeMap = new HashMap<>();
+    List<MeleeWeaponRaw> meleeWeaponRawList = new ArrayList<>();
+    List<RangedWeaponRaw> rangedWeaponRawList = new ArrayList<>();
+    List<ArmorRaw> armorRawList = new ArrayList<>();
 
     configs.stream()
         .filter(conf -> conf != null && conf.active)
@@ -365,12 +380,29 @@ public class DsaPdfReaderMain
           {
             break;
           }
-          default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
+          case NAHKAMPFWAFFEN ->
+          {
+            List<MeleeWeaponRaw> rawList = CsvHandler.readBeanFromFile(MeleeWeaponRaw.class, new File(generateFileName(FILE_STRATEGY_2_RAW, conf)));
+            meleeWeaponRawList.addAll(rawList);
+          }
+          case FERNKAMPFWAFFEN ->
+          {
+            List<RangedWeaponRaw> rawList = CsvHandler.readBeanFromFile(RangedWeaponRaw.class, new File(generateFileName(FILE_STRATEGY_2_RAW, conf)));
+            rangedWeaponRawList.addAll(rawList);
+          }
+          case RÜSTUNGEN ->
+          {
+            List<ArmorRaw> rawList = CsvHandler.readBeanFromFile(ArmorRaw.class, new File(generateFileName(FILE_STRATEGY_2_RAW, conf)));
+            armorRawList.addAll(rawList);
+          }
+          default -> LOGGER.error(String.format("Unexpected value (summarizeRawByType): %s", conf.topic));
           }
         });
 
     allByTypeMap.forEach((k, v) -> CsvHandler.writeBeanToUrl(new File(String.format(FILE_STRATEGY_2_RAW_ALL, k)), v));
-
+    CsvHandler.writeBeanToUrl(new File(String.format(FILE_STRATEGY_2_RAW_ALL, "equipment-melee")), meleeWeaponRawList);
+    CsvHandler.writeBeanToUrl(new File(String.format(FILE_STRATEGY_2_RAW_ALL, "equipment-ranged")), rangedWeaponRawList);
+    CsvHandler.writeBeanToUrl(new File(String.format(FILE_STRATEGY_2_RAW_ALL, "equipment-armor")), armorRawList);
   }
 
 
@@ -396,7 +428,54 @@ public class DsaPdfReaderMain
 
         BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "mysticalskills")));
         writer.write(jsonResult);
+        writer.close();
 
+        if (conf.topic == TopicEnum.RITUALS
+            || conf.topic == TopicEnum.RITUALS_GRIMORIUM
+            || conf.topic == TopicEnum.SPELLS
+            || conf.topic == TopicEnum.SPELLS_GRIMORIUM
+        )
+        {
+          writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "mysticalskills_descriptions")));
+          writer.write(generateDescriptionString(rawMysticalSkills));
+          writer.close();
+
+
+          writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "mysticalskills_effects")));
+          writer.write(generateEffectString(rawMysticalSkills));
+          writer.close();
+
+          writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "mysticalskills_variant_descriptions")));
+          writer.write(generateVariantDescriptionString(rawMysticalSkills));
+          writer.close();
+        }
+      }
+      catch (JsonProcessingException e)
+      {
+        throw new RuntimeException(e);
+      }
+      catch (IOException e)
+      {
+        throw new RuntimeException(e);
+      }
+    }
+    case NAHKAMPFWAFFEN ->
+    {
+      try
+      {
+
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+        List<MeleeWeaponRaw> raws = CsvHandler.readBeanFromFile(MeleeWeaponRaw.class, fIn);
+
+        List<MeleeWeapon> meleeWeapons = raws.stream().map(LoadToMeleeWeapon::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(meleeWeapons);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "equipment")));
+        writer.write(jsonResult);
         writer.close();
       }
       catch (JsonProcessingException e)
@@ -408,12 +487,95 @@ public class DsaPdfReaderMain
         throw new RuntimeException(e);
       }
     }
+    case FERNKAMPFWAFFEN ->
+    {
+
+    }
+    case RÜSTUNGEN ->
+    {
+      try
+      {
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+        List<ArmorRaw> raws = CsvHandler.readBeanFromFile(ArmorRaw.class, fIn);
+
+        List<Armor> pures = raws.stream().map(LoadToArmor::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(pures);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "equipment")));
+        writer.write(jsonResult);
+        writer.close();
+      }
+      catch (JsonProcessingException e)
+      {
+        throw new RuntimeException(e);
+      }
+      catch (IOException e)
+      {
+        throw new RuntimeException(e);
+      }
+
+    }
     case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_RIME_RITUALS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM, ELEMENTS_SPELLS_GRIMORIUM, ELEMENTS_RITUALS_GRIMORIUM ->
     {
       break;
     }
-    default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
+    default -> LOGGER.error(String.format("Unexpected value (parseToJson): %s", conf.topic));
     }
+  }
+
+  private static String generateEffectString(List<MysticalSkillRaw> rawMysticalSkills)
+  {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().forEach(msr -> {
+      returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, Extractor.retrieveCategory(msr.topic)).toValue()
+          + " {"
+          + msr.effect
+          + "}"
+          + "\r\n");
+      if (msr.description == null || msr.description.isEmpty())
+      {
+        LOGGER.error("Mystical Skill (" + msr.description + ") has no description!");
+      }
+    });
+    return returnValue.toString();
+
+  }
+
+  private static String generateVariantDescriptionString(List<MysticalSkillRaw> rawMysticalSkills)
+  {
+
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream()
+        .forEach(msr -> {
+          returnValue.append("{" + msr.variant1.key.ordinal() + "} " + msr.variant1.description + "\r\n");
+          returnValue.append("{" + msr.variant2.key.ordinal() + "} " + msr.variant2.description + "\r\n");
+          returnValue.append("{" + msr.variant3.key.ordinal() + "} " + msr.variant3.description + "\r\n");
+          returnValue.append("{" + msr.variant4.key.ordinal() + "} " + msr.variant4.description + "\r\n");
+          returnValue.append("{" + msr.variant5.key.ordinal() + "} " + msr.variant5.description + "\r\n");
+        });
+    return returnValue.toString();
+  }
+
+  private static String generateDescriptionString(List<MysticalSkillRaw> rawMysticalSkills)
+  {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().forEach(msr -> {
+      returnValue.append(
+          ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, Extractor.retrieveCategory(msr.topic)).toValue()
+              + " {"
+              + msr.description
+              + "} "
+              + "\r\n");
+      if (msr.description == null || msr.description.isEmpty())
+      {
+        LOGGER.error("Mystical Skill (" + msr.description + ") has no description!");
+      }
+    });
+    return returnValue.toString();
   }
 
   private static List<TextWithMetaInfo> extractPdfResults(TopicConfiguration conf) throws IOException
@@ -513,7 +675,7 @@ public class DsaPdfReaderMain
     case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
     case SPELLS_GRIMORIUM, RITUALS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimorium().convertTextWithMetaInfo(texts, conf);
     case TRICKS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimoriumTricks().convertTextWithMetaInfo(texts, conf);
-    case CURSES, ELFENSONGS, MELODIES, DANCES -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
+    case CURSES, ELFENSONGS, MELODIES, DANCES, ANIMIST -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
     case TRADITIONS_GRIMORIUM -> System.out.println("IMPLEMENTIER MICH");
     case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM ->
     {
@@ -547,7 +709,10 @@ public class DsaPdfReaderMain
       applyToMysticalSkills(commonness);
     }
     case PROFESSIONS -> results = new DsaConverterProfession().convertTextWithMetaInfo(texts, conf);
-    default -> LOGGER.error(String.format("Unexpected value: %s", conf.topic));
+    case NAHKAMPFWAFFEN -> results = new DsaConverterMeleeWeapon().convertTextWithMetaInfo(texts, conf);
+    case FERNKAMPFWAFFEN -> results = new DsaConverterRangedWeapon().convertTextWithMetaInfo(texts, conf);
+    case RÜSTUNGEN -> results = new DsaConverterArmor().convertTextWithMetaInfo(texts, conf);
+    default -> LOGGER.error(String.format("Unexpected value (parseResult): %s", conf.topic));
     }
     return results;
   }

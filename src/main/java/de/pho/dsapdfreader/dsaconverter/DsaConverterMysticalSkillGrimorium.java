@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 import org.javatuples.Triplet;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
+import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsMysticalSkill;
 import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
@@ -101,6 +102,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       "|" +
       "^" + REGEX_TITLE_CHARS + "*(\\(FW)"; //case Begin line: "Längere Wirkungsdauer (FW "
   private static final Pattern PATTERN_EXTRACT_TITLE = Pattern.compile(REGEX_EXTRACT_TITLE);
+
   ConverterAtomicFlagsMysticalSkill flags = new ConverterAtomicFlagsMysticalSkill();
 
   public String[] getKeys()
@@ -145,6 +147,11 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
         this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
+        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM)
+        {
+          newEntry.cost = "1 AsP";
+          newEntry.castingDuration = "1 Aktion";
+        }
         returnValue.add(newEntry);
 
         lastPage.set(t.onPage);
@@ -165,7 +172,6 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       if (isDataKey)
       {
         applyFlagsForKey(t.text);
-        applyFlagsForNoKeyStrings(getFlags(), t.text);
       }
 
       // handle values
@@ -280,6 +286,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
     }
   }
 
+
   @Override
   protected void concludePredecessor(MysticalSkillRaw msr)
   {
@@ -292,10 +299,17 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
 
       List<MysticalSkillVariant> variants = variantStrings.stream().map(vs -> {
         MysticalSkillVariant msv = new MysticalSkillVariant();
-        msv.name = vs.substring(0, vs.indexOf("(")).trim();
-        msv.minLevel = Integer.valueOf(vs.substring(vs.indexOf("FW") + 2, vs.indexOf(",", vs.indexOf("("))).trim());
-        msv.ap = Integer.valueOf(vs.substring(vs.indexOf(",", vs.indexOf("(")) + 1, vs.indexOf("AP")).trim());
-        msv.description = vs.substring(vs.indexOf("("));
+        try
+        {
+          msv.name = vs.substring(0, vs.indexOf("(")).trim();
+          msv.minLevel = Integer.valueOf(vs.substring(vs.indexOf("FW") + 2, vs.indexOf(",", vs.indexOf("("))).trim());
+          msv.ap = Integer.valueOf(vs.substring(vs.indexOf(",", vs.indexOf("(")) + 1, vs.indexOf("AP")).trim());
+          msv.description = vs.substring(vs.indexOf("("));
+        }
+        catch (StringIndexOutOfBoundsException e)
+        {
+          System.out.println(vs);
+        }
         return msv;
       }).collect(Collectors.toList());
 
@@ -359,12 +373,12 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   @Override
   protected void applyFlagsForNoKeyStrings(ConverterAtomicFlagsMysticalSkill flags, String text)
   {
-    if (text.trim().equals("QS 1:")) flags.wasQs1.set(true);
-    if (text.trim().equals("QS 2:")) flags.wasQs2.set(true);
-    if (text.trim().equals("QS 3:")) flags.wasQs3.set(true);
-    if (text.trim().equals("QS 4:")) flags.wasQs4.set(true);
-    if (text.trim().equals("QS 5:")) flags.wasQs5.set(true);
-    if (text.trim().equals("QS 6:")) flags.wasQs6.set(true);
+    flags.wasQs1.set(text.trim().equals("QS 1:"));
+    flags.wasQs2.set(text.trim().equals("QS 2:"));
+    flags.wasQs3.set(text.trim().equals("QS 3:"));
+    flags.wasQs4.set(text.trim().equals("QS 4:"));
+    flags.wasQs5.set(text.trim().equals("QS 5:"));
+    flags.wasQs6.set(text.trim().equals("QS 6:"));
 
 
   }
@@ -398,7 +412,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
 
   protected boolean validateIsDataValue(TextWithMetaInfo t)
   {
-    return t.size == 900;
+    return t.size == 900 || t.size == 800 && t.text.contains("QS");
   }
 
 

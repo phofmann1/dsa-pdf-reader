@@ -1,0 +1,21 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategyAddTextToLine - Add Blank to Kampftechnik on Page 145" index="1">
+        <strategyClass>StrategyAddTextToLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>145</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>insertText</key>
+                <value>Schleudern</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

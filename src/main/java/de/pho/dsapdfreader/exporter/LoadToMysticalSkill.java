@@ -5,6 +5,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAdvancementCategory;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCastingDuration;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCheck;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorElementKeys;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorFeature;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillDifficulty;
@@ -39,27 +40,28 @@ public class LoadToMysticalSkill
         returnValue.publication = Publication.valueOf(DsaStringCleanupTool.mapStringToEnumName(msr.publication));
         returnValue.category = Extractor.retrieveCategory(msr.topic);
         returnValue.check = ExtractorCheck.retrieveCheck(msr, returnValue.category);
-        returnValue.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, returnValue.category);
-        returnValue.spellVariants = ExtractorMysticalSkillVariant.retrieveMysticalSkillVariants(msr);
-        returnValue.casting = ExtractorCastingDuration.retrieveCastingDuration(msr, returnValue.category);
+      returnValue.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, returnValue.category);
+      returnValue.spellVariants = ExtractorMysticalSkillVariant.retrieveMysticalSkillVariants(msr, returnValue.key);
+      returnValue.casting = ExtractorCastingDuration.retrieveCastingDuration(msr, returnValue.category);
         returnValue.targetCategories = ExtractorTargetCategory.retrieveTargetCategories(msr);
         returnValue.skillRange = ExtractorSkillRange.retrieveSkillRange(msr);
         returnValue.traditions = ExtractorTradtion.retrieveTraditions(msr, returnValue.category);
+
         if (
             returnValue.traditions.contains(TraditionKey.DANCER)
                 || returnValue.traditions.contains(TraditionKey.BARDE)
         )
         {
-            returnValue.traditionSubs = ExtractorTradtion.retrieveTraditionSubs(msr);
+          returnValue.traditionSubs = ExtractorTradtion.retrieveTraditionSubs(msr);
         }
-        returnValue.traditionIncantationMap = ExtractorTradtion.retrieveIncantations(msr);
+      returnValue.traditionIncantationMap = ExtractorTradtion.retrieveIncantations(msr);
       returnValue.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
-        returnValue.skillCost = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
-        returnValue.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
-        returnValue.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
-        returnValue.skillKeys = ExtractorSkillKey.retrieveSkillKeys(msr);
-        // elemental Categories are missing
-        return returnValue;
+      returnValue.skillCost = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+      returnValue.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
+      returnValue.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
+      returnValue.skillKeys = ExtractorSkillKey.retrieveSkillKeysForMysticalSkillRaw(msr);
+      returnValue.elementalCategories = ExtractorElementKeys.retrieveElementKeys(msr);
+      return returnValue;
     }
 
 }
