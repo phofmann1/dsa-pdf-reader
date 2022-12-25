@@ -1,0 +1,44 @@
+package de.pho.dsapdfreader.exporter;
+
+import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentCategoryKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPrice;
+import de.pho.dsapdfreader.exporter.model.Equipment;
+import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+
+
+public class LoadToEquipment
+{
+
+  private LoadToEquipment()
+  {
+  }
+
+  public static Equipment migrate(EquipmentRaw er)
+  {
+    Equipment returnValue = new Equipment();
+
+    returnValue.name = er.name;
+    returnValue.key = ExtractorEquipmentKey.retrieve(er.name);
+    returnValue.structure = 0;
+    returnValue.color = "";
+    returnValue.categoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);
+    if (er.weight != null && !er.weight.isEmpty())
+    {
+      returnValue.weight = Double.valueOf(er.weight.replace(".", "").replace(",", "."));
+    }
+    returnValue.publication = Publication.valueOf(er.publication.toUpperCase());
+    returnValue.price = ExtractorPrice.retrieve(er.price);
+
+
+    returnValue.craftingComplexity = CraftingComplexityKey.parse(er.craft);
+    if (er.craft.startsWith("komp"))
+    {
+      returnValue.craftingAp = Integer.valueOf(er.craft.substring(er.craft.indexOf("(") + 1, er.craft.indexOf("AP")).trim());
+    }
+    return returnValue;
+  }
+
+}

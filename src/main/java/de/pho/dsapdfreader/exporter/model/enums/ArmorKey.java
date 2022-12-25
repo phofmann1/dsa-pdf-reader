@@ -36,7 +36,14 @@ public enum ArmorKey
   schwere_platte,
   skorpionhemd,
   turnierruestung,
-  wattierter_waffenrock;
+  wattierter_waffenrock,
+  normale_kleidung_felle_oder_nackt,
+  schwere_kleidung_winterkleidung,
+  stoffruestung_gambeson,
+  lederruestung,
+  kettenruestung,
+  schuppenruestung,
+  plattenruestung;
 
 
   @JsonValue

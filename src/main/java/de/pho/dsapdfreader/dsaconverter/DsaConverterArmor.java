@@ -115,7 +115,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
   protected void handleFirstValue(List<ArmorRaw> returnValue, TopicConfiguration conf, String cleanText)
   {
 
-    if (this.getFlags().getWasEndOfEntry().get() || this.getFlags().isFirstValue.get())
+    if (this.getFlags().getWasEndOfEntry().get() || this.getFlags().isFirstValue.get() || conf.publication.equals("Basis"))
     {
       ArmorRaw newEntry = new ArmorRaw();
       this.getFlags().initDataFlags();
@@ -123,6 +123,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
       newEntry.setPublication(conf.publication);
       newEntry.setName(cleanText
           .replace("ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisKomplexität", "")
+          .replace("ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreis", "")
       );
       this.getFlags().wasName.set(true);
       this.getFlags().isFirstValue.set(false);
@@ -172,7 +173,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
         && !isNumeric(t.text)
         && !t.isItalic
         && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text))
-        && (getFlags().wasDisadvantage.get() || getFlags().isFirstValue.get());
+        && (getFlags().wasDisadvantage.get() || getFlags().isFirstValue.get() || conf.publication.equals("Basis"));
   }
 
   @Override

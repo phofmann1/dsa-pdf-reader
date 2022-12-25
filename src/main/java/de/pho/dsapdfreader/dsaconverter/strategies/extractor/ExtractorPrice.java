@@ -7,26 +7,44 @@ public class ExtractorPrice extends Extractor
 {
   public static Price retrieve(String value)
   {
-    return retrieve(value, DsaCurrency.SILBER);
+    return retrieve(value, DsaCurrency.SILBER, false);
   }
 
-  public static Price retrieve(String value, DsaCurrency currency)
+  public static Price retrieve(String value, DsaCurrency currency, boolean isPerLevel)
   {
     Price returnValue = new Price();
     if (value == null || value.isEmpty() || value.equals("gratis"))
     {
-      returnValue.isMinPrice = false;
       returnValue.priceInSilver = 0;
+      returnValue.minPriceInSilver = 0;
+      returnValue.maxPriceInSilver = 0;
     }
     else
     {
-      returnValue.isMinPrice = value.contains("+");
-      returnValue.priceInSilver = Double.valueOf(value
-          .replaceAll("\\+", "")
-          .replaceAll("\\.", "")
-          .replaceAll(",", ".")) * currency.exchangeRateSilver;
+      returnValue.isPricePerLevel = isPerLevel;
+      if (value.contains("bis") || value.contains("+"))
+      {
+        String[] values = value.split("bis");
+        returnValue.minPriceInSilver = convert2PriceDouble(values[0], currency.exchangeRateSilver);
+        if (values.length == 2)
+        {
+          returnValue.maxPriceInSilver = convert2PriceDouble(values[1], currency.exchangeRateSilver);
+        }
+      }
+      else
+      {
+        returnValue.priceInSilver = convert2PriceDouble(value, currency.exchangeRateSilver);
+      }
     }
     return returnValue;
+  }
+
+  private static double convert2PriceDouble(String value, double exchangeRateSilver)
+  {
+    return Double.valueOf(value
+        .replaceAll("\\+", "")
+        .replaceAll("\\.", "")
+        .replaceAll(",", ".")) * exchangeRateSilver;
   }
 
 }

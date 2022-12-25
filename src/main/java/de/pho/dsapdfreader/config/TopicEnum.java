@@ -39,4 +39,5 @@ public enum TopicEnum
   NAHKAMPFWAFFEN,
   FERNKAMPFWAFFEN,
   RÜSTUNGEN,
+  AUSRÜSTUNG,
 }

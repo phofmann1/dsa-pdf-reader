@@ -41,7 +41,8 @@ public enum Publication
   HERBARIUM_2,
   GRIMORIUM,
   KODEX_DER_MAGIE,
-  RUESTAKAMMER_2;
+  RUESTAKAMMER_2,
+  STRASSENSTAUB_UND_HALSABSCHNEIDER;
 
   @JsonValue
   public int toValue()

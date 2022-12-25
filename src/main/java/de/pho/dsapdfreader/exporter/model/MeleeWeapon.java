@@ -4,6 +4,7 @@ import java.util.List;
 
 import de.pho.dsapdfreader.exporter.model.enums.CloseCombatRange;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.WeaponKey;
 
@@ -17,9 +18,13 @@ public class MeleeWeapon
   public List<AttributeTpBonus> attributeTpBonuses;
   public int atModifier;
   public int paModifier;
-  public CloseCombatRange closeCombatRange;
+  public CloseCombatRange closeCombatRangeKey;
   public double weight;
   public double size;
   public Price price;
   public boolean parryForbidden;
+  public boolean isImprovised;
+  public CraftingComplexityKey craftingComplexity;
+  public int craftingAp;
+  public int breakingValue;
 }

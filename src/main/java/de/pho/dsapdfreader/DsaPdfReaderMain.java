@@ -41,6 +41,7 @@ import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterArmor;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterEquipment;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMeleeWeapon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
@@ -54,6 +55,7 @@ import de.pho.dsapdfreader.dsaconverter.DsaConverterRangedWeapon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityClericBase;
 import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
+import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MeleeWeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.model.RangedWeaponRaw;
@@ -61,11 +63,15 @@ import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
 import de.pho.dsapdfreader.exporter.LoadToArmor;
+import de.pho.dsapdfreader.exporter.LoadToEquipment;
 import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
 import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
+import de.pho.dsapdfreader.exporter.LoadToRangedWeapon;
 import de.pho.dsapdfreader.exporter.model.Armor;
+import de.pho.dsapdfreader.exporter.model.Equipment;
 import de.pho.dsapdfreader.exporter.model.MeleeWeapon;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
+import de.pho.dsapdfreader.exporter.model.RangedWeapon;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
@@ -366,7 +372,7 @@ public class DsaPdfReaderMain
     configs.stream()
         .filter(conf -> conf != null && conf.active)
         .forEach(conf -> {
-          String msg = String.format("Config zu JSON verarbeiten: %s (%s)", conf.publication, conf.topic);
+          String msg = String.format("Raw nach typ zusammenfassen: %s (%s)", conf.publication, conf.topic);
           LOGGER.info(msg);
           switch (conf.topic)
           {
@@ -450,10 +456,6 @@ public class DsaPdfReaderMain
           writer.close();
         }
       }
-      catch (JsonProcessingException e)
-      {
-        throw new RuntimeException(e);
-      }
       catch (IOException e)
       {
         throw new RuntimeException(e);
@@ -478,9 +480,31 @@ public class DsaPdfReaderMain
         writer.write(jsonResult);
         writer.close();
       }
-      catch (JsonProcessingException e)
+      catch (IOException e)
       {
         throw new RuntimeException(e);
+      }
+    }
+
+    case AUSRÜSTUNG ->
+    {
+      try
+      {
+
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+        List<EquipmentRaw> raws = CsvHandler.readBeanFromFile(EquipmentRaw.class, fIn);
+
+        List<Equipment> meleeWeapons = raws.stream().map(LoadToEquipment::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(meleeWeapons);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "equipment")));
+        writer.write(jsonResult);
+        writer.close();
+
       }
       catch (IOException e)
       {
@@ -489,7 +513,27 @@ public class DsaPdfReaderMain
     }
     case FERNKAMPFWAFFEN ->
     {
+      try
+      {
 
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+        List<RangedWeaponRaw> raws = CsvHandler.readBeanFromFile(RangedWeaponRaw.class, fIn);
+
+        List<RangedWeapon> pures = raws.stream().map(LoadToRangedWeapon::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(pures);
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "equipment")));
+        writer.write(jsonResult);
+        writer.close();
+      }
+      catch (IOException e)
+      {
+        throw new RuntimeException(e);
+      }
     }
     case RÜSTUNGEN ->
     {
@@ -508,10 +552,6 @@ public class DsaPdfReaderMain
         BufferedWriter writer = new BufferedWriter(new FileWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf, "equipment")));
         writer.write(jsonResult);
         writer.close();
-      }
-      catch (JsonProcessingException e)
-      {
-        throw new RuntimeException(e);
       }
       catch (IOException e)
       {
@@ -712,6 +752,7 @@ public class DsaPdfReaderMain
     case NAHKAMPFWAFFEN -> results = new DsaConverterMeleeWeapon().convertTextWithMetaInfo(texts, conf);
     case FERNKAMPFWAFFEN -> results = new DsaConverterRangedWeapon().convertTextWithMetaInfo(texts, conf);
     case RÜSTUNGEN -> results = new DsaConverterArmor().convertTextWithMetaInfo(texts, conf);
+    case AUSRÜSTUNG -> results = new DsaConverterEquipment().convertTextWithMetaInfo(texts, conf);
     default -> LOGGER.error(String.format("Unexpected value (parseResult): %s", conf.topic));
     }
     return results;

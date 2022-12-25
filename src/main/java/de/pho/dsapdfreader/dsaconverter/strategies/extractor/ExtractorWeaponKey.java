@@ -17,7 +17,7 @@ public class ExtractorWeaponKey extends Extractor
     catch (IllegalArgumentException e)
     {
       String msg = String.format("%s key could not be interpreted.", name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }
@@ -25,16 +25,17 @@ public class ExtractorWeaponKey extends Extractor
   public static WeaponKey extractWeaponKeyFromText(String armorName)
   {
     WeaponKey returnValue;
-    String armorKeyString = extractKeyTextFromText(armorName).toLowerCase();
-    armorKeyString = armorKeyString.trim();
+    String keyString = extractKeyTextFromText(armorName).toLowerCase();
+    keyString = keyString.trim();
 
     try
     {
-      returnValue = WeaponKey.valueOf(armorKeyString.toLowerCase());
+      returnValue = WeaponKey.valueOf(keyString.toLowerCase());
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid WeaponKey: " + armorKeyString);
+      System.out.println(keyString + ",");
+      //LOGGER.error("Invalid WeaponKey: " + armorKeyString);
       returnValue = null;
     }
     return returnValue;

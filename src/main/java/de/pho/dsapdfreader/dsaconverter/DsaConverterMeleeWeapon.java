@@ -52,12 +52,12 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
   protected static Pattern PAT_AT_PA_MOD = Pattern.compile("((\\+|\\–)\\d|0) ?\\/((\\+|\\–)\\d?)|0");
   //(kurz|mittel|lang)
   protected static Pattern PAT_MELEE_RANGE = Pattern.compile("(kurz|mittel|überlang|lang)");
-  //[\d,]+(?= Stn)
-  protected static Pattern PAT_WEIGHT = Pattern.compile("[\\d,]+(?= (Stn|Stein))");
+  //\d[\d,\.]+(?=\+? Stn)
+  protected static Pattern PAT_WEIGHT = Pattern.compile("\\d[\\d,\\.]*(?=\\+? (Stn|Stein))");
   //[\d,]+(?= HF)
   protected static Pattern PAT_SIZE = Pattern.compile("[\\d,]+(?= HF)");
-  //[\d,.+]+(?= (Sk|Se|Sp|S$))|gratis
-  protected static Pattern PAT_PRICE = Pattern.compile("[\\d,.+]+(?= (Sk|Se|Sp|S$))|gratis");
+  //\d[\d,\.+\/( bis )]+(?= ?(Sk|Se|Sp|S |S–|S$))|gratis
+  protected static Pattern PAT_PRICE = Pattern.compile("\\d[\\d,\\.+\\/( bis )]*(?= ?(Sk|Se|Sp|S |S–|S$|Silbertaler))|gratis");
   //(einf|prim|komp \(\d+ AP\))
   protected static Pattern PAT_CRAFT = Pattern.compile("(einf|prim|komp \\(\\d+( )?AP\\))");
   //(?<=^Kampftechnik )\w*
@@ -190,7 +190,9 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
       {
         currentDataObject.isImprovised = isMatch(PAT_IMPROVISED, cleanText);
         currentDataObject.tp = concatForDataValue(currentDataObject.tp, firstMatch(PAT_TP, cleanText));
-        if (currentDataObject.tp != null && !currentDataObject.tp.isEmpty() || currentDataObject.name.equals("Lederschild"))
+        if (currentDataObject.tp != null && !currentDataObject.tp.isEmpty()
+            || currentDataObject.name.equals("Lederschild")
+            || currentDataObject.name.equals("Großer Lederschild"))
         {
           currentDataObject.additionalDamage = concatForDataValue(currentDataObject.additionalDamage, firstMatch(PAT_TP_PLUS, cleanText));
           currentDataObject.atPaMod = concatForDataValue(currentDataObject.atPaMod, firstMatch(PAT_AT_PA_MOD, cleanText));
@@ -239,20 +241,20 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
       second.tp = "1W6+1";
       lastEntry.tp = lastEntry.tp.replace(second.tp, "").trim();
       second.additionalDamage = "FF 15";
-      lastEntry.additionalDamage = lastEntry.additionalDamage.replace(second.additionalDamage, "").trim();
+      lastEntry.additionalDamage = "FF 15";
       second.craft = "einf";
-      lastEntry.craft = lastEntry.craft.replace(second.craft, "").trim();
+      lastEntry.craft = "einf";
       second.price = "25";
-      lastEntry.price = lastEntry.price.replace(second.price, "").trim();
+      lastEntry.price = "18";
       second.weight = "2,1";
-      lastEntry.weight = lastEntry.weight.replace(second.weight, "").trim();
+      lastEntry.weight = "2";
       second.combatDistance = "mittel";
-      lastEntry.combatDistance = lastEntry.combatDistance.replace(second.combatDistance, "").trim();
+      lastEntry.combatDistance = "mittel";
       second.disadvantage = lastEntry.disadvantage;
       second.advantage = lastEntry.advantage;
       second.remark = lastEntry.remark;
       second.atPaMod = "–2/–";
-      lastEntry.atPaMod = lastEntry.atPaMod.replace(second.atPaMod, "").trim();
+      lastEntry.atPaMod = "–2/–";
       second.combatSkillKey = CombatSkillKey.WHIP;
       second.size = "90";
       lastEntry.size = lastEntry.size.replace(second.size, "").trim();
