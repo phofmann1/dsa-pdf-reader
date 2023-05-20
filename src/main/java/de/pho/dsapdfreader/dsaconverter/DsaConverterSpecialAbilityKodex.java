@@ -1,0 +1,245 @@
+package de.pho.dsapdfreader.dsaconverter;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import de.pho.dsapdfreader.config.TopicConfiguration;
+import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
+import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
+import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
+
+public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbilityRaw, ConverterAtomicFlagsSpecialAbility>
+{
+
+  private static final String KEY_RULES_I = "Regel";
+  private static final String KEY_RULES_II = "Wirkung";
+  private static final String KEY_PRECONDITIONS = "Voraussetzungen";
+  private static final String KEY_PRECONDITIONS_II = "Voraussetzung";
+  private static final String KEY_AP_VALUE = "AP-Wert";
+  private static final String KEY_ADVANCED_ABILITIES_I = "Erweiterte Kampfsonderfertigkeiten";
+  private static final String KEY_ADVANCED_ABILITIES_II = "Erweiterte Talentsonderfertigkeiten";
+  private static final String KEY_ADVANCED_ABILITIES_III = "Erweiterte Zaubersonderfertigkeiten";
+  private static final String KEY_ADVANCED_ABILITIES_IV = "Erweiterte Zauberstilsonderfertigkeiten";
+  private static final String KEY_ADVANCED_ABILITIES_V = "Erweiterte Liturgiesonderfertigkeiten";
+  private static final String KEY_COMBAT_SKILLS = "Kampftechniken";
+
+
+  private static final String KEY_DIFFICULTY = "Erschwernis";
+  protected static final String[] KEYS = {
+      KEY_RULES_I,
+      KEY_RULES_II,
+      KEY_PRECONDITIONS,
+      KEY_PRECONDITIONS_II,
+      KEY_AP_VALUE,
+      KEY_ADVANCED_ABILITIES_I,
+      KEY_ADVANCED_ABILITIES_II,
+      KEY_ADVANCED_ABILITIES_III,
+      KEY_ADVANCED_ABILITIES_IV,
+      KEY_ADVANCED_ABILITIES_V,
+      KEY_DIFFICULTY,
+      KEY_COMBAT_SKILLS,
+  };
+  private static final Logger LOGGER = LogManager.getLogger();
+
+  ConverterAtomicFlagsSpecialAbility flags;
+
+  public List<SpecialAbilityRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
+  {
+    List<SpecialAbilityRaw> returnValue = new ArrayList<>();
+    String msg = String.format("parse  result to %s", getClassName());
+    LOGGER.debug(msg);
+
+    AtomicReference<SpecialAbilityCategoryKey> abilityCategory = new AtomicReference<>();
+    resultList
+        .forEach(t -> {
+
+          String cleanText = t.text
+              .trim();
+
+          boolean isTopic = t.size == 1800;
+          // validate the flags for conf
+          boolean isFirstValue = validateIsFirstValue(t, conf);
+          boolean isFirstValueSkipped = isFirstValue && isNumeric(t.text); // gets skipped, when the firstValue is a number (Page Number in some documents)
+          boolean isDataKey = validateIsDataKey(t, cleanText, conf);
+          boolean isDataValue = validateIsDataValue(t, cleanText, conf);
+          boolean isIgnore = isFirstValue && cleanText.endsWith("Strömungen"); // Strömungs Vorwort in Kodex des Götterwirkens
+          handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
+
+
+          if (isTopic) abilityCategory.set(extractTopic(t.text));
+
+          if (abilityCategory.get() != null)
+          {
+            if (!isIgnore)
+            {
+              finishPredecessorAndStartNew(isFirstValue, isFirstValueSkipped, returnValue, conf, cleanText);
+              if (isFirstValue)
+              {
+                last(returnValue).abilityCategory = abilityCategory.get();
+              }
+              // handle keys
+              if (isDataKey)
+              {
+                applyFlagsForKey(t.text);
+              }
+
+              // handle values
+              if (isDataValue)
+              {
+                applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
+                applySpecialAbilitiesFlagsForNoKeyStrings(getFlags(), t);
+              }
+              getFlags().getFirstFlag().set(isFirstValue && !isFirstValueSkipped);
+            }
+          }
+        });
+    concludePredecessor(last(returnValue)); //finish the last entry in list
+    return returnValue;
+  }
+
+  private void applySpecialAbilitiesFlagsForNoKeyStrings(ConverterAtomicFlagsSpecialAbility flags, TextWithMetaInfo t)
+  {
+    if (flags.wasName.get() && !t.isBold)
+    {
+      flags.wasName.set(false);
+      flags.wasDescription.set(true);
+    }
+  }
+
+  private SpecialAbilityCategoryKey extractTopic(String text)
+  {
+    return switch (text)
+        {
+          case "Allgemeine Sonderfertigkeiten" -> SpecialAbilityCategoryKey.common;
+          case "Schicksalspunkte-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.fate;
+          case "Talentstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_stile;
+          case "Erweiterte Talentsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_advanced;
+          case "Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat;
+          case "Kampfstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_stile;
+          case "Erweiterte Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_advanced;
+          case "Befehlssonderfertigkeiten" -> SpecialAbilityCategoryKey.order;
+          case "Allgemeine magische Sonderfertigkeiten" -> SpecialAbilityCategoryKey.magic;
+          case "Erweiterte Zauberstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.magic_advanced;
+          case "ZauberstilsonderfertigkeitenGildenmagische Zauberstilsonderfertigkeiten (Akademie)",
+              "Gildenmagische Zauberstilsonderfertigkeiten (Lehrmeister)",
+              "Gildenmagische Zauberstilsonderfertigkeiten (Qabalya)",
+              "Druidische Zauberstilsonderfertigkeiten",
+              "Elfische ZauberstilsonderfertigkeitenGeodische Zauberstilsonderfertigkeiten",
+              "Goblinische Zauberstilsonderfertigkeiten",
+              "Hexische Zauberstilsonderfertigkeiten",
+              "Kristallomantische Zauberstilsonderfertigkeiten",
+              "Scharlatanische Zauberstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.magic_stile;
+          case "Allgemeine karmale Sonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric;
+          case "Liturgiestilsonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_stile;
+          case "Erweiterte Liturgiesonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_advanced;
+          default -> null;
+        };
+  }
+
+
+  @Override
+  protected String[] getKeys()
+  {
+    return KEYS;
+  }
+
+  @Override
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+  {
+    return Arrays.stream(this.getKeys()).anyMatch(k -> k.equalsIgnoreCase(t.text));
+  }
+
+  @Override
+  protected ConverterAtomicFlagsSpecialAbility getFlags()
+  {
+    if (flags == null)
+    {
+      this.flags = new ConverterAtomicFlagsSpecialAbility();
+    }
+    return flags;
+  }
+
+  @Override
+  protected String getClassName()
+  {
+    return this.getClass().getCanonicalName();
+  }
+
+  @Override
+  protected void handleFirstValue(List<SpecialAbilityRaw> returnValue, TopicConfiguration conf, String cleanText)
+  {
+
+    if (!this.getFlags().getFirstFlag().get())
+    {
+      SpecialAbilityRaw newEntry = new SpecialAbilityRaw();
+      this.getFlags().initDataFlags();
+      newEntry.setTopic(conf.topic);
+      newEntry.setPublication(conf.publication);
+      returnValue.add(newEntry);
+    }
+
+    this.getFlags().wasName.set(true);
+  }
+
+  @Override
+  protected void applyFlagsForKey(String key)
+  {
+    this.getFlags().wasName.set(false);
+    this.getFlags().wasDescription.set(false);
+    this.getFlags().wasRules.set(
+        key.trim().equals(KEY_RULES_I)
+            || key.trim().equals(KEY_RULES_II)
+    );
+    this.getFlags().wasPrecondition.set(key.trim().equals(KEY_PRECONDITIONS) || key.trim().equals(KEY_PRECONDITIONS_II));
+    this.getFlags().wasApValue.set(key.trim().equals(KEY_AP_VALUE));
+    this.getFlags().wasAdvancedCombatAbility.set(
+        key.trim().equals(KEY_ADVANCED_ABILITIES_I)
+            || key.trim().equals(KEY_ADVANCED_ABILITIES_II)
+            || key.trim().equals(KEY_ADVANCED_ABILITIES_III)
+            || key.trim().equals(KEY_ADVANCED_ABILITIES_IV)
+            || key.trim().equals(KEY_ADVANCED_ABILITIES_V));
+    this.getFlags().wasDifficulty.set(key.trim().equals(KEY_DIFFICULTY));
+    this.getFlags().wasCombatSkills.set(key.trim().equals(KEY_COMBAT_SKILLS));
+  }
+
+  @Override
+  protected void applyDataValue(SpecialAbilityRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
+  {
+    if (currentDataObject != null)
+    {
+      if (this.getFlags().wasName.get() && isBold)
+      {
+        currentDataObject.name = concatForDataValue(currentDataObject.name, cleanText);
+      }
+      else if ((this.getFlags().wasName.get() || this.getFlags().wasDescription.get()))
+        currentDataObject.description = concatForDataValueWithMarkup(currentDataObject.description, cleanText, isBold, isItalic);
+
+      //WITH MARKUP ist bei den Regeln notwendig um später Anwendungsgebiete oder ähnliches herauszufinden:
+      if (this.getFlags().wasRules.get())
+        currentDataObject.rules = concatForDataValueWithMarkup(currentDataObject.rules, cleanText, isBold, isItalic);
+
+      if (this.getFlags().wasPrecondition.get()) currentDataObject.preconditions = concatForDataValue(currentDataObject.preconditions, cleanText);
+      if (this.getFlags().wasApValue.get()) currentDataObject.ap = concatForDataValue(currentDataObject.ap, cleanText);
+      if (this.getFlags().wasAdvancedCombatAbility.get())
+        currentDataObject.advancedAbilities = concatForDataValue(currentDataObject.advancedAbilities, cleanText);
+      if (this.getFlags().wasDifficulty.get()) currentDataObject.difficulty = concatForDataValue(currentDataObject.difficulty, cleanText);
+      if (this.getFlags().wasCombatSkills.get()) currentDataObject.combatSkills = concatForDataValue(currentDataObject.combatSkills, cleanText);
+    }
+  }
+
+  @Override
+  protected void concludePredecessor(SpecialAbilityRaw lastEntry)
+  {
+    if (lastEntry != null && (lastEntry.rules == null || lastEntry.rules.isEmpty()))
+    {
+      lastEntry.rules = lastEntry.description;
+      lastEntry.description = null;
+    }
+  }
+}

@@ -2,8 +2,10 @@ package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -199,32 +201,40 @@ public abstract class Extractor
         return topic == TopicEnum.BLESSINGS || topic == TopicEnum.LITURGIES || topic == TopicEnum.CEREMONIES;
     }
 
-    public static MysticalSkillCategory retrieveCategory(TopicEnum topic)
-    {
-        return switch (topic)
-            {
-              case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.TRICK;
-              case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.SPELL;
-              case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.RITUAL;
-              case BLESSINGS -> MysticalSkillCategory.BLESSING;
-              case LITURGIES -> MysticalSkillCategory.LITURGY;
-              case CEREMONIES -> MysticalSkillCategory.CEREMONY;
-              case CURSES -> MysticalSkillCategory.CURSE;
+  public static MysticalSkillCategory retrieveMsCategory(TopicEnum topic)
+  {
+    return switch (topic)
+        {
+          case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.TRICK;
+          case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.SPELL;
+          case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.RITUAL;
+          case BLESSINGS -> MysticalSkillCategory.BLESSING;
+          case LITURGIES -> MysticalSkillCategory.LITURGY;
+          case CEREMONIES -> MysticalSkillCategory.CEREMONY;
+          case CURSES -> MysticalSkillCategory.CURSE;
               case ELFENSONGS -> MysticalSkillCategory.ELFENSONG;
               case MELODIES -> MysticalSkillCategory.MELODY;
               case DANCES -> MysticalSkillCategory.DANCE;
               default -> throw new IllegalArgumentException(topic + " not found");
             };
-    }
+  }
 
 
   public static String extractKeyTextFromText(String txt)
   {
-    return txt == null ? "" : (txt.toUpperCase()
+    return txt == null ? "" : extractKeyTextFromTextWithUmlauts(txt.toUpperCase()
         .replace("Ä", "AE")
         .replace("Ö", "OE")
         .replace("Ü", "UE")
         .replace("ß", "SS")
+    ).trim()
+        .replace(" ", "_")
+        .replace("__", "_");
+  }
+
+  public static String extractKeyTextFromTextWithUmlauts(String txt)
+  {
+    return txt == null ? "" : (txt.toUpperCase()
         .replace("&", "UND")
         .replace("!", "")
         .replace("(", "")
@@ -236,8 +246,11 @@ public abstract class Extractor
         .replace(" ..", "")
         .replace(".", "")
         .replaceAll("\s+", " ")
+        .replaceAll("\u00AD", " ")
         .replace("-", "_")
         .replace("–", "_")
+        .replace("à", "A")
+        .replace("ë".toUpperCase(), "E")
     ).trim()
         .replace(" ", "_")
         .replace("__", "_");
@@ -246,6 +259,14 @@ public abstract class Extractor
   protected static String getPrefix(MysticalSkillRaw msr)
   {
     return msr.publication + " - " + msr.name + ": ";
+  }
+
+  protected static List<String> convertMatcherToListString(Matcher m)
+  {
+    return m.results()
+        .map(MatchResult::group) // Convert MatchResult to string
+        .filter(v -> !v.isEmpty())
+        .collect(Collectors.toList());
   }
 
 }

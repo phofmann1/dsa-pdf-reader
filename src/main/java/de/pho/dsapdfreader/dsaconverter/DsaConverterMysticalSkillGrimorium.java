@@ -299,17 +299,12 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
 
       List<MysticalSkillVariant> variants = variantStrings.stream().map(vs -> {
         MysticalSkillVariant msv = new MysticalSkillVariant();
-        try
-        {
-          msv.name = vs.substring(0, vs.indexOf("(")).trim();
+
+        msv.name = vs.substring(0, vs.indexOf("(")).trim();
           msv.minLevel = Integer.valueOf(vs.substring(vs.indexOf("FW") + 2, vs.indexOf(",", vs.indexOf("("))).trim());
           msv.ap = Integer.valueOf(vs.substring(vs.indexOf(",", vs.indexOf("(")) + 1, vs.indexOf("AP")).trim());
           msv.description = vs.substring(vs.indexOf("("));
-        }
-        catch (StringIndexOutOfBoundsException e)
-        {
-          System.out.println(vs);
-        }
+
         return msv;
       }).collect(Collectors.toList());
 

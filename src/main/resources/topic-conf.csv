@@ -1,40 +1,68 @@
-active;publication;path;pdfName;topic;startPage;startAfterLine;endPage;endAfterLine;nameSize;dataSize;strategyMapping
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;MERITS;166;16;173;45;1300;1100;topic-mapping-base-boons.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;FLAWS;173;60;182;;1300;1100;topic-mapping-base-boons.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_MUNDANE;217;16;223;61;1300;1100;topic-mapping-base-sa-mundane.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_FATE;225;1;225;71;1300;1100;
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_COMBAT;249;20;253;;1300;1100;topic-mapping-base-sa-combat.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_MAGIC;287;70;288;40;1300;1100;
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_CLERIC_BASE;324;9;324;38;1300;1100;
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;PROFESSIONS;132;;162;;1300;1100;
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;BLESSINGS;325;10;327;10;1300;1100;
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;10;334;87;1300;1100;topic-mapping-base-liturgies.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;topic-mapping-base-ceremonies.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CURSES;285;2;286;17;1300;1100;topic-mapping-base-curses.xml
-false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;ELFENSONGS;286;54;287;61;1300;1100;topic-mapping-base-elfensongs.xml
-true;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RÜSTUNGEN;377;4;377;18;;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorium Cantiones.pdf;TRADITIONS_GRIMORIUM;459;;468;;3200;3100;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie.pdf;ANIMIST;19;;24;;1300;1100;
-true;Ruestkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;150;25;152;19;;;topic-mapping-weapons-1-ranged.xml
-true;Ruestkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;141;24;150;24;;;topic-mapping-weapons-1-melee.xml
-true;Ruestkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;RÜSTUNGEN;152;20;152;;;;topic-mapping-weapons-1-armor.xml
-true;Ruestkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;139;1;145;10;;;topic-mapping-weapons-2-melee.xml
-true;Ruestkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;145;11;146;17;;;topic-mapping-weapons-2-ranged.xml
-true;Ruestkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml
-true;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;;topic-mapping-streets-equipment.xml
-false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;LITURGIES;112;9;141;84;1300;1100;topic-mapping-cleric-1-liturgies.xml
-false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;CEREMONIES;141;84;165;63;1300;1100;topic-mapping-cleric-1-ceremonies.xml
-false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;SPECIAL_ABILITY_SERMONS;74;26;75;19;1300;1100;topic-mapping-cleric-1-sermons.xml
-false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;LITURGIES;76;15;92;44;1300;1100;topic-mapping-cleric-2-liturgies.xml
-false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;CEREMONIES;92;44;110;999;1300;1100;topic-mapping-cleric-2-ceremonies.xml
-false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;MELODIES;45;1;48;;1300;1100;topic-mapping-magic-1-melodies.xml
-false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;DANCES;59;1;62;;1300;1100;topic-mapping-magic-1-dances.xml
+active;publication;path;pdfName;topic;startPage;startAfterLine;endPage;endAfterLine;nameSize;dataSize;strategyMapping;fileAffix
+false;Rüstkammer_Dornenreich;C:/privat/pdf.lib/import;Rustkammer des Dornenreiches - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;;;ARANIEN
+false;Rüstkammer_Dornenreich;C:/privat/pdf.lib/import;Rustkammer des Dornenreiches - 02 - Ausrustung.pdf;WAFFEN;18;;20;;;;;ORON
+false;Rüstkammer_Dornenreich;C:/privat/pdf.lib/import;Rustkammer des Dornenreiches - 02 - Ausrustung.pdf;WAFFEN;22;;22;;;;;BESONDERS
+false;Rüstkammer_Dornenreich;C:/privat/pdf.lib/import;Rustkammer des Dornenreiches - 02 - Ausrustung.pdf;RÜSTUNGEN;16;48;17;;;;topic-mapping-thorns-armor.xml;ARANIEN
+false;Rüstkammer_Dornenreich;C:/privat/pdf.lib/import;Rustkammer des Dornenreiches - 02 - Ausrustung.pdf;RÜSTUNGEN;21;37;21;58;;;;ORON
+false;Rüstkammer_Gestade_des_Gottwals;C:/privat/pdf.lib/import;Rustkammer der Gestade des Gott - 02 - Ausrustung.pdf;WAFFEN;8;30;13;;;;;THORWAL
+false;Rüstkammer_Gestade_des_Gottwals;C:/privat/pdf.lib/import;Rustkammer der Gestade des Gott - 02 - Ausrustung.pdf;WAFFEN;16;;19;25;;;;GJALSKER
+false;Rüstkammer_Gestade_des_Gottwals;C:/privat/pdf.lib/import;Rustkammer der Gestade des Gott - 02 - Ausrustung.pdf;RÜSTUNGEN;14;;14;;;;;THORWAL
+false;Rüstkammer_Gestade_des_Gottwals;C:/privat/pdf.lib/import;Rustkammer der Gestade des Gott - 02 - Ausrustung.pdf;RÜSTUNGEN;19;25;19;;;;;GJALSKER
+false;Rüstkammer_der_Siebenwindkueste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;WAFFEN;8;;16;;;;;ALBERNIA
+false;Rüstkammer_der_Siebenwindkueste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;WAFFEN;17;;20;;;;topic-mapping-sevenwinds-weapon.xml;WINDHAG
+false;Rüstkammer_der_Siebenwindkueste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;RÜSTUNGEN;21;15;21;;;;;ALBERNIA
+false;Rüstkammer_der_Sonnenkueste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;;;ZYKLOPENINSELN
+false;Rüstkammer_der_Sonnenkueste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;RÜSTUNGEN;16;14;18;;;;topic-mapping-sunnyshores-armor.xml;ZYKLOPENINSELN
+false;Rüstkammer_der_Flusslande;C:/privat/pdf.lib/import;Rustkammer der Flusslande - 02 - Ausrustung.pdf;WAFFEN;8;;14;;;;;FLUSSLANDE
+false;Rüstkammer_der_Flusslande;C:/privat/pdf.lib/import;Rustkammer der Flusslande - 02 - Ausrustung.pdf;RÜSTUNGEN;15;;16;;;;topic-mapping-riverlands-armor.xml;FLUSSLANDE
+false;Rüstkammer_der_Flusslande;C:/privat/pdf.lib/import;Rustkammer der Flusslande - 02 - Ausrustung.pdf;WAFFEN;17;;20;;;;;ZWERGE
+false;Rüstkammer_der_Flusslande;C:/privat/pdf.lib/import;Rustkammer der Flusslande - 02 - Ausrustung.pdf;RÜSTUNGEN;21;;21;;;;topic-mapping-riverlands-armor.xml;ZWERGE
+false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;;;DSCHUNGEL
+false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;17;;;;;DSCHUNGEL
+false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;19;;20;;;;;TAPO_TIKAUTE
+false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;18;;18;;;;topic-mapping-steamingjungle-armor.xml;TAPO_TIKAUTE
+false;Rüstkammer_der_Streitenden_Koenigreiche;C:/privat/pdf.lib/import;Die Rustkammer der Streitenden - 02 - Ausrustung.pdf;WAFFEN;8;;16;;;;topic-mapping-warringkingdoms-weapon.xml;
+false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;7;;16;22;;;topic-mapping-dessertempire-weapon.xml;
+false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;18;;;;topic-mapping-dessertempire-armor.xml;
+false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml;
+false;Rüstkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;150;25;152;19;;;topic-mapping-weapons-1-ranged.xml;
+false;Rüstkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;141;24;150;24;;;topic-mapping-weapons-1-melee.xml;
+false;Rüstkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausrustung.pdf;RÜSTUNGEN;152;20;152;;;;topic-mapping-weapons-1-armor.xml;
+false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;139;1;145;10;;;topic-mapping-weapons-2-melee.xml;
+false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;145;11;146;17;;;topic-mapping-weapons-2-ranged.xml;
+false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml;
+true;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;251;;337;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
+true;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;311;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
+true;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;162;;191;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
+false;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;;topic-mapping-streets-equipment.xml;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;;
+false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS_GRIMORIUM;459;;468;;3200;3100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_MUNDANE;217;16;223;61;1300;1100;topic-mapping-base-sa-mundane.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_FATE;225;1;225;71;1300;1100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_COMBAT;249;20;253;;1300;1100;topic-mapping-base-sa-combat.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_MAGIC;287;70;288;40;1300;1100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;SPECIAL_ABILITY_CLERIC_BASE;324;9;324;38;1300;1100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;PROFESSIONS;132;;162;;1300;1100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;BLESSINGS;325;10;327;10;1300;1100;;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;LITURGIES;327;10;334;87;1300;1100;topic-mapping-base-liturgies.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CEREMONIES;334;88;336;21;1300;1100;topic-mapping-base-ceremonies.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;CURSES;285;2;286;17;1300;1100;topic-mapping-base-curses.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;ELFENSONGS;286;54;287;61;1300;1100;topic-mapping-base-elfensongs.xml;
+false;Basis;C:/privat/pdf.lib/import;Regelwerk - 01 - Regeln.pdf;RÜSTUNGEN;377;4;377;18;;;;
+false;Kodex_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
+false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie.pdf;ANIMIST;19;;24;;1300;1100;;
+false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;LITURGIES;112;9;141;84;1300;1100;topic-mapping-cleric-1-liturgies.xml;
+false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;CEREMONIES;141;84;165;63;1300;1100;topic-mapping-cleric-1-ceremonies.xml;
+false;Götter_1;C:/privat/pdf.lib/import;Aventurisches Gotterwirken I - 01 - Regeln.pdf;SPECIAL_ABILITY_SERMONS;74;26;75;19;1300;1100;topic-mapping-cleric-1-sermons.xml;
+false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;LITURGIES;76;15;92;44;1300;1100;topic-mapping-cleric-2-liturgies.xml;
+false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;CEREMONIES;92;44;110;999;1300;1100;topic-mapping-cleric-2-ceremonies.xml;
+false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;MELODIES;45;1;48;;1300;1100;topic-mapping-magic-1-melodies.xml;
+false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;DANCES;59;1;62;;1300;1100;topic-mapping-magic-1-dances.xml;

@@ -33,7 +33,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
   //^\d
   private static final Pattern PAT_ARMOR_VALUE = Pattern.compile("^\\d");
   //(?<=^\d)\d
-  private static final Pattern PAT_ENCUMBERANCE_VALUE = Pattern.compile("(?<=^\\d)\\d");
+  private static final Pattern PAT_ENCUMBERANCE_VALUE = Pattern.compile("(?<=^\\d|^\\d\\*)\\d"); //* für Ferkina Fellrüstung (Wüstenreiche)
   //
   private static final Pattern PAT_ADDITIONAL_ENCUMBERANCE = Pattern.compile("–1 GS, –1 INI");
 
@@ -124,6 +124,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
       newEntry.setName(cleanText
           .replace("ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisKomplexität", "")
           .replace("ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreis", "")
+          .replaceAll("Komplexität.*", "")
       );
       this.getFlags().wasName.set(true);
       this.getFlags().isFirstValue.set(false);
@@ -172,6 +173,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
         && !t.text.equals("Regelwerk")
         && !isNumeric(t.text)
         && !t.isItalic
+        && !t.text.equals("Übler Geruch")
         && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text))
         && (getFlags().wasDisadvantage.get() || getFlags().isFirstValue.get() || conf.publication.equals("Basis"));
   }
@@ -179,7 +181,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
   @Override
   protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
   {
-    return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(t.text));
+    return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(t.text)) && !t.text.equals("Übler Geruch");
   }
 
   @Override

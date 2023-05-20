@@ -4,30 +4,36 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ConverterAtomicFlagsSpecialAbility implements ConverterAtomicFlagsI
 {
-    public AtomicBoolean wasName;
-    public AtomicBoolean wasDescription;
-    public AtomicBoolean wasRules;
-    public AtomicBoolean wasPrecondition;
-    public AtomicBoolean wasApValue;
+  public AtomicBoolean wasName;
+  public AtomicBoolean wasDescription;
+  public AtomicBoolean wasRules;
+  public AtomicBoolean wasPrecondition;
+  public AtomicBoolean wasApValue;
+  public AtomicBoolean wasAdvancedCombatAbility;
+  public AtomicBoolean wasDifficulty;
+  public AtomicBoolean wasCombatSkills;
 
-    public ConverterAtomicFlagsSpecialAbility()
-    {
-        initDataFlags();
-    }
+  public ConverterAtomicFlagsSpecialAbility()
+  {
+    initDataFlags();
+  }
 
-    @Override
-    public AtomicBoolean getFirstFlag()
-    {
-        return wasName;
-    }
+  @Override
+  public AtomicBoolean getFirstFlag()
+  {
+    return wasName;
+  }
 
-    @Override
-    public void initDataFlags()
-    {
-        wasName = new AtomicBoolean(false);
-        wasDescription = new AtomicBoolean(false);
-        wasRules = new AtomicBoolean(false);
-        wasPrecondition = new AtomicBoolean(false);
-        wasApValue = new AtomicBoolean(false);
-    }
+  @Override
+  public void initDataFlags()
+  {
+    wasName = new AtomicBoolean(false);
+    wasDescription = new AtomicBoolean(false);
+    wasRules = new AtomicBoolean(false);
+    wasPrecondition = new AtomicBoolean(false);
+    wasApValue = new AtomicBoolean(false);
+    wasAdvancedCombatAbility = new AtomicBoolean(false);
+    wasDifficulty = new AtomicBoolean(false);
+    wasCombatSkills = new AtomicBoolean(false);
+  }
 }

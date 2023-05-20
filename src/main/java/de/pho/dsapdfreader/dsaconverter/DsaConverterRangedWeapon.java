@@ -34,11 +34,11 @@ public class DsaConverterRangedWeapon extends DsaConverter<RangedWeaponRaw, Conv
   };
   private static final String KEY_COMBATSKILL = "Kampftechnik";
   //\d(\/\d{1,2})? (Aktionen|Aktion)
-  private static final Pattern PAT_LOADING_TIME = Pattern.compile("\\d(\\/\\d{1,2})? (Aktionen|Aktion)");
+  public static final Pattern PAT_LOADING_TIME = Pattern.compile("\\d(\\/\\d{1,2})? (Aktionen|Aktion)");
   //\d{1,3}\/\d{1,3}\/\d{1,3}
-  private static final Pattern PAT_RANGED_RANGE = Pattern.compile("\\d{1,3}\\/\\d{1,3}\\/\\d{1,3}");
+  public static final Pattern PAT_RANGED_RANGE = Pattern.compile("\\d{1,3}\\/\\d{1,3}\\/\\d{1,3}");
   //(Kugeln|Kugel|Steinchen|Pfeile|Bolzen|Blasrohrpfeile)
-  private static final Pattern PAT_MUNITION_TYPE = Pattern.compile("(Kugeln|Kugel|Steinchen|Pfeile|Bolzen|Blasrohrpfeile)");
+  public static final Pattern PAT_MUNITION_TYPE = Pattern.compile("(Kugeln|Kugel|Steinchen|Pfeile|Bolzen|Blasrohrpfeile)");
 
   private ConverterAtomicFlagsEquipmentCombat flags;
   private AtomicReference<CombatSkillKey> combatSkillKey;

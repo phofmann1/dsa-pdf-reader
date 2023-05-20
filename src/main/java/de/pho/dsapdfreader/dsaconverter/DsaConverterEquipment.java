@@ -105,7 +105,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   {
     EquipmentRaw e = new EquipmentRaw();
     e.name = name;
-    e.publication = Publication.STRASSENSTAUB_UND_HALSABSCHNEIDER.name();
+    e.publication = Publication.Strassenstaub_und_Halsabschneider.name();
     e.category = currentCategory.get();
     e.topic = topic;
     this.splitEntry(last(equipmentRawList));

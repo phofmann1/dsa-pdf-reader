@@ -357,7 +357,8 @@ public enum EquipmentKey
   karren_einachsig,
   kleines_ruderboot,
   kleines_segelboot,
-  kutsche;
+  kutsche,
+  CUSTOM;
 
 
   @JsonValue

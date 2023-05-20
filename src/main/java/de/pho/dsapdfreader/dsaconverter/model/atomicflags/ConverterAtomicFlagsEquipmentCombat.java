@@ -10,6 +10,7 @@ public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlags
   public AtomicBoolean wasRemark;
   public AtomicBoolean wasAdvantage;
   public AtomicBoolean wasDisadvantage;
+  public AtomicBoolean wasComplexity;
 
   public AtomicBoolean isFirstValue;
 
@@ -33,6 +34,7 @@ public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlags
     wasAdvantage = new AtomicBoolean(false);
     wasDisadvantage = new AtomicBoolean(false);
     wasCombatSkill = new AtomicBoolean(false);
+    wasComplexity = new AtomicBoolean(false);
     isFirstValue = new AtomicBoolean(true);
   }
 

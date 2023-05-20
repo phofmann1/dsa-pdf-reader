@@ -6,6 +6,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPrice;
 import de.pho.dsapdfreader.exporter.model.Armor;
 import de.pho.dsapdfreader.exporter.model.enums.ArmorCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 
 
@@ -26,8 +27,12 @@ public class LoadToArmor
     returnValue.be = Integer.valueOf(ar.encumberance);
     returnValue.additionalEncumbered = ar.additionalEncumberance;
     returnValue.weight = Double.valueOf(ar.weight.replace(".", "").replace(",", "."));
-    returnValue.publication = Publication.valueOf(ar.publication.toUpperCase());
+    returnValue.publication = Publication.valueOf(ar.publication);
     returnValue.price = ExtractorPrice.retrieve(ar.price);
+    returnValue.equipmentCategoryKey = EquipmentCategoryKey.rüstung;
+    returnValue.advantage = ar.advantage;
+    returnValue.disadvantage = ar.disadvantage;
+    returnValue.remark = ar.remark;
 
     returnValue.armorCategoryKey = switch (returnValue.rs)
         {

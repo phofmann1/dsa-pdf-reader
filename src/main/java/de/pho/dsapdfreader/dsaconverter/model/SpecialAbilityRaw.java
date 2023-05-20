@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.dsaconverter.model;
 import com.opencsv.bean.CsvBindByName;
 
 import de.pho.dsapdfreader.config.TopicEnum;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 
 public class SpecialAbilityRaw implements DsaObjectI
 {
@@ -20,6 +21,14 @@ public class SpecialAbilityRaw implements DsaObjectI
   public String preconditions;
   @CsvBindByName
   public String ap;
+  @CsvBindByName
+  public SpecialAbilityCategoryKey abilityCategory;
+  @CsvBindByName
+  public String advancedAbilities;
+  @CsvBindByName
+  public String difficulty;
+  @CsvBindByName
+  public String combatSkills;
 
   @Override
   public String getName()

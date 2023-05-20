@@ -6,6 +6,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentK
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPrice;
 import de.pho.dsapdfreader.exporter.model.Equipment;
 import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
+import de.pho.dsapdfreader.exporter.model.enums.DsaCurrency;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 
 
@@ -29,9 +30,10 @@ public class LoadToEquipment
     {
       returnValue.weight = Double.valueOf(er.weight.replace(".", "").replace(",", "."));
     }
-    returnValue.publication = Publication.valueOf(er.publication.toUpperCase());
-    returnValue.price = ExtractorPrice.retrieve(er.price);
+    returnValue.publication = Publication.valueOf(er.publication);
+    returnValue.price = ExtractorPrice.retrieve(er.price, DsaCurrency.SILBER, er.isPricePerLevel);
 
+    returnValue.remark = er.remark;
 
     returnValue.craftingComplexity = CraftingComplexityKey.parse(er.craft);
     if (er.craft.startsWith("komp"))

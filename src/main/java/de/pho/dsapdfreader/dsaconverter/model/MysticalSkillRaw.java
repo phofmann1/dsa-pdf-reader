@@ -131,4 +131,5 @@ public class MysticalSkillRaw implements DsaObjectI
   {
     this.publication = publication;
   }
+
 }

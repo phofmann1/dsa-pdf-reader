@@ -13,7 +13,7 @@ public class MysticalSkillVariant
   public int minLevel;
   public int ap;
   public String description;
-  public List<MysticalSkillVariantKey> requiredVariantKey;
+  public List<MysticalSkillVariantKey> requiredVariantKeys;
 
   @Override
   public String toString()
@@ -22,6 +22,6 @@ public class MysticalSkillVariant
         + minLevel + MSV_SEPARATOR
         + ap + MSV_SEPARATOR
         + description + MSV_SEPARATOR
-        + requiredVariantKey;
+        + requiredVariantKeys;
   }
 }

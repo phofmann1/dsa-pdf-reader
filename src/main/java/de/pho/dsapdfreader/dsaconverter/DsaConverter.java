@@ -160,7 +160,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size == conf.nameSize;
+        return t.size == conf.nameSize && !t.text.isEmpty();
     }
 
     protected void applyFlagsForNoKeyStrings(F flags, String text)

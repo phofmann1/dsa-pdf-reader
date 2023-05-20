@@ -27,7 +27,10 @@ public enum EquipmentCategoryKey
   genussmittel_und_luxus,
   tiere,
   tierbedarf,
-  fortbewegungsmittel;
+  fortbewegungsmittel,
+  nahkampfwaffe,
+  fernkampfwaffe,
+  rüstung;
 
   @JsonValue
   public int toValue()

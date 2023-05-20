@@ -16,15 +16,15 @@ public class ExtractorArmorKey extends Extractor
     catch (IllegalArgumentException e)
     {
       String msg = String.format("%s key could not be interpreted.", name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }
 
   public static ArmorKey extractArmorKeyFromText(String armorName)
   {
-    ArmorKey returnValue;
-    String armorKeyString = extractKeyTextFromText(armorName.replace("\u00AD", "-"));
+    ArmorKey returnValue = null;
+    String armorKeyString = extractKeyTextFromText(armorName).toLowerCase();
     armorKeyString = armorKeyString.trim();
 
     try
@@ -33,8 +33,7 @@ public class ExtractorArmorKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid ArmorKey: " + armorKeyString);
-      returnValue = null;
+      LOGGER.error("Invalid ArmorKey: " + armorKeyString, e);
     }
     return returnValue;
   }

@@ -30,6 +30,8 @@ public class TopicConfiguration
     public int endAfterLine;
     @CsvBindByName
     public String strategyMapping;
+    @CsvBindByName
+    public String fileAffix;
 
     @Override
     public String toString()

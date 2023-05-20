@@ -45,7 +45,7 @@ public class ExtractorMysticalSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid SkillVariantKey: " + skillKeyString);
+      LOGGER.error("Invalid SkillVariantKey: " + skillKeyString, e);
       returnValue = null;
     }
     return returnValue;
@@ -89,7 +89,6 @@ public class ExtractorMysticalSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(skillKeyString);
       returnValue = null;
     }
     return returnValue;

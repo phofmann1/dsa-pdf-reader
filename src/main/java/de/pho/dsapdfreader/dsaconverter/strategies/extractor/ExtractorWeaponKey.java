@@ -22,10 +22,10 @@ public class ExtractorWeaponKey extends Extractor
     return returnValue;
   }
 
-  public static WeaponKey extractWeaponKeyFromText(String armorName)
+  public static WeaponKey extractWeaponKeyFromText(String weaponName)
   {
     WeaponKey returnValue;
-    String keyString = extractKeyTextFromText(armorName).toLowerCase();
+    String keyString = extractKeyTextFromText(weaponName).toLowerCase();
     keyString = keyString.trim();
 
     try
@@ -34,8 +34,7 @@ public class ExtractorWeaponKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(keyString + ",");
-      //LOGGER.error("Invalid WeaponKey: " + armorKeyString);
+      LOGGER.error("Invalid WeaponKey: " + weaponName);
       returnValue = null;
     }
     return returnValue;

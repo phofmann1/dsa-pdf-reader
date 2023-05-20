@@ -15,7 +15,9 @@ import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillVariantKey;
 public class ExtractorMysticalSkillVariant extends Extractor
 {
   private static final String REGEX_PREREQUISITE_VARIANTS = ": Zaubererweiterung |: Zaubererweiterungen ";
+
   private static final String REGEX_EXTRACT_VARIANT_PREREQUISITE = "(?<=" + REGEX_PREREQUISITE_VARIANTS + ")([\\w\\d\\s]*(?=\\.|$)(?=\\.)|.*)";
+  // (?<=: Zaubererweiterung |: Zaubererweiterungen )([\w\d\s]*(?=\.|$)(?=\.)|.*)
   private static final Pattern PATTERN_EXTRACT_VARIANT_PREREQUISITE = Pattern.compile(REGEX_EXTRACT_VARIANT_PREREQUISITE);
 
   public static List<MysticalSkillVariant> retrieveMysticalSkillVariants(MysticalSkillRaw msr, MysticalSkillKey msk)
@@ -44,7 +46,7 @@ public class ExtractorMysticalSkillVariant extends Extractor
     MysticalSkillVariant returnValue = variant;
 
     returnValue.key = ExtractorMysticalSkillKey.extractMysticalSkillVariantKeyFromText(msk, variant.name);
-    returnValue.requiredVariantKey = extractRequiredVariantKey(variant.description, msk);
+    returnValue.requiredVariantKeys = extractRequiredVariantKey(variant.description, msk);
 
     String[] descArray = returnValue.description.split("AP\\):|" + REGEX_PREREQUISITE_VARIANTS);
     if (descArray.length >= 2)

@@ -1,0 +1,248 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategySplitLineAfterPosition Feenfreund - Punkte von 'AP-Wert:'" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>394</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>98</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>8</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine Feenfreuend - make AP normal">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>394</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>98.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Box Reichtum 401" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>401</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>71</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>74</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Colum 2 of page 401" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>401</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>70</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Box Angst" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>81</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>98</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategySplitLineAfterPosition Angst - Nach AP" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>27</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage - Colum 2 of page 401" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>10.1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>80</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Instabiler Zauberer - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>408</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>31</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Kleine Zauberauswahl - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>409</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>17</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Schlechte Regeneration - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>414</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Schwache Zaubermelodie - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>415</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Schwache Zaubertänze - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>415</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition Zauberanfällig - Nach AP-Wert" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>418</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>82</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+</topic-strategies>

@@ -1,0 +1,263 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategyRemoveLinesFromPage - page 326 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>326</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - page 327 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>327</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 328 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>328</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 329 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>329</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - content from wrong page" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>343</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>40</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - page 347 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>347</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>53</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 348 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>348</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 349 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>349</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 350 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>350</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 351 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>351</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 352 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>352</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - page 353 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>353</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>0</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage - Erweiterte ZSF 354" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>311</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>69</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Erweiterte ZSF 354" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>354</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>50</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

@@ -48,8 +48,8 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
   protected static Pattern PAT_TP = Pattern.compile("(?<=\\(2H\\)|\\(i\\)|)(\\dW(6|3)\\+?\\d?|1W2)");
   //((GE|KK|FF)(\/(GE|KK|FF))? \d\d){1,2}
   protected static Pattern PAT_TP_PLUS = Pattern.compile("((GE|KK|FF)(\\/(GE|KK|FF))? \\d\\d){1,2}");
-  //((\+|\–)\d|0) ?\/((\+|\–)\d?)|0
-  protected static Pattern PAT_AT_PA_MOD = Pattern.compile("((\\+|\\–)\\d|0) ?\\/((\\+|\\–)\\d?)|0");
+  //(?<!KK \d)(\-|\+)?\d{1}\s?\/\s?(\-|\+)?(\d|\-)
+  protected static Pattern PAT_AT_PA_MOD = Pattern.compile("(?<!KK \\d)(\\-|\\–|\\+)?\\d{1}\\s?\\/\\s?(\\-|\\–|\\+)?(\\d|\\-|\\–)");
   //(kurz|mittel|lang)
   protected static Pattern PAT_MELEE_RANGE = Pattern.compile("(kurz|mittel|überlang|lang)");
   //\d[\d,\.]+(?=\+? Stn)
@@ -195,7 +195,7 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
             || currentDataObject.name.equals("Großer Lederschild"))
         {
           currentDataObject.additionalDamage = concatForDataValue(currentDataObject.additionalDamage, firstMatch(PAT_TP_PLUS, cleanText));
-          currentDataObject.atPaMod = concatForDataValue(currentDataObject.atPaMod, firstMatch(PAT_AT_PA_MOD, cleanText));
+          currentDataObject.atPaMod = concatForDataValue(currentDataObject.atPaMod, firstMatch(PAT_AT_PA_MOD, cleanText.replaceAll("–", "-")));
           currentDataObject.combatDistance = concatForDataValue(currentDataObject.combatDistance, firstMatch(PAT_MELEE_RANGE, cleanText));
           currentDataObject.weight = concatForDataValue(currentDataObject.weight, firstMatch(PAT_WEIGHT, cleanText));
           currentDataObject.size = concatForDataValue(currentDataObject.size, firstMatch(PAT_SIZE, cleanText));

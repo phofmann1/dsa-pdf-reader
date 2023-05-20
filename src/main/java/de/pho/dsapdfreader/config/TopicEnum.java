@@ -40,4 +40,7 @@ public enum TopicEnum
   FERNKAMPFWAFFEN,
   RÜSTUNGEN,
   AUSRÜSTUNG,
+  BOONS,
+  WAFFEN, // for regional equipment
+  ABILITIES,
 }

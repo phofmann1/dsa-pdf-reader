@@ -1,4 +1,4 @@
-<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../topic-mapping.xsd">
     <strategy name="Remove Spätweihe from Page 168" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
