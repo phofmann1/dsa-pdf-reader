@@ -1,0 +1,48 @@
+[
+  {
+    "key": 674,
+    "skillUsage": {
+      "name": "Buchprüfung",
+      "usageKey": 358,
+      "skillKeys": [
+        45
+      ]
+    }
+  },
+  {
+    "key": 663,
+    "skillUsage": {
+      "name": "Prunkkleider herstellen",
+      "usageKey": 288,
+      "skillKeys": [
+        58
+      ]
+    }
+  },
+  {
+    "key": 389,
+    "skillUsage": {
+      "skillKeys": [
+        17
+      ]
+    }
+  },
+  {
+    "key": 134,
+    "skillUsage": {
+      "skillKeys": [
+        17
+      ]
+    }
+  },
+  {
+    "key": 104,
+    "skillUsage": {
+      "name": "Bine Maschores",
+      "usageKey": 248,
+      "skillKeys": [
+        45
+      ]
+    }
+  }
+]

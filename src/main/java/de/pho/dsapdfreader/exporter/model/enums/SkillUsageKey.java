@@ -295,7 +295,7 @@ public enum SkillUsageKey
     ölgemälde_malen,
     operngesang,
     porzellanarbeiten,
-    prunkkleidung_herstellen,
+    prunkkleider_herstellen,
     räder_herstellen,
     rosstäuscher_FALSE,
     rüstungsherstellung,
@@ -367,6 +367,7 @@ public enum SkillUsageKey
     töpferarbeiten,
     kohlezeichnungen_anfertigen,
     verschlüsselungen,
+    buchprüfung,
     ;
 
     @JsonValue

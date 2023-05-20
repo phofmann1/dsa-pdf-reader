@@ -3,19 +3,15 @@ package de.pho.dsapdfreader.exporter;
 import static de.pho.dsapdfreader.tools.roman.RomanNumberHelper.intToRoman;
 import static de.pho.dsapdfreader.tools.roman.RomanNumberHelper.romanToInt;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
@@ -25,6 +21,7 @@ import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
+import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
 public class LoadToSpecialAbility
@@ -107,21 +104,8 @@ public class LoadToSpecialAbility
     put(SpecialAbilityKey.universalgenie, SkillCategoryKey.wissenstalente);
     put(SpecialAbilityKey.weg_der_gelehrten, SkillCategoryKey.wissenstalente);
   }};
-  private static final SpecialAbility[] CORRECTION_SPECIAL_ABILITIES = ;
-
   private LoadToSpecialAbility()
   {
-    try
-    {
-      FileReader reader = new FileReader("LoadToSpecialAbility.json");
-      final ObjectMapper objectMapper = new ObjectMapper();
-      CORRECTION_SPECIAL_ABILITIES = objectMapper.readValue(reader.toString(), SpecialAbility[].class);
-    }
-    catch (FileNotFoundException | JsonProcessingException e)
-    {
-      throw new RuntimeException(e);
-    }
-
   }
 
   public static Stream<SpecialAbility> migrate(SpecialAbilityRaw raw)
@@ -160,7 +144,7 @@ public class LoadToSpecialAbility
       }
 
       if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
-        specialAbility.skillApplication = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
+        specialAbility.skillUsage = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
 
       /*
       specialAbility.valueChange;
@@ -224,4 +208,12 @@ public class LoadToSpecialAbility
         };
   }
 
+  public static void applyCorrections(SpecialAbility sa, List<SpecialAbility> corrections)
+  {
+    Optional<SpecialAbility> correction = corrections.stream().filter(c -> c.key == sa.key).findFirst();
+    if (correction.isPresent())
+    {
+      ObjectMerger.merge(correction.get(), sa);
+    }
+  }
 }

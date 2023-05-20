@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import de.pho.dsapdfreader.exporter.model.SkillApplication;
+import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityAdvancedSelection;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityOption;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
@@ -398,9 +398,9 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
-  public static SkillApplication retrieveSkillUsage(String rules)
+  public static SkillUsage retrieveSkillUsage(String rules)
   {
-    SkillApplication returnValue = null;
+    SkillUsage returnValue = null;
     rules = rules
         .replace("<i>Anwendungsgebiet Gildenrecht</i>", "Anwendungsgebiet <i>Gildenrecht</i>")
         .replace("Ölgemälde malen", "<i>Ölgemälde malen</i>")
@@ -409,7 +409,7 @@ public class ExtractorSpecialAbility extends Extractor
 
     if (m.find())
     {
-      returnValue = new SkillApplication();
+      returnValue = new SkillUsage();
       String skillUsageText = null;
       m = PAT_EXTRACT_NEW_SKILL_USAGE.matcher(rules);
       if (m.find())
@@ -452,6 +452,12 @@ public class ExtractorSpecialAbility extends Extractor
       skillString = (skillString.equalsIgnoreCase("Malen & Zeichen"))
           ? "Malen & Zeichnen"
           : skillString;
+
+      //Fehlerkorrektur Kryptographie (da ist viel kursiv und wird falsch erkannt
+      skillString = skillString.replace("Kryptographie", "")
+          .replace("Einfache", "")
+          .replace("Optionale Regel", "")
+          .replace("Primitive", "");
 
       if (!skillString.isEmpty())
         returnValue.add(ExtractorSkillKey.retrieveSkillKey(skillString));

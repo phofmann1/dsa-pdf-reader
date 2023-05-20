@@ -37,5 +37,5 @@ public class Boon
     public int range;
 
     public ValueChange valueChange;
-    public SkillApplication newSkillApplication;
+  public SkillUsage newSkillApplication;
 }

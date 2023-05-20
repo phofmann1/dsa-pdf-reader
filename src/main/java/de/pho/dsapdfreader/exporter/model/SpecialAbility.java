@@ -5,6 +5,7 @@ import java.util.List;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
+import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
@@ -20,15 +21,16 @@ public class SpecialAbility
   public Publication publication;
   public SpecialAbilityCategoryKey category;
 
-  public int ap;
+  public Integer ap;
   public SpecialAbilityTypeKey abilityType;
-  public int multiselect;
+  public Integer multiselect;
   public SelectionCategory selectionCategory;
   public SkillCategoryKey skillCategory;
-  public boolean hasFreeText;
+  public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
   public ValueChange valueChange;
-  public SkillApplication skillApplication;
+  public SkillUsage skillUsage;
+  public SkillApplicationKey[] skillApplications;
 
   public SpecieKey requiredSpecie;
   public TraditionKey requiredTradition;

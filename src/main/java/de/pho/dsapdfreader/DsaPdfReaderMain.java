@@ -4,11 +4,15 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
+import java.net.URISyntaxException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
@@ -486,10 +490,13 @@ public class DsaPdfReaderMain
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
 
         List<SpecialAbilityRaw> raws = CsvHandler.readBeanFromFile(SpecialAbilityRaw.class, fIn);
-        List<SpecialAbility> specialAbilities = raws.stream().flatMap(LoadToSpecialAbility::migrate).collect(Collectors.toList());
 
-        specialAbilities.stream().filter(ms -> ms.skillApplication != null).forEach(sa -> System.out.println(sa.name));
-        System.out.println(specialAbilities.stream().filter(ms -> ms.skillApplication != null).count());
+        List<SpecialAbility> corrections = initExporterCorrections(SpecialAbility.class);
+        List<SpecialAbility> specialAbilities = raws.stream().flatMap(LoadToSpecialAbility::migrate)
+            .map(sa -> {
+              LoadToSpecialAbility.applyCorrections(sa, corrections);
+              return sa;
+            }).collect(Collectors.toList());
 
         ObjectMapper mapper = new ObjectMapper();
         String jsonResult = mapper
@@ -681,11 +688,44 @@ public class DsaPdfReaderMain
     }
   }
 
+  private static <T> List<T> initExporterCorrections(Class<T> clazz)
+  {
+    List<T> returnValue;
+    try
+    {
+      URL url = DsaPdfReaderMain.class.getClassLoader().getResource("exporter/" + clazz.getSimpleName() + ".json");
+      BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream(), StandardCharsets.UTF_8));
+
+      StringBuilder sb = new StringBuilder();
+      String content = null;
+      while ((content = in.readLine()) != null)
+      {
+        sb.append(content);
+      }
+      in.close();
+
+
+      Path path = Paths.get(url.toURI());
+      byte[] bytes = Files.readAllBytes(path);
+
+      final ObjectMapper objectMapper = new ObjectMapper();
+      returnValue = Arrays.stream(
+          objectMapper.readValue(sb.toString(), ((T[]) Array.newInstance(clazz, 0)).getClass())
+      ).map(o -> (T) o).toList();
+    }
+    catch (URISyntaxException | IOException e)
+    {
+      throw new RuntimeException(e);
+    }
+
+    return returnValue;
+  }
+
   private static BufferedWriter generateBufferedWriter(String filePath) throws IOException
   {
     File file = new File(filePath);
     file.getParentFile().mkdirs();
-    return new BufferedWriter(new FileWriter(file));
+    return new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath), StandardCharsets.UTF_8));
   }
 
   private static void loadMeleeWeapons(List<MeleeWeaponRaw> raws, TopicConfiguration conf)
