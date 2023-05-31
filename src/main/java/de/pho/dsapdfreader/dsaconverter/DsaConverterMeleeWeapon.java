@@ -255,7 +255,7 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
       second.remark = lastEntry.remark;
       second.atPaMod = "–2/–";
       lastEntry.atPaMod = "–2/–";
-      second.combatSkillKey = CombatSkillKey.WHIP;
+      second.combatSkillKey = CombatSkillKey.peitschen;
       second.size = "90";
       lastEntry.size = lastEntry.size.replace(second.size, "").trim();
       second.publication = lastEntry.publication;

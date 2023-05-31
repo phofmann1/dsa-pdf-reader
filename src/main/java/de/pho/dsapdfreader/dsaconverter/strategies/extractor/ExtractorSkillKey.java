@@ -24,20 +24,6 @@ public class ExtractorSkillKey extends Extractor
     return returnValue;
   }
 
-
-  public static SkillKey retrieveSkillKey(String skillName)
-  {
-    try
-    {
-      return SkillKey.fromString(skillName);
-    }
-    catch (IllegalArgumentException e)
-    {
-      LOGGER.error(e.getMessage(), e);
-    }
-    return null;
-  }
-
   public static SkillUsageKey retrieveSkillUsageKey(String usage)
   {
     try

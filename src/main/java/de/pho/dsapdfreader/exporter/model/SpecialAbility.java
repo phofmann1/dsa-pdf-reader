@@ -29,21 +29,24 @@ public class SpecialAbility
   public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
   public ValueChange valueChange;
-  public SkillUsage skillUsage;
+  public SkillUsage newSkillUsage;
   public SkillApplicationKey[] skillApplications;
 
   public SpecieKey requiredSpecie;
-  public TraditionKey requiredTradition;
-  public RequirementBoon[] requireOneOfBoons;
-  public RequirementBoon[] requireNoneOfBoons;
+  public List<TraditionKey> requireOneOfTraditions;
+  public List<RequirementBoon> requireOneOfBoons;
+  public List<RequirementBoon> requireNoneOfBoons;
   public RequirementsAttribute requirementsAttribute;
   public RequirementsSpecialAbility requirementsAbility;
   public RequirementsSkill requirementsSkill;
   public RequirementSkillSum requirementsSkillsSum;
-  public RequirementCombatSkill requirementCombatSkill;
+  public RequirementsCombatSkill requirementsCombatSkill;
   public RequirementMysticalSkill requirementMysticalSkill;
 
   public SpecialAbilityVariant[] variants;
 
   public List<CombatSkillKey> combatSkillKeys;
+  public boolean isOnlyParryWeapon;
+  public boolean isOnlyElfenWeapon;
+  public boolean isOnlyDwarfenWeapon;
 }

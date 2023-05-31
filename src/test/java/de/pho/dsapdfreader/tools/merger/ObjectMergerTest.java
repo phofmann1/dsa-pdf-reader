@@ -20,26 +20,26 @@ class ObjectMergerTest
   {
     SpecialAbility source = new SpecialAbility();
     source.name = "source";
-    source.skillUsage = new SkillUsage();
-    source.skillUsage.usageKey = SkillUsageKey.ablenkungen;
-    source.skillUsage.name = "sourceApplication";
-    source.skillUsage.skillKeys = new ArrayList<>();
-    source.skillUsage.skillKeys.add(SkillKey.alchimie);
+    source.newSkillUsage = new SkillUsage();
+    source.newSkillUsage.usageKey = SkillUsageKey.ablenkungen;
+    source.newSkillUsage.name = "sourceApplication";
+    source.newSkillUsage.skillKeys = new ArrayList<>();
+    source.newSkillUsage.skillKeys.add(SkillKey.alchimie);
     source.ap = 23;
     SpecialAbility target = new SpecialAbility();
     target.name = "target";
-    target.skillUsage = new SkillUsage();
-    target.skillUsage.name = "targetApplication";
+    target.newSkillUsage = new SkillUsage();
+    target.newSkillUsage.name = "targetApplication";
 
     ObjectMerger.merge(source, target);
 
     assertEquals(23, target.ap);
     assertEquals("target", target.name);
-    assertNotNull(target.skillUsage);
-    assertEquals("targetApplication", target.skillUsage.name);
-    assertEquals(SkillUsageKey.ablenkungen, target.skillUsage.usageKey);
-    assertNotNull(target.skillUsage.skillKeys);
-    assertEquals(SkillKey.alchimie, target.skillUsage.skillKeys.get(0));
+    assertNotNull(target.newSkillUsage);
+    assertEquals("targetApplication", target.newSkillUsage.name);
+    assertEquals(SkillUsageKey.ablenkungen, target.newSkillUsage.usageKey);
+    assertNotNull(target.newSkillUsage.skillKeys);
+    assertEquals(SkillKey.alchimie, target.newSkillUsage.skillKeys.get(0));
   }
 
 

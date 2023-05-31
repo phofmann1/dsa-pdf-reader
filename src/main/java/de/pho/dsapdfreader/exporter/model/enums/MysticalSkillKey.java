@@ -1,5 +1,10 @@
 package de.pho.dsapdfreader.exporter.model.enums;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum MysticalSkillKey
@@ -920,4 +925,12 @@ public enum MysticalSkillKey
     return ordinal();
   }
 
+  public static Optional<MysticalSkillKey> fromString(String str)
+  {
+    String cleanName = str.toUpperCase().replace(" ", "_")
+        .replace("&", "UND");
+
+    List<String> names = Arrays.stream(MysticalSkillCategory.values()).map(v -> v.name() + "_" + cleanName).collect(Collectors.toList());
+    return Arrays.stream(MysticalSkillKey.values()).filter(msv -> names.stream().anyMatch(n -> n.equalsIgnoreCase(msv.name()))).findFirst();
+  }
 }

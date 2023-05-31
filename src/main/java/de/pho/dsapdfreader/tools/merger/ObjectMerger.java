@@ -2,6 +2,7 @@ package de.pho.dsapdfreader.tools.merger;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class ObjectMerger
       try
       {
         //checks that the target does not already have a set value for this field
-        if (field.get(target) == null || isEmptyList(field.get(target)) || field.getType().isEnum())
+        if (field.get(source) != null || !isEmptyList(field.get(source)) || field.getType().isEnum())
         {
           //we use the hashmap to cache an already copied object
           Object fromCache = copiedValues.get(field.get(source));
@@ -31,7 +32,13 @@ public class ObjectMerger
           else
           {
             Object sourceValue = field.get(source);
-            if (sourceValue != null && !isSimpleType(sourceValue.getClass()) && !(sourceValue instanceof List) && !field.getType().isEnum())
+            if (sourceValue instanceof List)
+            {
+              List copyList = new ArrayList();
+              copyList.addAll((List) sourceValue);
+              field.set(target, copyList);
+            }
+            else if (sourceValue != null && !isSimpleType(sourceValue.getClass()) && !field.getType().isEnum())
             {
               //if the source value is not null we check if it is a simple type
               //if it is not a simple type we create a new instance of this object
@@ -44,7 +51,7 @@ public class ObjectMerger
             }
           }
         }
-        else if (!isSimpleType(field.get(target).getClass()))
+        else if (!isSimpleType(field.get(target).getClass()) && field.get(source) != null)
         {
           field.set(target, merge(field.get(source), field.get(target)));
         }

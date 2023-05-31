@@ -147,7 +147,7 @@ public abstract class Extractor
     {
       if (t.contains("allgemein (Schamanenritus)")) return TraditionKey.SHAMAN_ALL;
       if (t.contains("allgemein") | t.contains("Allgemein")) return TraditionKey.ALL;
-      //if(t.contains("")) return TraditionKey.ALCHIMIST;
+      if (t.contains("Zauberalchimisten")) return TraditionKey.ALCHIMIST;
       if (t.contains("Angrosch")) return TraditionKey.ANGROSCH;
       //if(t.contains("")) return TraditionKey.ANIMIST;
       if (t.contains("Aves")) return TraditionKey.AVES;
@@ -193,6 +193,10 @@ public abstract class Extractor
       if (t.contains("Hexe")) return TraditionKey.WITCH;
       if (t.contains("Zibilja")) return TraditionKey.ZIBILJA;
       if (t.contains("Borbaradianer")) return TraditionKey.BORBARAD;
+      if (t.contains("Darna")) return TraditionKey.DARNA;
+      if (t.contains("Runenschöpfer")) return TraditionKey.RUNECARVER;
+      if (t.contains("Bannzeichner")) return TraditionKey.BAN_DRAFTSMAN;
+      if (t.contains("eine Schamanentradition")) return TraditionKey.SHAMAN_ALL;
       throw new IllegalArgumentException("Tradition(" + t + ") konnte nicht interpretiert werden");
     }
 

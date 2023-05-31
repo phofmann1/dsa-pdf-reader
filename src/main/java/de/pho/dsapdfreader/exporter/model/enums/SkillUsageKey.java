@@ -358,27 +358,44 @@ public enum SkillUsageKey
     horasreich,
     folter,
     feuer_schlucken,
-    gespür_für_das_böse,
-    magiegespür,
-    dienen_und_gehorchen,
-    dokumente_fälschen,
-    heraldik_und_stammbäume,
-    schnapsbrennen,
-    töpferarbeiten,
-    kohlezeichnungen_anfertigen,
-    verschlüsselungen,
-    buchprüfung,
-    ;
+  gespür_für_das_böse,
+  magiegespür,
+  dienen_und_gehorchen,
+  dokumente_fälschen,
+  heraldik_und_stammbäume,
+  schnapsbrennen,
+  töpferarbeiten,
+  kohlezeichnungen_anfertigen,
+  verschlüsselungen,
+  buchprüfung,
+  schriftstellerei_etikette_poesie,
+  schriftstellerei_bekehren_und_überzeugen_hetzschriften,
+  schriftstellerei_gassenwissen_kriminalgeschichten,
+  schriftstellerei_überreden_romane,
+  schriftstellerei_sagen_und_legenden_märchen,
+  schriftstellerei_brett_und_glücksspiel_fachpublikation,
+  schriftstellerei_geographie_fachpublikation,
+  schriftstellerei_geschichtswissen_fachpublikation,
+  schriftstellerei_götter_und_kulte_fachpublikation,
+  schriftstellerei_kriegskunst_fachpublikation,
+  schriftstellerei_magiekunde_fachpublikation,
+  schriftstellerei_mechanik_fachpublikation,
+  schriftstellerei_rechnen_fachpublikation,
+  schriftstellerei_rechtskunde_fachpublikation,
+  schriftstellerei_sagen_und_legenden_fachpublikation,
+  schriftstellerei_sphärenkunde_fachpublikation,
+  schriftstellerei_sternkunde_fachpublikation,
+  liebesroman, poesie, hetzrschriften, kriminalgeschichten, romane, märchen, fachpublikation_brett_und_glücksspiele, fachpublikation_geographie, fachpublikation_geschichte, fachpublikation_götter_und_kulte, fachpublikation_kriegskunst, fachpublikation_magiekunde, fachpublikation_mechanik, fachpublikation_rechnen, fachpublikation_rechtskunde, fachpublikation_sphärenkunde, fachpublikation_sternkunde;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 
-    public static SkillUsageKey fromString(String str)
-    {
-        for (SkillUsageKey e : SkillUsageKey.values())
+  public static SkillUsageKey fromString(String str)
+  {
+    for (SkillUsageKey e : SkillUsageKey.values())
         {
             if (e.name().equalsIgnoreCase(str.toLowerCase().replace(" ", "_")
                 .replace("&", "und")))

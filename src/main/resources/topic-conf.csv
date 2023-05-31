@@ -34,6 +34,7 @@ false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - A
 true;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;251;;337;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
 true;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;311;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 true;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;162;;191;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
+false;Kodex_der_Käuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
 false;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;;topic-mapping-streets-equipment.xml;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;

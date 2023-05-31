@@ -1,7 +1,7 @@
 [
   {
     "key": 674,
-    "skillUsage": {
+    "newSkillUsage": {
       "name": "Buchprüfung",
       "usageKey": 358,
       "skillKeys": [
@@ -11,7 +11,7 @@
   },
   {
     "key": 663,
-    "skillUsage": {
+    "newSkillUsage": {
       "name": "Prunkkleider herstellen",
       "usageKey": 288,
       "skillKeys": [
@@ -21,7 +21,7 @@
   },
   {
     "key": 389,
-    "skillUsage": {
+    "newSkillUsage": {
       "skillKeys": [
         17
       ]
@@ -29,7 +29,7 @@
   },
   {
     "key": 134,
-    "skillUsage": {
+    "newSkillUsage": {
       "skillKeys": [
         17
       ]
@@ -37,7 +37,7 @@
   },
   {
     "key": 104,
-    "skillUsage": {
+    "newSkillUsage": {
       "name": "Bine Maschores",
       "usageKey": 248,
       "skillKeys": [

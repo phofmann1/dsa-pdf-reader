@@ -59,7 +59,7 @@ public class LoadToMeleeWeapon
         returnValue.parryForMain = ExtractorParryForMain.retrieve(returnValue.remark);
       }
 
-      if (returnValue.combatSkillKey == CombatSkillKey.SHIELD)
+      if (returnValue.combatSkillKey == CombatSkillKey.schilde)
       {
         returnValue.parryForMain = returnValue.paModifier;
       }
@@ -87,15 +87,15 @@ public class LoadToMeleeWeapon
       }
       returnValue.breakingValue = switch (returnValue.combatSkillKey)
           {
-            case DAGGER -> 14;
-            case SWORD, FAN -> 13;
-            case BLUNT, BRAWL, DISKUS, PIKE, POLE, TWOHANDED_SWORD -> 12;
-            case TWOHANDED_BLUNT -> 11;
-            case BLASROHR, CHAIN, SHIELD, WURFWAFFEN -> 10;
-            case FENCING -> 8;
-            case ARMBRÜSTE, LANCE -> 6;
-            case BÖGEN, SCHLEUDERN, WHIP -> 4;
-            case SPITFIRE -> -1;
+            case dolche -> 14;
+            case schwerter, fächer -> 13;
+            case hiebwaffen, raufen, diskusse, spießwaffen, stangenwaffen, zweihandschwerter -> 12;
+            case zweihandhiebwaffen -> 11;
+            case blasrohre, kettenwaffen, schilde, wurfwaffen -> 10;
+            case fechtwaffen -> 8;
+            case armbrüste, lanzen -> 6;
+            case bögen, schleudern, peitschen -> 4;
+            case feuerspeien -> -1;
           };
 
 

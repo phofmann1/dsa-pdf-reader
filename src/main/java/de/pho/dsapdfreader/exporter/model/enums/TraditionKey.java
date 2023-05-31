@@ -53,7 +53,8 @@ public enum TraditionKey
   SHAMAN_TROLLZACKER,
   BORBARAD,
   DARNA,
-  RUNECARVER;
+  RUNECARVER,
+  BAN_DRAFTSMAN;
 
   @JsonValue
   public int toValue()

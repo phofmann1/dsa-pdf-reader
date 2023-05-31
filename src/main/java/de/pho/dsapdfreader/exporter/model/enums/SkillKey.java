@@ -1,5 +1,8 @@
 package de.pho.dsapdfreader.exporter.model.enums;
 
+import java.util.Arrays;
+import java.util.Optional;
+
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum SkillKey
@@ -73,16 +76,12 @@ public enum SkillKey
         return ordinal();
     }
 
-    public static SkillKey fromString(String str)
+    public static Optional<SkillKey> fromString(String str)
     {
-        for (SkillKey e : SkillKey.values())
-        {
-            if (e.name().equalsIgnoreCase(str.toLowerCase().replace(" ", "_")
-                .replace("&", "und")))
-            {
-                return e;
-            }
-        }
-        throw new IllegalArgumentException("No enum constant with name " + str);
+        String cleanName = str.toUpperCase()
+            .replace("-", "")
+            .replace(" ", "_")
+            .replace("&", "UND");
+        return Arrays.stream(SkillKey.values()).filter(msv -> msv.name().equalsIgnoreCase(cleanName)).findFirst();
     }
 }

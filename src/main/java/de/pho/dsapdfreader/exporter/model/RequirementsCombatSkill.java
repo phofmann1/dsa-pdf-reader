@@ -5,10 +5,9 @@ import java.util.List;
 
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 
-public class RequirementsSkill
+public class RequirementsCombatSkill
 {
-  public LogicalOperatorKey logicalOpperator;
-  public List<RequirementSkill> requirements = new ArrayList<>();
+  public LogicalOperatorKey logicalOperator = LogicalOperatorKey.and;
+  public List<RequirementCombatSkill> requirements = new ArrayList<>();
   public RequirementsSkill childs;
-
 }

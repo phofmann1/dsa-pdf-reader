@@ -109,7 +109,7 @@ public class DsaPdfReaderMain
   private static final Logger LOGGER = LogManager.getLogger();
   private static List<TopicConfiguration> configs = null;
 
-  static CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.BLASROHR, CombatSkillKey.BÖGEN, CombatSkillKey.ARMBRÜSTE, CombatSkillKey.DISKUS, CombatSkillKey.SCHLEUDERN, CombatSkillKey.WURFWAFFEN};
+  static CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.blasrohre, CombatSkillKey.bögen, CombatSkillKey.armbrüste, CombatSkillKey.diskusse, CombatSkillKey.schleudern, CombatSkillKey.wurfwaffen};
 
   public static void main(String[] args)
   {
