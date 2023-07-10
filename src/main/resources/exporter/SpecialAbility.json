@@ -3,7 +3,7 @@
     "key": 674,
     "newSkillUsage": {
       "name": "Buchprüfung",
-      "usageKey": 358,
+      "key": 358,
       "skillKeys": [
         45
       ]
@@ -13,7 +13,7 @@
     "key": 663,
     "newSkillUsage": {
       "name": "Prunkkleider herstellen",
-      "usageKey": 288,
+      "key": 288,
       "skillKeys": [
         58
       ]
@@ -39,7 +39,7 @@
     "key": 104,
     "newSkillUsage": {
       "name": "Bine Maschores",
-      "usageKey": 248,
+      "key": 248,
       "skillKeys": [
         45
       ]

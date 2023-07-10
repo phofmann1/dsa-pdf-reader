@@ -1,0 +1,218 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>177</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>85</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2300</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1700</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1600</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1500</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - infos" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Unerschöpflich on Page 4" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>44</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>29</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>30</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>44</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>46</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>45</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>46</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>70</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>73</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>92</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>177</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>84</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

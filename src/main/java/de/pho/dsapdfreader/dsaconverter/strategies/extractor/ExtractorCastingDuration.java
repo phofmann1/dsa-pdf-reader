@@ -12,17 +12,18 @@ public class ExtractorCastingDuration extends Extractor
     public static CastingDuration retrieveCastingDuration(MysticalSkillRaw msr, MysticalSkillCategory category)
     {
         CastingDuration returnValue = null;
-        if (category == MysticalSkillCategory.BLESSING || category == MysticalSkillCategory.TRICK)
+        if (category == MysticalSkillCategory.blessing || category == MysticalSkillCategory.trick)
         {
+          returnValue = new CastingDuration();
+          returnValue.duration = 1;
+          returnValue.castingDurationUnit = Unit.ACTION;
+        }
+        else
+        {
+          Matcher matcher = PAT_LEADING_NUMBER.matcher(msr.castingDuration);
+          if (!msr.castingDuration.isEmpty() && matcher.find())
+          {
             returnValue = new CastingDuration();
-            returnValue.duration = 1;
-            returnValue.castingDurationUnit = Unit.ACTION;
-        } else
-        {
-            Matcher matcher = PAT_LEADING_NUMBER.matcher(msr.castingDuration);
-            if (!msr.castingDuration.isEmpty() && matcher.find())
-            {
-                returnValue = new CastingDuration();
                 returnValue.duration = Integer.valueOf(matcher.group().trim());
                 returnValue.castingDurationUnit = extractUnitFromText(msr.castingDuration, msr);
             }

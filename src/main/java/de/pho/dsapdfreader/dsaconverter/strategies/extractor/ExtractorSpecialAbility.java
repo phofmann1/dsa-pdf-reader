@@ -287,7 +287,7 @@ public class ExtractorSpecialAbility extends Extractor
             .replace("<i>", "")
             .replace("</i>", "")
             .replace("Magiespür", "Magiegespür");
-        returnValue.usageKey = ExtractorSkillKey.retrieveSkillUsageKey(returnValue.name);
+        returnValue.key = ExtractorSkillKey.retrieveSkillUsageKey(returnValue.name);
       }
 
       returnValue.skillKeys = etractSkillKeys(rules.replace("<i>" + skillUsageText + "</i>", ""));

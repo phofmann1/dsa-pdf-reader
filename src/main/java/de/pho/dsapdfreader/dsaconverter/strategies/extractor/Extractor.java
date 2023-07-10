@@ -209,18 +209,18 @@ public abstract class Extractor
   {
     return switch (topic)
         {
-          case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.TRICK;
-          case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.SPELL;
-          case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.RITUAL;
-          case BLESSINGS -> MysticalSkillCategory.BLESSING;
-          case LITURGIES -> MysticalSkillCategory.LITURGY;
-          case CEREMONIES -> MysticalSkillCategory.CEREMONY;
-          case CURSES -> MysticalSkillCategory.CURSE;
-              case ELFENSONGS -> MysticalSkillCategory.ELFENSONG;
-              case MELODIES -> MysticalSkillCategory.MELODY;
-              case DANCES -> MysticalSkillCategory.DANCE;
-              default -> throw new IllegalArgumentException(topic + " not found");
-            };
+          case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.trick;
+          case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.spell;
+          case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.ritual;
+          case BLESSINGS -> MysticalSkillCategory.blessing;
+          case LITURGIES -> MysticalSkillCategory.liturgy;
+          case CEREMONIES -> MysticalSkillCategory.ceremony;
+          case CURSES -> MysticalSkillCategory.curse;
+          case ELFENSONGS -> MysticalSkillCategory.elfensong;
+          case MELODIES -> MysticalSkillCategory.melody;
+          case DANCES -> MysticalSkillCategory.dance;
+          default -> throw new IllegalArgumentException(topic + " not found");
+        };
   }
 
 

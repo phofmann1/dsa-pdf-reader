@@ -17,7 +17,7 @@ public class ExtractorTradtion extends Extractor
     public static List<TraditionKey> retrieveTraditions(MysticalSkillRaw msr, MysticalSkillCategory category)
     {
         //handle two Marbo ceremonies with wrong assignment (commonness is printed in feature:
-        String cTxt = (category == MysticalSkillCategory.CEREMONY && msr.commonness == null)
+        String cTxt = (category == MysticalSkillCategory.ceremony && msr.commonness == null)
             ? msr.feature
             : msr.commonness;
         if (cTxt == null || cTxt.isEmpty())

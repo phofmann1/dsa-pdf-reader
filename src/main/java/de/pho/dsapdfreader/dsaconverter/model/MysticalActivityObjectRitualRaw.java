@@ -1,20 +1,17 @@
 package de.pho.dsapdfreader.dsaconverter.model;
 
 import com.opencsv.bean.CsvBindByName;
-import com.opencsv.bean.CsvCustomBindByName;
 
 import de.pho.dsapdfreader.config.TopicEnum;
-import de.pho.dsapdfreader.exporter.model.MysticalSkillVariant;
+import de.pho.dsapdfreader.exporter.model.enums.ArtifactKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 
-public class MysticalSkillRaw implements DsaObjectI
+public class MysticalActivityObjectRitualRaw implements DsaObjectI
 {
   @CsvBindByName
   public String name = "";
   @CsvBindByName
   public String publication = "";
-  @CsvBindByName
-  public String description = "";
   @CsvBindByName
   public String range = "";
   @CsvBindByName
@@ -52,63 +49,61 @@ public class MysticalSkillRaw implements DsaObjectI
   @CsvBindByName
   public String qs6;
   @CsvBindByName
-  public String furtherInformation;
-  @CsvBindByName
-  public String variantsText;
-  @CsvCustomBindByName(converter = CsvCustomConvertMysticalSkillVariant.class)
-  public MysticalSkillVariant variant1;
-  @CsvCustomBindByName(converter = CsvCustomConvertMysticalSkillVariant.class)
-  public MysticalSkillVariant variant2;
-  @CsvCustomBindByName(converter = CsvCustomConvertMysticalSkillVariant.class)
-  public MysticalSkillVariant variant3;
-  @CsvCustomBindByName(converter = CsvCustomConvertMysticalSkillVariant.class)
-  public MysticalSkillVariant variant4;
-  @CsvCustomBindByName(converter = CsvCustomConvertMysticalSkillVariant.class)
-  public MysticalSkillVariant variant5;
-  @CsvBindByName
   public String talentKey;
-
-  @CsvBindByName
-  public String reversalis;
-
-  @CsvBindByName
-  public String gesturesAndIncantations;
-
-  @CsvBindByName
-  public String rime;
-  @CsvBindByName
-  public String zhayad;
   @CsvBindByName
   public String elements;
 
   @CsvBindByName
   public MysticalSkillCategory msCategory;
+  @CsvBindByName
+  public ArtifactKey artifactKey;
+  @CsvBindByName
+  public String tribes;
+  @CsvBindByName
+  public String musicTraditions;
+  @CsvBindByName
+  public String requirements;
+  @CsvBindByName
+  public String volume;
+  @CsvBindByName
+  public String binding;
+  @CsvBindByName
+  public String ap;
 
   @Override
   public String toString()
   {
-    return "MysticalSkillMedium{" +
-        "name='" + getName() + '\'' +
-        ", description='" + description + '\'' +
-        ", check='" + check + '\'' +
-        ", effect='" + effect + '\'' +
-        ", castingDuration='" + castingDuration + '\'' +
+    return "MysticalActivityObjectRitualRaw{" +
+        "name='" + name + '\'' +
+        ", publication='" + publication + '\'' +
         ", range='" + range + '\'' +
         ", duration='" + duration + '\'' +
         ", targetCategory='" + targetCategory + '\'' +
-        ", cost=" + cost +
         ", feature='" + feature + '\'' +
         ", remarks='" + remarks + '\'' +
         ", topic=" + topic +
-        ", publication=" + publication +
+        ", check='" + check + '\'' +
+        ", effect='" + effect + '\'' +
+        ", castingDuration='" + castingDuration + '\'' +
         ", commonness='" + commonness + '\'' +
+        ", cost='" + cost + '\'' +
         ", advancementCategory='" + advancementCategory + '\'' +
-        ", variant1=" + variant1 +
-        ", variant2=" + variant2 +
-        ", variant3=" + variant3 +
-        ", variant4=" + variant4 +
-        ", variant5=" + variant5 +
-        ", furtherInformation='" + furtherInformation + '\'' +
+        ", qs1='" + qs1 + '\'' +
+        ", qs2='" + qs2 + '\'' +
+        ", qs3='" + qs3 + '\'' +
+        ", qs4='" + qs4 + '\'' +
+        ", qs5='" + qs5 + '\'' +
+        ", qs6='" + qs6 + '\'' +
+        ", talentKey='" + talentKey + '\'' +
+        ", elements='" + elements + '\'' +
+        ", msCategory=" + msCategory +
+        ", artifactKey=" + artifactKey +
+        ", tribes='" + tribes + '\'' +
+        ", musicTraditions='" + musicTraditions + '\'' +
+        ", requirements='" + requirements + '\'' +
+        ", volume='" + volume + '\'' +
+        ", binding='" + binding + '\'' +
+        ", ap='" + ap + '\'' +
         '}';
   }
 

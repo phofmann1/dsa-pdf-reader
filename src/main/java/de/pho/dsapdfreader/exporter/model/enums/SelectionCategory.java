@@ -4,19 +4,21 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum SelectionCategory
 {
-  ARTIFACT,
-  COMBATSKILL,
-  MYSTICALSKILL,
-  DESEASE,
-  POISON,
-  SKILL,
-  ELEMENT,
-  SPECIE,
-  FEATURE,
-  SPECIALISATION,
-  TRADE_SECRET,
-  LANGUAGE,
-  SCRIPT;
+  artifact,
+  combatSkill,
+  mysticalSkill,
+  desease,
+  poison,
+  skill,
+  element,
+  specie,
+  feature,
+  specialisation,
+  tradeSecret,
+  language,
+  script,
+  terrain,
+  traditionCleric;
 
   @JsonValue
   public int toValue()

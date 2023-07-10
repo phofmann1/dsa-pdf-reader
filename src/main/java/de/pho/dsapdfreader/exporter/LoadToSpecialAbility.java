@@ -86,26 +86,29 @@ public class LoadToSpecialAbility
 
   static
   {
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_i, SelectionCategory.FEATURE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_ii, SelectionCategory.FEATURE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_iii, SelectionCategory.FEATURE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.lieblingsliturgie, SelectionCategory.MYSTICALSKILL);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_i, SelectionCategory.feature);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_ii, SelectionCategory.feature);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.aspektkenntnis_iii, SelectionCategory.feature);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.lieblingsliturgie, SelectionCategory.mysticalSkill);
 
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.anatomie, SelectionCategory.SPECIE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.fachwissen, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.handwerkskunst, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.kind_der_natur, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.körperliches_geschick, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.soziale_kompetenz, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.universalgenie, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.weg_der_gelehrten, SelectionCategory.SKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.weg_der_künstlerin, SelectionCategory.SKILL);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.anatomie, SelectionCategory.specie);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.fachwissen, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.handwerkskunst, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.kind_der_natur, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.körperliches_geschick, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.soziale_kompetenz, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.universalgenie, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.weg_der_gelehrten, SelectionCategory.skill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.weg_der_künstlerin, SelectionCategory.skill);
 
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.adaption, SelectionCategory.MYSTICALSKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.lieblingsliturgie, SelectionCategory.MYSTICALSKILL);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_i, SelectionCategory.FEATURE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_ii, SelectionCategory.FEATURE);
-    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_iii, SelectionCategory.FEATURE);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.adaption, SelectionCategory.mysticalSkill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.lieblingszauber, SelectionCategory.mysticalSkill);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_i, SelectionCategory.feature);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_ii, SelectionCategory.feature);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.merkmalskenntnis_iii, SelectionCategory.feature);
+
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.geländekunde, SelectionCategory.terrain);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.anhänger_des_güldenen, SelectionCategory.traditionCleric);
   }
 
   static
@@ -180,7 +183,6 @@ public class LoadToSpecialAbility
         specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(raw.preconditions, specialAbility.name, levels, currentLevel);
       /*
       specialAbility.valueChange;
-      specialAbility.variants;
       */
 
         if (isAuthor)
@@ -391,7 +393,7 @@ public class LoadToSpecialAbility
     scribe.key = abilityKey;
     scribe.name = scribe.name + " " + usageName.replace("Fachpublikation", "").trim();
     scribe.newSkillUsage.name = usageName;
-    scribe.newSkillUsage.usageKey = usageKey;
+    scribe.newSkillUsage.key = usageKey;
     scribe.newSkillUsage.skillKeys.add(skillKey);
     scribe.requirementsSkill = new RequirementsSkill();
     RequirementSkill r = new RequirementSkill();

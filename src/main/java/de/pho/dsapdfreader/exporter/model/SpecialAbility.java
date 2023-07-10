@@ -32,6 +32,11 @@ public class SpecialAbility
   public SkillUsage newSkillUsage;
   public SkillApplicationKey[] skillApplications;
 
+  public List<CombatSkillKey> combatSkillKeys;
+  public boolean isOnlyParryWeapon;
+  public boolean isOnlyElfenWeapon;
+  public boolean isOnlyDwarfenWeapon;
+
   public SpecieKey requiredSpecie;
   public List<TraditionKey> requireOneOfTraditions;
   public List<RequirementBoon> requireOneOfBoons;
@@ -43,10 +48,4 @@ public class SpecialAbility
   public RequirementsCombatSkill requirementsCombatSkill;
   public RequirementMysticalSkill requirementMysticalSkill;
 
-  public SpecialAbilityVariant[] variants;
-
-  public List<CombatSkillKey> combatSkillKeys;
-  public boolean isOnlyParryWeapon;
-  public boolean isOnlyElfenWeapon;
-  public boolean isOnlyDwarfenWeapon;
 }

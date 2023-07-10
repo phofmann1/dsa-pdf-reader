@@ -21,7 +21,7 @@ class ExtractorMysticalSkillKeyTest
   @Test
   void extractMysticalSkillKeyFromText()
   {
-    MysticalSkillKey result = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(MysticalSkillCategory.SPELL, "Odem Arcanum");
+    MysticalSkillKey result = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(MysticalSkillCategory.spell, "Odem Arcanum");
     assertEquals(MysticalSkillKey.SPELL_ODEM_ARCANUM, result);
   }
 }

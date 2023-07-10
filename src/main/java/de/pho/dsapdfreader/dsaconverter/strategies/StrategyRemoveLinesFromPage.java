@@ -36,7 +36,7 @@ public class StrategyRemoveLinesFromPage extends DsaConverterStrategy
 
     private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double fromLine, double untilLine)
     {
-        double endLine = untilLine > fromLine ? untilLine : textList.size();
+        double endLine = untilLine > fromLine ? untilLine : 999999;
         return textList.stream().filter(t -> t.onLine < fromLine || t.onLine > endLine).collect(Collectors.toList());
     }
 }

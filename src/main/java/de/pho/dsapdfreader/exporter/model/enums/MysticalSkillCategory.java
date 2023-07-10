@@ -4,27 +4,30 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum MysticalSkillCategory
 {
-    SPELL,
-    RITUAL,
-    TRICK,
-    CURSE,
-    JEST,
-    POWER,
-    ELFENSONG,
-    RITUALOFDOMINION,
-    MELODY,
-    DANCE,
-    ZIBILJA,
-    BLESSING,
-    LITURGY,
-    CEREMONY,
-    GEODE;
+  spell,
+  ritual,
+  trick,
+  curse,
+  jest,
+  power,
+  elfensong,
+  ritualOfDominion,
+  melody,
+  dance,
+  zibilja,
+  blessing,
+  liturgy,
+  ceremony,
+  geode,
+  bansign,
+  goblinRitual,
+  rune;
 
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 
 }

@@ -13,6 +13,11 @@ public class ExtractorSkillKey extends Extractor
   {
   }
 
+  public static SkillKey retrieveSkillKey(String name)
+  {
+    return extractSkillKeyFromText(name);
+  }
+
   public static List<SkillKey> retrieveSkillKeysForMysticalSkillRaw(MysticalSkillRaw msr)
   {
     List<SkillKey> returnValue = new ArrayList<>();
@@ -37,5 +42,21 @@ public class ExtractorSkillKey extends Extractor
       //LOGGER.error(e.getMessage(), e);
     }
     return null;
+  }
+
+  private static SkillKey extractSkillKeyFromText(String name)
+  {
+    SkillKey returnValue;
+    String skillKeyString = extractKeyTextFromText(name.toLowerCase());
+
+    try
+    {
+      returnValue = SkillKey.valueOf(skillKeyString);
+    }
+    catch (IllegalArgumentException e)
+    {
+      returnValue = null;
+    }
+    return returnValue;
   }
 }

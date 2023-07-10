@@ -10,17 +10,17 @@ import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsMysticalSkill;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterMysticalSkillActivity extends DsaConverterMysticalSkill
+public class DsaConverterMysticalSkillActivity_LEGACY extends DsaConverterMysticalSkill
 {
-    protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-    {
-        return !t.isBold && Arrays.stream(getKeys()).noneMatch(k -> k.equals(cleanText))
-            || t.text.startsWith("QS "); // exception for QS lists
-    }
+  protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+  {
+    return !t.isBold && Arrays.stream(getKeys()).noneMatch(k -> k.equals(cleanText))
+        || t.text.startsWith("QS "); // exception for QS lists
+  }
 
-    protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-    {
-        return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(cleanText));
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
+  {
+    return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(cleanText));
     }
 
     protected boolean validateIsName(TextWithMetaInfo t)

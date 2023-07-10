@@ -43,4 +43,6 @@ public enum TopicEnum
   BOONS,
   WAFFEN, // for regional equipment
   ABILITIES,
+  SKILLS,
+  MYSTICAL_SKILL_ACTIVITIES_MAGIC,
 }

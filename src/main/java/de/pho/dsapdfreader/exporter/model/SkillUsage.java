@@ -9,6 +9,6 @@ import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 public class SkillUsage
 {
   public String name;
-  public SkillUsageKey usageKey;
+  public SkillUsageKey key;
   public List<SkillKey> skillKeys = new ArrayList<>();
 }

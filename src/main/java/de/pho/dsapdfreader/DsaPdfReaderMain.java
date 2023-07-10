@@ -51,11 +51,13 @@ import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillIncantations;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkill;
-import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivityAndArtifacts;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivity_LEGACY;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimorium;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimoriumTricks;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterProfession;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterRangedWeapon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterSkillKodex;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityClericBase;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityKodex;
@@ -66,6 +68,7 @@ import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MeleeWeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.dsaconverter.model.RangedWeaponRaw;
+import de.pho.dsapdfreader.dsaconverter.model.SkillRaw;
 import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
@@ -76,6 +79,7 @@ import de.pho.dsapdfreader.exporter.LoadToEquipment;
 import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
 import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
 import de.pho.dsapdfreader.exporter.LoadToRangedWeapon;
+import de.pho.dsapdfreader.exporter.LoadToSkill;
 import de.pho.dsapdfreader.exporter.LoadToSpecialAbility;
 import de.pho.dsapdfreader.exporter.model.Armor;
 import de.pho.dsapdfreader.exporter.model.Boon;
@@ -84,6 +88,7 @@ import de.pho.dsapdfreader.exporter.model.EquipmentI;
 import de.pho.dsapdfreader.exporter.model.MeleeWeapon;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.exporter.model.RangedWeapon;
+import de.pho.dsapdfreader.exporter.model.Skill;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
@@ -684,6 +689,50 @@ public class DsaPdfReaderMain
       }
 
     }
+    case SKILLS ->
+    {
+      try
+      {
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+        List<SkillRaw> raws = CsvHandler.readBeanFromFile(SkillRaw.class, fIn);
+
+        List<Skill> pures = raws.stream().map(LoadToSkill::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(pures);
+
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "skills"));
+        writer.write(jsonResult);
+        writer.close();
+
+/*
+        String prefix = "equipment_armor";
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
+        writer.write(generateNameString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList())));
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_advantage"));
+        writer.write(generateAdvantageString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList())));
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_disadvantage"));
+        writer.write(generateDisadvantageString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList())));
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_remark"));
+        writer.write(generateRemarkString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList())));
+        writer.close();
+ */
+      }
+      catch (IOException e)
+      {
+        throw new RuntimeException(e);
+      }
+
+    }
+
     default -> LOGGER.error(String.format("Unexpected value (parseToJson): %s", conf.topic));
     }
   }
@@ -1032,7 +1081,8 @@ public class DsaPdfReaderMain
     case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
     case SPELLS_GRIMORIUM, RITUALS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimorium().convertTextWithMetaInfo(texts, conf);
     case TRICKS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimoriumTricks().convertTextWithMetaInfo(texts, conf);
-    case CURSES, ELFENSONGS, MELODIES, DANCES, ANIMIST -> results = new DsaConverterMysticalSkillActivity().convertTextWithMetaInfo(texts, conf);
+    case CURSES, ELFENSONGS, MELODIES, DANCES, ANIMIST ->
+        results = new DsaConverterMysticalSkillActivity_LEGACY().convertTextWithMetaInfo(texts, conf);
     case TRADITIONS_GRIMORIUM -> System.out.println("IMPLEMENTIER MICH");
     case INCANTATIONS_RIME_SPELLS_GRIMORIUM, INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM ->
     {
@@ -1072,6 +1122,8 @@ public class DsaPdfReaderMain
     case RÜSTUNGEN -> results = new DsaConverterArmor().convertTextWithMetaInfo(texts, conf);
     case AUSRÜSTUNG -> results = new DsaConverterEquipment().convertTextWithMetaInfo(texts, conf);
     case ABILITIES -> results = new DsaConverterSpecialAbilityKodex().convertTextWithMetaInfo(texts, conf);
+    case SKILLS -> results = new DsaConverterSkillKodex().convertTextWithMetaInfo(texts, conf);
+    case MYSTICAL_SKILL_ACTIVITIES_MAGIC -> results = new DsaConverterMysticalSkillActivityAndArtifacts().convertTextWithMetaInfo(texts, conf);
     default -> LOGGER.error(String.format("Unexpected value (parseResult): %s", conf.topic));
     }
     return results;
