@@ -240,6 +240,7 @@ public abstract class Extractor
   {
     return txt == null ? "" : (txt.toUpperCase()
         .replace("&", "UND")
+        .replace("'", "_")
         .replace("!", "")
         .replace("(", "")
         .replace(")", "")

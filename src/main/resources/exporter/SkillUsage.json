@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Liebesroman",
+    "key": 376,
+    "skillKeys": [
+      15
+    ]
+  },
+  {
+    "name": "Poesie",
+    "key": 377,
+    "skillKeys": [
+      17
+    ]
+  },
+  {
+    "name": "Hetzschriften",
+    "key": 378,
+    "skillKeys": [
+      14
+    ]
+  },
+  {
+    "name": "Kriminalgeschichten",
+    "key": 379,
+    "skillKeys": [
+      18
+    ]
+  },
+  {
+    "name": "Romane",
+    "key": 380,
+    "skillKeys": [
+      20
+    ]
+  },
+  {
+    "name": "Märchen",
+    "key": 381,
+    "skillKeys": [
+      39
+    ]
+  },
+  {
+    "name": "Fachpublikation (Brett- & Glücksspiele)",
+    "key": 382,
+    "skillKeys": [
+      30
+    ]
+  },
+  {
+    "name": "Fachpublikation Geographie",
+    "key": 383,
+    "skillKeys": [
+      31
+    ]
+  },
+  {
+    "name": "Fachpublikation Geschichte",
+    "key": 384,
+    "skillKeys": [
+      32
+    ]
+  },
+  {
+    "name": "Fachpublikation Götter & Kulte",
+    "key": 385,
+    "skillKeys": [
+      33
+    ]
+  },
+  {
+    "name": "Fachpublikation Kriegskunst",
+    "key": 386,
+    "skillKeys": [
+      34
+    ]
+  },
+  {
+    "name": "Fachpublikation Magiekunde",
+    "key": 387,
+    "skillKeys": [
+      35
+    ]
+  },
+  {
+    "name": "Fachpublikation Mechanik",
+    "key": 388,
+    "skillKeys": [
+      36
+    ]
+  },
+  {
+    "name": "Fachpublikation Rechnen",
+    "key": 389,
+    "skillKeys": [
+      37
+    ]
+  },
+  {
+    "name": "Fachpublikation Rechtskunde",
+    "key": 390,
+    "skillKeys": [
+      38
+    ]
+  },
+  {
+    "name": "Fachpublikation Sphärenkunde",
+    "key": 391,
+    "skillKeys": [
+      40
+    ]
+  },
+  {
+    "name": "Fachpublikation Sternkunde",
+    "key": 392,
+    "skillKeys": [
+      41
+    ]
+  },
+  {
+    "name": "Bine Maschores",
+    "key": 248,
+    "skillKeys": [
+      45
+    ]
+  },
+  {
+    "name": "Prunkkleider herstellen",
+    "key": 288,
+    "skillKeys": [
+      58
+    ]
+  },
+  {
+    "name": "Buchprüfung",
+    "key": 358,
+    "skillKeys": [
+      45
+    ]
+  },
+  {
+    "name": "Dienen & Gehorchen",
+    "key": 351,
+    "skillKeys": [
+      17
+    ]
+  },
+  {
+    "name": "Heraldik & Stammbäume",
+    "key": 353,
+    "skillKeys": [
+      17
+    ]
+  }
+]

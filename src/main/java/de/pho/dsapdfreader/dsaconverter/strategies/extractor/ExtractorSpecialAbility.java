@@ -27,6 +27,7 @@ import de.pho.dsapdfreader.exporter.model.RequirementsAttribute;
 import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.SkillApplication;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityAdvancedSelection;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityOption;
@@ -48,7 +49,9 @@ public class ExtractorSpecialAbility extends Extractor
 
   public static final Pattern PAT_TALENT_MULTISELECT = Pattern.compile("bis zu drei .*alente aussuchen");
   public static final Pattern PAT_HAS_NEW_SKILL_USAGE = Pattern.compile("(erwirbt|erhält|bekommt|erlangt|gibt).*Anwendungsgebiet|Anwendungsgebiet.*erworben|schaltet.*Anwendungsgebiet.*frei");
+  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine).*Einsatzmöglichkeit");
   public static final Pattern PAT_EXTRACT_NEW_SKILL_USAGE = Pattern.compile("(?<=Anwendungsgebiet <i>)[A-zÄ-üß ()&]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)"); //die Trennung durch <i> ist z.B. im Anwendungsgebiet Instrumente bauen zu sehen
+  public static final Pattern PAT_EXTRACT_NEW_SKILL_APPLICATION = Pattern.compile("(?<=(Talent <i>|it von <i>|it für <i>))[A-zÄ-üß ()&.]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)");
   public static final Pattern PAT_EXTRACT_SKILL = Pattern.compile("(?<=<i>)[A-zÄ-üß &-]*(?=<\\/i>)");
   private static final Pattern PAT_EXTRACT_SPECIE = Pattern.compile("(?<=Spezies )\\w*");
   private static final Pattern PAT_EXTRACT_TRADITION = Pattern.compile("(?<!(keine )Sonderfertigkeit Tradition \\()(?<=Tradition \\()[^\\)]*");
@@ -287,11 +290,28 @@ public class ExtractorSpecialAbility extends Extractor
             .replace("<i>", "")
             .replace("</i>", "")
             .replace("Magiespür", "Magiegespür");
-        returnValue.key = ExtractorSkillKey.retrieveSkillUsageKey(returnValue.name);
+        returnValue.key = ExtractorSkillKey.retrieveSkillUsageKey(Extractor.extractKeyTextFromTextWithUmlauts(returnValue.name).toLowerCase());
       }
 
       returnValue.skillKeys = etractSkillKeys(rules.replace("<i>" + skillUsageText + "</i>", ""));
+    }
 
+    return returnValue;
+  }
+
+
+  public static String retrieveSkillApplicationForSkill(String rules)
+  {
+    String returnValue = null;
+    Matcher m = PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules);
+
+    if (m.find())
+    {
+      m = PAT_EXTRACT_NEW_SKILL_APPLICATION.matcher(rules);
+      if (m.find())
+      {
+        returnValue = m.group();
+      }
     }
 
     return returnValue;
@@ -917,5 +937,17 @@ public class ExtractorSpecialAbility extends Extractor
         || text.contains("Goblinzauberinnen")
         || text.contains("Zibilja)")
         || text.isEmpty();
+  }
+
+  public static SkillApplication retrieveSkillApplication(String rules)
+  {
+    SkillApplication returnValue = null;
+
+    if (PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules).find())
+    {
+      returnValue = new SkillApplication();
+    }
+
+    return returnValue;
   }
 }

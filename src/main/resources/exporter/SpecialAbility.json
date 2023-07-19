@@ -1,48 +1,14 @@
 [
   {
     "key": 674,
-    "newSkillUsage": {
-      "name": "Buchprüfung",
-      "key": 358,
-      "skillKeys": [
-        45
-      ]
-    }
+    "newSkillUsageKey": 358
   },
   {
     "key": 663,
-    "newSkillUsage": {
-      "name": "Prunkkleider herstellen",
-      "key": 288,
-      "skillKeys": [
-        58
-      ]
-    }
-  },
-  {
-    "key": 389,
-    "newSkillUsage": {
-      "skillKeys": [
-        17
-      ]
-    }
-  },
-  {
-    "key": 134,
-    "newSkillUsage": {
-      "skillKeys": [
-        17
-      ]
-    }
+    "newSkillUsageKey": 288
   },
   {
     "key": 104,
-    "newSkillUsage": {
-      "name": "Bine Maschores",
-      "key": 248,
-      "skillKeys": [
-        45
-      ]
-    }
+    "newSkillUsageKey": 248
   }
 ]

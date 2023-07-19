@@ -7,6 +7,7 @@ import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
 import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityTypeKey;
@@ -29,8 +30,8 @@ public class SpecialAbility
   public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
   public ValueChange valueChange;
-  public SkillUsage newSkillUsage;
-  public SkillApplicationKey[] skillApplications;
+  public SkillUsageKey newSkillUsageKey;
+  public List<SkillApplicationKey> skillApplications;
 
   public List<CombatSkillKey> combatSkillKeys;
   public boolean isOnlyParryWeapon;

@@ -47,7 +47,7 @@ public class ExtractorSkillKey extends Extractor
   private static SkillKey extractSkillKeyFromText(String name)
   {
     SkillKey returnValue;
-    String skillKeyString = extractKeyTextFromText(name.toLowerCase());
+    String skillKeyString = extractKeyTextFromTextWithUmlauts(name).toLowerCase();
 
     try
     {
@@ -55,6 +55,7 @@ public class ExtractorSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
+      System.out.println(skillKeyString + " --> ");
       returnValue = null;
     }
     return returnValue;

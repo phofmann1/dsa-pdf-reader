@@ -17,6 +17,7 @@ import org.javatuples.Quartet;
 import org.javatuples.Triplet;
 
 import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
@@ -25,12 +26,13 @@ import de.pho.dsapdfreader.exporter.model.RequirementSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementSkillSum;
 import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
+import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
+import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
-import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
@@ -166,7 +168,24 @@ public class LoadToSpecialAbility
 
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
         {
-          specialAbility.newSkillUsage = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
+          SkillUsage su = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
+          if (su != null)
+          {
+            specialAbility.newSkillUsageKey = su.key;
+          }
+        }
+
+        if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
+        {
+          String forSkill = ExtractorSpecialAbility.retrieveSkillApplicationForSkill(raw.rules);
+          if (forSkill != null && !forSkill.isEmpty())
+          {
+            if (specialAbility.skillApplications == null)
+            {
+              specialAbility.skillApplications = new ArrayList<>();
+            }
+            specialAbility.skillApplications.add(SkillApplicationKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(specialAbility.name).toLowerCase()));
+          }
         }
         //TODO: specialAbility.skillApplication;
 
@@ -259,68 +278,59 @@ public class LoadToSpecialAbility
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
-    specialAbility.newSkillUsage.skillKeys = new ArrayList<>();
+    specialAbility.newSkillUsageKey = null;
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_betören_liebesroman,
         "Liebesroman",
-        SkillUsageKey.liebesroman,
         SkillKey.betören));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_etikette_poesie,
         "Poesie",
-        SkillUsageKey.poesie,
         SkillKey.etikette));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_bekehren_und_überzeugen_hetzschriften,
         "Herzschriften",
-        SkillUsageKey.hetzrschriften,
         SkillKey.bekehren_und_überzeugen));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_gassenwissen_kriminalgeschichten,
         "Kriminalgeschichten",
-        SkillUsageKey.kriminalgeschichten,
         SkillKey.gassenwissen));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_überreden_romane,
         "Romane",
-        SkillUsageKey.romane,
         SkillKey.überreden));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_sagen_und_legenden_märchen,
         "Märchen",
-        SkillUsageKey.märchen,
         SkillKey.sagen_und_legenden));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_brett_und_glücksspiel_fachpublikation,
         "Fachpublikation (Brett- & Glücksspiele)",
-        SkillUsageKey.fachpublikation_brett_und_glücksspiele,
         SkillKey.brett_und_glücksspiel));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_geographie_fachpublikation,
         "Fachpublikation Geographie",
-        SkillUsageKey.fachpublikation_geographie,
         SkillKey.geographie));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_geschichtswissen_fachpublikation,
         "Fachpublikation Geschichte",
-        SkillUsageKey.fachpublikation_geschichte,
         SkillKey.geschichtswissen));
 
 
@@ -328,7 +338,6 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_götter_und_kulte_fachpublikation,
         "Fachpublikation Götter & Kulte",
-        SkillUsageKey.fachpublikation_götter_und_kulte,
         SkillKey.götter_und_kulte));
 
 
@@ -336,7 +345,6 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_kriegskunst_fachpublikation,
         "Fachpublikation Kriegskunst",
-        SkillUsageKey.fachpublikation_kriegskunst,
         SkillKey.kriegskunst));
 
 
@@ -344,7 +352,6 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_magiekunde_fachpublikation,
         "Fachpublikation Magiekunde",
-        SkillUsageKey.fachpublikation_magiekunde,
         SkillKey.magiekunde));
 
 
@@ -352,7 +359,6 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_mechanik_fachpublikation,
         "Fachpublikation Mechanik",
-        SkillUsageKey.fachpublikation_mechanik,
         SkillKey.mechanik));
 
 
@@ -360,7 +366,6 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_rechnen_fachpublikation,
         "Fachpublikation Rechnen",
-        SkillUsageKey.fachpublikation_rechnen,
         SkillKey.rechnen));
 
 
@@ -368,33 +373,28 @@ public class LoadToSpecialAbility
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_rechtskunde_fachpublikation,
         "Fachpublikation Rechtskunde",
-        SkillUsageKey.fachpublikation_rechtskunde,
         SkillKey.rechtskunde));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_sphärenkunde_fachpublikation,
         "Fachpublikation Sphärenkunde",
-        SkillUsageKey.fachpublikation_sphärenkunde,
         SkillKey.sphärenkunde));
 
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_sternkunde_fachpublikation,
         "Fachpublikation Sternkunde",
-        SkillUsageKey.fachpublikation_sternkunde,
         SkillKey.sternkunde));
 
     return returnValue;
   }
 
-  private static SpecialAbility generateSchriftstellerei(SpecialAbility scribe, SpecialAbilityKey abilityKey, String usageName, SkillUsageKey usageKey, SkillKey skillKey)
+  private static SpecialAbility generateSchriftstellerei(SpecialAbility scribe, SpecialAbilityKey abilityKey, String usageName, SkillKey skillKey)
   {
     scribe.key = abilityKey;
     scribe.name = scribe.name + " " + usageName.replace("Fachpublikation", "").trim();
-    scribe.newSkillUsage.name = usageName;
-    scribe.newSkillUsage.key = usageKey;
-    scribe.newSkillUsage.skillKeys.add(skillKey);
+
     scribe.requirementsSkill = new RequirementsSkill();
     RequirementSkill r = new RequirementSkill();
     r.skillKey = skillKey;
@@ -402,4 +402,5 @@ public class LoadToSpecialAbility
     scribe.requirementsSkill.requirements.add(r);
     return scribe;
   }
+
 }

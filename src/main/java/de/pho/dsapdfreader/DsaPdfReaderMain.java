@@ -73,6 +73,7 @@ import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.exporter.LoadToArmor;
 import de.pho.dsapdfreader.exporter.LoadToBoon;
 import de.pho.dsapdfreader.exporter.LoadToEquipment;
@@ -89,12 +90,16 @@ import de.pho.dsapdfreader.exporter.model.MeleeWeapon;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.exporter.model.RangedWeapon;
 import de.pho.dsapdfreader.exporter.model.Skill;
+import de.pho.dsapdfreader.exporter.model.SkillApplication;
+import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.CsvHandler;
+import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 public class DsaPdfReaderMain
 {
@@ -496,6 +501,9 @@ public class DsaPdfReaderMain
 
         List<SpecialAbilityRaw> raws = CsvHandler.readBeanFromFile(SpecialAbilityRaw.class, fIn);
 
+        extractAdditionalSkillUsages(raws, conf);
+        extractAdditionalApplications(raws, conf);
+
         List<SpecialAbility> corrections = initExporterCorrections(SpecialAbility.class);
         List<SpecialAbility> specialAbilities = raws.stream().flatMap(LoadToSpecialAbility::migrate)
             .map(sa -> {
@@ -696,9 +704,32 @@ public class DsaPdfReaderMain
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
         List<SkillRaw> raws = CsvHandler.readBeanFromFile(SkillRaw.class, fIn);
 
+        Map<SkillUsageKey, SkillUsage> suAggregateMap = new HashMap<>();
+        raws.stream()
+            .map(LoadToSkill::migrateUsage)
+            .flatMap(List::stream)
+            .forEach(su -> {
+              if (suAggregateMap.containsKey(su.key))
+              {
+                suAggregateMap.get(su.key).skillKeys.addAll(su.skillKeys);
+              }
+              else
+              {
+                suAggregateMap.put(su.key, su);
+              }
+            });
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonResultUsages = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(suAggregateMap.values());
+
+        BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "usages", "skills"));
+        writerUsages.write(jsonResultUsages);
+        writerUsages.close();
+
         List<Skill> pures = raws.stream().map(LoadToSkill::migrate).collect(Collectors.toList());
 
-        ObjectMapper mapper = new ObjectMapper();
+        mapper = new ObjectMapper();
         String jsonResult = mapper
             .writerWithDefaultPrettyPrinter()
             .writeValueAsString(pures);
@@ -734,6 +765,69 @@ public class DsaPdfReaderMain
     }
 
     default -> LOGGER.error(String.format("Unexpected value (parseToJson): %s", conf.topic));
+    }
+  }
+
+  private static void extractAdditionalApplications(List<SpecialAbilityRaw> raws, TopicConfiguration conf) throws IOException
+  {
+    List<SkillApplication> result = raws.stream()
+        .map(raw -> ExtractorSpecialAbility.retrieveSkillApplication(raw.rules))
+        .filter(sa -> sa != null && sa.name != null)
+        .collect(Collectors.toList());
+
+    if (result.size() > 0)
+    {
+      ObjectMapper usageMapper = new ObjectMapper();
+      String jsonResultUsages = usageMapper
+          .writerWithDefaultPrettyPrinter()
+          .writeValueAsString(result);
+
+      BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "applications", "skills"));
+      writerUsages.write(jsonResultUsages);
+      writerUsages.close();
+    }
+  }
+
+  private static void extractAdditionalSkillUsages(List<SpecialAbilityRaw> raws, TopicConfiguration conf) throws IOException
+  {
+
+    List<SkillUsage> suCorrections = initExporterCorrections(SkillUsage.class);
+    final List<SkillUsage> suList = raws.stream()
+        .map(raw -> ExtractorSpecialAbility.retrieveSkillUsage(raw.rules))
+        .filter(su -> su != null && su.name != null)
+        .collect(Collectors.toList());
+
+    List<SkillUsage> missing = suCorrections.stream()
+        .filter(obj -> suList.stream().noneMatch(other -> other.key == obj.key))
+        .collect(Collectors.toList());
+
+    List<SkillUsage> result = suList.stream().map(su -> {
+      Optional<SkillUsage> correction = suCorrections.stream().filter(c -> su.key == c.key).findFirst();
+      if (correction.isPresent())
+      {
+        return ObjectMerger.merge(correction.get(), su);
+      }
+      else
+      {
+        return su;
+      }
+    }).collect(Collectors.toList());
+
+    if (conf.publication.equals("Kodex des Schwertes"))
+    {
+      result.addAll(missing);
+    }
+
+    if (result.size() > 0)
+    {
+      ObjectMapper usageMapper = new ObjectMapper();
+      String jsonResultUsages = usageMapper
+          .writerWithDefaultPrettyPrinter()
+          .writeValueAsString(result);
+
+      BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "usages", "skills"));
+      writerUsages.write(jsonResultUsages);
+      writerUsages.close();
     }
   }
 

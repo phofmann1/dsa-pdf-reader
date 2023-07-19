@@ -34,7 +34,7 @@ public class ObjectMerger
             Object sourceValue = field.get(source);
             if (sourceValue instanceof List)
             {
-              List copyList = new ArrayList();
+              List copyList = field.get(target) == null ? new ArrayList() : (List) field.get(target);
               copyList.addAll((List) sourceValue);
               field.set(target, copyList);
             }
