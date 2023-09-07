@@ -26,7 +26,7 @@ public class StrategyInsertLineAfter extends DsaConverterStrategy
     {
       double insertAfter = extractParameterDouble(parameters, INSERT_AFTER);
       int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-      int size = super.extractOptionalParameterInt(parameters, SIZE);
+      OptionalInt size = super.extractOptionalParameterInt(parameters, SIZE);
       String text = extractParameterString(parameters, TEXT);
       boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL);
 
@@ -43,7 +43,7 @@ public class StrategyInsertLineAfter extends DsaConverterStrategy
   }
 
 
-  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double insertAfterLine, boolean insertSmall, String text, int size, String d)
+  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double insertAfterLine, boolean insertSmall, String text, OptionalInt size, String d)
   {
     if (textList == null || textList.size() == 0) return textList;
     List<TextWithMetaInfo> returnValue = textList;
@@ -59,7 +59,7 @@ public class StrategyInsertLineAfter extends DsaConverterStrategy
           text,
           textList.get(addAfterIndex).isBold,
           textList.get(addAfterIndex).isItalic,
-          size >= 0 ? size : textList.get(addAfterIndex).size,
+          size.isPresent() ? size.getAsInt() : textList.get(addAfterIndex).size,
           textList.get(addAfterIndex).font,
           textList.get(addAfterIndex).onPage,
           textList.get(addAfterIndex).onLine + idx,

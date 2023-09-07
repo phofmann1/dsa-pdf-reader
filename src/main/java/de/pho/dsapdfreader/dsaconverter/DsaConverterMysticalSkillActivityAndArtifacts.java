@@ -53,7 +53,9 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>("Schelmenstreiche", MysticalSkillCategory.jest),
       new AbstractMap.SimpleEntry<>("Zaubermelodien", MysticalSkillCategory.melody),
       new AbstractMap.SimpleEntry<>("Zaubertänze", MysticalSkillCategory.dance),
-      new AbstractMap.SimpleEntry<>("Zibiljarituale", MysticalSkillCategory.zibilja)
+      new AbstractMap.SimpleEntry<>("Zibiljarituale", MysticalSkillCategory.zibilja),
+      new AbstractMap.SimpleEntry<>("Vertrautentiere", MysticalSkillCategory.familiar),
+      new AbstractMap.SimpleEntry<>("Zauberzeichen", MysticalSkillCategory.magic_sign)
   );
   private static final Map<MysticalSkillCategory, String> KEYS_MYSTICAL_SKILL_CATEGORY_FRIST_ACTIVITY = Map.ofEntries(
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.power, "Blut trinkenProbe"),
@@ -67,7 +69,8 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.jest, "AufgeblasenProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.melody, "Melodie der AngriffslustProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.dance, "Tanz der AngriffslustProbe"),
-      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.zibilja, "Band zur WareProbe")
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.zibilja, "Band zur WareProbe"),
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magic_sign, "Auge des Basilisken")
   );
 
   private static final Map<String, ArtifactKey> KEYS_TRADITION_ARTIFACTS = Map.ofEntries(
@@ -192,7 +195,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
     resultList
         .forEach(t -> {
 
-          String cleanText = t.text
+          String cleanText = t.text.replaceAll("\u00AD", "-")
               .trim();
 
 
@@ -203,8 +206,15 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
               || artifactKey.get() != null && cleanText.equals(KEYS_TRADITION_ARTIFACTS_FIRST_SF.get(artifactKey.get()))
           );
 
-          boolean isTopic = t.size == 1800 || (t.size == 1300 && (cleanText.equals("Die kristallomantische Kristallkugel") || cleanText.equals("Die Echsenhaube")));
+          boolean isTopic = !KEYS_TRADITION.contains(cleanText) && (t.size == 1800 || (t.size == 1300 && (cleanText.equals("Die kristallomantische Kristallkugel") || cleanText.equals("Die Echsenhaube"))));
           // validate the flags for conf
+
+          // Start new Tradition
+          if (t.size == 1800 && KEYS_TRADITION.contains(cleanText))
+          {
+            isActivityStarted.set(false);
+            isArtifactStarted.set(false);
+          }
 
           boolean isFirstValue = validateIsFirstValue(t, conf, isActivityStarted.get(), isArtifactStarted.get(), cleanText);
           boolean isFirstValueSkipped = isFirstValue && isNumeric(t.text); // gets skipped, when the firstValue is a number (Page Number in some documents)
@@ -212,6 +222,10 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
           boolean isDataValue = validateIsDataValue(t, cleanText, conf);
           handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
+          if (cleanText.startsWith("Entgiftungsrune"))
+          {
+            System.out.println(cleanText);
+          }
           if (isTopic)
           {
             mysticalSkillCategory.set(null);
@@ -219,6 +233,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
             mysticalSkillCategory.set(extractTraditionSkillCategoryKey(t.text));
             artifactKey.set(extractArtifactKey(t.text));
             isActivityStarted.set(Boolean.FALSE);
+            this.getFlags().initDataFlags();
           }
 
 
@@ -242,7 +257,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
               applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
               applySpecialAbilitiesFlagsForNoKeyStrings(getFlags(), t);
             }
-            getFlags().getFirstFlag().set(isFirstValue && !isFirstValueSkipped);
+            getFlags().getFirstFlag().set(isFirstValue && !isFirstValueSkipped && !isArtifactStarted.get() && !isActivityStarted.get());
           }
         });
     concludePredecessor(last(returnValue)); //finish the last entry in list
@@ -336,10 +351,12 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
     if (isActivityStarted.get())
     {
       this.getFlags().wasCheck.set(true);
+      this.getFlags().wasName.set(false);
     }
     else if (isArtifactStarted.get())
     {
       this.getFlags().wasEffect.set(true);
+      this.getFlags().wasName.set(false);
     }
 
   }

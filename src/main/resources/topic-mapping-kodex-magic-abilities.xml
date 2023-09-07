@@ -1,5 +1,42 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
 
+
+    <strategy name="StrategyRemoveLinesFromPage - page 353 - Übersichtstabelle" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>227</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>2</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>29</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemovePages - 246 to 310" index="3">
+        <strategyClass>
+            StrategyRemovePages
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>246</value>
+            </parameter>
+            <parameter>
+                <key>untilPage</key>
+                <value>310</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
     <strategy name="StrategyRemoveLinesFromPage - page 326 - Übersichtstabelle" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
@@ -17,7 +54,6 @@
             </parameter>
         </params>
     </strategy>
-
 
     <strategy name="StrategyRemoveLinesFromPage - page 327 - Übersichtstabelle" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
@@ -219,7 +255,6 @@
         </params>
     </strategy>
 
-
     <strategy name="StrategyPutToEndOfPage - Erweiterte ZSF 354" index="3">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -259,5 +294,4 @@
             </parameter>
         </params>
     </strategy>
-
 </topic-strategies>

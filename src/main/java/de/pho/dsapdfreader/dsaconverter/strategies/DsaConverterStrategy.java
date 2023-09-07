@@ -2,6 +2,7 @@ package de.pho.dsapdfreader.dsaconverter.strategies;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
@@ -49,17 +50,17 @@ public abstract class DsaConverterStrategy
     else throw new DsaConverterException(this.genExMsg(parameterName, "not valid"));
   }
 
-  protected int extractOptionalParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
+  protected OptionalInt extractOptionalParameterInt(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
   {
+    OptionalInt returnValue = OptionalInt.empty();
     try
     {
-      return this.extractParameterInt(parameterMap, parameterName);
+      returnValue = OptionalInt.of(this.extractParameterInt(parameterMap, parameterName));
     }
     catch (DsaConverterException e)
     {
-      LOGGER.debug("Optional parameter <" + parameterName + "> was not set. Default <-1> is returned");
     }
-    return -1;
+    return returnValue;
   }
 
   protected boolean extractOptionalParameterBoolean(List<Parameter> parameterMap, String parameterName) throws DsaConverterException

@@ -242,8 +242,8 @@ public enum SkillUsageKey
 
 
   // abilities:
-  abrichten,
-  abrollen,
+  abrichten_FALSE,
+  abrollen_FALSE,
   ackerbau,
   amputieren,
   analytiker,
@@ -385,11 +385,14 @@ public enum SkillUsageKey
   schriftstellerei_sagen_und_legenden_fachpublikation,
   schriftstellerei_sphärenkunde_fachpublikation,
   schriftstellerei_sternkunde_fachpublikation,
-  liebesroman, poesie, hetzrschriften, kriminalgeschichten, romane, märchen, fachpublikation_brett_und_glücksspiele, fachpublikation_geographie, fachpublikation_geschichte, fachpublikation_götter_und_kulte, fachpublikation_kriegskunst, fachpublikation_magiekunde, fachpublikation_mechanik, fachpublikation_rechnen, fachpublikation_rechtskunde, fachpublikation_sphärenkunde, fachpublikation_sternkunde,
+  liebesroman, poesie, hetzschriften, kriminalgeschichten, romane, märchen, fachpublikation_brett_und_glücksspiele, fachpublikation_geographie, fachpublikation_geschichte, fachpublikation_götter_und_kulte, fachpublikation_kriegskunst, fachpublikation_magiekunde, fachpublikation_mechanik, fachpublikation_rechnen, fachpublikation_rechtskunde, fachpublikation_sphärenkunde, fachpublikation_sternkunde,
   alchimistisches_gift,
   kalifat,
   maraskan,
-  nostria;
+  nostria,
+  zahnbehandlung,
+  zauberzeichen_malen,
+  berserker_beruhigen;
 
   @JsonValue
   public int toValue()

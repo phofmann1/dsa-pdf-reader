@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.exporter.model;
 import java.util.List;
 
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.DsaState;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
 import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
@@ -31,7 +32,7 @@ public class SpecialAbility
   public SpecialAbilityAdvancedSelection advancedAbilities;
   public ValueChange valueChange;
   public SkillUsageKey newSkillUsageKey;
-  public List<SkillApplicationKey> skillApplications;
+  public SkillApplicationKey newSkillApplicationKey;
 
   public List<CombatSkillKey> combatSkillKeys;
   public boolean isOnlyParryWeapon;
@@ -39,6 +40,7 @@ public class SpecialAbility
   public boolean isOnlyDwarfenWeapon;
 
   public SpecieKey requiredSpecie;
+  public DsaState requiredState;
   public List<TraditionKey> requireOneOfTraditions;
   public List<RequirementBoon> requireOneOfBoons;
   public List<RequirementBoon> requireNoneOfBoons;
@@ -48,5 +50,4 @@ public class SpecialAbility
   public RequirementSkillSum requirementsSkillsSum;
   public RequirementsCombatSkill requirementsCombatSkill;
   public RequirementMysticalSkill requirementMysticalSkill;
-
 }

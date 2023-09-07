@@ -1,0 +1,45 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="topic-mapping.xsd">
+    <strategy name="StrategyRemovePages - infos" index="1">
+        <strategyClass>StrategyRemovePages</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>14</value>
+            </parameter>
+            <parameter>
+                <key>untilPage</key>
+                <value>27</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - infos" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+</topic-strategies>

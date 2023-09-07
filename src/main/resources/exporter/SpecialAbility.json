@@ -10,5 +10,57 @@
   {
     "key": 104,
     "newSkillUsageKey": 248
+  },
+  {
+    "key": 69,
+    "name": "Beeindruckende Vorstellung Gaukeleien",
+    "requirementsSkill": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "skillKey": 1,
+          "minValue": 8
+        }
+      ]
+    }
+  },
+  {
+    "key": 70,
+    "name": "Beeindruckende Vorstellung Musizieren",
+    "requirementsSkill": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "skillKey": 55,
+          "minValue": 8
+        }
+      ]
+    }
+  },
+  {
+    "key": 71,
+    "name": "Beeindruckende Vorstellung Singen",
+    "requirementsSkill": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "skillKey": 8,
+          "minValue": 8
+        }
+      ]
+    }
+  },
+  {
+    "key": 72,
+    "name": "Beeindruckende Vorstellung Tanzen",
+    "requirementsSkill": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "skillKey": 10,
+          "minValue": 8
+        }
+      ]
+    }
   }
 ]

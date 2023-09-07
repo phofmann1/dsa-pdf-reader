@@ -7,10 +7,13 @@ public enum SkillApplicationKey
   analytiker,
   anführer,
   anpeitscher,
+  bildhauerei,
   drachenkampf_taktik,
   drohgebärden,
+  ermutigender_gesang,
   erweiterte_drachenkampf_taktik,
-  falschspiel,
+  falschspielen,
+  faszinierender_gesang,
   iglubau,
   konditor,
   menschenstimmen_imitieren,
@@ -23,7 +26,11 @@ public enum SkillApplicationKey
   scholar_der_akademie_schwert_und_stab_zu_gareth,
   scholar_der_schule_der_hellsicht_zu_thorwal,
   radscha_anhänger,
-  tapferkeit_der_unsterblichen;
+  tapferkeit_der_unsterblichen,
+  einschüchternde_zurechtweisung,
+  abrichter,
+  ackerbau,
+  abrollen;
 
   @JsonValue
   public int toValue()

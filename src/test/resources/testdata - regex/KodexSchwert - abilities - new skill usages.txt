@@ -1,0 +1,126 @@
+NEGATIV:
+Sollte eine Probe auf <i>Brett- & Glücksspiel</i> des Helden scheitern, darf der Spieler die Probe wiederholen (auÃŸer bei einem Patzer). Um den Betrug zu durchschauen, muss dem Opfer eine Vergleichsprobe auf <i>Sinnesschärfe (Wahrnehmen)</i> gegen <i>Brett- & Glücksspiel</i> <i>(jeweiliges Anwendungsgebiet)</i> gelingen. Falschspielen ist eine Einsatzmöglichkeit von <i>Brett- & Glücksspiel</i> .
+
+Ein Held erhält einen Bonus von 2 auf seinen Fertigkeitswert, wenn das entsprechende Anwendungsgebiet eine Rolle bei der Probe spielt. Ein Held kann sich im Laufe seines Lebens bei einem Talent in maximal drei unterschiedlichen Anwendungsgebieten spezialisieren. Der Bonus der Spezialisierung kann das Maximum des FW nach Erfahrungsgrad des Helden bei der Heldenerschaffung übersteigen
+
+Wer die Sonderfertigkeit Analytiker besitzt, ist in der Lage Artefakte, magische Wesen und Zauber zu analysieren. Ein Held mit der SF kann dazu eine Probe auf <i>Magiekunde (unterschiedliche Anwendungsgebiete)</i> ablegen und dabei mehr QS erzielen als üblich. Je nach QS kann er sich aus seinen Informationen ein mehr oder weniger genaues Bild der Wirkung des Objekts, der Art des Wesens oder der Zauberwirkung machen. Analytiker ist eine Einsatzmöglichkeit für das Talent <i>Magiekunde</i> .
+
+Der Offizier muss zwei Anwendungsgebiete im Talent <i>Kriegskunst</i> auswählen. Auf diese Anwendungsgebiete erhält er fortan bei Proben +1 FP (bis zu einem Maximum von 18 FP). AuÃŸerdem kann er das Talent <i>Bekehren & Ãœberzeugen (öffentliche Rede)</i> nutzen, um vor einem Kampf oder einer Schlacht eine motivierende Rede von 1 bis 5 Minuten Länge zu halten, die für bis zu 10 ausgewählte Personen auch regeltechnische Vorteile mit sich bringen kann. Die 10 ausgewählten Personen erhalten jeweils insgesamt QS Punkte, die sie einsetzen können, um Erschwernisse auf AT, PA, FK, <i>Körperbeherrschung</i> , <i>Selbstbeherrschung</i> und <i>Willenskraft</i> auszugleichen. Ein solcher Ausgleich muss vor einer Probe angesagt werden, er gilt immer nur für eine einzelne Handlung und pro Handlung kann maximal â€“1 Punkt Erschwernis ausgeglichen werden. Erschwernisse aus selbstgewählten Manövern können nicht reduziert werden. Wenn mehrere Helden diese Fähigkeit einsetzen, wird nur die höchste QS berücksichtigt. Die Wirkung endet spätestens mit dem Ende des Kampfes.
+
+Der Held muss sich auf ein Wissenstalent und zwei darin enthaltener Anwendungsgebiete festlegen. Legt der Held eine Probe darauf ab, kann +1 QS addieren (bis zu einem Maximum von 6 QS).
+
+Durch diese Sonderfertigkeit erhält der Abenteurer die Einsatzmöglichkeit <i>Abrichten</i> im Talent <i>Tierkunde</i> . Als Abrichter ist der Abenteurer in der Lage, Wesen abzurichten, die als Wildtiere im Sinne des Anwendungsgebietes <i>Wildtiere</i> im Talent <i>Tierkunde</i> gelten. Ohne diese SF kann ein Held mit Tierkunde nur domestizierte Tiere abrichten.Das Abrichten bestimmter exotischer Wildtiere gilt als komplex und benötigt ein entsprechendes Berufsgeheimnis.
+
+Faszinierender Gesang ist eine Einsatzmöglichkeit des Talents <i>Singen</i> . Wenn die Heldin ein entsprechendes Lied vorträgt, das maximal 5 Minuten andauern darf, sind alle ihre Zuhörer in diesem Zeitraum so gebannt, dass sie als leicht abgelenkt gelten und sie z. B. auf Proben auf <i>Sinnesschärfe</i> eine Erschwernis von â€“1 erhalten. Die Spielerin würfelt eine Probe auf <i>Singen (unterschiedliche Anwendungsgebiete)</i> . Die Reichweite der Wirkung liegt bei QS x 3 Schritt, maximal kann die Abenteurerin QS Personen ihrer Wahl durch die Wirkung beeinflussen.
+
+Ermutigender Gesang ist eine Einsatzmöglichkeit des Talents <i>Singen</i> . Wenn der Abenteurer ein entsprechendes Lied oder ein Musikstück vorträgt, was mindestens1 Minute in Anspruch nimmt, kann er seinen freiwilligen Zuhörern einmal innerhalb von 4 Stunden eine Stufe <i>Furcht</i> nehmen. Der Spieler würfelt eine Probe auf <i>Singen (unterschiedliche Anwendungsgebiete)</i> . Die Reichweite der Wirkung liegt bei QS x 3 Schritt, maximal kann er QS Personen seiner Wahl von der Wirkung profitieren lassen.
+
+AUSNAHME:
+Durch die Sonderfertigkeit erwirbt der Held ein neues Anwendungsgebiet für das Talent <i>Handel</i> . Hiermit kann er eine Vergleichsprobe auf <i>Handel (Bine Maschores)</i> gegen andere Figuren ablegen, die durch <i>Willenskraft</i> gekontert werden muss. Misslingt der Konter, will die Zielperson die angepriesene Ware erwerben, selbst wenn sie nichts mit ihr anfangen kann. Ãœberhöhte Preise erleichtern den Konter nach Meisterentscheid. Die Sonderfertigkeit kann nur einmal pro Einkauf eingesetzt werden.
+
+Der Held erlangt das neue <i>Anwendungsgebiet Gil</i> <i>-</i> <i>denrecht</i> in <i>Rechtskunde</i> .
+
+Verfügt ein Held über diese Sonderfertigkeit, erhält er im Talent <i>Heilkunde Wunden</i> ein neues Anwendungsgebiet. Folgende Anwendungsgebiete können erworben werden: <i>Amputieren</i> , <i>Chirurgie</i> , <i>Knochenbrüche</i> , <i>Verbrennungen</i> , <i>Zahnbehandlung</i> .Für jedes Anwendungsgebiet muss die die Sonderfertigkeit einzeln erworben werden. Ohne das richtige Anwendungsgebiet sind alle entsprechenden Proben zur Behandlung zusätzlich wie üblich um <i>â€“</i> 3 erschwert.
+
+Durch diese Sonderfertigkeit bekommt die Abenteurerin im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet Ölgemälde malen. Fortan ist die Heldin in der Lage, Ölgemälde zu malen, die genauen Mischungen der Ölfarben zu bestimmen und anzurühren.
+
+Durch diese SF bekommt der Held das neue Anwendungsgebiet Prunkkleider herstellen in Stoffbearbeitung und kann fortan Kleidung wie Geweihtenornate, Magierroben und besondere höfische Kleidung anfertigen.
+
+Die Sonderfertigkeit Schriftstellerei kann für verschiedene Fachbereiche gewählt werden: Liebesroman, Poesie, Hetzschriften, Kriminalgeschichten, Märchen und Romane oder Fachpublikationen. Durch die jeweilige SF wird ein neues Anwendungsgebiet erworben: <i>Betören (Liebesroman)</i> , <i>Etikette (Poesie)</i> , <i>Bekehren & Ãœberzeugen (Hetzschriften)</i> , <i>Gassenwissen (Kriminalgeschichten)</i> , <i>Ãœberreden (Romane)</i> , <i>Sagen & Legenden</i> <i>(Märchen)</i> , für passendes <i>Wissenstalent (Fachpublikationen).</i>
+
+Die Heldin erhält ein neues Anwendungsgebiet im Talent <i>Handel (Buchprüfung)</i> . Sie kann in Rechnungsbüchern und entsprechenden Unterlagen Unterschlagungen und ähnliche Betrügereien leichter entdecken als jemand, der nicht über die Sonderfertigkeit verfügt.
+
+POSITIV:
+Der Abenteurer bekommt im Talent <i>Gaukeleien</i> das neue Anwendungsgebiet <i>Bauchreden</i> . Dem Held gelingt es, Geräusche und Stimmen erzeugen, ohne die Lippen zu bewegen. Die Geräusche Eine Meschpoche ist eine norbardische Sippe. Ãœblicherweise ignorieren (Meister-)Personen diese Widerstandsmöglichkeit, aber sie stellt für Helden eine Möglichkeit dar, dem Erzwungenen Bonus wie auch dem damit verbundenen Nachteil am Ende der Wirkung zu entgehen. scheinen maximal 5 Schritt weit weg vom Helden zu entstehen.
+
+Die Heldin bekommt das neue Anwendungsgebiet <i>Minenkenntnis</i> im Talent <i>Steinbearbeitung</i> . Sie kann von nun an planen, wie man Minen am besten anlegt.
+
+Mit dieser Sonderfertigkeit erhält der Held das neue Anwendungsgebiet <i>Bernstein verformen</i> im Talent <i>Steinbearbeitung</i> . Durch Hitze kann er den Bernstein aufweichen, um ihn so zu verformen, ohne dass er verbrennt.
+
+Die Heldin ist in der Lage, Bier zu brauen. Mit dieser Sonderfertigkeit erwirbt sie im Talent <i>Lebensmittelbearbeitung</i> das neue Anwendungsgebiet <i>Bierbrauen</i> .
+
+
+
+Durch die Sonderfertigkeit Bootsbauer wird im Talent <i>Holzbearbeitung</i> das neue Anwendungsgebiet <i>Boote bauen</i> erworben. Der Held ist in der Lage, das richtige Holz für Boote auszuwählen, Boote zu entwerfen und zu bauen. Schiffe kann der Abenteurer damit jedoch nicht bauen. Es gibt sowohl einfache wie auch komplexe Boote. Um komplexe Boote zu bauen muss der Bootsbauer zusätzlich das entsprechende Berufsgeheimnis kennen.
+
+Mit dieser Sonderfertigkeit erhält die Abenteurerin im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet <i>Drucken</i> . Die Heldin ist nun in der Lage, Schriftstücke mit einer Druckerpresse herzustellen.
+
+Der Held erwirbt durch diese Sonderfertigkeit im Talent Etikette das neue Anwendungsgebiet <i>Dienen & Gehorchen</i> . Dadurch kann der Abenteurer seinem Herrn ein guter Diener sein und sich um dessen Körperpflege, Dienstbotengänge und das Ankleiden der Herrschaft anständig zu kümmern.
+
+Der Held ist in der Lage, Schriftstücke und Urkunden zu fälschen. Mit dieser Sonderfertigkeit erwirbt der Held im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet <i>Dokumente fälschen</i> .
+
+Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Fallen entschärfen</i> des Talents <i>Schlösserknacken</i> erworben..
+
+Durch diese Sonderfertigkeit bekommt der Held im Talent <i>Gaukeleien</i> das neue Anwendungsgebiet <i>Feuer schlucken</i> . Er kann extra dafür angefertigte brennende Fackeln in seinem Mund löschen oder mittels einer Brennflüssigkeit Feuer speien. Das <i>Feuerspeien</i> ist eine eigene Fernkampftechnik: RW 3/4/5, LZ 1 Aktion, 1W6 TP, Steigerungsfaktor B. Die TP werden durch den RS des Ziels vermindert. Entflammbare Ziele werden bei 1-2 auf 1W6 angezündet und erleiden somit den Status <i>Brennend</i> (siehe Seite <b>28</b> ).
+
+Mit dieser Sonderfertigkeit erhält die Heldin im Talent <i>Betören</i> das neue Anwendungsgebiet <i>Gestaltung</i> . Mit diesem Anwendungsgebiet kann ein Raum oder ein Festplatz so dekoriert und gestaltet werden, dass er dem dafür vorgesehenen Publikum besonders gut gefällt. Dabei kann es sich sowohl um ein Zimmer in einem Bordell oder einem Rahjatempel handeln, als auch um den Thronsaal eines Adligen oder den Platz des Dorffestes. Nach der Probe auf <i>Betören (Gestaltung)</i> können QS/2 als Erleichterung für <i>Betören (Anbändeln,)</i> <i>Etikette (leichte Unterhaltung</i> oder <i>Mode)</i> und <i>Ãœberreden (Schmeicheln)</i> von der Heldin genutzt werden, sofern diese Talente im Rahmen des Festes für die Beeinflussung von Personen eingesetzt werden, für die der Ort hergerichtet wurde.
+
+Der Held ist in der Lage, Glaswaren in Form von Vasen und Flaschen durch den Einsatz von Glasbläserei herzustellen. Durch die Sonderfertigkeit kennt der Held aber nicht die Rezeptur, um Glas herzustellen. Dazu benötigt er das entsprechende Berufsgeheimnis. Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Glasbläserei</i> des Talents <i>Steinbearbeitung</i> erworben.
+
+Der Held erhält mit dieser Sonderfertigkeit das Anwendungsgebiet <i>Hehlerei</i> im Talent <i>Handel</i> . Dadurch ist es ihm möglich, gestohlene Ware über Kontaktleute zu verkaufen.
+
+Durch Heraldik kann ein Held Wappen unterscheiden und kennt sich bestens mit dem Wappenrecht und Stammbäumen aus.Mit dieser Sonderfertigkeit erwirbt der Held im Talent Etikette das neue Anwendungsgebiet <i>Heraldik</i> <i>& Stammbäume</i> .
+
+Der Held ist in der Lage, Instrumente wie Fanfaren, Flöten, Sackpfeifen, Lauten, Trommeln, Schellen und Hörner herzustellen. Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Instrumente</i> <i>bauen</i> für die Talente <i>Holz-</i> und <i>Metallbearbeitung</i> erworben.
+
+Durch diese Sonderfertigkeit erlangt der Abenteurer im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet <i>Kalligraphie</i> . Der Abenteurer kann Schriftzeichen ästhetisch verzieren und sie beeindruckend aussehen lassen.
+
+Mit dieser Sonderfertigkeit erwirbt der Held im Talent <i>Musizieren</i> das neue Anwendungsgebiet <i>Dirigieren</i> . Der Abenteurer ist damit in der Lage, ein Orchester zu dirigieren.
+
+Durch diese Sonderfertigkeit ist ein Held in der Lage, Landkarten anzufertigen. Sie schaltet das neue Anwendungsgebiet <i>Kartographie</i> des Talents <i>Geographie</i> frei.
+
+Durch diese Sonderfertigkeit erhält die Abenteurerin im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet <i>Kohlezeichnungen anfertigen</i> . Sie kann nun mit Kohle Zeichnungen und Bilder anfertigen.
+
+Mit Hilfe dieser Sonderfertigkeit, kann die Heldin Kristalle züchten und sie pflegen. Die Abenteurerin bekommt im Talent <i>Steinbearbeitung</i> das neue Anwendungsgebiet <i>Kristal-</i> <i>le züchten</i> . Es dauert meistens mehrere Jahrzehnte, bis ein Kristall sichtbar gewachsen ist, insofern sind Proben auf <i>Steinbearbeitung (Kristalle züchten)</i> selten erforderlich. AuÃŸerdem kann sie mit <i>Steinbearbeitung (Kristalle züchten)</i> beurteilen, wie gut ein Kristall wächst.
+
+Der Held kennt sich durch die Sonderfertigkeit mit der Kryptographie aus und erhält im Talent <i>Rechnen</i> das neue Anwendungsgebiet <i>Verschlüsselungen</i> .Es gibt drei Komplexitäten von Ver- und Entschlüsselungen: primitiv, einfach und komplex. <i>Entschlüsseln:</i> Der Held kann versuchen, eine verschlüsselte Botschaft zu entschlüsseln. Er benötigt in allen Fällen den jeweiligen Schlüssel. <i>Primitive</i> Verschlüsselungen können über eine Probe auf <i>Rechnen</i> ( <i>Verschlüsselungen)</i> geknackt werden. Die Probe dauert 30 Minuten. <i>Einfache</i> Verschlüsselungen benötigen zusätzlich zur Probe auf <i>Rechnen (Verschlüsselungen)</i> noch die Sonderfertigkeit <i>Kryptographie</i> . Eine Probe dauert 30 Minuten. Komplexe Verschlüsselungen benötigen neben der Probe auf <i>Rechnen (Verschlüsselungen)</i> und der Sonderfertigkeit <i>Kryptographie</i> auch noch das entsprechende Berufsgeheimnis der Verschlüsselung. Eine Probe dauert 24 Stunden. <i>Verschlüsseln:</i> Der Held kann versuchen, ein Schriftstück zu verschlüsseln. Benutzt er eine primitive Verschlüsselung, so benötigt er eine Probe auf <i>Rechnen (Verschlüsselungen)</i> und 3 Minuten pro Textseite. Benutzt er eine einfache Verschlüsselung, so benötigt er <i>Rechnen (Verschlüsselungen)</i> und 5 Minuten pro Textseite und muss die Sonderfertigkeit Kryptographie beherrschen. Benutzt er eine komplexe Verschlüsselung, so benötigt er <i>Rechnen (Verschlüsselungen)</i> und 8 Minuten pro Textseite und muss die Sonderfertigkeit Kryptographie sowie das entsprechende Berufsgeheimnis des Schlüssels beherrschen.
+
+Mit der Sonderfertigkeit Kunstflug erwirbt der Held das neue Anwendungsgebiet <i>Kunstflug</i> im Talent <i>Fliegen</i> . Er kann fortan mit seinem Fluggerät Kunststücke vollführen, um Zuschauer zu beeindrucken oder spektakuläre Manöver einleiten, um Verfolger abzuschütteln.
+
+Mit der Sonderfertigkeit Kunstreiten erwirbt der Held das neue Anwendungsgebiet <i>Kunstreiten</i> im Talent <i>Reiten</i> . Wenn er ein entsprechend ausgebildetes Reittier hat, kann er mit diesem einige ungewöhnliche Kunststücke vollbringen oder spektakuläre Manöver einleiten, um Verfolger abzuschütteln.
+
+Durch diese Sonderfertigkeit erlangt der Abenteurer im Talent <i>Malen & Zeichnen</i> das neue Anwendungsgebiet <i>Kupferstich anfertigen</i> . Von nun an kann er eine Kupferplatte so bearbeiten, dass daraus ein Kupferstichbild wird.
+
+Durch die Sonderfertigkeit Kutschenbauer wird im Talent <i>Holzbearbeitung</i> das neue Anwendungsgebiet <i>Kutschen bauen</i> erworben. Der Held ist in der Lage, das richtige Holz für Kutschen auszuwählen, diese zu entwerfen und zu bauen (gleiches gilt für Karren). Es gibt sowohl einfache wie auch komplexe Kutschen. Um komplexe Kutschen zu bauen muss der Kutschenbauer zusätzlich das entsprechende Berufsgeheimnis kennen.
+
+Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Lippenlesen</i> des Talents <i>Sinnesschärfe</i> erworben.
+
+Diese Sonderfertigkeit gibt dem Held im Talent <i>Boote & Schiffe</i> das neue Anwendungsgebiet <i>Navigation</i> . Er kann fortan einen Kurs setzen und berechnen. Allerdings ist diese Sonderfertigkeit auf den Heimatkontinent des Abenteurers beschränkt.
+
+Der Abenteurer erhält durch die Sonderfertigkeit im Talent <i>Singen</i> das neue Anwendungsgebiet <i>Operngesang</i> . Er kann nun auch bei Opernstücken mitsingen.
+
+Der Held ist in der Lage, Porzellan in Form von Karaffen oder anderen Objekten durch den Einsatz dieser Sonderfertigkeit herzustellen. Durch die Sonderfertigkeit kennt der Held aber nicht die Rezeptur, um Porzellan herzustellen. Dazu benötigt er das entsprechende Berufsgeheimnis. Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Porzellanarbeiten</i> des Talents <i>Steinbearbeitung</i> erworben.
+
+Die Heldin bekommt im Talent <i>Gaukeleien</i> das neue Anwendungsgebiet <i>Feuerwerk</i> . Mit dieser Sonderfertigkeit ist sie in der Lage, Feuerwerkskörper so aufzustellen und vorzubereiten, dass einem wunderschönen Feuerwerk kaum noch etwas im Wege steht.
+
+Der Held ist durch diese Sonderfertigkeit in der Lage, komplexere Rüstungen anzufertigen.Durch diese Sonderfertigkeit erlangt der Held das neue Anwendungsgebiet <i>Rüstungsherstellung</i> in den Talenten <i>Holzbearbeitung</i> , <i>Lederbearbeitung</i> , <i>Metallbearbeitung</i> und <i>Stoffbearbeitung</i> Damit kann er einfache und komplexe Rüstungen herstellen. Für komplexe Rüstungen benötigt er zusätzlich ein entsprechendes Berufsgeheimnis. Ohne diese Sonderfertigkeit kann der Abenteurer nur primitive Rüstungen herstellen.
+
+Der Held ist in der Lage, das richtige Holz für Schiffe auszuwählen, Schiffe zu entwerfen und zu bauen (nicht jedoch Boote). Durch die Sonderfertigkeit Schiffsbauer wird im Talent <i>Holzbearbeitung</i> das neue Anwendungsgebiet <i>Schiffe bauen</i> erworben. Es gibt sowohl einfache wie auch komplexe Schiffe, die ein Berufsgeheimnis erfordern.
+
+Die Heldin bekommt durch das neue Anwendungsgebiet <i>Schmuck herstellen</i> in den Talenten <i>Holz</i>-, <i>Metall</i>- und <i>Steinbearbeitung</i> . Sie kann fortan Schmuck anfertigen. Für komplexe Schmuckstücke benötigt sie ein Berufsgeheimnis.
+
+Der Held ist in der Lage, Schnaps zu destillieren. Mit dieser Sonderfertigkeit erwirbt der Held im Talent <i>Lebensmittelbearbeitung</i> das neue Anwendungsgebiet <i>Schnapsbrennen</i> .
+
+Der Held bekommt im Talent <i>Fesseln</i> das neue Anwendungsgebiet <i>Seile herstellen</i> . Damit kann er fortan Seile drehen. Es gibt jedoch komplexe Seile, die ein Berufsgeheimnis erfordern.
+
+Die Abenteurerin hat Kenntnisse von Skiern und weiÃŸ auch, wie man sie benutzt. Durch die Sonderfertigkeit Skifahren erlangt sie das neue Anwendungsgebiet <i>Skifahren</i> im Talent <i>Körperbeherrschung</i> .
+
+Der Held bekommt durch die Sonderfertigkeit Stellmacherei im Talent <i>Holzbearbeitung</i> das neue Anwendungsgebiet <i>Räder herstellen</i> .
+
+Durch diese Sonderfertigkeit bekommt die Heldin das neue Anwendungsgebiet <i>Tätowierungen</i> im Talent <i>Malen & Zeichnen</i> . Sie kann Tätowierungen stechen und die dazugehörigen Farben anrühren. Das Herstellen der Farben wird über andere Talente, beispielsweise <i>Alchimie (profane Alchimie)</i> geregelt.
+
+Der Held ist in der Lage, Töpferwaren herzustellen. Mit dieser Sonderfertigkeit erwirbt der Held im Talent <i>Steinbearbeitung</i> das neue Anwendungsgebiet <i>Töpferarbeiten</i> .
+
+Nur Schmiede, die sich mit dem Herstellen von Waffen auseinandergesetzt haben, sind auch in der Lage, richtige Waffen anzufertigen.Durch diese Sonderfertigkeit erlangt der Held das neue Anwendungsgebiet <i>Waffenherstellung</i> in den Talenten <i>Holzbearbeitung</i> , <i>Metallbearbeitung</i> und <i>Steinbearbeitung</i> . Damit kann er einfache und komplexe Waffen herstellen. Für komplexe Waffen benötigt er zusätzlich ein entsprechendes Berufsgeheimnis. Ohne diese Sonderfertigkeit kann der Abenteurer nur primitive Waffen herstellen.
+
+Mit dieser Sonderfertigkeit ist die Heldin in der Lage, Wandmalereien ordentlich auszuführen. Sie kennt die richtigen Farben, Mischverhältnisse, hat Ahnung von den Eigenschaften des Untergrundmaterials und kennt die Fallstricke dieses künstlerischen Handwerks. Sie bekommt für das Talent <i>Malen & Zeichen</i> das neue Anwendungsgebiet <i>Wandmalerei anfertigen</i> . Das Herstellen der Farben wird über andere Talente, beispielsweise <i>Alchimie (profane Alchimie)</i> geregelt.
+
+Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Wettervorhersage</i> des Talents <i>Wildnisleben</i> erworben. Der Held kann das Talent von nun an nutzen, um das Wetter vorherzusagen.
+
+Der Held ist in der Lage, Wein zu keltern. Mit dieser Sonderfertigkeit erwirbt der Held im Talent <i>Lebensmittelbearbeitung</i> das neue Anwendungsgebiet <i>Winzerei</i> .
+
+Durch die Sonderfertigkeit wird das neue Anwendungsgebiet <i>Zahlenmystik</i> des Talents <i>Rechnen</i> erworben. Der Held kennt die Mysterien der Zahlen und vermag in ihnen geheime Botschaften zu lesen â€“ oder kann andere durch sein Wissen beeindrucken.
+
+Die Heldin bekommt das neue Anwendungsgebiet <i>Gespür für das Böse</i> im Talent <i>Sinnesschärfe</i> . Setzt der Spieler einen Schip ein, so verfügt seine Heldin über ein besonderes Gespür. Sie kann einen einzelnen Gegenstand berühren und feststellen, ob Zauberei mit dem Merkmal Dämonisch auf ihm liegt. Die Probe auf <i>Sinnesschärfe (Gespür für das Böse)</i> , um diese Zauberei zu entdecken, ist je nach Mächtigkeit zwischen â€“3 erschwert und +3 erleichtert (mächtige Gegenstände sind leichter zu entdecken als schwache).
+
+Der Held bekommt das neue Anwendungsgebiet <i>Magiespür</i> im Talent <i>Sinnesschärfe</i> . Setzt der Spieler einen Schip ein, so verfügt sein Held über einen kurzen Zeitraum über Magiegespür. Er kann für eine Minute im Umkreis von 5 Schritt magische Gegenstände wie unter der Wirkung des Zauberspruchs ODEM mit QS 1 rot leuchten sehen. Die Probe auf <i>Sinnesschärfe (Magiegespür)</i> , um die Gegenstände zu entdecken ist je nach Mächtigkeit zwischen â€“3 erschwert und +3 erleichtert (mächtige Gegenstände sind leichter zu entdecken als schwache). Die Zone des Magiegespürs bewegt sich mit dem Held, aber der Spieler muss für jeden Gegenstand eine Probe würfeln, um ihn als magisch zu identifizieren.

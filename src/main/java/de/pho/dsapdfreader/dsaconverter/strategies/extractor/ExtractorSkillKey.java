@@ -38,7 +38,7 @@ public class ExtractorSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(usage + ",");
+      System.out.println("US: " + usage + ",");
       //LOGGER.error(e.getMessage(), e);
     }
     return null;

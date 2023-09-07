@@ -1,4 +1,4 @@
-<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="topic-mapping.xsd">
     <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
         <strategyClass>StrategyRemoveTextSize</strategyClass>
         <params>
@@ -27,59 +27,21 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyPutToEndOfPage - Switch content on page 75 after Headline" index="2">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>75</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>2</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>76</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyRemoveLinesFromPage - Falsche Werte beim Klettern auf 62" index="12">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>62</value>
-            </parameter>
-            <parameter>
-                <key>fromLine</key>
-                <value>44</value>
-            </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>48</value>
-            </parameter>
-        </params>
-    </strategy>
-
 
     <strategy name="StrategyConcatLinesToFirst - concat Fährtensuche on Page 72" index="1">
         <strategyClass>StrategyConcatLinesToFirst</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>72</value>
+                <value>47</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>33</value>
+                <value>40</value>
             </parameter>
             <parameter>
                 <key>untilLine</key>
-                <value>35</value>
+                <value>42</value>
             </parameter>
         </params>
     </strategy>
@@ -89,16 +51,58 @@
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>74</value>
+                <value>49</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>81</value>
+                <value>75</value>
             </parameter>
             <parameter>
                 <key>untilLine</key>
-                <value>83</value>
+                <value>77</value>
             </parameter>
         </params>
     </strategy>
+    <!--
+        <strategy name="StrategyPutToEndOfPage - Switch content on page 75 after Headline" index="2">
+            <strategyClass>
+                StrategyPutToEndOfPage
+            </strategyClass>
+            <params>
+                <parameter>
+                    <key>applyToPage</key>
+                    <value>75</value>
+                </parameter>
+                <parameter>
+                    <key>startEntryLineNo</key>
+                    <value>2</value>
+                </parameter>
+                <parameter>
+                    <key>endEntryLineNo</key>
+                    <value>76</value>
+                </parameter>
+            </params>
+        </strategy>
+
+        <strategy name="StrategyRemoveLinesFromPage - Falsche Werte beim Klettern auf 62" index="12">
+            <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+            <params>
+                <parameter>
+                    <key>applyToPage</key>
+                    <value>62</value>
+                </parameter>
+                <parameter>
+                    <key>fromLine</key>
+                    <value>44</value>
+                </parameter>
+                <parameter>
+                    <key>untilLine</key>
+                    <value>48</value>
+                </parameter>
+            </params>
+        </strategy>
+
+
+            -->
+
 </topic-strategies>

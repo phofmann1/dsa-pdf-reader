@@ -28,6 +28,20 @@
             </parameter>
             <parameter>
                 <key>textSize</key>
+                <value>3100</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
                 <value>2300</value>
             </parameter>
         </params>
@@ -150,16 +164,20 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+    <strategy name="StrategyConcatLinesToFirst - concat Fluch der Schlaflosigkeit on Page 60 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>46</value>
+                <value>60</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>46</value>
+                <value>62</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>63</value>
             </parameter>
         </params>
     </strategy>
@@ -198,6 +216,101 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyConcatLinesToFirst - concat Modifikationsfokus on Page 94 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>94</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>86</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>87</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 96" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>96</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>61</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Stabfixierung on Page 97 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>97</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>17</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Todesfluch on Page 125 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>125</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>108</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>109</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 144" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>144</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>121</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
         <strategyClass>StrategyReplaceStringInLine</strategyClass>
         <params>
@@ -215,4 +328,173 @@
             </parameter>
         </params>
     </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 197" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>197</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 202" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>202</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>109</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - concat Bienenfleiß on Page 202 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>202</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>63</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>64</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 209" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>209</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>21</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemovePages - 210 to 367">
+        <strategyClass>StrategyRemovePages</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>210</value>
+            </parameter>
+            <parameter>
+                <key>untilPage</key>
+                <value>366</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 368" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>368</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>59</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Switch content on page 370" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>370</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>59</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Todesfluch on Page 373 for pattern recognition" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>373</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>11</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemovePages - 375 to 381">
+        <strategyClass>StrategyRemovePages</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>375</value>
+            </parameter>
+            <parameter>
+                <key>untilPage</key>
+                <value>381</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
 </topic-strategies>

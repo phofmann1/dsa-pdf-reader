@@ -36,7 +36,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import de.pho.dsapdfreader.config.ConfigurationInitializer;
@@ -165,83 +164,6 @@ public class DsaPdfReaderMain
     LOGGER.info("finish");
     LOGGER.info("----------------------------------");
 
-  }
-
-
-  private static void summarizeTextCsv(String path, String file)
-  {
-    try (Stream<Path> paths = Files.walk(Paths.get(path)))
-    {
-      List<TextWithMetaInfo> concatList = new ArrayList<>();
-      paths.filter(Files::isRegularFile)
-          .filter(p -> !p.endsWith(file))
-          .map(p -> CsvHandler.readBeanFromPath(TextWithMetaInfo.class, p))
-          .forEach(l -> concatList.addAll(l));
-      File fOut = new File(path, file);
-      CsvHandler.writeBeanToUrl(fOut, concatList);
-    }
-    catch (IOException e)
-    {
-      LOGGER.error(e.getMessage(), e);
-    }
-  }
-
-  private static void summarizeMsCsv(String path, String file)
-  {
-    try (Stream<Path> paths = Files.walk(Paths.get(path)))
-    {
-      List<MysticalSkillRaw> concatList = new ArrayList<>();
-      paths.filter(Files::isRegularFile)
-          .filter(p -> !p.endsWith(file))
-          .map(p -> CsvHandler.readBeanFromPath(MysticalSkillRaw.class, p))
-          .forEach(l -> concatList.addAll(l));
-      File fOut = new File(path, file);
-      CsvHandler.writeBeanToUrl(fOut, concatList);
-    }
-    catch (IOException e)
-    {
-      LOGGER.error(e.getMessage(), e);
-    }
-  }
-
-  private static void summarizeMsJson(String path, String file)
-  {
-    try (Stream<Path> paths = Files.walk(Paths.get(path)))
-    {
-      List<MysticalSkill> mysticalSkills = new ArrayList<>();
-      paths.filter(Files::isRegularFile)
-          .filter(p -> !p.endsWith(file))
-          .map(p -> {
-            ObjectMapper objectMapper = new ObjectMapper();
-            String json = readFromInputStream(new File(p.toString()));
-            try
-            {
-              return objectMapper.readValue(json, new TypeReference<List<MysticalSkill>>()
-              {
-              });
-            }
-            catch (JsonProcessingException e)
-            {
-              LOGGER.error("JSON processing Error in %s", path, e);
-            }
-            return new ArrayList<MysticalSkill>();
-          })
-          .forEach(l -> mysticalSkills.addAll(l));
-      ObjectMapper mapper = new ObjectMapper();
-      String jsonResult = mapper
-          .writerWithDefaultPrettyPrinter()
-          .writeValueAsString(mysticalSkills);
-
-      try (BufferedWriter writer = generateBufferedWriter(path + file))
-      {
-        writer.write(jsonResult);
-        writer.flush();
-      }
-    }
-    catch (IOException e)
-    {
-      LOGGER.error(e.getMessage(), e);
-    }
   }
 
   private static String readFromInputStream(File file)
@@ -704,32 +626,14 @@ public class DsaPdfReaderMain
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
         List<SkillRaw> raws = CsvHandler.readBeanFromFile(SkillRaw.class, fIn);
 
-        Map<SkillUsageKey, SkillUsage> suAggregateMap = new HashMap<>();
-        raws.stream()
-            .map(LoadToSkill::migrateUsage)
-            .flatMap(List::stream)
-            .forEach(su -> {
-              if (suAggregateMap.containsKey(su.key))
-              {
-                suAggregateMap.get(su.key).skillKeys.addAll(su.skillKeys);
-              }
-              else
-              {
-                suAggregateMap.put(su.key, su);
-              }
-            });
-        ObjectMapper mapper = new ObjectMapper();
-        String jsonResultUsages = mapper
-            .writerWithDefaultPrettyPrinter()
-            .writeValueAsString(suAggregateMap.values());
-
-        BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "usages", "skills"));
-        writerUsages.write(jsonResultUsages);
-        writerUsages.close();
+        exportUsages(raws, conf);
 
         List<Skill> pures = raws.stream().map(LoadToSkill::migrate).collect(Collectors.toList());
 
-        mapper = new ObjectMapper();
+        pures = applyAdditionalUsages(pures);
+        pures = applyAdditionalApplications(pures);
+
+        ObjectMapper mapper = new ObjectMapper();
         String jsonResult = mapper
             .writerWithDefaultPrettyPrinter()
             .writeValueAsString(pures);
@@ -768,10 +672,107 @@ public class DsaPdfReaderMain
     }
   }
 
+  private static void exportUsages(List<SkillRaw> raws, TopicConfiguration conf) throws IOException
+  {
+    Map<SkillUsageKey, SkillUsage> suAggregateMap = new HashMap<>();
+    raws.stream()
+        .map(LoadToSkill::migrateUsage)
+        .flatMap(List::stream)
+        .forEach(su -> {
+          if (suAggregateMap.containsKey(su.key))
+          {
+            suAggregateMap.get(su.key).skillKeys.addAll(su.skillKeys);
+          }
+          else
+          {
+            suAggregateMap.put(su.key, su);
+          }
+        });
+    ObjectMapper mapper = new ObjectMapper();
+    String jsonResultUsages = mapper
+        .writerWithDefaultPrettyPrinter()
+        .writeValueAsString(suAggregateMap.values());
+
+    BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "usages", "skills"));
+    writerUsages.write(jsonResultUsages);
+    writerUsages.close();
+  }
+
+  private static List<Skill> applyAdditionalUsages(List<Skill> pures)
+  {
+    String directoryPath = PATH_BASE + "04 - json/skills";
+    final String ENDING = "ABILITIES_usages.json";
+
+    List<File> files = extractFilesByEnding(directoryPath, ENDING);
+
+    List<SkillUsage> usages = files.stream().map(f -> {
+      String sb = readFromInputStream(f);
+      final ObjectMapper objectMapper = new ObjectMapper();
+      try
+      {
+        return Arrays.stream(
+            objectMapper.readValue(sb, ((SkillUsage[]) Array.newInstance(SkillUsage.class, 0)).getClass())).toList();
+      }
+      catch (JsonProcessingException e)
+      {
+        throw new RuntimeException(e);
+      }
+    }).flatMap(List::stream).collect(Collectors.toList());
+
+    return pures.stream().map(p -> {
+      p.additionalUsageKeys = usages.stream()
+          .filter(u -> u.skillKeys.contains(p.key))
+          .map(u -> u.key)
+          .collect(Collectors.toList());
+      return p;
+    }).collect(Collectors.toList());
+  }
+
+  private static List<Skill> applyAdditionalApplications(List<Skill> pures)
+  {
+    String directoryPath = PATH_BASE + "04 - json/skills";
+    final String ENDING = "ABILITIES_applications.json";
+
+    List<File> files = extractFilesByEnding(directoryPath, ENDING);
+
+    List<SkillApplication> applications = files.stream().map(f -> {
+      String sb = readFromInputStream(f);
+      final ObjectMapper objectMapper = new ObjectMapper();
+      try
+      {
+        return Arrays.stream(
+            objectMapper.readValue(sb, ((SkillApplication[]) Array.newInstance(SkillApplication.class, 0)).getClass())).toList();
+      }
+      catch (JsonProcessingException e)
+      {
+        throw new RuntimeException(e);
+      }
+    }).flatMap(List::stream).collect(Collectors.toList());
+
+    return pures.stream().map(p -> {
+      p.applicationKeys = applications.stream()
+          .filter(u -> u.skillKey == p.key)
+          .map(u -> u.key)
+          .collect(Collectors.toList());
+      return p;
+    }).collect(Collectors.toList());
+  }
+
+  private static List<File> extractFilesByEnding(String directoryPath, String ending)
+  {
+    File directory = new File(directoryPath);
+    if (!directory.exists() || !directory.isDirectory())
+    {
+      System.err.println("Das Verzeichnis " + directoryPath + " existiert nicht oder ist kein Verzeichnis.");
+
+    }
+    return List.of(directory.listFiles((dir, name) -> name.endsWith(ending)));
+  }
+
   private static void extractAdditionalApplications(List<SpecialAbilityRaw> raws, TopicConfiguration conf) throws IOException
   {
     List<SkillApplication> result = raws.stream()
-        .map(raw -> ExtractorSpecialAbility.retrieveSkillApplication(raw.rules))
+        .map(raw -> ExtractorSpecialAbility.retrieveSkillApplication(raw.rules, raw.name))
         .filter(sa -> sa != null && sa.name != null)
         .collect(Collectors.toList());
 
@@ -798,7 +799,7 @@ public class DsaPdfReaderMain
         .collect(Collectors.toList());
 
     List<SkillUsage> missing = suCorrections.stream()
-        .filter(obj -> suList.stream().noneMatch(other -> other.key == obj.key))
+        .filter(suc -> suList.stream().noneMatch(su -> su.key == suc.key))
         .collect(Collectors.toList());
 
     List<SkillUsage> result = suList.stream().map(su -> {
@@ -813,7 +814,7 @@ public class DsaPdfReaderMain
       }
     }).collect(Collectors.toList());
 
-    if (conf.publication.equals("Kodex des Schwertes"))
+    if (conf.publication.equals("Kodex_des_Schwertes"))
     {
       result.addAll(missing);
     }
@@ -1347,4 +1348,84 @@ public class DsaPdfReaderMain
     CsvHandler.writeBeanToUrl(fIn, results);
   }
 }
+
+/**
+ * LEGACY:
+ * <p>
+ * private static void summarizeTextCsv(String path, String file)
+ * {
+ * try (Stream<Path> paths = Files.walk(Paths.get(path)))
+ * {
+ * List<TextWithMetaInfo> concatList = new ArrayList<>();
+ * paths.filter(Files::isRegularFile)
+ * .filter(p -> !p.endsWith(file))
+ * .map(p -> CsvHandler.readBeanFromPath(TextWithMetaInfo.class, p))
+ * .forEach(l -> concatList.addAll(l));
+ * File fOut = new File(path, file);
+ * CsvHandler.writeBeanToUrl(fOut, concatList);
+ * }
+ * catch (IOException e)
+ * {
+ * LOGGER.error(e.getMessage(), e);
+ * }
+ * }
+ * <p>
+ * private static void summarizeMsCsv(String path, String file)
+ * {
+ * try (Stream<Path> paths = Files.walk(Paths.get(path)))
+ * {
+ * List<MysticalSkillRaw> concatList = new ArrayList<>();
+ * paths.filter(Files::isRegularFile)
+ * .filter(p -> !p.endsWith(file))
+ * .map(p -> CsvHandler.readBeanFromPath(MysticalSkillRaw.class, p))
+ * .forEach(l -> concatList.addAll(l));
+ * File fOut = new File(path, file);
+ * CsvHandler.writeBeanToUrl(fOut, concatList);
+ * }
+ * catch (IOException e)
+ * {
+ * LOGGER.error(e.getMessage(), e);
+ * }
+ * }
+ * <p>
+ * private static void summarizeMsJson(String path, String file)
+ * {
+ * try (Stream<Path> paths = Files.walk(Paths.get(path)))
+ * {
+ * List<MysticalSkill> mysticalSkills = new ArrayList<>();
+ * paths.filter(Files::isRegularFile)
+ * .filter(p -> !p.endsWith(file))
+ * .map(p -> {
+ * ObjectMapper objectMapper = new ObjectMapper();
+ * String json = readFromInputStream(new File(p.toString()));
+ * try
+ * {
+ * return objectMapper.readValue(json, new TypeReference<List<MysticalSkill>>()
+ * {
+ * });
+ * }
+ * catch (JsonProcessingException e)
+ * {
+ * LOGGER.error("JSON processing Error in %s", path, e);
+ * }
+ * return new ArrayList<MysticalSkill>();
+ * })
+ * .forEach(l -> mysticalSkills.addAll(l));
+ * ObjectMapper mapper = new ObjectMapper();
+ * String jsonResult = mapper
+ * .writerWithDefaultPrettyPrinter()
+ * .writeValueAsString(mysticalSkills);
+ * <p>
+ * try (BufferedWriter writer = generateBufferedWriter(path + file))
+ * {
+ * writer.write(jsonResult);
+ * writer.flush();
+ * }
+ * }
+ * catch (IOException e)
+ * {
+ * LOGGER.error(e.getMessage(), e);
+ * }
+ * }
+ */
 

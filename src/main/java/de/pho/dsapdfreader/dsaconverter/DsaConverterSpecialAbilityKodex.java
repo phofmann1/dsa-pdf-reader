@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.dsaconverter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 
 import org.apache.logging.log4j.LogManager;
@@ -46,6 +47,11 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
       KEY_COMBAT_SKILLS,
   };
   private static final Logger LOGGER = LogManager.getLogger();
+  private static final List<String> HIDDEN_TOPIC_HEADLINES = List.of(
+      "Prügel-Sonderfertigkeiten",
+      "Vision-Sonderfertigkeiten",
+      "Predigt-Sonderfertigkeiten"
+  );
 
   ConverterAtomicFlagsSpecialAbility flags;
 
@@ -56,15 +62,23 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
     LOGGER.debug(msg);
 
     AtomicReference<SpecialAbilityCategoryKey> abilityCategory = new AtomicReference<>();
+    AtomicReference<String> abilityName = new AtomicReference<>("");
     resultList
         .forEach(t -> {
 
-          String cleanText = t.text
-              .trim();
+          Optional<String> hiddenTopic = findHiddenTopic(t, conf); //Paktgeschenke, Kampftrinker und Prügel SF
 
-          boolean isTopic = t.size == 1800;
+          String cleanText = t.text
+              .replace("Leggaleg", "Leg-ga-leg")
+              .trim();
+          if (hiddenTopic.isPresent())
+          {
+            cleanText = cleanText.replace(hiddenTopic.get(), "");
+          }
+
+          boolean isTopic = t.size == 1800 || hiddenTopic.isPresent();
           // validate the flags for conf
-          boolean isFirstValue = validateIsFirstValue(t, conf);
+          boolean isFirstValue = validateIsFirstValue(t, conf) && !abilityName.get().equals(cleanText) && !cleanText.isEmpty();
           boolean isFirstValueSkipped = isFirstValue && isNumeric(t.text); // gets skipped, when the firstValue is a number (Page Number in some documents)
           boolean isDataKey = validateIsDataKey(t, cleanText, conf);
           boolean isDataValue = validateIsDataValue(t, cleanText, conf);
@@ -72,7 +86,12 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
           handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
 
-          if (isTopic) abilityCategory.set(extractTopic(t.text));
+          if (isTopic) abilityCategory.set(extractTopic((hiddenTopic.isPresent() ? hiddenTopic.get() : t.text)));
+
+          if (hiddenTopic.isPresent() && abilityCategory.get() == null)
+          {
+            System.out.println(hiddenTopic.get());
+          }
 
           if (abilityCategory.get() != null)
           {
@@ -81,6 +100,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
               finishPredecessorAndStartNew(isFirstValue, isFirstValueSkipped, returnValue, conf, cleanText);
               if (isFirstValue)
               {
+                abilityName.set(cleanText);
                 last(returnValue).abilityCategory = abilityCategory.get();
               }
               // handle keys
@@ -103,6 +123,30 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
     return returnValue;
   }
 
+  private Optional<String> findHiddenTopic(TextWithMetaInfo t, TopicConfiguration conf)
+  {
+    Optional<String> topic = Optional.empty();
+
+    if (conf.nameSize == t.size)
+    {
+      if (HIDDEN_TOPIC_HEADLINES.contains(t.text))
+      {
+        topic = Optional.of(t.text);
+      }
+      else
+      {
+        List<String> res = List.of(t.text.replaceAll("([a-z])([A-Z])", "$1|$2").split("\\|"));
+        if (res.size() > 1)
+        {
+          topic = Optional.of(res.get(0));
+        }
+
+      }
+
+    }
+    return topic;
+  }
+
   private void applySpecialAbilitiesFlagsForNoKeyStrings(ConverterAtomicFlagsSpecialAbility flags, TextWithMetaInfo t)
   {
     if (flags.wasName.get() && !t.isBold)
@@ -116,16 +160,19 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
   {
     return switch (text)
         {
-          case "Allgemeine Sonderfertigkeiten" -> SpecialAbilityCategoryKey.common;
+          case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit" -> SpecialAbilityCategoryKey.common;
           case "Schicksalspunkte-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.fate;
           case "Talentstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_stile;
           case "Erweiterte Talentsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_advanced;
           case "Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat;
           case "Kampfstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_stile;
+          case "Kampfstile fremder Völker" -> SpecialAbilityCategoryKey.combat_stile_alien;
+          case "Waffenlose Kampfstile" -> SpecialAbilityCategoryKey.combat_unarmed_stile;
           case "Erweiterte Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_advanced;
           case "Befehlssonderfertigkeiten" -> SpecialAbilityCategoryKey.order;
           case "Allgemeine magische Sonderfertigkeiten" -> SpecialAbilityCategoryKey.magic;
           case "Erweiterte Zauberstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.magic_advanced;
+          case "Prügel-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.brawl;
           case "ZauberstilsonderfertigkeitenGildenmagische Zauberstilsonderfertigkeiten (Akademie)",
               "Gildenmagische Zauberstilsonderfertigkeiten (Lehrmeister)",
               "Gildenmagische Zauberstilsonderfertigkeiten (Qabalya)",
@@ -138,6 +185,30 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
           case "Allgemeine karmale Sonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric;
           case "Liturgiestilsonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_stile;
           case "Erweiterte Liturgiesonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_advanced;
+          case "Predigt-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.sermon;
+          case "Vision-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.vision;
+          case "Sikaryan-Raub-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.sikaryan_deprivation;
+          case "Vampirische Gaben" -> SpecialAbilityCategoryKey.vampire;
+          case "Lykanthropische Gaben" -> SpecialAbilityCategoryKey.werebeeing;
+          case "Allgemeine Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_common;
+          case "Blakharaz-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_blakharaz;
+          case "Belhalhar-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_belhalhar;
+          case "Charyptoroth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_charyptoroth;
+          case "Lolgramoth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_lolgramoth;
+          case "Thargunitoth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_thargunitoth;
+          case "Amazeroth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_amazeroth;
+          case "Nagrach-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_nagrach;
+          case "Asfaloth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_asfaloth;
+          case "Tasfarelel-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_tasfarelel;
+          case "Mishkara-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_mishkara;
+          case "Agrimoth-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_agrimoth;
+          case "Belkelel-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_belkelel;
+          case "Aphasmayra-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_aphasmayra;
+          case "Aphestadil-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_aphestadil;
+          case "Heskatet-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_heskatet;
+          case "Die Tricks der Vertrauten" -> SpecialAbilityCategoryKey.familiar;
+          case "Zauberzeichen" -> SpecialAbilityCategoryKey.magic_signs;
+
           default -> null;
         };
   }

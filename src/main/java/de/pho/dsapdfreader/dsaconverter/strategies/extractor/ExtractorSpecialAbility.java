@@ -3,7 +3,9 @@ package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.regex.Matcher;
@@ -36,7 +38,9 @@ import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityTypeKey;
@@ -48,18 +52,19 @@ public class ExtractorSpecialAbility extends Extractor
 {
 
   public static final Pattern PAT_TALENT_MULTISELECT = Pattern.compile("bis zu drei .*alente aussuchen");
-  public static final Pattern PAT_HAS_NEW_SKILL_USAGE = Pattern.compile("(erwirbt|erhält|bekommt|erlangt|gibt).*Anwendungsgebiet|Anwendungsgebiet.*erworben|schaltet.*Anwendungsgebiet.*frei");
-  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine).*Einsatzmöglichkeit");
+  //test/resources/testdata - regex/KodexSchwert - abilities - new skill usages.txt
+  public static final Pattern PAT_HAS_NEW_SKILL_USAGE = Pattern.compile("neues? (<i>)?Anwendungsgebiet|erhält .* das Anwendungsgebiet <i>");
   public static final Pattern PAT_EXTRACT_NEW_SKILL_USAGE = Pattern.compile("(?<=Anwendungsgebiet <i>)[A-zÄ-üß ()&]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)"); //die Trennung durch <i> ist z.B. im Anwendungsgebiet Instrumente bauen zu sehen
-  public static final Pattern PAT_EXTRACT_NEW_SKILL_APPLICATION = Pattern.compile("(?<=(Talent <i>|it von <i>|it für <i>))[A-zÄ-üß ()&.]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)");
+  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine).*Einsatzmöglichkeit");
+  public static final Pattern PAT_EXTRACT_NEW_SKILL_APPLICATION = Pattern.compile("(?<=(Talent <i>|it von <i>|it für <i>|alents <i>|be auf <i>))[A-zÄ-üß ()&.]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)");
   public static final Pattern PAT_EXTRACT_SKILL = Pattern.compile("(?<=<i>)[A-zÄ-üß &-]*(?=<\\/i>)");
   private static final Pattern PAT_EXTRACT_SPECIE = Pattern.compile("(?<=Spezies )\\w*");
   private static final Pattern PAT_EXTRACT_TRADITION = Pattern.compile("(?<!(keine )Sonderfertigkeit Tradition \\()(?<=Tradition \\()[^\\)]*");
 
   private static final Pattern PAT_EXTRACT_NONE_OF_BOONS = Pattern.compile("(?<=kein Nachteil )[\\w Ä-ü\\(\\).\\/]*");
-  private static final Pattern PAT_EXTRACT_ATTRIBUTES = Pattern.compile("(([MUKLINCHFGE]{2}|Leiteigenschaft( der Tradition)?) \\d{2}( oder )?){1,2}");
+  private static final Pattern PAT_EXTRACT_ATTRIBUTES = Pattern.compile("(([MUKLINCHFGEO]{2}|Leiteigenschaft( der Tradition)?) \\d{2}( oder )?){1,2}");
 
-  private static final Pattern PAT_EXTRACT_SKILL_REQ = Pattern.compile("([A-ZÄÖÜ]?[a-ü& -])+(?= \\d\\d?)");
+  private static final Pattern PAT_EXTRACT_SKILL_REQ = Pattern.compile("([A-ZÄÖÜ]?[a-ü& -])+(?= \\d\\d?)|(?<=Zauber )[A-Z][A-Z \\-]+(?= ?\\d?\\d?)");
   private static final Pattern PAT_EXTRACT_MYSTICAL_SKILL_REQ = Pattern.compile("(?<=Zauber )[A-Z -]{3,}\\d?\\d?");
 
 
@@ -106,20 +111,33 @@ public class ExtractorSpecialAbility extends Extractor
 
   private static SpecialAbilityKey extractSpecialAbilityKeyFromText(String name)
   {
-    SpecialAbilityKey returnValue;
+    SpecialAbilityKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(name.replace("ß", "xxx"))
         .toLowerCase()
-        .replace("xxx", "ß");
+        .replace("xxx", "ß")
+        .replace("vertrauenswürdigswürdig", "vertrauenswürdig")
+        .replace("sf_", "")
+        .replace("je_nach_material", "")
+        .replace("monate_in_entsprechender_umgebung_gelebt", "")
+        .replace("alle_anderen_haben_keine_voraussetzungen", "")
+        .replace("kampf_reflexe_i", "kampfreflexe_i")
+        .replace("wesenszug_olochtai", "")
+        .replace("wesenszug_zholochai", "")
+        .replaceAll("^ausfall$", "ausfall_i");
+
     keyString = keyString.trim();
 
     try
     {
-      returnValue = SpecialAbilityKey.valueOf(keyString.toLowerCase());
+      if (!keyString.isEmpty())
+      {
+        returnValue = SpecialAbilityKey.valueOf(keyString.toLowerCase());
+      }
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid specialAbility name: " + name);
-      returnValue = null;
+      System.out.println(keyString.toLowerCase() + ",");
+      //LOGGER.error("Invalid specialAbility name: " + name);
     }
     return returnValue;
   }
@@ -144,7 +162,7 @@ public class ExtractorSpecialAbility extends Extractor
 
       for (String o : optionEntries)
       {
-        int selectionCount = o.startsWith("Zwei") ? 2 : 1;
+        int selectionCount = o.startsWith("Drei") ? 3 : (o.startsWith("Zwei") ? 2 : 1);
         if (o.contains("Nebenfach"))
         {
           SpecialAbilityOption sao = new SpecialAbilityOption();
@@ -154,7 +172,10 @@ public class ExtractorSpecialAbility extends Extractor
         }
         else
         {
-          List<SpecialAbilityKey> options = retrieveAdvancedAbilitiyKeys(o.trim().replaceAll("[Zz]wei.*: ", "").replaceAll("[Ee]ine.*: ", ""), csk);
+          List<SpecialAbilityKey> options = retrieveAdvancedAbilitiyKeys(o.trim()
+              .replaceAll("[Dd]rei.*: ", "")
+              .replaceAll("[Zz]wei.*: ", "")
+              .replaceAll("[Ee]ine.*: ", ""), csk);
           if (options != null && options.isEmpty())
           {
             SpecialAbilityOption sao = new SpecialAbilityOption();
@@ -174,7 +195,7 @@ public class ExtractorSpecialAbility extends Extractor
   private static List<String> retrieveAdvancedAbilitiesOptionEntries(String advancedAbilities)
   {
     List<String> returnValue = new ArrayList<>();
-    Matcher m = Pattern.compile("eine weitere erweiterte.*|eine erweiterte.*|Zwei erweiterte.*<br>").matcher(advancedAbilities);
+    Matcher m = Pattern.compile("eine weitere erweiterte.*|eine erweiterte.*|Zwei erweiterte.*<br>|Drei [Ee]rweiterte.*").matcher(advancedAbilities);
     while (m.find())
     {
       returnValue.add(m.group());
@@ -273,7 +294,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     SkillUsage returnValue = null;
     rules = rules
-        .replace("<i>Anwendungsgebiet Gildenrecht</i>", "Anwendungsgebiet <i>Gildenrecht</i>")
+        .replace("<i>Anwendungsgebiet Gil</i> <i>-</i> <i>denrecht</i>", "Anwendungsgebiet <i>Gildenrecht</i>")
         .replace("Ölgemälde malen", "<i>Ölgemälde malen</i>")
         .replace("Prunkkleider herstellen", "<i>Prunkkleider herstellen</i>");
     Matcher m = PAT_HAS_NEW_SKILL_USAGE.matcher(rules);
@@ -294,26 +315,85 @@ public class ExtractorSpecialAbility extends Extractor
       }
 
       returnValue.skillKeys = etractSkillKeys(rules.replace("<i>" + skillUsageText + "</i>", ""));
+
+      if (returnValue.key == SkillUsageKey.berserker_beruhigen)
+      {
+        returnValue.skillKeys = List.of(SkillKey.überreden);
+      }
     }
 
     return returnValue;
   }
 
 
-  public static String retrieveSkillApplicationForSkill(String rules)
+  public static SkillApplication retrieveSkillApplication(String rules, String abilityName)
   {
-    String returnValue = null;
-    Matcher m = PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules);
+    SkillApplication returnValue = null;
 
-    if (m.find())
+    if (PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules).find())
     {
-      m = PAT_EXTRACT_NEW_SKILL_APPLICATION.matcher(rules);
-      if (m.find())
+
+      returnValue = new SkillApplication();
+      String keyString = Extractor.extractKeyTextFromTextWithUmlauts(abilityName.replaceAll("\\(.*\\)", "")).toLowerCase();
+      try
       {
-        returnValue = m.group();
+        returnValue.key = SkillApplicationKey.valueOf(keyString);
       }
+      catch (IllegalArgumentException e)
+      {
+        System.out.println("SA: " + keyString);
+      }
+      returnValue.name = abilityName;
+      returnValue.skillKey = extractSkillKey(rules);
+
+      returnValue.skillUsages = extractSkillUsages(returnValue.key);
     }
 
+    return returnValue;
+  }
+
+  private static List<SkillUsageKey> extractSkillUsages(SkillApplicationKey skillApplicationKey)
+  {
+    if (skillApplicationKey == null) return new ArrayList<>();
+    return switch (skillApplicationKey)
+        {
+          case abrichter -> List.of(SkillUsageKey.wildtiere);
+          case anführer -> List.of(SkillUsageKey.aufschwatzen, SkillUsageKey.manipulieren, SkillUsageKey.schmeicheln);
+          case anpeitscher, drohgebärden -> List.of(SkillUsageKey.drohung);
+          case bildhauerei -> List.of(SkillUsageKey.steinmetzarbeiten);
+          case iglubau -> List.of(SkillUsageKey.lageraufbau);
+          case konditor -> List.of(SkillUsageKey.backen);
+          case menschenstimmen_imitieren -> List.of(SkillUsageKey.personen_imitieren);
+          case rosstäuscher -> List.of(SkillUsageKey.feilschen);
+          case schmerzen_unterdrücken -> List.of(SkillUsageKey.handlungsfähigkeit_bewahren);
+          case viehzucht -> List.of(SkillUsageKey.domestizierte_tiere);
+          case scholar_der_akademie_schwert_und_stab_zu_gareth, scholar_der_schule_der_hellsicht_zu_thorwal ->
+              List.of(SkillUsageKey.bedrohungen_standhalten);
+          case tapferkeit_der_unsterblichen -> List.of(SkillUsageKey.öffentliche_rede);
+          case analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen ->
+              new ArrayList<>();
+        };
+  }
+
+  private static SkillKey extractSkillKey(String rules)
+  {
+    Matcher m = PAT_EXTRACT_NEW_SKILL_APPLICATION.matcher(rules.replace("<i>Pflanzen</i> <i>-</i> <i>kunde (Nutzpflanzen)</i>", "<i>Pflanzenkunde (Nutzpflanzen)</i>"));
+    String forSkill = "";
+    SkillKey returnValue = null;
+    if (m.find())
+    {
+      forSkill = m.group()
+          .replaceAll("\\(.*\\)?", "")
+          .replaceAll("<\\/?i>", "");
+      try
+      {
+        returnValue = SkillKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(forSkill).toLowerCase());
+      }
+      catch (IllegalArgumentException e)
+      {
+        LOGGER.error("Skill with the name (" + forSkill + ") unknown");
+      }
+    }
     return returnValue;
   }
 
@@ -356,7 +436,7 @@ public class ExtractorSpecialAbility extends Extractor
         }
         else
         {
-          LOGGER.error("Kein gültiger ENUM SkillKey: " + skillString);
+          //LOGGER.error("Kein gültiger ENUM SkillKey: " + skillString);
         }
       }
 
@@ -406,6 +486,12 @@ public class ExtractorSpecialAbility extends Extractor
     {
     case cleric, cleric_advanced, cleric_stile -> returnValue.add(new RequirementBoon(BoonKey.geweihter, true));
     case magic, magic_advanced, magic_stile, magic_signs -> returnValue.add(new RequirementBoon(BoonKey.zauberer, true));
+    case vision -> returnValue = List.of(
+        new RequirementBoon(BoonKey.geweihter, true),
+        new RequirementBoon(BoonKey.visionär, true));
+    case sermon -> returnValue = List.of(
+        new RequirementBoon(BoonKey.geweihter, true),
+        new RequirementBoon(BoonKey.prediger, true));
     default -> returnValue = new ArrayList<>();
     }
     return returnValue;
@@ -449,15 +535,15 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
-  public static RequirementsAttribute retrieveRequirementAttribute(String preconditions, int levels, int currentLevel, SpecialAbilityCategoryKey sack)
+  public static RequirementsAttribute retrieveRequirementAttribute(Map<String, String> preconditionMap, int levels, int currentLevel, SpecialAbilityCategoryKey sack, boolean isUseSamePrecondition, String name)
   {
     RequirementsAttribute returnValue = null;
 
+    String requirementsString = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
     final String leiteigenschaftText = retrieveLeAttributeShort(sack);
-    Matcher m = PAT_EXTRACT_ATTRIBUTES.matcher(preconditions);
+    Matcher m = PAT_EXTRACT_ATTRIBUTES.matcher(requirementsString);
     if (m.find())
     {
-      String requirementsString = (levels > 1) ? extractReqStringForLevel(preconditions, currentLevel) : preconditions;
 
       m = PAT_EXTRACT_ATTRIBUTES.matcher(requirementsString);
       returnValue = new RequirementsAttribute();
@@ -483,6 +569,16 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
+  private static String extractRequirementsStringForLevel(Map<String, String> preconditionMap, int levels, int currentLevel)
+  {
+    String returnValue = preconditionMap.get("all");
+    if (levels > 0)
+    {
+      returnValue += " " + preconditionMap.get(RomanNumberHelper.intToRoman(currentLevel + 1));
+    }
+    return returnValue.replaceAll("null(?=$| )", " ");
+  }
+
   private static String retrieveLeAttributeShort(SpecialAbilityCategoryKey sack)
   {
     String nonClericString = (sack == SpecialAbilityCategoryKey.magic || sack == SpecialAbilityCategoryKey.magic_advanced || sack == SpecialAbilityCategoryKey.magic_stile || sack == SpecialAbilityCategoryKey.magic_signs)
@@ -494,20 +590,20 @@ public class ExtractorSpecialAbility extends Extractor
   }
 
 
-  public static Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> retrieveRequirementsSkill(String preconditions, int levels, int currentLevel, String name)
+  public static Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> retrieveRequirementsSkill(Map<String, String> preconditionMap, int levels, int currentLevel, String name, boolean isUseSamePrecondition)
   {
     Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> returnValue = new Quartet<>(null, null, null, null);
-
-    String requirementsString = preconditions
+    String preconditions = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
+    String requirementsString = preconditions.trim()
         .replace("Leiteigenschaft der Tradition", "")
         .replace("Leiteigenschaft", "")
         .replace(" mindestens 2 Schicksalspunkte", "")
         .replace("Sozialer Stand ", "")
-        .replace("Zeichen", "Zeichnen");
-    Matcher m = PAT_EXTRACT_SKILL_REQ.matcher(preconditions);
+        .replace("Zeichen", "Zeichnen")
+        .replace("ARCANOVI 12", "Zauber ARCANOVI 12");
+    Matcher m = PAT_EXTRACT_SKILL_REQ.matcher(requirementsString);
     if (m.find())
     {
-      requirementsString = (levels > 1) ? extractReqStringForLevel(requirementsString, currentLevel) : requirementsString;
       Quintet<Boolean, RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> handledReqExceptions =
           handleRequirementSkillExceptions(preconditions, name, currentLevel);
 
@@ -531,7 +627,8 @@ public class ExtractorSpecialAbility extends Extractor
   private static Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> handleRequirementSkillMystical(Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> returnValue, String requirementString, String name)
   {
     RequirementMysticalSkill rms = new RequirementMysticalSkill();
-    String skillName = requirementString.replaceAll("[0-9]", "").trim();
+    String skillName = requirementString.replaceAll("[0-9]", "")
+        .replace("CHIMAE-ROFORM", "CHIMAEROFORM").trim();
     String skillValueText = requirementString.replaceAll("[^0-9]", "");
     int skillValue = skillValueText.isEmpty() ? 0 : Integer.parseInt(skillValueText);
     switch (skillName)
@@ -571,7 +668,7 @@ public class ExtractorSpecialAbility extends Extractor
         if (vm.find())
         {
           String valueText = vm.group();
-          Optional<SkillKey> sko = SkillKey.fromString(skillText);
+          Optional<SkillKey> sko = SkillKey.fromString(skillText.replace("oder ", "").trim());
           Optional<MysticalSkillKey> msko = Optional.empty();
           Optional<CombatSkillKey> csko = Optional.empty();
           if (sko.isPresent())
@@ -599,7 +696,7 @@ public class ExtractorSpecialAbility extends Extractor
 
           if (!sko.isPresent() && !msko.isPresent() && !csko.isPresent())
           {
-            throw new IllegalArgumentException("No enum MysticalSkillKey constant with name " + skillText);
+            throw new IllegalArgumentException("No enum MysticalSkillKey constant with name " + skillText + " for ability " + name);
           }
 
         }
@@ -617,12 +714,16 @@ public class ExtractorSpecialAbility extends Extractor
     RequirementMysticalSkill rms = null;
 
     boolean isHandled = false;
-    if (preconditions.equals("FW von Holzbearbeitung und Metallbearbeitung muss zusammen 12 ergeben."))
+    if (preconditions.contains("FW von Holzbearbeitung und Metallbearbeitung muss zusammen 12 ergeben"))
     {
       rsss = new RequirementSkillSum();
       rsss.skillKey.add(SkillKey.holzbearbeitung);
       rsss.skillKey.add(SkillKey.metallbearbeitung);
       rsss.minSum = 12;
+      isHandled = true;
+    }
+    else if (name.equals("Geländekunde"))
+    {
       isHandled = true;
     }
     else if (preconditions.contains("je nach verwendeten Material"))
@@ -746,20 +847,55 @@ public class ExtractorSpecialAbility extends Extractor
     return rss;
   }
 
-  private static String extractReqStringForLevel(String text, int currentLevel)
+  public static Map<String, String> generatePreconditionMap(String abilityName, String precondition)
   {
-    List<String> requirementsTextList = List.of(text.split("Stufe "));
-    String reqString = "";
-    if (currentLevel == 0)
+    String cleanedPrec = precondition
+        .replace("Stufe II/III/IV/V: Sonderfertigkeit Exzellenter Entschwörer Stufe I/ II/II/IV", "")
+        .replace("Präziser Schuss I", "Präziser Schuss/Wurf I")
+        .replace("Präziser Schuss II", "Präziser Schuss/Wurf II");
+    String regex = "Stufe( ?(VII|VI|V(?![a-ü])|IV|III|II|I)\\/?)+:?";
+    Map<String, String> resultMap = new HashMap<>();
+    Pattern pattern = Pattern.compile(regex);
+    Matcher matcher = pattern.matcher(cleanedPrec);
+
+    List<String> keys = new ArrayList<>();
+    while (matcher.find())
     {
-      reqString = requirementsTextList.get(0);
+      keys.add(matcher.group());
     }
-    Optional<String> applicableReqO = requirementsTextList.stream().filter(rt -> rt.startsWith(RomanNumberHelper.intToRoman(currentLevel + 1) + ":")).findFirst();
-    reqString += applicableReqO.isPresent() ? applicableReqO.get() : "";
-    /*reqString += (requirementsTextList.size() > currentLevel + 1)
-        ? requirementsTextList.get(currentLevel + 1)
-        : "";*/
-    return reqString;
+
+    if (keys.size() > 0)
+    {
+      int offset = cleanedPrec.indexOf((keys.get(0)));
+      if (offset > 0)
+      {
+        resultMap.put("all", cleanedPrec.substring(0, offset));
+      }
+      for (int i = 0; i < keys.size() - 1; i++)
+      {
+        String key = keys.get(i);
+        String value = cleanedPrec.substring(offset + key.length(), cleanedPrec.indexOf(keys.get(i + 1)));
+        offset += key.length() + value.length();
+        String cleanedKey = extractCleanedKey(key);
+        resultMap.put(cleanedKey, value);
+      }
+      String lastKey = keys.get(keys.size() - 1);
+      String lastValue = cleanedPrec.substring(cleanedPrec.indexOf(lastKey) + lastKey.length());
+      resultMap.put(extractCleanedKey(lastKey), lastValue);
+    }
+    else
+    {
+      resultMap.put("all", cleanedPrec);
+    }
+    return resultMap;
+  }
+
+  private static String extractCleanedKey(String key)
+  {
+    Matcher m = Pattern.compile("(IV|V?I{1,3}|V)(?=( |:|<|$))").matcher(key);
+    return (m.find())
+        ? m.group()
+        : key;
   }
 
   private static RequirementAttribute extractAttributeRequirement(String attributeText, String leiteigenschaftString)
@@ -769,7 +905,7 @@ public class ExtractorSpecialAbility extends Extractor
         .replace("Leiteigenschaft der Tradition", leiteigenschaftString)
         .replace("Leiteigenschaft", leiteigenschaftString)
         .replaceAll("\\d", "").trim());
-    returnValue.minValue = Integer.valueOf(attributeText.replaceAll("[MUKLINCHFGE]{2}|Leiteigenschaft( der Tradition)?", "").trim());
+    returnValue.minValue = Integer.valueOf(attributeText.replaceAll("[MUKLINCHFGEO]{2}|Leiteigenschaft( der Tradition)?", "").trim());
     return returnValue;
   }
 
@@ -781,11 +917,10 @@ public class ExtractorSpecialAbility extends Extractor
     return new Triplet<>(isParryOnly, isElfWeaponOnly, isDwarfWeaponOnly);
   }
 
-  public static RequirementsSpecialAbility retrieveRequirementsAbility(String preconditions, String name, int levels, int currentLevel)
+  public static RequirementsSpecialAbility retrieveRequirementsAbility(Map<String, String> preconditionMap, String name, int levels, int currentLevel, boolean isUseSamePrecondition)
   {
     RequirementsSpecialAbility returnValue = null;
-    String requirementsString = preconditions.replace("\u00AD", "-");
-    requirementsString = (levels > 1) ? extractReqStringForLevel(requirementsString, currentLevel) : requirementsString;
+    String requirementsString = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel).replace("\u00AD", "-");
 
     Matcher m = Pattern.compile("[A-ü &/()-]{3,}(?=$|,|(<br>))").matcher(requirementsString);
     while (m.find())
@@ -797,6 +932,7 @@ public class ExtractorSpecialAbility extends Extractor
       {
         List<String> reqTexts = List.of(text.split(" und | oder "));
         returnValue = returnValue == null ? new RequirementsSpecialAbility() : returnValue;
+        returnValue.logicalOpperator = LogicalOperatorKey.and;
         List<RequirementSpecialAbility> reqSa = reqTexts.stream().map(reqText -> {
           SpecialAbilityKey sak = extractSpecialAbilityKeyFromText(reqText
               .replace("Sonderfertigkeiten", "")
@@ -810,8 +946,10 @@ public class ExtractorSpecialAbility extends Extractor
               .replace("Ottagalder I", "Blutmagie (Ottagalder I)")
               .replace("Blutmagie (Ottagalder I)I", "Blutmagie (Ottagalder II)")
               .trim());
-          return generateRequirementSpecialAbility(sak, null);
-        }).collect(Collectors.toList());
+              return generateRequirementSpecialAbility(sak, null);
+            })
+            .filter(sa -> sa.abilityKey != null)
+            .collect(Collectors.toList());
         if (text.contains(" oder "))
         {
           RequirementsSpecialAbility childs = new RequirementsSpecialAbility();
@@ -830,7 +968,9 @@ public class ExtractorSpecialAbility extends Extractor
       }
     }
 
-    return returnValue;
+    return (returnValue != null && (returnValue.childs != null || returnValue.requirements != null && returnValue.requirements.size() > 0))
+        ? returnValue
+        : null;
   }
 
   private static Pair<Boolean, RequirementsSpecialAbility> handleRequirementAbilitiesExceptions(String text, String name)
@@ -939,15 +1079,5 @@ public class ExtractorSpecialAbility extends Extractor
         || text.isEmpty();
   }
 
-  public static SkillApplication retrieveSkillApplication(String rules)
-  {
-    SkillApplication returnValue = null;
 
-    if (PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules).find())
-    {
-      returnValue = new SkillApplication();
-    }
-
-    return returnValue;
-  }
 }

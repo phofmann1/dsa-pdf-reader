@@ -1,6 +1,7 @@
 package de.pho.dsapdfreader.dsaconverter.strategies;
 
 import java.util.List;
+import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 import de.pho.dsapdfreader.config.TopicEnum;
@@ -33,7 +34,7 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
       {
         isBold = extractOptionalParameterBoolean(parameters, IS_BOLD);
       }
-      int newSize = extractOptionalParameterInt(parameters, SIZE);
+      OptionalInt newSize = extractOptionalParameterInt(parameters, SIZE);
 
       logApplicationOfStrategy(description);
       List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
@@ -47,23 +48,23 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
     return returnValue;
   }
 
-  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double onLine, String oldText, String newText, int newSize, Boolean isBold, String description)
+  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double onLine, String oldText, String newText, OptionalInt newSize, Boolean isBold, String description)
   {
     return textList.stream()
         .map(t -> t.onLine == onLine ? changeText(t, oldText, newText, newSize, isBold) : t).collect(Collectors.toList());
 
   }
 
-  private TextWithMetaInfo changeText(TextWithMetaInfo t, String oldText, String newText, int newSize, Boolean isBold)
+  private TextWithMetaInfo changeText(TextWithMetaInfo t, String oldText, String newText, OptionalInt newSize, Boolean isBold)
   {
     if (oldText != null && newText != null)
     {
       t.text = t.text.replace(oldText, newText);
     }
 
-    if (newSize > -1)
+    if (newSize.isPresent())
     {
-      t.size = newSize;
+      t.size = newSize.getAsInt();
     }
 
     if (isBold != null)

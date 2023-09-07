@@ -1,5 +1,48 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
 
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Predigten und Visionen on 131" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>131</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>76</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Predigten und Visionen on 131" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>132</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>19</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemovePages - 210 to 367">
+        <strategyClass>StrategyRemovePages</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>134</value>
+            </parameter>
+            <parameter>
+                <key>untilPage</key>
+                <value>161</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategyPutToEndOfPage - Klerikal allgemein an den Anfang stellen S.162" index="1">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -20,24 +63,6 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyRemoveLinesFromPage - page 186 - Entfernen der alten Tradition" index="1">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>186</value>
-            </parameter>
-            <parameter>
-                <key>fromLine</key>
-                <value>0</value>
-            </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>999</value>
-            </parameter>
-        </params>
-    </strategy>
-
     <strategy name="StrategyRemoveLinesFromPage - page 329 - Übersichtstabelle" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
@@ -51,7 +76,7 @@
             </parameter>
             <parameter>
                 <key>untilLine</key>
-                <value>35</value>
+                <value>34</value>
             </parameter>
         </params>
     </strategy>

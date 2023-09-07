@@ -38,3 +38,7 @@ false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Re
 false;Götter_2;C:/privat/pdf.lib/import;Aventurisches Gotterwirken II - 01 - Regeln.pdf;CEREMONIES;92;44;110;999;1300;1100;topic-mapping-cleric-2-ceremonies.xml;
 false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;MELODIES;45;1;48;;1300;1100;topic-mapping-magic-1-melodies.xml;
 false;Magie_1;C:/privat/pdf.lib/import;Aventurische Magie I - 01 - Regeln.pdf;DANCES;59;1;62;;1300;1100;topic-mapping-magic-1-dances.xml;
+
+
+false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln - alt.pdf;SKILLS;61;58;86;;1300;1100;topic-mapping-kodex-swords-skills.xml;
+false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln - alt.pdf;ABILITIES;251;;337;;1300;1100;topic-mapping-kodex-swords-abilities-old.xml;

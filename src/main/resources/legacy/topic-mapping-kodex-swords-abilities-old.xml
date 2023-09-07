@@ -1,0 +1,340 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../topic-mapping.xsd">
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize - BKW from special Abilities" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveTextSize - Boxen" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Intro 251" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>251</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>9</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Intro 273" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>273</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>3</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>5</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Intro 277" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>277</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>990</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Intro 278" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>278</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>19</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Info Talentstile erwerben 278" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>278</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>19</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Spalte 2 hinter Spalte 1 setzen 278" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>278</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Intro 288" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>288</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>66</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>81</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - complete 289" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>289</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>990</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - Split AP-Wert Blindkampf 292" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>292</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>72</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>8</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Blindkampf make not bold 292">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>292</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>72.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - remove I and  I from page 296" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>296</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>63</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - content after headline 307" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>307</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - Voraussetzungen" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>313</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>9</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>50</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Voraussetzungen" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>313</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>9.1</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>15</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - make Voraussetzung bold on page 313">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>313</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>9.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - content after Headline 322" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>322</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>74</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+</topic-strategies>

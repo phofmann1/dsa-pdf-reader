@@ -5,6 +5,7 @@ import static de.pho.dsapdfreader.tools.roman.RomanNumberHelper.romanToInt;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
@@ -28,11 +29,14 @@ import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.DsaState;
+import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
 import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
@@ -132,6 +136,8 @@ public class LoadToSpecialAbility
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
     boolean isIgnored = extractSpecialAbilityIgnored(raw);
+    raw.name = raw.name.replace("Göttlicher Schutz", "Göttlicher Schutz I-II")
+        .replace("Herrschaft über Dämonen", "Herrschaft über Dämonen I-III");
     if (!isIgnored)
     {
       int levels = extractLevels(raw);
@@ -146,8 +152,12 @@ public class LoadToSpecialAbility
         SpecialAbility specialAbility = new SpecialAbility();
         specialAbility.name = extractName(baseName, levels, currentLevel, ignoreBrackets);
         boolean isAuthor = specialAbility.name.equals("Schriftstellerei");
-        if (!isAuthor)
+        boolean isHealingSpec = specialAbility.name.equals("Heilungsspezialgebiet");
+        boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");
+
+        if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts)
           specialAbility.key = ExtractorSpecialAbility.retrieve(specialAbility.name);
+
         specialAbility.publication = Publication.valueOf(raw.publication);
         specialAbility.category = raw.abilityCategory;
         specialAbility.ap = ExtractorAP.retrieve(raw.ap, currentLevel);
@@ -162,12 +172,13 @@ public class LoadToSpecialAbility
         specialAbility.isOnlyParryWeapon = allowedWepons.getValue0();
         specialAbility.isOnlyElfenWeapon = allowedWepons.getValue1();
         specialAbility.isOnlyDwarfenWeapon = allowedWepons.getValue2();
-
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
+
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
 
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
         {
+
           SkillUsage su = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
           if (su != null)
           {
@@ -177,36 +188,60 @@ public class LoadToSpecialAbility
 
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
         {
-          String forSkill = ExtractorSpecialAbility.retrieveSkillApplicationForSkill(raw.rules);
-          if (forSkill != null && !forSkill.isEmpty())
+          if (ExtractorSpecialAbility.PAT_HAS_NEW_SKILL_APPLICATION.matcher(raw.rules).find())
           {
-            if (specialAbility.skillApplications == null)
+            String keyString = Extractor.extractKeyTextFromTextWithUmlauts(specialAbility.name).toLowerCase();
+            try
             {
-              specialAbility.skillApplications = new ArrayList<>();
+              specialAbility.newSkillApplicationKey = SkillApplicationKey.valueOf(keyString);
             }
-            specialAbility.skillApplications.add(SkillApplicationKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(specialAbility.name).toLowerCase()));
+            catch (IllegalArgumentException e)
+            {
+              System.out.println("SA: " + keyString);
+            }
           }
         }
-        //TODO: specialAbility.skillApplication;
+
+
+        boolean isUseSamePrecondition = levels > 1 && !raw.preconditions.contains("Stufe");
+
+        specialAbility.requiredState = extractRequiredState(raw.preconditions);
+
+        raw.preconditions = raw.preconditions
+            .replace("Status Kind der Finsternis", "")
+            .replace("Status Lykanthrop", "")
+            .replace("Sonderfertigkeit Selbstbestimmter Verwandlungszeitpunkt", "Sonderfertigkeit Selbstbestimmter Verwandlungszeitpunkt I");
+        //specialAbility.name.startsWith("Schnellladen ");
+        Map<String, String> preconditionsMap = ExtractorSpecialAbility.generatePreconditionMap(specialAbility.name, raw.preconditions);
+
 
         specialAbility.requiredSpecie = ExtractorSpecialAbility.retrieveRequiredSpecie(raw.preconditions);
         specialAbility.requireOneOfTraditions = ExtractorSpecialAbility.retrieveRequiredTradition(raw.preconditions, specialAbility.name);
         specialAbility.requireOneOfBoons = ExtractorSpecialAbility.retrieveRequiredOneOfBoons(specialAbility.category);
         specialAbility.requireNoneOfBoons = ExtractorSpecialAbility.retrieveRequiredNoneOfBoons(raw.preconditions, specialAbility.key);
-        specialAbility.requirementsAttribute = ExtractorSpecialAbility.retrieveRequirementAttribute(raw.preconditions, levels, currentLevel, specialAbility.category);
-        Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> reqs = ExtractorSpecialAbility.retrieveRequirementsSkill(raw.preconditions, levels, currentLevel, specialAbility.name);
+        specialAbility.requirementsAttribute = ExtractorSpecialAbility.retrieveRequirementAttribute(preconditionsMap, levels, currentLevel, specialAbility.category, isUseSamePrecondition, specialAbility.name);
+
+        Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> reqs = ExtractorSpecialAbility.retrieveRequirementsSkill(preconditionsMap, levels, currentLevel, specialAbility.name, isUseSamePrecondition);
         specialAbility.requirementsSkill = reqs.getValue0();
         specialAbility.requirementsSkillsSum = reqs.getValue1();
         specialAbility.requirementsCombatSkill = reqs.getValue2();
         specialAbility.requirementMysticalSkill = reqs.getValue3();
-        specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(raw.preconditions, specialAbility.name, levels, currentLevel);
+        specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(preconditionsMap, specialAbility.name, levels, currentLevel, isUseSamePrecondition);
       /*
       specialAbility.valueChange;
       */
-
+        // Heilungsspezialgebiet (Anwendungsgebiet)
         if (isAuthor)
         {
           returnValue.addAll(generateScribeList(specialAbility));
+        }
+        else if (isHealingSpec)
+        {
+          returnValue.addAll(generateHealingSpecList(specialAbility));
+        }
+        else if (isGebieterDesAspekts)
+        {
+          returnValue.addAll(generateGebieterDesAspektsList(specialAbility));
         }
         else
         {
@@ -215,6 +250,256 @@ public class LoadToSpecialAbility
       }
     }
     return returnValue.stream();
+  }
+
+  private static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility)
+  {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    specialAbility.newSkillUsageKey = null;
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_antimagie,
+        "Gebieter/in der Antimagie")
+    );
+
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_begierde,
+        "Gebieter/in der Begierde"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_bildung,
+        "Gebieter/in der Bildung"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_ekstase,
+        "Gebieter/in der Ekstase"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_erkenntnis,
+        "Gebieter/in der Erkenntnis"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_flamme,
+        "Gebieter/in der Flamme"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_freiheit,
+        "Gebieter/in der Freiheit"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_freundschaft,
+        "Gebieter/in der Freundschaft"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_harmonie,
+        "Gebieter/in der Harmonie"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_heilung,
+        "Gebieter/in der Heilung"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_hilfsbereitschaft,
+        "Gebieter/in der Hilfsbereitschaft"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_jagd,
+        "Gebieter/in der Jagd"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_kälte,
+        "Gebieter/in der Kälte"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_kraft,
+        "Gebieter/in der Kraft"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_landwirtschaft,
+        "Gebieter/in der Landwirtschaft"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_magie,
+        "Gebieter/in der Magie"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_natur,
+        "Gebieter/in der Natur"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_ordnung,
+        "Gebieter/in der Ordnung"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_reise,
+        "Gebieter/in der Reise"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_schatten,
+        "Gebieter/in der Schatten"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_tapferkeit,
+        "Gebieter/in der Tapferkeit"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_träume,
+        "Gebieter/in der Träume"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_vergänglichkeit,
+        "Gebieter/in der Vergänglichkeit"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_vision,
+        "Gebieter/in der Vision"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_der_wogen,
+        "Gebieter/in der Wogen"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_erzes,
+        "Gebieter/in des Erzes"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_feuers,
+        "Gebieter/in des Feuers"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_guten_goldes,
+        "Gebieter/in des guten Goldes"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_guten_kampfes,
+        "Gebieter/in des guten Kampfes"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_handels,
+        "Gebieter/in des Handels"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_handwerks,
+        "Gebieter/in des Handwerks"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_heims,
+        "Gebieter/in des Heims"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_rausches,
+        "Gebieter/in des Rausches"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_schicksals,
+        "Gebieter/in des Schicksals"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_schilds,
+        "Gebieter/in des Schilds"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_sturms,
+        "Gebieter/in des Sturms"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_todes,
+        "Gebieter/in des Todes"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_wandels,
+        "Gebieter/in des Wandels"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_winds,
+        "Gebieter/in des Windes"));
+    returnValue.add(generateGebieterDesAspekts(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.gebieter_in_des_wissens,
+        "Gebieter/in des Wissens"));
+
+    return returnValue;
+  }
+
+  private static SpecialAbility generateGebieterDesAspekts(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name)
+  {
+    specialAbility.key = specialAbilityKey;
+    specialAbility.name = name;
+    return specialAbility;
+  }
+
+  private static Collection<? extends SpecialAbility> generateHealingSpecList(SpecialAbility specialAbility)
+  {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    specialAbility.newSkillUsageKey = null;
+    returnValue.add(generateHealingSpec(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.heilungsspezialgebiet_amputieren,
+        SkillUsageKey.amputieren,
+        "Heilungsspezialist (Amputieren)",
+        8, 8)
+    );
+    returnValue.add(generateHealingSpec(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.heilungsspezialgebiet_chirurgie,
+        SkillUsageKey.chirurgie,
+        "Heilungsspezialist (Chirurgie)",
+        12, 12));
+    returnValue.add(generateHealingSpec(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.heilungsspezialgebiet_knochenbrüche,
+        SkillUsageKey.knochenbrüche,
+        "Heilungsspezialist (Knochenbrüche)",
+        5));
+    returnValue.add(generateHealingSpec(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.heilungsspezialgebiet_verbrennungen,
+        SkillUsageKey.verbrennungen,
+        "Heilungsspezialist (Verbrennungen)",
+        8, 8));
+    returnValue.add(generateHealingSpec(
+        ObjectMerger.merge(specialAbility, new SpecialAbility()),
+        SpecialAbilityKey.heilungsspezialgebiet_zahnbehandlung,
+        SkillUsageKey.zahnbehandlung,
+        "Heilungsspezialist (Zahnebehandlung)",
+        3));
+
+    return returnValue;
+  }
+
+  private static SpecialAbility generateHealingSpec(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, SkillUsageKey skillUsageKey, String name, int ap)
+  {
+    return generateHealingSpec(specialAbility, specialAbilityKey, skillUsageKey, name, ap, 0);
+  }
+
+  private static SpecialAbility generateHealingSpec(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, SkillUsageKey skillUsageKey, String name, int ap, int minSkillValue)
+  {
+    specialAbility.key = specialAbilityKey;
+    specialAbility.newSkillUsageKey = skillUsageKey;
+    specialAbility.name = name;
+    specialAbility.ap = ap;
+
+    if (minSkillValue > 0)
+    {
+      RequirementsSkill rs = new RequirementsSkill();
+      rs.logicalOpperator = LogicalOperatorKey.and;
+      RequirementSkill r = new RequirementSkill();
+      r.minValue = minSkillValue;
+      r.skillKey = SkillKey.heilkunde_wunden;
+      rs.requirements = List.of(r);
+      specialAbility.requirementsSkill = rs;
+    }
+    return specialAbility;
+  }
+
+  private static DsaState extractRequiredState(String preconditions)
+  {
+    if (preconditions.contains("Status Kind der Finsternis")) return DsaState.kind_der_finsternis;
+    else if (preconditions.contains("Status Lykanthrop")) return DsaState.lykanthrop;
+    else return null;
   }
 
   private static boolean extractSpecialAbilityIgnored(SpecialAbilityRaw raw)
@@ -294,7 +579,7 @@ public class LoadToSpecialAbility
     returnValue.add(generateSchriftstellerei(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.schriftstellerei_bekehren_und_überzeugen_hetzschriften,
-        "Herzschriften",
+        "Hetzschriften",
         SkillKey.bekehren_und_überzeugen));
 
     returnValue.add(generateSchriftstellerei(
@@ -394,7 +679,7 @@ public class LoadToSpecialAbility
   {
     scribe.key = abilityKey;
     scribe.name = scribe.name + " " + usageName.replace("Fachpublikation", "").trim();
-
+    scribe.newSkillUsageKey = SkillUsageKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(usageName).toLowerCase());
     scribe.requirementsSkill = new RequirementsSkill();
     RequirementSkill r = new RequirementSkill();
     r.skillKey = skillKey;

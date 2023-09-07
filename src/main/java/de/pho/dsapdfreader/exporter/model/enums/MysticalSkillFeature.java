@@ -4,149 +4,149 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum MysticalSkillFeature
 {
-    COMMON,
-    DEFENSIVE,
-    DESIRE,
-    EDUCATION,
-    BLOOD,
-    DEMONIC,
-    DJUNGLE,
-    INFLUENCE,
-    ICE,
-    EXTACY,
-    ELEMENTAL,
-    EPIPHANY,
-    ORE,
-    FIRE,
-    FLAME,
-    FREEDOM,
-    FRIENDSHIP,
-    COMMUNITY,
-    GOOD_COMBAT,
-    GOOD_GOLD,
-    TRADE,
-    CRAFT,
-    HARMONY,
-    HARDNESS,
-    HEALING,
-    HOME,
-    CLAIRVOYANCE,
-    HELPFULNESS,
-    ILLUSION,
-    HUNT,
-    COLD,
-    STRENGTH,
-    AGRICULTURE,
-    SUFFERING,
-    MAGIC,
-    MOON,
-    NAMELESS,
-    NATURE,
-    OBJECT,
-    ORDER,
-    INTOXICATION,
-    TRAVEL,
-    SHADOW,
-    FATE,
-    SHIELD,
-    SLEEP,
-    SUN,
-    SPHERES,
-    STONE,
-    STORM,
-    COURAGE,
-    TELEKINETIC,
-    TEMPORAL,
-    ANIMAL,
-    DEATH,
-    DREAM,
-    TRANSIENCE,
-    TRANSFORMATION,
-    VISION,
-    CHANGE,
-    SAVAGERY,
-    WIND,
-    WINTER,
-    KNOWLEDGE,
-    WAVES,
-    WOLFS,
-    TIME,
-    COMMON_SHAMAN;
+  common,
+  defensive,
+  desire,
+  education,
+  blood,
+  demonic,
+  djungle,
+  influence,
+  ice,
+  extacy,
+  elemental,
+  epiphany,
+  ore,
+  fire,
+  flame,
+  freedom,
+  friendship,
+  community,
+  good_combat,
+  good_gold,
+  trade,
+  craft,
+  harmony,
+  hardness,
+  healing,
+  home,
+  clairvoyance,
+  helpfulness,
+  illusion,
+  hunt,
+  cold,
+  strength,
+  agriculture,
+  suffering,
+  magic,
+  moon,
+  nameless,
+  nature,
+  object,
+  order,
+  intoxication,
+  travel,
+  shadow,
+  fate,
+  shield,
+  sleep,
+  sun,
+  spheres,
+  stone,
+  storm,
+  courage,
+  telekinetic,
+  temporal,
+  animal,
+  death,
+  dream,
+  transience,
+  transformation,
+  vision,
+  change,
+  savagery,
+  wind,
+  winter,
+  knowledge,
+  waves,
+  wolfs,
+  common_shaman,
+  time;
 
-    public static MysticalSkillFeature fromString(String text)
-    {
-        return switch (text.toLowerCase())
-            {
-                case "allgemein" -> MysticalSkillFeature.COMMON;
-                case "antimagie" -> MysticalSkillFeature.DEFENSIVE;
-                case "begierde" -> MysticalSkillFeature.DESIRE;
-                case "bildung" -> MysticalSkillFeature.EDUCATION;
-                case "blut" -> MysticalSkillFeature.BLOOD;
-                case "dämonisch" -> MysticalSkillFeature.DEMONIC;
-                case "dschungel" -> MysticalSkillFeature.DJUNGLE;
-                case "einfluss" -> MysticalSkillFeature.INFLUENCE;
-                case "eis" -> MysticalSkillFeature.ICE;
-                case "ekstase" -> MysticalSkillFeature.EXTACY;
-                case "elementar" -> MysticalSkillFeature.ELEMENTAL;
-                case "erkenntnis" -> MysticalSkillFeature.EPIPHANY;
-                case "erz" -> MysticalSkillFeature.ORE;
-                case "feuer" -> MysticalSkillFeature.FIRE;
-                case "flammen" -> MysticalSkillFeature.FLAME;
-                case "freiheit" -> MysticalSkillFeature.FREEDOM;
-                case "freundschaft" -> MysticalSkillFeature.FRIENDSHIP;
-                case "gemeinschaft" -> MysticalSkillFeature.COMMUNITY;
-                case "guter kampf" -> MysticalSkillFeature.GOOD_COMBAT;
-                case "gutes gold" -> MysticalSkillFeature.GOOD_GOLD;
-                case "handel" -> MysticalSkillFeature.TRADE;
-                case "handwerk" -> MysticalSkillFeature.CRAFT;
-                case "harmonie" -> MysticalSkillFeature.HARMONY;
-                case "härte" -> MysticalSkillFeature.HARDNESS;
-                case "heilung" -> MysticalSkillFeature.HEALING;
-                case "heim" -> MysticalSkillFeature.HOME;
-                case "hellsicht" -> MysticalSkillFeature.CLAIRVOYANCE;
-                case "hilfsbereitschaft" -> MysticalSkillFeature.HELPFULNESS;
-                case "illusion" -> MysticalSkillFeature.ILLUSION;
-                case "jagd" -> MysticalSkillFeature.HUNT;
-                case "kälte" -> MysticalSkillFeature.COLD;
-                case "kraft" -> MysticalSkillFeature.STRENGTH;
-                case "landwirtschaft" -> MysticalSkillFeature.AGRICULTURE;
-                case "leiden" -> MysticalSkillFeature.SUFFERING;
-                case "magie" -> MysticalSkillFeature.MAGIC;
-                case "mond" -> MysticalSkillFeature.MOON;
-                case "namenloser" -> MysticalSkillFeature.NAMELESS;
-                case "natur" -> MysticalSkillFeature.NATURE;
-                case "objekt" -> MysticalSkillFeature.OBJECT;
-                case "ordnung" -> MysticalSkillFeature.ORDER;
-                case "rausch" -> MysticalSkillFeature.INTOXICATION;
-                case "reise" -> MysticalSkillFeature.TRAVEL;
-                case "schatten" -> MysticalSkillFeature.SHADOW;
-                case "schicksal" -> MysticalSkillFeature.FATE;
-                case "schild" -> MysticalSkillFeature.SHIELD;
-                case "schlaf" -> MysticalSkillFeature.SLEEP;
-                case "sonne" -> MysticalSkillFeature.SUN;
-                case "sphären" -> MysticalSkillFeature.SPHERES;
-                case "stein" -> MysticalSkillFeature.STONE;
-                case "sturm" -> MysticalSkillFeature.STORM;
-                case "tapferkeit" -> MysticalSkillFeature.COURAGE;
-                case "telekinese" -> MysticalSkillFeature.TELEKINETIC;
-                case "temporal" -> MysticalSkillFeature.TEMPORAL;
-                case "tier" -> MysticalSkillFeature.ANIMAL;
-                case "tod" -> MysticalSkillFeature.DEATH;
-                case "traum" -> MysticalSkillFeature.DREAM;
-                case "vergänglichkeit" -> MysticalSkillFeature.TRANSIENCE;
-                case "verwandlung" -> MysticalSkillFeature.TRANSFORMATION;
-                case "vision" -> MysticalSkillFeature.VISION;
-                case "wandel" -> MysticalSkillFeature.CHANGE;
-                case "wildheit" -> MysticalSkillFeature.SAVAGERY;
-                case "wind" -> MysticalSkillFeature.WIND;
-                case "winter" -> MysticalSkillFeature.WINTER;
-                case "wissen" -> MysticalSkillFeature.KNOWLEDGE;
-                case "wogen" -> MysticalSkillFeature.WAVES;
-                case "wölfe" -> MysticalSkillFeature.WOLFS;
-                case "allgemein schamanenritus" -> MysticalSkillFeature.COMMON_SHAMAN;
-                case "zeit" -> MysticalSkillFeature.TIME;
-                default -> null;
-            };
+  public static MysticalSkillFeature fromString(String text)
+  {
+    return switch (text.toLowerCase())
+        {
+          case "allgemein" -> MysticalSkillFeature.common;
+          case "antimagie" -> MysticalSkillFeature.defensive;
+          case "begierde" -> MysticalSkillFeature.desire;
+          case "bildung" -> MysticalSkillFeature.education;
+          case "blut" -> MysticalSkillFeature.blood;
+          case "dämonisch" -> MysticalSkillFeature.demonic;
+          case "dschungel" -> MysticalSkillFeature.djungle;
+          case "einfluss" -> MysticalSkillFeature.influence;
+          case "eis" -> MysticalSkillFeature.ice;
+          case "ekstase" -> MysticalSkillFeature.extacy;
+          case "elementar" -> MysticalSkillFeature.elemental;
+          case "erkenntnis" -> MysticalSkillFeature.epiphany;
+          case "erz" -> MysticalSkillFeature.order;
+          case "feuer" -> MysticalSkillFeature.fire;
+          case "flammen" -> MysticalSkillFeature.flame;
+          case "freiheit" -> MysticalSkillFeature.freedom;
+          case "freundschaft" -> MysticalSkillFeature.friendship;
+          case "gemeinschaft" -> MysticalSkillFeature.community;
+          case "guter kampf" -> MysticalSkillFeature.good_combat;
+          case "gutes gold" -> MysticalSkillFeature.good_gold;
+          case "handel" -> MysticalSkillFeature.trade;
+          case "handwerk" -> MysticalSkillFeature.craft;
+          case "harmonie" -> MysticalSkillFeature.harmony;
+          case "härte" -> MysticalSkillFeature.hardness;
+          case "heilung" -> MysticalSkillFeature.healing;
+          case "heim" -> MysticalSkillFeature.home;
+          case "hellsicht" -> MysticalSkillFeature.clairvoyance;
+          case "hilfsbereitschaft" -> MysticalSkillFeature.helpfulness;
+          case "illusion" -> MysticalSkillFeature.illusion;
+          case "jagd" -> MysticalSkillFeature.hunt;
+          case "kälte" -> MysticalSkillFeature.cold;
+          case "kraft" -> MysticalSkillFeature.strength;
+          case "landwirtschaft" -> MysticalSkillFeature.agriculture;
+          case "leiden" -> MysticalSkillFeature.suffering;
+          case "magie" -> MysticalSkillFeature.magic;
+          case "mond" -> MysticalSkillFeature.moon;
+          case "namenloser" -> MysticalSkillFeature.nameless;
+          case "natur" -> MysticalSkillFeature.nature;
+          case "objekt" -> MysticalSkillFeature.object;
+          case "ordnung" -> MysticalSkillFeature.order;
+          case "rausch" -> MysticalSkillFeature.intoxication;
+          case "reise" -> MysticalSkillFeature.travel;
+          case "schatten" -> MysticalSkillFeature.shadow;
+          case "schicksal" -> MysticalSkillFeature.fate;
+          case "schild" -> MysticalSkillFeature.shield;
+          case "schlaf" -> MysticalSkillFeature.sleep;
+          case "sonne" -> MysticalSkillFeature.sun;
+          case "sphären" -> MysticalSkillFeature.spheres;
+          case "stein" -> MysticalSkillFeature.stone;
+          case "sturm" -> MysticalSkillFeature.storm;
+          case "tapferkeit" -> MysticalSkillFeature.courage;
+          case "telekinese" -> MysticalSkillFeature.telekinetic;
+          case "temporal" -> MysticalSkillFeature.temporal;
+          case "tier" -> MysticalSkillFeature.animal;
+          case "tod" -> MysticalSkillFeature.death;
+          case "traum" -> MysticalSkillFeature.dream;
+          case "vergänglichkeit" -> MysticalSkillFeature.transience;
+          case "verwandlung" -> MysticalSkillFeature.transformation;
+          case "vision" -> MysticalSkillFeature.vision;
+          case "wandel" -> MysticalSkillFeature.change;
+          case "wildheit" -> MysticalSkillFeature.savagery;
+          case "wind" -> MysticalSkillFeature.wind;
+          case "winter" -> MysticalSkillFeature.winter;
+          case "wissen" -> MysticalSkillFeature.knowledge;
+          case "wogen" -> MysticalSkillFeature.waves;
+          case "wölfe" -> MysticalSkillFeature.wolfs;
+          case "allgemein schamanenritus" -> MysticalSkillFeature.common_shaman;
+          case "zeit" -> MysticalSkillFeature.time;
+          default -> null;
+        };
     }
 
     @JsonValue

@@ -1,0 +1,238 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>123</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>124</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>125</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>126</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - remove between abilities" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>56</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>76</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Column 2" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>19</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>55</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - separate gifts from first gift (sikaryan)" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>32</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Sikaryan-Raub-Sonderfertigkeiten Gabe">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - separate gifts from first gift (vampire)" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>71</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>17</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Vampirische Gaben">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>71</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - separate gifts from first gift" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>77</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>21</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Lykanthropische Gabe">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>77</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

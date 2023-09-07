@@ -72,6 +72,7 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
     if (lineToSplitOptional.isPresent())
     {
       TextWithMetaInfo lineToSplit = lineToSplitOptional.get();
+      int index = textList.indexOf(lineToSplit);
       try
       {
         String newLineText = lineToSplit.text.substring(splitAfterPosition).trim();
@@ -90,8 +91,9 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
         newLine.order = round(lineToSplit.order + idx, 2);
 
         lineToSplit.text = lineToSplit.text.substring(0, splitAfterPosition).trim();
-        textList.add((int) splitLine, newLine);
-            }
+
+        textList.add(index, newLine);
+      }
             catch (StringIndexOutOfBoundsException e)
             {
                 String msg = "Split Line(" + splitLine + " of " + textList.size() + ") on Position (" + splitAfterPosition + " of " + lineToSplit.text.length() + "): \r\n\t" + lineToSplit.text;

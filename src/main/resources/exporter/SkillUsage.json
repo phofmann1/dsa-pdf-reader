@@ -152,5 +152,40 @@
     "skillKeys": [
       17
     ]
+  },
+  {
+    "name": "Amputation",
+    "key": 238,
+    "skillKeys": [
+      49
+    ]
+  },
+  {
+    "name": "Chirurgie",
+    "key": 251,
+    "skillKeys": [
+      49
+    ]
+  },
+  {
+    "name": "Knochenbrüche",
+    "key": 272,
+    "skillKeys": [
+      49
+    ]
+  },
+  {
+    "name": "Verbrennungen",
+    "key": 303,
+    "skillKeys": [
+      49
+    ]
+  },
+  {
+    "name": "Zahnebehandlung",
+    "key": 397,
+    "skillKeys": [
+      49
+    ]
   }
 ]

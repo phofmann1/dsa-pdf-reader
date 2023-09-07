@@ -28,7 +28,24 @@ public enum SpecialAbilityCategoryKey
   werebeeing,
   magic_stile,
   magic_signs,
-  ;
+  sikaryan_deprivation,
+  combat_stile_alien,
+  pact_demonic_common,
+  pact_demonic_blakharaz,
+  pact_demonic_belhalhar,
+  pact_demonic_charyptoroth,
+  pact_demonic_lolgramoth,
+  pact_demonic_thargunitoth,
+  pact_demonic_amazeroth,
+  pact_demonic_nagrach,
+  pact_demonic_asfaloth,
+  pact_demonic_tasfarelel,
+  pact_demonic_mishkara,
+  pact_demonic_agrimoth,
+  pact_demonic_belkelel,
+  pact_demonic_aphasmayra,
+  pact_demonic_aphestadil,
+  pact_demonic_heskatet;
 
   @JsonValue
   public int toValue()

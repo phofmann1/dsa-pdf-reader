@@ -21,7 +21,9 @@ public enum MysticalSkillCategory
   geode,
   bansign,
   goblinRitual,
-  rune;
+  rune,
+  familiar,
+  magic_sign;
 
 
   @JsonValue
