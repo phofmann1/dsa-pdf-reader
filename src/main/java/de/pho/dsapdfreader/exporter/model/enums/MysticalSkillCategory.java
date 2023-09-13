@@ -23,7 +23,7 @@ public enum MysticalSkillCategory
   goblinRitual,
   rune,
   familiar,
-  magic_sign;
+  magicSign;
 
 
   @JsonValue

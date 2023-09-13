@@ -7,21 +7,29 @@ public enum TargetCategory
     ALL,
     ANIMATED,
     DEMON,
-    ELEMENTALS,
-    HOLYOBJECT,
-    CULTURAL,
-    CREATURE,
-    OBJECT,
-    PROFANEOBJECT,
-    ANIMAL,
-    SUPERNATURAL,
-    BEING,
-    ZONE,
-    PLANT, FAIRY, UNDEAD, GHOST, POSESSED, TRICK, LIVING_BEING, LITURGY, CEREMONY;
+  ELEMENTALS,
+  HOLYOBJECT,
+  CULTURAL,
+  CREATURE,
+  OBJECT,
+  PROFANEOBJECT,
+  ANIMAL,
+  SUPERNATURAL,
+  BEING,
+  ZONE,
+  PLANT,
+  FAIRY,
+  UNDEAD,
+  GHOST,
+  POSESSED,
+  TRICK,
+  LIVING_BEING,
+  LITURGY,
+  CEREMONY;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 }

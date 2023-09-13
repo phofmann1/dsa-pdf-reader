@@ -62,5 +62,17 @@
         }
       ]
     }
+  },
+  {
+    "key": 1015,
+    "newMysticalSkillCategoryKey": 19
+  },
+  {
+    "key": 1102,
+    "newMysticalSkillCategoryKey": 17
+  },
+  {
+    "key": 1074,
+    "newMysticalSkillCategoryKey": 15
   }
 ]

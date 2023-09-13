@@ -66,7 +66,7 @@ public class ExtractorMysticalSkillVariant extends Extractor
       String resultString = matcher.group()
           .replace("Wechselsinn", "Wechselsicht")
           .replace("Aufheben von selbst aufladenden Artefakten", "Entzauberung von selbst aufladenden Artefakten");
-      resultString = (msk == MysticalSkillKey.SPELL_DAEMONISCHES_VERGESSEN && resultString.equals("Längere Wirkungsdauer. "))
+      resultString = (msk == MysticalSkillKey.spell_daemonisches_vergessen && resultString.equals("Längere Wirkungsdauer. "))
           ? "Längere Wirkungsdauer 1"
           : resultString;
       String[] results = resultString.split(" und (?!höher)");

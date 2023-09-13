@@ -44,7 +44,7 @@ import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 public class LoadToSpecialAbility
 {
 
-  private static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=(I-|\\/))[IVX]{1,4}");
+  public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=(I-|\\/))[IVX]{1,4}");
 
   private static final String[] BEEINDRUCKENDE_VORSTELLUNG_VARIANTS = {
       "Gaukeleien",
@@ -78,7 +78,7 @@ public class LoadToSpecialAbility
       "Humus"
   };
 
-  private static final String[] BRACKETED_NAMES = {
+  public static final String[] BRACKETED_NAMES = {
       "Improvisierte Liturgie",
       "Gebieter des",
       "Machtvolle Entschwörung",
@@ -212,7 +212,7 @@ public class LoadToSpecialAbility
             .replace("Status Lykanthrop", "")
             .replace("Sonderfertigkeit Selbstbestimmter Verwandlungszeitpunkt", "Sonderfertigkeit Selbstbestimmter Verwandlungszeitpunkt I");
         //specialAbility.name.startsWith("Schnellladen ");
-        Map<String, String> preconditionsMap = ExtractorSpecialAbility.generatePreconditionMap(specialAbility.name, raw.preconditions);
+        Map<String, String> preconditionsMap = ExtractorSpecialAbility.generatePreconditionMap(raw.preconditions);
 
 
         specialAbility.requiredSpecie = ExtractorSpecialAbility.retrieveRequiredSpecie(raw.preconditions);
@@ -252,7 +252,7 @@ public class LoadToSpecialAbility
     return returnValue.stream();
   }
 
-  private static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility)
+  public static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility)
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
@@ -430,7 +430,7 @@ public class LoadToSpecialAbility
     return specialAbility;
   }
 
-  private static Collection<? extends SpecialAbility> generateHealingSpecList(SpecialAbility specialAbility)
+  public static Collection<? extends SpecialAbility> generateHealingSpecList(SpecialAbility specialAbility)
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
@@ -520,7 +520,7 @@ public class LoadToSpecialAbility
     return baseName + suffix;
   }
 
-  private static String extractName(String baseName, int levels, int currentLevel, boolean removeBrackets)
+  public static String extractName(String baseName, int levels, int currentLevel, boolean removeBrackets)
   {
     String name = removeBrackets ? baseName.replaceAll(" \\(.*\\)", "") : baseName;
     String n = extractSpecialName(name, currentLevel);
@@ -535,7 +535,7 @@ public class LoadToSpecialAbility
     return n + (levels > 1 ? levelAffix : "") + bracket;
   }
 
-  private static int extractLevels(SpecialAbilityRaw msr)
+  public static int extractLevels(SpecialAbilityRaw msr)
   {
     Matcher m = EXTRACT_UPPER_ROMAN.matcher(msr.name);
     return switch (msr.name)
@@ -559,7 +559,7 @@ public class LoadToSpecialAbility
   }
 
 
-  private static List<SpecialAbility> generateScribeList(SpecialAbility specialAbility)
+  public static List<SpecialAbility> generateScribeList(SpecialAbility specialAbility)
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
@@ -678,7 +678,7 @@ public class LoadToSpecialAbility
   private static SpecialAbility generateSchriftstellerei(SpecialAbility scribe, SpecialAbilityKey abilityKey, String usageName, SkillKey skillKey)
   {
     scribe.key = abilityKey;
-    scribe.name = scribe.name + " " + usageName.replace("Fachpublikation", "").trim();
+    scribe.name = "Schriftstellerei " + usageName.replace("Fachpublikation", "").trim();
     scribe.newSkillUsageKey = SkillUsageKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(usageName).toLowerCase());
     scribe.requirementsSkill = new RequirementsSkill();
     RequirementSkill r = new RequirementSkill();

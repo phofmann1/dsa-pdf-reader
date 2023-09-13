@@ -19,7 +19,7 @@ public class ExtractorMysticalSkillKey extends Extractor
     catch (IllegalArgumentException e)
     {
       String msg = String.format("%s key for (%s - %s) could not be interpreted.", getPrefix(msr), category, msr.name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }
@@ -36,7 +36,7 @@ public class ExtractorMysticalSkillKey extends Extractor
     //handle Zaubererweiterung
     String skillKeyString = msk
         + "_"
-        + extractKeyTextFromText(variantText);
+        + extractKeyTextFromText(variantText).toLowerCase();
     skillKeyString = skillKeyString.trim();
 
     try
@@ -79,9 +79,9 @@ public class ExtractorMysticalSkillKey extends Extractor
   public static MysticalSkillKey extractMysticalSkillKeyFromText(MysticalSkillCategory category, String name)
   {
     MysticalSkillKey returnValue;
-    String skillKeyString = extractKeyTextFromText(category.name())
+    String skillKeyString = (extractKeyTextFromText(category.name())
         + "_"
-        + extractKeyTextFromText(name);
+        + extractKeyTextFromText(name)).replaceAll("_+", "_").toLowerCase();
 
     try
     {
@@ -90,6 +90,7 @@ public class ExtractorMysticalSkillKey extends Extractor
     catch (IllegalArgumentException e)
     {
       returnValue = null;
+      System.out.println(skillKeyString + ", ");
     }
     return returnValue;
   }

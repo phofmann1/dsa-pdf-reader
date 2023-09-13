@@ -31,8 +31,8 @@ false;Rüstkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausr
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;139;1;145;10;;;topic-mapping-weapons-2-melee.xml;
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;145;11;146;17;;;topic-mapping-weapons-2-ranged.xml;
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml;
-false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;61;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
-true;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
+true;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;61;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
+false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;131;;191;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;

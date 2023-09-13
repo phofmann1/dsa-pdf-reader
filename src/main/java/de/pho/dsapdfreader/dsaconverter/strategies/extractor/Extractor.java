@@ -45,15 +45,15 @@ public abstract class Extractor
         "\\Z" + // until end of text
         ")"; // ...end of lookahead;
 
-    protected static int extractFirstNumberFromText(String t, MysticalSkillRaw msr)
+    protected static int extractFirstNumberFromText(String t, String errorPrefix)
     {
-        List<Integer> results = extractNumbersFromText(t);
-        if (results.size() == 0)
-        {
-            LOGGER.debug(getPrefix(msr) + "Der Text(" + t + ") enthält keine Zahl");
-            return 0;
-        }
-        return results.get(0);
+      List<Integer> results = extractNumbersFromText(t);
+      if (results.size() == 0)
+      {
+        LOGGER.debug(errorPrefix + "Der Text(" + t + ") enthält keine Zahl");
+        return 0;
+      }
+      return results.get(0);
     }
 
     protected static List<Integer> extractNumbersFromText(String t)
@@ -78,33 +78,35 @@ public abstract class Extractor
         return null;
     }
 
-    protected static Unit extractUnitFromText(String t, MysticalSkillRaw msr)
+  protected static Unit extractUnitFromText(String t, String errorPrefix)
+  {
+    Unit[] returnValue = extractUnitsFromText(t, errorPrefix, false);
+    if (returnValue.length == 0)
     {
-        Unit[] returnValue = extractUnitsFromText(t, msr, false);
-        if (returnValue.length == 0)
-        {
-            return null;
-        } else if (returnValue.length > 1)
-        {
-            LOGGER.error("Unit (" + t + ") is not unambiguously.");
-            return null;
-        } else
+      return null;
+    }
+    else if (returnValue.length > 1)
+    {
+      LOGGER.error("Unit (" + t + ") is not unambiguously.");
+      return null;
+    }
+    else
         {
             return returnValue[0];
         }
     }
 
-    protected static Unit[] extractUnitsFromText(String t, MysticalSkillRaw msr, boolean isMandatory)
-    {
-        List<Unit> l = new ArrayList<>();
-        if (t.contains("Aktion")) l.add(Unit.ACTION);
-        // if (t.contains("")) l.add(Unit.AREA_OF_EFFECT);
-        if (t.contains("Kontinent")) l.add(Unit.CONTINENT);
-        if (t.contains("Jahrhundert")) l.add(Unit.CENTURY);
-        if (t.contains("KR") || t.contains("Kampfrunde")) l.add(Unit.COMBAT_ROUND);
-        if (t.contains("Doppelgänger")) l.add(Unit.DUPLICATE);
-        if (t.contains("Tag")) l.add(Unit.DAY);
-        if (t.contains("Stunde")) l.add(Unit.HOUR);
+  protected static Unit[] extractUnitsFromText(String t, String errorPrefix, boolean isMandatory)
+  {
+    List<Unit> l = new ArrayList<>();
+    if (t.contains("Aktion")) l.add(Unit.ACTION);
+    // if (t.contains("")) l.add(Unit.AREA_OF_EFFECT);
+    if (t.contains("Kontinent")) l.add(Unit.CONTINENT);
+    if (t.contains("Jahrhundert")) l.add(Unit.CENTURY);
+    if (t.contains("KR") || t.contains("Kampfrunde")) l.add(Unit.COMBAT_ROUND);
+    if (t.contains("Doppelgänger")) l.add(Unit.DUPLICATE);
+    if (t.contains("Tag")) l.add(Unit.DAY);
+    if (t.contains("Stunde")) l.add(Unit.HOUR);
         if (t.contains("sofort")) l.add(Unit.IMMEDIATE);
         if (t.contains("Stein")) l.add(Unit.KG);
         if (t.contains("LeP")) l.add(Unit.LEP);
@@ -138,7 +140,7 @@ public abstract class Extractor
 
         if (l.size() == 0 && isMandatory)
         {
-            LOGGER.error(getPrefix(msr) + "String (" + t + ") contains no implemented unit.");
+          LOGGER.error(errorPrefix + "String (" + t + ") contains no implemented unit.");
         }
         return l.toArray(new Unit[l.size()]);
     }

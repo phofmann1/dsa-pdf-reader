@@ -25,6 +25,8 @@ public class MysticalSkill
   public List<AttributeShort> check;
   public ResistDifficulty difficulty;
   public CastingDuration casting;
+  public CastingDuration castingLong;
+
   public MysticalSkillCategory category;
 
   public Cost skillCost;
@@ -44,6 +46,8 @@ public class MysticalSkill
 
   public Publication publication;
   public List<SkillKey> skillKeys;
+
+  public RequirementMysticalSkill requirementMysticalSkill;
 
   // public boolean favorite;
   // public boolean isElementalAttuned;

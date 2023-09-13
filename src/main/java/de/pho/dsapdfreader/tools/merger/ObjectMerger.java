@@ -15,7 +15,7 @@ public class ObjectMerger
     HashMap<Object, Object> copiedValues = new HashMap<>();
 
     //we loop through the class fields of each objects
-    for (java.lang.reflect.Field field : source.getClass().getDeclaredFields())
+    for (Field field : source.getClass().getDeclaredFields())
     {
       try
       {

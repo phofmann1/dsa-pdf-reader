@@ -4,6 +4,7 @@ import java.util.List;
 
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.DsaState;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
 import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
@@ -33,6 +34,8 @@ public class SpecialAbility
   public ValueChange valueChange;
   public SkillUsageKey newSkillUsageKey;
   public SkillApplicationKey newSkillApplicationKey;
+
+  public MysticalSkillCategory newMysticalSkillCategoryKey;
 
   public List<CombatSkillKey> combatSkillKeys;
   public boolean isOnlyParryWeapon;

@@ -20,21 +20,21 @@ public class ExtractorFeature extends Extractor
     public static List<MysticalSkillFeature> retrieveFeatures(MysticalSkillRaw msr)
     {
         return isClerical(msr.topic)
-            ? retrieveFeaturesCleric(msr)
-            : retrieveFeatureMagic(msr.feature, msr.name, msr.publication);
+            ? retrieveFeaturesCleric(msr, getPrefix(msr))
+            : retrieveFeatureMagic(msr.feature, getPrefix(msr));
     }
 
-    protected static List<MysticalSkillFeature> retrieveFeatureMagic(String feature, String name, String publication)
+    public static List<MysticalSkillFeature> retrieveFeatureMagic(String feature, String prefix)
     {
         List<MysticalSkillFeature> returnValue = new ArrayList<>();
         MysticalSkillFeature msFeature = MysticalSkillFeature.fromString(feature);
-        if (msFeature == null) LOGGER.error("Feature (" + feature + ") could not be interpreted.");
+        if (msFeature == null) LOGGER.error(prefix + "Feature (" + feature + ") could not be interpreted.");
         else returnValue.add(msFeature);
         return returnValue;
     }
 
 
-    protected static List<MysticalSkillFeature> retrieveFeaturesCleric(MysticalSkillRaw msr)
+    protected static List<MysticalSkillFeature> retrieveFeaturesCleric(MysticalSkillRaw msr, String errorPrefix)
     {
         String clericalFeatureString = (msr.commonness == null || msr.commonness.isEmpty()) ? msr.feature : msr.commonness;
         List<MysticalSkillFeature> returnValue = extractFeaturesFromString(clericalFeatureString).stream()
@@ -42,7 +42,7 @@ public class ExtractorFeature extends Extractor
             .filter(Objects::nonNull)
             .collect(Collectors.toList());
         if (returnValue.size() == 0)
-            LOGGER.error(getPrefix(msr) + "Feature (" + clericalFeatureString + ") could not be interpreted.");
+            LOGGER.error(errorPrefix + "Feature (" + clericalFeatureString + ") could not be interpreted.");
 
         return returnValue;
 

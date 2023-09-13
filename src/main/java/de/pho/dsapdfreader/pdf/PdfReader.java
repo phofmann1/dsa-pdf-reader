@@ -48,7 +48,7 @@ public class PdfReader
       cosDoc.close();
 
       return generalParser.resultTexts.stream().map(t -> {
-        t.text = DsaStringCleanupTool.cleanupString(t.text);
+        t.text = DsaStringCleanupTool.cleanupString(t.text.replace("\u00AD", "-"));
         return t;
       }).collect(Collectors.toList());
     }

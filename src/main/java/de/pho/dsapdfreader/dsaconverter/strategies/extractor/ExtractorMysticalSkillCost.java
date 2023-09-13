@@ -86,31 +86,37 @@ public class ExtractorMysticalSkillCost extends Extractor
   );
 
   private static final Logger LOGGER = LogManager.getLogger();
-  public static Cost retrieveSkillCost(MysticalSkillRaw msr)
+
+  public static Cost retrieveMysticalSkillCost(MysticalSkillRaw msr)
+  {
+    return retrieveCost(msr.cost, getPrefix(msr));
+  }
+
+  public static Cost retrieveCost(String costText, String errorPrefix)
   {
     Cost returnValue = new Cost();
-    returnValue.costText = msr.cost;
-    String restOfTxt = msr.cost;
+    returnValue.costText = costText;
+    String restOfTxt = costText;
 
     if (restOfTxt.contains("für RS"))
     {
-      applyArmorSpellCost(returnValue, restOfTxt, msr);
+      applyArmorSpellCost(returnValue, restOfTxt, errorPrefix);
     }
     else
     {
       restOfTxt = applyBaseCost(returnValue, restOfTxt);
-      restOfTxt = applyMinimalCost(returnValue, restOfTxt, msr);
-      restOfTxt = applyPermanentCost(returnValue, restOfTxt, msr);
-      restOfTxt = applyPlusCost(returnValue, restOfTxt, msr);
-      restOfTxt = applyListCost(returnValue, restOfTxt, msr);
-      applyCounterSpellCost(returnValue, restOfTxt, msr);
+      restOfTxt = applyMinimalCost(returnValue, restOfTxt, errorPrefix);
+      restOfTxt = applyPermanentCost(returnValue, restOfTxt, errorPrefix);
+      restOfTxt = applyPlusCost(returnValue, restOfTxt, errorPrefix);
+      restOfTxt = applyListCost(returnValue, restOfTxt, errorPrefix);
+      applyCounterSpellCost(returnValue, restOfTxt, errorPrefix);
       // unapplied: returnValue.costPlusPerMax = 0;
     }
 
     return returnValue;
   }
 
-  private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, String errorPrefix)
   {
     Matcher m = PAT_COST_COUNTER_SKILL.matcher(restOfTxt);
     if (m.find())
@@ -121,7 +127,7 @@ public class ExtractorMysticalSkillCost extends Extractor
       {
         String msg = String.format(
             "%s Kosten (%s) für Antimagie-Spruch hat keine zwei Zahlen",
-            getPrefix(msr),
+            errorPrefix,
             restOfTxt
         );
         LOGGER.error(msg);
@@ -141,7 +147,7 @@ public class ExtractorMysticalSkillCost extends Extractor
     return restOfTxt;
   }
 
-  private static String applyArmorSpellCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyArmorSpellCost(Cost returnValue, String restOfTxt, String prefix)
   {
     Matcher m = PAT_COST_ARMOR_SKILLS.matcher(restOfTxt);
     if (m.find())
@@ -156,7 +162,7 @@ public class ExtractorMysticalSkillCost extends Extractor
         {
           String msg = String.format(
               "%s Die Kosten für einen RS-Skill (%s) haben keine eindeutig findbaren Zahlen für Kosten und Rüstung",
-              getPrefix(msr),
+              prefix,
               m.group()
           );
           LOGGER.error(msg);
@@ -177,7 +183,7 @@ public class ExtractorMysticalSkillCost extends Extractor
     return restOfTxt;
   }
 
-  private static String applyListCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyListCost(Cost returnValue, String restOfTxt, String errorPrefix)
   {
     Matcher m = PAT_COST_LIST.matcher(restOfTxt);
     if (m.find())
@@ -189,7 +195,7 @@ public class ExtractorMysticalSkillCost extends Extractor
       }
       catch (NumberFormatException e)
       {
-        LOGGER.error(returnValue + " invalid Cost List (" + costListString + ") for(" + msr.name + ")");
+        LOGGER.error(returnValue + " invalid Cost List (" + costListString + ") for(" + errorPrefix + ")");
       }
       restOfTxt = restOfTxt.replace(costListString, "");
     }
@@ -218,7 +224,7 @@ public class ExtractorMysticalSkillCost extends Extractor
 
   }
 
-  private static String applyPlusCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyPlusCost(Cost returnValue, String restOfTxt, String errorPrefix)
   {
     Matcher m = PAT_COST_PLUS.matcher(restOfTxt);
     if (m.find())
@@ -233,9 +239,9 @@ public class ExtractorMysticalSkillCost extends Extractor
       if (m.find())
       {
         String costPlusUnitString = m.group();
-        returnValue.plusCostPerMultiplier = extractFirstNumberFromText(costPlusUnitString, msr);
+        returnValue.plusCostPerMultiplier = extractFirstNumberFromText(costPlusUnitString, errorPrefix);
         returnValue.plusCostPerMultiplier = returnValue.plusCostPerMultiplier == 0 ? 1 : returnValue.plusCostPerMultiplier;
-        returnValue.plusCostUnit = extractUnitFromText(costPlusUnitString, msr);
+        returnValue.plusCostUnit = extractUnitFromText(costPlusUnitString, errorPrefix);
         restOfTxt = restOfTxt.replace(costPlusUnitString, "");
       }
     }
@@ -254,7 +260,7 @@ public class ExtractorMysticalSkillCost extends Extractor
     return restOfTxt;
   }
 
-  private static String applyPermanentCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyPermanentCost(Cost returnValue, String restOfTxt, String errorPrefix)
   {
     Matcher m = PAT_COST_PERMANENT.matcher(restOfTxt);
     if (m.find())
@@ -266,20 +272,20 @@ public class ExtractorMysticalSkillCost extends Extractor
       }
       else
       {
-        returnValue.permanentCost = extractFirstNumberFromText(costPermanentString, msr);
+        returnValue.permanentCost = extractFirstNumberFromText(costPermanentString, errorPrefix);
       }
       restOfTxt = restOfTxt.replace(costPermanentString, "");
     }
     return restOfTxt;
   }
 
-  private static String applyMinimalCost(Cost returnValue, String restOfTxt, MysticalSkillRaw msr)
+  private static String applyMinimalCost(Cost returnValue, String restOfTxt, String errorPrefix)
   {
     Matcher m = PAT_COST_MIN.matcher(restOfTxt);
     if (m.find())
     {
       String costMinString = m.group();
-      returnValue.costMin = extractFirstNumberFromText(costMinString, msr);
+      returnValue.costMin = extractFirstNumberFromText(costMinString, errorPrefix);
       restOfTxt = restOfTxt.replace(costMinString, "");
     }
     return restOfTxt;

@@ -1,4 +1,39 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>177</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>85</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>177</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>84</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
 
 
     <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
@@ -18,6 +53,7 @@
             </parameter>
         </params>
     </strategy>
+
 
     <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
         <strategyClass>StrategyRemoveTextSize</strategyClass>
@@ -135,6 +171,24 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Table 42" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>11</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>64</value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategyRemoveLinesFromPage - Liste" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
@@ -216,6 +270,81 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Geoden Vertrautentiere 74" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>74</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>11</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - Split Merkmal from cost on page 91" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>91</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>53</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>6</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - Split AP from value on page 91" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>91</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>53.1</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>8</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - make AP bold on page 313">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>91</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>53.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
     <strategy name="StrategyConcatLinesToFirst - concat Modifikationsfokus on Page 94 for pattern recognition" index="1">
         <strategyClass>StrategyConcatLinesToFirst</strategyClass>
         <params>
@@ -254,6 +383,24 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Remove Peitsche from Page 96" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>96</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>65</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>72</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategyConcatLinesToFirst - concat Stabfixierung on Page 97 for pattern recognition" index="1">
         <strategyClass>StrategyConcatLinesToFirst</strategyClass>
         <params>
@@ -271,6 +418,101 @@
             </parameter>
         </params>
     </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Remove Animals from Page 98" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>98</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>12</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Remove Animals from Page 99" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>99</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>48</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Concat M erkmal on Page 103" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>103</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>116</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>117</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage - Remove Table from Page 116" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>116</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>70</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Hauerkettenrituale on page 120" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>43</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Remove Table from Page 121" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>121</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>78</value>
+            </parameter>
+        </params>
+    </strategy>
+
 
     <strategy name="StrategyConcatLinesToFirst - concat Todesfluch on Page 125 for pattern recognition" index="1">
         <strategyClass>StrategyConcatLinesToFirst</strategyClass>
@@ -290,7 +532,24 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Table 126" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>126</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
 
+            <parameter>
+                <key>untilLine</key>
+                <value>97</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategyPutToEndOfPage - Switch content on page 144" index="2">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -311,24 +570,54 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
-        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+
+    <strategy name="StrategyPutToEndOfPage - Zauberstecken on page 155" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>177</value>
+                <value>155</value>
             </parameter>
             <parameter>
-                <key>onLine</key>
-                <value>84</value>
+                <key>startEntryLineNo</key>
+                <value>6</value>
             </parameter>
             <parameter>
-                <key>size</key>
-                <value>1000</value>
+                <key>endEntryLineNo</key>
+                <value>37</value>
             </parameter>
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Table 163" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>163</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>66</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Optional Rule 175" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>175</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>93</value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategyPutToEndOfPage - Switch content on page 197" index="2">
         <strategyClass>
@@ -389,6 +678,39 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Remove Page 205" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>205</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Remove Biene from Page 207" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>207</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>143</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
     <strategy name="StrategyPutToEndOfPage - Switch content on page 209" index="2">
         <strategyClass>
             StrategyPutToEndOfPage
@@ -419,62 +741,23 @@
             </parameter>
             <parameter>
                 <key>untilPage</key>
-                <value>366</value>
+                <value>381</value>
             </parameter>
         </params>
     </strategy>
 
-    <strategy name="StrategyPutToEndOfPage - Switch content on page 368" index="2">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
+    <strategy name="StrategyRemoveLinesFromPage - vor Zauberzeichen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>368</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>10</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>59</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyPutToEndOfPage - Switch content on page 370" index="2">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>370</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>16</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>59</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyConcatLinesToFirst - concat Todesfluch on Page 373 for pattern recognition" index="1">
-        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>373</value>
+                <value>382</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>10</value>
+                <value>1</value>
             </parameter>
+
             <parameter>
                 <key>untilLine</key>
                 <value>11</value>
@@ -482,19 +765,155 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyRemovePages - 375 to 381">
-        <strategyClass>StrategyRemovePages</strategyClass>
+    <strategy name="StrategyRemoveLinesFromPage - Remove Rules from Page 382" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>375</value>
+                <value>382</value>
             </parameter>
             <parameter>
-                <key>untilPage</key>
-                <value>381</value>
+                <key>fromLine</key>
+                <value>13</value>
             </parameter>
 
+            <parameter>
+                <key>untilLine</key>
+                <value>28</value>
+            </parameter>
         </params>
     </strategy>
 
+
+    <strategy name="StrategyRemoveLinesFromPage - Remove Zusatzzeichen from Page 383" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>383</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>83</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>86</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Headline Bann und Schutzkreise on Page 384" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>384</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>22</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Remove headline from Page 384" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>384</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>10</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
 </topic-strategies>
+
+        <!--
+        REMOVED: war relevant für Vertrautentiere
+
+
+            <strategy name="StrategyPutToEndOfPage - Switch content on page 368" index="2">
+                <strategyClass>
+                    StrategyPutToEndOfPage
+                </strategyClass>
+                <params>
+                    <parameter>
+                        <key>applyToPage</key>
+                        <value>368</value>
+                    </parameter>
+                    <parameter>
+                        <key>startEntryLineNo</key>
+                        <value>10</value>
+                    </parameter>
+                    <parameter>
+                        <key>endEntryLineNo</key>
+                        <value>59</value>
+                    </parameter>
+                </params>
+            </strategy>
+
+            <strategy name="StrategyPutToEndOfPage - Switch content on page 370" index="2">
+                <strategyClass>
+                    StrategyPutToEndOfPage
+                </strategyClass>
+                <params>
+                    <parameter>
+                        <key>applyToPage</key>
+                        <value>370</value>
+                    </parameter>
+                    <parameter>
+                        <key>startEntryLineNo</key>
+                        <value>16</value>
+                    </parameter>
+                    <parameter>
+                        <key>endEntryLineNo</key>
+                        <value>59</value>
+                    </parameter>
+                </params>
+            </strategy>
+
+            <strategy name="StrategyConcatLinesToFirst - concat Todesfluch on Page 373 for pattern recognition" index="1">
+                <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+                <params>
+                    <parameter>
+                        <key>applyToPage</key>
+                        <value>373</value>
+                    </parameter>
+                    <parameter>
+                        <key>fromLine</key>
+                        <value>10</value>
+                    </parameter>
+                    <parameter>
+                        <key>untilLine</key>
+                        <value>11</value>
+                    </parameter>
+                </params>
+            </strategy>
+
+            <strategy name="StrategyRemovePages - 375 to 381">
+                <strategyClass>StrategyRemovePages</strategyClass>
+                <params>
+                    <parameter>
+                        <key>applyToPage</key>
+                        <value>375</value>
+                    </parameter>
+                    <parameter>
+                        <key>untilPage</key>
+                        <value>381</value>
+                    </parameter>
+
+                </params>
+            </strategy>
+           -->

@@ -3,7 +3,6 @@ package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -46,7 +45,6 @@ import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
-import de.pho.dsapdfreader.tools.roman.RomanNumberHelper;
 
 public class ExtractorSpecialAbility extends Extractor
 {
@@ -539,7 +537,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     RequirementsAttribute returnValue = null;
 
-    String requirementsString = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
+    String requirementsString = ExtractorRequirements.extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
     final String leiteigenschaftText = retrieveLeAttributeShort(sack);
     Matcher m = PAT_EXTRACT_ATTRIBUTES.matcher(requirementsString);
     if (m.find())
@@ -569,16 +567,6 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
-  private static String extractRequirementsStringForLevel(Map<String, String> preconditionMap, int levels, int currentLevel)
-  {
-    String returnValue = preconditionMap.get("all");
-    if (levels > 0)
-    {
-      returnValue += " " + preconditionMap.get(RomanNumberHelper.intToRoman(currentLevel + 1));
-    }
-    return returnValue.replaceAll("null(?=$| )", " ");
-  }
-
   private static String retrieveLeAttributeShort(SpecialAbilityCategoryKey sack)
   {
     String nonClericString = (sack == SpecialAbilityCategoryKey.magic || sack == SpecialAbilityCategoryKey.magic_advanced || sack == SpecialAbilityCategoryKey.magic_stile || sack == SpecialAbilityCategoryKey.magic_signs)
@@ -593,7 +581,7 @@ public class ExtractorSpecialAbility extends Extractor
   public static Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> retrieveRequirementsSkill(Map<String, String> preconditionMap, int levels, int currentLevel, String name, boolean isUseSamePrecondition)
   {
     Quartet<RequirementsSkill, RequirementSkillSum, RequirementsCombatSkill, RequirementMysticalSkill> returnValue = new Quartet<>(null, null, null, null);
-    String preconditions = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
+    String preconditions = ExtractorRequirements.extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
     String requirementsString = preconditions.trim()
         .replace("Leiteigenschaft der Tradition", "")
         .replace("Leiteigenschaft", "")
@@ -633,14 +621,14 @@ public class ExtractorSpecialAbility extends Extractor
     int skillValue = skillValueText.isEmpty() ? 0 : Integer.parseInt(skillValueText);
     switch (skillName)
     {
-    case "CHIMAEROFORM" -> rms.key = MysticalSkillKey.RITUAL_CHIMAEROFORM;
-    case "ARCANOVI" -> rms.key = MysticalSkillKey.RITUAL_ARCANOVI;
-    case "PENTAGRAMMA" -> rms.key = MysticalSkillKey.SPELL_PENTAGRAMMA;
-    case "HEXAGRAMMA" -> rms.key = MysticalSkillKey.SPELL_HEXAGRAMMA;
-    case "HEPTAGRAMMA" -> rms.key = MysticalSkillKey.SPELL_HEPTAGRAMMA;
-    case "TRAUMGESTALT" -> rms.key = MysticalSkillKey.RITUAL_TRAUMGESTALT;
-    case "STEIN WANDLE" -> rms.key = MysticalSkillKey.RITUAL_STEIN_WANDLE;
-    case "TOTES HANDLE" -> rms.key = MysticalSkillKey.RITUAL_TOTES_HANDLE;
+    case "CHIMAEROFORM" -> rms.key = MysticalSkillKey.ritual_chimaeroform;
+    case "ARCANOVI" -> rms.key = MysticalSkillKey.ritual_arcanovi;
+    case "PENTAGRAMMA" -> rms.key = MysticalSkillKey.spell_pentagramma;
+    case "HEXAGRAMMA" -> rms.key = MysticalSkillKey.spell_hexagramma;
+    case "HEPTAGRAMMA" -> rms.key = MysticalSkillKey.spell_heptagramma;
+    case "TRAUMGESTALT" -> rms.key = MysticalSkillKey.ritual_traumgestalt;
+    case "STEIN WANDLE" -> rms.key = MysticalSkillKey.ritual_stein_wandle;
+    case "TOTES HANDLE" -> rms.key = MysticalSkillKey.ritual_totes_handle;
     default -> LOGGER.error("SwitchCase Missing for Requirement (MS):" + name + ": " + skillName + " ->> " + skillValue);
     }
     rms.minValue = skillValue;
@@ -798,7 +786,7 @@ public class ExtractorSpecialAbility extends Extractor
     else if (name.startsWith("Zeremonialgegenstände herstellen"))
     {
       rms = new RequirementMysticalSkill();
-      rms.key = MysticalSkillKey.CEREMONY_OBJEKTWEIHE;
+      rms.key = MysticalSkillKey.ceremony_objektweihe;
       rms.minValue = 0;
     }
 
@@ -847,55 +835,13 @@ public class ExtractorSpecialAbility extends Extractor
     return rss;
   }
 
-  public static Map<String, String> generatePreconditionMap(String abilityName, String precondition)
+  public static Map<String, String> generatePreconditionMap(String precondition)
   {
     String cleanedPrec = precondition
         .replace("Stufe II/III/IV/V: Sonderfertigkeit Exzellenter Entschwörer Stufe I/ II/II/IV", "")
         .replace("Präziser Schuss I", "Präziser Schuss/Wurf I")
         .replace("Präziser Schuss II", "Präziser Schuss/Wurf II");
-    String regex = "Stufe( ?(VII|VI|V(?![a-ü])|IV|III|II|I)\\/?)+:?";
-    Map<String, String> resultMap = new HashMap<>();
-    Pattern pattern = Pattern.compile(regex);
-    Matcher matcher = pattern.matcher(cleanedPrec);
-
-    List<String> keys = new ArrayList<>();
-    while (matcher.find())
-    {
-      keys.add(matcher.group());
-    }
-
-    if (keys.size() > 0)
-    {
-      int offset = cleanedPrec.indexOf((keys.get(0)));
-      if (offset > 0)
-      {
-        resultMap.put("all", cleanedPrec.substring(0, offset));
-      }
-      for (int i = 0; i < keys.size() - 1; i++)
-      {
-        String key = keys.get(i);
-        String value = cleanedPrec.substring(offset + key.length(), cleanedPrec.indexOf(keys.get(i + 1)));
-        offset += key.length() + value.length();
-        String cleanedKey = extractCleanedKey(key);
-        resultMap.put(cleanedKey, value);
-      }
-      String lastKey = keys.get(keys.size() - 1);
-      String lastValue = cleanedPrec.substring(cleanedPrec.indexOf(lastKey) + lastKey.length());
-      resultMap.put(extractCleanedKey(lastKey), lastValue);
-    }
-    else
-    {
-      resultMap.put("all", cleanedPrec);
-    }
-    return resultMap;
-  }
-
-  private static String extractCleanedKey(String key)
-  {
-    Matcher m = Pattern.compile("(IV|V?I{1,3}|V)(?=( |:|<|$))").matcher(key);
-    return (m.find())
-        ? m.group()
-        : key;
+    return ExtractorRequirements.extractLevelRequirementMap(cleanedPrec);
   }
 
   private static RequirementAttribute extractAttributeRequirement(String attributeText, String leiteigenschaftString)
@@ -920,7 +866,7 @@ public class ExtractorSpecialAbility extends Extractor
   public static RequirementsSpecialAbility retrieveRequirementsAbility(Map<String, String> preconditionMap, String name, int levels, int currentLevel, boolean isUseSamePrecondition)
   {
     RequirementsSpecialAbility returnValue = null;
-    String requirementsString = extractRequirementsStringForLevel(preconditionMap, levels, currentLevel).replace("\u00AD", "-");
+    String requirementsString = ExtractorRequirements.extractRequirementsStringForLevel(preconditionMap, levels, currentLevel).replace("\u00AD", "-");
 
     Matcher m = Pattern.compile("[A-ü &/()-]{3,}(?=$|,|(<br>))").matcher(requirementsString);
     while (m.find())

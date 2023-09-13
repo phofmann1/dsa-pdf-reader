@@ -23,12 +23,9 @@ public class ConverterAtomicFlagsTraditionSkillMagic implements ConverterAtomicF
   public AtomicBoolean wasMusicTraditions;
 
 
-  public AtomicBoolean wasQs1;
-  public AtomicBoolean wasQs2;
-  public AtomicBoolean wasQs3;
-  public AtomicBoolean wasQs4;
-  public AtomicBoolean wasQs5;
-  public AtomicBoolean wasQs6;
+  public AtomicBoolean wasCircleOfBanishment;
+  public AtomicBoolean wasCircleOfProtection;
+  public AtomicBoolean wasGebräu;
 
 
   public ConverterAtomicFlagsTraditionSkillMagic()
@@ -56,13 +53,9 @@ public class ConverterAtomicFlagsTraditionSkillMagic implements ConverterAtomicF
     this.wasSkill = new AtomicBoolean(Boolean.FALSE);
     this.wasRange = new AtomicBoolean(Boolean.FALSE);
     this.wasTargetCategory = new AtomicBoolean(Boolean.FALSE);
-
-    this.wasQs1 = new AtomicBoolean(Boolean.FALSE);
-    this.wasQs2 = new AtomicBoolean(Boolean.FALSE);
-    this.wasQs3 = new AtomicBoolean(Boolean.FALSE);
-    this.wasQs4 = new AtomicBoolean(Boolean.FALSE);
-    this.wasQs5 = new AtomicBoolean(Boolean.FALSE);
-    this.wasQs6 = new AtomicBoolean(Boolean.FALSE);
+    this.wasCircleOfProtection = new AtomicBoolean(Boolean.FALSE);
+    this.wasCircleOfBanishment = new AtomicBoolean(Boolean.FALSE);
+    this.wasGebräu = new AtomicBoolean(Boolean.FALSE);
   }
 
   @Override

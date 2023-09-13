@@ -6,16 +6,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class ExtractorAP extends Extractor
+public class ExtractorVolume extends Extractor
 {
+  private static final Pattern VOLUME = Pattern.compile("\\d+(?= Punkt|Punkt| pro Stufe| Volumen|\\/)");
 
-
-  private static final Pattern AP = Pattern.compile("\\d*(?=( Abenteuerpunkt|Abenteuerpunkte|\\/))");
-
-  public static int retrieve(String apString, int currentIndex)
+  public static int retrieve(String volumeString, int currentIndex)
   {
-    Integer returnValue = -1;
-    Matcher apMatcher = AP.matcher(apString);
+    Integer returnValue = 0;
+    Matcher apMatcher = VOLUME.matcher(volumeString);
     List<Integer> results = apMatcher.results()
         .map(MatchResult::group) // Convert MatchResult to string
         .filter(v -> !v.isEmpty()) // filter empty String (Berufsgeheimnis...)

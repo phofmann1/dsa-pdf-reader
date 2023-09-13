@@ -55,7 +55,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>("Zaubertänze", MysticalSkillCategory.dance),
       new AbstractMap.SimpleEntry<>("Zibiljarituale", MysticalSkillCategory.zibilja),
       new AbstractMap.SimpleEntry<>("Vertrautentiere", MysticalSkillCategory.familiar),
-      new AbstractMap.SimpleEntry<>("Zauberzeichen", MysticalSkillCategory.magic_sign)
+      new AbstractMap.SimpleEntry<>("Zauberzeichen", MysticalSkillCategory.magicSign)
   );
   private static final Map<MysticalSkillCategory, String> KEYS_MYSTICAL_SKILL_CATEGORY_FRIST_ACTIVITY = Map.ofEntries(
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.power, "Blut trinkenProbe"),
@@ -70,7 +70,8 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.melody, "Melodie der AngriffslustProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.dance, "Tanz der AngriffslustProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.zibilja, "Band zur WareProbe"),
-      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magic_sign, "Auge des Basilisken")
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.familiar, "DiebstahlWirkung"),
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magicSign, "Auge des Basilisken")
   );
 
   private static final Map<String, ArtifactKey> KEYS_TRADITION_ARTIFACTS = Map.ofEntries(
@@ -153,6 +154,11 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
   private static final String KEY_RANGE = "Reichweite";
   private static final String KEY_TARGET_CATEGORY = "Zielkategorie";
 
+  private static final String KEY_CIRCLE_OF_BANISHMENT = "Bannkreis";
+  private static final String KEY_CIRCLE_OF_PROTECTION = "Schutzkreis";
+
+  private static final String KEY_GEBRÄU = "Gebräu";
+
   protected static final String[] KEYS = {
       KEY_CHECK,
       KEY_EFFECT,
@@ -174,7 +180,10 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       KEY_CASTING_DURATION_IV,
       KEY_SKILL,
       KEY_RANGE,
-      KEY_TARGET_CATEGORY
+      KEY_TARGET_CATEGORY,
+      KEY_CIRCLE_OF_BANISHMENT,
+      KEY_CIRCLE_OF_PROTECTION,
+      KEY_GEBRÄU
   };
   private static final Logger LOGGER = LogManager.getLogger();
 
@@ -210,19 +219,22 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
           // validate the flags for conf
 
           // Start new Tradition
-          if (t.size == 1800 && KEYS_TRADITION.contains(cleanText))
+          if (t.size == 1800 && (KEYS_TRADITION.contains(cleanText)
+              || KEYS_TRADITION_ARTIFACTS.containsKey(cleanText)
+              || KEYS_MYSTICAL_SKILL_CATEGORY.containsKey(cleanText)
+          ))
           {
             isActivityStarted.set(false);
             isArtifactStarted.set(false);
           }
 
-          boolean isFirstValue = validateIsFirstValue(t, conf, isActivityStarted.get(), isArtifactStarted.get(), cleanText);
+          boolean isFirstValue = validateIsFirstValue(t, conf, isActivityStarted.get(), isArtifactStarted.get(), cleanText, mysticalSkillCategory.get());
           boolean isFirstValueSkipped = isFirstValue && isNumeric(t.text); // gets skipped, when the firstValue is a number (Page Number in some documents)
           boolean isDataKey = validateIsDataKey(t, cleanText, conf);
           boolean isDataValue = validateIsDataValue(t, cleanText, conf);
           handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-          if (cleanText.startsWith("Entgiftungsrune"))
+          if (cleanText.startsWith("Diebstahl"))
           {
             System.out.println(cleanText);
           }
@@ -233,6 +245,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
             mysticalSkillCategory.set(extractTraditionSkillCategoryKey(t.text));
             artifactKey.set(extractArtifactKey(t.text));
             isActivityStarted.set(Boolean.FALSE);
+            isArtifactStarted.set(Boolean.FALSE);
             this.getFlags().initDataFlags();
           }
 
@@ -292,7 +305,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
   @Override
   protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
   {
-    return Arrays.stream(this.getKeys()).anyMatch(k -> k.equalsIgnoreCase(t.text));
+    return Arrays.stream(this.getKeys()).anyMatch(k -> k.equalsIgnoreCase(t.text.replace(":", "")));
   }
 
   @Override
@@ -376,11 +389,14 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
     this.getFlags().wasRequirements.set(key.trim().equals(KEY_REQUIREMENTS_I) || key.trim().equals(KEY_REQUIREMENTS_II));
     this.getFlags().wasVolume.set(key.trim().equals(KEY_VOLUME));
     this.getFlags().wasBinding.set(key.trim().equals(KEY_BINDING));
-    this.getFlags().wasAp.set(key.trim().equals(KEY_AP));
+    this.getFlags().wasAp.set(key.replace(":", "").trim().equals(KEY_AP));
     this.getFlags().wasCastingDuration.set(key.trim().equals(KEY_CASTING_DURATION_I) || key.trim().equals(KEY_CASTING_DURATION_II) || key.trim().equals(KEY_CASTING_DURATION_III) || key.trim().equals(KEY_CASTING_DURATION_IV));
     this.getFlags().wasSkill.set(key.trim().equals(KEY_SKILL));
     this.getFlags().wasRange.set(key.trim().equals(KEY_RANGE));
     this.getFlags().wasTargetCategory.set(key.trim().equals(KEY_TARGET_CATEGORY));
+    this.getFlags().wasCircleOfBanishment.set(key.trim().equals(KEY_CIRCLE_OF_BANISHMENT));
+    this.getFlags().wasCircleOfProtection.set(key.trim().equals(KEY_CIRCLE_OF_PROTECTION));
+    this.getFlags().wasGebräu.set(key.trim().equals(KEY_GEBRÄU));
 
   }
 
@@ -415,13 +431,12 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       if (flags.wasBinding.get()) currentDataObject.binding = concatForDataValue(currentDataObject.binding, cleanText);
       if (flags.wasAp.get()) currentDataObject.ap = concatForDataValue(currentDataObject.ap, cleanText);
       if (flags.wasSkill.get()) currentDataObject.talentKey = concatForDataValue(currentDataObject.talentKey, cleanText);
+      if (flags.wasCircleOfProtection.get())
+        currentDataObject.circleOfProtection = concatForDataValue(currentDataObject.circleOfProtection, cleanText);
+      if (flags.wasCircleOfBanishment.get())
+        currentDataObject.circleOfBanishment = concatForDataValue(currentDataObject.circleOfBanishment, cleanText);
+      if (flags.wasGebräu.get()) currentDataObject.gebraeu = concatForDataValue(currentDataObject.gebraeu, cleanText);
 
-      if (flags.wasQs1.get()) currentDataObject.qs1 = concatForDataValue(currentDataObject.qs1, cleanText).replace(":", "").trim();
-      if (flags.wasQs2.get()) currentDataObject.qs2 = concatForDataValue(currentDataObject.qs2, cleanText).replace(":", "").trim();
-      if (flags.wasQs3.get()) currentDataObject.qs3 = concatForDataValue(currentDataObject.qs3, cleanText);
-      if (flags.wasQs4.get()) currentDataObject.qs4 = concatForDataValue(currentDataObject.qs4, cleanText);
-      if (flags.wasQs5.get()) currentDataObject.qs5 = concatForDataValue(currentDataObject.qs5, cleanText);
-      if (flags.wasQs6.get()) currentDataObject.qs6 = concatForDataValue(currentDataObject.qs6, cleanText);
     }
   }
 
@@ -430,40 +445,18 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
   {
   }
 
-  @Override
-  protected void applyFlagsForNoKeyStrings(ConverterAtomicFlagsTraditionSkillMagic flags, String text)
+
+  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf, boolean isActivityStarted, Boolean isArtifactStarted, String cleanText, MysticalSkillCategory mysticalSkillCategory)
   {
-    if (text.trim().equals("QS 1") || text.trim().equals("1 QS") || text.trim().equals("1-2 QS")) flags.wasQs1.set(true);
-    if (text.trim().equals("QS 2") || text.trim().equals("2 QS") || text.trim().equals("1-2 QS")) flags.wasQs2.set(true);
-    if (text.trim().equals("QS 3") || text.trim().equals("3 QS") || text.trim().equals("3-4 QS")) flags.wasQs3.set(true);
-    if (text.trim().equals("QS 4") || text.trim().equals("4 QS") || text.trim().equals("3-4 QS")) flags.wasQs4.set(true);
-    if (text.trim().equals("QS 5") || text.trim().equals("5 QS") || text.trim().equals("5-6 QS")) flags.wasQs5.set(true);
-    if (text.trim().equals("QS 6") || text.trim().equals("6 QS") || text.trim().equals("5-6 QS")) flags.wasQs6.set(true);
-
-
-  }
-
-  @Override
-  protected void handleWasNoKeyStrings(ConverterAtomicFlagsTraditionSkillMagic flags, TextWithMetaInfo t)
-  {
-    flags.wasQs1.set(flags.wasQs1.get() && !t.isBold);
-    flags.wasQs2.set(flags.wasQs2.get() && !t.isBold);
-    flags.wasQs3.set(flags.wasQs3.get() && !t.isBold);
-    flags.wasQs4.set(flags.wasQs4.get() && !t.isBold);
-    flags.wasQs5.set(flags.wasQs5.get() && !t.isBold);
-    flags.wasQs6.set(flags.wasQs6.get() && !t.isBold);
-  }
-
-  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf, boolean isActivityStarted, Boolean isArtifactStarted, String cleanText)
-  {
-    return super.validateIsFirstValue(t, conf)
+    return (super.validateIsFirstValue(t, conf)
         && t.isBold
         && (isActivityStarted && cleanText.endsWith("Probe")
         || isArtifactStarted && cleanText.endsWith("Wirkung")
         || cleanText.equals("Goblin-Pflanzenwuchs")
         || cleanText.equals("Lied des Windgeflüsters")
         || cleanText.equals("Lied der Pflanzen")
-        || cleanText.equals("Goblin-Zuflucht")
+        || cleanText.equals("Goblin-Zuflucht"))
+        || (mysticalSkillCategory == MysticalSkillCategory.magicSign && t.size == 1300)
     )
         && Arrays.stream(KEYS).noneMatch(k -> k.equals(cleanText)) && !cleanText.startsWith("QS");
   }

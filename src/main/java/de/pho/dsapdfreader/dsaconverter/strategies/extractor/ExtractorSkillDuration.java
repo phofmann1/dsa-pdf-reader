@@ -31,7 +31,7 @@ public class ExtractorSkillDuration extends Extractor
                 String maxTxt = m.group();
                 if (!maxTxt.isEmpty())
                 {
-                    Unit[] maxUnits = extractUnitsFromText(maxTxt, msr, false);
+                    Unit[] maxUnits = extractUnitsFromText(maxTxt, getPrefix(msr), false);
                     if (maxUnits.length == 0)
                     {
                         returnValue.maxDurationSpecial = maxTxt.trim();
@@ -43,7 +43,7 @@ public class ExtractorSkillDuration extends Extractor
                         LOGGER.error(getPrefix(msr) + "Unit for maximum Duration (" + maxTxt + ") is not ambiguously");
                     }
 
-                    returnValue.maxDuration = extractFirstNumberFromText(maxTxt, msr);
+                    returnValue.maxDuration = extractFirstNumberFromText(maxTxt, getPrefix(msr));
                     returnValue.maxDuration = returnValue.maxDuration == 0 ? 1 : returnValue.maxDuration;
                     returnValue.maxIsPerQs = maxTxt.contains("QS ");
 
@@ -54,7 +54,7 @@ public class ExtractorSkillDuration extends Extractor
                 }
             }
 
-            Unit[] units = extractUnitsFromText(durationTxt, msr, false);
+            Unit[] units = extractUnitsFromText(durationTxt, getPrefix(msr), false);
             if (units.length == 0)
             {
                 returnValue.durationSpecial = msr.duration;
@@ -63,7 +63,7 @@ public class ExtractorSkillDuration extends Extractor
                 returnValue.durationUnit = units[0];
                 if (returnValue.durationUnit != Unit.SUSTAINED && returnValue.durationUnit != Unit.IMMEDIATE)
                 {
-                    returnValue.duration = extractFirstNumberFromText(durationTxt, msr);
+                    returnValue.duration = extractFirstNumberFromText(durationTxt, getPrefix(msr));
                     returnValue.duration = returnValue.duration == 0 ? 1 : returnValue.duration;
                     returnValue.isPerQS = durationTxt.contains("QS ");
                 }

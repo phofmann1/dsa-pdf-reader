@@ -34,7 +34,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Balsam Salabunde", "1 AsP pro LeP, mindestens jedoch 4 AsP (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -54,7 +54,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Affenruf", "16 AsP");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -71,7 +71,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Dunkelheit", "16 AsP (Aktivierung des Zaubers) + 8 AsP pro 5 Minuten");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -92,7 +92,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Destructibo", "16 AsP + so viele eigene permanente AsP, wie im Zielobjekt gespeichert sind (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -109,7 +109,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Schuppenhaut", "2 AsP (Aktivierung des Zaubers) + 1 AsP pro KR");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -129,7 +129,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Hartes schmelze", "2/4 AsP für einen Gegenstand von der Größe einer Tasse/Truhe (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -150,7 +150,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Dämonenpakt beenden", "32 AsP, davon 8 permanent");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -168,7 +168,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Armatrutz", "4 AsP für RS 1, 8 AsP für RS 2, 16 AsP für RS 3 (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -187,7 +187,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Duplicatus", "4 AsP pro Doppelgänger (bei Misslingen entsprechend 2 AsP)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -208,7 +208,7 @@ class ExtractorMysticalSkillCostTest
     );
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -229,7 +229,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Totes handle", "4/8/16/32/64 AsP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 0/1/2/4/8 AsP permanent (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -250,7 +250,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Immortalis Lebenszeit", "64 AsP, davon 16 AsP permanent (Kosten nicht modifizierbar) soll Techniken geben, mit denen man die Kosten des Zaubers auf andere Wesen übertragen kann, aber dieses Wissen ist nicht in der Kenntnis des Rituals selbst enthalten.");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -270,7 +270,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Infinitum Immerdar", "64 AsP, davon 8 AsP permanent + Kosten des Zaubers, der in dem Objekt wirken soll");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -288,7 +288,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Applicatus", "8 AsP + Kosten des fixierten Zaubers");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -306,7 +306,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Dämonenbann", "8 AsP bzw. 16 AsP für Zauber mit Zielkategorie Zone");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -325,7 +325,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Transformatio", "8/16/32/64 AsP (Aktivierung des Zaubers) + 4/8/16/32 AsP pro 5 Minuten für einen Gegenstand von der Größe einer Tasse/Truhe/Tür/Burgtor");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -349,7 +349,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Zauberklinge Geisterspeer", "abhängig von der Waffe (siehe unten) (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -365,7 +365,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Herr über das Tierreich", "KL (t) des Tieres in AsP (Kosten nicht modifizierbar)");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();
@@ -382,7 +382,7 @@ class ExtractorMysticalSkillCostTest
     MysticalSkillRaw msr = initMysticalSkillRaw("Motoricus", "mindestens 4 AsP (Aktivierung) + Hälfte der notwendigen AsP pro 5 Minuten (Kosten nicht modifizierbar) bedeutet, dass ein Zauberer bis zu 20 Stein bewegen kann, ohne dass der Zauberspruch teurer wird. Mit der Hälfte der notwendigen AsP ist gemeint, dass diese Kosten variieren, je nachdem wie schwer und dementsprechend teuer das bewegte Objekt ist.");
 
     //when
-    Cost result = ExtractorMysticalSkillCost.retrieveSkillCost(msr);
+    Cost result = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
 
     //that
     Cost expected = new Cost();

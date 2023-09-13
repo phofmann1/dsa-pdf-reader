@@ -37,18 +37,6 @@ public class MysticalActivityObjectRitualRaw implements DsaObjectI
   @CsvBindByName
   public String advancementCategory;
   @CsvBindByName
-  public String qs1;
-  @CsvBindByName
-  public String qs2;
-  @CsvBindByName
-  public String qs3;
-  @CsvBindByName
-  public String qs4;
-  @CsvBindByName
-  public String qs5;
-  @CsvBindByName
-  public String qs6;
-  @CsvBindByName
   public String talentKey;
   @CsvBindByName
   public String elements;
@@ -69,6 +57,12 @@ public class MysticalActivityObjectRitualRaw implements DsaObjectI
   public String binding;
   @CsvBindByName
   public String ap;
+  @CsvBindByName
+  public String circleOfBanishment;
+  @CsvBindByName
+  public String circleOfProtection;
+  @CsvBindByName
+  public String gebraeu;
 
   @Override
   public String toString()
@@ -88,12 +82,6 @@ public class MysticalActivityObjectRitualRaw implements DsaObjectI
         ", commonness='" + commonness + '\'' +
         ", cost='" + cost + '\'' +
         ", advancementCategory='" + advancementCategory + '\'' +
-        ", qs1='" + qs1 + '\'' +
-        ", qs2='" + qs2 + '\'' +
-        ", qs3='" + qs3 + '\'' +
-        ", qs4='" + qs4 + '\'' +
-        ", qs5='" + qs5 + '\'' +
-        ", qs6='" + qs6 + '\'' +
         ", talentKey='" + talentKey + '\'' +
         ", elements='" + elements + '\'' +
         ", msCategory=" + msCategory +
