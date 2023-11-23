@@ -18,7 +18,9 @@ public enum SelectionCategory
   language,
   script,
   terrain,
-  traditionCleric;
+  traditionCleric,
+  mysticalSkillTrick,
+  mysticalSkillBlessing;
 
   @JsonValue
   public int toValue()

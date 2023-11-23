@@ -30,6 +30,9 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   private static final int VARIANT_V_REQ = 16;
   private static final String KEY_VARIANT_SPELL = "Zaubererweiterungen:";
   private static final String KEY_VARIANT_SPELL_2 = "Zaubererweiterungen";
+  private static final String KEY_VARIANT_LITURGY = "Liturgieerweiterungen:";
+  private static final String KEY_VARIANT_LITURGY_2 = "Liturgieerweiterungen";
+  private static final String KEY_VARIANT_LITURGY_3 = "Liturgieerweiterung:";
   private static final String KEY_DURATION_1 = "Wirkungsdauer:";
   private static final String KEY_DURATION_2 = "Dauer:";
   private static final String KEY_DURATION_3 = "Wirkungsdauer";
@@ -44,10 +47,13 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   private static final String KEY_EFFECT = "Wirkung";
   private static final String KEY_EFFECT_2 = "Wirkung:";
   private static final String KEY_CASTING_DURATION_SPELL = "Zauberdauer:";
+  private static final String KEY_CASTING_DURATION_LITURGY = "Liturgiedauer:";
   private static final String KEY_CASTING_DURATION_RITUAL = "Ritualdauer:";
   private static final String KEY_CASTING_DURATION_RITUAL_2 = "Ritualdauer";
+  private static final String KEY_CASTING_DURATION_CEREMONY = "Zeremoniedauer:";
   private static final String KEY_COST_ASP = "AsP-Kosten:";
   private static final String KEY_COST_ASP_2 = "AsP-Kosten";
+  private static final String KEY_COST_KAP = "KaP-Kosten:";
   private static final String KEY_COMMONNESS = "Verbreitung:";
   private static final String KEY_COMMONNESS_2 = "Verbreitung";
   private static final String KEY_ADVANCEMENT_CATEGORY = "Steigerungsfaktor:";
@@ -55,6 +61,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   private static final String KEY_ADVANCEMENT_CATEGORY_3 = "teigerungsfaktor";
 
   private static final String KEY_GESTURE_AND_INCANTATION = "Geste und Formel:";
+  private static final String KEY_GESTURE_AND_INCANTATION_2 = "Geste und Gebet:";
 
   private static final String KEY_REVERSALIS = "Reversalis:";
   private static final String KEY_REVERSALIS_2 = "Reversalis";
@@ -73,10 +80,13 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       KEY_EFFECT,
       KEY_EFFECT_2,
       KEY_CASTING_DURATION_SPELL,
+      KEY_CASTING_DURATION_LITURGY,
       KEY_CASTING_DURATION_RITUAL,
       KEY_CASTING_DURATION_RITUAL_2,
+      KEY_CASTING_DURATION_CEREMONY,
       KEY_COST_ASP,
       KEY_COST_ASP_2,
+      KEY_COST_KAP,
       KEY_COMMONNESS,
       KEY_COMMONNESS_2,
       KEY_ADVANCEMENT_CATEGORY,
@@ -84,7 +94,11 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       KEY_ADVANCEMENT_CATEGORY_3,
       KEY_VARIANT_SPELL,
       KEY_VARIANT_SPELL_2,
+      KEY_VARIANT_LITURGY,
+      KEY_VARIANT_LITURGY_2,
+      KEY_VARIANT_LITURGY_3,
       KEY_GESTURE_AND_INCANTATION,
+      KEY_GESTURE_AND_INCANTATION_2,
       KEY_REVERSALIS,
       KEY_REVERSALIS_2,
   };
@@ -147,7 +161,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
         this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
-        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM)
+        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM || conf.topic == TopicEnum.BLESSING_DIVINARIUM)
         {
           newEntry.cost = "1 AsP";
           newEntry.castingDuration = "1 Aktion";
@@ -215,19 +229,28 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
     flags.wasCheck.set(key.trim().equals(KEY_CHECK));
     flags.wasEffect.set(key.trim().equals(KEY_EFFECT)
         || key.trim().equals(KEY_EFFECT_2));
-    flags.wasCastingDuration.set(key.trim().equals(KEY_CASTING_DURATION_SPELL)
-        || key.trim().equals(KEY_CASTING_DURATION_RITUAL)
-        || key.trim().equals(KEY_CASTING_DURATION_RITUAL_2));
+    flags.wasCastingDuration.set(
+        key.trim().equals(KEY_CASTING_DURATION_SPELL)
+            || key.trim().equals(KEY_CASTING_DURATION_LITURGY)
+            || key.trim().equals(KEY_CASTING_DURATION_RITUAL)
+            || key.trim().equals(KEY_CASTING_DURATION_RITUAL_2)
+            || key.trim().equals(KEY_CASTING_DURATION_CEREMONY));
     flags.wasCost.set(key.trim().equals(KEY_COST_ASP)
-        || key.trim().equals(KEY_COST_ASP_2));
+        || key.trim().equals(KEY_COST_ASP_2)
+        || key.trim().equals(KEY_COST_KAP));
     flags.wasCommonness.set(key.trim().equals(KEY_COMMONNESS)
         || key.trim().equals(KEY_COMMONNESS_2));
     flags.wasAdvancementCategory.set(key.trim().equals(KEY_ADVANCEMENT_CATEGORY)
         || key.trim().equals(KEY_ADVANCEMENT_CATEGORY_2)
         || key.trim().equals(KEY_ADVANCEMENT_CATEGORY_3));
     flags.wasVariants.set(key.trim().equals(KEY_VARIANT_SPELL)
-        || key.trim().equals(KEY_VARIANT_SPELL_2));
-    flags.wasGestureAndIncantation.set(key.trim().equals(KEY_GESTURE_AND_INCANTATION));
+        || key.trim().equals(KEY_VARIANT_SPELL_2)
+        || key.trim().equals(KEY_VARIANT_LITURGY)
+        || key.trim().equals(KEY_VARIANT_LITURGY_2)
+        || key.trim().equals(KEY_VARIANT_LITURGY_3)
+    );
+    flags.wasGestureAndIncantation.set(key.trim().equals(KEY_GESTURE_AND_INCANTATION)
+        || key.trim().equals(KEY_GESTURE_AND_INCANTATION_2));
     flags.wasReversalis.set(key.trim().equals(KEY_REVERSALIS)
         || key.trim().equals(KEY_REVERSALIS_2));
     if (flags.wasVariants.get())
@@ -241,7 +264,6 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   {
     if (currentDataObject != null)
     {
-
       if ((flags.wasName.get() || flags.wasDescription.get()) && !flags.wasVariants.get())
         currentDataObject.description = concatForDataValue(currentDataObject.description, cleanText);
       if (flags.wasRange.get()) currentDataObject.range = concatForDataValue(currentDataObject.range, cleanText);
@@ -299,11 +321,11 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
 
       List<MysticalSkillVariant> variants = variantStrings.stream().map(vs -> {
         MysticalSkillVariant msv = new MysticalSkillVariant();
-
         msv.name = vs.substring(0, vs.indexOf("(")).trim();
-          msv.minLevel = Integer.valueOf(vs.substring(vs.indexOf("FW") + 2, vs.indexOf(",", vs.indexOf("("))).trim());
-          msv.ap = Integer.valueOf(vs.substring(vs.indexOf(",", vs.indexOf("(")) + 1, vs.indexOf("AP")).trim());
-          msv.description = vs.substring(vs.indexOf("("));
+        String cleaned = vs.replace("<br>", ",").replace(" KaP)", " AP)");
+        msv.minLevel = Integer.valueOf(cleaned.substring(vs.indexOf("FW") + 2, cleaned.indexOf(",", vs.indexOf("("))).trim());
+        msv.ap = Integer.valueOf(cleaned.substring(cleaned.indexOf(",", cleaned.indexOf("(")) + 1, cleaned.indexOf("AP")).trim());
+        msv.description = vs.substring(cleaned.indexOf("("));
 
         return msv;
       }).collect(Collectors.toList());

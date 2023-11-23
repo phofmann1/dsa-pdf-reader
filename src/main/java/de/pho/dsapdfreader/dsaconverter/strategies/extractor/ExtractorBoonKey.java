@@ -15,32 +15,24 @@ public class ExtractorBoonKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      String msg = String.format("%s key could not be interpreted.", name);
-      // LOGGER.error(msg);
+      String msg = String.format("'%s' key could not be interpreted.", name);
+      LOGGER.error(msg);
     }
     return returnValue;
   }
 
-  public static BoonKey extractBoonKeyFromText(String name)
+  private static BoonKey extractBoonKeyFromText(String name)
   {
-    BoonKey returnValue;
+    BoonKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(
         name.replace("\u00AD", "-")
             .replace("(*)", "")
             .replace("*", "")
-    );
-    keyString = keyString.trim();
+            .replace("...", "x")
 
-    try
-    {
-      returnValue = BoonKey.valueOf(keyString.toLowerCase());
-    }
-    catch (IllegalArgumentException e)
-    {
-      LOGGER.error("Invalid BoonKey: " + keyString, e);
-      //System.out.println(keyString.toLowerCase());
-      returnValue = null;
-    }
+    ).toLowerCase();
+    keyString = keyString.trim();
+    returnValue = BoonKey.valueOf(keyString);
     return returnValue;
   }
 }

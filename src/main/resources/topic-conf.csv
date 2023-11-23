@@ -31,14 +31,14 @@ false;Rüstkammer_1;C:/privat/pdf.lib/import;Aventurische Rustkammer - 02 - Ausr
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;NAHKAMPFWAFFEN;139;1;145;10;;;topic-mapping-weapons-2-melee.xml;
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;FERNKAMPFWAFFEN;145;11;146;17;;;topic-mapping-weapons-2-ranged.xml;
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml;
-true;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;61;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
+false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;61;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;131;;191;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
 false;Kodex_der_Käuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
 false;Bestiarium_2;C:/privat/pdf.lib/import;Aventurisches Bestiarium II - 03 - Welt.pdf;ABILITIES;121;34;127;;1300;1100;topic-mapping-beast-2-abilities.xml;
 false;Schirm;C:/privat/pdf.lib/import;Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
+false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
+false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;131;;191;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
 false;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;;topic-mapping-streets-equipment.xml;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
@@ -50,4 +50,7 @@ false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;IN
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS_GRIMORIUM;459;;468;;3200;3100;;
-false;Kodex_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
+true;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;11;7;15;;1000;900;topic-mapping-divinarium-blessings.xml;
+true;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;17;;232;;2000;1900;topic-mapping-divinarium-liturgies.xml;
+true;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;235;;388;;2000;1900;topic-mapping-divinarium-ceremonies.xml;
+false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;

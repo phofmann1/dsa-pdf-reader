@@ -49,7 +49,7 @@ public class ExtractorTargetCategory extends Extractor
         if (t.contains("Zeremonie")) return TargetCategory.CEREMONY;
         if (isMandatory)
         {
-            LOGGER.error("{0} String ({1}) contains no implemented targetCategory.", getPrefix(msr), t);
+            LOGGER.error("{0} String ({1}) contains no implemented targetCategory.", getPrefix(msr.publication, msr.name), t);
         }
         return null;
     }

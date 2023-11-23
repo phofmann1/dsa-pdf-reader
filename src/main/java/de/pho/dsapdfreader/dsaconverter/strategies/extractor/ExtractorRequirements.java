@@ -7,6 +7,13 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.javatuples.Pair;
+
+import de.pho.dsapdfreader.exporter.model.RequirementBoon;
+import de.pho.dsapdfreader.exporter.model.RequirementsSpecie;
+import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
+import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
 import de.pho.dsapdfreader.tools.roman.RomanNumberHelper;
 
 public class ExtractorRequirements extends Extractor
@@ -66,5 +73,129 @@ public class ExtractorRequirements extends Extractor
     return (m.find())
         ? m.group()
         : key;
+  }
+
+  public static RequirementsSpecie extractSpecieReqsForBoon(BoonKey key)
+  {
+    RequirementsSpecie returnValue = null;
+    switch (key)
+    {
+    case schurkenname:
+    case unpassender_name:
+    case allerweltsname:
+    case böser_namensvetter:
+      returnValue = new RequirementsSpecie();
+      returnValue.forbidden.add(SpecieKey.ELF);
+      break;
+    case wolfsblut:
+      returnValue = new RequirementsSpecie();
+      returnValue.required.add(SpecieKey.HUMAN);
+      break;
+    }
+    return returnValue;
+  }
+
+  public static CultureKey extractCultureReqsForBoon(BoonKey key)
+  {
+    return switch (key)
+        {
+          case walwut_swafskari, friedlos -> CultureKey.thorwaler;
+          case wolfsblut -> CultureKey.nivesen;
+          case yurach -> CultureKey.orkland;
+          default -> null;
+        };
+  }
+
+  public static List<RequirementBoon> extractRequirementsBoon(String preconditions)
+  {
+    List<RequirementBoon> returnValue = new ArrayList<>();
+    Pair<String, List<RequirementBoon>> noneOfBoonsReq = extractNoneOfBoons(preconditions);
+    returnValue.addAll(noneOfBoonsReq.getValue1());
+    preconditions = noneOfBoonsReq.getValue0();
+    return returnValue;
+  }
+
+  private static Pair<String, List<RequirementBoon>> extractNoneOfBoons(String preconditions)
+  {
+    List<RequirementBoon> reqs = new ArrayList<>();
+    String reducedPreconditions = preconditions;
+    Pattern PAT_NONE_OF_BOONS = Pattern.compile("(?<=[kK]ein Vorteil ).*?(?:$|oder Nachteil|kein Nachteil)|(?<=([kK]ein|oder) Nachteil ).*?(?:$|, Elfen|, nicht)");
+
+    Matcher m = PAT_NONE_OF_BOONS.matcher(preconditions);
+    while (m.find())
+    {
+      String t = m.group();
+      reducedPreconditions = reducedPreconditions.replace(t, "");
+
+      List<String> boonTexts = List.of(t.split(",| oder"));
+      boonTexts.forEach(bt -> {
+        String boonText = bt
+            .replace(" <br> Elfen können diesen Vorteil nicht wählen,  da ihre Namen immer passend sind.", "")
+            .replace(" <br> Elfen können diesen Vorteil nicht wählen, da ihre Namen immer passend sind.", "")
+            /*  .replace(" kein Nachteil", "")
+              .replace(" keine Nachteile", "")
+              .replace(" kein Vorteil", "")
+              .replace(" keine Vorteile", "")
+              .replace(" Nachteil", "")
+              .replace(" Vorteil", "")
+              .replace(" Elfen", "")
+              .replace(" nicht", "")
+              .replace(" Keine", "")
+              .replace(" keine", "")
+              .replace(" Kein", "")
+              .replace(" kein", "")*/
+            .trim();
+        boolean isSameSelection = boonText.contains(" für diese Fertigkeit")
+            || boonText.contains(" in der Fertigkeit")
+            || boonText.contains(" für den gleichen Sinn")
+            || boonText.contains(" Kobolde")
+            || boonText.contains(" auf die gleiche Umgebung")
+            || boonText.contains(" die Tierart")
+            || boonText.contains(" auf das gleiche Talent");
+        Matcher mv = PAT_BETWEEN_BRACKETS.matcher(boonText);
+        String variantText = ((mv.find() && !boonText.contains("Regeneration")) ? mv.group() : null);
+        if (variantText != null)
+        {
+          boonText = boonText.replace("(" + variantText + ")", "");
+        }
+        else
+        {
+          variantText = boonText.contains("Gesellschaftstalent") ? "Gesellschaftstalent" : null;
+        }
+
+        boonText = boonText.replace(" für diese Fertigkeit", "")
+            .replace(" in der Fertigkeit", "")
+            .replace(" für den gleichen Sinn", "")
+            .replace(" Kobolde", " x")
+            .replace(" auf die gleiche Umgebung", "")
+            .replace(" die Tierart", " x")
+            .replace(" auf ein Gesellschaftstalent", "")
+            .replace(" in einem Gesellschaftstalent", "")
+            .replace(" auf das gleiche Talent", "");
+        if (!boonText.isEmpty())
+        {
+
+          BoonKey boonKey = ExtractorBoonKey.retrieve(boonText);
+          if (boonKey != null)
+          {
+            RequirementBoon req = new RequirementBoon();
+            req.key = boonKey;
+            req.exists = false;
+            req.variant = variantText;
+            req.isSameSelection = isSameSelection;
+            reqs.add(req);
+          }
+          else
+          {
+            System.out.println(boonText);
+          }
+        }
+      });
+    }
+    if (!reducedPreconditions.equals(preconditions))
+    {
+      reducedPreconditions = reducedPreconditions.replaceAll("[kK]ein Vorteil ", "").replaceAll("[kK]ein Nachteil ", "");
+    }
+    return Pair.with(reducedPreconditions, reqs);
   }
 }

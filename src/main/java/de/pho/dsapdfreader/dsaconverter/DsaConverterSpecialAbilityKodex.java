@@ -88,10 +88,6 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
 
           if (isTopic) abilityCategory.set(extractTopic((hiddenTopic.isPresent() ? hiddenTopic.get() : t.text)));
 
-          if (hiddenTopic.isPresent() && abilityCategory.get() == null)
-          {
-            System.out.println(hiddenTopic.get());
-          }
 
           if (abilityCategory.get() != null)
           {

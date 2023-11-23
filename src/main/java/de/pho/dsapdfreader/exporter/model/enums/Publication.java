@@ -54,6 +54,7 @@ public enum Publication
   Rüstkammer_der_streitenden_Königreiche,
   Rüstkammer_der_Wüstenreiche,
   Kodex_des_Götterwirkens,
+  Divinarium
   ;
 
 

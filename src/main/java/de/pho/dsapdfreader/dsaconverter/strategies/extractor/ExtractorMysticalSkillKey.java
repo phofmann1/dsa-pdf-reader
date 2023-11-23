@@ -1,24 +1,23 @@
 package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 
-import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillVariantKey;
 
 public class ExtractorMysticalSkillKey extends Extractor
 {
-  public static MysticalSkillKey retrieveMysticalSkillKey(MysticalSkillRaw msr, MysticalSkillCategory category)
+  public static MysticalSkillKey retrieveMysticalSkillKey(String publication, String name, MysticalSkillCategory category)
   {
     MysticalSkillKey returnValue = null;
     try
     {
-      returnValue = extractMysticalSkillKeyFromText(category, msr.name);
+      returnValue = extractMysticalSkillKeyFromText(category, name);
       if (returnValue == null)
         throw new IllegalArgumentException();
     }
     catch (IllegalArgumentException e)
     {
-      String msg = String.format("%s key for (%s - %s) could not be interpreted.", getPrefix(msr), category, msr.name);
+      String msg = String.format("%s key for (%s - %s) could not be interpreted.", getPrefix(publication, name), category, name);
       //LOGGER.error(msg);
     }
     return returnValue;
@@ -31,9 +30,6 @@ public class ExtractorMysticalSkillKey extends Extractor
     {
       return null;
     }
-    //handle und (Kraft des Humus)
-    //handle . ()
-    //handle Zaubererweiterung
     String skillKeyString = msk
         + "_"
         + extractKeyTextFromText(variantText).toLowerCase();
@@ -45,7 +41,8 @@ public class ExtractorMysticalSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid SkillVariantKey: " + skillKeyString, e);
+      LOGGER.error("Invalid MysticalSkillVariantKey: " + skillKeyString, e);
+      //System.out.println(skillKeyString+",");
       returnValue = null;
     }
     return returnValue;
@@ -62,6 +59,8 @@ public class ExtractorMysticalSkillKey extends Extractor
         .replace("!", "")
         .replace("(", "")
         .replace(")", "")
+        .replace("[", "")
+        .replace("]", "")
         .replace("/", " ")
         .replace("?", "")
         .replace("’", " ")
@@ -90,7 +89,8 @@ public class ExtractorMysticalSkillKey extends Extractor
     catch (IllegalArgumentException e)
     {
       returnValue = null;
-      System.out.println(skillKeyString + ", ");
+      //System.out.println(skillKeyString + ", ");
+      LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
     }
     return returnValue;
   }

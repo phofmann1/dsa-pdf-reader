@@ -234,10 +234,6 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
           boolean isDataValue = validateIsDataValue(t, cleanText, conf);
           handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-          if (cleanText.startsWith("Diebstahl"))
-          {
-            System.out.println(cleanText);
-          }
           if (isTopic)
           {
             mysticalSkillCategory.set(null);

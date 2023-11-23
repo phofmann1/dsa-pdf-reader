@@ -54,7 +54,7 @@ public enum TraditionKey
   BORBARAD,
   DARNA,
   RUNECARVER,
-  BAN_DRAFTSMAN;
+  BAN_DRAFTSMAN, CHR_SSIR_SSR, NUMINORU;
 
   @JsonValue
   public int toValue()

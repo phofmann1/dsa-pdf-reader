@@ -31,17 +31,17 @@ public class ExtractorMysticalSkillVariant extends Extractor
   {
     List<MysticalSkillVariant> returnValue = new ArrayList<>();
 
-    if (msr.variant1 != null) returnValue.add(handleVariant(msk, msr.variant1, msr.variantsText));
-    if (msr.variant2 != null) returnValue.add(handleVariant(msk, msr.variant2, msr.variantsText));
-    if (msr.variant3 != null) returnValue.add(handleVariant(msk, msr.variant3, msr.variantsText));
-    if (msr.variant4 != null) returnValue.add(handleVariant(msk, msr.variant4, msr.variantsText));
-    if (msr.variant5 != null) returnValue.add(handleVariant(msk, msr.variant5, msr.variantsText));
+    if (msr.variant1 != null) returnValue.add(handleVariant(msk, msr.variant1));
+    if (msr.variant2 != null) returnValue.add(handleVariant(msk, msr.variant2));
+    if (msr.variant3 != null) returnValue.add(handleVariant(msk, msr.variant3));
+    if (msr.variant4 != null) returnValue.add(handleVariant(msk, msr.variant4));
+    if (msr.variant5 != null) returnValue.add(handleVariant(msk, msr.variant5));
 
 
     return returnValue;
   }
 
-  private static MysticalSkillVariant handleVariant(MysticalSkillKey msk, MysticalSkillVariant variant, String variantText)
+  private static MysticalSkillVariant handleVariant(MysticalSkillKey msk, MysticalSkillVariant variant)
   {
     MysticalSkillVariant returnValue = variant;
 

@@ -20,7 +20,7 @@ public class ExtractorAdvancementCategory extends Extractor
         }
         catch (IllegalArgumentException e)
         {
-            LOGGER.error(getPrefix(msr) + "AdvancementCategory (" + msr.advancementCategory + ") not interpretable");
+            LOGGER.error(getPrefix(msr.publication, msr.name) + "AdvancementCategory (" + msr.advancementCategory + ") not interpretable");
         }
         return returnValue;
     }

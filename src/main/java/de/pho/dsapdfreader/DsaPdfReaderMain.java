@@ -334,7 +334,7 @@ public class DsaPdfReaderMain
           LOGGER.info(msg);
           switch (conf.topic)
           {
-          case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, CURSES, ELFENSONGS, MELODIES, DANCES ->
+          case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, BLESSING_DIVINARIUM, LITURGY_DIVINARIUM, CEREMONY_DIVINARIUM, CURSES, ELFENSONGS, MELODIES, DANCES ->
           {
             List<MysticalSkillRaw> mysticalSkillRawList = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, new File(generateFileName(FILE_STRATEGY_2_RAW, conf)));
             if (allByTypeMap.containsKey(MysticalSkill.TYPE)) allByTypeMap.get(MysticalSkill.TYPE).addAll(mysticalSkillRawList);
@@ -381,7 +381,7 @@ public class DsaPdfReaderMain
     switch (conf.topic)
     {
     // Mystical Skills
-    case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, CURSES, ELFENSONGS, MELODIES, DANCES ->
+    case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES, SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, TRICKS_GRIMORIUM, BLESSING_DIVINARIUM, LITURGY_DIVINARIUM, CEREMONY_DIVINARIUM ->
     {
       try
       {
@@ -403,8 +403,19 @@ public class DsaPdfReaderMain
             || conf.topic == TopicEnum.RITUALS_GRIMORIUM
             || conf.topic == TopicEnum.SPELLS
             || conf.topic == TopicEnum.SPELLS_GRIMORIUM
+            || conf.topic == TopicEnum.CEREMONY_DIVINARIUM
+            || conf.topic == TopicEnum.LITURGY_DIVINARIUM
+            || conf.topic == TopicEnum.TRICKS
+            || conf.topic == TopicEnum.TRICKS_GRIMORIUM
+            || conf.topic == TopicEnum.BLESSINGS
+            || conf.topic == TopicEnum.BLESSING_DIVINARIUM
         )
         {
+
+          writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_name"));
+          writer.write(generateMsName(mysticalSkills));
+          writer.close();
+
           writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_descriptions"));
           writer.write(generateMsDescriptionString(rawMysticalSkills));
           writer.close();
@@ -500,7 +511,7 @@ public class DsaPdfReaderMain
             .writerWithDefaultPrettyPrinter()
             .writeValueAsString(boons);
 
-        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "equipment"));
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "boons"));
         writer.write(jsonResult);
         writer.close();
 
@@ -695,6 +706,11 @@ public class DsaPdfReaderMain
         BufferedWriter writerMas = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "activities", "mystical_activities"));
         writerMas.write(jsonResultMas);
         writerMas.close();
+
+
+        BufferedWriter writerMasName = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_activities_name"));
+        writerMasName.write(generateMsName(pureMas));
+        writerMasName.close();
 
         List<ObjectRitual> corrections = initExporterCorrections(ObjectRitual.class);
         List<ObjectRitual> pureOrs = raws.stream()
@@ -1111,11 +1127,7 @@ public class DsaPdfReaderMain
   {
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.stream().forEach(msr -> {
-      returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, Extractor.retrieveMsCategory(msr.topic)).toValue() + " {" + msr.effect + "}\r\n");
-      if (msr.description == null || msr.description.isEmpty())
-      {
-        LOGGER.error("Mystical Skill (" + msr.description + ") has no description!");
-      }
+      returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, Extractor.retrieveMsCategory(msr.topic)).toValue() + " {" + msr.effect + "}\r\n");
     });
     return returnValue.toString();
 
@@ -1128,11 +1140,11 @@ public class DsaPdfReaderMain
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.stream()
         .forEach(msr -> {
-          returnValue.append(msr.variant1.key.ordinal() + " {" + msr.variant1.name + "}\r\n");
-          returnValue.append(msr.variant2.key.ordinal() + " {" + msr.variant2.name + "}\r\n");
-          returnValue.append(msr.variant3.key.ordinal() + " {" + msr.variant3.name + "}\r\n");
-          returnValue.append(msr.variant4.key.ordinal() + " {" + msr.variant4.name + "}\r\n");
-          returnValue.append(msr.variant5.key.ordinal() + " {" + msr.variant5.name + "}\r\n");
+          if (msr.variant1 != null && msr.variant1.key != null) returnValue.append(msr.variant1.key.ordinal() + " {" + msr.variant1.name + "}\r\n");
+          if (msr.variant2 != null && msr.variant2.key != null) returnValue.append(msr.variant2.key.ordinal() + " {" + msr.variant2.name + "}\r\n");
+          if (msr.variant3 != null && msr.variant3.key != null) returnValue.append(msr.variant3.key.ordinal() + " {" + msr.variant3.name + "}\r\n");
+          if (msr.variant4 != null && msr.variant4.key != null) returnValue.append(msr.variant4.key.ordinal() + " {" + msr.variant4.name + "}\r\n");
+          if (msr.variant5 != null && msr.variant5.key != null) returnValue.append(msr.variant5.key.ordinal() + " {" + msr.variant5.name + "}\r\n");
         });
     return returnValue.toString();
   }
@@ -1143,11 +1155,16 @@ public class DsaPdfReaderMain
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.stream()
         .forEach(msr -> {
-          returnValue.append(msr.variant1.key.ordinal() + " {" + msr.variant1.description + "}\r\n");
-          returnValue.append(msr.variant2.key.ordinal() + " {" + msr.variant2.description + "}\r\n");
-          returnValue.append(msr.variant3.key.ordinal() + " {" + msr.variant3.description + "}\r\n");
-          returnValue.append(msr.variant4.key.ordinal() + " {" + msr.variant4.description + "}\r\n");
-          returnValue.append(msr.variant5.key.ordinal() + " {" + msr.variant5.description + "}\r\n");
+          if (msr.variant1 != null && msr.variant1.key != null)
+            returnValue.append(msr.variant1.key.ordinal() + " {" + msr.variant1.description + "}\r\n");
+          if (msr.variant2 != null && msr.variant2.key != null)
+            returnValue.append(msr.variant2.key.ordinal() + " {" + msr.variant2.description + "}\r\n");
+          if (msr.variant3 != null && msr.variant3.key != null)
+            returnValue.append(msr.variant3.key.ordinal() + " {" + msr.variant3.description + "}\r\n");
+          if (msr.variant4 != null && msr.variant4.key != null)
+            returnValue.append(msr.variant4.key.ordinal() + " {" + msr.variant4.description + "}\r\n");
+          if (msr.variant5 != null && msr.variant5.key != null)
+            returnValue.append(msr.variant5.key.ordinal() + " {" + msr.variant5.description + "}\r\n");
         });
     return returnValue.toString();
   }
@@ -1158,7 +1175,7 @@ public class DsaPdfReaderMain
     Triplet<StringBuilder, StringBuilder, StringBuilder> returnValue = new Triplet<>(new StringBuilder(), new StringBuilder(), new StringBuilder());
     rawMysticalSkills.stream().forEach(raw -> {
 
-      int levels = LoadToSpecialAbility.extractLevels(raw);
+      int levels = LoadToSpecialAbility.extractLevels(raw.name);
       String baseName = levels > 1
           ? raw.name.split("(?= (I-|I\\/))")[0]
           : raw.name;
@@ -1191,7 +1208,7 @@ public class DsaPdfReaderMain
         else if (isGebieterDesAspekts)
         {
           keyNames.addAll(
-              LoadToSpecialAbility.generateGebieterDesAspektsList(new SpecialAbility()).stream()
+              LoadToSpecialAbility.generateGebieterDesAspektsList(new SpecialAbility(), "").stream()
                   .map(sa -> new Pair<>(sa.key, sa.name))
                   .collect(Collectors.toList()));
         }
@@ -1249,19 +1266,38 @@ public class DsaPdfReaderMain
     return returnValue;
   }
 
+  private static String generateMsName(List<MysticalSkill> rawMysticalSkills)
+  {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().forEach(msr -> {
+      returnValue.append(
+          ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication.name(), msr.name, msr.category).toValue()
+              + " {"
+              + msr.name
+              + "} "
+              + "\r\n");
+      if (msr.name == null || msr.name.isEmpty())
+      {
+        LOGGER.error("Mystical Skill (" + msr.name + ") has no name!");
+      }
+    });
+    return returnValue.toString();
+
+  }
+
   private static String generateMsDescriptionString(List<MysticalSkillRaw> rawMysticalSkills)
   {
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.stream().forEach(msr -> {
       returnValue.append(
-          ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, Extractor.retrieveMsCategory(msr.topic)).toValue()
+          ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, Extractor.retrieveMsCategory(msr.topic)).toValue()
               + " {"
               + msr.description
               + "} "
               + "\r\n");
       if (msr.description == null || msr.description.isEmpty())
       {
-        LOGGER.error("Mystical Skill (" + msr.description + ") has no description!");
+        LOGGER.error("Mystical Skill (" + msr.name + ") has no description!");
       }
     });
     return returnValue.toString();
@@ -1380,8 +1416,9 @@ public class DsaPdfReaderMain
         results = new DsaConverterSpecialAbility().convertTextWithMetaInfo(texts, conf);
     case SPECIAL_ABILITY_CLERIC_BASE -> results = new DsaConverterSpecialAbilityClericBase().convertTextWithMetaInfo(texts, conf);
     case BLESSINGS, TRICKS, SPELLS, LITURGIES, RITUALS, CEREMONIES -> results = new DsaConverterMysticalSkill().convertTextWithMetaInfo(texts, conf);
-    case SPELLS_GRIMORIUM, RITUALS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimorium().convertTextWithMetaInfo(texts, conf);
-    case TRICKS_GRIMORIUM -> results = new DsaConverterMysticalSkillGrimoriumTricks().convertTextWithMetaInfo(texts, conf);
+    case SPELLS_GRIMORIUM, RITUALS_GRIMORIUM, LITURGY_DIVINARIUM, CEREMONY_DIVINARIUM ->
+        results = new DsaConverterMysticalSkillGrimorium().convertTextWithMetaInfo(texts, conf);
+    case TRICKS_GRIMORIUM, BLESSING_DIVINARIUM -> results = new DsaConverterMysticalSkillGrimoriumTricks().convertTextWithMetaInfo(texts, conf);
     case CURSES, ELFENSONGS, MELODIES, DANCES, ANIMIST ->
         results = new DsaConverterMysticalSkillActivity_LEGACY().convertTextWithMetaInfo(texts, conf);
     case TRADITIONS_GRIMORIUM -> System.out.println("IMPLEMENTIER MICH");

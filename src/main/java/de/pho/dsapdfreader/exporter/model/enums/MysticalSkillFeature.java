@@ -71,7 +71,15 @@ public enum MysticalSkillFeature
   waves,
   wolfs,
   common_shaman,
-  time;
+  time,
+  endless_depth,
+  sorcery,
+  raging_vortex,
+  flying_lizard,
+  tactics,
+  ghostworld,
+  power_of_the_lizard,
+  loyalty;
 
   public static MysticalSkillFeature fromString(String text)
   {
@@ -89,7 +97,7 @@ public enum MysticalSkillFeature
           case "ekstase" -> MysticalSkillFeature.extacy;
           case "elementar" -> MysticalSkillFeature.elemental;
           case "erkenntnis" -> MysticalSkillFeature.epiphany;
-          case "erz" -> MysticalSkillFeature.order;
+          case "erz" -> MysticalSkillFeature.ore;
           case "feuer" -> MysticalSkillFeature.fire;
           case "flammen" -> MysticalSkillFeature.flame;
           case "freiheit" -> MysticalSkillFeature.freedom;
@@ -145,13 +153,21 @@ public enum MysticalSkillFeature
           case "wölfe" -> MysticalSkillFeature.wolfs;
           case "allgemein schamanenritus" -> MysticalSkillFeature.common_shaman;
           case "zeit" -> MysticalSkillFeature.time;
+          case "unendliche tiefe" -> MysticalSkillFeature.endless_depth;
+          case "zauberei" -> MysticalSkillFeature.sorcery;
+          case "reißender strudel" -> MysticalSkillFeature.raging_vortex;
+          case "flugechse" -> MysticalSkillFeature.flying_lizard;
+          case "taktik" -> MysticalSkillFeature.tactics;
+          case "geisterwelt" -> MysticalSkillFeature.ghostworld;
+          case "echsenmacht" -> MysticalSkillFeature.power_of_the_lizard;
+          case "loyalität" -> MysticalSkillFeature.loyalty;
           default -> null;
         };
-    }
+  }
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 }

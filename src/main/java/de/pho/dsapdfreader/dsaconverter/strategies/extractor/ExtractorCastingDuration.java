@@ -33,7 +33,7 @@ public class ExtractorCastingDuration extends Extractor
     else
     {
       List<String> castingDurations = List.of(msr.castingDuration.split("\\/"));
-      returnValue = castingDurations.stream().map(cd -> retrieveCastingDuration(cd, catgeory, getPrefix(msr))).collect(Collectors.toList());
+      returnValue = castingDurations.stream().map(cd -> retrieveCastingDuration(cd, catgeory, getPrefix(msr.publication, msr.name))).collect(Collectors.toList());
     }
     return returnValue;
   }
@@ -76,7 +76,7 @@ public class ExtractorCastingDuration extends Extractor
           }
           else
           {
-            System.out.println(errorPrefix + " is invalid casting Duration Pattern Match " + m);
+            LOGGER.error(errorPrefix + " is invalid casting Duration Pattern Match " + m);
           }
         }
       }

@@ -30,7 +30,8 @@ public enum SkillApplicationKey
   einschüchternde_zurechtweisung,
   abrichter,
   ackerbau,
-  abrollen;
+  abrollen,
+  scholar_der_akademie_der_hohen_magie_zu_punin;
 
   @JsonValue
   public int toValue()

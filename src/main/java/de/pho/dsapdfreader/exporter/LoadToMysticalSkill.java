@@ -118,7 +118,7 @@ public class LoadToMysticalSkill
     else
     {
       ms.name = msr.name;
-      ms.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr, ms.category);
+      ms.key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, ms.category);
       ms.advancementCategory = ExtractorAdvancementCategory.retrieveAdvancementCategory(msr);
       ms.spellVariants = ExtractorMysticalSkillVariant.retrieveMysticalSkillVariants(msr, ms.key);
       returnList.add(ms);

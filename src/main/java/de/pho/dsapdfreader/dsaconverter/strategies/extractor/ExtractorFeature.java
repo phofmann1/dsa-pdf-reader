@@ -20,31 +20,32 @@ public class ExtractorFeature extends Extractor
     public static List<MysticalSkillFeature> retrieveFeatures(MysticalSkillRaw msr)
     {
         return isClerical(msr.topic)
-            ? retrieveFeaturesCleric(msr, getPrefix(msr))
-            : retrieveFeatureMagic(msr.feature, getPrefix(msr));
+            ? retrieveFeaturesCleric(msr, getPrefix(msr.publication, msr.name))
+            : retrieveFeatureMagic(msr.feature, getPrefix(msr.publication, msr.name));
     }
 
     public static List<MysticalSkillFeature> retrieveFeatureMagic(String feature, String prefix)
     {
         List<MysticalSkillFeature> returnValue = new ArrayList<>();
         MysticalSkillFeature msFeature = MysticalSkillFeature.fromString(feature);
-        if (msFeature == null) LOGGER.error(prefix + "Feature (" + feature + ") could not be interpreted.");
-        else returnValue.add(msFeature);
+      if (msFeature == null) LOGGER.error(prefix + "Feature - Magic (" + feature + ") could not be interpreted.");
+      else returnValue.add(msFeature);
         return returnValue;
     }
 
 
     protected static List<MysticalSkillFeature> retrieveFeaturesCleric(MysticalSkillRaw msr, String errorPrefix)
     {
-        String clericalFeatureString = (msr.commonness == null || msr.commonness.isEmpty()) ? msr.feature : msr.commonness;
-        List<MysticalSkillFeature> returnValue = extractFeaturesFromString(clericalFeatureString).stream()
-            .map(MysticalSkillFeature::fromString)
-            .filter(Objects::nonNull)
-            .collect(Collectors.toList());
-        if (returnValue.size() == 0)
-            LOGGER.error(errorPrefix + "Feature (" + clericalFeatureString + ") could not be interpreted.");
+      String clericalFeatureString = (msr.commonness == null || msr.commonness.isEmpty()) ? msr.feature : msr.commonness;
+      List<MysticalSkillFeature> returnValue = extractFeaturesFromString(clericalFeatureString).stream()
+          .map(MysticalSkillFeature::fromString)
+          .filter(Objects::nonNull)
+          .collect(Collectors.toList());
+      if (returnValue.size() == 0 && !clericalFeatureString.equals("Kor*"))
+        LOGGER.error(errorPrefix + "Feature - Cleric (" + clericalFeatureString + ") could not be interpreted.");
 
-        return returnValue;
+
+      return returnValue;
 
     }
 

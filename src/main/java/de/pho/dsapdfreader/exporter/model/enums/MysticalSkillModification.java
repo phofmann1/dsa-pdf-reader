@@ -4,17 +4,17 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum MysticalSkillModification
 {
-    ENFORCE,
-    COSTREDUCTION,
-    RANGEINCREASE,
-    FAST,
-    SLOW,
-    WITHOUTSPELLING,
-    WITHOUTWEAVING;
+  erzwingen,
+  kosten_reduzieren,
+  reichweite_erhöhen,
+  zauberdauer_verkürzen,
+  zauberdauer_erhöhen,
+  formel_weglassen,
+  gesten_weglassen;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 }

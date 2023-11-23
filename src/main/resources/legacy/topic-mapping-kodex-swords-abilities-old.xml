@@ -261,7 +261,6 @@
         </params>
     </strategy>
 
-
     <strategy name="StrategySplitLineAfterPosition - Voraussetzungen" index="1">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>

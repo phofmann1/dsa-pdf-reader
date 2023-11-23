@@ -22,7 +22,7 @@ public class ExtractorCheck extends Extractor
             }
             catch (IllegalArgumentException e)
             {
-                LOGGER.error(getPrefix(msr) + "Attribute (" + msr.check + ") unknown");
+                LOGGER.error(getPrefix(msr.publication, msr.name) + "Attribute (" + msr.check + ") unknown");
             }
 
 

@@ -14,6 +14,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.javatuples.Quartet;
 import org.javatuples.Triplet;
 
@@ -44,6 +46,7 @@ import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 public class LoadToSpecialAbility
 {
 
+  protected static final Logger LOGGER = LogManager.getLogger();
   public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=(I-|\\/))[IVX]{1,4}");
 
   private static final String[] BEEINDRUCKENDE_VORSTELLUNG_VARIANTS = {
@@ -115,6 +118,13 @@ public class LoadToSpecialAbility
 
     SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.geländekunde, SelectionCategory.terrain);
     SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.anhänger_des_güldenen, SelectionCategory.traditionCleric);
+
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.meistertrick_i, SelectionCategory.mysticalSkillTrick);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.meistertrick_ii, SelectionCategory.mysticalSkillTrick);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.meistertrick_iii, SelectionCategory.mysticalSkillTrick);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.hauptsegnung_i, SelectionCategory.mysticalSkillBlessing);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.hauptsegnung_ii, SelectionCategory.mysticalSkillBlessing);
+    SA_SELECTION_CATEGORY_MAP.put(SpecialAbilityKey.hauptsegnung_iii, SelectionCategory.mysticalSkillBlessing);
   }
 
   static
@@ -140,7 +150,7 @@ public class LoadToSpecialAbility
         .replace("Herrschaft über Dämonen", "Herrschaft über Dämonen I-III");
     if (!isIgnored)
     {
-      int levels = extractLevels(raw);
+      int levels = extractLevels(raw.name);
       String baseName = levels > 1
           ? raw.name.split("(?= (I-|I\\/))")[0]
           : raw.name;
@@ -197,7 +207,8 @@ public class LoadToSpecialAbility
             }
             catch (IllegalArgumentException e)
             {
-              System.out.println("SA: " + keyString);
+              //System.out.println("SA: " + keyString);
+              LOGGER.error("Invalid specialAbility name: " + keyString);
             }
           }
         }
@@ -227,9 +238,16 @@ public class LoadToSpecialAbility
         specialAbility.requirementsCombatSkill = reqs.getValue2();
         specialAbility.requirementMysticalSkill = reqs.getValue3();
         specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(preconditionsMap, specialAbility.name, levels, currentLevel, isUseSamePrecondition);
-      /*
-      specialAbility.valueChange;
-      */
+
+        if (specialAbility.key != null && specialAbility.key != SpecialAbilityKey.zauberkämpfer && specialAbility.key != SpecialAbilityKey.ätzes_geben)
+        {
+          specialAbility.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(raw.rules, specialAbility.key);
+        }
+        specialAbility.selectSkillUsagesCount = specialAbility.key != null && specialAbility.key == SpecialAbilityKey.fachwissen
+            ? 2
+            : 0;
+
+
         // Heilungsspezialgebiet (Anwendungsgebiet)
         if (isAuthor)
         {
@@ -241,7 +259,7 @@ public class LoadToSpecialAbility
         }
         else if (isGebieterDesAspekts)
         {
-          returnValue.addAll(generateGebieterDesAspektsList(specialAbility));
+          returnValue.addAll(generateGebieterDesAspektsList(specialAbility, raw.rules));
         }
         else
         {
@@ -252,7 +270,7 @@ public class LoadToSpecialAbility
     return returnValue.stream();
   }
 
-  public static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility)
+  public static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility, String rules)
   {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
@@ -260,173 +278,174 @@ public class LoadToSpecialAbility
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_antimagie,
-        "Gebieter/in der Antimagie")
+        "Gebieter/in der Antimagie", rules)
     );
 
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_begierde,
-        "Gebieter/in der Begierde"));
+        "Gebieter/in der Begierde", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_bildung,
-        "Gebieter/in der Bildung"));
+        "Gebieter/in der Bildung", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_ekstase,
-        "Gebieter/in der Ekstase"));
+        "Gebieter/in der Ekstase", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_erkenntnis,
-        "Gebieter/in der Erkenntnis"));
+        "Gebieter/in der Erkenntnis", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_flamme,
-        "Gebieter/in der Flamme"));
+        "Gebieter/in der Flamme", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_freiheit,
-        "Gebieter/in der Freiheit"));
+        "Gebieter/in der Freiheit", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_freundschaft,
-        "Gebieter/in der Freundschaft"));
+        "Gebieter/in der Freundschaft", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_harmonie,
-        "Gebieter/in der Harmonie"));
+        "Gebieter/in der Harmonie", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_heilung,
-        "Gebieter/in der Heilung"));
+        "Gebieter/in der Heilung", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_hilfsbereitschaft,
-        "Gebieter/in der Hilfsbereitschaft"));
+        "Gebieter/in der Hilfsbereitschaft", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_jagd,
-        "Gebieter/in der Jagd"));
+        "Gebieter/in der Jagd", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_kälte,
-        "Gebieter/in der Kälte"));
+        "Gebieter/in der Kälte", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_kraft,
-        "Gebieter/in der Kraft"));
+        "Gebieter/in der Kraft", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_landwirtschaft,
-        "Gebieter/in der Landwirtschaft"));
+        "Gebieter/in der Landwirtschaft", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_magie,
-        "Gebieter/in der Magie"));
+        "Gebieter/in der Magie", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_natur,
-        "Gebieter/in der Natur"));
+        "Gebieter/in der Natur", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_ordnung,
-        "Gebieter/in der Ordnung"));
+        "Gebieter/in der Ordnung", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_reise,
-        "Gebieter/in der Reise"));
+        "Gebieter/in der Reise", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_schatten,
-        "Gebieter/in der Schatten"));
+        "Gebieter/in der Schatten", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_tapferkeit,
-        "Gebieter/in der Tapferkeit"));
+        "Gebieter/in der Tapferkeit", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_träume,
-        "Gebieter/in der Träume"));
+        "Gebieter/in der Träume", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_vergänglichkeit,
-        "Gebieter/in der Vergänglichkeit"));
+        "Gebieter/in der Vergänglichkeit", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_vision,
-        "Gebieter/in der Vision"));
+        "Gebieter/in der Vision", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_der_wogen,
-        "Gebieter/in der Wogen"));
+        "Gebieter/in der Wogen", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_erzes,
-        "Gebieter/in des Erzes"));
+        "Gebieter/in des Erzes", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_feuers,
-        "Gebieter/in des Feuers"));
+        "Gebieter/in des Feuers", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_guten_goldes,
-        "Gebieter/in des guten Goldes"));
+        "Gebieter/in des guten Goldes", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_guten_kampfes,
-        "Gebieter/in des guten Kampfes"));
+        "Gebieter/in des guten Kampfes", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_handels,
-        "Gebieter/in des Handels"));
+        "Gebieter/in des Handels", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_handwerks,
-        "Gebieter/in des Handwerks"));
+        "Gebieter/in des Handwerks", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_heims,
-        "Gebieter/in des Heims"));
+        "Gebieter/in des Heims", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_rausches,
-        "Gebieter/in des Rausches"));
+        "Gebieter/in des Rausches", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_schicksals,
-        "Gebieter/in des Schicksals"));
+        "Gebieter/in des Schicksals", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_schilds,
-        "Gebieter/in des Schilds"));
+        "Gebieter/in des Schilds", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_sturms,
-        "Gebieter/in des Sturms"));
+        "Gebieter/in des Sturms", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_todes,
-        "Gebieter/in des Todes"));
+        "Gebieter/in des Todes", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_wandels,
-        "Gebieter/in des Wandels"));
+        "Gebieter/in des Wandels", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_winds,
-        "Gebieter/in des Windes"));
+        "Gebieter/in des Windes", rules));
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
         SpecialAbilityKey.gebieter_in_des_wissens,
-        "Gebieter/in des Wissens"));
+        "Gebieter/in des Wissens", rules));
 
     return returnValue;
   }
 
-  private static SpecialAbility generateGebieterDesAspekts(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name)
+  private static SpecialAbility generateGebieterDesAspekts(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name, String rules)
   {
     specialAbility.key = specialAbilityKey;
     specialAbility.name = name;
+    specialAbility.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(rules, specialAbility.key);
     return specialAbility;
   }
 
@@ -535,10 +554,10 @@ public class LoadToSpecialAbility
     return n + (levels > 1 ? levelAffix : "") + bracket;
   }
 
-  public static int extractLevels(SpecialAbilityRaw msr)
+  public static int extractLevels(String name)
   {
-    Matcher m = EXTRACT_UPPER_ROMAN.matcher(msr.name);
-    return switch (msr.name)
+    Matcher m = EXTRACT_UPPER_ROMAN.matcher(name);
+    return switch (name)
         {
           case "Beeindruckende Vorstellung" -> BEEINDRUCKENDE_VORSTELLUNG_VARIANTS.length;
           case "Giftverstärkung (Giftart)" -> GIFTVERSTAERKUNG_VARIANTS.length;

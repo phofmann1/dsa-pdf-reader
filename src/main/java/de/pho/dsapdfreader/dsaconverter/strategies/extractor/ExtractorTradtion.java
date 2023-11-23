@@ -26,7 +26,8 @@ public class ExtractorTradtion extends Extractor
         }
         String[] tTrads = cTxt.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
         return Arrays.stream(tTrads)
-            .map(Extractor::extractTraditionKeyFromText)
+            .map(Extractor::extractTraditionKeysFromText)
+            .flatMap(list -> list.stream())
             .collect(Collectors.toList());
     }
 

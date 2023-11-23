@@ -35,6 +35,20 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveSingleLineFromPage - I auf 396" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>396</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>84</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategyRemoveLinesFromPage - Box Reichtum 401" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
@@ -126,6 +140,42 @@
             <parameter>
                 <key>endEntryLineNo</key>
                 <value>80</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition Feenfreund - Punkte von 'AP-Wert:'" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>8</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - make '-' not bold 406">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>110.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
             </parameter>
         </params>
     </strategy>
@@ -225,6 +275,20 @@
         </params>
     </strategy>
 
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I auf 418" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>418</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>31</value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategySplitLineAfterPosition Zauberanfällig - Nach AP-Wert" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>

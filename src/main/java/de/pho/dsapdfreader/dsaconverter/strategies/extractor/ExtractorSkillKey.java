@@ -38,8 +38,8 @@ public class ExtractorSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println("US: " + usage + ",");
-      //LOGGER.error(e.getMessage(), e);
+      //System.out.println("US: " + usage + ",");
+      LOGGER.error(e.getMessage(), e);
     }
     return null;
   }
@@ -55,8 +55,9 @@ public class ExtractorSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(skillKeyString + " --> ");
       returnValue = null;
+      //System.out.println(skillKeyString + " --> ");
+      LOGGER.error("Invalid specialAbility name: " + skillKeyString);
     }
     return returnValue;
   }

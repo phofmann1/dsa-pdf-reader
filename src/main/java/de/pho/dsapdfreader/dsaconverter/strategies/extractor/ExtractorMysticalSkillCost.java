@@ -89,7 +89,7 @@ public class ExtractorMysticalSkillCost extends Extractor
 
   public static Cost retrieveMysticalSkillCost(MysticalSkillRaw msr)
   {
-    return retrieveCost(msr.cost, getPrefix(msr));
+    return retrieveCost(msr.cost, getPrefix(msr.publication, msr.name));
   }
 
   public static Cost retrieveCost(String costText, String errorPrefix)

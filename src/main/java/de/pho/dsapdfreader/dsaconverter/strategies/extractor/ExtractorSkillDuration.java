@@ -31,7 +31,7 @@ public class ExtractorSkillDuration extends Extractor
                 String maxTxt = m.group();
                 if (!maxTxt.isEmpty())
                 {
-                    Unit[] maxUnits = extractUnitsFromText(maxTxt, getPrefix(msr), false);
+                    Unit[] maxUnits = extractUnitsFromText(maxTxt, getPrefix(msr.publication, msr.name), false);
                     if (maxUnits.length == 0)
                     {
                         returnValue.maxDurationSpecial = maxTxt.trim();
@@ -40,21 +40,21 @@ public class ExtractorSkillDuration extends Extractor
                         returnValue.maxDurationUnit = maxUnits[0];
                     } else
                     {
-                        LOGGER.error(getPrefix(msr) + "Unit for maximum Duration (" + maxTxt + ") is not ambiguously");
+                      LOGGER.error(getPrefix(msr.publication, msr.name) + "Unit for maximum Duration (" + maxTxt + ") is not ambiguously");
                     }
 
-                    returnValue.maxDuration = extractFirstNumberFromText(maxTxt, getPrefix(msr));
-                    returnValue.maxDuration = returnValue.maxDuration == 0 ? 1 : returnValue.maxDuration;
+                  returnValue.maxDuration = extractFirstNumberFromText(maxTxt, getPrefix(msr.publication, msr.name));
+                  returnValue.maxDuration = returnValue.maxDuration == 0 ? 1 : returnValue.maxDuration;
                     returnValue.maxIsPerQs = maxTxt.contains("QS ");
 
                     durationTxt = durationTxt.replace(maxTxt, "");
                 } else
                 {
-                    LOGGER.error(getPrefix(msr) + "Duration (" + msr.duration + ") has no valid max");
+                  LOGGER.error(getPrefix(msr.publication, msr.name) + "Duration (" + msr.duration + ") has no valid max");
                 }
             }
 
-            Unit[] units = extractUnitsFromText(durationTxt, getPrefix(msr), false);
+          Unit[] units = extractUnitsFromText(durationTxt, getPrefix(msr.publication, msr.name), false);
             if (units.length == 0)
             {
                 returnValue.durationSpecial = msr.duration;
@@ -63,8 +63,8 @@ public class ExtractorSkillDuration extends Extractor
                 returnValue.durationUnit = units[0];
                 if (returnValue.durationUnit != Unit.SUSTAINED && returnValue.durationUnit != Unit.IMMEDIATE)
                 {
-                    returnValue.duration = extractFirstNumberFromText(durationTxt, getPrefix(msr));
-                    returnValue.duration = returnValue.duration == 0 ? 1 : returnValue.duration;
+                  returnValue.duration = extractFirstNumberFromText(durationTxt, getPrefix(msr.publication, msr.name));
+                  returnValue.duration = returnValue.duration == 0 ? 1 : returnValue.duration;
                     returnValue.isPerQS = durationTxt.contains("QS ");
                 }
             } else

@@ -4,42 +4,43 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum CultureKey
 {
-    ANDERGASTER,
-    ARANIER,
-    BORNLAENDER,
-    FERKINAS,
-    FJARNINGER,
-    GJALSKER,
-    HORASIER,
-    KOBOLDWELTLER,
-    MARASKANER,
-    MHANADISTANI,
-    MITTELREICHER,
-    MOHAS,
-    NIVESEN,
-    NORBARDEN,
-    NORDAVENTURIER,
-    NOSTRIER,
-    NOVADIS,
-    SUEDAVENTURIER,
-    SVELLTTALER,
-    THORWALER,
-    TROLLZACKER,
-    ZAHORI,
-    ZYKLOPAEER,
-    AUELFEN,
-    FIRNELFEN,
-    STEPPENELFEN,
-    WALDELFEN,
-    AMBOSSZWERGE,
-    BRILLANTZWERGE,
-    ERZZWERGE,
-    HUEGELZWERGE,
-    WILDZWERGE;
+  andergaster,
+  aranier,
+  bornlaender,
+  ferkinas,
+  fjarninger,
+  gjalsker,
+  horasier,
+  koboldweltler,
+  maraskaner,
+  mhanadistani,
+  mittelreicher,
+  mohas,
+  nivesen,
+  norbarden,
+  nordaventurier,
+  nostrier,
+  novadis,
+  suedaventurier,
+  svellttaler,
+  thorwaler,
+  trollzacker,
+  zahori,
+  zyklopaeer,
+  auelfen,
+  firnelfen,
+  steppenelfen,
+  waldelfen,
+  ambosszwerge,
+  brillantzwerge,
+  erzzwerge,
+  huegelzwerge,
+  wildzwerge,
+  orkland;
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue()
+  {
+    return ordinal();
+  }
 }

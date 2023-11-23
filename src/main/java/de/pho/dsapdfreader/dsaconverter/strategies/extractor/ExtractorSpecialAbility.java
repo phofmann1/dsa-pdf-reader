@@ -32,11 +32,14 @@ import de.pho.dsapdfreader.exporter.model.SkillApplication;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityAdvancedSelection;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityOption;
+import de.pho.dsapdfreader.exporter.model.ValueChange;
 import de.pho.dsapdfreader.exporter.model.enums.AttributeShort;
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillModification;
 import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
@@ -44,7 +47,11 @@ import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
+import de.pho.dsapdfreader.exporter.model.enums.TargetCategory;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
+import de.pho.dsapdfreader.exporter.model.enums.UsageRestrictionKey;
+import de.pho.dsapdfreader.exporter.model.enums.ValueChangeKey;
+import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
 
 public class ExtractorSpecialAbility extends Extractor
 {
@@ -53,7 +60,7 @@ public class ExtractorSpecialAbility extends Extractor
   //test/resources/testdata - regex/KodexSchwert - abilities - new skill usages.txt
   public static final Pattern PAT_HAS_NEW_SKILL_USAGE = Pattern.compile("neues? (<i>)?Anwendungsgebiet|erhält .* das Anwendungsgebiet <i>");
   public static final Pattern PAT_EXTRACT_NEW_SKILL_USAGE = Pattern.compile("(?<=Anwendungsgebiet <i>)[A-zÄ-üß ()&]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)"); //die Trennung durch <i> ist z.B. im Anwendungsgebiet Instrumente bauen zu sehen
-  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine).*Einsatzmöglichkeit");
+  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine|bekommen).*Einsatzmöglichkeit");
   public static final Pattern PAT_EXTRACT_NEW_SKILL_APPLICATION = Pattern.compile("(?<=(Talent <i>|it von <i>|it für <i>|alents <i>|be auf <i>))[A-zÄ-üß ()&.]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)");
   public static final Pattern PAT_EXTRACT_SKILL = Pattern.compile("(?<=<i>)[A-zÄ-üß &-]*(?=<\\/i>)");
   private static final Pattern PAT_EXTRACT_SPECIE = Pattern.compile("(?<=Spezies )\\w*");
@@ -64,6 +71,9 @@ public class ExtractorSpecialAbility extends Extractor
 
   private static final Pattern PAT_EXTRACT_SKILL_REQ = Pattern.compile("([A-ZÄÖÜ]?[a-ü& -])+(?= \\d\\d?)|(?<=Zauber )[A-Z][A-Z \\-]+(?= ?\\d?\\d?)");
   private static final Pattern PAT_EXTRACT_MYSTICAL_SKILL_REQ = Pattern.compile("(?<=Zauber )[A-Z -]{3,}\\d?\\d?");
+
+  private static final Pattern PAT_VC_QS_PLUS = Pattern.compile("(\\+| um) ?\\d QS");
+  private static final Pattern PAT_VC_FP_PLUS = Pattern.compile("(?<=\\+| um) ?\\d(?= FP)");
 
 
   private static final SpecialAbilityKey[] NEBENFACH = {
@@ -134,8 +144,8 @@ public class ExtractorSpecialAbility extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(keyString.toLowerCase() + ",");
-      //LOGGER.error("Invalid specialAbility name: " + name);
+      //System.out.println(keyString.toLowerCase() + ",");
+      LOGGER.error("Invalid specialAbility name: " + name);
     }
     return returnValue;
   }
@@ -339,10 +349,11 @@ public class ExtractorSpecialAbility extends Extractor
       }
       catch (IllegalArgumentException e)
       {
-        System.out.println("SA: " + keyString);
+        //System.out.println("SA: " + keyString);
+        LOGGER.error("Invalid specialAbility name: " + keyString);
       }
       returnValue.name = abilityName;
-      returnValue.skillKey = extractSkillKey(rules);
+      returnValue.skillKey = extractSkillKeyForNewApplication(rules);
 
       returnValue.skillUsages = extractSkillUsages(returnValue.key);
     }
@@ -368,12 +379,12 @@ public class ExtractorSpecialAbility extends Extractor
           case scholar_der_akademie_schwert_und_stab_zu_gareth, scholar_der_schule_der_hellsicht_zu_thorwal ->
               List.of(SkillUsageKey.bedrohungen_standhalten);
           case tapferkeit_der_unsterblichen -> List.of(SkillUsageKey.öffentliche_rede);
-          case analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen ->
+          case scholar_der_akademie_der_hohen_magie_zu_punin, analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen ->
               new ArrayList<>();
         };
   }
 
-  private static SkillKey extractSkillKey(String rules)
+  private static SkillKey extractSkillKeyForNewApplication(String rules)
   {
     Matcher m = PAT_EXTRACT_NEW_SKILL_APPLICATION.matcher(rules.replace("<i>Pflanzen</i> <i>-</i> <i>kunde (Nutzpflanzen)</i>", "<i>Pflanzenkunde (Nutzpflanzen)</i>"));
     String forSkill = "";
@@ -880,18 +891,18 @@ public class ExtractorSpecialAbility extends Extractor
         returnValue = returnValue == null ? new RequirementsSpecialAbility() : returnValue;
         returnValue.logicalOpperator = LogicalOperatorKey.and;
         List<RequirementSpecialAbility> reqSa = reqTexts.stream().map(reqText -> {
-          SpecialAbilityKey sak = extractSpecialAbilityKeyFromText(reqText
-              .replace("Sonderfertigkeiten", "")
-              .replace("Sonderfertigkeit", "")
-              .replace("Reversalis I des gleichen Zaubers", "Reversalis I")
-              .replace("Kampftechnik keine", "")
-              .replaceAll("Kernschuss$", "Kernschuss I")
-              .replaceAll("Präziser Schuss II$", "Präziser Schuss/Wurf II")
-              .replace("Finte I/II/III (je nach Antäuschen-Stufe)", "Finte I")
-              .replaceAll("Wirbelangriff$", "Wirbelangriff I")
-              .replace("Ottagalder I", "Blutmagie (Ottagalder I)")
-              .replace("Blutmagie (Ottagalder I)I", "Blutmagie (Ottagalder II)")
-              .trim());
+              SpecialAbilityKey sak = extractSpecialAbilityKeyFromText(reqText
+                  .replace("Sonderfertigkeiten", "")
+                  .replace("Sonderfertigkeit", "")
+                  .replace("Reversalis I des gleichen Zaubers", "Reversalis I")
+                  .replace("Kampftechnik keine", "")
+                  .replaceAll("Kernschuss$", "Kernschuss I")
+                  .replaceAll("Präziser Schuss II$", "Präziser Schuss/Wurf II")
+                  .replace("Finte I/II/III (je nach Antäuschen-Stufe)", "Finte I")
+                  .replaceAll("Wirbelangriff$", "Wirbelangriff I")
+                  .replace("Ottagalder I", "Blutmagie (Ottagalder I)")
+                  .replace("Blutmagie (Ottagalder I)I", "Blutmagie (Ottagalder II)")
+                  .trim());
               return generateRequirementSpecialAbility(sak, null);
             })
             .filter(sa -> sa.abilityKey != null)
@@ -1026,4 +1037,468 @@ public class ExtractorSpecialAbility extends Extractor
   }
 
 
+  public static List<ValueChange> retrieveValueChanges(String rules, SpecialAbilityKey saKey)
+  {
+    List<ValueChange> returnValue = new ArrayList<>();
+    ValueChange qsValueChange = generateQsValueChanges(rules, saKey);
+    if (qsValueChange != null && qsValueChange.isValid()) returnValue.add(qsValueChange);
+    if (qsValueChange != null && !qsValueChange.isValid()) LOGGER.error("VALUECHANGES (QS) invalid for: " + saKey.name() + " -> " + rules);
+
+    if (qsValueChange == null)
+    {
+      ValueChange fpValueChangeSkill = generateFpValueChanges(rules, saKey);
+      if (fpValueChangeSkill != null && fpValueChangeSkill.isValid()) returnValue.add(fpValueChangeSkill);
+
+      ValueChange fpValueChangeFeature = generateFeatureValueChanges(rules, saKey);
+      if (fpValueChangeFeature != null && fpValueChangeFeature.isValid()) returnValue.add(fpValueChangeFeature);
+
+      boolean fpvcNone = fpValueChangeSkill == null && fpValueChangeFeature == null;
+      boolean fpvcSkillIsValid = fpValueChangeSkill != null && fpValueChangeSkill.isValid();
+      boolean fpvcFeatuIsValid = fpValueChangeFeature != null && fpValueChangeFeature.isValid();
+      if (!fpvcNone && !fpvcSkillIsValid && !fpvcFeatuIsValid) LOGGER.error("VALUECHANGES (FP) invalid for: " + saKey.name() + " -> " + rules);
+    }
+
+
+    // +begabung
+    // +CheckParts
+    // +Energy
+    // traditionChange
+    return returnValue;
+  }
+
+
+  private static ValueChange generateQsValueChanges(String rules, SpecialAbilityKey saKey)
+  {
+    ValueChange resultValueChange = handleCompleteSpecialValueChangesQs(saKey);
+    if (resultValueChange != null && resultValueChange.isValid())
+    {
+      return resultValueChange;
+    }
+    resultValueChange = handlePlusQsValueChanges(rules);
+    handleAdditionalSpecialValueChangesQs(resultValueChange, saKey);
+    if (resultValueChange != null && !resultValueChange.isValid()) System.out.println("VALUECHANGES;qs;" + saKey.name() + ";" + rules);
+    return resultValueChange;
+  }
+
+
+  private static ValueChange generateFpValueChanges(String rules, SpecialAbilityKey saKey)
+  {
+    ValueChange resultValueChange = handleCompleteSpecialValueChangesFp(saKey);
+    if (resultValueChange != null && resultValueChange.isValid())
+    {
+      return resultValueChange;
+    }
+    resultValueChange = handlePlusFpValueChangesSkill(rules);
+    handleAdditionalSpecialValueChangesFpSkill(resultValueChange, saKey);
+    return resultValueChange;
+  }
+
+  private static ValueChange generateFeatureValueChanges(String rules, SpecialAbilityKey saKey)
+  {
+    ValueChange resultValueChange = handleCompleteSpecialValueChangesFeature(saKey);
+    if (resultValueChange != null && resultValueChange.isValid())
+    {
+      return resultValueChange;
+    }
+    resultValueChange = handlePlusFpValueChangesFeature(rules);
+    handleAdditionalSpecialValueChangesFpMysticalSkill(resultValueChange, saKey);
+    return resultValueChange;
+  }
+
+
+  private static ValueChange handlePlusQsValueChanges(String rules)
+  {
+    ValueChange returnValue = null;
+    Matcher m = PAT_VC_QS_PLUS.matcher(rules);
+
+    if (m.find())
+    {
+      returnValue = new ValueChange();
+      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.type = ValueChangeType.qs;
+      returnValue.change = 1;
+
+      returnValue.usageKeys = new ArrayList<>();
+      Matcher mSkillUsages = Pattern.compile("(?<=\\()[A-ü<>\\/ ,&]*(?=\\))").matcher(rules);
+      while (mSkillUsages.find())
+      {
+        String skillUsagesString = mSkillUsages.group()
+            .replaceAll("<i>", "")
+            .replaceAll("<\\/i>", "")
+            .replace("oder nach Meisterentscheid ein anderes Talent im Zusammenhang mit Kunst oder Erschaffung von Kunst", "");
+        String[] skillUsages = skillUsagesString.split(",| und | oder ");
+        returnValue.usageKeys.addAll(List.of(skillUsages).stream()
+            .filter(sus -> !sus.isEmpty())
+            .map(sus -> {
+              try
+              {
+                return SkillUsageKey.fromString(sus
+                    .replace("Heben & Stemmen", "Stemmen & Heben")
+                    .replace("Bedrohung standhalten", "Bedrohungen standhalten")
+                    .replace("Provozieren", "Provokation")
+                    .trim());
+              }
+              catch (IllegalArgumentException e)
+              {
+                //System.out.println(rules+";"+sus);
+              }
+              return null;
+            }).collect(Collectors.toList()));
+      }
+    }
+
+    return returnValue;
+  }
+
+
+  private static ValueChange handlePlusFpValueChangesSkill(String rules)
+  {
+    ValueChange returnValue = null;
+    Matcher m = PAT_VC_FP_PLUS.matcher(rules);
+
+    if (m.find())
+    {
+      returnValue = new ValueChange();
+      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.type = ValueChangeType.fp;
+      returnValue.change = Integer.valueOf(m.group().trim());
+
+      returnValue.usageKeys = new ArrayList<>();
+      Matcher mSkillUsages = Pattern.compile("(?<=\\()[A-ü<>\\/ ,&]*(?=\\))").matcher(
+          rules.replaceAll("Tradition \\([A-ü]*\\)", "") // Traditionen werden sonst als Skill erkannt
+      );
+      while (mSkillUsages.find())
+      {
+        String skillUsagesString = mSkillUsages.group()
+            .replaceAll("<i>", "")
+            .replaceAll("<\\/i>", "")
+            .replace("oder nach Meisterentscheid ein anderes Talent im Zusammenhang mit Kunst oder Erschaffung von Kunst", "");
+        String[] skillUsages = skillUsagesString.split(",| und | oder ");
+        returnValue.usageKeys.addAll(List.of(skillUsages).stream()
+            .filter(sus -> !sus.isEmpty())
+            .map(sus -> {
+              try
+              {
+                return SkillUsageKey.fromString(sus
+                    .replace("Kostümieren", "Kostümierung")
+                    .trim());
+              }
+              catch (IllegalArgumentException e)
+              {
+                //System.out.println(sus + ";" + rules);
+                LOGGER.error("(" + sus + ") ist kein gültiger SkillUsageKey. Regeln: (" + rules + ")");
+              }
+              return null;
+            }).collect(Collectors.toList()));
+      }
+    }
+
+    return returnValue;
+  }
+
+  private static ValueChange handlePlusFpValueChangesFeature(String rules)
+  {
+    ValueChange returnValue = null;
+    Matcher m = PAT_VC_FP_PLUS.matcher(rules);
+
+    if (m.find())
+    {
+      returnValue = new ValueChange();
+      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.type = ValueChangeType.fp;
+      returnValue.change = Integer.valueOf(m.group().trim());
+
+
+      returnValue.usageKeys = new ArrayList<>();
+      Matcher mSkillUsages = Pattern.compile("(?<=Merkmals <i>)[A-ü]*(?=<\\/i>)").matcher(rules);
+      while (mSkillUsages.find())
+      {
+        String featureString = mSkillUsages.group();
+        returnValue.featureKey = MysticalSkillFeature.fromString(featureString);
+      }
+    }
+
+    return returnValue;
+  }
+
+  private static ValueChange handleCompleteSpecialValueChangesQs(SpecialAbilityKey saKey)
+  {
+    if (saKey == null) return null;
+    ValueChange result = new ValueChange();
+    result.key = ValueChangeKey.SKILL;
+    result.change = 1;
+    switch (saKey)
+    {
+    case holzkenntnis:
+      result.type = ValueChangeType.qs;
+      result.usageKeys = List.of(
+          SkillUsageKey.schlagen_und_schneiden, SkillUsageKey.tischlerarbeiten, SkillUsageKey.zimmermannsarbeiten,//Holzbearbeitung
+          SkillUsageKey.giftpflanzen, SkillUsageKey.heilpflanzen, SkillUsageKey.nutzpflanzen//Pflanzenkunde
+      );
+      result.usageRestrictionKey = UsageRestrictionKey.baum;
+      return result;
+    case stechender_blick:
+      result.type = ValueChangeType.qs;
+      result.usageKeys = List.of(SkillUsageKey.drohung, SkillUsageKey.folter, SkillUsageKey.provokation, SkillUsageKey.verhör);
+      result.usageRestrictionKey = UsageRestrictionKey.einzelne_person;
+      return result;
+    case erfolgreicher_sammler:
+      result.type = ValueChangeType.qs;
+      result.usageKeys = List.of(SkillUsageKey.nutzpflanzen);
+      result.usageRestrictionKey = UsageRestrictionKey.nahrungsbeschaffung;
+      return result;
+    case kunstbegabt:
+      result.type = ValueChangeType.qs;
+      result.usageKeys = List.of(
+          SkillUsageKey.malen, SkillUsageKey.ritzen, SkillUsageKey.zeichnen, // malen
+          SkillUsageKey.blasinstrumente, SkillUsageKey.saiteninstrumente, SkillUsageKey.trommeln, // musizieren
+          SkillUsageKey.bardenballade, SkillUsageKey.choral, SkillUsageKey.chorgesang, SkillUsageKey.sprechgesang, // singen
+          SkillUsageKey.dorftanz, SkillUsageKey.exotischer_tanz, SkillUsageKey.hoftanz, SkillUsageKey.kulttanz // tanzen
+      );
+      return result;
+    case fachwissen:
+    case hauptsegnung_i:
+    case hauptsegnung_ii:
+    case hauptsegnung_iii:
+    case meistertrick_i:
+    case meistertrick_ii:
+    case meistertrick_iii:
+      result.type = ValueChangeType.qs;
+      result.useParentSelection = true;
+      return result;
+    default:
+      return null;
+    }
+  }
+
+  private static ValueChange handleCompleteSpecialValueChangesFp(SpecialAbilityKey saKey)
+  {
+    if (saKey == null) return null;
+    ValueChange result = new ValueChange();
+    result.key = ValueChangeKey.SKILL;
+    switch (saKey)
+    {
+    case vertrauenswürdig:
+      result.type = ValueChangeType.fp;
+      result.usageKeys = List.of(
+          SkillUsageKey.diskussionsführung, SkillUsageKey.einzelgespräch, SkillUsageKey.öffentliche_rede,//Bekehren & Überzeugen
+          SkillUsageKey.anbändeln, SkillUsageKey.aufhübschen, SkillUsageKey.liebeskünste,//Betören
+          SkillUsageKey.benehmen, SkillUsageKey.klatsch_und_tratsch, SkillUsageKey.leichte_unterhaltung, SkillUsageKey.mode,//Etikette
+          SkillUsageKey.beschatten, SkillUsageKey.informationssuche, SkillUsageKey.ortseinschätzung,//Gassenwissen
+          SkillUsageKey.bühnenschauspiel, SkillUsageKey.kostümierung, SkillUsageKey.personen_imitieren,//Verkleiden
+          SkillUsageKey.aufschwatzen, SkillUsageKey.betteln, SkillUsageKey.herausreden, SkillUsageKey.manipulieren, SkillUsageKey.schmeicheln//Überreden
+      );
+      result.change = 1;
+      result.usageRestrictionKey = UsageRestrictionKey.probenart_vergleich;
+      return result;
+    default:
+      return null;
+    }
+  }
+
+  private static ValueChange handleCompleteSpecialValueChangesFeature(SpecialAbilityKey saKey)
+  {
+    if (saKey == null) return null;
+    ValueChange result = new ValueChange();
+    result.key = ValueChangeKey.SKILL;
+    result.type = ValueChangeType.fp;
+
+    switch (saKey)
+    {
+
+    case salonlöwinnen:
+      result.mysticalSkillKeys = List.of(
+          MysticalSkillKey.spell_bannbaladin, MysticalSkillKey.spell_levthans_feuer, MysticalSkillKey.spell_seidenzunge
+      );
+      result.change = 1;
+      break;
+
+    default:
+      return null;
+    }
+    return result;
+  }
+
+  private static ValueChange handleCompleteSpecialValueChangesTradition(SpecialAbilityKey saKey)
+  {
+    if (saKey == null) return null;
+    ValueChange result = new ValueChange();
+    result.key = ValueChangeKey.SKILL;
+    result.type = ValueChangeType.traditionChangeForFeature;
+    switch (saKey)
+    {
+    case quacksalber:
+      result.featureKey = MysticalSkillFeature.healing;
+      result.traditionKey = TraditionKey.ILLUSIONIST;
+      return result;
+    default:
+      return null;
+    }
+  }
+
+
+  private static void handleAdditionalSpecialValueChangesQs(ValueChange returnValue, SpecialAbilityKey saKey)
+  {
+    if (saKey != null && returnValue != null)
+    {
+
+      switch (saKey)
+      {
+      case geisterfreundin:
+        returnValue.targetCategory = TargetCategory.GHOST;
+        break;
+      }
+    }
+  }
+
+
+  private static void handleAdditionalSpecialValueChangesFpSkill(ValueChange returnValue, SpecialAbilityKey saKey)
+  {
+    if (saKey != null && returnValue != null)
+    {
+
+      switch (saKey)
+      {
+      case weg_des_schmieds:
+        returnValue.usageKeys.addAll(List.of(
+            SkillUsageKey.feinschmiedearbeiten, SkillUsageKey.grobschmiedearbeiten, SkillUsageKey.metallguss, SkillUsageKey.verhütten, SkillUsageKey.waffenherstellung // Metallbearbeitung
+        ));
+        break;
+      case weg_des_taschendiebes:
+        returnValue.usageKeys.addAll(List.of(
+            SkillUsageKey.ablenkungen, SkillUsageKey.person_bestehlen, SkillUsageKey.gegenstand_entwenden, SkillUsageKey.zustecken// Taschendiebstahl
+        ));
+        break;
+      case bedrohliche_aura:
+        returnValue.usageKeys.addAll(List.of(
+            SkillUsageKey.drohung, SkillUsageKey.folter, SkillUsageKey.provokation, SkillUsageKey.verhör// Einschüchtern
+        ));
+        break;
+      case handwerkskunst:
+      case kind_der_natur:
+      case körperliches_geschick:
+      case soziale_kompetenz:
+      case universalgenie:
+      case lieblingszauber:
+      case lieblingsliturgie:
+        returnValue.useParentSelection = true;
+        break;
+      case transporteur:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.transport;
+        returnValue.usageKeys.addAll(List.of(
+            SkillUsageKey.kampfmanöver, SkillUsageKey.langstrecke, SkillUsageKey.verfolgungsjagden, SkillUsageKey.wettfahren, // Boote & Schiffe, Fahrzeuge, Fliegen
+            SkillUsageKey.drücken_und_verbiegen, SkillUsageKey.eintreten_und_zertrümmern, SkillUsageKey.stemmen_und_heben, SkillUsageKey.ziehen_und_zerren // Kraftakt
+        ));
+        break;
+
+      case scholar_der_akademie_der_magischen_rüstung_zu_gareth:
+        returnValue.mysticalSkillKeys = List.of(
+            MysticalSkillKey.spell_ablativum, MysticalSkillKey.spell_armatrutz, MysticalSkillKey.spell_daemonenschild, MysticalSkillKey.spell_gardianum, MysticalSkillKey.spell_schimmernder_schild,
+            MysticalSkillKey.spell_fortifex
+        );
+        break;
+      case scholar_der_halle_der_antimagie_zu_kuslik:
+        returnValue.mysticalSkillKeys = List.of(
+            MysticalSkillKey.spell_daemonenbann,
+            MysticalSkillKey.spell_einflussbann,
+            MysticalSkillKey.spell_elementarbann,
+            MysticalSkillKey.spell_heilungsbann,
+            MysticalSkillKey.spell_hellsichtbann,
+            MysticalSkillKey.spell_illusionsbann,
+            MysticalSkillKey.spell_objektbann,
+            MysticalSkillKey.spell_sphaerenbann,
+            MysticalSkillKey.spell_telekinesebann,
+            MysticalSkillKey.spell_temporalbann,
+            MysticalSkillKey.spell_verwandlungsbann
+        );
+        break;
+      case austreibung:
+      case scholar_der_schule_der_austreibung_zu_perricum:
+        returnValue.mysticalSkillKeys = List.of(
+            MysticalSkillKey.spell_heptagramma,
+            MysticalSkillKey.spell_hexagramma,
+            MysticalSkillKey.spell_oktagramma,
+            MysticalSkillKey.spell_pentagramma
+        );
+        break;
+      case scholar_der_akademie_des_magischen_wissens_zu_methumis:
+      case scholar_der_akademie_der_hohen_magie_zu_punin:
+        returnValue.usageKeys = List.of(
+            SkillUsageKey.artefakte, SkillUsageKey.magische_wesen, SkillUsageKey.rituale, SkillUsageKey.zaubersprüche// Magiekunde
+        );
+        break;
+      case scholar_des_hesindius_lichtblick:
+        returnValue.mysticalSkillModificationType = MysticalSkillModification.zauberdauer_erhöhen;
+        break;
+      case scholar_des_demirion_ophenos:
+      case küstenwächter:
+      case erzwungene_liturgie:
+        returnValue.mysticalSkillModificationType = MysticalSkillModification.erzwingen;
+        break;
+      case quacksalber:
+        returnValue.usageKeys = List.of(
+            SkillUsageKey.alchimistische_gifte, SkillUsageKey.elixiere, SkillUsageKey.profane_alchimie// Aclhimie
+        );
+        break;
+      case graue_katzen:
+        returnValue.mysticalSkillKeys = List.of(
+            MysticalSkillKey.spell_blindheit, MysticalSkillKey.spell_chamaelioni, MysticalSkillKey.spell_harmlose_gestalt, MysticalSkillKey.spell_ignorantia, MysticalSkillKey.spell_spurlos, MysticalSkillKey.spell_visibili
+        );
+        break;
+      case waldhexen:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.im_wald;
+        break;
+      case wildkatzen:
+        returnValue.mysticalSkillKeys = List.of(
+            MysticalSkillKey.spell_aeolito, MysticalSkillKey.spell_aquafaxius, MysticalSkillKey.spell_aquasphaero, MysticalSkillKey.spell_archofaxius, MysticalSkillKey.spell_archosphaero,
+            MysticalSkillKey.spell_blitzball,
+            MysticalSkillKey.spell_corpofrigo,
+            MysticalSkillKey.spell_eulenruf,
+            MysticalSkillKey.spell_fledermausruf, MysticalSkillKey.spell_frigifaxius, MysticalSkillKey.spell_frigisphaero, MysticalSkillKey.spell_fulminictus,
+            MysticalSkillKey.spell_hexengalle, MysticalSkillKey.spell_hexenkrallen, MysticalSkillKey.spell_humofaxius, MysticalSkillKey.spell_humosphaero,
+            MysticalSkillKey.spell_ignifaxius, MysticalSkillKey.spell_ignisphaero, MysticalSkillKey.spell_incendio, MysticalSkillKey.spell_invinculo,
+            MysticalSkillKey.spell_katzenruf, MysticalSkillKey.spell_kraehenruf, MysticalSkillKey.spell_kulminatio,
+            MysticalSkillKey.spell_orcanofaxius, MysticalSkillKey.spell_orcanosphaero,
+            MysticalSkillKey.spell_pandaemonium, MysticalSkillKey.spell_radau,
+            MysticalSkillKey.spell_zorn_der_elemente,
+            MysticalSkillKey.ritual_custodosigil
+        );
+        break;
+      case kristallmeister:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.kristall_verwendet;
+        break;
+      case matrixzauberei:
+      case apricarier:
+      case hausgänse:
+      case seher_der_seele:
+      case pastori:
+      case waldläufer:
+      case anhänger_des_roten_gottes:
+      case hüter_der_esse:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.unmodifiziert;
+        break;
+      case freidenker:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.modifiziert;
+        break;
+      case kristallkraft:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.kristall_geopfert;
+        break;
+      case meereswächter:
+        returnValue.usageRestrictionKey = UsageRestrictionKey.fischfang_oder_seefahrt;
+      case propheten_des_todes:
+        returnValue.targetCategory = TargetCategory.UNDEAD;
+      }
+    }
+  }
+
+  private static void handleAdditionalSpecialValueChangesFpMysticalSkill(ValueChange returnValue, SpecialAbilityKey saKey)
+  {
+    if (saKey != null && returnValue != null)
+    {
+
+      switch (saKey)
+      {
+      }
+    }
+  }
 }

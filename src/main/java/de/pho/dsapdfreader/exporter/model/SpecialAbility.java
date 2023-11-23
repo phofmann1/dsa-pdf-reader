@@ -28,10 +28,11 @@ public class SpecialAbility
   public SpecialAbilityTypeKey abilityType;
   public Integer multiselect;
   public SelectionCategory selectionCategory;
+  public int selectSkillUsagesCount;
   public SkillCategoryKey skillCategory;
   public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
-  public ValueChange valueChange;
+  public List<ValueChange> valueChanges;
   public SkillUsageKey newSkillUsageKey;
   public SkillApplicationKey newSkillApplicationKey;
 

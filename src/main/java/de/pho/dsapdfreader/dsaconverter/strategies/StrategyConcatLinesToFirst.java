@@ -17,14 +17,14 @@ public class StrategyConcatLinesToFirst extends DsaConverterStrategy
         List<TextWithMetaInfo> returnValue = texts;
         try
         {
-            int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            int fromLine = super.extractParameterInt(parameters, FROM_LINE);
-            int untilLine = super.extractParameterInt(parameters, UNTIL_LINE);
+          int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
+          double fromLine = super.extractParameterDouble(parameters, FROM_LINE);
+          double untilLine = super.extractParameterDouble(parameters, UNTIL_LINE);
 
-            logApplicationOfStrategy(description);
-            List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
-            resultsByPage = applyStrategyToPage(resultsByPage, fromLine, untilLine);
-            returnValue = super.replacePage(texts, applyToPage, resultsByPage);
+          logApplicationOfStrategy(description);
+          List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
+          resultsByPage = applyStrategyToPage(resultsByPage, fromLine, untilLine);
+          returnValue = super.replacePage(texts, applyToPage, resultsByPage);
         }
         catch (DsaConverterException e)
         {
@@ -33,17 +33,17 @@ public class StrategyConcatLinesToFirst extends DsaConverterStrategy
         return returnValue;
     }
 
-    private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> texts, int fromLine, int untilLine)
-    {
-        String joinedText = texts.stream()
-            .filter(t -> t.onLine >= fromLine && t.onLine <= untilLine)
-            .map(t -> t.text.trim())
-            .collect(Collectors.joining(""));
-        texts.removeIf(t -> t.onLine > fromLine && t.onLine <= untilLine);
-        return texts.stream().map(t -> {
-            if (t.onLine == fromLine)
-            {
-                t.text = joinedText;
+  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> texts, double fromLine, double untilLine)
+  {
+    String joinedText = texts.stream()
+        .filter(t -> t.onLine >= fromLine && t.onLine <= untilLine)
+        .map(t -> t.text.trim())
+        .collect(Collectors.joining(""));
+    texts.removeIf(t -> t.onLine > fromLine && t.onLine <= untilLine);
+    return texts.stream().map(t -> {
+      if (t.onLine == fromLine)
+      {
+        t.text = joinedText;
             }
             return t;
         }).collect(Collectors.toList());

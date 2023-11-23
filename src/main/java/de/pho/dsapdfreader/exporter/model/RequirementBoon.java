@@ -8,6 +8,7 @@ public class RequirementBoon
   public boolean exists;
   public String variant;
   public int level;
+  public boolean isSameSelection;
 
   public RequirementBoon()
   {

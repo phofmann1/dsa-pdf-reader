@@ -183,7 +183,7 @@ public enum SkillUsageKey
   astrologie,
   himmelskartographie,
   kalendarium,
-  alchimistische_gifte,
+  alchimistische_gifte, // Alchimie
   elixiere,
   profane_alchimie,
   langstrecke,
@@ -386,7 +386,7 @@ public enum SkillUsageKey
   schriftstellerei_sphärenkunde_fachpublikation,
   schriftstellerei_sternkunde_fachpublikation,
   liebesroman, poesie, hetzschriften, kriminalgeschichten, romane, märchen, fachpublikation_brett_und_glücksspiele, fachpublikation_geographie, fachpublikation_geschichte, fachpublikation_götter_und_kulte, fachpublikation_kriegskunst, fachpublikation_magiekunde, fachpublikation_mechanik, fachpublikation_rechnen, fachpublikation_rechtskunde, fachpublikation_sphärenkunde, fachpublikation_sternkunde,
-  alchimistisches_gift,
+  alchimistisches_gift, // Heilkunde
   kalifat,
   maraskan,
   nostria,

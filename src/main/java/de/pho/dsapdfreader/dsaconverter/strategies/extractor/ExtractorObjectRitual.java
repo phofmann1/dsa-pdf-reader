@@ -44,8 +44,8 @@ public class ExtractorObjectRitual extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      System.out.println(keyString.toLowerCase() + ",");
-      //LOGGER.error("Invalid specialAbility name: " + name);
+      //System.out.println(keyString.toLowerCase() + ",");
+      LOGGER.error("Invalid specialAbility name: " + name);
     }
     return returnValue;
   }
