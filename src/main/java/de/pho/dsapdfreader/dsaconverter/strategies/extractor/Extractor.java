@@ -161,7 +161,7 @@ public abstract class Extractor
   {
     List<TraditionKey> returnValue = new ArrayList<>();
     if (t.contains("allgemein (Schamanenritus)")) returnValue.add(TraditionKey.SHAMAN_ALL);
-    if (t.contains("allgemein") | t.contains("Allgemein")) returnValue.add(TraditionKey.ALL);
+    else if (t.contains("allgemein") | t.contains("Allgemein")) returnValue.add(TraditionKey.ALL);
     if (t.contains("Zauberalchimisten")) returnValue.add(TraditionKey.ALCHIMIST);
     if (t.contains("Angrosch")) returnValue.add(TraditionKey.ANGROSCH);
     //if(t.contains("")) returnValue.add(TraditionKey.ANIMIST);

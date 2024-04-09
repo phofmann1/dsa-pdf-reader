@@ -13,7 +13,6 @@ public class ObjectMerger
 
     //we use a hashmap to store already copied values
     HashMap<Object, Object> copiedValues = new HashMap<>();
-
     //we loop through the class fields of each objects
     for (Field field : source.getClass().getDeclaredFields())
     {
@@ -34,7 +33,7 @@ public class ObjectMerger
             Object sourceValue = field.get(source);
             if (sourceValue instanceof List)
             {
-              List copyList = field.get(target) == null ? new ArrayList() : (List) field.get(target);
+              List copyList = field.get(target) == null ? new ArrayList() : new ArrayList<>((List) field.get(target));
               copyList.addAll((List) sourceValue);
               field.set(target, copyList);
             }

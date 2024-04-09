@@ -22,20 +22,25 @@ import de.pho.dsapdfreader.tools.csv.DsaStringCleanupTool;
  */
 public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtomicFlagsI>
 {
-    private static final Logger LOGGER = LogManager.getLogger();
-    private static final Pattern patternIsNumber = Pattern.compile("-?\\d+(\\.\\d+)?");
+  private static final Logger LOGGER = LogManager.getLogger();
+  private static final Pattern patternIsNumber = Pattern.compile("-?\\d+(\\.\\d+)?");
 
-    protected static String concatForDataValue(String origin, String newValue)
-    {
-        String returnValue = origin == null ? "" : origin.trim();
-        if (newValue == null) return returnValue;
-        String spacer = (returnValue.endsWith("-") || returnValue.length() == 1) ? "" : " ";
-        returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;
-        returnValue = returnValue.trim() + spacer + newValue.trim();
-        returnValue = returnValue.replaceAll("\\s\\s", " ");
-        returnValue = returnValue.replaceAll("Uberlegener", "Überlegener");
-        returnValue = returnValue.replaceAll("Angste", "Ängste");
-        return DsaStringCleanupTool.cleanupString(returnValue);
+  protected static String concatForDataValue(String origin, String newValue)
+  {
+    return concatForDataValue(origin, newValue, "");
+  }
+
+  protected static String concatForDataValue(String origin, String newValue, String separator)
+  {
+    String returnValue = origin == null ? "" : (origin.trim() + (newValue.isEmpty() ? "" : separator));
+    if (newValue == null) return returnValue;
+    String spacer = (returnValue.endsWith("-") || returnValue.length() == 1) ? "" : " ";
+    returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;
+    returnValue = returnValue.trim() + spacer + newValue.trim();
+    returnValue = returnValue.replaceAll("\\s\\s", " ");
+    returnValue = returnValue.replaceAll("Uberlegener", "Überlegener");
+    returnValue = returnValue.replaceAll("Angste", "Ängste");
+    return DsaStringCleanupTool.cleanupString(returnValue);
     }
 
     protected static boolean isNumeric(String strNum)
@@ -160,7 +165,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
     {
-        return t.size == conf.nameSize && !t.text.isEmpty();
+      return t.size == conf.nameSize && !t.text.isEmpty() || t.text.startsWith("Gletscherwurmraupe") && t.isBold;
     }
 
     protected void applyFlagsForNoKeyStrings(F flags, String text)

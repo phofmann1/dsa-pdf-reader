@@ -13,7 +13,10 @@ public enum ValueChangeType
   min, //Änderung des Minimalwertes (ACHTUNG: In den veralteten Professionen wurde das zuerst mit value abgebildet!)
   gifted, //Änderung des Verhaltens als Begabter, NUR bei Talenten
   checkAttributeBonus, //Modifikation eines Attributs bei eine Probe um den valueChange
-  traditionChangeForFeature; //Modifikation der Tradition zur eigenen
+  traditionChangeForFeature,  //Modifikation der Tradition zur eigenen
+  newSkillUsage, //Neues Anwendungsgebiet für Skill (Fuchssinn)
+  impedeAdversary, //ValueChange wird auf die Probe des gegenübers angewendet (Allerweltsname)
+  inebt;
 
   @JsonValue
   public int toValue()

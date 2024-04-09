@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillModification;
@@ -20,25 +21,31 @@ import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
 
 public class ValueChange
 {
-    public ValueChangeKey key;
+  public ValueChangeKey key;
   public ValueChangeType type;
   @JsonProperty("valueChange")
   public int change;
-  public int value;
+  public int valueChangeMax;
+
+  public int[] attributeValueChanges;
 
   public SkillKey skillKey;
   public CombatSkillKey combatSkillKey;
 
   public boolean perLevel;
   public boolean temporary;
-  public List<SkillUsageKey> usageKeys = new ArrayList<>();
   public boolean useParentSelection;
+  public boolean conditionally; //Trifft nicht immer zu (Zwergennase)
+  public List<SkillUsageKey> usageKeys = new ArrayList<>();
   public TargetCategory targetCategory;
   public UsageRestrictionKey usageRestrictionKey;
   public MysticalSkillFeature featureKey;
   public List<MysticalSkillKey> mysticalSkillKeys = new ArrayList<>();
   public MysticalSkillModification mysticalSkillModificationType;
   public TraditionKey traditionKey;
+  public SkillUsageKey newSkillUsageKey;
+
+  public MysticalSkillCategory mysticalSkillCategory;
 
   @JsonIgnore
   public boolean isValid()

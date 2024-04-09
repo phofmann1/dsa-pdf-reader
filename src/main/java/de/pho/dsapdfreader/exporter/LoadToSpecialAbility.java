@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.apache.logging.log4j.LogManager;
@@ -239,8 +240,10 @@ public class LoadToSpecialAbility
         specialAbility.requirementMysticalSkill = reqs.getValue3();
         specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(preconditionsMap, specialAbility.name, levels, currentLevel, isUseSamePrecondition);
 
+
         if (specialAbility.key != null && specialAbility.key != SpecialAbilityKey.zauberkämpfer && specialAbility.key != SpecialAbilityKey.ätzes_geben)
         {
+
           specialAbility.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(raw.rules, specialAbility.key);
         }
         specialAbility.selectSkillUsagesCount = specialAbility.key != null && specialAbility.key == SpecialAbilityKey.fachwissen
@@ -280,6 +283,7 @@ public class LoadToSpecialAbility
         SpecialAbilityKey.gebieter_in_der_antimagie,
         "Gebieter/in der Antimagie", rules)
     );
+
 
     returnValue.add(generateGebieterDesAspekts(
         ObjectMerger.merge(specialAbility, new SpecialAbility()),
@@ -438,6 +442,10 @@ public class LoadToSpecialAbility
         SpecialAbilityKey.gebieter_in_des_wissens,
         "Gebieter/in des Wissens", rules));
 
+    returnValue = returnValue.stream().map(gda -> {
+      gda.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(rules, gda.key);
+      return gda;
+    }).collect(Collectors.toList());
     return returnValue;
   }
 

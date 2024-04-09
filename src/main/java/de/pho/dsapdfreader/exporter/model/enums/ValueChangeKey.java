@@ -28,7 +28,10 @@ public enum ValueChangeKey
     ATT_AW,
     ATT_INI,
     ATT_WS,
-    ATT_SCHIP;
+    ATT_SCHIP,
+    SOZIALER_STAND,
+    MS_COUNT_4_CAT,
+    CV_RS;
 
     @JsonValue
     public int toValue()

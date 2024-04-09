@@ -7,6 +7,6 @@ import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 
 public class SpecialAbilityAdvancedSelection
 {
-  public SpecialAbilityKey[] advancedAbilities;
-  public List<SpecialAbilityOption> advancedAbilitiesOptions = new ArrayList<>();
+  public SpecialAbilityKey[] advancedAbilityKeys;
+  public List<SpecialAbilityOption> advancedAbilityKeyOptions = new ArrayList<>();
 }

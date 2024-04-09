@@ -11,14 +11,14 @@ class MysticalSkillFeatureTest
     @Test
     void toValue()
     {
-        assertEquals(18, MysticalSkillFeature.GOOD_COMBAT.toValue());
+        assertEquals(18, MysticalSkillFeature.good_combat.toValue());
     }
 
     @Test
     void fromStringValid()
     {
         MysticalSkillFeature result = MysticalSkillFeature.fromString("Guter KamPf");
-        assertEquals(MysticalSkillFeature.GOOD_COMBAT, result);
+      assertEquals(MysticalSkillFeature.good_combat, result);
     }
 
     @Test

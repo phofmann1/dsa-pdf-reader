@@ -35,6 +35,7 @@ import de.pho.dsapdfreader.exporter.model.SpecialAbilityOption;
 import de.pho.dsapdfreader.exporter.model.ValueChange;
 import de.pho.dsapdfreader.exporter.model.enums.AttributeShort;
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
+import de.pho.dsapdfreader.exporter.model.enums.BoonVariantKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
@@ -94,7 +95,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     if (description.contains("(passiv)")) return SpecialAbilityTypeKey.passive;
     if (description.contains("(Basismanöver)")) return SpecialAbilityTypeKey.basic;
-    if (description.contains("(Spezialmanöver)")) return SpecialAbilityTypeKey.passive;
+    if (description.contains("(Spezialmanöver)")) return SpecialAbilityTypeKey.special;
     if (description.contains("(aktiv)")) return SpecialAbilityTypeKey.active;
     return null;
   }
@@ -176,7 +177,7 @@ public class ExtractorSpecialAbility extends Extractor
           SpecialAbilityOption sao = new SpecialAbilityOption();
           sao.nOf = selectionCount;
           sao.options = Arrays.stream(NEBENFACH).toList();
-          returnValue.advancedAbilitiesOptions.add(sao);
+          returnValue.advancedAbilityKeyOptions.add(sao);
         }
         else
         {
@@ -189,12 +190,12 @@ public class ExtractorSpecialAbility extends Extractor
             SpecialAbilityOption sao = new SpecialAbilityOption();
             sao.nOf = selectionCount;
             sao.options = options;
-            returnValue.advancedAbilitiesOptions.add(sao);
+            returnValue.advancedAbilityKeyOptions.add(sao);
           }
         }
         advancedAbilities = advancedAbilities.replace(o, "").trim();
       }
-      returnValue.advancedAbilities = retrieveAdvancedAbilitiyKeys(advancedAbilities, csk).toArray(SpecialAbilityKey[]::new);
+      returnValue.advancedAbilityKeys = retrieveAdvancedAbilitiyKeys(advancedAbilities, csk).toArray(SpecialAbilityKey[]::new);
     }
     return returnValue;
   }
@@ -530,12 +531,12 @@ public class ExtractorSpecialAbility extends Extractor
                 {
                   case "Blind" -> new RequirementBoon(BoonKey.blind, false);
                   case "Angst vor ..." -> new RequirementBoon(BoonKey.angst_vor_x, false);
-                  case "Angst vor Blut" -> new RequirementBoon(BoonKey.angst_vor_x, false, "Blut");
+                  case "Angst vor Blut" -> new RequirementBoon(BoonKey.angst_vor_x, false, BoonVariantKey.angst_vor_x_blut);
                   case "Behäbig" -> new RequirementBoon(BoonKey.behäbig, false);
                   case "Unfrei" -> new RequirementBoon(BoonKey.unfrei, false);
                   case "Eingeschränkter Sinn (Tastsinn) (je nach Form des Leggaleg)" ->
-                      new RequirementBoon(BoonKey.eingeschränkter_sinn, false, "Tastsinn");
-                  case "Verstümmelt (Einäugig)" -> new RequirementBoon(BoonKey.verstümmelt, false, "Einäugig");
+                      new RequirementBoon(BoonKey.eingeschränkter_sinn, false, BoonVariantKey.eingeschränkter_sinn_tastsinn);
+                  case "Verstümmelt (Einäugig)" -> new RequirementBoon(BoonKey.verstümmelt, false, BoonVariantKey.verstümmelung_einäugig);
                   default -> null;
                 }).filter(Objects::nonNull)
             .collect(Collectors.toList()));
@@ -550,6 +551,7 @@ public class ExtractorSpecialAbility extends Extractor
 
     String requirementsString = ExtractorRequirements.extractRequirementsStringForLevel(preconditionMap, levels, currentLevel);
     final String leiteigenschaftText = retrieveLeAttributeShort(sack);
+
     Matcher m = PAT_EXTRACT_ATTRIBUTES.matcher(requirementsString);
     if (m.find())
     {
@@ -583,7 +585,7 @@ public class ExtractorSpecialAbility extends Extractor
     String nonClericString = (sack == SpecialAbilityCategoryKey.magic || sack == SpecialAbilityCategoryKey.magic_advanced || sack == SpecialAbilityCategoryKey.magic_stile || sack == SpecialAbilityCategoryKey.magic_signs)
         ? "LE_MAGIC"
         : "";
-    return (sack == SpecialAbilityCategoryKey.cleric || sack == SpecialAbilityCategoryKey.cleric_advanced || sack == SpecialAbilityCategoryKey.cleric_stile)
+    return (sack == SpecialAbilityCategoryKey.cleric || sack == SpecialAbilityCategoryKey.cleric_advanced || sack == SpecialAbilityCategoryKey.cleric_stile || sack == SpecialAbilityCategoryKey.sermon || sack == SpecialAbilityCategoryKey.vision)
         ? "LE_CLERIC"
         : nonClericString;
   }
@@ -858,10 +860,11 @@ public class ExtractorSpecialAbility extends Extractor
   private static RequirementAttribute extractAttributeRequirement(String attributeText, String leiteigenschaftString)
   {
     RequirementAttribute returnValue = new RequirementAttribute();
-    returnValue.attribute = AttributeShort.valueOf(attributeText
+    String t = attributeText
         .replace("Leiteigenschaft der Tradition", leiteigenschaftString)
         .replace("Leiteigenschaft", leiteigenschaftString)
-        .replaceAll("\\d", "").trim());
+        .replaceAll("\\d", "").trim();
+    returnValue.attribute = AttributeShort.valueOf(t);
     returnValue.minValue = Integer.valueOf(attributeText.replaceAll("[MUKLINCHFGEO]{2}|Leiteigenschaft( der Tradition)?", "").trim());
     return returnValue;
   }

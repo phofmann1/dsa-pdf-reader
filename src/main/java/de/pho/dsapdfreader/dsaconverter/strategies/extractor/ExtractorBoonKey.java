@@ -16,7 +16,7 @@ public class ExtractorBoonKey extends Extractor
     catch (IllegalArgumentException e)
     {
       String msg = String.format("'%s' key could not be interpreted.", name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }
@@ -29,8 +29,10 @@ public class ExtractorBoonKey extends Extractor
             .replace("(*)", "")
             .replace("*", "")
             .replace("...", "x")
+            .replace("ß", "XXX") //Korrektur UpperCase
 
-    ).toLowerCase();
+    ).replace("XXX", "ß").toLowerCase();
+
     keyString = keyString.trim();
     returnValue = BoonKey.valueOf(keyString);
     return returnValue;

@@ -41,8 +41,8 @@ public class ExtractorMysticalSkillKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid MysticalSkillVariantKey: " + skillKeyString, e);
-      //System.out.println(skillKeyString+",");
+      //LOGGER.error("Invalid MysticalSkillVariantKey: " + skillKeyString, e);
+      System.out.println(skillKeyString + ",");
       returnValue = null;
     }
     return returnValue;
@@ -89,8 +89,8 @@ public class ExtractorMysticalSkillKey extends Extractor
     catch (IllegalArgumentException e)
     {
       returnValue = null;
-      //System.out.println(skillKeyString + ", ");
-      LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
+      System.out.println(skillKeyString + ", ");
+      //LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
     }
     return returnValue;
   }

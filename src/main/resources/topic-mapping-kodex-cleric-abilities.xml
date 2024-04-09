@@ -15,137 +15,17 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyRemoveSingleLineFromPage - Predigten und Visionen on 131" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>131</value>
-            </parameter>
-            <parameter>
-                <key>lineNo</key>
-                <value>76</value>
-            </parameter>
-        </params>
-    </strategy>
 
-    <strategy name="StrategyRemoveSingleLineFromPage - Predigten und Visionen on 131" index="1">
-        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>132</value>
-            </parameter>
-            <parameter>
-                <key>lineNo</key>
-                <value>19</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyRemovePages - 210 to 367">
+    <strategy name="StrategyRemovePages - 221 to 252">
         <strategyClass>StrategyRemovePages</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>134</value>
+                <value>221</value>
             </parameter>
             <parameter>
                 <key>untilPage</key>
-                <value>161</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyPutToEndOfPage - Klerikal allgemein an den Anfang stellen S.162" index="1">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>162</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>1</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>32</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategySplitLineAfterPosition - V von Voraussetzungen" index="1">
-        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>165</value>
-            </parameter>
-            <parameter>
-                <key>splitLine</key>
-                <value>52</value>
-            </parameter>
-            <parameter>
-                <key>splitAfterPosition</key>
-                <value>258</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyConcatLinesToFirst - Concat Voraussetzung" index="1">
-        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>165</value>
-            </parameter>
-            <parameter>
-                <key>fromLine</key>
-                <value>52.1</value>
-            </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>53</value>
-            </parameter>
-        </params>
-    </strategy>
-
-    <strategy name="StrategyReplaceStringInLine - Voraussetzung">
-        <strategyClass>StrategyReplaceStringInLine</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>165</value>
-            </parameter>
-            <parameter>
-                <key>onLine</key>
-                <value>52.1</value>
-            </parameter>
-            <parameter>
-                <key>isBold</key>
-                <value>true</value>
-            </parameter>
-        </params>
-    </strategy>
-
-
-    <strategy name="StrategyRemoveLinesFromPage - page 329 - Übersichtstabelle" index="1">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>186</value>
-            </parameter>
-            <parameter>
-                <key>fromLine</key>
-                <value>15</value>
-            </parameter>
-            <parameter>
-                <key>untilLine</key>
-                <value>34</value>
+                <value>252</value>
             </parameter>
         </params>
     </strategy>

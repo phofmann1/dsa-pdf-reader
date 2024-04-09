@@ -106,20 +106,27 @@ public class ExtractorRequirements extends Extractor
         };
   }
 
-  public static List<RequirementBoon> extractRequirementsBoon(String preconditions)
+  public static List<RequirementBoon> extractRequirementsBoon(String preconditions, String name)
   {
+
     List<RequirementBoon> returnValue = new ArrayList<>();
-    Pair<String, List<RequirementBoon>> noneOfBoonsReq = extractNoneOfBoons(preconditions);
+    Pair<String, List<RequirementBoon>> noneOfBoonsReq = extractNoneOfBoons(preconditions, name);
     returnValue.addAll(noneOfBoonsReq.getValue1());
     preconditions = noneOfBoonsReq.getValue0();
+
     return returnValue;
   }
 
-  private static Pair<String, List<RequirementBoon>> extractNoneOfBoons(String preconditions)
+  private static Pair<String, List<RequirementBoon>> extractNoneOfBoons(String preconditions, String name)
   {
     List<RequirementBoon> reqs = new ArrayList<>();
     String reducedPreconditions = preconditions;
-    Pattern PAT_NONE_OF_BOONS = Pattern.compile("(?<=[kK]ein Vorteil ).*?(?:$|oder Nachteil|kein Nachteil)|(?<=([kK]ein|oder) Nachteil ).*?(?:$|, Elfen|, nicht)");
+    //none of merits
+    //(?<=[kK]ein Vorteil )[A-ü \(\)]*?(?=$|oder Nachteil|kein Nachteil|,)
+    //none of flaws
+    //(?<=([kK]ein|oder) Nachteil ).*(?=,|$)
+
+    Pattern PAT_NONE_OF_BOONS = Pattern.compile("(?<=[kK]ein Vorteil )[A-ü \\(\\)]*?(?=$|oder Nachteil|kein Nachteil|,)|(?<=([kK]ein|oder) Nachteil ).*(?=,|$)");
 
     Matcher m = PAT_NONE_OF_BOONS.matcher(preconditions);
     while (m.find())
@@ -181,13 +188,13 @@ public class ExtractorRequirements extends Extractor
             RequirementBoon req = new RequirementBoon();
             req.key = boonKey;
             req.exists = false;
-            req.variant = variantText;
+            req.variantName = variantText;
             req.isSameSelection = isSameSelection;
             reqs.add(req);
           }
           else
           {
-            System.out.println(boonText);
+            System.out.println(name + ": " + boonText + "\r\n--> " + preconditions + "\r\n");
           }
         }
       });
