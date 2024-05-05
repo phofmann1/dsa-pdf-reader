@@ -88,24 +88,34 @@ public class ExtractorCombatSkillKeys extends Extractor
       CombatSkillKey.wurfwaffen
   );
 
-  public static List<CombatSkillKey> retrieveFromCombatSkillsText(String combatSkillsText)
-  {
+  public static CombatSkillKey retrieveFromName(String name) {
+    CombatSkillKey returnValue;
+    String skillKeyString = extractKeyTextFromTextWithUmlauts(name).toLowerCase();
+
+    try {
+      returnValue = CombatSkillKey.valueOf(skillKeyString);
+    }
+    catch (NullPointerException e) {
+      returnValue = null;
+      //System.out.println(skillKeyString + " --> ");
+      //LOGGER.error("Invalid CombatSkill name: " + skillKeyString);
+    }
+    return returnValue;
+  }
+
+  public static List<CombatSkillKey> retrieveFromCombatSkillsText(String combatSkillsText) {
     if (combatSkillsText == null || combatSkillsText.isEmpty()) return null;
     List<CombatSkillKey> returnValue = new ArrayList<>();
-    if (combatSkillsText.startsWith("alle Zweihandwaffen"))
-    {
+    if (combatSkillsText.startsWith("alle Zweihandwaffen")) {
       return CSS_ALL_TWO_HANDED;
     }
-    else if (combatSkillsText.startsWith("alle Nahkampftechniken, die mit einhändigen Waffen"))
-    {
+    else if (combatSkillsText.startsWith("alle Nahkampftechniken, die mit einhändigen Waffen")) {
       return CSS_ALL_ONE_HANDED;
     }
-    else if (combatSkillsText.startsWith("alle Nahkampf mit Parade") || combatSkillsText.startsWith("alle Nahkampfkampftechniken, die über einen PA-Wert verfügen"))
-    {
+    else if (combatSkillsText.startsWith("alle Nahkampf mit Parade") || combatSkillsText.startsWith("alle Nahkampfkampftechniken, die über einen PA-Wert verfügen")) {
       return CSS_ALL_WITH_PARRY;
     }
-    else if (combatSkillsText.startsWith("alle Nahkampf"))
-    {
+    else if (combatSkillsText.startsWith("alle Nahkampf")) {
       return CSS_ALL_MELEE;
     }
     else if (combatSkillsText.startsWith("alle Fernkampf"))
@@ -186,19 +196,29 @@ public class ExtractorCombatSkillKeys extends Extractor
       {
         returnValue.add(CombatSkillKey.bögen);
       }
-      if (combatSkillsText.contains("Diskus"))
-      {
+      if (combatSkillsText.contains("Diskus")) {
         returnValue.add(CombatSkillKey.diskusse);
       }
-      if (combatSkillsText.contains("Schleudern"))
-      {
+      if (combatSkillsText.contains("Schleudern")) {
         returnValue.add(CombatSkillKey.schleudern);
       }
-      if (combatSkillsText.contains("Wurfwaffen"))
-      {
+      if (combatSkillsText.contains("Wurfwaffen")) {
         returnValue.add(CombatSkillKey.wurfwaffen);
       }
     }
     return returnValue;
   }
+
+  public static boolean isCombatSkillKey(String skillName) {
+    String enumName = extractKeyTextFromTextWithUmlauts(skillName).toLowerCase();
+
+    try {
+      CombatSkillKey.valueOf(enumName);
+      return true;
+    }
+    catch (IllegalArgumentException e) {
+      return false;
+    }
+  }
+
 }

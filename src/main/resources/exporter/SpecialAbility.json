@@ -74,5 +74,39 @@
   {
     "key": 1074,
     "newMysticalSkillCategoryKey": 15
+  },
+  {
+    "key": 1339,
+    "requireOneOfCultures": [
+      3,
+      4,
+      5,
+      11,
+      12,
+      20
+    ]
+  },
+  {
+    "key": 1341,
+    "requiredSpecie": 11,
+    "requireOneOfCultures": [
+      31
+    ]
+  },
+  {
+    "key": 1342,
+    "requireOneOfCultures": [
+      11
+    ]
+  },
+  {
+    "key": 1345,
+    "requiredSpecie": 11
+  },
+  {
+    "key": 1354,
+    "requireOneOfCultures": [
+      7
+    ]
   }
 ]

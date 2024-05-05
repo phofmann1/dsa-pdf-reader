@@ -63,12 +63,11 @@ public abstract class DsaConverterStrategy
     return returnValue;
   }
 
-  protected boolean extractOptionalParameterBoolean(List<Parameter> parameterMap, String parameterName) throws DsaConverterException
-  {
+  protected boolean extractOptionalParameterBoolean(List<Parameter> parameterMap, String parameterName, boolean defaultValue) throws DsaConverterException {
     String p = this.extractOptionalParameterString(parameterMap, parameterName);
     return (p != null && !p.isEmpty())
         ? Boolean.valueOf(p)
-        : false;
+        : defaultValue;
   }
 
   protected String extractOptionalParameterString(List<Parameter> parameterMap, String parameterName)

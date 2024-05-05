@@ -28,7 +28,7 @@ public class StrategyInsertLineAfter extends DsaConverterStrategy
       int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
       OptionalInt size = super.extractOptionalParameterInt(parameters, SIZE);
       String text = extractParameterString(parameters, TEXT);
-      boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL);
+      boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL, false);
 
       logApplicationOfStrategy(description);
       List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());

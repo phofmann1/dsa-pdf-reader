@@ -275,6 +275,7 @@ public abstract class Extractor
         .replace("–", "_")
         .replace("à", "A")
         .replace("ë".toUpperCase(), "E")
+        .replaceAll("HEILKUNDE KRANKHEIT$", "HEILKUNDE KRANKHEITEN")
     ).trim()
         .replace(" ", "_")
         .replace("__", "_");

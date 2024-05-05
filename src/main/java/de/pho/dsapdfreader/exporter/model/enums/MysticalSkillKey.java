@@ -385,7 +385,7 @@ public enum MysticalSkillKey
   jest_juckpulver,
   curse_juckreiz_verursachen,
   ceremony_jugendlichkeit,
-  liturgy_kaelteexplosion,
+  liturgy_kälteexplosion,
   power_kampffaehigkeiten_verbessern,
   liturgy_kampfgeschick,
   liturgy_kraftvoller_koerper,
@@ -1140,23 +1140,33 @@ public enum MysticalSkillKey
   ceremony_schattenrochengestalt,
   ceremony_seemonsterruf,
   ceremony_storchengestalt,
-  ceremony_tabu_zone,
+  ceremony_tabuzone,
   ceremony_tairachs_machtvolle_erhebung_von_untoten,
-  ceremony_travias_wachgaense;
+  ceremony_travias_wachgaense,
+  liturgy_empfaengnisverhütung,
+  liturgy_erregung_kontrollieren,
+  liturgy_gespiegelte_gefuehle,
+  liturgy_gigantische_geilheit,
+  liturgy_hand_der_lust,
+  liturgy_hastiger_hoehepunkt,
+  liturgy_krankheitsvorbeugung,
+  ceremony_heiliger_hoehepunkt,
+  ceremony_koerper_der_radscha_uschtamm,
+  ceremony_liebesschlaf,
+  ceremony_lusttrank,
+  ;
 
 
-  @JsonValue
-  public int toValue()
-  {
-    return ordinal();
-  }
-
-  public static Optional<MysticalSkillKey> fromString(String str)
-  {
+  public static Optional<MysticalSkillKey> fromString(String str) {
     String cleanName = str.toUpperCase().replace(" ", "_")
         .replace("&", "UND");
 
     List<String> names = Arrays.stream(MysticalSkillCategory.values()).map(v -> v.name() + "_" + cleanName).collect(Collectors.toList());
     return Arrays.stream(MysticalSkillKey.values()).filter(msv -> names.stream().anyMatch(n -> n.equalsIgnoreCase(msv.name()))).findFirst();
+  }
+
+  @JsonValue
+  public int toValue() {
+    return ordinal();
   }
 }

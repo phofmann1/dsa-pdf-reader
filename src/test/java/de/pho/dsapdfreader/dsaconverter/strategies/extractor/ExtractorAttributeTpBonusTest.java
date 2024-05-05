@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import de.pho.dsapdfreader.exporter.model.AttributeTpBonus;
+import de.pho.dsapdfreader.exporter.model.AttributeValuePair;
 import de.pho.dsapdfreader.exporter.model.enums.AttributeShort;
 
 class ExtractorAttributeTpBonusTest
@@ -15,7 +15,7 @@ class ExtractorAttributeTpBonusTest
   @Test
   void retrieveKK14()
   {
-    List<AttributeTpBonus> result = ExtractorAttributeTpBonus.retrieve("KK14");
+    List<AttributeValuePair> result = ExtractorAttributeTpBonus.retrieve("KK14");
     assertEquals(1, result.size());
     assertEquals(AttributeShort.KK, result.get(0).attribute);
     assertEquals(14, result.get(0).minValue);
@@ -24,7 +24,7 @@ class ExtractorAttributeTpBonusTest
   @Test
   void retrieveKKGE14()
   {
-    List<AttributeTpBonus> result = ExtractorAttributeTpBonus.retrieve("KK/GE 14");
+    List<AttributeValuePair> result = ExtractorAttributeTpBonus.retrieve("KK/GE 14");
     assertEquals(2, result.size());
     assertEquals(AttributeShort.GE, result.get(0).attribute);
     assertEquals(14, result.get(0).minValue);
@@ -35,7 +35,7 @@ class ExtractorAttributeTpBonusTest
   @Test
   void retrieveKK14GE16()
   {
-    List<AttributeTpBonus> result = ExtractorAttributeTpBonus.retrieve("KK 14 / GE 16");
+    List<AttributeValuePair> result = ExtractorAttributeTpBonus.retrieve("KK 14 / GE 16");
     assertEquals(2, result.size());
     assertEquals(AttributeShort.KK, result.get(0).attribute);
     assertEquals(14, result.get(0).minValue);
@@ -46,7 +46,7 @@ class ExtractorAttributeTpBonusTest
   @Test
   void retrieveKKGE1416()
   {
-    List<AttributeTpBonus> result = ExtractorAttributeTpBonus.retrieve("KK/GE 14/16");
+    List<AttributeValuePair> result = ExtractorAttributeTpBonus.retrieve("KK/GE 14/16");
     assertEquals(2, result.size());
     assertEquals(AttributeShort.KK, result.get(0).attribute);
     assertEquals(14, result.get(0).minValue);

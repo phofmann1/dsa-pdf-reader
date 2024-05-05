@@ -1,29 +1,25 @@
 package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 
-import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
 
-public class ExtractorBoonKey extends Extractor
-{
-  public static BoonKey retrieve(String name)
-  {
-    BoonKey returnValue = null;
-    try
-    {
-      returnValue = extractBoonKeyFromText(name);
-      if (returnValue == null)
+public class ExtractorSpecieKey extends Extractor {
+  public static SpecieKey retrieve(String name) {
+    SpecieKey returnValue = null;
+    try {
+      returnValue = extractSpecieKeyFromText(name);
+      if (returnValue == null) {
         throw new IllegalArgumentException();
+      }
     }
-    catch (IllegalArgumentException e)
-    {
+    catch (IllegalArgumentException e) {
       String msg = String.format("'%s' key could not be interpreted.", name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }
 
-  private static BoonKey extractBoonKeyFromText(String name)
-  {
-    BoonKey returnValue = null;
+  private static SpecieKey extractSpecieKeyFromText(String name) {
+    SpecieKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(
         name.replace("\u00AD", "-")
             .replace("(*)", "")
@@ -34,7 +30,7 @@ public class ExtractorBoonKey extends Extractor
     ).replace("XXX", "ß").toLowerCase();
 
     keyString = keyString.trim();
-    returnValue = BoonKey.valueOf(keyString);
+    returnValue = SpecieKey.valueOf(keyString);
     return returnValue;
   }
 }

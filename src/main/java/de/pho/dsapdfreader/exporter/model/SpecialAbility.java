@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.exporter.model;
 import java.util.List;
 
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 import de.pho.dsapdfreader.exporter.model.enums.DsaState;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
@@ -48,6 +49,7 @@ public class SpecialAbility
   public List<TraditionKey> requireOneOfTraditions;
   public List<RequirementBoon> requireOneOfBoons;
   public List<RequirementBoon> requireNoneOfBoons;
+  public List<CultureKey> requireOneOfCultures;
   public RequirementsAttribute requirementsAttribute;
   public RequirementsSpecialAbility requirementsAbility;
   public RequirementsSkill requirementsSkill;

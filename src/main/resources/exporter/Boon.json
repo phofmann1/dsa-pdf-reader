@@ -186,6 +186,7 @@
   },
   {
     "key": 38,
+    "selectionCategory": 14,
     "valueChanges": [
       {
         "key": 2,
@@ -741,6 +742,7 @@
   },
   {
     "key": 165,
+    "selectionCategory": 17,
     "valueChanges": [
       {
         "key": 1,
@@ -1074,6 +1076,13 @@
       {
         "key": 165,
         "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 28,
+        "type": 0,
+        "valueChange": -10
       }
     ]
   },
@@ -2527,6 +2536,22 @@
       {
         "key": 195,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 70,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 28,
+        "type": 0,
+        "valueChange": -10
       }
     ]
   },

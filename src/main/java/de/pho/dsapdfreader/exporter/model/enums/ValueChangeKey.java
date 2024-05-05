@@ -2,40 +2,39 @@ package de.pho.dsapdfreader.exporter.model.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum ValueChangeKey
-{
-    SKILL,
-    ENERGY_ASP,
-    ENERGY_KAP,
-    ATT_MU,
-    ATT_KL,
-    ATT_IN,
-    ATT_CH,
-    ATT_FF,
-    ATT_GE,
-    ATT_KO,
-    ATT_KK,
-    ATT_SK,
-    ATT_ZK,
-    SKILL_CONVINCE,
-    ENERGY_LEP,
-    COMBATSKILL,
-    MONEY,
-    SKILL_ORIENTATION,
-    ATT_GS,
-    CV_AW,
-    CV_INI,
-    ATT_AW,
-    ATT_INI,
-    ATT_WS,
-    ATT_SCHIP,
-    SOZIALER_STAND,
-    MS_COUNT_4_CAT,
-    CV_RS;
+public enum ValueChangeKey {
+  skill,
+  energy_asp,
+  energy_kap,
+  att_mu,
+  att_kl,
+  att_in,
+  att_ch,
+  att_ff,
+  att_ge,
+  att_ko,
+  att_kk,
+  att_sk,
+  att_zk,
+  skill_convince,
+  energy_lep,
+  combatSkill,
+  money,
+  skill_orientation,
+  att_gs,
+  cv_aw,
+  cv_ini,
+  att_aw,
+  att_ini,
+  att_ws,
+  energy_schip,
+  sozialer_stand,
+  mystical_skill_count_4_cat,
+  cv_rs,
+  trad_ap; //Reduktion der Traditionskosten durch keine Flugsalbe / Vertrauter
 
-    @JsonValue
-    public int toValue()
-    {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue() {
+    return ordinal();
+  }
 }

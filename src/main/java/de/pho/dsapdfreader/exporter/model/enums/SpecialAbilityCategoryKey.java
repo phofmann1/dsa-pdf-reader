@@ -45,11 +45,14 @@ public enum SpecialAbilityCategoryKey
   pact_demonic_belkelel,
   pact_demonic_aphasmayra,
   pact_demonic_aphestadil,
-  pact_demonic_heskatet;
+  pact_demonic_heskatet,
+  tradition_magic,
+  tradition_alveran_major,
+  tradition_alveran_minor,
+  tradition_non_alveran, tradition_shaman;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 

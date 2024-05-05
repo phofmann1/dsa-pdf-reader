@@ -2,31 +2,30 @@ package de.pho.dsapdfreader.exporter.model.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum CultureKey
-{
+public enum CultureKey {
   andergaster,
-  aranier,
-  bornlaender,
+  aranien,
+  bornländer,
   ferkinas,
   fjarninger,
   gjalsker,
   horasier,
   koboldweltler,
   maraskaner,
-  mhanadistani,
-  mittelreicher,
-  mohas,
+  mhanadistan,
+  mittelreich,
+  waldmenschen,
   nivesen,
   norbarden,
   nordaventurier,
   nostrier,
-  novadis,
-  suedaventurier,
-  svellttaler,
-  thorwaler,
+  novadi,
+  südaventurier,
+  svellttal,
+  thorwal,
   trollzacker,
   zahori,
-  zyklopaeer,
+  zyklopeninseln,
   auelfen,
   firnelfen,
   steppenelfen,
@@ -34,13 +33,24 @@ public enum CultureKey
   ambosszwerge,
   brillantzwerge,
   erzzwerge,
-  huegelzwerge,
+  hügelzwerge,
   wildzwerge,
-  orkland;
+
+  engasal,
+  tocamuyac,
+  utulu,
+  wüstenelfen,
+  achaz_rha,
+  ctki_ssrr,
+  stammesachaz,
+  stammesgoblins,
+  stammesorks,
+  holberk,
+  räuberbande,
+  tulamidenlande;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

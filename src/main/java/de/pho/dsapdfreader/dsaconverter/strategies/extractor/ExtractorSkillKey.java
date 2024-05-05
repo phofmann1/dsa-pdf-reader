@@ -49,16 +49,26 @@ public class ExtractorSkillKey extends Extractor
     SkillKey returnValue;
     String skillKeyString = extractKeyTextFromTextWithUmlauts(name).toLowerCase();
 
-    try
-    {
+    try {
       returnValue = SkillKey.valueOf(skillKeyString);
     }
-    catch (IllegalArgumentException e)
-    {
+    catch (IllegalArgumentException e) {
       returnValue = null;
       //System.out.println(skillKeyString + " --> ");
-      LOGGER.error("Invalid specialAbility name: " + skillKeyString);
+      LOGGER.error("Invalid Skill name: " + skillKeyString);
     }
     return returnValue;
+  }
+
+  public static boolean isSkillKey(String skillName) {
+    String enumName = extractKeyTextFromTextWithUmlauts(skillName).toLowerCase();
+
+    try {
+      SkillKey.valueOf(enumName);
+      return true;
+    }
+    catch (IllegalArgumentException e) {
+      return false;
+    }
   }
 }

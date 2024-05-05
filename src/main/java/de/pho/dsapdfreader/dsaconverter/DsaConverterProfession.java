@@ -2,13 +2,12 @@ package de.pho.dsapdfreader.dsaconverter;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.ProfessionRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsProfession;
+import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterProfession extends DsaConverter<ProfessionRaw, ConverterAtomicFlagsProfession>
@@ -20,9 +19,11 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
   private static final String KEY_SKILLS_COMBAT = "Kampftechniken";
   private static final String KEY_SKILLS = "Talente";
   private static final String KEY_SKILLS_MAGIC = "Zauber";
+  private static final String KEY_SKILLS_MAGIC_2 = "Zauber/Magische Handlungen";
   private static final String KEY_SKILLS_CLERIC = "Liturgien";
   private static final String KEY_MERITS_RECOMMENDED = "Empfohlene Vorteile";
   private static final String KEY_FLAWS_RECOMMENDED = "Empfohlene Nachteile";
+  private static final String KEY_FLAWS_RECOMMENDED_II = "Geeignete Nachteile";
   private static final String KEY_MERITS_INAPPROPRIATE = "Ungeeignete Vorteile";
   private static final String KEY_FLAWS_INAPPROPRIATE = "Ungeeignete Nachteile";
   private static final String KEY_VARIANTS = "Varianten";
@@ -34,8 +35,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
       KEY_SKILLS_COMBAT,
       KEY_SKILLS,
       KEY_SKILLS_MAGIC,
+      KEY_SKILLS_MAGIC_2,
       KEY_SKILLS_CLERIC,
       KEY_MERITS_RECOMMENDED,
+      KEY_FLAWS_RECOMMENDED_II,
       KEY_FLAWS_RECOMMENDED,
       KEY_MERITS_INAPPROPRIATE,
       KEY_FLAWS_INAPPROPRIATE,
@@ -61,53 +64,71 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
   }
 
   @Override
-  public List<ProfessionRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> texts, TopicConfiguration conf)
-  {
+  public List<ProfessionRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> texts, TopicConfiguration conf) {
     List<ProfessionRaw> returnValue = new ArrayList<>();
 
-    AtomicInteger lastPage = new AtomicInteger(0);
-    AtomicBoolean isNewPageStarted = new AtomicBoolean(false);
     AtomicReference<String> currentProfessionName = new AtomicReference<>();
+    AtomicReference<Boolean> isNameStarted = new AtomicReference<>(Boolean.FALSE);
+    AtomicReference<ProfessionTypeKey> currentProfessionTypeKey = new AtomicReference<>();
 
     texts.forEach(t -> {
 
       String cleanText = t.text.trim();
 
+      if (t.size == 1800) {
+        switch (cleanText) {
+        case "Weltliche Professionen":
+          currentProfessionTypeKey.set(ProfessionTypeKey.normal);
+          break;
+        case "ZaubererprofessionenAnimisten":
+          currentProfessionTypeKey.set(ProfessionTypeKey.magical);
+          break;
+        case "Geweihtenprofessionen (Alveranische Gottheiten)":
+          currentProfessionTypeKey.set(ProfessionTypeKey.clerical_alveran);
+          break;
+        case "Geweihtenprofessionen (Halbgötter)":
+          currentProfessionTypeKey.set(ProfessionTypeKey.clerical_halbgötter);
+          break;
+        case "Geweihtenprofessionen (Außeralveranische Gottheiten)":
+          currentProfessionTypeKey.set(ProfessionTypeKey.clerical_außeralveranisch);
+          break;
+        case "Ordensprofessionen":
+          currentProfessionTypeKey.set(ProfessionTypeKey.chapter);
+          break;
+
+        }
+
+      }
       boolean isDataKey = validateIsDataKey(t, cleanText, conf);
       boolean isDataValue = validateIsDataValue(t, cleanText, conf);
 
-      if (lastPage.get() != t.onPage)
-      {
-        currentProfessionName.set(null);
-        if (returnValue.size() > 0) last(returnValue).description = last(returnValue).description.replace("<i>Professionspaket</i> ", "");
+      boolean isName = validateIsName(t, conf);
+      isNameStarted.set(isName);
+
+      //handle start of Profession
+      if (t.text.equals("Professionspaket")) {
         ProfessionRaw newEntry = new ProfessionRaw();
         this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
-        returnValue.add(newEntry);
-
-        isNewPageStarted.set(true);
-        currentProfessionName.set(null);
-        lastPage.set(t.onPage);
-      }
-
-      boolean isName = validateIsName(t, conf, isNewPageStarted.get());
-
-      // handle name
-      if (isName)
-      {
-        currentProfessionName.set(t.text);
-        ProfessionRaw currentEntry = last(returnValue);
-        isDataKey = false;
+        newEntry.name = currentProfessionName.get();
+        newEntry.professionType = currentProfessionTypeKey.get();
         this.getFlags().initDataFlags();
         this.getFlags().wasName.set(true);
-        if (currentProfessionName == null) ;
-        currentEntry.setName(concatForDataValue(currentEntry.getName(), t.text));
+        returnValue.add(newEntry);
+        currentProfessionName.set(null);
+      }
+
+      // handle name
+      if (isName) {
+        currentProfessionName.set(currentProfessionName.get() != null ? concatForDataValue(currentProfessionName.get(), t.text) : t.text);
+      }
+      else {
+        currentProfessionName.set(null);
       }
 
       // handle keys
-      if (isDataKey)
-      {
+      if (isDataKey) {
         applyFlagsForKey(t.text);
       }
 
@@ -118,12 +139,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
         applyFlagsForNoKeyStrings(this.getFlags(), t.text);
       }
     });
-    last(returnValue).description = last(returnValue).description.replace("<i>Professionspaket</i> ", "");
     return returnValue;
   }
 
-  private boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf, boolean isNewPageStarted)
-  {
+  private boolean validateIsName(TextWithMetaInfo t, TopicConfiguration conf) {
     return t.size == conf.nameSize;
   }
 
@@ -159,10 +178,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
     this.getFlags().wasSpecialAbilities.set(key.trim().equals(KEY_SPECIAL_ABILITIES));
     this.getFlags().wasSkillCombat.set(key.trim().equals(KEY_SKILLS_COMBAT));
     this.getFlags().wasSkills.set(key.trim().equals(KEY_SKILLS));
-    this.getFlags().wasSkillsMagic.set(key.trim().equals(KEY_SKILLS_MAGIC));
+    this.getFlags().wasSkillsMagic.set(key.trim().equals(KEY_SKILLS_MAGIC) || key.trim().equals(KEY_SKILLS_MAGIC_2));
     this.getFlags().wasSkillsCleric.set(key.trim().equals(KEY_SKILLS_CLERIC));
     this.getFlags().wasMeritsRecommended.set(key.trim().equals(KEY_MERITS_RECOMMENDED));
-    this.getFlags().wasFlawsRecommended.set(key.trim().equals(KEY_FLAWS_RECOMMENDED));
+    this.getFlags().wasFlawsRecommended.set(key.trim().equals(KEY_FLAWS_RECOMMENDED) || key.trim().equals(KEY_FLAWS_RECOMMENDED_II));
     this.getFlags().wasMeritsInappropriate.set(key.trim().equals(KEY_MERITS_INAPPROPRIATE));
     this.getFlags().wasFlawsInappropriate.set(key.trim().equals(KEY_FLAWS_INAPPROPRIATE));
     this.getFlags().wasVariants.set(key.trim().equals(KEY_VARIANTS));
@@ -192,13 +211,24 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
         currentDataObject.meritsInappropriate = concatForDataValue(currentDataObject.meritsInappropriate, cleanText);
       if (this.getFlags().wasFlawsInappropriate.get())
         currentDataObject.flawsInappropriate = concatForDataValue(currentDataObject.flawsInappropriate, cleanText);
-      if (this.getFlags().wasVariants.get()) currentDataObject.variants = concatForDataValue(currentDataObject.variants, cleanText);
+      if (this.getFlags().wasVariants.get())
+        currentDataObject.variants = concatForDataValueWithMarkup(currentDataObject.variants, cleanText, isBold, isItalic);
       if (this.getFlags().wasEquip.get()) currentDataObject.equip = concatForDataValue(currentDataObject.equip, cleanText);
     }
   }
 
+
   @Override
-  protected void concludePredecessor(ProfessionRaw lastEntry)
-  {
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
+    return t.size == conf.dataSize && t.isBold && t.text != null && !t.text.isEmpty();
+  }
+
+  @Override
+  protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
+    return t.size == conf.dataSize && !this.validateIsDataKey(t, cleanText, conf);
+  }
+
+  @Override
+  protected void concludePredecessor(ProfessionRaw lastEntry) {
   }
 }

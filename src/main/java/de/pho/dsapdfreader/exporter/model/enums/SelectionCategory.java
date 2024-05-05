@@ -20,11 +20,11 @@ public enum SelectionCategory
   terrain,
   traditionCleric,
   mysticalSkillTrick,
-  mysticalSkillBlessing;
+  mysticalSkillBlessing,
+  traditionMagic;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

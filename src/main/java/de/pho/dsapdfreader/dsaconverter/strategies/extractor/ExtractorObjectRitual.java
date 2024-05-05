@@ -10,42 +10,26 @@ import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
 
 public class ExtractorObjectRitual extends Extractor
 {
-  public static ObjectRitualKey extractOrKeyFromName(String name)
-  {
+  public static ObjectRitualKey extractOrKeyFromName(String name) throws IllegalArgumentException {
     ObjectRitualKey returnValue = null;
-    try
-    {
+    try {
       returnValue = extractOrKeyFromText(name);
       if (returnValue == null)
         throw new IllegalArgumentException();
     }
-    catch (IllegalArgumentException e)
-    {
-      // String msg = String.format("%s key could not be interpreted.", name);
-      //LOGGER.error(msg);
+    catch (IllegalArgumentException e) {
     }
     return returnValue;
   }
 
-  private static ObjectRitualKey extractOrKeyFromText(String name)
-  {
+  private static ObjectRitualKey extractOrKeyFromText(String name) throws IllegalArgumentException {
     ObjectRitualKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(name.replace("ß", "xxx"))
         .toLowerCase()
         .replace("xxx", "ß");
     keyString = keyString.trim();
-
-    try
-    {
-      if (!keyString.isEmpty())
-      {
-        returnValue = ObjectRitualKey.valueOf(keyString.toLowerCase());
-      }
-    }
-    catch (IllegalArgumentException e)
-    {
-      //System.out.println(keyString.toLowerCase() + ",");
-      LOGGER.error("Invalid specialAbility name: " + name);
+    if (!keyString.isEmpty()) {
+      returnValue = ObjectRitualKey.valueOf(keyString.toLowerCase());
     }
     return returnValue;
   }

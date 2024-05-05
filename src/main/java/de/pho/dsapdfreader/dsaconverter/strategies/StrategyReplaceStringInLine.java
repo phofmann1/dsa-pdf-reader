@@ -32,7 +32,7 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
       String newText = extractOptionalParameterString(parameters, NEW_TEXT);
       if (parameters.stream().anyMatch(p -> p.getKey().equals(IS_BOLD)))
       {
-        isBold = extractOptionalParameterBoolean(parameters, IS_BOLD);
+        isBold = extractOptionalParameterBoolean(parameters, IS_BOLD, false);
       }
       OptionalInt newSize = extractOptionalParameterInt(parameters, SIZE);
 

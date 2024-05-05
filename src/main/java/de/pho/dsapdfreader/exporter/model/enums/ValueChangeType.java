@@ -16,11 +16,11 @@ public enum ValueChangeType
   traditionChangeForFeature,  //Modifikation der Tradition zur eigenen
   newSkillUsage, //Neues Anwendungsgebiet für Skill (Fuchssinn)
   impedeAdversary, //ValueChange wird auf die Probe des gegenübers angewendet (Allerweltsname)
-  inebt;
+  inebt,
+  specialize; //Bei Charaktergenerierung
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

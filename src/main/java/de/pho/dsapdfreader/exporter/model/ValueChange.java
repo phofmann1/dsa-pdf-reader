@@ -1,6 +1,6 @@
 package de.pho.dsapdfreader.exporter.model;
 
-import java.util.ArrayList;
+import java.io.Serializable;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -19,28 +19,29 @@ import de.pho.dsapdfreader.exporter.model.enums.UsageRestrictionKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
 
-public class ValueChange
-{
+public class ValueChange implements Serializable {
   public ValueChangeKey key;
   public ValueChangeType type;
   @JsonProperty("valueChange")
-  public int change;
-  public int valueChangeMax;
+  public Integer change;
+  public Integer valueChangeMax;
 
-  public int[] attributeValueChanges;
+  public Integer[] attributeValueChanges;
 
   public SkillKey skillKey;
+  public List<SkillKey> skillKeysOneOf;
   public CombatSkillKey combatSkillKey;
+  public List<CombatSkillKey> combatSkillKeysOneOf;
 
-  public boolean perLevel;
-  public boolean temporary;
-  public boolean useParentSelection;
-  public boolean conditionally; //Trifft nicht immer zu (Zwergennase)
-  public List<SkillUsageKey> usageKeys = new ArrayList<>();
+  public Boolean perLevel;
+  public Boolean temporary;
+  public Boolean useParentSelection;
+  public Boolean conditionally; //Trifft nicht immer zu (Zwergennase)
+  public List<SkillUsageKey> usageKeys;
   public TargetCategory targetCategory;
   public UsageRestrictionKey usageRestrictionKey;
   public MysticalSkillFeature featureKey;
-  public List<MysticalSkillKey> mysticalSkillKeys = new ArrayList<>();
+  public List<MysticalSkillKey> mysticalSkillKeys;
   public MysticalSkillModification mysticalSkillModificationType;
   public TraditionKey traditionKey;
   public SkillUsageKey newSkillUsageKey;

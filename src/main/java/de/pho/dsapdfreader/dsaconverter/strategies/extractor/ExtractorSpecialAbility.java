@@ -136,18 +136,11 @@ public class ExtractorSpecialAbility extends Extractor
 
     keyString = keyString.trim();
 
-    try
-    {
       if (!keyString.isEmpty())
       {
         returnValue = SpecialAbilityKey.valueOf(keyString.toLowerCase());
       }
-    }
-    catch (IllegalArgumentException e)
-    {
-      //System.out.println(keyString.toLowerCase() + ",");
-      LOGGER.error("Invalid specialAbility name: " + name);
-    }
+
     return returnValue;
   }
 
@@ -462,8 +455,8 @@ public class ExtractorSpecialAbility extends Extractor
     {
       return switch (m.group())
           {
-            case "Zwerg" -> SpecieKey.DWARF;
-            case "Elf" -> SpecieKey.ELF;
+            case "Zwerg" -> SpecieKey.zwerg;
+            case "Elf" -> SpecieKey.elf;
             default -> null;
           };
     }
@@ -1117,7 +1110,7 @@ public class ExtractorSpecialAbility extends Extractor
     if (m.find())
     {
       returnValue = new ValueChange();
-      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.qs;
       returnValue.change = 1;
 
@@ -1162,7 +1155,7 @@ public class ExtractorSpecialAbility extends Extractor
     if (m.find())
     {
       returnValue = new ValueChange();
-      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.fp;
       returnValue.change = Integer.valueOf(m.group().trim());
 
@@ -1207,7 +1200,7 @@ public class ExtractorSpecialAbility extends Extractor
     if (m.find())
     {
       returnValue = new ValueChange();
-      returnValue.key = ValueChangeKey.SKILL;
+      returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.fp;
       returnValue.change = Integer.valueOf(m.group().trim());
 
@@ -1228,7 +1221,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     if (saKey == null) return null;
     ValueChange result = new ValueChange();
-    result.key = ValueChangeKey.SKILL;
+    result.key = ValueChangeKey.skill;
     result.change = 1;
     switch (saKey)
     {
@@ -1278,7 +1271,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     if (saKey == null) return null;
     ValueChange result = new ValueChange();
-    result.key = ValueChangeKey.SKILL;
+    result.key = ValueChangeKey.skill;
     switch (saKey)
     {
     case vertrauenswürdig:
@@ -1303,7 +1296,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     if (saKey == null) return null;
     ValueChange result = new ValueChange();
-    result.key = ValueChangeKey.SKILL;
+    result.key = ValueChangeKey.skill;
     result.type = ValueChangeType.fp;
 
     switch (saKey)
@@ -1326,7 +1319,7 @@ public class ExtractorSpecialAbility extends Extractor
   {
     if (saKey == null) return null;
     ValueChange result = new ValueChange();
-    result.key = ValueChangeKey.SKILL;
+    result.key = ValueChangeKey.skill;
     result.type = ValueChangeType.traditionChangeForFeature;
     switch (saKey)
     {

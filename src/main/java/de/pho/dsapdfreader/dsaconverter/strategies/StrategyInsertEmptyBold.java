@@ -23,7 +23,7 @@ public class StrategyInsertEmptyBold extends DsaConverterStrategy
         {
             double insertAfter = extractParameterDouble(parameters, INSERT_AFTER);
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-            boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL);
+          boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL, false);
 
             logApplicationOfStrategy(description);
             List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());

@@ -18,7 +18,7 @@ public class MeleeWeapon implements EquipmentI
   public CombatSkillKey combatSkillKey;
   public Publication publication;
   public TP tp;
-  public List<AttributeTpBonus> attributeTpBonuses;
+  public List<AttributeValuePair> attributeTpBonuses;
   public int atModifier;
   public int paModifier;
   public CloseCombatRange closeCombatRangeKey;

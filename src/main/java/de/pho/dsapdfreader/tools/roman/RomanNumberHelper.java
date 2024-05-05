@@ -8,6 +8,7 @@ public class RomanNumberHelper
 
   public static int romanToInt(String s)
   {
+
     Map<Character, Integer> map = new HashMap<Character, Integer>();
     //adding elements to the Map
     map.put('I', 1);

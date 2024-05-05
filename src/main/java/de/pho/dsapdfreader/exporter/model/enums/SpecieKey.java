@@ -2,28 +2,34 @@ package de.pho.dsapdfreader.exporter.model.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum SpecieKey
-{
-  HUMAN_KOBOLDWELTLER,
-  HUMAN_MITTELLAENDER,
-  HUMAN_NIVESEN,
-  HUMAN_NORBARDEN,
-  HUMAN_THORWALER,
-  HUMAN_TULAMIDEN,
-  HUMAN_WALDMENSCHEN,
-  HUMAN_UTULUS,
-  HUMAN,
-  ELF,
-  HALFELF,
-  DWARF,
-  LOBSTER,
-  NERISTU,
-  LIZARD,
-  ORC;
+public enum SpecieKey {
+  human_koboldweltler,
+  human_mittelländer,
+  human_nivesen,
+  human_norbarden,
+  human_thorwaler,
+  human_tulamiden,
+  human_waldmenschen,
+  human_utulus,
+  mensch,
+  elf,
+  halfelf,
+  zwerg,
+  lobster,
+  neristu,
+  achaz,
+  ork,
+  goblin,
+  halbork,
+  holberker,
+  lizard_echsensumpf,
+  lizard_maraskan,
+  lizard_orkland,
+  lizard_regenwald,
+  lizard_waldinseln;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

@@ -28,7 +28,7 @@ public class StrategySplitLineAfterPosition extends DsaConverterStrategy
             int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
             double splitLine = super.extractParameterDouble(parameters, SPLIT_LINE);
             int splitAfterPosition = super.extractParameterInt(parameters, SPLIT_AFTER_POSITION);
-            boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL);
+          boolean insertSmall = super.extractOptionalParameterBoolean(parameters, INSERT_SMALL, false);
 
             logApplicationOfStrategy(description);
             List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());

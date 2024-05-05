@@ -85,11 +85,11 @@ public class ExtractorRequirements extends Extractor
     case allerweltsname:
     case böser_namensvetter:
       returnValue = new RequirementsSpecie();
-      returnValue.forbidden.add(SpecieKey.ELF);
+      returnValue.forbidden.add(SpecieKey.elf);
       break;
     case wolfsblut:
       returnValue = new RequirementsSpecie();
-      returnValue.required.add(SpecieKey.HUMAN);
+      returnValue.required.add(SpecieKey.mensch);
       break;
     }
     return returnValue;
@@ -99,9 +99,9 @@ public class ExtractorRequirements extends Extractor
   {
     return switch (key)
         {
-          case walwut_swafskari, friedlos -> CultureKey.thorwaler;
+          case walwut_swafskari, friedlos -> CultureKey.thorwal;
           case wolfsblut -> CultureKey.nivesen;
-          case yurach -> CultureKey.orkland;
+          case yurach -> CultureKey.stammesorks;
           default -> null;
         };
   }

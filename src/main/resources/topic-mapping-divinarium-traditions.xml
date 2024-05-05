@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+
+    <strategy name="Add SkillLevel to third Variant of Silentium on Page 162" index="1">
+        <strategyClass>StrategyAddTextToLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>63</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterPosition</key>
+                <value>8</value>
+            </parameter>
+            <parameter>
+                <key>insertText</key>
+                <value>100 AP</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>
