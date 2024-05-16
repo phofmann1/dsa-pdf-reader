@@ -98,6 +98,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
               {
                 abilityName.set(cleanText);
                 last(returnValue).abilityCategory = abilityCategory.get();
+                last(returnValue).name = abilityName.get();
               }
               // handle keys
               if (isDataKey)
@@ -204,6 +205,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
           case "Heskatet-Paktgeschenke" -> SpecialAbilityCategoryKey.pact_demonic_heskatet;
           case "Die Tricks der Vertrauten" -> SpecialAbilityCategoryKey.familiar;
           case "Zauberzeichen" -> SpecialAbilityCategoryKey.magic_signs;
+          case "Sonderfertigkeiten" -> SpecialAbilityCategoryKey.mixed;
 
           default -> null;
         };

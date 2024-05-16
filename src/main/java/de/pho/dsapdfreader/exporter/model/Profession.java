@@ -63,6 +63,7 @@ public class Profession implements Serializable {
   public int noOfTricks;
   public int minMysticalSkillAp;
   public TraditionGuidelineKey traditionGuidLineKey;
+  public List<MysticalSkillKey> curriculum;
   public List<ElementKey> elementsAttuned;
   public List<ElementKey> elementsAttunedSelectOne;
 

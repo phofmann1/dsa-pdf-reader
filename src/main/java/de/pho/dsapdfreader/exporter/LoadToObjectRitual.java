@@ -15,11 +15,13 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorRequirements;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorVolume;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.ObjectRitual;
 import de.pho.dsapdfreader.exporter.model.RequirementSpecialAbility;
 import de.pho.dsapdfreader.exporter.model.RequirementsSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.ArtifactKey;
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
@@ -69,17 +71,16 @@ public class LoadToObjectRitual
         ? raw.name.split("(?= (I-|I\\/))")[0]
         : raw.name;
 
-    for (int currentLevel = 0; currentLevel < levels; currentLevel++)
-    {
+    for (int currentLevel = 0; currentLevel < levels; currentLevel++) {
       ObjectRitual or = new ObjectRitual();
       or.name = extractName(baseName, levels, currentLevel);
-      or.key = ExtractorObjectRitual.extractOrKeyFromName(or.name);
+      String orn = extractKeyName(baseName, levels, currentLevel, raw.artifactKey);
+      or.key = ExtractorObjectRitual.extractOrKeyFromName(orn);
       or.publication = Publication.valueOf(raw.publication);
       or.artifactKey = raw.artifactKey;
 
       or.ap = ExtractorAP.retrieve(raw.ap, currentLevel);
-      if (raw.binding != null)
-      {
+      if (raw.binding != null && !raw.binding.isEmpty()) {
         Cost c = new Cost();
         c.costText = raw.binding;
         c.permanentCost = 2;
@@ -89,7 +90,10 @@ public class LoadToObjectRitual
       or.volume = ExtractorVolume.retrieve(raw.volume, currentLevel);
 
       Map<String, String> lvlReqMap = ExtractorRequirements.extractLevelRequirementMap(raw.requirements);
-      or.requiredOrKeys = ExtractorObjectRitual.retrieveRequirementsObjectRitual(lvlReqMap, levels, currentLevel, or.key);
+      or.requiredOrKeys = ExtractorObjectRitual.retrieveRequirementsObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
+      or.requiredNoneOrKeys = ExtractorObjectRitual.retrieveRequirementsNoneObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
+
+      or.requiredTraditionKeys = ExtractorSpecialAbility.extractTraditionKeysFromText(raw.requirements);
 
       handleReqsSpecialAbility(or, raw.requirements);
 
@@ -152,13 +156,23 @@ public class LoadToObjectRitual
         };
   }
 
-  public static String extractName(String baseName, int levels, int currentLevel)
-  {
+  public static String extractName(String baseName, int levels, int currentLevel) {
     String n = extractSpecialName(baseName, currentLevel);
     String levelAffix = "";
 
-    if (baseName.equals(n))
-    {
+    if (baseName.equals(n)) {
+      levelAffix = " " + intToRoman(currentLevel + 1);
+    }
+
+    return n + (levels > 1 ? levelAffix : "");
+  }
+
+  public static String extractKeyName(String baseName, int levels, int currentLevel, ArtifactKey artifactKey) {
+    String n = ExtractorObjectRitual.mapArtifactKey2Prefix(artifactKey)
+        + ExtractorObjectRitual.extractKeyTextFromTextWithUmlauts(extractName(baseName, levels, currentLevel)).toLowerCase();
+    String levelAffix = "";
+
+    if (baseName.equals(n)) {
       levelAffix = " " + intToRoman(currentLevel + 1);
     }
 
@@ -166,10 +180,8 @@ public class LoadToObjectRitual
   }
 
 
-  private static String extractSpecialName(String baseName, int i)
-  {
-    String suffix = switch (baseName)
-        {
+  private static String extractSpecialName(String baseName, int i) {
+    String suffix = switch (baseName) {
           case "Tierwandlung" -> " (" + NAMES_TIERWANDLUNG[i] + ")";
           case "Bindung des Bannschwerts" -> " (" + TYPES_BANNSCHWERT[i] + ")";
           case "Klinge wider (Wesenheit)" -> " (" + ENTITIES[i] + ")";

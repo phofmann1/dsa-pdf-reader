@@ -3,12 +3,12 @@ package de.pho.dsapdfreader.exporter.model.enums;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum TraditionGuidelineKey {
-  arch_conservative,
-  traditional,
-  grounded,
-  open,
+  erzkonservativ,
+  traditionell,
+  bodenständig,
+  aufgeschlossen,
   tolerant,
-  freeminded;
+  freigeistig;
 
   @JsonValue
   public int toValue() {

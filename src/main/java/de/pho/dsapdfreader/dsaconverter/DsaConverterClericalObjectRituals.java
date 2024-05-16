@@ -95,60 +95,77 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magicSign, "Auge des Basilisken")
   );
 
+  protected static final String[] KEYS = {
+      KEY_EFFECT,
+      KEY_FEATURE,
+      KEY_REQUIREMENTS_I,
+      KEY_REQUIREMENTS_II,
+      KEY_AP,
+  };
   private static final Map<String, ArtifactKey> KEYS_TRADITION_ARTIFACTS = Map.ofEntries(
-      new AbstractMap.SimpleEntry<>("Die Animistenwaffe", ArtifactKey.animistenwaffe),
-      new AbstractMap.SimpleEntry<>("Die Krallenkette", ArtifactKey.krallenkette),
-      new AbstractMap.SimpleEntry<>("Der Druidendolch", ArtifactKey.druidendolch),
-      new AbstractMap.SimpleEntry<>("Die Druidensichel", ArtifactKey.druidensichel),
-      new AbstractMap.SimpleEntry<>("Der Lebensring", ArtifactKey.lebensring),
-      new AbstractMap.SimpleEntry<>("Der Magierstab", ArtifactKey.magierstab),
-      new AbstractMap.SimpleEntry<>("Das Bannschwert", ArtifactKey.bannschwert),
-      new AbstractMap.SimpleEntry<>("Die gildenmagische Magierkugel", ArtifactKey.gildenmagische_magierkugel),
-      new AbstractMap.SimpleEntry<>("Die Zauberschale", ArtifactKey.zauberschale),
-      new AbstractMap.SimpleEntry<>("Die Goblinkeule", ArtifactKey.goblinkeule),
-      new AbstractMap.SimpleEntry<>("Die Schweinetrommel", ArtifactKey.schweinetrommel),
-      new AbstractMap.SimpleEntry<>("Die Hauerkette", ArtifactKey.hauerkette),
-      new AbstractMap.SimpleEntry<>("Der Hexenkessel", ArtifactKey.hexenkessel),
-      new AbstractMap.SimpleEntry<>("Der Schuppenbeutel", ArtifactKey.schuppenbeutel),
-      new AbstractMap.SimpleEntry<>("Die kristallomantische Kristallkugel", ArtifactKey.kristallomantische_kristallkugel),//
-      new AbstractMap.SimpleEntry<>("Die Echsenhaube", ArtifactKey.echsenhaube),//
-      new AbstractMap.SimpleEntry<>("Die Scharlatanische Zauberkugel", ArtifactKey.scharlatanische_zauberkugel),
-      new AbstractMap.SimpleEntry<>("Der Zauberstecken", ArtifactKey.zauberstecken),
-      new AbstractMap.SimpleEntry<>("Die Narrenkappe", ArtifactKey.narrenkappe),
-      new AbstractMap.SimpleEntry<>("Das Schelmenspielzeug", ArtifactKey.schelmenspielzeug),
-      new AbstractMap.SimpleEntry<>("Die Alchimistenschale", ArtifactKey.alchimistenschale),
-      new AbstractMap.SimpleEntry<>("Zauberinstrumente", ArtifactKey.zauberinstrument),
-      new AbstractMap.SimpleEntry<>("Das Trinkhorn", ArtifactKey.trinkhorn),
-      new AbstractMap.SimpleEntry<>("Zauberkleidung", ArtifactKey.zauberkleidung),
-      new AbstractMap.SimpleEntry<>("Sippenchronik", ArtifactKey.sippenchronik)
-  );
-
-  private static final Map<ArtifactKey, String> KEYS_TRADITION_ARTIFACTS_FIRST_SF = Map.ofEntries(
-      new AbstractMap.SimpleEntry<>(ArtifactKey.animistenwaffe, "Bindung der WaffeWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.krallenkette, "Bindung der KrallenketteWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.druidendolch, "Bindung des DolchesWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.druidensichel, "BannsichelWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.lebensring, "Bindung des RingsWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.magierstab, "AstralentzugWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.bannschwert, "Bannschwert des AdeptenWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.gildenmagische_magierkugel, "AufbewahrungWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.zauberschale, "Allegorische AnalyseWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.goblinkeule, "Bindung der GoblinkeuleWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.schweinetrommel, "Bindung der SchweinetrommelWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.hauerkette, "Bindung der HauerketteWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.hexenkessel, "Angsteinflößendes GeblubberWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.schuppenbeutel, "Beutel-ApportWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.kristallomantische_kristallkugel, "BilderspielWirkung"),//
-      new AbstractMap.SimpleEntry<>(ArtifactKey.echsenhaube, "Astralspeicher-Haube I-IIIWirkung"),//
-      new AbstractMap.SimpleEntry<>(ArtifactKey.scharlatanische_zauberkugel, "AufnahmeWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.zauberstecken, "Ewige FlammeWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.narrenkappe, "Bindung der NarrenkappeWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.schelmenspielzeug, "BeleidigungenWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.alchimistenschale, "Alchimistenschalen-ApportWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.zauberinstrument, "Bann des ÜbernatürlichenWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.trinkhorn, "Bindung des TrinkhornsWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.zauberkleidung, "BesitzanspruchWirkung"),
-      new AbstractMap.SimpleEntry<>(ArtifactKey.sippenchronik, "Bindung der ChronikWirkung")
+      new AbstractMap.SimpleEntry<>("Das Sonnenzepter", ArtifactKey.sonnenzepter),
+      new AbstractMap.SimpleEntry<>("Die Schutzkugel", ArtifactKey.schutzkugel),
+      new AbstractMap.SimpleEntry<>("Der Rondrakamm", ArtifactKey.rondrakamm),
+      new AbstractMap.SimpleEntry<>("Die Schwertfibel", ArtifactKey.schwertfibel),
+      new AbstractMap.SimpleEntry<>("Der Efferdbart", ArtifactKey.efferdbart),
+      new AbstractMap.SimpleEntry<>("Die Muschelkette", ArtifactKey.muschelkette),
+      new AbstractMap.SimpleEntry<>("Der Gänsebeutel", ArtifactKey.gänsebeutel),
+      new AbstractMap.SimpleEntry<>("Das Amulett des Heiligen Badilak", ArtifactKey.amulett_des_heiligen_badilak),
+      new AbstractMap.SimpleEntry<>("Der Rabenschnabel", ArtifactKey.rabenschnabel),
+      new AbstractMap.SimpleEntry<>("Das Dunkle Buch", ArtifactKey.das_dunkle_buch),
+      new AbstractMap.SimpleEntry<>("Das Buch der Schlange", ArtifactKey.buch_der_schlange),
+      new AbstractMap.SimpleEntry<>("Der Erkenntnisstab", ArtifactKey.erkenntnisstab),
+      new AbstractMap.SimpleEntry<>("Das Firunsmesser", ArtifactKey.firunsmesser),
+      new AbstractMap.SimpleEntry<>("Der Firunsbogen", ArtifactKey.firunsbogen),
+      new AbstractMap.SimpleEntry<>("Das Prisma", ArtifactKey.prisma),
+      new AbstractMap.SimpleEntry<>("Das Bunte Gewand", ArtifactKey.das_bunte_gewand),
+      new AbstractMap.SimpleEntry<>("Das Mondamulett", ArtifactKey.mondamulett),
+      new AbstractMap.SimpleEntry<>("Der Graue Umhang", ArtifactKey.der_graue_umhang),
+      new AbstractMap.SimpleEntry<>("Die Grünen Handschuhe", ArtifactKey.grüne_handschuhe),
+      new AbstractMap.SimpleEntry<>("Der Saatgutbeutel", ArtifactKey.saatgutbeutel),
+      new AbstractMap.SimpleEntry<>("Der Ingerimmshammer", ArtifactKey.ingerimmshammer),
+      new AbstractMap.SimpleEntry<>("Die Laterne des ewigen Feuers", ArtifactKey.laterne_des_ewigen_feuers),
+      new AbstractMap.SimpleEntry<>("Der Rote Schleier", ArtifactKey.roter_schleier),
+      new AbstractMap.SimpleEntry<>("Der Schmuck der Schönen Göttin", ArtifactKey.schmuck_der_schönen_götting),
+      new AbstractMap.SimpleEntry<>("Der Avesstab", ArtifactKey.avesstab),
+      new AbstractMap.SimpleEntry<>("Die Silberflöte", ArtifactKey.silberflöte),
+      new AbstractMap.SimpleEntry<>("Der Ifirnsmantel", ArtifactKey.ifirnsmantel),
+      new AbstractMap.SimpleEntry<>("Der Ifirnsbogen", ArtifactKey.ifirnsbogen),
+      new AbstractMap.SimpleEntry<>("Der Korspieß", ArtifactKey.korspieß),
+      new AbstractMap.SimpleEntry<>("Die Mantikorkette", ArtifactKey.mantikorkette),
+      new AbstractMap.SimpleEntry<>("Das Einhornstirnband", ArtifactKey.einhornstirnband),
+      new AbstractMap.SimpleEntry<>("Das Trigon-Amulett", ArtifactKey.trigon_amulett),
+      new AbstractMap.SimpleEntry<>("Der Walschild", ArtifactKey.walschild),
+      new AbstractMap.SimpleEntry<>("Das Flukenamulett", ArtifactKey.flukenamulett),
+      new AbstractMap.SimpleEntry<>("Die Widderkeule", ArtifactKey.widderkeule),
+      new AbstractMap.SimpleEntry<>("Das Füllhorn", ArtifactKey.füllhorn),
+      new AbstractMap.SimpleEntry<>("Der Marbodolch", ArtifactKey.marbodolch),
+      new AbstractMap.SimpleEntry<>("Das Stundenglas", ArtifactKey.stundenglas),
+      new AbstractMap.SimpleEntry<>("Das Muschelhorn", ArtifactKey.muschelhorn),
+      new AbstractMap.SimpleEntry<>("Die Bimssteinkette", ArtifactKey.bimssteinkette),
+      new AbstractMap.SimpleEntry<>("Die Vitis", ArtifactKey.vitis),
+      new AbstractMap.SimpleEntry<>("Der Hornissenstachel", ArtifactKey.hornissenstachel),
+      new AbstractMap.SimpleEntry<>("Die Ferkinaknochenkeule", ArtifactKey.ferkinaknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Fjarningerknochenkeule", ArtifactKey.fjarningerknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Gjalskerknochenkeule", ArtifactKey.gjalskerknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Nivesenknochenkeule", ArtifactKey.nivesenknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Tahayaknochenkeule", ArtifactKey.tahayaknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Trollzackerknochenkeule", ArtifactKey.trollzackerknochenkeule),
+      new AbstractMap.SimpleEntry<>("Geisterfetisch", ArtifactKey.geisterfetisch),
+      new AbstractMap.SimpleEntry<>("Der Angroschanhänger", ArtifactKey.angroschanhänger),
+      new AbstractMap.SimpleEntry<>("Der Angroschhammer", ArtifactKey.angroschhammer),
+      new AbstractMap.SimpleEntry<>("Die Eidechsenkleidung", ArtifactKey.eidechsenkleidung),
+      new AbstractMap.SimpleEntry<>("Der Regenbogenstein", ArtifactKey.regenbogenstein),
+      new AbstractMap.SimpleEntry<>("Der Schlangenstab", ArtifactKey.schlangenstab),
+      new AbstractMap.SimpleEntry<>("Das Schlangenlederarmband", ArtifactKey.schlangenlederarmband),
+      new AbstractMap.SimpleEntry<>("Die Sturmschwingen", ArtifactKey.sturmschwinge),
+      new AbstractMap.SimpleEntry<>("Das Coelestin-Metallband", ArtifactKey.coelestin_metallband),
+      new AbstractMap.SimpleEntry<>("Die Achazknochenkeule", ArtifactKey.achazknochenkeule),
+      new AbstractMap.SimpleEntry<>("Die Knochenkeule der Tairachschamanen", ArtifactKey.tairachknochenkeule),
+      new AbstractMap.SimpleEntry<>("Der Graveshhammer", ArtifactKey.graveshhammer),
+      new AbstractMap.SimpleEntry<>("Der kupferrote Schleifstein", ArtifactKey.kupferroter_schleifstein),
+      new AbstractMap.SimpleEntry<>("Der Opferdolch des Namenlosen", ArtifactKey.opferdolch_des_namenlosen),
+      new AbstractMap.SimpleEntry<>("Die Gesichtslarve", ArtifactKey.geischtslarve)
   );
 
 
@@ -157,20 +174,15 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
   private static final String KEY_REQUIREMENTS_I = "Voraussetzungen";
   private static final String KEY_REQUIREMENTS_II = "Voraussetzung";
   private static final String KEY_AP = "AP-Wert";
-
-  protected static final String[] KEYS = {
-      KEY_EFFECT,
-      KEY_FEATURE,
-      KEY_REQUIREMENTS_I,
-      KEY_AP,
-  };
+  private static final Map<ArtifactKey, String> KEYS_TRADITION_ARTIFACTS_FIRST_SF = Map.ofEntries(
+      new AbstractMap.SimpleEntry<>(ArtifactKey.animistenwaffe, "Bindung der WaffeWirkung")
+  );
   private static final Logger LOGGER = LogManager.getLogger();
 
   ConverterAtomicFlagsTraditionSkillMagic flags;
 
   AtomicReference<ArtifactKey> artifactKey = new AtomicReference<>();
   AtomicReference<Boolean> isArtifactStarted = new AtomicReference<>(Boolean.FALSE);
-
 
   public List<MysticalActivityObjectRitualRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf) {
     List<MysticalActivityObjectRitualRaw> returnValue = new ArrayList<>();
@@ -183,20 +195,13 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
           String cleanText = t.text.replaceAll("\u00AD", "-")
               .trim();
 
-          isArtifactStarted.set(isArtifactStarted.get()
-              || artifactKey.get() != null && cleanText.equals(KEYS_TRADITION_ARTIFACTS_FIRST_SF.get(artifactKey.get()))
-          );
-
-          boolean isTopic = !KEYS_TRADITION.contains(cleanText) && (t.size == 1800 || (t.size == 1300 && (cleanText.equals("Die kristallomantische Kristallkugel") || cleanText.equals("Die Echsenhaube"))));
+          boolean isNewArtifact = !cleanText.contains(" Tradition ") && (t.size == 1800);
           // validate the flags for conf
 
           // Start new Tradition
-          if (t.size == 1800 &&
-              (KEYS_TRADITION.contains(cleanText) || KEYS_TRADITION_ARTIFACTS.containsKey(cleanText) || true)
-              && !KEYS_TRADITION.contains(cleanText)
-          ) {
-            System.out.println("\"" + cleanText + "\",");
-            isArtifactStarted.set(false);
+          if (t.size == 1800 && cleanText.contains("Tradition")) {
+            isArtifactStarted.set(Boolean.FALSE);
+            //System.out.println("\"" + cleanText + "\",");
           }
 
           boolean isFirstValue = validateIsFirstValue(t, conf, isArtifactStarted.get(), cleanText);
@@ -205,19 +210,24 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
           boolean isDataValue = validateIsDataValue(t, cleanText, conf);
           handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-          if (isTopic) {
-            artifactKey.set(null);
+          if (isNewArtifact) {
+            finishPredecessorAndStartNew(isFirstValue, isFirstValueSkipped, returnValue, conf, cleanText);
             artifactKey.set(extractArtifactKey(t.text));
-            isArtifactStarted.set(Boolean.FALSE);
+            isArtifactStarted.set(Boolean.TRUE);
             this.getFlags().initDataFlags();
           }
 
 
           if (isArtifactStarted.get()) {
-            finishPredecessorAndStartNew(isFirstValue, isFirstValueSkipped, returnValue, conf, cleanText);
+            // handle name
             if (isFirstValue) {
-              cleanText = cleanText.replace("Probe", "").replace("Wirkung", "").replace(last(returnValue).name, "");
+              MysticalActivityObjectRitualRaw newOr = new MysticalActivityObjectRitualRaw();
+              newOr.name = cleanText;
+              newOr.artifactKey = artifactKey.get();
+              newOr.publication = conf.publication;
+              returnValue.add(newOr);
             }
+
             // handle keys
             if (isDataKey) {
               applyFlagsForKey(t.text);
@@ -347,8 +357,7 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
 
   public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf, Boolean isArtifactStarted, String cleanText) {
     return super.validateIsFirstValue(t, conf)
-        && t.isBold
-        && isArtifactStarted && cleanText.endsWith("Wirkung")
+        && isArtifactStarted
         && Arrays.stream(KEYS).noneMatch(k -> k.equals(cleanText)) && !cleanText.startsWith("QS");
   }
 }

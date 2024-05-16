@@ -50,6 +50,7 @@ import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies
 import de.pho.dsapdfreader.dsaconverter.DsaConverterArmor;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterClericalObjectRituals;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterCurriculum;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterEquipment;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMeleeWeapon;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillCommonness;
@@ -71,6 +72,7 @@ import de.pho.dsapdfreader.dsaconverter.DsaConverterTraditionsToSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.DsaConverterWeapon;
 import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
 import de.pho.dsapdfreader.dsaconverter.model.BoonRaw;
+import de.pho.dsapdfreader.dsaconverter.model.CurriculumRaw;
 import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MeleeWeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.model.MysticalActivityObjectRitualRaw;
@@ -106,16 +108,21 @@ import de.pho.dsapdfreader.exporter.model.MysticalSkill;
 import de.pho.dsapdfreader.exporter.model.ObjectRitual;
 import de.pho.dsapdfreader.exporter.model.Profession;
 import de.pho.dsapdfreader.exporter.model.RangedWeapon;
+import de.pho.dsapdfreader.exporter.model.RequirementBoon;
 import de.pho.dsapdfreader.exporter.model.Skill;
 import de.pho.dsapdfreader.exporter.model.SkillApplication;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
+import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.CsvHandler;
@@ -139,10 +146,67 @@ public class DsaPdfReaderMain
   private static final Logger LOGGER = LogManager.getLogger();
   private static List<TopicConfiguration> configs = null;
 
-  static CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.blasrohre, CombatSkillKey.bögen, CombatSkillKey.armbrüste, CombatSkillKey.diskusse, CombatSkillKey.schleudern, CombatSkillKey.wurfwaffen};
+  static final CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.blasrohre, CombatSkillKey.bögen, CombatSkillKey.armbrüste, CombatSkillKey.diskusse, CombatSkillKey.schleudern, CombatSkillKey.wurfwaffen};
+  static final Map<String, String> mapProfession2CurriculumRaw;
 
-  public static void main(String[] args)
-  {
+  static {
+    mapProfession2CurriculumRaw = new HashMap<>();
+    mapProfession2CurriculumRaw.put("Graumagierin der Akademie der Erscheinungen zu Grangor", "Akademie der Erscheinungen zu Grangor");
+    mapProfession2CurriculumRaw.put("Schwarzmagierin (Al’Achami zu Fasar)", "Akademie der Geistigen Kraft zu Fasar");
+    mapProfession2CurriculumRaw.put("Graumagierin der Akademie der Geistreisen zu Belhanka", "Akademie der Geistreisen zu Belhanka");
+    mapProfession2CurriculumRaw.put("Weißmagierin der Akademie der Herrschaft zu Elenvina", "Akademie der Herrschaft zu Elenvina");
+    mapProfession2CurriculumRaw.put("Graumagierin (Schule der Hohen Magie zu Punin)", "Akademie der Hohen Magie zu Punin");
+    mapProfession2CurriculumRaw.put("Weißmagierin der Akademie der magischen Rüstung zu Gareth", "Akademie der magischen Rüstung zu Gareth");
+    mapProfession2CurriculumRaw.put("Graumagierin (Schule der Verformungen zu Lowangen)", "Akademie der Verformungen zu Lowangen");
+    mapProfession2CurriculumRaw.put("Weißmagier (Schwert & Stab- Akademie zu Gareth)", "Akademie Schwert und Stab zu Gareth");
+    mapProfession2CurriculumRaw.put("Weißmagierin der Akademie von Licht und Dunkelheit zu Nostria", "Akademie von Licht und Dunkelheit zu Nostria");
+    mapProfession2CurriculumRaw.put("Graumagierin der Akademie zu Wagenhalt", "Akademie zu Wagenhalt");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier (Schüler des Alrik Dagabor)", "Alrik Dagabor");
+    mapProfession2CurriculumRaw.put("Weißmagierin der Anatomischen Akademie zu Vinsalt", "Anatomische Akademie zu Vinsalt");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier der Bannakademie von Fasar", "Bannakademie von Fasar");
+    mapProfession2CurriculumRaw.put("Schwarzmagier (Schüler des Demirion Ophenos)", "Demirion Ophenos");
+    mapProfession2CurriculumRaw.put("Graumagier der Drachenei-Akademie zu Khunchom", "Drachenei-Akademie zu Khunchom");
+    mapProfession2CurriculumRaw.put("Schwarzmagierin der Dunklen Halle der Geister zu Brabak", "Dunkle Halle der Geister zu Brabak");
+    mapProfession2CurriculumRaw.put("Gildenlose Magierin nach Halib abu’l Ketab", "Halib abu’l Ketab");
+    mapProfession2CurriculumRaw.put("Graumagier (Halle der Antimagie zu Kuslik)", "Halle der Antimagie zu Kuslik");
+    mapProfession2CurriculumRaw.put("Schwarzmagier (Halle der Erleuchtung zu Al’Anfa)", "Halle der Erleuchtung zu Al’Anfa");
+    mapProfession2CurriculumRaw.put("Schwarzmagier der Halle der Macht zu Lowangen", "Halle der Macht zu Lowangen");
+    mapProfession2CurriculumRaw.put("Weißmagierin der Halle der Metamorphosen zu Kuslik", "Halle der Metamorphose zu Kuslik");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier der Halle der Winde zu Olport", "Halle der Winde zu Olport");
+    mapProfession2CurriculumRaw.put("Weißmagier der Halle des Lebens zu Norburg", "Halle des Lebens zu Norburg");
+    mapProfession2CurriculumRaw.put("Graumagier der Halle des Quecksilbers zu Festum", "Halle des Quecksilbers zu Festum");
+    mapProfession2CurriculumRaw.put("Graumagierin der Halle des vollendeten Kampfes zu Bethana", "Halle des vollendeten Kampfes zu Bethana");
+    mapProfession2CurriculumRaw.put("Weißmagier (Schüler des Hesindius Lichtblick)", "Hesindius Lichtblick");
+    mapProfession2CurriculumRaw.put("Gildenlose Magierin der Heptagonakademie zu Yol-Ghurmak", "Heptagonakademie zu Yol-Ghurmak");
+    mapProfession2CurriculumRaw.put("Weißmagier des Informations- Instituts zu Rommilys", "Informations-Institut zu Rommilys");
+    mapProfession2CurriculumRaw.put("Graumagier des Kampfseminars zu Andergast", "Kampfseminar zu Andergast");
+    mapProfession2CurriculumRaw.put("Gildenlose Magierin (Schülerin der Khelbara ay Baburia)", "Khelbara ay Baburia");
+    mapProfession2CurriculumRaw.put("Graumagier des Konzils der Elemente zu Drakonia (Erzelementarist)", "Konzil der Elemente zu Drakonia");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier des Kreises der Einfühlung", "Kreis der Einfühlung");
+    mapProfession2CurriculumRaw.put("Gildenlose Magierin des Magierkollegs zu Honingen", "Magierkolleg zu Honingen");
+    mapProfession2CurriculumRaw.put("Qabaloth der Nachtwinde", "Nachtwinde");
+    mapProfession2CurriculumRaw.put("Graumagierin der Pentagramm- Akademie zu Rashdul", "Pentagramm-Akademie zu Rashdul");
+    mapProfession2CurriculumRaw.put("Gildenlose Magierin nach Rafim Bey", "Rafim Bey");
+    mapProfession2CurriculumRaw.put("Rashduler Dämonologe", "Rashduler Dämonologen");
+    mapProfession2CurriculumRaw.put("Weißmagierin (Schule der Austreibung)", "Schule der Austreibung zu Perricum");
+    mapProfession2CurriculumRaw.put("Graumagierin der Schule der Beherrschung zu Neersand", "Schule der Beherrschung zu Neersand");
+    mapProfession2CurriculumRaw.put("Graumagier (Schule der Hellsicht zu Thorwal)", "Schule der Hellsicht zu Thorwal");
+    mapProfession2CurriculumRaw.put("Schwarzmagierin der Schule der variablen Form zu Mirham", "Schule der variablen Form zu Mirham");
+    mapProfession2CurriculumRaw.put("Graumagierin (Schule der Vierfachen Verwandlung zu Sinoda)", "Schule der Vierfachen Verwandlung zu Sinoda");
+    mapProfession2CurriculumRaw.put("Graumagier (Schule des Direkten Weges zu Gerasim)", "Schule des Direkten Weges zu Gerasim");
+    mapProfession2CurriculumRaw.put("Weißmagier der Schule des magischen Wissens zu Methumis", "Schule des magischen Wissens zu Methumis");
+    mapProfession2CurriculumRaw.put("Graumagierin (Schule des Seienden Scheins zu Zorgan)", "Schule des Seienden Scheins zu Zorgan");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier des Seminars der elfischen Verständigung und natürlichen Heilung zu Donnerbach", "Seminar der elfischen Verständigung und natürlichen Heilung zu Donnerbach");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier nach Sevastana Gevendar", "Sevastana Gevendar");
+    mapProfession2CurriculumRaw.put("Schwarzmagier nach Shanada von Ben-Oni", "Shanada von Ben-Oni");
+    mapProfession2CurriculumRaw.put("Graumagier des Stoerrebrandt-Kollegs zu Riva", "Stoerrebrandt-Kolleg zu Riva");
+    mapProfession2CurriculumRaw.put("Qabaloth der Töchter Niobaras", "Töchter Niobaras");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier (Schüler des Vadif sal Karim)", "Vadif sal Karim");
+    mapProfession2CurriculumRaw.put("Graumagier der Zauberschule des Kalifen zu Mherwed", "Zauberschule des Kalifen zu Mherwed");
+    mapProfession2CurriculumRaw.put("Gildenloser Magier nach Kalliomathëa Dorikeikos von Sorabis", "Kalliomathëa Dorikeikos von Sorabis");
+  }
+
+  public static void main(String[] args) {
     LOGGER.info(SEPARATOR);
     LOGGER.info("start");
     Instant start = Instant.now();
@@ -162,7 +226,7 @@ public class DsaPdfReaderMain
     isToRaws = isToRaws || isNone;
     isToJson = isToJson || isNone;
 
-    isToText = true;
+    isToText = false;
     isToStrategy = true;
     isToRaws = true;
     isToJson = true;
@@ -445,15 +509,12 @@ public class DsaPdfReaderMain
         }
 
       }
-      catch (IOException e)
-      {
+      catch (IOException e) {
         throw new RuntimeException(e);
       }
     }
-    case ABILITIES, SPECIAL_ABILITY_MUNDANE, SPECIAL_ABILITY_FATE, SPECIAL_ABILITY_COMBAT, SPECIAL_ABILITY_MAGIC, SPECIAL_ABILITY_CLERIC, SPECIAL_ABILITY_SERMONS, SPECIAL_ABILITY_VISIONS ->
-    {
-      try
-      {
+    case ABILITIES -> {
+      try {
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
 
         List<SpecialAbilityRaw> raws = CsvHandler.readBeanFromFile(SpecialAbilityRaw.class, fIn);
@@ -467,6 +528,8 @@ public class DsaPdfReaderMain
               LoadToSpecialAbility.applyCorrections(sa, corrections);
               return sa;
             }).collect(Collectors.toList());
+
+        specialAbilities.addAll(generateTraditionsByPublication(conf.publication));
 
         ObjectMapper mapper = initObjectMapper();
         String jsonResult = mapper
@@ -518,16 +581,7 @@ public class DsaPdfReaderMain
         List<Boon> corrections = initExporterCorrections(Boon.class);
         List<Boon> boons = raws.stream().map(LoadToBoon::migrate)
             .map(b -> {
-              if (b.key == BoonKey.natürlicher_rüstungsschutz)
-              {
-                System.out.println(b.name + " -> " + b.ap);
-              }
               LoadToBoon.applyCorrections(b, corrections);
-              if (b.key == BoonKey.natürlicher_rüstungsschutz)
-              {
-                System.out.println(b.name + " -> " + b.ap);
-              }
-
               return b;
             })
             .collect(Collectors.toList());
@@ -705,17 +759,14 @@ public class DsaPdfReaderMain
         writer.write(skillDescriptionSB.toString());
         writer.close();
       }
-      catch (IOException e)
-      {
+      catch (IOException e) {
         throw new RuntimeException(e);
       }
 
     }
-    case MYSTICAL_SKILL_ACTIVITIES_MAGIC ->
-    {
+    case MYSTICAL_SKILL_ACTIVITIES_MAGIC, CLERICAL_OBJECT_RITUALS -> {
 
-      try
-      {
+      try {
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
         List<MysticalActivityObjectRitualRaw> raws = CsvHandler.readBeanFromFile(MysticalActivityObjectRitualRaw.class, fIn);
 
@@ -785,17 +836,68 @@ public class DsaPdfReaderMain
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
         List<ProfessionRaw> raws = CsvHandler.readBeanFromFile(ProfessionRaw.class, fIn);
 
-        List<Profession> pureMas = raws.stream()
-            .flatMap(LoadToProfession::migrate)
-            .collect(Collectors.toList());
-        ObjectMapper mapperOrs = initObjectMapper();
-        String jsonResultOrs = mapperOrs
-            .writerWithDefaultPrettyPrinter()
-            .writeValueAsString(pureMas);
+        fIn = new File("C:\\develop\\project\\dsa-pdf-reader\\export\\03 - raw\\Kodex_der_Magie_CURRICULUM_raw.csv");
+        List<CurriculumRaw> curriculumRaws = CsvHandler.readBeanFromFile(CurriculumRaw.class, fIn);
 
-        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "", "professions"));
-        writer.write(jsonResultOrs);
+        List<Profession> pureProfessions = raws.stream()
+            .flatMap(r -> LoadToProfession.migrate(r, extractCurriculumByProfessionName(r.name, curriculumRaws)))
+            .collect(Collectors.toList());
+
+        List<Profession> normals = pureProfessions.stream().filter(p -> p.professionType == ProfessionTypeKey.normal).collect(Collectors.toList());
+        ObjectMapper mapperOrs = initObjectMapper();
+        LOGGER.info("JSON-Professions Weltliche Professionen: " + normals.size() + " (Letzte Erzeugung: 223)");
+        String jsonNormals = mapperOrs
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(normals);
+
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "normal", "professions"));
+        writer.write(jsonNormals);
         writer.close();
+
+        List<Profession> chapters = pureProfessions.stream().filter(p -> p.professionType == ProfessionTypeKey.chapter).collect(Collectors.toList());
+        LOGGER.info("JSON-Professions Ordensprofessionen: " + chapters.size() + " (Letzte Erzeugung: 38)");
+        String jsonChapters = mapperOrs
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(chapters);
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "chapter", "professions"));
+        writer.write(jsonChapters);
+        writer.close();
+
+        List<Profession> magicals = pureProfessions.stream().filter(p -> p.professionType == ProfessionTypeKey.magical).collect(Collectors.toList());
+        LOGGER.info("JSON-Professions Magische Professionen: " + magicals.size() + " (Letzte Erzeugung: 130)");
+        String jsonMagicals = mapperOrs
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(magicals);
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "magical", "professions"));
+        writer.write(jsonMagicals);
+        writer.close();
+
+        List<Profession> curriculums = pureProfessions.stream().filter(p -> p.professionType == ProfessionTypeKey.curriculum).collect(Collectors.toList());
+        LOGGER.info("JSON-Professions Curriculum: " + curriculums.size() + " (Letzte Erzeugung: 116)");
+        String jsonCurriculums = mapperOrs
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(curriculums);
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "curriculum", "professions"));
+        writer.write(jsonCurriculums);
+        writer.close();
+
+        List<Profession> clericals = pureProfessions.stream().filter(p ->
+            p.professionType == ProfessionTypeKey.clerical_alveran
+                || p.professionType == ProfessionTypeKey.clerical_außeralveranisch
+                || p.professionType == ProfessionTypeKey.clerical_halbgötter
+        ).collect(Collectors.toList());
+        LOGGER.info("JSON-Professions Geweihte Professionen: " + clericals.size() + " (Letzte Erzeugung: 53)");
+        String jsonClerical = mapperOrs
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(clericals);
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "clerical", "professions"));
+        writer.write(jsonClerical);
+        writer.close();
+
       }
       catch (IOException e) {
         LOGGER.error(e);
@@ -831,18 +933,30 @@ public class DsaPdfReaderMain
         LOGGER.error(e);
       }
     }
+    case CURRICULUM -> LOGGER.debug("Nothing to do, used in PROFESSION extraction");
     default -> LOGGER.error(String.format("Unexpected value (parseToJson): %s", conf.topic));
     }
   }
 
-  private static <T> T castRawByName(Class<T> targetClass, Object raw)
-  {
+  private static List<? extends SpecialAbility> generateTraditionsByPublication(String publication) {
+    return switch (Publication.valueOf(publication)) {
+      case Kodex_der_Magie -> generateMagicTraditions();
+      case Kodex_des_Götterwirkens -> generateClericalTraditions();
+      default -> new ArrayList<>();
+    };
+  }
+
+  private static Optional<CurriculumRaw> extractCurriculumByProfessionName(String name, List<CurriculumRaw> curriculumRaws) {
+    return curriculumRaws.stream()
+        .filter(cr -> cr.name.equals(mapProfession2CurriculumRaw.get(name)))
+        .findFirst();
+  }
+
+  private static <T> T castRawByName(Class<T> targetClass, Object raw) {
     T returnValue = null;
-    try
-    {
+    try {
       returnValue = targetClass.getDeclaredConstructor().newInstance();
-      for (Field field : targetClass.getDeclaredFields())
-      {
+      for (Field field : targetClass.getDeclaredFields()) {
         try
         {
           Object value = raw.getClass().getDeclaredField(field.getName()).get(raw);
@@ -1331,7 +1445,7 @@ public class DsaPdfReaderMain
           for (int currentLevel = 0; currentLevel < levels; currentLevel++)
           {
             String name = LoadToObjectRitual.extractName(baseName, levels, currentLevel);
-            ObjectRitualKey key = ExtractorObjectRitual.extractOrKeyFromName(name);
+            ObjectRitualKey key = ExtractorObjectRitual.extractOrKeyFromName(LoadToObjectRitual.extractKeyName(baseName, levels, currentLevel, raw.artifactKey));
 
             if (key != null)
             {
@@ -1574,6 +1688,7 @@ public class DsaPdfReaderMain
     case MYSTICAL_SKILL_ACTIVITIES_MAGIC -> results = new DsaConverterMysticalSkillActivityAndArtifacts().convertTextWithMetaInfo(texts, conf);
     case CLERICAL_OBJECT_RITUALS -> results = new DsaConverterClericalObjectRituals().convertTextWithMetaInfo(texts, conf);
     case PROFILE -> results = new DsaConverterProfile().convertTextWithMetaInfo(texts, conf);
+    case CURRICULUM -> results = new DsaConverterCurriculum().convertTextWithMetaInfo(texts, conf);
     default -> LOGGER.error(String.format("Unexpected value (parseResult): %s", conf.topic));
     }
     return results;
@@ -1692,8 +1807,7 @@ public class DsaPdfReaderMain
         msr.variant4 = applicableVariantMsr.get().variant4;
         msr.variant5 = applicableVariantMsr.get().variant5;
       }
-      else
-      {
+      else {
         String msg = String.format("Für das Topic (%s)  (%s) wurden keine Varianten gefunden.", topic, msr.name);
         LOGGER.error(msg);
       }
@@ -1702,6 +1816,496 @@ public class DsaPdfReaderMain
 
     CsvHandler.writeBeanToUrl(fIn, results);
   }
+
+  private static List<SpecialAbility> generateClericalTraditions() {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    SpecialAbility tradPraios = new SpecialAbility();
+    tradPraios.name = "Tradition (Praioskirche)";
+    tradPraios.key = SpecialAbilityKey.tradition_praioskirche;
+    tradPraios.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradPraios.ap = 130;
+    tradPraios.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradPraios);
+
+    SpecialAbility tradRondra = new SpecialAbility();
+    tradRondra.name = "Tradition (Rondrakirche)";
+    tradRondra.key = SpecialAbilityKey.tradition_rondrakirche;
+    tradRondra.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradRondra.ap = 150;
+    tradRondra.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradRondra);
+
+
+    SpecialAbility tradEfferd = new SpecialAbility();
+    tradEfferd.name = "Tradition (Efferdkirche)";
+    tradEfferd.key = SpecialAbilityKey.tradition_efferdkirche;
+    tradEfferd.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradEfferd.ap = 130;
+    tradEfferd.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradEfferd);
+
+    SpecialAbility tradTravia = new SpecialAbility();
+    tradTravia.name = "Tradition (Traviakirche)";
+    tradTravia.key = SpecialAbilityKey.tradition_traviakirche;
+    tradTravia.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradTravia.ap = 110;
+    tradTravia.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradTravia);
+
+    SpecialAbility tradBoron = new SpecialAbility();
+    tradBoron.name = "Tradition (Boronkirche)";
+    tradBoron.key = SpecialAbilityKey.tradition_boronkirche;
+    tradBoron.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradBoron.ap = 130;
+    tradBoron.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradBoron);
+
+    SpecialAbility tradHesinde = new SpecialAbility();
+    tradHesinde.name = "Tradition (Hesindekirche)";
+    tradHesinde.key = SpecialAbilityKey.tradition_hesindekirche;
+    tradHesinde.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradHesinde.ap = 130;
+    tradHesinde.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradHesinde);
+
+    SpecialAbility tradFirun = new SpecialAbility();
+    tradFirun.name = "Tradition (Firunkirche)";
+    tradFirun.key = SpecialAbilityKey.tradition_firunkirche;
+    tradFirun.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradFirun.ap = 140;
+    tradFirun.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradFirun);
+
+    SpecialAbility tradTsa = new SpecialAbility();
+    tradTsa.name = "Tradition (Tsakirche)";
+    tradTsa.key = SpecialAbilityKey.tradition_tsakirche;
+    tradTsa.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradTsa.ap = 140;
+    tradTsa.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradTsa);
+
+    SpecialAbility tradPhex = new SpecialAbility();
+    tradPhex.name = "Tradition (Phexkirche)";
+    tradPhex.key = SpecialAbilityKey.tradition_phexkirche;
+    tradPhex.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradPhex.ap = 150;
+    tradPhex.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradPhex);
+
+    SpecialAbility tradPeraine = new SpecialAbility();
+    tradPeraine.name = "Tradition (Perainekirche)";
+    tradPeraine.key = SpecialAbilityKey.tradition_perainekirche;
+    tradPeraine.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradPeraine.ap = 110;
+    tradPeraine.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradPeraine);
+
+    SpecialAbility tradIngerimm = new SpecialAbility();
+    tradIngerimm.name = "Tradition (Ingerimmkirche)";
+    tradIngerimm.key = SpecialAbilityKey.tradition_ingerimmkirche;
+    tradIngerimm.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradIngerimm.ap = 125;
+    tradIngerimm.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradIngerimm);
+
+    SpecialAbility tradRahja = new SpecialAbility();
+    tradRahja.name = "Tradition (Rahjakirche)";
+    tradRahja.key = SpecialAbilityKey.tradition_rahjakirche;
+    tradRahja.category = SpecialAbilityCategoryKey.tradition_alveran_major;
+    tradRahja.ap = 125;
+    tradRahja.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradRahja);
+
+    SpecialAbility tradAves = new SpecialAbility();
+    tradAves.name = "Tradition (Aveskirche)";
+    tradAves.key = SpecialAbilityKey.tradition_aveskirche;
+    tradAves.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradAves.ap = 110;
+    tradAves.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradAves);
+
+    SpecialAbility tradIfirn = new SpecialAbility();
+    tradIfirn.name = "Tradition (Ifirnkirche)";
+    tradIfirn.key = SpecialAbilityKey.tradition_ifirnkirche;
+    tradIfirn.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradIfirn.ap = 105;
+    tradIfirn.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradIfirn);
+
+    SpecialAbility tradKor = new SpecialAbility();
+    tradKor.name = "Tradition (Korkirche)";
+    tradKor.key = SpecialAbilityKey.tradition_korkirche;
+    tradKor.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradKor.ap = 130;
+    tradKor.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradKor);
+
+    SpecialAbility tradNandus = new SpecialAbility();
+    tradNandus.name = "Tradition (Nanduskirche)";
+    tradNandus.key = SpecialAbilityKey.tradition_nanduskirche;
+    tradNandus.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradNandus.ap = 130;
+    tradNandus.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradNandus);
+
+    SpecialAbility tradSwafnir = new SpecialAbility();
+    tradSwafnir.name = "Tradition (Swafnirkirche)";
+    tradSwafnir.key = SpecialAbilityKey.tradition_swafnirkirche;
+    tradSwafnir.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradSwafnir.ap = 115;
+    tradSwafnir.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradSwafnir);
+
+    SpecialAbility Levthan = new SpecialAbility();
+    Levthan.name = "Tradition (Levthankult)";
+    Levthan.key = SpecialAbilityKey.tradition_levthankult;
+    Levthan.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    Levthan.ap = 125;
+    Levthan.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(Levthan);
+
+    SpecialAbility tradMarbo = new SpecialAbility();
+    tradMarbo.name = "Tradition (Marbokult)";
+    tradMarbo.key = SpecialAbilityKey.tradition_marbokult;
+    tradMarbo.category = SpecialAbilityCategoryKey.tradition_alveran_minor;
+    tradMarbo.ap = 120;
+    tradMarbo.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradMarbo);
+
+    SpecialAbility tradNuminorukult = new SpecialAbility();
+    tradNuminorukult.name = "Tradition (Numinorukult)";
+    tradNuminorukult.key = SpecialAbilityKey.tradition_numinorukult;
+    tradNuminorukult.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradNuminorukult.ap = 125;
+    tradNuminorukult.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradNuminorukult);
+
+    SpecialAbility tradShinxir = new SpecialAbility();
+    tradShinxir.name = "Tradition (Shinxirkult)";
+    tradShinxir.key = SpecialAbilityKey.tradition_shinxirkult;
+    tradShinxir.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradShinxir.ap = 165;
+    tradShinxir.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradShinxir);
+
+    SpecialAbility tradAngrosch = new SpecialAbility();
+    tradAngrosch.name = "Tradition (Angroschkirche)";
+    tradAngrosch.key = SpecialAbilityKey.tradition_angroschkirche;
+    tradAngrosch.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradAngrosch.ap = 125;
+    tradAngrosch.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradAngrosch);
+
+    SpecialAbility tradZsahh = new SpecialAbility();
+    tradZsahh.name = "Tradition (Zsahh Kult)";
+    tradZsahh.key = SpecialAbilityKey.tradition_zsahh_kult;
+    tradZsahh.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradZsahh.ap = 140;
+    tradZsahh.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradZsahh);
+
+    SpecialAbility tradHSzint = new SpecialAbility();
+    tradHSzint.name = "Tradition (H'Szint Kult)";
+    tradHSzint.key = SpecialAbilityKey.tradition_h_szint_kult;
+    tradHSzint.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradHSzint.ap = 130;
+    tradHSzint.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradHSzint);
+
+    SpecialAbility tradChrSsirSsr = new SpecialAbility();
+    tradChrSsirSsr.name = "Tradition (Chr'Ssir'Ssr-Kult)";
+    tradChrSsirSsr.key = SpecialAbilityKey.tradition_chr_ssir_ssr_kult;
+    tradChrSsirSsr.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradChrSsirSsr.ap = 130;
+    tradChrSsirSsr.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradChrSsirSsr);
+
+    SpecialAbility tradTairach = new SpecialAbility();
+    tradTairach.name = "Tradition (Tairachkult)";
+    tradTairach.key = SpecialAbilityKey.tradition_tairachkult;
+    tradTairach.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradTairach.ap = 135;
+    tradTairach.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradTairach);
+
+    SpecialAbility tradGravesh = new SpecialAbility();
+    tradGravesh.name = "Tradition (Graveshkult)";
+    tradGravesh.key = SpecialAbilityKey.tradition_graveshkult;
+    tradGravesh.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradGravesh.ap = 120;
+    tradGravesh.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradGravesh);
+
+    SpecialAbility tradNamenlos = new SpecialAbility();
+    tradNamenlos.name = "Tradition (Namenloser Kult)";
+    tradNamenlos.key = SpecialAbilityKey.tradition_namenloser_kult;
+    tradNamenlos.category = SpecialAbilityCategoryKey.tradition_non_alveran;
+    tradNamenlos.ap = 150;
+    tradNamenlos.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradNamenlos);
+
+    SpecialAbility tradFerkina = new SpecialAbility();
+    tradFerkina.name = "Tradition (Ferkinaschamane)";
+    tradFerkina.key = SpecialAbilityKey.tradition_ferkinaschamanen;
+    tradFerkina.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradFerkina.ap = 100;
+    tradFerkina.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradFerkina.requireOneOfCultures = List.of(CultureKey.ferkinas);
+    returnValue.add(tradFerkina);
+
+    SpecialAbility tradFjarninger = new SpecialAbility();
+    tradFjarninger.name = "Tradition (Fjarningerschamane)";
+    tradFjarninger.key = SpecialAbilityKey.tradition_fjarningerschamanen;
+    tradFjarninger.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradFjarninger.ap = 100;
+    tradFjarninger.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradFjarninger.requireOneOfCultures = List.of(CultureKey.fjarninger);
+    returnValue.add(tradFjarninger);
+
+    SpecialAbility tradGjalsker = new SpecialAbility();
+    tradGjalsker.name = "Tradition (Gjalskerschamane)";
+    tradGjalsker.key = SpecialAbilityKey.tradition_gjalskerschamanen;
+    tradGjalsker.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradGjalsker.ap = 100;
+    tradGjalsker.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradGjalsker.requireOneOfCultures = List.of(CultureKey.gjalsker);
+    returnValue.add(tradGjalsker);
+
+    SpecialAbility tradNivesen = new SpecialAbility();
+    tradNivesen.name = "Tradition (Nivesenschamane)";
+    tradNivesen.key = SpecialAbilityKey.tradition_nivesenschamanen;
+    tradNivesen.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradNivesen.ap = 100;
+    tradNivesen.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradNivesen.requireOneOfCultures = List.of(CultureKey.nivesen);
+    returnValue.add(tradNivesen);
+
+    SpecialAbility tradTahaya = new SpecialAbility();
+    tradTahaya.name = "Tradition (Tahayaschamanen)";
+    tradTahaya.key = SpecialAbilityKey.tradition_tahayaschamanen;
+    tradTahaya.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradTahaya.ap = 100;
+    tradTahaya.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradTahaya.requireOneOfCultures = List.of(CultureKey.waldmenschen, CultureKey.utulu);
+    returnValue.add(tradTahaya);
+
+    SpecialAbility tradTrollzacker = new SpecialAbility();
+    tradTrollzacker.name = "Tradition (Trollzackerschamanen)";
+    tradTrollzacker.key = SpecialAbilityKey.tradition_trollzackerschamanen;
+    tradTrollzacker.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradTrollzacker.ap = 100;
+    tradTrollzacker.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    tradTrollzacker.requireOneOfCultures = List.of(CultureKey.trollzacker);
+    returnValue.add(tradTrollzacker);
+
+    SpecialAbility tradAchazschamanen = new SpecialAbility();
+    tradAchazschamanen.name = "Tradition (Achazschamanen)";
+    tradAchazschamanen.key = SpecialAbilityKey.tradition_achazschamanen;
+    tradAchazschamanen.category = SpecialAbilityCategoryKey.tradition_shaman;
+    tradAchazschamanen.ap = 135;
+    tradAchazschamanen.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.geweihter, Boolean.TRUE));
+    returnValue.add(tradAchazschamanen);
+
+
+    return returnValue;
+  }
+
+  private static List<SpecialAbility> generateMagicTraditions() {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    SpecialAbility tradAnimisten = new SpecialAbility();
+    tradAnimisten.name = "Tradition (Animisten)";
+    tradAnimisten.key = SpecialAbilityKey.tradition_animisten;
+    tradAnimisten.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradAnimisten.ap = 125;
+    tradAnimisten.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradAnimisten.requireOneOfCultures = List.of(CultureKey.ferkinas, CultureKey.fjarninger, CultureKey.gjalsker, CultureKey.nivesen, CultureKey.stammesorks, CultureKey.svellttal, CultureKey.waldmenschen, CultureKey.utulu, CultureKey.trollzacker);
+    returnValue.add(tradAnimisten);
+
+    SpecialAbility tradBannzeichner = new SpecialAbility();
+    tradBannzeichner.name = "Tradition (Bannzeichner)";
+    tradBannzeichner.key = SpecialAbilityKey.tradition_ysilische_bannzeichner;
+    tradBannzeichner.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradBannzeichner.ap = 40;
+    tradBannzeichner.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradBannzeichner);
+
+    SpecialAbility tradBorbaradianer = new SpecialAbility();
+    tradBorbaradianer.name = "Tradition (Borbaradianer)";
+    tradBorbaradianer.key = SpecialAbilityKey.tradition_borbaradianer;
+    tradBorbaradianer.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradBorbaradianer.ap = 70;
+    returnValue.add(tradBorbaradianer);
+
+    SpecialAbility tradDarna = new SpecialAbility();
+    tradDarna.name = "Tradition (Darna)";
+    tradDarna.key = SpecialAbilityKey.tradition_darna;
+    tradDarna.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradDarna.ap = 110;
+    tradDarna.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradDarna.requireOneOfCultures = List.of(CultureKey.waldmenschen, CultureKey.utulu);
+    returnValue.add(tradDarna);
+
+    SpecialAbility tradDruiden = new SpecialAbility();
+    tradDruiden.name = "Tradition (Druiden)";
+    tradDruiden.key = SpecialAbilityKey.tradition_druiden;
+    tradDruiden.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradDruiden.ap = 125;
+    tradDruiden.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradDruiden.requireNoneOfBoons = List.of(new RequirementBoon(BoonKey.eisenaffine_aura, Boolean.FALSE));
+    returnValue.add(tradDruiden);
+
+    SpecialAbility tradElfen = new SpecialAbility();
+    tradElfen.name = "Tradition (Elfen)";
+    tradElfen.key = SpecialAbilityKey.tradition_elfen;
+    tradElfen.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradElfen.ap = 125;
+    tradElfen.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradElfen);
+
+    SpecialAbility tradGeoden = new SpecialAbility();
+    tradGeoden.name = "Tradition (Geoden)";
+    tradGeoden.key = SpecialAbilityKey.tradition_geoden;
+    tradGeoden.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradGeoden.ap = 130;
+    tradGeoden.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradGeoden.requireNoneOfBoons = List.of(new RequirementBoon(BoonKey.eisenaffine_aura, Boolean.FALSE));
+    tradGeoden.requiredSpecie = SpecieKey.zwerg;
+    returnValue.add(tradGeoden);
+
+    SpecialAbility tradBrobimGeoden = new SpecialAbility();
+    tradBrobimGeoden.name = "Tradition (Brobim-Geoden)";
+    tradBrobimGeoden.key = SpecialAbilityKey.tradition_brobim_geoden;
+    tradBrobimGeoden.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradBrobimGeoden.ap = 125;
+    tradBrobimGeoden.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradBrobimGeoden.requireNoneOfBoons = List.of(new RequirementBoon(BoonKey.eisenaffine_aura, Boolean.FALSE));
+    tradBrobimGeoden.requireOneOfCultures = List.of(CultureKey.wildzwerge);
+    tradBrobimGeoden.requiredSpecie = SpecieKey.zwerg;
+    returnValue.add(tradBrobimGeoden);
+
+    SpecialAbility tradGildenmagier = new SpecialAbility();
+    tradGildenmagier.name = "Tradition (Gildenmagier)";
+    tradGildenmagier.key = SpecialAbilityKey.tradition_gildenmagier;
+    tradGildenmagier.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradGildenmagier.ap = 155;
+    tradGildenmagier.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradGildenmagier);
+
+    SpecialAbility tradQabalyamagier = new SpecialAbility();
+    tradQabalyamagier.name = "Tradition (Qabalyamagier)";
+    tradQabalyamagier.key = SpecialAbilityKey.tradition_qabalyamagier;
+    tradQabalyamagier.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradQabalyamagier.ap = 165;
+    tradQabalyamagier.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradQabalyamagier);
+
+    SpecialAbility tradGoblinzauber = new SpecialAbility();
+    tradGoblinzauber.name = "Tradition (Goblinzauber)";
+    tradGoblinzauber.key = SpecialAbilityKey.tradition_goblinzauberinnen;
+    tradGoblinzauber.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradGoblinzauber.ap = 100;
+    tradGoblinzauber.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradGoblinzauber.requireOneOfCultures = List.of(CultureKey.stammesgoblins);
+    returnValue.add(tradGoblinzauber);
+
+    SpecialAbility tradHexen = new SpecialAbility();
+    tradHexen.name = "Tradition (Hexen)";
+    tradHexen.key = SpecialAbilityKey.tradition_hexen;
+    tradHexen.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradHexen.ap = 135;
+    tradHexen.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradHexen);
+
+    SpecialAbility tradKristallomanten = new SpecialAbility();
+    tradKristallomanten.name = "Tradition (Kristallomanten)";
+    tradKristallomanten.key = SpecialAbilityKey.tradition_kristallomanten;
+    tradKristallomanten.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradKristallomanten.ap = 115;
+    tradKristallomanten.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradKristallomanten.requiredSpecie = SpecieKey.achaz;
+    returnValue.add(tradKristallomanten);
+
+    SpecialAbility tradIntuitiverZauberer = new SpecialAbility();
+    tradIntuitiverZauberer.name = "Tradition (Intuitive Zauberer)";
+    tradIntuitiverZauberer.key = SpecialAbilityKey.tradition_intuitive_zauberer;
+    tradIntuitiverZauberer.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradIntuitiverZauberer.ap = 50;
+    tradIntuitiverZauberer.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradIntuitiverZauberer);
+
+    SpecialAbility tradMeistertalentierte = new SpecialAbility();
+    tradMeistertalentierte.name = "Tradition (Meisterhandwerker)";
+    tradMeistertalentierte.key = SpecialAbilityKey.tradition_meistertalentierte;
+    tradMeistertalentierte.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradMeistertalentierte.ap = 35;
+    tradMeistertalentierte.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradMeistertalentierte);
+
+    SpecialAbility tradRunenschöpfer = new SpecialAbility();
+    tradRunenschöpfer.name = "Tradition (Runenschöpfer)";
+    tradRunenschöpfer.key = SpecialAbilityKey.tradition_runenschöpfer;
+    tradRunenschöpfer.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradRunenschöpfer.ap = 75;
+    tradRunenschöpfer.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradRunenschöpfer);
+
+    SpecialAbility tradScharlatane = new SpecialAbility();
+    tradScharlatane.name = "Tradition (Scharlatane)";
+    tradScharlatane.key = SpecialAbilityKey.tradition_animisten;
+    tradScharlatane.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradScharlatane.ap = 125;
+    tradScharlatane.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradScharlatane);
+
+    SpecialAbility tradSchelme = new SpecialAbility();
+    tradSchelme.name = "Tradition (Schelme)";
+    tradSchelme.key = SpecialAbilityKey.tradition_schelme;
+    tradSchelme.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradSchelme.ap = 125;
+    tradSchelme.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradSchelme.requireOneOfCultures = List.of(CultureKey.koboldweltler);
+    returnValue.add(tradSchelme);
+
+    SpecialAbility tradZauberalchimisten = new SpecialAbility();
+    tradZauberalchimisten.name = "Tradition (Zauberalchimisten)";
+    tradZauberalchimisten.key = SpecialAbilityKey.tradition_zauberalchimisten;
+    tradZauberalchimisten.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradZauberalchimisten.ap = 45;
+    tradZauberalchimisten.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    returnValue.add(tradZauberalchimisten);
+
+    SpecialAbility tradZauberbarden = new SpecialAbility();
+    tradZauberbarden.name = "Tradition (Zauberbarden)";
+    tradZauberbarden.key = SpecialAbilityKey.tradition_zauberbarden;
+    tradZauberbarden.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradZauberbarden.ap = 80;
+    tradZauberbarden.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradSchelme.requireOneOfCultures = List.of(CultureKey.mittelreich, CultureKey.novadi, CultureKey.thorwal, CultureKey.zyklopeninseln);
+    returnValue.add(tradZauberbarden);
+
+    SpecialAbility tradZaubertänzer = new SpecialAbility();
+    tradZaubertänzer.name = "Tradition (Zaubertänzer)";
+    tradZaubertänzer.key = SpecialAbilityKey.tradition_zaubertänzer;
+    tradZaubertänzer.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradZaubertänzer.ap = 75;
+    tradZaubertänzer.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradSchelme.requireOneOfCultures = List.of(CultureKey.zahori, CultureKey.aranien, CultureKey.novadi, CultureKey.mhanadistan);
+    returnValue.add(tradZaubertänzer);
+
+    SpecialAbility tradZibilja = new SpecialAbility();
+    tradZibilja.name = "Tradition (Zibilja)";
+    tradZibilja.key = SpecialAbilityKey.tradition_zibilja;
+    tradZibilja.category = SpecialAbilityCategoryKey.tradition_magic;
+    tradZibilja.ap = 100;
+    tradZibilja.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));
+    tradSchelme.requireOneOfCultures = List.of(CultureKey.norbarden);
+    returnValue.add(tradZibilja);
+
+    return returnValue;
+  }
+
 }
 
 /**

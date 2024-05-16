@@ -27,6 +27,8 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
   private static final String KEY_MERITS_INAPPROPRIATE = "Ungeeignete Vorteile";
   private static final String KEY_FLAWS_INAPPROPRIATE = "Ungeeignete Nachteile";
   private static final String KEY_VARIANTS = "Varianten";
+  private static final String KEY_VARIANTS_II = "Varianten:";
+  private static final String KEY_VARIANT = "Variante";
   private static final String KEY_EQUIP = "Ausrüstung und Tracht";
   protected static final String[] KEYS = {
       KEY_AP_VALUE,
@@ -43,6 +45,8 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
       KEY_MERITS_INAPPROPRIATE,
       KEY_FLAWS_INAPPROPRIATE,
       KEY_VARIANTS,
+      KEY_VARIANTS_II,
+      KEY_VARIANT,
       KEY_EQUIP
   };
   private ConverterAtomicFlagsProfession flags;
@@ -184,7 +188,7 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
     this.getFlags().wasFlawsRecommended.set(key.trim().equals(KEY_FLAWS_RECOMMENDED) || key.trim().equals(KEY_FLAWS_RECOMMENDED_II));
     this.getFlags().wasMeritsInappropriate.set(key.trim().equals(KEY_MERITS_INAPPROPRIATE));
     this.getFlags().wasFlawsInappropriate.set(key.trim().equals(KEY_FLAWS_INAPPROPRIATE));
-    this.getFlags().wasVariants.set(key.trim().equals(KEY_VARIANTS));
+    this.getFlags().wasVariants.set(key.trim().equals(KEY_VARIANTS) || key.trim().equals(KEY_VARIANTS_II) || key.trim().equals(KEY_VARIANT));
     this.getFlags().wasEquip.set(key.trim().equals(KEY_EQUIP));
   }
 

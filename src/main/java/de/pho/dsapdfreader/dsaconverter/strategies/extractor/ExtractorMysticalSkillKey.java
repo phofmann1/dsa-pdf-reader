@@ -146,13 +146,13 @@ public class ExtractorMysticalSkillKey extends Extractor {
       if (possibleResults.size() == 1)
         returnValue = possibleResults.get(0);
       else if (possibleResults.size() > 1) {
-        System.out.println("TOOO many results for MysticalSkillName (" + name + ")");
-        possibleResults.forEach(r -> System.out.println(r.name()));
+        LOGGER.error("TOOO many results for MysticalSkillName (" + name + ")");
+        possibleResults.forEach(r -> LOGGER.debug(r.name()));
       }
     }
     catch (IllegalArgumentException e) {
       returnValue = null;
-      //LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
+      //LOGGER.error("Invalid MysticalSkillKey: " + enumEnd);
     }
     return returnValue;
   }

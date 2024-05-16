@@ -9,11 +9,16 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import de.pho.dsapdfreader.dsaconverter.model.CurriculumRaw;
 import de.pho.dsapdfreader.dsaconverter.model.ProfessionRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoonKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
@@ -35,6 +40,7 @@ import de.pho.dsapdfreader.exporter.model.enums.AttributeShort;
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
+import de.pho.dsapdfreader.exporter.model.enums.ElementKey;
 import de.pho.dsapdfreader.exporter.model.enums.GenderKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
@@ -45,14 +51,100 @@ import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
 import de.pho.dsapdfreader.exporter.model.enums.TerrainTypeKey;
+import de.pho.dsapdfreader.exporter.model.enums.TraditionGuidelineKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
 import de.pho.dsapdfreader.tools.roman.RomanNumberHelper;
 
 
 public class LoadToProfession {
-
-  public static List<MysticalSkillKey> MAGE_STANDARD_SPELLS_LIST = List.of(
+  protected static final Logger LOGGER = LogManager.getLogger();
+  private static final List<MysticalSkillKey> KEYS_BORBARAD_SPELLS = List.of(
+      MysticalSkillKey.spell_eigene_aengste,
+      MysticalSkillKey.spell_erinnerung_verlasse_dich,
+      MysticalSkillKey.ritual_hartes_schmelze,
+      MysticalSkillKey.spell_hoellenpein,
+      MysticalSkillKey.spell_incendio,
+      MysticalSkillKey.spell_schwarzer_schrecken,
+      MysticalSkillKey.ritual_weiches_erstarre,
+      MysticalSkillKey.spell_daemonisches_vergessen,
+      MysticalSkillKey.spell_ecliptifactus,
+      MysticalSkillKey.spell_granit_und_marmor,
+      MysticalSkillKey.spell_heilungsbann,
+      MysticalSkillKey.spell_herzschlag_ruhe,
+      MysticalSkillKey.spell_horriphobus,
+      MysticalSkillKey.ritual_invocatio_maior,
+      MysticalSkillKey.ritual_invocatio_maxima,
+      MysticalSkillKey.spell_invocatio_minima,
+      MysticalSkillKey.ritual_invocatio_minor,
+      MysticalSkillKey.spell_last_des_alters,
+      MysticalSkillKey.spell_pandaemonium,
+      MysticalSkillKey.spell_panik_ueberkomme_euch,
+      MysticalSkillKey.spell_pestodem,
+      MysticalSkillKey.spell_protectionis,
+      MysticalSkillKey.spell_schwarz_und_rot,
+      MysticalSkillKey.ritual_stein_wandle,
+      MysticalSkillKey.ritual_totes_handle
+  );
+  private static final List<MysticalSkillKey> KEYS_DEAMONIC_SPELLS = List.of(
+      MysticalSkillKey.spell_affenruf,
+      MysticalSkillKey.spell_angst_ausloesen,
+      MysticalSkillKey.spell_daemonisches_vergessen,
+      MysticalSkillKey.spell_ecliptifactus,
+      MysticalSkillKey.spell_eulenruf,
+      MysticalSkillKey.spell_fledermausruf,
+      MysticalSkillKey.spell_granit_und_marmor,
+      MysticalSkillKey.spell_herzschlag_ruhe,
+      MysticalSkillKey.spell_hornissenruf,
+      MysticalSkillKey.spell_katzenruf,
+      MysticalSkillKey.spell_krabbelnder_schrecken,
+      MysticalSkillKey.spell_kraehenruf,
+      MysticalSkillKey.spell_kroetenruf,
+      MysticalSkillKey.spell_last_des_alters,
+      MysticalSkillKey.spell_pandaemonium,
+      MysticalSkillKey.spell_papageienruf,
+      MysticalSkillKey.spell_pestodem,
+      MysticalSkillKey.spell_schlangenruf,
+      MysticalSkillKey.spell_skelettarius,
+      MysticalSkillKey.spell_spinnenruf,
+      MysticalSkillKey.ritual_chimaeroform,
+      MysticalSkillKey.ritual_seelenwanderung,
+      MysticalSkillKey.ritual_stein_wandle,
+      MysticalSkillKey.ritual_totes_handle
+  );
+  private static final List<MysticalSkillKey> KEYS_DEAMONIC_SUMMONING = List.of(
+      MysticalSkillKey.ritual_invocatio_maior,
+      MysticalSkillKey.ritual_invocatio_maxima,
+      MysticalSkillKey.spell_invocatio_minima,
+      MysticalSkillKey.ritual_invocatio_minor
+  );
+  private static final List<MysticalSkillKey> KEYS_DAMAGE_SPELLS_OF_CURRICULUM = List.of(
+      MysticalSkillKey.spell_aeolito,
+      MysticalSkillKey.spell_fulminictus,
+      MysticalSkillKey.spell_ignifaxius
+  );
+  private static final List<MysticalSkillKey> KEYS_ILLUSION_OF_CURRICULUM = List.of(
+      MysticalSkillKey.spell_auris_illusionis,
+      MysticalSkillKey.spell_duplicatus,
+      MysticalSkillKey.spell_menetekel,
+      MysticalSkillKey.spell_oculus_illusionis
+  );
+  private static final List<MysticalSkillKey> KEYS_INFLUENCE_OF_CURRICULUM = List.of(
+      MysticalSkillKey.spell_bannbaladin,
+      MysticalSkillKey.spell_blitz_dich_find,
+      MysticalSkillKey.spell_horriphobus,
+      MysticalSkillKey.spell_plumbumbarum,
+      MysticalSkillKey.spell_respondami,
+      MysticalSkillKey.spell_somnigravis
+  );
+  private static final List<MysticalSkillKey> KEYS_PLANES_OF_CURRICULUM = List.of(
+      MysticalSkillKey.ritual_elementarer_diener,
+      MysticalSkillKey.spell_invocatio_minima,
+      MysticalSkillKey.ritual_invocatio_minor,
+      MysticalSkillKey.spell_manifesto,
+      MysticalSkillKey.spell_transversalis
+  );
+  public static List<MysticalSkillKey> CURRICULUM_GILDENMAGIER_BASIS = List.of(
       MysticalSkillKey.spell_aeolito,
       MysticalSkillKey.spell_analys_arkanstruktur,
       MysticalSkillKey.spell_armatrutz,
@@ -103,7 +195,8 @@ public class LoadToProfession {
   private LoadToProfession() {
   }
 
-  public static Stream<Profession> migrate(ProfessionRaw raw) {
+  public static Stream<Profession> migrate(ProfessionRaw raw, Optional<CurriculumRaw> curriculumRaw) {
+
     List<Profession> returnValue = new ArrayList<>();
     boolean isMagical = raw.professionType == ProfessionTypeKey.magical;
     Profession profession = new Profession();
@@ -167,9 +260,13 @@ public class LoadToProfession {
     profession.boonsUnrecomended = extractBoonsRecommended(raw.meritsInappropriate + ", " + raw.flawsInappropriate, profession.name);
     /*
     public TraditionGuidelineKey traditionGuidLineKey;
-    public List<ElementKey> elementsAttuned;
-    public List<ElementKey> elementsAttunedSelectOne;
     */
+    applyElementalAttunements(profession);
+
+    if (curriculumRaw.isPresent()) {
+      profession.traditionGuidLineKey = TraditionGuidelineKey.valueOf(curriculumRaw.get().guideline.toLowerCase());
+      applyCurriculum(profession, curriculumRaw.get());
+    }
 
     //VARIANTS
     returnValue.add(profession);
@@ -177,7 +274,250 @@ public class LoadToProfession {
       List<Profession> variants = generateVariants(raw.variants.replaceAll("\\*\\).*$", ""), profession, isMagical);
       returnValue.addAll(variants);
     }
+
+    if (curriculumRaw.isPresent()) {
+      returnValue.addAll(generatePaths(returnValue, curriculumRaw.get()));
+    }
     return returnValue.stream();
+  }
+
+  private static List<Profession> generatePaths(List<Profession> returnValue, CurriculumRaw curriculumRaw) {
+    return returnValue.stream().flatMap(profession -> {
+      List<Profession> paths = new ArrayList<>();
+      try {
+        Profession variant = deepCopy(profession);
+        variant.name = curriculumRaw.pathName_I.replaceAll("\\(.*\\)", "").trim();
+        variant.key = ExtractorProfessionKey.retrieve(profession.name + "__" + variant.name);
+        variant.apValue = Integer.valueOf(curriculumRaw.pathName_I.replaceAll(".*?\\(", "").replace("AP)", "").trim());
+        variant.professionType = ProfessionTypeKey.curriculum;
+        String pathIChanges = curriculumRaw.spellChanges_I + ", " + curriculumRaw.additionalSkills_I + ", " + curriculumRaw.removedSkills_I;
+        applySkillMatcher2Variant(pathIChanges, variant);
+        paths.add(variant);
+
+        Profession variant2 = deepCopy(profession);
+        variant2.name = curriculumRaw.pathName_II.replaceAll("\\(.*\\)", "").trim();
+        variant2.key = ExtractorProfessionKey.retrieve(profession.name + " " + variant2.name);
+        variant2.apValue = Integer.valueOf(curriculumRaw.pathName_II.replaceAll(".*?\\(", "").replace("AP)", "").trim());
+        variant2.professionType = ProfessionTypeKey.curriculum;
+        String pathIIChanges = curriculumRaw.spellChanges_II + ", " + curriculumRaw.additionalSkills_II + ", " + curriculumRaw.removedSkills_II;
+        applySkillMatcher2Variant(pathIIChanges, variant2);
+        paths.add(variant2);
+
+      }
+      catch (IOException | ClassNotFoundException e) {
+
+      }
+      return paths.stream();
+    }).collect(Collectors.toList());
+  }
+
+  private static void applySkillMatcher2Variant(String changeString, Profession variant) {
+    Matcher skillChangeMatcher = Pattern.compile("[A-ü\\d \\-&\\(\\)\\*]*\\d+( statt .*?)?(?=,|<br>|$)").matcher(changeString);
+    while (skillChangeMatcher.find()) {
+      String skillChangeString = skillChangeMatcher.group();
+      String skillName = skillChangeString.replaceAll("\\d+.*", "")
+          .replace("Lebensmittelverarbeitung", "Lebensmittelbearbeitung")
+          .replace("Armbürste", "Armbrüste")
+          .replaceAll("bei der Auswahl nur Schwerter.*(?=,|$)", "")
+          .replaceAll("keine weitere Kampftechnik.*(?=,|$)", "")
+          .trim();
+      Matcher replacedSkillMatcher = Pattern.compile("(?<=\\d statt )[A-ü ()]+").matcher(skillChangeString);
+      String skillReplacedName = replacedSkillMatcher.find() ? replacedSkillMatcher.group() : null;
+      if (!skillName.isEmpty()) {
+        boolean isSkillKey = ExtractorSkillKey.isSkillKey(skillName);
+        boolean isCombatSkillKey = ExtractorCombatSkillKeys.isCombatSkillKey(skillName);
+        boolean isMysticalSkillKey = ExtractorMysticalSkillKey.isMysticalSkillKey(skillName, true);
+
+        Matcher vm = Pattern.compile("\\d+").matcher(skillChangeString);
+        final int firstValue = (vm.find())
+            ? Integer.valueOf(vm.group())
+            : 0;
+
+        if (isSkillKey) {
+          variant.skillChanges = variant.skillChanges.stream().map(sc -> {
+                if (skillReplacedName == null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
+                  sc.change = firstValue;
+                }
+                else if (skillReplacedName != null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
+                  sc.change = firstValue;
+                  sc.skillKey = ExtractorSkillKey.retrieveSkillKey(skillName.trim());
+                }
+                return sc;
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              .collect(Collectors.toList());
+        }
+
+        if (isCombatSkillKey) {
+          variant.combatSkillChanges = variant.combatSkillChanges.stream().map(sc -> {
+                if (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillName) && sc.type == ValueChangeType.value) {
+                  sc.change = firstValue;
+                }
+                else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
+                  sc.change = firstValue;
+                  sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
+                  System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
+                }
+                return sc;
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              .collect(Collectors.toList());
+        }
+
+
+        if (isMysticalSkillKey) {
+          variant.mysticalSkillChanges = variant.mysticalSkillChanges.stream().map(sc -> {
+                if (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true) && sc.type == ValueChangeType.value) {
+                  sc.change = firstValue;
+                }
+                else if (skillReplacedName != null && (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), true) && sc.type == ValueChangeType.value)) {
+                  sc.change = firstValue;
+                  sc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), true));
+
+                  if (skillName.contains("(")) {
+                    String tradition = skillName.replaceAll("(Attributo.*)|Aufnahme.*|[^()\\r\\n]+(?![^()]*\\))", "").replace("(", "").replace(")", "").trim();
+                    if (!tradition.isEmpty()) {
+                      sc.traditionKey = ExtractorTradtion.extractTraditionKeyFromText(tradition);
+                    }
+                  }
+
+                }
+                return sc;
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              .collect(Collectors.toList());
+        }
+
+        if (isMysticalSkillKey && skillReplacedName == null) {
+          ValueChange msc = new ValueChange();
+          msc.key = ValueChangeKey.skill;
+          msc.type = ValueChangeType.value;
+          msc.change = firstValue;
+          msc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true));
+          variant.mysticalSkillChanges.add(msc);
+        }
+      }
+    }
+  }
+
+  private static void applyCurriculum(Profession profession, CurriculumRaw curriculumRaw) {
+    List<MysticalSkillKey> curriculum = CURRICULUM_GILDENMAGIER_BASIS.stream().collect(Collectors.toList());
+    String spellSelection = curriculumRaw.spellSelection
+        .replace("alle, nach Meisterentscheid", "")
+        .replace("Manus Illusionius", "Manus Illusionis")
+        .replace("Memorabia", "Memorabia Falsifir")
+        .replaceAll("Eis:.*", "")
+        .replace("Felsform", "Felsenform")
+        .replace("Schleier", "Schleier der Unwissenheit")
+        .replace("+3", "")
+        .replace("keine", "")
+        .replace("allgemein:", "")
+        .replace("<br>", "")
+        .replace("Geistessenz", "Geisteressenz")
+        .replace("Analys", "Analys Arkanstruktur");
+    curriculum.addAll(Arrays.stream(spellSelection.split(","))
+        .filter(msString -> msString != null && !msString.isEmpty() && !msString.isBlank() && !msString.equals("–"))
+        .map(msString -> {
+          MysticalSkillKey r = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msString.trim(), profession.professionType == ProfessionTypeKey.magical);
+          if (r == null) {
+            System.out.println(profession.name + " --> " + msString.trim());
+          }
+          return r;
+        })
+        .collect(Collectors.toList()));
+
+    String spellRestrictionString = curriculumRaw.spellRestriction.trim()
+        .replace("folgende Zauber werden nicht unterrichtet:", "")
+        .replace("zusätzlich nur 1 Zauber des Merkmals Elementar und nur 1 Zauber des Merkmals Illusion", "")
+        .replace("zusätzlich nur 1 Zauber des Merkmals Elementar", "")
+        .replace("zusätzlich nur 1 Zauber des Merkmals Objekt", "")
+        .replace("Einfluss bannen", "Einflussbann")
+        .replace("Delicioso", "Aromatis Illusionis")
+        .replace("<br>", "");
+
+    List<MysticalSkillKey> removedMSKey = new ArrayList<>();
+    //HANDLE SPECIAL RESTRICTIONS
+    String NO_BORBARAD = "keine borbaradianischen Zauber";
+    String NO_BORBARAD_II = "borbaradianischen Zauber";
+    String NO_DEMONIC = "keine Zauber mit dem Merkmal Dämonisch";
+    String NO_DEMONIC_II = "keine Zauber des Merkmals Dämonisch";
+    String NO_DEMONIC_III = "Zauber mit dem Merkmal Dämonisch ";
+    String NO_DEMONIC_SUMMONING = "oder Dämonenbeschwörungen";
+    String NO_DEMONIC_SUMMONING_II = "oder Dämonenbeschwörung";
+    String NO_DAMAGE = "keine Zauber, die TP oder SP bei Kulturschaffenden verursachen";
+    String NO_DEMONIC_INFLUENCE_ILLUSION = "keine Zauber mit den Merkmalen Dämonisch, Einfluss oder Illusion";
+    String NO_DEMONIC_INFLUENCE_PLANES = "keine Zauber mit den Merkmalen Dämonisch, Einfluss (außer Bannbaladin) oder Sphären";
+    String NO_DEMONIC_PLANES = "keine Zauber mit den Merkmalen Dämonisch oder Sphären";
+
+    if (spellRestrictionString.contains(NO_BORBARAD) || spellRestrictionString.contains(NO_BORBARAD_II)) {
+      removedMSKey.addAll(KEYS_BORBARAD_SPELLS);
+      spellRestrictionString = spellRestrictionString.replaceAll(NO_BORBARAD + "|" + NO_BORBARAD_II, "");
+    }
+    if (spellRestrictionString.contains(NO_DEMONIC) || spellRestrictionString.contains(NO_DEMONIC_II) || spellRestrictionString.contains(NO_DEMONIC_III)) {
+      removedMSKey.addAll(KEYS_DEAMONIC_SPELLS);
+      spellRestrictionString = spellRestrictionString.replaceAll(NO_DEMONIC + "|" + NO_DEMONIC_II + "|" + NO_DEMONIC_III, "");
+    }
+    if (spellRestrictionString.contains(NO_DEMONIC_SUMMONING) || spellRestrictionString.contains(NO_DEMONIC_SUMMONING_II)) {
+      removedMSKey.addAll(KEYS_DEAMONIC_SUMMONING);
+      spellRestrictionString = spellRestrictionString.replaceAll(NO_DEMONIC_SUMMONING + "|" + NO_DEMONIC_SUMMONING_II, "");
+    }
+    if (spellRestrictionString.contains(NO_DAMAGE)) {
+      removedMSKey.addAll(KEYS_DAMAGE_SPELLS_OF_CURRICULUM);
+      spellRestrictionString = spellRestrictionString.replace(NO_DAMAGE, "");
+    }
+    if (spellRestrictionString.contains(NO_DEMONIC_INFLUENCE_ILLUSION)) {
+      removedMSKey.addAll(KEYS_DEAMONIC_SPELLS);
+      removedMSKey.addAll(KEYS_INFLUENCE_OF_CURRICULUM);
+      removedMSKey.addAll(KEYS_ILLUSION_OF_CURRICULUM);
+      spellRestrictionString = spellRestrictionString.replace(NO_DEMONIC_INFLUENCE_ILLUSION, "");
+    }
+    if (spellRestrictionString.contains(NO_DEMONIC_INFLUENCE_PLANES)) {
+      removedMSKey.addAll(KEYS_DEAMONIC_SPELLS);
+      removedMSKey.addAll(KEYS_INFLUENCE_OF_CURRICULUM);
+      removedMSKey.addAll(KEYS_PLANES_OF_CURRICULUM);
+      removedMSKey = removedMSKey.stream().filter(rmsk -> rmsk != MysticalSkillKey.spell_bannbaladin).collect(Collectors.toList());
+      spellRestrictionString = spellRestrictionString.replace(NO_DEMONIC_INFLUENCE_PLANES, "");
+    }
+    if (spellRestrictionString.contains(NO_DEMONIC_PLANES)) {
+      removedMSKey.addAll(KEYS_DEAMONIC_SPELLS);
+      removedMSKey.addAll(KEYS_PLANES_OF_CURRICULUM);
+      spellRestrictionString = spellRestrictionString.replace(NO_DEMONIC_PLANES, "");
+    }
+
+    //RESTRICT REST OF SKILLS
+    removedMSKey.addAll(Arrays.stream(spellRestrictionString.split(","))
+        .filter(msString -> msString != null && !msString.isEmpty() && !msString.isBlank() && !msString.equals("–"))
+        .map(msString -> ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msString.trim(), profession.professionType == ProfessionTypeKey.magical))
+        .collect(Collectors.toList()));
+
+    final List<MysticalSkillKey> finalRemoveList = removedMSKey;
+    profession.curriculum = curriculum.stream().filter(cmsk -> !finalRemoveList.contains(cmsk)).collect(Collectors.toList());
+
+  }
+
+  private static void applyElementalAttunements(Profession profession) {
+    if (profession.key == ProfessionKey.gildenloser_magier_nach_agrimeton
+        || profession.key == ProfessionKey.gildenlose_magierin_nach_halib_abu_l_ketab) {
+      profession.elementsAttuned = List.of(ElementKey.FIRE);
+    }
+    else if (profession.key == ProfessionKey.graumagier_des_konzils_der_elemente_zu_drakonia_erzelementarist
+        || profession.key == ProfessionKey.herr_der_erde_luftherr
+        || profession.key == ProfessionKey.konzildruide_fakultät_des_erzes
+        || profession.key == ProfessionKey.graumagierin_der_pentagramm_akademie_zu_rashdul) {
+      profession.elementsAttunedSelectOne = List.of(ElementKey.FIRE, ElementKey.WATER, ElementKey.HUMUS, ElementKey.ICE, ElementKey.AIR, ElementKey.STONE);
+    }
+    else if (profession.key == ProfessionKey.diener_der_erdmutter_gefährte_des_feuers) {
+      profession.elementsAttunedSelectOne = List.of(ElementKey.FIRE, ElementKey.WATER, ElementKey.HUMUS, ElementKey.AIR, ElementKey.STONE);
+    }
+    else if (profession.key == ProfessionKey.brobim_geode_diener_des_feuers) {
+      profession.elementsAttunedSelectOne = List.of(ElementKey.FIRE, ElementKey.AIR, ElementKey.STONE);
+    }
+    else if (profession.key == ProfessionKey.graumagier_der_zauberschule_des_kalifen_zu_mherwed) {
+      profession.elementsAttuned = List.of(ElementKey.STONE, ElementKey.FIRE, ElementKey.AIR);
+    }
+    else if (profession.key == ProfessionKey.gildenloser_magier_der_halle_der_winde_zu_olport) {
+      profession.elementsAttuned = List.of(ElementKey.AIR, ElementKey.WATER, ElementKey.ICE);
+    }
+    else if (profession.key == ProfessionKey.gildenloser_magier_schüler_des_vadif_sal_karim) {
+      profession.elementsAttuned = List.of(ElementKey.AIR, ElementKey.STONE);
+    }
   }
 
   private static List<BoonKey> extractBoonsRecommended(String recommended, String name) {
@@ -218,28 +558,28 @@ public class LoadToProfession {
         .filter(str -> str != null && !str.trim().isEmpty() && !str.trim().equals("–"))
         .map(str -> {
           BoonKey r = ExtractorBoonKey.retrieve(str.trim());
-          if (r == null) System.out.println(str.trim());
+          if (r == null) System.out.println("extractBoonsRecommended(~259): " + str.trim());
           return r;
         }).collect(Collectors.toList());
     if (returnValue.contains(null))
-      System.out.println(name + ": " + cleanedString + "\r\n\t" + returnValue);
+      System.out.println("extractBoonsRecommended(~263): " + name + ": " + cleanedString + "\r\n\t" + returnValue);
     return returnValue.stream().filter(k -> k != null).collect(Collectors.toList());
   }
 
   private static List<Profession> generateVariants(String variants, Profession profession, boolean isMagical) {
     List<Profession> returnValue = new ArrayList<>();
-    Matcher m = Pattern.compile("<i>.*?<\\/i>( und <i>.*?<\\/i>)?.*?(?=<i>|$)").matcher(variants);
+    Matcher m = Pattern.compile("<i>.*?<\\/i>( und <i>.*?<\\/i>)?.*?(?=<i>|$)").matcher(variants
+        .replace("AP <i>):</i>", "AP):") //Korrektur Dajin-Buskur
+    );
     while (m.find()) {
       try {
-        String variantString = m.group();
+        String variantString = m.group().replaceAll("\\bSF\\b(,| )?", "");
         //System.out.println(variantString);
         Matcher varMatcher = Pattern.compile("^<i>.*<\\/i>").matcher(variantString);
         Profession variant = deepCopy(profession);
         if (varMatcher.find()) {
           String nameString = varMatcher.group();
-          variant.name = nameString.replaceAll("<i>", "")
-              .replaceAll("</i>", "")
-              .trim();
+          variant.name = extractVariantName(profession.name, nameString);
           variant.key = ExtractorProfessionKey.retrieve(variant.name);
           if (variant.key != null) {
             variantString = variantString.replace(nameString, "").trim();
@@ -251,7 +591,7 @@ public class LoadToProfession {
           variant.apValue = Integer.parseInt(varMatcher.group());
         }
 
-        variantString = variantString.replaceAll("\\(\\d+ AP\\)\\*?", "").trim();
+        variantString = variantString.replaceAll("(^\\(|^)\\d+ AP\\)\\*?", "").trim();
 
         varMatcher = Pattern.compile("(?<=Sprachen und Schriften für insgesamt )\\d+(?= Abenteuerpunkte(, | statt |<br>|$))").matcher(variantString);
         if (varMatcher.find()) {
@@ -413,7 +753,7 @@ public class LoadToProfession {
                       else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
                         sc.change = firstValue;
                         sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
-                        System.out.println(variant.name + " --> " + skillName + " <4> " + skillReplacedName);
+                        System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
                       }
                       return sc;
                     }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
@@ -544,6 +884,7 @@ public class LoadToProfession {
               .replace("Zauber", "")
               .replace("Liturgien", "")
               .replace("Die Zwölf Segnungen", "")
+              .replace("die 12 Segnungen", "")
               .replace("statt der angegebenen", "")
               .replace("SF( |,)", "")
               .replace(",.", ",")
@@ -554,7 +895,6 @@ public class LoadToProfession {
           while (varMatcher.find()) {
             String abilityString = varMatcher.group();
             List<SpecialAbilityKey> abilityKeys = extractSpecialAbilities(abilityString.replaceAll(" statt .*", "")
-                .replace("SF ", "")
                 .replace("Sonderfertigkeiten", "")
                 .replaceAll("Belastungsgewöhnung$", "Belastungsgewöhnung I")
                 .replaceAll("keine? ", ""));
@@ -582,18 +922,27 @@ public class LoadToProfession {
 
 
           if (true && !variantString.replace(",", "").trim().isEmpty()) {
-            System.out.print(profession.name + " (" + variant.name + ")" + " --> ");
-            System.out.println(variantString);
+            System.out.print("generateVariants(623): " + profession.name + " (" + variant.name + ")" + " --> ");
+            System.out.println("generateVariants(624): " + variantString);
           }
 
         }
         returnValue.add(variant);
       }
       catch (IOException | ClassNotFoundException e) {
-        System.out.println(e);
+        LOGGER.error(e);
       }
     }
     return returnValue;
+  }
+
+  private static String extractVariantName(String name, String variantName) {
+    String clean = variantName.replaceAll("<i>", "")
+        .replaceAll("\\(?</i>", "")
+        .trim();
+    return (!name.contains("(") || clean.contains("("))
+        ? clean
+        : name.replaceAll("(?<=\\().*(?=\\))", clean);
   }
 
   private static int extractNoOfTricks(String msString) {
@@ -894,7 +1243,7 @@ public class LoadToProfession {
     return Arrays.stream(specialAbilityNames.split(",|(?<! Verständigung| Licht| Schwert) und "))
         .filter(saName -> !saName.isEmpty() && !isSpecialAbility(saName.trim()))
         .map(saName -> saName.trim())
-        .map(ExtractorObjectRitual::extractOrKeyFromName)
+        .map(saName -> ExtractorObjectRitual.extractOrKeyFromName(saName))
         .filter(ork -> ork != null)
         .collect(Collectors.toList());
   }
@@ -956,7 +1305,7 @@ public class LoadToProfession {
   public static List<RequirementBoon> extractRequiredBoons(String preconditions) {
     List<RequirementBoon> returnValue = new ArrayList<>();
     Pattern p = Pattern.compile("(?<=Nachteil\\s)(.*?)(?=, Sonderfertigkeit|, Vorteil|, Nachteil|, Spezies|, Geschlecht|$)|(?<=(Vorteil|Ahnenblut)\\s)(.*?)(?=, Sonderfertigkeit|, Nachteil|, Spezies|, Geschlecht|$)");
-    Matcher m = p.matcher(preconditions);
+    Matcher m = p.matcher(preconditions.replace(", Tradition (eine Zwölfgötterkirche) (110-150 AP)", ""));
     while (m.find()) {
       String meritOrFlawString = m.group();
       List<String> boonStrings = List.of(meritOrFlawString.split(",(?![^(]*\\))"));

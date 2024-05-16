@@ -184,7 +184,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
     protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
     {
-        return !this.validateIsDataKey(t, cleanText, conf);
+        return !this.validateIsDataKey(t, cleanText, conf) && t.size <= conf.dataSize;
     }
 
     protected T last(List<T> returnValue)

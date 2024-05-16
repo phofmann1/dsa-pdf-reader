@@ -15,7 +15,8 @@ public class ExtractorBoonKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      String msg = String.format("'%s' key could not be interpreted.", name);
+      e.printStackTrace();
+      String msg = String.format("Boon '%s' key could not be interpreted.", name);
       LOGGER.error(msg);
     }
     return returnValue;

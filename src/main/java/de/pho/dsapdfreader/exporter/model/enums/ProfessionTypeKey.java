@@ -8,7 +8,7 @@ public enum ProfessionTypeKey {
   magical,
   clerical_halbgötter,
   clerical_außeralveranisch,
-  chapter;
+  chapter, curriculum;
 
   @JsonValue
   public int toValue() {

@@ -54,9 +54,9 @@ public class ValueChange implements Serializable {
     return switch (this.type)
         {
           case fp -> this.change != 0
-              && (this.useParentSelection //Lieblingszauber...
-              || this.usageKeys.size() > 0 //Weg des Taschendiebs...
-              || this.mysticalSkillKeys.size() > 0 //Scholar Gareth (Rüstung), Kuslik, Perricum...
+              && ((this.useParentSelection != null && this.useParentSelection) //Lieblingszauber...
+              || (this.usageKeys != null && this.usageKeys.size() > 0) //Weg des Taschendiebs...
+              || (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() > 0) //Scholar Gareth (Rüstung), Kuslik, Perricum...
               || this.featureKey != null //Merkmalskenntnis...
               || mysticalSkillModificationType != null //Scholar Hesindius Lichtblick
               || usageRestrictionKey != null // Kristallkraft
@@ -65,9 +65,9 @@ public class ValueChange implements Serializable {
           case value -> false;
           case max -> false;
           case qs -> this.change != 0
-              && (this.usageKeys.size() > 0
-              || this.useParentSelection
-              || this.mysticalSkillKeys.size() > 0
+              && ((this.usageKeys != null && this.usageKeys.size() > 0)
+              || (this.useParentSelection != null && this.useParentSelection)
+              || (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() > 0)
           );
           case regeneration -> false;
           case difficulty -> false;

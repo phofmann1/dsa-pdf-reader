@@ -194,7 +194,7 @@ public class ExtractorRequirements extends Extractor
           }
           else
           {
-            System.out.println(name + ": " + boonText + "\r\n--> " + preconditions + "\r\n");
+            LOGGER.error("BoonKey is null | " + name + ": " + boonText + "\r\n--> " + preconditions + "\r\n");
           }
         }
       });

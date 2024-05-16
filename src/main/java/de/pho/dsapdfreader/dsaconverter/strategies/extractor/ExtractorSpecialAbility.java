@@ -118,8 +118,7 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
-  private static SpecialAbilityKey extractSpecialAbilityKeyFromText(String name)
-  {
+  private static SpecialAbilityKey extractSpecialAbilityKeyFromText(String name) throws IllegalArgumentException {
     SpecialAbilityKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(name.replace("ß", "xxx"))
         .toLowerCase()
@@ -136,9 +135,12 @@ public class ExtractorSpecialAbility extends Extractor
 
     keyString = keyString.trim();
 
-      if (!keyString.isEmpty())
-      {
-        returnValue = SpecialAbilityKey.valueOf(keyString.toLowerCase());
+      if (!keyString.isEmpty()) {
+        try {
+          returnValue = SpecialAbilityKey.valueOf(keyString.toLowerCase());
+        }
+        catch (IllegalArgumentException e) {
+        }
       }
 
     return returnValue;
@@ -573,9 +575,10 @@ public class ExtractorSpecialAbility extends Extractor
     return returnValue;
   }
 
-  private static String retrieveLeAttributeShort(SpecialAbilityCategoryKey sack)
-  {
-    String nonClericString = (sack == SpecialAbilityCategoryKey.magic || sack == SpecialAbilityCategoryKey.magic_advanced || sack == SpecialAbilityCategoryKey.magic_stile || sack == SpecialAbilityCategoryKey.magic_signs)
+  private static String retrieveLeAttributeShort(SpecialAbilityCategoryKey sack) {
+    String nonClericString = (
+        sack == SpecialAbilityCategoryKey.mixed //Arkane Schmieden, hier sind ausschliesslich magische SFs
+            || sack == SpecialAbilityCategoryKey.magic || sack == SpecialAbilityCategoryKey.magic_advanced || sack == SpecialAbilityCategoryKey.magic_stile || sack == SpecialAbilityCategoryKey.magic_signs)
         ? "LE_MAGIC"
         : "";
     return (sack == SpecialAbilityCategoryKey.cleric || sack == SpecialAbilityCategoryKey.cleric_advanced || sack == SpecialAbilityCategoryKey.cleric_stile || sack == SpecialAbilityCategoryKey.sermon || sack == SpecialAbilityCategoryKey.vision)
@@ -594,6 +597,7 @@ public class ExtractorSpecialAbility extends Extractor
         .replace(" mindestens 2 Schicksalspunkte", "")
         .replace("Sozialer Stand ", "")
         .replace("Zeichen", "Zeichnen")
+        .replace("Heilkunde Gifte", "Heilkunde Gift")
         .replace("ARCANOVI 12", "Zauber ARCANOVI 12");
     Matcher m = PAT_EXTRACT_SKILL_REQ.matcher(requirementsString);
     if (m.find())
@@ -789,11 +793,29 @@ public class ExtractorSpecialAbility extends Extractor
       LOGGER.debug("handled in LoadToSpecialAbility");
       isHandled = true;
     }
-    else if (name.startsWith("Zeremonialgegenstände herstellen"))
-    {
+    else if (name.startsWith("Zeremonialgegenstände herstellen")) {
       rms = new RequirementMysticalSkill();
       rms.key = MysticalSkillKey.ceremony_objektweihe;
       rms.minValue = 0;
+    }
+    else if (preconditions.contains("Herstellungstalent des Objekts")) {
+      rss = updateRequirementsSkill(rss, SkillKey.holzbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.lederbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.malen_und_zeichnen, "10");
+      updateRequirementsSkill(rss, SkillKey.metallbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.steinbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.stoffbearbeitung, "10");
+      rss.logicalOpperator = LogicalOperatorKey.or;
+      isHandled = true;
+    }
+    else if (preconditions.contains("Handwerkstalent des jeweiligen Artefaktmaterials")) {
+      rss = updateRequirementsSkill(rss, SkillKey.holzbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.lederbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.metallbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.steinbearbeitung, "10");
+      updateRequirementsSkill(rss, SkillKey.stoffbearbeitung, "10");
+      rss.logicalOpperator = LogicalOperatorKey.or;
+      isHandled = true;
     }
 
     return new Quintet<>(

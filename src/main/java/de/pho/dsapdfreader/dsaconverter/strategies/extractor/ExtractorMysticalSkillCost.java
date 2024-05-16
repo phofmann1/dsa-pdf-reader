@@ -94,16 +94,17 @@ public class ExtractorMysticalSkillCost extends Extractor
 
   public static Cost retrieveCost(String costText, String errorPrefix)
   {
+    if (costText == null || costText.isEmpty()) {
+      return null;
+    }
     Cost returnValue = new Cost();
     returnValue.costText = costText;
     String restOfTxt = costText;
 
-    if (restOfTxt.contains("für RS"))
-    {
+    if (restOfTxt.contains("für RS")) {
       applyArmorSpellCost(returnValue, restOfTxt, errorPrefix);
     }
-    else
-    {
+    else {
       restOfTxt = applyBaseCost(returnValue, restOfTxt);
       restOfTxt = applyMinimalCost(returnValue, restOfTxt, errorPrefix);
       restOfTxt = applyPermanentCost(returnValue, restOfTxt, errorPrefix);

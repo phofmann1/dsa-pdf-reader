@@ -32,6 +32,7 @@ import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.DsaState;
 import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
@@ -40,6 +41,7 @@ import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
@@ -241,8 +243,7 @@ public class LoadToSpecialAbility
         specialAbility.requirementsAbility = ExtractorSpecialAbility.retrieveRequirementsAbility(preconditionsMap, specialAbility.name, levels, currentLevel, isUseSamePrecondition);
 
 
-        if (specialAbility.key != null && specialAbility.key != SpecialAbilityKey.zauberkämpfer && specialAbility.key != SpecialAbilityKey.ätzes_geben)
-        {
+        if (specialAbility.key != null && specialAbility.key != SpecialAbilityKey.zauberkämpfer && specialAbility.key != SpecialAbilityKey.ätzes_geben) {
 
           specialAbility.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(raw.rules, specialAbility.key);
         }
@@ -250,22 +251,22 @@ public class LoadToSpecialAbility
             ? 2
             : 0;
 
+        if (specialAbility.category == SpecialAbilityCategoryKey.mixed) {
+          specialAbility = handleSaCategoryMixed(specialAbility);
+        }
 
         // Heilungsspezialgebiet (Anwendungsgebiet)
-        if (isAuthor)
-        {
+        if (isAuthor) {
           returnValue.addAll(generateScribeList(specialAbility));
         }
-        else if (isHealingSpec)
-        {
+        else if (isHealingSpec) {
           returnValue.addAll(generateHealingSpecList(specialAbility));
         }
         else if (isGebieterDesAspekts)
         {
           returnValue.addAll(generateGebieterDesAspektsList(specialAbility, raw.rules));
         }
-        else
-        {
+        else {
           returnValue.add(specialAbility);
         }
       }
@@ -273,8 +274,27 @@ public class LoadToSpecialAbility
     return returnValue.stream();
   }
 
-  public static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility, String rules)
-  {
+  private static SpecialAbility handleSaCategoryMixed(SpecialAbility specialAbility) {
+    if (specialAbility.requirementMysticalSkill != null //REQ for mystical skills are all magic
+        || specialAbility.requireOneOfBoons.stream().anyMatch(rb -> rb.key == BoonKey.zauberer) //REQ for zauberer
+        || specialAbility.requirementsAbility != null && specialAbility.requirementsAbility.requirements != null && specialAbility.requirementsAbility.requirements.stream().anyMatch(rqa -> rqa.abilityKey == SpecialAbilityKey.gefäß_der_macht)
+    ) {
+      specialAbility.category = SpecialAbilityCategoryKey.magic;
+    }
+
+    else if (
+        specialAbility.requireOneOfBoons.stream().anyMatch(rb -> rb.key == BoonKey.geweihter) //REQ for zauberer
+    ) {
+      specialAbility.category = SpecialAbilityCategoryKey.cleric;
+    }
+    else {
+      specialAbility.category = SpecialAbilityCategoryKey.common;
+    }
+
+    return specialAbility;
+  }
+
+  public static List<? extends SpecialAbility> generateGebieterDesAspektsList(SpecialAbility specialAbility, String rules) {
     List<SpecialAbility> returnValue = new ArrayList<>();
 
     specialAbility.newSkillUsageKey = null;

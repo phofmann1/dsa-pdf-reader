@@ -40,9 +40,9 @@ public class SpecialAbility
   public MysticalSkillCategory newMysticalSkillCategoryKey;
 
   public List<CombatSkillKey> combatSkillKeys;
-  public boolean isOnlyParryWeapon;
-  public boolean isOnlyElfenWeapon;
-  public boolean isOnlyDwarfenWeapon;
+  public Boolean isOnlyParryWeapon;
+  public Boolean isOnlyElfenWeapon;
+  public Boolean isOnlyDwarfenWeapon;
 
   public SpecieKey requiredSpecie;
   public DsaState requiredState;

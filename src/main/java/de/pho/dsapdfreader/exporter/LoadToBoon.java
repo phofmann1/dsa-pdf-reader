@@ -232,11 +232,6 @@ public class LoadToBoon
     {
       returnValue.newSkillUsageKey = su.key;
     }
-
-    if (returnValue.key == null)
-    {
-      System.out.println(returnValue.name + " -- " + raw.name);
-    }
     returnValue.multiselect = extractMulitselect(returnValue.key);
     returnValue.selectionCategory = extractSelectionCategory(returnValue.key);
     returnValue.requirementsSpecie = ExtractorRequirements.extractSpecieReqsForBoon(returnValue.key);

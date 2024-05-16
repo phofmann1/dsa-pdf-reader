@@ -28,7 +28,7 @@ public enum ArtifactKey
   lebensring,
   magierstab,
   marbodolch,
-  mohaknochenkeule,
+  tahayaknochenkeule,
   mondamulett,
   narrenkappe,
   nivesenknochenkeule,
@@ -57,11 +57,46 @@ public enum ArtifactKey
   schuppenbeutel,
   trinkhorn,
   kristallomantische_kristallkugel,
-  echsenhaube;
+  echsenhaube,
+  schutzkugel,
+  schwertfibel,
+  muschelkette,
+  amulett_des_heiligen_badilak,
+  das_dunkle_buch,
+  erkenntnisstab,
+  firunsbogen,
+  das_bunte_gewand,
+  der_graue_umhang,
+  saatgutbeutel,
+  laterne_des_ewigen_feuers,
+  schmuck_der_schönen_götting,
+  silberflöte,
+  ifirnsbogen,
+  mantikorkette,
+  trigon_amulett,
+  flukenamulett,
+  füllhorn,
+  stundenglas,
+  muschelhorn,
+  bimssteinkette,
+  vitis,
+  hornissenstachel,
+  geisterfetisch,
+  angroschhammer,
+  eidechsenkleidung,
+  regenbogenstein,
+  schlangenstab,
+  schlangenlederarmband,
+  sturmschwinge,
+  coelestin_metallband,
+  achazknochenkeule,
+  tairachknochenkeule,
+  graveshhammer,
+  kupferroter_schleifstein,
+  geischtslarve;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }
