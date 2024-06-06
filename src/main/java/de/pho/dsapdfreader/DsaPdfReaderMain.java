@@ -227,8 +227,8 @@ public class DsaPdfReaderMain
     isToJson = isToJson || isNone;
 
     isToText = false;
-    isToStrategy = true;
-    isToRaws = true;
+    isToStrategy = false;
+    isToRaws = false;
     isToJson = true;
 
     if (isToText) convertToText();
@@ -839,15 +839,20 @@ public class DsaPdfReaderMain
         fIn = new File("C:\\develop\\project\\dsa-pdf-reader\\export\\03 - raw\\Kodex_der_Magie_CURRICULUM_raw.csv");
         List<CurriculumRaw> curriculumRaws = CsvHandler.readBeanFromFile(CurriculumRaw.class, fIn);
 
+        List<Profession> corrections = initExporterCorrections(Profession.class);
         List<Profession> pureProfessions = raws.stream()
             .flatMap(r -> LoadToProfession.migrate(r, extractCurriculumByProfessionName(r.name, curriculumRaws)))
+            .map(p -> {
+              LoadToProfession.applyCorrections(p, corrections);
+              return p;
+            })
             .collect(Collectors.toList());
 
         List<Profession> normals = pureProfessions.stream().filter(p -> p.professionType == ProfessionTypeKey.normal).collect(Collectors.toList());
         ObjectMapper mapperOrs = initObjectMapper();
         LOGGER.info("JSON-Professions Weltliche Professionen: " + normals.size() + " (Letzte Erzeugung: 223)");
         String jsonNormals = mapperOrs
-            .writerWithDefaultPrettyPrinter()
+            //.writerWithDefaultPrettyPrinter()
             .writeValueAsString(normals);
 
         BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "normal", "professions"));
@@ -896,6 +901,14 @@ public class DsaPdfReaderMain
 
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "clerical", "professions"));
         writer.write(jsonClerical);
+        writer.close();
+
+        StringBuilder pNames = new StringBuilder();
+        pureProfessions.stream().map(p -> p.key.toValue() + " {" + p.name + "}\r\n").forEach(txt -> pNames.append(txt));
+
+        String prefix = "professions";
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
+        writer.write(pNames.toString());
         writer.close();
 
       }

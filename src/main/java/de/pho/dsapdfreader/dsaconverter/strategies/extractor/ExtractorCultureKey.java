@@ -6,7 +6,7 @@ public class ExtractorCultureKey extends Extractor {
   public static CultureKey retrieve(String name) {
     CultureKey returnValue = null;
     try {
-      returnValue = extractCultureKeyFromText(name);
+      returnValue = extractCultureKeyFromText(name.replaceAll("\\bAndergast\\b", "Andergaster"));
       if (returnValue == null) {
         throw new IllegalArgumentException();
       }

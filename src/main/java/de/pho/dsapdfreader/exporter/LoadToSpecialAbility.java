@@ -163,7 +163,7 @@ public class LoadToSpecialAbility
       {
         raw.preconditions = raw.preconditions.replace(" Intuition ", " IN ");
         SpecialAbility specialAbility = new SpecialAbility();
-        specialAbility.name = extractName(baseName, levels, currentLevel, ignoreBrackets);
+        specialAbility.name = extractName(baseName, levels, currentLevel, ignoreBrackets).replace("Verständigung und natürlichen Heilung zu Donnerbach", "Scholar des Seminars der elfischen Verständigung und natürlichen Heilung zu Donnerbach");
         boolean isAuthor = specialAbility.name.equals("Schriftstellerei");
         boolean isHealingSpec = specialAbility.name.equals("Heilungsspezialgebiet");
         boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");

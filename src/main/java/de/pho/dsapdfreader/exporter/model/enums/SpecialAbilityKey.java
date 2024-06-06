@@ -1429,7 +1429,8 @@ public enum SpecialAbilityKey
   ritual_artefakt,
   synärethiker,
   vielfachartefakt,
-  zaubertrick_artefakt, tradition_meistertalentierte;
+  zaubertrick_artefakt,
+  tradition_meistertalentierte;
 
   @JsonValue
   public int toValue() {

@@ -94,14 +94,6 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.familiar, "DiebstahlWirkung"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magicSign, "Auge des Basilisken")
   );
-
-  protected static final String[] KEYS = {
-      KEY_EFFECT,
-      KEY_FEATURE,
-      KEY_REQUIREMENTS_I,
-      KEY_REQUIREMENTS_II,
-      KEY_AP,
-  };
   private static final Map<String, ArtifactKey> KEYS_TRADITION_ARTIFACTS = Map.ofEntries(
       new AbstractMap.SimpleEntry<>("Das Sonnenzepter", ArtifactKey.sonnenzepter),
       new AbstractMap.SimpleEntry<>("Die Schutzkugel", ArtifactKey.schutzkugel),
@@ -177,6 +169,14 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
   private static final Map<ArtifactKey, String> KEYS_TRADITION_ARTIFACTS_FIRST_SF = Map.ofEntries(
       new AbstractMap.SimpleEntry<>(ArtifactKey.animistenwaffe, "Bindung der WaffeWirkung")
   );
+
+  protected static final String[] KEYS = {
+      KEY_EFFECT,
+      KEY_FEATURE,
+      KEY_REQUIREMENTS_I,
+      KEY_REQUIREMENTS_II,
+      KEY_AP,
+  };
   private static final Logger LOGGER = LogManager.getLogger();
 
   ConverterAtomicFlagsTraditionSkillMagic flags;

@@ -33,14 +33,14 @@ false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - A
 false;Rüstkammer_2;C:/privat/pdf.lib/import;Aventurische Rustkammer II - 02 - Ausrustung.pdf;RÜSTUNGEN;146;18;149;19;;;topic-mapping-weapons-2-armor.xml;
 false;Schirm;C:/privat/pdf.lib/import;Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;CURRICULUM;272;16;284;23;1300;1000;;
-false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
+true;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
 false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;61;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
 true;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln - alt.pdf;ABILITIES;131;;191;;1300;1100;topic-mapping-kodex-cleric-abilities-old.xml;
-true;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
+false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
 false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
 false;Kodex_der_Käuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
 false;Arkane_Schmiede;C:/privat/pdf.lib/import;Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;

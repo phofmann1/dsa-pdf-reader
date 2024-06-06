@@ -52,7 +52,7 @@ public class Profession implements Serializable {
   public int minLanguageAp;
   public boolean only4languages = false;
   public int curseAp;
-  public List<SpecialAbilityKey> specialAbilities;
+  public List<SpecialAbilityKey> abilities;
   public List<ObjectRitualKey> objectRituals;
 
   public List<ValueChange> valueChanges;

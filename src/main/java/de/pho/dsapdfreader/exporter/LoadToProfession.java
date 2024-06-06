@@ -9,6 +9,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -54,6 +55,7 @@ import de.pho.dsapdfreader.exporter.model.enums.TerrainTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionGuidelineKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeKey;
 import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
+import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 import de.pho.dsapdfreader.tools.roman.RomanNumberHelper;
 
 
@@ -236,7 +238,7 @@ public class LoadToProfession {
     //ABILITIES
     profession.terrainKnowledgeOptions = extractTerrainKnowledgeOptions(raw.specialAbilities);
     profession.specializationOptions = extractSpecialisations(raw.specialAbilities);
-    profession.specialAbilities = extractSpecialAbilities(cleanSAs(raw.specialAbilities));
+    profession.abilities = extractSpecialAbilities(cleanSAs(raw.specialAbilities));
     //COMBAT SKILLS
     profession.combatSkillChanges = extractCombatskillChanges(raw.skillsCombat);
     profession.combatSkillOptions = extractCombatskillOptions(raw.skillsCombat);
@@ -249,6 +251,18 @@ public class LoadToProfession {
     profession.objectRituals = extractObjectRituals(cleanSAs(raw.specialAbilities));
     profession.curseAp = extractCurseAp(raw.specialAbilities);
     profession.mysticalSkillChanges = extractMysticalSkillChanges(raw.specialAbilities.replaceAll("(Sprachen für insgesamt |Sprachen und Schriften für insgesamt )\\d*,?\\s?Abenteuerpunkte", ""), isMagical);
+
+    Map<MysticalSkillKey, Long> counts = profession.mysticalSkillChanges.stream()
+        .collect(Collectors.groupingBy(
+            ValueChange::getMysticalSkillKey, Collectors.counting()
+        ));
+
+    counts.forEach((msk, count) -> {
+      if (count > 1) {
+        System.out.println(profession.key + " MS(" + msk + ") #(" + count + ")");
+      }
+    });
+
     //from mystical skills
     String msString = ((raw.skillsMagic != null ? raw.skillsMagic : "") + " " + (raw.skillsCleric != null ? raw.skillsCleric : "")).trim();
     profession.noOfTricks = extractNoOfTricks(msString);
@@ -290,8 +304,21 @@ public class LoadToProfession {
         variant.key = ExtractorProfessionKey.retrieve(profession.name + "__" + variant.name);
         variant.apValue = Integer.valueOf(curriculumRaw.pathName_I.replaceAll(".*?\\(", "").replace("AP)", "").trim());
         variant.professionType = ProfessionTypeKey.curriculum;
+        variant.parentProfessionKey = profession.key;
         String pathIChanges = curriculumRaw.spellChanges_I + ", " + curriculumRaw.additionalSkills_I + ", " + curriculumRaw.removedSkills_I;
         applySkillMatcher2Variant(pathIChanges, variant);
+
+
+        Map<MysticalSkillKey, Long> counts = variant.mysticalSkillChanges.stream()
+            .collect(Collectors.groupingBy(
+                ValueChange::getMysticalSkillKey, Collectors.counting()
+            ));
+
+        counts.forEach((msk, count) -> {
+          if (count > 1) {
+            System.out.println(variant.key + " MS(" + msk + ") #(" + count + ")");
+          }
+        });
         paths.add(variant);
 
         Profession variant2 = deepCopy(profession);
@@ -299,8 +326,21 @@ public class LoadToProfession {
         variant2.key = ExtractorProfessionKey.retrieve(profession.name + " " + variant2.name);
         variant2.apValue = Integer.valueOf(curriculumRaw.pathName_II.replaceAll(".*?\\(", "").replace("AP)", "").trim());
         variant2.professionType = ProfessionTypeKey.curriculum;
+        variant2.parentProfessionKey = profession.key;
         String pathIIChanges = curriculumRaw.spellChanges_II + ", " + curriculumRaw.additionalSkills_II + ", " + curriculumRaw.removedSkills_II;
         applySkillMatcher2Variant(pathIIChanges, variant2);
+
+
+        counts = variant2.mysticalSkillChanges.stream()
+            .collect(Collectors.groupingBy(
+                ValueChange::getMysticalSkillKey, Collectors.counting()
+            ));
+
+        counts.forEach((msk, count) -> {
+          if (count > 1) {
+            System.out.println(variant2.key + " MS(" + msk + ") #(" + count + ")");
+          }
+        });
         paths.add(variant2);
 
       }
@@ -385,7 +425,7 @@ public class LoadToProfession {
               .collect(Collectors.toList());
         }
 
-        if (isMysticalSkillKey && skillReplacedName == null) {
+        if (isMysticalSkillKey && !variant.mysticalSkillChanges.stream().anyMatch(msvc -> msvc.mysticalSkillKeys.contains(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true)))) {
           ValueChange msc = new ValueChange();
           msc.key = ValueChangeKey.skill;
           msc.type = ValueChangeType.value;
@@ -581,6 +621,7 @@ public class LoadToProfession {
           String nameString = varMatcher.group();
           variant.name = extractVariantName(profession.name, nameString);
           variant.key = ExtractorProfessionKey.retrieve(variant.name);
+          variant.parentProfessionKey = profession.key;
           if (variant.key != null) {
             variantString = variantString.replace(nameString, "").trim();
           }
@@ -704,7 +745,7 @@ public class LoadToProfession {
         varMatcher = Pattern.compile("(?<=:).*").matcher(variantString);
         if (varMatcher.find()) {
           String scString = varMatcher.group().trim().replace("Wogenform 5, statt Steinwand", "Wogenform 5 statt Steinwand");
-          boolean replaceAllMysticalSkills = Pattern.compile("Zauber.*statt der angegebenen").matcher(scString).find();
+          boolean replaceAllMysticalSkills = Pattern.compile("Zauber.*statt der angegebenen").matcher(scString).find() || profession.key == ProfessionKey.graumagier_des_konzils_der_elemente_zu_drakonia_erzelementarist;
           if (replaceAllMysticalSkills) {
             variant.mysticalSkillChanges = new ArrayList<>();
             scString = scString.replace("statt der angegebenen", "").trim();
@@ -907,13 +948,13 @@ public class LoadToProfession {
             boolean isRemove = abilityString.contains("kein ") || abilityString.contains("keine ");
 
             if (isRemove) {
-              variant.specialAbilities = variant.specialAbilities.stream().filter(sak -> !abilityKeys.contains(sak)).collect(Collectors.toList());
+              variant.abilities = variant.abilities.stream().filter(sak -> !abilityKeys.contains(sak)).collect(Collectors.toList());
             }
             else {
               if (replacedAbilityKeys != null) {
-                variant.specialAbilities = variant.specialAbilities.stream().filter(sak -> !replacedAbilityKeys.contains(sak)).collect(Collectors.toList());
+                variant.abilities = variant.abilities.stream().filter(sak -> !replacedAbilityKeys.contains(sak)).collect(Collectors.toList());
               }
-              variant.specialAbilities.addAll(abilityKeys);
+              variant.abilities.addAll(abilityKeys);
             }
             if (abilityKeys.size() > 0) {
               variantString = variantString.replace(abilityString, "");
@@ -956,9 +997,11 @@ public class LoadToProfession {
 
 
   private static List<MysticalSkillKey> extractTrickOptions(String msString) {
-    Matcher m = Pattern.compile("(?<= Zaubertrick aus folgender Liste: )[A-ü ,&]*(?=<br>)").matcher(msString);
+    Matcher m = Pattern.compile("(?<=( Zaubertrick aus folgender Liste: )|( Zaubertricks aus folgender Liste: ))[A-ü ,&]*(?=<br>)").matcher(msString);
     if (m.find()) {
-      return List.of(m.group().split(","))
+      return List.of(m.group()
+              .replace("Lockruf Regenbogenaugen", "Lockruf, Regenbogenaugen")
+              .split(","))
           .stream().map(t -> ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(t.trim(), true))
           .collect(Collectors.toList());
     }
@@ -1338,7 +1381,6 @@ public class LoadToProfession {
           .replaceAll("Schelm$", "Schelme")
           .replaceAll("Namenloser$", "Namenloser Kult")
           .replaceAll("Rondra$", "Rondrakirche")
-          .replaceAll("Tairachkult$", "Tairachschamane")
           .trim(); //extract Text in Parantheses
 
       returnValue.add(new RequirementSpecialAbility(ExtractorSpecialAbility.retrieve(abilityName + (abilityName.equalsIgnoreCase("tradition") ? " " + abilitySuffix : "")), abilitySuffix));
@@ -1367,5 +1409,12 @@ public class LoadToProfession {
         .replace(",", "")
         .replace("<br>", "")
         .trim();
+  }
+
+  public static void applyCorrections(Profession profession, List<Profession> corrections) {
+    Optional<Profession> correction = corrections.stream().filter(c -> c.key == profession.key).findFirst();
+    if (correction.isPresent()) {
+      ObjectMerger.merge(correction.get(), profession);
+    }
   }
 }

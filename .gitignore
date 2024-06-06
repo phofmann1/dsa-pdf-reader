@@ -1,6 +1,6 @@
 /src/main/resources/*.pdf
 /target/
-/src/main/resources/pdf_lib/*
+/src/main/resources/pdf_lib/
 /export/
 /realmworks/
 /.metadata/

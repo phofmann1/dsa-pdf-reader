@@ -24,9 +24,6 @@ public class ValueChange implements Serializable {
   public ValueChangeType type;
   @JsonProperty("valueChange")
   public Integer change;
-  public Integer valueChangeMax;
-
-  public Integer[] attributeValueChanges;
 
   public SkillKey skillKey;
   public List<SkillKey> skillKeysOneOf;
@@ -48,16 +45,25 @@ public class ValueChange implements Serializable {
 
   public MysticalSkillCategory mysticalSkillCategory;
 
+  public MysticalSkillKey getMysticalSkillKey() {
+    //DELETE ME
+    if (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() == 1) {
+      return this.mysticalSkillKeys.get(0);
+    }
+    else {
+      //System.err.println("FEHLER");
+      return null;
+    }
+  }
+
   @JsonIgnore
-  public boolean isValid()
-  {
-    return switch (this.type)
-        {
-          case fp -> this.change != 0
-              && ((this.useParentSelection != null && this.useParentSelection) //Lieblingszauber...
-              || (this.usageKeys != null && this.usageKeys.size() > 0) //Weg des Taschendiebs...
-              || (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() > 0) //Scholar Gareth (Rüstung), Kuslik, Perricum...
-              || this.featureKey != null //Merkmalskenntnis...
+  public boolean isValid() {
+    return switch (this.type) {
+      case fp -> this.change != 0
+          && ((this.useParentSelection != null && this.useParentSelection) //Lieblingszauber...
+          || (this.usageKeys != null && this.usageKeys.size() > 0) //Weg des Taschendiebs...
+          || (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() > 0) //Scholar Gareth (Rüstung), Kuslik, Perricum...
+          || this.featureKey != null //Merkmalskenntnis...
               || mysticalSkillModificationType != null //Scholar Hesindius Lichtblick
               || usageRestrictionKey != null // Kristallkraft
           );
