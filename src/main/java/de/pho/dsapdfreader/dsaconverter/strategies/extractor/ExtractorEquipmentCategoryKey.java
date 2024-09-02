@@ -24,7 +24,7 @@ public class ExtractorEquipmentCategoryKey extends Extractor
   public static EquipmentCategoryKey extractEquipmentCategoryKeyFromText(String name)
   {
     EquipmentCategoryKey returnValue;
-    String keyString = extractKeyTextFromText(name);
+    String keyString = extractKeyTextFromText(name.replace("Werkzeuge", "Werkzeug"));
     keyString = keyString.trim();
 
     try
@@ -33,7 +33,7 @@ public class ExtractorEquipmentCategoryKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid ArmorKey: " + keyString);
+      LOGGER.error("Invalid EquipmentCategoryKey: " + keyString.toLowerCase());
       returnValue = null;
     }
     return returnValue;

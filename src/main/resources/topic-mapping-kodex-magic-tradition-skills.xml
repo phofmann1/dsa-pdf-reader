@@ -619,6 +619,43 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyRemoveLinesFromPage - Tabelle für Zauberbarden" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>185</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>45</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage Trinkhorn" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>185</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>75</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategyPutToEndOfPage - Switch content on page 197" index="2">
         <strategyClass>
             StrategyPutToEndOfPage

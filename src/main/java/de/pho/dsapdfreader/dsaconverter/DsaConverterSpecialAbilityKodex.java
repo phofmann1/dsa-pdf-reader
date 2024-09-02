@@ -71,8 +71,12 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
           String cleanText = t.text
               .replace("Leggaleg", "Leg-ga-leg")
               .trim();
-          if (hiddenTopic.isPresent())
-          {
+
+
+          if (t.onPage == 261 && t.size == 1300) {
+            System.out.println(cleanText);
+          }
+          if (hiddenTopic.isPresent()) {
             cleanText = cleanText.replace(hiddenTopic.get(), "");
           }
 
@@ -180,7 +184,30 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
               "Kristallomantische Zauberstilsonderfertigkeiten",
               "Scharlatanische Zauberstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.magic_stile;
           case "Allgemeine karmale Sonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric;
-          case "Liturgiestilsonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_stile;
+          case "Praios-Strömungen",
+              "Rondra-Strömungen",
+              "Efferd-Strömungen",
+              "Travia-Strömungen",
+              "Boron-Strömungen",
+              "Hesinde-Strömungen",
+              "Firun-Strömungen",
+              "Tsa-Strömungen",
+              "Phex-Strömungen",
+              "Peraine-Strömungen",
+              "Ingerimm-Strömungen",
+              "Rahja-Strömungen",
+              "Aves-Strömungen",
+              "Ifirn-Strömungen",
+              "Kor-Strömungen",
+              "Nandus-Strömungen",
+              "Swafnir-Strömungen",
+              "Levthan-Strömungen",
+              "Marbo-Strömungen",
+              "Schamanen-Strömungen",
+              "Angrosch-Strömungen",
+              "Namenlose Strömungen",
+
+              "Liturgiestilsonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_stile;
           case "Erweiterte Liturgiesonderfertigkeiten" -> SpecialAbilityCategoryKey.cleric_advanced;
           case "Predigt-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.sermon;
           case "Vision-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.vision;

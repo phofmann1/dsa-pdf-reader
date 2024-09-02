@@ -1,0 +1,99 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>12</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Jadeamulett" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>24</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>45</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Schrumpfkopf" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>26</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>30</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Hölzerne Maske" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>103</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>105</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - --Hölzerne-- --Hölzerne --">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>103</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>HölzerneMaske</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Hölzerne Maske</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

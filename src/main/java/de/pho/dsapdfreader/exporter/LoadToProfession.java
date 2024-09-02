@@ -252,6 +252,7 @@ public class LoadToProfession {
     profession.curseAp = extractCurseAp(raw.specialAbilities);
     profession.mysticalSkillChanges = extractMysticalSkillChanges(raw.specialAbilities.replaceAll("(Sprachen für insgesamt |Sprachen und Schriften für insgesamt )\\d*,?\\s?Abenteuerpunkte", ""), isMagical);
 
+
     Map<MysticalSkillKey, Long> counts = profession.mysticalSkillChanges.stream()
         .collect(Collectors.groupingBy(
             ValueChange::getMysticalSkillKey, Collectors.counting()
@@ -307,7 +308,6 @@ public class LoadToProfession {
         variant.parentProfessionKey = profession.key;
         String pathIChanges = curriculumRaw.spellChanges_I + ", " + curriculumRaw.additionalSkills_I + ", " + curriculumRaw.removedSkills_I;
         applySkillMatcher2Variant(pathIChanges, variant);
-
 
         Map<MysticalSkillKey, Long> counts = variant.mysticalSkillChanges.stream()
             .collect(Collectors.groupingBy(
@@ -405,12 +405,12 @@ public class LoadToProfession {
 
         if (isMysticalSkillKey) {
           variant.mysticalSkillChanges = variant.mysticalSkillChanges.stream().map(sc -> {
-                if (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true) && sc.type == ValueChangeType.value) {
+                if (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true) && sc.type == ValueChangeType.value) {
                   sc.change = firstValue;
                 }
-                else if (skillReplacedName != null && (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), true) && sc.type == ValueChangeType.value)) {
+                else if (skillReplacedName != null && (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), true) && sc.type == ValueChangeType.value)) {
                   sc.change = firstValue;
-                  sc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), true));
+                  sc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), true);
 
                   if (skillName.contains("(")) {
                     String tradition = skillName.replaceAll("(Attributo.*)|Aufnahme.*|[^()\\r\\n]+(?![^()]*\\))", "").replace("(", "").replace(")", "").trim();
@@ -425,12 +425,12 @@ public class LoadToProfession {
               .collect(Collectors.toList());
         }
 
-        if (isMysticalSkillKey && !variant.mysticalSkillChanges.stream().anyMatch(msvc -> msvc.mysticalSkillKeys.contains(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true)))) {
+        if (isMysticalSkillKey && !variant.mysticalSkillChanges.stream().anyMatch(msvc -> msvc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true))) {
           ValueChange msc = new ValueChange();
           msc.key = ValueChangeKey.skill;
           msc.type = ValueChangeType.value;
           msc.change = firstValue;
-          msc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true));
+          msc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true);
           variant.mysticalSkillChanges.add(msc);
         }
       }
@@ -804,12 +804,12 @@ public class LoadToProfession {
 
               if (isMysticalSkillKey && !replaceAllMysticalSkills) {
                 variant.mysticalSkillChanges = variant.mysticalSkillChanges.stream().map(sc -> {
-                      if (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical) && sc.type == ValueChangeType.value) {
+                      if (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical) && sc.type == ValueChangeType.value) {
                         sc.change = firstValue;
                       }
-                      else if (skillReplacedName != null && (sc.mysticalSkillKeys.get(0) == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), isMagical) && sc.type == ValueChangeType.value)) {
+                      else if (skillReplacedName != null && (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), isMagical) && sc.type == ValueChangeType.value)) {
                         sc.change = firstValue;
-                        sc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), isMagical));
+                        sc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), isMagical);
 
                         if (skillName.contains("(")) {
                           String tradition = skillName.replaceAll("(Attributo.*)|Aufnahme.*|[^()\\r\\n]+(?![^()]*\\))", "").replace("(", "").replace(")", "").trim();
@@ -829,7 +829,7 @@ public class LoadToProfession {
                 msc.key = ValueChangeKey.skill;
                 msc.type = ValueChangeType.value;
                 msc.change = firstValue;
-                msc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical));
+                msc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical);
                 variant.mysticalSkillChanges.add(msc);
               }
             }
@@ -1109,7 +1109,7 @@ public class LoadToProfession {
       vc.key = ValueChangeKey.skill;
       vc.type = ValueChangeType.value;
       vc.change = msValue;
-      vc.mysticalSkillKeys = List.of(ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msName, isMagical));
+      vc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msName, isMagical);
 
       if (msName.contains("(")) {
         String tradition = msName.replaceAll("(Attributo.*)|Aufnahme.*|[^()\\r\\n]+(?![^()]*\\))", "").replace("(", "").replace(")", "").trim();

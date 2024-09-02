@@ -1,19 +1,18 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
-    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
-        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+    <strategy name="StrategyConcatLinesToFirst - Concat Tätowierungen" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>18</value>
+                <value>82</value>
             </parameter>
             <parameter>
                 <key>fromLine</key>
-                <value>12</value>
+                <value>24</value>
             </parameter>
-
             <parameter>
                 <key>untilLine</key>
-                <value>999</value>
+                <value>27</value>
             </parameter>
         </params>
     </strategy>

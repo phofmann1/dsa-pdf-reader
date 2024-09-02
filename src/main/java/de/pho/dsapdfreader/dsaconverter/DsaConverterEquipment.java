@@ -6,16 +6,16 @@ import static de.pho.dsapdfreader.dsaconverter.DsaConverterMeleeWeapon.PAT_PRICE
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
-import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsEquipment;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterAtomicFlagsEquipment>
@@ -34,6 +34,12 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   private static final String HL_ANIMALS = "TierPreis";
   private static final String HL_ANIMAL_EQUIPMENT = "GegenstandGewichtPreis";
   private static final String HL_VEHICLE = "GegenstandPreis";
+
+  private static final String HL_RÜSTKAMMER = "GewichtPreisKomplexität";
+  private static final String HL_REGIONALBAND = "Preise";
+  private static final String HL_REGIONALBAND_II = "Preis";
+  private static final String HL_KODEX_DES_GÖTTERWIRKENS = "ZeremonialgegenständeGegenstandStrukturpunkteGewichtPreisKomplexität";
+
   //\d+(?= ?StP)
   private static final Pattern PAT_STRUCTURE = Pattern.compile("\\d+(?= ?StP)");
   //[A-z ,]+(?=[\d,.+\/( bis )]+ S)
@@ -82,13 +88,12 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
               else
               {
                 this.concludePredecessor(last(equipmentRawList));//called additionally,because equipment does iterate over categories not etnries
-                this.generateNewEquipmentRaw(cleanText, conf.topic);
+                this.generateNewEquipmentRaw(cleanText);
               }
             }
 
             // handle values
-            if (isDataValue)
-            {
+            if (isDataValue) {
               applyDataValue(last(equipmentRawList), cleanText, t.isBold, t.isItalic);
               flags.wasName.set(false);
               flags.wasData.set(true);
@@ -98,16 +103,18 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
 
         });
     concludePredecessor(last(equipmentRawList)); //finish the last entry in list
+    equipmentRawList = equipmentRawList.stream().map(er -> {
+      er.publication = conf.publication;
+      er.topic = conf.topic;
+      return er;
+    }).collect(Collectors.toList());
     return equipmentRawList;
   }
 
-  private void generateNewEquipmentRaw(String name, TopicEnum topic)
-  {
+  private void generateNewEquipmentRaw(String name) {
     EquipmentRaw e = new EquipmentRaw();
     e.name = name;
-    e.publication = Publication.Strassenstaub_und_Halsabschneider.name();
     e.category = currentCategory.get();
-    e.topic = topic;
     this.splitEntry(last(equipmentRawList));
     equipmentRawList.add(e);
     flags.wasName.set(true);
@@ -140,6 +147,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
 
     String name = cleanText
         .replace(HL_BASE, "")
+        .replace(HL_KODEX_DES_GÖTTERWIRKENS, "")
         .replace(HL_ANIMALS, "")
         .replace(HL_DIAMONDS, "")
         .replace(HL_VEHICLE, "")
@@ -147,31 +155,43 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         .replace(HL_ELIXIR, "")
         .replace(HL_INSTRUMENT, "")
         .replace(HL_ANIMAL_EQUIPMENT, "")
-        .replace(currentCategory.get(), "");
+        .replace(HL_RÜSTKAMMER, "")
+        .replace(HL_REGIONALBAND, "")
+        .replace(HL_REGIONALBAND_II, "")
+        .replace(currentCategory.get(), "")
+        .replaceAll("^paket Wüstenreich$", "Proviantpaket Wüstenreich");
 
     if (!name.isEmpty())
     {
-      this.generateNewEquipmentRaw(name, conf.topic);
+      this.generateNewEquipmentRaw(name);
       this.getFlags().isFirstValue.set(false);
     }
   }
 
   private void applyCurrentCategory(String cleanText)
   {
-    if (cleanText.contains(HL_DIAMONDS))
-    {
+    if (cleanText.contains(HL_DIAMONDS)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("(geschliffen")));
     }
-    else if (cleanText.contains(HL_ELIXIR))
-    {
+    else if (cleanText.startsWith(HL_KODEX_DES_GÖTTERWIRKENS)) {
+      currentCategory.set("Zeremonialgegenstände");
+    }
+    else if (cleanText.contains(HL_ELIXIR)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("Preis")));
     }
-    else if (cleanText.contains(HL_ANIMALS))
-    {
+    else if (cleanText.contains(HL_ANIMALS)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("TierPreis")));
     }
-    else
-    {
+    else if (cleanText.contains(HL_RÜSTKAMMER)) {
+      currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_RÜSTKAMMER)));
+    }
+    else if (cleanText.contains(HL_REGIONALBAND)) {
+      currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND)));
+    }
+    else if (cleanText.contains(HL_REGIONALBAND_II)) {
+      currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND_II)));
+    }
+    else {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("Gegenstand")));
     }
   }
@@ -185,27 +205,33 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   @Override
   protected void applyDataValue(EquipmentRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
   {
-    if (currentDataObject != null)
-    {
-      if (flags.wasRemark.get())
-      {
+    if (currentDataObject != null && currentDataObject.category.equals(currentCategory.get())) {
+      if (flags.wasRemark.get()) {
         currentDataObject.remark = concatForDataValue(currentDataObject.remark, cleanText);
       }
-      else
-      {
+      else {
         currentDataObject.weight = firstMatch(PAT_WEIGHT_EQUIPMENT, cleanText);
         currentDataObject.price = firstMatch(PAT_PRICE, cleanText);
-        if (cleanText.contains(" S pro Stufe"))
-        {
+        if (cleanText.contains(" S pro Stufe")) {
           currentDataObject.isPricePerLevel = true;
         }
         currentDataObject.craft = firstMatch(PAT_CRAFT, cleanText);
         currentDataObject.structure = firstMatch(PAT_STRUCTURE, cleanText);
         currentDataObject.category = currentCategory.get();
-        if (currentCategory.get().equals("Edelsteine und Feingestein"))
-        {
+        if (currentCategory.get().equals("Edelsteine und Feingestein")) {
           currentDataObject.color = firstMatch(PAT_GEMS_COLOR, cleanText);
         }
+      }
+    }
+    else {
+      Matcher m = Pattern.compile("([A-ü ,-]+|\\d+ l)+\\d{1,3}(\\.\\d{3})*(,\\d{1,2})? (Silbertaler|S)").matcher(cleanText);
+      while (m.find()) {
+        String result = m.group();
+        String price = result.replaceAll("Silbertaler|S", "")
+            .replaceAll("^([A-ü ,-]+|\\d+ l)+", "").trim();
+        String name = result.replaceAll(price + ".*", "");
+        this.generateNewEquipmentRaw(name);
+        last(equipmentRawList).price = price;
       }
     }
   }
@@ -222,6 +248,9 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         || t.text.contains(HL_ANIMALS)
         || t.text.contains(HL_ANIMAL_EQUIPMENT)
         || t.text.contains(HL_VEHICLE)
+        || t.text.contains(HL_RÜSTKAMMER)
+        || t.text.contains(HL_REGIONALBAND)
+        || t.text.contains(HL_REGIONALBAND_II)
     );
   }
 
@@ -239,7 +268,10 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         && !cleanText.endsWith(HL_ELIXIR)
         && !cleanText.endsWith(HL_INSTRUMENT)
         && !cleanText.endsWith(HL_LEISURE)
-        && !cleanText.endsWith(HL_VEHICLE);
+        && !cleanText.endsWith(HL_VEHICLE)
+        && !cleanText.contains(HL_RÜSTKAMMER)
+        && !cleanText.contains(HL_REGIONALBAND)
+        && !cleanText.contains(HL_REGIONALBAND_II);
   }
 
   @Override
@@ -272,8 +304,6 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         for (int idx = 0; idx < multipleNames.length; idx++)
         {
           EquipmentRaw newEr = new EquipmentRaw();
-          newEr.topic = lastEntry.topic;
-          newEr.publication = lastEntry.publication;
           newEr.category = lastEntry.category;
           newEr.remark = lastEntry.remark;
           newEr.name = multipleNames[idx];
@@ -315,8 +345,6 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         for (int idx = 0; idx < multipleWeight.length; idx++)
         {
           EquipmentRaw newEr = new EquipmentRaw();
-          newEr.topic = lastEntry.topic;
-          newEr.publication = lastEntry.publication;
           newEr.category = lastEntry.category;
           newEr.remark = lastEntry.remark;
           newEr.name = lastEntry.name + ", " + JEWLERY_LEVELS[idx];

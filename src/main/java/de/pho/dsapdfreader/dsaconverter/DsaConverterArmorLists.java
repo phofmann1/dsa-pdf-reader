@@ -15,21 +15,26 @@ import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsEq
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFlagsEquipmentCombat> {
+public class DsaConverterArmorLists extends DsaConverter<ArmorRaw, ConverterAtomicFlagsEquipmentCombat> {
   /* Test Strings:
    */
 
   private static final Logger LOGGER = LogManager.getLogger();
 
   private static final String KEY_REMARK = "Anmerkung";
-  private static final String KEY_ADVANTAGE = "Rüstungsvorteil";
-  private static final String KEY_DISADVANTAGE = "Rüstungsnachteil";
+  private static final String KEY_ADVANTAGE = "Waffenvorteil";
+  private static final String KEY_ADVANTAGE_II = "Rüstungsvorteil";
+
+  private static final String KEY_DISADVANTAGE = "Waffennachteil";
+  private static final String KEY_DISADVANTAGE_II = "Rüstungsnachteil";
   private static final String KEY_ADVANTAGE_HELMET = "Helmvorteil";
   private static final String KEY_DISADVANTAGE_HELMET = "Helmnachteil";
   protected static final String[] KEYS = {
       KEY_REMARK,
       KEY_ADVANTAGE,
+      KEY_ADVANTAGE_II,
       KEY_DISADVANTAGE,
+      KEY_DISADVANTAGE_II,
       KEY_ADVANTAGE_HELMET,
       KEY_DISADVANTAGE_HELMET
   };
@@ -45,8 +50,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
 
 
   @Override
-  public List<ArmorRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
-  {
+  public List<ArmorRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf) {
     List<ArmorRaw> returnValue = new ArrayList<>();
     String msg = String.format("parse  result to %s", getClassName());
     LOGGER.debug(msg);
@@ -60,24 +64,20 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
           String cleanText = t.text
               .trim();
 
-          if (cleanText != null && !cleanText.isEmpty())
-          {
+          if (cleanText != null && !cleanText.isEmpty()) {
             // validate the flags for conf
             boolean isFirstValue = validateIsFirstValue(t, conf);
             boolean isDataKey = validateIsDataKey(t, cleanText, conf);
             boolean isDataValue = validateIsDataValue(t, cleanText, conf);
             finishPredecessorAndStartNew(isFirstValue, false, returnValue, conf, cleanText);
 
-
             // handle keys
-            if (isDataKey)
-            {
+            if (isDataKey) {
               applyFlagsForKey(t.text);
             }
 
             // handle values
-            if (isDataValue)
-            {
+            if (isDataValue) {
               applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
               applyFlagsForNoKeyStrings(getFlags(), t.text);
             }
@@ -93,33 +93,27 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
   }
 
   @Override
-  protected String[] getKeys()
-  {
+  protected String[] getKeys() {
     return KEYS;
   }
 
   @Override
-  protected ConverterAtomicFlagsEquipmentCombat getFlags()
-  {
-    if (flags == null)
-    {
+  protected ConverterAtomicFlagsEquipmentCombat getFlags() {
+    if (flags == null) {
       this.flags = new ConverterAtomicFlagsEquipmentCombat();
     }
     return flags;
   }
 
   @Override
-  protected String getClassName()
-  {
+  protected String getClassName() {
     return this.getClass().getCanonicalName();
   }
 
   @Override
-  protected void handleFirstValue(List<ArmorRaw> returnValue, TopicConfiguration conf, String cleanText)
-  {
+  protected void handleFirstValue(List<ArmorRaw> returnValue, TopicConfiguration conf, String cleanText) {
 
-    if (this.getFlags().getWasEndOfEntry().get() || this.getFlags().isFirstValue.get() || conf.publication.equals("Basis"))
-    {
+    if (this.getFlags().getWasEndOfEntry().get() || this.getFlags().isFirstValue.get() || conf.publication.equals("Basis")) {
       ArmorRaw newEntry = new ArmorRaw();
       this.getFlags().initDataFlags();
       newEntry.setTopic(conf.topic);
@@ -140,17 +134,14 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
     this.getFlags().wasName.set(false);
     this.getFlags().wasData.set(false);
     this.getFlags().wasRemark.set(key.trim().equals(KEY_REMARK));
-    this.getFlags().wasAdvantage.set(key.trim().equals(KEY_ADVANTAGE) || key.trim().equals((KEY_ADVANTAGE_HELMET)));
-    this.getFlags().wasDisadvantage.set(key.trim().equals(KEY_DISADVANTAGE) || key.trim().equals((KEY_DISADVANTAGE_HELMET)));
+    this.getFlags().wasAdvantage.set(key.trim().equals(KEY_ADVANTAGE) || key.trim().equals(KEY_ADVANTAGE_II) || key.trim().equals(KEY_ADVANTAGE_HELMET));
+    this.getFlags().wasDisadvantage.set(key.trim().equals(KEY_DISADVANTAGE) || key.trim().equals(KEY_DISADVANTAGE_II) || key.trim().equals(KEY_DISADVANTAGE_HELMET));
   }
 
   @Override
-  protected void applyDataValue(ArmorRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
-  {
-    if (currentDataObject != null)
-    {
-      if (!this.getFlags().wasRemark.get() && !this.getFlags().wasAdvantage.get() && !this.getFlags().wasDisadvantage.get())
-      {
+  protected void applyDataValue(ArmorRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic) {
+    if (currentDataObject != null) {
+      if (!this.getFlags().wasRemark.get() && !this.getFlags().wasAdvantage.get() && !this.getFlags().wasDisadvantage.get()) {
         currentDataObject.armor = concatForDataValue(currentDataObject.armor, firstMatch(PAT_ARMOR_VALUE, cleanText));
         currentDataObject.encumberance = concatForDataValue(currentDataObject.encumberance, firstMatch(PAT_ENCUMBERANCE_VALUE, cleanText));
         currentDataObject.additionalEncumberance = isMatch(PAT_ADDITIONAL_ENCUMBERANCE, cleanText);
@@ -169,25 +160,23 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
   }
 
   @Override
-  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
-  {
+  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf) {
     return t.isBold
         && !t.text.equals("Regelwerk")
+        && !t.text.equals("Kodex des Schwertes")
+        && !t.text.equals("Aventurisches Kompendium")
         && !isNumeric(t.text)
         && !t.isItalic
         && !t.text.equals("Übler Geruch")
-        && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text))
-        && (getFlags().wasDisadvantage.get() || getFlags().isFirstValue.get() || conf.publication.equals("Basis"));
+        && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text));
   }
 
   @Override
-  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-  {
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
     return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(t.text)) && !t.text.equals("Übler Geruch");
   }
 
   @Override
-  protected void concludePredecessor(ArmorRaw lastEntry)
-  {
+  protected void concludePredecessor(ArmorRaw lastEntry) {
   }
 }

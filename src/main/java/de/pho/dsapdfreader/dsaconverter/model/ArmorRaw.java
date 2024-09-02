@@ -31,11 +31,12 @@ public class ArmorRaw implements DsaObjectI
   public String price;
   @CsvBindByName
   public String craft;
+  @CsvBindByName
+  public boolean isArmorPart;
 
 
   @Override
-  public String getName()
-  {
+  public String getName() {
     return name;
   }
 

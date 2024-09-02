@@ -25,15 +25,15 @@ public class ExtractorEquipmentKey extends Extractor
   {
     EquipmentKey returnValue;
     String keyString = extractKeyTextFromText(name);
-    keyString = keyString.trim();
+    keyString = keyString.trim().toLowerCase();
 
     try
     {
-      returnValue = EquipmentKey.valueOf(keyString.toLowerCase());
+      returnValue = EquipmentKey.valueOf(keyString);
     }
-    catch (IllegalArgumentException e)
-    {
-      LOGGER.error("Invalid ArmorKey: " + keyString);
+    catch (IllegalArgumentException e) {
+      System.out.println(keyString + ", ");
+      //LOGGER.error("Invalid EquipmentKey: " + keyString);
       returnValue = null;
     }
     return returnValue;

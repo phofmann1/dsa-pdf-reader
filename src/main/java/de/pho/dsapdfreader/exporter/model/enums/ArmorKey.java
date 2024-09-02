@@ -2,8 +2,7 @@ package de.pho.dsapdfreader.exporter.model.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum ArmorKey
-{
+public enum ArmorKey {
   iryanruestung,
   kettenhemd,
   kroetenhaut,
@@ -12,7 +11,7 @@ public enum ArmorKey
   schuppenpanzer,
   spiegelpanzer,
   tuchruestung,
-  amazonen_ruestung,
+  amazonenruestung,
   bronzeharnisch,
   eisenmantel,
   fellruestung,
@@ -20,8 +19,8 @@ public enum ArmorKey
   gambeson,
   garether_platte,
   gestechruestung,
-  gladiatoren_ruestung,
-  hartholz_harnisch,
+  gladiatorenruestung,
+  hartholzharnisch,
   hornruestung,
   ifirnsmantel,
   kettenweste,
@@ -30,9 +29,9 @@ public enum ArmorKey
   lamellar,
   langes_kettenhemd,
   lindwurmhaut,
-  mammuton_panzer,
+  mammutonpanzer,
   reiterharnisch,
-  schuppen_gewand,
+  schuppengewand,
   schwere_platte,
   skorpionhemd,
   turnierruestung,
@@ -49,7 +48,7 @@ public enum ArmorKey
   thorwalerhelm,
   gjalsker_lederruestung_lathairmach,
   elburische_tuchruestung,
-  der_baburische_spiegelpanzer,
+  baburische_spiegelpanzer,
   zorganer_ringelpanzer,
   skorpionruestung,
   havener_lederharnisch,
@@ -61,7 +60,7 @@ public enum ArmorKey
   albenhuser_plattenharnisch,
   nordmaerker_ritterruestung,
   isnatoscher_kettengeflecht,
-  die_keke_chitinruestung,
+  keke_chitinruestung,
   keke_chitinruestung_keke_mako,
   miniwatu_lederharnisch_watu_mako,
   epharit_ruestung_gumijok_mano,
@@ -69,12 +68,19 @@ public enum ArmorKey
   lederruestung_der_beni_geraut_schie,
   mherweder_ringelpanzer,
   novadischer_waffenrock,
-  ;
+  bornische_eisenmantel,
+  goblinische_fellweste,
+  maerker_kettenhemd,
+  neersander_gambeson,
+  norbardische_ledermantel,
+  sewerischer_fluegelharnisch,
+  knochenruestung,
+  pantherruestung,
+  ringelpanzer;
 
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

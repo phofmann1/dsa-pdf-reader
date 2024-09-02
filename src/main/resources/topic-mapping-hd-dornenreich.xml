@@ -1,0 +1,109 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - Box SF für Peitschen und Fächer" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>69</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>61</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst - concat Headline Obstpflücker" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>75</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>5</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Besondere Gegenstände" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>87</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>30</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>31</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - concat Kunsthandwerk" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>87</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>13</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Kleidung" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>87</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>28</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - --Körperschmusck8-10S-- --Körperschmuck9S -- (After concatenation of lines)">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>87</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Körperschmuck8-10 S</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Körperschmuck9 S</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

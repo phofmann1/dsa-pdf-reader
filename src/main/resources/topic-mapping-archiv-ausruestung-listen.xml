@@ -1,0 +1,272 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I auf 396" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst - Flasche" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>196</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>198</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Flasche">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>196</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Bannschwert, Dolch ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>215</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>30</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Dolche1W6+1GE 1 0</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Dolche1W6+1GE 14 0</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Brillantzwergisches Kurzschwert" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>216</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>65</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Brillantzwegisches Kurzschwert" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>216</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>64</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>66</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst - Eimer" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>23</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst - Elfendolch" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>65</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>69</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Federmesser" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>217</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>169</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>172</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Kette" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>62</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>64</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Kristallkugel" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>85</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>87</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - Krummdolch" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>103</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>105</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - Magierkugel" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>140</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>142</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

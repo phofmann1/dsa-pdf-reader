@@ -1,5 +1,7 @@
 package de.pho.dsapdfreader.exporter;
 
+import java.util.stream.Stream;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -26,17 +28,20 @@ public class LoadToMeleeWeapon
   {
   }
 
-  public static MeleeWeapon migrate(MeleeWeaponRaw mwr)
-  {
+  public static MeleeWeapon migrate(MeleeWeaponRaw mwr) {
     MeleeWeapon returnValue = new MeleeWeapon();
-    returnValue.name = mwr.name.replace("(2H)", "").trim();
-    if (mwr.tp.contains(" "))
-    {
+    returnValue.name = mwr.name.replace("(2H)", "")
+        .replace("Flöte und ähnliche Instrumente", "Flöte")
+        .replace("Laute und ähnliche Instrumente", "Laute")
+        .replace("Nipauka-Axt", "Geisteraxt (Nipakau-Nigoma)")
+        .replace("Tulamidisches Kurzschwert (Scimshar)", "Scimshar (Tulamidisches Kurzschwert)")
+        .replace("Zyklopäisches Kurzschwert) (Parazonium)", "Parazonium (Zyklopäisches Kurzschwert)")
+        .trim();
+    if (mwr.tp.contains(" ")) {
       LOGGER.error("WAFFENPROFILE FEHLEN!!! => " + returnValue.name + " --> " + mwr.tp);
       return null;
     }
-    else
-    {
+    else {
       returnValue.key = ExtractorWeaponKey.retrieve(returnValue.name);
       returnValue.combatSkillKey = mwr.combatSkillKey;
       returnValue.publication = Publication.valueOf(mwr.publication);
@@ -45,7 +50,7 @@ public class LoadToMeleeWeapon
       returnValue.equipmentCategoryKey = EquipmentCategoryKey.nahkampfwaffe;
       returnValue.attributeTpBonuses = ExtractorAttributeTpBonus.retrieve(mwr.additionalDamage);
       String[] weaponModifiers = mwr.atPaMod.replaceAll("–", "-").split("\\/");
-      returnValue.parryForbidden = weaponModifiers.length < 2 || weaponModifiers[1].equals("-");
+      returnValue.parryForbidden = Stream.of(CombatSkillKey.lanzen, CombatSkillKey.spießwaffen, CombatSkillKey.kettenwaffen, CombatSkillKey.peitschen).anyMatch(csk -> csk == returnValue.combatSkillKey);
       returnValue.atModifier = weaponModifiers[0].isEmpty() ? 0 : Integer.valueOf(weaponModifiers[0].trim());
 
       returnValue.advantage = mwr.advantage;

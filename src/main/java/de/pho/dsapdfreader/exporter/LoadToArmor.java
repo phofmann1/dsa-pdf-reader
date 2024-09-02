@@ -22,11 +22,15 @@ public class LoadToArmor
     Armor returnValue = new Armor();
 
     returnValue.name = ar.name.replace("\u00AD", "-");
+
     returnValue.key = ExtractorArmorKey.retrieve(ar.name);
-    returnValue.rs = Integer.valueOf(ar.armor);
-    returnValue.be = Integer.valueOf(ar.encumberance);
+    if (ar.armor == null || ar.armor.isEmpty()) {
+      System.out.println(ar.name);
+    }
+    returnValue.rs = Integer.parseInt(ar.armor);
+    returnValue.be = Integer.parseInt(ar.encumberance);
     returnValue.additionalEncumbered = ar.additionalEncumberance;
-    returnValue.weight = Double.valueOf(ar.weight.replace(".", "").replace(",", "."));
+    returnValue.weight = Double.parseDouble(ar.weight.replace(".", "").replace(",", "."));
     returnValue.publication = Publication.valueOf(ar.publication);
     returnValue.price = ExtractorPrice.retrieve(ar.price);
     returnValue.equipmentCategoryKey = EquipmentCategoryKey.rüstung;
@@ -67,7 +71,7 @@ public class LoadToArmor
     returnValue.craftingComplexity = CraftingComplexityKey.parse(ar.craft);
     if (ar.craft.startsWith("komp"))
     {
-      returnValue.craftingAp = Integer.valueOf(ar.craft.substring(ar.craft.indexOf("(") + 1, ar.craft.indexOf("AP")).trim());
+      returnValue.craftingAp = Integer.parseInt(ar.craft.substring(ar.craft.indexOf("(") + 1, ar.craft.indexOf("AP")).trim());
     }
     return returnValue;
   }

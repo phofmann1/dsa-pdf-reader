@@ -17,4 +17,168 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Beschreibung" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>61</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>62</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage - Besondere Waffen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>57</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>60</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - add STN to Kefiyah">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>74</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>0,420 Seinf</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>0,4Stn20 Seinf</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - add STN to Turban">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>92</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>0,750,8 Sprim</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>0,75Stn0,8 Sprim</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Ferkina Knochenfigürchen" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>95</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>96</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Unauer porzellanfigürchen" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>111</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - correct Ferkina-Knochenfigür-chen">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>95</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Ferkina-Knochenfigür-chen</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Ferkina-Knochenfigürchen</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - correct UnauerPorzellanfigürchen">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>UnauerPorzellanfigürchen</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Unauer Porzellanfigürchen</value>
+            </parameter>
+        </params>
+    </strategy>
+
 </topic-strategies>

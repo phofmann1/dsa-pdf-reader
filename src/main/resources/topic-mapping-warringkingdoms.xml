@@ -1,0 +1,104 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>10</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>20</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Turnierlanze HL" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>17</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>15</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>17</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Turnier zweih zu Turnierzweih">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Turnier zweih</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Turnierzweih</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zweihand hiebwaffen zu Zweihandhiebwaffen">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>19</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>58</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Zweihand hiebwaffen</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Zweihandhiebwaffen</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Turnier zweih zu Turnierzweih">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>22</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Zauberstab</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Zauberstab aus Steineiche</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

@@ -47,7 +47,7 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
   //(?<=\(2H\)|\(i\)|)(\dW(6|3)\+?\d?|1W2)
   protected static Pattern PAT_TP = Pattern.compile("(?<=\\(2H\\)|\\(i\\)|)(\\dW(6|3)\\+?\\d?|1W2)");
   //((GE|KK|FF)(\/(GE|KK|FF))? \d\d){1,2}
-  protected static Pattern PAT_TP_PLUS = Pattern.compile("((GE|KK|FF)(\\/(GE|KK|FF))? \\d\\d){1,2}");
+  protected static Pattern PAT_TP_PLUS = Pattern.compile("((GE|KK|FF)(\\/(GE|KK|FF))? ?\\d\\d){1,2}");
   //(?<!KK \d)(\-|\+)?\d{1}\s?\/\s?(\-|\+)?(\d|\-)
   protected static Pattern PAT_AT_PA_MOD = Pattern.compile("(?<!KK \\d)(\\-|\\–|\\+)?\\d{1}\\s?\\/\\s?(\\-|\\–|\\+)?(\\d|\\-|\\–)");
   //(kurz|mittel|lang)
@@ -91,6 +91,7 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
             boolean isFirstValue = validateIsFirstValue(t, conf);
             boolean isDataKey = validateIsDataKey(t, cleanText, conf);
             boolean isDataValue = validateIsDataValue(t, cleanText, conf);
+
             finishPredecessorAndStartNew(isFirstValue, false, returnValue, conf, cleanText);
 
             if (isCombatSkill)

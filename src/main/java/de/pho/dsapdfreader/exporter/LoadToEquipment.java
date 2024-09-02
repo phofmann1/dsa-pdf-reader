@@ -22,7 +22,7 @@ public class LoadToEquipment
     Equipment returnValue = new Equipment();
 
     returnValue.name = er.name;
-    returnValue.key = ExtractorEquipmentKey.retrieve(er.name);
+    returnValue.key = ExtractorEquipmentKey.retrieve(er.name.toLowerCase());
     returnValue.structure = 0;
     returnValue.color = "";
     returnValue.categoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);

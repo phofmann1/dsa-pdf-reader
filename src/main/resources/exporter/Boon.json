@@ -776,7 +776,6 @@
       {
         "key": 0,
         "type": 7,
-        "valueChangeMax": 0,
         "perLevel": false,
         "temporary": false,
         "useParentSelection": true,

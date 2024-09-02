@@ -32,7 +32,7 @@ public abstract class DsaConverter<T extends DsaObjectI, F extends ConverterAtom
 
   protected static String concatForDataValue(String origin, String newValue, String separator)
   {
-    String returnValue = origin == null ? "" : (origin.trim() + (newValue.isEmpty() ? "" : separator));
+    String returnValue = origin == null ? "" : (origin.trim() + ((newValue == null || newValue.isEmpty()) ? "" : separator));
     if (newValue == null) return returnValue;
     String spacer = (returnValue.endsWith("-") || returnValue.length() == 1) ? "" : " ";
     returnValue = returnValue.endsWith("-") ? returnValue.substring(0, returnValue.length() - 1) : returnValue;

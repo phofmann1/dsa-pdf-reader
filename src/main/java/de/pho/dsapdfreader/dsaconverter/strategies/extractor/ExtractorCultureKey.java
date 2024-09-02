@@ -3,16 +3,21 @@ package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 
 public class ExtractorCultureKey extends Extractor {
-  public static CultureKey retrieve(String name) {
+
+  public static CultureKey retrieveOptional(String text) {
+    return extractCultureKeyFromText(text.replaceAll("\\bAndergast\\b", "Andergaster"));
+  }
+
+  public static CultureKey retrieve(String text) {
     CultureKey returnValue = null;
     try {
-      returnValue = extractCultureKeyFromText(name.replaceAll("\\bAndergast\\b", "Andergaster"));
+      returnValue = retrieveOptional(text);
       if (returnValue == null) {
         throw new IllegalArgumentException();
       }
     }
     catch (IllegalArgumentException e) {
-      String msg = String.format("Culture '%s' key could not be interpreted.", name);
+      String msg = String.format("Culture '%s' key could not be interpreted.", text);
       //LOGGER.error(msg);
     }
     return returnValue;
@@ -35,7 +40,12 @@ public class ExtractorCultureKey extends Extractor {
     ).replace("XXX", "ß").toLowerCase();
 
     keyString = keyString.trim();
-    returnValue = CultureKey.valueOf(keyString);
+    try {
+      returnValue = CultureKey.valueOf(keyString);
+    }
+    catch (IllegalArgumentException e) {
+    }
+
     return returnValue;
   }
 }

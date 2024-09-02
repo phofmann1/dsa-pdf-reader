@@ -30,11 +30,16 @@ public enum EquipmentCategoryKey
   fortbewegungsmittel,
   nahkampfwaffe,
   fernkampfwaffe,
-  rüstung;
+  rüstung,
+  werkzeug,
+  besondere_gegenstaende,
+  kunsthandwerk,
+  taetowierung,
+  hilfsmittel,
+  zeremonialgegenstaende;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

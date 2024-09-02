@@ -50,12 +50,22 @@ public enum Publication
   Rüstkammer_der_Siebenwindküste,
   Rüstkammer_der_Sonnenküste,
   Rüstkammer_der_Flusslande,
-  Rüstkammer_der_dampfenden_Dschungel,
-  Rüstkammer_der_streitenden_Königreiche,
+  Rüstkammer_der_Dampfenden_Dschungel,
+  Rüstkammer_der_Streitenden_Königreiche,
   Rüstkammer_der_Wüstenreiche,
   Kodex_des_Götterwirkens,
   Divinarium,
-  Arkane_Schmiede;
+  Arkane_Schmiede,
+  Helden_des_Gottwals,
+  Gestade_des_Gottwals,
+  Helden_der_Flusslande,
+  Die_Flusslande,
+  Helden_der_Winterwacht,
+  Die_Winterwacht,
+  Helden_des_Dornenreiches,
+  Das_Dornenreich,
+  Kodex_der_Käuter,
+  Archiv_der_Ausrüstung;
 
 
   @JsonValue

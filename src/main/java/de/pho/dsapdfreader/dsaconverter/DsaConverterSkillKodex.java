@@ -161,6 +161,7 @@ public class DsaConverterSkillKodex extends DsaConverter<SkillRaw, ConverterAtom
       this.getFlags().initDataFlags();
       newEntry.setTopic(conf.topic);
       newEntry.setPublication(conf.publication);
+      newEntry.name = cleanText;
       returnValue.add(newEntry);
     }
     this.getFlags().wasName.set(true);

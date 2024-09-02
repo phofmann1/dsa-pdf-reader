@@ -250,6 +250,9 @@ public abstract class Extractor
         .replace("Ö", "OE")
         .replace("Ü", "UE")
         .replace("ß", "SS")
+        .replaceAll("^DAS ", "")
+        .replaceAll("^DER ", "")
+        .replaceAll("^DIE ", "")
     ).trim()
         .replace(" ", "_")
         .replace("__", "_");

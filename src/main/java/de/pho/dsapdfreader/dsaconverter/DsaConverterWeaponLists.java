@@ -26,8 +26,7 @@ import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsWe
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicFlagsWeapon>
-{
+public class DsaConverterWeaponLists extends DsaConverter<WeaponRaw, ConverterAtomicFlagsWeapon> {
   /* Test Strings:
   1W6+2GE 14+0/–1kurz0,5 Stn30 HF50 Skomp (2 AP)
   1W6+2GE 14+0/–1kurz0,5 Stn30 HF50 Skomp (1AP)
@@ -52,14 +51,12 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
       KEY_WAFFENVORTEIL,
       KEY_WAFFENNACHTEIL
   };
-  private static final String KEY_COMBATSKILL = "Kampftechnik";
   private ConverterAtomicFlagsWeapon flags;
   private List<WeaponRaw> returnValue;
 
 
   @Override
-  public List<WeaponRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
-  {
+  public List<WeaponRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf) {
     returnValue = new ArrayList<>();
     String msg = String.format("parse  result to %s", getClassName());
     LOGGER.debug(msg);
@@ -70,11 +67,9 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
         .forEach(t -> {
 
           String cleanText = t.text
-              .replace("Orkkhammer", "Orkhammer")
               .trim();
 
-          if (cleanText != null && !cleanText.isEmpty())
-          {
+          if (cleanText != null && !cleanText.isEmpty()) {
             // validate the flags for conf
             boolean isFirstValue = validateIsFirstValue(t, conf);
             boolean isDataKey = validateIsDataKey(t, cleanText, conf);
@@ -82,20 +77,19 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
             finishPredecessorAndStartNew(isFirstValue, false, returnValue, conf, cleanText);
 
             // handle keys
-            if (isDataKey)
-            {
+            if (isDataKey) {
               applyFlagsForKey(t.text);
             }
 
             // handle values
-            if (isDataValue)
-            {
+            if (isDataValue) {
               applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
               applyFlagsForNoKeyStrings(getFlags(), t.text);
             }
 
-            getFlags().getFirstFlag().set(isFirstValue);
 
+            getFlags().wasData.set(isFirstValue);
+            getFlags().getFirstFlag().set(isFirstValue);
           }
         });
     concludePredecessor(last(returnValue)); //finish the last entry in list
@@ -103,53 +97,51 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
   }
 
   @Override
-  protected String[] getKeys()
-  {
+  protected String[] getKeys() {
     return KEYS;
   }
 
   @Override
-  protected ConverterAtomicFlagsWeapon getFlags()
-  {
-    if (flags == null)
-    {
+  protected ConverterAtomicFlagsWeapon getFlags() {
+    if (flags == null) {
       this.flags = new ConverterAtomicFlagsWeapon();
     }
     return flags;
   }
 
   @Override
-  protected String getClassName()
-  {
+  protected String getClassName() {
     return this.getClass().getCanonicalName();
   }
 
   @Override
   protected void handleFirstValue(List<WeaponRaw> returnValue, TopicConfiguration conf, String cleanText) {
+
     WeaponRaw lastValue = last(returnValue);
     if (this.getFlags().getWasEndOfEntry().get() || lastValue != null && lastValue.name.equals("Krähenfüße") && this.getFlags().wasRemark.get()) {
       WeaponRaw newEntry = new WeaponRaw();
       this.getFlags().initDataFlags();
       newEntry.setTopic(conf.topic);
       newEntry.setPublication(conf.publication);
-      newEntry.combatSkillKey = null; //TODO: Combat Skill!!
-      newEntry.name = cleanText.substring(0, cleanText.indexOf("Komplexität"));
-      if (cleanText.endsWith("Komplexität")) {//Variante Dornenreich, dort ist die komplexität in einer eigenen Zeile
-      }
-      else if (cleanText.contains("Komplexität"))
-      { //Variante Gestade, dort ist die komplexität in der gleichen Zeile wie die Headline und der Name am Ende
-        int endIndex = cleanText.indexOf("NameKampf") > 0 ? cleanText.indexOf("NameKampf") : cleanText.length();
-        newEntry.craft = cleanText.substring(cleanText.indexOf("Komplexität ") + 12, endIndex);
+      newEntry.isImprovised = cleanText.contains("(2H, i)") || cleanText.contains("(i)");
+      newEntry.name = cleanText
+          .replace("WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexität", "")
+          .replace("WaffeKampftechnikTPLZRWMunitionstypGewichtLängePreisKomplexität", "")
+          .replace("(2H, i)", "")
+          .replace("(2H)", "")
+          .replace("(i)", "")
+          .replace("AmazonenschildSchilde", "Amazonenschild");
 
+      if (cleanText.endsWith("AmazonenschildSchilde")) newEntry.combatSkillKey = CombatSkillKey.schilde;
+      if (newEntry.name != null && !newEntry.name.isEmpty()) {
+        returnValue.add(newEntry);
       }
-      returnValue.add(newEntry);
 
     }
   }
 
   @Override
-  protected void applyFlagsForKey(String key)
-  {
+  protected void applyFlagsForKey(String key) {
     this.getFlags().wasName.set(false);
     this.getFlags().wasData.set(false);
     this.getFlags().wasRemark.set(key.trim().equals(KEY_REMARK));
@@ -158,8 +150,7 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
   }
 
   @Override
-  protected void applyFlagsForNoKeyStrings(ConverterAtomicFlagsWeapon flags, String text)
-  {
+  protected void applyFlagsForNoKeyStrings(ConverterAtomicFlagsWeapon flags, String text) {
     String cleanText = text.replace("NameKampftechnikTP", "")
         .replace("L+S", "")
         .replace("LZ", "")
@@ -171,50 +162,27 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
         .replace("Munitionstyp", "");
     super.applyFlagsForNoKeyStrings(flags, text);
     if (text.endsWith("Komplexität")) this.getFlags().wasComplexity.set(true);
-    else if (flags.wasComplexity.get())
-    {
+    else if (flags.wasComplexity.get()) {
       this.getFlags().wasComplexity.set(false);
       this.getFlags().wasName.set(true);
     }
-    else if (flags.wasName.get() && !cleanText.isEmpty())
-    {
+    else if (flags.wasName.get() && !cleanText.isEmpty()) {
       this.getFlags().wasName.set(false);
       this.getFlags().wasData.set(true);
     }
-    else if (text.contains("Komplexität"))
-    {
+    else if (text.contains("Komplexität")) {
       this.getFlags().wasData.set(true);
     }
-    if (flags.wasDisadvantage.get() && text.endsWith("."))
-    {
+    if (flags.wasDisadvantage.get() && text.endsWith(".")) {
       this.getFlags().wasDisadvantage.set(false);
     }
   }
 
   @Override
-  protected void applyDataValue(WeaponRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
-  {
-    if (currentDataObject != null)
-    {
-      if (this.getFlags().wasName.get())
-      {
-        String newName = cleanText
-            .replace("Name", "")
-            .replace("Kampftechnik", "")
-            .replace("TP", "")
-            .replace("L+S", "")
-            .replace("AT/PA-Mod", "")
-            .replace("LZ", "")
-            .replace("RW", "")
-            .replace("Munitionstyp", "")
-            .replace("Gewicht", "")
-            .replace("Länge", "")
-            .replace("Preis", "");
-        currentDataObject.name = newName.isEmpty() ? currentDataObject.name : newName;
-      }
-      if (this.getFlags().wasData.get())
-      {
-        currentDataObject.isImprovised = isMatch(PAT_IMPROVISED, cleanText);
+  protected void applyDataValue(WeaponRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic) {
+    if (currentDataObject != null) {
+      if (this.getFlags().wasData.get()) {
+        currentDataObject.isImprovised = (currentDataObject != null && currentDataObject.isImprovised) || isMatch(PAT_IMPROVISED, cleanText);
         currentDataObject.tp = concatForDataValue(currentDataObject.tp, firstMatch(PAT_TP, cleanText));
         if (currentDataObject.tp != null && !currentDataObject.tp.isEmpty()
             || currentDataObject.name.equals("Lederschild")
@@ -244,8 +212,7 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
     }
   }
 
-  private CombatSkillKey extractCombatSkillKey(CombatSkillKey combatSkillKey, String cleanText)
-  {
+  private CombatSkillKey extractCombatSkillKey(CombatSkillKey combatSkillKey, String cleanText) {
     String weaponString = firstMatch(Pattern.compile("^[A-zäöüÄÖÜß]*"), cleanText
         .replace("(2H)", "")
         .replace("(2H, i)", "")
@@ -254,38 +221,37 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
         .replace("Zweihand- hiebwaffen", "Zweihandhiebwaffen")
         .trim());
     CombatSkillKey result = combatSkillKey;
-    try
-    {
+    try {
       result = CombatSkillKey.parse(weaponString);
     }
-    catch (IllegalArgumentException e)
-    {
+    catch (IllegalArgumentException e) {
 
     }
     return combatSkillKey != null ? combatSkillKey : result;
   }
 
   @Override
-  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
-  {
-    return !t.text.equals("Regelwerk")
-        && !t.text.equals("Aventurisches")
+  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf) {
+    return !t.text.equals("Kodex des Schwertes")
         && !t.text.equals("Aventurisches Kompendium")
+        && !t.text.equals("Aventurisches")
+        && !t.text.equals("Kompendium")
+        && !t.text.equals("Regelwerk")
+        && !t.text.equals("62ff.")
+        && !t.text.equals("(i)")
+        && !t.text.isEmpty()
         && !isNumeric(t.text)
         && t.isBold
         && !t.isItalic
-        && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text))
-        && (t.text.endsWith("Komplexität") || t.text.contains("Komplexität"));
+        && Arrays.stream(this.getKeys()).noneMatch(k -> k.equals(t.text));
   }
 
   @Override
-  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-  {
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
     return t.isBold && Arrays.stream(getKeys()).anyMatch(k -> k.equals(t.text));
   }
 
   @Override
-  protected void concludePredecessor(WeaponRaw lastEntry)
-  {
+  protected void concludePredecessor(WeaponRaw lastEntry) {
   }
 }

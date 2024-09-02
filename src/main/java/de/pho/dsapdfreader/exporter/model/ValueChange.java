@@ -24,21 +24,25 @@ public class ValueChange implements Serializable {
   public ValueChangeType type;
   @JsonProperty("valueChange")
   public Integer change;
+  public Integer valueChangeMax;
 
   public SkillKey skillKey;
   public List<SkillKey> skillKeysOneOf;
   public CombatSkillKey combatSkillKey;
   public List<CombatSkillKey> combatSkillKeysOneOf;
 
+  public MysticalSkillKey mysticalSkillKey;
+  public List<MysticalSkillKey> mysticalSkillKeys;
+
   public Boolean perLevel;
   public Boolean temporary;
   public Boolean useParentSelection;
   public Boolean conditionally; //Trifft nicht immer zu (Zwergennase)
   public List<SkillUsageKey> usageKeys;
+  public List<Integer> attributeValueChanges;
   public TargetCategory targetCategory;
   public UsageRestrictionKey usageRestrictionKey;
   public MysticalSkillFeature featureKey;
-  public List<MysticalSkillKey> mysticalSkillKeys;
   public MysticalSkillModification mysticalSkillModificationType;
   public TraditionKey traditionKey;
   public SkillUsageKey newSkillUsageKey;
@@ -46,14 +50,7 @@ public class ValueChange implements Serializable {
   public MysticalSkillCategory mysticalSkillCategory;
 
   public MysticalSkillKey getMysticalSkillKey() {
-    //DELETE ME
-    if (this.mysticalSkillKeys != null && this.mysticalSkillKeys.size() == 1) {
-      return this.mysticalSkillKeys.get(0);
-    }
-    else {
-      //System.err.println("FEHLER");
-      return null;
-    }
+    return this.mysticalSkillKey;
   }
 
   @JsonIgnore

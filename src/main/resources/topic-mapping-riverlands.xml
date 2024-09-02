@@ -1,0 +1,114 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - Prosa Rüstungen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>15</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>24</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>999</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage - Prosa Rüstungen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>11</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Prosa Rüstungen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>17</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - --Hölzerne-- --Hölzerne --">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>24</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>(2H, i)2W6+1KK</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>(2H, i)Zweihandhiebwaffen2W6+1KK</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategySplitLineAfterPosition - Tracht" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>100</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>6</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine - make split regular">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>100.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

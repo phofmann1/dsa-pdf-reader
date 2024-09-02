@@ -1,0 +1,50 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyConcatLinesToFirst - Concat Dreizack" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>93</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>31</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>32</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategySplitLineAfterPosition - Richtschwert">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>128</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>37</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>12</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Referenz Kodex des Schwertes" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>191</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>22</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>
