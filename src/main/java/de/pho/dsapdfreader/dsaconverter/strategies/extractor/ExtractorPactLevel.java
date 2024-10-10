@@ -6,15 +6,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class ExtractorAP extends Extractor
-{
+public class ExtractorPactLevel {
 
-
-  private static final Pattern AP = Pattern.compile("-?\\d*(?=( Abenteuerpunkt|Abenteuerpunkte|\\/))");
-
-  public static float retrieve(String apString, int currentIndex) {
+  public static Integer retrieve(String pactLevelString, int currentIndex) {
     Integer returnValue = 0;
-    Matcher apMatcher = AP.matcher(apString.replace("–", "-"));
+    Matcher apMatcher = Pattern.compile("\\d+").matcher(pactLevelString);
     List<Integer> results = apMatcher.results()
         .map(MatchResult::group) // Convert MatchResult to string
         .filter(v -> !v.isEmpty() && !v.equals("-")) // filter empty String (Berufsgeheimnis...)
@@ -22,10 +18,10 @@ public class ExtractorAP extends Extractor
         .filter(v -> v != 0) // filter only valid Results (-1 is always the End of the List)
         .collect(Collectors.toList());
 
-    if (results.size() > 0)
-    {
+    if (results.size() > 0) {
       returnValue = results.size() > currentIndex ? results.get(currentIndex) : results.get(0);
     }
     return returnValue;
   }
+
 }

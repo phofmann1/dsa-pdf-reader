@@ -19,6 +19,42 @@
         </params>
     </strategy>
 
+    <strategy name="StrategySplitLineAfterPosition - Split Stufe von Kreis Stufe" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>242</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>5</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - not bold">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>242</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>39.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+
 
     <strategy name="StrategyRemovePages - 246 to 310" index="3">
         <strategyClass>
@@ -109,6 +145,27 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyConcatLinesToFirst - concat Name" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>336</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>seperator</key>
+                <value></value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategyRemoveLinesFromPage - content from wrong page" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
@@ -124,6 +181,28 @@
             <parameter>
                 <key>untilLine</key>
                 <value>40</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyConcatLinesToFirst - concat Name" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>343</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>65</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>66</value>
+            </parameter>
+            <parameter>
+                <key>seperator</key>
+                <value></value>
             </parameter>
         </params>
     </strategy>

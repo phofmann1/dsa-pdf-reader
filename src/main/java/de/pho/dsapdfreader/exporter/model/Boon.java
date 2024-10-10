@@ -18,7 +18,7 @@ public class Boon
   public String name;
   public BoonCategory category;
   public Integer levels;
-  public Integer ap;
+  public Float ap;
   public List<Publication> publications = new ArrayList<>();
   public Boolean selectable;
   public SelectionCategory selectionCategory;

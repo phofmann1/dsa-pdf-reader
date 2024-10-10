@@ -3,6 +3,7 @@ package de.pho.dsapdfreader.exporter.model;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import de.pho.dsapdfreader.exporter.model.enums.CloseCombatRange;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
@@ -18,6 +19,7 @@ public class MeleeWeapon implements EquipmentI
   public CombatSkillKey combatSkillKey;
   public Publication publication;
   public TP tp;
+  @JsonInclude
   public List<AttributeValuePair> attributeTpBonuses;
   public int atModifier;
   public int paModifier;

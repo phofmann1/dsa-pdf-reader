@@ -71,7 +71,12 @@ public class LoadToMeleeWeapon
 
       if (!returnValue.parryForbidden)
       {
-        returnValue.paModifier = Integer.valueOf(weaponModifiers[1].trim());
+        if (weaponModifiers[1].trim().equals("-")) {
+          returnValue.parryForbidden = true;
+        }
+        else {
+          returnValue.paModifier = Integer.valueOf(weaponModifiers[1].trim());
+        }
       }
 
       returnValue.closeCombatRangeKey = mwr.combatDistance.isEmpty() ? (mwr.name.equals("Kriegslanze") ? CloseCombatRange.ÜBERLANG : CloseCombatRange.KURZ) : CloseCombatRange.valueOf(mwr.combatDistance.toUpperCase());

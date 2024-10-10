@@ -76,7 +76,11 @@ public enum ArmorKey {
   sewerischer_fluegelharnisch,
   knochenruestung,
   pantherruestung,
-  ringelpanzer;
+  ringelpanzer,
+  flechtruestung,
+  giftkammpanzer,
+  selemer_spiegelpanzer,
+  tracht_der_gesichtslosen;
 
 
   @JsonValue

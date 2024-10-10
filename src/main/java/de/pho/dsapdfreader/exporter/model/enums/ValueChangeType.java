@@ -17,7 +17,8 @@ public enum ValueChangeType
   newSkillUsage, //Neues Anwendungsgebiet für Skill (Fuchssinn)
   impedeAdversary, //ValueChange wird auf die Probe des gegenübers angewendet (Allerweltsname)
   inebt,
-  specialize; //Bei Charaktergenerierung
+  specialize, //Bei Charaktergenerierung
+  newMysticalCategory;
 
   @JsonValue
   public int toValue() {

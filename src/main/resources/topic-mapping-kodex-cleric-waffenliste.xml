@@ -1,0 +1,91 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1300</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize - Topic headlines" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1000</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage - Steinchen" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>424</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>38</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>39</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Efferdbart Wurfwaffe" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>424</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>42</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

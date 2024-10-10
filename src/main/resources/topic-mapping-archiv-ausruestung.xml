@@ -16,6 +16,20 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Dreizack am Start der Zeile" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>93</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>50</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategySplitLineAfterPosition - Richtschwert">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
@@ -33,6 +47,21 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Sonnenzepter am Start der Zeile" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>133</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>34</value>
+            </parameter>
+        </params>
+    </strategy>
+
 
     <strategy name="StrategyRemoveLinesFromPage - Referenz Kodex des Schwertes" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>

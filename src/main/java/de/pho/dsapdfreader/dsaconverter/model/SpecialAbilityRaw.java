@@ -29,16 +29,18 @@ public class SpecialAbilityRaw implements DsaObjectI
   public String difficulty;
   @CsvBindByName
   public String combatSkills;
+  @CsvBindByName
+  public String verbreitung;
+  @CsvBindByName
+  public String kreisDerVerdammnis;
 
   @Override
-  public String getName()
-  {
+  public String getName() {
     return name;
   }
 
   @Override
-  public void setName(String name)
-  {
+  public void setName(String name) {
     this.name = name;
   }
 

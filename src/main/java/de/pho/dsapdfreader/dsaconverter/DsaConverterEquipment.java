@@ -18,27 +18,25 @@ import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsEquipment;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
-public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterAtomicFlagsEquipment>
-{
+public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterAtomicFlagsEquipment> {
   /* Test Strings:
    */
 
   private static final String[] JEWLERY_LEVELS = {"einfach", "verziert", "edel"};
   private static final String BREAKPOINT = "Achat";
   private static final Logger LOGGER = LogManager.getLogger();
+  private static final String HL_KODEX_DES_GÖTTERWIRKENS = "ZeremonialgegenständeGegenstandStrukturpunkteGewichtPreisKomplexität";
   private static final String HL_BASE = "GegenstandGewichtStrukturpunktePreisKomplexität";
-  private static final String HL_INSTRUMENT = "GegenstandGewichtPreis";
+  private static final String HL_LEISURE = "GegenstandGewichtPreisKomplexität";
+  private static final String HL_INSTRUMENT_AND_ANIMALEQUIPMENT = "GegenstandGewichtPreis";
   private static final String HL_DIAMONDS = "(geschliffen Preis 2-5fach)GegenstandFarbePreis/10 Karat";
   private static final String HL_ELIXIR = "Preis (beim Alchimisten)";
-  private static final String HL_LEISURE = "GegenstandGewichtPreisKomplexität";
   private static final String HL_ANIMALS = "TierPreis";
-  private static final String HL_ANIMAL_EQUIPMENT = "GegenstandGewichtPreis";
   private static final String HL_VEHICLE = "GegenstandPreis";
 
   private static final String HL_RÜSTKAMMER = "GewichtPreisKomplexität";
   private static final String HL_REGIONALBAND = "Preise";
   private static final String HL_REGIONALBAND_II = "Preis";
-  private static final String HL_KODEX_DES_GÖTTERWIRKENS = "ZeremonialgegenständeGegenstandStrukturpunkteGewichtPreisKomplexität";
 
   //\d+(?= ?StP)
   private static final Pattern PAT_STRUCTURE = Pattern.compile("\\d+(?= ?StP)");
@@ -146,15 +144,14 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
     this.applyCurrentCategory(cleanText);
 
     String name = cleanText
-        .replace(HL_BASE, "")
         .replace(HL_KODEX_DES_GÖTTERWIRKENS, "")
-        .replace(HL_ANIMALS, "")
-        .replace(HL_DIAMONDS, "")
-        .replace(HL_VEHICLE, "")
+        .replace(HL_BASE, "")
         .replace(HL_LEISURE, "")
+        .replace(HL_INSTRUMENT_AND_ANIMALEQUIPMENT, "")
+        .replace(HL_DIAMONDS, "")
         .replace(HL_ELIXIR, "")
-        .replace(HL_INSTRUMENT, "")
-        .replace(HL_ANIMAL_EQUIPMENT, "")
+        .replace(HL_VEHICLE, "")
+        .replace(HL_ANIMALS, "")
         .replace(HL_RÜSTKAMMER, "")
         .replace(HL_REGIONALBAND, "")
         .replace(HL_REGIONALBAND_II, "")
@@ -182,17 +179,17 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
     else if (cleanText.contains(HL_ANIMALS)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("TierPreis")));
     }
-    else if (cleanText.contains(HL_RÜSTKAMMER)) {
+    else if (cleanText.contains(HL_RÜSTKAMMER) && !cleanText.contains("Gegenstand")) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_RÜSTKAMMER)));
+    }
+    else if (cleanText.contains("Gegenstand")) {
+      currentCategory.set(cleanText.substring(0, cleanText.indexOf("Gegenstand")));
     }
     else if (cleanText.contains(HL_REGIONALBAND)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND)));
     }
     else if (cleanText.contains(HL_REGIONALBAND_II)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND_II)));
-    }
-    else {
-      currentCategory.set(cleanText.substring(0, cleanText.indexOf("Gegenstand")));
     }
   }
 
@@ -241,12 +238,11 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   {
     return t.isBold
         && (t.text.contains(HL_BASE)
-        || t.text.contains(HL_INSTRUMENT)
+        || t.text.contains(HL_INSTRUMENT_AND_ANIMALEQUIPMENT)
         || t.text.contains(HL_DIAMONDS)
         || t.text.contains(HL_ELIXIR)
         || t.text.contains(HL_LEISURE)
         || t.text.contains(HL_ANIMALS)
-        || t.text.contains(HL_ANIMAL_EQUIPMENT)
         || t.text.contains(HL_VEHICLE)
         || t.text.contains(HL_RÜSTKAMMER)
         || t.text.contains(HL_REGIONALBAND)
@@ -261,12 +257,11 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
     return super.validateIsDataValue(t, cleanText, conf)
         && !cleanText.equals("Ausrüstung")
         && !cleanText.equals("Strassenraub & Halsabschneider")
-        && !cleanText.endsWith(HL_ANIMAL_EQUIPMENT)
+        && !cleanText.endsWith(HL_INSTRUMENT_AND_ANIMALEQUIPMENT)
         && !cleanText.endsWith(HL_ANIMALS)
         && !cleanText.endsWith(HL_BASE)
         && !cleanText.endsWith(HL_DIAMONDS)
         && !cleanText.endsWith(HL_ELIXIR)
-        && !cleanText.endsWith(HL_INSTRUMENT)
         && !cleanText.endsWith(HL_LEISURE)
         && !cleanText.endsWith(HL_VEHICLE)
         && !cleanText.contains(HL_RÜSTKAMMER)

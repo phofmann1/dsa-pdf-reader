@@ -1,6 +1,7 @@
 package de.pho.dsapdfreader.exporter.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
@@ -14,6 +15,7 @@ public class RangedWeapon implements EquipmentI
   public WeaponKey key;
   public CombatSkillKey combatSkillKey;
   public Publication publication;
+  @JsonInclude
   public TP tp;
   public Double weight;
   public Double size;

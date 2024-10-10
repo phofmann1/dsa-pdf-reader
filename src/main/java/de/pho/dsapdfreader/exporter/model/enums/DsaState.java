@@ -1,7 +1,8 @@
 package de.pho.dsapdfreader.exporter.model.enums;
 
-public enum DsaState
-{
+import com.fasterxml.jackson.annotation.JsonValue;
+
+public enum DsaState {
   baumartig,
   bewegungsunfähig,
   bewusstlos,
@@ -31,5 +32,10 @@ public enum DsaState
   versteinert,
   wergestalt,
   überrascht,
-  übler_geruch
+  übler_geruch;
+
+  @JsonValue
+  public int toValue() {
+    return ordinal();
+  }
 }

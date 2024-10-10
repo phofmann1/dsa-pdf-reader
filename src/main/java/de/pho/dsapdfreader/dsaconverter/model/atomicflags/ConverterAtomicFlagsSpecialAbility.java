@@ -2,8 +2,7 @@ package de.pho.dsapdfreader.dsaconverter.model.atomicflags;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class ConverterAtomicFlagsSpecialAbility implements ConverterAtomicFlagsI
-{
+public class ConverterAtomicFlagsSpecialAbility implements ConverterAtomicFlagsI {
   public AtomicBoolean wasName;
   public AtomicBoolean wasDescription;
   public AtomicBoolean wasRules;
@@ -12,21 +11,20 @@ public class ConverterAtomicFlagsSpecialAbility implements ConverterAtomicFlagsI
   public AtomicBoolean wasAdvancedCombatAbility;
   public AtomicBoolean wasDifficulty;
   public AtomicBoolean wasCombatSkills;
+  public AtomicBoolean wasVerbreitung;
+  public AtomicBoolean wasKreisDerVerdammnis;
 
-  public ConverterAtomicFlagsSpecialAbility()
-  {
+  public ConverterAtomicFlagsSpecialAbility() {
     initDataFlags();
   }
 
   @Override
-  public AtomicBoolean getFirstFlag()
-  {
+  public AtomicBoolean getFirstFlag() {
     return wasName;
   }
 
   @Override
-  public void initDataFlags()
-  {
+  public void initDataFlags() {
     wasName = new AtomicBoolean(false);
     wasDescription = new AtomicBoolean(false);
     wasRules = new AtomicBoolean(false);
@@ -35,5 +33,7 @@ public class ConverterAtomicFlagsSpecialAbility implements ConverterAtomicFlagsI
     wasAdvancedCombatAbility = new AtomicBoolean(false);
     wasDifficulty = new AtomicBoolean(false);
     wasCombatSkills = new AtomicBoolean(false);
+    wasVerbreitung = new AtomicBoolean(false);
+    wasKreisDerVerdammnis = new AtomicBoolean(false);
   }
 }

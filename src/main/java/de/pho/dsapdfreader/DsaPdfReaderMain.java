@@ -37,7 +37,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Pair;
 import org.javatuples.Quartet;
-import org.javatuples.Triplet;
+import org.javatuples.Quintet;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -510,7 +510,7 @@ public class DsaPdfReaderMain {
 
         if (conf.topic == TopicEnum.ABILITIES) {
 
-          Triplet<StringBuilder, StringBuilder, StringBuilder> t = generateSaStringBuilders(raws);
+          Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> t = generateSaStringBuilders(raws);
           // name
           writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_names"));
           writer.write(t.getValue0().toString());
@@ -524,6 +524,11 @@ public class DsaPdfReaderMain {
           // description
           writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_descriptions"));
           writer.write(t.getValue2().toString());
+          writer.close();
+
+          // preconditions
+          writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_preconditions"));
+          writer.write(t.getValue3().toString());
           writer.close();
         }
 
@@ -548,8 +553,10 @@ public class DsaPdfReaderMain {
               return b;
             })
             .collect(Collectors.toList());
-
-        boons.addAll(corrections.stream().filter(c -> boons.stream().noneMatch(b -> b.key == c.key)).collect(Collectors.toList()));
+        List<Boon> additionals = corrections.stream()
+            .filter(c -> (c.publications == null || c.publications.contains(Publication.valueOf(conf.publication))) && boons.stream().noneMatch(b -> b.key == c.key))
+            .collect(Collectors.toList());
+        boons.addAll(additionals);
         List<Boon> finalList = boons.stream().filter(b -> b.name != null).collect(Collectors.toList());
 
         ObjectMapper mapper = initObjectMapper();
@@ -562,7 +569,7 @@ public class DsaPdfReaderMain {
         writer.close();
 
 
-        Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> t = generateBoonStringBuilders(raws);
+        Quintet<StringBuilder, StringBuilder, StringBuilder, StringBuilder, StringBuilder> t = generateBoonStringBuilders(raws);
         // name
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "boons_names"));
         writer.write(t.getValue0().toString());
@@ -581,6 +588,11 @@ public class DsaPdfReaderMain {
         // preconditions
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "boons_preconditions"));
         writer.write(t.getValue3().toString());
+        writer.close();
+
+        // ap
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "boons_ap"));
+        writer.write(t.getValue4().toString());
         writer.close();
 
       }
@@ -1308,8 +1320,8 @@ public class DsaPdfReaderMain {
   }
 
 
-  private static Triplet<StringBuilder, StringBuilder, StringBuilder> generateSaStringBuilders(List<SpecialAbilityRaw> rawMysticalSkills) {
-    Triplet<StringBuilder, StringBuilder, StringBuilder> returnValue = new Triplet<>(new StringBuilder(), new StringBuilder(), new StringBuilder());
+  private static Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> generateSaStringBuilders(List<SpecialAbilityRaw> rawMysticalSkills) {
+    Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> returnValue = new Quartet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
     rawMysticalSkills.stream().forEach(raw -> {
 
       int levels = LoadToSpecialAbility.extractLevels(raw.name);
@@ -1354,6 +1366,7 @@ public class DsaPdfReaderMain {
             returnValue.getValue0().append(p.getValue0().toValue() + " {" + p.getValue1() + "}\r\n");
             returnValue.getValue1().append(p.getValue0().toValue() + " {" + raw.rules + "} \r\n");
             returnValue.getValue2().append(p.getValue0().toValue() + " {" + raw.description + "} \r\n");
+            returnValue.getValue3().append(p.getValue0().toValue() + " {" + raw.preconditions + "} \r\n");
           }
           else {
             LOGGER.error("Special Ability (" + p.getValue1() + ") has no key!");
@@ -1392,8 +1405,8 @@ public class DsaPdfReaderMain {
     return returnValue;
   }
 
-  private static Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> generateBoonStringBuilders(List<BoonRaw> rawBoon) {
-    Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> returnValue = new Quartet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
+  private static Quintet<StringBuilder, StringBuilder, StringBuilder, StringBuilder, StringBuilder> generateBoonStringBuilders(List<BoonRaw> rawBoon) {
+    Quintet<StringBuilder, StringBuilder, StringBuilder, StringBuilder, StringBuilder> returnValue = new Quintet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
     rawBoon.stream().forEach(raw -> {
       int levels = LoadToSpecialAbility.extractLevels(raw.name);
       String name = (levels > 1
@@ -1410,6 +1423,7 @@ public class DsaPdfReaderMain {
         returnValue.getValue1().append(p.getValue0().toValue() + " {" + raw.rules + "} \r\n");
         returnValue.getValue2().append(p.getValue0().toValue() + " {" + raw.description + "} \r\n");
         returnValue.getValue3().append(p.getValue0().toValue() + " {" + raw.preconditions + "} \r\n");
+        returnValue.getValue4().append(p.getValue0().toValue() + " {" + raw.ap + "} \r\n");
       }
       else {
         LOGGER.error("Boon (" + p.getValue1() + ") has no key!");

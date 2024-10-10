@@ -481,6 +481,7 @@
     "valueChanges": [
       {
         "key": 26,
+        "type": 14,
         "mysticalSkillCategory": 20,
         "valueChange": 3
       }
@@ -653,6 +654,7 @@
     "valueChanges": [
       {
         "key": 26,
+        "type": 14,
         "mysticalSkillCategory": 21,
         "valueChange": 3
       }
@@ -748,39 +750,6 @@
         "key": 1,
         "type": 1,
         "valueChange": 20
-      }
-    ]
-  },
-  {
-    "key": 172,
-    "name": "Begabung - Magie",
-    "category": 0,
-    "ap": 6,
-    "selectable": true,
-    "selectionCategory": 2,
-    "freeText": false,
-    "multiselect": 1,
-    "requirementBoons": [
-      {
-        "key": 135,
-        "exists": false,
-        "level": 0,
-        "isSameSelection": true
-      },
-      {
-        "key": 165,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 7,
-        "perLevel": false,
-        "temporary": false,
-        "useParentSelection": true,
-        "conditionally": false,
-        "valueChange": 0
       }
     ]
   },
@@ -2539,6 +2508,14 @@
     ]
   },
   {
+    "key": 63,
+    "ap": 0.5
+  },
+  {
+    "key": 64,
+    "ap": 0.5
+  },
+  {
     "key": 70,
     "requirementBoons": [
       {
@@ -2586,48 +2563,52 @@
     ]
   },
   {
-    "key": 125,
-    "name": "Seesprache",
+    "key": 112,
+    "category": 1,
+    "multiselect": 2
+  },
+  {
+    "key": 172,
+    "name": "Begabung - Magie",
+    "publications": [
+      39
+    ],
+    "category": 0,
+    "ap": 6,
+    "selectable": true,
+    "selectionCategory": 2,
+    "freeText": false,
+    "multiselect": 1,
     "requirementBoons": [
       {
-        "key": 197,
+        "key": 135,
+        "exists": false,
+        "level": 0,
+        "isSameSelection": true
+      },
+      {
+        "key": 165,
         "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 7,
+        "perLevel": false,
+        "temporary": false,
+        "useParentSelection": true,
+        "conditionally": false,
+        "valueChange": 0
       }
     ]
   },
   {
-    "key": 133,
-    "name": "Tierische Kampfgefährten",
-    "requirementBoons": [
-      {
-        "key": 196,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 142,
-    "name": "Verführerische Gestalt",
-    "requirementBoons": [
-      {
-        "key": 195,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 152,
-    "name": "Wasser des Lebens",
-    "requirementBoons": [
-      {
-        "key": 197,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 197,
+    "key": 198,
     "name": "Begabung - Klerikal",
+    "publications": [
+      39
+    ],
     "category": 0,
     "ap": 6,
     "selectable": true,
@@ -2660,7 +2641,7 @@
     ]
   },
   {
-    "key": 198,
+    "key": 199,
     "name": "Unfähig - Magisch",
     "category": 1,
     "ap": 6,
@@ -2691,7 +2672,7 @@
     ]
   },
   {
-    "key": 199,
+    "key": 200,
     "name": "Unfähig - Klerikal",
     "category": 1,
     "ap": 6,
@@ -2718,6 +2699,58 @@
         "key": 0,
         "type": 12,
         "useParentSelection": true
+      }
+    ]
+  },
+  {
+    "key": 125,
+    "name": "Seesprache",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 197,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 133,
+    "name": "Tierische Kampfgefährten",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 196,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 142,
+    "name": "Verführerische Gestalt",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 195,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 152,
+    "name": "Wasser des Lebens",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 197,
+        "exists": true
       }
     ]
   }

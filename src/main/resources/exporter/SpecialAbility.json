@@ -68,6 +68,34 @@
     "newMysticalSkillCategoryKey": 19
   },
   {
+    "key": 1060,
+    "advancedAbilities": {
+      "advancedAbilityKeyOptions": [
+        {
+          "nOf": 1,
+          "options": [
+            129,
+            628
+          ]
+        },
+        {
+          "nOf": 1,
+          "options": [
+            840,
+            841
+          ]
+        },
+        {
+          "nOf": 1,
+          "options": [
+            906,
+            979
+          ]
+        }
+      ]
+    }
+  },
+  {
     "key": 1102,
     "newMysticalSkillCategoryKey": 17
   },

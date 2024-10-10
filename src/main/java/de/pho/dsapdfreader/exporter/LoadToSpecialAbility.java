@@ -24,6 +24,8 @@ import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEntityDomain;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPactLevel;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.exporter.model.RequirementMysticalSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementSkill;
@@ -188,13 +190,15 @@ public class LoadToSpecialAbility
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
 
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
+        specialAbility.requiredEntityDomainKey = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieve(raw.verbreitung) : null;
+        if (raw.kreisDerVerdammnis != null && !raw.kreisDerVerdammnis.isEmpty()) {
+          specialAbility.requiredPactLevel = ExtractorPactLevel.retrieve(raw.kreisDerVerdammnis, currentLevel);
+        }
 
-        if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
-        {
+        if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung) {
 
           SkillUsage su = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
-          if (su != null)
-          {
+          if (su != null) {
             specialAbility.newSkillUsageKey = su.key;
           }
         }

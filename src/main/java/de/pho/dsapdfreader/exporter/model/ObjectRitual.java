@@ -16,7 +16,7 @@ public class ObjectRitual
   public String name;
   public Publication publication;
   public ArtifactKey artifactKey;
-  public int ap;
+  public float ap;
   public Cost binding;
   public Cost costActivation;
   public Integer volume;

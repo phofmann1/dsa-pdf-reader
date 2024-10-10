@@ -65,7 +65,10 @@ public enum Publication
   Helden_des_Dornenreiches,
   Das_Dornenreich,
   Kodex_der_Käuter,
-  Archiv_der_Ausrüstung;
+  Archiv_der_Ausrüstung,
+  Geschöpfe_der_Anderswelt,
+  Die_Echsensümpfe,
+  Helden_der_Echsensümpfe;
 
 
   @JsonValue

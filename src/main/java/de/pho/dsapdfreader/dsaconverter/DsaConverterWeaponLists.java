@@ -15,6 +15,7 @@ import static de.pho.dsapdfreader.dsaconverter.DsaConverterRangedWeapon.PAT_RANG
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
@@ -23,6 +24,7 @@ import org.apache.logging.log4j.Logger;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.WeaponRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsWeapon;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
@@ -63,18 +65,29 @@ public class DsaConverterWeaponLists extends DsaConverter<WeaponRaw, ConverterAt
 
     flags = new ConverterAtomicFlagsWeapon();
 
+    AtomicReference<CombatSkillKey> currentCombatSkillKey = new AtomicReference<>();
+
     resultList
         .forEach(t -> {
 
           String cleanText = t.text
               .trim();
 
-          if (cleanText != null && !cleanText.isEmpty()) {
+          if (!cleanText.isEmpty()) {
             // validate the flags for conf
             boolean isFirstValue = validateIsFirstValue(t, conf);
             boolean isDataKey = validateIsDataKey(t, cleanText, conf);
             boolean isDataValue = validateIsDataValue(t, cleanText, conf);
             finishPredecessorAndStartNew(isFirstValue, false, returnValue, conf, cleanText);
+
+            if (cleanText.startsWith("Kampftechnik")) {
+              currentCombatSkillKey.set(
+                  ExtractorCombatSkillKeys.retrieveFromName(cleanText
+                      .replace("Kampftechnik", "")
+                      .replace("(Forts.)", "")
+                      .trim()
+                  ));
+            }
 
             // handle keys
             if (isDataKey) {
@@ -84,6 +97,9 @@ public class DsaConverterWeaponLists extends DsaConverter<WeaponRaw, ConverterAt
             // handle values
             if (isDataValue) {
               applyDataValue(last(returnValue), cleanText, t.isBold, t.isItalic);
+              if (last(returnValue) != null && last(returnValue).combatSkillKey == null) {
+                last(returnValue).combatSkillKey = currentCombatSkillKey.get();
+              }
               applyFlagsForNoKeyStrings(getFlags(), t.text);
             }
 
@@ -118,7 +134,7 @@ public class DsaConverterWeaponLists extends DsaConverter<WeaponRaw, ConverterAt
   protected void handleFirstValue(List<WeaponRaw> returnValue, TopicConfiguration conf, String cleanText) {
 
     WeaponRaw lastValue = last(returnValue);
-    if (this.getFlags().getWasEndOfEntry().get() || lastValue != null && lastValue.name.equals("Krähenfüße") && this.getFlags().wasRemark.get()) {
+    if (this.getFlags().getWasEndOfEntry().get() || lastValue != null && lastValue.name.equals("Krähenfüße") && this.getFlags().wasRemark.get() || !cleanText.equals(KEY_WAFFENVORTEIL) && this.getFlags().wasRemark.get()) {
       WeaponRaw newEntry = new WeaponRaw();
       this.getFlags().initDataFlags();
       newEntry.setTopic(conf.topic);
@@ -127,9 +143,12 @@ public class DsaConverterWeaponLists extends DsaConverter<WeaponRaw, ConverterAt
       newEntry.name = cleanText
           .replace("WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexität", "")
           .replace("WaffeKampftechnikTPLZRWMunitionstypGewichtLängePreisKomplexität", "")
+          .replace("WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexität", "")
+          .replace("WaffeTPLZRWMunitionGewichtLängePreisKomplexität", "")
           .replace("(2H, i)", "")
           .replace("(2H)", "")
           .replace("(i)", "")
+          .replace("des Namenlosen (Basiliskenzunge)", "des Namenlosen")
           .replace("AmazonenschildSchilde", "Amazonenschild");
 
       if (cleanText.endsWith("AmazonenschildSchilde")) newEntry.combatSkillKey = CombatSkillKey.schilde;

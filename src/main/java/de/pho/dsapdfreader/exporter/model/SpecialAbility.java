@@ -5,6 +5,7 @@ import java.util.List;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 import de.pho.dsapdfreader.exporter.model.enums.DsaState;
+import de.pho.dsapdfreader.exporter.model.enums.EntityDomainKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
@@ -25,7 +26,7 @@ public class SpecialAbility
   public Publication publication;
   public SpecialAbilityCategoryKey category;
 
-  public Integer ap;
+  public float ap;
   public SpecialAbilityTypeKey abilityType;
   public Integer multiselect;
   public SelectionCategory selectionCategory;
@@ -43,6 +44,9 @@ public class SpecialAbility
   public Boolean isOnlyParryWeapon;
   public Boolean isOnlyElfenWeapon;
   public Boolean isOnlyDwarfenWeapon;
+
+  public EntityDomainKey requiredEntityDomainKey;
+  public Integer requiredPactLevel;
 
   public SpecieKey requiredSpecie;
   public DsaState requiredState;

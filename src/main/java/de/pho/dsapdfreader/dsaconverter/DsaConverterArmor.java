@@ -163,8 +163,12 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
         currentDataObject.remark = concatForDataValueWithMarkup(currentDataObject.remark, cleanText, isBold, isItalic);
       if (this.getFlags().wasAdvantage.get())
         currentDataObject.advantage = concatForDataValue(currentDataObject.advantage, cleanText);
-      if (this.getFlags().wasDisadvantage.get())
-        currentDataObject.disadvantage = concatForDataValue(currentDataObject.disadvantage, cleanText);
+      if (this.getFlags().wasDisadvantage.get()) {
+        if (cleanText.startsWith("»")) this.getFlags().wasFinished.set(Boolean.TRUE); //Reset Disadvantage Flag to prevent FluffText in description
+        if (!this.getFlags().wasFinished.get()) {
+          currentDataObject.disadvantage = concatForDataValue(currentDataObject.disadvantage, cleanText);
+        }
+      }
     }
   }
 

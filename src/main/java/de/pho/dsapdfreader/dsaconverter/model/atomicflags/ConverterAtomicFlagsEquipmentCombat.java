@@ -2,8 +2,7 @@ package de.pho.dsapdfreader.dsaconverter.model.atomicflags;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlagsI
-{
+public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlagsI {
   public AtomicBoolean wasName;
   public AtomicBoolean wasCombatSkill;
   public AtomicBoolean wasData;
@@ -13,21 +12,19 @@ public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlags
   public AtomicBoolean wasComplexity;
 
   public AtomicBoolean isFirstValue;
+  public AtomicBoolean wasFinished;
 
-  public ConverterAtomicFlagsEquipmentCombat()
-  {
+  public ConverterAtomicFlagsEquipmentCombat() {
     initDataFlags();
   }
 
   @Override
-  public AtomicBoolean getFirstFlag()
-  {
+  public AtomicBoolean getFirstFlag() {
     return wasName;
   }
 
   @Override
-  public void initDataFlags()
-  {
+  public void initDataFlags() {
     wasName = new AtomicBoolean(false);
     wasData = new AtomicBoolean(false);
     wasRemark = new AtomicBoolean(false);
@@ -36,10 +33,11 @@ public class ConverterAtomicFlagsEquipmentCombat implements ConverterAtomicFlags
     wasCombatSkill = new AtomicBoolean(false);
     wasComplexity = new AtomicBoolean(false);
     isFirstValue = new AtomicBoolean(true);
+    wasFinished = new AtomicBoolean(false);
   }
 
-  public AtomicBoolean getWasEndOfEntry()
-  {
-    return new AtomicBoolean(wasCombatSkill.get() || wasDisadvantage.get());
+  public AtomicBoolean getWasEndOfEntry() {
+    return new AtomicBoolean(wasCombatSkill.get() || wasDisadvantage.get() || wasFinished.get());
   }
+
 }

@@ -34,7 +34,8 @@ public class ExtractorWeaponKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid WeaponKey: " + weaponName);
+      System.out.println(keyString.toLowerCase());
+      //LOGGER.error("Invalid WeaponKey: " + weaponName);
       returnValue = null;
     }
     return returnValue;

@@ -1,0 +1,4 @@
+concat files:
+--------------------------------------------
+in CMD (Dos Command does not work in powershell)
+copy /b *.json all.txt

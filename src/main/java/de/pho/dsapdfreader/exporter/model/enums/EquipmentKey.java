@@ -574,7 +574,29 @@ public enum EquipmentKey {
   sturmschwingen,
   trigon_amulett,
   vitis,
-  regenbogenstein;
+  regenbogenstein,
+  krallenkette,
+  lebensring,
+  magierkugel,
+  zauberschale,
+  schweinetrommel,
+  hauerkette,
+  hexenkessel,
+  bastmatte,
+  brett,
+  hexenbesen,
+  zaunpfahl,
+  schuppenbeutel,
+  kristallomantische_kristallkugel,
+  echsenhaube,
+  scharlatanische_zauberkugel,
+  narrenkappe,
+  matrosenhut,
+  handpuppe,
+  alchimistenschale,
+  tanzgewand,
+  ziliten_gallertnetz,
+  schnellzieh_guertel;
 
 
   @JsonValue

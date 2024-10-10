@@ -9,7 +9,7 @@ public class ExtractorEquipmentCategoryKey extends Extractor
     EquipmentCategoryKey returnValue = null;
     try
     {
-      returnValue = extractEquipmentCategoryKeyFromText(name);
+      returnValue = extractEquipmentCategoryKeyFromText(name.replaceAll("^Reisebedarf und Werkzeug$", "Reisebedarf und Werkzeuge"));
       if (returnValue == null)
         throw new IllegalArgumentException();
     }
@@ -24,7 +24,7 @@ public class ExtractorEquipmentCategoryKey extends Extractor
   public static EquipmentCategoryKey extractEquipmentCategoryKeyFromText(String name)
   {
     EquipmentCategoryKey returnValue;
-    String keyString = extractKeyTextFromText(name.replace("Werkzeuge", "Werkzeug"));
+    String keyString = extractKeyTextFromText(name.replaceAll("^Werkzeuge$", "Werkzeug"));
     keyString = keyString.trim();
 
     try

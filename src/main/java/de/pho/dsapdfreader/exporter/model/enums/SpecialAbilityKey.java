@@ -1430,7 +1430,11 @@ public enum SpecialAbilityKey
   synärethiker,
   vielfachartefakt,
   zaubertrick_artefakt,
-  tradition_meistertalentierte;
+  tradition_meistertalentierte,
+  liturgiebindung,
+  stille_wanderer,
+  verkünder_des_schicksals,
+  weisung_der_sterne;
 
   @JsonValue
   public int toValue() {

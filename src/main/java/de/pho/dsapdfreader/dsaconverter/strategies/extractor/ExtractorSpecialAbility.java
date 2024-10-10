@@ -180,8 +180,7 @@ public class ExtractorSpecialAbility extends Extractor
               .replaceAll("[Dd]rei.*: ", "")
               .replaceAll("[Zz]wei.*: ", "")
               .replaceAll("[Ee]ine.*: ", ""), csk);
-          if (options != null && options.isEmpty())
-          {
+          if (options != null && !options.isEmpty()) {
             SpecialAbilityOption sao = new SpecialAbilityOption();
             sao.nOf = selectionCount;
             sao.options = options;

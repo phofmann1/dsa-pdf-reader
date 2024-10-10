@@ -29,6 +29,8 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
   private static final String KEY_ADVANCED_ABILITIES_IV = "Erweiterte Zauberstilsonderfertigkeiten";
   private static final String KEY_ADVANCED_ABILITIES_V = "Erweiterte Liturgiesonderfertigkeiten";
   private static final String KEY_COMBAT_SKILLS = "Kampftechniken";
+  private static final String KEY_VERBREITUNG = "Verbreitung";
+  private static final String KEY_KREIS_DER_VERDAMMNIS = "Kreis";
 
 
   private static final String KEY_DIFFICULTY = "Erschwernis";
@@ -45,6 +47,8 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
       KEY_ADVANCED_ABILITIES_V,
       KEY_DIFFICULTY,
       KEY_COMBAT_SKILLS,
+      KEY_VERBREITUNG,
+      KEY_KREIS_DER_VERDAMMNIS
   };
   private static final Logger LOGGER = LogManager.getLogger();
   private static final List<String> HIDDEN_TOPIC_HEADLINES = List.of(
@@ -72,10 +76,6 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
               .replace("Leggaleg", "Leg-ga-leg")
               .trim();
 
-
-          if (t.onPage == 261 && t.size == 1300) {
-            System.out.println(cleanText);
-          }
           if (hiddenTopic.isPresent()) {
             cleanText = cleanText.replace(hiddenTopic.get(), "");
           }
@@ -302,6 +302,8 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             || key.trim().equals(KEY_ADVANCED_ABILITIES_V));
     this.getFlags().wasDifficulty.set(key.trim().equals(KEY_DIFFICULTY));
     this.getFlags().wasCombatSkills.set(key.trim().equals(KEY_COMBAT_SKILLS));
+    this.getFlags().wasVerbreitung.set(key.trim().equals(KEY_VERBREITUNG));
+    this.getFlags().wasKreisDerVerdammnis.set(key.trim().equals(KEY_KREIS_DER_VERDAMMNIS));
   }
 
   @Override
@@ -326,6 +328,9 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
         currentDataObject.advancedAbilities = concatForDataValue(currentDataObject.advancedAbilities, cleanText);
       if (this.getFlags().wasDifficulty.get()) currentDataObject.difficulty = concatForDataValue(currentDataObject.difficulty, cleanText);
       if (this.getFlags().wasCombatSkills.get()) currentDataObject.combatSkills = concatForDataValue(currentDataObject.combatSkills, cleanText);
+      if (this.getFlags().wasVerbreitung.get()) currentDataObject.verbreitung = concatForDataValue(currentDataObject.verbreitung, cleanText);
+      if (this.getFlags().wasKreisDerVerdammnis.get())
+        currentDataObject.kreisDerVerdammnis = concatForDataValue(currentDataObject.kreisDerVerdammnis, cleanText);
     }
   }
 
