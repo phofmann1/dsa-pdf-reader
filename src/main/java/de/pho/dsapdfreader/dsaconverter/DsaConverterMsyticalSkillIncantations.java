@@ -17,9 +17,9 @@ public class DsaConverterMsyticalSkillIncantations
   {
     Map<String, String> returnValue = new HashMap<>();
 
-
     List<String> values = new ArrayList<>();
     texts.forEach(t -> values.addAll(extractSeparatedValuesForLine(t)));
+
 
     AtomicReference<String> currentSpell = new AtomicReference<>();
     values.forEach(v -> {
@@ -33,6 +33,7 @@ public class DsaConverterMsyticalSkillIncantations
         currentSpell.set(null);
       }
     });
+
     return returnValue;
   }
 
@@ -47,8 +48,10 @@ public class DsaConverterMsyticalSkillIncantations
         .replace("Desctructibo", "Destructibo")
         .replace("Infintum", "Infinitum")
         .replace("Stumgebrüll", "Sturmgebrüll")
-        .replace("  ", " ")
-        .replace("KrötenzungeMit", "Krötenzunge - Mit");
+        .replaceAll(" +", " ")
+        .replace("KrötenzungeMit", "Krötenzunge - Mit")
+        .replace("Krötenzunge –Mit Leviatanims", "Krötenzunge – Mit Leviatanims")
+        .replaceAll("\n", " ");
 
     Matcher msNameMatcher = PAT_MYSTICAL_SKILL_NAME.matcher(cleanText);
 

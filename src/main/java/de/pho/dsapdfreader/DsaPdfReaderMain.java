@@ -119,6 +119,7 @@ import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
 import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
@@ -283,11 +284,11 @@ public class DsaPdfReaderMain {
             LOGGER.debug("export Texts");
             final List<TextWithMetaInfo> texts = pdfResults.stream()
                 .filter(t -> {
-                  boolean isStartPage = t.onPage == conf.startPage;
-                  boolean isNormalPage = t.onPage > conf.startPage && t.onPage < conf.endPage;
-                  boolean isEndPage = t.onPage == conf.endPage;
-                  boolean isStartPageValidLine = isStartPage && isEndPage
-                      ? (t.onLine > conf.startAfterLine || conf.startAfterLine == 0) && (t.onLine <= conf.endAfterLine || conf.endAfterLine == 0)
+                      boolean isStartPage = t.onPage == conf.startPage;
+                      boolean isNormalPage = t.onPage > conf.startPage && t.onPage < conf.endPage;
+                      boolean isEndPage = t.onPage == conf.endPage;
+                      boolean isStartPageValidLine = isStartPage && isEndPage
+                          ? (t.onLine > conf.startAfterLine || conf.startAfterLine == 0) && (t.onLine <= conf.endAfterLine || conf.endAfterLine == 0)
                           : isStartPage && (t.onLine > conf.startAfterLine || conf.startAfterLine == 0);
                       boolean isEndPageValidLine = isStartPage && isEndPage
                           ? isStartPageValidLine
@@ -774,6 +775,15 @@ public class DsaPdfReaderMain {
         writerMasName.write(generateMsName(pureMas));
         writerMasName.close();
 
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_activities_costs"));
+        writer.write(generateMsaCostString(raws));
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_activities_effects"));
+        writer.write(generateMsaEffectString(raws));
+        writer.close();
+
+
         List<ObjectRitual> corrections = initExporterCorrections(ObjectRitual.class);
         List<ObjectRitual> pureOrs = raws.stream()
             .filter(r -> r.artifactKey != null)
@@ -789,7 +799,7 @@ public class DsaPdfReaderMain {
             .writerWithDefaultPrettyPrinter()
             .writeValueAsString(pureOrs);
 
-        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "object_rituals", "object_rituals"));
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, "object_rituals", "object_rituals"));
         writer.write(jsonResultOrs);
         writer.close();
 
@@ -1285,6 +1295,122 @@ public class DsaPdfReaderMain {
 
   }
 
+  private static String generateMsaEffectString(List<MysticalActivityObjectRitualRaw> rawMysticalSkills) {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().filter(msr -> msr.msCategory != null).forEach(msr -> {
+      MysticalSkillKey key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, msr.msCategory);
+      if (key != null) {
+        returnValue.append(key.toValue() + " {" + msr.effect + "}\r\n");
+      }
+      else {
+        if (msr.name.startsWith("Mächtiger Patronruf")) {
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_adler_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_adler_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_baer_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_baer_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_eule_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_eule_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_falke_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_falke_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_feuermolch_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_feuermolch_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_fischotter_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_fischotter_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gebirgsbock_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gebirgsbock_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gepard_jaguar_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gepard_jaguar_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramsbestie_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramsbestie_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramswuehler_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramswuehler_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_loewe_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_loewe_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_luchs_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_luchs_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mammut_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mammut_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mungo_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mungo_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nashorn_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nashorn_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nebelkraehe_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nebelkraehe_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_pferd_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_pferd_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_rabe_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_rabe_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_saebelzahntiger_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_saebelzahntiger_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_sandwolf_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_sandwolf_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_stier_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_stier_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_vielfrass_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_vielfrass_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_widder_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_widder_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildkatze_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildkatze_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildschwein_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildschwein_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wolf_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wolf_ii.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wuergeschlange_i.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wuergeschlange_ii.toValue() + " {" + msr.effect + "}\r\n");
+        }
+        else if (msr.name.startsWith("Tierverwandlung ")) {
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_baer.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_eule.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_falke.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_feuermolch.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_fischotter.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_gebirgsbock.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_gepard_jaguar.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_khoramsbestie.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_khoramswuehler.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_loewe.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_luchs.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_mammut.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_mungo.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_nashorn.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_nebelkraehe.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_pferd.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_rabe.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_saebelzahntiger.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_sandwolf.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_stier.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_vielfrass.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_widder.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wildkatze.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wildschwein.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wolf.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wuergeschlange.toValue() + " {" + msr.effect + "}\r\n");
+        }
+        else if (msr.name.startsWith("Bannzeichen wider ")) {
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_feen.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_daimonide_und_chimaeren.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_daemonen.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_geister.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_spinnen.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_untote.toValue() + " {" + msr.effect + "}\r\n");
+
+        }
+        else if (msr.name.startsWith("Schutzrune vor ")) {
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_alfen_alfibanruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_daimonide_und_chimaeren_skepnabanruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_daemonen_vondurbanruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_elementare_verabanruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_geister_vandrendabanruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_hranngargezuecht_fylgjaruna.toValue() + " {" + msr.effect + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_untote_draugerbanruna.toValue() + " {" + msr.effect + "}\r\n");
+        }
+      }
+    });
+    return returnValue.toString();
+
+  }
+
 
   private static String generateMsVariantNameString(List<MysticalSkillRaw> rawMysticalSkills) {
 
@@ -1478,6 +1604,129 @@ public class DsaPdfReaderMain {
               + "\r\n");
       if (msr.cost == null || msr.cost.isEmpty()) {
         LOGGER.error("Mystical Skill (" + msr.name + ") has no description!");
+      }
+    });
+    return returnValue.toString();
+  }
+
+  private static String generateMsaCostString(List<MysticalActivityObjectRitualRaw> rawMysticalSkills) {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().filter(msr -> msr.msCategory != null).forEach(msr -> {
+      MysticalSkillKey key = ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, msr.msCategory);
+      if (key != null) {
+        returnValue.append(
+            key.toValue()
+                + " {"
+                + msr.cost
+                + "} "
+                + "\r\n");
+        if (msr.cost == null || msr.cost.isEmpty()) {
+          LOGGER.error("Mystical Skill (" + msr.name + ") has no description!");
+        }
+      }
+      else {
+        if (msr.name.startsWith("Mächtiger Patronruf")) {
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_adler_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_adler_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_baer_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_baer_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_eule_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_eule_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_falke_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_falke_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_feuermolch_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_feuermolch_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_fischotter_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_fischotter_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gebirgsbock_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gebirgsbock_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gepard_jaguar_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_gepard_jaguar_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramsbestie_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramsbestie_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramswuehler_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_khoramswuehler_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_loewe_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_loewe_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_luchs_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_luchs_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mammut_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mammut_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mungo_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_mungo_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nashorn_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nashorn_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nebelkraehe_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_nebelkraehe_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_pferd_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_pferd_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_rabe_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_rabe_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_saebelzahntiger_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_saebelzahntiger_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_sandwolf_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_sandwolf_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_stier_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_stier_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_vielfrass_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_vielfrass_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_widder_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_widder_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildkatze_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildkatze_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildschwein_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wildschwein_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wolf_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wolf_ii.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wuergeschlange_i.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_maechtiger_patronruf_wuergeschlange_ii.toValue() + " {" + msr.cost + "}\r\n");
+        }
+        else if (msr.name.startsWith("Tierverwandlung ")) {
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_baer.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_eule.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_falke.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_feuermolch.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_fischotter.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_gebirgsbock.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_gepard_jaguar.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_khoramsbestie.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_khoramswuehler.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_loewe.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_luchs.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_mammut.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_mungo.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_nashorn.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_nebelkraehe.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_pferd.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_rabe.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_saebelzahntiger.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_sandwolf.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_stier.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_vielfrass.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_widder.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wildkatze.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wildschwein.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wolf.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.power_tierverwandlung_wuergeschlange.toValue() + " {" + msr.cost + "}\r\n");
+        }
+        else if (msr.name.startsWith("Bannzeichen wider ")) {
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_feen.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_daimonide_und_chimaeren.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_daemonen.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_geister.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_spinnen.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.bansign_bannzeichen_wider_untote.toValue() + " {" + msr.cost + "}\r\n");
+
+        }
+        else if (msr.name.startsWith("Schutzrune vor ")) {
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_alfen_alfibanruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_daimonide_und_chimaeren_skepnabanruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_daemonen_vondurbanruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_elementare_verabanruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_geister_vandrendabanruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_hranngargezuecht_fylgjaruna.toValue() + " {" + msr.cost + "}\r\n");
+          returnValue.append(MysticalSkillKey.rune_schutzrune_vor_untote_draugerbanruna.toValue() + " {" + msr.cost + "}\r\n");
+        }
       }
     });
     return returnValue.toString();

@@ -80,7 +80,7 @@ public class ExtractorMysticalSkillKey extends Extractor {
     }
     catch (IllegalArgumentException e) {
       returnValue = null;
-      LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
+      //LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
     }
     return returnValue;
   }

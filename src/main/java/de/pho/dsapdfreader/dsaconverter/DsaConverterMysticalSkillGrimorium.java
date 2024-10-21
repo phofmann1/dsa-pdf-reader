@@ -154,15 +154,18 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       boolean isDataValue = validateIsDataValue(t);
       handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-      if (checkIsNewSpell(lastPage, t, conf))
-      {
+      if (cleanText.contains("ärenhaut")) {
+        System.out.println(cleanText);
+      }
+
+
+      if (checkIsNewSpell(lastPage, t, conf)) {
         concludePredecessor(last(returnValue));
         MysticalSkillRaw newEntry = new MysticalSkillRaw();
         this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
-        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM || conf.topic == TopicEnum.BLESSING_DIVINARIUM)
-        {
+        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM || conf.topic == TopicEnum.BLESSING_DIVINARIUM) {
           newEntry.cost = "1 AsP";
           newEntry.castingDuration = "1 Aktion";
         }

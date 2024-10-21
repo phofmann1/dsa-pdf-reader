@@ -11,19 +11,17 @@ public class ExtractorElementKeys extends Extractor
 {
   public static List<ElementKey> retrieveElementKeys(MysticalSkillRaw msr)
   {
-
     String[] elements = msr.elements != null ? msr.elements.split("\\|") : new String[]{};
     return Arrays.stream(elements)
-        .map(es -> switch (es)
-            {
-              case "feuer" -> ElementKey.FIRE;
-              case "wasser" -> ElementKey.WATER;
-              case "humus" -> ElementKey.HUMUS;
-              case "eis" -> ElementKey.ICE;
-              case "erz" -> ElementKey.STONE;
-              case "luft" -> ElementKey.AIR;
-              default -> null;
-            })
+        .map(es -> switch (es) {
+          case "feuer" -> ElementKey.FIRE;
+          case "wasser" -> ElementKey.WATER;
+          case "humus" -> ElementKey.HUMUS;
+          case "eis" -> ElementKey.ICE;
+          case "erz" -> ElementKey.STONE;
+          case "luft" -> ElementKey.AIR;
+          default -> null;
+        }).filter(es -> es != null)
         .collect(Collectors.toList());
   }
 }

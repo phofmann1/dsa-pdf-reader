@@ -529,6 +529,12 @@ public class LoadToProfession {
 
     final List<MysticalSkillKey> finalRemoveList = removedMSKey;
     profession.curriculum = curriculum.stream().filter(cmsk -> !finalRemoveList.contains(cmsk)).collect(Collectors.toList());
+    profession.curriculum.addAll(
+        profession.mysticalSkillChanges.stream()
+            .map(msc -> msc.mysticalSkillKey)
+            .filter(msk -> !profession.curriculum.contains(msk))
+            .collect(Collectors.toList())
+    );
 
   }
 

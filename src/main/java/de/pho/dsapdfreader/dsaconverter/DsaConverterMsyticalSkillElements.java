@@ -18,7 +18,6 @@ public class DsaConverterMsyticalSkillElements
     Map<String, String> returnValue = new HashMap<>();
 
 
-    List<String> values = new ArrayList<>();
     AtomicReference<String> featureTitle = new AtomicReference<>();
     texts.forEach(t -> {
       if (t.size == 1100)
@@ -36,11 +35,11 @@ public class DsaConverterMsyticalSkillElements
           {
             if (returnValue.containsKey(s))
             {
-              returnValue.put(s, returnValue.get(s) + "|" + featureTitle.get());
+              returnValue.put(s, returnValue.get(s) + "|" + featureTitle.get().replace("–", "").trim());
             }
             else
             {
-              returnValue.put(s.replaceAll("\\s\\s", " "), featureTitle.get());
+              returnValue.put(s.replaceAll("\\s\\s", " "), featureTitle.get().replace("–", "").trim());
             }
           }
         });
