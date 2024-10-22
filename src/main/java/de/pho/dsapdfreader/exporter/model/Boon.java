@@ -28,7 +28,7 @@ public class Boon
 
   public RequirementsSpecie requirementsSpecie;
   public CultureKey requiredCulture;
-  public SpecialAbilityKey requiredSpecialAbilityKey;
+  public SpecialAbilityKey requiredAbilityKey;
   public List<TraditionKey> requiredTraditions = new ArrayList<>();
   public List<RequirementBoon> requirementBoons = new ArrayList<>();
 
