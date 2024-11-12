@@ -39,7 +39,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   private static final String HL_REGIONALBAND_II = "Preis";
 
   //\d+(?= ?StP)
-  private static final Pattern PAT_STRUCTURE = Pattern.compile("\\d+(?= ?StP)");
+  private static final Pattern PAT_STRUCTURE = Pattern.compile("[\\d.]+(?= ?StP)");
   //[A-z ,]+(?=[\d,.+\/( bis )]+ S)
   private static final Pattern PAT_GEMS_COLOR = Pattern.compile("[A-zßäöüÄÖÜ ,]+(?=[\\d,.+\\/( bis )]+ S)");
   private static final String KEY_REMARK = "Anmerkung";
@@ -226,7 +226,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         String result = m.group();
         String price = result.replaceAll("Silbertaler|S", "")
             .replaceAll("^([A-ü ,-]+|\\d+ l)+", "").trim();
-        String name = result.replaceAll(price + ".*", "");
+        String name = result.replaceAll(price + ".*", "").trim();
         this.generateNewEquipmentRaw(name);
         last(equipmentRawList).price = price;
       }
@@ -346,7 +346,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
           newEr.price = multiplePrices[idx];
           newEr.craft = lastEntry.craft;
 
-          newEr.structure = lastEntry.craft;
+          newEr.structure = lastEntry.structure;
           newEr.weight = multipleWeight[idx];
 
           newEquipmentRaws.add(newEr);

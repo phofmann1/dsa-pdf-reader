@@ -7,7 +7,7 @@ import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 
 public class RequirementsSpecialAbility
 {
-  public LogicalOperatorKey logicalOpperator;
+  public LogicalOperatorKey logicalOpperator = LogicalOperatorKey.and;
   public List<RequirementSpecialAbility> requirements = new ArrayList<>();
   public RequirementsSpecialAbility childs;
 }

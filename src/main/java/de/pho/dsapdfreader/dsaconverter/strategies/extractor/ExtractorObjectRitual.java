@@ -9,8 +9,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import de.pho.dsapdfreader.exporter.model.RequirementSkill;
 import de.pho.dsapdfreader.exporter.model.enums.ArtifactKey;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 
 public class ExtractorObjectRitual extends Extractor {
   public static ObjectRitualKey extractOrKeyFromName(String name) throws IllegalArgumentException {
@@ -112,6 +114,36 @@ public class ExtractorObjectRitual extends Extractor {
 
     if (currentLevel > 0) {
       returnValue.add(ObjectRitualKey.values()[currentOrk.ordinal() - 1]);
+    }
+    return returnValue;
+  }
+
+  public static RequirementSkill retrieveRequirementSkill(Map<String, String> preconditionMap, int levels, int currentLevel, ObjectRitualKey currentOrk, ArtifactKey artifactKey) {
+    RequirementSkill returnValue = null;
+    String requirementsString = ExtractorRequirements.extractRequirementsStringForLevel(preconditionMap, levels, currentLevel).replace("\u00AD", "-");
+
+    Matcher m = Pattern.compile("^(?!.*Stufe)[A-ü ]+ \\d{1,2}").matcher(requirementsString);
+    if (m.find()) {
+      String text = m.group().trim();
+
+      String skillKeyString = ExtractorSkillKey.extractKeyTextFromText(text
+              .replaceAll("\\d*", "")
+              .trim())
+          .toLowerCase();
+      String skillValueString = text.replaceAll("[A-ü ]+", "").trim();
+      try {
+        SkillKey skillKey = SkillKey.valueOf(skillKeyString);
+        if (skillKey != null) {
+          returnValue = new RequirementSkill();
+          returnValue.skillKey = skillKey;
+          returnValue.minValue = Integer.valueOf(skillValueString);
+
+        }
+
+      }
+      catch (IllegalArgumentException e) {
+        LOGGER.error("INVALID Requirement for ObjectRitual (" + text + ")");
+      }
     }
     return returnValue;
   }

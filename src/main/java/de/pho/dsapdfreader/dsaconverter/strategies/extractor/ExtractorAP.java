@@ -12,7 +12,7 @@ public class ExtractorAP extends Extractor
 
   private static final Pattern AP = Pattern.compile("-?\\d*(?=( Abenteuerpunkt|Abenteuerpunkte|\\/))");
 
-  public static float retrieve(String apString, int currentIndex) {
+  public static int retrieve(String apString, int currentIndex) {
     Integer returnValue = 0;
     Matcher apMatcher = AP.matcher(apString.replace("–", "-"));
     List<Integer> results = apMatcher.results()

@@ -215,7 +215,7 @@ public class LoadToBoon
     returnValue.publications = List.of(Publication.valueOf(raw.publication));
     returnValue.levels = levels;
 
-    returnValue.ap = ExtractorAP.retrieve(raw.ap, 0);
+    returnValue.ap = Float.valueOf(ExtractorAP.retrieve(raw.ap, 0));
     returnValue.category = returnValue.ap < 0 ? BoonCategory.FLAW : BoonCategory.MERIT;
     returnValue.selectable = !raw.name.contains("(*)");
     returnValue.variants = BOON_VARIANTS.containsKey(returnValue.key) ? BOON_VARIANTS.get(returnValue.key) : new ArrayList<>();

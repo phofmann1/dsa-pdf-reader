@@ -15,7 +15,6 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorRequirements;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorVolume;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.ObjectRitual;
@@ -33,12 +32,12 @@ public class LoadToObjectRitual
 {
 
   private static final String[] NAMES_TIERWANDLUNG = {
-      "(Chamäleon)",
-      "(Speikobra)",
-      "(Eichhörnchen)",
-      "(Biber)",
-      "(Taube)",
-      "(Rabe)",
+      "Chamäleon",
+      "Speikobra",
+      "Eichhörnchen",
+      "Biber",
+      "Taube",
+      "Rabe",
   };
 
   private static final String[] TYPES_BANNSCHWERT = {
@@ -83,17 +82,23 @@ public class LoadToObjectRitual
       if (raw.binding != null && !raw.binding.isEmpty()) {
         Cost c = new Cost();
         c.costText = raw.binding;
-        c.permanentCost = 2;
+        c.permanentCost = switch (or.key) {
+          case ban_bindung_des_bannschwerts_schwerter -> 4;
+          case ban_bindung_des_bannschwerts_zweihandschwerter -> 8;
+          default -> 2;
+        };
         or.binding = c;
       }
       or.featureKey = MysticalSkillFeature.fromString(raw.feature);
       or.volume = ExtractorVolume.retrieve(raw.volume, currentLevel);
 
       Map<String, String> lvlReqMap = ExtractorRequirements.extractLevelRequirementMap(raw.requirements);
-      or.requiredOrKeys = ExtractorObjectRitual.retrieveRequirementsObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
-      or.requiredNoneOrKeys = ExtractorObjectRitual.retrieveRequirementsNoneObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
-
-      or.requiredTraditionKeys = ExtractorSpecialAbility.extractTraditionKeysFromText(raw.requirements);
+      if (!or.name.startsWith("Tierwandlung") && !or.name.startsWith("Klinge wider ") && !or.name.startsWith("Bindung des Bannschwerts")) {
+        //Ansonsten werden Vorbedingungen analog zu Stufen erzeugt, was aber falsch ist, da diese ORs nicht zwingend aufeinander aufbauen!
+        or.requiredOrKeys = ExtractorObjectRitual.retrieveRequirementsObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
+        or.requiredNoneOrKeys = ExtractorObjectRitual.retrieveRequirementsNoneObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
+      }
+      or.requirementSkill = ExtractorObjectRitual.retrieveRequirementSkill(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
 
       handleReqsSpecialAbility(or, raw.requirements);
 
@@ -110,6 +115,7 @@ public class LoadToObjectRitual
     {
       or.requirementsSpecialAbility = new RequirementsSpecialAbility();
       RequirementSpecialAbility req = new RequirementSpecialAbility();
+
       req.abilityKey = SpecialAbilityKey.schalenverzauberung;
       or.requirementsSpecialAbility.requirements.add(req);
     }

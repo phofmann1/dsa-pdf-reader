@@ -93,5 +93,44 @@
   {
     "key": 217,
     "volume": 4
+  },
+  {
+    "key": 408,
+    "requiredOrKeys": [
+      410
+    ]
+  },
+  {
+    "key": 409,
+    "requiredNoneOrKeys": [
+      410,
+      413
+    ]
+  },
+  {
+    "key": 410,
+    "requiredNoneOrKeys": [
+      409,
+      413
+    ]
+  },
+  {
+    "key": 411,
+    "requiredOrKeys": [
+      413
+    ]
+  },
+  {
+    "key": 412,
+    "requiredOrKeys": [
+      409
+    ]
+  },
+  {
+    "key": 413,
+    "requiredNoneOrKeys": [
+      409,
+      410
+    ]
   }
 ]

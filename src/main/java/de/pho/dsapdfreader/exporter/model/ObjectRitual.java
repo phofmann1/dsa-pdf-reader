@@ -7,7 +7,6 @@ import de.pho.dsapdfreader.exporter.model.enums.ArtifactKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
-import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
 
 public class ObjectRitual
 {
@@ -16,7 +15,7 @@ public class ObjectRitual
   public String name;
   public Publication publication;
   public ArtifactKey artifactKey;
-  public float ap;
+  public Integer ap;
   public Cost binding;
   public Cost costActivation;
   public Integer volume;
@@ -27,5 +26,6 @@ public class ObjectRitual
   public Integer minVolumeExtensions;
   public MysticalSkillFeature featureKey;
   public RequirementsSpecialAbility requirementsSpecialAbility;
-  public List<TraditionKey> requiredTraditionKeys;
+  public RequirementSkill requirementSkill;
+  //public List<TraditionKey> requiredTraditionKeys;
 }

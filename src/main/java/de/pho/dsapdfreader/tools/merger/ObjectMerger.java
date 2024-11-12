@@ -31,14 +31,12 @@ public class ObjectMerger
           else
           {
             Object sourceValue = field.get(source);
-            if (sourceValue instanceof List)
-            {
+            if (sourceValue instanceof List || List.class.isAssignableFrom(field.getType()) && sourceValue != null) {
               List copyList = field.get(target) == null ? new ArrayList() : new ArrayList<>((List) field.get(target));
               copyList.addAll((List) sourceValue);
               field.set(target, copyList);
             }
-            else if (sourceValue != null && !isSimpleType(sourceValue.getClass()) && !field.getType().isEnum())
-            {
+            else if (sourceValue != null && !isSimpleType(sourceValue.getClass()) && !field.getType().isEnum()) {
               //if the source value is not null we check if it is a simple type
               //if it is not a simple type we create a new instance of this object
               genInstance(field, target, sourceValue, copiedValues);

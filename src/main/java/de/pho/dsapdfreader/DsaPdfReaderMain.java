@@ -38,6 +38,7 @@ import org.apache.logging.log4j.Logger;
 import org.javatuples.Pair;
 import org.javatuples.Quartet;
 import org.javatuples.Quintet;
+import org.javatuples.Triplet;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -803,7 +804,7 @@ public class DsaPdfReaderMain {
         writer.write(jsonResultOrs);
         writer.close();
 
-        Pair<StringBuilder, StringBuilder> pOr = generateOrStringBuilders(raws.stream().filter(r -> r.artifactKey != null).collect(Collectors.toList()));
+        Triplet<StringBuilder, StringBuilder, StringBuilder> pOr = generateOrStringBuilders(raws.stream().filter(r -> r.artifactKey != null).collect(Collectors.toList()));
 
 
         String prefix = "object_rituals";
@@ -813,6 +814,10 @@ public class DsaPdfReaderMain {
 
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_rules"));
         writer.write(pOr.getValue1().toString());
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_preconditions"));
+        writer.write(pOr.getValue2().toString());
         writer.close();
 
       }
@@ -1504,8 +1509,8 @@ public class DsaPdfReaderMain {
     return returnValue;
   }
 
-  private static Pair<StringBuilder, StringBuilder> generateOrStringBuilders(List<MysticalActivityObjectRitualRaw> raws) {
-    Pair<StringBuilder, StringBuilder> returnValue = new Pair<>(new StringBuilder(), new StringBuilder());
+  private static Triplet<StringBuilder, StringBuilder, StringBuilder> generateOrStringBuilders(List<MysticalActivityObjectRitualRaw> raws) {
+    Triplet<StringBuilder, StringBuilder, StringBuilder> returnValue = new Triplet<>(new StringBuilder(), new StringBuilder(), new StringBuilder());
     raws.stream()
         .forEach(raw -> {
 
@@ -1521,6 +1526,7 @@ public class DsaPdfReaderMain {
             if (key != null) {
               returnValue.getValue0().append(key.toValue() + " {" + name + "}\r\n");
               returnValue.getValue1().append(key.toValue() + " {" + raw.effect + "} \r\n");
+              returnValue.getValue2().append(key.toValue() + " {" + raw.requirements + "} \r\n");
             }
             else {
               LOGGER.error("ObjectRitual (" + raw.name + ") has no key!");

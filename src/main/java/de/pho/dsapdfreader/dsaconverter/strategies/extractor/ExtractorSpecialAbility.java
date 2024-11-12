@@ -189,7 +189,7 @@ public class ExtractorSpecialAbility extends Extractor
         }
         advancedAbilities = advancedAbilities.replace(o, "").trim();
       }
-      returnValue.advancedAbilityKeys = retrieveAdvancedAbilitiyKeys(advancedAbilities, csk).toArray(SpecialAbilityKey[]::new);
+      returnValue.advancedAbilityKeys = retrieveAdvancedAbilitiyKeys(advancedAbilities, csk);
     }
     return returnValue;
   }

@@ -73,7 +73,7 @@ false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Re
 true;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
+true;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
 false;Kodex_der_Kräuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
 false;Arkane_Schmiede;C:/privat/pdf.lib/import;Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
 false;Archiv_der_Kreaturen;C:/privat/pdf.lib/import;Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
