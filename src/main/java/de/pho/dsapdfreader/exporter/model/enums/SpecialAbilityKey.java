@@ -1434,7 +1434,10 @@ public enum SpecialAbilityKey
   liturgiebindung,
   stille_wanderer,
   verkünder_des_schicksals,
-  weisung_der_sterne;
+  weisung_der_sterne,
+  tierheilerin,
+  tierzüchter,
+  vieharzt;
 
   @JsonValue
   public int toValue() {

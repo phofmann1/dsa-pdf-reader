@@ -21,8 +21,8 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSk
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillModifications;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillVariant;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillDuration;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillRange;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTargetCategory;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
@@ -295,10 +295,9 @@ public class LoadToMysticalSkill
     ms.traditions = ExtractorTradtion.retrieveTraditions(msr, ms.category);
 
     if (
-        ms.traditions.contains(TraditionKey.DANCER)
-            || ms.traditions.contains(TraditionKey.BARDE)
-    )
-    {
+        ms.traditions.contains(TraditionKey.zaubertänzer)
+            || ms.traditions.contains(TraditionKey.zauberbarde)
+    ) {
       ms.traditionSubs = ExtractorTradtion.retrieveTraditionSubs(msr);
     }
     ms.traditionIncantationMap = ExtractorTradtion.retrieveIncantations(msr);
@@ -306,7 +305,7 @@ public class LoadToMysticalSkill
     ms.skillCost = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
     ms.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
     ms.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
-    ms.skillKeys = ExtractorSkillKey.retrieveSkillKeysForMysticalSkillRaw(msr);
+    ms.skillKeys = ExtractorSkill.retrieveSkillKeysForMysticalSkillRaw(msr);
     ms.elementalCategories = ExtractorElementKeys.retrieveElementKeys(msr);
 
     if (msCategory != MysticalSkillCategory.magicSign)

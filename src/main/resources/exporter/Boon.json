@@ -63,6 +63,40 @@
     ]
   },
   {
+    "key": 8,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 196,
+        "exists": true
+      },
+      {
+        "key": 202,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 9,
+    "valueChanges": [
+      {
+        "key": 16,
+        "type": 0,
+        "valueChange": -250,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 11,
     "valueChanges": [
       {
@@ -99,8 +133,134 @@
     ]
   },
   {
+    "key": 14,
+    "valueChanges": [
+      {
+        "key": 18,
+        "type": 0,
+        "valueChange": -1
+      }
+    ]
+  },
+  {
+    "key": 17,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 8,
+        "skillKey": 20,
+        "attributeValueChanges": [
+          0,
+          0,
+          1
+        ],
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "skillKey": 20,
+        "attributeValueChanges": [
+          0,
+          0,
+          -1
+        ],
+        "conditionally": true
+      }
+    ],
+    "requirementBoons": [
+      {
+        "key": 32,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 19,
     "requiredAbilityKey": 1219
+  },
+  {
+    "key": 20,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 14,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 15,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 16,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 17,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 18,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 20,
+        "conditionally": true
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "valueChangeMax": -3,
+        "skillKey": 21,
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 21,
+    "valueChanges": [
+      {
+        "key": 27,
+        "type": 0,
+        "valueChange": 1,
+        "conditionally": true
+      }
+    ],
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 196,
+        "exists": true
+      },
+      {
+        "key": 203,
+        "exists": true
+      }
+    ]
   },
   {
     "key": 22,
@@ -109,6 +269,45 @@
         "key": 25,
         "type": 0,
         "valueChange": 1,
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 24,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 9,
+        "valueChange": 1,
+        "conditionally": true
+      }
+    ],
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 32,
+        "exists": true
+      },
+      {
+        "key": 201,
+        "exists": true
+      },
+      {
+        "key": 204,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 25,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -2,
+        "skillKey": 9,
         "conditionally": true
       }
     ]
@@ -147,6 +346,41 @@
           70
         ],
         "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 34,
+    "requirementBoons": [
+      {
+        "key": 14,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 2
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 3
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 10
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 12
       }
     ]
   },
@@ -202,6 +436,86 @@
         "key": 23,
         "type": 0,
         "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 32,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 8,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ],
+        "skillKey": 17
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ],
+        "skillKey": 18
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ],
+        "skillKey": 19
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ],
+        "skillKey": 20
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "attributeValueChanges": [
+          1,
+          0,
+          0
+        ],
+        "skillKey": 21
+      },
+      {
+        "key": 19,
+        "type": 0,
+        "valueChange": 1,
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 41,
+    "valueChanges": [
+      {
+        "key": 23,
+        "type": 0,
+        "valueChange": -1
+      }
+    ]
+  },
+  {
+    "key": 42,
+    "requirementBoons": [
+      {
+        "key": 197,
+        "exists": true
       }
     ]
   },
@@ -284,6 +598,54 @@
           0
         ],
         "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 47,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 195,
+        "exists": true
+      },
+      {
+        "key": 203,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 50,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 15,
+        "usageKeys": [
+          51,
+          52
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 19,
+        "usageKeys": [
+          69,
+          70
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": -1,
+        "skillKey": 44,
+        "usageKeys": [
+          186
+        ]
       }
     ]
   },
@@ -414,620 +776,12 @@
     ]
   },
   {
-    "key": 73,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 3,
-        "valueChange": 1,
-        "skillKey": 20,
-        "usageKeys": [
-          66,
-          68,
-          69,
-          70
-        ],
-        "conditionally": true
-      }
-    ]
+    "key": 63,
+    "ap": 0.5
   },
   {
-    "key": 90,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 91,
-    "requirementBoons": [
-      {
-        "key": 38,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 93,
-    "valueChanges": [
-      {
-        "key": 27,
-        "type": 0,
-        "valueChange": 1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 103,
-    "requirementBoons": [
-      {
-        "key": 38,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 104,
-    "requirementBoons": [
-      {
-        "key": 105,
-        "exists": true,
-        "level": 1
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 26,
-        "type": 14,
-        "mysticalSkillCategory": 20,
-        "valueChange": 3
-      }
-    ]
-  },
-  {
-    "key": 106,
-    "valueChanges": [
-      {
-        "key": 16,
-        "type": 0,
-        "valueChange": 250,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 107,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 26
-      }
-    ]
-  },
-  {
-    "key": 110,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 3,
-        "usageKeys": [
-          10,
-          12
-        ]
-      }
-    ]
-  },
-  {
-    "key": 132,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 3,
-        "valueChange": 1,
-        "skillKey": 28,
-        "usageKeys": [
-          94,
-          96
-        ]
-      }
-    ]
-  },
-  {
-    "key": 137,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 18,
-        "usageKeys": [
-          61
-        ]
-      }
-    ]
-  },
-  {
-    "key": 139,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 1,
-        "type": 4,
-        "valueChange": 1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 140,
-    "requirementBoons": [
-      {
-        "key": 38,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 2,
-        "type": 4,
-        "valueChange": 1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 141,
-    "valueChanges": [
-      {
-        "key": 14,
-        "type": 4,
-        "valueChange": 1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 143,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 148,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 14,
-        "usageKeys": [
-          40,
-          50
-        ]
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 20,
-        "usageKeys": [
-          67,
-          69,
-          70
-        ]
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 45,
-        "usageKeys": [
-          186
-        ]
-      }
-    ]
-  },
-  {
-    "key": 149,
-    "requirementBoons": [
-      {
-        "key": 105,
-        "exists": true,
-        "level": 1
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 26,
-        "type": 14,
-        "mysticalSkillCategory": 21,
-        "valueChange": 3
-      }
-    ]
-  },
-  {
-    "key": 157,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 8
-      }
-    ]
-  },
-  {
-    "key": 158,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 3,
-        "valueChange": 1,
-        "skillKey": 9
-      },
-      {
-        "key": 0,
-        "type": 3,
-        "valueChange": 1,
-        "skillKey": 23
-      }
-    ]
-  },
-  {
-    "key": 159,
-    "requirementBoons": [
-      {
-        "key": 158,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 160,
-    "requirementBoons": [
-      {
-        "key": 158,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 162,
-    "requirementBoons": [
-      {
-        "key": 104,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 26,
-        "type": 1,
-        "valueChange": 1,
-        "perLevel": 1,
-        "mysticalSkillCategory": 20
-      }
-    ]
-  },
-  {
-    "key": 163,
-    "requirementBoons": [
-      {
-        "key": 149,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 26,
-        "type": 1,
-        "valueChange": 1,
-        "perLevel": 1,
-        "mysticalSkillCategory": 21
-      }
-    ]
-  },
-  {
-    "key": 165,
-    "selectionCategory": 17,
-    "valueChanges": [
-      {
-        "key": 1,
-        "type": 1,
-        "valueChange": 20
-      }
-    ]
-  },
-  {
-    "key": 175,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 16,
-        "conditionally": true
-      }
-    ]
-  },
-  {
-    "key": 178,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 7,
-        "usageKeys": [
-          25,
-          26
-        ],
-        "conditionally": true
-      }
-    ]
-  },
-  {
-    "key": 182,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "skillKey": 20,
-        "conditionally": true
-      }
-    ]
-  },
-  {
-    "key": 189,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 8,
-        "valueChange": 1,
-        "skillKey": 3,
-        "usageKeys": [
-          11
-        ],
-        "attributeValueChanges": [
-          1,
-          1,
-          0
-        ]
-      }
-    ]
-  },
-  {
-    "key": 168,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 10,
-        "skillKey": 8,
-        "newSkillUsageKey": 313
-      }
-    ]
-  },
-  {
-    "key": 169,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": 1,
-        "conditionally": true,
-        "skillKey": 9
-      }
-    ]
-  },
-  {
-    "key": 9,
-    "valueChanges": [
-      {
-        "key": 16,
-        "type": 0,
-        "valueChange": -250,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 10,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 14,
-    "valueChanges": [
-      {
-        "key": 18,
-        "type": 0,
-        "valueChange": -1
-      }
-    ]
-  },
-  {
-    "key": 20,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 14,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 15,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 16,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 17,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 18,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 20,
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "valueChangeMax": -3,
-        "skillKey": 21,
-        "conditionally": true
-      }
-    ]
-  },
-  {
-    "key": 25,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -2,
-        "skillKey": 9,
-        "conditionally": true
-      }
-    ]
-  },
-  {
-    "key": 34,
-    "requirementBoons": [
-      {
-        "key": 14,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 2
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 3
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 10
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 12
-      }
-    ]
-  },
-  {
-    "key": 41,
-    "valueChanges": [
-      {
-        "key": 23,
-        "type": 0,
-        "valueChange": -1
-      }
-    ]
-  },
-  {
-    "key": 50,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 15,
-        "usageKeys": [
-          51,
-          52
-        ]
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 19,
-        "usageKeys": [
-          69,
-          70
-        ]
-      },
-      {
-        "key": 0,
-        "type": 5,
-        "valueChange": -1,
-        "skillKey": 44,
-        "usageKeys": [
-          186
-        ]
-      }
-    ]
-  },
-  {
-    "key": 72,
-    "valueChanges": [
-      {
-        "key": 26,
-        "type": 1,
-        "valueChange": -1,
-        "perLevel": true,
-        "mysticalSkillCategory": 0
-      }
-    ]
+    "key": 64,
+    "ap": 0.5
   },
   {
     "key": 65,
@@ -1035,6 +789,22 @@
       {
         "key": 165,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 70,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 28,
+        "type": 0,
+        "valueChange": -10
       }
     ]
   },
@@ -1056,10 +826,37 @@
   },
   {
     "key": 72,
+    "valueChanges": [
+      {
+        "key": 26,
+        "type": 1,
+        "valueChange": -1,
+        "perLevel": true,
+        "mysticalSkillCategory": 0
+      }
+    ],
     "requirementBoons": [
       {
         "key": 165,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 73,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 3,
+        "valueChange": 1,
+        "skillKey": 20,
+        "usageKeys": [
+          66,
+          68,
+          69,
+          70
+        ],
+        "conditionally": true
       }
     ]
   },
@@ -1141,6 +938,15 @@
     ]
   },
   {
+    "key": 77,
+    "requirementBoons": [
+      {
+        "key": 195,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 81,
     "requirementBoons": [
       {
@@ -1159,11 +965,67 @@
     ]
   },
   {
+    "key": 83,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 2,
+        "skillKey": 10,
+        "valueChange": 1
+      },
+      {
+        "key": 18,
+        "type": 0,
+        "valueChange": 1
+      }
+    ],
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 32,
+        "exists": true
+      },
+      {
+        "key": 204,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 89,
     "requirementBoons": [
       {
         "key": 165,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 90,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 91,
+    "requirementBoons": [
+      {
+        "key": 38,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 93,
+    "valueChanges": [
+      {
+        "key": 27,
+        "type": 0,
+        "valueChange": 1,
+        "perLevel": true
       }
     ]
   },
@@ -1238,51 +1100,6 @@
       {
         "key": 24,
         "type": 1,
-        "valueChange": -1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 113,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 1,
-        "type": 4,
-        "valueChange": -1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 114,
-    "requirementBoons": [
-      {
-        "key": 38,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 2,
-        "type": 4,
-        "valueChange": -1,
-        "perLevel": true
-      }
-    ]
-  },
-  {
-    "key": 115,
-    "valueChanges": [
-      {
-        "key": 14,
-        "type": 4,
         "valueChange": -1,
         "perLevel": true
       }
@@ -1834,6 +1651,120 @@
     ]
   },
   {
+    "key": 103,
+    "requirementBoons": [
+      {
+        "key": 38,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 104,
+    "requirementBoons": [
+      {
+        "key": 105,
+        "exists": true,
+        "level": 1
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 26,
+        "type": 14,
+        "mysticalSkillCategory": 20,
+        "valueChange": 3
+      }
+    ]
+  },
+  {
+    "key": 106,
+    "valueChanges": [
+      {
+        "key": 16,
+        "type": 0,
+        "valueChange": 250,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 107,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 26
+      }
+    ]
+  },
+  {
+    "key": 110,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 3,
+        "usageKeys": [
+          10,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "key": 112,
+    "category": 1,
+    "multiselect": 2
+  },
+  {
+    "key": 113,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 4,
+        "valueChange": -1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 114,
+    "requirementBoons": [
+      {
+        "key": 38,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 2,
+        "type": 4,
+        "valueChange": -1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 115,
+    "valueChanges": [
+      {
+        "key": 14,
+        "type": 4,
+        "valueChange": -1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
     "key": 116,
     "valueChanges": [
       {
@@ -1923,6 +1854,19 @@
     "requirementBoons": [
       {
         "key": 165,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 125,
+    "name": "Seesprache",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 197,
         "exists": true
       }
     ]
@@ -2049,6 +1993,34 @@
     ]
   },
   {
+    "key": 132,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 3,
+        "valueChange": 1,
+        "skillKey": 28,
+        "usageKeys": [
+          94,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "key": 133,
+    "name": "Tierische Kampfgefährten",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 196,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 135,
     "valueChanges": [
       {
@@ -2086,11 +2058,356 @@
     ]
   },
   {
+    "key": 137,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 18,
+        "usageKeys": [
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "key": 139,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 4,
+        "valueChange": 1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 140,
+    "requirementBoons": [
+      {
+        "key": 38,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 2,
+        "type": 4,
+        "valueChange": 1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 141,
+    "valueChanges": [
+      {
+        "key": 14,
+        "type": 4,
+        "valueChange": 1,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 142,
+    "name": "Verführerische Gestalt",
+    "publications": [
+      61
+    ],
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 195,
+        "exists": true
+      },
+      {
+        "key": 201,
+        "exists": true
+      },
+      {
+        "key": 203,
+        "exists": true
+      },
+      {
+        "key": 204,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 143,
+    "requirementBoons": [
+      {
+        "key": 165,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 148,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 14,
+        "usageKeys": [
+          40,
+          50
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 20,
+        "usageKeys": [
+          67,
+          69,
+          70
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 45,
+        "usageKeys": [
+          186
+        ]
+      }
+    ]
+  },
+  {
+    "key": 149,
+    "requirementBoons": [
+      {
+        "key": 105,
+        "exists": true,
+        "level": 1
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 26,
+        "type": 14,
+        "mysticalSkillCategory": 21,
+        "valueChange": 3
+      }
+    ]
+  },
+  {
+    "key": 152,
+    "name": "Wasser des Lebens",
+    "publications": [
+      61
+    ],
+    "requirementBoons": [
+      {
+        "key": 197,
+        "exists": true
+      }
+    ]
+  },
+  {
     "key": 156,
     "requirementBoons": [
       {
         "key": 165,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 157,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 8
+      }
+    ]
+  },
+  {
+    "key": 158,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 3,
+        "valueChange": 1,
+        "skillKey": 9
+      },
+      {
+        "key": 0,
+        "type": 3,
+        "valueChange": 1,
+        "skillKey": 23
+      }
+    ]
+  },
+  {
+    "key": 159,
+    "requirementBoons": [
+      {
+        "key": 158,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 160,
+    "requirementBoons": [
+      {
+        "key": 158,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 162,
+    "requirementBoons": [
+      {
+        "key": 104,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 26,
+        "type": 1,
+        "valueChange": 1,
+        "perLevel": 1,
+        "mysticalSkillCategory": 20
+      }
+    ]
+  },
+  {
+    "key": 163,
+    "requirementBoons": [
+      {
+        "key": 149,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 26,
+        "type": 1,
+        "valueChange": 1,
+        "perLevel": 1,
+        "mysticalSkillCategory": 21
+      }
+    ]
+  },
+  {
+    "key": 165,
+    "selectionCategory": 17,
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 1,
+        "valueChange": 20
+      }
+    ]
+  },
+  {
+    "key": 175,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 16,
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 178,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 7,
+        "usageKeys": [
+          25,
+          26
+        ],
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 182,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "skillKey": 20,
+        "conditionally": true
+      }
+    ]
+  },
+  {
+    "key": 183,
+    "requirementBoons": [
+      {
+        "key": 135,
+        "variantName": "Gesellschaftstalent",
+        "skillCategoryKey": 1
+      }
+    ]
+  },
+  {
+    "key": 189,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 8,
+        "valueChange": 1,
+        "skillKey": 3,
+        "usageKeys": [
+          11
+        ],
+        "attributeValueChanges": [
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "key": 168,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 10,
+        "skillKey": 8,
+        "newSkillUsageKey": 313
+      }
+    ]
+  },
+  {
+    "key": 169,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "valueChange": 1,
+        "conditionally": true,
+        "skillKey": 9
       }
     ]
   },
@@ -2116,6 +2433,42 @@
         "key": 105,
         "selectedSkillKey": 28,
         "exists": true
+      }
+    ]
+  },
+  {
+    "key": 172,
+    "name": "Begabung - Magie",
+    "publications": [
+      39
+    ],
+    "category": 0,
+    "ap": 6,
+    "selectable": true,
+    "selectionCategory": 2,
+    "freeText": false,
+    "multiselect": 1,
+    "requirementBoons": [
+      {
+        "key": 135,
+        "exists": false,
+        "level": 0,
+        "isSameSelection": true
+      },
+      {
+        "key": 165,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 7,
+        "perLevel": false,
+        "temporary": false,
+        "useParentSelection": true,
+        "conditionally": false,
+        "valueChange": 0
       }
     ]
   },
@@ -2297,67 +2650,6 @@
     ]
   },
   {
-    "key": 32,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 8,
-        "attributeValueChanges": [
-          0,
-          1,
-          0
-        ],
-        "skillKey": 17
-      },
-      {
-        "key": 0,
-        "type": 8,
-        "attributeValueChanges": [
-          0,
-          1,
-          0
-        ],
-        "skillKey": 18
-      },
-      {
-        "key": 0,
-        "type": 8,
-        "attributeValueChanges": [
-          0,
-          1,
-          0
-        ],
-        "skillKey": 19
-      },
-      {
-        "key": 0,
-        "type": 8,
-        "attributeValueChanges": [
-          0,
-          1,
-          0
-        ],
-        "skillKey": 20
-      },
-      {
-        "key": 0,
-        "type": 8,
-        "attributeValueChanges": [
-          1,
-          0,
-          0
-        ],
-        "skillKey": 21
-      },
-      {
-        "key": 19,
-        "type": 0,
-        "valueChange": 1,
-        "conditionally": true
-      }
-    ]
-  },
-  {
     "key": 195,
     "valueChanges": [
       {
@@ -2411,197 +2703,6 @@
   },
   {
     "key": 197
-  },
-  {
-    "key": 8,
-    "requirementBoons": [
-      {
-        "key": 196,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 17,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 8,
-        "skillKey": 20,
-        "attributeValueChanges": [
-          0,
-          0,
-          1
-        ],
-        "conditionally": true
-      },
-      {
-        "key": 0,
-        "type": 8,
-        "skillKey": 20,
-        "attributeValueChanges": [
-          0,
-          0,
-          -1
-        ],
-        "conditionally": true
-      }
-    ],
-    "requirementBoons": [
-      {
-        "key": 32,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 21,
-    "valueChanges": [
-      {
-        "key": 27,
-        "type": 0,
-        "valueChange": 1,
-        "conditionally": true
-      }
-    ],
-    "requirementBoons": [
-      {
-        "key": 196,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 24,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 5,
-        "skillKey": 9,
-        "valueChange": 1,
-        "conditionally": true
-      }
-    ],
-    "requirementBoons": [
-      {
-        "key": 32,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 42,
-    "requirementBoons": [
-      {
-        "key": 197,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 47,
-    "requirementBoons": [
-      {
-        "key": 195,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 63,
-    "ap": 0.5
-  },
-  {
-    "key": 64,
-    "ap": 0.5
-  },
-  {
-    "key": 70,
-    "requirementBoons": [
-      {
-        "key": 165,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 28,
-        "type": 0,
-        "valueChange": -10
-      }
-    ]
-  },
-  {
-    "key": 77,
-    "requirementBoons": [
-      {
-        "key": 195,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 83,
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 2,
-        "skillKey": 10,
-        "valueChange": 1
-      },
-      {
-        "key": 18,
-        "type": 0,
-        "valueChange": 1
-      }
-    ],
-    "requirementBoons": [
-      {
-        "key": 32,
-        "exists": true
-      }
-    ]
-  },
-  {
-    "key": 112,
-    "category": 1,
-    "multiselect": 2
-  },
-  {
-    "key": 172,
-    "name": "Begabung - Magie",
-    "publications": [
-      39
-    ],
-    "category": 0,
-    "ap": 6,
-    "selectable": true,
-    "selectionCategory": 2,
-    "freeText": false,
-    "multiselect": 1,
-    "requirementBoons": [
-      {
-        "key": 135,
-        "exists": false,
-        "level": 0,
-        "isSameSelection": true
-      },
-      {
-        "key": 165,
-        "exists": true
-      }
-    ],
-    "valueChanges": [
-      {
-        "key": 0,
-        "type": 7,
-        "perLevel": false,
-        "temporary": false,
-        "useParentSelection": true,
-        "conditionally": false,
-        "valueChange": 0
-      }
-    ]
   },
   {
     "key": 198,
@@ -2703,53 +2804,580 @@
     ]
   },
   {
-    "key": 125,
-    "name": "Seesprache",
-    "publications": [
-      61
+    "key": 201,
+    "valueChanges": [
+      {
+        "key": 11,
+        "type": 0,
+        "conditionally": true,
+        "conditionReason": "Gegen Merkmal Dämonisch oder Zauber die von Dämonen gewirkt werden",
+        "valueChange": 1
+      },
+      {
+        "key": 12,
+        "type": 0,
+        "conditionally": true,
+        "conditionReason": "Gegen Merkmal Dämonisch oder Zauber die von Dämonen gewirkt werden",
+        "valueChange": 1
+      },
+      {
+        "key": 11,
+        "type": 0,
+        "conditionally": true,
+        "conditionReason": "Gegen weltliche Gifte und Krankheiten",
+        "valueChange": -1
+      },
+      {
+        "key": 12,
+        "type": 0,
+        "conditionally": true,
+        "conditionReason": "Gegen weltliche Gifte und Krankheiten",
+        "valueChange": -1
+      }
+    ]
+  },
+  {
+    "key": 202,
+    "valueChanges": [
+      {
+        "key": 18,
+        "type": 0,
+        "valueChange": -1
+      },
+      {
+        "key": 27,
+        "type": 0,
+        "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 203,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 8,
+        "skillKey": 8,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "skillKey": 10,
+        "attributeValueChanges": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "key": 0,
+        "type": 8,
+        "skillKey": 55,
+        "attributeValueChanges": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 22,
+        "valueChange": -1,
+        "usageKeys": [
+          76
+        ]
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 22,
+        "valueChange": -1,
+        "conditionally": true,
+        "conditionReason": "unterdrücken einer schlechten Eigenschaft"
+      }
     ],
     "requirementBoons": [
       {
-        "key": 197,
+        "key": 201,
+        "exists": true,
+        "level": 0,
+        "isSameSelection": false
+      }
+    ]
+  },
+  {
+    "key": 205,
+    "requirementBoons": [
+      {
+        "key": 201,
         "exists": true
       }
     ]
   },
   {
-    "key": 133,
-    "name": "Tierische Kampfgefährten",
-    "publications": [
-      61
-    ],
+    "key": 206,
     "requirementBoons": [
       {
-        "key": 196,
+        "key": 202,
         "exists": true
       }
     ]
   },
   {
-    "key": 142,
-    "name": "Verführerische Gestalt",
-    "publications": [
-      61
-    ],
+    "key": 207,
     "requirementBoons": [
       {
-        "key": 195,
+        "key": 202,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 7,
+        "usageKeys": [
+          26
+        ],
+        "valueChange": 1
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 22,
+        "usageKeys": [
+          75
+        ],
+        "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 208,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 19,
+        "valueChange": 2
+      },
+      {
+        "key": 1,
+        "type": 0,
+        "valueChange": -1,
+        "featureKey": 26
+      },
+      {
+        "key": 1,
+        "type": 3,
+        "valueChange": 1,
+        "featureKey": 26
+      }
+    ]
+  },
+  {
+    "key": 211,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 2,
+        "valueChange": 2
+      },
+      {
+        "key": 0,
+        "type": 3,
+        "skillKey": 16,
+        "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 212,
+    "selectionCategory": 8,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 35,
+        "valueChange": 2
+      },
+      {
+        "key": 0,
+        "type": 5,
+        "useParentSelection": true,
+        "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 214,
+    "requirementBoons": [
+      {
+        "key": 210,
         "exists": true
       }
     ]
   },
   {
-    "key": 152,
-    "name": "Wasser des Lebens",
-    "publications": [
-      61
-    ],
+    "key": 215,
+    "isRequirementBoonsOr": true,
     "requirementBoons": [
       {
-        "key": 197,
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 216,
+    "valueChanges": [
+      {
+        "key": 0,
+        "type": 5,
+        "skillKey": 3,
+        "valueChange": 1
+      },
+      {
+        "key": 27,
+        "type": 0,
+        "valueChange": 1
+      }
+    ],
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 217,
+    "requirementBoons": [
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 165,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 218,
+    "requirementBoons": [
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 219,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 220,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 221,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 222,
+    "requirementBoons": [
+      {
+        "key": 211,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 223,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 224,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ],
+    "valueChanges": [
+      {
+        "key": 27,
+        "type": 0,
+        "perLevel": true,
+        "valueChange": 1
+      }
+    ]
+  },
+  {
+    "key": 225,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 226,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 227,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
+        "exists": true
+      }
+    ]
+  },
+  {
+    "key": 228,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {
+        "key": 208,
+        "exists": true
+      },
+      {
+        "key": 209,
+        "exists": true
+      },
+      {
+        "key": 210,
+        "exists": true
+      },
+      {
+        "key": 211,
+        "exists": true
+      },
+      {
+        "key": 212,
+        "exists": true
+      },
+      {
+        "key": 213,
         "exists": true
       }
     ]

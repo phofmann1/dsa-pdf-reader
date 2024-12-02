@@ -392,16 +392,16 @@ public enum SkillUsageKey
   nostria,
   zahnbehandlung,
   zauberzeichen_malen,
-  berserker_beruhigen;
+  berserker_beruhigen,
+  tierheilkunde,
+  tierkrankheiten_behandeln;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 
-  public static SkillUsageKey fromString(String str)
-  {
+  public static SkillUsageKey fromString(String str) {
     for (SkillUsageKey e : SkillUsageKey.values())
     {
       if (e.name().equalsIgnoreCase(str.toLowerCase().replace(" ", "_")

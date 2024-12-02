@@ -68,7 +68,10 @@ public enum Publication
   Archiv_der_Ausrüstung,
   Geschöpfe_der_Anderswelt,
   Die_Echsensümpfe,
-  Helden_der_Echsensümpfe;
+  Helden_der_Echsensümpfe,
+  Aventurische_Tiergefährten,
+  Geschuppte_Tyrannen,
+  Aventurisches_Elementarium;
 
 
   @JsonValue

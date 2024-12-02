@@ -9,7 +9,7 @@ public class BoonVariant
 {
     public BoonVariantKey key;
     public String name;
-    public int ap;
+    public Integer ap;
 
     public List<ValueChange> valueChanges;
     public List<RequirementBoon> requirementBoonList = new ArrayList<>();
@@ -21,11 +21,10 @@ public class BoonVariant
 
     public BoonVariant(BoonVariantKey key, String name)
     {
-        this(key, name, 0, new ArrayList<>());
+        this(key, name, null, new ArrayList<>());
     }
 
-    public BoonVariant(BoonVariantKey key, String name, int ap, List<RequirementBoon> requirementBoonList)
-    {
+    public BoonVariant(BoonVariantKey key, String name, Integer ap, List<RequirementBoon> requirementBoonList) {
         this.key = key;
         this.name = name;
         this.ap = ap;

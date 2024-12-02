@@ -77,11 +77,11 @@ public enum BoonVariantKey
   verstümmelung_einäugig,
   verstümmelung_einbeinig,
   verstümmelung_einhändig,
-  verstümmelung_einohrig;
+  verstümmelung_einohrig,
+  schlechte_angewohnheit_raucher;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 

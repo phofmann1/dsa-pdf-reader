@@ -26,6 +26,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEntityDomain;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPactLevel;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.exporter.model.RequirementMysticalSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementSkill;
@@ -197,7 +198,7 @@ public class LoadToSpecialAbility
 
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung) {
 
-          SkillUsage su = ExtractorSpecialAbility.retrieveSkillUsage(raw.rules);
+          SkillUsage su = ExtractorSkill.retrieveSkillUsage(raw.rules);
           if (su != null) {
             specialAbility.newSkillUsageKey = su.key;
           }
@@ -205,15 +206,12 @@ public class LoadToSpecialAbility
 
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung)
         {
-          if (ExtractorSpecialAbility.PAT_HAS_NEW_SKILL_APPLICATION.matcher(raw.rules).find())
-          {
+          if (ExtractorSkill.PAT_HAS_NEW_SKILL_APPLICATION.matcher(raw.rules).find()) {
             String keyString = Extractor.extractKeyTextFromTextWithUmlauts(specialAbility.name).toLowerCase();
-            try
-            {
+            try {
               specialAbility.newSkillApplicationKey = SkillApplicationKey.valueOf(keyString);
             }
-            catch (IllegalArgumentException e)
-            {
+            catch (IllegalArgumentException e) {
               //System.out.println("SA: " + keyString);
               LOGGER.error("Invalid specialAbility name: " + keyString);
             }

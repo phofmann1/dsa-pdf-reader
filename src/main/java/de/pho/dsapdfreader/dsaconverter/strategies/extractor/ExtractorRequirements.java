@@ -77,6 +77,7 @@ public class ExtractorRequirements extends Extractor
 
   public static RequirementsSpecie extractSpecieReqsForBoon(BoonKey key)
   {
+    if (key == null) return null;
     RequirementsSpecie returnValue = null;
     switch (key)
     {
@@ -97,6 +98,7 @@ public class ExtractorRequirements extends Extractor
 
   public static CultureKey extractCultureReqsForBoon(BoonKey key)
   {
+    if (key == null) return null;
     return switch (key)
         {
           case walwut_swafskari, friedlos -> CultureKey.thorwal;
@@ -182,7 +184,7 @@ public class ExtractorRequirements extends Extractor
         if (!boonText.isEmpty())
         {
 
-          BoonKey boonKey = ExtractorBoonKey.retrieve(boonText);
+          BoonKey boonKey = ExtractorBoon.retrieve(boonText);
           if (boonKey != null)
           {
             RequirementBoon req = new RequirementBoon();

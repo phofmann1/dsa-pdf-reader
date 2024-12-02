@@ -181,8 +181,8 @@ public class DsaConverterWeaponAvailability {
 
   private static boolean _handleAvailabilityByTradition(AvailabilityWeapon nAvailability, String r) {
     nAvailability.availableByTradition = switch (r) {
-      case "alle Regionen mit Magiern", "Gildenmagier" -> TraditionKey.MAGE;
-      case "Scharlatane" -> TraditionKey.ILLUSIONIST;
+      case "alle Regionen mit Magiern", "Gildenmagier" -> TraditionKey.gildenmagier;
+      case "Scharlatane" -> TraditionKey.scharlatane;
       default -> null;
     };
 

@@ -126,7 +126,7 @@ public class ExtractorObjectRitual extends Extractor {
     if (m.find()) {
       String text = m.group().trim();
 
-      String skillKeyString = ExtractorSkillKey.extractKeyTextFromText(text
+      String skillKeyString = ExtractorSkill.extractKeyTextFromText(text
               .replaceAll("\\d*", "")
               .trim())
           .toLowerCase();

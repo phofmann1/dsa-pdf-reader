@@ -28,8 +28,6 @@ import de.pho.dsapdfreader.exporter.model.RequirementsAttribute;
 import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSpecialAbility;
-import de.pho.dsapdfreader.exporter.model.SkillApplication;
-import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityAdvancedSelection;
 import de.pho.dsapdfreader.exporter.model.SpecialAbilityOption;
 import de.pho.dsapdfreader.exporter.model.ValueChange;
@@ -41,7 +39,6 @@ import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillModification;
-import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
@@ -58,12 +55,6 @@ public class ExtractorSpecialAbility extends Extractor
 {
 
   public static final Pattern PAT_TALENT_MULTISELECT = Pattern.compile("bis zu drei .*alente aussuchen");
-  //test/resources/testdata - regex/KodexSchwert - abilities - new skill usages.txt
-  public static final Pattern PAT_HAS_NEW_SKILL_USAGE = Pattern.compile("neues? (<i>)?Anwendungsgebiet|erhält .* das Anwendungsgebiet <i>");
-  public static final Pattern PAT_EXTRACT_NEW_SKILL_USAGE = Pattern.compile("(?<=Anwendungsgebiet <i>)[A-zÄ-üß ()&]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)"); //die Trennung durch <i> ist z.B. im Anwendungsgebiet Instrumente bauen zu sehen
-  public static final Pattern PAT_HAS_NEW_SKILL_APPLICATION = Pattern.compile("(erwirbt|ist eine|erhält|wird eine|bekommen).*Einsatzmöglichkeit");
-  public static final Pattern PAT_EXTRACT_NEW_SKILL_APPLICATION = Pattern.compile("(?<=(Talent <i>|it von <i>|it für <i>|alents <i>|be auf <i>))[A-zÄ-üß ()&.]*(<\\/i> <i>)?[A-zÄ-üß ()&]*(?=<\\/i>)");
-  public static final Pattern PAT_EXTRACT_SKILL = Pattern.compile("(?<=<i>)[A-zÄ-üß &-]*(?=<\\/i>)");
   private static final Pattern PAT_EXTRACT_SPECIE = Pattern.compile("(?<=Spezies )\\w*");
   private static final Pattern PAT_EXTRACT_TRADITION = Pattern.compile("(?<!(keine )Sonderfertigkeit Tradition \\()(?<=Tradition \\()[^\\)]*");
 
@@ -293,161 +284,6 @@ public class ExtractorSpecialAbility extends Extractor
         .replaceAll("(?<=[a-z])\u00AD(?=[a-z])", "");
   }
 
-  public static SkillUsage retrieveSkillUsage(String rules)
-  {
-    SkillUsage returnValue = null;
-    rules = rules
-        .replace("<i>Anwendungsgebiet Gil</i> <i>-</i> <i>denrecht</i>", "Anwendungsgebiet <i>Gildenrecht</i>")
-        .replace("Ölgemälde malen", "<i>Ölgemälde malen</i>")
-        .replace("Prunkkleider herstellen", "<i>Prunkkleider herstellen</i>");
-    Matcher m = PAT_HAS_NEW_SKILL_USAGE.matcher(rules);
-
-    if (m.find())
-    {
-      returnValue = new SkillUsage();
-      String skillUsageText = null;
-      m = PAT_EXTRACT_NEW_SKILL_USAGE.matcher(rules);
-      if (m.find())
-      {
-        skillUsageText = m.group();
-        returnValue.name = skillUsageText
-            .replace("<i>", "")
-            .replace("</i>", "")
-            .replace("Magiespür", "Magiegespür");
-        returnValue.key = ExtractorSkillKey.retrieveSkillUsageKey(Extractor.extractKeyTextFromTextWithUmlauts(returnValue.name).toLowerCase());
-      }
-
-      returnValue.skillKeys = etractSkillKeys(rules.replace("<i>" + skillUsageText + "</i>", ""));
-
-      if (returnValue.key == SkillUsageKey.berserker_beruhigen)
-      {
-        returnValue.skillKeys = List.of(SkillKey.überreden);
-      }
-    }
-
-    return returnValue;
-  }
-
-
-  public static SkillApplication retrieveSkillApplication(String rules, String abilityName)
-  {
-    SkillApplication returnValue = null;
-
-    if (PAT_HAS_NEW_SKILL_APPLICATION.matcher(rules).find())
-    {
-
-      returnValue = new SkillApplication();
-      String keyString = Extractor.extractKeyTextFromTextWithUmlauts(abilityName.replaceAll("\\(.*\\)", "")).toLowerCase();
-      try
-      {
-        returnValue.key = SkillApplicationKey.valueOf(keyString);
-      }
-      catch (IllegalArgumentException e)
-      {
-        //System.out.println("SA: " + keyString);
-        LOGGER.error("Invalid specialAbility name: " + keyString);
-      }
-      returnValue.name = abilityName;
-      returnValue.skillKey = extractSkillKeyForNewApplication(rules);
-
-      returnValue.skillUsages = extractSkillUsages(returnValue.key);
-    }
-
-    return returnValue;
-  }
-
-  private static List<SkillUsageKey> extractSkillUsages(SkillApplicationKey skillApplicationKey)
-  {
-    if (skillApplicationKey == null) return new ArrayList<>();
-    return switch (skillApplicationKey)
-        {
-          case abrichter -> List.of(SkillUsageKey.wildtiere);
-          case anführer -> List.of(SkillUsageKey.aufschwatzen, SkillUsageKey.manipulieren, SkillUsageKey.schmeicheln);
-          case anpeitscher, drohgebärden -> List.of(SkillUsageKey.drohung);
-          case bildhauerei -> List.of(SkillUsageKey.steinmetzarbeiten);
-          case iglubau -> List.of(SkillUsageKey.lageraufbau);
-          case konditor -> List.of(SkillUsageKey.backen);
-          case menschenstimmen_imitieren -> List.of(SkillUsageKey.personen_imitieren);
-          case rosstäuscher -> List.of(SkillUsageKey.feilschen);
-          case schmerzen_unterdrücken -> List.of(SkillUsageKey.handlungsfähigkeit_bewahren);
-          case viehzucht -> List.of(SkillUsageKey.domestizierte_tiere);
-          case scholar_der_akademie_schwert_und_stab_zu_gareth, scholar_der_schule_der_hellsicht_zu_thorwal ->
-              List.of(SkillUsageKey.bedrohungen_standhalten);
-          case tapferkeit_der_unsterblichen -> List.of(SkillUsageKey.öffentliche_rede);
-          case scholar_der_akademie_der_hohen_magie_zu_punin, analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen ->
-              new ArrayList<>();
-        };
-  }
-
-  private static SkillKey extractSkillKeyForNewApplication(String rules)
-  {
-    Matcher m = PAT_EXTRACT_NEW_SKILL_APPLICATION.matcher(rules.replace("<i>Pflanzen</i> <i>-</i> <i>kunde (Nutzpflanzen)</i>", "<i>Pflanzenkunde (Nutzpflanzen)</i>"));
-    String forSkill = "";
-    SkillKey returnValue = null;
-    if (m.find())
-    {
-      forSkill = m.group()
-          .replaceAll("\\(.*\\)?", "")
-          .replaceAll("<\\/?i>", "");
-      try
-      {
-        returnValue = SkillKey.valueOf(Extractor.extractKeyTextFromTextWithUmlauts(forSkill).toLowerCase());
-      }
-      catch (IllegalArgumentException e)
-      {
-        LOGGER.error("Skill with the name (" + forSkill + ") unknown");
-      }
-    }
-    return returnValue;
-  }
-
-  private static List<SkillKey> etractSkillKeys(String rules)
-  {
-    List<SkillKey> returnValue = new ArrayList<>();
-    Matcher m = PAT_EXTRACT_SKILL.matcher(rules
-        .replace("Brennend", "")
-        .replace("<i>-</i>", "")
-        .replace("<i>tung</i>", ""));
-
-    while (m.find())
-    {
-      String skillString = m.group();
-      skillString = (skillString.equalsIgnoreCase("Holz-") || skillString.equalsIgnoreCase("Holz"))
-          ? "Holzbearbeitung"
-          : skillString;
-      skillString = (skillString.equalsIgnoreCase("Metall-") || skillString.equalsIgnoreCase("Metall"))
-          ? "Metallbearbeitung"
-          : skillString;
-      skillString = (skillString.equalsIgnoreCase("Steinbearbei"))
-          ? "Steinbearbeitung"
-          : skillString;
-      skillString = (skillString.equalsIgnoreCase("Malen & Zeichen"))
-          ? "Malen & Zeichnen"
-          : skillString;
-
-      //Fehlerkorrektur Kryptographie (da ist viel kursiv und wird falsch erkannt
-      skillString = skillString.replace("Kryptographie", "")
-          .replace("Einfache", "")
-          .replace("Optionale Regel", "")
-          .replace("Primitive", "");
-
-      if (!skillString.isEmpty())
-      {
-        Optional<SkillKey> sko = SkillKey.fromString(skillString);
-        if (sko.isPresent())
-        {
-          returnValue.add(sko.get());
-        }
-        else
-        {
-          //LOGGER.error("Kein gültiger ENUM SkillKey: " + skillString);
-        }
-      }
-
-    }
-
-    return returnValue;
-  }
 
   public static SpecieKey retrieveRequiredSpecie(String preconditions)
   {
@@ -1133,7 +969,7 @@ public class ExtractorSpecialAbility extends Extractor
       returnValue = new ValueChange();
       returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.qs;
-      returnValue.change = 1;
+      returnValue.valueChange = 1;
 
       returnValue.usageKeys = new ArrayList<>();
       Matcher mSkillUsages = Pattern.compile("(?<=\\()[A-ü<>\\/ ,&]*(?=\\))").matcher(rules);
@@ -1178,7 +1014,7 @@ public class ExtractorSpecialAbility extends Extractor
       returnValue = new ValueChange();
       returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.fp;
-      returnValue.change = Integer.valueOf(m.group().trim());
+      returnValue.valueChange = Integer.valueOf(m.group().trim());
 
       returnValue.usageKeys = new ArrayList<>();
       Matcher mSkillUsages = Pattern.compile("(?<=\\()[A-ü<>\\/ ,&]*(?=\\))").matcher(
@@ -1223,7 +1059,7 @@ public class ExtractorSpecialAbility extends Extractor
       returnValue = new ValueChange();
       returnValue.key = ValueChangeKey.skill;
       returnValue.type = ValueChangeType.fp;
-      returnValue.change = Integer.valueOf(m.group().trim());
+      returnValue.valueChange = Integer.valueOf(m.group().trim());
 
 
       returnValue.usageKeys = new ArrayList<>();
@@ -1243,7 +1079,7 @@ public class ExtractorSpecialAbility extends Extractor
     if (saKey == null) return null;
     ValueChange result = new ValueChange();
     result.key = ValueChangeKey.skill;
-    result.change = 1;
+    result.valueChange = 1;
     switch (saKey)
     {
     case holzkenntnis:
@@ -1305,7 +1141,7 @@ public class ExtractorSpecialAbility extends Extractor
           SkillUsageKey.bühnenschauspiel, SkillUsageKey.kostümierung, SkillUsageKey.personen_imitieren,//Verkleiden
           SkillUsageKey.aufschwatzen, SkillUsageKey.betteln, SkillUsageKey.herausreden, SkillUsageKey.manipulieren, SkillUsageKey.schmeicheln//Überreden
       );
-      result.change = 1;
+      result.valueChange = 1;
       result.usageRestrictionKey = UsageRestrictionKey.probenart_vergleich;
       return result;
     default:
@@ -1327,7 +1163,7 @@ public class ExtractorSpecialAbility extends Extractor
       result.mysticalSkillKeys = List.of(
           MysticalSkillKey.spell_bannbaladin, MysticalSkillKey.spell_levthans_feuer, MysticalSkillKey.spell_seidenzunge
       );
-      result.change = 1;
+      result.valueChange = 1;
       break;
 
     default:
@@ -1346,7 +1182,7 @@ public class ExtractorSpecialAbility extends Extractor
     {
     case quacksalber:
       result.featureKey = MysticalSkillFeature.healing;
-      result.traditionKey = TraditionKey.ILLUSIONIST;
+      result.traditionKey = TraditionKey.scharlatane;
       return result;
     default:
       return null;

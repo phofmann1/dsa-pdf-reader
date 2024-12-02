@@ -21,14 +21,14 @@ import org.apache.logging.log4j.Logger;
 
 import de.pho.dsapdfreader.dsaconverter.model.CurriculumRaw;
 import de.pho.dsapdfreader.dsaconverter.model.ProfessionRaw;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoonKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoon;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCombatSkillKeys;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCultureKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorGenderKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorProfessionKey;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecieKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
@@ -364,7 +364,7 @@ public class LoadToProfession {
       Matcher replacedSkillMatcher = Pattern.compile("(?<=\\d statt )[A-ü ()]+").matcher(skillChangeString);
       String skillReplacedName = replacedSkillMatcher.find() ? replacedSkillMatcher.group() : null;
       if (!skillName.isEmpty()) {
-        boolean isSkillKey = ExtractorSkillKey.isSkillKey(skillName);
+        boolean isSkillKey = ExtractorSkill.isSkillKey(skillName);
         boolean isCombatSkillKey = ExtractorCombatSkillKeys.isCombatSkillKey(skillName);
         boolean isMysticalSkillKey = ExtractorMysticalSkillKey.isMysticalSkillKey(skillName, true);
 
@@ -375,30 +375,30 @@ public class LoadToProfession {
 
         if (isSkillKey) {
           variant.skillChanges = variant.skillChanges.stream().map(sc -> {
-                if (skillReplacedName == null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
-                  sc.change = firstValue;
+                if (skillReplacedName == null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
+                  sc.valueChange = firstValue;
                 }
-                else if (skillReplacedName != null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
-                  sc.change = firstValue;
-                  sc.skillKey = ExtractorSkillKey.retrieveSkillKey(skillName.trim());
+                else if (skillReplacedName != null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
+                  sc.valueChange = firstValue;
+                  sc.skillKey = ExtractorSkill.retrieveSkillKey(skillName.trim());
                 }
                 return sc;
-              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
               .collect(Collectors.toList());
         }
 
         if (isCombatSkillKey) {
           variant.combatSkillChanges = variant.combatSkillChanges.stream().map(sc -> {
                 if (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillName) && sc.type == ValueChangeType.value) {
-                  sc.change = firstValue;
+                  sc.valueChange = firstValue;
                 }
                 else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
-                  sc.change = firstValue;
+                  sc.valueChange = firstValue;
                   sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
                   System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
                 }
                 return sc;
-              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
               .collect(Collectors.toList());
         }
 
@@ -406,10 +406,10 @@ public class LoadToProfession {
         if (isMysticalSkillKey) {
           variant.mysticalSkillChanges = variant.mysticalSkillChanges.stream().map(sc -> {
                 if (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true) && sc.type == ValueChangeType.value) {
-                  sc.change = firstValue;
+                  sc.valueChange = firstValue;
                 }
                 else if (skillReplacedName != null && (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), true) && sc.type == ValueChangeType.value)) {
-                  sc.change = firstValue;
+                  sc.valueChange = firstValue;
                   sc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), true);
 
                   if (skillName.contains("(")) {
@@ -421,7 +421,7 @@ public class LoadToProfession {
 
                 }
                 return sc;
-              }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+              }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
               .collect(Collectors.toList());
         }
 
@@ -429,7 +429,7 @@ public class LoadToProfession {
           ValueChange msc = new ValueChange();
           msc.key = ValueChangeKey.skill;
           msc.type = ValueChangeType.value;
-          msc.change = firstValue;
+          msc.valueChange = firstValue;
           msc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, true);
           variant.mysticalSkillChanges.add(msc);
         }
@@ -603,7 +603,7 @@ public class LoadToProfession {
         : Arrays.stream(cleanedString.split(","))
         .filter(str -> str != null && !str.trim().isEmpty() && !str.trim().equals("–"))
         .map(str -> {
-          BoonKey r = ExtractorBoonKey.retrieve(str.trim());
+          BoonKey r = ExtractorBoon.retrieve(str.trim());
           if (r == null) System.out.println("extractBoonsRecommended(~259): " + str.trim());
           return r;
         }).collect(Collectors.toList());
@@ -657,7 +657,7 @@ public class LoadToProfession {
 
         varMatcher = Pattern.compile("(?<=Empfohlener Vorteil )[A-ü]+(?=,|$)").matcher(variantString);
         if (varMatcher.find()) {
-          variant.boonsRecomended.add(ExtractorBoonKey.retrieve(varMatcher.group()));
+          variant.boonsRecomended.add(ExtractorBoon.retrieve(varMatcher.group()));
           variantString = variantString.replaceAll("Empfohlener Vorteil [A-ü]+(?=,|$)", "");
         }
 
@@ -692,7 +692,7 @@ public class LoadToProfession {
           if (removeSpec) {
             List<SkillKey> removeSpecs = Arrays.stream(cleanupSpecString(specString)
                     .split(" oder |,"))
-                .map(name -> ExtractorSkillKey.retrieveSkillKey(name.trim()))
+                .map(name -> ExtractorSkill.retrieveSkillKey(name.trim()))
                 .collect(Collectors.toList());
 
             variant.specializationOptions = variant.specializationOptions.stream()
@@ -712,12 +712,12 @@ public class LoadToProfession {
             ValueChange specVc = new ValueChange();
             specVc.key = ValueChangeKey.skill;
             specVc.type = ValueChangeType.specialize;
-            specVc.skillKey = ExtractorSkillKey.retrieveSkillKey(cleanupSpecString(specString));
+            specVc.skillKey = ExtractorSkill.retrieveSkillKey(cleanupSpecString(specString));
             variant.specializationOptions.add(specVc);
           }
           else if (replaceSpec) {
             List<SkillKey> replacementList = List.of(cleanupSpecString(specString).split(" (statt|anstatt) ")).stream()
-                .map(str -> ExtractorSkillKey.retrieveSkillKey(str.trim()))
+                .map(str -> ExtractorSkill.retrieveSkillKey(str.trim()))
                 .collect(Collectors.toList());
 
             variant.specializationOptions = variant.specializationOptions.stream().map(so -> {
@@ -736,7 +736,7 @@ public class LoadToProfession {
             ValueChange specVc = new ValueChange();
             specVc.key = ValueChangeKey.skill;
             specVc.type = ValueChangeType.specialize;
-            specVc.skillKey = ExtractorSkillKey.retrieveSkillKey(nameNewSpec);
+            specVc.skillKey = ExtractorSkill.retrieveSkillKey(nameNewSpec);
             variant.specializationOptions.add(specVc);
           }
           variantString = variantString.replace(specString, "");
@@ -769,7 +769,7 @@ public class LoadToProfession {
             Matcher replacedSkillMatcher = Pattern.compile("(?<=\\d statt )[A-ü ()]+").matcher(skillChangeString);
             String skillReplacedName = replacedSkillMatcher.find() ? replacedSkillMatcher.group() : null;
             if (!skillName.isEmpty()) {
-              boolean isSkillKey = ExtractorSkillKey.isSkillKey(skillName);
+              boolean isSkillKey = ExtractorSkill.isSkillKey(skillName);
               boolean isCombatSkillKey = ExtractorCombatSkillKeys.isCombatSkillKey(skillName);
               boolean isMysticalSkillKey = ExtractorMysticalSkillKey.isMysticalSkillKey(skillName, isMagical);
 
@@ -780,30 +780,30 @@ public class LoadToProfession {
 
               if (isSkillKey) {
                 variant.skillChanges = variant.skillChanges.stream().map(sc -> {
-                      if (skillReplacedName == null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
-                        sc.change = firstValue;
+                      if (skillReplacedName == null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
+                        sc.valueChange = firstValue;
                       }
-                      else if (skillReplacedName != null && (sc.skillKey == ExtractorSkillKey.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
-                        sc.change = firstValue;
-                        sc.skillKey = ExtractorSkillKey.retrieveSkillKey(skillName.trim());
+                      else if (skillReplacedName != null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
+                        sc.valueChange = firstValue;
+                        sc.skillKey = ExtractorSkill.retrieveSkillKey(skillName.trim());
                       }
                       return sc;
-                    }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+                    }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
                     .collect(Collectors.toList());
               }
 
               if (isCombatSkillKey) {
                 variant.combatSkillChanges = variant.combatSkillChanges.stream().map(sc -> {
                       if (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillName) && sc.type == ValueChangeType.value) {
-                        sc.change = firstValue;
+                        sc.valueChange = firstValue;
                       }
                       else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
-                        sc.change = firstValue;
+                        sc.valueChange = firstValue;
                         sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
                         System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
                       }
                       return sc;
-                    }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+                    }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
                     .collect(Collectors.toList());
               }
 
@@ -811,10 +811,10 @@ public class LoadToProfession {
               if (isMysticalSkillKey && !replaceAllMysticalSkills) {
                 variant.mysticalSkillChanges = variant.mysticalSkillChanges.stream().map(sc -> {
                       if (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical) && sc.type == ValueChangeType.value) {
-                        sc.change = firstValue;
+                        sc.valueChange = firstValue;
                       }
                       else if (skillReplacedName != null && (sc.mysticalSkillKey == ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillReplacedName.trim(), isMagical) && sc.type == ValueChangeType.value)) {
-                        sc.change = firstValue;
+                        sc.valueChange = firstValue;
                         sc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName.trim(), isMagical);
 
                         if (skillName.contains("(")) {
@@ -826,7 +826,7 @@ public class LoadToProfession {
 
                       }
                       return sc;
-                    }).filter(sc -> sc.type != ValueChangeType.value || sc.change > 0)
+                    }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
                     .collect(Collectors.toList());
               }
 
@@ -834,7 +834,7 @@ public class LoadToProfession {
                 ValueChange msc = new ValueChange();
                 msc.key = ValueChangeKey.skill;
                 msc.type = ValueChangeType.value;
-                msc.change = firstValue;
+                msc.valueChange = firstValue;
                 msc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(skillName, isMagical);
                 variant.mysticalSkillChanges.add(msc);
               }
@@ -852,7 +852,7 @@ public class LoadToProfession {
             ValueChange vc = new ValueChange();
             vc.key = ValueChangeKey.skill;
             vc.type = ValueChangeType.value;
-            vc.change = 12;
+            vc.valueChange = 12;
             vc.combatSkillKeysOneOf = List.of(CombatSkillKey.fechtwaffen, CombatSkillKey.hiebwaffen, CombatSkillKey.schwerter);
             variant.combatSkillOptions.add(vc);
             variantString = variantString
@@ -864,10 +864,10 @@ public class LoadToProfession {
             ValueChange vc = new ValueChange();
             vc.key = ValueChangeKey.skill;
             vc.type = ValueChangeType.value;
-            vc.change = 12;
+            vc.valueChange = 12;
             vc.combatSkillKey = CombatSkillKey.bögen;
             variant.combatSkillChanges.add(vc);
-            variant.combatSkillOptions = variant.combatSkillOptions.stream().filter(cso -> cso.change != 12).collect(Collectors.toList());
+            variant.combatSkillOptions = variant.combatSkillOptions.stream().filter(cso -> cso.valueChange != 12).collect(Collectors.toList());
             variantString = variantString.replace("Bögen 12 (als eine der ausgewählten Kampftechniken)", "");
           }
 
@@ -875,14 +875,14 @@ public class LoadToProfession {
             ValueChange vc1 = new ValueChange();
             vc1.key = ValueChangeKey.skill;
             vc1.type = ValueChangeType.value;
-            vc1.change = 12;
+            vc1.valueChange = 12;
             vc1.combatSkillKey = CombatSkillKey.schwerter;
             variant.combatSkillChanges.add(vc1);
 
             ValueChange vc2 = new ValueChange();
             vc2.key = ValueChangeKey.skill;
             vc2.type = ValueChangeType.value;
-            vc2.change = 12;
+            vc2.valueChange = 12;
             vc2.combatSkillKey = CombatSkillKey.zweihandschwerter;
             variant.combatSkillChanges.add(vc2);
             variant.combatSkillOptions = new ArrayList<>();
@@ -893,13 +893,13 @@ public class LoadToProfession {
             ValueChange vc1 = new ValueChange();
             vc1.key = ValueChangeKey.skill;
             vc1.type = ValueChangeType.value;
-            vc1.change = 12;
+            vc1.valueChange = 12;
             vc1.combatSkillKeysOneOf = List.of(CombatSkillKey.schwerter, CombatSkillKey.stangenwaffen, CombatSkillKey.lanzen);
 
             ValueChange vc2 = new ValueChange();
             vc2.key = ValueChangeKey.skill;
             vc2.type = ValueChangeType.value;
-            vc2.change = 12;
+            vc2.valueChange = 12;
             vc2.combatSkillKeysOneOf = List.of(CombatSkillKey.schwerter, CombatSkillKey.stangenwaffen, CombatSkillKey.lanzen);
             variant.combatSkillOptions = List.of(vc1, vc2);
             variantString = variantString.replace("Veränderung der Kampftechniken:, sowie Lanzen", "");
@@ -909,14 +909,14 @@ public class LoadToProfession {
             ValueChange vc1 = new ValueChange();
             vc1.key = ValueChangeKey.skill;
             vc1.type = ValueChangeType.value;
-            vc1.change = 12;
+            vc1.valueChange = 12;
             vc1.combatSkillKey = CombatSkillKey.schwerter;
             variant.combatSkillChanges.add(vc1);
 
             ValueChange vc2 = new ValueChange();
             vc2.key = ValueChangeKey.skill;
             vc2.type = ValueChangeType.value;
-            vc2.change = 12;
+            vc2.valueChange = 12;
             vc2.combatSkillKey = CombatSkillKey.stangenwaffen;
             variant.combatSkillChanges.add(vc2);
             variant.combatSkillOptions = new ArrayList<>();
@@ -1025,7 +1025,7 @@ public class LoadToProfession {
               .replaceAll(".*?:", "")
               .split(","))
           .filter(s -> s != null && !s.isEmpty())
-          .map(s -> ExtractorSkillKey.retrieveSkillKey(s.trim()))
+          .map(s -> ExtractorSkill.retrieveSkillKey(s.trim()))
           .collect(Collectors.toList());
     }
     else {
@@ -1114,7 +1114,7 @@ public class LoadToProfession {
       ValueChange vc = new ValueChange();
       vc.key = ValueChangeKey.skill;
       vc.type = ValueChangeType.value;
-      vc.change = msValue;
+      vc.valueChange = msValue;
       vc.mysticalSkillKey = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msName, isMagical);
 
       if (msName.contains("(")) {
@@ -1140,13 +1140,13 @@ public class LoadToProfession {
         String skillName = skillNames.get(0).replaceAll("(?<=[A-ü]) \\([A-ü &-]*\\)", "");
         String usageName = skillNames.get(0).replace(skillName, "");
         if (!usageName.isEmpty()) {
-          SkillUsageKey suk = ExtractorSkillKey.retrieveSkillUsageKey(usageName.replace("(", "").replace(")", "").trim());
+          SkillUsageKey suk = ExtractorSkill.retrieveSkillUsageKey(usageName.replace("(", "").replace(")", "").trim());
           vc.usageKeys = List.of(suk);
         }
-        vc.skillKey = ExtractorSkillKey.retrieveSkillKey(skillName);
+        vc.skillKey = ExtractorSkill.retrieveSkillKey(skillName);
       }
       else {
-        vc.skillKeysOneOf = skillNames.stream().map(sName -> ExtractorSkillKey.retrieveSkillKey(sName.trim())).collect(Collectors.toList());
+        vc.skillKeysOneOf = skillNames.stream().map(sName -> ExtractorSkill.retrieveSkillKey(sName.trim())).collect(Collectors.toList());
       }
       returnValue.add(vc);
     }
@@ -1169,7 +1169,7 @@ public class LoadToProfession {
       ValueChange vc = new ValueChange();
       vc.key = ValueChangeKey.skill;
       vc.type = ValueChangeType.value;
-      vc.change = skillValue;
+      vc.valueChange = skillValue;
       vc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName);
 
       returnValue.add(vc);
@@ -1191,7 +1191,7 @@ public class LoadToProfession {
       ValueChange vc = new ValueChange();
       vc.key = ValueChangeKey.combatSkill;
       vc.type = ValueChangeType.value;
-      vc.change = Integer.valueOf(result.replaceAll("\\D*", ""));
+      vc.valueChange = Integer.valueOf(result.replaceAll("\\D*", ""));
       vc.combatSkillKeysOneOf = List.of(
               result.replaceAll(".*:", "").replaceAll("\\d*", "").split("(,|oder)")
           ).stream()
@@ -1207,7 +1207,7 @@ public class LoadToProfession {
       ValueChange vc = new ValueChange();
       vc.key = ValueChangeKey.combatSkill;
       vc.type = ValueChangeType.value;
-      vc.change = Integer.valueOf(result.replaceAll("\\D*", ""));
+      vc.valueChange = Integer.valueOf(result.replaceAll("\\D*", ""));
       vc.combatSkillKeysOneOf = List.of(
               result.replaceAll(".*:", "").replaceAll("\\d*", "").split("(,|oder)")
           ).stream()
@@ -1230,7 +1230,7 @@ public class LoadToProfession {
       ValueChange vc1 = new ValueChange();
       vc1.key = ValueChangeKey.combatSkill;
       vc1.type = ValueChangeType.value;
-      vc1.change = values.get(0);
+      vc1.valueChange = values.get(0);
       vc1.combatSkillKeysOneOf = List.of(
               result.replaceAll(".*:", "").replaceAll("\\d*", "").split("(,|oder)")
           ).stream()
@@ -1240,7 +1240,7 @@ public class LoadToProfession {
       ValueChange vc2 = new ValueChange();
       vc2.key = vc1.key;
       vc2.type = vc1.type;
-      vc2.change = values.get(1);
+      vc2.valueChange = values.get(1);
       vc2.combatSkillKeysOneOf = vc1.combatSkillKeysOneOf;
 
       returnValue.add(vc2); //add second
@@ -1269,8 +1269,8 @@ public class LoadToProfession {
       ValueChange vc = new ValueChange();
       vc.key = ValueChangeKey.skill;
       vc.type = ValueChangeType.value;
-      vc.change = skillValue;
-      vc.skillKey = ExtractorSkillKey.retrieveSkillKey(skillName);
+      vc.valueChange = skillValue;
+      vc.skillKey = ExtractorSkill.retrieveSkillKey(skillName);
       returnValue.add(vc);
     }
     return returnValue;
@@ -1368,7 +1368,7 @@ public class LoadToProfession {
             .trim(); //extract Name without level
         String boonLevel = boonWithLevel.replace(boonName, "").trim();
         boonName = boonName.replaceAll("Verpflichtung$", "Verpflichtungen");
-        return new RequirementBoon(ExtractorBoonKey.retrieve(boonName), true, boonSuffix, RomanNumberHelper.romanToInt(boonLevel));
+        return new RequirementBoon(ExtractorBoon.retrieve(boonName), true, boonSuffix, RomanNumberHelper.romanToInt(boonLevel));
       }).collect(Collectors.toList()));
     }
     return returnValue;

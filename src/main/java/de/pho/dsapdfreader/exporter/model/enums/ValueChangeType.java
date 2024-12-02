@@ -18,7 +18,8 @@ public enum ValueChangeType
   impedeAdversary, //ValueChange wird auf die Probe des gegenübers angewendet (Allerweltsname)
   inebt,
   specialize, //Bei Charaktergenerierung
-  newMysticalCategory;
+  newMysticalCategory,
+  newSkillApplication;
 
   @JsonValue
   public int toValue() {

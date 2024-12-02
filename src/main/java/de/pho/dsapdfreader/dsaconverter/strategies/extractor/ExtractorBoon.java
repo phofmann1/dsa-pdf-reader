@@ -2,28 +2,14 @@ package de.pho.dsapdfreader.dsaconverter.strategies.extractor;
 
 import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 
-public class ExtractorBoonKey extends Extractor
-{
-  public static BoonKey retrieve(String name)
-  {
+public class ExtractorBoon extends Extractor {
+  public static BoonKey retrieve(String name) {
     BoonKey returnValue = null;
-    try
-    {
-      returnValue = extractBoonKeyFromText(name);
-      if (returnValue == null)
-        throw new IllegalArgumentException();
-    }
-    catch (IllegalArgumentException e)
-    {
-      e.printStackTrace();
-      String msg = String.format("Boon '%s' key could not be interpreted.", name);
-      LOGGER.error(msg);
-    }
+    returnValue = extractBoonKeyFromText(name);
     return returnValue;
   }
 
-  private static BoonKey extractBoonKeyFromText(String name)
-  {
+  private static BoonKey extractBoonKeyFromText(String name) throws IllegalArgumentException {
     BoonKey returnValue = null;
     String keyString = extractKeyTextFromTextWithUmlauts(
         name.replace("\u00AD", "-")
@@ -35,7 +21,13 @@ public class ExtractorBoonKey extends Extractor
     ).replace("XXX", "ß").toLowerCase();
 
     keyString = keyString.trim();
-    returnValue = BoonKey.valueOf(keyString);
+    try {
+      returnValue = BoonKey.valueOf(keyString);
+    }
+    catch (IllegalArgumentException e) {
+      String msg = String.format("Boon '%s' key could not be interpreted.", keyString);
+      LOGGER.error(msg);
+    }
     return returnValue;
   }
 }

@@ -10,7 +10,7 @@ import de.pho.dsapdfreader.dsaconverter.model.SkillRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAdvancementCategory;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCheck;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.exporter.model.Skill;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.enums.ConditionalBoolean;
@@ -32,7 +32,7 @@ public class LoadToSkill
 
     List<String> usageStrings = retrieveUsageStrings(raw.application);
 
-    AtomicReference<SkillKey> skillKey = new AtomicReference<>(ExtractorSkillKey.retrieveSkillKey(raw.name.replace("\u00AD", "-").replace("Einsatzmöglichkeit", "")));
+    AtomicReference<SkillKey> skillKey = new AtomicReference<>(ExtractorSkill.retrieveSkillKey(raw.name.replace("\u00AD", "-").replace("Einsatzmöglichkeit", "")));
 
 
     usageStrings.forEach(s -> {
@@ -49,7 +49,7 @@ public class LoadToSkill
 
   public static SkillUsageKey retrieveUsageKey(String s)
   {
-    return ExtractorSkillKey.retrieveSkillUsageKey(
+    return ExtractorSkill.retrieveSkillUsageKey(
         Extractor.extractKeyTextFromTextWithUmlauts(s
             .replace("ß", "xxx")
             .replace("\u00AD", "-")
@@ -199,7 +199,7 @@ public class LoadToSkill
     Skill returnValue = new Skill();
 
     returnValue.name = raw.name.replace("\u00AD", "-").replace("Einsatzmöglichkeit", "");
-    returnValue.key = ExtractorSkillKey.retrieveSkillKey(returnValue.name);
+    returnValue.key = ExtractorSkill.retrieveSkillKey(returnValue.name);
 
     returnValue.advancementCategory = ExtractorAdvancementCategory.retrieveAdvancementCategory(raw);
     returnValue.check = ExtractorCheck.retrieveCheck(raw);

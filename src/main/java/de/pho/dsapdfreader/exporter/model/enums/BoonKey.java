@@ -200,15 +200,42 @@ public enum BoonKey
   wenige_visionen,
   yurach,
   feenblut_dryade,
-  feenblut_großer_eberbiestinger,
+  feenblut_großer_biestinger,
   feenblut_nixer,
   begabung_klerikal,
   unfähig_magisch,
-  unfähig_klerikal;
+  unfähig_klerikal,
+  feenblut_holde,
+  feenblut_oreade,
+  feenblut_satyr,
+  feenblut_schwarzfee,
+  gabe_der_sonne,
+  muttererde,
+  unnachgiebigkeit_der_berge,
+  drachenblut_einhorndrache,
+  drachenblut_gletscherwurm,
+  drachenblut_höhlendrache,
+  drachenblut_kaiserdrache,
+  drachenblut_purpurwurm,
+  drachenblut_riesenlindwurm,
+  astralschutz,
+  drachenkontrolle,
+  drachenschwanz,
+  drachenzaubermacht,
+  dreistrahl,
+  elementarhand,
+  gedankensprache,
+  kraft_des_drachen,
+  majestätsstimme,
+  odemwaffe,
+  schuppenkleid,
+  schwingenpaar,
+  telepathieüberflutung,
+  temperaturimmunität_hitze_oder_kälte,
+  verpuppung;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

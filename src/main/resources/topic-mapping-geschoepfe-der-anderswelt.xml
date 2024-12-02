@@ -1,5 +1,17 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
-
+    <strategy name="StrategyRemoveTextSize - Seitenbeschriftung" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1200</value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategyRemoveTextSize - Boxen" index="1">
         <strategyClass>StrategyRemoveTextSize</strategyClass>
@@ -15,17 +27,20 @@
         </params>
     </strategy>
 
-
-    <strategy name="StrategyRemovePages - 221 to 252">
-        <strategyClass>StrategyRemovePages</strategyClass>
+    <strategy name="StrategyRemoveLinesFromPage">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>221</value>
+                <value>144</value>
             </parameter>
             <parameter>
-                <key>untilPage</key>
-                <value>252</value>
+                <key>fromLine</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>53</value>
             </parameter>
         </params>
     </strategy>
@@ -37,15 +52,15 @@
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>253</value>
+                <value>144</value>
             </parameter>
             <parameter>
                 <key>startEntryLineNo</key>
-                <value>1</value>
+                <value>2</value>
             </parameter>
             <parameter>
                 <key>endEntryLineNo</key>
-                <value>37</value>
+                <value>46</value>
             </parameter>
         </params>
     </strategy>

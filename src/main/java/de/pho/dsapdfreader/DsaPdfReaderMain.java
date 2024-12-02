@@ -87,9 +87,10 @@ import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.model.TraditionRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoonKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoon;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.exporter.LoadToArmor;
 import de.pho.dsapdfreader.exporter.LoadToBoon;
@@ -135,6 +136,7 @@ import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 public class DsaPdfReaderMain {
 
+  private static final boolean TOGGLE_READ_PDF = false;
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
   private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
@@ -230,7 +232,7 @@ public class DsaPdfReaderMain {
     isToRaws = isToRaws || isNone;
     isToJson = isToJson || isNone;
 
-    isToText = false;
+    isToText = TOGGLE_READ_PDF;
     isToStrategy = true;
     isToRaws = true;
     isToJson = true;
@@ -490,7 +492,7 @@ public class DsaPdfReaderMain {
         List<SpecialAbilityRaw> raws = CsvHandler.readBeanFromFile(SpecialAbilityRaw.class, fIn);
 
         extractAdditionalSkillUsages(raws, conf);
-        extractAdditionalApplications(raws, conf);
+        extractAdditionalApplicationsAbilities(raws, conf);
 
         List<SpecialAbility> corrections = initExporterCorrections(SpecialAbility.class);
         List<SpecialAbility> specialAbilities = raws.stream().flatMap(LoadToSpecialAbility::migrate)
@@ -547,6 +549,7 @@ public class DsaPdfReaderMain {
 
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
         List<BoonRaw> raws = CsvHandler.readBeanFromFile(BoonRaw.class, fIn);
+        extractAdditionalApplicationsBoons(raws, conf);
 
         List<Boon> corrections = initExporterCorrections(Boon.class);
         List<Boon> boons = raws.stream().map(LoadToBoon::migrate)
@@ -1070,9 +1073,27 @@ public class DsaPdfReaderMain {
     return List.of(directory.listFiles((dir, name) -> name.endsWith(ending)));
   }
 
-  private static void extractAdditionalApplications(List<SpecialAbilityRaw> raws, TopicConfiguration conf) throws IOException {
+  private static void extractAdditionalApplicationsAbilities(List<SpecialAbilityRaw> raws, TopicConfiguration conf) throws IOException {
     List<SkillApplication> result = raws.stream()
-        .map(raw -> ExtractorSpecialAbility.retrieveSkillApplication(raw.rules, raw.name))
+        .map(raw -> ExtractorSkill.retrieveSkillApplication(raw.rules, raw.name))
+        .filter(sa -> sa != null && sa.name != null)
+        .collect(Collectors.toList());
+
+    if (result.size() > 0) {
+      ObjectMapper usageMapper = initObjectMapper();
+      String jsonResultUsages = usageMapper
+          .writerWithDefaultPrettyPrinter()
+          .writeValueAsString(result);
+
+      BufferedWriter writerUsages = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "applications", "skills"));
+      writerUsages.write(jsonResultUsages);
+      writerUsages.close();
+    }
+  }
+
+  private static void extractAdditionalApplicationsBoons(List<BoonRaw> raws, TopicConfiguration conf) throws IOException {
+    List<SkillApplication> result = raws.stream()
+        .map(raw -> ExtractorSkill.retrieveSkillApplication(raw.rules, raw.name))
         .filter(sa -> sa != null && sa.name != null)
         .collect(Collectors.toList());
 
@@ -1092,7 +1113,7 @@ public class DsaPdfReaderMain {
 
     List<SkillUsage> suCorrections = initExporterCorrections(SkillUsage.class);
     final List<SkillUsage> suList = raws.stream()
-        .map(raw -> ExtractorSpecialAbility.retrieveSkillUsage(raw.rules))
+        .map(raw -> ExtractorSkill.retrieveSkillUsage(raw.rules))
         .filter(su -> su != null && su.name != null)
         .collect(Collectors.toList());
 
@@ -1546,7 +1567,7 @@ public class DsaPdfReaderMain {
           : raw.name)
           .replace("Ahnenblut-Vorteile", "")
           .replace("Feenblut-Vorteile", "");
-      BoonKey key = ExtractorBoonKey.retrieve(name);
+      BoonKey key = ExtractorBoon.retrieve(name);
 
       Pair<BoonKey, String> p = new Pair<>(key, name);
 
@@ -2426,7 +2447,7 @@ public class DsaPdfReaderMain {
 
     SpecialAbility tradScharlatane = new SpecialAbility();
     tradScharlatane.name = "Tradition (Scharlatane)";
-    tradScharlatane.key = SpecialAbilityKey.tradition_animisten;
+    tradScharlatane.key = SpecialAbilityKey.tradition_scharlatane;
     tradScharlatane.category = SpecialAbilityCategoryKey.tradition_magic;
     tradScharlatane.ap = 125;
     tradScharlatane.requireOneOfBoons = List.of(new RequirementBoon(BoonKey.zauberer, Boolean.TRUE));

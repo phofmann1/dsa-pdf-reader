@@ -62,6 +62,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
 
   private static final String KEY_GESTURE_AND_INCANTATION = "Geste und Formel:";
   private static final String KEY_GESTURE_AND_INCANTATION_2 = "Geste und Gebet:";
+  private static final String KEY_GESTURE_AND_INCANTATION_3 = "Stoßgebete:";
 
   private static final String KEY_REVERSALIS = "Reversalis:";
   private static final String KEY_REVERSALIS_2 = "Reversalis";
@@ -99,6 +100,7 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       KEY_VARIANT_LITURGY_3,
       KEY_GESTURE_AND_INCANTATION,
       KEY_GESTURE_AND_INCANTATION_2,
+      KEY_GESTURE_AND_INCANTATION_3,
       KEY_REVERSALIS,
       KEY_REVERSALIS_2,
   };
@@ -253,7 +255,9 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
         || key.trim().equals(KEY_VARIANT_LITURGY_3)
     );
     flags.wasGestureAndIncantation.set(key.trim().equals(KEY_GESTURE_AND_INCANTATION)
-        || key.trim().equals(KEY_GESTURE_AND_INCANTATION_2));
+        || key.trim().equals(KEY_GESTURE_AND_INCANTATION_2)
+        || key.trim().equals(KEY_GESTURE_AND_INCANTATION_3)
+    );
     flags.wasReversalis.set(key.trim().equals(KEY_REVERSALIS)
         || key.trim().equals(KEY_REVERSALIS_2));
     if (flags.wasVariants.get())

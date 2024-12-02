@@ -31,11 +31,12 @@ public enum SkillApplicationKey
   abrichter,
   ackerbau,
   abrollen,
-  scholar_der_akademie_der_hohen_magie_zu_punin;
+  scholar_der_akademie_der_hohen_magie_zu_punin,
+  verführerische_gestalt,
+  majestätsstimme;
 
   @JsonValue
-  public int toValue()
-  {
+  public int toValue() {
     return ordinal();
   }
 }

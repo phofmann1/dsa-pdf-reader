@@ -8,6 +8,7 @@ import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
 import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
+import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.exporter.model.enums.TraditionKey;
@@ -31,10 +32,14 @@ public class Boon
   public SpecialAbilityKey requiredAbilityKey;
   public List<TraditionKey> requiredTraditions = new ArrayList<>();
   public List<RequirementBoon> requirementBoons = new ArrayList<>();
+  public Boolean isRequirementBoonsOr = Boolean.FALSE;
 
   public Object type;
   public Integer range;
 
   public List<ValueChange> valueChanges;
   public SkillUsageKey newSkillUsageKey;
+  public SkillApplicationKey newSkillApplicationKey;
+
+  public Boolean isBloodLine = null;
 }

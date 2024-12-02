@@ -161,7 +161,8 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
   {
     return switch (text)
         {
-          case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit" -> SpecialAbilityCategoryKey.common;
+          case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit", "Neue Sonderfertigkeiten für Kulturschaffende" ->
+              SpecialAbilityCategoryKey.common;
           case "Schicksalspunkte-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.fate;
           case "Talentstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_stile;
           case "Erweiterte Talentsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_advanced;

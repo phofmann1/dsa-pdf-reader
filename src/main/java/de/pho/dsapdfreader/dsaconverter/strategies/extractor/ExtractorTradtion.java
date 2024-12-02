@@ -22,7 +22,7 @@ public class ExtractorTradtion extends Extractor
             : msr.commonness;
         if (cTxt == null || cTxt.isEmpty())
         {
-            return Arrays.stream(new TraditionKey[]{TraditionKey.ALL}).collect(Collectors.toList());
+            return Arrays.stream(new TraditionKey[]{TraditionKey.all}).collect(Collectors.toList());
         }
         String[] tTrads = cTxt.split(REG_COMMAS_OR_UND_NOT_IN_BRACKETS);
         return Arrays.stream(tTrads)
