@@ -29,8 +29,8 @@ public class ExtractorAttributeTpBonus extends Extractor
 
       for (int i = 0; i < 2; i++) {
         AttributeValuePair atb = new AttributeValuePair();
-        atb.attribute = AttributeShort.valueOf(attributes[i]);
-        atb.minValue = Integer.valueOf(values[i].trim());
+        atb.attributeKey = AttributeShort.valueOf(attributes[i]);
+        atb.attributeValue = Integer.valueOf(values[i].trim());
         returnValue.add(atb);
       }
     }
@@ -40,9 +40,9 @@ public class ExtractorAttributeTpBonus extends Extractor
       matcher = PAT_ATTRIBUTE_WITH_BONUS.matcher(value);
       while (matcher.find()) {
         AttributeValuePair atb = new AttributeValuePair();
-        atb.attribute = AttributeShort.valueOf(matcher.group().substring(0, 2));
-        atb.minValue = Integer.valueOf(matcher.group().substring(2).trim());
-        lastValue = atb.minValue;
+        atb.attributeKey = AttributeShort.valueOf(matcher.group().substring(0, 2));
+        atb.attributeValue = Integer.valueOf(matcher.group().substring(2).trim());
+        lastValue = atb.attributeValue;
         returnValue.add(atb);
       }
 
@@ -51,8 +51,8 @@ public class ExtractorAttributeTpBonus extends Extractor
 
       while (matcher.find()) {
         AttributeValuePair atb = new AttributeValuePair();
-        atb.attribute = AttributeShort.valueOf(matcher.group());
-        atb.minValue = lastValue;
+        atb.attributeKey = AttributeShort.valueOf(matcher.group());
+        atb.attributeValue = lastValue;
         returnValue.add(atb);
       }
     }

@@ -17,6 +17,7 @@ false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches
 false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;74;;74;42;;1000;;Oron
 false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;74;42;75;;;1000;topic-mapping-hd-dornenreich.xml;Improvisiert
 false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;76;;76;;;1000;;Besondere Gegenstände
+true;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;ABILITIES;28;64;35;;1300;1100;topic-mapping-hd-dornenreich.xml;
 false;Das_Dornenreich;C:/privat/pdf.lib/import;Das Dornenreich - 04 - Regionen.pdf;AUSRÜSTUNG;87;11;87;31;;1000;topic-mapping-hd-dornenreich.xml;
 false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;WAFFEN;73;;79;;;1000;;Thorwal
 false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;80;;80;;;1000;;Thorwal
@@ -67,7 +68,7 @@ false;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub &
 false;Schirm;C:/privat/pdf.lib/import;Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;CURRICULUM;272;16;284;23;1300;1000;;
 false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
-true;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
+false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
 false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;59;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
 false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
@@ -79,8 +80,8 @@ false;Kodex_der_Kräuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Rege
 false;Arkane_Schmiede;C:/privat/pdf.lib/import;Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
 false;Archiv_der_Kreaturen;C:/privat/pdf.lib/import;Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
 false;Bestiarium_2;C:/privat/pdf.lib/import;Aventurisches Bestiarium II - 03 - Welt.pdf;ABILITIES;121;34;127;;1300;1100;topic-mapping-beast-2-abilities.xml;
-true;Geschöpfe_der_Anderswelt;C:/privat/pdf.lib/import;Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
-true;Geschuppte_Tyrannen;C:/privat/pdf.lib/import;Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
+false;Geschöpfe_der_Anderswelt;C:/privat/pdf.lib/import;Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
+false;Geschuppte_Tyrannen;C:/privat/pdf.lib/import;Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
 false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;

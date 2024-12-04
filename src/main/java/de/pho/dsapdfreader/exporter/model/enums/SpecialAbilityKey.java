@@ -1437,7 +1437,10 @@ public enum SpecialAbilityKey
   weisung_der_sterne,
   tierheilerin,
   tierzüchter,
-  vieharzt;
+  vieharzt,
+  weg_des_tänzers,
+  aranischer_sippenkrieger_stil,
+  rosenritter_stil;
 
   @JsonValue
   public int toValue() {

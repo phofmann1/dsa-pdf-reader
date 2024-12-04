@@ -1368,7 +1368,7 @@ public class LoadToProfession {
             .trim(); //extract Name without level
         String boonLevel = boonWithLevel.replace(boonName, "").trim();
         boonName = boonName.replaceAll("Verpflichtung$", "Verpflichtungen");
-        return new RequirementBoon(ExtractorBoon.retrieve(boonName), true, boonSuffix, RomanNumberHelper.romanToInt(boonLevel));
+        return new RequirementBoon(ExtractorBoon.retrieve(boonName), true, boonSuffix, Math.max(RomanNumberHelper.romanToInt(boonLevel), 1));
       }).collect(Collectors.toList()));
     }
     return returnValue;
