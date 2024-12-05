@@ -288,9 +288,9 @@ public class LoadToBoon {
   private static int extractMulitselect(BoonKey key) {
     if (key == null) return -1;
     return switch (key) {
-      case eingeschränkter_sinn, körperliche_auffälligkeit, persönlichkeitsschwächen -> 2;
-      case unfähig, begabung, waffenbegabung, begabung_magisch, begabung_klerikal -> 3;
-      case schlechte_angewohnheit, schlechte_eigenschaft, herausragende_fertigkeit -> INFINITE;
+      case unfähig, eingeschränkter_sinn, körperliche_auffälligkeit, persönlichkeitsschwächen -> 2;
+      case begabung, waffenbegabung, begabung_magisch, begabung_klerikal -> 3;
+      case schlechte_angewohnheit, schlechte_eigenschaft, herausragende_fertigkeit, herausragender_sinn -> INFINITE;
       default -> 1;
     };
   }

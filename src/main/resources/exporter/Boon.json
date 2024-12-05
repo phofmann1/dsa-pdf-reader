@@ -2447,7 +2447,7 @@
     "selectable": true,
     "selectionCategory": 2,
     "freeText": false,
-    "multiselect": 1,
+    "multiselect": 3,
     "requirementBoons": [
       {
         "key": 135,
@@ -2715,7 +2715,7 @@
     "selectable": true,
     "selectionCategory": 2,
     "freeText": false,
-    "multiselect": 1,
+    "multiselect": 3,
     "requirementBoons": [
       {
         "key": 135,
@@ -2745,14 +2745,14 @@
     "key": 199,
     "name": "Unfähig - Magisch",
     "category": 1,
-    "ap": 6,
+    "ap": -1,
     "publications": [
       39
     ],
     "selectable": true,
     "selectionCategory": 2,
     "freeText": false,
-    "multiselect": 1,
+    "multiselect": 2,
     "requirementBoons": [
       {
         "key": 13,
@@ -2776,14 +2776,14 @@
     "key": 200,
     "name": "Unfähig - Klerikal",
     "category": 1,
-    "ap": 6,
+    "ap": -1,
     "publications": [
       39
     ],
     "selectable": true,
     "selectionCategory": 2,
     "freeText": false,
-    "multiselect": 1,
+    "multiselect": 2,
     "requirementBoons": [
       {
         "key": 13,
