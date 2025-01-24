@@ -11,15 +11,18 @@ import de.pho.dsapdfreader.tools.csv.CsvHandler;
 
 public class ConfigurationInitializer
 {
-    private ConfigurationInitializer()
-    {
+    private ConfigurationInitializer() {
     }
 
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public static List<TopicConfiguration> readTopicConfigurations()
-    {
+    public static List<TopicConfiguration> readTopicConfigurations() {
         URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf.csv");
+        return CsvHandler.readBeanFromUrl(TopicConfiguration.class, url);
+    }
+
+    public static List<TopicConfiguration> readTopicContentConfigurations() {
+        URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf-content.csv");
         return CsvHandler.readBeanFromUrl(TopicConfiguration.class, url);
     }
 }
