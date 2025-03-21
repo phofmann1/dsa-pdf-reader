@@ -78,7 +78,9 @@ public enum BoonVariantKey
   verstümmelung_einbeinig,
   verstümmelung_einhändig,
   verstümmelung_einohrig,
-  schlechte_angewohnheit_raucher;
+  schlechte_angewohnheit_raucher,
+  stigma_kein_schatten,
+  stigma_kein_spiegelbild;
 
   @JsonValue
   public int toValue() {

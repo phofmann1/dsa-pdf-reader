@@ -1,111 +1,120 @@
 active;publication;path;pdfName;topic;startPage;startAfterLine;endPage;endAfterLine;nameSize;dataSize;strategyMapping;fileAffix
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;WAFFEN;63;;69;;;1000;;Flusslande
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;RÜSTUNGEN;70;;71;;;1000;topic-mapping-hd-flusslande.xml;Flusslande
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;WAFFEN;72;;75;;;1000;;Zwerge
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;RÜSTUNGEN;76;;76;;;1000;;Zwerge
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;WAFFEN;77;;78;;;1000;topic-mapping-hd-flusslande.xml;Improvisiert
-false;Helden_der_Flusslande;C:/privat/pdf.lib/import;Helden der Flusslande - 03 - Welt.pdf;WAFFEN;79;;80;;;1000;;Besondere Gegenstände
-false;Die_Flusslande;C:/privat/pdf.lib/import;Die Flusslande - 04 - Regionen.pdf;AUSRÜSTUNG;87;40;88;8;;1000;topic-mapping-hd-flusslande.xml;
-false;Helden_der_Winterwacht;C:/privat/pdf.lib/import;Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;65;;71;;;1000;;
-false;Helden_der_Winterwacht;C:/privat/pdf.lib/import;Helden der Winterwacht - 03 - Welt.pdf;RÜSTUNGEN;72;;74;;;1000;;
-false;Helden_der_Winterwacht;C:/privat/pdf.lib/import;Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;76;24;76;36;;1000;;Improvisiert
-false;Helden_der_Winterwacht;C:/privat/pdf.lib/import;Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;79;;82;;;1000;;Besondere Gegenstände
-false;Die_Winterwacht;C:/privat/pdf.lib/import;Die Winterwacht - 04 - Regionen.pdf;AUSRÜSTUNG;83;32;83;;;1000;topic-mapping-hd-winterwacht.xml;
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;60;;68;;;1000;;Aranien
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;69;38;70;;;1000;topic-mapping-hd-dornenreich.xml;Aranien
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;71;;73;;;1000;;Oron
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;74;;74;42;;1000;;Oron
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;74;42;75;;;1000;topic-mapping-hd-dornenreich.xml;Improvisiert
-false;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;76;;76;;;1000;;Besondere Gegenstände
-true;Helden_des_Dornenreiches;C:/privat/pdf.lib/import;Helden des Dornenreiches - 03 - Welt.pdf;ABILITIES;28;64;35;;1300;1100;topic-mapping-hd-dornenreich.xml;
-false;Das_Dornenreich;C:/privat/pdf.lib/import;Das Dornenreich - 04 - Regionen.pdf;AUSRÜSTUNG;87;11;87;31;;1000;topic-mapping-hd-dornenreich.xml;
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;WAFFEN;73;;79;;;1000;;Thorwal
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;80;;80;;;1000;;Thorwal
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;WAFFEN;81;30;85;14;;1000;;Gjalskerland
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;85;17;85;39;;1000;;Gjalskerland
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;WAFFEN;86;;87;46;;1000;topic-mapping-hd-gottwals.xml;Improvisiert
-false;Helden_des_Gottwals;C:/privat/pdf.lib/import;Helden des Gottwals - 03 - Welt.pdf;WAFFEN;87;44;91;54;;1000;;Besondere Gegenstände
-false;Gestade_des_Gottwals;C:/privat/pdf.lib/import;Gestade des Gottwals - 04 - Regionen.pdf;AUSRÜSTUNG;82;12;82;;;1000;topic-mapping-reg-gestade.xml;
-false;Gestade_des_Gottwals;C:/privat/pdf.lib/import;Gestade des Gottwals - 04 - Regionen.pdf;AUSRÜSTUNG;82;12;82;;;1000;topic-mapping-reg-gestade.xml;
-false;Die_Echsensümpfe;C:/privat/pdf.lib/import;Die Echsensumpfe - 04 - Regionen.pdf;AUSRÜSTUNG;86;31;86;33;;1000;;
-false;Helden_der_Echsensümpfe;C:/privat/pdf.lib/import;Helden der Echsensumpfe - 03 - Welt.pdf;WAFFEN;74;47;81;61;;1000;topic-mapping-hd-echsensuempfe.xml;
-false;Helden_der_Echsensümpfe;C:/privat/pdf.lib/import;Helden der Echsensumpfe - 03 - Welt.pdf;RÜSTUNGEN;81;61;83;;;1000;;
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;1000;;DSCHUNGEL
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;17;;;1000;;DSCHUNGEL
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;19;;20;;;1000;;TAPO_TIKAUTE
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;18;;18;;;1000;topic-mapping-steamingjungle.xml;TAPO_TIKAUTE
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;23;55;26;;;1000;topic-mapping-steamingjungle.xml;BESONDERE
-false;Rüstkammer_der_Dampfenden_Dschungel;C:/privat/pdf.lib/import;Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;60;35;;;1000;topic-mapping-steamingjungle.xml;
-false;Rüstkammer_der_Siebenwindküste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;WAFFEN;8;;16;;;1000;;ALBERNIA
-false;Rüstkammer_der_Siebenwindküste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;WAFFEN;17;;20;;;1000;topic-mapping-sevenwinds-weapon.xml;WINDHAG
-false;Rüstkammer_der_Siebenwindküste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;RÜSTUNGEN;21;15;21;;;1000;;ALBERNIA
-false;Rüstkammer_der_Siebenwindküste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;WAFFEN;23;;23;;;1000;;IMPROVISIERT
-false;Rüstkammer_der_Siebenwindküste;C:/privat/pdf.lib/import;Rustkammer der Siebenwindkuste - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;47;35;;;1000;;
-false;Rüstkammer_der_Sonnenküste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;1000;;ZYKLOPENINSELN
-false;Rüstkammer_der_Sonnenküste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;RÜSTUNGEN;16;14;18;;;1000;topic-mapping-sunnyshores.xml;ZYKLOPENINSELN
-false;Rüstkammer_der_Sonnenküste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;WAFFEN;20;;23;;;1000;topic-mapping-sunnyshores.xml;BESONDERE GEGENSTÄNDE
-false;Rüstkammer_der_Sonnenküste;C:/privat/pdf.lib/import;Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;43;35;;;1000;topic-mapping-sunnyshores.xml;
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;WAFFEN;8;;16;;;1000;topic-mapping-warringkingdoms.xml;
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;WAFFEN;17;;18;;;1000;topic-mapping-warringkingdoms.xml;Turnier
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;RÜSTUNGEN;17;26;17;;;1000;;Turnier
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;WAFFEN;19;;21;;;1000;topic-mapping-warringkingdoms.xml;IMPROVISIERT
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;WAFFEN;22;;22;;;1000;topic-mapping-warringkingdoms.xml;BESONDERE GEGENSTÄNDE
-false;Rüstkammer_der_Streitenden_Königreiche;C:/privat/pdf.lib/import;Rustkammer der Streitenden - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;50;35;;;1000;;
-false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;7;;16;22;;1000;topic-mapping-dessertempire-weapon.xml;
-false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;18;;;1000;topic-mapping-dessertempire-armor.xml;
-false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;20;;21;;;1000;topic-mapping-dessertempire-weapon.xml;BESONDERE
-false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;23;;26;;;1000;;Zeitalter der Rache
-false;Rüstkammer_der_Wüstenreiche;C:/privat/pdf.lib/import;Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;52;35;;;1000;topic-mapping-dessertempire-weapon.xml;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;AUSRÜSTUNG;421;;421;;;1000;;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;WAFFENLISTE;422;;424;;;900;topic-mapping-kodex-cleric-waffenliste.xml;
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;WAFFEN;82;;160;;;1000;topic-mapping-archiv-ausruestung.xml;
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN;161;;193;;;1000;topic-mapping-archiv-ausruestung.xml;
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;WAFFENLISTE;215;;225;22;;1000;topic-mapping-archiv-ausruestung-listen.xml;Weitere
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGENLISTE;225;24;225;79;;1000;;Weitere
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_WAFFEN;236;;244;;;1000;;
-false;Archiv_der_Ausrüstung;C:/privat/pdf.lib/import;Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_RÜSTUNG;245;;246;;;1000;;
-false;Strassenstaub_und_Halsabschneider;C:/privat/pdf.lib/import;Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;1000;topic-mapping-streets-equipment.xml;
-false;Schirm;C:/privat/pdf.lib/import;Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;CURRICULUM;272;16;284;23;1300;1000;;
-false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
-false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
-false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
-false;Kodex_des_Schwertes;C:/privat/pdf.lib/import;Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;59;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
-false;Aventurische_Tiergefährten;C:/privat/pdf.lib/import;Tiergefahrten - 02 - Ausrustung.pdf;ABILITIES;129;12;129;69;1300;1000;;
-false;Kodex_der_Kräuter;C:/privat/pdf.lib/import;Kodex der Kräuter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
-false;Arkane_Schmiede;C:/privat/pdf.lib/import;Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
-false;Archiv_der_Kreaturen;C:/privat/pdf.lib/import;Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
-false;Bestiarium_2;C:/privat/pdf.lib/import;Aventurisches Bestiarium II - 03 - Welt.pdf;ABILITIES;121;34;127;;1300;1100;topic-mapping-beast-2-abilities.xml;
-false;Geschöpfe_der_Anderswelt;C:/privat/pdf.lib/import;Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
-false;Geschuppte_Tyrannen;C:/privat/pdf.lib/import;Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;;
-false;Grimorium;C:/privat/pdf.lib/import;Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS;459;;468;;3200;3100;;
-false;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;TRADITIONS;397;;406;;3200;3100;topic-mapping-divinarium-traditions.xml;
-false;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;11;7;15;;1000;900;topic-mapping-divinarium-blessings.xml;
-false;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;17;;232;;2000;1900;topic-mapping-divinarium-liturgies.xml;
-false;Divinarium;C:/privat/pdf.lib/import;Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;235;;388;;2000;1900;topic-mapping-divinarium-ceremonies.xml;
-false;Winterwacht;C:/privat/pdf.lib/import;Die Winterwacht - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Almanach;C:/privat/pdf.lib/import;Aventurischer Almanach - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Dornenreich;C:/privat/pdf.lib/import;Das Dornenreich - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Wüstenreich;C:/privat/pdf.lib/import;Das Wustenreich - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Dampfende Dschungel;C:/privat/pdf.lib/import;Die Dampfenden Dschungel - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Flusslande;C:/privat/pdf.lib/import;Die Flusslande - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Siebenwindküste;C:/privat/pdf.lib/import;Die Siebenwindkuste - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Streitende Königreiche;C:/privat/pdf.lib/import;Die Streitenden Konigreiche - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Havena;C:/privat/pdf.lib/import;Havena - 04 - Regionen.pdf;IMG;;;;;;;;
-false;Kodex_des_Götterwirkens;C:/privat/pdf.lib/import;Kodex des Gotterwirkens - 01 - Regeln.pdf;IMG;;;;;;;;
-false;Kodex_der_Magie;C:/privat/pdf.lib/import;Kodex der Magie - 01 - Regeln.pdf;IMG;;;;;;;;
-false;Kodex_der_Helden;C:/privat/pdf.lib/import;Kodex der Helden - 01 - Regeln.pdf;IMG;;;;;;;;
-false;Echsensümpfe;C:/privat/pdf.lib/import;Die Echsensumpfe - 04 - Regionen.pdf;IMG;;;;;;;;
+false;Helden_der_Echsensümpfe;03 - Welt/Helden der Echsensumpfe (219);Helden der Echsensumpfe - 03 - Welt.pdf;WAFFEN;74;47;81;61;;1000;topic-mapping-hd-echsensuempfe.xml;
+false;Helden_der_Echsensümpfe;03 - Welt/Helden der Echsensumpfe (219);Helden der Echsensumpfe - 03 - Welt.pdf;RÜSTUNGEN;81;61;83;;;1000;;
+false;Die_Echsensümpfe;04 - Regionen/Die Echsensumpfe (218);Die Echsensumpfe - 04 - Regionen.pdf;AUSRÜSTUNG;86;31;86;33;;1000;;
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;63;;69;;;1000;;Flusslande
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;RÜSTUNGEN;70;;71;;;1000;topic-mapping-hd-flusslande.xml;Flusslande
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;72;;75;;;1000;;Zwerge
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;RÜSTUNGEN;76;;76;;;1000;;Zwerge
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;77;;78;;;1000;topic-mapping-hd-flusslande.xml;Improvisiert
+false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;79;;80;;;1000;;Besondere Gegenstände
+false;Die_Flusslande;04 - Regionen/Die Flusslande (180);Die Flusslande - 04 - Regionen.pdf;AUSRÜSTUNG;87;40;88;8;;1000;topic-mapping-hd-flusslande.xml;
+true;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;ABILITIES;39;;40;30;1300;1100;topic-mapping-hd-siebenwindkueste.xml;
+false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;65;;71;;;1000;;
+false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;RÜSTUNGEN;72;;74;;;1000;;
+false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;76;24;76;36;;1000;;Improvisiert
+false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;79;;82;;;1000;;Besondere Gegenstände
+false;Die_Winterwacht;04 - Regionen/Die Winterwacht (186);Die Winterwacht - 04 - Regionen.pdf;AUSRÜSTUNG;83;32;83;;;1000;topic-mapping-hd-winterwacht.xml;
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;60;;68;;;1000;;Aranien
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;69;38;70;;;1000;topic-mapping-hd-dornenreich.xml;Aranien
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;71;;73;;;1000;;Oron
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;74;;74;42;;1000;;Oron
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;74;42;75;;;1000;topic-mapping-hd-dornenreich.xml;Improvisiert
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;76;;76;;;1000;;Besondere Gegenstände
+false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;ABILITIES;28;64;35;;1300;1100;topic-mapping-hd-dornenreich.xml;
+false;Das_Dornenreich;04 - Regionen/Das Dornenreich (212);Das Dornenreich - 04 - Regionen.pdf;AUSRÜSTUNG;87;11;87;31;;1000;topic-mapping-hd-dornenreich.xml;
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;ABILITIES;27;;38;;1300;1100;topic-mapping-hd-gottwals.xml;
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;73;;79;;;1000;;Thorwal
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;80;;80;;;1000;;Thorwal
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;81;30;85;14;;1000;;Gjalskerland
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;85;17;85;39;;1000;;Gjalskerland
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;86;;87;46;;1000;topic-mapping-hd-gottwals.xml;Improvisiert
+false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;87;44;91;54;;1000;;Besondere Gegenstände
+false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des Gottwals - 04 - Regionen.pdf;AUSRÜSTUNG;82;12;82;;;1000;topic-mapping-reg-gestade.xml;
+false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;PROFESSIONS;9;;20;;1300;900;;
+false;Der_Wolfsfrost;04 - Regionen/Der Wolfsfrost (230);Der Wolfsfrost - 04 - Regionen.pdf;AUSRÜSTUNG;;;;;;1000;;
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;1000;;DSCHUNGEL
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;17;;;1000;;DSCHUNGEL
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;19;;20;;;1000;;TAPO_TIKAUTE
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;RÜSTUNGEN;18;;18;;;1000;topic-mapping-steamingjungle.xml;TAPO_TIKAUTE
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;23;55;26;;;1000;topic-mapping-steamingjungle.xml;BESONDERE
+false;Rüstkammer_der_Dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;60;35;;;1000;topic-mapping-steamingjungle.xml;
+false;Rüstkammer_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;76;;85;;;1000;;ALBERNIA
+false;Rüstkammer_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;86;;89;;;1000;topic-mapping-sevenwinds-weapon.xml;WINDHAG
+false;Rüstkammer_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;RÜSTUNGEN;89;;91;;;1000;;ALBERNIA
+false;Rüstkammer_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;92;;93;;;1000;;IMPROVISIERT
+false;Rüstkammer_der_Siebenwindküste;04 - Regionen/Die Siebenwindkuste (215);Die Siebenwindkuste - 04 - Regionen.pdf;AUSRÜSTUNG;83;;83;;;1000;;
+false;Rüstkammer_der_Sonnenküste;02 - Ausrustung/Rustkammer der Sonnenkuste (136);Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;1000;;ZYKLOPENINSELN
+false;Rüstkammer_der_Sonnenküste;02 - Ausrustung/Rustkammer der Sonnenkuste (136);Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;RÜSTUNGEN;16;14;18;;;1000;topic-mapping-sunnyshores.xml;ZYKLOPENINSELN
+false;Rüstkammer_der_Sonnenküste;02 - Ausrustung/Rustkammer der Sonnenkuste (136);Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;WAFFEN;20;;23;;;1000;topic-mapping-sunnyshores.xml;BESONDERE GEGENSTÄNDE
+false;Rüstkammer_der_Sonnenküste;02 - Ausrustung/Rustkammer der Sonnenkuste (136);Rustkammer der Sonnenkuste - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;43;35;;;1000;topic-mapping-sunnyshores.xml;
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;WAFFEN;8;;16;;;1000;topic-mapping-warringkingdoms.xml;
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;WAFFEN;17;;18;;;1000;topic-mapping-warringkingdoms.xml;Turnier
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;RÜSTUNGEN;17;26;17;;;1000;;Turnier
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;WAFFEN;19;;21;;;1000;topic-mapping-warringkingdoms.xml;IMPROVISIERT
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;WAFFEN;22;;22;;;1000;topic-mapping-warringkingdoms.xml;BESONDERE GEGENSTÄNDE
+false;Rüstkammer_der_Streitenden_Königreiche;02 - Ausrustung/Rustkammer der Streitenden Konigrei (140);Rustkammer der Streitenden Koni - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;50;35;;;1000;;
+false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;7;;16;22;;1000;topic-mapping-dessertempire-weapon.xml;
+false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;RÜSTUNGEN;16;;18;;;1000;topic-mapping-dessertempire-armor.xml;
+false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;20;;21;;;1000;topic-mapping-dessertempire-weapon.xml;BESONDERE
+false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;WAFFEN;23;;26;;;1000;;Zeitalter der Rache
+false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;52;35;;;1000;topic-mapping-dessertempire-weapon.xml;
+false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;AUSRÜSTUNG;421;;421;;;1000;;
+false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;WAFFENLISTE;422;;424;;;900;topic-mapping-kodex-cleric-waffenliste.xml;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;WAFFEN;82;;160;;;1000;topic-mapping-archiv-ausruestung.xml;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN;161;;193;;;1000;topic-mapping-archiv-ausruestung.xml;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN_HELME;194;;208;;1300;1000;;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN_TEILE;209;;214;;1300;1000;;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;WAFFENLISTE;215;;225;22;;1000;topic-mapping-archiv-ausruestung-listen.xml;Weitere
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGENLISTE;225;24;225;79;;1000;;Weitere
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_WAFFEN;236;;244;;;1000;;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_RÜSTUNG;245;;246;;;1000;;
+false;Strassenstaub_und_Halsabschneider;01 - Regeln/Strassenstaub & Halsabschneider (149);Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;1000;topic-mapping-streets-equipment.xml;
+false;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
+false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;CURRICULUM;272;16;284;23;1300;1000;;
+false;Kodex_der_Helden;01 - Regeln/Kodex der Helden (154);Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
+false;Kodex_der_Helden;01 - Regeln/Kodex der Helden (154);Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
+false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
+false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;59;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
+false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
+false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
+false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;PRAEGUNG;253;;262;;1300;1100;;
+false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
+false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
+false;Aventurische_Tiergefährten;02 - Ausrustung/Tiergefahrten (133);Tiergefahrten - 02 - Ausrustung.pdf;ABILITIES;129;12;129;69;1300;1000;;
+false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;266;;268;;1300;1100;;ANIMAL-SF
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;279;;283;66;1300;1100;;
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;290;22;291;17;1300;1100;topic-mapping-archiv-der-kreaturen.xml;WERWESEN
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;294;142;295;20;1300;1100;topic-mapping-archiv-der-kreaturen.xml;SONDERFERTIGKEITEN
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
+false;Archiv_der_Dämonen;01 - Regeln/Archiv der Damonen (178);Archiv der Damonen - 01 - Regeln.pdf;ABILITIES;307;28;307;;1300;1100;;
+false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;BOONS;147;21;149;;1300;1100;topic-mapping-elementarium.xml;
+false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;
+false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
+false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
+false;Geschuppte_Tyrannen;03 - Welt/Geschuppte Tyrannen (221);Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
+false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_SPELLS_GRIMORIUM;474;2;475;20;3200;3100;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;TRICKS_GRIMORIUM;15;4;31;;1000;900;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;RITUALS_GRIMORIUM;341;;438;;3200;3100;topic-mapping-grimorium-rituals.xml;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;;
+false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS;459;;468;;3200;3100;;
+false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;TRADITIONS;404;3;413;;3200;3100;topic-mapping-divinarium-traditions.xml;
+false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;12;7;16;;1000;900;topic-mapping-divinarium.xml;
+false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;18;;237;;2000;1900;topic-mapping-divinarium.xml;
+false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;240;;395;;2000;1900;topic-mapping-divinarium.xml;
+false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;ABILITIES;16;;23;;1300;1100;;
+false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;PROFESSIONS;5;;15;;1300;1000;topic-mapping-gmuh-streitende-koenigreiche.xml;
+false;Das_Dornenreich;04 - Regionen/Das Dornenreich (212);Das Dornenreich - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;19;;60;;;1000;topic-mapping-hd-dornenreich.xml;
+false;Die_Echsensümpfe;04 - Regionen/Die Echsensumpfe (218);Die Echsensumpfe - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;19;;56;;;1000;;
+false;Die_Flusslande;04 - Regionen/Die Flusslande (180);Die Flusslande - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;22;;57;;;1000;topic-mapping-hd-flusslande.xml;
+false;Die_Siebenwindküste;04 - Regionen/Die Siebenwindkuste (215);Die Siebenwindkuste - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;22;;57;;;1000;topic-mapping-hd-flusslande.xml;
+false;Die_Winterwacht;04 - Regionen/Die Winterwacht (186);Die Winterwacht - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;17;;54;;;1000;topic-mapping-hd-winterwacht.xml;
+false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des Gottwals - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;18;;51;;1800;1000;topic-mapping-content-gestade.xml;
+false;Almanach;04 - Regionen/Aventurischer Almanach (114);Aventurischer Almanach - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;;;;;1800;1000;topic-mapping-content-gestade.xml;

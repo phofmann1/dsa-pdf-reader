@@ -199,6 +199,28 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyReplaceStringInLine - Voraussetzungen">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>409</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>14</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Tradition (Intuitive Zauberer)</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Tradition Intuitive Zauberer, Animisten oder Runenschöpfer</value>
+            </parameter>
+        </params>
+    </strategy>
+
 
     <strategy name="StrategySplitLineAfterPosition Kleine Zauberauswahl - Nach AP-Wert" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
@@ -217,7 +239,6 @@
             </parameter>
         </params>
     </strategy>
-
 
     <strategy name="StrategySplitLineAfterPosition Schlechte Regeneration - Nach AP-Wert" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>

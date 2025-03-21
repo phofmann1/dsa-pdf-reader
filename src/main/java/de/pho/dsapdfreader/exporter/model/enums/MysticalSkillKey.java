@@ -175,7 +175,7 @@ public enum MysticalSkillKey
   spell_einflussbann,
   ceremony_einfluesterung,
   ritual_eins_mit_der_natur,
-  ceremony_eisbaergestalt,
+  ceremony_eisbaerengestalt,
   spell_eisenrost,
   trick_eiskalter_blick,
   spell_eispfeil,
@@ -1154,7 +1154,9 @@ public enum MysticalSkillKey
   ceremony_koerper_der_radscha_uschtamm,
   ceremony_liebesschlaf,
   ceremony_lusttrank,
-  ;
+  ceremony_einhorngestalt,
+  liturgy_gespuer_fuer_das_goettliche,
+  liturgy_hoftag_der_sprachen;
 
 
   public static Optional<MysticalSkillKey> fromString(String str) {

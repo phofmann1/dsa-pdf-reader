@@ -2,11 +2,9 @@ package de.pho.dsapdfreader.exporter.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import de.pho.dsapdfreader.exporter.model.enums.ArmorCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.ArmorKey;
-import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
-import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.*;
+
+import java.util.List;
 
 public class Armor implements EquipmentI
 {
@@ -23,6 +21,7 @@ public class Armor implements EquipmentI
   public int craftingAp;
   public int breakingValue;
   public EquipmentCategoryKey equipmentCategoryKey;
+  public List<HitZoneKey> protectedZones;
 
   @JsonIgnore
   public String advantage;

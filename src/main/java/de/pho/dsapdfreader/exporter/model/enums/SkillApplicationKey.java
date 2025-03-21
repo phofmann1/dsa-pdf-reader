@@ -33,7 +33,11 @@ public enum SkillApplicationKey
   abrollen,
   scholar_der_akademie_der_hohen_magie_zu_punin,
   verführerische_gestalt,
-  majestätsstimme;
+  majestätsstimme,
+  gesunder_geist_gesunder_körper,
+  harmonie_der_seele,
+  wohlklang_der_seele,
+  ermutigende_darstellung;
 
   @JsonValue
   public int toValue() {

@@ -2,7 +2,11 @@ package de.pho.dsapdfreader.dsaconverter.model;
 
 import com.opencsv.bean.CsvBindByName;
 
+import com.opencsv.bean.CsvCustomBindByName;
 import de.pho.dsapdfreader.config.TopicEnum;
+import de.pho.dsapdfreader.exporter.model.enums.HitZoneKey;
+
+import java.util.List;
 
 public class ArmorRaw implements DsaObjectI
 {
@@ -33,6 +37,8 @@ public class ArmorRaw implements DsaObjectI
   public String craft;
   @CsvBindByName
   public boolean isArmorPart;
+  @CsvCustomBindByName(converter = CsvCustomConvertHitZoneList.class)
+  public List<HitZoneKey> protectedZones;
 
 
   @Override

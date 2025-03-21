@@ -71,7 +71,12 @@ public enum Publication
   Helden_der_Echsensümpfe,
   Aventurische_Tiergefährten,
   Geschuppte_Tyrannen,
-  Aventurisches_Elementarium;
+  Aventurisches_Elementarium,
+  Archiv_der_Kräuter,
+  GMuH_Die_streitenden_Königreiche,
+  Archiv_der_Kreaturen,
+  Archiv_der_Dämonen,
+  Helden_der_Siebenwindküste;
 
 
   @JsonValue

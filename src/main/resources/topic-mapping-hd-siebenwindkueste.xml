@@ -1,0 +1,15 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von s.40" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

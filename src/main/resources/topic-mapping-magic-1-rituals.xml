@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xsi:noNamespaceSchemaLocation="file:///C:/develop/project/dsa-pdf-reader/src/main/resources/topic-mapping.xsd">
+                  xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
     <strategy name="Remove Wettertabelle from Page 151" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>

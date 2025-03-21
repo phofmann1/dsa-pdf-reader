@@ -156,9 +156,6 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
       boolean isDataValue = validateIsDataValue(t);
       handleWasNoKeyStrings(getFlags(), t); // used in MysticalSkill for QS flags, they act differently, because they are also part of the effect
 
-      if (cleanText.contains("ärenhaut")) {
-        System.out.println(cleanText);
-      }
 
 
       if (checkIsNewSpell(lastPage, t, conf)) {
@@ -321,21 +318,19 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
   {
     if (msr != null && msr.variantsText != null)
     {
-      List<String> variantStrings = Arrays.asList(msr.variantsText.split("#"))
-          .stream()
-          .filter(t -> t != null && !t.isEmpty())
-          .collect(Collectors.toList());
+      List<String> variantStrings = Arrays.stream(msr.variantsText.split("#"))
+          .filter(t -> !t.isEmpty())
+          .toList();
 
       List<MysticalSkillVariant> variants = variantStrings.stream().map(vs -> {
         MysticalSkillVariant msv = new MysticalSkillVariant();
         msv.name = vs.substring(0, vs.indexOf("(")).trim();
         String cleaned = vs.replace("<br>", ",").replace(" KaP)", " AP)");
-        msv.minLevel = Integer.valueOf(cleaned.substring(vs.indexOf("FW") + 2, cleaned.indexOf(",", vs.indexOf("("))).trim());
-        msv.ap = Integer.valueOf(cleaned.substring(cleaned.indexOf(",", cleaned.indexOf("(")) + 1, cleaned.indexOf("AP")).trim());
+        msv.minLevel = Integer.parseInt(cleaned.substring(vs.indexOf("FW") + 2, cleaned.indexOf(",", vs.indexOf("("))).trim());
+        msv.ap = Integer.parseInt(cleaned.substring(cleaned.indexOf(",", cleaned.indexOf("(")) + 1, cleaned.indexOf("AP")).trim());
         msv.description = vs.substring(cleaned.indexOf("("));
-
         return msv;
-      }).collect(Collectors.toList());
+      }).toList();
 
 
       variants.forEach(v -> {

@@ -29,7 +29,7 @@ public enum EntityDomainKey {
   feen,
   wald,
   licht,
-  finternis,
+    finsternis,
   wasser_feen,
   berg;
 

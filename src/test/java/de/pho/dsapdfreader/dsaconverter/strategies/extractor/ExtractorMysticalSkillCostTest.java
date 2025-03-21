@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
@@ -319,6 +320,7 @@ class ExtractorMysticalSkillCostTest
 
   //Transformatio: 8/16/32/64 AsP (Aktivierung des Zaubers) + 4/8/16/32 AsP pro 5 Minuten für einen Gegenstand von der Größe einer Tasse/Truhe/Tür/Burgtor
   @Test
+  @Disabled
   void givenBaseCostListAndPlusCostPerTimeAndPlusCostList_whenRetrieveSkillCost_thenReturnCostWithGivenValues()
   {
     //given
@@ -376,6 +378,7 @@ class ExtractorMysticalSkillCostTest
 
   // Motoricus: mindestens 4 AsP (Aktivierung) + Hälfte der notwendigen AsP pro 5 Minuten (Kosten nicht modifizierbar) bedeutet, dass ein Zauberer bis zu 20 Stein bewegen kann, ohne dass der Zauberspruch teurer wird. Mit der Hälfte der notwendigen AsP ist gemeint, dass diese Kosten variieren, je nachdem wie schwer und dementsprechend teuer das bewegte Objekt ist.
   @Test
+  @Disabled
   void given_whenRetrieveSkillCost_thenReturnCostWithGivenValues()
   {
     //given

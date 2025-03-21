@@ -14,6 +14,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.imageio.ImageIO;
 import javax.xml.bind.DatatypeConverter;
 
+import de.pho.dsapdfreader.tools.csv.CsvHandler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.pdfbox.contentstream.PDFStreamEngine;
@@ -33,6 +34,8 @@ import de.pho.dsapdfreader.config.TopicEnum;
 public class DsaPdfImageExtractorMain extends PDFStreamEngine
 {
 
+  private static final String PDF_BASE_PATH = "D:/Daten/Dropbox/pdf.library/RPG/DSA 5/";
+
   private static final AtomicReference<TopicEnum> currentTopic = new AtomicReference<>();
   private static final AtomicReference<String> currentPublication = new AtomicReference<>();
   private static final AtomicReference<Integer> currentPage = new AtomicReference<>();
@@ -43,7 +46,8 @@ public class DsaPdfImageExtractorMain extends PDFStreamEngine
 
   public static void main(String[] args) throws IOException
   {
-    configs = ConfigurationInitializer.readTopicConfigurations();
+    URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf-img.csv");
+    configs = CsvHandler.readBeanFromUrl(TopicConfiguration.class, url);
     configs.stream()
         .filter(c -> c != null && c.active)
         .forEach(conf -> {
@@ -68,7 +72,7 @@ public class DsaPdfImageExtractorMain extends PDFStreamEngine
           try
           {
 
-            document = PDDocument.load(new File(path + "/" + conf.pdfName));
+            document = PDDocument.load(new File(PDF_BASE_PATH + path + "/" + conf.pdfName));
             DsaPdfImageExtractorMain printer = new DsaPdfImageExtractorMain();
             currentPage.set(0);
             for (PDPage page : document.getPages())
@@ -133,7 +137,15 @@ public class DsaPdfImageExtractorMain extends PDFStreamEngine
           {
             checksums.add(myChecksum);
             String pathname = "export/images/" + currentPublication + "_" + currentPage.get() + "_image_" + imageNumber + ".png";
-            ImageIO.write(bImage, "PNG", new File(pathname));
+
+            File output = new File(pathname);
+            // Ensure the parent directory exists File
+            File parentDir = output.getParentFile();
+            if (parentDir != null && !parentDir.exists()) {
+              parentDir.mkdirs();
+            }
+
+            ImageIO.write(bImage, "PNG", output);
             imageNumber++;
           }
 

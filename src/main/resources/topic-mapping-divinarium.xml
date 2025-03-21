@@ -1,0 +1,1855 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+<!--BLESSINGS-->
+    <strategy name="StrategyRemoveTextSize - PageNumbers" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>1500</value>
+            </parameter>
+        </params>
+    </strategy>
+<!--LITURGIES-->
+    <strategy name="StrategyInsertLineAfter - usnüchtern">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>22</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>usnüchtern</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - efreiung des Geistes">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>efreiung des Geistes</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - esänftigung">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>37</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>esänftigung</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - escheidenheit">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>escheidenheit</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - lick auf den Meeresgrund">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>lick auf den Meeresgrund</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - lutiger Zorn">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>45</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>lutiger Zorn</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>28</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyInsertLineAfter - üchsersuche">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>üchersuche</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine - Büchersuche - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Büchersuche - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>5</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage - Des einen bezaubernde Sphärenklang - Status Hörigkeit" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>54</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>28</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - ntzfifferung">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>61</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>37</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ntzifferung</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - rtrinken">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>67</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>rtrinken</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - rtrinken">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>68</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>rtrinken</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - rwachen">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>69</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>rwachen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Erzene Opfergabe - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>70</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - espür für as Göttliche">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>90</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>espür für das Göttliche</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine - Gespür für das Göttliche - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>90</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Gespür für das Göttliche - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>90</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - öttliche Klinge">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>98</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>öttliche Klinge</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - eiliges Liebesspiel">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>106</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>eiliges Liebesspiel</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - eldenkraft">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>eldenkraft</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage - Content Heldenkraft" index="1">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>110</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>2</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>46</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - oftag der Sprachen">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>oftag der Sprachen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Hoftag der Sprachen - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Hoftag der Sprachen - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>120</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - älteexplosion">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>124</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>älteexplosion</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - leidungschamäleon">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>127</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>leidungschamäleon</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - raftvoller Körper">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>131</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>raftvoller Körper</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - acht des Levthan">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>141</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>24</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>acht des Levthan</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - aske">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>151</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>aske</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - amenlose Kälte">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>159</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>2</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>amenlose Kälte</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - amenloses Vergessen">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>163</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>amenloses Vergessen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter - ebelkrähenschwarmm">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>164</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>50</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ebelkrähenschwarm</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - uminorus Fesseln">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>165</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>uminorus Fesseln</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - bjektsegen">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>167</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>bjektsegen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - bsession">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>168</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>bsession</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyInsertLineAfter - rt der Ruhe">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>172</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>rt der Ruhe</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Quallengift" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>176</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>37</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Schlingerruf - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>193</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Schlingerruf - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>193</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>5</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Schlingerruf - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>193</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>6</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Schlingerruf - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>193</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Speer des Athleten - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>206</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>6</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Speer des Athleten - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>206</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>7</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - turmruf">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>210</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>turmruf</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - ampirische Kräfte">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>223</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ampirische Kräfte</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Vérsteinerung" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>225</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>45</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - undersame Verständigung">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>234</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>42</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>undersame Verständigung</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - ähe Haut">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>235</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ähe Haut</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Zauberschutz - Probe" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>236</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>99</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Zauberschutz - Probe" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>236</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>4.1</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>6</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zauberschutz - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>236</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>4.1</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zauberschutz - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>236</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zauberschutz - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>236</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zwergenmacht - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>237</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Gespür für das Göttliche - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>237</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <!-- ZEREMONIEN -->
+    <strategy name="StrategyInsertLineAfter - iener der Wellen">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>258</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>56</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>iener der Wellen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Eidechsenregeneration - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>262</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Eidechsenregeneration - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>262</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>26</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Einhorngestalt - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>265</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>21</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Einhorngestalt - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>265</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Einhorngestalt - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>265</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Empfängnis des Korsmalbund">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>269</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Varianten:</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Liturgieerweiterungen:</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Enpfängnis des Korsmal - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>269</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Enpfängnis des Korsmal - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>269</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - Geiergestalt" index="9">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>284</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>9</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>3</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage - Geiergestalt" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>284</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>9</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - öttliche Erkenntnis">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>293</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>öttliche Erkenntnis</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - immlische Schatzkammer">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>305</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>immlische Schatzkammer</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - aguargestalt">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>310</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>aguargestalt</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Löwengestalt - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>320</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Löwengestalt - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>320</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage - Referenz Kodex des Schwertes" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>324</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>44</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - ebelleib">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>330</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ebelleib</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - ebelschwaden">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>331</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>ebelschwaden</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+    <strategy name="StrategyInsertLineAfter - uminorus Fluch">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>332</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>41</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>uminorus Fluch</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Ogerbindung - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>334</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Ogerbindung - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>334</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>26</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - gerbindung">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>334</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>gerbindung</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+    <strategy name="StrategyInsertLineAfter - anthergestalt">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>337</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>anthergestalt</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - chwanengestalt">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>355</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>chwanengestalt</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Sippenbann - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>363</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Sippenbann - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>363</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - nbeschwerte Wanderung">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>378</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>43</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>nbeschwerte Wanderung</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zuflucht - Textgröße to 800">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>392</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>4</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Zuflucht - Textgröße to 900">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>392</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>5</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>900</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter - uflucht">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>392</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>uflucht</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+    <strategy name="StrategyInsertLineAfter - wergwalgestalt">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>395</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>wergwalgestalt</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <!-- NACHBEARBEITUNG HEADLINES -->
+    <strategy name="StrategyRearangeByTextSize - put size 2000 top">
+        <strategyClass>StrategyRearangeByTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2000</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRearangeByTextSize - put size 3200 top">
+        <strategyClass>StrategyRearangeByTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>3200</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRearangeByTextSize - put size 9800 top">
+        <strategyClass>StrategyRearangeByTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>9800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRearangeByTextSize - put size 10300 top">
+        <strategyClass>StrategyRearangeByTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>10300</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

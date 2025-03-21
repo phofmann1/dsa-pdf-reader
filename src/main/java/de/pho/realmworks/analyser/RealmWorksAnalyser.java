@@ -7,6 +7,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+
 import de.pho.realmworks.analyser.exportxsd.Alias;
 import de.pho.realmworks.analyser.exportxsd.Category;
 import de.pho.realmworks.analyser.exportxsd.CategoryGlobal;
@@ -1616,8 +1617,6 @@ public class RealmWorksAnalyser
 
   public static void main(String[] args)
   {
-
-
     try
     {
       JAXBContext jaxbContext = JAXBContext.newInstance(Export.class);
@@ -1625,7 +1624,7 @@ public class RealmWorksAnalyser
       Export rootObject = (Export) unmarshaller.unmarshal(new File(FILE_PATH));
 
       List<String> existingIds = EIDS;
-      /*
+
       rootObject.getStructure().getContent().forEach(obj -> {
         System.out.print(obj+"-> ");
         if(obj instanceof DomainGlobal) handleStructureDomainGlobal((DomainGlobal) obj, existingIds);
@@ -1635,7 +1634,7 @@ public class RealmWorksAnalyser
         else {
           System.err.println("ERROR STRUCTURE: " + obj.getClass());
         }
-      });*/
+      });
 
       rootObject.getContents().getContent().forEach(cnt -> {
         if (cnt instanceof Topic) handleContentTopic((Topic) cnt, existingIds);
@@ -1653,6 +1652,7 @@ public class RealmWorksAnalyser
     {
       e.printStackTrace();
     }
+
   }
 
   private static void handleContentTopic(Topic topic, List<String> existingIds)

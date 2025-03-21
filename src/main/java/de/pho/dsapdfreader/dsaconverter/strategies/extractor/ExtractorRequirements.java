@@ -111,9 +111,9 @@ public class ExtractorRequirements extends Extractor
   public static List<RequirementBoon> extractRequirementsBoon(String preconditions, String name)
   {
 
-    List<RequirementBoon> returnValue = new ArrayList<>();
-    Pair<String, List<RequirementBoon>> noneOfBoonsReq = extractNoneOfBoons(preconditions, name);
-    returnValue.addAll(noneOfBoonsReq.getValue1());
+      Pair<String, List<RequirementBoon>> noneOfBoonsReq = extractNoneOfBoons(preconditions, name);
+      List<RequirementBoon> returnValue = new ArrayList<>(noneOfBoonsReq.getValue1());
+
     preconditions = noneOfBoonsReq.getValue0();
 
     return returnValue;

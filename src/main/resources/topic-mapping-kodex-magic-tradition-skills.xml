@@ -1,4 +1,32 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>128</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>66</value>
+            </parameter>
+
+            <parameter>
+                <key>oldText</key>
+                <value>AsP-Kosten</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Bindungskosten</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+
+
     <strategy name="StrategyReplaceStringInLine - Textgröße Melodie der Verwirrung">
         <strategyClass>StrategyReplaceStringInLine</strategyClass>
         <params>

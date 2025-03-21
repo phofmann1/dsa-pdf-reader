@@ -53,7 +53,7 @@ public class LoadToSpecialAbility
 {
 
   protected static final Logger LOGGER = LogManager.getLogger();
-  public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=(I-|\\/))[IVX]{1,4}");
+  public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=I-|/)[IVX]{1,4}$");
 
   private static final String[] BEEINDRUCKENDE_VORSTELLUNG_VARIANTS = {
       "Gaukeleien",
@@ -93,7 +93,8 @@ public class LoadToSpecialAbility
       "Machtvolle Entschwörung",
       "Improvisationszauberei",
       "Entschwörung",
-      "Blutmagie"
+      "Blutmagie",
+      "Gift melken",
   };
 
   private static final Map<SpecialAbilityKey, SelectionCategory> SA_SELECTION_CATEGORY_MAP = new EnumMap<>(SpecialAbilityKey.class);
@@ -176,7 +177,7 @@ public class LoadToSpecialAbility
 
         specialAbility.publication = Publication.valueOf(raw.publication);
         specialAbility.category = raw.abilityCategory;
-        specialAbility.ap = ExtractorAP.retrieve(raw.ap, currentLevel);
+        specialAbility.ap = Float.parseFloat(ExtractorAP.retrieve(raw.ap, currentLevel)+"");
         specialAbility.abilityType = ExtractorSpecialAbility.retrieveType(raw.description);
 
         specialAbility.multiselect = ExtractorSpecialAbility.retrieveMultiselect(raw.rules);
@@ -191,11 +192,16 @@ public class LoadToSpecialAbility
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
 
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
-        specialAbility.requiredEntityDomainKey = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieve(raw.verbreitung) : null;
+        specialAbility.requiredEntityDomainKeys = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieveDemonic(raw.verbreitung) : null;
         if (raw.kreisDerVerdammnis != null && !raw.kreisDerVerdammnis.isEmpty()) {
-          specialAbility.requiredPactLevel = ExtractorPactLevel.retrieve(raw.kreisDerVerdammnis, currentLevel);
+          specialAbility.requiredPactLevel = ExtractorPactLevel.retrieveDemonic(raw.kreisDerVerdammnis, currentLevel);
+        }else if(specialAbility.category == SpecialAbilityCategoryKey.pact_fairy) {
+          specialAbility.requiredPactLevel = ExtractorPactLevel.retrieve(raw.preconditions, currentLevel);
+          specialAbility.requiredEntityDomainKeys = ExtractorEntityDomain.retrieveFairy(raw.preconditions);
+        }else if(specialAbility.category ==SpecialAbilityCategoryKey.pact_elemental) {
+          specialAbility.requiredPactLevel = ExtractorPactLevel.retrieve(raw.preconditions, currentLevel);
+          specialAbility.requiredEntityDomainKeys = ExtractorEntityDomain.retrieveElement(raw.preconditions);
         }
-
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung) {
 
           SkillUsage su = ExtractorSkill.retrieveSkillUsage(raw.rules);
@@ -213,7 +219,7 @@ public class LoadToSpecialAbility
             }
             catch (IllegalArgumentException e) {
               //System.out.println("SA: " + keyString);
-              LOGGER.error("Invalid specialAbility name: " + keyString);
+              LOGGER.error("Invalid SkillApplicationKey: " + keyString);
             }
           }
         }
@@ -529,7 +535,7 @@ public class LoadToSpecialAbility
     specialAbility.key = specialAbilityKey;
     specialAbility.newSkillUsageKey = skillUsageKey;
     specialAbility.name = name;
-    specialAbility.ap = ap;
+    specialAbility.ap = Float.parseFloat(""+ap);
 
     if (minSkillValue > 0)
     {

@@ -20,11 +20,7 @@ import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.ObjectRitual;
 import de.pho.dsapdfreader.exporter.model.RequirementSpecialAbility;
 import de.pho.dsapdfreader.exporter.model.RequirementsSpecialAbility;
-import de.pho.dsapdfreader.exporter.model.enums.ArtifactKey;
-import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
-import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillFeature;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
-import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
+import de.pho.dsapdfreader.exporter.model.enums.*;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -90,13 +86,21 @@ public class LoadToObjectRitual
         or.binding = c;
       }
       or.featureKey = MysticalSkillFeature.fromString(raw.feature);
-      or.volume = ExtractorVolume.retrieve(raw.volume, currentLevel);
+      or.volume = or.name.contains("Volumenerweiterung") ? -1 : ExtractorVolume.retrieve(raw.volume, currentLevel);
 
       Map<String, String> lvlReqMap = ExtractorRequirements.extractLevelRequirementMap(raw.requirements);
-      if (!or.name.startsWith("Tierwandlung") && !or.name.startsWith("Klinge wider ") && !or.name.startsWith("Bindung des Bannschwerts")) {
-        //Ansonsten werden Vorbedingungen analog zu Stufen erzeugt, was aber falsch ist, da diese ORs nicht zwingend aufeinander aufbauen!
+      if (!or.name.startsWith("Tierwandlung") && !or.name.startsWith("Klinge wider ") && !or.name.startsWith("Bindung des Bannschwerts")) {//Ansonsten werden Vorbedingungen analog zu Stufen erzeugt, was aber falsch ist, da diese ORs nicht zwingend aufeinander aufbauen!
+
+        if(or.key == ObjectRitualKey.hex_krafttrank) {
+          System.out.println(raw.requirements);
+        }
         or.requiredOrKeys = ExtractorObjectRitual.retrieveRequirementsObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
         or.requiredNoneOrKeys = ExtractorObjectRitual.retrieveRequirementsNoneObjectRitual(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
+      }
+
+      if(or.name.startsWith("Klinge wider ")) {
+        or.requiredOrKeys = new ArrayList<>();
+        or.requiredOrKeys.add(ObjectRitualKey.ban_bannschwert_des_magus);
       }
       or.requirementSkill = ExtractorObjectRitual.retrieveRequirementSkill(lvlReqMap, levels, currentLevel, or.key, or.artifactKey);
 

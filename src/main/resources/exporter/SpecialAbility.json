@@ -1,11 +1,145 @@
 [
   {
+    "key":2,
+    "requirementsObjectRituals": {
+      "logicalOpperator": 0,
+      "requiredKeys": [34],
+      "childs": {
+        "logicalOpperator": 1,
+        "requiredKeys": [47, 40, 41, 42]
+      }
+
+    }
+  },
+  {
+    "key" : 204,
+    "requirementsAbility" : {
+      "logicalOpperator" : 0,
+      "requirements" : [ {
+        "abilityKey" : 203
+      } ]
+    }
+  }, {
+  "key" : 205,
+  "requirementsAbility" : {
+    "logicalOpperator" : 0,
+    "requirements" : [ {
+      "abilityKey" : 204
+    } ]
+  }
+}, {
+  "key" : 206,
+  "requirementsAbility" : {
+    "logicalOpperator" : 0,
+    "requirements" : [ {
+      "abilityKey" : 205
+    } ]
+  }
+}, {
+  "key" : 207,
+  "requirementsAbility" : {
+    "logicalOpperator" : 0,
+    "requirements" : [ {
+      "abilityKey" : 206
+    } ]
+  }
+},
+  {
+    "key": 350,
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 351,
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 352,
+    "valueChanges": [
+      {
+        "key": 1,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 401,
+    "valueChanges": [
+      {
+        "key": 2,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 402,
+    "valueChanges": [
+      {
+        "key": 2,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 403,
+    "valueChanges": [
+      {
+        "key": 2,
+        "type": 1,
+        "valueChange": 6,
+        "perLevel": true
+      }
+    ]
+  },
+  {
+    "key": 556,
+    "valueChanges" : [ {
+      "key" : 30,
+      "valueChange" : 1
+    } ]
+  },
+  {
     "key": 674,
     "newSkillUsageKey": 358
   },
   {
     "key": 663,
     "newSkillUsageKey": 288
+  },
+  {
+    "key": 751,
+    "valueChanges" : [ {
+      "key" : 30,
+      "valueChange" : 3,
+      "featureKey": 24
+    } ]
+  },
+
+  {
+    "key": 778,
+    "valueChanges" : [ {
+      "key" : 30,
+      "valueChange" : 1
+    } ]
   },
   {
     "key": 104,
@@ -83,7 +217,12 @@
   },
   {
     "key": 1015,
-    "newMysticalSkillCategoryKey": 19
+    "valueChanges":[
+      {
+        "key": 21,
+        "mysticalSkillCategory": 19
+      }
+    ]
   },
   {
     "key": 1060,
@@ -115,11 +254,95 @@
   },
   {
     "key": 1102,
-    "newMysticalSkillCategoryKey": 17
+    "valueChanges":[
+      {
+        "key": 21,
+        "mysticalSkillCategory": 17
+      }
+    ]
   },
   {
     "key": 1074,
-    "newMysticalSkillCategoryKey": 15
+    "valueChanges":[
+      {
+        "key": 21,
+        "mysticalSkillCategory": 15
+      }
+    ]
+  },
+  {
+    "key" : 1204,
+    "requiredPactLevel" : 2,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1203
+        }
+      ]
+    }
+  },
+
+  {
+    "key" : 1205,
+    "requiredPactLevel" : 3,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1204
+        }
+      ]
+    }
+  },
+  {
+    "key" : 1206,
+    "requiredPactLevel" : 4,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1205
+        }
+      ]
+    }
+  },
+  {
+    "key" : 1207,
+    "requiredPactLevel" : 5,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1206
+        }
+      ]
+    }
+  },
+  {
+    "key" : 1208,
+    "requiredPactLevel" : 6,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1207
+        }
+      ]
+    }
+  },
+  {
+    "key" : 1209,
+    "requiredPactLevel" : 7,
+    "requirementsAbility": {
+      "requirements": [
+        {
+          "abilityKey": 1208
+        }
+      ]
+    }
+  },
+  {
+    "key": 1285,
+    "requiredEntityDomainKeys": [
+      9
+    ],
+    "ap": 12
   },
   {
     "key": 1339,
@@ -150,9 +373,60 @@
     "requiredSpecie": 11
   },
   {
+    "key": 1346,
+    "valueChanges":[
+      {
+        "key": 30,
+        "valueChange": 1
+      }
+    ]
+  },
+  {
     "key": 1354,
     "requireOneOfCultures": [
       7
     ]
+  },
+  {
+    "key": 1430,
+    "requiredEntityDomainKeys": [
+      16
+    ],
+    "ap": 3
+  },
+  {
+    "key": 1431,
+    "requiredEntityDomainKeys": [
+      16
+    ],
+    "ap": 6
+  },
+  {
+    "key": 1432,
+    "requiredEntityDomainKeys": [
+      16
+    ],
+    "ap": 9
+  },
+  {
+    "key": 1447,
+    "requiredEntityDomainKeys": [
+      23
+    ],
+    "ap": 3
+  },
+  {
+    "key": 1448,
+    "ap": 6,
+    "requiredEntityDomainKeys": [
+      23
+    ]
+  },
+  {
+    "key": 1449,
+    "requiredEntityDomainKeys": [
+      23
+    ],
+    "ap": 9
   }
 ]

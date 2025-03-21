@@ -1,0 +1,120 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>5000</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>4900</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>4000</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>3400</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2700</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2600</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2400</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+        <strategyClass>StrategyRemoveTextSize</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>all</value>
+            </parameter>
+            <parameter>
+                <key>textSize</key>
+                <value>2300</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveTextSize" index="1">
+    <strategyClass>StrategyRemoveTextSize</strategyClass>
+    <params>
+        <parameter>
+            <key>applyToPage</key>
+            <value>all</value>
+        </parameter>
+        <parameter>
+            <key>textSize</key>
+            <value>2000</value>
+        </parameter>
+    </params>
+</strategy>
+</topic-strategies>

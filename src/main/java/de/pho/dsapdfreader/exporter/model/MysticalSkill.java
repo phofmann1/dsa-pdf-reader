@@ -37,6 +37,7 @@ public class MysticalSkill
   public List<MysticalSkillFeature> features;
   public List<ElementKey> elementalCategories;
   public AdvancementCategory advancementCategory;
+  public Integer fixedAp;
   public List<MysticalSkillModification> allowedModifications;
   public List<TraditionKey> traditions;
   public List<TraditionSubKey> traditionSubs;

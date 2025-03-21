@@ -14,238 +14,212 @@ import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.enums.Unit;
 
-public class ExtractorMysticalSkillCost extends Extractor
-{
-  // ^\d*(?= (AsP|KaP)(?! (pro|für|bzw\.)))
-  protected static final Pattern PAT_BASE_COST = Pattern.compile(
-      "^\\d*" + //leading digits in string
-          "(?= (AsP|KaP)" + //followed by "AsP" or "KaP"
-          "(?! (pro|für RS|bzw\\.)))" //not followed by "pro" or "für RS" or "bzw."
-  );
+public class ExtractorMysticalSkillCost extends Extractor {
+    // ^\d*(?= (AsP|KaP)(?! (pro|für|bzw\.)))
+    protected static final Pattern PAT_BASE_COST = Pattern.compile(
+            "^\\d*" + //leading digits in string
+                    "(?= (AsP|KaP)" + //followed by "AsP" or "KaP"
+                    "(?! (pro|für RS|bzw\\.)))" //not followed by "pro" or "für RS" or "bzw."
+    );
 
-  // ^\d[\d\/]*(?= (AsP|KaP)(?= (für|\(Aktivierung des Zaubers\))))
-  protected static final Pattern PAT_BASE_COST_LIST = Pattern.compile(
-      "^\\d[\\d\\/]*" + //leading digit followed by digits or / in string
-          "(?= (AsP|KaP)" + //followed by "AsP" or "KaP"
-          "(?= (für|\\(Aktivierung des Zaubers\\))))" // followed by "für" or "(Aktivierung des Zaubers)"
-  );
-  // \d*(\/\d*)*(?= (AsP|KaP|Aktivierungskosten) pro)
-  protected static final Pattern PAT_COST_PLUS = Pattern.compile(
-      "\\d*" + //digit
-          "\\d*(\\/\\d*)*" + // followed by other Digits seperated with /
-          "(?= (AsP|KaP|Aktivierungskosten) pro)" //followed by " AsP pro" or " KaP pro" or " Aktivierungskosten pro"
-  );
+    // ^\d[\d\/]*(?= (AsP|KaP)(?= (für|\(Aktivierung des Zaubers\))))
+    protected static final Pattern PAT_BASE_COST_LIST = Pattern.compile(
+            "^\\d[\\d\\/]*" + //leading digit followed by digits or / in string
+                    "(?= (AsP|KaP)" + //followed by "AsP" or "KaP"
+                    "(?= (für|\\(Aktivierung des Zaubers\\))))" // followed by "für" or "(Aktivierung des Zaubers)"
+    );
+    // \d*(\/\d*)*(?= (AsP|KaP|Aktivierungskosten) pro)
+    protected static final Pattern PAT_COST_PLUS = Pattern.compile(
+            "\\d*" + //digit
+                    "\\d*(\\/\\d*)*" + // followed by other Digits seperated with /
+                    "(?= (AsP|KaP|Aktivierungskosten) pro)" //followed by " AsP pro" or " KaP pro" or " Aktivierungskosten pro"
+    );
 
-  //(?<=\+ ).*
-  protected static final Pattern PAT_COST_PLUS_TEXT = Pattern.compile(
-      "(?<=\\+ )" +// preceding: "+ "
-          ".*" // everything after
-  );
-  //(?<= (AsP|KaP) (pro|für) )\d*( )*\p{L}*
-  protected static final Pattern PAT_COST_PLUS_UNIT = Pattern.compile(
-      "(?<= (AsP|KaP) (pro|für) )" + //preceded by "AsP|KaP pro|für "
-          "\\d*" + //digits (amount of units)
-          "( )*" + // zero to n " "
-          "\\p{L}*" + //all Latin letters (unit)
-          "( )*" + // zero to n " "
-          "\\p{L}*" //all Latin letters (allow second word)
-  );
-  //mindestens (jedoch )?\d* (AsP|KaP)
-  protected static final Pattern PAT_COST_MIN = Pattern.compile(
-      "mindestens (jedoch )?" + // leading with "mindestens (jedoch )"
-          "\\d*" + //any digits
-          " (AsP|KaP)" //followed by " AsP" or " KaP"
-  );
-  //(davon)? [\d\/]*( (AsP|KaP))?( davon)? permanent
-  //(<?(davon)? )[\d\/]*(?=( (AsP|KaP))?( davon)? permanent)
-  protected static final Pattern PAT_COST_PERMANENT = Pattern.compile("[\\d\\/]*(?=( (AsP|KaP))?( davon)? permanent)");
+    //(?<=\+ ).*
+    protected static final Pattern PAT_COST_PLUS_TEXT = Pattern.compile(
+            "(?<=\\+ )" +// preceding: "+ "
+                    ".*" // everything after
+    );
+    //(?<= (AsP|KaP) (pro|für) )\d*( )*\p{L}*
+    protected static final Pattern PAT_COST_PLUS_UNIT = Pattern.compile(
+            "(?<= (AsP|KaP) (pro|für) )" + //preceded by "AsP|KaP pro|für "
+                    "\\d*" + //digits (amount of units)
+                    "( )*" + // zero to n " "
+                    "\\p{L}*" + //all Latin letters (unit)
+                    "( )*" + // zero to n " "
+                    "\\p{L}*" //all Latin letters (allow second word)
+    );
+    //mindestens (jedoch )?\d* (AsP|KaP)
+    protected static final Pattern PAT_COST_MIN = Pattern.compile(
+            "mindestens (jedoch )?" + // leading with "mindestens (jedoch )"
+                    "\\d*" + //any digits
+                    " (AsP|KaP)" //followed by " AsP" or " KaP"
+    );
+    //(davon)? [\d\/]*( (AsP|KaP))?( davon)? permanent
+    //(<?(davon)? )[\d\/]*(?=( (AsP|KaP))?( davon)? permanent)
+    protected static final Pattern PAT_COST_PERMANENT = Pattern.compile("[\\d\\/]*(?=( (AsP|KaP))?( davon)? permanent)");
 
-  //(?<=(\+ )).*permanent.*
-  protected static final Pattern PAT_COST_PERMANENT_SPECIAL = Pattern.compile("(?<=(\\+ )).*permanent.*");
+    //(?<=(\+ )).*permanent.*
+    protected static final Pattern PAT_COST_PERMANENT_SPECIAL = Pattern.compile("(?<=(\\+ )).*permanent.*");
 
 
-  //\d*\/\d*\/\d*\/\d*(\/\d*)?
-  protected static final Pattern PAT_COST_LIST = Pattern.compile(
-      "\\d*\\/\\d*\\/\\d*\\/\\d*" + // case "2/4/8/16"
-          "(\\/\\d*)?" // case "2/4/8/16/32"
-  );
+    //\d*\/\d*\/\d*\/\d*(\/\d*)?
+    protected static final Pattern PAT_COST_LIST = Pattern.compile(
+            "\\d*\\/\\d*\\/\\d*\\/\\d*" + // case "2/4/8/16"
+                    "(\\/\\d*)?" // case "2/4/8/16/32"
+    );
 
-  //\p{L}*( ?\/ ?\p{L}+)+
-  protected static final Pattern PAT_LIST_VALUES = Pattern.compile(
-      "\\p{L}*( ?\\/ ?\\p{L}+)+" // case "word/word/word" or "word / word / word"
-  );
+    //\p{L}*( ?\/ ?\p{L}+)+
+    protected static final Pattern PAT_LIST_VALUES = Pattern.compile(
+            "\\p{L}*( ?\\/ ?\\p{L}+)+" // case "word/word/word" or "word / word / word"
+    );
 
-  //(\d* (AsP|KaP) für RS \d)+
-  protected static final Pattern PAT_COST_ARMOR_SKILLS = Pattern.compile(
-      "(\\d* (AsP|KaP) für RS \\d)+" // "4 AsP für RS 1"
-  );
+    //(\d* (AsP|KaP) für RS \d)+
+    protected static final Pattern PAT_COST_ARMOR_SKILLS = Pattern.compile(
+            "(\\d* (AsP|KaP) für RS \\d)+" // "4 AsP für RS 1"
+    );
 
-  //\d+ (AsP|KaP) bzw\. \d+ (AsP|KaP)
-  protected static final Pattern PAT_COST_COUNTER_SKILL = Pattern.compile(
-      "\\d+ (AsP|KaP) bzw\\. \\d+ (AsP|KaP)" // "8 AsP bzw. 16 AsP"
-  );
+    //\d+ (AsP|KaP) bzw\. \d+ (AsP|KaP)
+    protected static final Pattern PAT_COST_COUNTER_SKILL = Pattern.compile(
+            "\\d+ (AsP|KaP) bzw\\. \\d+ (AsP|KaP)" // "8 AsP bzw. 16 AsP"
+    );
 
-  private static final Logger LOGGER = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger();
 
-  public static Cost retrieveMysticalSkillCost(MysticalSkillRaw msr)
-  {
-    return retrieveCost(msr.cost, getPrefix(msr.publication, msr.name));
-  }
-
-  public static Cost retrieveCost(String costText, String errorPrefix)
-  {
-    if (costText == null || costText.isEmpty()) {
-      return null;
-    }
-    Cost returnValue = new Cost();
-    returnValue.costText = costText;
-    String restOfTxt = costText;
-
-    if (restOfTxt.contains("für RS")) {
-      applyArmorSpellCost(returnValue, restOfTxt, errorPrefix);
-    }
-    else {
-      restOfTxt = applyBaseCost(returnValue, restOfTxt);
-      restOfTxt = applyMinimalCost(returnValue, restOfTxt, errorPrefix);
-      restOfTxt = applyPermanentCost(returnValue, restOfTxt, errorPrefix);
-      restOfTxt = applyPlusCost(returnValue, restOfTxt, errorPrefix);
-      restOfTxt = applyListCost(returnValue, restOfTxt, errorPrefix);
-      applyCounterSpellCost(returnValue, restOfTxt, errorPrefix);
-      // unapplied: returnValue.costPlusPerMax = 0;
+    public static Cost retrieveMysticalSkillCost(MysticalSkillRaw msr) {
+        return retrieveCost(msr.cost, getPrefix(msr.publication, msr.name));
     }
 
-    return returnValue;
-  }
-
-  private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, String errorPrefix)
-  {
-    Matcher m = PAT_COST_COUNTER_SKILL.matcher(restOfTxt);
-    if (m.find())
-    {
-      String counterSkillString = m.group();
-      List<Integer> numbers = extractNumbersFromText(counterSkillString);
-      if (numbers.size() != 2)
-      {
-        String msg = String.format(
-            "%s Kosten (%s) für Antimagie-Spruch hat keine zwei Zahlen",
-            errorPrefix,
-            restOfTxt
-        );
-        LOGGER.error(msg);
-      }
-      else
-      {
-        returnValue.costList = new ArrayList<>();
-        returnValue.costListValues = new ArrayList<>();
-
-        returnValue.costList.add(numbers.get(0));
-        returnValue.costList.add(numbers.get(1));
-        returnValue.costListValues.add("");
-        returnValue.costListValues.add("Zauber mit der Zielkategorie Zone");
-      }
-      restOfTxt = restOfTxt.replace(counterSkillString, "");
-    }
-    return restOfTxt;
-  }
-
-  private static String applyArmorSpellCost(Cost returnValue, String restOfTxt, String prefix)
-  {
-    Matcher m = PAT_COST_ARMOR_SKILLS.matcher(restOfTxt);
-    if (m.find())
-    {
-      List<Integer> costs = new ArrayList<>();
-      List<String> values = new ArrayList<>();
-      do
-      {
-        String armorString = m.group();
-        List<Integer> numbers = extractNumbersFromText(armorString);
-        if (numbers.size() != 2)
-        {
-          String msg = String.format(
-              "%s Die Kosten für einen RS-Skill (%s) haben keine eindeutig findbaren Zahlen für Kosten und Rüstung",
-              prefix,
-              m.group()
-          );
-          LOGGER.error(msg);
+    public static Cost retrieveCost(String costText, String errorPrefix) {
+        if (costText == null || costText.isEmpty()) {
+            return null;
         }
-        else
-        {
-          costs.add(numbers.get(0));
-          values.add("" + numbers.get(1));
+        Cost returnValue = new Cost();
+        returnValue.costText = costText;
+        String restOfTxt = costText;
+
+        if (restOfTxt.contains("für RS")) {
+            applyArmorSpellCost(returnValue, restOfTxt, errorPrefix);
+        } else {
+            restOfTxt = applyBaseCost(returnValue, restOfTxt);
+            restOfTxt = applyMinimalCost(returnValue, restOfTxt, errorPrefix);
+            restOfTxt = applyPermanentCost(returnValue, restOfTxt, errorPrefix);
+            restOfTxt = applyPlusCost(returnValue, restOfTxt, errorPrefix);
+            restOfTxt = applyListCost(returnValue, restOfTxt, errorPrefix);
+            applyCounterSpellCost(returnValue, restOfTxt, errorPrefix);
+            // unapplied: returnValue.costPlusPerMax = 0;
         }
-        restOfTxt = restOfTxt.replace(armorString, "");
-      }
-      while (m.find());
 
-      returnValue.costList = costs;
-      returnValue.costListValues = values.size() > 0 ? values : null;
-      returnValue.costListUnit = Unit.RS;
+        return returnValue;
     }
-    return restOfTxt;
-  }
 
-  private static String applyListCost(Cost returnValue, String restOfTxt, String errorPrefix)
-  {
-    Matcher m = PAT_COST_LIST.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costListString = m.group();
-      try
-      {
-        returnValue.costList = Arrays.stream(costListString.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
-      }
-      catch (NumberFormatException e)
-      {
-        LOGGER.error(returnValue + " invalid Cost List (" + costListString + ") for(" + errorPrefix + ")");
-      }
-      restOfTxt = restOfTxt.replace(costListString, "");
+    private static String applyCounterSpellCost(Cost returnValue, String restOfTxt, String errorPrefix) {
+        Matcher m = PAT_COST_COUNTER_SKILL.matcher(restOfTxt);
+        if (m.find()) {
+            String counterSkillString = m.group();
+            List<Integer> numbers = extractNumbersFromText(counterSkillString);
+            if (numbers.size() != 2) {
+                String msg = String.format(
+                        "%s Kosten (%s) für Antimagie-Spruch hat keine zwei Zahlen",
+                        errorPrefix,
+                        restOfTxt
+                );
+                LOGGER.error(msg);
+            } else {
+                returnValue.costList = new ArrayList<>();
+                returnValue.costListValues = new ArrayList<>();
+
+                returnValue.costList.add(numbers.get(0));
+                returnValue.costList.add(numbers.get(1));
+                returnValue.costListValues.add("");
+                returnValue.costListValues.add("Zauber mit der Zielkategorie Zone");
+            }
+            restOfTxt = restOfTxt.replace(counterSkillString, "");
+        }
+        return restOfTxt;
     }
-    if (m.find())
-    {
-      String costListValuesString = m.group();
-      List<String> clps = Arrays.asList(costListValuesString.split("\\/"));
+
+    private static String applyArmorSpellCost(Cost returnValue, String restOfTxt, String prefix) {
+        Matcher m = PAT_COST_ARMOR_SKILLS.matcher(restOfTxt);
+        if (m.find()) {
+            List<Integer> costs = new ArrayList<>();
+            List<String> values = new ArrayList<>();
+            do {
+                String armorString = m.group();
+                List<Integer> numbers = extractNumbersFromText(armorString);
+                if (numbers.size() != 2) {
+                    String msg = String.format(
+                            "%s Die Kosten für einen RS-Skill (%s) haben keine eindeutig findbaren Zahlen für Kosten und Rüstung",
+                            prefix,
+                            m.group()
+                    );
+                    LOGGER.error(msg);
+                } else {
+                    costs.add(numbers.get(0));
+                    values.add("" + numbers.get(1));
+                }
+                restOfTxt = restOfTxt.replace(armorString, "");
+            }
+            while (m.find());
+
+            returnValue.costList = costs;
+            returnValue.costListValues = values.size() > 0 ? values : null;
+            returnValue.costListUnit = Unit.RS;
+        }
+        return restOfTxt;
+    }
+
+    private static String applyListCost(Cost returnValue, String restOfTxt, String errorPrefix) {
+        Matcher m = PAT_COST_LIST.matcher(restOfTxt);
+        if (m.find()) {
+            String costListString = m.group();
+            try {
+                returnValue.costList = Arrays.stream(costListString.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
+            } catch (NumberFormatException e) {
+                LOGGER.error(returnValue + " invalid Cost List (" + costListString + ") for(" + errorPrefix + ")");
+            }
+            restOfTxt = restOfTxt.replace(costListString, "");
+        }
+        if (m.find()) {
+            String costListValuesString = m.group();
+            List<String> clps = Arrays.asList(costListValuesString.split("\\/"));
 //      returnValue.costListPlusSpecial = clps.size() > 0 ? clps : null;
-      restOfTxt = restOfTxt.replace(costListValuesString, "");
-    }
-    if (m.find())
-    {
-      String costListPerm = m.group();
-      returnValue.permanentCostList = Arrays.stream(costListPerm.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
-      restOfTxt = restOfTxt.replace(costListPerm, "");
-    }
-    m = PAT_COST_PLUS_UNIT.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costListUnit = m.group();
+            restOfTxt = restOfTxt.replace(costListValuesString, "");
+        }
+        if (m.find()) {
+            String costListPerm = m.group();
+            returnValue.permanentCostList = Arrays.stream(costListPerm.split("\\/")).map(s -> Integer.valueOf(s.trim())).collect(Collectors.toList());
+            restOfTxt = restOfTxt.replace(costListPerm, "");
+        }
+        m = PAT_COST_PLUS_UNIT.matcher(restOfTxt);
+        if (m.find()) {
+            String costListUnit = m.group();
 //      returnValue.costListPlusSpecial = List.of(costListUnit.split("\\/"));
-      restOfTxt = restOfTxt.replace(costListUnit, "");
+            restOfTxt = restOfTxt.replace(costListUnit, "");
+        }
+
+        return restOfTxt;
+
     }
 
-    return restOfTxt;
-
-  }
-
-  private static String applyPlusCost(Cost returnValue, String restOfTxt, String errorPrefix)
-  {
-    Matcher m = PAT_COST_PLUS.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costPlusString = m.group();
-      if (!(costPlusString.isEmpty() || costPlusString.contains("/")))
-      {
-        returnValue.plusCost = Integer.valueOf(costPlusString);
-        restOfTxt = restOfTxt.replace(costPlusString, "");
-      }
-      m = PAT_COST_PLUS_UNIT.matcher(restOfTxt);
-      if (m.find())
-      {
-        String costPlusUnitString = m.group();
-        returnValue.plusCostPerMultiplier = extractFirstNumberFromText(costPlusUnitString, errorPrefix);
-        returnValue.plusCostPerMultiplier = returnValue.plusCostPerMultiplier == 0 ? 1 : returnValue.plusCostPerMultiplier;
-        returnValue.plusCostUnit = extractUnitFromText(costPlusUnitString, errorPrefix);
-        restOfTxt = restOfTxt.replace(costPlusUnitString, "");
-      }
-    }
+    private static String applyPlusCost(Cost returnValue, String restOfTxt, String errorPrefix) {
+        Matcher m = PAT_COST_PLUS.matcher(restOfTxt);
+        if (m.find()) {
+            String costPlusString = m.group();
+            if (!costPlusString.isEmpty()) {
+                if (!costPlusString.contains("/")) returnValue.plusCost = Integer.parseInt(costPlusString);
+                else returnValue.plusCostList = Arrays.stream(costPlusString.split("/")).map(Integer::parseInt).toList();
+                restOfTxt = restOfTxt.replace(costPlusString, "");
+            }
+            m = PAT_COST_PLUS_UNIT.matcher(restOfTxt);
+            while (m.find()) {
+                String costPlusUnitString = m.group();
+                returnValue.plusCostPerMultiplier = extractFirstNumberFromText(costPlusUnitString, errorPrefix);
+                returnValue.plusCostPerMultiplier = returnValue.plusCostPerMultiplier == 0 ? 1 : returnValue.plusCostPerMultiplier;
+                returnValue.plusCostUnit = extractUnitFromText(costPlusUnitString, errorPrefix);
+                restOfTxt = restOfTxt.replace(costPlusUnitString, "");
+            }
+        }
 
     /*
     m = PAT_COST_PLUS_TEXT.matcher(restOfTxt);
@@ -258,66 +232,55 @@ public class ExtractorMysticalSkillCost extends Extractor
 
      */
 
-    return restOfTxt;
-  }
-
-  private static String applyPermanentCost(Cost returnValue, String restOfTxt, String errorPrefix)
-  {
-    Matcher m = PAT_COST_PERMANENT.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costPermanentString = m.group();
-      if (costPermanentString.contains("/"))
-      {
-        returnValue.permanentCostList = Arrays.stream(costPermanentString.split("\\/")).map(Integer::valueOf).collect(Collectors.toList());
-      }
-      else
-      {
-        returnValue.permanentCost = extractFirstNumberFromText(costPermanentString, errorPrefix);
-      }
-      restOfTxt = restOfTxt.replace(costPermanentString, "");
+        return restOfTxt;
     }
-    return restOfTxt;
-  }
 
-  private static String applyMinimalCost(Cost returnValue, String restOfTxt, String errorPrefix)
-  {
-    Matcher m = PAT_COST_MIN.matcher(restOfTxt);
-    if (m.find())
-    {
-      String costMinString = m.group();
-      returnValue.costMin = extractFirstNumberFromText(costMinString, errorPrefix);
-      restOfTxt = restOfTxt.replace(costMinString, "");
+    private static String applyPermanentCost(Cost returnValue, String restOfTxt, String errorPrefix) {
+        Matcher m = PAT_COST_PERMANENT.matcher(restOfTxt);
+        if (m.find()) {
+            String costPermanentString = m.group();
+            if (costPermanentString.contains("/")) {
+                returnValue.permanentCostList = Arrays.stream(costPermanentString.split("\\/")).map(Integer::valueOf).collect(Collectors.toList());
+            } else {
+                returnValue.permanentCost = extractFirstNumberFromText(costPermanentString, errorPrefix);
+            }
+            restOfTxt = restOfTxt.replace(costPermanentString, "");
+        }
+        return restOfTxt;
     }
-    return restOfTxt;
-  }
 
-  private static String applyBaseCost(Cost returnValue, String restOfTxt)
-  {
-    Matcher m = PAT_BASE_COST.matcher(restOfTxt);
-
-    if (m.find())
-    {
-      String costBaseString = m.group();
-      returnValue.cost = Integer.valueOf(costBaseString);
-      restOfTxt = restOfTxt.replace(costBaseString, "");
+    private static String applyMinimalCost(Cost returnValue, String restOfTxt, String errorPrefix) {
+        Matcher m = PAT_COST_MIN.matcher(restOfTxt);
+        if (m.find()) {
+            String costMinString = m.group();
+            returnValue.costMin = extractFirstNumberFromText(costMinString, errorPrefix);
+            restOfTxt = restOfTxt.replace(costMinString, "");
+        }
+        return restOfTxt;
     }
-    m = PAT_BASE_COST_LIST.matcher(restOfTxt);
-    if (m.find())
-    {
-      String baseCostString = m.group();
-      returnValue.costList = Arrays.stream(baseCostString.split("\\/")).map(Integer::valueOf).collect(Collectors.toList());
-      restOfTxt = restOfTxt.replace(baseCostString, "");
 
-      m = PAT_LIST_VALUES.matcher(restOfTxt);
-      if (m.find())
-      {
-        String listUnit = m.group();
-        returnValue.costListValues = Arrays.stream(listUnit.split("\\/")).map(s -> s.trim()).collect(Collectors.toList());
+    private static String applyBaseCost(Cost returnValue, String restOfTxt) {
+        Matcher m = PAT_BASE_COST.matcher(restOfTxt);
 
-      }
-      returnValue.costListUnit = restOfTxt.contains("Größe") ? Unit.SIZE : null;
+        if (m.find()) {
+            String costBaseString = m.group();
+            returnValue.cost = Integer.valueOf(costBaseString);
+            restOfTxt = restOfTxt.replace(costBaseString, "");
+        }
+        m = PAT_BASE_COST_LIST.matcher(restOfTxt);
+        if (m.find()) {
+            String baseCostString = m.group();
+            returnValue.costList = Arrays.stream(baseCostString.split("\\/")).map(Integer::valueOf).collect(Collectors.toList());
+            restOfTxt = restOfTxt.replace(baseCostString, "");
+
+            m = PAT_LIST_VALUES.matcher(restOfTxt);
+            if (m.find()) {
+                String listUnit = m.group();
+                returnValue.costListValues = Arrays.stream(listUnit.split("\\/")).map(s -> s.trim()).collect(Collectors.toList());
+
+            }
+            returnValue.costListUnit = restOfTxt.contains("Größe") ? Unit.SIZE : null;
+        }
+        return restOfTxt;
     }
-    return restOfTxt;
-  }
 }

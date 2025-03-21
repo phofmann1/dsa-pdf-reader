@@ -58,13 +58,15 @@ public class ExtractorObjectRitual extends Extractor {
 
     Matcher m = Pattern.compile("[A-ü &/()-]{3,}(?=$|,|(<br>))").matcher(requirementsString);
     while (m.find()) {
-      String text = m.group().replace(" für ", "")
+      String x = m.group();
+      String text = x//.replace(" für ", "")
           .replace("Sonderfertigkeit", "").trim();
       if (isNoValidObjectRitualKey(text)) {
         text = text.contains("Merkmalsfokus") ? "Merkmalsfokus" : text;
 
         String orKeyString = mapArtifactKey2Prefix(artifactKey) + extractKeyTextFromTextWithUmlauts(text
             .replace("ß", "xxx")
+            .replace("Gespür für das Geld", "Gespür für Geld")
         )
             .toLowerCase()
             .replace("xxx", "ss");
@@ -112,9 +114,6 @@ public class ExtractorObjectRitual extends Extractor {
       }
     }
 
-    if (currentLevel > 0) {
-      returnValue.add(ObjectRitualKey.values()[currentOrk.ordinal() - 1]);
-    }
     return returnValue;
   }
 

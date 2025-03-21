@@ -37,6 +37,7 @@ public class LoadToArmor
     returnValue.advantage = ar.advantage;
     returnValue.disadvantage = ar.disadvantage;
     returnValue.remark = ar.remark;
+    returnValue.protectedZones = ar.protectedZones;
 
     returnValue.armorCategoryKey = switch (returnValue.rs)
         {

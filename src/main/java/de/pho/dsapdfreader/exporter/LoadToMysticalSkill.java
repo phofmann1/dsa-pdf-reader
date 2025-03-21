@@ -5,27 +5,13 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Sextet;
 import org.javatuples.Triplet;
 
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAdvancementCategory;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCastingDuration;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCheck;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorElementKeys;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorFeature;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillDifficulty;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillModifications;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillVariant;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillDuration;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillRange;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTargetCategory;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
 import de.pho.dsapdfreader.exporter.model.CastingDuration;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
@@ -122,6 +108,10 @@ public class LoadToMysticalSkill
       ms.advancementCategory = ExtractorAdvancementCategory.retrieveAdvancementCategory(msr);
       ms.spellVariants = ExtractorMysticalSkillVariant.retrieveMysticalSkillVariants(msr, ms.key);
       returnList.add(ms);
+    }
+
+    if(ms.category == MysticalSkillCategory.magicSign) {
+      ms.fixedAp = ExtractorAP.retrieve(msr.ap, 0);
     }
 
 
@@ -303,7 +293,9 @@ public class LoadToMysticalSkill
     ms.traditionIncantationMap = ExtractorTradtion.retrieveIncantations(msr);
     ms.skillDuration = ExtractorSkillDuration.retrieveSkillDuration(msr);
     ms.skillCost = ExtractorMysticalSkillCost.retrieveMysticalSkillCost(msr);
-    ms.allowedModifications = ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
+    ms.allowedModifications = (ms.category == MysticalSkillCategory.blessing || ms.category == MysticalSkillCategory.trick)
+            ? List.of()
+            : ExtractorMysticalSkillModifications.retrieveAllowedModifications(msr);
     ms.difficulty = ExtractorMysticalSkillDifficulty.retrieveDifficulty(msr);
     ms.skillKeys = ExtractorSkill.retrieveSkillKeysForMysticalSkillRaw(msr);
     ms.elementalCategories = ExtractorElementKeys.retrieveElementKeys(msr);

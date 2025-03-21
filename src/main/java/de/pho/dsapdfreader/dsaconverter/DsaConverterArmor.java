@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Pattern;
 
+import de.pho.dsapdfreader.exporter.model.enums.HitZoneKey;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -158,6 +159,7 @@ public class DsaConverterArmor extends DsaConverter<ArmorRaw, ConverterAtomicFla
         currentDataObject.weight = firstMatch(DsaConverterMeleeWeapon.PAT_WEIGHT, cleanText); //concatForDataValue(currentDataObject.weight, firstMatch(DsaConverterMeleeWeapon.PAT_WEIGHT, cleanText));
         currentDataObject.price = concatForDataValue(currentDataObject.price, firstMatch(DsaConverterMeleeWeapon.PAT_PRICE, cleanText));
         currentDataObject.craft = concatForDataValue(currentDataObject.craft, firstMatch(DsaConverterMeleeWeapon.PAT_CRAFT, cleanText));
+        currentDataObject.protectedZones = List.of(HitZoneKey.body);
       }
       if (this.getFlags().wasRemark.get())
         currentDataObject.remark = concatForDataValueWithMarkup(currentDataObject.remark, cleanText, isBold, isItalic);

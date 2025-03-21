@@ -162,7 +162,7 @@
             </parameter>
             <parameter>
                 <key>seperator</key>
-                <value></value>
+                <value> </value>
             </parameter>
         </params>
     </strategy>

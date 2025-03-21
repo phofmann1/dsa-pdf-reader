@@ -37,7 +37,8 @@ public class ExtractorMysticalSkillKey extends Extractor {
       returnValue = MysticalSkillVariantKey.valueOf(skillKeyString);
     }
     catch (IllegalArgumentException e) {
-      LOGGER.error("Invalid MysticalSkillVariantKey: " + skillKeyString, e);
+      System.out.println(skillKeyString+',');
+      //LOGGER.error("Invalid MysticalSkillVariantKey: {}", skillKeyString, e);
       returnValue = null;
     }
     return returnValue;
@@ -73,14 +74,12 @@ public class ExtractorMysticalSkillKey extends Extractor {
     MysticalSkillKey returnValue;
     String skillKeyString = (extractKeyTextFromText(category.name())
         + "_"
-        + extractKeyTextFromText(name)).replaceAll("_+", "_").toLowerCase();
-
+        + extractKeyTextFromText(name.replace("Achtung (Exkommunikation)", "Ächtung (Exkommunikation)"))).replaceAll("_+", "_").toLowerCase();
     try {
       returnValue = MysticalSkillKey.valueOf(skillKeyString);
     }
     catch (IllegalArgumentException e) {
       returnValue = null;
-      //LOGGER.error("Invalid MysticalSkillKey: " + skillKeyString);
     }
     return returnValue;
   }
@@ -90,9 +89,11 @@ public class ExtractorMysticalSkillKey extends Extractor {
     String enumEnd = extractKeyTextFromText(name
         .trim()
         .replaceAll("(?<!(Attributo |Aufnahme ))\\(.*?\\)", "")
+        .replaceAll("Analys$", "Analys Arkanstruktur")
         .replaceAll("Balsam$", "Balsam Salabunde")
-        .replaceAll("Odem$", "Odem Arcanum")
+        .replaceAll("Blitz$", "Blitz dich find")
         .replaceAll("Grußwort$", "Grußworte")
+        .replaceAll("Odem$", "Odem Arcanum")
         .replace("Entgiftungsrune", "entgiftungsrune_eidurbanruna")
         .replace("Würzen", "Würze")
         .replace("Felsenrune", "felsenrune_bjoergruna")

@@ -2922,9 +2922,14 @@
   },
   {
     "key": 206,
+    "isRequirementBoonsOr": true,
     "requirementBoons": [
       {
         "key": 202,
+        "exists": true
+      },
+      {
+        "key": 234,
         "exists": true
       }
     ]
@@ -3381,5 +3386,58 @@
         "exists": true
       }
     ]
-  }
+  },
+  {
+  "key": 236,
+  "isRequirementBoonsOr": true,
+  "requirementBoons": [
+    {"key": 234, "exists": true}
+  ]},
+  {
+    "key": 237,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 229, "exists": true}
+    ]},
+  {
+    "key": 238,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 229, "exists": true},
+      {"key": 230, "exists": true},
+      {"key": 231, "exists": true},
+      {"key": 232, "exists": true},
+      {"key": 233, "exists": true},
+      {"key": 235, "exists": true}
+    ]},
+  {
+    "key": 239,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 231, "exists": true}
+    ]},
+  {
+    "key": 240,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 232, "exists": true}
+    ]},
+  {
+    "key": 241,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 230, "exists": true}
+    ]},
+  {
+    "key": 242,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 235, "exists": true}
+    ]},
+  {
+    "key": 243,
+    "isRequirementBoonsOr": true,
+    "requirementBoons": [
+      {"key": 233, "exists": true}
+    ]}
 ]

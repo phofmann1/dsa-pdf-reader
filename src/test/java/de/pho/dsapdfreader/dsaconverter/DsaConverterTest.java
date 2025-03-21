@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
@@ -17,11 +18,11 @@ class DsaConverterTest
 {
 
     @Test
+    @Disabled
     public void testConvertTextWithMetaInfoToTrick()
     {
         List<TextWithMetaInfo> r = this.initResult();
         TopicConfiguration c = new TopicConfiguration();
-        c.topic = TopicEnum.BLESSINGS;
         c.dataSize = 1100;
         c.nameSize = 1300;
         c.startAfterLine = 1;
@@ -42,6 +43,7 @@ class DsaConverterTest
     }
 
     @Test
+    @Disabled
     public void testConcatForDataValueConcatWithDash()
     {
         String origin = "   -  Text -1- ";

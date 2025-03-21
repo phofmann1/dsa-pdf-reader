@@ -49,7 +49,11 @@ public enum SpecialAbilityCategoryKey
   tradition_magic,
   tradition_alveran_major,
   tradition_alveran_minor,
-  tradition_non_alveran, tradition_shaman, mixed;
+  tradition_non_alveran,
+  tradition_shaman,
+  mixed,
+  pact_elemental,
+  pact_fairy;
 
   @JsonValue
   public int toValue() {

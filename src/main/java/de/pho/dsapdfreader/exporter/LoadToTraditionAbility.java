@@ -23,7 +23,7 @@ public class LoadToTraditionAbility {
         .replaceAll("Ysilischen Bannzeichner", "Ysilische Bannzeichner")
         .replaceAll("Intuitiven Zauberer", "Intuitive Zauberer");
     returnValue.key = ExtractorSpecialAbility.retrieve(returnValue.name);
-    returnValue.ap = Integer.valueOf(raw.ap.replace("AP", "").trim());
+    returnValue.ap = Float.parseFloat(raw.ap.replace("AP", "").trim());
     returnValue.category = raw.categoryKey;
     returnValue.requireNoneOfBoons = ExtractorRequirements.extractRequirementsBoon(raw.preconditions, returnValue.name);
     returnValue.requireOneOfBoons = (raw.categoryKey == SpecialAbilityCategoryKey.tradition_magic)

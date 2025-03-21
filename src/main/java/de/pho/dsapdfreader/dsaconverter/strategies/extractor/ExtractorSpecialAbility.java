@@ -103,8 +103,8 @@ public class ExtractorSpecialAbility extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      // String msg = String.format("%s key could not be interpreted.", name);
-      //LOGGER.error(msg);
+      String msg = String.format("%s key could not be interpreted.", name);
+      LOGGER.error(msg);
     }
     return returnValue;
   }
@@ -122,6 +122,9 @@ public class ExtractorSpecialAbility extends Extractor
         .replace("kampf_reflexe_i", "kampfreflexe_i")
         .replace("wesenszug_olochtai", "")
         .replace("wesenszug_zholochai", "")
+        .replace("Gebieter der Reise", "gebieter_in_der_reise")
+        .replace("Verkünder des Schickals", "verkünder_des_schicksals")
+        .replace("scholar_des_seminars_der_elfischen_scholar_des_seminars_der_elfischen_", "scholar_des_seminars_der_elfischen_")
         .replaceAll("^ausfall$", "ausfall_i");
 
     keyString = keyString.trim();
@@ -491,6 +494,7 @@ public class ExtractorSpecialAbility extends Extractor
     Matcher m = PAT_EXTRACT_SKILL_REQ.matcher(requirementsString
         .replace("Fernkampftechnikwert 10", "")
         .replace("Leiteigenschaft", "")
+        .replace("mindestens 12 Monate in einem Gjalsker Haerad gelebt", "")
     );
     while (m.find())
     {
@@ -529,6 +533,7 @@ public class ExtractorSpecialAbility extends Extractor
 
           if (!sko.isPresent() && !msko.isPresent() && !csko.isPresent())
           {
+            System.out.println(name+": "+requirementsString);
             throw new IllegalArgumentException("No enum MysticalSkillKey constant with name " + skillText + " for ability " + name);
           }
 
@@ -762,10 +767,12 @@ public class ExtractorSpecialAbility extends Extractor
             .collect(Collectors.toList());
         if (text.contains(" oder "))
         {
-          RequirementsSpecialAbility childs = new RequirementsSpecialAbility();
-          childs.requirements = reqSa;
-          childs.logicalOpperator = LogicalOperatorKey.or;
-          returnValue.childs = childs;
+          if(reqSa != null && reqSa.size() > 0) {
+            RequirementsSpecialAbility childs = new RequirementsSpecialAbility();
+            childs.requirements = reqSa;
+            childs.logicalOpperator = LogicalOperatorKey.or;
+            returnValue.childs = childs;
+          }
         }
         else
         {
@@ -908,7 +915,7 @@ public class ExtractorSpecialAbility extends Extractor
       boolean fpvcNone = fpValueChangeSkill == null && fpValueChangeFeature == null;
       boolean fpvcSkillIsValid = fpValueChangeSkill != null && fpValueChangeSkill.isValid();
       boolean fpvcFeatuIsValid = fpValueChangeFeature != null && fpValueChangeFeature.isValid();
-      if (!fpvcNone && !fpvcSkillIsValid && !fpvcFeatuIsValid) LOGGER.error("VALUECHANGES (FP) invalid for: " + saKey.name() + " -> " + rules);
+      //if (!fpvcNone && !fpvcSkillIsValid && !fpvcFeatuIsValid) LOGGER.error("VALUECHANGES (FP) invalid for: " + saKey.name() + " -> " + rules);
     }
 
 

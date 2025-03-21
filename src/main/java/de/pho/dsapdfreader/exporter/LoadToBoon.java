@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,14 +21,6 @@ import de.pho.dsapdfreader.exporter.model.RequirementBoon;
 import de.pho.dsapdfreader.exporter.model.SkillApplication;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.ValueChange;
-import de.pho.dsapdfreader.exporter.model.enums.BoonCategory;
-import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
-import de.pho.dsapdfreader.exporter.model.enums.BoonVariantKey;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
-import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
-import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.ValueChangeKey;
-import de.pho.dsapdfreader.exporter.model.enums.ValueChangeType;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -133,7 +126,9 @@ public class LoadToBoon {
         new BoonVariant(BoonVariantKey.stigma_grüne_haare, "Grüne Haare"),
         new BoonVariant(BoonVariantKey.stigma_brandmale, "Brandmale"),
         new BoonVariant(BoonVariantKey.stigma_katzenhafte_augen, "Katzenhafte Augen"),
-        new BoonVariant(BoonVariantKey.stigma_schlangenschuppen, "Schlangenschuppen")
+        new BoonVariant(BoonVariantKey.stigma_schlangenschuppen, "Schlangenschuppen"),
+        new BoonVariant(BoonVariantKey.stigma_kein_schatten, "Kein Schatten"),
+        new BoonVariant(BoonVariantKey.stigma_kein_spiegelbild, "Kein Spiegelbild")
     ));
     put(BoonKey.verstümmelt, List.of(
         new BoonVariant(BoonVariantKey.verstümmelung_einarmig, "Einarmig", -30, new ArrayList<>()),
@@ -208,6 +203,7 @@ public class LoadToBoon {
         ? raw.name.split("(?= (I-|I\\/))")[0]
         : raw.name)
         .replace("Ahnenblut-Vorteile", "")
+        .replace("Dschinnengeborene-Vorteile", "")
         .replace("Feenblut-Vorteile", "");
 
     returnValue.name = baseName;
@@ -225,6 +221,10 @@ public class LoadToBoon {
     returnValue.variants = BOON_VARIANTS.containsKey(returnValue.key) ? BOON_VARIANTS.get(returnValue.key) : new ArrayList<>();
     try {
       returnValue.requiredTraditions = ExtractorRequirements.extractTraditionKeysFromText(raw.preconditions);
+       if(returnValue.key == BoonKey.kleine_zauberauswahl) { // Korrigiere Fehler in PDF
+         returnValue.requiredTraditions.add(TraditionKey.animist);
+         returnValue.requiredTraditions.add(TraditionKey.runenschöpfer);
+       }
     }
     catch (IllegalArgumentException e) {
       LOGGER.error(e.getMessage());
@@ -267,6 +267,7 @@ public class LoadToBoon {
 
     returnValue.isBloodLine = raw.name.startsWith("Feenblut")
         || raw.name.startsWith("Drachenblut")
+        || raw.name.startsWith("Dschinnenblut")
         || returnValue.name.startsWith("Wolfsblut");
 
     return returnValue;

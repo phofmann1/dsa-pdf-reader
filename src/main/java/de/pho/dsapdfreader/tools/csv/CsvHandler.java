@@ -86,6 +86,12 @@ public class CsvHandler
     {
         try
         {
+
+            // Ensure the parent directory exists File
+            File parentDir = output.getParentFile();
+            if (parentDir != null && !parentDir.exists()) {
+                parentDir.mkdirs();
+            }
             Writer writer = new FileWriter(output, StandardCharsets.UTF_8);
             StatefulBeanToCsv sbc = new StatefulBeanToCsvBuilder(writer)
                 .withSeparator(SEPARATOR)

@@ -82,7 +82,6 @@ public class DsaConverterTraditionsToSpecialAbility extends DsaConverter<Traditi
     AtomicReference<TraditionRaw> currentTradition = new AtomicReference<>();
     texts.forEach(t -> {
       String cleanText = t.text.trim();
-
       currentSize.set(t.size);
       if (t.size == 9800) {
         interpretationMode.set(DataInterpretationMode.pantheon);
@@ -145,10 +144,8 @@ public class DsaConverterTraditionsToSpecialAbility extends DsaConverter<Traditi
               .replace("AP-Wert:", "")
               .replace("397", "140 AP")
               .trim(); //Korrektur Fehler bei Firun
-          currentTradition.get().ap = cleanedValue
-              .substring(0, cleanedValue.indexOf(" "))
-
-          ;
+          currentTradition.get().ap = cleanedValue.contains(" ") ? cleanedValue
+              .substring(0, cleanedValue.indexOf(" ")) : cleanedValue;
         }
         default -> {
           LOGGER.error("UNDEFINED InterpretationMode (" + t.text + ") Size:" + t.size);

@@ -20,9 +20,4 @@ public class ConfigurationInitializer
         URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf.csv");
         return CsvHandler.readBeanFromUrl(TopicConfiguration.class, url);
     }
-
-    public static List<TopicConfiguration> readTopicContentConfigurations() {
-        URL url = DsaPdfReaderMain.class.getClassLoader().getResource("topic-conf-content.csv");
-        return CsvHandler.readBeanFromUrl(TopicConfiguration.class, url);
-    }
 }

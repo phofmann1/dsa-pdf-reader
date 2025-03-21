@@ -596,7 +596,13 @@ public enum EquipmentKey {
   alchimistenschale,
   tanzgewand,
   ziliten_gallertnetz,
-  schnellzieh_guertel;
+  schnellzieh_guertel,
+  sippenchronik,
+  kleidungspaket_unfrei,
+  kleidungspaket_frei,
+  kleidungspaket_niederadel,
+  kleidungspaket_adel,
+  kleidungspaket_hochadel;
 
 
   @JsonValue

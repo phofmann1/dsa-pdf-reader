@@ -26,11 +26,11 @@ public class SpecialAbility
   public Publication publication;
   public SpecialAbilityCategoryKey category;
 
-  public float ap;
+  public Float ap;
   public SpecialAbilityTypeKey abilityType;
   public Integer multiselect;
   public SelectionCategory selectionCategory;
-  public int selectSkillUsagesCount;
+  public Integer selectSkillUsagesCount;
   public SkillCategoryKey skillCategory;
   public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
@@ -45,7 +45,7 @@ public class SpecialAbility
   public Boolean isOnlyElfenWeapon;
   public Boolean isOnlyDwarfenWeapon;
 
-  public EntityDomainKey requiredEntityDomainKey;
+  public List<EntityDomainKey> requiredEntityDomainKeys;
   public Integer requiredPactLevel;
 
   public SpecieKey requiredSpecie;
@@ -60,4 +60,5 @@ public class SpecialAbility
   public RequirementSkillSum requirementsSkillsSum;
   public RequirementsCombatSkill requirementsCombatSkill;
   public RequirementMysticalSkill requirementMysticalSkill;
+  public RequirementsObjectRitual requirementsObjectRituals;
 }

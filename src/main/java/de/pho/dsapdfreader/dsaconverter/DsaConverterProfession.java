@@ -81,10 +81,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
 
       if (t.size == 1800) {
         switch (cleanText) {
-        case "Weltliche Professionen":
+        case "Weltliche Professionen","Kämpferprofessionen":
           currentProfessionTypeKey.set(ProfessionTypeKey.normal);
           break;
-        case "ZaubererprofessionenAnimisten":
+        case "ZaubererprofessionenAnimisten","Zaubererprofessionen":
           currentProfessionTypeKey.set(ProfessionTypeKey.magical);
           break;
         case "Geweihtenprofessionen (Alveranische Gottheiten)":
@@ -125,7 +125,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
 
       // handle name
       if (isName) {
-        currentProfessionName.set(currentProfessionName.get() != null ? concatForDataValue(currentProfessionName.get(), t.text) : t.text);
+        currentProfessionName.set((currentProfessionName.get() != null ? concatForDataValue(currentProfessionName.get(), t.text) : t.text)
+                .replace("Graumagier (Kampfseminar Andergast)", "Graumagier des Kampfseminars zu Andergast")
+                .replace("Weißmagierin (Akademie von Licht und Dunkelheit zu Nostria)", "Weißmagierin der Akademie von Licht und Dunkelheit zu Nostria")
+        );
       }
       else {
         currentProfessionName.set(null);

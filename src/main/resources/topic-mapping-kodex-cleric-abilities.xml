@@ -15,13 +15,25 @@
         </params>
     </strategy>
 
-
+    <strategy name="StrategyRemoveLinesFromPage - Seitentitel" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>219</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>78</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategyRemovePages - 221 to 252">
         <strategyClass>StrategyRemovePages</strategyClass>
         <params>
             <parameter>
                 <key>applyToPage</key>
-                <value>221</value>
+                <value>222</value>
             </parameter>
             <parameter>
                 <key>untilPage</key>

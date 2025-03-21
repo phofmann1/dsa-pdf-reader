@@ -33,7 +33,7 @@ public class ExtractorArmorKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      LOGGER.error("Invalid ArmorKey: " + armorKeyString, e);
+      LOGGER.error("Invalid ArmorKey: " + armorKeyString);
     }
     return returnValue;
   }

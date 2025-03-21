@@ -51,7 +51,7 @@ public class StrategyInsertLineAfter extends DsaConverterStrategy
     OptionalInt addAfterIndexOpt = IntStream.range(0, textList.size())
         .filter(i -> insertAfterLine == textList.get(i).onLine)
         .findFirst();
-    int addAfterIndex = addAfterIndexOpt.isPresent() ? addAfterIndexOpt.getAsInt() : -1;
+    int addAfterIndex = Math.min(addAfterIndexOpt.isPresent() ? addAfterIndexOpt.getAsInt() : -1, textList.size());
     try
     {
       double idx = insertSmall ? NEW_LINE_SMALL_IDX : NEW_LINE_IDX;

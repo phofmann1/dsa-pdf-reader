@@ -228,24 +228,19 @@ public abstract class Extractor
 
   protected static boolean isClerical(TopicEnum topic)
   {
-    return topic == TopicEnum.BLESSINGS || topic == TopicEnum.LITURGIES || topic == TopicEnum.CEREMONIES
-        || topic == TopicEnum.BLESSING_DIVINARIUM || topic == TopicEnum.LITURGY_DIVINARIUM || topic == TopicEnum.CEREMONY_DIVINARIUM;
+    return topic == TopicEnum.BLESSING_DIVINARIUM || topic == TopicEnum.LITURGY_DIVINARIUM || topic == TopicEnum.CEREMONY_DIVINARIUM;
   }
 
   public static MysticalSkillCategory retrieveMsCategory(TopicEnum topic)
   {
     return switch (topic)
         {
-          case TRICKS, TRICKS_GRIMORIUM -> MysticalSkillCategory.trick;
-          case SPELLS, SPELLS_GRIMORIUM -> MysticalSkillCategory.spell;
-          case RITUALS, RITUALS_GRIMORIUM -> MysticalSkillCategory.ritual;
-          case BLESSINGS, BLESSING_DIVINARIUM -> MysticalSkillCategory.blessing;
-          case LITURGIES, LITURGY_DIVINARIUM -> MysticalSkillCategory.liturgy;
-          case CEREMONIES, CEREMONY_DIVINARIUM -> MysticalSkillCategory.ceremony;
-          case CURSES -> MysticalSkillCategory.curse;
-          case ELFENSONGS -> MysticalSkillCategory.elfensong;
-          case MELODIES -> MysticalSkillCategory.melody;
-          case DANCES -> MysticalSkillCategory.dance;
+          case TRICKS_GRIMORIUM -> MysticalSkillCategory.trick;
+          case SPELLS_GRIMORIUM -> MysticalSkillCategory.spell;
+          case RITUALS_GRIMORIUM -> MysticalSkillCategory.ritual;
+          case BLESSING_DIVINARIUM -> MysticalSkillCategory.blessing;
+          case LITURGY_DIVINARIUM -> MysticalSkillCategory.liturgy;
+          case CEREMONY_DIVINARIUM -> MysticalSkillCategory.ceremony;
           default -> throw new IllegalArgumentException(topic + " not found");
         };
   }

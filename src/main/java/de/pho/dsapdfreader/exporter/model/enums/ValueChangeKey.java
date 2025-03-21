@@ -24,14 +24,16 @@ public enum ValueChangeKey {
   att_gs,
   cv_aw,
   cv_ini,
-  att_aw,
-  att_ini,
-  att_ws,
+  new_ms_cat,
+  REDUNDANT,
+  cv_ws,
   energy_schip,
   sozialer_stand,
   mystical_skill_count_4_cat,
   cv_rs,
-  trad_ap; //Reduktion der Traditionskosten durch keine Flugsalbe / Vertrauter
+  trad_ap, // Hexen reduzieren bei den Nachteilen (keine Flugsalbe / kein Vertrauter) die Traditionskosten um 10
+  cv_tp,
+  ms_familiarization;
 
   @JsonValue
   public int toValue() {
