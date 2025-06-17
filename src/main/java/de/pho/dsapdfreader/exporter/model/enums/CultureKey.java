@@ -47,7 +47,9 @@ public enum CultureKey {
   stammesorks,
   holberk,
   räuberbande,
-  tulamidenlande;
+  tulamidenlande,
+  nai_ashyrr,
+  nuanaä_lie;
 
   @JsonValue
   public int toValue() {

@@ -37,7 +37,9 @@ public enum SkillApplicationKey
   gesunder_geist_gesunder_körper,
   harmonie_der_seele,
   wohlklang_der_seele,
-  ermutigende_darstellung;
+  ermutigende_darstellung,
+  fallentarnung,
+  fallen_wieder_scharfmachen;
 
   @JsonValue
   public int toValue() {

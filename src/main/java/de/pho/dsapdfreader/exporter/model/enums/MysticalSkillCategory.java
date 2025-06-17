@@ -25,7 +25,8 @@ public enum MysticalSkillCategory
   familiar,
   magicSign,
   sermon,
-  vision;
+  vision,
+  distortedElfensong;
 
 
   @JsonValue

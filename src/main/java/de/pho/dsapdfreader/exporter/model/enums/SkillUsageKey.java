@@ -394,7 +394,9 @@ public enum SkillUsageKey
   zauberzeichen_malen,
   berserker_beruhigen,
   tierheilkunde,
-  tierkrankheiten_behandeln;
+  tierkrankheiten_behandeln,
+  mechanische_konstrukte_herstellen,
+  fallen_herstellen;
 
   @JsonValue
   public int toValue() {

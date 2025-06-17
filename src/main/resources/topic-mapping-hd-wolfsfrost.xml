@@ -1,0 +1,282 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>1</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>53</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>17</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>2</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>19</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>3</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>12</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>54</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>46.1</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>20</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>46.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>14</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>14.1</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>70</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>31</value>
+            </parameter>
+
+            <parameter>
+                <key>untilLine</key>
+                <value>36</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>119</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>31</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>53</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>31.1</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>16</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>39</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>31.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I auf 396" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>55</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>77</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>34</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

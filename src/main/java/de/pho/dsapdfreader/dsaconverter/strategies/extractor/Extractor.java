@@ -223,6 +223,7 @@ public abstract class Extractor
     if (t.contains("Zsahh")) returnValue.add(TraditionKey.zsahh);
     if (t.contains("Gravesh")) returnValue.add(TraditionKey.graveshkult);
     if (t.contains("Achazschamane")) returnValue.add(TraditionKey.achazschamane);
+    if (t.contains("Nachtalben")) returnValue.add(TraditionKey.nachtalben);
     return returnValue;
   }
 

@@ -50,8 +50,8 @@ public enum Publication
   Rüstkammer_der_Siebenwindküste,
   Rüstkammer_der_Sonnenküste,
   Rüstkammer_der_Flusslande,
-  Rüstkammer_der_Dampfenden_Dschungel,
-  Rüstkammer_der_Streitenden_Königreiche,
+  Rüstkammer_der_dampfenden_Dschungel,
+  Rüstkammer_der_streitenden_Königreiche,
   Rüstkammer_der_Wüstenreiche,
   Kodex_des_Götterwirkens,
   Divinarium,
@@ -76,7 +76,9 @@ public enum Publication
   GMuH_Die_streitenden_Königreiche,
   Archiv_der_Kreaturen,
   Archiv_der_Dämonen,
-  Helden_der_Siebenwindküste;
+  Helden_der_Siebenwindküste,
+  Helden_des_Wolfsfrosts,
+  Weltenwanderer;
 
 
   @JsonValue

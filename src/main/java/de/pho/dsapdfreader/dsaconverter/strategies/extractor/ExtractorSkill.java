@@ -116,7 +116,7 @@ public class ExtractorSkill extends Extractor {
       case scholar_der_akademie_schwert_und_stab_zu_gareth, scholar_der_schule_der_hellsicht_zu_thorwal ->
           List.of(SkillUsageKey.bedrohungen_standhalten);
       case tapferkeit_der_unsterblichen -> List.of(SkillUsageKey.öffentliche_rede);
-      case scholar_der_akademie_der_hohen_magie_zu_punin, analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen, majestätsstimme, verführerische_gestalt, harmonie_der_seele,wohlklang_der_seele, gesunder_geist_gesunder_körper, ermutigende_darstellung ->
+      case scholar_der_akademie_der_hohen_magie_zu_punin, analytiker, drachenkampf_taktik, ermutigender_gesang, erweiterte_drachenkampf_taktik, falschspielen, faszinierender_gesang, tierstimmen_imitieren, ungeheuer_taktik, unterminieren, radscha_anhänger, einschüchternde_zurechtweisung, ackerbau, abrollen, majestätsstimme, verführerische_gestalt, harmonie_der_seele,wohlklang_der_seele, gesunder_geist_gesunder_körper, ermutigende_darstellung, fallentarnung,fallen_wieder_scharfmachen ->
           new ArrayList<>();
     };
   }

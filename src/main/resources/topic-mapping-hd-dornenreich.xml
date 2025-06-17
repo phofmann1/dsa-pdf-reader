@@ -140,6 +140,20 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Anmerkungen Fächer und kleine Schilde" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>60</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>28</value>
+            </parameter>
+        </params>
+    </strategy>
     <strategy name="StrategyRemoveLinesFromPage - Box SF für Peitschen und Fächer" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>

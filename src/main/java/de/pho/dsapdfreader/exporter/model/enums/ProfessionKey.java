@@ -593,7 +593,22 @@ public enum ProfessionKey {
     andergaster_mehrer_der_macht,
     andergaster_sumudiener,
     nostrische_eulenhexe_verschwiegene_schwesternschaft,
-    nostrische_schlangenhexe_schwesternschaft_des_wissens;
+    nostrische_schlangenhexe_schwesternschaft_des_wissens,
+    walfänger,
+    jäger_der_verfluchten,
+    graumagierin_als_schülerin_der_thyella_vom_gewitterturm,
+    vampirjäger_in,
+    schwarzer_tänzer,
+    eisgänger,
+    klingensängerin_der_shakagra,
+    rufer_der_diener,
+    elementarist,
+    zauberweber_der_shakagra,
+    heckenreiterin,
+    albernischer_seefahrer,
+    schatzsucher_der_siebenwindküste,
+    distelritter,
+    havener_kriegerin;
 
     @JsonValue
     public int toValue() {

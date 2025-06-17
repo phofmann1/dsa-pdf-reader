@@ -2423,6 +2423,7 @@
   },
   {
     "key": 171,
+    "ap": null,
     "requirementBoons": [
       {
         "key": 135,
@@ -3256,6 +3257,8 @@
   },
   {
     "key": 224,
+    "ap": null,
+    "apForLevelList": [15.0, 35.0],
     "isRequirementBoonsOr": true,
     "requirementBoons": [
       {

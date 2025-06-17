@@ -1,49 +1,66 @@
 [
   {
-    "key":2,
+    "key": 2,
     "requirementsObjectRituals": {
       "logicalOpperator": 0,
-      "requiredKeys": [34],
+      "requiredKeys": [
+        34
+      ],
       "childs": {
         "logicalOpperator": 1,
-        "requiredKeys": [47, 40, 41, 42]
+        "requiredKeys": [
+          47,
+          40,
+          41,
+          42
+        ]
       }
-
     }
   },
   {
-    "key" : 204,
-    "requirementsAbility" : {
-      "logicalOpperator" : 0,
-      "requirements" : [ {
-        "abilityKey" : 203
-      } ]
+    "key": 204,
+    "requirementsAbility": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "abilityKey": 203
+        }
+      ]
     }
-  }, {
-  "key" : 205,
-  "requirementsAbility" : {
-    "logicalOpperator" : 0,
-    "requirements" : [ {
-      "abilityKey" : 204
-    } ]
-  }
-}, {
-  "key" : 206,
-  "requirementsAbility" : {
-    "logicalOpperator" : 0,
-    "requirements" : [ {
-      "abilityKey" : 205
-    } ]
-  }
-}, {
-  "key" : 207,
-  "requirementsAbility" : {
-    "logicalOpperator" : 0,
-    "requirements" : [ {
-      "abilityKey" : 206
-    } ]
-  }
-},
+  },
+  {
+    "key": 205,
+    "requirementsAbility": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "abilityKey": 204
+        }
+      ]
+    }
+  },
+  {
+    "key": 206,
+    "requirementsAbility": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "abilityKey": 205
+        }
+      ]
+    }
+  },
+  {
+    "key": 207,
+    "requirementsAbility": {
+      "logicalOpperator": 0,
+      "requirements": [
+        {
+          "abilityKey": 206
+        }
+      ]
+    }
+  },
   {
     "key": 350,
     "valueChanges": [
@@ -112,10 +129,12 @@
   },
   {
     "key": 556,
-    "valueChanges" : [ {
-      "key" : 30,
-      "valueChange" : 1
-    } ]
+    "valueChanges": [
+      {
+        "key": 30,
+        "valueChange": 1
+      }
+    ]
   },
   {
     "key": 674,
@@ -126,20 +145,47 @@
     "newSkillUsageKey": 288
   },
   {
-    "key": 751,
-    "valueChanges" : [ {
-      "key" : 30,
-      "valueChange" : 3,
-      "featureKey": 24
-    } ]
+    "key": 723,
+    "ap": 5
   },
-
+  {
+    "key": 724,
+    "ap": 10
+  },
+  {
+    "key": 725,
+    "ap": 20
+  },
+  {
+    "key": 726,
+    "ap": 10
+  },
+  {
+    "key": 727,
+    "ap": 5
+  },
+  {
+    "key": 728,
+    "ap": 10
+  },
+  {
+    "key": 751,
+    "valueChanges": [
+      {
+        "key": 30,
+        "valueChange": 3,
+        "featureKey": 24
+      }
+    ]
+  },
   {
     "key": 778,
-    "valueChanges" : [ {
-      "key" : 30,
-      "valueChange" : 1
-    } ]
+    "valueChanges": [
+      {
+        "key": 30,
+        "valueChange": 1
+      }
+    ]
   },
   {
     "key": 104,
@@ -217,7 +263,7 @@
   },
   {
     "key": 1015,
-    "valueChanges":[
+    "valueChanges": [
       {
         "key": 21,
         "mysticalSkillCategory": 19
@@ -254,7 +300,7 @@
   },
   {
     "key": 1102,
-    "valueChanges":[
+    "valueChanges": [
       {
         "key": 21,
         "mysticalSkillCategory": 17
@@ -263,7 +309,7 @@
   },
   {
     "key": 1074,
-    "valueChanges":[
+    "valueChanges": [
       {
         "key": 21,
         "mysticalSkillCategory": 15
@@ -271,8 +317,8 @@
     ]
   },
   {
-    "key" : 1204,
-    "requiredPactLevel" : 2,
+    "key": 1204,
+    "requiredPactLevel": 2,
     "requirementsAbility": {
       "requirements": [
         {
@@ -281,10 +327,9 @@
       ]
     }
   },
-
   {
-    "key" : 1205,
-    "requiredPactLevel" : 3,
+    "key": 1205,
+    "requiredPactLevel": 3,
     "requirementsAbility": {
       "requirements": [
         {
@@ -294,8 +339,8 @@
     }
   },
   {
-    "key" : 1206,
-    "requiredPactLevel" : 4,
+    "key": 1206,
+    "requiredPactLevel": 4,
     "requirementsAbility": {
       "requirements": [
         {
@@ -305,8 +350,8 @@
     }
   },
   {
-    "key" : 1207,
-    "requiredPactLevel" : 5,
+    "key": 1207,
+    "requiredPactLevel": 5,
     "requirementsAbility": {
       "requirements": [
         {
@@ -316,8 +361,8 @@
     }
   },
   {
-    "key" : 1208,
-    "requiredPactLevel" : 6,
+    "key": 1208,
+    "requiredPactLevel": 6,
     "requirementsAbility": {
       "requirements": [
         {
@@ -327,8 +372,8 @@
     }
   },
   {
-    "key" : 1209,
-    "requiredPactLevel" : 7,
+    "key": 1209,
+    "requiredPactLevel": 7,
     "requirementsAbility": {
       "requirements": [
         {
@@ -374,7 +419,7 @@
   },
   {
     "key": 1346,
-    "valueChanges":[
+    "valueChanges": [
       {
         "key": 30,
         "valueChange": 1
@@ -428,5 +473,12 @@
       23
     ],
     "ap": 9
+  },
+  {
+    "key": 1526,
+    "requirementMysticalSkill": {
+      "key": 369,
+      "minValue": 10
+    }
   }
 ]

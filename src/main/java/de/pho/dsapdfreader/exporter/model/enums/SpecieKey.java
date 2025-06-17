@@ -26,7 +26,8 @@ public enum SpecieKey {
   lizard_maraskan,
   lizard_orkland,
   lizard_regenwald,
-  lizard_waldinseln;
+  lizard_waldinseln,
+  nachtalb;
 
   @JsonValue
   public int toValue() {

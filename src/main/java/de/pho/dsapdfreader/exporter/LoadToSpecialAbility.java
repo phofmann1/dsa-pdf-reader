@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Quartet;
@@ -35,17 +36,6 @@ import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.SkillUsage;
 import de.pho.dsapdfreader.exporter.model.SpecialAbility;
-import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
-import de.pho.dsapdfreader.exporter.model.enums.DsaState;
-import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
-import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
-import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
-import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
-import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
-import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -53,7 +43,7 @@ public class LoadToSpecialAbility
 {
 
   protected static final Logger LOGGER = LogManager.getLogger();
-  public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=I-|/)[IVX]{1,4}$");
+  public static final Pattern EXTRACT_UPPER_ROMAN = Pattern.compile("(?<=I-|/)[IVX]{1,4}(?=\\)| \\(\\*\\)| \\(Zauber\\)|$)");
 
   private static final String[] BEEINDRUCKENDE_VORSTELLUNG_VARIANTS = {
       "Gaukeleien",
@@ -95,6 +85,9 @@ public class LoadToSpecialAbility
       "Entschwörung",
       "Blutmagie",
       "Gift melken",
+      "Bindung",
+      "Wahrer Name",
+      "Zirkelmeister",
   };
 
   private static final Map<SpecialAbilityKey, SelectionCategory> SA_SELECTION_CATEGORY_MAP = new EnumMap<>(SpecialAbilityKey.class);
@@ -157,6 +150,7 @@ public class LoadToSpecialAbility
         .replace("Herrschaft über Dämonen", "Herrschaft über Dämonen I-III");
     if (!isIgnored)
     {
+
       int levels = extractLevels(raw.name);
       String baseName = levels > 1
           ? raw.name.split("(?= (I-|I\\/))")[0]
@@ -171,8 +165,10 @@ public class LoadToSpecialAbility
         boolean isAuthor = specialAbility.name.equals("Schriftstellerei");
         boolean isHealingSpec = specialAbility.name.equals("Heilungsspezialgebiet");
         boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");
+        boolean isDemonicBinding = raw.name.equals("Bindung (Dämonen)");
+        boolean isDemonicTrueName = raw.name.equals("Wahrer Name (spezieller Dämon)");
 
-        if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts)
+        if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts && !isDemonicBinding && !isDemonicTrueName)
           specialAbility.key = ExtractorSpecialAbility.retrieve(specialAbility.name);
 
         specialAbility.publication = Publication.valueOf(raw.publication);
@@ -252,7 +248,6 @@ public class LoadToSpecialAbility
 
 
         if (specialAbility.key != null && specialAbility.key != SpecialAbilityKey.zauberkämpfer && specialAbility.key != SpecialAbilityKey.ätzes_geben) {
-
           specialAbility.valueChanges = ExtractorSpecialAbility.retrieveValueChanges(raw.rules, specialAbility.key);
         }
         specialAbility.selectSkillUsagesCount = specialAbility.key != null && specialAbility.key == SpecialAbilityKey.fachwissen
@@ -273,6 +268,10 @@ public class LoadToSpecialAbility
         else if (isGebieterDesAspekts)
         {
           returnValue.addAll(generateGebieterDesAspektsList(specialAbility, raw.rules));
+        } else if (isDemonicBinding) {
+          returnValue.addAll(generateDemonicBinding(specialAbility));
+        } else if (isDemonicTrueName) {
+          returnValue.addAll(generateDemonicWahreNamen(specialAbility));
         }
         else {
           returnValue.add(specialAbility);
@@ -281,6 +280,7 @@ public class LoadToSpecialAbility
     }
     return returnValue.stream();
   }
+
 
   private static SpecialAbility handleSaCategoryMixed(SpecialAbility specialAbility) {
     if (specialAbility.requirementMysticalSkill != null //REQ for mystical skills are all magic
@@ -547,6 +547,88 @@ public class LoadToSpecialAbility
       rs.requirements = List.of(r);
       specialAbility.requirementsSkill = rs;
     }
+    return specialAbility;
+  }
+
+
+
+  public static Collection<? extends SpecialAbility> generateDemonicBinding(SpecialAbility specialAbility) {
+      List<SpecialAbility> returnValue = new ArrayList<>();
+
+      returnValue.add(generateNewBindung(
+              ObjectMerger.merge(specialAbility, new SpecialAbility()),
+              SpecialAbilityKey.bindung_dämonen_minor,
+              "Bindung (niedere Dämonen)",
+              MysticalSkillKey.ritual_invocatio_minor, 10f)
+      );
+
+    returnValue.add(generateNewBindung(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.bindung_dämonen_maior,
+            "Bindung (Gehörnte Dämonen bis 5 Hörner)",
+            MysticalSkillKey.ritual_invocatio_maior, 20f)
+    );
+
+    returnValue.add(generateNewBindung(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.bindung_dämonen_maxima,
+            "Bindung (Gehörnte Dämonen ab 6 Hörner)",
+            MysticalSkillKey.ritual_invocatio_maior, 40f)
+    );
+
+
+      return returnValue;
+    }
+
+  public static Collection<? extends SpecialAbility> generateDemonicWahreNamen(SpecialAbility specialAbility) {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.wahrer_name_spezieller_dämon_minor,
+            "Wahrer Name (spezieller niederer Dämon)",
+            MysticalSkillKey.ritual_invocatio_minor,
+            10f, SelectionCategory.demonic_name_minor)
+    );
+
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.wahrer_name_spezieller_dämon_maior,
+            "Wahrer Name (spezieller gehörnter Dämon, bis 5 Hörner)",
+            MysticalSkillKey.ritual_invocatio_maior,
+            20f, SelectionCategory.demonic_name_maior)
+    );
+
+
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.wahrer_name_spezieller_dämon_maxima,
+            "Wahrer Name (spezieller gehörnter Dämon, ab 6 Hörner)",
+            MysticalSkillKey.ritual_invocatio_maior,
+            30f, SelectionCategory.demonic_name_maxima)
+    );
+
+    return returnValue;
+  }
+
+  private static SpecialAbility generateNewTrueName(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name, MysticalSkillKey msKey, Float ap, SelectionCategory selectionCategory) {
+    specialAbility.key = specialAbilityKey;
+    specialAbility.name = name;
+    specialAbility.ap = ap;
+    specialAbility.selectionCategory = selectionCategory;
+    specialAbility.requirementMysticalSkill = new RequirementMysticalSkill();
+    specialAbility.requirementMysticalSkill.key = msKey;
+    specialAbility.requirementMysticalSkill.minValue = 8;
+    return specialAbility;
+  }
+
+  private static SpecialAbility generateNewBindung(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name, MysticalSkillKey msKey, Float ap) {
+    specialAbility.key = specialAbilityKey;
+    specialAbility.name = name;
+    specialAbility.ap = ap;
+    specialAbility.requirementMysticalSkill = new RequirementMysticalSkill();
+    specialAbility.requirementMysticalSkill.key = msKey;
+    specialAbility.requirementMysticalSkill.minValue = 12;
     return specialAbility;
   }
 

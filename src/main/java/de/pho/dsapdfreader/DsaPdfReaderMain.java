@@ -1486,11 +1486,15 @@ public class DsaPdfReaderMain {
             boolean ignoreBrackets = Arrays.stream(LoadToSpecialAbility.BRACKETED_NAMES).filter(bn -> baseName.startsWith(bn)).count() == 0;
             for (int currentLevel = 0; currentLevel < levels; currentLevel++) {
                 String name = LoadToSpecialAbility.extractName(baseName, levels, currentLevel, ignoreBrackets);
-                SpecialAbilityKey key = ExtractorSpecialAbility.retrieve(name);
+                SpecialAbilityKey key = null;
 
                 boolean isAuthor = name.equals("Schriftstellerei");
                 boolean isHealingSpec = name.equals("Heilungsspezialgebiet");
                 boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");
+                boolean isDemonicBinding = raw.name.equals("Bindung (Dämonen)");
+                boolean isDemonicTrueName = raw.name.equals("Wahrer Name (spezieller Dämon)");
+                if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts && !isDemonicBinding && !isDemonicTrueName)
+                    key = ExtractorSpecialAbility.retrieve(name);
 
                 List<Pair<SpecialAbilityKey, String>> keyNames = new ArrayList<>();
                 if (isAuthor) {
@@ -1508,6 +1512,16 @@ public class DsaPdfReaderMain {
                             LoadToSpecialAbility.generateGebieterDesAspektsList(new SpecialAbility(), "").stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .collect(Collectors.toList()));
+                } else if (isDemonicBinding) {
+                    keyNames.addAll(
+                            LoadToSpecialAbility.generateDemonicBinding(new SpecialAbility()).stream()
+                                    .map(sa -> new Pair<>(sa.key, sa.name))
+                                    .toList());
+                } else if (isDemonicTrueName) {
+                    keyNames.addAll(
+                            LoadToSpecialAbility.generateDemonicWahreNamen(new SpecialAbility()).stream()
+                                    .map(sa -> new Pair<>(sa.key, sa.name))
+                                    .toList());
                 } else {
                     keyNames.add(new Pair<>(key, name));
                 }
@@ -1868,10 +1882,8 @@ public class DsaPdfReaderMain {
             case RÜSTUNGEN_HELME -> results = new DsaConverterArmorPart().convertTextWithMetaInfo(texts, conf);
             case RÜSTUNGEN_TEILE -> results = new DsaConverterArmorPart().convertTextWithMetaInfo(texts, conf);
             case RÜSTUNGENLISTE -> results = new DsaConverterArmorLists().convertTextWithMetaInfo(texts, conf);
-            case VERBREITUNG_WAFFEN ->
-                    results = DsaConverterWeaponAvailability.convertTextWithMetaInfo(texts, conf);
-            case VERBREITUNG_RÜSTUNG ->
-                    results = DsaConverterArmorAvailability.convertTextWithMetaInfo(texts, conf);
+            case VERBREITUNG_WAFFEN -> results = DsaConverterWeaponAvailability.convertTextWithMetaInfo(texts, conf);
+            case VERBREITUNG_RÜSTUNG -> results = DsaConverterArmorAvailability.convertTextWithMetaInfo(texts, conf);
             case AUSRÜSTUNG -> results = new DsaConverterEquipment().convertTextWithMetaInfo(texts, conf);
             case ABILITIES -> results = new DsaConverterSpecialAbilityKodex().convertTextWithMetaInfo(texts, conf);
             case SKILLS -> results = new DsaConverterSkillKodex().convertTextWithMetaInfo(texts, conf);

@@ -249,7 +249,10 @@ public enum BoonKey {
     wegwehen,
     immunität_gegen_gift_alle,
     immunität_gegen_krankheit_alle,
-    mondempfindlich;
+    mondempfindlich,
+    sphärennahrung,
+    limbussinn,
+    limbus_medium;
 
     @JsonValue
     public int toValue() {

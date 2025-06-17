@@ -21,7 +21,10 @@ public enum SelectionCategory
   traditionCleric,
   mysticalSkillTrick,
   mysticalSkillBlessing,
-  traditionMagic;
+  traditionMagic,
+  demonic_name_minor,
+  demonic_name_maior,
+  demonic_name_maxima;
 
   @JsonValue
   public int toValue() {

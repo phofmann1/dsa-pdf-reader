@@ -101,7 +101,11 @@ public enum ArmorKey {
     beinschienen_leder,
     beinschienen_stahl,
     kettenbeinlinge,
-    panzerhandschuhe;
+    panzerhandschuhe,
+    anaurak,
+    eisenkragen,
+    schwere_shakagra_plattenruestung,
+    shakagra_plattenruestung;
 
 
     @JsonValue

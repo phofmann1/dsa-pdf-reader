@@ -201,7 +201,6 @@ public class DsaConverterClericalObjectRituals extends DsaConverter<MysticalActi
           // Start new Tradition
           if (t.size == 1800 && cleanText.contains("Tradition")) {
             isArtifactStarted.set(Boolean.FALSE);
-            //System.out.println("\"" + cleanText + "\",");
           }
 
           boolean isFirstValue = validateIsFirstValue(t, conf, isArtifactStarted.get(), cleanText);

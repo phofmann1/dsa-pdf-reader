@@ -22,6 +22,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
     private static final String KEY_RULES_II = "Wirkung";
     private static final String KEY_PRECONDITIONS = "Voraussetzungen";
     private static final String KEY_PRECONDITIONS_II = "Voraussetzung";
+    private static final String KEY_PRECONDITIONS_III = "Voraussetzungen:";
     private static final String KEY_AP_VALUE = "AP-Wert";
     private static final String KEY_ADVANCED_ABILITIES_I = "Erweiterte Kampfsonderfertigkeiten";
     private static final String KEY_ADVANCED_ABILITIES_II = "Erweiterte Talentsonderfertigkeiten";
@@ -39,6 +40,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             KEY_RULES_II,
             KEY_PRECONDITIONS,
             KEY_PRECONDITIONS_II,
+            KEY_PRECONDITIONS_III,
             KEY_AP_VALUE,
             KEY_ADVANCED_ABILITIES_I,
             KEY_ADVANCED_ABILITIES_II,
@@ -74,10 +76,6 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
                     String cleanText = t.text
                             .replace("Leggaleg", "Leg-ga-leg")
                             .trim();
-
-                    if(cleanText.contains("Leg-ga-leg")) {
-                        System.out.println(cleanText);
-                    }
 
                     if (hiddenTopic.isPresent()) {
                         cleanText = cleanText.replace(hiddenTopic.get(), "");
@@ -153,7 +151,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             return SpecialAbilityCategoryKey.magic;
         }
         return switch (text) {
-            case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit",
+            case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit", "Neue Sonderfertigkeiten", "Neue SonderfertigkeitenFallen-Regeln",
                  "Neue Sonderfertigkeiten für Kulturschaffende" -> SpecialAbilityCategoryKey.common;
             case "Schicksalspunkte-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.fate;
             case "Talentstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_stile;
@@ -164,7 +162,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             case "Waffenlose Kampfstile" -> SpecialAbilityCategoryKey.combat_unarmed_stile;
             case "Erweiterte Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_advanced;
             case "Befehlssonderfertigkeiten" -> SpecialAbilityCategoryKey.order;
-            case "Allgemeine magische Sonderfertigkeiten" -> SpecialAbilityCategoryKey.magic;
+            case "Neue magische Sonderfertigkeiten","Allgemeine magische Sonderfertigkeiten" -> SpecialAbilityCategoryKey.magic;
             case "Erweiterte Zauberstilsonderfertigkeiten", "Erweiterte Zaubersonderfertigkeiten" ->
                     SpecialAbilityCategoryKey.magic_advanced;
             case "Prügel-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.brawl;
@@ -284,7 +282,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
                 key.trim().equals(KEY_RULES_I)
                         || key.trim().equals(KEY_RULES_II)
         );
-        this.getFlags().wasPrecondition.set(key.trim().equals(KEY_PRECONDITIONS) || key.trim().equals(KEY_PRECONDITIONS_II));
+        this.getFlags().wasPrecondition.set(key.trim().equals(KEY_PRECONDITIONS) || key.trim().equals(KEY_PRECONDITIONS_II)|| key.trim().equals(KEY_PRECONDITIONS_III));
         this.getFlags().wasApValue.set(key.trim().equals(KEY_AP_VALUE));
         this.getFlags().wasAdvancedCombatAbility.set(
                 key.trim().equals(KEY_ADVANCED_ABILITIES_I)

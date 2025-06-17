@@ -24,11 +24,8 @@ public class LoadToArmor
     returnValue.name = ar.name.replace("\u00AD", "-");
 
     returnValue.key = ExtractorArmorKey.retrieve(ar.name);
-    if (ar.armor == null || ar.armor.isEmpty()) {
-      System.out.println(ar.name);
-    }
-    returnValue.rs = Integer.parseInt(ar.armor);
-    returnValue.be = Integer.parseInt(ar.encumberance);
+    returnValue.rs = ar.armor.isEmpty() ? 0 : Integer.parseInt(ar.armor);
+    returnValue.be = ar.encumberance.isEmpty() ? 0 : Integer.parseInt(ar.encumberance);
     returnValue.additionalEncumbered = ar.additionalEncumberance;
     returnValue.weight = Double.parseDouble(ar.weight.replace(".", "").replace(",", "."));
     returnValue.publication = Publication.valueOf(ar.publication);

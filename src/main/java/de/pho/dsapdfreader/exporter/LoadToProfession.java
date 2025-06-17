@@ -206,7 +206,13 @@ public class LoadToProfession {
         .replace("Sarviniodella-Monte-Schwertgesellin", "Sarvinio-della-Monte-Schwertgesellin")
         .replace("Scanlailni-Uinin-Schwertgeselle", "Scanlail-ni-Uinin-Schwertgeselle")
         .replace("Nipakaukocan", "Nipakau-kocan")
-        .replace("Rurund-Gror-Priesterin", "Rur-und-Gror-Priesterin");
+        .replace("Nuan (Nivesisches Wolfskind) Nuan (Nivesisches Wolfskind)", "Nuan (Nivesisches Wolfskind)")
+        .replace("Ifirngeweihte Ifirngeweihte", "Ifirngeweihte")
+        .replace("Efferdgeweihter", "Efferdgeweihte")
+        .replace("Winhaller Kriegerin", "Winhaller Krieger")
+        .replace("Gildenloser Magier (Schüler des Honinger Collegiums)", "Gildenlose Magierin des Magierkollegs zu Honingen")
+        .replace("Rurund-Gror-Priesterin", "Rur-und-Gror-Priesterin")
+    .replace("Schwertgesellin nach Scanlail ni Uinin", "Scanlail ni Uinin Schwertgeselle");
     profession.key = ExtractorProfessionKey.retrieve(profession.name);
     profession.apValue = Integer.parseInt(raw.ap.substring(0, raw.ap.indexOf(' ')));
     profession.professionType = raw.professionType;
@@ -216,6 +222,7 @@ public class LoadToProfession {
           .replace(", weiblich", ", Geschlecht: weiblich")
           .replace("Reiten 10 (für Berittener Kampf), ", "")
           .replace(", Ahnenblut Wolfsblut", ", Vorteil: Ahnenblut Wolfsblut")
+          .replace(", Ahnenblut Wolfsblütig", ", Vorteil: Ahnenblut Wolfsblut")
           .replace(", Prinzipientreue I", ", Nachteil Prinzipientreue I")
           .replace(", Verpflichtungen II", ", Nachteil Verpflichtungen II")
           .replace(", Zauberer", ", Vorteil: Zauberer")
@@ -232,13 +239,16 @@ public class LoadToProfession {
       }
       profession.requiredAbilities = extractRequiredAbilities(raw.preconditions);
     }
-    profession.minLanguageAp = extractMinLanguageAp(raw.specialAbilities);
-    profession.only4languages = extractIsOnly4Language(raw.specialAbilities);
+
+    String localAbilityString = raw.specialAbilities;
+    profession.minLanguageAp = extractMinLanguageAp(localAbilityString);
+    profession.only4languages = extractIsOnly4Language(localAbilityString);
+    localAbilityString = localAbilityString.replaceAll("(Sprachen für insgesamt |Sprachen und Schriften für insgesamt |Sprachen und Schriften für )[0-9]*\\s?(Abenteuerpunkte|AP)", "");
 
     //ABILITIES
-    profession.terrainKnowledgeOptions = extractTerrainKnowledgeOptions(raw.specialAbilities);
-    profession.specializationOptions = extractSpecialisations(raw.specialAbilities);
-    profession.abilities = extractSpecialAbilities(cleanSAs(raw.specialAbilities));
+    profession.terrainKnowledgeOptions = extractTerrainKnowledgeOptions(localAbilityString);
+    profession.specializationOptions = extractSpecialisations(localAbilityString);
+    profession.abilities = extractSpecialAbilities(cleanSAs(localAbilityString));
     //COMBAT SKILLS
     profession.combatSkillChanges = extractCombatskillChanges(raw.skillsCombat);
     profession.combatSkillOptions = extractCombatskillOptions(raw.skillsCombat);
@@ -248,21 +258,10 @@ public class LoadToProfession {
     profession.ap4SkillsSet = extractAp4SkillsSet(raw.skills);
     //MYSTICAL SKILLS
     // from special abilities
-    profession.objectRituals = extractObjectRituals(cleanSAs(raw.specialAbilities));
-    profession.curseAp = extractCurseAp(raw.specialAbilities);
-    profession.mysticalSkillChanges = extractMysticalSkillChanges(raw.specialAbilities.replaceAll("(Sprachen für insgesamt |Sprachen und Schriften für insgesamt )\\d*,?\\s?Abenteuerpunkte", ""), isMagical);
+    profession.objectRituals = extractObjectRituals(cleanSAs(localAbilityString));
+    profession.curseAp = extractCurseAp(localAbilityString);
+    profession.mysticalSkillChanges = extractMysticalSkillChanges(localAbilityString, isMagical);
 
-
-    Map<MysticalSkillKey, Long> counts = profession.mysticalSkillChanges.stream()
-        .collect(Collectors.groupingBy(
-            ValueChange::getMysticalSkillKey, Collectors.counting()
-        ));
-
-    counts.forEach((msk, count) -> {
-      if (count > 1) {
-        System.out.println(profession.key + " MS(" + msk + ") #(" + count + ")");
-      }
-    });
 
     //from mystical skills
     String msString = ((raw.skillsMagic != null ? raw.skillsMagic : "") + " " + (raw.skillsCleric != null ? raw.skillsCleric : "")).trim();
@@ -271,7 +270,7 @@ public class LoadToProfession {
     if (profession.mysticalSkillChanges == null) profession.mysticalSkillChanges = new ArrayList<>();
     profession.mysticalSkillChanges.addAll(extractMysticalSkillChanges(msString, isMagical));
 
-    profession.boonsRecomended = extractBoonsRecommended(raw.meritsRecommended + ", " + raw.flawsRecommended, profession.name);
+    profession.boonsRecomended = extractBoonsRecommended((raw.meritsRecommended + ", " + raw.flawsRecommended).replace("Affinität zu Elementaren / Dämonen", "Affinität zu Elementaren, Affinität zu Dämonen"), profession.name);
     profession.boonsUnrecomended = extractBoonsRecommended(raw.meritsInappropriate + ", " + raw.flawsInappropriate, profession.name);
     /*
     public TraditionGuidelineKey traditionGuidLineKey;
@@ -286,7 +285,7 @@ public class LoadToProfession {
     //VARIANTS
     returnValue.add(profession);
     if (profession.key != ProfessionKey.wildniskundiger) {
-      List<Profession> variants = generateVariants(raw.variants.replaceAll("\\*\\).*$", ""), profession, isMagical);
+      List<Profession> variants = generateVariants(raw.variants.replace("ob und für welche Variante du dich entschieden hast.","").replaceAll("\\*\\).*$", ""), profession, isMagical);
       returnValue.addAll(variants);
     }
 
@@ -314,11 +313,6 @@ public class LoadToProfession {
                 ValueChange::getMysticalSkillKey, Collectors.counting()
             ));
 
-        counts.forEach((msk, count) -> {
-          if (count > 1) {
-            System.out.println(variant.key + " MS(" + msk + ") #(" + count + ")");
-          }
-        });
         paths.add(variant);
 
         Profession variant2 = deepCopy(profession);
@@ -330,17 +324,6 @@ public class LoadToProfession {
         String pathIIChanges = curriculumRaw.spellChanges_II + ", " + curriculumRaw.additionalSkills_II + ", " + curriculumRaw.removedSkills_II;
         applySkillMatcher2Variant(pathIIChanges, variant2);
 
-
-        counts = variant2.mysticalSkillChanges.stream()
-            .collect(Collectors.groupingBy(
-                ValueChange::getMysticalSkillKey, Collectors.counting()
-            ));
-
-        counts.forEach((msk, count) -> {
-          if (count > 1) {
-            System.out.println(variant2.key + " MS(" + msk + ") #(" + count + ")");
-          }
-        });
         paths.add(variant2);
 
       }
@@ -395,7 +378,6 @@ public class LoadToProfession {
                 else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
                   sc.valueChange = firstValue;
                   sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
-                  System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
                 }
                 return sc;
               }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
@@ -456,9 +438,6 @@ public class LoadToProfession {
         .filter(msString -> msString != null && !msString.isEmpty() && !msString.isBlank() && !msString.equals("–"))
         .map(msString -> {
           MysticalSkillKey r = ExtractorMysticalSkillKey.extractMysticalSkillKeyFromText(msString.trim(), profession.professionType == ProfessionTypeKey.magical);
-          if (r == null) {
-            System.out.println(profession.name + " --> " + msString.trim());
-          }
           return r;
         })
         .collect(Collectors.toList()));
@@ -800,7 +779,6 @@ public class LoadToProfession {
                       else if (skillReplacedName != null && (sc.combatSkillKey == ExtractorCombatSkillKeys.retrieveFromName(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
                         sc.valueChange = firstValue;
                         sc.combatSkillKey = ExtractorCombatSkillKeys.retrieveFromName(skillName.trim());
-                        System.out.println("generateVariants(454): " + variant.name + " --> " + skillName + " <4> " + skillReplacedName);
                       }
                       return sc;
                     }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
@@ -966,13 +944,6 @@ public class LoadToProfession {
               variantString = variantString.replace(abilityString, "");
             }
           }
-
-
-          if (true && !variantString.replace(",", "").trim().isEmpty()) {
-            System.out.print("generateVariants(623): " + profession.name + " (" + variant.name + ")" + " --> ");
-            System.out.println("generateVariants(624): " + variantString);
-          }
-
         }
         returnValue.add(variant);
       }
@@ -1092,7 +1063,7 @@ public class LoadToProfession {
 
   private static int extractMinLanguageAp(String specialAbilities) {
     int returnValue = 0;
-    Matcher m = Pattern.compile("(?<=Sprachen für insgesamt |Sprachen und Schriften für insgesamt )[0-9]*(?=\\s?Abenteuerpunkte)").matcher(specialAbilities);
+    Matcher m = Pattern.compile("(?<=Sprachen für insgesamt |Sprachen und Schriften für insgesamt |Sprachen und Schriften für )[0-9]*(?=\\s?(Abenteuerpunkte|AP))").matcher(specialAbilities);
     if (m.find()) returnValue = Integer.valueOf(m.group());
     return returnValue;
   }
@@ -1155,11 +1126,11 @@ public class LoadToProfession {
 
   private static List<ValueChange> extractCombatskillChanges(String combatSkillChanges) {
     List<ValueChange> returnValue = new ArrayList<>();
-    Matcher m = Pattern.compile("[A-ü]+[A-ü &-]*\\d+").matcher(
-        combatSkillChanges
+    String csCleaned = combatSkillChanges
             .replace("Schleuder ", "Schleudern ")
-            .replaceAll(", ((eine|zwei) der (nach)?folgenden Kampftechniken (auf )?\\d+(, eine weitere \\d+)?: .*$|eine Kampftechnik aus folgender Liste \\d+:.*$|[A-ü]* oder [A-ü]* \\d+)", "") //remove optional selections
-            .trim());
+            .replaceAll(", ((eine|zwei) der (nach)?folgenden Kampftechniken (auf )?\\d+((, eine weitere \\d+)|(, die andere \\d+))?: .*$|eine Kampftechnik aus folgender Liste \\d+:.*$|[A-ü]* oder [A-ü]* \\d+)", "") //remove optional selections
+            .trim();
+    Matcher m = Pattern.compile("[A-ü]+[A-ü &-]*\\d+").matcher(csCleaned);
     while (m.find()) {
       String skillText = m.group().trim();
       String skillName = skillText.replaceAll("\\d*", "")
@@ -1298,7 +1269,7 @@ public class LoadToProfession {
   }
 
   private static boolean isSpecialAbility(String saName) {
-    return ExtractorSpecialAbility.retrieve(saName) != null;
+    return ExtractorSpecialAbility.retrieveNoLog(saName) != null;
   }
 
   public static List<SpecieKey> extractRequiredSpecieKeys(String preconditions) {

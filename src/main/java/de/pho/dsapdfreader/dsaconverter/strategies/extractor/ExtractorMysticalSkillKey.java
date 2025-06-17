@@ -129,6 +129,7 @@ public class ExtractorMysticalSkillKey extends Extractor {
           msk.name().equals("curse_" + enumEnd) ||
               msk.name().equals("dance_" + enumEnd) ||
               msk.name().equals("elfensong_" + enumEnd) ||
+              msk.name().equals("distortedelfensong_" + enumEnd) ||
               msk.name().equals("geode_" + enumEnd) ||
               msk.name().equals("jest_" + enumEnd) ||
               msk.name().equals("melody_" + enumEnd) ||

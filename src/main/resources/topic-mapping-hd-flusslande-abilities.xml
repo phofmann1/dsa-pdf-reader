@@ -1,0 +1,130 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S24" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>24</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S25" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S26" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>26</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S27" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>27</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S28" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>28</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S29" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>29</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S30" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>30</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S31" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>31</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+
+    <strategy name="StrategyRemoveSingleLineFromPage - Seitenzahl von S32" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

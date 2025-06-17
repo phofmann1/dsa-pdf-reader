@@ -97,10 +97,6 @@ public class DsaConverterWeaponAvailability {
         boolean isTradition = _handleAvailabilityByTradition(nAvailability, r);
         boolean isProfession = _handleAvailabilityForProfession(nAvailability, r);
         _handleAvailabilityForCondition(nAvailability, r);
-
-        if (!isRegion && !isSpecie && !isCulture && !isTradition && !isProfession) {
-          System.out.println(weaponKey + " -> " + r);
-        }
       }
     });
 

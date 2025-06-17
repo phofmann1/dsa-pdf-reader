@@ -1,0 +1,24 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyReplaceStringInLine - Rudelbeschwörung I/II/III">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>307</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>40</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Rudelbeschwörung I/II/III</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Rudelbeschwörung Dämonen I/II/III</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

@@ -16,7 +16,7 @@ public class ExtractorWeaponKey extends Extractor
     }
     catch (IllegalArgumentException e)
     {
-      String msg = String.format("%s key could not be interpreted.", name);
+      String msg = String.format("%s weapon key could not be interpreted.", name);
       //LOGGER.error(msg);
     }
     return returnValue;

@@ -8,6 +8,7 @@ import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.ProfessionRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsProfession;
 import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
 public class DsaConverterProfession extends DsaConverter<ProfessionRaw, ConverterAtomicFlagsProfession>
@@ -78,6 +79,10 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
     texts.forEach(t -> {
 
       String cleanText = t.text.trim();
+
+      if(conf.publication.equals("Helden_des_Wolfsfrosts") && t.size == 1800 && cleanText.equals("Geweihtenprofessionen")) {
+        cleanText = "Geweihtenprofessionen (Halbgötter)";
+      }
 
       if (t.size == 1800) {
         switch (cleanText) {

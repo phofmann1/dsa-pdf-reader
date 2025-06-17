@@ -20,6 +20,7 @@ public class Boon
   public BoonCategory category;
   public Integer levels;
   public Float ap;
+  public List<Float> apForLevelList;
   public List<Publication> publications = new ArrayList<>();
   public Boolean selectable;
   public SelectionCategory selectionCategory;

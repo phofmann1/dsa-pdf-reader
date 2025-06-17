@@ -17,7 +17,7 @@ public class ExtractorEntityDomain extends Extractor {
         try {
             returnValue.add(EntityDomainKey.valueOf(extractKeyTextFromTextWithUmlauts(name.replace("allgemein", "dämonisch")).toLowerCase()));
         } catch (IllegalArgumentException e) {
-            // String msg = String.format("%s key could not be interpreted.", name);
+            // String msg = String.format("%s entity domain key could not be interpreted.", name);
             //LOGGER.error(msg);
             System.out.println(extractKeyTextFromTextWithUmlauts(name).toLowerCase() + ",");
         }

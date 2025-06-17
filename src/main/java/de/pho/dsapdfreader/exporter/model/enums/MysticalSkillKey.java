@@ -1156,7 +1156,12 @@ public enum MysticalSkillKey
   ceremony_lusttrank,
   ceremony_einhorngestalt,
   liturgy_gespuer_fuer_das_goettliche,
-  liturgy_hoftag_der_sprachen;
+  liturgy_hoftag_der_sprachen,
+  distortedelfensong_kakophonie_des_wahnsinns,
+  distortedelfensong_schlachtlied,
+  distortedelfensong_sturmlied,
+  distortedelfensong_lied_des_schmerzes,
+  distortedelfensong_sklavenlied;
 
 
   public static Optional<MysticalSkillKey> fromString(String str) {

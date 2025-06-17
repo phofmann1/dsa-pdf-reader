@@ -38,7 +38,8 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       "Die Zauberalchimisten",
       "Zauberbarden",
       "Zaubertänzer",
-      "Die Zibilja"
+      "Die Zibilja",
+      "Shakagra, die Nachtalben"
   );
 
   private static final Map<String, MysticalSkillCategory> KEYS_MYSTICAL_SKILL_CATEGORY = Map.ofEntries(
@@ -55,7 +56,8 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>("Zaubertänze", MysticalSkillCategory.dance),
       new AbstractMap.SimpleEntry<>("Zibiljarituale", MysticalSkillCategory.zibilja),
       new AbstractMap.SimpleEntry<>("Vertrautentiere", MysticalSkillCategory.familiar),
-      new AbstractMap.SimpleEntry<>("Zauberzeichen", MysticalSkillCategory.magicSign)
+      new AbstractMap.SimpleEntry<>("Zauberzeichen", MysticalSkillCategory.magicSign),
+      new AbstractMap.SimpleEntry<>("Verzerrte Elfenlieder", MysticalSkillCategory.distortedElfensong)
   );
   private static final Map<MysticalSkillCategory, String> KEYS_MYSTICAL_SKILL_CATEGORY_FRIST_ACTIVITY = Map.ofEntries(
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.power, "Blut trinkenProbe"),
@@ -71,7 +73,8 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.dance, "Tanz der AngriffslustProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.zibilja, "Band zur WareProbe"),
       new AbstractMap.SimpleEntry<>(MysticalSkillCategory.familiar, "DiebstahlWirkung"),
-      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magicSign, "Auge des Basilisken")
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.magicSign, "Auge des Basilisken"),
+      new AbstractMap.SimpleEntry<>(MysticalSkillCategory.distortedElfensong, "Kakophonie des WahnsinnsProbe")
   );
 
   private static final Map<String, ArtifactKey> KEYS_TRADITION_ARTIFACTS = Map.ofEntries(
@@ -207,7 +210,6 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
           String cleanText = t.text.replaceAll("\u00AD", "-")
               .trim();
 
-
           isActivityStarted.set(isActivityStarted.get()
               || mysticalSkillCategory.get() != null && cleanText.equals(KEYS_MYSTICAL_SKILL_CATEGORY_FRIST_ACTIVITY.get(mysticalSkillCategory.get()))
           );
@@ -215,7 +217,7 @@ public class DsaConverterMysticalSkillActivityAndArtifacts extends DsaConverter<
               || artifactKey.get() != null && cleanText.equals(KEYS_TRADITION_ARTIFACTS_FIRST_SF.get(artifactKey.get()))
           );
 
-          boolean isTopic = !KEYS_TRADITION.contains(cleanText) && (t.size == 1800 || (t.size == 1300 && (cleanText.equals("Die kristallomantische Kristallkugel") || cleanText.equals("Die Echsenhaube"))));
+          boolean isTopic = !KEYS_TRADITION.contains(cleanText) && (t.size == 1800 || (t.size == 1300 && (cleanText.equals("Die kristallomantische Kristallkugel") || cleanText.equals("Die Echsenhaube")|| cleanText.equals("Verzerrte Elfenlieder"))));
           // validate the flags for conf
 
           // Start new Tradition

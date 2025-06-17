@@ -61,7 +61,8 @@ public enum TraditionKey {
   shinxir,
   tairachschamane,
   zsahh,
-  bannzeichner;
+  bannzeichner,
+  nachtalben;
 
   @JsonValue
   public int toValue() {
