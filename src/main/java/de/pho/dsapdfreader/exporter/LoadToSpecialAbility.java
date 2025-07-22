@@ -88,6 +88,8 @@ public class LoadToSpecialAbility
       "Bindung",
       "Wahrer Name",
       "Zirkelmeister",
+      "Rudelerschaffung",
+      "Rudelbeschwörung"
   };
 
   private static final Map<SpecialAbilityKey, SelectionCategory> SA_SELECTION_CATEGORY_MAP = new EnumMap<>(SpecialAbilityKey.class);
@@ -161,14 +163,10 @@ public class LoadToSpecialAbility
       {
         raw.preconditions = raw.preconditions.replace(" Intuition ", " IN ");
         SpecialAbility specialAbility = new SpecialAbility();
+        SaSpecialRequirementsToggle specialReqToggle = new SaSpecialRequirementsToggle(raw.name, raw.publication);
         specialAbility.name = extractName(baseName, levels, currentLevel, ignoreBrackets).replace("Verständigung und natürlichen Heilung zu Donnerbach", "Scholar des Seminars der elfischen Verständigung und natürlichen Heilung zu Donnerbach");
-        boolean isAuthor = specialAbility.name.equals("Schriftstellerei");
-        boolean isHealingSpec = specialAbility.name.equals("Heilungsspezialgebiet");
-        boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");
-        boolean isDemonicBinding = raw.name.equals("Bindung (Dämonen)");
-        boolean isDemonicTrueName = raw.name.equals("Wahrer Name (spezieller Dämon)");
 
-        if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts && !isDemonicBinding && !isDemonicTrueName)
+        if (specialReqToggle.isBaseRequirement())
           specialAbility.key = ExtractorSpecialAbility.retrieve(specialAbility.name);
 
         specialAbility.publication = Publication.valueOf(raw.publication);
@@ -258,24 +256,15 @@ public class LoadToSpecialAbility
           specialAbility = handleSaCategoryMixed(specialAbility);
         }
 
+        if (specialReqToggle.isAuthor) returnValue.addAll(generateScribeList(specialAbility));
         // Heilungsspezialgebiet (Anwendungsgebiet)
-        if (isAuthor) {
-          returnValue.addAll(generateScribeList(specialAbility));
-        }
-        else if (isHealingSpec) {
-          returnValue.addAll(generateHealingSpecList(specialAbility));
-        }
-        else if (isGebieterDesAspekts)
-        {
-          returnValue.addAll(generateGebieterDesAspektsList(specialAbility, raw.rules));
-        } else if (isDemonicBinding) {
-          returnValue.addAll(generateDemonicBinding(specialAbility));
-        } else if (isDemonicTrueName) {
-          returnValue.addAll(generateDemonicWahreNamen(specialAbility));
-        }
-        else {
-          returnValue.add(specialAbility);
-        }
+        else if (specialReqToggle.isHealingSpec) returnValue.addAll(generateHealingSpecList(specialAbility));
+        else if (specialReqToggle.isGebieterDesAspekts) returnValue.addAll(generateGebieterDesAspektsList(specialAbility, raw.rules));
+        else if (specialReqToggle.isDemonicBinding) returnValue.addAll(generateDemonicBinding(specialAbility));
+        else if (specialReqToggle.isDemonicTrueName) returnValue.addAll(generateDemonicWahreNamen(specialAbility));
+        else if (specialReqToggle.isElementalBinding) returnValue.addAll(generateElementalBinding(specialAbility));
+        else if (specialReqToggle.isElementalTrueName) returnValue.addAll(generateElementalWahreNamen(specialAbility));
+        else returnValue.add(specialAbility);
       }
     }
     return returnValue.stream();
@@ -611,7 +600,87 @@ public class LoadToSpecialAbility
     return returnValue;
   }
 
-  private static SpecialAbility generateNewTrueName(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name, MysticalSkillKey msKey, Float ap, SelectionCategory selectionCategory) {
+public static Collection<? extends SpecialAbility> generateElementalBinding(SpecialAbility specialAbility) {
+  List<SpecialAbility> returnValue = new ArrayList<>();
+
+  returnValue.add(generateNewBindung(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.bindung_elementare_geist,
+          "Bindung (Elementargeist)",
+          MysticalSkillKey.ritual_elementarer_diener, 10f)
+  );
+
+  returnValue.add(generateNewBindung(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.bindung_elementare_dschinn,
+          "Bindung (Dschinn)",
+          MysticalSkillKey.ritual_dschinnenruf, 20f)
+  );
+
+  returnValue.add(generateNewBindung(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.bindung_elementare_meister,
+          "Bindung (Elementarer Meister)",
+          MysticalSkillKey.ritual_meister_der_elemente, 40f)
+  );
+
+
+  return returnValue;
+}
+
+public static Collection<? extends SpecialAbility> generateElementalWahreNamen(SpecialAbility specialAbility) {
+  List<SpecialAbility> returnValue = new ArrayList<>();
+
+  returnValue.add(generateNewTrueName(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.wahrer_name_spezieller_elementar_geist,
+          "Wahrer Name (Elementargeist)",
+          MysticalSkillKey.ritual_elementarer_diener,
+          10f, SelectionCategory.element)
+  );
+
+  returnValue.add(generateNewTrueName(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.wahrer_name_spezieller_elementar_dschinn,
+          "Wahrer Name (Dschinn)",
+          MysticalSkillKey.ritual_dschinnenruf,
+          20f, SelectionCategory.element)
+  );
+
+
+  returnValue.add(generateNewTrueName(
+          ObjectMerger.merge(specialAbility, new SpecialAbility()),
+          SpecialAbilityKey.wahrer_name_spezieller_elementar_meister,
+          "Wahrer Name (Elementarer Meister)",
+          MysticalSkillKey.ritual_meister_der_elemente,
+          30f, SelectionCategory.element)
+  );
+
+  return returnValue;
+}
+
+  public static Collection<? extends SpecialAbility> generateFairyBinding(SpecialAbility specialAbility) {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    returnValue.add(generateNewBindung(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.bindung_feen_niedere,
+            "Bindung (niedere)",
+            MysticalSkillKey.ritual_zauberwesen_der_natur, 8f)
+    );
+
+    returnValue.add(generateNewBindung(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.bindung_feen_mittlere,
+            "Bindung (mittlere)",
+            MysticalSkillKey.ritual_ruf_der_feenwesen, 15f)
+    );
+
+
+    return returnValue;
+  }
+
+private static SpecialAbility generateNewTrueName(SpecialAbility specialAbility, SpecialAbilityKey specialAbilityKey, String name, MysticalSkillKey msKey, Float ap, SelectionCategory selectionCategory) {
     specialAbility.key = specialAbilityKey;
     specialAbility.name = name;
     specialAbility.ap = ap;
@@ -826,3 +895,4 @@ public class LoadToSpecialAbility
   }
 
 }
+

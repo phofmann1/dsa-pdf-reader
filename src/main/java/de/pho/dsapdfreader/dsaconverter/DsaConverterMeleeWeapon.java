@@ -53,7 +53,7 @@ public class DsaConverterMeleeWeapon extends DsaConverter<MeleeWeaponRaw, Conver
   //(kurz|mittel|lang)
   protected static Pattern PAT_MELEE_RANGE = Pattern.compile("(kurz|mittel|überlang|lang)");
   //\d[\d,\.]+(?=\+? Stn)
-  protected static Pattern PAT_WEIGHT = Pattern.compile("\\d[\\d,\\.]*(?=\\+? (Stn|Stein))");
+  protected static Pattern PAT_WEIGHT = Pattern.compile("[1,2]?\\d([.,]\\d{1,2})?(?=\\+? (Stn|Stein))");
   //[\d,]+(?= HF)
   protected static Pattern PAT_SIZE = Pattern.compile("[\\d,]+(?= HF)");
   //\d[\d,\.+\/( bis )]+(?= ?(Sk|Se|Sp|S |S–|S$))|gratis

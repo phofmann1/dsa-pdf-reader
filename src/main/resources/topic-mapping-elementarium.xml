@@ -79,5 +79,69 @@
             </parameter>
         </params>
     </strategy>
+    <strategy name="StrategyPutToEndOfPage - Sonderfertigkeiten" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>162</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>55</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Rudelbeschwörung ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>162</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Rudelbeschwörung I-III</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Rudelbeschwörung (Elementare) I-III</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyReplaceStringInLine - Zirkelmeister ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>162</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>46</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Zirkelmeister</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Zirkelmeister Elementar</value>
+            </parameter>
+        </params>
+    </strategy>
 
   </topic-strategies>

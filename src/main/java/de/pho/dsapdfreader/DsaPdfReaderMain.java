@@ -35,6 +35,7 @@ import javax.xml.bind.Unmarshaller;
 
 import de.pho.dsapdfreader.dsaconverter.*;
 import de.pho.dsapdfreader.dsaconverter.model.*;
+import de.pho.dsapdfreader.exporter.*;
 import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -58,17 +59,6 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSk
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
-import de.pho.dsapdfreader.exporter.LoadToArmor;
-import de.pho.dsapdfreader.exporter.LoadToBoon;
-import de.pho.dsapdfreader.exporter.LoadToEquipment;
-import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
-import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
-import de.pho.dsapdfreader.exporter.LoadToObjectRitual;
-import de.pho.dsapdfreader.exporter.LoadToProfession;
-import de.pho.dsapdfreader.exporter.LoadToRangedWeapon;
-import de.pho.dsapdfreader.exporter.LoadToSkill;
-import de.pho.dsapdfreader.exporter.LoadToSpecialAbility;
-import de.pho.dsapdfreader.exporter.LoadToTraditionAbility;
 import de.pho.dsapdfreader.exporter.model.Armor;
 import de.pho.dsapdfreader.exporter.model.AvailabilityWeapon;
 import de.pho.dsapdfreader.exporter.model.Boon;
@@ -1488,38 +1478,50 @@ public class DsaPdfReaderMain {
                 String name = LoadToSpecialAbility.extractName(baseName, levels, currentLevel, ignoreBrackets);
                 SpecialAbilityKey key = null;
 
-                boolean isAuthor = name.equals("Schriftstellerei");
-                boolean isHealingSpec = name.equals("Heilungsspezialgebiet");
-                boolean isGebieterDesAspekts = raw.name.equals("Gebieter des (Aspekts)");
-                boolean isDemonicBinding = raw.name.equals("Bindung (Dämonen)");
-                boolean isDemonicTrueName = raw.name.equals("Wahrer Name (spezieller Dämon)");
-                if (!isAuthor && !isHealingSpec && !isGebieterDesAspekts && !isDemonicBinding && !isDemonicTrueName)
+                SaSpecialRequirementsToggle saReqToggle = new SaSpecialRequirementsToggle(raw.name, raw.publication);
+
+                if (saReqToggle.isBaseRequirement())
                     key = ExtractorSpecialAbility.retrieve(name);
 
                 List<Pair<SpecialAbilityKey, String>> keyNames = new ArrayList<>();
-                if (isAuthor) {
+                if (saReqToggle.isAuthor) {
                     keyNames.addAll(
                             LoadToSpecialAbility.generateScribeList(new SpecialAbility()).stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .collect(Collectors.toList()));
-                } else if (isHealingSpec) {
+                } else if (saReqToggle.isHealingSpec) {
                     keyNames.addAll(
                             LoadToSpecialAbility.generateHealingSpecList(new SpecialAbility()).stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .collect(Collectors.toList()));
-                } else if (isGebieterDesAspekts) {
+                } else if (saReqToggle.isGebieterDesAspekts) {
                     keyNames.addAll(
                             LoadToSpecialAbility.generateGebieterDesAspektsList(new SpecialAbility(), "").stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .collect(Collectors.toList()));
-                } else if (isDemonicBinding) {
+                } else if (saReqToggle.isDemonicBinding) {
                     keyNames.addAll(
                             LoadToSpecialAbility.generateDemonicBinding(new SpecialAbility()).stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .toList());
-                } else if (isDemonicTrueName) {
+                } else if (saReqToggle.isDemonicTrueName) {
                     keyNames.addAll(
                             LoadToSpecialAbility.generateDemonicWahreNamen(new SpecialAbility()).stream()
+                                    .map(sa -> new Pair<>(sa.key, sa.name))
+                                    .toList());
+                } else if (saReqToggle.isElementalBinding) {
+                    keyNames.addAll(
+                            LoadToSpecialAbility.generateElementalBinding(new SpecialAbility()).stream()
+                                    .map(sa -> new Pair<>(sa.key, sa.name))
+                                    .toList());
+                } else if (saReqToggle.isElementalTrueName) {
+                    keyNames.addAll(
+                            LoadToSpecialAbility.generateElementalWahreNamen(new SpecialAbility()).stream()
+                                    .map(sa -> new Pair<>(sa.key, sa.name))
+                                    .toList());
+                } else if (saReqToggle.isFairyBinding) {
+                    keyNames.addAll(
+                            LoadToSpecialAbility.generateFairyBinding(new SpecialAbility()).stream()
                                     .map(sa -> new Pair<>(sa.key, sa.name))
                                     .toList());
                 } else {

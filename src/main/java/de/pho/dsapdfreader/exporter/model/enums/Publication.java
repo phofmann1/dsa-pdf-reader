@@ -78,7 +78,9 @@ public enum Publication
   Archiv_der_Dämonen,
   Helden_der_Siebenwindküste,
   Helden_des_Wolfsfrosts,
-  Weltenwanderer;
+  Weltenwanderer,
+  Aventurisches_Nekromantäum,
+  Aventurisches_Transmutarium;
 
 
   @JsonValue

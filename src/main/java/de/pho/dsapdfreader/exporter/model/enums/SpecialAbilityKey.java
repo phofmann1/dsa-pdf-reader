@@ -1531,8 +1531,35 @@ public enum SpecialAbilityKey {
     wahrer_name_spezieller_dämon_minor,
     wahrer_name_spezieller_dämon_maior,
     wahrer_name_spezieller_dämon_maxima,
-    zirkelmeister_dämonen;
-
+    zirkelmeister_dämonen,
+    bindung_elementare_geist,
+    bindung_elementare_dschinn,
+    bindung_elementare_meister,
+    rudelbeschwörung_elementare_i,
+    rudelbeschwörung_elementare_ii,
+    rudelbeschwörung_elementare_iii,
+    wahrer_name_spezieller_elementar_geist,
+    wahrer_name_spezieller_elementar_dschinn,
+    wahrer_name_spezieller_elementar_meister,
+    zirkelmeister_elementar,
+    golemidenbauer,
+    bindung_feen_niedere,
+    bindung_feen_mittlere,
+    entschwörung_feen,
+    machtvolle_entschwörung_feen,
+    rudelbeschwörung_feen_i,
+    rudelbeschwörung_feen_ii,
+    rudelbeschwörung_feen_iii,
+    zirkelmeister_feen,
+    rudelerschaffung_untote_i,
+    rudelerschaffung_untote_ii,
+    rudelerschaffung_untote_iii,
+    zirkelmeister_untote,
+    rudelerschaffung_transmutationen_i,
+    rudelerschaffung_transmutationen_ii,
+    rudelerschaffung_transmutationen_iii,
+    zirkelmeister_transmutationen
+;
     @JsonValue
     public int toValue() {
         return ordinal();

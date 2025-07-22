@@ -1,0 +1,43 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyPutToEndOfPage Sonderfertigkeiten" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>152</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>89</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine - Rudelbeschwörung ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>152</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Rudelerschaffung I-III (Untote)</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Rudelerschaffung (Untote) I-III</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

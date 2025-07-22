@@ -433,7 +433,8 @@ public class ExtractorSpecialAbility extends Extractor {
             case "HEPTAGRAMMA" -> rms.key = MysticalSkillKey.spell_heptagramma;
             case "TRAUMGESTALT" -> rms.key = MysticalSkillKey.ritual_traumgestalt;
             case "STEIN WANDLE" -> rms.key = MysticalSkillKey.ritual_stein_wandle;
-            case "TOTES HANDLE" -> rms.key = MysticalSkillKey.ritual_totes_handle;
+            case "STAUB WANDLE" -> rms.key = MysticalSkillKey.ritual_staub_wandle;
+            case "TOTES HANDLE FW","TOTES HANDLE" -> rms.key = MysticalSkillKey.ritual_totes_handle;
             default ->
                     LOGGER.error("SwitchCase Missing for Requirement (MS):" + name + ": " + skillName + " ->> " + skillValue);
         }
@@ -451,6 +452,7 @@ public class ExtractorSpecialAbility extends Extractor {
         Matcher m = PAT_EXTRACT_SKILL_REQ.matcher(requirementsString
                 .replace("Fernkampftechnikwert 10", "")
                 .replace("Leiteigenschaft", "")
+                .replace("TOTES HAND-LE", "TOTES HANDLE")
                 .replace("mindestens 12 Monate in einem Gjalsker Haerad gelebt", "")
         );
         while (m.find()) {

@@ -102,9 +102,12 @@ false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kre
 false;Archiv_der_Dämonen;01 - Regeln/Archiv der Damonen (178);Archiv der Damonen - 01 - Regeln.pdf;ABILITIES;307;28;307;67;1300;1100;topic-mapping-archiv-daemonen.xml;
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;BOONS;147;21;149;;1300;1100;topic-mapping-elementarium.xml;
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;PAKTE
-true;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;162;;162;;1300;1100;topic-mapping-elementarium.xml;INVOKATION
+false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;162;;162;;1300;1100;topic-mapping-elementarium.xml;INVOKATION
+false;Aventurisches_Nekromantäum;03 - Welt/Aventurisches Nekromanthaum (123);Aventurisches Nekromanthaum - 03 - Welt.pdf;ABILITIES;152;;152;;1300;1100;topic-mapping-nekromanthaeum.xml;
+true;Aventurisches_Transmutarium;03 - Welt/Aventurisches Transmutarium (119);Aventurisches Transmutarium - 03 - Welt.pdf;ABILITIES;155;1;155;39;1300;1100;topic-mapping-transmutarium.xml;
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
-false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
+false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;PAKTE
+false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;157;;158;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;INVOKATION
 false;Geschuppte_Tyrannen;03 - Welt/Geschuppte Tyrannen (221);Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
 false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;

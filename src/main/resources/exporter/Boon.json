@@ -313,6 +313,10 @@
     ]
   },
   {
+    "key": 26,
+    "apForLevelList" : [ 0,2,6,20,60,200 ]
+  },
+  {
     "key": 27,
     "requirementBoons": [
       {
@@ -698,6 +702,7 @@
   },
   {
     "key": 54,
+    "ap": 0,
     "valueChanges": [
       {
         "key": 0,

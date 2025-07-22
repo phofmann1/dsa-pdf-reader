@@ -1,0 +1,60 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategyReplaceStringInLine - Rudelbeschwörung ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>155</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>3</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>Rudelerschaffung I /II / III</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Rudelerschaffung (Transmutationen) I-III</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition - AP-Wert">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>155</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>26</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>7</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine Feenfreuend - make Stufe normal">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>155</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>26.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

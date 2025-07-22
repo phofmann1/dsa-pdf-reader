@@ -162,7 +162,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             case "Waffenlose Kampfstile" -> SpecialAbilityCategoryKey.combat_unarmed_stile;
             case "Erweiterte Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_advanced;
             case "Befehlssonderfertigkeiten" -> SpecialAbilityCategoryKey.order;
-            case "Neue magische Sonderfertigkeiten","Allgemeine magische Sonderfertigkeiten" -> SpecialAbilityCategoryKey.magic;
+            case "Neue magische Sonderfertigkeiten","Allgemeine magische Sonderfertigkeiten", "Sonderfertigkeiten für Chimärologen" -> SpecialAbilityCategoryKey.magic;
             case "Erweiterte Zauberstilsonderfertigkeiten", "Erweiterte Zaubersonderfertigkeiten" ->
                     SpecialAbilityCategoryKey.magic_advanced;
             case "Prügel-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.brawl;

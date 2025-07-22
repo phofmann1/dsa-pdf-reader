@@ -41,6 +41,7 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
   (2H)1W6+2GE/KK 16–1 /+2lang0,75 Stn150 HF80 Sprim
   (2H)1W6+2GE/KK 16–1 /+2lang0,75 Stn150 HF80 S
   1W6+2KK 140/–2mittel0,5 Stn80 HFgratisprim
+  1W6+11 Aktion2/10/150,25 Stn10 HF30 S
    */
 
   private static final Logger LOGGER = LogManager.getLogger();
@@ -217,10 +218,11 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
           currentDataObject.atPaMod = concatForDataValue(currentDataObject.atPaMod, firstMatch(PAT_AT_PA_MOD, cleanText));
           currentDataObject.combatDistance = concatForDataValue(currentDataObject.combatDistance, firstMatch(PAT_MELEE_RANGE, cleanText));
           currentDataObject.weight = concatForDataValue(currentDataObject.weight, firstMatch(PAT_WEIGHT, cleanText));
+          String weightString = (currentDataObject.weight + " St").replace(".", ",");
           currentDataObject.size = concatForDataValue(currentDataObject.size, firstMatch(PAT_SIZE, cleanText));
           currentDataObject.price = concatForDataValue(currentDataObject.price, firstMatch(PAT_PRICE, cleanText));
           currentDataObject.loadingTime = concatForDataValue(currentDataObject.loadingTime, firstMatch(PAT_LOADING_TIME, cleanText));
-          currentDataObject.combatDistance = concatForDataValue(currentDataObject.combatDistance, firstMatch(PAT_RANGED_RANGE, cleanText));
+          currentDataObject.combatDistance = concatForDataValue(currentDataObject.combatDistance, firstMatch(PAT_RANGED_RANGE, cleanText.replace(weightString, " ")));
           currentDataObject.munitionType = concatForDataValue(currentDataObject.munitionType, firstMatch(PAT_MUNITION_TYPE, cleanText));
         }
       }
