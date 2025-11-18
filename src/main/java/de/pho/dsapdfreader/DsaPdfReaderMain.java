@@ -599,7 +599,14 @@ public class DsaPdfReaderMain {
                     File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
                     List<ArmorRaw> raws = CsvHandler.readBeanFromFile(ArmorRaw.class, fIn);
 
-                    List<Armor> pures = raws.stream().map(LoadToArmor::migrate).collect(Collectors.toList());
+                    List<Armor> corrections = initExporterCorrections(Armor.class);
+        List<Armor> pures = raws.stream()
+            .map(LoadToArmor::migrate)
+            .map(armor -> {
+              LoadToArmor.applyCorrections(armor, corrections);
+              return armor;
+            })
+            .collect(Collectors.toList());
 
                     if (pures.size() > 0) {
 

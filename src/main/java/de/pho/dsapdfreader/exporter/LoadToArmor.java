@@ -1,5 +1,8 @@
 package de.pho.dsapdfreader.exporter;
 
+import java.util.List;
+import java.util.Optional;
+
 import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorArmorKey;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPrice;
@@ -8,6 +11,7 @@ import de.pho.dsapdfreader.exporter.model.enums.ArmorCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
 public class LoadToArmor
@@ -67,11 +71,18 @@ public class LoadToArmor
 
 
     returnValue.craftingComplexity = CraftingComplexityKey.parse(ar.craft);
-    if (ar.craft.startsWith("komp"))
-    {
+    if (ar.craft.startsWith("komp")) {
       returnValue.craftingAp = Integer.parseInt(ar.craft.substring(ar.craft.indexOf("(") + 1, ar.craft.indexOf("AP")).trim());
     }
     return returnValue;
+  }
+
+
+  public static void applyCorrections(Armor sa, List<Armor> corrections) {
+    Optional<Armor> correction = corrections.stream().filter(c -> c.key == sa.key).findFirst();
+    if (correction.isPresent()) {
+      ObjectMerger.merge(correction.get(), sa);
+    }
   }
 
 }
