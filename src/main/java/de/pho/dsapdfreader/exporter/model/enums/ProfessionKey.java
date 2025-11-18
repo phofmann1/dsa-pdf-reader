@@ -573,7 +573,7 @@ public enum ProfessionKey {
     efferdanez_schwertgeselle,
     klippag_schwertgeselle,
     al_beni,
-    norbardsicher_sippenkrieger,
+    norbardischer_sippenkrieger,
     ottajasko_rekkerin,
     windhager_sippenkrieger,
     khunchom,
@@ -608,7 +608,16 @@ public enum ProfessionKey {
     albernischer_seefahrer,
     schatzsucher_der_siebenwindküste,
     distelritter,
-    havener_kriegerin;
+    havener_kriegerin,
+    freibund_kontoristin,
+    goblinischer_rattenfänger,
+    festumer_kriegerin,
+    bornische_zibilja,
+    bornländische_rondrageweihte,
+    erleuchteter_des_blutes,
+    korgeweihter_erleuchteter_des_blutes,
+    pardelhexe_schwesternschaft_schöne_der_nacht,
+    rosenritter;
 
     @JsonValue
     public int toValue() {

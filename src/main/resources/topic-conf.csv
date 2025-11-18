@@ -17,11 +17,13 @@ false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Held
 false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;92;;93;;;1000;;IMPROVISIERT
 false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;PROFESSIONS;8;;21;;1300;900;topic-mapping-hd-siebenwindkueste.xml;
 false;Die_Siebenwindküste;04 - Regionen/Die Siebenwindkuste (215);Die Siebenwindkuste - 04 - Regionen.pdf;AUSRÜSTUNG;83;;83;;;1000;;
+false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;PROFESSIONS;9;;21;;1300;900;topic-mapping-hd-winterwacht.xml;
 false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;65;;71;;;1000;;
 false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;RÜSTUNGEN;72;;74;;;1000;;
 false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;76;24;76;36;;1000;;Improvisiert
 false;Helden_der_Winterwacht;03 - Welt/Helden der Winterwacht (183);Helden der Winterwacht - 03 - Welt.pdf;WAFFEN;79;;82;;;1000;;Besondere Gegenstände
 false;Die_Winterwacht;04 - Regionen/Die Winterwacht (186);Die Winterwacht - 04 - Regionen.pdf;AUSRÜSTUNG;83;32;83;;;1000;topic-mapping-hd-winterwacht.xml;
+true;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;PROFESSIONS;9;;19;;1300;900;topic-mapping-hd-dornenreich.xml;
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;60;;68;;;1000;topic-mapping-hd-dornenreich.xml;Aranien
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;69;38;70;;;1000;topic-mapping-hd-dornenreich.xml;Aranien
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;71;;73;;;1000;;Oron
@@ -70,6 +72,7 @@ false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche 
 false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;52;35;;;1000;topic-mapping-dessertempire-weapon.xml;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;AUSRÜSTUNG;421;;421;;;1000;;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;WAFFENLISTE;422;;424;;;900;topic-mapping-kodex-cleric-waffenliste.xml;
+false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;ABILITIES;230;63;230;;1300;1100;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;WAFFEN;82;;160;;;1000;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN;161;;193;;;1000;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN_HELME;194;;208;;1300;1000;;
@@ -104,7 +107,7 @@ false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aven
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;PAKTE
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;162;;162;;1300;1100;topic-mapping-elementarium.xml;INVOKATION
 false;Aventurisches_Nekromantäum;03 - Welt/Aventurisches Nekromanthaum (123);Aventurisches Nekromanthaum - 03 - Welt.pdf;ABILITIES;152;;152;;1300;1100;topic-mapping-nekromanthaeum.xml;
-true;Aventurisches_Transmutarium;03 - Welt/Aventurisches Transmutarium (119);Aventurisches Transmutarium - 03 - Welt.pdf;ABILITIES;155;1;155;39;1300;1100;topic-mapping-transmutarium.xml;
+false;Aventurisches_Transmutarium;03 - Welt/Aventurisches Transmutarium (119);Aventurisches Transmutarium - 03 - Welt.pdf;ABILITIES;155;1;155;39;1300;1100;topic-mapping-transmutarium.xml;
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;PAKTE
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;157;;158;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;INVOKATION
@@ -124,6 +127,7 @@ false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;12;7;16;;1000;900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;18;;237;;2000;1900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;240;;395;;2000;1900;topic-mapping-divinarium.xml;
+false;GMuH_Havena;04 - Regionen/Glaube Macht & Heldenmut Havena (244);Glaube Macht & Heldenmut Havena - 04 - Regionen.pdf;ABILITIES;18;;18;;1300;1100;;
 false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;ABILITIES;16;;23;;1300;1100;;
 false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;PROFESSIONS;5;;15;;1300;1000;topic-mapping-gmuh-streitende-koenigreiche.xml;
 false;Weltenwanderer;03 - Welt/Weltenwanderer (233);Weltenwanderer - 03 - Welt.pdf;ABILITIES;155;100;155;;1300;1000;;
@@ -135,3 +139,5 @@ false;Die_Siebenwindküste;04 - Regionen/Die Siebenwindkuste (215);Die Siebenwin
 false;Die_Winterwacht;04 - Regionen/Die Winterwacht (186);Die Winterwacht - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;17;;54;;;1000;topic-mapping-hd-winterwacht.xml;
 false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des Gottwals - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;18;;51;;1800;1000;topic-mapping-content-gestade.xml;
 false;Almanach;04 - Regionen/Aventurischer Almanach (114);Aventurischer Almanach - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;;;;;1800;1000;topic-mapping-content-gestade.xml;
+false;Flüstern_aus_dem_Abgrund;05 - Abenteuer/Flustern aus dem Abgrund (178);Flustern aus dem Abgrund - 05 - Abenteuer.pdf;PROFESSIONS;116;;118;;1300;1000;;
+false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;HERBS;12;;143;;1300;1000;;

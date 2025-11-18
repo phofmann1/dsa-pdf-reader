@@ -144,6 +144,28 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyReplaceStringInLine - Korrektur Jähzorn für Blutrausch ">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>406</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>72</value>
+            </parameter>
+            <parameter>
+                <key>oldText</key>
+                <value>kein Nachteil</value>
+            </parameter>
+            <parameter>
+                <key>newText</key>
+                <value>Nachteil</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategySplitLineAfterPosition Feenfreund - Punkte von 'AP-Wert:'" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
@@ -277,6 +299,24 @@
         </params>
     </strategy>
 
+    <strategy name="StrategyConcatLinesToFirst - Concat Schwache Zaubermelode AP" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>415</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>47.1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>48</value>
+            </parameter>
+        </params>
+    </strategy>
+
 
     <strategy name="StrategySplitLineAfterPosition Schwache Zaubertänze - Nach AP-Wert" index="9">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
@@ -296,6 +336,24 @@
         </params>
     </strategy>
 
+
+    <strategy name="StrategyConcatLinesToFirst - Concat Schwache Zaubertänze AP" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>415</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>55.1</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>56</value>
+            </parameter>
+        </params>
+    </strategy>
 
     <strategy name="StrategyRemoveSingleLineFromPage - I auf 418" index="1">
         <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>

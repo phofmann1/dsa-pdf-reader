@@ -125,6 +125,7 @@ public class ExtractorSpecialAbility extends Extractor {
                 .replace("je_nach_material", "")
                 .replace("monate_in_entsprechender_umgebung_gelebt", "")
                 .replace("alle_anderen_haben_keine_voraussetzungen", "")
+                .replace("tradition_zibiljas", "tradition_zibilja")
                 .replace("kampf_reflexe_i", "kampfreflexe_i")
                 .replace("wesenszug_olochtai", "")
                 .replace("wesenszug_zholochai", "")

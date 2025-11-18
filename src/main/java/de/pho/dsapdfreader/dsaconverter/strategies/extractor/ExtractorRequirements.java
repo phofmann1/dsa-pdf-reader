@@ -180,6 +180,7 @@ public class ExtractorRequirements extends Extractor
             .replace(" die Tierart", " x")
             .replace(" auf ein Gesellschaftstalent", "")
             .replace(" in einem Gesellschaftstalent", "")
+            .replaceAll("\\bNied\\b", "Neid")
             .replace(" auf das gleiche Talent", "");
         if (!boonText.isEmpty())
         {

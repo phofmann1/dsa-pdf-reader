@@ -12,5 +12,47 @@
       8,
       9
     ]
-  }
+  },
+  {
+    "key": 261,
+    "mysticalSkillChanges": [
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 92,
+        "valueChange": 6
+      },
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 178,
+        "valueChange": 5
+      },
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 277,
+        "valueChange": 3
+      },
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 454,
+        "valueChange": 7
+      },
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 455,
+        "valueChange": 6
+      },
+      {
+        "key": 0,
+        "type": 0,
+        "mysticalSkillKey": 456,
+        "valueChange": 5
+      }
+    ]
+      }
+
 ]

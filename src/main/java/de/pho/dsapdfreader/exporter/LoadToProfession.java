@@ -211,6 +211,8 @@ public class LoadToProfession {
         .replace("Efferdgeweihter", "Efferdgeweihte")
         .replace("Winhaller Kriegerin", "Winhaller Krieger")
         .replace("Gildenloser Magier (Schüler des Honinger Collegiums)", "Gildenlose Magierin des Magierkollegs zu Honingen")
+        .replace("Graumagier Schule des Seienden Scheins zu Zorgan", "Graumagierin (Schule des seienden Scheins zu Zorgan)")
+        .replace("Graumagier (Schule des Seienden Scheins zu Zorgan)", "Graumagierin (Schule des seienden Scheins zu Zorgan)")
         .replace("Rurund-Gror-Priesterin", "Rur-und-Gror-Priesterin")
     .replace("Schwertgesellin nach Scanlail ni Uinin", "Scanlail ni Uinin Schwertgeselle");
     profession.key = ExtractorProfessionKey.retrieve(profession.name);
@@ -571,6 +573,7 @@ public class LoadToProfession {
         .replace("(Krankheit)", "Krankheit")
         .replace("(Blutiger Rotz, Brabaker Schweiß)", "Krankheit")
         .replaceAll("\\(.*?\\)", "")
+        .replaceAll("\\bNied\\b", "Persönlichkeitsschwächen")
         .replaceAll("Angst vor.*?(,|$)", "Angst vor x,")
         .replaceAll("Begabung.*?(?=,|$)", "Begabung")
         .replaceAll("Unfähig.*?(?=,|$)", "Unfähig")
@@ -908,6 +911,7 @@ public class LoadToProfession {
               .replace("folgende Änderungen der Kampftechniken", "")
               .replace("Zauber", "")
               .replace("Liturgien", "")
+              .replace("Die Zwölf Segnungen (außer Geburtssegen, Harmoniesegen und Kleiner Heilsegen)", "")
               .replace("Die Zwölf Segnungen", "")
               .replace("die 12 Segnungen", "")
               .replace("statt der angegebenen", "")
@@ -1128,7 +1132,7 @@ public class LoadToProfession {
     List<ValueChange> returnValue = new ArrayList<>();
     String csCleaned = combatSkillChanges
             .replace("Schleuder ", "Schleudern ")
-            .replaceAll(", ((eine|zwei) der (nach)?folgenden Kampftechniken (auf )?\\d+((, eine weitere \\d+)|(, die andere \\d+))?: .*$|eine Kampftechnik aus folgender Liste \\d+:.*$|[A-ü]* oder [A-ü]* \\d+)", "") //remove optional selections
+            .replaceAll(", ((eine|zwei) der (nach)?folgenden Kampftechniken (auf )?\\d+((, eine weitere (auf )?\\d+)|(, die anderen \\d+))?: .*$|eine Kampftechnik aus folgender Liste \\d+:.*$|[A-ü]* oder [A-ü]* \\d+)", "") //remove optional selections
             .trim();
     Matcher m = Pattern.compile("[A-ü]+[A-ü &-]*\\d+").matcher(csCleaned);
     while (m.find()) {
@@ -1231,6 +1235,7 @@ public class LoadToProfession {
           .replace("Wissen ", "")
           .replace("Handwerk ", "")
           .replaceAll("Gassenwisse ", "Gassenwissen ")
+          .replaceAll("Menschenkenntnisse ", "Menschenkenntnis ")
           .replaceAll("Brett- & Kartenspiel ", "Brett- und Glücksspiel ")
           .trim();
       String skillName = skillText.replaceAll("\\d*", "")
@@ -1324,7 +1329,8 @@ public class LoadToProfession {
 
   public static List<RequirementBoon> extractRequiredBoons(String preconditions) {
     List<RequirementBoon> returnValue = new ArrayList<>();
-    Pattern p = Pattern.compile("(?<=Nachteil\\s)(.*?)(?=, Sonderfertigkeit|, Vorteil|, Nachteil|, Spezies|, Geschlecht|$)|(?<=(Vorteil|Ahnenblut)\\s)(.*?)(?=, Sonderfertigkeit|, Nachteil|, Spezies|, Geschlecht|$)");
+    Pattern p = Pattern.compile("(?<=Nachteil\\s)(.*?)(?=, Sonderfertigkeit|, SF|, Vorteil|, Nachteil|, Spezies|, Geschlecht|$)|(?<=(Vorteil|Ahnenblut)\\s)(.*?)(?=, Sonderfertigkeit|, SF|, Nachteil|, Spezies|, Geschlecht|$)");
+
     Matcher m = p.matcher(preconditions.replace(", Tradition (eine Zwölfgötterkirche) (110-150 AP)", ""));
     while (m.find()) {
       String meritOrFlawString = m.group();

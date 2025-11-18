@@ -1558,7 +1558,9 @@ public enum SpecialAbilityKey {
     rudelerschaffung_transmutationen_i,
     rudelerschaffung_transmutationen_ii,
     rudelerschaffung_transmutationen_iii,
-    zirkelmeister_transmutationen
+    zirkelmeister_transmutationen,
+    weg_des_schatzsuchers,
+    geschosshersteller
 ;
     @JsonValue
     public int toValue() {

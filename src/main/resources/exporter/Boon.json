@@ -2910,7 +2910,7 @@
     ],
     "requirementBoons": [
       {
-        "key": 201,
+        "key": 112,
         "exists": true,
         "level": 0,
         "isSameSelection": false

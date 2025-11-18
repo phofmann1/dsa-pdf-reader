@@ -174,7 +174,8 @@ public class LoadToSpecialAbility
         specialAbility.ap = Float.parseFloat(ExtractorAP.retrieve(raw.ap, currentLevel)+"");
         specialAbility.abilityType = ExtractorSpecialAbility.retrieveType(raw.description);
 
-        specialAbility.multiselect = ExtractorSpecialAbility.retrieveMultiselect(raw.rules);
+        specialAbility.multiselect = specialAbility.key == SpecialAbilityKey.geländekunde ? 999 :
+                ExtractorSpecialAbility.retrieveMultiselect(raw.rules);
 
         specialAbility.selectionCategory = SA_SELECTION_CATEGORY_MAP.get(specialAbility.key);
         specialAbility.skillCategory = SA_SKILL_CATEGORY_MAP.get(specialAbility.key);

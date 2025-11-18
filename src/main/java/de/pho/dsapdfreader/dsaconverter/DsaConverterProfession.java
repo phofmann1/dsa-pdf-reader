@@ -74,11 +74,18 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
 
     AtomicReference<String> currentProfessionName = new AtomicReference<>();
     AtomicReference<Boolean> isNameStarted = new AtomicReference<>(Boolean.FALSE);
+    AtomicReference<Boolean> isNewProfessionStarted = new AtomicReference<>(Boolean.FALSE);
+    AtomicReference<Integer> lastPageNumber = new AtomicReference<>(0);
     AtomicReference<ProfessionTypeKey> currentProfessionTypeKey = new AtomicReference<>();
+    if(conf.publication.equals("Helden_der_Winterwacht")) currentProfessionTypeKey.set(ProfessionTypeKey.normal);
 
     texts.forEach(t -> {
 
       String cleanText = t.text.trim();
+      if(lastPageNumber.get() != t.onPage) {
+        isNewProfessionStarted.set(false);
+      }
+      lastPageNumber.set(t.onPage);
 
       if(conf.publication.equals("Helden_des_Wolfsfrosts") && t.size == 1800 && cleanText.equals("Geweihtenprofessionen")) {
         cleanText = "Geweihtenprofessionen (Halbgötter)";
@@ -92,6 +99,7 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
         case "ZaubererprofessionenAnimisten","Zaubererprofessionen":
           currentProfessionTypeKey.set(ProfessionTypeKey.magical);
           break;
+        case "Geweihtenprofessionen":
         case "Geweihtenprofessionen (Alveranische Gottheiten)":
           currentProfessionTypeKey.set(ProfessionTypeKey.clerical_alveran);
           break;
@@ -108,8 +116,8 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
         }
 
       }
-      boolean isDataKey = validateIsDataKey(t, cleanText, conf);
-      boolean isDataValue = validateIsDataValue(t, cleanText, conf);
+      boolean isDataKey = validateIsDataKey(t, cleanText, conf) && isNewProfessionStarted.get();
+      boolean isDataValue = validateIsDataValue(t, cleanText, conf) && isNewProfessionStarted.get();
 
       boolean isName = validateIsName(t, conf);
       isNameStarted.set(isName);
@@ -117,7 +125,6 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
       //handle start of Profession
       if (t.text.equals("Professionspaket")) {
         ProfessionRaw newEntry = new ProfessionRaw();
-        this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
         newEntry.name = currentProfessionName.get();
@@ -126,12 +133,16 @@ public class DsaConverterProfession extends DsaConverter<ProfessionRaw, Converte
         this.getFlags().wasName.set(true);
         returnValue.add(newEntry);
         currentProfessionName.set(null);
+        isNewProfessionStarted.set(true);
       }
 
       // handle name
       if (isName) {
         currentProfessionName.set((currentProfessionName.get() != null ? concatForDataValue(currentProfessionName.get(), t.text) : t.text)
                 .replace("Graumagier (Kampfseminar Andergast)", "Graumagier des Kampfseminars zu Andergast")
+                .replace("Festumer Graumagier", "Graumagier der Halle des Quecksilbers zu Festum")
+                .replace("Neersander Graumagierin", "Graumagierin der Schule der Beherrschung zu Neersand")
+                .replace("Norburger Weißmagier", "Weißmagier der Halle des Lebens zu Norburg")
                 .replace("Weißmagierin (Akademie von Licht und Dunkelheit zu Nostria)", "Weißmagierin der Akademie von Licht und Dunkelheit zu Nostria")
         );
       }

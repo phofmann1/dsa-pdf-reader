@@ -37,6 +37,7 @@ public class QrMain {
 
     public static void generateQRCodeWithLogo(String url, String filePath, String logoPath) throws WriterException, IOException {
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
+
         int width = 1000;
         int height = 1000;
         BitMatrix bitMatrix = qrCodeWriter.encode(url, BarcodeFormat.QR_CODE, width, height);
@@ -65,15 +66,20 @@ public class QrMain {
 
     public static void main(String[] args) {
         String data = "https://dersmarteheld.de";
+        boolean printLogo = Boolean.TRUE;
         int size = 1000; // Größe des QR-Codes
         int freeAreaSize = 300; // Größe der freien Fläche
         String logoPath = "D:\\Daten\\OneDrive\\Dokumente\\DSH-logo-only.png"; // Pfad zum Logo
 
         try {
+            String fileName = "qr_code_without_logo.png";
             BufferedImage qrCode = generateQRCodeImage(data, size);
             BufferedImage logo = ImageIO.read(new File(logoPath));
-            BufferedImage qrCodeWithLogo = addLogoToQRCode(qrCode, logo, freeAreaSize);
-            ImageIO.write(qrCodeWithLogo, "png", new File("qr_code_with_logo.png"));
+            if(printLogo) {
+                fileName = "qr_code_with_logo.png";
+                addLogoToQRCode(qrCode, logo, freeAreaSize);
+            }
+            ImageIO.write(qrCode, "png", new File(fileName));
         } catch (WriterException | IOException e) {
             e.printStackTrace();
         }

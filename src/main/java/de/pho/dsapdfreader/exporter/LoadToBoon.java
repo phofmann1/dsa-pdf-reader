@@ -175,9 +175,8 @@ public class LoadToBoon {
         new RequirementBoon(BoonKey.unfähig, false, SkillCategoryKey.gesellschaftstalente)
     ));
     put(BoonKey.blutrausch, List.of(
-        new RequirementBoon(BoonKey.schlechte_eigenschaft, false, BoonVariantKey.schlechte_eigenschaften_jähzorn),
+        new RequirementBoon(BoonKey.schlechte_eigenschaft, true, BoonVariantKey.schlechte_eigenschaften_jähzorn),
         new RequirementBoon(BoonKey.angst_vor_x, false, BoonVariantKey.angst_vor_x_blut)
-
     ));
     put(BoonKey.eingeschränkter_sinn, List.of(new RequirementBoon(BoonKey.herausragender_sinn, false, true)));
     put(BoonKey.schurkenname, List.of(

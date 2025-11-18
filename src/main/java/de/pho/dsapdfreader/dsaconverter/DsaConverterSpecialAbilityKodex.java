@@ -67,6 +67,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
         LOGGER.debug(msg);
 
         AtomicReference<SpecialAbilityCategoryKey> abilityCategory = new AtomicReference<>();
+        if(conf.publication.equals("Archiv_der_Ausrüstung")) abilityCategory.set(SpecialAbilityCategoryKey.common);
         AtomicReference<String> abilityName = new AtomicReference<>("");
         resultList
                 .forEach(t -> {

@@ -80,7 +80,9 @@ public enum Publication
   Helden_des_Wolfsfrosts,
   Weltenwanderer,
   Aventurisches_Nekromantäum,
-  Aventurisches_Transmutarium;
+  Aventurisches_Transmutarium,
+  Flüstern_aus_dem_Abgrund,
+  GMuH_Havena;
 
 
   @JsonValue

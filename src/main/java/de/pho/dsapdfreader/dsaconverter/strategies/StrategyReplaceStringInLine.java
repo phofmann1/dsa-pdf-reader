@@ -12,6 +12,8 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 public class StrategyReplaceStringInLine extends DsaConverterStrategy
 {
   private static final String ON_LINE = "onLine";
+  private static final String FROM_LINE = "fromLine";
+  private static final String UNTIL_LINE = "untilLine";
   private static final String OLD_TEXT = "oldText";
   private static final String NEW_TEXT = "newText";
 
@@ -27,7 +29,9 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
     {
       Boolean isBold = null;
       int applyToPage = super.extractParameterInt(parameters, APPLY_TO_PAGE);
-      double onLine = super.extractParameterDouble(parameters, ON_LINE);
+      double onLine = super.extractOptionalParameterDouble(parameters, ON_LINE);
+      double fromLine = super.extractOptionalParameterDouble(parameters, FROM_LINE);
+      double untilLine = super.extractOptionalParameterDouble(parameters, UNTIL_LINE);
       String oldText = extractOptionalParameterString(parameters, OLD_TEXT);
       String newText = extractOptionalParameterString(parameters, NEW_TEXT);
       if (parameters.stream().anyMatch(p -> p.getKey().equals(IS_BOLD)))
@@ -38,7 +42,7 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
 
       logApplicationOfStrategy(description);
       List<TextWithMetaInfo> resultsByPage = texts.stream().filter(t -> t.onPage == applyToPage).collect(Collectors.toList());
-      resultsByPage = applyStrategyToPage(resultsByPage, onLine, oldText, newText, newSize, isBold, description);
+      resultsByPage = applyStrategyToPage(resultsByPage, onLine, fromLine, untilLine, oldText, newText, newSize, isBold, description);
       returnValue = super.replacePage(texts, applyToPage, resultsByPage);
     }
     catch (DsaConverterException e)
@@ -48,10 +52,10 @@ public class StrategyReplaceStringInLine extends DsaConverterStrategy
     return returnValue;
   }
 
-  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double onLine, String oldText, String newText, OptionalInt newSize, Boolean isBold, String description)
+  private List<TextWithMetaInfo> applyStrategyToPage(List<TextWithMetaInfo> textList, double onLine, double fromLine, double untilLine, String oldText, String newText, OptionalInt newSize, Boolean isBold, String description)
   {
     return textList.stream()
-        .map(t -> t.onLine == onLine ? changeText(t, oldText, newText, newSize, isBold) : t).collect(Collectors.toList());
+        .map(t -> (t.onLine == onLine || t.onLine >= fromLine && t.onLine <= untilLine) ? changeText(t, oldText, newText, newSize, isBold) : t).collect(Collectors.toList());
 
   }
 
