@@ -62,7 +62,7 @@ public class LoadToArmor
           case SCALE -> 12;
           case CHAIN -> 13;
           case WOOD -> 9;
-          case LEATHER -> 8;
+          case LEATHER, BONE, HORN -> 8;
           case CLOTH -> 6;
           case HEAVY_CLOTHING -> 5;
           case CLOTHING -> 4;

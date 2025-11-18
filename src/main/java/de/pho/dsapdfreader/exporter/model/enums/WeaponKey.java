@@ -434,7 +434,8 @@ public enum WeaponKey {
   skorpionstachel,
   gjalsker_knochenkeule_byrlysgh,
   gjalsker_knochenkeule_byrlysgh_mittel,
-  gjalsker_knochenkeule_byrlysgh_lang
+  gjalsker_knochenkeule_byrlysgh_lang,
+
   brobim_wurzelkeule_gambosch,
   brobim_tiefenaxt_grumbosch,
   nivesen_knochenspeer_keika,
@@ -442,14 +443,15 @@ public enum WeaponKey {
   nivesenbogen_lienen,
   pfaehler,
   nivesen_wurfkeule_rooke,
-  walspiess,
+  walspieß,
   shakagra_giftdolch_atorai,
   shakagra_buckler_bordar,
   shakagra_langschild_borukar,
   shakagra_krummsaebel,
   shakagra_schwert,
   shakagra_hammer_shargool,
-  shakagra_kriegshammer_barangool waffenlos,
+  shakagra_kriegshammer_barangool,
+  waffenlos,
   schwanz,
   biss,
   stein;
