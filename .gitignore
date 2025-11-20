@@ -5,3 +5,6 @@
 /realmworks/
 /.metadata/
 /.idea/
+# Include export/01 and all its subfolders/files
+!export/01 - pdf2text/
+!export/01 - pdf2text/**
