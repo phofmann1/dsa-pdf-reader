@@ -1,0 +1,1577 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;215;-1.0;Archiv_der_Ausrüstung;1800;Weitere Waffen und Rüstungen
+PDType0Font/PDCIDFontType2, PostScript name: FOEYAO+GentiumBasic;false;false;2.0;215;-1.0;Archiv_der_Ausrüstung;1000;Die nachfolgende Auflistung enthält weitere verbreitete Waffen und Rüstungen, die entweder als improvisierte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;215;-1.0;Archiv_der_Ausrüstung;1000;Waffen dienen, oder bei bestimmten Kämpfern weit verbreitet sind.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;215;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;215;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätAmazonenschildSchilde
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;215;-1.0;Archiv_der_Ausrüstung;900;1W6KK 16–5/+2kurz3,5 Stn60 HF 85 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;215;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;215;-1.0;Archiv_der_Ausrüstung;900;mittlerer Schild, 35 Strukturpunkte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;215;-1.0;Archiv_der_Ausrüstung;900;Wird der Amazonenschild zur Verteidigung von Fernkampfangriffen eingesetzt, erhält der Held einen Bonus von +1 auf die Parade.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;215;-1.0;Archiv_der_Ausrüstung;900;Nach einem bestätigten Patzer bei einer Parade erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;13.0;215;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;215;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;215;-1.0;Archiv_der_Ausrüstung;900;Tiergeistkralle (Odûn-Bakka)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;215;-1.0;Archiv_der_Ausrüstung;900;Raufen1W6+4GE/KK 140/–1kurz0,75 Stn40 HF50 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;215;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;215;-1.0;Archiv_der_Ausrüstung;900;Tierkrieger sind eins mit der Waffe, die ihrem Odûn entspricht, Bestätigungswürfe bei Patzern sind daher um +2 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;215;-1.0;Archiv_der_Ausrüstung;900;Wird ein mit der Tiergeistkralle ausgeführter Angriff pariert, erhält der Träger nicht wie beim Raufen üblich den halben Waffenschaden.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;215;-1.0;Archiv_der_Ausrüstung;900;Gegen Gegner mit einem RS von 4 oder mehr richtet die Tiergeistkralle –2 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;215;-1.0;Archiv_der_Ausrüstung;900;Bannschwert, groß (Zweihänder) (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;215;-1.0;Archiv_der_Ausrüstung;900;Zweihandschwerter2W6+4KK 140/–3mittel2,5 Stn160 HF360 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;215;-1.0;Archiv_der_Ausrüstung;900;keiner
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;215;-1.0;Archiv_der_Ausrüstung;900;keiner
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;29.0;215;-1.0;Archiv_der_Ausrüstung;900;Bannschwert, klein (Dolch)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;215;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+1GE 1 0/0kurz0,5 Stn30 HF45 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;215;-1.0;Archiv_der_Ausrüstung;900;keiner
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;215;-1.0;Archiv_der_Ausrüstung;900;keiner
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;215;-1.0;Archiv_der_Ausrüstung;900;Bannschwert, mittel (Langschwert)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;215;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+4GE/KK 150/0mittel1 Stn100 HF200 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;215;-1.0;Archiv_der_Ausrüstung;900;keine
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;215;-1.0;Archiv_der_Ausrüstung;900;keine
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;215;-1.0;Archiv_der_Ausrüstung;900;Beil/Handaxt (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;215;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 14–1/–2mittel0,75 Stn40 HF20 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: VGSOCN+GentiumBasic;false;false;44.0;215;-1.0;Archiv_der_Ausrüstung;900;Gegen Pflanzen richten ein Beil oder eine Handaxt +1 TP an und der Schaden gegen hölzerne Gegenstände steigt um 2 TP.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: VGSOCN+GentiumBasic;false;false;46.0;215;-1.0;Archiv_der_Ausrüstung;900;Gegen Rüstungen mit RS 3 oder höher richten Beil und Handaxt –2 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;215;-1.0;Archiv_der_Ausrüstung;900;Besen (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;215;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 15–1/–3mittel0,75 Stn160 HF0,5 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: VGSOCN+GentiumBasic;false;false;50.0;215;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;51.0;215;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;215;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;215;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;215;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;215;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;215;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;215;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;215;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;215;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;215;-1.0;Archiv_der_Ausrüstung;900;Bratpfanne (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;215;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 15–1/–3kurz0,75 Stn30 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: VGSOCN+GentiumBasic;false;false;66.0;215;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;67.0;215;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;215;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;215;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;215;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;215;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;215;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;215;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;215;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;77.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;215;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;79.0;215;-1.0;Archiv_der_Ausrüstung;900;Bratpfanne, heiß (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;215;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+4KK 15–2/–3kurz0,75 Stn30 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;81.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: VGSOCN+GentiumBasic;false;false;82.0;215;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;83.0;215;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;215;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;85.0;215;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;87.0;215;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;215;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;215;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;215;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;91.0;215;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;215;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;93.0;215;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;215;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;95.0;215;-1.0;Archiv_der_Ausrüstung;1000;Meist nur als Bakka bekannt.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;216;-1.0;Archiv_der_Ausrüstung;1200;Waffen und Ausrüstungen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;216;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;216;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätBratspieß (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;216;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1GE/KK 14–1/–2mittel3 Stn60 HF16 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;216;-1.0;Archiv_der_Ausrüstung;900;Statt mit der breiten Seite des Bratspießes anzugreifen, kann der Held auch die Spitze zum Stechen verwenden. Die Spitze verursacht 1W6 TP. Stoff- und Lederrüstungen erleiden durch diesen Angriff einen Malus von –2 auf RS.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;216;-1.0;Archiv_der_Ausrüstung;900;Wird mit dem Bratspieß erfolgreich pariert, muss der Held eine Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;9.0;216;-1.0;Archiv_der_Ausrüstung;900;Kraftakt (Ziehen & Zerren)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;216;-1.0;Archiv_der_Ausrüstung;900;bestehen, ansonsten wird er ihm aus der Hand geschlagen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;216;-1.0;Archiv_der_Ausrüstung;900;Brecheisen (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;216;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 14–1/–3mittel5 Stn50 HF26 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: JRTBQL+GentiumBasic;false;false;14.0;216;-1.0;Archiv_der_Ausrüstung;900;Wurde mit dem Brecheisen erfolgreich pariert, würfle mit 1W6. Bei einer 1 hat sich die Waffe des Gegners kurz am ge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;216;-1.0;Archiv_der_Ausrüstung;900;-bogenen Ende des Brecheisens verhakt, was zu einer Erschwernis von 1 auf AT für den Gegner in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: JRTBQL+GentiumBasic;false;false;17.0;216;-1.0;Archiv_der_Ausrüstung;900;Wurde mit dem Brecheisen erfolgreich pariert, würfle mit 1W6. Bei einer 6 hat sich die Waffe des Gegners kurz am ge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;216;-1.0;Archiv_der_Ausrüstung;900;-bogenen Ende des Brecheisens verhakt, was zu einer Erschwernis von 1 auf AT für den Helden in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;216;-1.0;Archiv_der_Ausrüstung;900;Brechstange (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;216;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+3KK 13–1/–3mittel6 Stn100 HF38 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: JRTBQL+GentiumBasic;false;false;22.0;216;-1.0;Archiv_der_Ausrüstung;900;Wurde mit der Brechstange erfolgreich pariert, würfle mit 1W6. Bei einer 1 hat sich die Waffe des Gegners kurz am ge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;216;-1.0;Archiv_der_Ausrüstung;900;-bogenen Ende der Brechstange verhakt, was zu einer Erschwernis von 1 auf AT für den Gegner in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;216;-1.0;Archiv_der_Ausrüstung;900;Nach einem bestätigten Patzer bei einer Attacke erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;26.0;216;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;216;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;216;-1.0;Archiv_der_Ausrüstung;900;Brillantzwergischer Buckler (Karmoron)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;216;-1.0;Archiv_der_Ausrüstung;900;Schilde1W6KK 16–3/0kurz1 Stn20 HF50 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;216;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;216;-1.0;Archiv_der_Ausrüstung;900;kleiner Schild,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;216;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;216;-1.0;Archiv_der_Ausrüstung;900;25 Strukturpunkte, Parierwaffe (PA-Bonus +1 für die Hauptwaffe)Der AT-Abzug gilt nur für den Angriff mit dem Schild, aber nicht, wenn man einen Schild und eine andere Hauptwaffe führt. Mit einem Buckler kann man versuchen, ein Geschoss zu parieren, allerdings erleidet man bei der Parade zu-
+PDType0Font/PDCIDFontType2, PostScript name: JRTBQL+GentiumBasic;false;false;34.0;216;-1.0;Archiv_der_Ausrüstung;900;sätzlich zu den üblichen Modifikatoren (siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;216;-1.0;Archiv_der_Ausrüstung;900;82
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;216;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;216;-1.0;Archiv_der_Ausrüstung;900;244
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;216;-1.0;Archiv_der_Ausrüstung;900;) noch eine Erschwernis von –1.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;216;-1.0;Archiv_der_Ausrüstung;900;Bei einem Kritischen Erfolg richtet der Brillantzwergische Buckler zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;45.0;216;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;216;-1.0;Archiv_der_Ausrüstung;900;an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;216;-1.0;Archiv_der_Ausrüstung;900;Mit einem Brillantzwergischen Buckler kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;49.0;216;-1.0;Archiv_der_Ausrüstung;900;Schilddeckung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;216;-1.0;Archiv_der_Ausrüstung;900;nicht ausgeführt werden (siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;216;-1.0;Archiv_der_Ausrüstung;900;346
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;216;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;216;-1.0;Archiv_der_Ausrüstung;900;155
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;216;-1.0;Archiv_der_Ausrüstung;900;).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;216;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;216;-1.0;Archiv_der_Ausrüstung;900;Mit dem Buckler lassen sich keine Attacken
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;61.0;216;-1.0;Archiv_der_Ausrüstung;900;großer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;216;-1.0;Archiv_der_Ausrüstung;900;Gegner parieren.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;216;-1.0;Archiv_der_Ausrüstung;900;Brillantzwergisches Kurzschwert (Giramesch)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;216;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+2GE/KK
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;216;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;216;-1.0;Archiv_der_Ausrüstung;900;140/0kurz1 Stn65 HF140 Skomp (1 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;67.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;216;-1.0;Archiv_der_Ausrüstung;900;Mit einem Brillantzwergischen Kurzschwert ist das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;69.0;216;-1.0;Archiv_der_Ausrüstung;900;Unterlaufen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;216;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;216;-1.0;Archiv_der_Ausrüstung;900;305
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;216;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;77.0;216;-1.0;Archiv_der_Ausrüstung;900;155
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;216;-1.0;Archiv_der_Ausrüstung;900;) zusammen mit dem Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;79.0;216;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;216;-1.0;Archiv_der_Ausrüstung;900;ausführbar.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;81.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;82.0;216;-1.0;Archiv_der_Ausrüstung;900;Mit einem Brillantzwergischen Kurzschwert sind Paraden gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;83.0;216;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;216;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;85.0;216;-1.0;Archiv_der_Ausrüstung;900;Zweihandschwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;216;-1.0;Archiv_der_Ausrüstung;900;um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;87.0;216;-1.0;Archiv_der_Ausrüstung;900;Chablak-Dolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;216;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+3GE 140/0kurz0,75 Stn40 HF50 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;216;-1.0;Archiv_der_Ausrüstung;900;Gegen Waffen mit Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;91.0;216;-1.0;Archiv_der_Ausrüstung;900;mittel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;216;-1.0;Archiv_der_Ausrüstung;900;hat der Chablak-Dolch nur einen Abzug von 1 auf AT (statt 2).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;93.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;216;-1.0;Archiv_der_Ausrüstung;900;Gegen Rüstungen mit RS 4 oder mehr richtet der Chablak-Dolch –1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;95.0;216;-1.0;Archiv_der_Ausrüstung;900;Dagla-Schwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;96.0;216;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+5GE 15 / KK 14–1/–2mittel2 Stn105 HF 180 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;97.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;98.0;216;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;99.0;216;-1.0;Archiv_der_Ausrüstung;900;Einschüchtern (Drohung)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;100.0;216;-1.0;Archiv_der_Ausrüstung;900;bei der Sonderfertigkeit
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;101.0;216;-1.0;Archiv_der_Ausrüstung;900;Drohgebärden
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;102.0;216;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;103.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;104.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;216;-1.0;Archiv_der_Ausrüstung;900;254
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;107.0;216;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;108.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;109.0;216;-1.0;Archiv_der_Ausrüstung;900;105
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;216;-1.0;Archiv_der_Ausrüstung;900;) ist um +1 erleichtert. Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;111.0;216;-1.0;Archiv_der_Ausrüstung;900;Schildspalter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;112.0;216;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;113.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;114.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;115.0;216;-1.0;Archiv_der_Ausrüstung;900;303
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;116.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;117.0;216;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;119.0;216;-1.0;Archiv_der_Ausrüstung;900;249
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;120.0;216;-1.0;Archiv_der_Ausrüstung;900;) lässt sich mit dem Dagla-Schwert durchführen, auch wenn die Kampftechnik
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;121.0;216;-1.0;Archiv_der_Ausrüstung;900;Schwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;216;-1.0;Archiv_der_Ausrüstung;900;dies eigentlich nicht gestattet.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;123.0;216;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;216;-1.0;Archiv_der_Ausrüstung;900;Verfügen zwei Kämpfer über den gleichen INI-Wert, schlägt der Träger eines Dagla-Schwerts immer zuletzt zu. Führt der Gegner ebenfalls ein Dagla-Schwert, kommen die normalen Regeln zur Reihenfolge des Handelns (siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;125.0;216;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;127.0;216;-1.0;Archiv_der_Ausrüstung;900;62ff.
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;216;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;216;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;216;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;216;-1.0;Archiv_der_Ausrüstung;900;227
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;216;-1.0;Archiv_der_Ausrüstung;900;) zum Tragen. Nach einem bestätigten Patzer bei einer Attacke erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;133.0;216;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;216;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;217;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;217;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexität
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;3.0;217;-1.0;Archiv_der_Ausrüstung;900;Dreschflegel (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;217;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+2GE/KK 15–2/–1lang1,75 Stn200 HF30 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;6.0;217;-1.0;Archiv_der_Ausrüstung;900;Schilde können gegen den Dreschflegel nur ihren einfachen Bonus auf die Verteidigung nutzen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;8.0;217;-1.0;Archiv_der_Ausrüstung;900;Mit dem Dreschflegel kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;9.0;217;-1.0;Archiv_der_Ausrüstung;900;Auf Distanz halten
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;10.0;217;-1.0;Archiv_der_Ausrüstung;900;nicht genutzt werden (siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;13.0;217;-1.0;Archiv_der_Ausrüstung;900;290
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;217;-1.0;Archiv_der_Ausrüstung;900;
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;15.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;217;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;217;-1.0;Archiv_der_Ausrüstung;900;151
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;19.0;217;-1.0;Archiv_der_Ausrüstung;900;).
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;20.0;217;-1.0;Archiv_der_Ausrüstung;900;Eimer (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;217;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1KK 15–3/–3
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;22.0;217;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;217;-1.0;Archiv_der_Ausrüstung;900;0,75 Stn45 HF20 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;25.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;26.0;217;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;27.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;30.0;217;-1.0;Archiv_der_Ausrüstung;900;293
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;31.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;217;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;34.0;217;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;217;-1.0;Archiv_der_Ausrüstung;900;) richtet
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;36.0;217;-1.0;Archiv_der_Ausrüstung;900;1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;38.0;217;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;39.0;217;-1.0;Archiv_der_Ausrüstung;900;Elfendegen (Aleeza)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;217;-1.0;Archiv_der_Ausrüstung;900;Fechtwaffen1W6+2GE 16+1/+1mittel0,5 Stn95 HF250 S
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;41.0;217;-1.0;Archiv_der_Ausrüstung;900;komp (3 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;43.0;217;-1.0;Archiv_der_Ausrüstung;900;Um einen Elfendegen bei der Heldenerschaffung zu erwerben, muss der Held einer elfischen Kultur angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;45.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;46.0;217;-1.0;Archiv_der_Ausrüstung;900;Präziser Stich
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;47.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;50.0;217;-1.0;Archiv_der_Ausrüstung;900;302
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;51.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;54.0;217;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;217;-1.0;Archiv_der_Ausrüstung;900;)
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;56.0;217;-1.0;Archiv_der_Ausrüstung;900;
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;57.0;217;-1.0;Archiv_der_Ausrüstung;900;ist mit einem Elfendegen um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;59.0;217;-1.0;Archiv_der_Ausrüstung;900;Wird der Elfendegen von Nichtelfen geführt, erhält es einen Malus von –1 auf AT, PA und TP. Greift der Träger eines Elfen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;217;-1.0;Archiv_der_Ausrüstung;900;-
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;61.0;217;-1.0;Archiv_der_Ausrüstung;900;degens im Beidhändigen Kampf in der gleichen KR mit einer Waffe der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;62.0;217;-1.0;Archiv_der_Ausrüstung;900;mittel
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;63.0;217;-1.0;Archiv_der_Ausrüstung;900;an, ist seine zweite Attacke um –1 erschwert.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;64.0;217;-1.0;Archiv_der_Ausrüstung;900;Elfendolch (Briza)
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;65.0;217;-1.0;Archiv_der_Ausrüstung;900;Dolche
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;217;-1.0;Archiv_der_Ausrüstung;900;1W6+1GE 160/0
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;67.0;217;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;217;-1.0;Archiv_der_Ausrüstung;900;0,5 Stn40 HF100 S
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;69.0;217;-1.0;Archiv_der_Ausrüstung;900;komp (1 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;70.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;71.0;217;-1.0;Archiv_der_Ausrüstung;900;Um einen Elfendolch bei der Heldenerschaffung zu erwerben, muss der Held einer elfischen Kultur angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;72.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;73.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;74.0;217;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;75.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;76.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;77.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;78.0;217;-1.0;Archiv_der_Ausrüstung;900;295
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;79.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;80.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;81.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;82.0;217;-1.0;Archiv_der_Ausrüstung;900;247
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;83.0;217;-1.0;Archiv_der_Ausrüstung;900;) ist um 1 Punkt weniger erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;84.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;85.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;86.0;217;-1.0;Archiv_der_Ausrüstung;900;Präziser Stich
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;87.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;88.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;89.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;90.0;217;-1.0;Archiv_der_Ausrüstung;900;302
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;91.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;92.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;93.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;94.0;217;-1.0;Archiv_der_Ausrüstung;900;248
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;95.0;217;-1.0;Archiv_der_Ausrüstung;900;) richtet 1 TP weniger an.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;96.0;217;-1.0;Archiv_der_Ausrüstung;900;Elfenschwert (Tharsil)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;97.0;217;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+4GE/KK 15+1/0mittel0,75 Stn100 HF300 S
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;98.0;217;-1.0;Archiv_der_Ausrüstung;900;komp (1 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;99.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;100.0;217;-1.0;Archiv_der_Ausrüstung;900;Um ein Elfenschwert bei der Heldenerschaffung zu erwerben, muss der Held einer elfischen Kultur angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;101.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;102.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;103.0;217;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;104.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;107.0;217;-1.0;Archiv_der_Ausrüstung;900;295
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;108.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;109.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;111.0;217;-1.0;Archiv_der_Ausrüstung;900;247
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;112.0;217;-1.0;Archiv_der_Ausrüstung;900;) ist um 1 Punkt weniger erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;113.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;114.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;115.0;217;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;116.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;117.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;119.0;217;-1.0;Archiv_der_Ausrüstung;900;306
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;120.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;121.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;123.0;217;-1.0;Archiv_der_Ausrüstung;900;250
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;124.0;217;-1.0;Archiv_der_Ausrüstung;900;) richtet 1 TP weniger an.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;125.0;217;-1.0;Archiv_der_Ausrüstung;900;Elfenspeer (Larza) (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;217;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+4GE/KK 150/0lang1,25 Stn200 HF120 S
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;127.0;217;-1.0;Archiv_der_Ausrüstung;900;komp (2 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;128.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;129.0;217;-1.0;Archiv_der_Ausrüstung;900;Um einen Elfenspeer bei der Heldenerschaffung zu erwerben, muss der Held einer elfischen Kultur angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;130.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;131.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;132.0;217;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;133.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;134.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;135.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;136.0;217;-1.0;Archiv_der_Ausrüstung;900;295
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;137.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;138.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;139.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;140.0;217;-1.0;Archiv_der_Ausrüstung;900;247
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;141.0;217;-1.0;Archiv_der_Ausrüstung;900;) ist um 1 Punkt weniger erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;142.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;143.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;144.0;217;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;145.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;146.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;147.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;148.0;217;-1.0;Archiv_der_Ausrüstung;900;306
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;149.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;150.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;151.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;152.0;217;-1.0;Archiv_der_Ausrüstung;900;250
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;153.0;217;-1.0;Archiv_der_Ausrüstung;900;) richtet 1 TP weniger an.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;154.0;217;-1.0;Archiv_der_Ausrüstung;900;Fackel (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;155.0;217;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6KK 15–1/–2mittel0,5 Stn40 H 0,5 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;156.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;157.0;217;-1.0;Archiv_der_Ausrüstung;900;Gelungene Attacken mit einer brennenden Fackel führen nicht automatisch zum Status
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;158.0;217;-1.0;Archiv_der_Ausrüstung;900;Brennend
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;159.0;217;-1.0;Archiv_der_Ausrüstung;900;bei Gegner.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;160.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;161.0;217;-1.0;Archiv_der_Ausrüstung;900;Eine brennende Fackel richtet gelegentlich zusätzlichen Schaden an. Würfel bei einem Treffer, der SP verursacht, mit 1W6. Bei einer 1-3 wurde der Gegner leicht verbrannt und erleidet so viele zusätzliche SP, wie die Augenzahl anzeigt. Der Gegner gilt nach diesem Angriff nicht als
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;162.0;217;-1.0;Archiv_der_Ausrüstung;900;Brennend
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;163.0;217;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;164.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;165.0;217;-1.0;Archiv_der_Ausrüstung;900;Wird eine brennende Fackel mit einer Waffe pariert oder pariert der Held mit der Fackel eine Waffe, muss mit 1W6 ge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;166.0;217;-1.0;Archiv_der_Ausrüstung;900;-
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;167.0;217;-1.0;Archiv_der_Ausrüstung;900;würfelt werden. Bei 6 wird die Fackel so beschädigt, dass sie nicht mehr als Waffe zu gebrauchen ist und das Feuer erlischt. Fackeln, die bislang nicht angezündet wurden, haben diesen Nachteil nicht.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;168.0;217;-1.0;Archiv_der_Ausrüstung;900;Federmesser (i)
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;169.0;217;-1.0;Archiv_der_Ausrüstung;900;Dolche
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;170.0;217;-1.0;Archiv_der_Ausrüstung;900;1W6+1GE/KK 16–1/–4
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;171.0;217;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;172.0;217;-1.0;Archiv_der_Ausrüstung;900;0,2 Stn15 HF3 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;173.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;174.0;217;-1.0;Archiv_der_Ausrüstung;900;Ein Federmesser richtet gegen Papier +4 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;175.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;176.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;177.0;217;-1.0;Archiv_der_Ausrüstung;900;Kreuzblock
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;178.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;179.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;180.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;181.0;217;-1.0;Archiv_der_Ausrüstung;900;299
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;182.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;183.0;217;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;184.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;185.0;217;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;186.0;217;-1.0;Archiv_der_Ausrüstung;900;)
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;187.0;217;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;188.0;217;-1.0;Archiv_der_Ausrüstung;900;ist gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;189.0;217;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;190.0;217;-1.0;Archiv_der_Ausrüstung;900;,
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;191.0;217;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;192.0;217;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;193.0;217;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;194.0;217;-1.0;Archiv_der_Ausrüstung;900;nicht durchführbar.
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;195.0;217;-1.0;Archiv_der_Ausrüstung;900;Flasche (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;196.0;217;-1.0;Archiv_der_Ausrüstung;1000;Hiebwaffen1W6+1KK 16–1/–3
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;197.0;217;-1.0;Archiv_der_Ausrüstung;1000;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;198.0;217;-1.0;Archiv_der_Ausrüstung;1000;0,30 Stn30 HF10 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;199.0;217;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;200.0;217;-1.0;Archiv_der_Ausrüstung;900;Nach einem Angriff ist die Flasche gesplittert, was zu +1 TP und –1 PA führt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;201.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;202.0;217;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;203.0;217;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;204.0;217;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;205.0;217;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;206.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;207.0;217;-1.0;Archiv_der_Ausrüstung;900;293
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;208.0;217;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;209.0;217;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;210.0;217;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDType0Font/PDCIDFontType2, PostScript name: SGWJMT+GentiumBasic-Bold;true;false;211.0;217;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;212.0;217;-1.0;Archiv_der_Ausrüstung;900;) richtet
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;213.0;217;-1.0;Archiv_der_Ausrüstung;900;1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;214.0;217;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QLVSKX+GentiumBasic;false;false;215.0;217;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;218;-1.0;Archiv_der_Ausrüstung;1200;Waffen und Ausrüstungen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;218;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;218;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätFleischerbeil (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;218;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 14–1/–3mittel1 Stn35 HF25 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;218;-1.0;Archiv_der_Ausrüstung;900;Gegen ungerüstete Gegner und gegen Lederrüstungen richtet ein Fleischerbeil +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;218;-1.0;Archiv_der_Ausrüstung;900;Gegen Rüstungen mit RS 3 oder höher richtet ein Fleischerbeil –2 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;218;-1.0;Archiv_der_Ausrüstung;900;Flöte und ähnliche Instrumente (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;218;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6GE 14–1/–4kurzje nach Instrument unterschiedlich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;13.0;218;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;218;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;218;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;218;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;218;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;218;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinkeule, kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;218;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 140/–1kurz1 Stn50 HF20 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;218;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;218;-1.0;Archiv_der_Ausrüstung;900;Um die Goblinkeule bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;29.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinzauberinnen)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;218;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;33.0;218;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;218;-1.0;Archiv_der_Ausrüstung;900;)
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;43.0;218;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;218;-1.0;Archiv_der_Ausrüstung;900;richtet +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;218;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;47.0;218;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;218;-1.0;Archiv_der_Ausrüstung;900;)
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;57.0;218;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;218;-1.0;Archiv_der_Ausrüstung;900;ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinkeule, lang (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;218;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+4KK 150/–2mittel4 Stn150 HF80 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;218;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;218;-1.0;Archiv_der_Ausrüstung;900;Um die Goblinkeule bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;63.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinzauberinnen)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;218;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;67.0;218;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;218;-1.0;Archiv_der_Ausrüstung;900;) richtet +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;77.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;218;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;79.0;218;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;81.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;82.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;83.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;85.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;87.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;218;-1.0;Archiv_der_Ausrüstung;900;) ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinkeule, mittel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;218;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 140/–1mittel1,5 Stn75 HF40 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;91.0;218;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;218;-1.0;Archiv_der_Ausrüstung;900;Um die Goblinkeule bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;93.0;218;-1.0;Archiv_der_Ausrüstung;900;Goblinzauberinnen)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;218;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;95.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;96.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;97.0;218;-1.0;Archiv_der_Ausrüstung;900;Wuchtschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;98.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;99.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;100.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;101.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;102.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;103.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;104.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;218;-1.0;Archiv_der_Ausrüstung;900;) richtet +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;107.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;108.0;218;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;109.0;218;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;111.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;112.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;113.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;114.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;115.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;116.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;117.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;218;-1.0;Archiv_der_Ausrüstung;900;) ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;119.0;218;-1.0;Archiv_der_Ausrüstung;900;Hacksäbel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;120.0;218;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+4GE/KK 140/–1mittel2 Stn90 HF200 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;121.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;218;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;123.0;218;-1.0;Archiv_der_Ausrüstung;900;Einschüchtern (Drohung)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;218;-1.0;Archiv_der_Ausrüstung;900;bei der Sonderfertigkeit
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;125.0;218;-1.0;Archiv_der_Ausrüstung;900;Drohgebärden
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;127.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;218;-1.0;Archiv_der_Ausrüstung;900;254
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;218;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;133.0;218;-1.0;Archiv_der_Ausrüstung;900;105
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;218;-1.0;Archiv_der_Ausrüstung;900;) ist um +1 erleichtert. Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;135.0;218;-1.0;Archiv_der_Ausrüstung;900;Schildspalter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;136.0;218;-1.0;Archiv_der_Ausrüstung;900;lässt sich mit dem Hacksäbel durchführen, auch wenn die Kampftechnik
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;137.0;218;-1.0;Archiv_der_Ausrüstung;900;Schwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;138.0;218;-1.0;Archiv_der_Ausrüstung;900;dies eigentlich nicht gestattet.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;139.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;140.0;218;-1.0;Archiv_der_Ausrüstung;900;Wurde mit dem Hacksäbel erfolgreich pariert, würfel mit 1W6. Bei einer 5 oder 6 hat sich die Waffe des Gegners kurz verhakt, was zu einer Erschwernis von –1 auf AT für den Helden in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;141.0;218;-1.0;Archiv_der_Ausrüstung;900;Handspiegel (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;142.0;218;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1KK 16–2/–3kurz0,5 Stn20 HF60 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;143.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;144.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;145.0;218;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;146.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;147.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;148.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;149.0;218;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;150.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;151.0;218;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;152.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;153.0;218;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;154.0;218;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;155.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;156.0;218;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;157.0;218;-1.0;Archiv_der_Ausrüstung;900;Harigastur-Bronzeschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;158.0;218;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+5GE/KK 15–1/–1mittel1,75 Stn100 HF180 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;159.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;160.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;161.0;218;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;162.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;163.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;164.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;165.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;166.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;167.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;168.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;169.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;170.0;218;-1.0;Archiv_der_Ausrüstung;900;) verleiht dem Träger des Harigastur-Bronzeschwertes einen Bonus von +3 AT (statt +2).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;171.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;172.0;218;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;173.0;218;-1.0;Archiv_der_Ausrüstung;900;Verteidigungshaltung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;174.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;175.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;176.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;177.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;178.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;179.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;180.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;181.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;182.0;218;-1.0;Archiv_der_Ausrüstung;900;) verleiht dem Träger des Harigastur-Bronzeschwertes nur einen Bonus von +3 VW (statt +4).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;183.0;218;-1.0;Archiv_der_Ausrüstung;900;Havener Messer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;184.0;218;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+3GE/KK 150/0mittel0,50 Stn75 HF200 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;185.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;186.0;218;-1.0;Archiv_der_Ausrüstung;900;In beengter Umgebung zählt das Havener Messer als Waffe mit kurzer Reichweite. Die Erschwernis von – 2 Punkten auf das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;187.0;218;-1.0;Archiv_der_Ausrüstung;900;Binden
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;188.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;189.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;190.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;191.0;218;-1.0;Archiv_der_Ausrüstung;900;339
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;192.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;193.0;218;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;194.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;195.0;218;-1.0;Archiv_der_Ausrüstung;900;161
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;196.0;218;-1.0;Archiv_der_Ausrüstung;900;) entfällt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;197.0;218;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;198.0;218;-1.0;Archiv_der_Ausrüstung;900;Mit einem Havener Messer sind Paraden gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;199.0;218;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;200.0;218;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;201.0;218;-1.0;Archiv_der_Ausrüstung;900;Zweihandschwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;202.0;218;-1.0;Archiv_der_Ausrüstung;900;um –2 erschwert.
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;203.0;218;-1.0;Archiv_der_Ausrüstung;900;Wuchtschläge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;204.0;218;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;205.0;218;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;206.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;207.0;218;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;208.0;218;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;209.0;218;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;210.0;218;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;211.0;218;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;212.0;218;-1.0;Archiv_der_Ausrüstung;900;) sind mit dem Havener Messer nur um zusätzlich –1 erschwert durchzuführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;219;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;219;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätHeroldsstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;219;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 14–1/–1mittel1,25 Stn110 HF120 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;219;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;219;-1.0;Archiv_der_Ausrüstung;900;geweiht (Praios), Waffe ist nur von Ucuriaten erwerbbar
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;219;-1.0;Archiv_der_Ausrüstung;900;Der Träger eines Heroldsstabs kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;8.0;219;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;219;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;219;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;219;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert durchführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;20.0;219;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;219;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;219;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;219;-1.0;Archiv_der_Ausrüstung;900;247
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;219;-1.0;Archiv_der_Ausrüstung;900;) ist um –2 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;219;-1.0;Archiv_der_Ausrüstung;900;Hirtenstab (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;219;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+1GE/KK 150/+2lang0,75 Stn150 HF10 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;219;-1.0;Archiv_der_Ausrüstung;900;Der Träger eines Hirtenstabs kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;34.0;219;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;219;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;219;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;219;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert durchführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;46.0;219;-1.0;Archiv_der_Ausrüstung;900;Sturmangriff
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;50.0;219;-1.0;Archiv_der_Ausrüstung;900;304
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;219;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;219;-1.0;Archiv_der_Ausrüstung;900;249
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;219;-1.0;Archiv_der_Ausrüstung;900;) ist um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;56.0;219;-1.0;Archiv_der_Ausrüstung;900;Holzfälleraxt (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;219;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen2W6+1KK 130/–4mittel4 Stn110 HF80 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;59.0;219;-1.0;Archiv_der_Ausrüstung;900;Gegen Pflanzen richtet eine Holzfälleraxt +2 TP an und der Schaden gegen hölzerne Gegenstände steigt um 4 TP.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;61.0;219;-1.0;Archiv_der_Ausrüstung;900;Gegen Gegner mit RS 5 und mehr richtet eine Holzfälleraxt –2 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;62.0;219;-1.0;Archiv_der_Ausrüstung;900;Kette
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;63.0;219;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;64.0;219;-1.0;Archiv_der_Ausrüstung;900;(i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;65.0;219;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen1W6+3KK 15–2/–mittel2 Stn100 HF12 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;66.0;219;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;67.0;219;-1.0;Archiv_der_Ausrüstung;900;Mit der Kette kann das Manöver Entwaffnen eingesetzt werden.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;68.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;69.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;70.0;219;-1.0;Archiv_der_Ausrüstung;900;Entwaffnen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;71.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;72.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;73.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;74.0;219;-1.0;Archiv_der_Ausrüstung;900;294
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;75.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;76.0;219;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;77.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;78.0;219;-1.0;Archiv_der_Ausrüstung;900;247
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;79.0;219;-1.0;Archiv_der_Ausrüstung;900;)
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;80.0;219;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;81.0;219;-1.0;Archiv_der_Ausrüstung;900;ist um +2 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;82.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;83.0;219;-1.0;Archiv_der_Ausrüstung;900;Nach einem Patzer wird das Würfelergebnis des Bestätigungswurfes um 2 erhöht.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;84.0;219;-1.0;Archiv_der_Ausrüstung;900;Kristallkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;85.0;219;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+2KK 13–1/–4
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;86.0;219;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;87.0;219;-1.0;Archiv_der_Ausrüstung;900;3 Stn10 HF80 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;88.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;89.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;90.0;219;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;91.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;92.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;93.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;94.0;219;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;95.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;96.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;97.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;98.0;219;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;99.0;219;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;100.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;101.0;219;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;102.0;219;-1.0;Archiv_der_Ausrüstung;900;Krummdolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;103.0;219;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+2GE 140/–2
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;104.0;219;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;105.0;219;-1.0;Archiv_der_Ausrüstung;900;0,5 Stn45 HF45 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;106.0;219;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;107.0;219;-1.0;Archiv_der_Ausrüstung;900;Wird der Dolch mit der Klinge nach unten gehalten und zum Stechen eingesetzt, so erhält der Träger einen Bonus von +2 TP und es gilt ein AT/PA-Mod von –1/–4 (statt 0/–2). Um die Position des Krummdolches in der Hand zu wechseln, muss der Träger 1 Aktion aufwenden.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;108.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;109.0;219;-1.0;Archiv_der_Ausrüstung;900;Rüstungen mit RS 2 oder weniger erhalten einen Malus von –1 RS.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;110.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;111.0;219;-1.0;Archiv_der_Ausrüstung;900;Mit dem Krummdolch kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;112.0;219;-1.0;Archiv_der_Ausrüstung;900;Präziser Stich
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;113.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;114.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;115.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;116.0;219;-1.0;Archiv_der_Ausrüstung;900;302
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;117.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;118.0;219;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;119.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;120.0;219;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;121.0;219;-1.0;Archiv_der_Ausrüstung;900;)
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;122.0;219;-1.0;Archiv_der_Ausrüstung;900;nicht eingesetzt werden.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;123.0;219;-1.0;Archiv_der_Ausrüstung;900;Laute und ähnliche Instrumente (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;219;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1KK 14–1/–3mittelje nach Instrument unterschiedlich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;125.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;127.0;219;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;219;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;133.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;135.0;219;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;136.0;219;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;137.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;138.0;219;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;139.0;219;-1.0;Archiv_der_Ausrüstung;900;Magierkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;140.0;219;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+1KK 13–1/–4
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;141.0;219;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;142.0;219;-1.0;Archiv_der_Ausrüstung;900;2 Stn10 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;143.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;144.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;145.0;219;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;146.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;147.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;148.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;149.0;219;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;150.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;151.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;152.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;153.0;219;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;154.0;219;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;155.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;156.0;219;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;157.0;219;-1.0;Archiv_der_Ausrüstung;900;Maraskanischer Hakenspieß (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;158.0;219;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+2GE/KK 150/–1lang3,75 Stn170 HF65 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;159.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;160.0;219;-1.0;Archiv_der_Ausrüstung;900;Der Maraskanische Hakenspieß erlaubt es, das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;161.0;219;-1.0;Archiv_der_Ausrüstung;900;Herunterstoßen (
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;162.0;219;-1.0;Archiv_der_Ausrüstung;900;siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;163.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;164.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;165.0;219;-1.0;Archiv_der_Ausrüstung;900;297
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;166.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;167.0;219;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;168.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;169.0;219;-1.0;Archiv_der_Ausrüstung;900;153
+PDType0Font/PDCIDFontType2, PostScript name: GZVRVR+GentiumBasic;false;false;170.0;219;-1.0;Archiv_der_Ausrüstung;900;) um +2 erleichtert auszuführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;171.0;219;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;172.0;219;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;173.0;219;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;174.0;219;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;175.0;219;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;176.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;177.0;219;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;178.0;219;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;179.0;219;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;180.0;219;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;181.0;219;-1.0;Archiv_der_Ausrüstung;900;247
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;182.0;219;-1.0;Archiv_der_Ausrüstung;900;) ist um –1 erschwert.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;220;-1.0;Archiv_der_Ausrüstung;1200;Waffen und Ausrüstungen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;220;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;220;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätMarbodolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;220;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+2GE 14+1/–2kurz0,75 Stn35 HF60 Skomp (2 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;220;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;220;-1.0;Archiv_der_Ausrüstung;900;geweiht (Marbo), Waffe ist nur von Marbopriestern erwerbbar
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;220;-1.0;Archiv_der_Ausrüstung;900;Bei dem Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;9.0;220;-1.0;Archiv_der_Ausrüstung;900;Präziser Stich
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;220;-1.0;Archiv_der_Ausrüstung;900;302
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;220;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;220;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;220;-1.0;Archiv_der_Ausrüstung;900;) richtet der Marbodolch +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;220;-1.0;Archiv_der_Ausrüstung;900;Gegen Rüstungen mit RS 4 oder höher richtet der Marbodolch –1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;220;-1.0;Archiv_der_Ausrüstung;900;Metallverstärkter Holzschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;220;-1.0;Archiv_der_Ausrüstung;900;Schilde1W6KK 16–4/+1kurz5 Stn65 HF100 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;220;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;220;-1.0;Archiv_der_Ausrüstung;900;kleiner Schild, 40 Strukturpunkte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;220;-1.0;Archiv_der_Ausrüstung;900;Beim Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;27.0;220;-1.0;Archiv_der_Ausrüstung;900;Schildstoß (
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;220;-1.0;Archiv_der_Ausrüstung;900;siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;29.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;220;-1.0;Archiv_der_Ausrüstung;900;346
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;220;-1.0;Archiv_der_Ausrüstung;900;163
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;220;-1.0;Archiv_der_Ausrüstung;900;) ist die Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;37.0;220;-1.0;Archiv_der_Ausrüstung;900;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;220;-1.0;Archiv_der_Ausrüstung;900;um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;220;-1.0;Archiv_der_Ausrüstung;900;Nach einem bestätigten Patzer bei einer Parade erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;41.0;220;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;220;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;220;-1.0;Archiv_der_Ausrüstung;900;Mistgabel (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;220;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+2GE/KK 15–1/–2lang1,5 Stn180 HF55 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;220;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;47.0;220;-1.0;Archiv_der_Ausrüstung;900;Einschüchtern (Drohung)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;220;-1.0;Archiv_der_Ausrüstung;900;bei der Sonderfertigkeit
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;49.0;220;-1.0;Archiv_der_Ausrüstung;900;Drohgebärden
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;220;-1.0;Archiv_der_Ausrüstung;900;254
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;220;-1.0;Archiv_der_Ausrüstung;900;105
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;220;-1.0;Archiv_der_Ausrüstung;900;) bringt bei Gelingen +1 FP ein (bis zu einem Maximum von 18 FP). Bei vollen 3 weiteren Personen, die mit Mistgabeln, Fackeln oder anderen Waffen ausgestattet sind und auf der gleichen Seite stehen, können jeweils weitere FP angesammelt werden (maximal lassen sich dadurch 3 FP erzielen).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;220;-1.0;Archiv_der_Ausrüstung;900;Das Ergebnis eines Bestätigungswurfes bei einem Patzer wird um 2 Punkte erhöht. Mit der Mistgabel kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;61.0;220;-1.0;Archiv_der_Ausrüstung;900;Auf Distanz halten
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;220;-1.0;Archiv_der_Ausrüstung;900;290
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;67.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;220;-1.0;Archiv_der_Ausrüstung;900;151
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;220;-1.0;Archiv_der_Ausrüstung;900;) nicht genutzt werden.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;220;-1.0;Archiv_der_Ausrüstung;900;Nipauka-Axt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;220;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 140/0mittel1 Stn60 HF140 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;220;-1.0;Archiv_der_Ausrüstung;900;Bei einem Kritischen Treffer erhöhen sich die TP nach dem Verdoppeln nochmals um +2 TP.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;220;-1.0;Archiv_der_Ausrüstung;900;Rüstungen mit RS 4 oder höher erhalten gegenüber einer Nipauka-Axt einen Bonus von +1 auf RS.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;77.0;220;-1.0;Archiv_der_Ausrüstung;900;Nivesischer Wolfsspeer (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;220;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+3GE/KK 150/–1lang1 Stn150 HF140 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;79.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;220;-1.0;Archiv_der_Ausrüstung;900;Der Nivesische Wolfsspeer erlaubt es, das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;81.0;220;-1.0;Archiv_der_Ausrüstung;900;Festnageln (
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;82.0;220;-1.0;Archiv_der_Ausrüstung;900;siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;83.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;85.0;220;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;87.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;220;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;220;-1.0;Archiv_der_Ausrüstung;900;Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;91.0;220;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;220;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert auszuführen. Wer sich aus dem Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;93.0;220;-1.0;Archiv_der_Ausrüstung;900;Festnageln
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;220;-1.0;Archiv_der_Ausrüstung;900;befreien will, erleidet eine Erschwernis von –2 auf die Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;95.0;220;-1.0;Archiv_der_Ausrüstung;900;Kraftakt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;96.0;220;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;97.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;98.0;220;-1.0;Archiv_der_Ausrüstung;900;Im Nahkampf wird der Nivesische Wolfsspeer nicht in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;99.0;220;-1.0;Archiv_der_Ausrüstung;900;lang
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;100.0;220;-1.0;Archiv_der_Ausrüstung;900;geführt, sondern in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;101.0;220;-1.0;Archiv_der_Ausrüstung;900;mittel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;102.0;220;-1.0;Archiv_der_Ausrüstung;900;. Im Reiterkampf gilt sie weiterhin als Waffe mit der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;103.0;220;-1.0;Archiv_der_Ausrüstung;900;lang
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;104.0;220;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;220;-1.0;Archiv_der_Ausrüstung;900;Nudel-/Teigholz (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;220;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1KK 14–1/–2mittel0,5 Stn40 HF10 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;107.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;108.0;220;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;109.0;220;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;111.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;112.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;113.0;220;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;114.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;115.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;116.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;117.0;220;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;220;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;119.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;120.0;220;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein bestätigter Patzer, zerbricht sie. Dies geschieht zusätzlich zu den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;121.0;220;-1.0;Archiv_der_Ausrüstung;900;Orkischer Blutspeer (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;220;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+5GE/KK 150/–1lang1 Stn170 HF140 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;123.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;220;-1.0;Archiv_der_Ausrüstung;900;Der Orkische Blutspeer erlaubt es, das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;125.0;220;-1.0;Archiv_der_Ausrüstung;900;Festnageln (
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;220;-1.0;Archiv_der_Ausrüstung;900;siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;127.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;220;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;133.0;220;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;220;-1.0;Archiv_der_Ausrüstung;900;) um +2 erleichtert auszuführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;135.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;136.0;220;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;137.0;220;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;138.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;139.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;140.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;141.0;220;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;142.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;143.0;220;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;144.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;145.0;220;-1.0;Archiv_der_Ausrüstung;900;247
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;146.0;220;-1.0;Archiv_der_Ausrüstung;900;) ist um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;147.0;220;-1.0;Archiv_der_Ausrüstung;900;Schere (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;148.0;220;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+1GE/KK 15–2/–4kurz0,25 Stn15 HF5 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;149.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;150.0;220;-1.0;Archiv_der_Ausrüstung;900;Scheren richten gegen Seile und Netze +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;151.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;152.0;220;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;153.0;220;-1.0;Archiv_der_Ausrüstung;900;Kreuzblock
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;154.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;155.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;156.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;157.0;220;-1.0;Archiv_der_Ausrüstung;900;299
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;158.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;159.0;220;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;160.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;161.0;220;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;162.0;220;-1.0;Archiv_der_Ausrüstung;900;) ist gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;163.0;220;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;164.0;220;-1.0;Archiv_der_Ausrüstung;900;,
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;165.0;220;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;166.0;220;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;167.0;220;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;168.0;220;-1.0;Archiv_der_Ausrüstung;900;nicht durchführbar.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;169.0;220;-1.0;Archiv_der_Ausrüstung;900;Schlachtermesser (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;170.0;220;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+2GE/KK 14–1/–3kurz1 Stn35 HF40 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;171.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;172.0;220;-1.0;Archiv_der_Ausrüstung;900;Gegen ungerüstete Gegner und gegen Lederrüstungen richtet ein Schlachtermesser +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;173.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;174.0;220;-1.0;Archiv_der_Ausrüstung;900;Gegen Rüstungen mit RS 3 oder höher richtet ein Schlachtermesser –2 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;175.0;220;-1.0;Archiv_der_Ausrüstung;900;Schmiedehammer (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;176.0;220;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 140/–3mittel1,25 Stn70 HF100 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;177.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;178.0;220;-1.0;Archiv_der_Ausrüstung;900;Bei Einsatz des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;179.0;220;-1.0;Archiv_der_Ausrüstung;900;Zertrümmern
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;180.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;181.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;182.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;183.0;220;-1.0;Archiv_der_Ausrüstung;900;350
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;184.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;185.0;220;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;186.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;187.0;220;-1.0;Archiv_der_Ausrüstung;900;166
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;188.0;220;-1.0;Archiv_der_Ausrüstung;900;) werden 2W6 für die TP benutzt und das bessere Ergebnis der beiden Würfel zählt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;189.0;220;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;190.0;220;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;191.0;220;-1.0;Archiv_der_Ausrüstung;900;Finte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;192.0;220;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;193.0;220;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;194.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;195.0;220;-1.0;Archiv_der_Ausrüstung;900;295
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;196.0;220;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;197.0;220;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;198.0;220;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;199.0;220;-1.0;Archiv_der_Ausrüstung;900;247
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;200.0;220;-1.0;Archiv_der_Ausrüstung;900;) ist um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;221;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;221;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätSchneiderschere (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;221;-1.0;Archiv_der_Ausrüstung;900;Dolche1W6+1GE/KK 16–2/–3kurz0,3 Stn20 HF7 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;221;-1.0;Archiv_der_Ausrüstung;900;Scheren richten gegen Seile und Netze +1 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;221;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;8.0;221;-1.0;Archiv_der_Ausrüstung;900;Kreuzblock
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;221;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;221;-1.0;Archiv_der_Ausrüstung;900;299
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;221;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;221;-1.0;Archiv_der_Ausrüstung;900;248
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;221;-1.0;Archiv_der_Ausrüstung;900;) ist gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;18.0;221;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;221;-1.0;Archiv_der_Ausrüstung;900;,
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;20.0;221;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;221;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;22.0;221;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;221;-1.0;Archiv_der_Ausrüstung;900;nicht durchführbar.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;221;-1.0;Archiv_der_Ausrüstung;900;Seife mit Tuch (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;221;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen1W3KK 14–1/–mittel0,5+ Stn100 HF1+ S–
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;221;-1.0;Archiv_der_Ausrüstung;900;Eine Seife mit Tuch verursacht nicht schon bei einer 19 einen Patzer, sondern erst bei 20.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;221;-1.0;Archiv_der_Ausrüstung;900;Wird die Seife mit Tuch mit einer scharfen Waffe pariert (z. B. mit einem Schwert oder Dolch), muss mit 1W6 gewürfelt werden. Bei 4-6 wird die Seife mit Tuch so beschädigt, dass sie nicht mehr als Waffe zu gebrauchen ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;221;-1.0;Archiv_der_Ausrüstung;900;Sense (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;221;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3GE/KK 16–2/–1lang3,5 Stn200 HF40 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;221;-1.0;Archiv_der_Ausrüstung;900;Mit der Sense kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;34.0;221;-1.0;Archiv_der_Ausrüstung;900;Zu Fall bringen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;221;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;221;-1.0;Archiv_der_Ausrüstung;900;307
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;221;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;221;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;221;-1.0;Archiv_der_Ausrüstung;900;) ausgeführt werden, auch wenn der Held die entsprechende Sonderfertigkeit nicht beherrscht. Allerdings erleidet der Held dabei eine Erschwernis von –6 statt nur von 4 auf die AT. Besitzt der Held die SF, kann er das Manöver regulär ausführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;221;-1.0;Archiv_der_Ausrüstung;900;Wer mit einer Sense eine Attacke oder Parade ausführt, darf sich in der laufenden KR nur mit halber GS fortbewegen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;221;-1.0;Archiv_der_Ausrüstung;900;Sichel (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;221;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 15–1/–2kurz0,5 Stn60 HF10 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;221;-1.0;Archiv_der_Ausrüstung;900;Wird mit der Sichel das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;50.0;221;-1.0;Archiv_der_Ausrüstung;900;Verteidigungshaltung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;221;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;221;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;56.0;221;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;221;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;221;-1.0;Archiv_der_Ausrüstung;900;) angewendet, steigt die PA um 1 weiteren Punkt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;221;-1.0;Archiv_der_Ausrüstung;900;Richtet die Sichel 8 oder mehr TP bei einem einzigen Angriff an, so muss überprüft werden, ob sich die Sichelklinge ablöst. Bei 1 auf 1W6 löst sich die Klinge und der Held kann nur noch mit dem Holzstab weiterkämpfen (Werte wie Knüppel). Um die Klinge wieder zu befestigen, ist eine Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;62.0;221;-1.0;Archiv_der_Ausrüstung;900;Metallbearbeitung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;63.0;221;-1.0;Archiv_der_Ausrüstung;900;
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;64.0;221;-1.0;Archiv_der_Ausrüstung;900;(Grobschmiedearbeiten)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;65.0;221;-1.0;Archiv_der_Ausrüstung;900;+3,
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;66.0;221;-1.0;Archiv_der_Ausrüstung;900;5 Minuten, beliebig viele Versuche
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;67.0;221;-1.0;Archiv_der_Ausrüstung;900;, notwendig.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;68.0;221;-1.0;Archiv_der_Ausrüstung;900;Sonnenschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;69.0;221;-1.0;Archiv_der_Ausrüstung;900;Schilde1W6KK 16–4/+1kurz4 Stn80 HF130 Skomp (1 AP)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;70.0;221;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;71.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffe ist nur von Sonnenlegionären erwerbbar kleiner Schild, 50 Strukturpunkte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;72.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;73.0;221;-1.0;Archiv_der_Ausrüstung;900;Bei der Abwehr von Pfeilen und Bolzen bekommt der Sonnenschild einen Bonus von +1 PA (nach der Verdopplung des Schild-Paradebonus).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;74.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;75.0;221;-1.0;Archiv_der_Ausrüstung;900;Verfügen zwei Kämpfer über den gleichen INI-Wert, schlägt der Gegner des Trägers eines Sonnenschildes immer zuerst zu. Führt der Gegner ebenfalls einen Sonnenschild, kommen die normalen Regeln zur Reihenfolge des Handelns (siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;76.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;77.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;78.0;221;-1.0;Archiv_der_Ausrüstung;900;62ff.
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;79.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;80.0;221;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;81.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;82.0;221;-1.0;Archiv_der_Ausrüstung;900;227
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;83.0;221;-1.0;Archiv_der_Ausrüstung;900;) zum Tragen. Der Träger eines Sonnenschilds erleidet einen Abzug von 1 auf GS.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;84.0;221;-1.0;Archiv_der_Ausrüstung;900;Spaten (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;85.0;221;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+4KK 13–2/–4mittel2 Stn90 HF8,5 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;86.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;87.0;221;-1.0;Archiv_der_Ausrüstung;900;Werden mit einem Spaten 10 oder mehr SP verursacht, muss dem Gegner eine Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;88.0;221;-1.0;Archiv_der_Ausrüstung;900;Selbstbeherrschung (Handlungsfähigkeit bewahren)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;89.0;221;-1.0;Archiv_der_Ausrüstung;900;gelingen, ansonsten erleidet er 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;90.0;221;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;91.0;221;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;92.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;93.0;221;-1.0;Archiv_der_Ausrüstung;900;Eine erfolgreiche PA mit dem Spaten erschwert wegen der Schwerfälligkeit der Waffe bis zum Ende der nächsten KR die AT des Helden um –2
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;94.0;221;-1.0;Archiv_der_Ausrüstung;900;Spitzhacke (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;95.0;221;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+5KK 13–1/–5mittel2,75 Stn70 HF20 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;96.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;97.0;221;-1.0;Archiv_der_Ausrüstung;900;Rüstungen mit RS 4 und mehr erleiden einen Malus von –1 RS gegen die Spitzhacke.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;98.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;99.0;221;-1.0;Archiv_der_Ausrüstung;900;Bei einer misslungenen Attacke mit der Spitzhacke muss mit 1W6 gewürfelt werden. Bei 5-6 hat sich die Spitzhacke verkeilt und steckt irgendwo fest. Der Held muss eine Probe auf
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;100.0;221;-1.0;Archiv_der_Ausrüstung;900;Kraftakt (Ziehen & Zerren)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;101.0;221;-1.0;Archiv_der_Ausrüstung;900;bestehen, um sie wieder herauszulösen. Vorher kann er nicht mit der Waffe weiterkämpfen. Der Versuch des Herausziehens kostet 1 Aktion.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;102.0;221;-1.0;Archiv_der_Ausrüstung;900;Stuhl (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;103.0;221;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 15–2/–2mittel9 Stn110 HF15 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;104.0;221;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;105.0;221;-1.0;Archiv_der_Ausrüstung;900;nur für einen Angriff anwendbar, danach kaputt
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;106.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;107.0;221;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;108.0;221;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;109.0;221;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;110.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;111.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;112.0;221;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;113.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;114.0;221;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;115.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;116.0;221;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;117.0;221;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;118.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;119.0;221;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;120.0;221;-1.0;Archiv_der_Ausrüstung;900;Stuhlbein (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;121.0;221;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 14–1/–3mittel1,5 Stn50 HF––
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;122.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;123.0;221;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;124.0;221;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;125.0;221;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;126.0;221;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;127.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;128.0;221;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;129.0;221;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;130.0;221;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;131.0;221;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;132.0;221;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;133.0;221;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;134.0;221;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;135.0;221;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;222;-1.0;Archiv_der_Ausrüstung;1200;Waffen und Ausrüstungen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;222;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;222;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätTisch (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;222;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+4KK 17–4/–1mittel40 Stn120 HF40 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;222;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;222;-1.0;Archiv_der_Ausrüstung;900;nur für einen Angriff anwendbar, danach kaputt<br> Voraussetzung für Einsatz als Waffe: Körperkraft 14
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;9.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;222;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;222;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;222;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;222;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;222;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;222;-1.0;Archiv_der_Ausrüstung;900;Tulamidisches Kurzschwert (Scimshar)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;222;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+2GE/KK 140/–1kurz0,75 Stn60 HF140 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;222;-1.0;Archiv_der_Ausrüstung;900;Rüstungen mit RS 2 und weniger erhalten einen Malus von –1 RS (bis zu einem Minimum von 0).
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;222;-1.0;Archiv_der_Ausrüstung;900;Mit einem Tulamidischen Kurzschwert sind Paraden gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;27.0;222;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;222;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;29.0;222;-1.0;Archiv_der_Ausrüstung;900;Zweihandschwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;222;-1.0;Archiv_der_Ausrüstung;900;um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;222;-1.0;Archiv_der_Ausrüstung;900;Vorschlaghammer (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;222;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen2W6+1KK 14–1/–4mittel5 Stn80 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;35.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;222;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;222;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;222;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;222;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;222;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;222;-1.0;Archiv_der_Ausrüstung;900;Wanderstab (2H, i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;222;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+1GE/KK 150/+2lang0,75 Stn150 HF12 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;51.0;222;-1.0;Archiv_der_Ausrüstung;900;Zu Fall bringen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;222;-1.0;Archiv_der_Ausrüstung;900;307
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;222;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;222;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;222;-1.0;Archiv_der_Ausrüstung;900;) ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;63.0;222;-1.0;Archiv_der_Ausrüstung;900;Sturmangriff
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;67.0;222;-1.0;Archiv_der_Ausrüstung;900;304
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;222;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;222;-1.0;Archiv_der_Ausrüstung;900;249
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;222;-1.0;Archiv_der_Ausrüstung;900;) ist um –1 erschwert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;222;-1.0;Archiv_der_Ausrüstung;900;Widderkeule
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;222;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+3KK 140/–1mittel1 Stn60 HF70 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;222;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;222;-1.0;Archiv_der_Ausrüstung;900;geweiht (Levthan), Waffe ist nur von Levthanpriestern erwerbbar
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;77.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;79.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;81.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;82.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;83.0;222;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;85.0;222;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;87.0;222;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;222;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;222;-1.0;Archiv_der_Ausrüstung;900;Nach einem bestätigten Patzer bei einer Attacke erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;91.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;222;-1.0;Archiv_der_Ausrüstung;900;.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;93.0;222;-1.0;Archiv_der_Ausrüstung;900;Wurfhaken mit Kletterseil (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;222;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen1W6+1KK 14–2/–lang1,5 Stn100 HF7,3 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;95.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;96.0;222;-1.0;Archiv_der_Ausrüstung;900;Mit der Waffe kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;97.0;222;-1.0;Archiv_der_Ausrüstung;900;Zu Fall bringen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;98.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;99.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;100.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;101.0;222;-1.0;Archiv_der_Ausrüstung;900;307
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;102.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;103.0;222;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;104.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;222;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;222;-1.0;Archiv_der_Ausrüstung;900;) genutzt werden, auch wenn die Kampftechnik
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;107.0;222;-1.0;Archiv_der_Ausrüstung;900;Kettenwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;108.0;222;-1.0;Archiv_der_Ausrüstung;900;dies eigentlich nicht erlaubt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;109.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;222;-1.0;Archiv_der_Ausrüstung;900;Nach einem bestätigten Patzer bei einer Attacke erhält der Träger zusätzlich 1 Stufe
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;111.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;112.0;222;-1.0;Archiv_der_Ausrüstung;900;. Patzer treten bei dieser Waffe schon bei 18-20 auf, statt bei 19-20. Grund dafür: Die Waffe ist sowohl eine Kettenwaffe als auch eine improvisierte Waffe.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;113.0;222;-1.0;Archiv_der_Ausrüstung;900;Zauberkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;114.0;222;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen1W6+1KK 13–1/–4kurz2 Stn10 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;115.0;222;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;116.0;222;-1.0;Archiv_der_Ausrüstung;900;Um die Kugel bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;117.0;222;-1.0;Archiv_der_Ausrüstung;900;Scharlatane)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;222;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;119.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;120.0;222;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;121.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;123.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;125.0;222;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;127.0;222;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;222;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;222;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;222;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, erleidet er 1W3 TP. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;133.0;222;-1.0;Archiv_der_Ausrüstung;900;Zauberstecken, kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;222;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+1KK 140/–1kurz0,75 Stn50 HF30 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;135.0;222;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;136.0;222;-1.0;Archiv_der_Ausrüstung;900;Um den Stecken bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;137.0;222;-1.0;Archiv_der_Ausrüstung;900;Scharlatane)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;138.0;222;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;139.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;140.0;222;-1.0;Archiv_der_Ausrüstung;900;Der Träger eines Zaubersteckens kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;141.0;222;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;142.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;143.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;144.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;145.0;222;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;146.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;147.0;222;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;148.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;149.0;222;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;150.0;222;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert durchführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;151.0;222;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;152.0;222;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;153.0;222;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;154.0;222;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;155.0;222;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;156.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;157.0;222;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;158.0;222;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;159.0;222;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;160.0;222;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;161.0;222;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;162.0;222;-1.0;Archiv_der_Ausrüstung;900;) ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;223;-1.0;Archiv_der_Ausrüstung;1000;Weitere Nahkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;223;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätZauberstecken, lang (2H)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;223;-1.0;Archiv_der_Ausrüstung;900;Stangenwaffen1W6+2GE/KK 16–1 /+2lang0,75 Stn150 HF60 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;223;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;223;-1.0;Archiv_der_Ausrüstung;900;Um den Stecken bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;6.0;223;-1.0;Archiv_der_Ausrüstung;900;Scharlatane)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;223;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;223;-1.0;Archiv_der_Ausrüstung;900;Der Träger eines Zaubersteckens kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;10.0;223;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;223;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;223;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;223;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;223;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;223;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;223;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;223;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert durchführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;223;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;22.0;223;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;223;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;223;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;223;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;223;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;223;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;223;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;223;-1.0;Archiv_der_Ausrüstung;900;) ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;223;-1.0;Archiv_der_Ausrüstung;900;Zauberstecken, mittel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;223;-1.0;Archiv_der_Ausrüstung;900;Hiebwaffen1W6+2KK 140/–1mittel0,75 Stn100 HF45 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;34.0;223;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;223;-1.0;Archiv_der_Ausrüstung;900;Um den Stecken bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;36.0;223;-1.0;Archiv_der_Ausrüstung;900;Scharlatane)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;223;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;223;-1.0;Archiv_der_Ausrüstung;900;Der Träger eines Zaubersteckens kann das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;40.0;223;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;223;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;223;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;223;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;223;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;223;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;223;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;223;-1.0;Archiv_der_Ausrüstung;900;) um +1 erleichtert durchführen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;50.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;223;-1.0;Archiv_der_Ausrüstung;900;Die Anwendung des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;52.0;223;-1.0;Archiv_der_Ausrüstung;900;Vorstoß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;223;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;223;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;56.0;223;-1.0;Archiv_der_Ausrüstung;900;306
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;223;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;223;-1.0;Archiv_der_Ausrüstung;900;Regelwerk
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;223;-1.0;Archiv_der_Ausrüstung;900;250
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;223;-1.0;Archiv_der_Ausrüstung;900;) ist nicht möglich.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;62.0;223;-1.0;Archiv_der_Ausrüstung;900;Zyklopäisches Kurzschwert) (Parazonium)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;63.0;223;-1.0;Archiv_der_Ausrüstung;900;Schwerter1W6+3GE/KK 150/–1kurz0,75 Stn60 HF140 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;64.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;65.0;223;-1.0;Archiv_der_Ausrüstung;900;Bei Einsatz des Manövers
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;66.0;223;-1.0;Archiv_der_Ausrüstung;900;Sprungangriff
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;67.0;223;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;68.0;223;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;69.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;70.0;223;-1.0;Archiv_der_Ausrüstung;900;346
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;71.0;223;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;72.0;223;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;73.0;223;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;74.0;223;-1.0;Archiv_der_Ausrüstung;900;164
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;75.0;223;-1.0;Archiv_der_Ausrüstung;900;) steigt die QS der Talentprobe um 1, solange die Probe überhaupt gelingt.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;76.0;223;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;77.0;223;-1.0;Archiv_der_Ausrüstung;900;Mit einem zyklopäischen Kurzschwert sind Paraden gegen
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;78.0;223;-1.0;Archiv_der_Ausrüstung;900;Zweihandhiebwaffen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;79.0;223;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;80.0;223;-1.0;Archiv_der_Ausrüstung;900;Zweihandschwerter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;81.0;223;-1.0;Archiv_der_Ausrüstung;900;um – 1 erschwert.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;224;-1.0;Archiv_der_Ausrüstung;1200;Waffen und Ausrüstungen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;224;-1.0;Archiv_der_Ausrüstung;1000;Weitere Fernkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;224;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPLZRWMunitionstypGewichtLängePreisKomplexitätApfel (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W31 Aktion2/4/8–0,2 Stn10 HF0,03 S–
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;7.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;11.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;224;-1.0;Archiv_der_Ausrüstung;900;Arbalette
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;224;-1.0;Archiv_der_Ausrüstung;900;Armbrüste2W6+410 Aktionen10/50/100Kugeln5 Stn150 HF 750 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Abzüge für Schüsse auf Ziele der Größenkategorie
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;17.0;224;-1.0;Archiv_der_Ausrüstung;900;klein
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;224;-1.0;Archiv_der_Ausrüstung;900;und
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;19.0;224;-1.0;Archiv_der_Ausrüstung;900;winzig
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;224;-1.0;Archiv_der_Ausrüstung;900;sinken um 1.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;224;-1.0;Archiv_der_Ausrüstung;900;Bei einer gewürfelten 20, egal ob der Patzer bestätigt wird oder nicht, kommt es zu einer schweren Ladehemmung. Der Schütze benötigt 2 Aktionen, um die Ladehemmung zu beseitigen. Spielst du mit der Optionalregel der Patzertabellen, addieren sich diese Aktionen auf die Zeit für eine weitere erwürfelte Ladehemmung.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;224;-1.0;Archiv_der_Ausrüstung;900;Bierkrug (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W3+11 Aktion2/4/8––1,2 Stn25 HF1,5 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;224;-1.0;Archiv_der_Ausrüstung;900;nur für einen Angriff anwendbar, danach kaputt
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;29.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;33.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;224;-1.0;Archiv_der_Ausrüstung;900;Efferdbart
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;36.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W6+32 Aktionen2/10/15–2 Stn160 HF100 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;38.0;224;-1.0;Archiv_der_Ausrüstung;900;geweiht (Efferd), Waffe ist nur von Efferdgeweihten erwerbbar
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;41.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;45.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;224;-1.0;Archiv_der_Ausrüstung;900;Feuerspeien
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;224;-1.0;Archiv_der_Ausrüstung;900;Feuerspeien1W61 Aktion3/4/5
+PDType0Font/PDCIDFontType2, PostScript name: CRORMZ+GentiumBasic;false;false;49.0;224;-1.0;Archiv_der_Ausrüstung;900;Brennflüssig
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;224;-1.0;Archiv_der_Ausrüstung;900;-keit–––prim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;224;-1.0;Archiv_der_Ausrüstung;900;Der FK-Angriff kann auf zwei Ziele gleichzeitig erfolgen, die nicht weiter als 1 Schritt voneinander entfernt sein dürfen. Sie können sich jeweils getrennt gegen den Angriff verteidigen.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;224;-1.0;Archiv_der_Ausrüstung;900;Bei einer gewürfelten 19 und 20 bei FK hat sich der Held selbst verletzt (1W3 SP), bei einem bestätigten Patzer erleidet er zusätzlich den Status
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;55.0;224;-1.0;Archiv_der_Ausrüstung;900;Brennend
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;224;-1.0;Archiv_der_Ausrüstung;900;auf kleiner Fläche.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;224;-1.0;Archiv_der_Ausrüstung;900;Geschirr (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W3+11 Aktion2/4/8––0,25 Stn25 HF0,9 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;224;-1.0;Archiv_der_Ausrüstung;900;nur für einen Angriff anwendbar, danach kaputt
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;63.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;67.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;224;-1.0;Archiv_der_Ausrüstung;900;Jonglierball (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W31 Aktion4/8/16–0,2 Stn7 HF0,5 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;72.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;73.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;74.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;77.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;78.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;79.0;224;-1.0;Archiv_der_Ausrüstung;900;Jonglierball mit Gewichten (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W3+11 Aktion2/4/8–0,3 Stn7 HF0,8 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;81.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;82.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;83.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;84.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;85.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;86.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;87.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;88.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;89.0;224;-1.0;Archiv_der_Ausrüstung;900;Kristallkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;90.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W6+21 Aktion2/4/6–3 Stn10 HF80 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;91.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;92.0;224;-1.0;Archiv_der_Ausrüstung;900;Um die Kugel bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;93.0;224;-1.0;Archiv_der_Ausrüstung;900;Kristallomanten)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;94.0;224;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;95.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;96.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;97.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;98.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;99.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;100.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;101.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;102.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;103.0;224;-1.0;Archiv_der_Ausrüstung;900;Magierkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;104.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W6+11 Aktion3/6/9–2 Stn10 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;105.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;106.0;224;-1.0;Archiv_der_Ausrüstung;900;Um die Kugel bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;107.0;224;-1.0;Archiv_der_Ausrüstung;900;Gildenmagier)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;108.0;224;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;109.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;110.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;111.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;112.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;113.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;114.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;115.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;116.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;117.0;224;-1.0;Archiv_der_Ausrüstung;900;Steinchen (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;118.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W31 Aktion2/4/8––0,3 Stn5 HF––
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;119.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;120.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;121.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;122.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;123.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;124.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;125.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;126.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;127.0;224;-1.0;Archiv_der_Ausrüstung;900;Vase (i)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;128.0;224;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W3+11 Aktion2/4/8–2 Stn25 HF1 Sprim
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;129.0;224;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;130.0;224;-1.0;Archiv_der_Ausrüstung;900;nur für einen Angriff anwendbar, danach kaputt
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;131.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;132.0;224;-1.0;Archiv_der_Ausrüstung;900;Die Probe auf FK in der Reichweite
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;133.0;224;-1.0;Archiv_der_Ausrüstung;900;kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;134.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um +1 erleichtert.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;135.0;224;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;136.0;224;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;137.0;224;-1.0;Archiv_der_Ausrüstung;900;Präziser Schuss/Wurf
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;138.0;224;-1.0;Archiv_der_Ausrüstung;900;ist um –1 erschwert und richtet 1 TP weniger an.
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;225;-1.0;Archiv_der_Ausrüstung;1800;Ausstattung
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;225;-1.0;Archiv_der_Ausrüstung;1000;Weitere Fernkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;225;-1.0;Archiv_der_Ausrüstung;900;WaffeKampftechnikTPLZRWMunitionstypGewichtLängePreisKomplexitätZauberkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;225;-1.0;Archiv_der_Ausrüstung;900;Wurfwaffen1W6+11 Aktion3/6/9 –2 Stn10 HF30 Seinf
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;225;-1.0;Archiv_der_Ausrüstung;900;Anmerkung
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;225;-1.0;Archiv_der_Ausrüstung;900;Um die Kugel bei der Heldenerschaffung zu erwerben, muss der Held der Tradition (
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;7.0;225;-1.0;Archiv_der_Ausrüstung;900;Scharlatane)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;225;-1.0;Archiv_der_Ausrüstung;900;angehören.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;225;-1.0;Archiv_der_Ausrüstung;900;Waffenvorteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;225;-1.0;Archiv_der_Ausrüstung;900;Das Manöver
+PDTrueTypeFont RZXEXF+GentiumBasic-Italic;false;true;11.0;225;-1.0;Archiv_der_Ausrüstung;900;Betäubungsschlag
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;225;-1.0;Archiv_der_Ausrüstung;900;(siehe
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;225;-1.0;Archiv_der_Ausrüstung;900;Kodex des Schwertes
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;225;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;225;-1.0;Archiv_der_Ausrüstung;900;293
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;225;-1.0;Archiv_der_Ausrüstung;900;oder
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;225;-1.0;Archiv_der_Ausrüstung;900;Aventurisches Kompendium
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;225;-1.0;Archiv_der_Ausrüstung;900;Seite
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;225;-1.0;Archiv_der_Ausrüstung;900;152
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;225;-1.0;Archiv_der_Ausrüstung;900;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;225;-1.0;Archiv_der_Ausrüstung;900;Waffennachteil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;225;-1.0;Archiv_der_Ausrüstung;900;Unterläuft dem Träger der Waffe ein Patzer, erleidet er 1W3 TP. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers.

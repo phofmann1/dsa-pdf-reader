@@ -1,0 +1,825 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;24;-1.0;Helden_der_Flusslande;1300;23
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;2.0;24;-1.0;Helden_der_Flusslande;1000;Hügellande und Angbarer See (Stufe II)Gastfreundlich
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;3.0;24;-1.0;Helden_der_Flusslande;1000;Bewohner der Hügellande und der Gegend um den Angbarer See gelten als besonders herzlich und gastfreundlich. Sie erhalten eine Erleichterung von +1 auf CH-Teilproben bei
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;4.0;24;-1.0;Helden_der_Flusslande;1000;Überreden (Aufschwatzen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;5.0;24;-1.0;Helden_der_Flusslande;1000;oder
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;6.0;24;-1.0;Helden_der_Flusslande;1000;Schmeicheln)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;7.0;24;-1.0;Helden_der_Flusslande;1000;, wenn es um Kontakt mit Fremden und Gästen geht.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;8.0;24;-1.0;Helden_der_Flusslande;1000;Verweichlicht
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;9.0;24;-1.0;Helden_der_Flusslande;1000;Bewohner der Hügellande und des Angbarer Sees sind bekannt dafür, sehr friedliebend zu sein. Sie erhalten eine Erschwernis von –1 auf alle Proben auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;10.0;24;-1.0;Helden_der_Flusslande;1000;Einschüchtern
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;11.0;24;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;12.0;24;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;13.0;24;-1.0;Helden_der_Flusslande;1000;da ihnen keiner recht glauben will, dass sie gefährlich sein können.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;14.0;24;-1.0;Helden_der_Flusslande;1000;Kombinierbar mit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;24;-1.0;Helden_der_Flusslande;1000;Stufe I:
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;16.0;24;-1.0;Helden_der_Flusslande;1000;Typische/r Koscher/in
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;24;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;18.0;24;-1.0;Helden_der_Flusslande;1000;Hügelzwerge
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;19.0;24;-1.0;Helden_der_Flusslande;1000;Nordgratenfels (Stufe II)Waldkenner
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;24;-1.0;Helden_der_Flusslande;1000;Kaum jemand kennt Wälder so gut wie die Nordgratenfelser. Sie kennen viele Unterschlüpfe im Wald und wissen, wie man sich am besten verbirgt. Bei Proben auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;21.0;24;-1.0;Helden_der_Flusslande;1000;Verbergen (sich Verstecken)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;24;-1.0;Helden_der_Flusslande;1000;im Wald erhalten sie bei der dritten Teilprobe eine Erleichterung von +1 auf GE.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;24;-1.0;Helden_der_Flusslande;1000;Hinterwäldler
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;24;-1.0;Helden_der_Flusslande;1000;In Nordgratenfels gibt es keine größeren Ansiedlungen. Sollte ein Bewohner eine Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;25.0;24;-1.0;Helden_der_Flusslande;1000;Gassenwissen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;24;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;27.0;24;-1.0;Helden_der_Flusslande;1000;(Informationssuche
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;28.0;24;-1.0;Helden_der_Flusslande;1000;oder
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;29.0;24;-1.0;Helden_der_Flusslande;1000;Orteinschätzung)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;30.0;24;-1.0;Helden_der_Flusslande;1000;in einer Ortschaft mit mehr als 300 Einwohnern ablegen müssen, so erhält er bei der Teilprobe auf IN eine Erschwernis von –1.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;31.0;24;-1.0;Helden_der_Flusslande;1000;Kombinierbar mit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;32.0;24;-1.0;Helden_der_Flusslande;1000;Stufe I:
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;33.0;24;-1.0;Helden_der_Flusslande;1000;Typische/r Nordmärker/in
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;34.0;24;-1.0;Helden_der_Flusslande;1000;Stammland der Zwerge (Stufe II)Ruhig Blut
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;35.0;24;-1.0;Helden_der_Flusslande;1000;Bewohner der Stammlande der Zwerge sind ruhig und gelassen. Bei Proben auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;36.0;24;-1.0;Helden_der_Flusslande;1000;Willenskraft (Bedrohungen standhalten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;37.0;24;-1.0;Helden_der_Flusslande;1000;oder
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;38.0;24;-1.0;Helden_der_Flusslande;1000;Einschüchtern widerstehen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;39.0;24;-1.0;Helden_der_Flusslande;1000;) ist ihre Teilprobe auf MU um +1 erleichtert.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;40.0;24;-1.0;Helden_der_Flusslande;1000;Mürrischer Geselle
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;41.0;24;-1.0;Helden_der_Flusslande;1000;Die Bewohner des Stammlands der Zwerge sind ein mürrisches Volk. Müssen sie eine Vergleichsprobe in
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;42.0;24;-1.0;Helden_der_Flusslande;1000;Überreden (Manipulieren)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;43.0;24;-1.0;Helden_der_Flusslande;1000;ablegen, gilt ihre Probe bei einem Unentschieden immer als misslungen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;44.0;24;-1.0;Helden_der_Flusslande;1000;Kombinierbar mit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;45.0;24;-1.0;Helden_der_Flusslande;1000;Stufe I:
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;46.0;24;-1.0;Helden_der_Flusslande;1000;Typische/r Nordmärker/in
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;47.0;24;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;48.0;24;-1.0;Helden_der_Flusslande;1000;Ambosszwerge
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;49.0;24;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;50.0;24;-1.0;Helden_der_Flusslande;1000;Erzzwerge
+PDTrueTypeFont XDDCID+Andalus;false;false;51.0;24;-1.0;Helden_der_Flusslande;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;52.0;24;-1.0;Helden_der_Flusslande;1300;Bastler
+PDType0Font/PDCIDFontType2, PostScript name: NANURT+GentiumBasic;false;false;53.0;24;-1.0;Helden_der_Flusslande;1000;Ein Bastler ist ein Erfinder, der durch Ausprobieren im
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;24;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: NANURT+GentiumBasic;false;false;55.0;24;-1.0;Helden_der_Flusslande;1000;mer neue Wege entdeckt, seine Erfindungen zu verbes
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;24;-1.0;Helden_der_Flusslande;1000;-sern bzw. sie schneller herzustellen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;57.0;24;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;24;-1.0;Helden_der_Flusslande;1000;Wer über diese Sonderfertigkeit verfügt, der kann das Intervall einer Herstellungsprobe für mechanische Konstruktionen (siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;59.0;24;-1.0;Helden_der_Flusslande;1000;58
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;24;-1.0;Helden_der_Flusslande;1000;) um 25 % verkürzen. Außerdem erhöhen sich die Strukturpunkte für gewöhnliche Gegenstände und mechanische Konstruktionen, die er herstellt, um 10 % im Verhältnis zu den Listenwerten.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;61.0;24;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;62.0;24;-1.0;Helden_der_Flusslande;1000;Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;63.0;24;-1.0;Helden_der_Flusslande;1000;4
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;64.0;24;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;65.0;24;-1.0;Helden_der_Flusslande;1000;8 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;66.0;24;-1.0;Helden_der_Flusslande;1300;Ingenieurin
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;67.0;24;-1.0;Helden_der_Flusslande;1000;Nicht jeder Aventurier ist darin bewandert, seine – wenn überhaupt vorhandenen – Kenntnisse der Mechanik in die Herstellung mechanischer Konstrukte zu übertragen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;68.0;24;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;24;-1.0;Helden_der_Flusslande;1000;Die Heldin bekommt durch das neue Anwendungsgebiet
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;70.0;24;-1.0;Helden_der_Flusslande;1000;Mechanische Konstrukte herstellen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;71.0;24;-1.0;Helden_der_Flusslande;1000;in den Talenten
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;72.0;24;-1.0;Helden_der_Flusslande;1000;Holz
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;24;-1.0;Helden_der_Flusslande;1000;-,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;74.0;24;-1.0;Helden_der_Flusslande;1000;Leder
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;75.0;24;-1.0;Helden_der_Flusslande;1000;-,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;76.0;24;-1.0;Helden_der_Flusslande;1000;Metall
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;77.0;24;-1.0;Helden_der_Flusslande;1000;-,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;78.0;24;-1.0;Helden_der_Flusslande;1000;Stein
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;79.0;24;-1.0;Helden_der_Flusslande;1000;- und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;80.0;24;-1.0;Helden_der_Flusslande;1000;Stoffbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;81.0;24;-1.0;Helden_der_Flusslande;1000;. Sie kann fortan mechanische Konstrukte (siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;82.0;24;-1.0;Helden_der_Flusslande;1000;58
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;83.0;24;-1.0;Helden_der_Flusslande;1000;) anfertigen. Für komplexe Konstrukte benötigt sie ein Berufsgeheimnis.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;84.0;24;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;85.0;24;-1.0;Helden_der_Flusslande;1000;Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;86.0;24;-1.0;Helden_der_Flusslande;1000;8,
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;87.0;24;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;88.0;24;-1.0;Helden_der_Flusslande;1000;je nach verwendeten Material:
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;89.0;24;-1.0;Helden_der_Flusslande;1000;Holzbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;90.0;24;-1.0;Helden_der_Flusslande;1000;4,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;91.0;24;-1.0;Helden_der_Flusslande;1000;Lederbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;92.0;24;-1.0;Helden_der_Flusslande;1000;4,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;93.0;24;-1.0;Helden_der_Flusslande;1000;Metallbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;94.0;24;-1.0;Helden_der_Flusslande;1000;4,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;95.0;24;-1.0;Helden_der_Flusslande;1000;Steinbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;96.0;24;-1.0;Helden_der_Flusslande;1000;4 oder
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;97.0;24;-1.0;Helden_der_Flusslande;1000;Stoffbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;98.0;24;-1.0;Helden_der_Flusslande;1000;4
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;99.0;24;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;100.0;24;-1.0;Helden_der_Flusslande;1000;8 Abenteuerpunkte
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;101.0;24;-1.0;Helden_der_Flusslande;900;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;102.0;24;-1.0;Helden_der_Flusslande;1000;Dieser Wesenszug kann mit dem Wesenszug Hü
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;103.0;24;-1.0;Helden_der_Flusslande;1000;-
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;25;-1.0;Helden_der_Flusslande;1200;Regeln der Flusslande
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;25;-1.0;Helden_der_Flusslande;1300;24
+PDTrueTypeFont XDDCID+Andalus;false;false;3.0;25;-1.0;Helden_der_Flusslande;1800;Talentstilsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;25;-1.0;Helden_der_Flusslande;1000;Die vorliegende Regel ist eine
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;25;-1.0;Helden_der_Flusslande;1000;Fokusregel der Stufe I
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;25;-1.0;Helden_der_Flusslande;1000;für den Themenkomplex
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;7.0;25;-1.0;Helden_der_Flusslande;1000;Sonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;25;-1.0;Helden_der_Flusslande;1000;. Bei Talent-, Kampf- Zauber oder Liturgiestilen handelt es sich um spezielle Sonderfertigkeiten, die besondere Fähigkeiten eines Helden abbilden. Sie stehen nicht jedem Helden frei zur Verfügung, sondern sind mit der Ausbildung an einer bestimmten Krieger- oder Magierakademie, an einer Schwertmeisterschule, bei einem privaten Lehrmeister oder mit jahrelanger Übung in einem bestimmten Bereich verbunden.Mithilfe von Stilsonderfertigkeiten kann man als Spieler seinen Helden deutlich aus der Masse hervorheben. Nicht jeder Abenteurer verfügt über diese Art von Sonderfertigkeit<br> ein Held muss dafür einige Jahre den Stil verinnerlicht haben.Talent-, Kampf-, Zauber- und Liturgiestile funktionieren wie reguläre Sonderfertigkeiten, mit einigen Unterschieden:
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;10.0;25;-1.0;Helden_der_Flusslande;1000;Ein Held kann aus jeder Kategorie maximal einen Stil beherrschen: je einen Talent-, Zauber- und Li
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;11.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;12.0;25;-1.0;Helden_der_Flusslande;1000;turgiestil sowie jeweils einen bewaffneten und ei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;13.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;14.0;25;-1.0;Helden_der_Flusslande;1000;nen waffenlosen Kampfstil. Über bestimmte Son
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;16.0;25;-1.0;Helden_der_Flusslande;1000;derfertigkeiten ist es möglich, zwei gleichartige Stile miteinander zu kombinieren.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;17.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;18.0;25;-1.0;Helden_der_Flusslande;1000;Wer eine Stilsonderfertigkeit beherrscht, kann wei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;19.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;20.0;25;-1.0;Helden_der_Flusslande;1000;tere, zu dem Stil passende Erweiterte Sonderfertig
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;21.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;22.0;25;-1.0;Helden_der_Flusslande;1000;keiten erwerben. Welche das sind, ist bei der jewei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;23.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;24.0;25;-1.0;Helden_der_Flusslande;1000;ligen Stilsonderfertigkeit angegeben. Ein Held ohne einen passenden Stil kann eine Erweiterte Sonder
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;25.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;26.0;25;-1.0;Helden_der_Flusslande;1000;fertigkeit nicht erwerben.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;27.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;28.0;25;-1.0;Helden_der_Flusslande;1000;Stilsonderfertigkeiten können nur bei der entspre
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;30.0;25;-1.0;Helden_der_Flusslande;1000;chenden Institution oder einer geeigneten Einzel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;32.0;25;-1.0;Helden_der_Flusslande;1000;person erworben werden, also beispielsweise an ei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;33.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;34.0;25;-1.0;Helden_der_Flusslande;1000;ner Kriegerakademie, bei einer Handwerksgilde, in einem Hexenzirkel oder an einem Göttertempel.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;35.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;36.0;25;-1.0;Helden_der_Flusslande;1000;Es dauert mehrere Jahre, bis ein Held den Stil so sehr verinnerlicht hat, dass er die entsprechende Sonderfertigkeit erlernen kann.Weitere Informationen zu Talentstilen findest du im
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;37.0;25;-1.0;Helden_der_Flusslande;1000;Aventurischen Kompendium II
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;38.0;25;-1.0;Helden_der_Flusslande;1000;auf Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;39.0;25;-1.0;Helden_der_Flusslande;1000;68
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;25;-1.0;Helden_der_Flusslande;1000;oder im
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;41.0;25;-1.0;Helden_der_Flusslande;1000;Kodex des Schwertes
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;42.0;25;-1.0;Helden_der_Flusslande;1000;auf Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;43.0;25;-1.0;Helden_der_Flusslande;1000;276
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;25;-1.0;Helden_der_Flusslande;1000;.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;45.0;25;-1.0;Helden_der_Flusslande;1300;Weg der Gelehrten (Rechtskunde)
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;46.0;25;-1.0;Helden_der_Flusslande;1000;Kaum jemand kennt sich in einem speziellen Wissens
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;47.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;48.0;25;-1.0;Helden_der_Flusslande;1000;gebiet so gut aus wie die Gelehrte, sodass ihr dort kaum Fehler passieren und sie mit tiefgreifendem Wissen ihre Gefährten zu beeindrucken weiß.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;25;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;50.0;25;-1.0;Helden_der_Flusslande;1000;Die erhält eine Erleichterung von +1 für alle Pro
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;51.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;52.0;25;-1.0;Helden_der_Flusslande;1000;ben auf
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;53.0;25;-1.0;Helden_der_Flusslande;1000;Rechtskunde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;25;-1.0;Helden_der_Flusslande;1000;.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;55.0;25;-1.0;Helden_der_Flusslande;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;25;-1.0;Helden_der_Flusslande;1000;Allgemeinwis-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;57.0;25;-1.0;Helden_der_Flusslande;1000;sen, Fachwissen (Rechtskunde), Universalgenie
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;58.0;25;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;59.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;60.0;25;-1.0;Helden_der_Flusslande;1000;Rechtskunde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;61.0;25;-1.0;Helden_der_Flusslande;1000;8
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;62.0;25;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;63.0;25;-1.0;Helden_der_Flusslande;1000;5 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;64.0;25;-1.0;Helden_der_Flusslande;1300;Weg der Wandergesellin
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;65.0;25;-1.0;Helden_der_Flusslande;1000;So manch eine Handwerksgesellin geht nach Abschluss ih
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;67.0;25;-1.0;Helden_der_Flusslande;1000;rer Ausbildung erstmal auf die Walz. Während sie mal hier, mal dort ihre erworbenen Fähigkeiten einsetzt und sich damit ein erkleckliches Einkommen auf ihrer Reise sichert, feilt sie auch immer weiter an ihrer Handwerkskunst. Und wer viel unterwegs ist, erfährt auch viel Interessantes.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;68.0;25;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;69.0;25;-1.0;Helden_der_Flusslande;1000;Die Heldin kann mit Erwerb dieses Stils ein Talent aussuchen, das für ihr Handwerk wichtig ist, und fort
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;70.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;71.0;25;-1.0;Helden_der_Flusslande;1000;an damit Geld verdienen. Dazu legt sie eine Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;72.0;25;-1.0;Helden_der_Flusslande;1000;Handel (Feilschen)
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;73.0;25;-1.0;Helden_der_Flusslande;1000;und eine Probe auf das entsprechen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;74.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;75.0;25;-1.0;Helden_der_Flusslande;1000;de Handwerkstalent ab und verdient QS x QS Silberta
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;76.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;77.0;25;-1.0;Helden_der_Flusslande;1000;ler. Die Entscheidung, welche Handwerkstalente sich hierfür eignen, obliegt der Meisterin.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;78.0;25;-1.0;Helden_der_Flusslande;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;79.0;25;-1.0;Helden_der_Flusslande;1000;Gerüchte auf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;80.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;81.0;25;-1.0;Helden_der_Flusslande;1000;schnappen, Gute Verarbeitung, Handwerkskunst
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;82.0;25;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;83.0;25;-1.0;Helden_der_Flusslande;1000;ausgewähltes Talent FW 8
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;84.0;25;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;85.0;25;-1.0;Helden_der_Flusslande;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;86.0;25;-1.0;Helden_der_Flusslande;1300;Weg des Greven
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;87.0;25;-1.0;Helden_der_Flusslande;800;
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;88.0;25;-1.0;Helden_der_Flusslande;1000;Die fürstlichen Beamten im Kosch sind stets unterwegs und im gesamten Fürstentum schnell zur Stelle, wenn es darum geht, Streitigkeiten jeglicher Art beizule
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;89.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;90.0;25;-1.0;Helden_der_Flusslande;1000;gen. Meist geht es dabei um die Auslegung traditions
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;91.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;92.0;25;-1.0;Helden_der_Flusslande;1000;reicher Gebote oder die Festsetzung althergebrachter Gutsgrenzen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;93.0;25;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;94.0;25;-1.0;Helden_der_Flusslande;1000;Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;95.0;25;-1.0;Helden_der_Flusslande;1000;Geographie (Kosch)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;96.0;25;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;97.0;25;-1.0;Helden_der_Flusslande;1000;Geschichtswis-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;98.0;25;-1.0;Helden_der_Flusslande;1000;sen (Kosch)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;99.0;25;-1.0;Helden_der_Flusslande;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;100.0;25;-1.0;Helden_der_Flusslande;1000;Rechtskunde (Kosch)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;101.0;25;-1.0;Helden_der_Flusslande;1000;und
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;102.0;25;-1.0;Helden_der_Flusslande;1000;Sagen & Legenden (Kosch)
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;103.0;25;-1.0;Helden_der_Flusslande;1000;sind für jemanden mit diesem Talentstil um +1
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;104.0;25;-1.0;Helden_der_Flusslande;1000;erleichtert.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;105.0;25;-1.0;Helden_der_Flusslande;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;106.0;25;-1.0;Helden_der_Flusslande;1000;Gerüchte auf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;107.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;108.0;25;-1.0;Helden_der_Flusslande;1000;schnappen, Meister der Orientierung, Vertrauenswürdig
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;109.0;25;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;110.0;25;-1.0;Helden_der_Flusslande;1000;Kultur
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;111.0;25;-1.0;Helden_der_Flusslande;1000;Mittelreich
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;112.0;25;-1.0;Helden_der_Flusslande;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;113.0;25;-1.0;Helden_der_Flusslande;1000;Rechtskunde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;114.0;25;-1.0;Helden_der_Flusslande;1000;6
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;115.0;25;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;116.0;25;-1.0;Helden_der_Flusslande;1000;5 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;117.0;25;-1.0;Helden_der_Flusslande;1300;Weg des Mechanikus
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;118.0;25;-1.0;Helden_der_Flusslande;1000;Besonderes Fingerspitzengefühl und Präzision sind im Umgang mit empfindlichen mechanischen Konstrukti
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;119.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;120.0;25;-1.0;Helden_der_Flusslande;1000;onen gefragt. Ein wahrer Mechanikus beherrscht jeden Handgriff genau und weiß immer, wo er sein Werkzeug ansetzen muss.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;121.0;25;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;122.0;25;-1.0;Helden_der_Flusslande;1000;Der Held erhält bei Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;123.0;25;-1.0;Helden_der_Flusslande;1000;Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;124.0;25;-1.0;Helden_der_Flusslande;1000;eine
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;125.0;25;-1.0;Helden_der_Flusslande;1000;Erleichterung von +1. Zudem kann er, wie unter der Schicksalspunkte-Sonderfertigkeit, um ein Ergebnis zu verbessern (siehe
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;126.0;25;-1.0;Helden_der_Flusslande;1000;Regelwerk
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;127.0;25;-1.0;Helden_der_Flusslande;1000;Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;128.0;25;-1.0;Helden_der_Flusslande;1000;220
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;129.0;25;-1.0;Helden_der_Flusslande;1000;), das Wür
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;130.0;25;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;131.0;25;-1.0;Helden_der_Flusslande;1000;felergebnis der Teilprobe auf FF um 2 reduzieren.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;132.0;25;-1.0;Helden_der_Flusslande;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;133.0;25;-1.0;Helden_der_Flusslande;1000;Fachwissen
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;134.0;25;-1.0;Helden_der_Flusslande;1000;(Mechanik), Gesteinskunde, Praxisbezug
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;135.0;25;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;136.0;25;-1.0;Helden_der_Flusslande;1000;
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;137.0;25;-1.0;Helden_der_Flusslande;1000;Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;138.0;25;-1.0;Helden_der_Flusslande;1000;8
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;139.0;25;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;140.0;25;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;26;-1.0;Helden_der_Flusslande;1300;25
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;26;-1.0;Helden_der_Flusslande;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;26;-1.0;Helden_der_Flusslande;1300;Allgemeinwissen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;26;-1.0;Helden_der_Flusslande;1000;Wer über eine herausragende Allgemeinbildung verfügt, der kann zu jedem Thema etwas beitragen, auch wenn es nur Grundkenntnisse sind.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;26;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;26;-1.0;Helden_der_Flusslande;1000;Die Heldin kann bei einer Probe auf ein Wissenstalent, die maximal um –3 erschwert sein darf, entscheiden, ob sie die Probe ablegen möchte oder diese automatisch als mit QS 1 gelungen gilt.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;7.0;26;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;26;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;26;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;26;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;11.0;26;-1.0;Helden_der_Flusslande;1300;Fachwissen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;26;-1.0;Helden_der_Flusslande;1000;Manchmal ist es für einen Helden sinnvoll, sich auf ein ganz bestimmtes Wissen zu spezialisieren. Der Held pro-
+PDType0Font/PDCIDFontType2, PostScript name: TRVCXH+GentiumBasic;false;false;13.0;26;-1.0;Helden_der_Flusslande;1000;fitiert von dieser Konzentration auf dieses Wissensgebiet und kann darin durch fachliche Kompetenz glänzen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;14.0;26;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;26;-1.0;Helden_der_Flusslande;1000;Der Held muss sich auf ein Wissenstalent und zwei darin enthaltene Anwendungsgebiete festlegen. Legt der Held eine Probe darauf ab, kann er +1 QS addieren (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;16.0;26;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;26;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;18.0;26;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;19.0;26;-1.0;Helden_der_Flusslande;1000;A-/B-/C-/D-Talent 4/8/12/16 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;20.0;26;-1.0;Helden_der_Flusslande;1300;Gerüchte aufschnappen
+PDType0Font/PDCIDFontType2, PostScript name: TRVCXH+GentiumBasic;false;false;21.0;26;-1.0;Helden_der_Flusslande;1000;Manche Heldin hat einfach ein Händchen für die richtigen Gesprächspartner und ist stets zur rechten Zeit am rechten Ort. Es fällt ihr besonders leicht, im Alltagsgeschehen für sie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;26;-1.0;Helden_der_Flusslande;1000;nützliche Gerüchte und Informationen aufzuschnappen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;26;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;26;-1.0;Helden_der_Flusslande;1000;Die Heldin bekommt eine neue Einsatzmöglichkeit für
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;25.0;26;-1.0;Helden_der_Flusslande;1000;Gassenwissen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;26;-1.0;Helden_der_Flusslande;1000;. Sie kann einmal am Tag in einem entsprechenden Umfeld eine Probe ablegen und bekommt je nach QS mehr oder weniger passende Gerüchte zugetragen, die für sie vorteilhafte Informationen beinhalten. Da es sich um Gerüchte handelt, sind jedoch stets auch Fehlinformationen oder Unstimmigkeiten enthalten.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;27.0;26;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;28.0;26;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;29.0;26;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;30.0;26;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;31.0;26;-1.0;Helden_der_Flusslande;1300;Gesteinskunde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;32.0;26;-1.0;Helden_der_Flusslande;1000;Nur ein Spezialist kann den genauen Wert eines Edel-
+PDType0Font/PDCIDFontType2, PostScript name: TRVCXH+GentiumBasic;false;false;33.0;26;-1.0;Helden_der_Flusslande;1000;steins und sein Gewicht in Karat richtig einschätzen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;34.0;26;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;35.0;26;-1.0;Helden_der_Flusslande;1000;Wendet der Held das Talent
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;36.0;26;-1.0;Helden_der_Flusslande;1000;Steinbearbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;37.0;26;-1.0;Helden_der_Flusslande;1000;an,
+PDType0Font/PDCIDFontType2, PostScript name: TRVCXH+GentiumBasic;false;false;38.0;26;-1.0;Helden_der_Flusslande;1000;um herauszufinden, mit welchem Edelstein er es zu hat, wie viel Karat und welchen Wert er besitzt, so be
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;39.0;26;-1.0;Helden_der_Flusslande;1000;-kommt er eine Erleichterung von +1.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;40.0;26;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;41.0;26;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;42.0;26;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;43.0;26;-1.0;Helden_der_Flusslande;1000;3 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;44.0;26;-1.0;Helden_der_Flusslande;1300;Gute Verarbeitung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;45.0;26;-1.0;Helden_der_Flusslande;1000;Eine gute Verarbeitung sorgt für einen höheren Wert eines hergestellten Gegenstands. Heldinnen, die sich die notwendige Mühe machen, ein Objekt mit Liebe und Sorgfalt zu erschaffen, können dadurch den Verkaufs-
+PDType0Font/PDCIDFontType2, PostScript name: TRVCXH+GentiumBasic;false;false;46.0;26;-1.0;Helden_der_Flusslande;1000;preis beeinflussen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;47.0;26;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;26;-1.0;Helden_der_Flusslande;1000;Die Heldin kann sich ein Handwerkstalent aussuchen, das zu ihrer Profession passt. Wenn sie damit etwas herstellt, steigt der Verkaufspreis des Objektes aufgrund der gelungenen Verarbeitung oder der besonderen Schönheit um 10 %.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;26;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;26;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;51.0;26;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;27;-1.0;Helden_der_Flusslande;1200;Regeln der Flusslande
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;27;-1.0;Helden_der_Flusslande;1300;26
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;27;-1.0;Helden_der_Flusslande;1300;Handwerkskunst
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;4.0;27;-1.0;Helden_der_Flusslande;800;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;5.0;27;-1.0;Helden_der_Flusslande;1000;Nicht jeder Aventurier kennt sich in jedem Handwerk gleich gut aus. Jene Handwerker, die ein bestimmtes Gebiet gemeistert haben, können leichter großartige Objekte herstellen als einfache Gesellen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;6.0;27;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;7.0;27;-1.0;Helden_der_Flusslande;1000;Einige Handwerkstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit der Meisterin bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;8.0;27;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;9.0;27;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;10.0;27;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;11.0;27;-1.0;Helden_der_Flusslande;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;12.0;27;-1.0;Helden_der_Flusslande;1300;Meister der Orientierung
+PDType0Font/PDCIDFontType2, PostScript name: JXXBIB+GentiumBasic;false;false;13.0;27;-1.0;Helden_der_Flusslande;1000;Sich in einer Stadt oder der Wildnis zurechtzufinden
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;27;-1.0;Helden_der_Flusslande;1000;ist nicht jedermanns Sache. Es gibt aber Helden, die ein scheinbar angeborenes Talent dafür haben, die Himmels-
+PDType0Font/PDCIDFontType2, PostScript name: JXXBIB+GentiumBasic;false;false;15.0;27;-1.0;Helden_der_Flusslande;1000;richtung zu bestimmen und sicher jeden Weg zu finden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;16.0;27;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;27;-1.0;Helden_der_Flusslande;1000;Der Held bekommt eine Erleichterung von +1 bei Orientierung.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;18.0;27;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;19.0;27;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;20.0;27;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;21.0;27;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;22.0;27;-1.0;Helden_der_Flusslande;1300;Praxisbezug
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;23.0;27;-1.0;Helden_der_Flusslande;1000;Experten in komplexen Wissensgebieten genießen nicht selten einen wenig schmeichelhaften Ruf als verkopfte, verstaubte Theoretiker, die im wahren Leben gar nicht zurechtkommen können. So manch einer von ihnen trumpft jedoch in der passenden Situation mit seinem Wissen auf und beweist, dass sich Theorie und Praxis nicht ausschließen müssen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;24.0;27;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;25.0;27;-1.0;Helden_der_Flusslande;1000;In einer passenden Situation darf der Held vor einer Talentprobe den Versuch wagen, sein theoretisches Wissen praktisch einzusetzen. Dabei legt er zunächst eine Probe auf ein passendes Wissenstalent ab. Für die anschließende Probe auf das „praktische“ Talent darf er Erleichterungen in Höhe von QS des „theoretischen“ Talents auf die Teilproben festlegen. Jede Teilprobe kann so maximal um +2 Punkte erleichtert werden. Die Erleichterungen der Teilprobe müssen vor dem Ablegen der Probe festgelegt werden.Ob der Einsatz des Wissenstalents die Talentprobe erleichtern kann, entscheidet im Zweifelsfall die Meisterin.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;26.0;27;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;27.0;27;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;28.0;27;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;27;-1.0;Helden_der_Flusslande;1000;20 Abenteuerpunkte
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;30.0;27;-1.0;Helden_der_Flusslande;1000;Beispiel: Mirhibans Spieler hat die gebildete Magierin mit der Sonderfertigkeit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;27;-1.0;Helden_der_Flusslande;1000;Praxisbezug
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;32.0;27;-1.0;Helden_der_Flusslande;1000;ausgestattet, um ihre Unzulänglichkeiten in anderen Bereichen auszugleichen. Bald darauf verläuft sich die Magierin im Hinterland Mhanadistans und verliert die Orientierung, und ihr FW in diesem Talent ist niedrig. Von einer Hügelkuppe aus sind in der Ferne aber einige Gipfel der umliegenden Gebirge zu sehen. Mirhibans Spieler legt eine Probe auf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;33.0;27;-1.0;Helden_der_Flusslande;1000;Geographie
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;34.0;27;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;35.0;27;-1.0;Helden_der_Flusslande;1000;ab und
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;36.0;27;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;37.0;27;-1.0;Helden_der_Flusslande;1000;erreicht
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;38.0;27;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;39.0;27;-1.0;Helden_der_Flusslande;1000;3 QS. Anschließend legt er eine Probe auf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;27;-1.0;Helden_der_Flusslande;1000;Orientierung
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;41.0;27;-1.0;Helden_der_Flusslande;1000;ab und entscheidet, dass er sich die erste Teilprobe auf IN um 2 Punkte und die zweite um 1 Punkt erleichtern möchte. Die Probe ge-
+PDType0Font/PDCIDFontType2, PostScript name: BLWFAR+GentiumBasic-Italic;false;true;42.0;27;-1.0;Helden_der_Flusslande;1000;lingt – Mirhiban findet den richtigen Weg!
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;43.0;27;-1.0;Helden_der_Flusslande;1300;Universalgenie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;27;-1.0;Helden_der_Flusslande;1000;Es gibt Helden, die in jedem Wissensgebiet zumindest rudimentäre Kenntnisse aufweisen. Solche Universalgenies können gelegentlich mit Wissensbrocken überraschen, für die man das Fachgebiet eigentlich studiert haben müsste.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;45.0;27;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;27;-1.0;Helden_der_Flusslande;1000;Einige Wissenstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit der Meisterin bis zu drei Wissenstalente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;47.0;27;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;27;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;27;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;27;-1.0;Helden_der_Flusslande;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;51.0;27;-1.0;Helden_der_Flusslande;1300;Vertrauenswürdig
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;27;-1.0;Helden_der_Flusslande;1000;Vertrauen muss man sich verdienen – es gibt jedoch auch Heldinnen, die sich darin geübt haben, Vertrauen zu erschleichen oder so aufzutreten, dass man ihnen gerne glaubt.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;53.0;27;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;27;-1.0;Helden_der_Flusslande;1000;Andere Kulturschaffende vertrauen der Heldin, sodass sie bei Vergleichsproben bei Gesellschaftstalenten (außer bei
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;55.0;27;-1.0;Helden_der_Flusslande;1000;Einschüchtern
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;27;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;57.0;27;-1.0;Helden_der_Flusslande;1000;Menschenkenntnis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;27;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;59.0;27;-1.0;Helden_der_Flusslande;1000;Willenskraft
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;27;-1.0;Helden_der_Flusslande;1000;) +1 FP erhält.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;61.0;27;-1.0;Helden_der_Flusslande;1000;Voraussetzung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;27;-1.0;Helden_der_Flusslande;1000;passende Talentstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;63.0;27;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;27;-1.0;Helden_der_Flusslande;1000;15 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;65.0;27;-1.0;Helden_der_Flusslande;1000;Weitere Beispiele für passende Kombinationen:
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;66.0;27;-1.0;Helden_der_Flusslande;1000;Göt
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;67.0;27;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;68.0;27;-1.0;Helden_der_Flusslande;1000;ter & Kulte
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;27;-1.0;Helden_der_Flusslande;1000;erleichtert
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;70.0;27;-1.0;Helden_der_Flusslande;1000;Verkleiden
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;71.0;27;-1.0;Helden_der_Flusslande;1000;, wenn ein Held sich als Mitglied eines Ordens ausgeben will<br>
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;72.0;27;-1.0;Helden_der_Flusslande;1000;Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;27;-1.0;Helden_der_Flusslande;1000;erleichtert
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;74.0;27;-1.0;Helden_der_Flusslande;1000;Kraftakt
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;75.0;27;-1.0;Helden_der_Flusslande;1000;, wenn sich Hebelgesetze sinn
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;76.0;27;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;77.0;27;-1.0;Helden_der_Flusslande;1000;voll anwenden lassen<br>
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;78.0;27;-1.0;Helden_der_Flusslande;1000;Rechnen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;79.0;27;-1.0;Helden_der_Flusslande;1000;erleichtert
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;80.0;27;-1.0;Helden_der_Flusslande;1000;Handel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;81.0;27;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;28;-1.0;Helden_der_Flusslande;1300;27
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;28;-1.0;Helden_der_Flusslande;1800;Kampfsonderfertigkeiten
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;28;-1.0;Helden_der_Flusslande;1300;Berittene Lanzenformation
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;28;-1.0;Helden_der_Flusslande;1000;(passiv)Wer als Reiter ausgebildet wird, einen konzentrierten Lanzenangriff in Formation auszuführen, kann es seinem Gegner schwerer machen auszuweichen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;28;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;28;-1.0;Helden_der_Flusslande;1000;Ein Reiter mit dieser Sonderfertigkeit kann zusammen mit bis zu zwei weiteren Reitern, die sich
+PDType0Font/PDCIDFontType2, PostScript name: BFFGAR+GentiumBasic;false;false;7.0;28;-1.0;Helden_der_Flusslande;1000;maximal 3 Schritt links und rechts von ihm befin
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;28;-1.0;Helden_der_Flusslande;1000;-den dürfen und nicht über die SF verfügen müssen, einen konzentrierten Angriff ausführen. Die Lanzen der Kämpfer müssen in die gleiche Richtung ausgerichtet sein und die Reittiere in die gleiche Richtung galoppieren.Für jeden Reiter in dieser Formation bekommt das Ziel des Angriffs eine zusätzliche Erschwernis von –1 auf VW.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;28;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;28;-1.0;Helden_der_Flusslande;1000;SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;11.0;28;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;12.0;28;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;13.0;28;-1.0;Helden_der_Flusslande;1000;Lanzen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;14.0;28;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;28;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;16.0;28;-1.0;Helden_der_Flusslande;1300;Drachenkampf-Taktik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;28;-1.0;Helden_der_Flusslande;1000;(passiv)Der Kampf gegen Drachen lässt sich, wie fast alle Kampfsituationen, üben, sodass ein Kämpfer mit der richtigen Taktik deutlich bessere Überlebenschancen gegen ein solches Untier hat.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;18.0;28;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;19.0;28;-1.0;Helden_der_Flusslande;1000;Durch die Sonderfertigkeit erwirbt der Held eine Einsatzmöglichkeit für das Talent
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;20.0;28;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;21.0;28;-1.0;Helden_der_Flusslande;1000;. Im Kampf gegen Drachen kann er 1 Aktion aufwenden, um eine Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;22.0;28;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;23.0;28;-1.0;Helden_der_Flusslande;1000;abzulegen. Bei Erfolg erhält er für die Dauer von QS KR einen Bonus von +2 AT und +2 FK.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;24.0;28;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;25.0;28;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;26.0;28;-1.0;Helden_der_Flusslande;1000;Tierkunde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;27.0;28;-1.0;Helden_der_Flusslande;1000;8,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;28.0;28;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;28;-1.0;Helden_der_Flusslande;1000;8
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;30.0;28;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;28;-1.0;Helden_der_Flusslande;1000;alle
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;32.0;28;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;33.0;28;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;34.0;28;-1.0;Helden_der_Flusslande;1300;Festnageln
+PDTrueTypeFont RQFTQL+TimesNewRomanPSMT;false;false;35.0;28;-1.0;Helden_der_Flusslande;1200;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;36.0;28;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver)Mit speerartigen Waffen ist es möglich, seinen Widersacher am Boden festzunageln und durch weiteren Druck gegen die Waffe schweren Schaden zu verursachen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;37.0;28;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;38.0;28;-1.0;Helden_der_Flusslande;1000;Ein
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;39.0;28;-1.0;Helden_der_Flusslande;1000;Festnageln
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;28;-1.0;Helden_der_Flusslande;1000;-Manöver kann nur gegen Gegner durchgeführt werden, die den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;41.0;28;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;28;-1.0;Helden_der_Flusslande;1000;aufweisen. Gelingt die um –4 erschwerte AT und misslingt die Verteidigung, so ist das Opfer festgenagelt. Die Heldin kann mit der verwendeten Waffe nicht mehr parieren, sie kann nur noch ausweichen.In den nachfolgenden KR gelingt die AT automatisch, ohne dass die Spielerin würfeln muss. Jede KR richtet der Angriff +1 TP an (in der 1. KR noch keinen zusätzlichen TP, in der 2. KR +1 TP, in der 3. KR +2 TP usw.). Die TP werden wie üblich ausgewürfelt. Der Gegner erhält den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;43.0;28;-1.0;Helden_der_Flusslande;1000;Fixiert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;28;-1.0;Helden_der_Flusslande;1000;und behält den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;45.0;28;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;28;-1.0;Helden_der_Flusslande;1000;. Solange das Opfer festgenagelt ist, kann es sich nicht verteidigen. Die Angreiferin kann am Ende einer KR entscheiden loszulassen. Um sich zu befreien, muss das Opfer eine Vergleichsprobe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;47.0;28;-1.0;Helden_der_Flusslande;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;28;-1.0;Helden_der_Flusslande;1000;gegen die Heldin gewinnen. Jede Probe kostet 1 Aktion. Das Manöver
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;49.0;28;-1.0;Helden_der_Flusslande;1000;Festnageln
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;28;-1.0;Helden_der_Flusslande;1000;kann nur gegen Ziele der Größenkategorie klein oder mittel angewandt werden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;51.0;28;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;28;-1.0;Helden_der_Flusslande;1000;–4
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;53.0;28;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;28;-1.0;Helden_der_Flusslande;1000;GE 13 oder KK 13
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;55.0;28;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;28;-1.0;Helden_der_Flusslande;1000;Stangenwaffen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;57.0;28;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;28;-1.0;Helden_der_Flusslande;1000;20 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;59.0;28;-1.0;Helden_der_Flusslande;1300;Spießgespann
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;28;-1.0;Helden_der_Flusslande;1000;(passiv) Gerade bei den Zwergen ist das Führen eines Spießgespanns legendär. Mit dieser Technik und dem Spieß, der als Drachentöter bekannt ist, haben die Angroschim schon so manchen Tatzelwurm oder Schlimmeres getötet.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;61.0;28;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;28;-1.0;Helden_der_Flusslande;1000;Sollten zwei Kämpfer gleichzeitig eine Waffe mit der Reichweite überlang führen, können sie einen gemeinsamen Angriff gegen ein Ziel durchführen, beide mit einer um –4 erschwerten AT. Ein Patzer / Kritischer Erfolg eines Kämpfers führt auch automatisch zu einem Patzer / Kritischen Erfolg des anderen. Die INI beider Kämpfer wird durch den niedrigeren der beiden Werte angegeben. Verfügen beide über die Sonderfertigkeit Sturmangriff, können sie diesen ausführen und damit die TP ihres Angriffs um insgesamt 4 + die geringere GS der beiden Angreifer erhöhen. Weitere Manöver können nicht eingesetzt werden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;63.0;28;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;28;-1.0;Helden_der_Flusslande;1000;GE 15, KK 15
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;65.0;28;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;28;-1.0;Helden_der_Flusslande;1000;Spießwaffen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;67.0;28;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;68.0;28;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;69.0;28;-1.0;Helden_der_Flusslande;1000;Formationen
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;70.0;28;-1.0;Helden_der_Flusslande;1000;Sonderfertigkeiten wie diese, die es Helden erlau
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;71.0;28;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;72.0;28;-1.0;Helden_der_Flusslande;1000;ben, eine Formation zu bilden, können nicht mit anderen Formationen kombiniert werden. Sprich: Helden können nur Boni durch eine Formation be
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;28;-1.0;Helden_der_Flusslande;1000;-
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;29;-1.0;Helden_der_Flusslande;1200;Regeln der Flusslande
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;29;-1.0;Helden_der_Flusslande;1300;28
+PDTrueTypeFont XDDCID+Andalus;false;false;3.0;29;-1.0;Helden_der_Flusslande;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;29;-1.0;Helden_der_Flusslande;1000;Für grundlegende Regeln zu Stilsonderfertigkeiten und erweiterte Sonderfertigkeiten siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;29;-1.0;Helden_der_Flusslande;1000;24
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;29;-1.0;Helden_der_Flusslande;1000;in diesem
+PDType0Font/PDCIDFontType2, PostScript name: OILOAR+GentiumBasic;false;false;7.0;29;-1.0;Helden_der_Flusslande;1000;Buch. Weitere Informationen zu Kampfstilen findest du
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;29;-1.0;Helden_der_Flusslande;1000;im
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;29;-1.0;Helden_der_Flusslande;1000;Aventurischen Kompendium
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;29;-1.0;Helden_der_Flusslande;1000;auf Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;11.0;29;-1.0;Helden_der_Flusslande;1000;145
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;29;-1.0;Helden_der_Flusslande;1000;oder im
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;13.0;29;-1.0;Helden_der_Flusslande;1000;Kodex des Schwertes
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;29;-1.0;Helden_der_Flusslande;1000;auf Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;15.0;29;-1.0;Helden_der_Flusslande;1000;308
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;16.0;29;-1.0;Helden_der_Flusslande;1000;.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;17.0;29;-1.0;Helden_der_Flusslande;1300;Elenvina-Stil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;18.0;29;-1.0;Helden_der_Flusslande;1000;(passiv) Durch ihre schiere Präsenz können Kriegerinnen aus Elenvina ihren Kampfgefährten Mut machen. Als unerschrockene Anführerinnen streiten sie stets in der ersten Reihe und inspirieren mit ihrer Tapferkeit alle Mitkämpfenden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;19.0;29;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;29;-1.0;Helden_der_Flusslande;1000;Bei Einsatz der Sonderfertigkeit
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;21.0;29;-1.0;Helden_der_Flusslande;1000;Anführer
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;29;-1.0;Helden_der_Flusslande;1000;muss die Elenviner Kriegerin nur 1 freie Aktion statt einer regulären Aktion aufwenden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;29;-1.0;Helden_der_Flusslande;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;29;-1.0;Helden_der_Flusslande;1000;Binden, Schilddeckung, Waffenwurf
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;25.0;29;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;29;-1.0;Helden_der_Flusslande;1000;MU 13, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;27.0;29;-1.0;Helden_der_Flusslande;1000;Anführer
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;28.0;29;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;29;-1.0;Helden_der_Flusslande;1000;alle
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;30.0;29;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;29;-1.0;Helden_der_Flusslande;1000;15 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;32.0;29;-1.0;Helden_der_Flusslande;1300;Ferdoker Lanzerinnen-Stil
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;33.0;29;-1.0;Helden_der_Flusslande;800;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;34.0;29;-1.0;Helden_der_Flusslande;1000;(passiv)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;35.0;29;-1.0;Helden_der_Flusslande;1300;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;36.0;29;-1.0;Helden_der_Flusslande;1000;Die Ferdoker Lanzerinnen sind für ihr Geschick auf dem Pferderücken und für ihre Kühnheit im Kampf bekannt. Da ihnen bei Aufnahme in die Einheit ein festes Pferd zugewiesen wird, dauert es nicht lange, bis ein Teil ihrer Furchtlosigkeit auch auf das Tier übergeht.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;37.0;29;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;38.0;29;-1.0;Helden_der_Flusslande;1000;Für eine Ferdoker Lanzerin sind Proben auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;39.0;29;-1.0;Helden_der_Flusslande;1000;Reiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;29;-1.0;Helden_der_Flusslande;1000;um +1 erleichtert. Erschwernisse aufgrund von sie betreffenden Zuständen kann sie bei einem
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;41.0;29;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;29;-1.0;Helden_der_Flusslande;1000;sowie bei Spezialmanövern, für die der
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;43.0;29;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;29;-1.0;Helden_der_Flusslande;1000;eine Voraussetzung darstellt, zudem um bis zu 2 Punkte reduzieren. Dies gilt sowohl für die Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;45.0;29;-1.0;Helden_der_Flusslande;1000;Reiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;29;-1.0;Helden_der_Flusslande;1000;als auch für die Attacke selbst.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;47.0;29;-1.0;Helden_der_Flusslande;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;29;-1.0;Helden_der_Flusslande;1000;Breschenangriff, Durchbohrung, Frontalangriff
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;29;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;29;-1.0;Helden_der_Flusslande;1000;MU 13, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;51.0;29;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;52.0;29;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;53.0;29;-1.0;Helden_der_Flusslande;1000;Lanzen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;54.0;29;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;55.0;29;-1.0;Helden_der_Flusslande;1000;15 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;56.0;29;-1.0;Helden_der_Flusslande;1300;Klippag-Stil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;57.0;29;-1.0;Helden_der_Flusslande;1000;(passiv) In der Schwertgesellenschule des Kvalor von Klippag lernen seine Schüler, sich auch unter widrigen Umständen und auf schwierigem Gelände mit Kurzschwert und Faustschild gegen einen schwerer gerüsteten Angreifer zu behaupten.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;58.0;29;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;59.0;29;-1.0;Helden_der_Flusslande;1000;Führt der Kämpfer des Klippag-Stils Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;60.0;29;-1.0;Helden_der_Flusslande;1000;Schwerter
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;61.0;29;-1.0;Helden_der_Flusslande;1000;(meist einen Kusliker Säbel oder ein Kurzschwert) zusammen mit einer Waffe der Kampftechnik
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;62.0;29;-1.0;Helden_der_Flusslande;1000;Schilde
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;63.0;29;-1.0;Helden_der_Flusslande;1000;(meist einem Faustschild), dann erhält er +1 auf seine Parade, solange er 1 freie Aktion in der KR dafür einsetzt.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;64.0;29;-1.0;Helden_der_Flusslande;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;65.0;29;-1.0;Helden_der_Flusslande;1000;Angetäuschter Angriff, Binden, Defensives Verhalten
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;66.0;29;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;67.0;29;-1.0;Helden_der_Flusslande;1000;GE 13
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;68.0;29;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;29;-1.0;Helden_der_Flusslande;1000;Schwerter, Schilde
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;70.0;29;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;71.0;29;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;72.0;29;-1.0;Helden_der_Flusslande;1300;Xorlosch-Stil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;29;-1.0;Helden_der_Flusslande;1000;(passiv) Der Kampfstil der Xorloscher Akademie ist auf die Abwehr gegen Drachen fokussiert. Deshalb ist ein Zwergenkrieger aus Xorlosch besonders geschickt darin, den Flammenstrahlen und Schwanzhieben solcher Ungetüme auszuweichen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;74.0;29;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;75.0;29;-1.0;Helden_der_Flusslande;1000;Ein Xorloscher Krieger muss im Kampf gegen Wesen des Typus Drachen oder solche der Größenkategorie
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;76.0;29;-1.0;Helden_der_Flusslande;1000;riesig
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;77.0;29;-1.0;Helden_der_Flusslande;1000;nur 1 freie Aktion aufwenden, um gegenüber seinem Gegner in eine
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;78.0;29;-1.0;Helden_der_Flusslande;1000;Vorteilhafte Position
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;79.0;29;-1.0;Helden_der_Flusslande;1000;zu gelangen (siehe
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;80.0;29;-1.0;Helden_der_Flusslande;1000;Regelwerk
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;81.0;29;-1.0;Helden_der_Flusslande;1000;Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;82.0;29;-1.0;Helden_der_Flusslande;1000;238
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;83.0;29;-1.0;Helden_der_Flusslande;1000;). Außerdem ist die Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;84.0;29;-1.0;Helden_der_Flusslande;1000;Körperbeherrschung (Kampfmanöver)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;85.0;29;-1.0;Helden_der_Flusslande;1000;um +2 erleichtert. Drachen und Wesen der Größenkategorie
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;86.0;29;-1.0;Helden_der_Flusslande;1000;riesig
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;87.0;29;-1.0;Helden_der_Flusslande;1000;erleiden zudem eine Erschwernis von –2 auf AT und FK, wenn sie gegen einen Xorloscher Krieger kämpfen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;88.0;29;-1.0;Helden_der_Flusslande;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;89.0;29;-1.0;Helden_der_Flusslande;1000;Aufspießen, Drachentod, Erweiterte Drachenkampf-Taktik
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;90.0;29;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;91.0;29;-1.0;Helden_der_Flusslande;1000;KK 13, Spezies
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;92.0;29;-1.0;Helden_der_Flusslande;1000;Zwerg
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;93.0;29;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;94.0;29;-1.0;Helden_der_Flusslande;1000;alle
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;95.0;29;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;96.0;29;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;30;-1.0;Helden_der_Flusslande;1300;29
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;30;-1.0;Helden_der_Flusslande;1800;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;30;-1.0;Helden_der_Flusslande;1300;Angetäuschter Angriff
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;30;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver) Meister der Finte können ihre Angriffe besonders gut mit einer bestimmten Waffenkombination vorbereiten, beispielsweise mit einem Schild und einem Kurzschwert oder einem Rapier und einem Linkhand-Dolch. Hinter einigen Waffen lassen sich nicht nur Angriffe gut verbergen, auch durch die Kombination mit einem leichten Stoß oder einer Art Kreuzblock mit Waffe und Schild tun sich so in der Abwehr des Gegners schnell Lücken auf.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;30;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;30;-1.0;Helden_der_Flusslande;1000;Um diese Sonderfertigkeit nutzen zu können, muss sie mit einer Finte kombiniert werden. Sollte dem Gegner die Verteidigung gegen die Finte misslingen und er über seinen regulären VW gewürfelt haben (die Finte also nicht notwendig gewesen sein, um zu treffen), richtet der Treffer +1 TP an.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;7.0;30;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;30;-1.0;Helden_der_Flusslande;1000;nur die der Finte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;30;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;30;-1.0;Helden_der_Flusslande;1000;GE 15, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;11.0;30;-1.0;Helden_der_Flusslande;1000;Finte I
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;30;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;13.0;30;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;30;-1.0;Helden_der_Flusslande;1000;Dolche, Fechtwaffen, Raufen, Schilde, Schwerter
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;15.0;30;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;16.0;30;-1.0;Helden_der_Flusslande;1000;10 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;17.0;30;-1.0;Helden_der_Flusslande;1300;Aufspießen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;18.0;30;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver)
+PDType0Font/PDCIDFontType2, PostScript name: ECSNLL+GentiumBasic;false;false;19.0;30;-1.0;Helden_der_Flusslande;1000;Kämpfer, die geschickt genug sind, können in einer flie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;30;-1.0;Helden_der_Flusslande;1000;-ßenden Bewegung ihren Gegner sowohl zu Fall bringen
+PDType0Font/PDCIDFontType2, PostScript name: ECSNLL+GentiumBasic;false;false;21.0;30;-1.0;Helden_der_Flusslande;1000;als auch am Boden fixieren.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;22.0;30;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;23.0;30;-1.0;Helden_der_Flusslande;1000;Gelingt die um –6 erschwerte AT und misslingt die Verteidigung, so ist das Opfer zu Boden geworfen worden und wurde festgenagelt. Der verminderte Schaden von 1W3 TP durch die SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;24.0;30;-1.0;Helden_der_Flusslande;1000;Zu Fall bringen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;25.0;30;-1.0;Helden_der_Flusslande;1000;kommt beim Aufspießen nicht zum Tragen, stattdessen wird der reguläre Waffenschaden angerichtet.In den nachfolgenden KR gelingt die AT automatisch, ohne dass der Spieler würfeln muss. Jede KR richtet der Angriff +1 TP an (in der ersten KR noch keinen zusätzlichen TP, in der 2. KR +1 TP, in der 3. KR +2 TP usw.). Die TP werden wie üblich ausgewürfelt. Der Feind erhält den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;26.0;30;-1.0;Helden_der_Flusslande;1000;Fixiert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;27.0;30;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;28.0;30;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;30;-1.0;Helden_der_Flusslande;1000;. Der Angreifer kann am Ende einer KR entscheiden loszulassen. Um sich zu befreien, muss das Opfer eine Vergleichsprobe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;30.0;30;-1.0;Helden_der_Flusslande;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;30;-1.0;Helden_der_Flusslande;1000;gegen den Angreifer gewinnen. Jede Probe kostet 1 Aktion. Das
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;32.0;30;-1.0;Helden_der_Flusslande;1000;Festnageln
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;33.0;30;-1.0;Helden_der_Flusslande;1000;-Manöver kann nur gegen gleichgroße oder die nächstkleinere Größenkategorie angewandt werden. Misslingt die AT, so steht dem Gegner ein Passierschlag zu.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;34.0;30;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;35.0;30;-1.0;Helden_der_Flusslande;1000;–6
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;36.0;30;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;37.0;30;-1.0;Helden_der_Flusslande;1000;GE 15 oder KK 15, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;38.0;30;-1.0;Helden_der_Flusslande;1000;Festnageln
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;39.0;30;-1.0;Helden_der_Flusslande;1000;, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;40.0;30;-1.0;Helden_der_Flusslande;1000;Zu Fall bringen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;41.0;30;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;42.0;30;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;43.0;30;-1.0;Helden_der_Flusslande;1000;Stangenwaffen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;44.0;30;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;45.0;30;-1.0;Helden_der_Flusslande;1000;20 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;46.0;30;-1.0;Helden_der_Flusslande;1300;Binden
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;47.0;30;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver) Beim Binden geht es darum, die eigene Waffe möglichst nah an die gegnerische heranzuführen, um durch Geschick und Kraft den Widersacher in eine schlechtere Position zu bringen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;48.0;30;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;49.0;30;-1.0;Helden_der_Flusslande;1000;Gelingt der Heldin eine um –2 erschwerte PA, bekommt sie für ihre nächste Aktion einen Bonus von +4 AT gegen den Feind, gegen den sie das Binden-Manöver ausgeführt hat. Dieser Angriff muss in ihrer nächsten Aktion, also entweder in dieser oder der nachfolgenden KR, ausgeführt werden. Diese Aktion darf nicht hinausgezögert werden. Der Bonus entfällt, wenn die Abenteurerin einen anderen Gegner angreift oder zu parieren versucht. Das gleiche gilt, wenn der Widersacher nicht mit der gebundenen Waffe, sondern mit einer anderen angreift.Das Binden einer zweihändig geführten Waffe ist um –4 erschwert, nicht um –2. Nach dem Binden (auch von einhändig geführten Waffen) kann die Heldin keine weiteren Verteidigungen in dieser KR ausführen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;50.0;30;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;51.0;30;-1.0;Helden_der_Flusslande;1000;–2 (einhändige Waffe), –4 (zweihändige Waffe)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;52.0;30;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;53.0;30;-1.0;Helden_der_Flusslande;1000;KK 13, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;54.0;30;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;55.0;30;-1.0;Helden_der_Flusslande;1000;Dolche, Fechtwaffen, Schwerter, Stangenwaffen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;56.0;30;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;57.0;30;-1.0;Helden_der_Flusslande;1000;25 Abenteuerpunkte
+PDTrueTypeFont XDDCID+Andalus;false;false;58.0;30;-1.0;Helden_der_Flusslande;800;BKBKBK
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;59.0;30;-1.0;Helden_der_Flusslande;1000;Spießwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;30;-1.0;Helden_der_Flusslande;1000;Bei überlangen Spießen handelt es sich um Speerwaffen, die noch länger sind als die üblichen Stangenwaffen. Sie werden bei Formationskämpfen oder unter speziellen Kampfsituationen wie dem Drachenkampf eingesetzt. Zu ihnen zählen, neben der klassischen Pike der mittelländischen Heerhaufen, der berühmte Drachentöter der Zwerge.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;61.0;30;-1.0;Helden_der_Flusslande;1000;Besonderheiten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;30;-1.0;Helden_der_Flusslande;1000;Mit überlangen Spießen können keine normalen Paraden ausgeführt werde, außer eventuell Formationsparaden. Attacken um einen Kämpfer mit einer Spießwaffe im Nahkampf anzugreifen, der sich in einer Formation (siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;63.0;30;-1.0;Helden_der_Flusslande;1000;27
+PDType0Font/PDCIDFontType2, PostScript name: ROCILL+GentiumBasic;false;false;64.0;30;-1.0;Helden_der_Flusslande;1000;) befindet, sind
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;65.0;30;-1.0;Helden_der_Flusslande;1000;um –8 erschwert.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;66.0;30;-1.0;Helden_der_Flusslande;1000;Leiteigenschaft
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;67.0;30;-1.0;Helden_der_Flusslande;1000;Körperkraft
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;68.0;30;-1.0;Helden_der_Flusslande;1000;Steigerungsfaktor
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;30;-1.0;Helden_der_Flusslande;1000;C
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;70.0;30;-1.0;Helden_der_Flusslande;1000;Kampftechnik SpießwaffenWaffeTPL+SAT/PA-ModRWGewichtLängePreisDrachentöter (2H)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;71.0;30;-1.0;Helden_der_Flusslande;1000;2W6+6GE/KK 16–3/–überlang10 Stn400 HF1.500 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;72.0;30;-1.0;Helden_der_Flusslande;1000;Anmerkung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;30;-1.0;Helden_der_Flusslande;1000;Wenn die Waffe von einer Person geführt wird, gilt sie als improvisierte Waffe (siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;74.0;30;-1.0;Helden_der_Flusslande;1000;61
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;75.0;30;-1.0;Helden_der_Flusslande;1000;). In einem Spießgespann (siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;76.0;30;-1.0;Helden_der_Flusslande;1000;27
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;77.0;30;-1.0;Helden_der_Flusslande;1000;) gilt die Waffe nicht als improvisierte
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;31;-1.0;Helden_der_Flusslande;1200;Regeln der Flusslande
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;31;-1.0;Helden_der_Flusslande;1300;30
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;31;-1.0;Helden_der_Flusslande;1300;Breschenangriff
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;31;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver) Kavallerieattacken eignen sich bestens, um feindliche Linien zu durchstoßen und Schlachtformationen aufzubrechen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;31;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;31;-1.0;Helden_der_Flusslande;1000;Durch diese SF ist der Held in der Lage, den Befehl Breschenangriff mit seinem Reittier durchzuführen. Dabei werden bis zu drei Ziele getroffen, solange diese maximal einen halben Schritt auseinander stehen. Die Attacken sind für jedes Ziel um –2 erschwert (für den ersten Gegner also um –2, für den zweiten Gegner um –4 und für den dritten Gegner um –6). Die Trefferpunkte werden für jeden Feind einzeln ausgewürfelt und jeder Angegriffene kann sich einzeln gegen den Breschenangriff verteidigen. Sollte während der ersten oder zweiten AT ein Patzer unterlaufen, verfallen die restlichen Attacken.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;7.0;31;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;31;-1.0;Helden_der_Flusslande;1000;–2 (erste Attacke), –4 (zweite Attacke), –6 (dritte Attacke)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;31;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;31;-1.0;Helden_der_Flusslande;1000;SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;11.0;31;-1.0;Helden_der_Flusslande;1000;Berittener Kampf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;31;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;13.0;31;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;31;-1.0;Helden_der_Flusslande;1000;alle Nahkampftechniken, die vom Pferderücken ausführbar sind
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;15.0;31;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;16.0;31;-1.0;Helden_der_Flusslande;1000;15 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;17.0;31;-1.0;Helden_der_Flusslande;1300;Defensives Verhalten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;18.0;31;-1.0;Helden_der_Flusslande;1000;(passiv) Manchmal ist es für eine Heldin sehr wichtig, sich auf ihre Verteidigung zu Ungunsten ihrer Angriffsmöglichkeiten zu konzentrieren.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;19.0;31;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;31;-1.0;Helden_der_Flusslande;1000;Sollte die Heldin Erschwernisse auf ihre Verteidigung erleiden, gleich welchen Ursprungs (bis
+PDType0Font/PDCIDFontType2, PostScript name: TPCWIH+GentiumBasic;false;false;21.0;31;-1.0;Helden_der_Flusslande;1000;auf Sichtmodifikatoren), so kann sie durch ihr aus
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;31;-1.0;Helden_der_Flusslande;1000;-gezeichnetes Defensiverhalten entscheiden, 1 oder 2 Punkte Erschwernis zu ignorieren. Sollte mehr als 2 Punkte Erschwernis vorhanden sein, muss sie den Rest der Erschwernis hinnehmen. Für jeden Punkt Erschwernis, den sie ignorieren möchte, erleidet sie bis zum Ende der nächsten KR eine Erschwernis von –2 auf AT und FK.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;31;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;31;-1.0;Helden_der_Flusslande;1000;IN 15, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;25.0;31;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;31;-1.0;Helden_der_Flusslande;1000;alle
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;27.0;31;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;28.0;31;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;29.0;31;-1.0;Helden_der_Flusslande;1300;Drachentod
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;30.0;31;-1.0;Helden_der_Flusslande;1000;(passiv) Den Zwergen wird nachgesagt, dass es einige unter ihnen gibt, die den Einsatz eines Drachentöters zur Perfektion gebracht haben und diese eher unhandliche Waffe so geschickt gegen Drachen einsetzen können, dass der Name der Waffe mehr als nur gerechtfertigt ist.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;31.0;31;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;32.0;31;-1.0;Helden_der_Flusslande;1000;Führt der Anwender dieser Sonderfertigkeit einen Drachentöter und setzt ihn im
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;33.0;31;-1.0;Helden_der_Flusslande;1000;Spießgespann
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;34.0;31;-1.0;Helden_der_Flusslande;1000;ein, so kann bei einem Angriff gegen ein Wesen des Typs Drachen die KK beider Waffenträger addiert werden, bevor es zur Berechnung des Schadensbonus kommt. Zudem steigt der Grundschaden der Waffe um 2W6 auf 4W6+6.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;35.0;31;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;36.0;31;-1.0;Helden_der_Flusslande;1000;SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;37.0;31;-1.0;Helden_der_Flusslande;1000;Drachenkampf-Taktik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;38.0;31;-1.0;Helden_der_Flusslande;1000;, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;39.0;31;-1.0;Helden_der_Flusslande;1000;Spießgespann
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;31;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;41.0;31;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;31;-1.0;Helden_der_Flusslande;1000;Spießwaffen (nur Drachentöter, siehe Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;43.0;31;-1.0;Helden_der_Flusslande;1000;29
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;31;-1.0;Helden_der_Flusslande;1000;)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;45.0;31;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;31;-1.0;Helden_der_Flusslande;1000;12 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;47.0;31;-1.0;Helden_der_Flusslande;1300;Durchbohrung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;31;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;31;-1.0;Helden_der_Flusslande;1300;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;31;-1.0;Helden_der_Flusslande;1000;Dieser mächtige Angriff spießt den Feind mit der Kriegs-
+PDType0Font/PDCIDFontType2, PostScript name: TPCWIH+GentiumBasic;false;false;51.0;31;-1.0;Helden_der_Flusslande;1000;lanze auf und fixiert ihn an einem Baum, einer Mauer
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;31;-1.0;Helden_der_Flusslande;1000;oder schleudert ihn zu Boden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;53.0;31;-1.0;Helden_der_Flusslande;1000;Regel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;31;-1.0;Helden_der_Flusslande;1000;Der Held kann mit einer Kriegslanze versuchen, einen Gegner zu durchbohren. Das Durchbohren-Manöver kann nur gegen gleichgroße Gegner oder solche der nächstkleineren Größenkategorie angewandt werden. Der Held muss die Kriegslanze loslassen, gleich ob der Angriff ge- oder misslungen ist. Misslingt die AT, so steht dem Gegner ein Passierschlag zu. Gelingt die um –6 (Gegner soll an einen Baum oder einer Wand aufgespießt werden und erleidet den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;55.0;31;-1.0;Helden_der_Flusslande;1000;Fixiert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;31;-1.0;Helden_der_Flusslande;1000;) bzw. –8 (Gegner wird am Boden festgenagelt und erleidet den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;57.0;31;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;31;-1.0;Helden_der_Flusslande;1000;) erschwerte AT und misslingt die Verteidigung, so ist das Opfer durchbohrt worden. In den nachfolgenden KR erleidet der Getroffene solange Schaden, wie die Lanze in ihm steckt. Immer zu Beginn einer KR erleidet er 1W3 SP. Das Opfer erhält den Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;59.0;31;-1.0;Helden_der_Flusslande;1000;Fixiert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;31;-1.0;Helden_der_Flusslande;1000;oder
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;61.0;31;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;31;-1.0;Helden_der_Flusslande;1000;. An einen Baum oder eine Wand kann ein Opfer nur fixiert werden, wenn sich dieses Hindernis hinter dem Opfer und innerhalb einer Reichweite gleich der GS des Reittiers befindet. Um das Opfer von der Lanze zu befreien, muss ihm oder einem anderen Helden eine Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;63.0;31;-1.0;Helden_der_Flusslande;1000;Kraftakt (Ziehen & Zerren)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;31;-1.0;Helden_der_Flusslande;1000;erschwert um –2 gelingen. Jede Probe kostet 1 Aktion. Bei Gelingen endet der Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;65.0;31;-1.0;Helden_der_Flusslande;1000;Fixiert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;31;-1.0;Helden_der_Flusslande;1000;automatisch, der Status
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;67.0;31;-1.0;Helden_der_Flusslande;1000;Liegend
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;68.0;31;-1.0;Helden_der_Flusslande;1000;ist davon jedoch nicht betroffen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;69.0;31;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;70.0;31;-1.0;Helden_der_Flusslande;1000;–6 / –8
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;71.0;31;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;72.0;31;-1.0;Helden_der_Flusslande;1000;SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;73.0;31;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;74.0;31;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;75.0;31;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;76.0;31;-1.0;Helden_der_Flusslande;1000;Lanzen (nur Kriegslanzen)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;77.0;31;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;78.0;31;-1.0;Helden_der_Flusslande;1000;20 Abenteuerpunkte
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;32;-1.0;Helden_der_Flusslande;1300;31
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;2.0;32;-1.0;Helden_der_Flusslande;1300;Erweiterte Drachenkampf-Taktik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;3.0;32;-1.0;Helden_der_Flusslande;1000;(passiv)
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;4.0;32;-1.0;Helden_der_Flusslande;1000;Wer häufig die Angriffe von Drachen abwehren muss, kann sich gezielt in einer Taktik üben, um diese Untie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;5.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;6.0;32;-1.0;Helden_der_Flusslande;1000;re leichter bekämpfen zu können. Meister dieser Taktik sind vor allem die aventurischen Zwerge, die am häu
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;7.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;8.0;32;-1.0;Helden_der_Flusslande;1000;figsten gegen Drachen kämpfen müssen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;32;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;10.0;32;-1.0;Helden_der_Flusslande;1000;Durch die Sonderfertigkeit erwirbt der Held eine Einsatzmöglichkeit für das Talent
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;11.0;32;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;12.0;32;-1.0;Helden_der_Flusslande;1000;. Im Kampf gegen Drachen kann er 1 Aktion aufwenden, um eine Probe auf
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;13.0;32;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;14.0;32;-1.0;Helden_der_Flusslande;1000;abzulegen. Bei Erfolg er
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;16.0;32;-1.0;Helden_der_Flusslande;1000;halten er und QS/2 weitere Kampfgefährten für QS KR einen Bonus von +2 AT und +2 FK. Die Kampfgefährten müssen jeweils mindestens einen FW von 8 in
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;17.0;32;-1.0;Helden_der_Flusslande;1000;Tierkunde
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;18.0;32;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;19.0;32;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;20.0;32;-1.0;Helden_der_Flusslande;1000;aufweisen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;21.0;32;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;32;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;23.0;32;-1.0;Helden_der_Flusslande;1000;Tierkunde
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;24.0;32;-1.0;Helden_der_Flusslande;1000;10,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;25.0;32;-1.0;Helden_der_Flusslande;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;26.0;32;-1.0;Helden_der_Flusslande;1000;10, SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;27.0;32;-1.0;Helden_der_Flusslande;1000;Drachenkampf-Taktik
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;28.0;32;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;29.0;32;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;30.0;32;-1.0;Helden_der_Flusslande;1000;alle
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;31.0;32;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;32.0;32;-1.0;Helden_der_Flusslande;1000;20 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;33.0;32;-1.0;Helden_der_Flusslande;1300;Frontalangriff
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;34.0;32;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver) Der gefürchtete Frontalangriff eines Ritters sorgt dafür, dass er einen Gegner sowohl durch Niederreiten mit sei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;35.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;36.0;32;-1.0;Helden_der_Flusslande;1000;nem Reittier angreift als auch mit seiner Lanze.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;37.0;32;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;38.0;32;-1.0;Helden_der_Flusslande;1000;Der Frontalangriff ist ein eigener Befehl, der den Befehl
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;39.0;32;-1.0;Helden_der_Flusslande;1000;Niederreiten
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;40.0;32;-1.0;Helden_der_Flusslande;1000;mit einem normalen Lanzenan
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;41.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;42.0;32;-1.0;Helden_der_Flusslande;1000;griff kombiniert. Der ausgewählte Gegner muss sich sowohl gegen die Attacke durch das Niederreiten des Pferds als auch anschließend mit der Attacke durch den Lanzenangriff des Reiters auseinandersetzen. Bei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;43.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;44.0;32;-1.0;Helden_der_Flusslande;1000;de AT sind um –4 erschwert. Dieser Angriff lässt sich nur gegen Gegner mit der Größenkategorie des Rei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;45.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;46.0;32;-1.0;Helden_der_Flusslande;1000;ters oder kleiner einsetzen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;47.0;32;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;48.0;32;-1.0;Helden_der_Flusslande;1000;–4
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;49.0;32;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;50.0;32;-1.0;Helden_der_Flusslande;1000;SF
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;51.0;32;-1.0;Helden_der_Flusslande;1000;Lanzenangriff
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;52.0;32;-1.0;Helden_der_Flusslande;1000;, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;53.0;32;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;54.0;32;-1.0;Helden_der_Flusslande;1000;Lanzen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;55.0;32;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;56.0;32;-1.0;Helden_der_Flusslande;1000;25 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;57.0;32;-1.0;Helden_der_Flusslande;1300;Schilddeckung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;32;-1.0;Helden_der_Flusslande;1000;(passiv)
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;59.0;32;-1.0;Helden_der_Flusslande;1000;Geübte Soldateninnen vermögen aus ihren Schilden ei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;61.0;32;-1.0;Helden_der_Flusslande;1000;nen kaum zu überwindenden Wall zu formen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;62.0;32;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;63.0;32;-1.0;Helden_der_Flusslande;1000;Eine Schildkämpferin mit dieser SF kann zusam
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;65.0;32;-1.0;Helden_der_Flusslande;1000;men mit einem weiteren Schildkämpfer, der sich ma
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;67.0;32;-1.0;Helden_der_Flusslande;1000;ximal einen halben Schritt neben ihr befinden darf, eine Schilddeckung aufbauen. Die Schilde müssen in die gleiche Richtung ausgerichtet sein. Alle Kämpfer in der Schilddeckung gelten für Fernkampfangriffe als ein Ziel der nächstkleineren Größenkategorie, also beispielsweise statt
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;68.0;32;-1.0;Helden_der_Flusslande;1000;mittel
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;69.0;32;-1.0;Helden_der_Flusslande;1000;als
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;70.0;32;-1.0;Helden_der_Flusslande;1000;klein
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;71.0;32;-1.0;Helden_der_Flusslande;1000;. Zudem erhalten alle einen Bonus von +1 auf die Parade mit dem Schild.Solange sich die Kämpfer in der Schilddeckung befin
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;72.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;73.0;32;-1.0;Helden_der_Flusslande;1000;den, können sie nicht sprinten (siehe
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;74.0;32;-1.0;Helden_der_Flusslande;1000;Regelwerk
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;75.0;32;-1.0;Helden_der_Flusslande;1000;Seite
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;76.0;32;-1.0;Helden_der_Flusslande;1000;229
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;77.0;32;-1.0;Helden_der_Flusslande;1000;oder
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;78.0;32;-1.0;Helden_der_Flusslande;1000;Kodex des Schwertes
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;79.0;32;-1.0;Helden_der_Flusslande;1000;Seite 65).
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;80.0;32;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;81.0;32;-1.0;Helden_der_Flusslande;1000;passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;82.0;32;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;83.0;32;-1.0;Helden_der_Flusslande;1000;Schilde
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;84.0;32;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;85.0;32;-1.0;Helden_der_Flusslande;1000;5 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;86.0;32;-1.0;Helden_der_Flusslande;1300;Waffenwurf
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;87.0;32;-1.0;Helden_der_Flusslande;1000;(Spezialmanöver) Nicht jede Waffe eignet sich zum Werfen. Nahkampfwaf
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;88.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;89.0;32;-1.0;Helden_der_Flusslande;1000;fen sind meistens zu klobig und schwer und sie würden üblicherweise eher wirkungslos an einem Gegner ab
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;90.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;91.0;32;-1.0;Helden_der_Flusslande;1000;prallen, anstatt ihn zu verletzen. Einige wenige Kämp
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;92.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;93.0;32;-1.0;Helden_der_Flusslande;1000;ferinnen beherrschen aber den Waffenwurf und können selbst ein Schwert zielgenau auf einen Feind werfen.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;94.0;32;-1.0;Helden_der_Flusslande;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;95.0;32;-1.0;Helden_der_Flusslande;1000;Mit dieser SF kann eine Abenteurerin eine Nah
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;96.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;97.0;32;-1.0;Helden_der_Flusslande;1000;kampfwaffe, die sich eigentlich nicht als Wurfwaffe eignet, auf einen Gegner werfen und ihn erheblich verletzten. Der Angriff wird wie ein regulärer Fern
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;98.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;99.0;32;-1.0;Helden_der_Flusslande;1000;kampfangriff ausgeführt. Als Kampftechnik kommt dabei Wurfwaffen zum Einsatz. Neben allen üblichen Modifikatoren eines solchen Angriffs gilt für die ge
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;100.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;101.0;32;-1.0;Helden_der_Flusslande;1000;worfene Nahkampfwaffe eine zusätzliche Erschwernis von –4. Die geworfene Waffe muss einer der folgen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;102.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;103.0;32;-1.0;Helden_der_Flusslande;1000;den Kampftechniken angehören:
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;104.0;32;-1.0;Helden_der_Flusslande;1000;Dolche
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;105.0;32;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;106.0;32;-1.0;Helden_der_Flusslande;1000;Fechtwaffen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;107.0;32;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;108.0;32;-1.0;Helden_der_Flusslande;1000;Hiebwaffen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;109.0;32;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;110.0;32;-1.0;Helden_der_Flusslande;1000;Schwerter
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;111.0;32;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;112.0;32;-1.0;Helden_der_Flusslande;1000;Stangenwaffen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;113.0;32;-1.0;Helden_der_Flusslande;1000;. Der Schaden ent
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;114.0;32;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;115.0;32;-1.0;Helden_der_Flusslande;1000;spricht dem regulären Schaden der Waffe. Ein Bonus durch die Schadensschwelle kommt aber nicht hinzu.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;116.0;32;-1.0;Helden_der_Flusslande;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;117.0;32;-1.0;Helden_der_Flusslande;1000;–4
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;118.0;32;-1.0;Helden_der_Flusslande;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;119.0;32;-1.0;Helden_der_Flusslande;1000;KK 15, passende Kampfstil-SF
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;120.0;32;-1.0;Helden_der_Flusslande;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;121.0;32;-1.0;Helden_der_Flusslande;1000;Wurfwaffen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;122.0;32;-1.0;Helden_der_Flusslande;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;123.0;32;-1.0;Helden_der_Flusslande;1000;5 Abenteuerpunkte
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;124.0;32;-1.0;Helden_der_Flusslande;1000;Reichweite beim WaffenwurfKampftechnikReichweite
+PDType0Font/PDCIDFontType2, PostScript name: PHAAEP+GentiumBasic;false;false;125.0;32;-1.0;Helden_der_Flusslande;1000;Stangenwaffen1/3/5Fechtwaffen, Hiebwaffen, Schwerter1/3/10Dolche1/5/12

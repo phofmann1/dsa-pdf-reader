@@ -1,0 +1,23 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;18.0;85;-1.0;Helden_des_Gottwals;1000;Gjalsker Lederrüstung (Lathairmach)Komplexität einfArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisGjalsker Lederrüstung (Lathairmach)
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;19.0;85;-1.0;Helden_des_Gottwals;1000;31–1 GS, –1 INI1,5 Stn180 S
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;20.0;85;-1.0;Helden_des_Gottwals;1000;Anmerkung
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;21.0;85;-1.0;Helden_des_Gottwals;1000;Die Gjalsker Lederrüstung ist eine Variante der Lederrüstung.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;22.0;85;-1.0;Helden_des_Gottwals;1000;Rüstungsvorteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;23.0;85;-1.0;Helden_des_Gottwals;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;24.0;85;-1.0;Helden_des_Gottwals;1000;Hiebwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;25.0;85;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;26.0;85;-1.0;Helden_des_Gottwals;1000;Kettenwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;27.0;85;-1.0;Helden_des_Gottwals;1000;und
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;28.0;85;-1.0;Helden_des_Gottwals;1000;Zweihandhiebwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;29.0;85;-1.0;Helden_des_Gottwals;1000;schützt die Gjalsker Lederrüstung mit RS 4.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;30.0;85;-1.0;Helden_des_Gottwals;1000;Rüstungsnachteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;31.0;85;-1.0;Helden_des_Gottwals;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;32.0;85;-1.0;Helden_des_Gottwals;1000;Dolche
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;33.0;85;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;34.0;85;-1.0;Helden_des_Gottwals;1000;Fechtwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;35.0;85;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;36.0;85;-1.0;Helden_des_Gottwals;1000;Armbrüste
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;37.0;85;-1.0;Helden_des_Gottwals;1000;und
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;38.0;85;-1.0;Helden_des_Gottwals;1000;Bögen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;39.0;85;-1.0;Helden_des_Gottwals;1000;schützt die Gjalsker Lederrüstung nur mit RS 2.

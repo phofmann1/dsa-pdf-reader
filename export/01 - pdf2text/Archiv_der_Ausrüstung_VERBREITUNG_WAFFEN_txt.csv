@@ -1,0 +1,579 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;236;-1.0;Archiv_der_Ausrüstung;1200;Anhang
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;236;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionAchazaxt (Rimkur)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;236;-1.0;Archiv_der_Ausrüstung;1000;Maraskan, Orkland, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;236;-1.0;Archiv_der_Ausrüstung;1000;Achazdreizack (Achfawar)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;236;-1.0;Archiv_der_Ausrüstung;1000;Maraskan, Orkland, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;236;-1.0;Archiv_der_Ausrüstung;1000;Achazreißer (Drash’kor)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;236;-1.0;Archiv_der_Ausrüstung;1000;Maraskan, Orkland, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;236;-1.0;Archiv_der_Ausrüstung;1000;Achazschwanzkeule (Raz’Thon)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;236;-1.0;Archiv_der_Ausrüstung;1000;Maraskan, Orkland, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;236;-1.0;Archiv_der_Ausrüstung;1000;Amazonensäbel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Aranien, Bornland, Horasreich, Kalifat, Maraskan, Schattenlande, Svellttal, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;236;-1.0;Archiv_der_Ausrüstung;1000;Amazonenschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;236;-1.0;Archiv_der_Ausrüstung;1000;Amazonen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;236;-1.0;Archiv_der_Ausrüstung;1000;Andergaster / Nostrianer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;236;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;236;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Andergast, Horasreich, Nostria
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;236;-1.0;Archiv_der_Ausrüstung;1000;Anderthalbhänder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Bornland, Horasreich, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;236;-1.0;Archiv_der_Ausrüstung;1000;Avesstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;236;-1.0;Archiv_der_Ausrüstung;1000;überall wo Avesgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bannschwert, groß (Zweihänder)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;236;-1.0;Archiv_der_Ausrüstung;1000;Gildenmagier
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bannschwert, klein (Dolch)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;236;-1.0;Archiv_der_Ausrüstung;1000;Gildenmagier
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bannschwert, mittel (Langschwert)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;236;-1.0;Archiv_der_Ausrüstung;1000;Gildenmagier
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;236;-1.0;Archiv_der_Ausrüstung;1000;Barbarenschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;236;-1.0;Archiv_der_Ausrüstung;1000;Rommilyser Mark, Tobrien, Aranien, Gjalskerland, Hoher Norden, Tulamidenlande (jeweils bei Barbaren)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;236;-1.0;Archiv_der_Ausrüstung;1000;Barbarenstreitaxt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;236;-1.0;Archiv_der_Ausrüstung;1000;Rommilyser Mark, Tobrien, Aranien, Gjalskerland, Hoher Norden, Tulamidenlande (jeweils bei Barbaren)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;236;-1.0;Archiv_der_Ausrüstung;1000;Basiliskenzunge
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: QTKJBX+GentiumBasic;false;false;34.0;236;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Horasreich, Kali
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;236;-1.0;Archiv_der_Ausrüstung;1000;-fat, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bastardschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Weiden, Windhag, Andergast, Bornland, Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;236;-1.0;Archiv_der_Ausrüstung;1000;Beil/Handaxt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;236;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;236;-1.0;Archiv_der_Ausrüstung;1000;Besen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;236;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bock
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: QTKJBX+GentiumBasic;false;false;44.0;236;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;236;-1.0;Archiv_der_Ausrüstung;1000;-reich, Nostria, Schattenlande, Svellttal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;236;-1.0;Archiv_der_Ausrüstung;1000;Boronssichel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;236;-1.0;Archiv_der_Ausrüstung;1000;Almada, Aranien, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;236;-1.0;Archiv_der_Ausrüstung;1000;Brabakbengel
+PDType0Font/PDCIDFontType2, PostScript name: QTKJBX+GentiumBasic;false;false;49.0;236;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;50.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bratpfanne
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;236;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;236;-1.0;Archiv_der_Ausrüstung;1000;Bratspieß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;236;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;236;-1.0;Archiv_der_Ausrüstung;1000;Brecheisen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;236;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;56.0;236;-1.0;Archiv_der_Ausrüstung;1000;Brechstange
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;236;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;236;-1.0;Archiv_der_Ausrüstung;1000;Breitschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;236;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;236;-1.0;Archiv_der_Ausrüstung;1000;Brillantzwergischer Buckler (Karmoron)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;236;-1.0;Archiv_der_Ausrüstung;1000;Brillantzwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;237;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionBrillantzwergisches Kurzschwert (Giramesch)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;2.0;237;-1.0;Archiv_der_Ausrüstung;1000;Brillantzwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;237;-1.0;Archiv_der_Ausrüstung;1000;Chablak-Dolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;237;-1.0;Archiv_der_Ausrüstung;1000;Ferkinas
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dagla-Schwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;237;-1.0;Archiv_der_Ausrüstung;1000;Trollzacker
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;237;-1.0;Archiv_der_Ausrüstung;1000;Degen
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;8.0;237;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, AlʼAnfanisches Imperium, Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;237;-1.0;Archiv_der_Ausrüstung;1000;Doppelkhunchomer
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;12.0;237;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Kalifat, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dornenkeule
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;237;-1.0;Archiv_der_Ausrüstung;1000;Drachentöter
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;16.0;237;-1.0;Archiv_der_Ausrüstung;1000;Bergkönigreiche der Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;237;-1.0;Archiv_der_Ausrüstung;1000;Drachenzahn
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;18.0;237;-1.0;Archiv_der_Ausrüstung;1000;Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dreizack
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle Küstenregionen
+PDType0Font/PDCIDFontType2, PostScript name: WVCJHL+GentiumBasic-Bold;true;false;21.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dreschflegel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;237;-1.0;Archiv_der_Ausrüstung;1000;Druidendolch
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;24.0;237;-1.0;Archiv_der_Ausrüstung;1000;Nordmarken, Tobrien, Windhag, Schattenlande, Tiefer Süden, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;237;-1.0;Archiv_der_Ausrüstung;1000;Dschadra
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;26.0;237;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Kalifat, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;237;-1.0;Archiv_der_Ausrüstung;1000;Eberfänger
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;28.0;237;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Andergast, Bergkönig
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;237;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;30.0;237;-1.0;Archiv_der_Ausrüstung;1000;reiche der Zwerge, Bornland, Hoher Norden, Nostria, Schattenlande, Svellttal, Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;237;-1.0;Archiv_der_Ausrüstung;1000;Efferdbart
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;32.0;237;-1.0;Archiv_der_Ausrüstung;1000;überall wo Efferdgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;237;-1.0;Archiv_der_Ausrüstung;1000;Eimer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;237;-1.0;Archiv_der_Ausrüstung;1000;Elfendegen (Aleeza)
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;36.0;237;-1.0;Archiv_der_Ausrüstung;1000;Salamandersteine & umliegende Gebiete der Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;237;-1.0;Archiv_der_Ausrüstung;1000;Elfendolch (Briza)
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;38.0;237;-1.0;Archiv_der_Ausrüstung;1000;Salamandersteine & umliegende Gebiete der Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;237;-1.0;Archiv_der_Ausrüstung;1000;Elfenschwert (Tharsil)
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;40.0;237;-1.0;Archiv_der_Ausrüstung;1000;Salamandersteine & umliegende Gebiete der Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;237;-1.0;Archiv_der_Ausrüstung;1000;Elfenspeer (Larza)
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;42.0;237;-1.0;Archiv_der_Ausrüstung;1000;Salamandersteine & umliegende Gebiete der Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;237;-1.0;Archiv_der_Ausrüstung;1000;Entermesser
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle Küstenregionen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;237;-1.0;Archiv_der_Ausrüstung;1000;Fackel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;237;-1.0;Archiv_der_Ausrüstung;1000;Faustschild
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;48.0;237;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Horasreich, Schattenlande, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;237;-1.0;Archiv_der_Ausrüstung;1000;Federmesser
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;50.0;237;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;237;-1.0;Archiv_der_Ausrüstung;1000;Felsspalter
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;52.0;237;-1.0;Archiv_der_Ausrüstung;1000;Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;237;-1.0;Archiv_der_Ausrüstung;1000;Firunsmesser
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;54.0;237;-1.0;Archiv_der_Ausrüstung;1000;überall wo Firungeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;237;-1.0;Archiv_der_Ausrüstung;1000;Flasche
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;237;-1.0;Archiv_der_Ausrüstung;1000;Fleischerbeil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;237;-1.0;Archiv_der_Ausrüstung;1000;Florett
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;60.0;237;-1.0;Archiv_der_Ausrüstung;1000;Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;237;-1.0;Archiv_der_Ausrüstung;1000;Flöte
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;237;-1.0;Archiv_der_Ausrüstung;1000;Fuhrmannspeitsche
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;237;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;237;-1.0;Archiv_der_Ausrüstung;1000;Geißel
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;66.0;237;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;67.0;237;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;68.0;237;-1.0;Archiv_der_Ausrüstung;1000;reich, Kalifat, Maraskan, Nostria, Orkland, Schattenlande, Südmeer & Waldinseln, Svellt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;69.0;237;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;70.0;237;-1.0;Archiv_der_Ausrüstung;1000;tal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;237;-1.0;Archiv_der_Ausrüstung;1000;Glefe
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;72.0;237;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;73.0;237;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: AJYCLD+GentiumBasic;false;false;74.0;237;-1.0;Archiv_der_Ausrüstung;1000;reich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;237;-1.0;Archiv_der_Ausrüstung;1000;Goblinkeule, kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;76.0;237;-1.0;Archiv_der_Ausrüstung;1000;Goblins
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;238;-1.0;Archiv_der_Ausrüstung;1200;Anhang
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;238;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionGoblinkeule, lang
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;238;-1.0;Archiv_der_Ausrüstung;1000;Goblins
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;238;-1.0;Archiv_der_Ausrüstung;1000;Großer Lederschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;238;-1.0;Archiv_der_Ausrüstung;1000;Gjalskerland, Hoher Norden, Orkland, Südmeer & Waldinseln, Svellttal, Tiefer Süden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;238;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;238;-1.0;Archiv_der_Ausrüstung;1000;Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;238;-1.0;Archiv_der_Ausrüstung;1000;Großer Sklaventod
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;9.0;238;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;238;-1.0;Archiv_der_Ausrüstung;1000;Großschild
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;11.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;238;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;13.0;238;-1.0;Archiv_der_Ausrüstung;1000;reich, Maraskan, Nostria, Schattenlande, Thorwal, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hacksäbel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;238;-1.0;Archiv_der_Ausrüstung;1000;Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hakendolch
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;17.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thor
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;238;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;19.0;238;-1.0;Archiv_der_Ausrüstung;1000;wal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hakenspieß
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;21.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Horasreich, Nostria, Schattenlande, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;238;-1.0;Archiv_der_Ausrüstung;1000;Handspiegel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;238;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;238;-1.0;Archiv_der_Ausrüstung;1000;Harigastur-Bronzeschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;238;-1.0;Archiv_der_Ausrüstung;1000;Fjarninger
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;238;-1.0;Archiv_der_Ausrüstung;1000;Haumesser
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;27.0;238;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hauswehr
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;29.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Horasreich, Nostria, Schattenlande, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;238;-1.0;Archiv_der_Ausrüstung;1000;Havener Messer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hellebarde
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;33.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Bornland, Hoher Norden, Horasreich, Nos
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;238;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;35.0;238;-1.0;Archiv_der_Ausrüstung;1000;tria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;238;-1.0;Archiv_der_Ausrüstung;1000;Heroldsstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;238;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;238;-1.0;Archiv_der_Ausrüstung;1000;Hirtenstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;238;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;238;-1.0;Archiv_der_Ausrüstung;1000;Holzfälleraxt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;238;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;238;-1.0;Archiv_der_Ausrüstung;1000;Holzschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;238;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;238;-1.0;Archiv_der_Ausrüstung;1000;Holzspeer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;238;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;238;-1.0;Archiv_der_Ausrüstung;1000;Ingerimmshammer
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;47.0;238;-1.0;Archiv_der_Ausrüstung;1000;überall wo Ingerimmgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;238;-1.0;Archiv_der_Ausrüstung;1000;Jagdmesser
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;49.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thor
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;238;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;51.0;238;-1.0;Archiv_der_Ausrüstung;1000;wal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;238;-1.0;Archiv_der_Ausrüstung;1000;Jagdspieß
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;53.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;238;-1.0;Archiv_der_Ausrüstung;1000;Kampfstab
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;55.0;238;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thor
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;238;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;57.0;238;-1.0;Archiv_der_Ausrüstung;1000;wal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;238;-1.0;Archiv_der_Ausrüstung;1000;Katar
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;238;-1.0;Archiv_der_Ausrüstung;1000;Südmeer & Waldinseln, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;238;-1.0;Archiv_der_Ausrüstung;1000;Kette
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;238;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;62.0;238;-1.0;Archiv_der_Ausrüstung;1000;Kettenstab
+PDType0Font/PDCIDFontType2, PostScript name: PRCZNZ+GentiumBasic;false;false;63.0;238;-1.0;Archiv_der_Ausrüstung;1000;Maraskan
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;239;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionKeule
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;2.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;239;-1.0;Archiv_der_Ausrüstung;1000;Khunchomer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;239;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Kalifat, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;239;-1.0;Archiv_der_Ausrüstung;1000;Knochendolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;239;-1.0;Archiv_der_Ausrüstung;1000;Knochenkeule
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;239;-1.0;Archiv_der_Ausrüstung;1000;Knüppel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;239;-1.0;Archiv_der_Ausrüstung;1000;Korspieß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;239;-1.0;Archiv_der_Ausrüstung;1000;überall wo Korgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kriegsfächer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;239;-1.0;Archiv_der_Ausrüstung;1000;Aranien
+PDType0Font/PDCIDFontType2, PostScript name: YANRJH+GentiumBasic-Bold;true;false;15.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kriegsflegel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Aranien, Bornland, Hoher Norden, Horasreich, Nostria, Schattenlande, Svellttal, Thorwal, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kriegshammer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;18.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;19.0;239;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge,
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;239;-1.0;Archiv_der_Ausrüstung;1000;Bornland, Hoher Norden, Horasreich, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kriegslanze
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;22.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Aranien, Bornland, Hoher Norden, Horasreich, Kalifat, Nostria, Schattenlande, Svellttal, Thorwal, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kristallkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;239;-1.0;Archiv_der_Ausrüstung;1000;Achaz
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;239;-1.0;Archiv_der_Ausrüstung;1000;Krummdolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;239;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Kalifat, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kurzschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;29.0;239;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge,
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;239;-1.0;Archiv_der_Ausrüstung;1000;Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;239;-1.0;Archiv_der_Ausrüstung;1000;Kusliker Säbel
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;32.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Windhag, AlʼAnfanisches Imperium, Horasreich, Nostria, Südmeer & Waldinseln,
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;239;-1.0;Archiv_der_Ausrüstung;1000;Tiefer Süden, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;34.0;239;-1.0;Archiv_der_Ausrüstung;1000;Langdolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;239;-1.0;Archiv_der_Ausrüstung;1000;Langschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;38.0;239;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge,
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;239;-1.0;Archiv_der_Ausrüstung;1000;Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;239;-1.0;Archiv_der_Ausrüstung;1000;Laute
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;239;-1.0;Archiv_der_Ausrüstung;1000;Lederschild
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;43.0;239;-1.0;Archiv_der_Ausrüstung;1000;Gjalskerland, Orkland, Südmeer & Waldinseln, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;239;-1.0;Archiv_der_Ausrüstung;1000;Lindwurmschläger
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;239;-1.0;Archiv_der_Ausrüstung;1000;Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;239;-1.0;Archiv_der_Ausrüstung;1000;Linkhand
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;47.0;239;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, AlʼAnfanisches Impe
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;239;-1.0;Archiv_der_Ausrüstung;1000;-rium, Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;239;-1.0;Archiv_der_Ausrüstung;1000;Magierdegen
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;50.0;239;-1.0;Archiv_der_Ausrüstung;1000;Almada, Garetien, AlʼAnfanisches Imperium, Bornland, Horasreich, Salamandersteine &
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;239;-1.0;Archiv_der_Ausrüstung;1000;umliegende Gebiete der Elfen, Svellttal, Thorwal, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;239;-1.0;Archiv_der_Ausrüstung;1000;Magierkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;239;-1.0;Archiv_der_Ausrüstung;1000;Gildenmagier
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;54.0;239;-1.0;Archiv_der_Ausrüstung;1000;Magierstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle Regionen mit Magiern
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;56.0;239;-1.0;Archiv_der_Ausrüstung;1000;Maraskanischer Hakenspieß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;239;-1.0;Archiv_der_Ausrüstung;1000;Maraskan
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;239;-1.0;Archiv_der_Ausrüstung;1000;Marbodolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;239;-1.0;Archiv_der_Ausrüstung;1000;überall, wo Marbopriester existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;239;-1.0;Archiv_der_Ausrüstung;1000;Mengbilar
+PDType0Font/PDCIDFontType2, PostScript name: FVXCDT+GentiumBasic;false;false;61.0;239;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Aranien, Maraskan, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;62.0;239;-1.0;Archiv_der_Ausrüstung;1000;Messer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;63.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;64.0;239;-1.0;Archiv_der_Ausrüstung;1000;Metallverstärkter Holzschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;65.0;239;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;240;-1.0;Archiv_der_Ausrüstung;1200;Anhang
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;240;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionMistgabel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;240;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;240;-1.0;Archiv_der_Ausrüstung;1000;Molokdeschnaja
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;240;-1.0;Archiv_der_Ausrüstung;1000;Bornland
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;240;-1.0;Archiv_der_Ausrüstung;1000;Morgenstern
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;240;-1.0;Archiv_der_Ausrüstung;1000;Nachtwind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;240;-1.0;Archiv_der_Ausrüstung;1000;Maraskan
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;240;-1.0;Archiv_der_Ausrüstung;1000;Neethaner Langaxt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;240;-1.0;Archiv_der_Ausrüstung;1000;Horasreich, Tiefer Süden, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;240;-1.0;Archiv_der_Ausrüstung;1000;Neunschwänzige
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;14.0;240;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Ho
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;240;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;16.0;240;-1.0;Archiv_der_Ausrüstung;1000;rasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamiden
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;240;-1.0;Archiv_der_Ausrüstung;1000;-lande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;240;-1.0;Archiv_der_Ausrüstung;1000;Nipauka-Axt
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;19.0;240;-1.0;Archiv_der_Ausrüstung;1000;Waldmenschen und Utulu
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;240;-1.0;Archiv_der_Ausrüstung;1000;Nivesischer Wolfsspeer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;240;-1.0;Archiv_der_Ausrüstung;1000;Nivesen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;240;-1.0;Archiv_der_Ausrüstung;1000;Nudel-/Teigholz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;240;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;240;-1.0;Archiv_der_Ausrüstung;1000;Ochsenherde
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;240;-1.0;Archiv_der_Ausrüstung;1000;Ogerfänger
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;240;-1.0;Archiv_der_Ausrüstung;1000;Ogerschelle
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;240;-1.0;Archiv_der_Ausrüstung;1000;Opferdolch des Namenlosen (Basiliskenzunge)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;240;-1.0;Archiv_der_Ausrüstung;1000;überall, wo Namenlose-Geweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;240;-1.0;Archiv_der_Ausrüstung;1000;Opferdolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;240;-1.0;Archiv_der_Ausrüstung;1000;überall wo Anhänger des Namenlosen existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;34.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orchidee
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;35.0;240;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkaxt (Byakka)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkland, Svellttal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkischer Blutspeer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orks
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkkriegshammer (Gruufhai)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkland, Svellttal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orknase
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;240;-1.0;Archiv_der_Ausrüstung;1000;Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orksäbel (Arbach)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;240;-1.0;Archiv_der_Ausrüstung;1000;Orkland, Svellttal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;240;-1.0;Archiv_der_Ausrüstung;1000;Pailos
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;240;-1.0;Archiv_der_Ausrüstung;1000;Horasreich, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;240;-1.0;Archiv_der_Ausrüstung;1000;Pailos
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;240;-1.0;Archiv_der_Ausrüstung;1000;Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;50.0;240;-1.0;Archiv_der_Ausrüstung;1000;Panzerarm
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;51.0;240;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;240;-1.0;Archiv_der_Ausrüstung;1000;Partisane
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;54.0;240;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Horasreich, Nostria, Schattenlande, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;240;-1.0;Archiv_der_Ausrüstung;1000;Pike
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;57.0;240;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Bornland, Horasreich, Nostria, Schatten
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;240;-1.0;Archiv_der_Ausrüstung;1000;-lande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;240;-1.0;Archiv_der_Ausrüstung;1000;Rabenschnabel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;61.0;240;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;240;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;63.0;240;-1.0;Archiv_der_Ausrüstung;1000;reich, Kalifat, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulami
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;240;-1.0;Archiv_der_Ausrüstung;1000;-denlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;240;-1.0;Archiv_der_Ausrüstung;1000;Rapier
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;240;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZNODXF+GentiumBasic;false;false;67.0;240;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;241;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionRichtschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;2.0;241;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;241;-1.0;Archiv_der_Ausrüstung;1000;Robbentöter (Mamra)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;241;-1.0;Archiv_der_Ausrüstung;1000;Firnelfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;241;-1.0;Archiv_der_Ausrüstung;1000;Rondrakamm
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;241;-1.0;Archiv_der_Ausrüstung;1000;überall wo Rondrageweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;241;-1.0;Archiv_der_Ausrüstung;1000;Säbel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;241;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;9.0;241;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;241;-1.0;Archiv_der_Ausrüstung;1000;-reich, Kalifat, Maraskan, Nostria, Schattenlande, Südmeer & Waldinseln, Svellttal, Thor-
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;11.0;241;-1.0;Archiv_der_Ausrüstung;1000;wal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;241;-1.0;Archiv_der_Ausrüstung;1000;Scheibendolch
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;13.0;241;-1.0;Archiv_der_Ausrüstung;1000;Almada, Garetien, AlʼAnfanisches Imperium, Andergast, Aranien, Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schere
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schlachtermesser
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schlagring
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;241;-1.0;Archiv_der_Ausrüstung;1000;Städte
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schmiedehammer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schneiderschere
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;23.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schnitter
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;25.0;241;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Maraskan, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;241;-1.0;Archiv_der_Ausrüstung;1000;Schwerer Dolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;28.0;241;-1.0;Archiv_der_Ausrüstung;1000;Seife mit Tuch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;29.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;30.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sense
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;31.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;32.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sichel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;33.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;34.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sklaventod
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;35.0;241;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Tiefer Süden
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;36.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sonnenschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sonnenlegion
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;38.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sonnenzepter
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;241;-1.0;Archiv_der_Ausrüstung;1000;überall wo Praiosgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;40.0;241;-1.0;Archiv_der_Ausrüstung;1000;Spaten
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;41.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;42.0;241;-1.0;Archiv_der_Ausrüstung;1000;Speer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;43.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;44.0;241;-1.0;Archiv_der_Ausrüstung;1000;Spitzhacke
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;45.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;46.0;241;-1.0;Archiv_der_Ausrüstung;1000;Steinbeil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;47.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;48.0;241;-1.0;Archiv_der_Ausrüstung;1000;Steinhammer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;50.0;241;-1.0;Archiv_der_Ausrüstung;1000;Stockdegen
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;51.0;241;-1.0;Archiv_der_Ausrüstung;1000;Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;52.0;241;-1.0;Archiv_der_Ausrüstung;1000;Stoßspeer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;53.0;241;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;54.0;241;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Andergast, Aranien, Bornland, Hoher Norden, Horasreich, Kalifat, Nostria, Salamandersteine & umliegende Gebiete der Elfen, Schattenlande, Svellttal, Thorwal, Tie
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;55.0;241;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;56.0;241;-1.0;Archiv_der_Ausrüstung;1000;fer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;57.0;241;-1.0;Archiv_der_Ausrüstung;1000;Streitaxt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;58.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;241;-1.0;Archiv_der_Ausrüstung;1000;Streitkolben
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;60.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;61.0;241;-1.0;Archiv_der_Ausrüstung;1000;Stuhl
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;62.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;241;-1.0;Archiv_der_Ausrüstung;1000;Stuhlbein
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;64.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;65.0;241;-1.0;Archiv_der_Ausrüstung;1000;Sturmsense
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;66.0;241;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: ZGJTXF+GentiumBasic;false;false;67.0;241;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Andergast, Aranien, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;68.0;241;-1.0;Archiv_der_Ausrüstung;1000;Thorwalerschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;69.0;241;-1.0;Archiv_der_Ausrüstung;1000;Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;70.0;241;-1.0;Archiv_der_Ausrüstung;1000;Tiergeistkralle (Odûn-Bakka)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;71.0;241;-1.0;Archiv_der_Ausrüstung;1000;Gjalskerland
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;72.0;241;-1.0;Archiv_der_Ausrüstung;1000;Tisch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;73.0;241;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;242;-1.0;Archiv_der_Ausrüstung;1200;Anhang
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;242;-1.0;Archiv_der_Ausrüstung;1000;NahkampfwaffenWaffeRegionTulamidisches Kurzschwert (Scimshar)
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;3.0;242;-1.0;Archiv_der_Ausrüstung;1000;Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;242;-1.0;Archiv_der_Ausrüstung;1000;Turmschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Horasreich, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;242;-1.0;Archiv_der_Ausrüstung;1000;Turnierschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;242;-1.0;Archiv_der_Ausrüstung;1000;wie Turnierschwert
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;242;-1.0;Archiv_der_Ausrüstung;1000;Turnierschwert
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Horasreich, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;242;-1.0;Archiv_der_Ausrüstung;1000;Turnierzweihänder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;12.0;242;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;242;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Andergast, Bornland, Horasreich, Nostria, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;242;-1.0;Archiv_der_Ausrüstung;1000;Tuzakmesser
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;242;-1.0;Archiv_der_Ausrüstung;1000;Maraskan
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;242;-1.0;Archiv_der_Ausrüstung;1000;Verstärkter Holzschild
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;242;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;242;-1.0;Archiv_der_Ausrüstung;1000;Veteranenhand
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;20.0;242;-1.0;Archiv_der_Ausrüstung;1000;Windhag, AlʼAnfanisches Imperium, Andergast, Aranien, Bornland, Hoher Norden, Horas
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;242;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;22.0;242;-1.0;Archiv_der_Ausrüstung;1000;reich, Maraskan, Nostria, Schattenlande, Südmeer & Waldinseln, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;242;-1.0;Archiv_der_Ausrüstung;1000;Vorschlaghammer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;242;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;242;-1.0;Archiv_der_Ausrüstung;1000;Walschild
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;26.0;242;-1.0;Archiv_der_Ausrüstung;1000;überall wo Swafnirgeweihte existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;242;-1.0;Archiv_der_Ausrüstung;1000;Wanderstab
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;28.0;242;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;29.0;242;-1.0;Archiv_der_Ausrüstung;1000;Waqqif
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;30.0;242;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Kalifat, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;242;-1.0;Archiv_der_Ausrüstung;1000;Warunker Hammer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;242;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;34.0;242;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Schattenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;242;-1.0;Archiv_der_Ausrüstung;1000;Widderkeule
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;36.0;242;-1.0;Archiv_der_Ausrüstung;1000;überall, wo Levthanpriester existieren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;37.0;242;-1.0;Archiv_der_Ausrüstung;1000;Wolfsmesser
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;38.0;242;-1.0;Archiv_der_Ausrüstung;1000;Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;39.0;242;-1.0;Archiv_der_Ausrüstung;1000;Wurfhaken mit Kletterseil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;40.0;242;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;242;-1.0;Archiv_der_Ausrüstung;1000;Wurfnetz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;42.0;242;-1.0;Archiv_der_Ausrüstung;1000;alle Küstenregionen oder Regionen mit Gladiatoren
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;242;-1.0;Archiv_der_Ausrüstung;1000;Wurmspieß
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;242;-1.0;Archiv_der_Ausrüstung;1000;Bergkönigreiche der Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zauberkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;242;-1.0;Archiv_der_Ausrüstung;1000;Scharlatane
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zauberstecken, kurz
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;48.0;242;-1.0;Archiv_der_Ausrüstung;1000;Scharlatane
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;49.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zauberstecken, lang
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;50.0;242;-1.0;Archiv_der_Ausrüstung;1000;Scharlatane
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zauberstecken, mittel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;52.0;242;-1.0;Archiv_der_Ausrüstung;1000;Scharlatane
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zweihänder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Bornland, Hoher Norden, Horasreich, Nostria, Schattenlande, Svellttal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zweililie
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;56.0;242;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;57.0;242;-1.0;Archiv_der_Ausrüstung;1000;Windhag, Horasreich, Kalifat
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;58.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zwergenschlägel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;59.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;60.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zwergenskraja
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;242;-1.0;Archiv_der_Ausrüstung;1000;Bergkönigreiche der Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;62.0;242;-1.0;Archiv_der_Ausrüstung;1000;Zyklopäisches Kurzschwert (Parazonium)
+PDType0Font/PDCIDFontType2, PostScript name: WAOMCL+GentiumBasic;false;false;63.0;242;-1.0;Archiv_der_Ausrüstung;1000;Horasreich, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;1.0;243;-1.0;Archiv_der_Ausrüstung;1000;Fernkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;243;-1.0;Archiv_der_Ausrüstung;900;WaffenRegion
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;243;-1.0;Archiv_der_Ausrüstung;1000;Apfel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;4.0;243;-1.0;Archiv_der_Ausrüstung;1000;(fast)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;5.0;243;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;6.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;7.0;243;-1.0;Archiv_der_Ausrüstung;1000;Arbalette
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;8.0;243;-1.0;Archiv_der_Ausrüstung;1000;Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;9.0;243;-1.0;Archiv_der_Ausrüstung;1000;Balestra
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;10.0;243;-1.0;Archiv_der_Ausrüstung;1000;Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;11.0;243;-1.0;Archiv_der_Ausrüstung;1000;Balestrina
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;12.0;243;-1.0;Archiv_der_Ausrüstung;1000;Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;13.0;243;-1.0;Archiv_der_Ausrüstung;1000;Balläster
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;14.0;243;-1.0;Archiv_der_Ausrüstung;1000;Almada, Garetien, Aranien, Bergkönigreiche der Zwerge, Horasreich
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;15.0;243;-1.0;Archiv_der_Ausrüstung;1000;Bierkrug
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;16.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;17.0;243;-1.0;Archiv_der_Ausrüstung;1000;Blasrohr
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;18.0;243;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Aranien, Maraskan, Südmeer & Waldinseln, Tiefer Süden, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;19.0;243;-1.0;Archiv_der_Ausrüstung;1000;Borndorn
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;20.0;243;-1.0;Archiv_der_Ausrüstung;1000;Bornland
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;21.0;243;-1.0;Archiv_der_Ausrüstung;1000;Diskus
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;22.0;243;-1.0;Archiv_der_Ausrüstung;1000;Aranien, Maraskan, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;23.0;243;-1.0;Archiv_der_Ausrüstung;1000;Eisenwalder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;24.0;243;-1.0;Archiv_der_Ausrüstung;1000;Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;25.0;243;-1.0;Archiv_der_Ausrüstung;1000;Elfenbogen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;26.0;243;-1.0;Archiv_der_Ausrüstung;1000;Elfen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;27.0;243;-1.0;Archiv_der_Ausrüstung;1000;Feuerspeien
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;28.0;243;-1.0;Archiv_der_Ausrüstung;1000;Gaukler
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;29.0;243;-1.0;Archiv_der_Ausrüstung;1000;Fledermaus
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;30.0;243;-1.0;Archiv_der_Ausrüstung;1000;Bergkönigreiche der Zwerge
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;31.0;243;-1.0;Archiv_der_Ausrüstung;1000;Geschirr
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;32.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;33.0;243;-1.0;Archiv_der_Ausrüstung;1000;Granatapfel & Lasso
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;34.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;35.0;243;-1.0;Archiv_der_Ausrüstung;1000;
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;36.0;243;-1.0;Archiv_der_Ausrüstung;1000;Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;37.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;38.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, Andergast, Hoher Norden, Horasreich, Kalifat, Maraskan, Nostria, Schattenlande, Svellt
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;39.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;40.0;243;-1.0;Archiv_der_Ausrüstung;1000;tal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;41.0;243;-1.0;Archiv_der_Ausrüstung;1000;Handarmbrust
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;42.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;43.0;243;-1.0;Archiv_der_Ausrüstung;1000;Jonglierball mit Gewichten
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;44.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;45.0;243;-1.0;Archiv_der_Ausrüstung;1000;Jonglierball
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;46.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;47.0;243;-1.0;Archiv_der_Ausrüstung;1000;Kompositbogen
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;48.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;49.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;50.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;51.0;243;-1.0;Archiv_der_Ausrüstung;1000;Kriegsbogen
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;52.0;243;-1.0;Archiv_der_Ausrüstung;1000;Garetien, Tobrien, Weiden, Andergast
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;53.0;243;-1.0;Archiv_der_Ausrüstung;1000;Kristallkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;54.0;243;-1.0;Archiv_der_Ausrüstung;1000;Achaz
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;55.0;243;-1.0;Archiv_der_Ausrüstung;1000;Kurzbogen
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;56.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;57.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;58.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;59.0;243;-1.0;Archiv_der_Ausrüstung;1000;Langbogen
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;60.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;61.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;62.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;63.0;243;-1.0;Archiv_der_Ausrüstung;1000;Leichte Armbrust
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;64.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;65.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;66.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland, Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;67.0;243;-1.0;Archiv_der_Ausrüstung;1000;Magierkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;68.0;243;-1.0;Archiv_der_Ausrüstung;1000;Gildenmagier
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;69.0;243;-1.0;Archiv_der_Ausrüstung;1000;Schleuder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;70.0;243;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;71.0;243;-1.0;Archiv_der_Ausrüstung;1000;Schneidzahn
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;72.0;243;-1.0;Archiv_der_Ausrüstung;1000;Thorwal
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;73.0;243;-1.0;Archiv_der_Ausrüstung;1000;Schwere Armbrust
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;74.0;243;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;75.0;243;-1.0;Archiv_der_Ausrüstung;1000;
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;76.0;243;-1.0;Archiv_der_Ausrüstung;1000;Wind
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;77.0;243;-1.0;Archiv_der_Ausrüstung;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;78.0;243;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;79.0;243;-1.0;Archiv_der_Ausrüstung;1000;
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;80.0;243;-1.0;Archiv_der_Ausrüstung;1000;Bornland,
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;81.0;243;-1.0;Archiv_der_Ausrüstung;1000;Hoher Norden, Horasreich, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal,
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;82.0;243;-1.0;Archiv_der_Ausrüstung;1000;
+PDType0Font/PDCIDFontType2, PostScript name: JXQXCL+GentiumBasic;false;false;83.0;243;-1.0;Archiv_der_Ausrüstung;1000;Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont RGNLNF+Andalus;false;false;1.0;244;-1.0;Archiv_der_Ausrüstung;1200;Anhang
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;2.0;244;-1.0;Archiv_der_Ausrüstung;1000;Fernkampfwaffen
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;3.0;244;-1.0;Archiv_der_Ausrüstung;900;WaffenRegion
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;4.0;244;-1.0;Archiv_der_Ausrüstung;1000;Stabschleuder
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;5.0;244;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Windhag, Andergast, Hoher Norden, Horasreich, Kalifat, Maraskan, Nostria, Schattenlande, Svellttal, Thorwal, Tiefer Süden, Tulamidenlande, Zyklopeninseln
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;6.0;244;-1.0;Archiv_der_Ausrüstung;1000;Steinchen
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;7.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;8.0;244;-1.0;Archiv_der_Ausrüstung;1000;Vase
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;9.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;10.0;244;-1.0;Archiv_der_Ausrüstung;1000;Windenarmbrust
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;11.0;244;-1.0;Archiv_der_Ausrüstung;1000;Albernia, Almada, Garetien, Kosch, Nordmarken, Rommilyser Mark, Tobrien, Weiden, Wind-
+PDType0Font/PDCIDFontType2, PostScript name: ZBLASF+GentiumBasic;false;false;12.0;244;-1.0;Archiv_der_Ausrüstung;1000;hag, AlʼAnfanisches Imperium, Andergast, Aranien, Bergkönigreiche der Zwerge, Bornland,
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;13.0;244;-1.0;Archiv_der_Ausrüstung;1000;Hoher Norden, Horasreich, Nostria, Schattenlande, Svellttal, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;14.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfbeil
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;15.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;16.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfdolch
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;17.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;18.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfkeule
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;19.0;244;-1.0;Archiv_der_Ausrüstung;1000;Hoher Norden (bei Nivesen)
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;20.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfmesser
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;21.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;22.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfring, -scheibe, -stern
+PDType0Font/PDCIDFontType2, PostScript name: ZBLASF+GentiumBasic;false;false;23.0;244;-1.0;Archiv_der_Ausrüstung;1000;AlʼAnfanisches Imperium, Aranien, Kalifat, Maraskan, Tulamidenlande
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;24.0;244;-1.0;Archiv_der_Ausrüstung;1000;Wurfspeer
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;25.0;244;-1.0;Archiv_der_Ausrüstung;1000;alle
+PDTrueTypeFont WBMIPV+GentiumBasic-Bold;true;false;26.0;244;-1.0;Archiv_der_Ausrüstung;1000;Zauberkugel
+PDTrueTypeFont IBOCBX+GentiumBasic;false;false;27.0;244;-1.0;Archiv_der_Ausrüstung;1000;Scharlatane

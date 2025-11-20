@@ -1,0 +1,40 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont CXPZPJ+Andalus;false;false;29.0;307;-1.0;Archiv_der_Dämonen;1800;Neue Sonderfertigkeiten
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;30.0;307;-1.0;Archiv_der_Dämonen;1300;Bindung (Dämonen)
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;31.0;307;-1.0;Archiv_der_Dämonen;1000;Nur die mächtigsten Dämonenbeschwörer können Dämonen binden.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;32.0;307;-1.0;Archiv_der_Dämonen;1000;Regel
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;33.0;307;-1.0;Archiv_der_Dämonen;1000;Mit dieser Sonderfertigkeit kann ein Zauberer Dämonen binden (siehe Seite
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;34.0;307;-1.0;Archiv_der_Dämonen;1000;307
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;35.0;307;-1.0;Archiv_der_Dämonen;1000;).
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;36.0;307;-1.0;Archiv_der_Dämonen;1000;Voraussetzungen
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;37.0;307;-1.0;Archiv_der_Dämonen;1000;passende INVOCATIO-Zauber FW 12
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;38.0;307;-1.0;Archiv_der_Dämonen;1000;AP-Wert
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;39.0;307;-1.0;Archiv_der_Dämonen;1000;niedere/bis zu 5-gehörnte/Dämonen ab 6 Hörnern 10/20/40 Abenteuerpunkte
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;40.0;307;-1.0;Archiv_der_Dämonen;1300;Rudelbeschwörung I/II/III
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;41.0;307;-1.0;Archiv_der_Dämonen;1000;Einige auf die Beschwörung von Dämonen spezialisierte Zauberer können leichter bei einem Ritual gleich mehrere Dämonen der gleichen Art rufen.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;42.0;307;-1.0;Archiv_der_Dämonen;1000;Regel
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;43.0;307;-1.0;Archiv_der_Dämonen;1000;Bei Stufe I/II/III kann der Zauberer niedere/bis zu 5-gehörnte/Dämonen ab 6 Hörnern im Rudel beschwören.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;44.0;307;-1.0;Archiv_der_Dämonen;1000;Voraussetzungen
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;45.0;307;-1.0;Archiv_der_Dämonen;1000;Stufe I: MU 15<br> Stufe II: MU 16, Rudelbeschwörung I<br> Stufe III: MU 17, Rudelbeschwörung II
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;46.0;307;-1.0;Archiv_der_Dämonen;1000;AP-Wert
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;47.0;307;-1.0;Archiv_der_Dämonen;1000;Stufe I/II/III: 20/25/30 Abenteuerpunkte
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;48.0;307;-1.0;Archiv_der_Dämonen;1300;Wahrer Name (spezieller Dämon)
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;49.0;307;-1.0;Archiv_der_Dämonen;1000;Der Held hat die Kenntnis des Wahren Namens eines Dämons.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;50.0;307;-1.0;Archiv_der_Dämonen;1000;Regel
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;51.0;307;-1.0;Archiv_der_Dämonen;1000;Wer die Kenntnis des Wahren Namens eines Dämons besitzt, für den sind Proben auf Fertigkeiten, um diesen zu beschwören oder zu bannen, um +1 erleich-
+PDType0Font/PDCIDFontType2, PostScript name: CUTXTJ+GentiumBasic;false;false;52.0;307;-1.0;Archiv_der_Dämonen;1000;tert. Die Kenntnis des Wahren Namens modifiziert je
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;53.0;307;-1.0;Archiv_der_Dämonen;1000;-doch nicht die Anrufungsschwierigkeit des Dämons.
+PDType0Font/PDCIDFontType2, PostScript name: CUTXTJ+GentiumBasic;false;false;54.0;307;-1.0;Archiv_der_Dämonen;1000;Für jede Dämonenart muss diese Sonderfertigkeit ex
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;55.0;307;-1.0;Archiv_der_Dämonen;1000;-tra erlernt werden.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;56.0;307;-1.0;Archiv_der_Dämonen;1000;Voraussetzungen
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;57.0;307;-1.0;Archiv_der_Dämonen;1000;passende INVOCATIO-Zauber FW 8
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;58.0;307;-1.0;Archiv_der_Dämonen;1000;AP-Wert
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;59.0;307;-1.0;Archiv_der_Dämonen;1000;niedere/bis zu 5-gehörnte/Dämonen ab 6 Hörnern 10/20/30 Abenteuerpunkte
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;60.0;307;-1.0;Archiv_der_Dämonen;1300;Zirkelmeister (Dämonen)
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;61.0;307;-1.0;Archiv_der_Dämonen;1000;Nicht jeder Beschwörer hat genug Kraft, um mächtige Rituale und viele Dämonen gleichzeitig zu rufen. Durch diese Sonderfertigkeit kann er zusammen mit anderen Zirkelmitgliedern die Invokation von Dämonen vornehmen.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;62.0;307;-1.0;Archiv_der_Dämonen;1000;Regel
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;63.0;307;-1.0;Archiv_der_Dämonen;1000;Der Held kann Dämonen durch einen Beschwörerzirkel herbeirufen.
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;64.0;307;-1.0;Archiv_der_Dämonen;1000;Voraussetzungen
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;65.0;307;-1.0;Archiv_der_Dämonen;1000;passender INVOCATIO-Zauber FW 10
+PDTrueTypeFont ULODHZ+GentiumBasic-Bold;true;false;66.0;307;-1.0;Archiv_der_Dämonen;1000;AP-Wert
+PDTrueTypeFont MUSHZP+GentiumBasic;false;false;67.0;307;-1.0;Archiv_der_Dämonen;1000;20 Abenteuerpunkte

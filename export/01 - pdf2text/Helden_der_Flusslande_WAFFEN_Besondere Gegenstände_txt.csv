@@ -1,0 +1,169 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;79;-1.0;Helden_der_Flusslande;1200;Rüstkammer der Flusslande
+PDTrueTypeFont XDDCID+Andalus;false;false;2.0;79;-1.0;Helden_der_Flusslande;1800;Besondere Gegenstände
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;79;-1.0;Helden_der_Flusslande;1000;GuldebrandtKomplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;4.0;79;-1.0;Helden_der_Flusslande;1000;keine
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;79;-1.0;Helden_der_Flusslande;900;NameKampftechnikTPL+S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;6.0;79;-1.0;Helden_der_Flusslande;800;AT/PA-Mod
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;7.0;79;-1.0;Helden_der_Flusslande;900;RWGewichtLängePreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;8.0;79;-1.0;Helden_der_Flusslande;1000;Guldebrandt
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;9.0;79;-1.0;Helden_der_Flusslande;1000;(2H)Zweihandschwerter1W6+8KK 13+1/–1mittel3,5 Stn125 HFunbezahlbar
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;10.0;79;-1.0;Helden_der_Flusslande;1000;Anmerkung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;11.0;79;-1.0;Helden_der_Flusslande;1000;Guldebrandt ist unzerbrechlich und setzt keinen Rost an. Orks erleiden 1 Stufe
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;12.0;79;-1.0;Helden_der_Flusslande;1000;Schmerz
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;13.0;79;-1.0;Helden_der_Flusslande;1000;für 1 Stunde, wenn sie mindestens 1 SP durch Guldebrandt erleiden. Diese Zustandsstufen sind kumulativ.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;14.0;79;-1.0;Helden_der_Flusslande;1000;Waffenvorteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;79;-1.0;Helden_der_Flusslande;1000;Das Manöver
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;16.0;79;-1.0;Helden_der_Flusslande;1000;Vorstoß
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;79;-1.0;Helden_der_Flusslande;1000;verleiht dem Träger Guldebrandts einen Bonus von +3 AT (statt +2).
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;18.0;79;-1.0;Helden_der_Flusslande;1000;Waffennachteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;19.0;79;-1.0;Helden_der_Flusslande;1000;Das Manöver
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;20.0;79;-1.0;Helden_der_Flusslande;1000;Verteidigungshaltung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;21.0;79;-1.0;Helden_der_Flusslande;1000;verleiht dem Träger Guldebrandts nur einen Bonus von +3 VW (statt +4).
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;22.0;79;-1.0;Helden_der_Flusslande;1300;Das Koschbasalt-Kästchen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;23.0;79;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;24.0;79;-1.0;Helden_der_Flusslande;1000;Nein, meine magische Hellsicht trügt mich nie. Das Artefakt ist nicht hier. Alle Gegenstände in dieser Schatzkammer sind so magisch wie Koschbasalt. Moment mal ... Das Kästchen da
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;25.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;26.0;79;-1.0;Helden_der_Flusslande;1000;hinten ... Das ist tatsächlich aus Koschbasalt! Dort also hat der Schurke es versteckt.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;27.0;79;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;28.0;79;-1.0;Helden_der_Flusslande;1000;—Jocasta Dohlfelder, Magierin aus Elenvina, 1041 BF
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;29.0;79;-1.0;Helden_der_Flusslande;1000;Der Koschbasalt ist ein tiefgraues Gestein, das häufig regenbo
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;30.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;31.0;79;-1.0;Helden_der_Flusslande;1000;genfarben schimmernde Einschlüsse aufweist. Er ist fast ausschließ
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;32.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;33.0;79;-1.0;Helden_der_Flusslande;1000;lich in den Koschber
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;34.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;35.0;79;-1.0;Helden_der_Flusslande;1000;gen zu finden und aventurienweit für seine starke antimagi
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;36.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;37.0;79;-1.0;Helden_der_Flusslande;1000;sche Wirkung bekannt. Kundige Steinschneider
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;38.0;79;-1.0;Helden_der_Flusslande;1000;verstehen sich darauf, den
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;39.0;79;-1.0;Helden_der_Flusslande;1000;Basaltstein in so dünne Plat
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;41.0;79;-1.0;Helden_der_Flusslande;1000;ten zu zerschneiden, dass sich damit die Innenseiten von Kisten und Tru
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;43.0;79;-1.0;Helden_der_Flusslande;1000;hen auslegen oder sogar komplette Kästchen aus Kosch
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;45.0;79;-1.0;Helden_der_Flusslande;1000;basalt anfertigen lassen. Diese eignen sich in besonderer Weise zur Verwahrung magischer Artefakte, schirmen sie deren Aura doch vollständig nach außen ab, sodass sie auch mittels Hellsichtmagie nicht mehr aufspürbar
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;79;-1.0;Helden_der_Flusslande;1000;sind. Viele Kästchen dieser Art weisen aufwändige Ver-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;47.0;79;-1.0;Helden_der_Flusslande;1000;zierungen und zusätzliche Schutzrunen oder Götterzei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;49.0;79;-1.0;Helden_der_Flusslande;1000;chen auf. Meist sind sie zudem mit soliden Schlössern aus zwergischer Fertigung versehen, die jedem Unbe
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;79;-1.0;Helden_der_Flusslande;1000;-fugten das Öffnen verwehren.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;51.0;79;-1.0;Helden_der_Flusslande;1300;Das Schwert Guldebrandt
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;79;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;53.0;79;-1.0;Helden_der_Flusslande;1000;Als die schändlichen Orken aber erkannten, dass Guldebrandt, das Nordmärkische, gegen sie in die Schlacht geführt wurde, da befiel sie große Furcht. Kalte Angst erfüllte die Herzen der Krieger, und sie flohen, so sehr ihre Häuptlinge und Scha
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;54.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;55.0;79;-1.0;Helden_der_Flusslande;1000;manen ihnen auch befahlen, gegen die nordmärkische Streitmacht zu kämpfen.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;79;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;57.0;79;-1.0;Helden_der_Flusslande;1000;—Großvater Grantel Kannenbäcker zu sei
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;58.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;59.0;79;-1.0;Helden_der_Flusslande;1000;nen Enkeln, neuzeitlich
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;60.0;79;-1.0;Helden_der_Flusslande;1000;Wohl keine andere Waffe in den Flusslanden ist derart von Legenden und Heldensagen um
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;61.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;62.0;79;-1.0;Helden_der_Flusslande;1000;geben wie das Schwert Guldebrandt, das auch den Beinamen „das Nordmärkische“ trägt. Es wurde in Drachenblut gehärtet und sei da
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;63.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;64.0;79;-1.0;Helden_der_Flusslande;1000;durch unzerbrechlich geworden, so erzählt man. Der Heilige Hlûthar von den Nordmar
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;65.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;66.0;79;-1.0;Helden_der_Flusslande;1000;ken, Held der ersten Dämonenschlacht, soll es vor mehr als 1600 Jahren getragen haben. Orks soll Guldebrandt abgrundtief hassen und ihnen niederhöllische Schmerzen ver
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;67.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;68.0;79;-1.0;Helden_der_Flusslande;1000;ursachen, weshalb die Schwarzpelze sei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;70.0;79;-1.0;Helden_der_Flusslande;1000;ne Klinge fürchten. Zugleich zählt es als Richtschwert zu den Reichskleinodien des Raulschen Kaiserreichs. Als Insignium des Reichssenneschalls ist es den Herzögen der Nordmarken anvertraut, die dieses Amt seit vielen Jahren innehaben. Guldebrandt ist ein Bastard
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;71.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;72.0;79;-1.0;Helden_der_Flusslande;1000;schwert altertümlicher Form, das sich sowohl einhän
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;73.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;74.0;79;-1.0;Helden_der_Flusslande;1000;dig als auch beidhändig führen lässt. Wenngleich man der Waffe die Jahrhunderte ansehen kann, ist die Klinge
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;75.0;79;-1.0;Helden_der_Flusslande;1000;noch immer scharf.»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;76.0;79;-1.0;Helden_der_Flusslande;1000;Guldebrandt, ein Schwert aus Legenden und Hel
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;77.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;78.0;79;-1.0;Helden_der_Flusslande;1000;densagen. Das wäre sicher ein ganz besonderes Ge
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;79.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;80.0;79;-1.0;Helden_der_Flusslande;1000;fühl, es einmal in den eigenen Händen zu halten.«—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;81.0;79;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;82.0;79;-1.0;Helden_der_Flusslande;1000;So ablehnend diese Söhne des Misstrauens uns Zauberkundigen auch gegenüberstehen, al
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;83.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;84.0;79;-1.0;Helden_der_Flusslande;1000;lein der mysteriöse Koschbasalt lässt eine For
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;85.0;79;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;86.0;79;-1.0;Helden_der_Flusslande;1000;schungsreise in die Flusslande schon lohnend erscheinen.«—Mirhiban al’Orhima, tulamidische Feuermagierin
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;1.0;80;-1.0;Helden_der_Flusslande;1000;DruidensichelKomplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;2.0;80;-1.0;Helden_der_Flusslande;1000;prim
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;3.0;80;-1.0;Helden_der_Flusslande;900;NameKampftechnikTPL+S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;4.0;80;-1.0;Helden_der_Flusslande;800;AT/PA-Mod
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;80;-1.0;Helden_der_Flusslande;900;RWGewichtLängePreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;6.0;80;-1.0;Helden_der_Flusslande;1000;Druidensichel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;7.0;80;-1.0;Helden_der_Flusslande;1000;Hiebwaffen1W6+2KK 15–2/–2kurz0,5 Stn60 HF70 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;8.0;80;-1.0;Helden_der_Flusslande;1000;Regeltechnik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;9.0;80;-1.0;Helden_der_Flusslande;1000;Fingerfertigkeit erhält bei der zweiten Teilprobe auf
+PDType0Font/PDCIDFontType2, PostScript name: HUCDZA+GentiumBasic-Italic;false;true;10.0;80;-1.0;Helden_der_Flusslande;1000;Pflanzenkunde (Nutzpflanzen)
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;11.0;80;-1.0;Helden_der_Flusslande;1000;bei Verwendung einer Sichel einen Bonus von +1, wenn es um Ackerbau geht.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;12.0;80;-1.0;Helden_der_Flusslande;1000;Waffenvorteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;13.0;80;-1.0;Helden_der_Flusslande;1000;Bei einer Parade gegen die Druidensichel (egal ob gelungen oder misslungen) oder bei einer mit einer Druidensichel parierten AT verhakt sich die andere Waffe. Die nächste Aktion des Trägers der verhakten Waffe ist um –2 Punkte erschwert.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;14.0;80;-1.0;Helden_der_Flusslande;1000;Waffennachteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;15.0;80;-1.0;Helden_der_Flusslande;1000;Das Manöver
+PDType0Font/PDCIDFontType2, PostScript name: HUCDZA+GentiumBasic-Italic;false;true;16.0;80;-1.0;Helden_der_Flusslande;1000;Wuchtschlag
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;17.0;80;-1.0;Helden_der_Flusslande;1000;ist um –1 erschwert.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;18.0;80;-1.0;Helden_der_Flusslande;1000;Koschbasalt-Kästchen
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;19.0;80;-1.0;Helden_der_Flusslande;900;Komplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;80;-1.0;Helden_der_Flusslande;900;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;21.0;80;-1.0;Helden_der_Flusslande;1000;komp (2 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;22.0;80;-1.0;Helden_der_Flusslande;900;ArtGewichtStrukturpunktePreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;80;-1.0;Helden_der_Flusslande;1000;Koschbasalt-Kästchen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;80;-1.0;Helden_der_Flusslande;1000;2 Stn50 StP100 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;25.0;80;-1.0;Helden_der_Flusslande;1000;Regeltechnik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;80;-1.0;Helden_der_Flusslande;1000;Das Koschbasalt-Kästchen gilt als mit Koschbasalt verkleidetes Behältnis und ist speziell so bearbeitet worden, dass es quasi unmöglich ist, mit Hellsichtmagie zu erkennen, was in dem Kästchen liegt. Außerdem können weder körperlose Wesen in das Kästchen eindringen, noch ist es Objekten im Inneren möglich, magische Effekte außerhalb des Kästchens zu entfalten.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;27.0;80;-1.0;Helden_der_Flusslande;1300;Die Druidensichel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;28.0;80;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;29.0;80;-1.0;Helden_der_Flusslande;1000;Die Waldhexer schmieden ihre Sicheln aus verfluchtem Gold. Dazu nehmen sie eine Goldmünze aus dem Beutel eines im Sumpf ertrunkenen Mannes und eine Goldmünze aus dem Beutel einer am Gal
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;30.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;31.0;80;-1.0;Helden_der_Flusslande;1000;gen gestorbenen Frau. Dann vermengen sie beides im Schein des gekrümmten Madamals mit Krö
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;32.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;33.0;80;-1.0;Helden_der_Flusslande;1000;tendreck und schmieden es in kaltem Feu
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;34.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;35.0;80;-1.0;Helden_der_Flusslande;1000;er mit dem Knauf ihres Druidendolches zu einer Sichelklinge. Eine solche Zaubersichel bringt allen, die sie berühren, den Tod, und selbst die Geister und Feen fürchten sie.«—gängiger Aberglaube in den Flusslan
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;36.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;37.0;80;-1.0;Helden_der_Flusslande;1000;den, jahrhundertealt und noch immer
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;38.0;80;-1.0;Helden_der_Flusslande;1000;weitverbreitet
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;39.0;80;-1.0;Helden_der_Flusslande;1000;Die Haindruiden der Flusslande verfügen neben dem Druidendolch noch über ein weite
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;40.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;41.0;80;-1.0;Helden_der_Flusslande;1000;res Traditionsartefakt, die Druidensichel. Die stark ge
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;43.0;80;-1.0;Helden_der_Flusslande;1000;krümmte Klinge aus Gold ist an einem Griffstück aus meist unbearbeitetem, natürlich gewachsenem Holz befestigt. Die Druidensichel dient neben ihrer rituel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;45.0;80;-1.0;Helden_der_Flusslande;1000;len Funktion vor allem zum Anschneiden von Misteln und anderen Pflanzen. Zur Not lässt sie sich jedoch auch als Waffe verwenden, die durch die ihr innewohnende Zauberkraft auch magische Wesen zu verletzen vermag. Die Diener Sumus erschaffenen ein solches Artefakt in einem gemeinsamen Ritual, bei dem sie das Gold von beschworenen Elementarwesen herbeischaffen und in stillen Nächten, in denen das Madamal nur kelchför
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;47.0;80;-1.0;Helden_der_Flusslande;1000;mig am Himmel steht, zur Sichelklinge formen lassen. Aufgrund ihrer magischen Natur hat die Goldene Si
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;49.0;80;-1.0;Helden_der_Flusslande;1000;chel, wenngleich sie aus Metall gefertigt ist, keine ein
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;80;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;51.0;80;-1.0;Helden_der_Flusslande;1000;schränkenden Auswirkungen auf die Zauberkräfte
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;80;-1.0;Helden_der_Flusslande;1000;der Druiden.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;53.0;80;-1.0;Helden_der_Flusslande;1300;Wunderwerke der Mechanik
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;80;-1.0;Helden_der_Flusslande;1000;Falls ein Held ein Wunderwerk der Mechanik kaufen will, statt es selbst herzustellen, kann er dies bei einem zwergischen oder menschlichen Mechanikus tun.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;55.0;80;-1.0;Helden_der_Flusslande;1000;Wunderwerk der Mechanik
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;56.0;80;-1.0;Helden_der_Flusslande;900;GegenstandGewichtPreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;57.0;80;-1.0;Helden_der_Flusslande;1000;KomplexitätAbakus
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;80;-1.0;Helden_der_Flusslande;1000;0,5 Stn10 Seinf
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;59.0;80;-1.0;Helden_der_Flusslande;1000;Armbrustfalle*
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;80;-1.0;Helden_der_Flusslande;1000;0,75 Stn30 Skomp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;61.0;80;-1.0;Helden_der_Flusslande;1000;Astrolabium
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;80;-1.0;Helden_der_Flusslande;1000;3
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;63.0;80;-1.0;Helden_der_Flusslande;1000;
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;80;-1.0;Helden_der_Flusslande;1000;Stn250 Skomp (2 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;65.0;80;-1.0;Helden_der_Flusslande;1000;Ausfahrbarer Regenschirm
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;80;-1.0;Helden_der_Flusslande;1000;1 Stn20 Skomp (1 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;67.0;80;-1.0;Helden_der_Flusslande;1000;Fernrohr
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;68.0;80;-1.0;Helden_der_Flusslande;1000;1,25 Stn150 Skomp (2 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;69.0;80;-1.0;Helden_der_Flusslande;1000;Flaschenzug, pro Rolle
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;70.0;80;-1.0;Helden_der_Flusslande;1000;1 Stn15 Skomp (1 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;71.0;80;-1.0;Helden_der_Flusslande;1000;Kombinationsschloss
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;72.0;80;-1.0;Helden_der_Flusslande;1000;1,5 Stn200 Skomp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;73.0;80;-1.0;Helden_der_Flusslande;1000;Quadrant
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;74.0;80;-1.0;Helden_der_Flusslande;1000;0,75 Stn70 Skomp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;75.0;80;-1.0;Helden_der_Flusslande;1000;Sackuhr
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;76.0;80;-1.0;Helden_der_Flusslande;1000;0,25 Stn800 Skomp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;77.0;80;-1.0;Helden_der_Flusslande;1000;Spieluhr
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;78.0;80;-1.0;Helden_der_Flusslande;1000;0,25 Stn400 Skomp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;79.0;80;-1.0;Helden_der_Flusslande;1000;Springarm
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;80.0;80;-1.0;Helden_der_Flusslande;1000;1 Stn40 Skomp (2 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;81.0;80;-1.0;Helden_der_Flusslande;1000;Vorhängeschloss
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;82.0;80;-1.0;Helden_der_Flusslande;1000;3 Stn10 Seinf*) Zusätzlich müssen noch die Kosten für eine entsprechende Armbrust und Munition gezahlt werden.

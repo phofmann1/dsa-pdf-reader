@@ -1,0 +1,703 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;459;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;459;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;459;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;459;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;459;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;459;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;459;-1.0;Grimorium;1400;a
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;459;-1.0;Grimorium;900;nimisten
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;459;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;459;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;459;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;459;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;459;-1.0;Grimorium;900;Ein Zauber der Tradition Animisten erfordert Sicht auf das Ziel, allerdings keine Geste oder Formel.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;459;-1.0;Grimorium;900;Animisten können maximal 3 Zaubersprüche erlernen (keine Rituale). Diese Zaubersprüche können aus jeder Tradition stammen oder allgemein sein, aber sie dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zaubersprüche ihrer eigenen Tradition. Die Meisterin hat das letzte Wort darüber, ob ein Animist einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;459;-1.0;Grimorium;900;Animisten können keine Zaubermodifikationen durchführen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;459;-1.0;Grimorium;900;Animismus existiert in verschiedenen Varianten, die abhängig von der gewählten Kultur des Helden sind. Jede dieser Stammestraditionen verfügt einen bestimmten Fundus an Animistenkräfte.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;459;-1.0;Grimorium;900;Animisten können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition des Animisten aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;459;-1.0;Grimorium;900;Animisten können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;25.0;459;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;459;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;27.0;459;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;459;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Animistenkräfte beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;29.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;459;-1.0;Grimorium;900;Animisten können spezielle animistische Traditionsartefakte ihrer Kultur herstellen und nutzen (z. B. die Animistenwaffe).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;31.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;459;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;33.0;459;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;34.0;459;-1.0;Grimorium;900;Vorteil Zauberer, jeweilige Kultur der Stammestradition
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;35.0;459;-1.0;Grimorium;800;AP-Wert: 125 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;459;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;459;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;459;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;459;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;459;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;459;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;459;-1.0;Grimorium;1400;b
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;459;-1.0;Grimorium;900;orbaradianer
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;459;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;459;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;46.0;459;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;47.0;459;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;459;-1.0;Grimorium;900;Die borbaradianische Tradition kann sowohl von Zauberern wie auch von Nichtzauberern erlernt werden, dazu ist jedoch mindestens ein Minderpakt mit Amazeroth notwendig. Nichtzauberer benötigen darüber hinaus auch das Paktgeschenk Borbaradianismus.Üblicherweise geht man einen Minderpakt ein, indem man über eine Anleitung in dem Buch Borbarads Testament einen Seelengötzen herstellt und durch ihn einen Minderpakt schließt. Ein Seelenpakt mit Amazeroth ist durch den Seelengötzen jedoch ebenfalls möglich oder kann später mit dem Erzdämon eingegangen werden und den Minderpakt ersetzen.Mehr zu Minderpakten und Seelenpakten findet sich in
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;50.0;459;-1.0;Grimorium;800;Aventurische Magie III
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;459;-1.0;Grimorium;900;auf Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;52.0;459;-1.0;Grimorium;800;73
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;459;-1.0;Grimorium;900;.Ein Paktbruch sorgt üblicherweise dafür, dass auch die Tradition verloren geht und alle dazugehörigen Zauber und Fähigkeiten (der Held bekommt aber alle ausgegeben AP zurück).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;459;-1.0;Grimorium;900;Ein Zauber der borbaradianischen Tradition (eine sogenannte Borbaradianer-Formel) erfordert Sicht auf das Ziel, eine magische Geste und eine deutlich ausgesprochene Formel.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;459;-1.0;Grimorium;900;Ein Kenner der Tradition kann Borbaradianer-Formeln lernen und einsetzen. Weist der Held nur die Tradition Borbaradianer auf, kann er auch nur Borbaradianer-Formeln lernen und wirken. Andere Zauber lassen sich durch die Tradition nicht erlernen, auch nicht als Fremdzauber. Ein Borbaradianer kann aber zusätzlich Zaubertricks erlernen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;459;-1.0;Grimorium;900;Besitzt der Held noch eine weitere magische Tradition, so kann er durch sie, wie nach den Regeln dieser Tradition üblich, andere Zauber erlernen und auch in dieser wirken.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;459;-1.0;Grimorium;900;Alle Borbaradianer-Formeln weisen, sofern sie dies nicht ohnehin schon tun, das Merkmal Dämonisch auf. Das sonst übliche Merkmal des Zaubers wird dadurch ersetzt. Dies gilt auch für erlernte Zaubertricks.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;62.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;459;-1.0;Grimorium;900;Borbaradianer-Formeln weisen dämonischchaotische Komponenten auf, sodass die AsP-Kosten immer durch einen Würfelwurf bestimmt werden, der von den ursprünglichen Kosten abhängig ist (siehe nachfolgende Tabelle).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;64.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;65.0;459;-1.0;Grimorium;900;Die Zaubermodifikation Kosten senken ist nicht anwendbar.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;66.0;459;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;67.0;459;-1.0;Grimorium;900;Wird die Zaubermodifikation Erzwingen eingesetzt, steigen die Kosten des Zaubers um 1W6 AsP.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;1.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;2.0;460;-1.0;Grimorium;900;Alle Borbaradianer-Formeln weisen automatisch die Reichweite Berührung auf, können aber durch die Zaubermodifikation Reichweite erhöhen modifiziert werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;3.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;4.0;460;-1.0;Grimorium;900;Statt AsP auszugeben, können Borbaradianer die Kosten auch durch LeP oder durch Kombination von AsP und LeP bezahlen. Bezüglich der Kostenberechnung entspricht 1 LeP hierbei 2 AsP. Muss ein Borbaradianer also z. B. 13 AsP ausgeben, kann er 9 AsP und 2 LeP ausgeben, um die Kosten zu bezahlen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;5.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;6.0;460;-1.0;Grimorium;900;Der Held kann die Sonderfertigkeit Blutmagie (Fremdopfer) aktivieren und die Voraussetzungen der SF ignorieren. Er muss allerdings die AP-Kosten der SF zahlen. Opfert er das Blut eines Kulturschaffenden, kann er es wie beschrieben in AsP umwandeln und statt seines eigenen in die Kostenberechnung seiner Zauber einfließen lassen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;7.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;8.0;460;-1.0;Grimorium;900;Borbaradianer-Formeln können in Zauberbüchern und Schriftrollen niedergeschrieben und aus ihnen ohne Lehrmeister erlernt werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;9.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;10.0;460;-1.0;Grimorium;900;Nur Kenner der Tradition können Borbaradianer-Formeln erlernen, gleich ob durch einen Lehrmeister oder ein Zauberbuch.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;11.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;12.0;460;-1.0;Grimorium;900;Borbaradianer besitzen keine speziellen Traditionsartefakte, können aber, wenn sie eine andere Tradition zusätzlich beherrschen, die entsprechenden Traditionsartefakte herstellen und benutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;460;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Mut.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;15.0;460;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;460;-1.0;Grimorium;900;Paktgeschenk Borbaradianismus oder Vorteil Zauberer und Minderpakt mit Amazeroth
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;17.0;460;-1.0;Grimorium;800;AP-Wert: 70 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;18.0;460;-1.0;Grimorium;1100;k
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;19.0;460;-1.0;Grimorium;700;osten
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;20.0;460;-1.0;Grimorium;1100;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;21.0;460;-1.0;Grimorium;700;Von
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;22.0;460;-1.0;Grimorium;1100;b
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;23.0;460;-1.0;Grimorium;700;orbaradianer
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;24.0;460;-1.0;Grimorium;1100;-f
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;25.0;460;-1.0;Grimorium;700;ormeln
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;26.0;460;-1.0;Grimorium;800;Ursprüngliche AsP-Kosten des ZaubersBorbaradianische Kosten
+PDType1CFont TKFWVH+Litania-Regular;false;false;27.0;460;-1.0;Grimorium;800;1121W341W682W6164W6328W6646W2012812W2025624W20
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;28.0;460;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;29.0;460;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;30.0;460;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;31.0;460;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;32.0;460;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;33.0;460;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;460;-1.0;Grimorium;1400;b
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;460;-1.0;Grimorium;900;robim
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;460;-1.0;Grimorium;1400;-g
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;460;-1.0;Grimorium;900;eoden
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;460;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;460;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;460;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;460;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;42.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;43.0;460;-1.0;Grimorium;900;Ein Zauber der Brobimgeodischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Bei einigen Zaubern und Ritualen sind gesprochene Worte traditionell überliefert und üblich, sie sind aber nicht zwingend für die magische Wirkung notwendig.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;44.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;45.0;460;-1.0;Grimorium;900;Jeder Brobim-Geode muss sich für eines von drei Elementen als sein bevorzugtes Element entscheiden, sobald er die Tradition Brobim-Geoden erhält. Zur Wahl stehen Erz, Feuer oder Luft.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;46.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;47.0;460;-1.0;Grimorium;900;Brobim-Geoden erhalten eine zusätzliche Erleichterung von +1, wenn sie die Zaubermodifikation Zauberdauer erhöhen bei Zaubern mit dem Merkmal Elementar ausführen und dies in einer Version ihres bevorzugten Elements geschieht. Die Zauber GEISTERESSENZ, GEISTERRUF und GEISTERBE-SCHWÖRUNG erhalten eine Erleichterung von +1.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;460;-1.0;Grimorium;900;Starker Bann des Eisens: Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, das der Brobim-Geode trägt oder berührt, ist das Wirken von Zaubern um je –1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP für 24 Stunden pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;50.0;460;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;460;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;52.0;460;-1.0;Grimorium;800;256
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;460;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;460;-1.0;Grimorium;900;Brobim-Geoden können spezielle Geodenrituale erlernen, geodische Traditionsartefakte herstellen und nutzen (z. B. den Lebensring) sowie Vertrautentiere an sich binden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;460;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;460;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;58.0;460;-1.0;Grimorium;800;Voraussetzungen: Vorteil
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;460;-1.0;Grimorium;900;Zauberer, Spezies Zwerg, kein Vorteil Eisenaffine Aura, Kultur Wildzwerge
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;60.0;460;-1.0;Grimorium;800;AP-Wert: 130 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;461;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;461;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;461;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;461;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;461;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;461;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;461;-1.0;Grimorium;900;arna
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;461;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;461;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;461;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;461;-1.0;Grimorium;900;Ein Zauber der Darna erfordert Sicht auf das Ziel und eine magische Geste. Außerdem müssen die Formeln der Zauber ausgesprochen bzw. gesungen werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;461;-1.0;Grimorium;900;Sollte ein Darna eine andere magische Tradition erlernen, beispielsweise die der Hexen oder Animisten, so verliert er dafür die Darna-Tradition. Eventuell müssen zusätzliche AP ausgegeben werden, um die neue Tradition zu erwerben. Die AP von Zaubern und Flüchen, die der Darna nun nicht mehr nutzen kann, kann er umverteilen. Kann er Zauber und Flüche durch die neue Tradition weiterhin nutzen, behält er sie.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;461;-1.0;Grimorium;900;Darna können maximal 3 Zauber (auch Rituale) erlernen. Diese Zauber müssen aus der Tradition Elfen oder allgemein stammen und dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zauber ihrer eigenen Tradition. Die Meisterin hat das letzte Wort darüber, ob ein Darna einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;461;-1.0;Grimorium;900;Darna können zudem als magische Handlungen Hexenflüche erlernen. Die Meisterin hat das letzte Wort darüber, ob ein Darna einen bestimmten Fluch wählen darf.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;461;-1.0;Grimorium;900;Darna erhalten bei der Zaubermodifikation Zauberdauer erhöhen eine Erleichterung von +2 statt nur von +1.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;461;-1.0;Grimorium;900;Darna können die Zaubermodifikation Erzwingen nicht ausführen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;25.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;461;-1.0;Grimorium;900;Darna können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;27.0;461;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;461;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;29.0;461;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;461;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;31.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;461;-1.0;Grimorium;900;Darna verfügen über kein Traditionsartefakt.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;33.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;34.0;461;-1.0;Grimorium;900;Spielst du mit den entsprechenden Fokusregeln, dürfen Darna Zaubererweiterungen erlernen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;35.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;36.0;461;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;37.0;461;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;38.0;461;-1.0;Grimorium;900;Vorteil Zauberer, Kultur Waldmenschen
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;39.0;461;-1.0;Grimorium;800;AP-Wert: 110 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;461;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;461;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;461;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;461;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;461;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;46.0;461;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;47.0;461;-1.0;Grimorium;900;ruiden
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;48.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;49.0;461;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;50.0;461;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;51.0;461;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;461;-1.0;Grimorium;900;Ein Zauber der druidischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Je nach Denkschule sind auch gesprochene Worte Teil des Zaubers, aber sie sind nicht zwingend notwendig.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;461;-1.0;Grimorium;900;Druiden erhalten eine Erleichterung von +2 statt nur von +1, wenn sie die Zaubermodifikation Erzwingen bei einem Zauber ausführen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;461;-1.0;Grimorium;900;Starker Bann des Eisens: Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, das der Druide trägt oder berührt, ist das Wirken von Zaubern um je –1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;58.0;461;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;461;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;60.0;461;-1.0;Grimorium;800;256
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;461;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;62.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;461;-1.0;Grimorium;900;Druiden können spezielle druidische Traditionsartefakte herstellen und nutzen (z. B. den Druidendolch).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;64.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;65.0;461;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Klugheit.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;66.0;461;-1.0;Grimorium;800;Voraussetzungen: Vorteil
+PDType1CFont TKFWVH+Litania-Regular;false;false;67.0;461;-1.0;Grimorium;900;Zauberer, kein Vorteil Eisenaffine Aura
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;68.0;461;-1.0;Grimorium;800;AP-Wert: 125 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;69.0;461;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;70.0;461;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;71.0;461;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;72.0;461;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;73.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;74.0;461;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;75.0;461;-1.0;Grimorium;1400;e
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;76.0;461;-1.0;Grimorium;900;lfen
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;77.0;461;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;78.0;461;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;79.0;461;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;80.0;461;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;81.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;82.0;461;-1.0;Grimorium;900;Ein Zauber der elfischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Außerdem müssen die Formeln der Zauber ausgesprochen bzw. gesungen werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;83.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;84.0;461;-1.0;Grimorium;900;Die Wirkungsdauer aller Zauber der Verbreitung Elfen ist doppelt so lang wie beim Zauber angegeben.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;85.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;86.0;461;-1.0;Grimorium;900;Elfen können elfische Zauberlieder erlernen und nutzen (da sie automatisch den Vorteil Zweistimmiger Gesang besitzen).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;87.0;461;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;88.0;461;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;89.0;461;-1.0;Grimorium;800;Voraussetzungen: Vorteil
+PDType1CFont TKFWVH+Litania-Regular;false;false;90.0;461;-1.0;Grimorium;900;Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;91.0;461;-1.0;Grimorium;800;AP-Wert:
+PDType1CFont TKFWVH+Litania-Regular;false;false;92.0;461;-1.0;Grimorium;900;125 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;462;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;462;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;462;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;462;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;462;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;462;-1.0;Grimorium;1400;g
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;462;-1.0;Grimorium;900;eoden
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;462;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;462;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;462;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;462;-1.0;Grimorium;900;Ein Zauber der geodischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Bei einigen Zaubern und Ritualen sind gesprochene Worte traditionell überliefert und üblich, aber nicht zwingend für die magische Wirkung notwendig.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;462;-1.0;Grimorium;900;Jeder Geode muss sich für eines der sechs Elemente als sein bevorzugtes Element entscheiden, sobald er die Tradition (Geoden) erhält. Zur Wahl stehen Feuer, Wasser, Luft, Erz, Humus und Eis.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;462;-1.0;Grimorium;900;Geoden erhalten eine Erleichterung von +2, wenn sie die Zaubermodifikation Zauberdauer erhöhen bei Zaubern mit dem Merkmal Elementar ausführen und dies in einer Version ihres bevorzugten Elements geschieht.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;462;-1.0;Grimorium;900;Fremdzauber in der Tradition der Druiden können von Geoden modifiziert werden und erleiden beim Wirken nur eine Erschwernis von –1 (statt von –2).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;462;-1.0;Grimorium;900;Starker Bann des Eisens: Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, das der Geode trägt oder berührt, ist das Wirken von Zaubern um je –1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP für 24 Stunden pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;23.0;462;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;462;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;25.0;462;-1.0;Grimorium;800;256
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;462;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;27.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;462;-1.0;Grimorium;900;Geoden können spezielle Geodenrituale erlernen, geodische Traditionsartefakte herstellen (z. B. den Lebensring) und nutzen sowie Vertrautentiere an sich binden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;29.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;462;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;31.0;462;-1.0;Grimorium;800;Voraussetzungen: Vorteil
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;462;-1.0;Grimorium;900;Zauberer, Spezies Zwerg, kein Vorteil Eisenaffine Aura
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;33.0;462;-1.0;Grimorium;800;AP-Wert: 130 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;462;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;462;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;462;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;462;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;462;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;462;-1.0;Grimorium;1400;g
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;462;-1.0;Grimorium;900;ildenmagier
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;462;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;462;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;462;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;46.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;47.0;462;-1.0;Grimorium;900;Ein Zauber der gildenmagischen Tradition erfordert Sicht auf das Ziel, eine magische Geste und eine deutlich ausgesprochene Formel.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;462;-1.0;Grimorium;900;Gildenmagier können sich bei der Heldenerschaffung einen Zauber einer fremden Tradition aussuchen, den sie so wirken können, als wäre es ein Zauber ihrer Tradition. Die Überführung dieser Fremdzauber in die eigene Tradition kann nur mühevoll an Akademien vollzogen werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;462;-1.0;Grimorium;900;Gildenmagische Zauber können in Zauberbücher und Schriftrollen niedergeschrieben und aus ihnen ohne Lehrmeister erlernt werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;462;-1.0;Grimorium;900;Gildenmagier können spezielle gildenmagische Traditionsartefakte herstellen und nutzen (z. B. Magierstäbe).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;462;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Klugheit.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;56.0;462;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;462;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;58.0;462;-1.0;Grimorium;800;AP-Wert: 155 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;59.0;462;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;60.0;462;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;61.0;462;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;62.0;462;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;63.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;64.0;462;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;65.0;462;-1.0;Grimorium;1400;g
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;66.0;462;-1.0;Grimorium;900;oblinzauberinnen
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;67.0;462;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;68.0;462;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;69.0;462;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;70.0;462;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;71.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;72.0;462;-1.0;Grimorium;900;Goblinzauberinnen sind üblicherweise Frauen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;73.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;74.0;462;-1.0;Grimorium;900;Ein Zauber in der Tradition der Goblinzauberinnen erfordert Sicht auf das Ziel und eine magische Geste. Eine Formel ist nicht notwendig.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;75.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;76.0;462;-1.0;Grimorium;900;Bei Ritualen können Goblinzauberinnen die Erschwernis durch den falschen Ritualplatz von –3 auf +/–0 senken.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;77.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;78.0;462;-1.0;Grimorium;900;Elementarnähe: Das Beschwören von Elementarwesen der Elemente Humus, Luft und Erz ist um +1 erleichtert.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;79.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;80.0;462;-1.0;Grimorium;900;Goblinzauberinnen können Fremdzauber nur schwer kontrollieren. Fremdzauber sind für sie zusätzlich um –1 erschwert.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;81.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;82.0;462;-1.0;Grimorium;900;Goblinzauberinnen können Goblinrituale erlernen und Traditionsartefakte ihrer Kultur herstellen und benutzen (z. B. die Goblinkeule, die Schweinetrommel und die Hauerkette).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;83.0;462;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;84.0;462;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;85.0;462;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;86.0;462;-1.0;Grimorium;900;Vorteil Zauberer,
+PDTrueTypeFont MFRBBV+Calibri;false;false;87.0;462;-1.0;Grimorium;900;
+PDType1CFont TKFWVH+Litania-Regular;false;false;88.0;462;-1.0;Grimorium;900;üblicherweise Spezies Goblin
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;89.0;462;-1.0;Grimorium;800;AP-Wert: 100 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;463;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;463;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;463;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;463;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;463;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;463;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;463;-1.0;Grimorium;1400;h
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;463;-1.0;Grimorium;900;exen
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;463;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;463;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;463;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;463;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;463;-1.0;Grimorium;900;Ein Zauber der hexischen Tradition erfordert Sicht auf das Ziel und meist recht unauffällig umgesetzte Zaubergesten und Formeln.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;463;-1.0;Grimorium;900;Die Hexe muss Bodenkontakt haben (barfuß ist nicht notwendig<br> eine Hexe mit Schuhen, aber den Füßen auf dem Boden, reicht für diese Bedingung aus). Ansonsten sind Zauber pro Schritt Distanz zum Boden um –1 erschwert, bis zu einem Maximum von –8. Bei größeren Wasserflächen gilt die Wasseroberfläche als Boden. Auch Gebäude, Türme und Brücken gelten als Boden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;463;-1.0;Grimorium;900;Misslingt ein Zauber, muss die Hexe statt der Hälfte nur ein Drittel der AsP aufwenden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;463;-1.0;Grimorium;900;Unter dem Einfluss zum Zauber passender Gefühle kann die Hexe eine Erleichterung von bis zu +2 für die Zauberprobe erhalten. Werden ihre Gefühle künstlich gedämpft, zum Beispiel durch Ilmenblatt, oder zaubert sie entgegen ihrer Gefühle, erschwert dies die Proben um bis zu –2. Die Hexe kann sich gezielt in ihre Emotionen hineinsteigern, sodass sie innerhalb von 2 KR die Erleichterung um +1 erhöhen kann, bis zu dem angegebenen Maximum von +2. Dieser Vorgang erfordert Konzentration. Der Einsatz dieser Fähigkeit bedarf 1 freien Aktion.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;463;-1.0;Grimorium;900;Hexen können Flüche erlernen, satuarische Traditionsartefakte herstellen (z. B. ihr Fluggerät) und nutzen sowie Vertrautentiere an sich binden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;463;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;25.0;463;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;463;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;27.0;463;-1.0;Grimorium;800;AP-Wert: 135 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;28.0;463;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;29.0;463;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;30.0;463;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;31.0;463;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;32.0;463;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;33.0;463;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;463;-1.0;Grimorium;1400;i
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;463;-1.0;Grimorium;900;ntuitiVen
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;463;-1.0;Grimorium;1400;z
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;463;-1.0;Grimorium;900;auberer
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;463;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;463;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;463;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;463;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;42.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;43.0;463;-1.0;Grimorium;900;Ein Zauber der Tradition Intuitiver Zauberer erfordert Sicht auf das Ziel, allerdings keine Geste oder Formel.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;44.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;45.0;463;-1.0;Grimorium;900;Intuitive Zauberer können maximal 3 Zaubersprüche erlernen (keine Rituale). Diese Zaubersprüche können aus jeder Tradition stammen oder allgemein sein, aber sie dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zaubersprüche ihrer eigenen Tradition. Die Meisterin hat das letzte Wort darüber, ob ein Intuitiver Zauberer einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;46.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;47.0;463;-1.0;Grimorium;900;Intuitive Zauberer können keine Zaubermodifikationen durchführen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;463;-1.0;Grimorium;900;Intuitive Zauberer können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition Intuitiver Zauberer aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;463;-1.0;Grimorium;900;Intuitive Zauberer können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der jeweils üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;52.0;463;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;463;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;54.0;463;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;463;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;463;-1.0;Grimorium;900;Intuitive Zauberer verfügen über keine Leiteigenschaft. Das bedeutet auch, dass sie keinen Bonus auf ihren AsP-Vorrat erhalten und sich keine weiteren AsP dazukaufen können.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;463;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;463;-1.0;Grimorium;900;Spielst du mit den entsprechenden Fokusregeln, dürfen Intuitive Zauberer Zaubererweiterungen erlernen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;60.0;463;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;463;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;62.0;463;-1.0;Grimorium;800;AP-Wert: 50 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;464;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;464;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;464;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;464;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;464;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;464;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;464;-1.0;Grimorium;1400;k
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;464;-1.0;Grimorium;900;ristallomanten
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;464;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;464;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;464;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;464;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;464;-1.0;Grimorium;900;Ein Zauber der kristallomantischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Eine Formel ist nicht notwendig.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;464;-1.0;Grimorium;900;Kristallomanten verwenden bei ihren Zaubern in der Hand gehaltene Kristalle (wobei es sich um echte Kristalle oder Edelsteine handeln kann), die jeweils einem Merkmal zugeordnet sind. Hat der Kristallomant keinen entsprechenden Kristall in der Hand, erleidet er eine Erschwernis von –3 auf den Zauber. Hält er einen kristallomantischen Kristall in der Hand, handelt es sich jedoch um die falsche Sorte, erleidet er eine Erschwernis von –2 auf den Zauber.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;464;-1.0;Grimorium;900;Durch die materielle Komponente der Kristalle sparen Kristallomanten bei der Anwendung von Zaubern 1 AsP, sofern sie einen passenden Kristall des Merkmals in der Hand halten und mit ihm alle erforderlichen Gesten durchführen. Diese Ersparnis wird nach allen anderen Ersparnissen verrechnet und betrifft sowohl Zauber mit fixen AsP-Kosten als auch die Kosten für eine Aktivierung und die Kosten für eine Aufrechterhaltung. Die AsP können dadurch nie unter 1 AsP sinken und werden nach der Verrechnung aller übrigen Kostenberechnungen abgezogen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;464;-1.0;Grimorium;900;Nutzen die Kristallomanten die Zaubermodifikation Zauber-/Ritualdauer erhöhen, so erhalten sie eine Erleichterung von +2 (statt +1).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;464;-1.0;Grimorium;900;Erlernte Zauber mit dem Merkmal Dämonisch haben für Kristallomanten stattdessen das Merkmal Sphären.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;464;-1.0;Grimorium;900;Kristallomantische Zauber können in Thesiskristallen verankert und aus ihnen ohne Lehrmeister erlernt werden. Thesiskristalle sind im Grunde nichts weiter als eine Art kristallomantisches Zauberbuch.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;25.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;464;-1.0;Grimorium;900;Kristallomanten können spezielle kristallomantische Traditionsartefakte herstellen und nutzen (z. B. Schuppenbeutel, kristallomantische Kristallkugel und Echsenhaube).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;27.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;464;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Klugheit.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;29.0;464;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;464;-1.0;Grimorium;900;Vorteil Zauberer, üblicherweise Spezies Achaz
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;31.0;464;-1.0;Grimorium;800;AP-Wert: 115 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;32.0;464;-1.0;Grimorium;1100;k
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;33.0;464;-1.0;Grimorium;700;ristallomantische
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;464;-1.0;Grimorium;1100;k
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;464;-1.0;Grimorium;700;ristalle
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;464;-1.0;Grimorium;1100;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;464;-1.0;Grimorium;700;und
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;464;-1.0;Grimorium;1100;e
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;464;-1.0;Grimorium;700;delsteine
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;40.0;464;-1.0;Grimorium;800;MerkmalKristall/Edelstein
+PDType1CFont TKFWVH+Litania-Regular;false;false;41.0;464;-1.0;Grimorium;800;AntimagieMagnetitDämonisch–EinflussAmethystElementar: EisBarytElementar: ErzGranatElementar: FeuerFeueropalElementar: HumusAchatElementar: LuftCoelestinElementar: WasserAquamarinHeilungMalachitHellsichtBergkristallIllusionOpalObjektSmaragdSphärenRauchquarz (Beschwörung von Elementaren), Saphir (Limbus), Mondstein (Herbeirufung von Feenwesen), Karneol (Herbeirufung von Geisterwesen)TelekineseTürkisVerwandlungLapislazuliTemporalDiamant
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;464;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;464;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;464;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;464;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;46.0;464;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;47.0;464;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;48.0;464;-1.0;Grimorium;1400;Q
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;49.0;464;-1.0;Grimorium;900;abalyamagier
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;50.0;464;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;51.0;464;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;52.0;464;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;53.0;464;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;464;-1.0;Grimorium;900;Ein Zauber der qabalischen Tradition erfordert Sicht auf das Ziel, eine magische Geste oder eine deutlich ausgesprochene Formel. Alle qabalischen Zauber besitzen sowohl Geste als auch Formel. Eine dieser Komponenten kann jedoch weggelassen werden, ohne eine Erschwernis zu erhalten.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;464;-1.0;Grimorium;900;Alle Zauber der Tradition Gildenmagier sind zugleich auch Zauber der Tradition Qabalyamagier.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;464;-1.0;Grimorium;900;Zauber können in Zauberbücher und Schriftrollen niedergeschrieben und aus ihnen ohne Lehrmeister erlernt werden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;464;-1.0;Grimorium;900;Qabalyamagier können spezielle qabalische Traditionsartefakte herstellen und nutzen (z. B. Magierstäbe und Bannschwerter).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;62.0;464;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;464;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Klugheit.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;64.0;464;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;65.0;464;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;66.0;464;-1.0;Grimorium;800;AP-Wert: 165 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;465;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;465;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;465;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;465;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;465;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;465;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;465;-1.0;Grimorium;1400;r
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;465;-1.0;Grimorium;900;unenschöpfer
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;465;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;465;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;465;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;465;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;465;-1.0;Grimorium;900;Runenschöpfer können Zauberrunen erlernen, an Objekten oder Lebewesen anbringen und mit Astralenergie aufladen. Als Zaubertechnik benutzen sie üblicherweise Gesänge auf Saga-Thorwalsch und hjaldingsche Runen. Es ist nicht zwingend erforderlich, die Sprache und Schrift zu beherrschen, um die Zauberrunen einsetzen zu können, solange man die SF Runenschöpfer und die entsprechenden Zauberrunen beherrscht. Dies kann bedeuten, dass man die Runen und die Gesänge auswendig gelernt hat, ohne ihren Sinn dem Wortlaut nach zu verstehen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;465;-1.0;Grimorium;900;Einzelne Zauberrunen werden als Fertigkeiten aktiviert und können wie diese gesteigertwerden. Alle Runen weisen einen eigenen Steigerungsfaktor auf.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;465;-1.0;Grimorium;900;Runenschöpfer können Zauberrunen, je nach Untergrund und Material, mit folgenden Talenten anbringen: Holzbearbeitung, Lederbearbeitung, Malen & Zeichnen (nur für Blutrunen und Tätowierungen), Metallbearbeitung, Steinbearbeitung und Stoffbearbeitung.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;465;-1.0;Grimorium;900;Runenschöpfer können maximal 3 Zaubersprüche erlernen (keine Rituale). Diese Zaubersprüche können aus jeder Tradition stammen oder allgemein sein, aber sie dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zaubersprüche ihrer eigenen Tradition. Die Meisterin hat das letzte Wort darüber, ob ein Runenschöpfer einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;465;-1.0;Grimorium;900;Runenschöpfer können keine Zaubermodifikationen durchführen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;465;-1.0;Grimorium;900;Runenschöpfer können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition des Runenschöpfers aneignen<br> es ist für Letztere jedoch mit Einschränkungen möglich, die Kunst der Runenzauberei durch die SF Zauberrunenkunde zu erlernen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;25.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;465;-1.0;Grimorium;900;Runenschöpfer besitzen kein Traditionsartefakt.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;27.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;465;-1.0;Grimorium;900;Runenschöpfer können maximal 30 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 30 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;29.0;465;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;465;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;31.0;465;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;465;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche oder Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie das Runenschnitzen beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;33.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;34.0;465;-1.0;Grimorium;900;Runenschöpfer verfügen über keine Leiteigenschaft. Das bedeutet auch, dass sie keinen Bonus auf ihren AsP-Vorrat erhalten und sich keine weiteren AsP dazukaufen können.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;35.0;465;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;36.0;465;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;37.0;465;-1.0;Grimorium;800;AP-Wert: 75 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;465;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;465;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;465;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;465;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;465;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;465;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;465;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;465;-1.0;Grimorium;900;charlatane
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;46.0;465;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;47.0;465;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;48.0;465;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;49.0;465;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;465;-1.0;Grimorium;900;Ein Zauber der scharlatanischen Tradition erfordert Sicht auf das Ziel, eine magische Geste und eine deutlich ausgesprochene Formel. Die Formel darf aber jedes Mal variiert werden, selbst wenn der Scharlatan den gleichen Zauber wirkt.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;465;-1.0;Grimorium;900;Zauber des Merkmals Illusion verfügen über eine verdoppelte Wirkungsdauer. Zudem sind Vergleichsproben zum Durchschauen einer durch Scharlatane gewirkten Illusion zusätzlich um –1 erschwert (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;54.0;465;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;465;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;56.0;465;-1.0;Grimorium;800;259
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;465;-1.0;Grimorium;900;).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;465;-1.0;Grimorium;900;Scharlatane können Traditionsartefakte in Form einer Scharlatanischen Zauberkugel sowie den Zauberstecken als minderes Traditionsartefakt erschaffen und nutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;465;-1.0;Grimorium;900;Fremdzauber aus der Tradition Gildenmagier sind für Scharlatane nur um –1 erschwert (statt wie üblich um –2).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;62.0;465;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;465;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;64.0;465;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;65.0;465;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;66.0;465;-1.0;Grimorium;800;AP-Wert: 125 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;466;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;466;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;466;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;466;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;466;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;466;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;466;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;466;-1.0;Grimorium;900;chelme
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;466;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;466;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;466;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;466;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;466;-1.0;Grimorium;900;Schelme können Schelmenstreiche erlernen und anwenden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;466;-1.0;Grimorium;900;Schelme können Zaubertricks anwenden.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;466;-1.0;Grimorium;900;Zauber können sie mithilfe der SF Imitationszauberei in Schelmenstreiche umwandeln. Ausgenommen hiervon sind alle Zauber der Steigerungsfaktoren C und D, Zauber mit dem Merkmal Dämonisch und alle Zauber, die TP oder SP verursachen oder auf andere Weise einem Wesen LeP abziehen. Die umgewandelten Sprüche dürfen aus jeder Tradition stammen. Die Meisterin hat das letzte Wort darüber, ob ein Schelm einen bestimmtenSpruch umwandeln darf. Ein Schelm kann bis zu 5 Zauber umwandeln. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;466;-1.0;Grimorium;900;Schelmenstreiche erfordern keine Formel, sehr wohl aber Gesten. Kann der Schelm diese Gesten nicht ausführen, erleidet er eine Erschwernis von –2 auf den Schelmenstreich.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;466;-1.0;Grimorium;900;Schelme können Traditionsartefakte in Form der Narrenkappe und des Schelmenspielzeugs erschaffen und nutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;466;-1.0;Grimorium;900;Schelme können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die schelmische Tradition aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;25.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;466;-1.0;Grimorium;900;Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Schelmenstreiche beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;27.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;466;-1.0;Grimorium;900;Schelme können eine SK und ZK von 1 bei ihren Zielen ignorieren. Ab einem Wert von 2 müssen sie aber wie gewohnt die Erschwernis durch die SK oder ZK in Kauf nehmen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;29.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;466;-1.0;Grimorium;900;Schelme können ohne den Einsatz von Magie die Sprache der Kobolde sprechen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;31.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;466;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;33.0;466;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;34.0;466;-1.0;Grimorium;900;Vorteil Zauberer, Kultur Koboldweltler
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;35.0;466;-1.0;Grimorium;800;AP-Wert: 125 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;466;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;466;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;466;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;466;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;466;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;466;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;466;-1.0;Grimorium;1400;y
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;466;-1.0;Grimorium;900;silischen
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;466;-1.0;Grimorium;1400;b
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;466;-1.0;Grimorium;900;annzeichner
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;46.0;466;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;47.0;466;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;48.0;466;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;49.0;466;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner können Bannzeichnungen erlernen, an Objekten anbringen und mit Astralenergie aufladen. Als Zaubertechnik benutzen sie üblicherweise Zeichnungen, die sie an Steinen, Holztüren oder anderen Objekten anbringen. Es ist nicht zwingend erforderlich, die Sprache und Schrift zu beherrschen, um die Bannzeichnungen einsetzen zu können, solange man die SF Ysilische Bannzeichner und die entsprechenden Bannzeichnungen beherrscht. Dies kann bedeuten, dass man die Bannzeichnungen auswendig gelernt hat, ohne ihren Sinn im Detail zu verstehen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;466;-1.0;Grimorium;900;Einzelne Bannzeichnungen werden als Fertigkeiten aktiviert und können wie diese gesteigert werden. Alle Bannzeichnungen weisen einen eigenen Steigerungsfaktor auf.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner können Bannzeichnungen, je nach Untergrund und Material, mit folgenden Talenten anbringen: Holzbearbeitung, Malen & Zeichnen, Steinbearbeitung und Stoffbearbeitung.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner können keine Zauber erlernen, mit Ausnahme von Zaubertricks.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition des Ysilischen Bannzeichners aneignen<br> es ist für Letztere jedoch mit Einschränkungen möglich, die Kunst der Bannzeichen durch die SF Bannzeichnungskunde zu erlernen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner besitzen kein Traditionsartefakt.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;62.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner können maximal 30 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 30 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;64.0;466;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;65.0;466;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;66.0;466;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;67.0;466;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche oder Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen, wie das Bannzeichnen, beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;68.0;466;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;69.0;466;-1.0;Grimorium;900;Ysilische Bannzeichner verfügen über keine Leiteigenschaft. Das bedeutet auch, dass sie keinen Bonus auf ihren AsP-Vorrat erhalten und sich keine weiteren AsP dazukaufen können.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;70.0;466;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;71.0;466;-1.0;Grimorium;900;Vorteil Zauberer, üblicherweise Kultur Mittelreich
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;72.0;466;-1.0;Grimorium;800;AP-Wert: 40 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;467;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;467;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;467;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;467;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;467;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;467;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;467;-1.0;Grimorium;1400;z
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;467;-1.0;Grimorium;900;auberalchimisten
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;467;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;467;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;467;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;467;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;467;-1.0;Grimorium;900;Zauberalchimisten können ihre magischen Fähigkeiten nur in die magischen Anwendungen ihres Meistertalents Alchimie investieren.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;467;-1.0;Grimorium;900;Zauberalchimisten können keine Zauber erlernen (außer Zaubertricks).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;467;-1.0;Grimorium;900;Zauberalchimisten können als Traditionsartefakt die Alchimistenschale herstellen und nutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;467;-1.0;Grimorium;900;Zauberalchimisten können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition Zauberalchimisten aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;467;-1.0;Grimorium;900;Zauberalchimisten können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;23.0;467;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;467;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;25.0;467;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;467;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur solche, die auch ihre magische Anwendungen beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;27.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;467;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Klugheit, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;29.0;467;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;467;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;31.0;467;-1.0;Grimorium;800;AP-Wert: 45 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;32.0;467;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;33.0;467;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;467;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;467;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;467;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;467;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;467;-1.0;Grimorium;1400;z
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;467;-1.0;Grimorium;900;auberbarden
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;467;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;467;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;467;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;467;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;44.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;45.0;467;-1.0;Grimorium;900;Zauberbarden können Zaubermelodien ihrer Musiktradition erlernen und wirken.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;46.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;47.0;467;-1.0;Grimorium;900;Sie können keine Zauber erlernen. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;467;-1.0;Grimorium;900;Eine Zaubermelodie erfordert, dass das Ziel die Musik hört und sich in Reichweite der Wirkung befindet. Wesen ohne Gehörsinn sind immun. Hält man sich lediglich die Ohren zu, entfaltet die magische Musik ihre Wirkung trotzdem. Kommen aber effektive Hilfsmittel, wie beispielsweise Wachs, zum Einsatz, kann die Meisterin entscheiden, dass Proben zum Widerstehen gegen die Zaubermelodie erleichtert sind oder die Person sogar ganz immun ist.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;467;-1.0;Grimorium;900;Zauberbarden können Traditionsartefakte in Form von Zauberinstrumenten erschaffen und nutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;467;-1.0;Grimorium;900;Zauberbarden können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition des Zauberbarden aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;467;-1.0;Grimorium;900;Zauberbarden können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;56.0;467;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;467;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;58.0;467;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;467;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zaubermelodien beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;467;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;467;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;62.0;467;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;467;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;64.0;467;-1.0;Grimorium;800;AP-Wert: 80 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;1.0;468;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;2.0;468;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;3.0;468;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;4.0;468;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;5.0;468;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;6.0;468;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;7.0;468;-1.0;Grimorium;1400;z
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;8.0;468;-1.0;Grimorium;900;aubertänzer
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;9.0;468;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;10.0;468;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;11.0;468;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;12.0;468;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;13.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;14.0;468;-1.0;Grimorium;900;Zaubertänzer können magische Zaubertänze ihrer Musiktradition erlernen und wirken.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;15.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;16.0;468;-1.0;Grimorium;900;Sie können keine Zauber erlernen. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;17.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;18.0;468;-1.0;Grimorium;900;Ein Zaubertanz erfordert, dass das Ziel den Tanz sieht und sich in Reichweite der Wirkung befindet. Blinde Wesen sind immun. Wesen, die lediglich schlecht sehen, sind dies nicht, da die Magie dennoch bis zu ihnen vordringt. Bei verschlossenen Augen, beispielsweise durch eine Augenbinde, kann die Meisterin entscheiden, dass Proben zum Widerstehen gegen den Zaubertanz erleichtert sind oder die Person sogar ganz immun ist.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;19.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;20.0;468;-1.0;Grimorium;900;Zaubertänzer können Traditionsartefakte in Form von Zauberkleidung erschaffen und nutzen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;21.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;22.0;468;-1.0;Grimorium;900;Zaubertänzer können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition des Zaubertänzers aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;23.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;24.0;468;-1.0;Grimorium;900;Sie können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;25.0;468;-1.0;Grimorium;800;Regelwerk
+PDType1CFont TKFWVH+Litania-Regular;false;false;26.0;468;-1.0;Grimorium;900;Seite
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;27.0;468;-1.0;Grimorium;800;162
+PDType1CFont TKFWVH+Litania-Regular;false;false;28.0;468;-1.0;Grimorium;900;). Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zaubertänze beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;29.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;30.0;468;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Charisma, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;31.0;468;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;32.0;468;-1.0;Grimorium;900;Vorteil Zauberer
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;33.0;468;-1.0;Grimorium;800;AP-Wert: 75 AP
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;34.0;468;-1.0;Grimorium;1400;d
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;35.0;468;-1.0;Grimorium;900;ie
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;36.0;468;-1.0;Grimorium;1400;t
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;37.0;468;-1.0;Grimorium;900;radition
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;38.0;468;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;39.0;468;-1.0;Grimorium;900;der
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;40.0;468;-1.0;Grimorium;1400;z
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;41.0;468;-1.0;Grimorium;900;ibilja
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;42.0;468;-1.0;Grimorium;1400;
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;43.0;468;-1.0;Grimorium;900;als
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;44.0;468;-1.0;Grimorium;1400;s
+PDType1CFont ASWMPT+Litania-Regular-SC700;false;false;45.0;468;-1.0;Grimorium;900;onderfertigkeit
+PDType1CFont GORWVH+DSASymboleRegular;false;false;46.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;47.0;468;-1.0;Grimorium;900;Die Magie in der Tradition der Zibiljas erfordert Sicht auf das Ziel, eine magische Geste und das gesprochene Wort.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;48.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;49.0;468;-1.0;Grimorium;900;Zibiljas wirken ausschließlich magische Handlungen, die sogenannten Zibilja-Rituale. Die Zibilja-Rituale funktionieren regeltechnisch wie normale Rituale, sind aber als magische Handlungen nicht von anderen Traditionen erlernbar.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;50.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;51.0;468;-1.0;Grimorium;900;Sie können keine Zaubersprüche oder Rituale erlernen. Zaubertricks sind von dieser Begrenzung nicht betroffen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;52.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;53.0;468;-1.0;Grimorium;900;Wirken sie die Zibilja-Rituale innerhalb ihrer Sippe, sind Proben auf Rituale um +1 erleichtert. Dazu müssen sich mindestens 5 weitere Mitglieder ihrer Sippe in einem Umkreis von 100 Schritt aufhalten.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;54.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;55.0;468;-1.0;Grimorium;900;Zibiljas können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition der Zibiljas aneignen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;56.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;57.0;468;-1.0;Grimorium;900;Sie können keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zibilja-Rituale beeinflussen.
+PDType1CFont GORWVH+DSASymboleRegular;false;false;58.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;59.0;468;-1.0;Grimorium;900;Zibiljas können Zibilja-Rituale erlernen und Traditionsartefakte ihrer Kultur herstellen und benutzen (z. B. die Sippenchronik).
+PDType1CFont GORWVH+DSASymboleRegular;false;false;60.0;468;-1.0;Grimorium;900;#
+PDType1CFont TKFWVH+Litania-Regular;false;false;61.0;468;-1.0;Grimorium;900;Die Leiteigenschaft der Tradition ist Intuition.
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;62.0;468;-1.0;Grimorium;800;Voraussetzungen:
+PDType1CFont TKFWVH+Litania-Regular;false;false;63.0;468;-1.0;Grimorium;900;Vorteil Zauberer, Kultur Norbarden
+PDTrueTypeFont IRVIXD+DominicanSmallCaps;false;false;64.0;468;-1.0;Grimorium;800;AP-Wert: 100 AP

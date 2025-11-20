@@ -1,0 +1,221 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont VDNWMI+Andalus;false;false;1.0;147;-1.0;Elementarium;1800;Ahnenblut
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;2.0;147;-1.0;Elementarium;1300;Meister der Sechse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;3.0;147;-1.0;Elementarium;1000;Die vorliegende Regel ist eine Fokusregel der Stufe I für den Themenkomplex Zauber.Ein Held kann sich bei der Heldenerschaffung dazu entscheiden, dass er einem Element besonders zugetan ist. Zauber und magische Handlungen, die im Zusammenhang mit diesem Element stehen, erhalten eine Erleichterung von +1. Für alle neutralen Elemente sind sie hingegen um –1 erschwert, für das gegensätzliche Element sogar um –3.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;4.0;147;-1.0;Elementarium;1300;Sahib al’Sitta
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;5.0;147;-1.0;Elementarium;1000;Es gibt Meisterzauberer, die sich dem Elementarismus verschrieben haben und alle Elemente gemeistert haben.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;6.0;147;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;7.0;147;-1.0;Elementarium;1000;Diese Sonderfertigkeit kann die Erschwernisse neutraler und des gegensätzlichen Elements bei der Fokusregel
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;8.0;147;-1.0;Elementarium;1000;Meister der Sechse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;9.0;147;-1.0;Elementarium;1000;abbauen. Jedes Mal wenn der Held die AP für die SF ausgibt, kann er eine Erschwernis in einem Element um 1 Punkt abbauen. Dabei kann er
+PDType0Font/PDCIDFontType2, PostScript name: KKYIOE+GentiumBasic;false;false;10.0;147;-1.0;Elementarium;1000;keine Erleichterung erzielen, maximal ist ein Modifika
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;11.0;147;-1.0;Elementarium;1000;-tor von +/–0 pro neutralem oder gegensätzlichem Element erreichbar. Die Erschwernis des gegensätzlichen Elements kann niemals kleiner sein als die höchste Erschwernis bei einem neutralen Element.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;12.0;147;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;13.0;147;-1.0;Elementarium;1000;Leiteigenschaft 15
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;14.0;147;-1.0;Elementarium;1000;AP-Kosten
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;15.0;147;-1.0;Elementarium;1000;15 Abenteuerpunkte pro Abbau einer Erschwernis von 1 Punkt
+PDTrueTypeFont VDNWMI+Andalus;false;false;16.0;147;-1.0;Elementarium;1300;II
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;17.0;147;-1.0;Elementarium;1000;In Aventurien gibt es Wesen, die in sich das Erbe ihrer Spezies und eines anderen, übernatürlichen Wesens vereinen. Dschinnengeborene sind Nachkommen von Menschen, Elfen oder Halbelfen auf der einen Seite und Dschinnen auf der anderen. Einige von ihnen verfügen dank dieses Erbes über besondere Fähigkeiten. Auch ihr Äußeres spiegelt oft – aber nicht immer – einen Teil ihres elementaren Erbes wider.Das Ahnenblut kann über Generationen hinweg erhalten bleiben. Manchmal überspringt das Erbe auch einige Generationen, sodass man innerhalb mancher Familie den Ursprung der übernatürlichen Fähigkeiten nicht mehr genau bestimmen kann oder sogar überhaupt nicht darum weiß.Dschinnengeborene und Feenblütige kommen nur sehr selten vor. Es gibt deutlich weniger von ihnen als Zauberer oder Elfen, und ihr solltet in der Gruppe absprechen, ob ihr sie im Spiel zulassen wollt. Wenn sich mehr als ein Feenblütiger oder Dschinnengeborener in einer Helden-
+PDType0Font/PDCIDFontType2, PostScript name: KKYIOE+GentiumBasic;false;false;18.0;147;-1.0;Elementarium;1000;gruppe befindet, ist dies für aventurische Verhältnis
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;19.0;147;-1.0;Elementarium;1000;-se eine ungewöhnliche Häufung von Exoten. Besonders selten sind Verbindungen aus Elementarwesen des Eises, da Sterbliche aus elemtartheoretischer Sicht hauptsächlich aus Humus bestehen, dem Gegenelement zu Eis. Üblicherweise entstehen Ahnenblütige ausschließlich aus Verbindungen zwischen Menschen, Elfen oder Halbelfen mit einem Dschinn oder einer Fee. Allerdings kannst du festlegen, dass es auch bei anderen Spezies Ahnenblütige gibt, wie z. B. bei Zwergen, Orks oder Goblins. Solche Ahnenblütige wären jedoch noch seltener als jene aus den bereits genannten Verbindungen.Ahnenblütige können auch den Vorteil
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;20.0;147;-1.0;Elementarium;1000;Zauberer
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;21.0;147;-1.0;Elementarium;1000;aufweisen und eine Tradition erlernen. Allerdings muss ein Ahnenblütiger nicht zwangsweise ein Zauberer sein.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;22.0;147;-1.0;Elementarium;1300;Ahnenblut-VorteileDschinnenblut (Eisdschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;23.0;147;-1.0;Elementarium;1000;Die Abstammung von einem Eiselementar sorgt dafür, dass Kälte einem kaum mehr etwas anhaben kann.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;24.0;147;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;25.0;147;-1.0;Elementarium;1000;Der Held kann weist gegen Kälte 2 Stufen Kälteschutz auf (siehe
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;26.0;147;-1.0;Elementarium;1000;Regelwerk
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;27.0;147;-1.0;Elementarium;1000;Seite
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;28.0;147;-1.0;Elementarium;1000;346
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;29.0;147;-1.0;Elementarium;1000;) und erleidet bei Zustandsstufen
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;30.0;147;-1.0;Elementarium;1000;Paralyse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;31.0;147;-1.0;Elementarium;1000;, die durch Kälte entstehen (z. B. auch bei Zaubern und Liturgien), 1 Stufe weniger (bei 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;32.0;147;-1.0;Elementarium;1000;Paralyse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;33.0;147;-1.0;Elementarium;1000;erleidet er keine Stufe, bei 2 Stufen nur 1 Stufe usw.).
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;34.0;147;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;35.0;147;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;36.0;147;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;37.0;147;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;38.0;147;-1.0;Elementarium;1300;Dschinnenblut (Erzdschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;39.0;147;-1.0;Elementarium;1000;Wer von einem Erzdschinn abstammen soll, dem sagt man eine Haut hart wie Stein nach. Dies mag zwar übertrieben sein, doch stimmt es, dass eine Klinge einen Erz-Dschinnengeborenen deutlich schwerer verletzen kann als einen gewöhnlichen Sterblichen.
+PDTrueTypeFont VDNWMI+Andalus;false;false;40.0;147;-1.0;Elementarium;1200;Anhang
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;1.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;2.0;148;-1.0;Elementarium;1000;Der Held weist einen natürlichen RS von 1 auf. Dieser kann mit dem RS von Rüstungen kombiniert werden, aber nur bis zu einem Wert von insgesamt RS 4.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;3.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;4.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;5.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;6.0;148;-1.0;Elementarium;1000;15 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;7.0;148;-1.0;Elementarium;1300;Dschinnenblut (Feuerdschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;8.0;148;-1.0;Elementarium;1000;Ein Held, der von einem Feuerdschinn abstammt, verbrennt sich viel seltener und Feuer macht ihm weniger aus. Allerdings sagt man diesen Dschinnengeborenen auch nach, dass sie nicht gut schwimmen können.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;9.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;10.0;148;-1.0;Elementarium;1000;Der Held kann TP durch Feuer und Hitze halbieren. Proben auf
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;11.0;148;-1.0;Elementarium;1000;Schwimmen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;12.0;148;-1.0;Elementarium;1000;sind für ihn um –1 erschwert.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;13.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;14.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;15.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;16.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;17.0;148;-1.0;Elementarium;1300;Dschinnenblut (Humusdschinn)
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;18.0;148;-1.0;Elementarium;1000;Durch wen die Kraft eines Humusdschinns fließt, der ist in der Lage, das Wachstum von Pflanzen zu beschleunigen.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;19.0;148;-1.0;Elementarium;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;20.0;148;-1.0;Elementarium;1000;Der Held kann eine Pflanze durch Berührung inner
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;21.0;148;-1.0;Elementarium;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;22.0;148;-1.0;Elementarium;1000;halb von 4 Aktion bis zu ihrer vollständigen Größe wach
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;23.0;148;-1.0;Elementarium;1000;-sen lassen (also vom Samen bis zu ihrer natürlichen Ma-
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;24.0;148;-1.0;Elementarium;1000;ximalgröße). Er erleidet dadurch 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;25.0;148;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;26.0;148;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;27.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;28.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;29.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;30.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;31.0;148;-1.0;Elementarium;1300;Dschinnenblut (Luftdschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;32.0;148;-1.0;Elementarium;1000;Wer von einem Luftdschinn abstammt, bewegt sich schnell und grazil, allerdings ist er auch rastlos und schläft nicht gern in Kammern oder überdachter Umgebung.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;33.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;34.0;148;-1.0;Elementarium;1000;Der Held verfügt über +1 GS und +2 INI. Dafür
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;35.0;148;-1.0;Elementarium;1000;erhält er keine zusätzlichen Boni auf Regeneration,
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;36.0;148;-1.0;Elementarium;1000;wenn er in Höhlen oder Zimmern nächtig.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;37.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;38.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;39.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;40.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;41.0;148;-1.0;Elementarium;1300;Dschinnenblut (Rosendschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;42.0;148;-1.0;Elementarium;1000;Ein Held mit Rosendschinnenblut schläft auf Erdboden besonders gut. Dafür ist seine Haut so zart, dass Klingenwaffen ihm schweren Schaden zufügen. Oft weisen Dschinnengeborene, die von Rosendschinnen abstammen, einen grünlichen Hautschimmer auf oder riechen nach Rosen.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;43.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;44.0;148;-1.0;Elementarium;1000;Wenn ein Held mit diesem Vorteil während einer Regenerationsphase auf Erdboden schläft, regeneriert er +2 LeP. Er darf dabei leichte Kleidung tragen (keine Klei-
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;45.0;148;-1.0;Elementarium;1000;dung oder Rüstung mit RS) oder eine Decke benutzen. Seine Haut ist allerdings sehr empfindlich gegenüber
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;46.0;148;-1.0;Elementarium;1000;Klingenwaffen. Alle Waffen, die eine Klinge aufweisen
+PDType0Font/PDCIDFontType2, PostScript name: RBNMPV+GentiumBasic;false;false;47.0;148;-1.0;Elementarium;1000;(Schwerter, Äxte, Speere etc.), richten bei ihm +1 TP an.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;48.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;49.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;50.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;51.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;52.0;148;-1.0;Elementarium;1300;Dschinnenblut (Wasserdschinn)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;53.0;148;-1.0;Elementarium;1000;Helden, die von Wasserdschinnen abstammen, verfügen über eine natürliche Begabung für das Schwimmen. Allerdings meiden sie die Nähe zu Feuer.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;54.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;55.0;148;-1.0;Elementarium;1000;Durch Feuer erleidet der Held +2 TP. Dafür sind alle seine Proben auf
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;56.0;148;-1.0;Elementarium;1000;Schwimmen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;57.0;148;-1.0;Elementarium;1000;um +1 erleichtert und er kann doppelt so lange die Luft anhalten wie ein Held ohne diesen Vorteil.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;58.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;59.0;148;-1.0;Elementarium;1000;kein anderer Ahnenblut-Vorteil
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;60.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;61.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;62.0;148;-1.0;Elementarium;1300;Dschinnengeborene-VorteileBetörender Duft
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;63.0;148;-1.0;Elementarium;1000;Der Geruch von Blumen ist für viele Kulturschaffende sehr angenehm und manchmal gar betörend. Einige Dschinnengeborene mit Rosendschinnen als Vorfahren verfügen über die Fähigkeit, den Geruch von Jasmin, Lavendel oder anderen Blumen zu verströmen.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;64.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;65.0;148;-1.0;Elementarium;1000;Der Held riecht immer nach einer bestimmten wohlriechenden Blumenart. Er kann nie unter dem Status
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;66.0;148;-1.0;Elementarium;1000;Übler Geruch
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;67.0;148;-1.0;Elementarium;1000;leiden und erhält bei Proben auf
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;68.0;148;-1.0;Elementarium;1000;Betören
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;69.0;148;-1.0;Elementarium;1000;einen Bonus von +1 auf CH, wenn sein Gegenüber den Blütengeruch mag (ansonsten kann die Probe auch um –1 erschwert sein).
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;70.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;71.0;148;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Rosendschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;72.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;73.0;148;-1.0;Elementarium;1000;12 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;74.0;148;-1.0;Elementarium;1300;Eiskalte Berührung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;75.0;148;-1.0;Elementarium;1000;Der Dschinnenblütige ist in der Lage, bei einer Berührung einen Gegner mit einer Eisschicht zu überziehen, die ihn für kurze Zeit lähmt.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;76.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;77.0;148;-1.0;Elementarium;1000;Der Held kann bei Angriffen mit
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;78.0;148;-1.0;Elementarium;1000;Raufen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;79.0;148;-1.0;Elementarium;1000;statt TP 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;80.0;148;-1.0;Elementarium;1000;Paralyse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;81.0;148;-1.0;Elementarium;1000;verursachen. Der Schaden ist kumulativ, maximal lassen sich so aber nur 2 Stufen gegen ein Ziel erzeugen. Der Held benötigt dafür 1 freie Aktion, die Wirkung hält 10 KR lang, danach erleidet er 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;82.0;148;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;83.0;148;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;84.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;85.0;148;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Eisdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;86.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;87.0;148;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;88.0;148;-1.0;Elementarium;1300;Elementare Verteidigung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;89.0;148;-1.0;Elementarium;1000;Durch elementare Manifestation und schnelle Bewegungen können einige Dschinnengeborene besser Angriffen ausweichen, indem sie ihre Gegner verwirren.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;90.0;148;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;91.0;148;-1.0;Elementarium;1000;Der Held kann sich schnell bewegen oder mit elementaren Ablenkungen seinen Gegner verwirren, sodass er einen Bonus von +2 auf AW erhält. Er muss dafür 1 freie Aktion einsetzen, die Wirkung hält 10 KR und danach erleidet er selbst 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;92.0;148;-1.0;Elementarium;1000;Verwirrung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;93.0;148;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;94.0;148;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;95.0;148;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Eisdschinn, Erzdschinn, Feuerdschinn, Humusdschinn, Luftdschinn oder Wasserdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;96.0;148;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;97.0;148;-1.0;Elementarium;1000;12 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;1.0;149;-1.0;Elementarium;1300;Flammenhand
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;2.0;149;-1.0;Elementarium;1000;Durch die Macht des Elements Feuer kann ein Held, der Feuerdschinnenblut in den Adern hat, seine Hände mit Flammen überziehen und so seine Gegner im waffenlosen Kampf stärker verletzen.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;3.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;4.0;149;-1.0;Elementarium;1000;Der Held lässt Feuer um seine Hände erscheinen, was ihm bei Angriffen mit
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;5.0;149;-1.0;Elementarium;1000;Raufen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;6.0;149;-1.0;Elementarium;1000;+2 TP gewährt. Er benötigt dafür 1 freie Aktion, die Wirkung hält 10 KR lang, danach erleidet er 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;7.0;149;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;8.0;149;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;9.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;10.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Feuerdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;11.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;12.0;149;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;13.0;149;-1.0;Elementarium;1300;Muttererde
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;14.0;149;-1.0;Elementarium;1000;Rosendschinne sind an einen Rosenbusch gebunden. Ihre sterblichen Nachfahren sind frei von dieser Last und genießen den Vorteil, dass sie sich schneller vor
+PDType0Font/PDCIDFontType2, PostScript name: MIWVSF+GentiumBasic;false;false;15.0;149;-1.0;Elementarium;1000;vielen schlechten Einflüssen befreien können, solange
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;16.0;149;-1.0;Elementarium;1000;sie auf Erdboden wandeln.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;17.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;18.0;149;-1.0;Elementarium;1000;Solange sich der Held barfuß auf Erde bewegt, dauert es nur halb so lang, 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;19.0;149;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;20.0;149;-1.0;Elementarium;1000;,
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;21.0;149;-1.0;Elementarium;1000;Furcht
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;22.0;149;-1.0;Elementarium;1000;,
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;23.0;149;-1.0;Elementarium;1000;Paralyse
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;24.0;149;-1.0;Elementarium;1000;oder
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;25.0;149;-1.0;Elementarium;1000;Verwirrung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;26.0;149;-1.0;Elementarium;1000;abzubauen wie üblich. Sollte er zwischenzeitlich den Erdboden verlassen, so dauert der Abbau der Stufe wieder so lang wie üblich. Die verkürzte Zeit für den Abbau gilt nach dem erneuten Betreten von Erdboden dann erst wieder für die nächste Zustandsstufe der Zustände.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;27.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;28.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Rosendschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;29.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;30.0;149;-1.0;Elementarium;1000;12 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;31.0;149;-1.0;Elementarium;1300;Rankenfessel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;32.0;149;-1.0;Elementarium;1000;Mit dieser Fähigkeit können Dschinnengeborene des Humus Fesselranken aus dem Boden sprießen lassen, um ihren Gegner zu behindern.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;33.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;34.0;149;-1.0;Elementarium;1000;Ein Gegner in maximal 8 Schritt Entfernung wird von Ranken festgehalten und erhält den Status
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;35.0;149;-1.0;Elementarium;1000;Fixiert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;36.0;149;-1.0;Elementarium;1000;. Er kann sich jeweils 1 freie Aktion nutzen, um eine Probe auf
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;37.0;149;-1.0;Elementarium;1000;Körperbeherrschung (Entwinden)
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;38.0;149;-1.0;Elementarium;1000;–2 abzulegen, um sich zu befreien. Der Gegner darf maximal die Größenkategorie
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;39.0;149;-1.0;Elementarium;1000;groß
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;40.0;149;-1.0;Elementarium;1000;
+PDType0Font/PDCIDFontType2, PostScript name: MIWVSF+GentiumBasic;false;false;41.0;149;-1.0;Elementarium;1000;aufweisen und muss sich auf Erdboden befinden. Der Held
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;42.0;149;-1.0;Elementarium;1000;erleidet beim Einsatz dieser Fähigkeit 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;43.0;149;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;44.0;149;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;45.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;46.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Humusdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;47.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;48.0;149;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;49.0;149;-1.0;Elementarium;1300;Unumstößlich
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;50.0;149;-1.0;Elementarium;1000;Durch diese Fähigkeit ist der Held nicht mehr umzuwerfen und so mit dem Boden verwurzelt wie ein Berg.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;51.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;52.0;149;-1.0;Elementarium;1000;Der Held kann nicht mehr den Status
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;53.0;149;-1.0;Elementarium;1000;Liegend
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;54.0;149;-1.0;Elementarium;1000;erleiden, es sei denn, er möchte es.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;55.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;56.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Erzdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;57.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;58.0;149;-1.0;Elementarium;1000;10 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;59.0;149;-1.0;Elementarium;1300;Wasserheilung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;60.0;149;-1.0;Elementarium;1000;Einige Dschinnengeborene, die mit dem Wasser verbunden sind, können durch das Element andere Wesen heilen, indem sie ihm etwas zu trinken geben.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;61.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;62.0;149;-1.0;Elementarium;1000;Der Held kann einmal alle 24 Stunden einem anderen Lebewesen Wasser zu trinken geben und dem Lebewesen dabei 1W6 LeP zurückgeben.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;63.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;64.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Wasserdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;65.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;66.0;149;-1.0;Elementarium;1000;12 Abenteuerpunkte
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;67.0;149;-1.0;Elementarium;1300;Wegwehen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;68.0;149;-1.0;Elementarium;1000;Durch die Kraft der Luft kann ein Held einen Gegner wegwehen und von den Füßen holen.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;69.0;149;-1.0;Elementarium;1000;Regel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;70.0;149;-1.0;Elementarium;1000;Durch einen Luftstoß kann der Held in bis zu 8 Schritt Entfernung ein Lebewesen der Größenkategorie
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;71.0;149;-1.0;Elementarium;1000;mittel
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;72.0;149;-1.0;Elementarium;1000;oder kleiner dazu zwingen, eine Probe auf
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;73.0;149;-1.0;Elementarium;1000;Körperbeherrschung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;74.0;149;-1.0;Elementarium;1000;–2 ablegen zu müssen. Bei Misslingen erleidet es den Status
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;75.0;149;-1.0;Elementarium;1000;Liegend
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;76.0;149;-1.0;Elementarium;1000;und wird 1W6 Schritt weiter fortgeweht. Die Fähigkeit erfordert 1 Aktion und der Held erleidet danach 1 Stufe
+PDTrueTypeFont BUNGSW+GentiumBasic-Italic;false;true;77.0;149;-1.0;Elementarium;1000;Betäubung
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;78.0;149;-1.0;Elementarium;1000;.
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;79.0;149;-1.0;Elementarium;1000;Voraussetzungen
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;80.0;149;-1.0;Elementarium;1000;Vorteil Dschinnenblut (Luftdschinn)
+PDTrueTypeFont OQBGSW+GentiumBasic-Bold;true;false;81.0;149;-1.0;Elementarium;1000;AP-Wert
+PDTrueTypeFont HIKQYK+GentiumBasic;false;false;82.0;149;-1.0;Elementarium;1000;12 Abenteuerpunkte
+PDTrueTypeFont VDNWMI+Andalus;false;false;83.0;149;-1.0;Elementarium;1200;Anhang

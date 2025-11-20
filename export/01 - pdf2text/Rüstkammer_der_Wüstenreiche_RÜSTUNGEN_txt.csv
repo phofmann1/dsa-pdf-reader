@@ -1,0 +1,144 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont HGEFEU+Andalus;false;false;1.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1200;Die Rüstkammer
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;2.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Ferkina-FellrüstungKomplexität primArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisFerkina-Fellrüstung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;3.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;0*0–1,5 Stn20 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;4.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;5.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die Fellrüstung bietet eine Kälteschutzstufe.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;6.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsnachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;7.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Träger der Fellrüstung erhält einen Abzug von –1 auf INI.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;8.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1300;Unauer Kompositbogen
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;9.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Die Beni Arrat haben sich auch nach all den Jahren noch immer nicht damit abgefunden, dass wir jetzt in der eins-
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;10.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;tigen Hauptstadt ihres Sultanats sitzen, verflucht sei ihr
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;11.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Stolz. Hin und wieder überfallen sie unsere Nachschubkarawanen oder versuchen es mit kleineren Angriffen bei Nacht. Aber das gefährlichste sind ihre berittenen Bogenschützen. Wenn du sie bemerkt hast, kann es schon zu spät sein.«—Miguel Ramirez, Söldner vom Schwarzen Bund des Kor in der Garnison von El Arrat, 1044 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;12.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die Bewohner des Wüstenreichs sind ein Volk von Reitern und so sind auch ihre Bögen in einer Form gefertigt, dass sie sich ohne Schwierigkeiten auch vom Rücken eines Pferdes oder Kamels aus führen lassen. Der Unauer Kompositbogen ist deutlich kürzer als ein Langbogen, besitzt aber eine ähnliche Spannkraft. Erzielt wird diese, indem bei der Fertigung mehrere unterschiedliche Materialen, neben Holz meist Horn und Sehnen, miteinander verbunden werden. Der Kompositbogen gilt als verlässliche und robuste Fernkampfwaffe, die auch das raue Wüstenklima gut verträgt. Unter den Stämmen der Wüste ist der Bogen weit verbreitet und auch die berittenen Schützen des Kalifen sind mit dieser Waffe ausgerüstet.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;13.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Unauer KompositbogenKomplexität komp (4 AP)NameKampftechnikTPLZRWMunitionstypGewichtLängePreisUnauer Kompositbogen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;14.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Bögen1W6+72 Aktionen20/100/160Pfeile0,75 Stn140 HF160 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;15.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffenvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;16.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die aus der Entfernung zum Ziel resultierende Erschwernis sinkt um –1 (nicht aber unter 0).
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;17.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffennachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;18.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;In Wäldern, die als schwierige oder schlechtere Geländetypen eingestuft werden (siehe
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;19.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Regelwerk
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;20.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Seite
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;21.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;349
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;22.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;), erleiden Schützen mit dem Kompositbogen eine zusätzliche Erschwernis von +2.
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;23.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Der Gedanke, verschiedene Materialien miteinander zu verbinden, zeugt von Weitsicht. Aber es fehlt die Harmonie, die aus Vielem Eines schafft.«—
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;24.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Layariel Wipfelglanz, elfische Auenläuferin
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;25.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Ja, ja, das schon wieder ... Wenn so ein Ding dich erwischt, siehst du schnell, wie harmonisch dein Körper wieder eins mit dem Grund wird.«—Arbosch Sohn des Angrax, ambosszwergischer Meisterschmied
+PDTrueTypeFont HGEFEU+Andalus;false;false;26.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1800;Rüstzeug
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;27.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1300;Ferkina-Fellrüstung
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;28.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Eine Rüstung aus Fell kann dich im Kampf schützen und dem Hieb einer Keule oder dem Stich eines Dolchs seine Wucht nehmen. Aber für den Ort, an den du gehen willst, brauchst du mehr als das. Diese Rüstung ist verstärkt mit dem Panzer des großen haraishazhwad. Durch sie wirst du lange genug am Leben bleiben, um dein Ziel zu erreichen.«—Farzandeh sabu Zhandur, Waffenbauerin der Bân Sharîda, 1045 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;29.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die Krieger der Ferkinas hüllen sich in Rüstungen aus Fell, die nicht nur gegen die Waffen ihrer Feinde, sondern auch vor den kalten Gebirgsnächten schützen. Eine gut gefertigte Fellrüstung besteht aus mehreren aneinandergenähten Fellstücken, die so angeordnet sind, dass sie die verletzlichen Körperteile bedecken und gleichzeitig dem Träger eine hohe Beweglichkeit bieten. Einige Stämme sind dazu übergegangen, die Fellrüstungen zusätzlich durch auf Leder aufgenähte Knochen- und Panzerplatten zu verstärken. Es gibt sogar Rüstungen, die größtenteils aus solchen Resten bestehen, die bestmöglich an die Körperform des Trägers angepasst wurden und nur an den Gelenken mit Fellstücken ausgepolstert sind.
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;30.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Das sieht wirklich interessant aus. Einfach, aber mit großer Sorgfalt hergestellt.«—
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;31.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Layariel Wipfelglanz, elfische
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;32.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Auenläuferin»Nichts gegen einen verlässlichen Fellumhang, aber das sieht seltsam aus. Und dieser Teil ist doch sicher kein Fell. Von welchem
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;33.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;Tier das wohl stammt?«
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;34.0;16;-1.0;Rüstkammer_der_Wüstenreiche;1000;—Tjalva Garheltdottir, Premer Hetja
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;1.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Lederrüstung der Beni Geraut SchieKomplexität einfArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisLederrüstung der Beni Geraut Schie
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;2.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;31–1 GS, –1 INI7 Stn180 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;3.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;4.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;5.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Hiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;6.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;,
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;7.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Kettenwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;8.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;,
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;9.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Raufen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;10.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;,
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;11.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Schilde
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;12.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;,
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;13.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Stangenwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;14.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;15.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zweihandhiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;16.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;schützt die Rüstung mit einem RS von 4.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;17.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsnachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;18.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Proben auf GE sind um –1 erschwert.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;19.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1300;Lederrüstung der Beni Geraut Schie
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;20.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Und aus dem dichten Sandsturm traten, wie Schatten aus dem Sand, die Söhne derer ohne Gesicht. Unter ihren Gewändern trugen sie lederne Rüstungen, die wie eine zweite Haut waren. Die Männer und Frauen der verirrten Karawane erschraken, aber die Verhüllten sprachen kein Wort. Sie ließen drei Schläuche mit kühlem Wasser zurück. Dann verschwanden sie wieder in den Sturm.«—aus einem Märchen aus der südlichen Khôm, seit vielen Generationen in verschiedenen Varianten verbreitet
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;21.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die wenigen noch verbliebenen Beni Geraut Schie versuchen stets, nicht aufzufallen und
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;22.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;verbergen daher alle elfischen Körpermerk
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;23.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;-male. Sie tragen Gewänder, wie sie auch die menschlichen Bewohner der Wüste bevorzugen. Eine Ausnahme ist dabei die lederne Rüstung, die die meisten Wüstenelfen besitzen und die meist enganliegend unter Kaftan oder Umhang getragen wird. Auf den ersten Blick erscheinen diese Rüstungen schlicht und schmucklos, stehen Nützlichkeit und Langlebigkeit doch an erster Stelle. Eine genauere Betrachtung offenbart jedoch die große Sorgfalt, die bei ihrer Herstellung aufgewendet wird. Dank der passgenauen Anfertigung für jeden Träger schmiegt sich die Rüstung eng an den Körper und kann leicht übersehen werden.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;24.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1300;Mherweder Ringelpanzer
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;25.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Dieser Ringelpanzer wurde schon vom Vater meines Vaters getragen und hat viele Kämpfe gesehen. Wenn mein starker Arm eines Tages erlahmt, wird mein Sohn ihn tragen.Ich gebe dir die Rüstung als Sicherheit bis zu meiner Rückkehr. Wage es nicht, Hand daran zu legen oder sie zu verkaufen. Sonst, das schwöre ich beim All-Einen, wirst du es für den Rest deiner Tage bereuen.«—gehört auf dem Basar in Mherwed, neuzeitlich
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;26.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wenn auch nicht so wertvoll wie ein Spiegelpanzer, ist auch das als Mherweder Ringelpanzer bekannte
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;27.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Kettengeflecht eine Rüstung, die
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;28.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;abseits der Palastgarden und Elitetruppen wohlhabenden Kriegern
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;29.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;vorbehalten ist. Das leichte Geflecht
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;30.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;aus Kettenringen ist auf eine dünne lederne Unterlage
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;31.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;aufgenäht. Häufig werden solche Rüstungen innerhalb
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;32.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;einer Familie oder Sippe oft über Generationen weiter-
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;33.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;gegeben und sorgsam gepflegt. Der Ringelpanzer ist et
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;34.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;-was leichter als die schweren Kettenrüstungen der nördlichen Reiche und bietet dem Träger dadurch mehr
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;35.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Beweglichkeit. Auch ist das Geflecht aus eisernen Rin
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;36.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;-gen im Gegensatz zu Plattenrüstungen durchlässig genug, damit sich die Hitze der Wüste nicht stauen kann.
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;37.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Wenn ihr mich fragt, dann klingen diese Berichte über Wüstenelfen allesamt nach Märchen und Geschichten. Hat denn schon mal je-
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;38.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;mand eine solche Rüstung gesehen?«
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;39.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;—Rowena aus dem Überwals, bornische Katzenhexe»Vielleicht wäre eine leichte Platten-
+PDType0Font/PDCIDFontType2, PostScript name: HRXFYP+GentiumBasic-Italic;false;true;40.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;rüstung doch die bessere Wahl?«
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;41.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;—Geron Waisenmacher, Doppelsöldner»Nur, wenn du eines qualvollen Todes unter der Praiosscheibe sterben möchtest.«—Mirhiban al’Orhima, tulamidische Feuermagierin
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;42.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;43.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;*
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;44.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Variante Chitin
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;45.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;1 RS, Nachteil
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;46.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Raubtiergeruch
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;47.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Die Meisterin kann immer, wenn der Held nahe genug an domestizierten Tieren ist und diese ihn wittern, mit 1W6 würfeln. Bei einer 1 versuchen sie, vor
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;48.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;der vermeintlichen Bedrohung zu fliehen. Bei Pro
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;49.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;-ben auf
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;50.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Tierkunde
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;51.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;52.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;Reiten
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;53.0;17;-1.0;Rüstkammer_der_Wüstenreiche;900;im Umgang mit domestizierten Tieren kann ein Held mit Raubtiergeruch maximal 1 QS übrig behalten.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;54.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Mherweder RingelpanzerKomplexität komp (2 AP)ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisMherweder Ringelpanzer
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;55.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;42–14 Stn350 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;56.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;57.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Ringelpanzer ist eine Variante der Kettenrüstung. Die erste GE-Teilprobe bei
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;58.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Körperbeherrschung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;59.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;ist beim Tragen eines Ringelpanzers nicht durch die BE erschwert.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;60.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;61.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;62.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Dolche
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;63.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;64.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Fechtwaffen
+PDType0Font/PDCIDFontType2, PostScript name: NPSHPI+GentiumBasic;false;false;65.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;schützt der Fünflagenharnisch mit RS 4.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;66.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsnachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;67.0;17;-1.0;Rüstkammer_der_Wüstenreiche;1000;Bei den zusätzlichen Abzügen wird der Abzug für GS verdoppelt.
+PDTrueTypeFont HGEFEU+Andalus;false;false;1.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1200;Die Rüstkammer
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;2.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1300;Novadischer Waffenrock
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;3.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Diese Rüstung habe ich für dich gefertigt, mein Löwe. Ich habe 99 Taschen in das Leinen genäht und sie mit den feinsten Haaren der Pferde gefüllt. Möge die Rüstung dir im Kampf ein fester Schutz sein, Hüter meines Herzens. Und möge Rastullah seine Hand über dich und unsere Krieger halten und euch sicher wieder zurückbringen.«—Nassiban saba Sedef zu ihrem Ehemann, 1039 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;4.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wegen der Wüstenhitze sind Metallrüstungen unter den Stämmen der Khôm ohne Anlass nicht erste Wahl und auch der Repräsentation wegen vor allem bei hochrangigen und wohlhabenden Kriegern anzutreffen. Stattdessen verlassen sich viele im Kampf neben dem Schutz, den ihre gewohnte, weit geschnittene Kleidung bietet, meist auf einen gesteppten Waffenrock, der bis zu den Oberschenkeln herabreicht. Dies gilt auch für die Fußkämpfer und leicht gerüsteten Reiter Thalusiens, unter denen der Gebrauch schwerer Rüstungen ebenfalls selten ist, wenngleich dort vor allem Anschaffungs- und Erhaltungskosten die zentrale Hürde darstellen. Der Waffenrock wird meist aus weißen, braunen oder sandfarbenen Tüchern gefertigt, die es dem Träger erleichtern, sich in der Wüste zu verbergen. Ebenso wird er gefüttert, um nicht zuletzt vor den rauen Wüstennächten zu schützen.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;5.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1300;Spiegelpanzer
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;6.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Beschirme deine Augen, o wohlhabender Sohn der Schwarzen Perle, denn gleich wirst du etwas erblicken, das dir den Atem verschlägt. Dies ist der Spiegelpanzer, mit dem einst Akar ibn Maroszan den Basilisken getötet hat. Er befand sich lange Jahre im Besitz des Kalifen von Unau, ehe er in der Tiefe der Wüste Khôm verschwand ...«—Yosmabith bint el’Fessir, Händlerin auf dem Basar in Khunchom, 1032 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;7.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die prachtvollste Rüstung, die im Wüstenreich anzutreffen ist, ist der traditionelle Spiegelpanzer. Die Anfertigung dieser verstärkten Kettenrüstung ist aufwändig und teuer, wer-
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;8.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;den doch auf ein fein geflochtenes,
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;9.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;engmaschiges Kettengewebe ziselierte, mitunter sogar goldverzierte Metallplatten angebracht. Diese sind so verteilt, dass sie Herz und andere wichtige Körperregionen des Trägers schützen. Die polierten Panzerplatten
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;10.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;reflektieren das Licht der Sonne und
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;11.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;lassen den Träger der Rüstung weithin sichtbar erstrahlen. Aufgrund der Herstellungskosten sind Spiegelpanzer so wertvoll, dass ihr Besitz gewöhnlich Emiren, Sultanen, ihren besten Kämpfern und wohlhabenden Sippenkriegern vorbehalten ist.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;12.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Novadischer WaffenrockKomplexität einfArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisNovadischer Waffenrock
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;13.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;21–3 Stn90 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;14.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;15.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der novadische Waffenrock ist eine Variante der Stoffrüstung. Er bietet eine Kälteschutzstufe.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;16.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;17.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;18.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Hiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;19.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;20.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zweihandhiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;21.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;schützt der novadische Waffenrock mit RS 3.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;22.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsnachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;23.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Erleidet der Held den Status
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;24.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Brennend
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;25.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;, bekommt er pro KR 1W3 SP zusätzlichen Schaden.
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;26.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Ein schmuckes Ding! Die würde mir sicher ganz hervorragend stehen.«—Carolan Calavanti, Vinsalter Streuner»Komm bloß nicht auf dumme Gedanken. Der Wächter dort drüben schaut schon misstrauisch zu uns herüber.«—Tjalva Garheltdottir, Premer Hetja
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;27.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;SpiegelpanzerKomplexität komp (3 AP)ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisSpiegelpanzer
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;28.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;42–13 Stn350 S
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;29.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;30.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Spiegelpanzer ist eine Variante der Kettenrüstung.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;31.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;32.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;33.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Schwerter
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;34.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;35.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zweihandschwerter
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;36.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;schützt der Spiegelpanzer mit RS 5.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;37.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Rüstungsnachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;38.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;39.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Hiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;40.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;41.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zweihandhiebwaffen
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;42.0;18;-1.0;Rüstkammer_der_Wüstenreiche;1000;schützt der Spiegelpanzer mit RS 2.

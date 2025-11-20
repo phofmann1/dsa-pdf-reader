@@ -1,10 +1,13 @@
 /src/main/resources/*.pdf
 /target/
 /src/main/resources/pdf_lib/
-/export/
+/export/02 - applyStrategies/
+/export/03 - raw/
+/export/04 - json/
+/export/heldenbogen/
+/export/images/
+/export/markdown/
+/export/selection/
 /realmworks/
 /.metadata/
 /.idea/
-# Include export/01 and all its subfolders/files
-!export/01 - pdf2text/
-!export/01 - pdf2text/**

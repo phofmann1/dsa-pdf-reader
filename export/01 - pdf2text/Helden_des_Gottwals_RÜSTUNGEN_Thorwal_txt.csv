@@ -1,0 +1,53 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont UXUBHJ+Andalus;false;false;1.0;80;-1.0;Helden_des_Gottwals;1800;Thorwaler Rüstzeug
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;2.0;80;-1.0;Helden_des_Gottwals;1300;Olporter Krötenhaut
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;3.0;80;-1.0;Helden_des_Gottwals;1000;»Ja, da schaust du, du tumber Riesenhirschkäfer. In deinem Plattenpanzer kommst du in drei Tagen nicht hoch auf den Mast. Und wenn du im Sturm über Bord gehst, dann sinkst du so schnell auf den Meeresgrund, dass dir kaum die Zeit bleibt, um deinen Frieden mit den Göttern zu machen. In einer Krötenhaut dagegen, da bist du gut geschützt und trotzdem beweglich.«—Askra Haakonsdottir, Thorwalsche Seefahrerin, 1041 BF
+PDType0Font/PDCIDFontType2, PostScript name: GCWVTL+GentiumBasic;false;false;4.0;80;-1.0;Helden_des_Gottwals;1000;Die thorwalsche Form der Lederrüstung, die Krötenhaut, ist an den Gestaden des Gottwals weit verbreitet. Die in dem nördlichen Teil des Landes hergestellten Exemplare sind meist stärker gefüttert, um nicht nur Schutz vor Waffen, sondern auch vor der Witterung zu bieten. Schmuck und Ausstattung variieren je nach Vorliebe und Wohlstand der Trägerin. So finden sich neben schlich-
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;5.0;80;-1.0;Helden_des_Gottwals;1000;ten Exemplaren auch prachtvolle
+PDType0Font/PDCIDFontType2, PostScript name: GCWVTL+GentiumBasic;false;false;6.0;80;-1.0;Helden_des_Gottwals;1000;Kunstwerke, bei denen die Nieten und Schließen in aufwendigen Mustern angebracht sind oder die Weste zusätzlich mit Bildern oder Runenornamenten verziert ist.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;7.0;80;-1.0;Helden_des_Gottwals;1300;Premer Schuppenpanzer
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;8.0;80;-1.0;Helden_des_Gottwals;1000;»Zähe Burschen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;9.0;80;-1.0;Helden_des_Gottwals;1000;
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;10.0;80;-1.0;Helden_des_Gottwals;1000;, diese Nordleute. Die können genau so kräftig einstecken, wie sie austeilen. Ich weiß nicht, ob es an der Rüstung liegt oder ob die Thorwaler einfach keinen Schmerz spüren, aber wenn du einem von denen Auge in Auge mit dem Degen gegenüberstehst, kann dir schon mulmig werden. Am besten rückt man so einem Kämpfer mit
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;11.0;80;-1.0;Helden_des_Gottwals;1000;Olporter KrötenhautKomplexität einfArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisOlporter Krötenhaut
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;12.0;80;-1.0;Helden_des_Gottwals;1000;31–1 GS, –1 INI5 Stn200 S
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;13.0;80;-1.0;Helden_des_Gottwals;1000;Anmerkung
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;14.0;80;-1.0;Helden_des_Gottwals;1000;Die Olporter Krötenhaut ist eine Variante der Lederrüstung.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;15.0;80;-1.0;Helden_des_Gottwals;1000;Rüstungsvorteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;16.0;80;-1.0;Helden_des_Gottwals;1000;Die Olporter Krötenhaut erschwert die Probe auf
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;17.0;80;-1.0;Helden_des_Gottwals;1000;Schwimmen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;18.0;80;-1.0;Helden_des_Gottwals;1000;und
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;19.0;80;-1.0;Helden_des_Gottwals;1000;Körperbeherrschung (Balance)
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;20.0;80;-1.0;Helden_des_Gottwals;1000;nicht durch ihre
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;21.0;80;-1.0;Helden_des_Gottwals;1000;Belastung
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;22.0;80;-1.0;Helden_des_Gottwals;1000;. Gegen Hiebwaffen schützt die Krötenhaut mit RS 4.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;23.0;80;-1.0;Helden_des_Gottwals;1000;Rüstungsnachteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;24.0;80;-1.0;Helden_des_Gottwals;1000;Gegen Dolche, Fechtwaffen und Fernkampfwaffen schützt die Olporter Krötenhaut nur mit RS 2.
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;25.0;80;-1.0;Helden_des_Gottwals;1000;»Ich sag’ dir, die Olporter Variante der Krötenhaut, die taugt etwas. Gut gepolstert und schön warm. Da kannst du nichts falsch machen.«—Tjalva Garheltsdottir, Premer Hetja»Da hast du sicher recht, und sie ist ja auch
+PDType0Font/PDCIDFontType2, PostScript name: UFSWHJ+GentiumBasic-Italic;false;true;26.0;80;-1.0;Helden_des_Gottwals;1000;recht ansehnlich. Es ... äh ... spannt nur
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;27.0;80;-1.0;Helden_des_Gottwals;1000;etwas um die Leibesmitte.«—Bruder Hilbert, Perainegeweihter»Ach was, wenn wir erst in den Hjaldorbergen sind, müssen wir ohnehin mit dem Proviant sparsam sein, dann passt sie dir schon bald wie angegossen.«—Tjalva Garheltsdottir, Premer Hetja»Das ist schon ein ganz ordentlicher Panzer. Jedenfalls wenn man berücksichtigt, dass er von Menschen gefertigt wurde.«
+PDType0Font/PDCIDFontType2, PostScript name: UFSWHJ+GentiumBasic-Italic;false;true;28.0;80;-1.0;Helden_des_Gottwals;1000;—Arbosch Sohn des Angrax, amboss
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;29.0;80;-1.0;Helden_des_Gottwals;1000;-zwergischer Meisterschmied»Ihr habt wahrscheinlich kein Auge dafür, aber so ein Schuppenpanzer ist auch ausgesprochen kleidsam und verleiht seinem Träger ein stattliches Aussehen.«—Rowena aus dem Überwals, bornische
+PDType0Font/PDCIDFontType2, PostScript name: UFSWHJ+GentiumBasic-Italic;false;true;30.0;80;-1.0;Helden_des_Gottwals;1000;Katzenhexe
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;31.0;80;-1.0;Helden_des_Gottwals;1000;Premer SchuppenpanzerKomplexität komp (3 AP)ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisPremer Schuppenpanzer
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;32.0;80;-1.0;Helden_des_Gottwals;1000;52–1 GS, –1 INI19 Stn425 S
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;33.0;80;-1.0;Helden_des_Gottwals;1000;Anmerkung
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;34.0;80;-1.0;Helden_des_Gottwals;1000;Der Premer Schuppenpanzer ist eine Variante der Schuppenrüstung.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;35.0;80;-1.0;Helden_des_Gottwals;1000;Rüstungsvorteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;36.0;80;-1.0;Helden_des_Gottwals;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;37.0;80;-1.0;Helden_des_Gottwals;1000;Hiebwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;38.0;80;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;39.0;80;-1.0;Helden_des_Gottwals;1000;Kettenwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;40.0;80;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;41.0;80;-1.0;Helden_des_Gottwals;1000;Stangenwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;42.0;80;-1.0;Helden_des_Gottwals;1000;und
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;43.0;80;-1.0;Helden_des_Gottwals;1000;Zweihandhiebwaffen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;44.0;80;-1.0;Helden_des_Gottwals;1000;schützt der Schuppenpanzer mit RS 6.
+PDTrueTypeFont KIUTXD+GentiumBasic-Bold;true;false;45.0;80;-1.0;Helden_des_Gottwals;1000;Rüstungsnachteil
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;46.0;80;-1.0;Helden_des_Gottwals;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;47.0;80;-1.0;Helden_des_Gottwals;1000;Dolche
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;48.0;80;-1.0;Helden_des_Gottwals;1000;,
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;49.0;80;-1.0;Helden_des_Gottwals;1000;Armbrüste
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;50.0;80;-1.0;Helden_des_Gottwals;1000;und
+PDTrueTypeFont MTRAZZ+GentiumBasic-Italic;false;true;51.0;80;-1.0;Helden_des_Gottwals;1000;Bögen
+PDTrueTypeFont YQVULB+GentiumBasic;false;false;52.0;80;-1.0;Helden_des_Gottwals;1000;schützt der Schuppenpanzer mit RS 4.

@@ -1,0 +1,186 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont HQCPYU+Andalus;false;false;1.0;266;-1.0;Archiv_der_Kreaturen;1800;Vorteile
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;266;-1.0;Archiv_der_Kreaturen;1300;Natürlicher Rüstungsschutz I-II*
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;266;-1.0;Archiv_der_Kreaturen;1000;Einige Wesen haben so zähe Haut oder dichtes Fell, dass dies wie eine natürliche Rüstung wirkt.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;266;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;266;-1.0;Archiv_der_Kreaturen;1000;Das Wesen verfügt pro Stufe des Vorteils über einen natürlichen Rüstungsschutz, der mit anderen Rüstungen kombiniert werden kann.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;6.0;266;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;266;-1.0;Archiv_der_Kreaturen;1000;Spezies, Kultur oder Profession muss
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;8.0;266;-1.0;Archiv_der_Kreaturen;1000;Natürlicher Rüstungsschutz
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;266;-1.0;Archiv_der_Kreaturen;1000;als automatischen oder empfohlenen Vorteil aufweisen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;10.0;266;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;266;-1.0;Archiv_der_Kreaturen;1000;20 Abenteuerpunkte pro Stufe
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;12.0;266;-1.0;Archiv_der_Kreaturen;1300;Wasserlebewesen*
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;266;-1.0;Archiv_der_Kreaturen;1000;Wesen, deren natürlicher Lebensraum das Wasser ist, haben einen Körper, der an diese Umgebung angepasst ist. Sie können sich besser im Wasser bewegen, als dies Landlebewesen vermögen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;14.0;266;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;266;-1.0;Archiv_der_Kreaturen;1000;Wesen mit diesem Vorteil erhalten automatisch die Sonderfertigkeit Unterwasserkampf (die Kosten der SF sind in diesem Vorteil einberechnet). Wasserlebewesen können unter Wasser atmen. Außerdem können sie sich darin mit Leichtigkeit fortbewegen, da es sich um ihr natürliches Element handelt. Sie müssen keine Proben ablegen, um nicht zu ertrinken.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;16.0;266;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;266;-1.0;Archiv_der_Kreaturen;1000;Spezies, Kultur oder Profession muss Wasserlebewesen als automatischen oder empfohlenen Vorteil aufweisen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;18.0;266;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;19.0;266;-1.0;Archiv_der_Kreaturen;1000;15 Abenteuerpunkte
+PDTrueTypeFont HQCPYU+Andalus;false;false;20.0;266;-1.0;Archiv_der_Kreaturen;1800;Kampfsonderfertigkeiten
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;21.0;266;-1.0;Archiv_der_Kreaturen;1000;Die meisten der hier vorgestellten Kampfsonderfertigkeiten sind für Tiere und Ungeheuer gedacht. Sie funktionieren zwar im Kampf genauso wie alle Kampfsonderfertigkeiten, aber wenn kein AP-Wert und keine Kampftechnik angegeben sind, bedeutet dies, dass ein Held die Sonderfertigkeit nicht erlernen kann. Sie ist vielmehr auf den Einsatz durch Kreaturen und Tiere
+PDType0Font/PDCIDFontType2, PostScript name: MIQAHU+GentiumBasic;false;false;22.0;266;-1.0;Archiv_der_Kreaturen;1000;beschränkt. Die übrigen Sonderfertigkeiten findest du
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;23.0;266;-1.0;Archiv_der_Kreaturen;1000;im
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;24.0;266;-1.0;Archiv_der_Kreaturen;1000;Regelwerk
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;25.0;266;-1.0;Archiv_der_Kreaturen;1000;ab Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;26.0;266;-1.0;Archiv_der_Kreaturen;1000;246
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;27.0;266;-1.0;Archiv_der_Kreaturen;1000;. Sollten Sonderfertigkeiten Spielwerte verändern (z. B.
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;28.0;266;-1.0;Archiv_der_Kreaturen;1000;Verbessertes Ausweichen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;29.0;266;-1.0;Archiv_der_Kreaturen;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: YISPTW+GentiumBasic-Italic;false;true;30.0;266;-1.0;Archiv_der_Kreaturen;1000;Kampfreflexe
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;31.0;266;-1.0;Archiv_der_Kreaturen;1000;), so sind die Änderungen bei den Werten der Wesen bereits berücksichtigt.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;32.0;266;-1.0;Archiv_der_Kreaturen;1300;Angriff auf ungeschützte Stellen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;33.0;266;-1.0;Archiv_der_Kreaturen;1100;(Spezialmanöver)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;34.0;266;-1.0;Archiv_der_Kreaturen;1000;Mittels dieser Sonderfertigkeit kann eine Attacke gegen eine ungeschützte Körperstelle erfolgen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;35.0;266;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;36.0;266;-1.0;Archiv_der_Kreaturen;1000;Wenn die AT des Wesens gelingt und die Verteidigung des Ziels misslingt, kann Rüstungsschutz, der durch Kleidung und Rüstungen zustande gekommen ist, ignoriert werden. Gegen diesen Angriff kann man sich normal verteidigen. Die Attacke ist um –2 erschwert. Magischer, karmaler oder natürlicher Rüstungsschutz kann nicht umgangen werden und schützt weiterhin.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;37.0;266;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;38.0;266;-1.0;Archiv_der_Kreaturen;1000;–2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;39.0;266;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;40.0;266;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont HQCPYU+Andalus;false;false;41.0;266;-1.0;Archiv_der_Kreaturen;3100;ANHANG
+PDTrueTypeFont HQCPYU+Andalus;false;false;1.0;267;-1.0;Archiv_der_Kreaturen;1200;Anhang
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;267;-1.0;Archiv_der_Kreaturen;1300;Anspringen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;267;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Einige Kreaturen versuchen mit etwas Anlauf oder aus dem Stand heraus ihren Gegner anzuspringen und zu Fall zu bringen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;267;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;267;-1.0;Archiv_der_Kreaturen;1000;Gegen diesen Angriff kann man sich normal verteidigen. Ist die Verteidigung misslungen, stürzt der Gegner und erleidet den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;6.0;267;-1.0;Archiv_der_Kreaturen;1000;Liegend
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;267;-1.0;Archiv_der_Kreaturen;1000;. Der Angriff verursacht 1W3 TP anstelle des eigentlichen Schadens. Die Kreatur sitzt zudem auf ihrem Opfer und genießt eine
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;8.0;267;-1.0;Archiv_der_Kreaturen;1000;Vorteilhafte Position
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;267;-1.0;Archiv_der_Kreaturen;1000;(siehe
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;10.0;267;-1.0;Archiv_der_Kreaturen;1000;Regelwerk
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;267;-1.0;Archiv_der_Kreaturen;1000;Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;12.0;267;-1.0;Archiv_der_Kreaturen;1000;238
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;267;-1.0;Archiv_der_Kreaturen;1000;). Um das Wesen herunterzubekommen, ist eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;14.0;267;-1.0;Archiv_der_Kreaturen;1000;Kraftakt (Heben & Stemmen)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;267;-1.0;Archiv_der_Kreaturen;1000;notwendig, die um je volle 50 Stein Gewicht der Kreatur um –1 erschwert ist. Dies kostet eine Aktion. Will der Held gleichzeitig auch noch aufstehen, so ist die Probe um zusätzlich –3 Punkte erschwert. Ein misslungener Angriff bedeutet, dass dem Gegner ein Passierschlag zusteht. Die Attacke ist um –4 erschwert.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;16.0;267;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;267;-1.0;Archiv_der_Kreaturen;1000;–4
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;18.0;267;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;19.0;267;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;20.0;267;-1.0;Archiv_der_Kreaturen;1300;Flugangriff
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;21.0;267;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;22.0;267;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Fliegende Wesen greifen Landbewohner aus der Luft an, was ihren Angriffen eine besondere Wucht verleiht. Nach einem solchen Angriff sind sie zudem nur schwer zu treffen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;23.0;267;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;24.0;267;-1.0;Archiv_der_Kreaturen;1000;Ist der Flugangriff erfolgreich, steigen die TP um 2. Das Manöver Flugangriff kann nur durchgeführt
+PDType0Font/PDCIDFontType2, PostScript name: OYGWEQ+GentiumBasic;false;false;25.0;267;-1.0;Archiv_der_Kreaturen;1000;werden, wenn der Angreifer eine Anflugstrecke von
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;26.0;267;-1.0;Archiv_der_Kreaturen;1000;mindestens 8 Schritt hat und über eine GS von mindestens 4 verfügt. Gegen diesen Angriff kann man sich normal verteidigen. Misslingt der Flugangriff, darf der Verteidiger einen Passierschlag ausführen. Sollte der Flugangriff gelungen sein, so ist eine Attacke gegen das Flugwesen durch den Angegriffenen in dieser KR um –6 erschwert, da das Wesen am Gegner vorbei-
+PDType0Font/PDCIDFontType2, PostScript name: OYGWEQ+GentiumBasic;false;false;27.0;267;-1.0;Archiv_der_Kreaturen;1000;fliegt. Am Ende der KR hat sich das Flugwesen, wenn
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;28.0;267;-1.0;Archiv_der_Kreaturen;1000;es dies will, bis zu GS/2 Schritt von seinem Opfer entfernt, unabhängig davon, ob es mit dem Flugangriff getroffen hat oder nicht. Dieses Spezialmanöver kann nicht mit dem Basismanöver
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;29.0;267;-1.0;Archiv_der_Kreaturen;1000;Finte
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;30.0;267;-1.0;Archiv_der_Kreaturen;1000;kombiniert werden. Die Attacke ist um –2 erschwert.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;31.0;267;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;32.0;267;-1.0;Archiv_der_Kreaturen;1000;–2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;33.0;267;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;34.0;267;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;35.0;267;-1.0;Archiv_der_Kreaturen;1300;Klammergriff
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;36.0;267;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;37.0;267;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Mittels Fangarmen, Tentakeln, einem Rüssel, langen Armen oder dem ganzen Körper kann ein Wesen einen Helden umschlingen, anheben und würgen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;38.0;267;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;39.0;267;-1.0;Archiv_der_Kreaturen;1000;Dem Wesen muss eine AT mit seinem Fangarm (Tentakel, Arm, Körper, etc.) gelingen. Kann der Gegner sich nicht verteidigen, hält der Angreifer ihn fest. Solange der Gegner festgehalten wird, leidet er unter den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;40.0;267;-1.0;Archiv_der_Kreaturen;1000;Fixiert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;41.0;267;-1.0;Archiv_der_Kreaturen;1000;und
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;42.0;267;-1.0;Archiv_der_Kreaturen;1000;Eingeengt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;43.0;267;-1.0;Archiv_der_Kreaturen;1000;. Ab der nächsten KR muss das Wesen keine AT mehr würfeln, sondern erzeugt durch Quetschen SP in Höhe der ausgewürfelten TP des Angriffs. Alternativ kann das Wesen 1 Aktion aufwenden, um das Opfer zu seinem Maul zu heben. In der folgenden KR kann das Wesen dann zubeißen, so es über eine Biss-Attacke verfügt. Diese Biss-Attacke gelingt gegen einen festgehaltenen Gegner automatisch. Die Verteidigung des Angreifers sinkt für den Rest der KR, in welcher
+PDType0Font/PDCIDFontType2, PostScript name: OYGWEQ+GentiumBasic;false;false;44.0;267;-1.0;Archiv_der_Kreaturen;1000;der Biss stattfindet, auf 0. Der Klammergriff kann nur
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;45.0;267;-1.0;Archiv_der_Kreaturen;1000;gegen Gegner kleinerer Größenkategorien eingesetzt werden. Um sich aus dem Klammergriff zu lösen, ist eine gelungene Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;46.0;267;-1.0;Archiv_der_Kreaturen;1000;Kraftakt (Ziehen & Zerren)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;47.0;267;-1.0;Archiv_der_Kreaturen;1000;nötig. Mittels 1 freien Aktion kann der Klammernde den Gehaltenen loslassen. Sollte der Klammernde sein Opfer angehoben haben, stürzt es und erleidet den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;48.0;267;-1.0;Archiv_der_Kreaturen;1000;Liegend
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;49.0;267;-1.0;Archiv_der_Kreaturen;1000;, sofern ihm nicht eine Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;50.0;267;-1.0;Archiv_der_Kreaturen;1000;Körperbeherrschung (Kampfmanöver)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;51.0;267;-1.0;Archiv_der_Kreaturen;1000;gelingt. Der Angriff ist um –4 erschwert.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;52.0;267;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;53.0;267;-1.0;Archiv_der_Kreaturen;1000;–4
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;54.0;267;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;55.0;267;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;56.0;267;-1.0;Archiv_der_Kreaturen;1300;Mächtiger Schlag
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;57.0;267;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;58.0;267;-1.0;Archiv_der_Kreaturen;1000;(passiv)Manche Wesen verfügen über eine so hohe Körperkraft, dass ihre Angriffe den Gegner einfach zu Boden schmettern können.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;59.0;267;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;60.0;267;-1.0;Archiv_der_Kreaturen;1000;Bei einer gelungenen Attacke müssen Gegner der Größenkategorien
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;61.0;267;-1.0;Archiv_der_Kreaturen;1000;mittel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;62.0;267;-1.0;Archiv_der_Kreaturen;1000;und kleiner eine Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;63.0;267;-1.0;Archiv_der_Kreaturen;1000;Kraftakt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;64.0;267;-1.0;Archiv_der_Kreaturen;1000;bestehen, ansonsten erhalten sie den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;65.0;267;-1.0;Archiv_der_Kreaturen;1000;Liegend
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;66.0;267;-1.0;Archiv_der_Kreaturen;1000;. Die Probe ist für den Gegner um die Hälfte der Punkte erschwert, die die Körperkraft des Wesens über 20 liegt (bei einer KK von 23 um –2, bei einer von 26 um –3 usw.). Dem Mächtigen Schlag kann man nur mittels Ausweichen komplett entgehen. Bei einer Parade, gleich ob gelungen oder nicht, muss die Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;67.0;267;-1.0;Archiv_der_Kreaturen;1000;Kraftakt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;68.0;267;-1.0;Archiv_der_Kreaturen;1000;gewürfelt werden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;69.0;267;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;70.0;267;-1.0;Archiv_der_Kreaturen;1000;+/–0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;71.0;267;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;72.0;267;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;73.0;267;-1.0;Archiv_der_Kreaturen;1300;Schwanz- oder Tentakelschwung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;74.0;267;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Wesen mit einem langen, kräftigen Schwanz oder Tentakel können diese als Waffe einsetzen und über den Boden fegen. Dadurch kann es ihnen gelingen, sogar mehrere Gegner zu Fall zu bringen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;75.0;267;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;76.0;267;-1.0;Archiv_der_Kreaturen;1000;Ist das angreifende Wesen mindestens eine Größenkategorie größer als seine Ziele, kann es mit einem Schwanz- oder Tentakelschwung mehrere Gegner zu Fall bringen. Diesem Angriff kann man nur ausweichen. Ist die Verteidigung misslungen, stürzt der Gegner und erleidet den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;77.0;267;-1.0;Archiv_der_Kreaturen;1000;Liegend
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;78.0;267;-1.0;Archiv_der_Kreaturen;1000;. Durch den Fall erleidet man 1W3 SP. Ein solcher Angriff kann nur gegen Ziele neben oder hinter (Schwanz) bzw. vor (Tentakel) dem angreifenden Wesen ausgeführt werden. Die Attacke ist um –2 pro Ziel erschwert.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;79.0;267;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;80.0;267;-1.0;Archiv_der_Kreaturen;1000;–2 pro Ziel
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;81.0;267;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;82.0;267;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;1.0;268;-1.0;Archiv_der_Kreaturen;1300;Trampeln
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;268;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;268;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Große Tiere und Ungeheuer versuchen oftmals, kleinere Gegner einfach zu zertrampeln. Dabei gehen sie das Risiko ein, selbst verletzt zu werden, aber ein solcher Angriff kann auch schnell das Ende des Gegners bedeuten, da er mehr Schaden verursacht als üblich.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;268;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;268;-1.0;Archiv_der_Kreaturen;1000;Nur Wesen, die im Vergleich zum Gegner eine höhere Größenkategorie aufweisen, können einen Trampel-Angriff durchführen. Ausschließlich Gegner mit dem Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;6.0;268;-1.0;Archiv_der_Kreaturen;1000;Liegend
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;268;-1.0;Archiv_der_Kreaturen;1000;oder Wesen, deren Größenkategorie kleiner ist als die des angreifenden Wesens, können zertrampelt werden. Der Angreifer kann eine Trampel-Attacke durchführen. Hierdurch erleidet er jedoch einen zusätzlichen Abzug von –2 Punkten auf seine Verteidigung in der laufenden KR.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;8.0;268;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;268;-1.0;Archiv_der_Kreaturen;1000;+/–0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;10.0;268;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;268;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;12.0;268;-1.0;Archiv_der_Kreaturen;1300;Überrennen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;268;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Eines der einfachsten Mittel, einen Gegner anzugreifen und viel Schaden zu verursachen, ist das Überrennen. Die Kreatur versucht in diesem Fall einfach, eine Art Sturmangriff auszuführen, der aber nicht beim Helden endet. Das Wesen stürmt einfach weiter, selbst wenn es den Helden erwischt hat.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;14.0;268;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;268;-1.0;Archiv_der_Kreaturen;1000;Das Manöver Überrennen kann nur durchgeführt werden, wenn der Angreifer eine Anlaufstrecke von mindestens 8 Schritt hat und über eine GS von mindestens 4 verfügt. Dieser Angriff kann regulär abgewehrt werden. Sollte das Überrennen misslingen, erhält der Verteidiger Gelegenheit für einen Passierschlag, dieser ist aber zusätzlich um –4 erschwert. Ist das Überrennen-Manöver erfolgreich, so ist eine Attacke gegen das Wesen durch den Angegriffenen in dieser KR um –2 erschwert. Am Ende der KR ist das Wesen, wenn es dies will, bis zu GS/2 Schritt von seinem Opfer entfernt, unabhängig davon ob es mit dem Angriff getroffen hat oder nicht. Dieses Spezialmanöver kann nicht mit dem Basismanöver
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;16.0;268;-1.0;Archiv_der_Kreaturen;1000;Finte
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;268;-1.0;Archiv_der_Kreaturen;1000;kombiniert werden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;18.0;268;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;19.0;268;-1.0;Archiv_der_Kreaturen;1000;+/–0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;20.0;268;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;21.0;268;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;22.0;268;-1.0;Archiv_der_Kreaturen;1300;Unterwasserkampf
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;23.0;268;-1.0;Archiv_der_Kreaturen;1300;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;24.0;268;-1.0;Archiv_der_Kreaturen;1000;(passiv)Landlebewesen haben meist größere Probleme im Kampf im oder unter Wasser. Wer jedoch als Wasserlebewesen geboren wurde, kann darin ohne Schwierigkeiten kämpfen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;25.0;268;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;26.0;268;-1.0;Archiv_der_Kreaturen;1000;Für Wesen mit dieser Sonderfertigkeit gelten die Erschwernisse im Kampf unter Wasser nicht (siehe
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;27.0;268;-1.0;Archiv_der_Kreaturen;1000;Regelwerk
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;28.0;268;-1.0;Archiv_der_Kreaturen;1000;Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;29.0;268;-1.0;Archiv_der_Kreaturen;1000;239
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;30.0;268;-1.0;Archiv_der_Kreaturen;1000;).
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;31.0;268;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;32.0;268;-1.0;Archiv_der_Kreaturen;1000;+/–0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;33.0;268;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;34.0;268;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt über den Vorteil Wasserlebewesen
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;35.0;268;-1.0;Archiv_der_Kreaturen;1300;Verbeißen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;36.0;268;-1.0;Archiv_der_Kreaturen;1000;(Spezialmanöver)Manche Tiere verbeißen sich regelrecht in ihren Gegner. Dies führt dazu, dass sich das Opfer kaum noch bewegen kann und es durch das Reißen starken Blutverlust erleidet.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;37.0;268;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;38.0;268;-1.0;Archiv_der_Kreaturen;1000;Das Wesen führt einen Biss-Angriff aus. Kann der gelungene Angriff nicht verteidigt werden, so hat sich die Kreatur festgebissen. In den nachfolgenden KR gelingt die Biss-Attacke des Wesens automatisch, ohne dass die Meisterin würfeln muss. Jede weitere KR richtet der Verbeißen-Angriff +1 TP an (in der ersten KR noch keinen zusätzlichen TP, in der 2. KR +1 TP, in der 3. KR +2 TP usw.). Die TP werden wie üblich ausgewürfelt. Der Gegner erhält den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;39.0;268;-1.0;Archiv_der_Kreaturen;1000;Fixiert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;40.0;268;-1.0;Archiv_der_Kreaturen;1000;, es sei denn, bei der Kreaturenbeschreibung steht extra dabei, dass der Status entfällt. Die Verteidigung des Angreifers sinkt, während es durch den Biss am Gegner hängt, auf 0. Das Wesen kann am Ende einer KR entscheiden loszulassen (was 1 freie Aktion kostet). Dieser Angriff ist um –2 erschwert.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;41.0;268;-1.0;Archiv_der_Kreaturen;1000;Erschwernis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;42.0;268;-1.0;Archiv_der_Kreaturen;1000;–2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;43.0;268;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;44.0;268;-1.0;Archiv_der_Kreaturen;1000;Wesen verfügt automatisch über die SF
+PDTrueTypeFont HQCPYU+Andalus;false;false;45.0;268;-1.0;Archiv_der_Kreaturen;1800;Körperkraft schwacher Wesen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;46.0;268;-1.0;Archiv_der_Kreaturen;1000;Einige Wesen sind so schwach, dass ihr KK-Wert völlig unbedeutend gegenüber dem menschlichen Bereich der Stärke ist (z. B. Insekten, Skorpione, kleine Feen). Dennoch besitzen solche Wesen einen KK-Wert, um untereinander Vergleiche ziehen und entsprechende Proben ablegen zu können. Sollte beim KK-Wert eines Wesens ein „k“ (k wie klein) angegeben sein, kennzeichnet dies die Körperkraft schwacher Wesen. Dies bedeutet auch, dass einige Talente, insbesondere
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;47.0;268;-1.0;Archiv_der_Kreaturen;1000;Kraftakt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;48.0;268;-1.0;Archiv_der_Kreaturen;1000;, keinem Vergleich mit größeren Wesen standhalten. Die FW in
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;49.0;268;-1.0;Archiv_der_Kreaturen;1000;Kraftakt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;50.0;268;-1.0;Archiv_der_Kreaturen;1000;ermöglichen nur einen Vergleich für die kleinen Wesen untereinander. Ein winziger Skorpion wird also nie stärker sein als ein Mensch. Für einen ungefähren Vergleich mit größeren und stärkeren Wesen kannst du die nachfolgende Tabelle nutzen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;51.0;268;-1.0;Archiv_der_Kreaturen;1000;Körperkraft kleiner Wesen/Menschliche KörperkraftKleines WesenMensch0
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;52.0;268;-1.0;Archiv_der_Kreaturen;1000;0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;53.0;268;-1.0;Archiv_der_Kreaturen;1000;3
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;54.0;268;-1.0;Archiv_der_Kreaturen;1000;1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;55.0;268;-1.0;Archiv_der_Kreaturen;1000;6
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;56.0;268;-1.0;Archiv_der_Kreaturen;1000;2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;57.0;268;-1.0;Archiv_der_Kreaturen;1000;9
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;58.0;268;-1.0;Archiv_der_Kreaturen;1000;3
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;59.0;268;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;60.0;268;-1.0;Archiv_der_Kreaturen;1000;4
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;61.0;268;-1.0;Archiv_der_Kreaturen;1000;15
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;62.0;268;-1.0;Archiv_der_Kreaturen;1000;5

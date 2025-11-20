@@ -1,0 +1,720 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont WUSDBV+Andalus;false;false;1.0;38;-1.0;Strassenstaub_und_Halsabschneider;1200;Strassenraub & Halsabschneider
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;2.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;WaffenzubehörGegenstandGewichtStrukturpunktePreisKomplexitätBogensehne
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;3.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn21 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;4.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Dolchscheide
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;5.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn105 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;6.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Köcher, für 20 Pfeile oder Bolzen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;7.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn1215 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;8.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Pfeile/Bolzen/Kugeln
+PDTrueTypeFont QLVTVH+GentiumBasic-Italic;false;true;9.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,4/0,2/0,5 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;10.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Schwertscheide
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;11.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn1012 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;12.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Unterkleidung für Metallrüstungen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;13.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;2,5 Stn512 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: TYRCKG+GentiumBasic-Bold;true;false;14.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Waffenpflegeset (Schleifstein, Tücher)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;15.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn151 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;16.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;KleidungGegenstandGewichtStrukturpunktePreisKomplexitätBallkleid
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;17.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn6 StP350 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;18.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Barett
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;19.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn5 StP1 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;20.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Brusttuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;21.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn3 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;22.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Edle Kleidung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;23.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn3 StP100 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;24.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Filzhut
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;25.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn6 StP0,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;26.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Gugel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;27.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn5 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;28.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Halstuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;29.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn5 StP4 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;30.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Hemd
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;31.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;32.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Hose
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;33.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn5 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;34.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Hose mit Hosentasche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;35.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn5 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;36.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Jacke
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;37.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn8 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;38.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Kaftan
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;39.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1,25 Stn7 StP7,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;40.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Kapuzenumhang
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;41.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn10 StP6 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: TYRCKG+GentiumBasic-Bold;true;false;42.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Keffiya
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;43.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,3 Stn3 StP0,6 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;44.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Kleid
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;45.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn6 StP6 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;46.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Kopftuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;47.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn3 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;48.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Korsett
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;49.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn12 StP150 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;50.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Kutte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;51.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn7 StP2,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;52.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Ledergürtel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;53.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn7 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;54.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederhandschuhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;55.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn7 StP0,3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;56.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederhut mit breiter Krempe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;57.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn7 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;58.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Ledermantel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;59.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn12 StP75 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;60.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederschuhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;61.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn7 StP5 Seinf
+PDType0Font/PDCIDFontType2, PostScript name: TYRCKG+GentiumBasic-Bold;true;false;62.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederschürze mit Taschen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;63.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn7 StP7 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;64.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederstiefel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;65.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn8 StP12 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;66.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Lendenschurz
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;67.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn3 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;68.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Magierrobe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;69.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn6 StP120 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;70.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Mantel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;71.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn6 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;72.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Nachthemd
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;73.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn3 StP1,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;74.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;Pelzfäustlinge
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;75.0;38;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn6 StP6 Seinf
+PDTrueTypeFont WUSDBV+Andalus;false;false;76.0;38;-1.0;Strassenstaub_und_Halsabschneider;1800;Ausrüstung
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;1.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;KleidungGegenstandGewichtStrukturpunktePreisKomplexitätPelzgefütterte Stiefel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;2.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;2,5 Stn6 StP24 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;3.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Pelzmütze
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn6 StP6 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Piratenkopftuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 StP0,6 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Rock
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn4 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Sandalen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn4 StP2 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Schal
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn4 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Schleier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn3 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Schnürmieder
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn8 StP20 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Seidenschärpe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn4 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Seidenstrümpfe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP80 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Strohhut
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn3 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Tunika
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn5 StP1,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Turban
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn4 StP0,8 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Unterhosen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Unterkleid
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Wappenrock
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn5 StP5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Weste
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;35.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Wolfsfell
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;36.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn7 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;37.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Wollstrümpfe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;38.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn5 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;39.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Reisebedarf und WerkzeugeGegenstandGewichtStrukturpunktePreisKomplexitätAmboss, groß
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;40.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;350 Stn5.000 StP300 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;41.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Amboss, klein
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;42.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;25 Stn500 StP200 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;43.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Angel mit Angelschnur, 10 Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;44.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;45.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Becher
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;46.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn7 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;47.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Beil/Handaxt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;48.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn30 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;49.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Besen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;50.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn8 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;51.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Bratspieß, Eisen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;52.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn50 StP16 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;53.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Essbesteck
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;54.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn8 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;55.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Feile
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;56.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn50 StP15 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;57.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Feuerstein und Stahl
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;58.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 und 12 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;59.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Flaschenzug für 250 Stn
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;60.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn10 StP55 Seinf
+PDType0Font/PDCIDFontType2, PostScript name: KTYQOY+GentiumBasic-Bold;true;false;61.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Götterfigürchen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;62.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn3 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;63.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Großzelt, 12 Personen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;64.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;20 Stn60 StP200 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;65.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Hammer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;66.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn30 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;67.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Handbohrer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;68.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn25 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;69.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Handsäge
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;70.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn30 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;71.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Handspiegel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;72.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP60 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;73.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Hängematte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;74.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn3 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;75.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Holzschale
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;76.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn7 StP0,8 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;77.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Holzteller
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;78.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn8 StP0,9 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;79.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;Kletterhaken, 10 Stück
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;80.0;39;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn10 StP27 Sprim
+PDTrueTypeFont WUSDBV+Andalus;false;false;1.0;40;-1.0;Strassenstaub_und_Halsabschneider;1200;Strassenraub & Halsabschneider
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;2.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Reisebedarf und WerkzeugeGegenstandGewichtStrukturpunktePreisKomplexitätKrug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;3.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn5 StP1,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;4.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Kupferkessel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;5.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;4 Stn60 StP24 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;6.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Leim
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;7.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn–1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;8.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Meißel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;9.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn25 StP5,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;10.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Nadel- & Zwirnsets
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;11.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP4,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;12.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Nägel, 10 Stück
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;13.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn20 StP0,6 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;14.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Nudel-/Teigholz
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;15.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn10 StP10 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;16.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Pfanne
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;17.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn40 StP12 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;18.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Phraischafwolldecke
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;19.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn4 StP8 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;20.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Reiseamboss
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;21.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;150 Stn3.000 StP250 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;22.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Schaufel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;23.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn50 StP8,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;24.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Scher
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;25.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;e0,25 Stn10 StP5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;26.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Schlafsack
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;27.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn7 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;28.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Schmiedehammer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;29.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;1,25 Stn30 StP100 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;30.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Schneeschuhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;31.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn7 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;32.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Schneiderschere
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;33.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,3 Stn12 StP7 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;34.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Seife
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;35.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn4 StP1 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;36.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Seife, parfümiert
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;37.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn4 StP5 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;38.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Sense
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;39.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;3,5 Stn30 StP40 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;40.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Sichel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;41.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn12 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;42.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Spaten
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;43.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn15 StP8,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;44.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Spitzhacke
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;45.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;2,75 Stn15 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;46.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Strickleiter, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;47.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP2,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;48.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Vorhängeschloss
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;49.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn100 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;50.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Vorschlaghammer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;51.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn100 StP30 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;52.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Wasserschlauch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;53.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn5 StP5,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;54.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Wolldecke
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;55.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn7 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;56.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zange
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;57.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn40 StP6 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;58.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zelt, 1 Person
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;59.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn7 StP14,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;60.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zelt, 2 Personen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;61.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;6 Stn7 StP25 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;62.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zelt, 4 Personen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;63.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;8 Stn8 StP40 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;64.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zunder, 25 Portionen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;65.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,025 Stn1 StP0,2 Skeine
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;66.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Zunderdose (Platz für 25 Portionen)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;67.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn10 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;68.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;ProviantGegenstandGewichtStrukturpunktePreisKomplexitätProviant für 1 Tag
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;69.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP0,5 Skeine
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;70.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;BeleuchtungGegenstandGewichtStrukturpunktePreisKomplexitätAbblendlaterne
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;71.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn12 StP15 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;72.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Fackel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;73.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn20 StP0,5 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: NASUZS+GentiumBasic-Bold;true;false;74.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;Gwen Petryl, fingerkuppengroß
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;75.0;40;-1.0;Strassenstaub_und_Halsabschneider;1000;0,075 Stn40 StP100 Skeine
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;1.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Gwen Petryl, faustgroß
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;2.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn80 StP1.000 Skeine
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;3.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Gwen Petryl, kopfgroß
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;7,5 Stn120 StP10.000 Skeine
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Kerze, 10 Stück
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn2 StP6 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Laterne
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn8 StP8 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Öllampe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Nachfüllbedarf und Zubehör (Licht)GegenstandGewichtStrukturpunktePreisKomplexitätFeuerstein und Stahl
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn15 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Kerzenständer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn10 StP11,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Lampenöl, 12 Stunden Brennzeit
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn–0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Zunder
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;,
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;25 Portionen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,025 Stn2 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Zunderdose (Platz für 25 Portionen)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn6 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Verbandszeug und HeilmittelGegenstandGewichtStrukturpunktePreisKomplexitätBlutegel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,001 Stn–0,3 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Chirurgische Instrumente
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn20 StP80 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Entgiftungswerkzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn10 StP200 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Gesundheitssteigernde Essenzen, 1 Anwendung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn1 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Schädelbohrer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn30 StP17 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Schröpfglas
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn8 StP2 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;35.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Storchenmaske
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;36.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP8 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;37.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Verband
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;38.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn3 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;39.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Verband, 10 Stück
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;40.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn3 StP12,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;41.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Wundnähzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;42.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP4,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;43.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;BehältnisseGegenstandGewichtStrukturpunktePreisKomplexitätBrotbeutel, klein
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;44.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn1 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;45.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Brotbeutel, groß
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;46.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP0,6 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: NUGVZS+GentiumBasic-Bold;true;false;47.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Feldflasche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;48.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn12 StP6 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;49.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Geldbeutel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;50.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn2 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;51.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Geldkatze
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;52.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;53.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Gürteltasche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;54.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn3 StP4 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;55.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Kiepe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;56.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn15 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;57.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederranzen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;58.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn10 StP17 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;59.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Lederrucksack
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;60.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn8 StP34 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;61.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Phiole
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;62.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP2 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;63.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Puderdöschen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;64.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn8 StP6 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;65.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Reisetruhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;66.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;6 Stn80 StP22 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;67.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Rucksack
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;68.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn8 StP34 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;69.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Sack
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;70.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn7 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;71.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Schatztruhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;72.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;6 Stn140 StP25 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;73.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;Schmuckkästchen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;74.0;41;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn12 StP20 Seinf
+PDTrueTypeFont WUSDBV+Andalus;false;false;1.0;42;-1.0;Strassenstaub_und_Halsabschneider;1200;Strassenraub & Halsabschneider
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;2.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;BehältnisseGegenstandGewichtStrukturpunktePreisKomplexitätSeekiste
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;3.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;7 Stn120 StP20 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;4.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Tiegel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;5.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn6 StP0,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;6.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Trinkhorn
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;7.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn12 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;8.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Truhe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;9.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn100 StP18 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;10.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Tuchbeutel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;11.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn4 StP0,75 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;12.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Umhängetasche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;13.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn6 StP8,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;14.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Vase
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;15.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn3 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;16.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Wasserschlauch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;17.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn10 StP5,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;18.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Seile und KettenGegenstandGewichtStrukturpunktePreisKomplexitätFesselseil, Hanf, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;19.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn5 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;20.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Fesselseil, Leder, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;21.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn5 StP0,4 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;22.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Kette, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;23.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn500 StP0,3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;24.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Kletterseil, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;25.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP0,3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;26.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Schnur, pro 10 Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;27.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP0,5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;28.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Seidenseil, pro Schritt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;29.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn3 StP1 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;30.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;DiebeswerkzeugGegenstandGewichtStrukturpunktePreisKomplexitätBrecheisen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;31.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn70 StP26 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;32.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Brechstange
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;33.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;6 Stn100 StP38 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;34.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Dietrich
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;35.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn20 StP5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;36.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Dietrichset (6 unterschiedliche Dietriche)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;37.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn20 StP50 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;38.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Falscher Bart
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;39.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn2 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;40.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Wurfhaken
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;41.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn20 StP7 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;42.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Alchimistische LaboreGegenstandGewichtStrukturpunktePreisKomplexitätArchaisches Labo
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;43.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;r30 Stn–200 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;44.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Hexenküche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;45.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;200 Stn–1.000 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;46.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Alchimistenlabor
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;47.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;1.000+ Stn–5.000 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;48.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;HandwerkszeugGegenstandGewichtStrukturpunktePreisKomplexitätChirurgische Instrumente
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;49.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn10 StP80 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;50.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Feinmechanikerwerkzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;51.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn10 StP100 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;52.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Gravurwerkzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;53.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn12 StP30 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;54.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Hochwertiges Instrumentarium
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;55.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn8 StP160 Skomp (4 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;56.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Kartographiewerkzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;57.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 StP50 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;58.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Nähkästchen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;59.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn6 StP10 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;60.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Tätowierwerkzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;61.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;62.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;Zimmermannskasten
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;63.0;42;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn15 StP50 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;1.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;OrientierungshilfenGegenstandGewichtStrukturpunktePreisKomplexitätAbakus
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;2.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;3.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Armillarsphäre
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;3,5 Stn8 StP150 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Astrolabium
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn10 StP250 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Bernsteinbrille
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn10 StP1.000 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Fernrohr
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;1,25 Stn25 StP150 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Fernrohr, großes
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;5 Stn35 StP1.500 Skomp (5 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Fernrohr, kleines
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn10 StP75 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Fernrohr, zusammenschiebbar
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn18 StP400 Skomp (4 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Kompass (Südweiser)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 StP6 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Kompass (Südweiser), Metallgehäuse
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,3 Stn7 StP60 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Quadrant
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn10 StP70 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Stundenglas
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn5 StP40 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Stundenkerze, 1 Stück
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Taschenuhr (Vinsalter Ei)
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn6 StP800 Skomp (3 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;SchmuckGegenstandGewichtStrukturpunktePreisKomplexitätAmulett
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05/0,05/0,1 Stn10 StP7,5/12/107 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Armreif
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05/0,05/0,1 Stn15 StP5,5/10/105 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Fibel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,025/0,025
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;35.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;/
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;36.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn12 StP5,25/7,5/55Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;37.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Halskette
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;38.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,15/0,15/0,3 Stn10 StP6,5/22/157 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;39.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Ohrring
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;40.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,025/0,025/0,05 Stn7 StP7,25/9,5/57 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;41.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Ring
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;42.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,025/0,025/0,05 Stn12 StP5,25/7,5/55 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;43.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Stirnreif
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;44.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1/0,1/0,2 Stn15 StP8/17/207 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;45.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Edelsteine und Feingestein(geschliffen Preis 2-5fach)GegenstandFarbePreis/10 KaratAchat
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;46.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;großes Spektrum, meist rötlich12 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;47.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Amethyst
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;48.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;violett bis purpurn1,5 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;49.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Aquamarin
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;50.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;blau18 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;51.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Aventurin
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;52.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;grünlich2,5 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;53.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Bergkristall
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;54.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;klar2 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;55.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Bernstein
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;56.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;goldgelb90 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;57.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Citrin
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;58.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;gelblich10 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;59.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Chrysopras
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;60.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;türkis13 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;61.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Diamant
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;62.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;klar150 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;63.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Granat
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;64.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;farblos bis braun8 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;65.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Grüne Jade
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;66.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;grünlich20 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;67.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Jaspis
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;68.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;schwarz, braun11 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;69.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Karneol
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;70.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;blutrot2 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;71.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Lapislazuli
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;72.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;azurblau, glasig17 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;73.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Mondstein
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;74.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;weiß, glasig1 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;75.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Onyx
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;76.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;schwarzweiß, gebändert1,5 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;77.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;Opal
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;78.0;43;-1.0;Strassenstaub_und_Halsabschneider;1000;milchig22 S
+PDTrueTypeFont WUSDBV+Andalus;false;false;1.0;44;-1.0;Strassenstaub_und_Halsabschneider;1200;Strassenraub & Halsabschneider
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;2.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Edelsteine und Feingestein(geschliffen Preis 2-5fach)GegenstandFarbePreis/10 KaratPerle
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;3.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;milchig70 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;4.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Rosenquarz
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;5.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;rot10 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;6.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Rubin
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;7.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;rot140 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;8.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Saphir
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;9.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;tiefblau120 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;10.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Smaragd
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;11.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;grün110 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;12.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Tigerauge
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;13.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;bräunlich8 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;14.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Topas
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;15.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;farblos bis himmelblau, glasig20 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;16.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Türkis
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;17.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;grünblau15 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;18.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;SchreibwarenGegenstandGewichtStrukturpunktePreisKomplexitätChorhoper Tinte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;19.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP4 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;20.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Federkiel, Gans
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;21.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn1 StP0,1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;22.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Federkiel, Pelikan
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;23.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,06 Stn1 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;24.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Federkiel, Schwan
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;25.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,06 Stn1 StP0,4 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;26.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Federkiel, Storch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;27.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,08 Stn1 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;28.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Federmesser
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;29.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn3 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;30.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Gallustinte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;31.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;32.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Kohlestift
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;33.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn2 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;34.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Kreide
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;35.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn2 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;36.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Papier, 1 Blatt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;37.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn1 StP0,1 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;38.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Papier, gutes, 1 Blatt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;39.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn2 StP0,3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;40.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Pergament, 1 Blatt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;41.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn2 StP1 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;42.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Pergament, gutes, 1 Blatt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;43.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn3 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;44.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Pinsel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;45.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn3 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;46.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Purpurtinte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;47.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP8 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;48.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Siegelwachs
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;49.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;50.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Tagebuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;51.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn15 StP11 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;52.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Tintenfässchen, edel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;53.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn15 StP5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;54.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Tintenfässchen, einfach
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;55.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn10 StP2 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;56.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;BücherGegenstandGewichtStrukturpunktePreisKomplexitätAnnalen des Götteralters
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;57.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn18 StP50 bis 500 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;58.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;59.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;60.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Brevier der zwölfgöttlichen Unterweisung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;61.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 StP75 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;62.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;63.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;64.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Codex Albyricus
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;65.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 StP300 bis 750 S pro Bandkomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;66.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;67.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Bosparano/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;68.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Encyclopaedia Magica
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;69.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn20 StP800 S pro Bandkomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;70.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;71.0;44;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: verschiedene, je nach Ausgabe, oft Bosparano und Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;1.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;BücherGegenstandGewichtStrukturpunktePreisKomplexitätGroßer Aventurischer Atlas
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;2.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;3 Stn20 StP1.200 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;3.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Herbarium Kuslikum
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 StP250 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Hilffreycher Leytfaden des wandernden Adepten
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn20 StP150 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Prems Tierleben
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 StP250 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Vademecum für das Waffenhandwerk
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 StP150 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: meist Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Wie man kämpft, reitet und Bier trinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn17 StP30 bis 70 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Anmerkung
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Benutzte Sprache/Schrift: Garethi/Kusliker Zeichen
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;AlchimicaGegenstandGewichtStrukturpunktePreisKomplexitätZauberkreide
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn3 StP10 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Zauberkerze
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP10 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;ElixierePreis (beim Alchimisten)Antidot
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;65 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Heiltrank
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;60 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Liebestrunk
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;80 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Unsichtbarkeitselixier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;80 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Verwandlungselixier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;80 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;35.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Waffenbalsam
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;36.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;110 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;37.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Willenstrunk
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;38.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;100 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;39.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Zaubertrank
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;40.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;100 S pro Stufe
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;41.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;MusikinstrumenteGegenstandGewichtPreisDrehleier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;42.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn200 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;43.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Fanfare
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;44.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn50 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;45.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Flöte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;46.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn2 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;47.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Handharfe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;48.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn100 S
+PDType0Font/PDCIDFontType2, PostScript name: FZWMRI+GentiumBasic-Bold;true;false;49.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Kabasflöte
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;50.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn4 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;51.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Laute
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;52.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn150 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;53.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Sackpfeife
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;54.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn30 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;55.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Schelle
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;56.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn1 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;57.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Signalhorn
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;58.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn3 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;59.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Spinett
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;60.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;100 Stn4.000 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;61.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Standharfe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;62.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;5,5 Stn550 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;63.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Trommel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;64.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn15 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;65.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Genussmittel und LuxusGegenstandGewichtPreisKomplexitätBadeöl
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;66.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn–100 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;67.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Bier, kleines Fässchen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;68.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;2 Stn20 StP0,16 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;69.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Boltankartenset Papier, gezinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;70.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn2 StP40 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;71.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Boltankartenset, Papier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;72.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn2 StP20 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;73.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Boltankartenset, Stoff
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;74.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn1 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;75.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Boltankartenset, Stoff, gezinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;76.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn1 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;77.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Brennglas
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;78.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn12 StP65 Skomp (2 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;79.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Brettspiel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;80.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn7 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;81.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;Bürste
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;82.0;45;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn4 StP4 Sprim
+PDTrueTypeFont WUSDBV+Andalus;false;false;1.0;46;-1.0;Strassenstaub_und_Halsabschneider;1200;Strassenraub & Halsabschneider
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;2.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Genussmittel und LuxusGegenstandGewichtPreisKomplexität
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;3.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Götterfigürchen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn12 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Handspiegel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn3 StP60 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Jonglierball mit Gewichten
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,3 Stn2 StP0,8 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Jonglierball
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 Stn2 StP0,5 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kaffee, geröstet
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn–20 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kakao
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn–4 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kamelspiel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn5 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kamelspiel, gezinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn5 StP20 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kamm
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn4 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Knaster
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,05 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Kristallkugel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1,5 Stn6 StP2.000 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Lippenrot
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn3 StP10 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Methumis-Tabak
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Mochorka, norbardischer Tabak
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,05 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Mohacca
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,6 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Nagelfeile
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn10 StP20 Seinf
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;35.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Parfüm
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;36.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP120 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;37.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Pfeffer
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;38.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn–4,5 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;39.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Puder
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;40.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn–5 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;41.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Schnaps
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;42.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn–2 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;43.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Schokolade
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;44.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn–5 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;45.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Schwamm
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;46.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP 2 S–
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;47.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Seife
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;48.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn4 StP1 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;49.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Sinoda-Kraut
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;50.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;51.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Spieluhr
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;52.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn7 StP400 Skomp (1 AP)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;53.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Steckenpferd
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;54.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn7 StP3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;55.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Stoffpuppe
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;56.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn3 StP1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;57.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Tabak, Standard
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;58.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn1 StP0,1 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;59.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Tabakbeutel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;60.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn1 StP0,3 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;61.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Tabakdose
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;62.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn10 StP3 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;63.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Tabakspfeife
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;64.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn 5 StP5 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;65.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Taschentuch
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;66.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,1 Stn2 StP2 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;67.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Wasserpfeife
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;68.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn6 StP30 Sprim
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;69.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Wein
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;70.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn–0,45 Seinf
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;71.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Würfel, sechsseitig
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;72.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,05 Stn5 StP0,5 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;73.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Würfel, sechsseitig, gezinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;74.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,06 Stn5 StP2 Seinf
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;75.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Würfel, zwanzigseitig
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;76.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,06 Stn6 StP3 Sprim
+PDType0Font/PDCIDFontType2, PostScript name: BAJPNQ+GentiumBasic-Bold;true;false;77.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Würfel, zwanzigseitig, gezinkt
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;78.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;0,07 Stn6 StP12 Seinf
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;79.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;TiereTierPreisHund
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;80.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;4 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;81.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Maultier
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;82.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;250 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;83.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;TiereTierPreisPferd
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;84.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;750 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;85.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;Pony
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;86.0;46;-1.0;Strassenstaub_und_Halsabschneider;1000;250 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;1.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;TierbedarfGegenstandGewichtPreisHalsband und Leine
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;2.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn1 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;3.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Hufeisen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;4.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 Stn4 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;5.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Hundefutter
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;6.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,2 S (pro Woche)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;7.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Packsattel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;8.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;10 Stn30 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;9.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Pferdefutter
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;10.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,5 S (pro Woche)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;11.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Ponyfutter
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;12.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,3 S (pro Woche)
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;13.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Reitsattel
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;14.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;6 Stn60 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;15.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Satteldecke
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;16.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,75 Stn1 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;17.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Satteltasche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;18.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn17 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;19.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Sporen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;20.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;0,25 Stn6 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;21.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Striegelzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;22.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn16 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;23.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Zaumzeug
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;24.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;1 Stn15 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;25.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;FortbewegungsmittelGegenstandPreisBollerwagen
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;26.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;60 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;27.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Karren, einachsig
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;28.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;180 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;29.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Kleines Ruderboot
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;30.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;1.200 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;31.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Kleines Segelboot
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;32.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;6.500 S
+PDTrueTypeFont VVIXNX+GentiumBasic-Bold;true;false;33.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;Kutsche
+PDTrueTypeFont SOUFXD+GentiumBasic;false;false;34.0;47;-1.0;Strassenstaub_und_Halsabschneider;1000;2.000 S

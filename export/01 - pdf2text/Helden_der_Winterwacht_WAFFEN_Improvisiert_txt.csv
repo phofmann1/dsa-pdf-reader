@@ -1,0 +1,13 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;25.0;76;-1.0;Helden_der_Winterwacht;1000;FlößerhakenKomplexität einf
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;26.0;76;-1.0;Helden_der_Winterwacht;900;NameKampftechnikTPL+S
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;27.0;76;-1.0;Helden_der_Winterwacht;800;AT/PA-Mod
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;28.0;76;-1.0;Helden_der_Winterwacht;900;RWGewichtLängePreis
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;29.0;76;-1.0;Helden_der_Winterwacht;1000;Flößerhaken (i)
+PDTrueTypeFont TEFKKL+GentiumBasic;false;false;30.0;76;-1.0;Helden_der_Winterwacht;1000;Stangenwaffen1W6+4GE/KK 15–1/–1lang2,5 Stn150 HF15 S
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;31.0;76;-1.0;Helden_der_Winterwacht;1000;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: HJRKLA+GentiumBasic;false;false;32.0;76;-1.0;Helden_der_Winterwacht;1000;Wurde mit dem Flößerhaken erfolgreich pariert, würfle mit 1W6. Bei einer 1–2 hat sich die Waffe des Gegners kurz verhakt, was zu einer Erschwernis von –1 auf AT für den Gegner in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.
+PDTrueTypeFont SSEKCN+GentiumBasic-Bold;true;false;33.0;76;-1.0;Helden_der_Winterwacht;1000;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: HJRKLA+GentiumBasic;false;false;34.0;76;-1.0;Helden_der_Winterwacht;1000;Führt der Träger eines Flößerhakens das Manöver
+PDTrueTypeFont JCOIGF+GentiumBasic-Italic;false;true;35.0;76;-1.0;Helden_der_Winterwacht;1000;Wuchtschlag
+PDType0Font/PDCIDFontType2, PostScript name: HJRKLA+GentiumBasic;false;false;36.0;76;-1.0;Helden_der_Winterwacht;1000;aus, sinken die zusätzlichen TP um insgesamt 1.

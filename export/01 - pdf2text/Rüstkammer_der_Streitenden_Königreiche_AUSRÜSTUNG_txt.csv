@@ -1,0 +1,88 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;51.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;WerkzeugGewichtPreisKomplexitätAngelzeug
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;52.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;53.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Axt
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;54.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,75 Stn20 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;55.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Deichgabel
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;56.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn30 Skomp (2 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;57.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Flachbodenkahn
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;58.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;350 Stn4.000 Skomp (3 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;59.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Flößerhaken
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;60.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn5 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;61.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Handkarren
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;62.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;40 Stn60 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;63.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzbecher
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;64.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,1 Stn0,3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;65.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzfälleraxt
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;66.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;4 Stn80 Sprim
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;67.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzlöffel
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;68.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,05 Stn0,1 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;69.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzschale
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;70.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,2 Stn0,8 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;71.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzteller
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;72.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,25 Stn0,9 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;73.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Kiepe
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;74.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn7 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;75.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Korb
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;76.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1,5 Stn5 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;77.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Lederbecher
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;78.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,1 Stn0,4 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;79.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Ledereimer
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;80.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;81.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Nachen
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;82.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;180 Stn1.200 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;83.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Netz
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;84.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn12 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;85.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Rufhorn
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;86.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;87.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Säge
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;88.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,512 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;89.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Seil, pro Schritt
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;90.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn1 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;91.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Schnitzwerkzeug
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;92.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn20 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;93.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Spaten
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;94.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn8,5 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;95.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Sense
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;96.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;3,5 Stn40 Sprim
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;97.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Spinnrad
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;98.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;3 Stn40 Skomp (2 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;99.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Stakaxt
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;100.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;3 Stn40 Sprim
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;101.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Webstuhl
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;102.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;7 Stn90 Skomp (3 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;103.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;KleidungGewichtPreisKomplexitätBeinlinge
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;104.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,3 Stn4 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;105.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Gugel
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;106.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,2 Stn2 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;107.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Heuke
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;108.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn2,5 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;109.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Holzpantinen
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;110.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn4 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;111.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Joppe
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;112.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;2 Stn2,5 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;113.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Leinenhemd
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;114.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;115.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Rock
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;116.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;117.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Schecke
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;118.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1,25 Stn6 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;119.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Tappert
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;120.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn4 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;121.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Trippen
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;122.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,755 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;123.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Weste
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;124.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,5 Stn3 Seinf
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;125.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;KunsthandwerkGewichtPreisKomplexitätAlbuminer Pfeifenmännlein
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;126.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;0,25 Stn8 Skomp (1 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;127.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Althagener Puppen
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;128.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn2 Skomp (1 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;129.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Nostrischer Nussknacker
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;130.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn2,5 Skomp (1 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;131.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Thuranischer Buchenbengel
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;132.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1 Stn4 Skomp (1 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;133.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Trontsander Holzschiffchen
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;134.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1,5 Stn2,5 Skomp (1 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;135.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;ProviantGewichtPreisKomplexitätBrotbeutel Andergast
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;136.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;1,5 Stn0,5 Skeine
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;137.0;35;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Brotbeutel Nostria

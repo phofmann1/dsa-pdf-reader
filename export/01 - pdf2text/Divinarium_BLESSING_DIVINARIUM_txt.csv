@@ -1,0 +1,343 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;8.0;12;-1.0;Divinarium;1000;Eidsegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;9.0;12;-1.0;Divinarium;900;Der Geweihte lässt jemanden einen Eid ablegen. Der Gesegnete empfindet den Eid als bindend und kann sich diesem nur durch eine Probe entziehen. Der Eidsprechende muss den Eid freiwillig leisten. Der Eid kann nur durch eine Probe auf Willenskraft erschwert um –1 gebrochen werden.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;10.0;12;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;11.0;12;-1.0;Divinarium;900;4 Schritt
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;12.0;12;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;13.0;12;-1.0;Divinarium;900;1 Jahr
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;14.0;12;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;15.0;12;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;16.0;12;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;17.0;12;-1.0;Divinarium;900;allgemein, Praios, Chr’Ssir’Ssr, Ifirn, Kor, Marbo, Nandus, Numinoru, Shinxir, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;18.0;12;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;19.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;20.0;12;-1.0;Divinarium;900;allgemein: „Aus den Schatten, ins Licht. Deine Worte wurden vernommen, [Name der Gottheit] sieht dich!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;21.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;22.0;12;-1.0;Divinarium;900;Praios: „Diene dem Licht! Diene der Wahrheit! Praios sieht dich! In seinem Licht sei gebunden!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;23.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;24.0;12;-1.0;Divinarium;900;Chr’Ssir’Ssr: „Der Blitz trifft Lügner im starren Blick des Himmelsgottes! Schwöre!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;25.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;26.0;12;-1.0;Divinarium;900;Ifirn: „Sei gebunden vor Ifirns mildem Blick. Treue mit dir in Herz und Handeln! Ifirn kennt dich!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;27.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;28.0;12;-1.0;Divinarium;900;Kor: „Lügen bezahle mit Blut. Betrüge Kor und dein Innerstes wird nach außen gekehrt. Korshar!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;29.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;30.0;12;-1.0;Divinarium;900;Marbo: „Jedes gebrochene Wort ist ein kleiner Tod. Halte lebendig, was du Marbo gibst, oder vergehe.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;31.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;32.0;12;-1.0;Divinarium;900;Nandus: „Bei Nandus’ verborgenem Wissen, dein Eid wurde gehört und angenommen. Nandushar!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;33.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;34.0;12;-1.0;Divinarium;900;Numinoru: „Deine Zukunft sehe ich, deinen Frevel kenne ich, deinen Eid segne ich. Sei! Werde!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;35.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;36.0;12;-1.0;Divinarium;900;Shinxir: „Standhaft halte fest! Beuge dich nicht dem Dunkel der Lüge! Hoch das Banner! Wehe!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;37.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;38.0;12;-1.0;Divinarium;900;Swafnir: „Aus tiefem Geist tauche hervor und beuge dich nicht dem Sog am Rande der Klippen. Wohl!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;39.0;12;-1.0;Divinarium;1000;Feuersegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;40.0;12;-1.0;Divinarium;900;Auf der Handfläche oder dem Zeigefinger des Geweihten entsteht eine kleine Flamme, die einen Raum erhellt oder ausreicht, um eine Kerze zu entzünden. Der Geweihte kann durch die Flamme nicht verletzt werden (wohl aber durch Flammen, die durch den Feuersegen entzündet werden). Die Helligkeit der Flamme entspricht einer gewöhnlichen Kerze normaler Machart.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;41.0;12;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;42.0;12;-1.0;Divinarium;900;selbst
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;43.0;12;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;44.0;12;-1.0;Divinarium;900;5 Minuten
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;45.0;12;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;46.0;12;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;47.0;12;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;48.0;12;-1.0;Divinarium;900;allgemein, Ingerimm, Aves, Ifirn, Kor, Levthan, Marbo, Shinxir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;49.0;12;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;50.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;51.0;12;-1.0;Divinarium;900;allgemein: „Deine göttliche Flamme sei mit mir! Dunkelheit weiche!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;52.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;53.0;12;-1.0;Divinarium;900;Ingerimm: „Herr Ingerimm, entzünde Dein heiliges Feuer!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;54.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;55.0;12;-1.0;Divinarium;900;Aves: „Wandervogel, schick mir eine Flamme, die mein Herz erwärmt und mir den Weg leuchtet.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;56.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;57.0;12;-1.0;Divinarium;900;Ifirn: „Schwanengleiche, gewähre uns Milde und Wärme. Schenke uns eine Flamme, vor der die Kälte weicht.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;58.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;59.0;12;-1.0;Divinarium;900;Kor: „Kor, lass lodern! Sende mir Deinen feurigen Zorn!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;60.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;61.0;12;-1.0;Divinarium;900;Levthan: „Levthan, lass das Feuer meiner Lenden und meiner Lust zu einer echten Flamme werden!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;62.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;63.0;12;-1.0;Divinarium;900;Marbo: „Marbo, lass mich sehen! Schenke mir Feuer!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;64.0;12;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;65.0;12;-1.0;Divinarium;900;Shinxir: „Herr der Legionen, gewähre mir Feuer! Lodernde Flammen weisen uns den Weg zum Sieg!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;66.0;12;-1.0;Divinarium;1000;Geburtssegen
+PDTrueTypeFont DMJEYN+Dominican;false;false;1.0;13;-1.0;Divinarium;1500;11
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;2.0;13;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;3.0;13;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;4.0;13;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;5.0;13;-1.0;Divinarium;900;in Zwölfgötterkirchen und bei anderen menschlichen Kulten bis zum 12. Lebensjahr, bei Achaz bis zur zweiten Häutung, bei Zwergen bis zur Feuertaufe
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;6.0;13;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;7.0;13;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;8.0;13;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;9.0;13;-1.0;Divinarium;900;allgemein, Tsa, Aves, Ifirn, Levthan, Nandus
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;10.0;13;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont YUYAGX+Litania-Regular;false;false;11.0;13;-1.0;Divinarium;900;
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;12.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;13.0;13;-1.0;Divinarium;900;allgemein: „Wir nehmen heute [Name] in die Gemeinschaft der Gläubigen auf. [Gottheit] wache über [Name]!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;14.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;15.0;13;-1.0;Divinarium;900;Tsa: „Herrin Tsa, Du bist der Anfang. Schenke diesem neugeborenen Kind Deinen Segen! Schütze [Name]!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;16.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;17.0;13;-1.0;Divinarium;900;Aves: „Ein neues Kind macht sich auf die Wanderschaft des Lebens. Schenke ihm Orientierung, Aves!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;18.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;19.0;13;-1.0;Divinarium;900;Ifirn: „Neues Licht und Wärme entstehen am kältesten Ort. Milde Ifirn, wache über [Name] mit deinem Hauch!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;20.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;21.0;13;-1.0;Divinarium;900;Levthan: „[Name], du bist der Held deines eigenen Liedes! Levthan schenke dir die Kraft, dich zu behaupten!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;22.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;23.0;13;-1.0;Divinarium;900;Nandus: „Welch Segen, alle Rätsel des Lebens vor sich zu haben! Nandus, begleite [Name] mit deiner Weisheit!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;24.0;13;-1.0;Divinarium;1000;Glückssegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;25.0;13;-1.0;Divinarium;900;Der Gesegnete hat einmal während der Wirkungsdauer der Segnung ein Fünkchen Glück. Er kann nach dem Ablegen einer Fertigkeitsprobe 1 FP hinzuaddieren, um z. B. eine höhere Qualitätsstufe zu erreichen. Diese Segnung kann bspw. dabei helfen, eine Probe doch noch zu bestehen oder eine höhere QS zu erreichen.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;26.0;13;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;27.0;13;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;28.0;13;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;29.0;13;-1.0;Divinarium;900;12 Stunden
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;30.0;13;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;31.0;13;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;32.0;13;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;33.0;13;-1.0;Divinarium;900;allgemein, Phex, Aves, Chr’Ssir’Ssr, Kor, Levthan, Nandus, Numinoru, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;34.0;13;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont YUYAGX+Litania-Regular;false;false;35.0;13;-1.0;Divinarium;900;
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;36.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;37.0;13;-1.0;Divinarium;900;allgemein: „Ich bitte Dich, [Gottheit], gewähre mir Deine Gnade und schenke mir das Glück.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;38.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;39.0;13;-1.0;Divinarium;900;Phex: „Phex, der Du die Sterblichen liebst! Wagemut ist mein Weg, lass Glück meinen Verbündeten sein!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;40.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;41.0;13;-1.0;Divinarium;900;Aves: „Aves, ich stehe am Scheideweg des Lebens. Ich bitte Dich, weise mir den Pfad des Glücks!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;42.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;43.0;13;-1.0;Divinarium;900;Chr’Ssir’Ssr: „Der Aufwind erhebe [mich/dich]!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;44.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;45.0;13;-1.0;Divinarium;900;Kor: „Bruder des Blutes, lass mich in der Schlacht des Schicksals obsiegen und das Glück erbeuten!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;46.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;47.0;13;-1.0;Divinarium;900;Levthan: „Göttlicher Zecher, reiche mir den Kelch des Glücks und ich werde ihn zur Gänze neigen!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;48.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;49.0;13;-1.0;Divinarium;900;Nandus: „Nandus, das Buch des Glücks habe ich gefunden. Ich bitte Dich, lehr Du mich, es zu lesen!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;50.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;51.0;13;-1.0;Divinarium;900;Numinoru: „Unergründlicher, lenke die Wogen des Glücks, auf dass ich dem Schicksal trotzen kann!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;52.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;53.0;13;-1.0;Divinarium;900;Swafnir: „Swafnir, oberster Hetmann! Treue ist mein Schild, lass das Glück meinen Panzer sein!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;54.0;13;-1.0;Divinarium;1000;Grabsegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;55.0;13;-1.0;Divinarium;900;Das Grab eines Verstorbenen wird gesegnet. Um die Leiche auszugraben und das Grab zu entweihen, muss dem Grabräuber eine Probe auf Willenskraft (Bedrohungen standhalten) erschwert um –1 gelingen. Bei Misslingen verspürt er ein Unwohlsein, das ihn von der Grabschändung abhält. Nekromantische Zauber auf die Leiche sind um –1 erschwert, solange der Körper sich im gesegneten Grab befindet.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;56.0;13;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;57.0;13;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;58.0;13;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;59.0;13;-1.0;Divinarium;900;12 Monate
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;60.0;13;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;61.0;13;-1.0;Divinarium;900;Zone
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;62.0;13;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;63.0;13;-1.0;Divinarium;900;allgemein, Boron, Ifirn, Kor, Levthan, Marbo, Nandus, Shinxir, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;64.0;13;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;65.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;66.0;13;-1.0;Divinarium;900;allgemein: „Herr des Todes, schicke Deinen Diener, dass die Seele von Rethon gewogen Dein Urteil erhält.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;67.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;68.0;13;-1.0;Divinarium;900;Boron: „Herr Boron, schicke Deinen Raben nach dieser Seele aus, wäge sie und schenke ihr Frieden.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;69.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;70.0;13;-1.0;Divinarium;900;Ifirn: „Frau Ifirn, nimm diese Seele unter Deine Fittiche, dass sie unter Deiner Obhut neu erblühe.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;71.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;72.0;13;-1.0;Divinarium;900;Kor: „Herr Kor! In gutem Kampf gefallen kehrt diese Streiterin zurück zu Dir. Nimm sie bei Dir auf!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;73.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;74.0;13;-1.0;Divinarium;900;Levthan: „Gehörnter, ein letztes Mal hat Dir [Name] geopfert, sein Weg ist zu Ende. Nimm ihn zu Dir.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;75.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;76.0;13;-1.0;Divinarium;900;Marbo: „Herrin, [Name] hat die Pforte zu Dir überschritten. Nimm sie in Deiner Gnade bei Dir auf.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;77.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;78.0;13;-1.0;Divinarium;900;Nandus: „Meister Nandus, das letzte irdische Rätsel dieses Sterblichen ist gelöst. Hole ihn in Dein Rätselparadies!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;79.0;13;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;80.0;13;-1.0;Divinarium;900;Shinxir: „Herr der Legionen, diese hier hat Dir tapfer gedient. Lass sie nun ruhen in Ewigkeit.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;81.0;13;-1.0;Divinarium;900;#
+PDTrueTypeFont DMJEYN+Dominican;false;false;1.0;14;-1.0;Divinarium;1500;12
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;2.0;14;-1.0;Divinarium;1000;Harmoniesegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;3.0;14;-1.0;Divinarium;900;Wer durch einen Harmoniesegen gesegnet wurde, der erfreut sich einen ganzen Tag lang positiver Gefühle. Alle Effekte, die Furcht auslösen, erhalten eine Erschwernis von –1.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;4.0;14;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;5.0;14;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;6.0;14;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;7.0;14;-1.0;Divinarium;900;12 Stunden
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;8.0;14;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;9.0;14;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;10.0;14;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;11.0;14;-1.0;Divinarium;900;allgemein, Rahja, Aves, Ifirn, Levthan, Marbo, Nandus, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;12.0;14;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;13.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;14.0;14;-1.0;Divinarium;900;allgemein: „Wie ein Kind im Schoß der Mutter sind wir umgeben von Freude und Glück. Sieh!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;15.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;16.0;14;-1.0;Divinarium;900;Rahja: „Freude in dir, mit dir, um dich! Schenke sie, nimm sie, räkele dich in ihr, voller Wonne. Liebe regiere!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;17.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;18.0;14;-1.0;Divinarium;900;Aves: „Für deine Reise hebe sich der Schleier der Ödnis von dir. Erfahre, welch Schönheit dich umgibt.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;19.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;20.0;14;-1.0;Divinarium;900;Ifirn: „Ifirn sieht mit Güte im Herzen auf dich. Erblicke die Milde der Welt. Lausche ihrem Gesang.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;21.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;22.0;14;-1.0;Divinarium;900;Levthan: „Rausch und Wohlsein währt ewig in Levthans Armen. Berührt seist du voller Lust auf Leben.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;23.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;24.0;14;-1.0;Divinarium;900;Marbo: „Sanft umschließen dich Ruhe und Ewigkeit des stets pulsierenden Lebens vor dem Tod. Erfreue dich!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;25.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;26.0;14;-1.0;Divinarium;900;Nandus: „Zu wissen heißt erkennen, erkennen heißt sehen. Erhebe den Blick und schaue den Glanz.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;27.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;28.0;14;-1.0;Divinarium;900;Swafnir: „Lausche den Wellen, schmecke das Salz des Meeres und spüre den Wind. Sei frei, bei Swafnir, frei!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;29.0;14;-1.0;Divinarium;1000;Kleiner Heilsegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;30.0;14;-1.0;Divinarium;900;Der Gesegnete erhält 1 Lebenspunkt zurück. Die Person kann nur einmal am Tag von dieser Segnung profitieren.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;31.0;14;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;32.0;14;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;33.0;14;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;34.0;14;-1.0;Divinarium;900;sofort
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;35.0;14;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;36.0;14;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;37.0;14;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;38.0;14;-1.0;Divinarium;900;allgemein, Peraine, Aves, Chr’Ssir’Ssr, Ifirn, Levthan, Marbo, Nandus, Numinoru, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;39.0;14;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;40.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;41.0;14;-1.0;Divinarium;900;allgemein: „Hüterin des Lebens, dieser Leib ist mit Leid geschlagen. Schenke diesem Wesen Heilung.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;42.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;43.0;14;-1.0;Divinarium;900;Peraine: „Herrin Peraine, gib mir die Kraft, Leiden zu lindern, heile diesen Leib in Deinem Namen.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;44.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;45.0;14;-1.0;Divinarium;900;Chr’Ssir’Ssr: „Nur ein Hauch, dann häutet sich die Wunde und dieser Körper ist wie neu geboren.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;46.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;47.0;14;-1.0;Divinarium;900;Aves: „Weber des Schicksals, füge zusammen, was zerborsten war, und heile die Leiden dieses Leibes!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;48.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;49.0;14;-1.0;Divinarium;900;Ifirn: „Schwanengleiche, dieses Wesen leidet. Schenke ihm Hoffnung und Heilung mit Deinem Segen.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;50.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;51.0;14;-1.0;Divinarium;900;Levthan: „Widderhäuptiger, schenke von Deiner Kraft und mache diesen geschlagenen Leib wieder heil!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;52.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;53.0;14;-1.0;Divinarium;900;"Marbo: „Marbo, [Name] leidet, doch seine Stunde ist nicht gekommen. Schenke ihm von Deiner Kraft."""
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;54.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;55.0;14;-1.0;Divinarium;900;Nandus: „Meister, geschlagen ist dieser Leib mit Schmerzen. Erkenne sein Leid und schenke Heilung.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;56.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;57.0;14;-1.0;Divinarium;900;Numinoru: „Unendlicher, dies Wesen leidet. Umschließe es mit Deinen Wogen und heile, was zerschlagen ist.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;58.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;59.0;14;-1.0;Divinarium;900;Swafnir: „Göttlicher Wal, Leid plagt diesen Deiner Diener. Lindere seinen Schmerz zu Deinem Ruhm!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;60.0;14;-1.0;Divinarium;1000;Kleiner Schutzsegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;61.0;14;-1.0;Divinarium;900;Der Schutzsegen kann einige als unheilig geltende Wesen fernhalten. Folgende Typen von Wesen können aufgehalten werden: Untote (Hirnlose) und Dämonen (niedere Dämonen).Beim Wirken des kleinen Schutzsegens muss entschieden werden, welcher von beiden Typen aufgehalten wird. Das Wesen kann während der Wirkungsdauer das gesegnete Gebiet nicht betreten. Ist das Wesen gezwungen, das Gebiet zu betreten, dann versucht es sofort, sich wieder aus der Zone zurückzuziehen.Der Kleine Schutzsegen darf nicht größer sein als 4 Schritt Radius, sehr wohl aber kleiner. Die Zone ist stationär und bewegt sich nicht mit dem Geweihten. Wenn sich Personen innerhalb der Zone an den Rand der Zone bewegen, um dort lauernde Wesen im Nahkampf anzugreifen, können die Wesen ebenfalls angreifen.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;62.0;14;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;63.0;14;-1.0;Divinarium;900;4 Schritt
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;64.0;14;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;65.0;14;-1.0;Divinarium;900;4 Kampfrunden
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;66.0;14;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;67.0;14;-1.0;Divinarium;900;Zone
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;68.0;14;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;69.0;14;-1.0;Divinarium;900;allgemein, Rondra, Aves, Ifirn, Kor, Marbo, Shinxir, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;70.0;14;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;71.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;72.0;14;-1.0;Divinarium;900;allgemein: „Im Namen der guten Götter: Weiche, unheiliges Gezücht, dieser Weg sei dir verwehrt!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;73.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;74.0;14;-1.0;Divinarium;900;Rondra: „Im Namen der Wächterin auf Alverans Zinnen befehle ich: Weiche zurück, unheiliges Gezücht!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;75.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;76.0;14;-1.0;Divinarium;900;Aves: „Im Namen des Weltenwanderers: Hier kannst du nicht hinein, weiche, widernatürlich Wandelnder!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;77.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;78.0;14;-1.0;Divinarium;900;Ifirn: „Hinfort, dunkle Kreatur, im Namen der Schwanenkönigin verwehre ich dir den Weg!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;79.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;80.0;14;-1.0;Divinarium;900;Kor: „Im Namen des Gnadenlosen und der Zwölfe: Hier ist dein Weg zu Ende, unheiliges Gezücht!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;81.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;82.0;14;-1.0;Divinarium;900;Marbo: „In der Stillen Namen Befehle ich: Weiche, Untoter/Daimon!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;83.0;14;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;84.0;14;-1.0;Divinarium;900;Shinxir: „Der Weg ist dir verwehrt, Hirnloser/Dämon, weiche vor der Macht des Unbesiegbaren!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;85.0;14;-1.0;Divinarium;900;#
+PDTrueTypeFont DMJEYN+Dominican;false;false;1.0;15;-1.0;Divinarium;1500;13
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;2.0;15;-1.0;Divinarium;1000;Speisesegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;3.0;15;-1.0;Divinarium;800;Das gesegnete Essen ist wohlschmeckend und nahrhaft. Gifte bis Stufe 2 und Verunreinigungen in der Speise werden neutralisiert. Die Segnung reicht für eine Portion.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;4.0;15;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;5.0;15;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;6.0;15;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;7.0;15;-1.0;Divinarium;900;sofort
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;8.0;15;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;9.0;15;-1.0;Divinarium;900;Objekt
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;10.0;15;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;11.0;15;-1.0;Divinarium;900;allgemein, Travia, Aves, Ifirn, Kor, Levthan, Nandus
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;12.0;15;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;13.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;14.0;15;-1.0;Divinarium;900;allgemein: „[Gottheit], segne dies Mahl, auf dass es uns nähren und die Gemeinschaft stärken möge!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;15.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;16.0;15;-1.0;Divinarium;900;Travia: „Herrin Travia, segne diese Speise, auf dass sie ihren Zweck erfüllte und unseren Hunger stille!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;17.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;18.0;15;-1.0;Divinarium;900;Aves: „Herr des Horizonts, reinige das Essen, auf dass ich fröhlich durch die Welt schreiten kann!”
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;19.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;20.0;15;-1.0;Divinarium;900;Ifirn: „Schwanengleiche, Dein Hauch berühre dies Essen, damit wir gekräftigt Dein Werk verrichten!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;21.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;22.0;15;-1.0;Divinarium;900;Kor: „Bruder des Blutes und Herrin Travia, segnet die Speise und erlaubt ihr, ihren Zweck zu erfüllen: zu sättigen und zu kräftigen, den Hunger zu stillen und den Leib für den Kampf zu stärken!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;23.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;24.0;15;-1.0;Divinarium;900;Levthan: „Levthan, bis zum letzten Krumen wollen wir fressen, nimm vom Essen, was Völlerei stört!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;25.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;26.0;15;-1.0;Divinarium;900;Nandus: „Nandus, nimm das Schlechte von dieser Speise, damit unser Geist voller Klarheit bleibt!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;27.0;15;-1.0;Divinarium;1000;Stärkungssegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;28.0;15;-1.0;Divinarium;900;Das Ziel verspürt keine Mattigkeit und Erschöpfung mehr. Es kann bei genau einer Probe auf Selbstbeherrschung während der Wirkungsdauer einen Würfel neu würfeln (wie unter dem Einsatz des Vorteils Begabung). Pro Tag kann nur ein Stärkungssegen auf eine Person angewandt werden. Nachdem die Segnung genutzt wurde, ist sie verbraucht.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;29.0;15;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;30.0;15;-1.0;Divinarium;900;4 Schritt
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;31.0;15;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;32.0;15;-1.0;Divinarium;900;12 Stunden
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;33.0;15;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;34.0;15;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;35.0;15;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;36.0;15;-1.0;Divinarium;900;allgemein, Firun, Aves, Chr’Ssir’Ssr, Ifirn, Kor, Levthan, Marbo, Numinoru, Shinxir, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;37.0;15;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;38.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;39.0;15;-1.0;Divinarium;900;allgemein: „[Gottheit], gib [Ziel] die Kraft, durchzuhalten und nicht zu verzagen, Dir zu Preis und Ehre!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;40.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;41.0;15;-1.0;Divinarium;900;Firun: „Weißer Jäger, keine Gnade will ich [Ziel] gewähren, sieh meine Stärke und meinen Willen!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;42.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;43.0;15;-1.0;Divinarium;900;Aves: „Fröhlicher Wanderer, schenk [Ziel] von Deiner Ausdauer, denn der Horizont ist noch fern!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;44.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;45.0;15;-1.0;Divinarium;900;Chr’Ssir’Ssr: „Ich spüre das Kribbeln vor dem Sturm. Wüte!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;46.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;47.0;15;-1.0;Divinarium;900;Ifirn: „Milde Herrin, gib [Ziel] die Kraft, für andere da zu sein und die Widrigkeiten zu ertragen.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;48.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;49.0;15;-1.0;Divinarium;900;Kor: „Herr der Schlachten, lass [Ziel] weiter aufrecht stehen und einen guten Kampf liefern!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;50.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;51.0;15;-1.0;Divinarium;900;Levthan: „Ewiger Verführer, gib [Ziel] die Stärke, weiter das Leben zu feiern!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;52.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;53.0;15;-1.0;Divinarium;900;Marbo: „Sanfte Herrin, der Weg ist lang und schwer. Gib [Ziel] Kraft, ihn zu gehen und zu helfen.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;54.0;15;-1.0;Divinarium;800;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;55.0;15;-1.0;Divinarium;800;Numinoru: „Unendlicher, schenk [Ziel] die Beherrschung, den Plan umzusetzen, auch wenn es schwer ist.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;56.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;57.0;15;-1.0;Divinarium;900;Shinxir: „Strategus, die Taktik erlaubt keine Ruhe, lass [Ziel] durchhalten, bis wir zusammen siegen!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;58.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;59.0;15;-1.0;Divinarium;900;Swafnir: „Swafnir! Ich halte durch! Sieh [Ziels] Stärke und erwähle [Ziel] für Deinen Schildwall!“
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;60.0;15;-1.0;Divinarium;1000;Tranksegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;61.0;15;-1.0;Divinarium;900;Wer von dem gesegneten Getränk trinkt, fühlt sich erfrischt. Gifte bis Stufe 2 und Verunreinigungen im Getränk werden neutralisiert. Die Segnung reicht für einen Liter.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;62.0;15;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;63.0;15;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;64.0;15;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;65.0;15;-1.0;Divinarium;900;sofort
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;66.0;15;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;67.0;15;-1.0;Divinarium;900;Objekt
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;68.0;15;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;69.0;15;-1.0;Divinarium;900;allgemein, Efferd, Aves, Chr’Ssir’Ssr, Kor, Levthan, Marbo, Nandus, Numinoru, Shinxir, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;70.0;15;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;71.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;72.0;15;-1.0;Divinarium;900;allgemein: „Dieses Wasser sei gesegnet, auf dass es uns erquicke und unseren Durst lösche.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;73.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;74.0;15;-1.0;Divinarium;900;Efferd: „Launenhafter, säubere dies Wasser mit der Kraft deiner Wogen und mache es rein und klar.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;75.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;76.0;15;-1.0;Divinarium;900;Aves: „Unsteter Pilger, gib Deinen Segen in diesen Trank, auf dass er frei von allem Übel mich labe!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;77.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;78.0;15;-1.0;Divinarium;900;Chr’Ssir’Ssr: „Es donnert in meinem Herzen und Sein Hauch fährt in diese Quelle!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;79.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;80.0;15;-1.0;Divinarium;900;Kor: „Kor, mache aus dieser Brühe etwas Reines und Trinkbares – mir gleich, ob Wasser oder Schnaps.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;81.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;82.0;15;-1.0;Divinarium;900;Levthan: „Gehörnter, gib diesem Trank Deinen Segen, damit er von Dir geläutert meinen Leib erquicke.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;83.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;84.0;15;-1.0;Divinarium;900;Marbo: „Herrin Marbo, mache diesen Trank rein und schenke uns damit Erquickung an Leib und Seele.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;85.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;86.0;15;-1.0;Divinarium;900;Nandus: „Herr Nandus, kläre diesen Trank, vertreibe Gift und Ungemach und mache ihn rein und gut.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;87.0;15;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;88.0;15;-1.0;Divinarium;900;Numinoru: „Herr, mit Deiner Macht vernichte alles Übel in diesem Getränk und mache es rein und klar.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;89.0;15;-1.0;Divinarium;800;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;90.0;15;-1.0;Divinarium;800;Shinxir: „Herr der Legionen, tilge Trübnis und Schmutz in diesem Wasser, damit es Seele und Leib labe!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;91.0;15;-1.0;Divinarium;900;#
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;1.0;16;-1.0;Divinarium;1000;Weisheitssegen
+PDType1CFont YUYAGX+Litania-Regular;false;false;2.0;16;-1.0;Divinarium;900;Der Gesegnete wird von Weisheit erfüllt. Er kann die Lösung eines Problems besser erfassen und bei genau einer Probe auf ein Wissenstalent während der Wirkungsdauer einen Würfel neu würfeln (wie unter dem Einsatz des Vorteils Begabung). Pro Tag kann nur ein Weisheitssegen auf eine Person angewandt werden. Nachdem die Segnung genutzt wurde, ist sie verbraucht.
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;3.0;16;-1.0;Divinarium;800;Reichweite:
+PDType1CFont YUYAGX+Litania-Regular;false;false;4.0;16;-1.0;Divinarium;900;Berührung
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;5.0;16;-1.0;Divinarium;800;Wirkungsdauer:
+PDType1CFont YUYAGX+Litania-Regular;false;false;6.0;16;-1.0;Divinarium;900;12 Stunden
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;7.0;16;-1.0;Divinarium;800;Zielkategorie:
+PDType1CFont YUYAGX+Litania-Regular;false;false;8.0;16;-1.0;Divinarium;900;Kulturschaffende
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;9.0;16;-1.0;Divinarium;800;Verbreitung:
+PDType1CFont YUYAGX+Litania-Regular;false;false;10.0;16;-1.0;Divinarium;900;allgemein, Hesinde, Chr’Ssir’Ssr, Kor, Marbo, Nandus, Numinoru, Swafnir
+PDTrueTypeFont AFVHIT+DominicanSmallCaps;false;false;11.0;16;-1.0;Divinarium;800;Stoßgebete:
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;12.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;13.0;16;-1.0;Divinarium;900;allgemein: „Herrin Hesinde, schenke diesem Sterblichen Deine Gnade eines klaren Geistes und Weisheit.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;14.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;15.0;16;-1.0;Divinarium;900;Hesinde: „Herrin, erwecke Deinen Funken in diesem Sterblichen, auf dass dieser ihn erleuchte.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;16.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;17.0;16;-1.0;Divinarium;900;Chr’Ssir’Ssr: „[Mein/Dein] Geist ist klar und unbefangen wie das Auge des Sturms!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;18.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;19.0;16;-1.0;Divinarium;900;Kor: „Kor, blase meinem Kameraden [Name] den Schädel durch, vertreibe die Wirrnis und Zweifel!“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;20.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;21.0;16;-1.0;Divinarium;900;Marbo: „Milde Marbo, reinige diesen Geist und schenke ihm Klarheit, ein Ziel und Deine Erkenntnis.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;22.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;23.0;16;-1.0;Divinarium;900;Nandus: „Herr Nandus, kläre den Geist dieses Menschen, ordne seine Gedanken und schenke ihm Einsicht.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;24.0;16;-1.0;Divinarium;900;#
+PDType1CFont YUYAGX+Litania-Regular;false;false;25.0;16;-1.0;Divinarium;900;Numinoru: „Herr, kläre den Geist dieses Gläubigen, entwirre seine Gedanken und vertreibe den Zweifel.“
+PDType1CFont VAIDQD+DSASymboleRegular;false;false;26.0;16;-1.0;Divinarium;900;#

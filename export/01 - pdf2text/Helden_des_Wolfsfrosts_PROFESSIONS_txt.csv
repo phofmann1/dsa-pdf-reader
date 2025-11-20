@@ -1,0 +1,937 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;9;-1.0;Helden_des_Wolfsfrosts;1800;Weltliche Professionen
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;2.0;9;-1.0;Helden_des_Wolfsfrosts;1300;Fallensteller
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Pelze, Felle und das Fleisch vieler Tiere sind begehr
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;9;-1.0;Helden_des_Wolfsfrosts;1000;te Waren in aventurischen Städten. So verwundert es kaum, wenn es einen eigenen Beruf für das Einfangen von Tieren gibt. Der Fallensteller arbeitet ausschließ
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;9;-1.0;Helden_des_Wolfsfrosts;1000;lich mit Tierfallen und ist kein Jäger im herkömmlichen Sinne. Er benutzt Bärenfallen statt Bogen und Pfeil und steht immer wieder in dem Ruf, ein Wilderer zu sein. Tatsächlich gibt es unter den Fallenstellern viele Wilde
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;9;-1.0;Helden_des_Wolfsfrosts;1000;rer, aber genauso auch welche, die von einem Adligen das Recht erhalten haben, Fallen aufstellen zu dürfen. Bei seinen Kollegen, den echten Jägern, wird ein Fal
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;11.0;9;-1.0;Helden_des_Wolfsfrosts;1000;lensteller misstrauisch beäugt und gemieden, da sein Handwerk in ihren Augen nicht sonderlich firungefäl
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;12.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;13.0;9;-1.0;Helden_des_Wolfsfrosts;1000;lig ist. Er selbst hingegen sieht sich sehr wohl als je
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;14.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;15.0;9;-1.0;Helden_des_Wolfsfrosts;1000;manden, der im Bund mit dem Gott der Jagd steht. Sei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;16.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;17.0;9;-1.0;Helden_des_Wolfsfrosts;1000;ne Technik ist nur eine ganz andere. Ein Fallensteller mag in der Wildnis durch Zufall in ein Abenteuer ver
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;18.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;19.0;9;-1.0;Helden_des_Wolfsfrosts;1000;wickelt werden.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;20.0;9;-1.0;Helden_des_Wolfsfrosts;1300;Fallensteller
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;21.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;22.0;9;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;9;-1.0;Helden_des_Wolfsfrosts;1000;365 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;24.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;9;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;26.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;27.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 6 Abenteuerpunkte, Fertigkeitsspezialisierung Tierkunde
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;28.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Passender Talentstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Weg des Fallenstellers (8 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;30.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Armbrüste 10, Dolche 11, Hiebwaffen 11, Raufen 11
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;32.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;33.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Klettern 6, Körperbeherrschung 3, Kraftakt 4, Schwimmen 3, Selbstbeherrschung 5, Sinnesschärfe 6, Tanzen 2, Verbergen 7, Zechen 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;35.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Einschüchtern 3, Überreden 2, Willenskraft 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;37.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 7, Fesseln 6, Fischen & Angeln
+PDType0Font/PDCIDFontType2, PostScript name: GUYKGH+GentiumBasic;false;false;39.0;9;-1.0;Helden_des_Wolfsfrosts;1000;6, Orientierung 7, Pflanzenkunde 5, Tierkunde 7,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Wildnisleben 7
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;41.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Brett- & Glücksspiel 3, Geographie 2, Götter & Kulte 3, Rechtskunde 3, Sagen & Legenden 5, Sternkunde 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;43.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Fahrzeuge 3, Heilkunde Wunden 3, Holzbearbeitung 4, Lederbearbeitung 5, Steinbearbeitung 4, Stoffbearbeitung 2
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Entfernungssinn, Herausragender Sinn (Gehör, Sicht), Kälteresistenz, Richtungssinn, Zäher Hund, Zeitgefühl
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Arm, Persönlichkeitsschwäche (Unheimlich, Weltfremd), Schlechte Eigenschaft (Aberglaube, Goldgier, Jähzorn)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Adel, Reich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: GUYKGH+GentiumBasic;false;false;52.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Blind, Kälteempfindlich,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Nachtblind, Taub, Zerbrechlich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;54.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;55.0;9;-1.0;Helden_des_Wolfsfrosts;1000;Der Fallensteller hat Tierfallen dabei, Wildnisaus
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;57.0;9;-1.0;Helden_des_Wolfsfrosts;1000;rüstung, Proviant, ein Seil, Felle und Pelze, ein Jagdmesser und eventuell eine einfache Waffe wie eine Handaxt. Rüstungen trägt er zwar sel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;59.0;9;-1.0;Helden_des_Wolfsfrosts;1000;ten (höchstens aus Leder), aber dicke Kleidung ist bei ihm häufig zu sehen, da viele Personen seiner Zunft in kälteren Gegenden Nord- und Mittel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;61.0;9;-1.0;Helden_des_Wolfsfrosts;1000;aventuriens auf Fallenjagd gehen und sich ent
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;63.0;9;-1.0;Helden_des_Wolfsfrosts;1000;sprechend schützen müssen.Womöglich wird er von einer Heldengruppe ange
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;9;-1.0;Helden_des_Wolfsfrosts;1000;worben, da sie ihn als erfahrenen Wildniskenner für eine Reise benötigen. Außerdem kann er sich auch aufmachen, um eine besondere Jagdtrophäe zu er
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;9;-1.0;Helden_des_Wolfsfrosts;1000;beuten, etwa den Stoßzahn eines Mammuts, das Gebiss eines Schlingers oder gar den Kopf eines Ba
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;9;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;9;-1.0;Helden_des_Wolfsfrosts;1000;silisken. Alleine wäre so ein Vorhaben gewiss zum Scheitern verurteilt, aber gemeinsam mit anderen Helden mag es für den Fallensteller lösbar sein.
+PDTrueTypeFont TVAJEL+Andalus;false;false;70.0;9;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;10;-1.0;Helden_des_Wolfsfrosts;1300;Prospektor
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Der Prospektor durchforstet Sumus Leib nach inge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;10;-1.0;Helden_des_Wolfsfrosts;1000;rimmgefälligen Schätzen. Andere würden von Steinen sprechen, doch er weiß, dass in den Tiefen Deres weit mehr verborgen liegt. Wenn um die großen Siedlun
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;10;-1.0;Helden_des_Wolfsfrosts;1000;gen des Landes alles kartographiert und erschlossen ist, dringt der Prospektor an die entlegensten Orte vor, um neue Stätten des Reichtums zu entdecken. Mit dem Herz eines Abenteurers bewaffnet, ist sein Blick für alles offen. Seine Lust auf das Unbekannte, das unentdeckte Potenzial naher und ferner Regionen, prädestiniert ihn dazu, eines Tages zu tief zu graben oder Boden zu betre
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;10;-1.0;Helden_des_Wolfsfrosts;1000;ten, der keine Gäste wünscht – und die Konsequenzen wie ein Held zu tragen.Weitaus gezielter schürft die
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;9.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Goldsucherin
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;10;-1.0;Helden_des_Wolfsfrosts;1000;. Sie ist die Wohlhabendste ihrer Zunft, da jeder Fund sicheren Pro
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;10;-1.0;Helden_des_Wolfsfrosts;1000;fit bedeutet. Anders als der gemeine Prospektor wird sie nie um Werte feilschen müssen. Da Goldadern von nahezu allen kulturschaffenden Völkern Deres begehrt werden, hat die Goldsucherin gelernt, die Quelle auszu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;10;-1.0;Helden_des_Wolfsfrosts;1000;reizen, bevor jemand anderes überhaupt Anspruch er
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;10;-1.0;Helden_des_Wolfsfrosts;1000;heben kann.
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Der
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;18.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Erzsucher
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;19.0;10;-1.0;Helden_des_Wolfsfrosts;1000;spezialisiert sich auf Materialien, die für Waffen, Rüstzeug und Mechanik verwendet werden können. Wo die Goldsucherin schneller und bei Bedarf schlagfertiger sein muss als die Konkurrenz, liegt seine Expertise im Definieren und Erkennen von Güteklassen.Die Spezialisierung der
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;20.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Quellensucherin
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;10;-1.0;Helden_des_Wolfsfrosts;1000;unterscheidet
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;22.0;10;-1.0;Helden_des_Wolfsfrosts;1000;sich von ihren Professionsgenossen durch einen beson
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;10;-1.0;Helden_des_Wolfsfrosts;1000;deren Feinsinn für das Flüstern der Natur. Sie schafft neue Zugänge zu Gewässern, die Zivilisation ermög
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;26.0;10;-1.0;Helden_des_Wolfsfrosts;1000;lichen. So entscheiden ihre Fähigkeiten nicht nur am Rande der Wüste mitunter über Leben und Tod.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;10;-1.0;Helden_des_Wolfsfrosts;1300;Prospektor
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;28.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;29.0;10;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;10;-1.0;Helden_des_Wolfsfrosts;1000;364 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;31.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;10;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;33.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 6 Abenteuerpunkte, Fertigkeitsspezialisierung Wildnisleben
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;35.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Passender Talentstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Weg des Prospektors (5 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;37.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 10, Hiebwaffen 11, Raufen 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;40.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;41.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Klettern 3, Körperbeherrschung 4, Kraftakt 5, Reiten 3, Schwimmen 3, Selbstbeherrschung 4, Sinnesschärfe 6, Tanzen 2, Taschendiebstahl 2,Verbergen 3, Zechen 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;42.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;43.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Gassenwissen 2, Menschenkenntnis 3, Überreden 3, Willenskraft 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;44.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;45.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 4, Fesseln 4, Fischen & Angeln
+PDType0Font/PDCIDFontType2, PostScript name: KDDWKZ+GentiumBasic;false;false;46.0;10;-1.0;Helden_des_Wolfsfrosts;1000;4, Orientierung 5, Pflanzenkunde 6, Tierkunde 5,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;47.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Wildnisleben 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;48.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;49.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Brett- & Glücksspiel 2, Geographie 5, Geschichtswissen 3, Götter & Kulte 3, Rechnen 5, Rechtskunde 3, Sagen & Legenden 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;50.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;51.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Alchimie 2, Boote & Schiffe 2, Fahrzeuge 3, Handel 4, Heilkunde Wunden 3, Holzbearbeitung 4, Metallbearbeitung 5, Steinbearbeitung 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;52.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Kälteresistenz, Richtungssinn, Zäher Hund
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;54.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Arm, Persönlichkeitsschwäche (Unheimlich), Schlechte Eigenschaft (Aberglaube, Geiz, Goldgier, Neugier, Spielsucht)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;56.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;57.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Adel, Angenehmer Geruch, Reich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;58.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: KDDWKZ+GentiumBasic;false;false;59.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Blind, Kälteempfindlich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;60.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;61.0;10;-1.0;Helden_des_Wolfsfrosts;1000;Um die Gefahren der Wildnis zu überstehen, be
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;63.0;10;-1.0;Helden_des_Wolfsfrosts;1000;nötigt ein Prospektor jeder Spezialisierung min
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;10;-1.0;Helden_des_Wolfsfrosts;1000;destens einen geräumigen Rucksack für Feuer
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;10;-1.0;Helden_des_Wolfsfrosts;1000;stein und Stahl, Spitzhacke, Seil und winter-, tropen- oder wüstenfeste Kleidung. Zu Verteidi
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;10;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;10;-1.0;Helden_des_Wolfsfrosts;1000;gungszwecken ist ein Streitkolben eine übliche Ergänzung.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;11;-1.0;Helden_des_Wolfsfrosts;1300;Viehtreiber
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Anders als ein gewöhnlicher Hirte, ist der Viehtreiber in wilderen Regionen unterwegs, um die Tiere seiner Sip
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;11;-1.0;Helden_des_Wolfsfrosts;1000;pe oder seiner Herrin zu beschützen und zu den Wei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;11;-1.0;Helden_des_Wolfsfrosts;1000;degründen zu treiben. Vor allem die Viehtreiber vom nomadisch lebenden Volk der Nivesen sind berühmt, obwohl sie sich eher als Begleiter der Karene betrach
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;11;-1.0;Helden_des_Wolfsfrosts;1000;ten, mit denen sie gemeinsam durch den Norden ziehen. Weiterhin kennt fast jeder Aventurier die Weidener Rinderbarone bzw. deren Viehtreiber oder die Viehtrei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;11;-1.0;Helden_des_Wolfsfrosts;1000;ber des Svellttals, die Klein-Alrik meistens zuerst in den Sinn kommen, wenn er den Namen hört. Ein Viehtreiber muss sich gut mit den betreuten Tieren auskennen, er muss der Natur gewachsen sein, durch die er die Herde treibt, und er muss gewappnet sein, um Viehdiebe zu vertreiben.Auf Abenteuer mag es einen Viehtreiber ziehen, wenn
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;11;-1.0;Helden_des_Wolfsfrosts;1000;er seine Anstellung verloren hat und er sich nach ei-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;11;-1.0;Helden_des_Wolfsfrosts;1000;nem neuen Broterwerb umsehen muss, oder weil seine Reise deckungsgleich mit der der Helden ist. Er kann in einer Gruppe vor allem als Pfadfinder und Wild
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;11;-1.0;Helden_des_Wolfsfrosts;1000;niskundiger dienen oder die Kämpfer einer Gruppe unterstützen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;15.0;11;-1.0;Helden_des_Wolfsfrosts;1300;Viehtreiber
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;16.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;17.0;11;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;18.0;11;-1.0;Helden_des_Wolfsfrosts;1000;410 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;20.0;11;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen für insgesamt 6 Abenteuerpunkte, Fertigkeitsspezialisierung Tierkunde
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Passender Talentstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Weg des Jägers (8 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 10, Hiebwaffen 11, Raufen 10, eine der folgenden Kampftechniken auf 11: Armbrüste oder Wurfwaffen
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;28.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Klettern 3, Körperbeherrschung 4, Kraftakt 5, Reiten 6, Schwimmen 5, Selbstbeherrschung 4, Sinnesschärfe 7, Verbergen 4, Zechen 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;30.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Menschenkenntnis 5, Überreden 3, Willenskraft 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;32.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 7, Fesseln 4, Fischen & Angeln
+PDType0Font/PDCIDFontType2, PostScript name: NFOWVT+GentiumBasic;false;false;34.0;11;-1.0;Helden_des_Wolfsfrosts;1000;4, Orientierung 7, Pflanzenkunde 6, Tierkunde 8,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Wildnisleben 7
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;37.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Geographie 5, Geschichtswissen 3, Götter & Kulte 3, Rechnen 5, Rechtskunde 3, Sagen & Legenden 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;38.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;39.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Handel 4, Heilkunde Wunden 3, Holzbearbeitung 4, Metallbearbeitung 5, Steinbearbeitung 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;40.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;41.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Kälteresistenz, Richtungssinn, Zäher Hund
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;42.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;43.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Arm, Persönlichkeitsschwäche (Unheimlich), Schlechte Eigenschaft (Aberglaube, Geiz, Goldgier, Neugier, Spielsucht)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;44.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;45.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Adel, Angenehmer Geruch, Reich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;46.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: NFOWVT+GentiumBasic;false;false;47.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Blind, Kälteempfindlich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;48.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;49.0;11;-1.0;Helden_des_Wolfsfrosts;1000;Der Viehtreiber hat in der Regel Wildnisausrüs
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;11;-1.0;Helden_des_Wolfsfrosts;1000;tung dabei, insbesondere Feuerstein und Stahl, eine Wolldecke, eine Pfanne, Nadel- und Zwirn
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;53.0;11;-1.0;Helden_des_Wolfsfrosts;1000;set und andere nützliche Dinge. Je nach Umge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;54.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;55.0;11;-1.0;Helden_des_Wolfsfrosts;1000;bung und Jahreszeit trägt er einfache oder Win
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;57.0;11;-1.0;Helden_des_Wolfsfrosts;1000;terkleidung, die ihn beim Reisen kaum behindert. Manchmal verfügt er über ein Reittier, etwa ein Pferd oder einen Esel, aber oft sind Viehtreiber auch zu Fuß unterwegs.Als Waffen bevorzugt er eine Fernkampfwaffe, etwa eine Armbrust oder bei nivesischen Vieh
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;59.0;11;-1.0;Helden_des_Wolfsfrosts;1000;treibern Kurzbögen und Wurfkeulen. Mit Rüs
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;11;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;61.0;11;-1.0;Helden_des_Wolfsfrosts;1000;tungen weiß er wenig anzufangen, aber einige Viehtreiber zwängen sich als Abenteurer in eine Lederrüstung.
+PDTrueTypeFont TVAJEL+Andalus;false;false;62.0;11;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;12;-1.0;Helden_des_Wolfsfrosts;1300;Walfänger
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Die Weiten von Ifirns Ozean beherbergen unzählige Ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;12;-1.0;Helden_des_Wolfsfrosts;1000;heimnisse und viele Gefahren, aber auch großen Reich
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;12;-1.0;Helden_des_Wolfsfrosts;1000;tum. Mutige Männer und Frauen zieht es als Walfänger
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;7.0;12;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;12;-1.0;Helden_des_Wolfsfrosts;1000;und
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;9.0;12;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Robbenjäger in den Norden, denn diese Beutetiere versprechen großen Profit, allerdings ist ihr Fang mit zahlreichen Gefahren verbunden. Nicht nur sind es die Thorwaler, die unerbittliche Jagd auf alle Walfänger ma
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;12;-1.0;Helden_des_Wolfsfrosts;1000;chen, auch das Meer selbst mit Treibeis, unterseeischen Vulkanen und Stürmen stellt eine ständige Bedrohung dar. Grund genug für die meisten Walfänger, zumindest rudimentär die Seefahrt, aber auch das Handwerk mit der Waffe zu beherrschen. Wichtigstes Handwerkszeug sind allerdings ihr Walspieß und ein kräftiger Wurfarm, um die gewaltigen Wale, Haie oder Seetiger zu harpu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;12;-1.0;Helden_des_Wolfsfrosts;1000;nieren. Sind die Ozeanriesen zur Strecke gebracht, wer
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;12;-1.0;Helden_des_Wolfsfrosts;1000;den sie zum Strand geschleppt und dort fachgerecht zerlegt – eine Aufgabe, bei der die gesamte Schiffsbesat
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;18.0;12;-1.0;Helden_des_Wolfsfrosts;1000;zung mit anpackt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;12;-1.0;Helden_des_Wolfsfrosts;1300;Walfänger
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;20.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;12;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;12;-1.0;Helden_des_Wolfsfrosts;1000;199 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;12;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen für insgesamt 10 Abenteuerpunkte, Fertigkeitsspezialisierung Boote & Schiffe, Fischer
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Passender Talentstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Weg der Seefahrerin (5 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;29.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 8, Raufen 8, Schwerter 8, Wurfwaffen 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;31.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;32.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 5, Klettern 5, Schwimmen 7, Zechen 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;34.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Menschenkenntnis 2, Überreden 2
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;37.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Fesseln 7, Fischen & Angeln 4, Orientierung 5, Tierkunde 7, Wildnisleben 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;38.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;39.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Geographie 4, Götter & Kulte 4, Sagen & Legenden 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;40.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;41.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Boote & Schiffe 7, Holzbearbeitung 4, Stoffbearbeitung 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;42.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;43.0;12;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;44.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;45.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Schlechte Eigenschaften (Aberglaube, Jähzorn)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;46.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;47.0;12;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;48.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;49.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Angst vor ... (Höhe, dem Meer)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;50.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;12;-1.0;Helden_des_Wolfsfrosts;1000;Ein Entermesser, vielleicht ein Dolch und natür
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;53.0;12;-1.0;Helden_des_Wolfsfrosts;1000;lich der Walspieß – mehr benötigt der Walfänger nicht als Waffe. Ansonsten trägt er nur bei sich, was er braucht: ein Seil, einen Weinschlauch, eine Schnapsflasche, Würfel. Da sie den Ober
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;54.0;12;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;55.0;12;-1.0;Helden_des_Wolfsfrosts;1000;körper warm halten, Schutz bieten und zugleich kaum die Beweglichkeit hindern, erfreuen sich die thorwalschen Krötenhäute einer gewissen Beliebtheit bei den nordischen Walfängern.
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;13;-1.0;Helden_des_Wolfsfrosts;1800;Kämpferprofessionen
+PDType0Font/PDCIDFontType2, PostScript name: QTMROR+GentiumBasic-Bold;true;false;2.0;13;-1.0;Helden_des_Wolfsfrosts;1300;Jäger der Verfluchten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Wo immer es eine Bestie gibt, gibt es auch einen Le
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;13;-1.0;Helden_des_Wolfsfrosts;1000;bensmüden, der versuchen wird, sie zur Strecke zu bringen. Manche Bestien jedoch sind nicht einfach nur tierische Ungeheuer ungeahnter Ausmaße, sondern von deutlich unnatürlicher Art. Für diese Arten von Kreaturen braucht es Leute vom Fach, wie etwa einen Jäger der Verfluchten. Dabei handelt es sich um einen Sammelbegriff für die waghalsigen Abenteurer, wel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;13;-1.0;Helden_des_Wolfsfrosts;1000;che sich auf die Jagd von übernatürlichen Wesenhei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;13;-1.0;Helden_des_Wolfsfrosts;1000;ten, vor allem Vampiren und Werwölfen, seltener aber auch Geistern oder anderen Untoten spezialisiert ha
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;11.0;13;-1.0;Helden_des_Wolfsfrosts;1000;ben. Neben der Jagd selbst, die in den meisten Fällen in einem spektakulären Kampf gegen die verfolgte Krea
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;12.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;13.0;13;-1.0;Helden_des_Wolfsfrosts;1000;tur endet, verbringt der Jäger der Verfluchten einen großen Teil seiner Zeit mit Nachforschungen. Sei es die Spurensuche, Ermittlungen an Tatorten, die Befragung von Dorfbewohnern oder schlicht und ergreifend das Wälzen uralter Folianten, um sich das rar gesäte Wis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;14.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;15.0;13;-1.0;Helden_des_Wolfsfrosts;1000;sen um die Verfluchten anzueignen. Letzteres ist ein seltenes Gut, gibt es doch wenige wirkliche Experten auf diesem Gebiet. Zumindest wenige, die überleben, um ihr Wissen weiterzugeben.
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;16.0;13;-1.0;Helden_des_Wolfsfrosts;1300;Jäger der Verfluchten
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;17.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;18.0;13;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;13;-1.0;Helden_des_Wolfsfrosts;1000;358 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;20.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;13;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;22.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Fertigkeitsspezialisierung
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;24.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Magiekunde (Magische Wesen)
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;25.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 12, Raufen 10, Schwerter 10, Armbrüste 12
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;27.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;28.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Klettern 4, Körperbeherrschung 6, Kraftakt 5, Reiten 4, Schwimmen 3, Selbstbeherrschung 5, Sinnesschärfe 6, Verbergen 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;30.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Gassenwissen 4, Menschenkenntnis 5, Willenskraft 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;32.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 6, Tierkunde 4, Wildnisleben 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;34.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Götter & Kulte 4, Magiekunde 6, Sagen & Legenden 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;37.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Alchimie 4, Handel 4, Heilkunde Gift 2, Heilkunde Krankheiten 4, Heilkunde Wunden 5, Lebensmittelbearbeitung 2, Metallbearbeitung 5, Stoffbearbeitung 2
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;38.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;39.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Zäher Hund
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;40.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;41.0;13;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;42.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;43.0;13;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDType0Font/PDCIDFontType2, PostScript name: SLURDE+GentiumBasic-Bold;true;false;44.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;45.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Angst vor ... (Dunkelheit, Toten und Untoten),
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;46.0;13;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;47.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Blutrausch, Jagdwildgeruch, Nachtblind
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;48.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;49.0;13;-1.0;Helden_des_Wolfsfrosts;1000;Wetterfeste Kleidung, wie breitkrempige Hüte und dicke, lange Mäntel schützen den Jäger der Verfluchten vor der Witterung auf den vielen bevorstehenden Jagden. Nicht selten führen die Jäger ganze Reihen an Fallen, Giften, Elixieren, Waffen und sonstiger Ausrüstung mit sich, um auf alle Eventualitäten vorbereitet zu sein. Für viele ist ein Packtier entsprechend Pflicht – zu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;13;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;13;-1.0;Helden_des_Wolfsfrosts;1000;mal es direkt auch als Köder für manche Bestie dienen kann.
+PDTrueTypeFont TVAJEL+Andalus;false;false;52.0;13;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;14;-1.0;Helden_des_Wolfsfrosts;1800;Zaubererprofessionen
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;2.0;14;-1.0;Helden_des_Wolfsfrosts;1300;Brobim-Geode
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Die wilden Zwerge des aventurischen Nordens pflegen einen komplexen Ahnenkult, der mit einer traditionellen Verehrung der Verstorbenen einhergeht. Die Brobim-Geoden nehmen dabei die Rolle der Vermittler zwischen der Welt der Toten und der Lebenden ein. Sie sind zu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;14;-1.0;Helden_des_Wolfsfrosts;1000;gleich Priester wie auch Zauberer und werden von den Wildzwergen als geistige Führer betrachtet, denen man größten Respekt entgegenbringt. Im Gegensatz zu den Ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;14;-1.0;Helden_des_Wolfsfrosts;1000;oden der anderen Zwergenvölker liegt der Schwerpunkt ihrer Zauberei nicht auf dem Elementarismus. Zwar be
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;14;-1.0;Helden_des_Wolfsfrosts;1000;herrschen sie ebenfalls ein paar Zauber, um die drei in ihrer Umwelt häufig vorkommenden Elemente Erz, Feuer und Luft zu kontrollieren, aber ihre Stärke liegt vor allem im Herbeirufen von Geisterwesen. Zwischen den wenigen Brobim-Geoden gibt es nur selten einen Austausch, es sei denn, sie leben gemeinsam in einer Binge. Von den übri
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;11.0;14;-1.0;Helden_des_Wolfsfrosts;1000;gen Geoden leben sie seit Jahrhunderten isoliert, sodass es kaum je zu einer Begegnung kommt. Wie diese vertra
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;12.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;13.0;14;-1.0;Helden_des_Wolfsfrosts;1000;gen die Brobim-Geoden kein Metall, allerdings stellen die Wildzwerge auch nur selten Objekte aus Eisen oder Stahl her, sodass dies sie kaum beeinträchtigt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;14.0;14;-1.0;Helden_des_Wolfsfrosts;1300;Brobim-Geode (Diener des Feuers)
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;15.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;16.0;14;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;14;-1.0;Helden_des_Wolfsfrosts;1000;330 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;18.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Spezies Zwerg, Vorteil Zauberer (25 AP), Sonderfertigkeit Tradition (Brobim-Geoden) (130 AP), Kultur Wildzwerge
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;20.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Bindung des Rings
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;22.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Passender Zauberstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Geode der Wilden Zwerge (10 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;24.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 8, Stangenwaffen 8, Wurfwaffen 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;26.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;27.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Selbstbeherrschung 3, Sinnesschärfe 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;29.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Menschenkenntnis 3, Willenskraft 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;31.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: XHDNQU+GentiumBasic;false;false;32.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 4, Orientierung 5, Pflanzen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-kunde 6, Tierkunde 6, Wildnisleben 7
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;34.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Geschichtswissen 5, Götter & Kulte 3, Magiekunde 4, Sagen & Legenden 6, Sternkunde 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;37.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Heilkunde Gift 3, Heilkunde Krankheiten 4, Heilkunde Seele 4, Heilkunde Wunden 4, Holzbearbeitung 4, Steinbearbeitung 7
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;38.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Zauber
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;39.0;14;-1.0;Helden_des_Wolfsfrosts;1000;ein Zaubertrick aus folgender Liste: Hundekeks, Lockruf, Steinempathie, Trocken<br> Eins mit der Natur 4, Flammenwand 5, Geisteressenz 10, Geisterruf 5, Große Verwirrung (Druiden) 4, Manifesto 6, Tiergedanken 6
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;40.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDType0Font/PDCIDFontType2, PostScript name: XHDNQU+GentiumBasic;false;false;41.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Affinität zu Elementaren, Al
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-tersresistenz, Hohe Seelenkraft
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;43.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Körpergebundene Kraft, Lästige Mindergeister, Persönlichkeitsschwäche (Weltfremd), Unfähig (Gesellschaftstalente)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;14;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Angst vor ... (Toten und Untoten), Niedrige Seelenkraft, Schwer zu verzaubern
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Varianten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;14;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;51.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Diener des Erzes (
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;52.0;14;-1.0;Helden_des_Wolfsfrosts;1000;340 AP): Steinwand 5 statt Flam
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;54.0;14;-1.0;Helden_des_Wolfsfrosts;1000;menwand 5
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;14;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;56.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Diener der Luft
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;57.0;14;-1.0;Helden_des_Wolfsfrosts;1000;(340 AP): Sturmwand 5 statt Flam
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;59.0;14;-1.0;Helden_des_Wolfsfrosts;1000;menwand 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;60.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;61.0;14;-1.0;Helden_des_Wolfsfrosts;1000;Im Gegensatz zu den Geoden der anderen Zwer
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;63.0;14;-1.0;Helden_des_Wolfsfrosts;1000;genvölker kann man einem Brobim-Geoden kaum ansehen, dass er ein Zauberer ist. Im Grunde un
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;14;-1.0;Helden_des_Wolfsfrosts;1000;terscheidet er sich kaum von den übrigen Sippen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;14;-1.0;Helden_des_Wolfsfrosts;1000;mitgliedern. Wie die übrigen Geoden verfügt er über einen Lebensring, aber damit enden die Ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;14;-1.0;Helden_des_Wolfsfrosts;1000;meinsamkeiten auch schon. Brobim-Geoden tra
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;71.0;14;-1.0;Helden_des_Wolfsfrosts;1000;gen gerne Steindolche, Speere mit Knochenspitzen und primitive Wurfäxte bei sich. Als Kleidung die
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;72.0;14;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;73.0;14;-1.0;Helden_des_Wolfsfrosts;1000;nen meist ein Lendenschurz sowie Pelzmäntel oder Fellüberwürfe.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;15;-1.0;Helden_des_Wolfsfrosts;1300;Graumagierin als Schülerin der Thyella vom Gewitterturm
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;15;-1.0;Helden_des_Wolfsfrosts;1000;In der Herzogenstadt hat Thyella inzwischen die Rolle der Lehrmeisterin im Gewitterturm übernommen, nach
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;15;-1.0;Helden_des_Wolfsfrosts;1000;dem sie aus Olport zurückkehrte. Auf dem Stundenplan stehen vor allem Zaubereien mit dem Element Luft so
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;15;-1.0;Helden_des_Wolfsfrosts;1000;wie umfangreiche Studien auf dem Gebiet der Alchimie. Da zum Überprüfen der eigenen Tränke und Elixiere die Analyse wichtig ist, gibt es ausgiebige Unterweisungen in den Sprüchen aus dem Bereich der Hellsicht. Trotz der hiesigen Abgeschiedenheit legt man Wert auf pro
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;15;-1.0;Helden_des_Wolfsfrosts;1000;funde Kenntnisse aus der Historie und den Magiearten. Diese müssen sich die Eleven und Studiosi meist im an
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;15;-1.0;Helden_des_Wolfsfrosts;1000;strengenden Selbststudium in der Bibliothek erarbeiten. Das nötige Rüstzeug zu Natur und Pflanzen erfolgt über Expeditionen in die Umgebung, wo man Ingredienzen und Zutaten selbst sammelt und verarbeitet. So wissen die zukünftigen Magier zu schätzen, wenn es Materia
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;15;-1.0;Helden_des_Wolfsfrosts;1000;lien zu kaufen gibt. Als Gastdozentin lehrt regelmäßig
+PDType1CFont LJZNWB+DSASymboleRegular;false;false;13.0;15;-1.0;Helden_des_Wolfsfrosts;1000;2
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;14.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Aimorea Pervigilius
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;15.0;15;-1.0;Helden_des_Wolfsfrosts;1000;. Die Collega hat ebenfalls ihre Aus
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;16.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;17.0;15;-1.0;Helden_des_Wolfsfrosts;1000;bildung in Paavi erhalten, jagt aber inzwischen Vampire und Werwesen. Daher haben die hiesigen Lehrlinge auch die Option, diesen Bereich als Schwerpunkt zu wählen. Eine Hilfestellung ist ihr
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;18.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Vademecum zu den Kreaturen der Nacht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;19.0;15;-1.0;Helden_des_Wolfsfrosts;1000;, was die Jägerin mit einem Gefährten kürzlich ver
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;20.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;21.0;15;-1.0;Helden_des_Wolfsfrosts;1000;fasst hat. Thyella und Aimorea haben jüngst einen Han
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;23.0;15;-1.0;Helden_des_Wolfsfrosts;1000;del mit der Halle des Quecksilbers in Festum geschlossen. Im Gegenzug für einige Spezialkenntnisse zu The
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;25.0;15;-1.0;Helden_des_Wolfsfrosts;1000;riak und neuen Rezepten können ihre Abgän
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;27.0;15;-1.0;Helden_des_Wolfsfrosts;1000;ger nun dort die Abschlussprüfung samt Gil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;29.0;15;-1.0;Helden_des_Wolfsfrosts;1000;densiegel erwerben.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;30.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;31.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Magier vom Gewitterturm zu Paavi sind an die harsche Witterung im Hohen Norden gewöhnt. Eine ih
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;33.0;15;-1.0;Helden_des_Wolfsfrosts;1000;rer ersten Lektionen ist, dass die Bekleidungsregeln des Codex Albyricus hier nur bedingt anwendbar sind. So ist zum Beispiel das hauch
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;35.0;15;-1.0;Helden_des_Wolfsfrosts;1000;dünne Elementaristen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-gewand eigentlich nur
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;37.0;15;-1.0;Helden_des_Wolfsfrosts;1000;im kurzen Hochsommer oder in gut beheizten Räu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;39.0;15;-1.0;Helden_des_Wolfsfrosts;1000;men nutzbar. Entsprechend pragmatisch ist man bei der Kleidung: Roben sind aus di
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;41.0;15;-1.0;Helden_des_Wolfsfrosts;1000;ckem Wollstoff, gern auch mit Pelzbesatz und Fütterung im Inne
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;43.0;15;-1.0;Helden_des_Wolfsfrosts;1000;ren. Natürlich trägt man feste Stie
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;45.0;15;-1.0;Helden_des_Wolfsfrosts;1000;fel, warme Unterkleidung und dicke
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Fäustlinge oder investiert sogar in
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;47.0;15;-1.0;Helden_des_Wolfsfrosts;1000;maßgeschneiderte Fingerhandschu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;49.0;15;-1.0;Helden_des_Wolfsfrosts;1000;he, um bei den Zaubergesten nicht gestört zu werden. Auch um die Re
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;15;-1.0;Helden_des_Wolfsfrosts;1000;gularien bezüglich des Bannschwerts kümmert man sich wenig, sodass die Zöglinge recht häufig ein Kurz- oder Langschwert als solches wählen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;52.0;15;-1.0;Helden_des_Wolfsfrosts;1300;Graumagierin als Schülerin der Thyella vom Gewitterturm
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;53.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;54.0;15;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;15;-1.0;Helden_des_Wolfsfrosts;1000;244 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;56.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;57.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Vorteil Zauberer (25 AP), Sonderfertigkeit Tradition (Gildenmagier) (155 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;58.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;59.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 10 Abenteuerpunkte, Bindung des Stabes
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;60.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Passender Zauberstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;61.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Scholar der Thyella vom Gewitterturm (12 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;62.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;63.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Raufen 8, Stangenwaffen 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;64.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;65.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Selbstbeherrschung 2, Sinnesschärfe 2
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;67.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Etikette 2, Menschenkenntnis 4, Willenskraft 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;69.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: IQTCJY+GentiumBasic;false;false;70.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung 3, Pflanzenkunde 4, Wildnis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;71.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-leben 2
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;72.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;73.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Geographie 3, Geschichtswissen 4, Götter & Kulte 4, Magiekunde 5, Rechnen 4, Sagen & Legenden 5, Sphärenkunde 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;74.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;75.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Alchimie 5, Heilkunde Krankheiten 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;76.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Zauber
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;77.0;15;-1.0;Helden_des_Wolfsfrosts;1000;ein Zaubertrick aus folgender
+PDType0Font/PDCIDFontType2, PostScript name: IQTCJY+GentiumBasic;false;false;78.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Liste: Feuerfinger, Waffensäuberung,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;79.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Zauberfeder<br> Analys Arkanstruktur 5, Elementarer Diener 5, Manifesto 4, Nihilogravo 4, Odem Arcanum 6, Orcanofaxius 5, Nebelwand (Elfen) 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;80.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;81.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Hohe Seelenkraft, Verbesserte Regeneration (Astralenergie)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;82.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;83.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Persönlich-
+PDType0Font/PDCIDFontType2, PostScript name: IQTCJY+GentiumBasic;false;false;84.0;15;-1.0;Helden_des_Wolfsfrosts;1000;keitsschwäche (Arroganz, Eitelkeit),
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;85.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Schlechte Eigenschaft (Neugier), Ver-
+PDType0Font/PDCIDFontType2, PostScript name: IQTCJY+GentiumBasic;false;false;86.0;15;-1.0;Helden_des_Wolfsfrosts;1000;pflichtungen II (Lehrmeisterin)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;87.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;88.0;15;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;89.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;90.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Blutrausch,
+PDType0Font/PDCIDFontType2, PostScript name: IQTCJY+GentiumBasic;false;false;91.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Kälteempfindlich, Niedrige
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;92.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Seelenkraft
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;93.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Varianten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;94.0;15;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;95.0;15;-1.0;Helden_des_Wolfsfrosts;1000;Vampirjäger/in
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;96.0;15;-1.0;Helden_des_Wolfsfrosts;1000;(243 AP): Al
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;97.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;98.0;15;-1.0;Helden_des_Wolfsfrosts;1000;chimie 5 statt 6, Fährtensu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;99.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;100.0;15;-1.0;Helden_des_Wolfsfrosts;1000;chen 2 statt 0, Rechtskun
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;101.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;102.0;15;-1.0;Helden_des_Wolfsfrosts;1000;de 2 statt 0, Reflectimago (Scharlatane) 5 statt Ne
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;103.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;104.0;15;-1.0;Helden_des_Wolfsfrosts;1000;belwand 5, Zauberklin
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;105.0;15;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;106.0;15;-1.0;Helden_des_Wolfsfrosts;1000;ge Geisterspeer 5 statt Elementarer Diener 5
+PDTrueTypeFont TVAJEL+Andalus;false;false;107.0;15;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;1.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Eine Klingensängerin der Nachtalben birgt für die meisten Heldengruppen ein großes Kon
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;2.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;16;-1.0;Helden_des_Wolfsfrosts;1000;fliktpotenzial und taugt, wenn sie ihren Mo
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;16;-1.0;Helden_des_Wolfsfrosts;1000;tiven treu bleibt, höchstens zur Antiheldin.Sprich einen solchen Charakter also mit deinen Mitspielern ab. Am besten eig
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;16;-1.0;Helden_des_Wolfsfrosts;1000;net er sich für spezielle Themengrup
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;16;-1.0;Helden_des_Wolfsfrosts;1000;pen. Die Werte können dir auch als In
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;11.0;16;-1.0;Helden_des_Wolfsfrosts;1000;spiration für NSC dienen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;12.0;16;-1.0;Helden_des_Wolfsfrosts;1300;Klingensängerin der Shakagra
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;13.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Klingensänger sind die Kämpfer der Shakagra, ausgebildet in einem eleganttänzerischen Kampfstil, den sie selbst als eine Art Kunst sehen. Ihre Aufgaben in der Gesellschaft der Nachtalben sind vielfältig: Wächter für Tempel und hohe Persönlichkeiten, Kundschafter in der Wildnis, Krieger an vor
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;14.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;15.0;16;-1.0;Helden_des_Wolfsfrosts;1000;derster Front oder als Spione, die feindliche Siedlungen und Festungen infiltrieren. Für all diese Aufgaben nutzen sie ihre natürliche Magie, um sich zu un
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;16.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;17.0;16;-1.0;Helden_des_Wolfsfrosts;1000;terstützen – sei es durch Zauber des Merkmals
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;18.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Heilung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;16;-1.0;Helden_des_Wolfsfrosts;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;20.0;16;-1.0;Helden_des_Wolfsfrosts;1000;um Gegnern Schaden durch
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;21.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Verwandlungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;22.0;16;-1.0;Helden_des_Wolfsfrosts;1000;zuzufügen.Für spezielle Zwecke haben sich zwei deutliche Unter
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;16;-1.0;Helden_des_Wolfsfrosts;1000;gruppen herausgebildet.
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;25.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Schwarze Tänzer
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;16;-1.0;Helden_des_Wolfsfrosts;1000;sind schwer
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;27.0;16;-1.0;Helden_des_Wolfsfrosts;1000;gerüstete Kämpfer, die sich oft auf das Führen schwerer Hiebwaffen verstehen oder einen Kampfstil mit Klinge und Schild bevorzugen. Sie beherrschen eine Mischung aus offensiven und defensiven Zaubern.
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;28.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Eisgänger
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;29.0;16;-1.0;Helden_des_Wolfsfrosts;1000;sind eine recht neue Entwicklung, seit die Nachtalben an die Dere-Oberfläche strömen. Sie sind leicht bewaffnete Späher und Kundschafter in Eis und Schnee und nutzen Magie, die sie bei der Fortbewegung und Tarnung unterstützen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;30.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;31.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Aus den Tiefen Städten haben die Nachtalben ihre berühmtberüchtigten Schwarzstahlwaf
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;33.0;16;-1.0;Helden_des_Wolfsfrosts;1000;fen mitgebracht. Sie bestehen aus einer Endurium-Legierung, die sie nicht nur schwarz, son
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;35.0;16;-1.0;Helden_des_Wolfsfrosts;1000;dern auch magisch und beson
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;37.0;16;-1.0;Helden_des_Wolfsfrosts;1000;ders tödlich macht. Als Seiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;39.0;16;-1.0;Helden_des_Wolfsfrosts;1000;waffe nutzen sie meist Dolche oder Jagdmesser. Gifte sind verbreitet, um auch leich
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;41.0;16;-1.0;Helden_des_Wolfsfrosts;1000;te Verletzungen für den Gegner lebensbedrohlich zu machen. Verdiente
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Klingensänger erhalten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;43.0;16;-1.0;Helden_des_Wolfsfrosts;1000;die seltenen Schwarzstahl
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;45.0;16;-1.0;Helden_des_Wolfsfrosts;1000;rüstungen, während uner
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;47.0;16;-1.0;Helden_des_Wolfsfrosts;1000;fahrene Kämpfer sich mit Rüstungen aus Leder, Fellen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;16;-1.0;Helden_des_Wolfsfrosts;1000;oder Mammuton in hochel-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;49.0;16;-1.0;Helden_des_Wolfsfrosts;1000;fischen Schnitten begnügen müssen. Für den Aufenthalt in Eis und Schnee verfügen sie über Schneeschuhe, Schutzbril
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;16;-1.0;Helden_des_Wolfsfrosts;1000;len aus Bernstein oder Rauchglas und natür
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;53.0;16;-1.0;Helden_des_Wolfsfrosts;1000;lich warme Unterkleidung und Schutzzelte.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;54.0;16;-1.0;Helden_des_Wolfsfrosts;1300;Klingensängerin der Shakagra
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;55.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;56.0;16;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;57.0;16;-1.0;Helden_des_Wolfsfrosts;1000;302 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;58.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;59.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Spezies Nachtalb (18 AP), Sonderfertigkeit Tradition (Nachtalben) (135 AP), Kultur Nai Ashyrr (55 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;60.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;61.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für 8 AP, Finte I, Schlachtlied 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;62.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Passender Zauberstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;63.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Eisgänger (12 AP) oder Schwarzer Tänzer (20 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;64.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;65.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Bögen 10, Raufen 10,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;66.0;16;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;67.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Schwerter 12, Stangenwaffen 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;68.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;69.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 4, Selbstbeherrschung 3, Sinnesschärfe 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;71.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;72.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Einschüchtern 4, Willenskraft 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;73.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;74.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 4, Orientierung 3, Wildnisleben 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;75.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;76.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Geschichtswissen 3, Götter & Kulte 3, Magiekunde 4, Sagen & Legenden 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;77.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;78.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Holzbearbeitung 4, Musizieren 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;79.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Zauber
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;80.0;16;-1.0;Helden_des_Wolfsfrosts;1000;ein Zaubertrick aus folgender Liste: Eiskalter Blick, Elfenhaar, Luftstoß, Trocken, Warmes Blut<br> Attributo (Körperkraft) 4, Axxeleratus 5, Dunkelheit 3, Firnlauf 4, Fulminictus 4, Höllenpein 5, Gletscherform 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;81.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDType0Font/PDCIDFontType2, PostScript name: QRVHHI+GentiumBasic;false;false;82.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Affinität zu Dämo
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;83.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-nen, Altersresistenz, Hohe Seelenkraft
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;84.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;85.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Hitzeemp-
+PDType0Font/PDCIDFontType2, PostScript name: QRVHHI+GentiumBasic;false;false;86.0;16;-1.0;Helden_des_Wolfsfrosts;1000;findlich,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;87.0;16;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;88.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Körpergebundene Kraft, Lästige Mindergeister,
+PDType0Font/PDCIDFontType2, PostScript name: QRVHHI+GentiumBasic;false;false;89.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Lichtempfindlich, Persönlich
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;90.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-keitsschwäche (Weltfremd), Unfähig (Gesellschaftstalente)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;91.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;92.0;16;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;93.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;94.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Angst vor ... (Toten und Untoten), Niedrige Seelenkraft, Schwer zu verzaubern
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;95.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Varianten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;96.0;16;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;97.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Eisgänger
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;98.0;16;-1.0;Helden_des_Wolfsfrosts;1000;(303 AP): Bögen 12 statt 10, Schwerter 8 statt 12, Einschüch
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;99.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;100.0;16;-1.0;Helden_des_Wolfsfrosts;1000;tern 0 statt 4, Verbergen 4 statt 0, Tierkunde 4 statt 0, Magiekunde 2 statt 4, Sturmlied 5 statt Schlachtlied, Exposami 5 statt Attributo (Kör
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;101.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;102.0;16;-1.0;Helden_des_Wolfsfrosts;1000;perkraft), Falkenauge 4 statt Fulminictus
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;103.0;16;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;104.0;16;-1.0;Helden_des_Wolfsfrosts;1000;Schwarzer Tänzer
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;105.0;16;-1.0;Helden_des_Wolfsfrosts;1000;(302 AP): Hiebwaffen oder Zweihandhiebwaffen 12 statt Schwerter 12, Schilde 10 statt Bögen 10Der Zauberstil kann unabhängig davon ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;106.0;16;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;107.0;16;-1.0;Helden_des_Wolfsfrosts;1000;wählt werden, ob und für
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;108.0;16;-1.0;Helden_des_Wolfsfrosts;1000;welche Variante du dich entschieden hast.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;17;-1.0;Helden_des_Wolfsfrosts;1300;Nuan (Nivesisches Wolfskind)
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;17;-1.0;Helden_des_Wolfsfrosts;1000;In alten Zeiten waren Verbindungen zwischen Wölfen und Menschen bei den Nivesen keine Seltenheit, beruht doch ihr gesamtes Glaubenssystem auf dem Pantheon der Him
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;17;-1.0;Helden_des_Wolfsfrosts;1000;melswölfe, deren Hauptgötter Grispelz und Gorfang einst einen Menschen und einen Wolf als ihre Kinder zeugten. Nach etlichen Jahren der Entfremdung beider Spezies voneinander fließt das Blut der Himmelswölfe nur noch schwach in den meisten Nivesen. Einige wenige sind ihren Urahnen jedoch noch immer so nah, dass sie regelmäßig für einen Tag ihre Gestalt ändern können, um als Wolf die Tundren des Nordens zu durchstreifen. Diese Wolfs
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;17;-1.0;Helden_des_Wolfsfrosts;1000;kinder sind magiebegabt und können in beiden Gestalten mit Zauberkraft ihre Sinne schärfen, ihre Geschwindig
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;17;-1.0;Helden_des_Wolfsfrosts;1000;keit steigern und der unerbittlichen Kälte widerstehen. Manche Wolfskinder haben nicht die volle Kontrolle über ihren Formwechsel, sodass es bei starken Gefühlen bis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;17;-1.0;Helden_des_Wolfsfrosts;1000;weilen zu unerwünschten Verwandlungen kommen kann. Nichtsdestotrotz sind alle Wolfskinder in der nivesischen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft geachtet, erinnern sie die Ältesten doch an
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;17;-1.0;Helden_des_Wolfsfrosts;1000;die guten alten Zeiten ihres Volkes, als Wolf und Mensch zusammenlebten und manchmal sogar gemeinsame Nach
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;17;-1.0;Helden_des_Wolfsfrosts;1000;kommen zeugten, um die Stämme zu führen.Die Bindung zur Gemeinschaft ist den meisten Nivesen heilig, sodass auch das Wolfskind nur aus dringlichen Gründen seine Sippe zurücklassen wird. Dagegen steht die unglaubliche Vielfalt an Sagen des Volkes, die an langen Winterabenden die Abenteuerlust so mancher Nivesen erwecken kann und von Orten unter dem Eis zu berichten weiß, an die seit Ewigkeiten keine Pfote mehr gesetzt wurde. Bei allem darf auch nicht vergessen wer
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;17;-1.0;Helden_des_Wolfsfrosts;1000;den, dass der nomadische Lebensstil der meisten Sippen dem Wolfskind eine Affinität zur Reise und eine gewis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;18.0;17;-1.0;Helden_des_Wolfsfrosts;1000;se Neugier einzuflößen vermag, die gerade dem Wolf im Manne die Welt als Spielplatz vermittelt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;17;-1.0;Helden_des_Wolfsfrosts;1300;Nuan (Nivesisches Wolfskind)
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;20.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;17;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;17;-1.0;Helden_des_Wolfsfrosts;1000;350 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Kultur: Nivesen, Vorteil Zauberer (25 AP), Sonderfertigkeit Tradition (Animisten) (125 AP), Ahnenblut Wolfsblütig (15 AP), Ahnenblut-Vorteil Wolfskind (20 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 6 Abenteuerpunkte, Bindung der Waffe
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Passender Talentstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Weg des Jägers (8 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;29.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Bögen 8, Raufen 10, Stangenwaffen 12
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;31.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;32.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 5, Selbstbeherrschung 5, Sinnesschärfe 6, Verbergen 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;34.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Einschüchtern 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: KBJEWU+GentiumBasic;false;false;37.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 6, Orientierung 5, Pflanzen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-kunde 3, Tierkunde 5, Wildnisleben 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;39.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Götter & Kulte 4, Sagen & Legenden 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;41.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Heilkunde Krankheiten 3, Heilkunde Wun-
+PDType0Font/PDCIDFontType2, PostScript name: KBJEWU+GentiumBasic;false;false;43.0;17;-1.0;Helden_des_Wolfsfrosts;1000;den 5, Holzbearbeitung 4, Lederbearbeitung 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;44.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Zauber/Magische Handlungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;45.0;17;-1.0;Helden_des_Wolfsfrosts;1000;ein Zaubertrick aus folgender Liste: Handwärmer, Trocken<br> Zauber: Adlerauge 6, Axxeleratus 4, Firnlauf 5: Animistenkräfte: Großer Sprung 4, Immunität gegen
+PDType0Font/PDCIDFontType2, PostScript name: KBJEWU+GentiumBasic;false;false;46.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Kälte 6, Talentverbesserung 5, Unerschöpflich 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Dunkelsicht, Flink, Heraus-
+PDType0Font/PDCIDFontType2, PostScript name: KBJEWU+GentiumBasic;false;false;49.0;17;-1.0;Helden_des_Wolfsfrosts;1000;ragender Sinn (Gehör oder Geruch), Schutzgeist,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Magische Einstimmung (Wesen der Nacht)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Sensibler Geruchssinn, Schlechte Eigenschaft (Neugier), Persönlichkeits-
+PDType0Font/PDCIDFontType2, PostScript name: KBJEWU+GentiumBasic;false;false;53.0;17;-1.0;Helden_des_Wolfsfrosts;1000;schwäche (Weltfremd), Verpflichtungen (Sippe),
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;54.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Wilde Magie
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;55.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;17;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;57.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Behäbig, Unfähig (Naturtalente)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;59.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;60.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Wolfskinder sind meist als Späher unterwegs und tragen deshalb stets Waffen wie zum Beispiel Speere, Pfeil und Bogen oder Knüppel mit sich. Als Animistenwaffe tragen sie einen leichten Speer, der auch Wolfsspeer genannt wird. Der harte Nordwind nimmt ihnen die Entscheidung der Klei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;61.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;62.0;17;-1.0;Helden_des_Wolfsfrosts;1000;dungswahl ab, sodass man sie in ihrer Heimat ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;63.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;64.0;17;-1.0;Helden_des_Wolfsfrosts;1000;wöhnlich in dichten Pelz gehüllt antrifft, der mit persönlichen Trophäen oder Fundstücken deko
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;65.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-riert wird. Man
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;66.0;17;-1.0;Helden_des_Wolfsfrosts;1000;reist vorzugswei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;67.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-se mit wenig Ge-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;68.0;17;-1.0;Helden_des_Wolfsfrosts;1000;päck, um bei der
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;69.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Verwandlung im
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;70.0;17;-1.0;Helden_des_Wolfsfrosts;1000;Zweifelsfall nichts Wertvolles zu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;71.0;17;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;72.0;17;-1.0;Helden_des_Wolfsfrosts;1000;rücklassen zu müssen.
+PDTrueTypeFont TVAJEL+Andalus;false;false;73.0;17;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;1.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Ein Zauberweber der Nachtalben birgt für die meisten Heldengruppen ein gro
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;2.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ßes Konfliktpotenzial und taugt, wenn er seinen Motiven treu bleibt, höchs
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;18;-1.0;Helden_des_Wolfsfrosts;1000;tens zum Antihelden.Sprich einen solchen Charakter also mit deinen Mitspielern ab. Am bes
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ten eignet er sich für spezielle The
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;18;-1.0;Helden_des_Wolfsfrosts;1000;mengruppen. Die Werte können dir auch als Inspiration für NSC
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;18;-1.0;Helden_des_Wolfsfrosts;1000;dienen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;11.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Auch wenn Schwarzstahl ihre Zauberei nicht behindert, bevorzugen Zauberweber leichte Kleidung, die sie in ihrer Bewegungsfrei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;18;-1.0;Helden_des_Wolfsfrosts;1000;heit beim Zaubern nicht einschränkt. Wei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;18;-1.0;Helden_des_Wolfsfrosts;1000;che Tuniken, Hosen aus Leder und fließen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;18.0;18;-1.0;Helden_des_Wolfsfrosts;1000;de Roben aus dunklen Stoffen, oft verziert mit den Symbolen des Shakagoran, sind üblich. An Bewaffnung führen sie meist nur einen Dolch oder ein leichtes Kurzschwert, denen mit Gift zusätzlicher „Biss“ verliehen wird. Befinden sie sich auf Reisen, so sind ihre Utensilien zum Beschwören und Zaubern griffbereit in einer Umhängetasche. Sonsti
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;20.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ges Gepäck tragen sie selten selbst.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;18;-1.0;Helden_des_Wolfsfrosts;1300;Zauberweber der Shakagra
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;22.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Auch wenn alle Nachtalben eine natürliche Magiebe
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;18;-1.0;Helden_des_Wolfsfrosts;1000;gabung besitzen, so sind es doch ihre Zauberweber, bei denen der Schwerpunkt auf ihre magische Ausbildung gesetzt wird. Oft entwickeln sich aus ihnen Anführer, die das große Ganze der Pläne der Shakagra im Blick be
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;26.0;18;-1.0;Helden_des_Wolfsfrosts;1000;halten und vorantreiben. Wesentlich häufiger noch sind Gelehrte und Forscher, die alte Ruinen der Hochelfen untersuchen oder die Fähigkeiten der Feinde der Nacht
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;27.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;28.0;18;-1.0;Helden_des_Wolfsfrosts;1000;alben analysieren und Wege ersinnen, wie man ihnen begegnen kann. Letztlich sind sie auch die „Baumeister“ ihres Volkes, die mit ihrer Macht über die Elemente und die 7. Sphäre filigrane Hallen ebenso errichten wie na
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;30.0;18;-1.0;Helden_des_Wolfsfrosts;1000;hezu unbezwingbare Festungen. Viele sind darüber hi
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;32.0;18;-1.0;Helden_des_Wolfsfrosts;1000;naus geschult im Erschaffen von magischen Artefakten und Waffen sowie Giften und Alchimika.Bei den recht ausgeglichen unterrichteten Zauberwe
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;34.0;18;-1.0;Helden_des_Wolfsfrosts;1000;bern haben sich vor allem zwei Spezialisierungen ent
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;36.0;18;-1.0;Helden_des_Wolfsfrosts;1000;wickelt. Beide beherrschen langwierige Rituale, die ihnen Macht über die Sphären verleihen. Die
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;37.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Elementaristen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;38.0;18;-1.0;Helden_des_Wolfsfrosts;1000;auf der einen Seite rufen elementare Wesenhei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;39.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;40.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ten, denen sie weniger Dienste abbitten als sie vielmehr mit ihrer Magie dazu zwingen. Die
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;41.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Rufer der Diener
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;18;-1.0;Helden_des_Wolfsfrosts;1000;sind
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;43.0;18;-1.0;Helden_des_Wolfsfrosts;1000;hingegen speziell auf den Umgang mit den Niederhöllen geschult und knechten deren Kreaturen für die Plä
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;45.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ne der Shakagra.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;46.0;18;-1.0;Helden_des_Wolfsfrosts;1300;Zauberweber der Shakagra
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;47.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;48.0;18;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;49.0;18;-1.0;Helden_des_Wolfsfrosts;1000;218 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;50.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;51.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Spezies Nachtalb (18 AP), Sonderfertigkeit Tradition (Nachtalben) (135 AP), Kultur Nai Ashyrr (55 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;52.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für 8 AP, Sklavenlied 4
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;54.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Passender Zauberstil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Elementarist der Shakagra (12 AP) oder Rufer der Diener (15 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;56.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;57.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Dolche 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;58.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;59.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 2, Selbstbeherrschung 5, Singen 3, Sinnesschärfe 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;61.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Einschüchtern 4, Willenskraft 5
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;63.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung 2, Wildnisleben 1
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;65.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Geschichtswissen 5, Götter & Kulte 3, Magiekunde 5, Sagen & Legenden 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;67.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Musizieren 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;69.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Zauber
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ein Zaubertrick aus folgender Liste: Eiskalter Blick, Elfenhaar, Luftstoß, Trocken, Warmes Blut<br> Analys Arkanstruktur 4, Bannbaladin 3, Dunkelheit 4, Fulminictus 3, Horriphobus 5, Odem Arcanum 5, Gletscherform 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;71.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;72.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Af-
+PDType0Font/PDCIDFontType2, PostScript name: HTFABA+GentiumBasic;false;false;73.0;18;-1.0;Helden_des_Wolfsfrosts;1000;finität zu Elementaren /
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;74.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Dämonen, Altersresistenz, Hohe Astralkraft, Hohe Seelenkraft, Verbesserte Regeneration (Astralenergie)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;75.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: HTFABA+GentiumBasic;false;false;76.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Hitzeempfind
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;77.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-lich,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;78.0;18;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;79.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Körpergebundene Kraft, Lästi-
+PDType0Font/PDCIDFontType2, PostScript name: HTFABA+GentiumBasic;false;false;80.0;18;-1.0;Helden_des_Wolfsfrosts;1000;ge Mindergeister, Lichtempfindlich,
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;81.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Niedrige Lebenskraft, Persönlichkeitsschwäche (Weltfremd), Unfähig (Gesellschaftstalente)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;82.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;83.0;18;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;84.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;85.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Angst vor ... (Toten und Untoten), Niedrige Astralkraft, Niedrige Seelenkraft
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;86.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Varianten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;87.0;18;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;88.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Elementarist
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;89.0;18;-1.0;Helden_des_Wolfsfrosts;1000;(212 AP): Manifes
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;90.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;91.0;18;-1.0;Helden_des_Wolfsfrosts;1000;to 10 statt Analys Arkanstruk
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;92.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;93.0;18;-1.0;Helden_des_Wolfsfrosts;1000;tur, Elementarer Diener 5 statt Bannbaladin, Sturmlied 4 statt Sklavenlied
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;94.0;18;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;95.0;18;-1.0;Helden_des_Wolfsfrosts;1000;Rufer der Diener
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;96.0;18;-1.0;Helden_des_Wolfsfrosts;1000;(220 AP): Invoca
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;97.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;98.0;18;-1.0;Helden_des_Wolfsfrosts;1000;tio Minima 10 statt Analys Ar
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;99.0;18;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;100.0;18;-1.0;Helden_des_Wolfsfrosts;1000;kanstruktur, Invocatio Minor 5 statt Bannbaladin, Lied des Schmerzes 4 statt Sklavenlied
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;19;-1.0;Helden_des_Wolfsfrosts;1800;Geweihtenprofessionen
+PDType0Font/PDCIDFontType2, PostScript name: QTMROR+GentiumBasic-Bold;true;false;2.0;19;-1.0;Helden_des_Wolfsfrosts;1300;Ifirngeweihte
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;3.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Die langen Winter und die Gefahren der unerbittlichen Natur bestimmen das Leben in Nordaventurien. Nicht jeder kann ihnen ohne Beistand der Götter widerstehen. Da kein Sterblicher Firuns Herz erwärmen kann, beten sie zu Ifirn, seiner milden Tochter.Die Geweihte der Halbgöttin ist eine Mittlerin zwischen den Menschen und den Mächten der Natur sowie eine warmherzige Helferin in der Not. Wie die Geweihten des Firun wacht sie über die Jagd und ist in Eis und Schnee in ihrem Element, doch sieht sie es als ihre Aufgabe, denen beizustehen, die den Winter nicht allein überstehen wür
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;5.0;19;-1.0;Helden_des_Wolfsfrosts;1000;den. Ifirn sind im Norden Aventuriens mehrere Tempel geweiht, doch die Dienerin der Halbgöttin befindet sich oft auf Reisen und weiß in der Wildnis zu überleben. Da
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;7.0;19;-1.0;Helden_des_Wolfsfrosts;1000;bei sucht sie den Kontakt zu Menschen und tritt ihnen hilfsbereit gegenüber. Sie nimmt von jedem zunächst das Beste an und ist auch bereit, jenen zu verzeihen, die Feh
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;9.0;19;-1.0;Helden_des_Wolfsfrosts;1000;ler machen. Dämonen und ihren Anbetern jedoch tritt sie mit Bogen, Speer und aller Überzeugung entgegen. In jüngerer Zeit hat die Kirche der Ifirn eine noch prominente
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;11.0;19;-1.0;Helden_des_Wolfsfrosts;1000;re Rolle in der Gesellschaft übernommen und betreut nun mehrere Tempel, die einst zum Firunkult gehörten.
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;12.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Dies ist eine neue Verantwortung, in die auch manche Geweihte erst hineinwachsen muss.
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;13.0;19;-1.0;Helden_des_Wolfsfrosts;1300;Ifirngeweihte
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;14.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;15.0;19;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;16.0;19;-1.0;Helden_des_Wolfsfrosts;1000;372 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;17.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;18.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Vorteil Geweihter (25 AP),
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;19.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Nachteil Prinzipientreue I (Ifirnkirche) (–10 AP), Verpflichtungen II (Tempel, Kirche) (–20 AP), Sonderfertigkeit Tradition (Ifirnkirche) (105 AP)
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;20.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;22.0;19;-1.0;Helden_des_Wolfsfrosts;1000;insgesamt 8 Abenteuerpunkte, Fertigkeitsspezia
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;24.0;19;-1.0;Helden_des_Wolfsfrosts;1000;lisierung Götter & Kulte, Geländekunde (Eis- und Schnee-, Gebirgs-, Steppen- oder Waldkundig), Jäger
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;25.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Passender Liturgiestil
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;26.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Jägerinnen der Weißen Maid (10 AP)
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;27.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;28.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Bögen 12, Dolche 10, Raufen 8, Stangenwaffen 10
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;29.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;30.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;31.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Klettern 3, Körperbeherrschung 4, Kraftakt 3, Schwimmen 3, Selbstbeherrschung 4, Singen 2, Sinnesschärfe 5, Tanzen 2, Verbergen 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;32.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;33.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Bekehren & Überzeugen 4, Men
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;35.0;19;-1.0;Helden_des_Wolfsfrosts;1000;schenkenntnis 2, Willenskraft 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;36.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;37.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 6, Fischen & Angeln 2, Ori
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;39.0;19;-1.0;Helden_des_Wolfsfrosts;1000;entierung 4, Pflanzenkunde 4, Tierkunde 5, Wildnisleben 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;40.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;41.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Götter & Kul
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;43.0;19;-1.0;Helden_des_Wolfsfrosts;1000;te 4, Rechnen 3, Sa
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;45.0;19;-1.0;Helden_des_Wolfsfrosts;1000;gen & Legenden 3
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;46.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;47.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Heilkunde Krankhei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;49.0;19;-1.0;Helden_des_Wolfsfrosts;1000;ten 2, Heilkunde Wunden 4, Holzbearbeitung 5, Lebens
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;51.0;19;-1.0;Helden_des_Wolfsfrosts;1000;mittelbearbeitung 3, Leder
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;53.0;19;-1.0;Helden_des_Wolfsfrosts;1000;bearbeitung 3
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;54.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Liturgien
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;55.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Die Zwölf Segnun
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;57.0;19;-1.0;Helden_des_Wolfsfrosts;1000;gen (außer Glückssegen, Tranksegen und Weisheitsse
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;59.0;19;-1.0;Helden_des_Wolfsfrosts;1000;gen), Friedvolle Aura 5, Hilfe in der Not 6, Tierleid lindern 6, Tie
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;61.0;19;-1.0;Helden_des_Wolfsfrosts;1000;re beruhigen 5, Zuflucht 6
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;62.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;63.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Hohe Le
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-benskraft, Hohe Seelenkraft, Hohe
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;65.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Zähigkeit, Kälteresistenz, Mystiker, Pragmatiker, Richtungssinn, Ver
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;67.0;19;-1.0;Helden_des_Wolfsfrosts;1000;trauenerweckend, Zäher Hund
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;68.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;69.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Persön
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;71.0;19;-1.0;Helden_des_Wolfsfrosts;1000;lichkeitsschwächen (Weltfremd), Schlechte Eigenschaft (Naiv)
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;72.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;73.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Soziale
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;74.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Anpassungsfähigkeit
+PDType0Font/PDCIDFontType2, PostScript name: NFRBCO+GentiumBasic-Bold;true;false;75.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;76.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Kälteempfind
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;77.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;78.0;19;-1.0;Helden_des_Wolfsfrosts;1000;lich, Nachtblind, Persönlichkeits
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;79.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;80.0;19;-1.0;Helden_des_Wolfsfrosts;1000;schwächen (Verwöhnt), Schlechte Eigenschaft (Jähzorn, Rach
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;81.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LCSPAS+GentiumBasic;false;false;82.0;19;-1.0;Helden_des_Wolfsfrosts;1000;sucht), Zerbrechlich
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;83.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung und Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;84.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Auf Reisen kleidet sich die Ifirn
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;85.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;86.0;19;-1.0;Helden_des_Wolfsfrosts;1000;geweihte in die praktische Klei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;87.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-dung einer Kundschafterin oder
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;88.0;19;-1.0;Helden_des_Wolfsfrosts;1000;Jägerin, im Tempel dagegen trägt sie ein zeremonielles weißes Ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;89.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;90.0;19;-1.0;Helden_des_Wolfsfrosts;1000;wand. Beides schmückt sie mit Schwanenfedern.Sie ist mit Speer und Kurzbo
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;91.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;92.0;19;-1.0;Helden_des_Wolfsfrosts;1000;gen für Verteidigung und Jagd ge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;93.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;94.0;19;-1.0;Helden_des_Wolfsfrosts;1000;wappnet. Ihre Ausrüstung reicht aus, um auch Notleidenden auf dem Weg zu helfen. Es ist nicht unüblich, mehrere Feuersteine, Decken oder Messer mit sich zu tragen, um diese verschenken zu können. Als Zeremonialge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;95.0;19;-1.0;Helden_des_Wolfsfrosts;1000;-genstand dient der Geweihten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;96.0;19;-1.0;Helden_des_Wolfsfrosts;1000;der Ifirnsmantel, den sie auch oft auf Reisen trägt und der sie schützend warm hält.
+PDTrueTypeFont TVAJEL+Andalus;false;false;97.0;19;-1.0;Helden_des_Wolfsfrosts;1200;Helden des Wolfsfrosts
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Ausrüstung & Tracht
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Als Ritualgegenstand nutzt der Kasknuk eine Knochenkeule von Wolf, Bär oder Mammut und verschiedene Instrumente (die Beinflöte, die Bunga-Trommel, die Bukkaluula – ein zwölf
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;20;-1.0;Helden_des_Wolfsfrosts;1000;saitiges Zupfinstrument mit Trapezkorpus – und die Zurr – mit Darmsaiten bespann
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;20;-1.0;Helden_des_Wolfsfrosts;1000;te Holzrohre). Seine Gewänder imitieren meist Tiere wie Wolf oder Bär und sind aus deren Pelz und Haut gefertigt. Gesichts
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;20;-1.0;Helden_des_Wolfsfrosts;1000;bemalung dient zur Kommunikation mit Geisterwesen. Als Opfergaben werden Teile mächtiger Tiere und kostbare Güter wie Heilkräuter, Milch und Ho
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-nig verwendet.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;10.0;20;-1.0;Helden_des_Wolfsfrosts;1300;Kasknuk (Nivesenschamane)
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;11.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Kaskjua
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;20;-1.0;Helden_des_Wolfsfrosts;1000;(männl.: Kasknuk<br> weibl.: Kaskju) sind die Scha
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;20;-1.0;Helden_des_Wolfsfrosts;1000;manen der Nivesen und dafür zuständig, den Kontakt mit den Gottwölfen aufrechtzuerhalten. Sie fügen sich fest in die Sippenstruktur ein und verlassen selten ihre Heimat, da dies als Verrat am Stamm angesehen werden würde. Kaskjua genießen im Vergleich zu den anderen Sippenmitgliedern keine Privilegien, sondern werden in jeder Hinsicht als gleichwertige Gefährten wahrge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;20;-1.0;Helden_des_Wolfsfrosts;1000;nommen. Im Zuge des Sternenfalls haben die Nivesen die neu gewonnene Gabe der karmalen Liturgie ent
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;18.0;20;-1.0;Helden_des_Wolfsfrosts;1000;deckt, weshalb einige Sippen ihre Schamanen schmerz
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;20.0;20;-1.0;Helden_des_Wolfsfrosts;1000;lich in die Ferne schicken, um den Willen der Gottwöl
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;22.0;20;-1.0;Helden_des_Wolfsfrosts;1000;fe zu ergründen. Die Praxis der Kaskjua hat sich kaum gewandelt, besänftigen sie doch noch immer rituell die Geisterwelt und pflegen den Kontakt zu den Seelen der Toten. Kaskjua, die bei ihrer Initiationsqueste scheitern, verlassen ihre Sippe meist aus Scham, um ihre Ehre vor den Gottwölfen durch gefällige Taten wiederherzustel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;20;-1.0;Helden_des_Wolfsfrosts;1000;len. Die Initiationsqueste wird bedürfnisnah gewählt und kann etwa in der Austreibung hinterbliebener Geis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;26.0;20;-1.0;Helden_des_Wolfsfrosts;1000;ter, der Besänftigung eines Wolfsrudels oder der Suche nach einem Wolfsgeist bestehen. Zum Abschluss wird der Geprüfte in einen Trancezustand versetzt und muss ohne Hilfe wieder aus dem
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;27.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Nivaleiken
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;28.0;20;-1.0;Helden_des_Wolfsfrosts;1000;(Geisterwelt) fin
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;30.0;20;-1.0;Helden_des_Wolfsfrosts;1000;den, nachdem der Schamanenmeister ihn hineingeführt hat. Zur Prüfung qualifiziert sind Kinder mit besonde
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;32.0;20;-1.0;Helden_des_Wolfsfrosts;1000;ren Fähigkeiten, die bereits intuitiv den Dialog mit Geis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;34.0;20;-1.0;Helden_des_Wolfsfrosts;1000;terwesen suchen. Insgesamt wollen Nivesenschamanen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;20;-1.0;Helden_des_Wolfsfrosts;1000;vor allem den Frieden mit der Geisterwelt erhalten und
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;36.0;20;-1.0;Helden_des_Wolfsfrosts;1000;für ihre Sippe sorgen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;37.0;20;-1.0;Helden_des_Wolfsfrosts;1300;Nivesenschamane
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;38.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Professionspaket
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;20;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;20;-1.0;Helden_des_Wolfsfrosts;1000;319 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;41.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Kultur: Nivesen, Vorteil Geweihter (25 AP), Nachteil Prinzipientreue I (Stam-
+PDType0Font/PDCIDFontType2, PostScript name: POKGUK+GentiumBasic;false;false;43.0;20;-1.0;Helden_des_Wolfsfrosts;1000;mesregeln) (–10 AP), Verpflichtungen II (Sippe)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;20;-1.0;Helden_des_Wolfsfrosts;1000;(–20 AP), Sonderfertigkeit Tradition (Nivesenschamanen) (100 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Sprachen und Schriften für insgesamt 8 AbenteuerpunkteKampftechniken: Hiebwaffen 11, Raufen 10
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Passender Liturgiestil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Tierpriester (18 AP)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Talente
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;50.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Körper:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;51.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 5, Kraftakt 3, Selbstbeherrschung 5, Sinnesschärfe 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;52.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Gesellschaft:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Bekehren & Überzeugen 2, Etikette 4, Menschenkenntnis 4, Willenskraft 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;54.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: POKGUK+GentiumBasic;false;false;55.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung 4, Pflanzen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;20;-1.0;Helden_des_Wolfsfrosts;1000;-kunde 4, Tierkunde 4, Wildnisleben 4
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;57.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Wissen:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Geschichtswissen 4, Götter & Kulte 5, Rechnen 2, Rechtskunde 5, Sagen & Legenden 6
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;59.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Handwerk:
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Heilkunde Krankheiten 4, Heilkunde Seele 4, Heilkunde Wunden 3
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;61.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Liturgien
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Geisterfalle 5, Geistersprache 4, Geistheilung 6, Rat der Ahnen 7, Wolfsgestalt 5
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;63.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Hohe Seelenkraft, Hohe Zähigkeit, Vertrauenerweckend
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;65.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Empfohlene Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Persönlichkeitsschwächen (Arroganz, Eitelkeit)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;67.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Vorteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;20;-1.0;Helden_des_Wolfsfrosts;1000;keine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;69.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Ungeeignete Nachteile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;20;-1.0;Helden_des_Wolfsfrosts;1000;Behäbig, Unfähig (Körpertalente), Unfrei, Zerbrechlich

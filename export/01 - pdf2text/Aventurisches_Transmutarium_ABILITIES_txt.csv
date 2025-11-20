@@ -1,0 +1,66 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont MOPKTV+Andalus;false;false;1.0;155;-1.0;Aventurisches_Transmutarium;1200;Anhang
+PDTrueTypeFont MOPKTV+Andalus;false;false;2.0;155;-1.0;Aventurisches_Transmutarium;1800;Sonderfertigkeiten für Chimärologen
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;3.0;155;-1.0;Aventurisches_Transmutarium;1300;Rudelerschaffung I /II / III
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;4.0;155;-1.0;Aventurisches_Transmutarium;1000;Manche Chimärologen spezialisieren sich auf die Erschaffung von mehreren Transmutationen gleichzeitig.
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;5.0;155;-1.0;Aventurisches_Transmutarium;1000;Regel
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;6.0;155;-1.0;Aventurisches_Transmutarium;1000;Bei Stufe I/II/III kann der Zauberer winzige/kleine/mittelgroße Transmutationen im Rudel erschaffen. Es muss nur 1 Probe auf CHIMAEROFORM abgelegt werden, aber alle Kosten für jedes Exemplar müssen einzeln bezahlt werden. Die Probe wird für jedes weitere Wesen nach dem ersten um –1 erschwert.
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;7.0;155;-1.0;Aventurisches_Transmutarium;1000;Voraussetzungen Stufe
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;8.0;155;-1.0;Aventurisches_Transmutarium;1000;I:
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;9.0;155;-1.0;Aventurisches_Transmutarium;1000;Heilkunde Wunden
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;10.0;155;-1.0;Aventurisches_Transmutarium;1000;9<br> Stufe II: SF
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;11.0;155;-1.0;Aventurisches_Transmutarium;1000;Chimärenmeister
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;12.0;155;-1.0;Aventurisches_Transmutarium;1000;oder
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;13.0;155;-1.0;Aventurisches_Transmutarium;1000;
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;14.0;155;-1.0;Aventurisches_Transmutarium;1000;SF
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;15.0;155;-1.0;Aventurisches_Transmutarium;1000;Daimonidenkonstrukteur
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;16.0;155;-1.0;Aventurisches_Transmutarium;1000;, Rudelbeschwörung I<br> Stufe III: SF
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;17.0;155;-1.0;Aventurisches_Transmutarium;1000;Chimärenmeister
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;18.0;155;-1.0;Aventurisches_Transmutarium;1000;oder
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;19.0;155;-1.0;Aventurisches_Transmutarium;1000;
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;20.0;155;-1.0;Aventurisches_Transmutarium;1000;SF
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;21.0;155;-1.0;Aventurisches_Transmutarium;1000;Daimonidenkonstrukteur
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;22.0;155;-1.0;Aventurisches_Transmutarium;1000;, Rudelbeschwörung II, SF
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;23.0;155;-1.0;Aventurisches_Transmutarium;1000;Zirkelmeister
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;24.0;155;-1.0;Aventurisches_Transmutarium;1000;
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;25.0;155;-1.0;Aventurisches_Transmutarium;1000;(Transmutationen)
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;26.0;155;-1.0;Aventurisches_Transmutarium;1000;AP-Wert Stufe
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;27.0;155;-1.0;Aventurisches_Transmutarium;1000;I/II/III: 20/25/30 Abenteuerpunkte
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;28.0;155;-1.0;Aventurisches_Transmutarium;1300;Zirkelmeister (Transmutationen)
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;29.0;155;-1.0;Aventurisches_Transmutarium;1000;Ab einer gewissen Menge und Größe an Komponenten wird es für eine Person zu viel, innerhalb der Ritualdauer des CHIMAEROFORM alle nötigen Vorbereitungen zu treffen. Dabei hilft es, einen Zirkel aus Assistenten und anderen Chimärologen zur Hilfe zu haben. Ein Zirkelmeister für Transmutationen kann Aufgaben an andere deligieren und ihre Astralkraft nutzen, um das Ritual zu vollenden.
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;30.0;155;-1.0;Aventurisches_Transmutarium;1000;Regel
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;31.0;155;-1.0;Aventurisches_Transmutarium;1000;Der Held kann Transmutationen in einem Chimärologenzirkel erschaffen. Die AsP von FW in CHI-MAEROFORM / 4 (abgerundet) zusätzlichen Personen
+PDType0Font/PDCIDFontType2, PostScript name: QWOMHN+GentiumBasic;false;false;32.0;155;-1.0;Aventurisches_Transmutarium;1000;können in das Ritual einfließen. Die Kosten werden
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;33.0;155;-1.0;Aventurisches_Transmutarium;1000;gleichmäßig unter allen Zirkelmitgliedern verteilt, die über AsP verfügen und das Ritual CHIMAEROFORM beherrschen. Die Probe muss vom Zirkelmeister abgelegt werden und er muss die permanenten AsP-Kosten sowie Kosten für durch AsP-Kosten freigeschalteten Optionen in den Fokusregeln zur Erschaffung eigener Transmutationen selbst übernehmen. Wenn ein Zirkelmeister eine Rudelerschaffung anleitet, wird die Erschwernis durch zusätzliche Exemplare nach dem ersten für jedes Zirkelmitglied mit Ausnahme des Zirkelmeisters um 1 reduziert. Es können auch Personen als Assistenten einer Rudelerschaffung teilnehmen, die nicht CHIMAEROFORM beherrschen, allerdings können sie dann keine AsP, sondern nur die genannten Erleichterungen auf die Ritualprobe beitragen, wobei ihnen hierfür eine Probe auf
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;34.0;155;-1.0;Aventurisches_Transmutarium;1000;Heilkunde Wunden
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;35.0;155;-1.0;Aventurisches_Transmutarium;1000;gelingen muss. Ein Scheitern dieser Probe führt nicht zum Scheitern des Rituals, lediglich die mögliche Erleichterung durch den Assistenten kommt nicht zustande.
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;36.0;155;-1.0;Aventurisches_Transmutarium;1000;Voraussetzungen
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;37.0;155;-1.0;Aventurisches_Transmutarium;1000;SF Chimärenmeister, Chimaeroform FW 10
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;38.0;155;-1.0;Aventurisches_Transmutarium;1000;AP-Wert
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;39.0;155;-1.0;Aventurisches_Transmutarium;1000;20 Abenteuerpunkte
+PDTrueTypeFont MOPKTV+Andalus;false;false;40.0;155;-1.0;Aventurisches_Transmutarium;1800;Status
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;41.0;155;-1.0;Aventurisches_Transmutarium;1300;Übler Geruch
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;42.0;155;-1.0;Aventurisches_Transmutarium;1000;Dieser Status sorgt dafür, dass der Held extrem unangenehm riecht. Proben auf Gesellschaftstalente (außer
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;43.0;155;-1.0;Aventurisches_Transmutarium;1000;Einschüchtern
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;44.0;155;-1.0;Aventurisches_Transmutarium;1000;,
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;45.0;155;-1.0;Aventurisches_Transmutarium;1000;Menschenkenntnis
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;46.0;155;-1.0;Aventurisches_Transmutarium;1000;und
+PDTrueTypeFont YOREFX+GentiumBasic-Italic;false;true;47.0;155;-1.0;Aventurisches_Transmutarium;1000;Willenskraft
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;48.0;155;-1.0;Aventurisches_Transmutarium;1000;) sind für eine Woche um –1 zusätzlich zu eventuel-
+PDType0Font/PDCIDFontType2, PostScript name: QWOMHN+GentiumBasic;false;false;49.0;155;-1.0;Aventurisches_Transmutarium;1000;len anderen Modifikatoren erschwert. Der Geruch lässt
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;50.0;155;-1.0;Aventurisches_Transmutarium;1000;sich nicht abwaschen, nur durch andere starke Gerüche wie Parfüm für eine Stunde überdecken.
+PDTrueTypeFont MOPKTV+Andalus;false;false;51.0;155;-1.0;Aventurisches_Transmutarium;1800;Waffen der Kreaturen
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;52.0;155;-1.0;Aventurisches_Transmutarium;1000;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKampftechnik
+PDTrueTypeFont KBVELZ+GentiumBasic-BoldItalic;true;true;53.0;155;-1.0;Aventurisches_Transmutarium;1000;Schwerter
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;54.0;155;-1.0;Aventurisches_Transmutarium;1000;Shakagra-Krummsäbel
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;55.0;155;-1.0;Aventurisches_Transmutarium;1000;1W6+4GE/KK 150/0mittel0,75 Stn80 HF200 S
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;56.0;155;-1.0;Aventurisches_Transmutarium;1000;Kampftechnik
+PDTrueTypeFont KBVELZ+GentiumBasic-BoldItalic;true;true;57.0;155;-1.0;Aventurisches_Transmutarium;1000;Stangenwaffen
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;58.0;155;-1.0;Aventurisches_Transmutarium;1000;Hummerier-Speer (2H)
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;59.0;155;-1.0;Aventurisches_Transmutarium;1000;2W6+2KK 170/–3lang2 Stn260 HF200 S
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;60.0;155;-1.0;Aventurisches_Transmutarium;1000;Kampftechnik
+PDTrueTypeFont KBVELZ+GentiumBasic-BoldItalic;true;true;61.0;155;-1.0;Aventurisches_Transmutarium;1000;Zweihandhiebwaffen
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;62.0;155;-1.0;Aventurisches_Transmutarium;1000;Hummerier-Axt (2H)
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;63.0;155;-1.0;Aventurisches_Transmutarium;1000;2W6+5KK 170/–4lang2,8 Stn250 HF250 S
+PDTrueTypeFont JHBSDB+GentiumBasic-Bold;true;false;64.0;155;-1.0;Aventurisches_Transmutarium;1000;Shakagra-Kriegshammer (2H)
+PDTrueTypeFont FBDUZJ+GentiumBasic;false;false;65.0;155;-1.0;Aventurisches_Transmutarium;1000;2W6+3KK 130/–3mittel2 Stn120 HF250 S

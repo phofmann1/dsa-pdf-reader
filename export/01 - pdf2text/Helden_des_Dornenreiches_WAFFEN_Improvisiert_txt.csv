@@ -1,0 +1,85 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont UUAWIP+Andalus;false;false;43.0;74;-1.0;Helden_des_Dornenreiches;1800;Werkzeuge und improvisierte Waffen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;44.0;74;-1.0;Helden_des_Dornenreiches;1300;Krähenfüße
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;45.0;74;-1.0;Helden_des_Dornenreiches;1000;»Jeder Einbruch muss genau vorbereitet werden. Diejenigen, die erwischt werden, haben meistens nicht lange darüber nachgedacht, wie sie dem Pfad des Phex folgen und sich nur auf ihre Fähigkeiten verlassen. Überlege dir beispielsweise, wie du
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;46.0;74;-1.0;Helden_des_Dornenreiches;1000;am besten fliehen kannst. Besorge dir eine Aranische
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;47.0;74;-1.0;Helden_des_Dornenreiches;1000;Wassernuss und trockne sie, damit du ihre Blätter als Krähenfüße verwenden kannst. Wenn du er-
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;48.0;74;-1.0;Helden_des_Dornenreiches;1000;wischt wirst und fliehen musst, weißt du immerhin, wie du
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;49.0;74;-1.0;Helden_des_Dornenreiches;1000;es deinen Verfolgern schwerer machen kannst.« —Ayshara, Phexgeweihte im Dienste der Mada Basari, neuzeitlich
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;50.0;74;-1.0;Helden_des_Dornenreiches;1000;Die meisten Krähenfüße werden aus den Blättern der Aranischen Wassernuss gewonnen. Die Pflanze wächst fast überall in Aranien und ist leicht zu ernten. Es reicht
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;51.0;74;-1.0;Helden_des_Dornenreiches;1000;»Nicht zu unterschätzen. Krähenfüße sind hervorragend dazu geeignet, einen Gegner daran zu hindern, einem hinterherzurennen.«—Carolan Calavanti, Vinsalter Streuner
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;52.0;74;-1.0;Helden_des_Dornenreiches;1000;KrähenfüßeKomplexität
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;53.0;74;-1.0;Helden_des_Dornenreiches;1000;prim
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;54.0;74;-1.0;Helden_des_Dornenreiches;1000;NameKampftechnikTPLZRWMunitionstypGewichtLängePreisKrähenfüße
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;55.0;74;-1.0;Helden_des_Dornenreiches;1000;Wurfwaffen–1 Aktion4/8/12–0,075 Stn–8 S
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;56.0;74;-1.0;Helden_des_Dornenreiches;900;Anmerkung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;57.0;74;-1.0;Helden_des_Dornenreiches;1000;Das Werfen eines Krähenfußes erzeugt zunächst beim Ziel keinen Schaden. Eine gelungene Probe auf FK zeigt an, dass der Krähenfuß kurz vor dem Ziel auf dem Boden aufschlägt. Der Gegner muss eine Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;58.0;74;-1.0;Helden_des_Dornenreiches;1000;Körperbeherrschung (Kampfmanöver)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;59.0;74;-1.0;Helden_des_Dornenreiches;1000;+2 bestehen. um nicht in den Krähenfuß zu treten. Die Probe wird um die Anzahl der Krähenfüße –1 erschwert. Ein Held kann bis zu 5 Krähenfüße gleichzeitig auf das gleiche Ziel werfen. Jeder Krähenfuß nach dem ersten erhöht die FK-Probe um 1. Bei der FK-Probe dürfen keine Manöver eingesetzt werden. Werden Krähenfüße nur ausgelegt und versteckt, muss einem Helden zunächst eine Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;60.0;74;-1.0;Helden_des_Dornenreiches;1000;Sinnesschärfe (Wahrnehmen)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;61.0;74;-1.0;Helden_des_Dornenreiches;1000;gelingen, um sie zu bemerken. Tritt ein Held in einen Krähenfuß, so erleidet er 1W3+1 TP, unabhängig von der Anzahl der Krähenfüße. Entstehen dabei SP, so erleidet er zusätzlich 1 Stufe Schmerz für 5 KR und die GS –4 für 10 Minuten. Sollte die Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;62.0;74;-1.0;Helden_des_Dornenreiches;1000;Körperbeherrschung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;63.0;74;-1.0;Helden_des_Dornenreiches;1000;oder
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;64.0;74;-1.0;Helden_des_Dornenreiches;1000;Sinnesschärfe
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;65.0;74;-1.0;Helden_des_Dornenreiches;1000;gelungen sein, so hat der Held die Krähenfüße, die vor ihm lagen, unschädlich machen können, sodass sie keine weitere Gefahr darstellen.
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;75;-1.0;Helden_des_Dornenreiches;1200;Die Rüstkammer
+PDType0Font/PDCIDFontType2, PostScript name: NDOCSD+GentiumBasic-Bold;true;false;2.0;75;-1.0;Helden_des_Dornenreiches;1000;ObstpflückerKomplexität
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;75;-1.0;Helden_des_Dornenreiches;1000;prim
+PDType0Font/PDCIDFontType2, PostScript name: NDOCSD+GentiumBasic-Bold;true;false;4.0;75;-1.0;Helden_des_Dornenreiches;1000;NameKampftechnik
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;5.0;75;-1.0;Helden_des_Dornenreiches;1000;TPL+SAT/PA-ModRW
+PDType0Font/PDCIDFontType2, PostScript name: NDOCSD+GentiumBasic-Bold;true;false;6.0;75;-1.0;Helden_des_Dornenreiches;1000;GewichtLängePreisObstpflücker
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;7.0;75;-1.0;Helden_des_Dornenreiches;1000;(2H, i)Stangenwaffen1W6+1GE/KK 15–1/0lang1 Stn170 HF20 S
+PDType0Font/PDCIDFontType2, PostScript name: NDOCSD+GentiumBasic-Bold;true;false;8.0;75;-1.0;Helden_des_Dornenreiches;1000;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: MZZWEF+GentiumBasic;false;false;9.0;75;-1.0;Helden_des_Dornenreiches;1000;Sollte ein Gegner einen Angriff mit dem Obstpflücker nicht verteidigen können, erleidet er bis zum Ende der nächsten KR eine Erschwernis von 1 auf AT, da er sich kurz im Netz der Waffe verfangen hat.
+PDType0Font/PDCIDFontType2, PostScript name: NDOCSD+GentiumBasic-Bold;true;false;10.0;75;-1.0;Helden_des_Dornenreiches;1000;Waffennachteil
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;11.0;75;-1.0;Helden_des_Dornenreiches;1000;Finten
+PDType0Font/PDCIDFontType2, PostScript name: MZZWEF+GentiumBasic;false;false;12.0;75;-1.0;Helden_des_Dornenreiches;1000;sind zusätzlich um –1 erschwert.
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;13.0;75;-1.0;Helden_des_Dornenreiches;1000;aus, die Blätter zu trocknen, damit man sie als scharf
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;14.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;15.0;75;-1.0;Helden_des_Dornenreiches;1000;kantige Krähenfüße verwenden kann. Krähenfüße aus Metall sind in Aranien zwar bekannt, aber kaum ver
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;16.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;17.0;75;-1.0;Helden_des_Dornenreiches;1000;breitet, da es teurer und zeitaufwendiger ist, sie her
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;18.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;19.0;75;-1.0;Helden_des_Dornenreiches;1000;zustellen. Die Krähenfüße der Aranischen Wassernuss hingegen sind billig und ohne größeren Aufwand her
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;20.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;21.0;75;-1.0;Helden_des_Dornenreiches;1000;zustellen, man benötigt nur Geduld. Zwar sind sie nicht so stabil wie Krähenfüße aus Metall – sie zerbrechen beim Drauftreten –, aber dafür kann man sie für nur wenige Hallah in größeren Mengen kaufen.
+PDType0Font/PDCIDFontType2, PostScript name: RNMESV+GentiumBasic-Bold;true;false;22.0;75;-1.0;Helden_des_Dornenreiches;1300;Obstpflücker
+PDTrueTypeFont NHJGOD+TimesNewRomanPSMT;false;false;23.0;75;-1.0;Helden_des_Dornenreiches;800;
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;24.0;75;-1.0;Helden_des_Dornenreiches;1000;»Du hast noch nie so ein Werkzeug gesehen, du Tochter des Liebreizes? Wie kommt ihr Mittelreicher denn an eure Arangen? Wie, bei euch wachsen die Früchte gar nicht? Oh Herrin Peraine, was warst du gnädig zu unserem schönen Land und so streng zu dem der Kaiserin.Nun gut, ich will dir zeigen, für was so ein Obstpflücker gut ist, mein Kind.«—Rashanak Gerbaldsunni, Bäuerin aus der Umgebung von Untersternheim, 1027 BF
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;25.0;75;-1.0;Helden_des_Dornenreiches;1000;Beim Obstpflücker handelt es sich um ein einfaches, zugleich aber geniales Werkzeug zum Obstpflücken. An einem langen Holzstiel ist ein kleines Netzkörb
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;26.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;27.0;75;-1.0;Helden_des_Dornenreiches;1000;chen angebracht, um sicher Früchte von Bäumen zu pflücken, ohne auf den Baum klettern zu müs
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;28.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;29.0;75;-1.0;Helden_des_Dornenreiches;1000;sen. Am Obstpflücker ist zudem ein scharfkantiges Metallstück angebracht, um den Stiel des Obstes zu
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;30.0;75;-1.0;Helden_des_Dornenreiches;1000;durchschneiden.
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;31.0;75;-1.0;Helden_des_Dornenreiches;1000;Der Obstpflücker kann notfalls auch zur Verteidigung eingesetzt werden. Zwar ist er alles andere als eine gut ausbalancierte Waffe, aber es reicht aus, um damit je
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;32.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;33.0;75;-1.0;Helden_des_Dornenreiches;1000;mandem einen Stoß zu verpassen oder einen Säbelhieb abzuwehren. Noch dazu besteht die Chance, dass sich ein Gegner oder dessen Waffe im Netz verfängt und so einen kurzen Moment benötigt, um sich wieder in eine annehmbare Angriffsposition zu bringen.
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;34.0;75;-1.0;Helden_des_Dornenreiches;1000;»Darum mag ich die Aranier so. Feines Essen,
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;35.0;75;-1.0;Helden_des_Dornenreiches;1000;guter Wein und ihre Erfindungen sind sehr pe
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;36.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;37.0;75;-1.0;Helden_des_Dornenreiches;1000;rainegefällig. So einen Obstpflücker muss ich
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;38.0;75;-1.0;Helden_des_Dornenreiches;1000;mir noch zulegen, in Auen gibt es sowas nicht.«—Bruder Hilbert, Perainegeweihter»Ich habe Gerüchte gehört, dass es sogar ei-
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;39.0;75;-1.0;Helden_des_Dornenreiches;1000;nen heiligen Obstpflücker geben soll.«
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;40.0;75;-1.0;Helden_des_Dornenreiches;1000;—Carolan Calavanti, Vinsalter Streuner»Begib dich lieber nicht auf den Pfad dieser häretischen Lügengeschichten. Es gibt ebenso
+PDType0Font/PDCIDFontType2, PostScript name: PKNSQZ+GentiumBasic-Italic;false;true;41.0;75;-1.0;Helden_des_Dornenreiches;1000;wenig einen heiligen Obstpflücker wie es den
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;42.0;75;-1.0;Helden_des_Dornenreiches;1000;Mörderstorch aus den Legenden gibt, den die Brüder und Schwestern meiner Kirche zu ihrer Verteidigung herbeirufen können sollen. Beides wäre schön, doch das ist nur Aberglaube.«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont UUAWIP+Andalus;false;false;43.0;75;-1.0;Helden_des_Dornenreiches;1800;Besondere Gegenstände
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;44.0;75;-1.0;Helden_des_Dornenreiches;1300;Die Amethystlöwin
+PDTrueTypeFont NHJGOD+TimesNewRomanPSMT;false;false;45.0;75;-1.0;Helden_des_Dornenreiches;800;
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;46.0;75;-1.0;Helden_des_Dornenreiches;1000;»Mein Sohn, nimm diese Waffe an dich. Einst führte dein Namensvetter Arkos der Große sie. Nun gehört sie dir und dereinst deinem Sohn. Nutze ihre Kraft zum Wohlergehen deines Volkes und im Namen der Götter.«—Mondsilbersultana Sybia zu ihrem Sohn Arkos, während der Übergabe der Amethystlöwin, 1022 BF
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;47.0;75;-1.0;Helden_des_Dornenreiches;1000;Das Königsschwert Araniens ist die Amethystlöwin, eines der legendären Löwinnenschwerter, der zwölf Gründer des Theaterritterordens. Die Waffe gehör
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;48.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;49.0;75;-1.0;Helden_des_Dornenreiches;1000;te einst dem legendären König Arkos dem Großen von Zorgahan und wurde an die Herrscher Araniens weitergereicht. Viele Jahre später führte der Hel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;50.0;75;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;51.0;75;-1.0;Helden_des_Dornenreiches;1000;denkönig Amaryd die Amethystlöwin gegen die machtvolle Dämonin Shaz-Man-Yat und es gelang ihm, der scheußlichen Kreatur das Schwert in die Brust zu rammen, woraufhin sie versteinerte. Erst
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;52.0;75;-1.0;Helden_des_Dornenreiches;1000;Heilig
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;53.0;75;-1.0;Helden_des_Dornenreiches;900;Berührungsschaden: Eine kurze Berührung er
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;54.0;75;-1.0;Helden_des_Dornenreiches;900;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;55.0;75;-1.0;Helden_des_Dornenreiches;900;zeugt bei Dämonen 1W6 SP, dauerhafter Kon
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;56.0;75;-1.0;Helden_des_Dornenreiches;900;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;57.0;75;-1.0;Helden_des_Dornenreiches;900;takt wird jede Kampfrunde schädlicher. In der ersten Kampfrunde sind es noch 1W6 SP, in der zweiten 1W6+1, in der dritten 1W6+2, usw. Von der jeweiligen Gegengottheit geheiligtes Material ver
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;58.0;75;-1.0;Helden_des_Dornenreiches;900;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;59.0;75;-1.0;Helden_des_Dornenreiches;900;doppelt den Schaden.Waffenschaden: Angriffe mit heiligen Waffen be
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;60.0;75;-1.0;Helden_des_Dornenreiches;900;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;61.0;75;-1.0;Helden_des_Dornenreiches;900;wirken bei Dämonen regulären Schaden. Angriffe mit heiligen Waffen der Gegengottheit erzeugen doppelte Trefferpunkte. Die Trefferpunkte werden ausgewürfelt, dann verdoppelt, anschließend wird der Rüstungsschutz abgezogen.

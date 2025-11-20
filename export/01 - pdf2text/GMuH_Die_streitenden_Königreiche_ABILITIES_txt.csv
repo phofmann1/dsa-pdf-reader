@@ -1,0 +1,517 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont SDSEYD+Andalus;false;false;2.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1300;Waffenbau
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;4.0;16;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Nicht jeder Schmied versteht sich darauf, Schwerter und andere Waffen herzustellen. Vor allem leichte und geschwungene Klingen sind schwierig zu schmieden und erfordern viel Geschick vom Schmied.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;6.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Nur Handwerker, die sich mit dem Herstellen von Waffen auseinandergesetzt haben, sind auch in der Lage, richtige Waffen anzufertigen. Durch diese Sonderfertigkeit erlangt der Held das neue Anwendungsgebiet
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;8.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Waffenherstellung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;in den Talenten
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;10.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Holzbearbeitung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;,
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;12.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Metallbearbeitung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;und
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;. Damit kann er einfache und komplexe Waffen herstellen. Für komplexe Waffen benötigt er zusätzlich ein entsprechendes Berufsgeheimnis.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;16.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;je nach verwendeten Waffenmaterial: Holzbearbeitung 8, Metallbearbeitung 8 oder Steinbearbeitung 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;18.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;12 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;20.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1800;Talentstilsonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;21.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1300;Weg der Bognerin
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Bau eines echten nostrianischen Langbogens erfordert ausgezeichnete Materialien, viel Geduld und eine sorgfältige Ausbildung.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bei Proben zur Herstellung, Reparatur oder Verbesserung von Waffen der Kampftechnik
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;25.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bögen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;erhält ein Held mit dieser Sonderfertigkeit eine Erleichterung von +1.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gute Verarbeitung, Handwerkskunst, Routinierte Praxis
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;Holzbearbeitung 8, SF Waffenbau
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;16;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;33.0;16;-1.0;GMuH_Die_streitenden_Königreiche;3100;SONDERFERTIGKEITEN
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1300;Weg des Deichbauers
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;2.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Bau und die Instandhaltung dichter und stabiler Deiche, um küstennahes Flachland vor Überschwemmungen zu schützen, sind wahrhaft eine Kunst für sich.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bei einer gelungenen Probe
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;5.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung (Deichbau
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;oder
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;7.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Maurerarbeiten)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;erhält der Held +1 FP (bis zu einem Maximum von 18 FP). Außerdem benötigt der Held bei Erfolgs- und Sammelproben auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;9.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;nur die Hälfte der angegebenen Zeit bzw. der angegebenen Intervall-Dauer.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerkskunst, Kraftanstrengung, Virtuose Wettervorhersage
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung 8, SF Deichbauer
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;15.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;16.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;3 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;17.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1300;Weg des Holzfällers
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;18.0;17;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Holzfäller kann wie kein anderer die schwere Holzfälleraxt schwingen. Oft muss er sie zudem gegen Räuber oder wilde Tiere einsetzen, sodass er eine gewisse Kampferfahrung mit dem wuchtigen Werkzeug aufweist.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;20.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verfügt ein Held über diese Sonderfertigkeit, kennt er sich im Umgang mit der Holzfälleraxt so gut aus, dass sie in seinen Händen 1 Punkt weniger PA-Ab-
+PDType0Font/PDCIDFontType2, PostScript name: LOBXSW+GentiumBasic;false;false;22.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;züge beim PA-Modifikator sowie +1 TP einbringt. Zu
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;-dem gilt sie für ihn nicht als improvisierte Waffe.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;24.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gute Verarbeitung, Handwerkskunst, Kraftanstrengung
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Holzbearbeitung 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;5 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;30.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1300;Gute Verarbeitung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eine gute Verarbeitung sorgt für einen höheren Wert eines hergestellten Gegenstands. Helden, die sich die notwendige Mühe machen, ein Objekt mit Liebe und Sorgfalt zu erschaffen, können dadurch den Verkaufspreis
+PDType0Font/PDCIDFontType2, PostScript name: LOBXSW+GentiumBasic;false;false;33.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;beeinflussen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;34.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;35.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Held kann sich ein Handwerkstalent aussuchen, das zu seiner Profession passt. Wenn er damit etwas herstellt, steigt der Verkaufspreis des Objektes aufgrund der gelungenen Verarbeitung oder der besonderen Schönheit um 10 %.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;36.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;37.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Talentstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;38.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;39.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;5 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;40.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1300;Handwerkskunst
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;41.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Nicht jeder Aventurier kennt sich in jedem Handwerk gleich gut aus. Jene Handwerker, die ein bestimmtes Gebiet gemeistert haben, können leichter großartige Objekte herstellen als einfache Gesellen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;42.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;43.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einige Handwerkstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;44.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;45.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Talentstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;46.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;47.0;17;-1.0;GMuH_Die_streitenden_Königreiche;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;2.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Kraftanstrengung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;3.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Manchmal wird von einem Helden eine wahre Kraftanstrengung eingefordert. Wer darin Übung hat, kann diese leisten, ist danach aber auch entsprechend erschöpft.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Held kann seinen FW in Kraftakt für eine Handlung um 4 erhöhen (bis zum Maximum der Fertigkeit für maximal 1 Minute). Danach erleidet er 1 Stufe
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;6.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Betäubung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;8.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Talentstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;10.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Routinierte Praxis
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eine gute Handwerkerin beherrscht ihre Kunst wie im Schlaf. Es scheint fast so, als wüssten ihre Finger ganz von selbst, welche Bewegungen sie zu vollführen haben.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;14.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Beim Einsatz von Handwerkstalenten, in denen der Held mindestens einen FW von 6 aufweist, erhält er bei Teilproben auf FF eine Erleichterung von +1.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;16.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Talentstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;18.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;8 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;20.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Virtuose Wettervorhersage
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;21.0;18;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Manch einer hat die Interpretation von Wolkenbewegungen und Windwechseln derartig perfektioniert, dass kein Unwetter ihn mehr unvorbereitet überraschen kann.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ein Held mit dieser Sonderfertigkeit erzielt bei gelungenen Proben auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;25.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wildnisleben (Wettervorhersage)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;+1 QS (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Talentstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;3 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;31.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Seenritter-Stil
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;33.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;(passiv)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;34.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;35.0;18;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Den Seenrittern Nostrias sagt man nach, dass sie besonders geschickt darin sind, feindlichem Beschuss auszuweichen, um möglichst unversehrt die Bogen- und Armbrustschützen des Gegners niederzureiten.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kämpft der Held beritten gegen Fußkämpfer, erhöht sich die aus der
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;39.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteilhaften Position
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;resultierende Erleichterung auf AT um 2 (siehe
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;41.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regelwerk
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seite
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;43.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;238/240
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;44.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;). Aufgrund ihrer Beweglichkeit sind Proben auf FK gegen die Seenritterin und ihr Pferd, solange sie reitet, um –2 erschwert.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;45.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;46.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Frontalangriff, Mächtiger Lanzenangriff, Sprung vom Reittier
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;47.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;48.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;MU 13, SF Berittener Kampf
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;49.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;50.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;alle Nahkampftechniken
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;51.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;52.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;12 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;53.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Waldritter-Stil
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;54.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;(passiv)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;55.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;56.0;18;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;57.0;18;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;58.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Andergaster Waldritter sind berüchtigt für ihre verheerenden Lanzenangriffe, die Gegner mit fürchterlicher Wucht treffen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;59.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;60.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Held bekommt einen Bonus von +2 TP bei Nahkampfangriffen, wenn er sich auf dem Rücken
+PDType0Font/PDCIDFontType2, PostScript name: PBEMIJ+GentiumBasic;false;false;61.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;eines Reittiers befindet. Außerdem zählt Wald bei
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;62.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verfolgungsjagden auf ihrem Pferd nicht als schwieriges, sondern als normales Gelände (siehe
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;63.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regelwerk
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;64.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seite
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;65.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;349
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;66.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;67.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;68.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Durchbohrung, Frontalangriff, Mächtiger Lanzenangriff
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;69.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;70.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;MU 13, SF Berittener Kampf
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;71.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;72.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;alle Nahkampftechniken
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;73.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;74.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;12 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;75.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1800;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;76.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;Durchbohrung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;77.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Spezialmanöver)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;78.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;79.0;18;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;80.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dieser mächtige Angriff spießt den Feind mit der Kriegs-
+PDType0Font/PDCIDFontType2, PostScript name: PBEMIJ+GentiumBasic;false;false;81.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;lanze auf und fixiert ihn an einem Baum, einer Mauer
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;82.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;oder schleudert ihn zu Boden.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;83.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;84.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Held kann mit einer Kriegslanze versuchen, einen Gegner zu durchbohren. Das Durchbohren-Manöver kann nur gegen gleichgroße Gegner oder solche der nächstkleineren Größenkategorie angewandt werden. Der Held muss die Kriegslanze loslassen, gleich ob der Angriff ge- oder misslungen ist. Misslingt die AT, so steht dem Gegner ein Passierschlag zu. Gelingt die um –6 (Gegner soll an einen Baum oder einer Wand aufgespießt werden und erleidet den Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;85.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fixiert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;86.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;) bzw. –8 (Gegner wird am Boden festgenagelt und erleidet den Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;87.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;Liegend
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;88.0;18;-1.0;GMuH_Die_streitenden_Königreiche;1000;) erschwerte AT und misslingt die Verteidigung, so ist das
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;1.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Opfer durchbohrt worden. In den nachfolgenden KR erleidet der Getroffene solange Schaden, wie die Lanze in ihm steckt. Immer zu Beginn einer KR erleidet er 1W3 SP. Das Opfer erhält den Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;2.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fixiert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;3.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;oder
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;4.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Liegend
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;. An einen Baum oder eine Wand kann ein Opfer
+PDType0Font/PDCIDFontType2, PostScript name: KNBIZY+GentiumBasic;false;false;6.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;nur fixiert werden, wenn sich dieses Hindernis hinter
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;dem Opfer und innerhalb einer Reichweite gleich der
+PDType0Font/PDCIDFontType2, PostScript name: KNBIZY+GentiumBasic;false;false;8.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;GS des Reittiers befindet. Um das Opfer von der Lan
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: KNBIZY+GentiumBasic;false;false;10.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;ze zu befreien, muss ihm oder einem anderen Helden
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;eine Probe auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;12.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kraftakt (Ziehen & Zerren)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;erschwert um –2 gelingen. Jede Probe kostet 1 Aktion. Bei Gelingen endet der Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fixiert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;automatisch, der Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Liegend
+PDType0Font/PDCIDFontType2, PostScript name: KNBIZY+GentiumBasic;false;false;17.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;ist davon jedoch nicht betroffen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;18.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erschwernis
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;–6 / –8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;20.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Lanzenangriff, passende Kampfstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;22.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen (nur Kriegslanzen)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;24.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;20 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;Frontalangriff
+PDType0Font/PDCIDFontType2, PostScript name: KNBIZY+GentiumBasic;false;false;27.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Spezialmanöver)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;29.0;19;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der gefürchtete Frontalangriff eines Ritters sorgt dafür, dass er einen Gegner sowohl durch Niederreiten mit seinem Reittier angreift als auch mit seiner Lanze.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Frontalangriff ist ein eigener Befehl, der den Befehl Niederreiten mit einem normalen Lanzenangriff kombiniert. Der ausgewählte Gegner muss sich sowohl gegen die Attacke durch das Niederreiten des Pferds als auch anschließend mit der Attacke durch den Lanzenangriff des Reiters auseinandersetzen. Beide AT sind um –4 erschwert. Dieser Angriff lässt sich nur gegen Gegner mit der Größenkategorie des Reiters oder kleiner einsetzen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erschwernis
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;–4
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Lanzenangriff, passende Kampfstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;25 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;41.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;Mächtiger Lanzenangriff
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;(passiv)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;43.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;44.0;19;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;45.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ritter sind bekannt dafür, dass sie Meister im Umgang mit der Lanze sind. Und gerade gegen große Ungeheuer lässt sich eine Lanze hervorragend einsetzen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;46.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;47.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Mit dem
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;48.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Mächtigen Lanzenangriff
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;49.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;kann die Heldin +2 TP gegen Wesen erzielen, die als Ungeheuer klassi-
+PDType0Font/PDCIDFontType2, PostScript name: PBEMIJ+GentiumBasic;false;false;50.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;fiziert sind, sofern sie die Größenkategorie groß oder
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;51.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;riesig aufweisen. Ansonsten funktioniert dieses Manöver wie der normale Lanzenangriff.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;52.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;53.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Lanzenangriff, passende Kampfstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;54.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;55.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;56.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;57.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;5 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;58.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;Sprung vom Reittier
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;59.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Spezialmanöver)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;60.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont SDSEYD+Andalus;false;false;61.0;19;-1.0;GMuH_Die_streitenden_Königreiche;800;BK
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;62.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einige Reiterkämpfer beherrschen ein riskantes Manöver, bei dem sie ihr eigenes Wohl aufs Spiel setzen. Mit einem gewagten Sprung aus vollem Galopp kann man den Gegner überraschen und ihn schwer verletzen – vorausgesetzt, man erwischt den richtigen Moment.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;63.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;64.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Befindet sich das Reittier im Galopp und ein Gegner zu Fuß befindet sich innerhalb der Angriffsdistanz, so kann der Held entscheiden, von seinem Pferd auf den Gegner zu springen. Zunächst muss ihm statt einer AT eine Probe auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;65.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körperbeherrschung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;66.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;67.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Kampfmanöver)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;68.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;erschwert um –2 gelingen. Misslingt die Probe, hat er sein Ziel verfehlt und erleidet Sturzschaden (Sturz vom Pferd (Galopp), siehe
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;69.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regelwerk
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;70.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seite
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;71.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;340
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;72.0;19;-1.0;GMuH_Die_streitenden_Königreiche;1000;). Gelingt die Probe, so kann der Gegner nur mit einer um –2 erschwerten Probe auf AW dem Schaden entgehen. Gelingt die Probe des Gegners, so muss sich der Held ebenfalls mit dem Sturzschaden auseinandersetzen. Misslingt die Probe, so erleidet der Gegner Schaden in Höhe der TP der eingesetzten Waffe der Heldin + der halben
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;2.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;GS des Reittiers. Der Gegner erleidet zudem 2 Stufen
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;3.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Betäubung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;und sowohl der Gegner als auch der Held erleiden den Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;5.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Liegend
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;. Dieses Spezialmanöver ist mit keinem Basismanöver kombinierbar.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Berittener Kampf, passende Kampfstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;13.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1800;Allgemeine magische Sonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;14.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Materielle Verbindung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eine materielle Verbindung erlaubt es, den Willen und die Widerstandskraft gegen Magie bei einem Ziel zu schwächen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;16.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verfügt der Zauberer über eine körperliche Komponente seines Ziels (ein Büschel Haare, eine kleine Phiole Blut usw.), dann sinken SK und ZK des Ziels gegen Zauber und magische Handlungen um 1 Punkt.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;18.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;20.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;12 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;22.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1800;Zauberstilsonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Brecher des Willens
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Brecher des Willens können die Widerstandskraft des menschlichen Geistes fast vollkommen durchdringen, ohne sich dafür anstrengen zu müssen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bei Zaubern und Herrschaftsritualen mit dem
+PDType0Font/PDCIDFontType2, PostScript name: OMCPYQ+GentiumBasic;false;false;27.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Merkmal Einfluss verringert sich die SK des Ziels um 1.
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bei Herrschaftsritualen wird erst nach der Halbierung der SK 1 abgezogen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geisterfreundin, Machtvolle materielle Verbindung, Unverstellter Blick
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Druiden)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Jägerinnen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Jägerinnen haben es sich zur Aufgabe gemacht, Hexenjäger auszuschalten. Sie sind besonders geübt in Kampfzauberei.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alle TP oder SP verursachenden Zauber richten bei einer Jägerin grundsätzlich 1 TP bzw. SP mehr an.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bewegungszauberei, Macht des Hasses, Meisterliches Auraverbergen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;41.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Hexen)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;43.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;44.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;45.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Nattern der Nacht
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;46.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Schlangenhexen, die sich meist im nördlichen Aventurien aufhalten, sind stark mit der Erde verbunden und ziehen daraus eine besondere Form der Konzentrationsstärke bei Zaubern.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;47.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;48.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Solange eine Natter der Nacht in direktem Kontakt mit dem Erdboden steht, sind KL-Teilproben bei Zaubersprüchen um +1 erleichtert.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;49.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;50.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erdkraft, Meisterliches Auraverbergen, Wissensaustausch
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;51.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;52.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Hexen)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;53.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;54.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;55.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Scholar der Akademie von Licht und Dunkelheit zu Nostria
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;56.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Nostrianer haben sich auf Zauber konzentriert, welche auf leblose Gegenstände gewirkt werden.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;57.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;58.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber, die auf die Zielkategorie Objekte wirken, haben für Nostrianer eine Erleichterung von +1.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;59.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;60.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Begnadeter Objektzauberer, Eiserne Konzentrationsstärke, Matrixzauberei
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;61.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;62.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Gildenmagier)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;63.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;64.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;65.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Scholar des Kampfseminars zu Andergast
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;66.0;20;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;67.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Kampfmagier des Andergaster Seminars gehören zu den Zauberern, deren Magie die stärkste Zerstörungskraft aufweist.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;68.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;69.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bei Zaubern, die TP oder SP verursachen und bei denen zur Schadensbestimmung mindestens 1W6 gewürfelt werden muss, können Andergaster Magier einen W6 nochmal würfeln und das bessere Ergebnis wählen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;70.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;71.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Destruktor, Kriegszauberer, Machtvolle Verbotene Pforten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;72.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;73.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Gildenmagier)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;74.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;75.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;20 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;76.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1300;Wächter der Göttin
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;77.0;20;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Wächter der Göttin sehen sich mit der Tradition der Hexen so sehr verbunden, dass sie deren Formeln leicht erlernen und meistern können.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;2.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber in der Tradition der Hexen sind nur um
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;3.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;–1 erschwert und können modifiziert werden.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erdkraft, Magische Kräuterheilkunde, Weissagung
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;6.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Tradition (Druiden)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;8.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;12 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;10.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1800;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1300;Begnadeter Objektzauberer
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Manche Zauberer verstehen sich besonders gut darauf,
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;13.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Objektzauber zu wirken.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;14.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber des Merkmals Objekt erhalten bei einer ge-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;16.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;lungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;17.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;18.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;19.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;25 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;21.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1300;Bewegungszauberei
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;22.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ein Bewegungszauberer kann sich durch seine Zauber
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-kräfte hervorragend bewegen und die Dauer dieser Zau-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;24.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;ber verlängern.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber, welche die körperliche Bewegung des Zau-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;27.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;berers unterstützen, sind um +1 erleichtert und haben eine verdoppelte Wirkungsdauer. Zu diesen Zaubern zählen u. a. der AXXELERATUS, der KRÖTENSPRUNG, der SPINNENLAUF und der TRANSVERSALIS.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;30.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1300;Destruktor
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;33.0;21;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampf- und Zerstörungsmagie ist bei auf Forschung und
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;35.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Theorie spezialisierten Zauberern oft wenig angesehen, doch ihr Nutzen ist unbestreitbar. Ein erfahrener Zaube
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;37.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;rer vermag es sogar, noch größeren Schaden anzurichten.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;38.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;39.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Jeder Zauber, der einen Verlust von LeP oder Strukturpunkten herbeiführt, zieht einmalig 2 LeP oder 10 Strukturpunkte mehr ab. Der Effekt tritt so
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;41.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;wohl bei angerichteten TP als auch bei SP ein. Dies gilt
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;jedoch nur, wenn der Zauber auch ohne die Sonder-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;43.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;fertigkeit mindestens 5 Trefferpunkte anrichtet bzw. 5 LeP oder Strukturpunkte abzieht.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;44.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;45.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;46.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;47.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;48.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1300;Erdkraft
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;49.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die aventurischen Hexen und Druiden betrachten die
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;50.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erdmutter Sumu als den Quell aller Kraft. Durch län
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;51.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-geren Kontakt mit dem Erdreich sind einige von ihnen
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;52.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;dazu in der Lage, ihre magischen Kräfte viel schneller wieder zurückzugewinnen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;53.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;54.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Übernachtet eine Hexe oder ein Druide auf der
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;55.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Erde (z. B. auf einer Wiese, an den Wurzeln eines Bau
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;56.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-mes, auf einem natürlichen Felsen), so erhalten sie bei
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;57.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;ihrer Regeneration +2 AsP. Sie erhalten diesen Bonus
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;58.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;nicht, wenn sie in einem Bett schlafen (auch nicht,
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;59.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;wenn dieses Bett in der freien Natur steht), wenn sie sich auf dem Wasser befinden (beispielsweise auf ei
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;60.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: CKZQMO+GentiumBasic;false;false;61.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;nem Schiff) oder wenn die Verbindung zu Sumu auf andere Art und Weise unterbrochen oder gestört ist. Der Meister hat hierüber das letzte Wort.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;62.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;63.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;64.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;65.0;21;-1.0;GMuH_Die_streitenden_Königreiche;1000;20 Abenteuerpunkte
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;2.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1300;Eiserne Konzentrationsstärke
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;3.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kaum etwas mag dem Zauberer noch seinen Fokus zu rauben, und selbst im tiefsten Kampfgetümmel ist er noch dazu in der Lage, problemlos Zauber zu wirken.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wie bei der Sonderfertigkeit
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;6.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Konzentrationsstärke
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;sind Proben auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;8.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Selbstbeherrschung (Störungen ignorieren)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;erleichtert, wenn der Held in seiner Konzentration beim Wirken von Zaubern gestört wird. Besitzt er diese verstärkte Variante, steigt die Erleichterung jedoch um +2 weitere Punkte auf insgesamt +3.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;10.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Konzentrationsstärke, passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;8 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;14.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1300;Geisterfreundin
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wer sich als Geisterfreundin bezeichnet, ist bewandert im Umgang mit den Toten und kann darauf vertrauen, dass diese eher bereit sind, auf Vorschläge einzugehen, und sich viel eher für die Sache der Hexe oder des Druiden gewinnen lassen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;16.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Proben auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Überreden (Aufschwatzen, Herausreden, Manipulieren
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;oder
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schmeicheln)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;, um Geister freundlich zu stimmen, gelten bei Gelingen der Probe als um 1 QS besser (bis zu einem Maximum von QS 6) und gewähren der Hexe oder dem Druiden 1 zusätzlichen Bitte.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;22.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;24.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1300;Kriegszauberer
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;27.0;22;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampfzauberer benötigen oftmals eine größere Reichweite, um auch auf dem Schlachtfeld effektiv zu sein.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber mit dem Merkmal Elementar oder Verwandlung, die Schaden in Form von TP oder SP verursachen, haben automatisch eine um 1 Stufe höhere Reichweite (sofern Modifikationen erlaubt sind). Dafür ist auch die Zauberdauer um 1 Stufe erhöht.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;20 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1300;Macht des Hasses
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Durch die Macht des Hasses kann sich eine Hexe so in Rage versetzen, dass die Stärke ihrer Zauberkräfte noch zunimmt.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Hexen kann sich bei gezieltem Hineinsteigern in eine Emotion auf Hassgefühle konzentrieren und so eine weitere Erleichterung von +1 erhalten (siehe
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regelwerk
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seite
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;41.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;278
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;43.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;44.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;45.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;46.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;47.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1300;Machtvolle materielle Verbindung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;48.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wer sich intensiv mit der materiellen Verbindung zu einem Opfer beschäftigt, kann die Wirkung seines Willens noch weiter verstärken und die Widerstandskraft des Opfers senken.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;49.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;50.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verfügt der Zauberer über eine körperliche Komponente seines Ziels (ein Büschel Haare, eine kleine Phiole Blut usw.), dann sinken SK und ZK des Ziels um 1 weiteren Punkt gegen Zauber und magische Handlungen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;51.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;52.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Materielle Verbindung, passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;53.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;54.0;22;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Machtvolle verbotene Pforten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;2.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einige wenige Zauberer sind so sicher darin, die Verbotenen Pforten zu öffnen, um mit ihrer Lebenskraft zu zaubern, dass ihnen fast keine Missgeschicke mehr widerfahren.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wer die Verbotenen Pforten nutzt, dessen Probe auf Selbstbeherrschung ist um +1 erleichtert. Es müssen außerdem kein AsP aufgewendet werden, um die Verbotenen Pforten zu aktivieren.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Verbotene Pforten, passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;8 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Magische Kräuterheilkunde
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;10.0;23;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Nur wenige Meister der Heilkunst wissen, wie man mittels der Unterstützung von einfachen Heilkräutern eine magische Zauberformel verbessern kann.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Diese Sonderfertigkeit erfordert materielle Komponenten in Form von Heilkräutern (pro Behandlung im Wert von 5 Silbertalern). Zauber, die dem Ziel direkt Lebensenergie zurückgeben (etwa der BALSAM SALABUNDE), haben eine verdoppelte
+PDType0Font/PDCIDFontType2, PostScript name: PECHHJ+GentiumBasic;false;false;14.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauberdauer (nach Einberechnung aller Modifikato
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;-ren). Dafür erhält das Ziel zusätzlich 2 LeP zurück.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;16.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;18.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;20.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Matrixzauberei
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Für weniger spontane Zauberer kann es Vorteile bringen, sich nur auf die starre Grundmatrix eines Zaubers zu konzentrieren.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;22.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PECHHJ+GentiumBasic;false;false;23.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wenn ein Zauber nicht durch eine Modifikation
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;verändert wird, erhält der Zauberer beim Wirken +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;25 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Meisterliches Auraverbergen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einige Zauberer sind so darauf bedacht, nicht als Zauberkundige entlarvt zu werden, dass sie Techniken entwickelt haben, um ihre magische Aura noch besser zu verbergen.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Das Meisterliche Auraverbergen funktioniert wie die Sonderfertigkeit
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;33.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Aura verbergen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;, mit folgenden Ausnahmen: Während der Held die Sonderfertigkeit aktiviert hat, kann er zaubern und Zauber aufrechterhalten. Beim Ausschalten der Aura steht ihm eine Probe auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;35.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Willenskraft
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;zu, bei deren Gelingen er keine Stufe
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;37.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verwirrung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;erleidet.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;SF Aura verbergen, passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;41.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;42.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;43.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Unverstellter Blick
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;44.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gerade für Zauberer kann es hin und wieder wichtig sein, sich nicht durch Illusionen täuschen zu lassen oder frühzeitig Unsichtbare zu bemerken. Durch diese Sonderfertigkeit ist der Zauberer darin geschult.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;45.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;46.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wer über diese Sonderfertigkeit verfügt, kann nicht so leicht durch Illusions- oder Unsichtbarkeitsmagie getäuscht werden. Proben auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;47.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sinnesschärfe (Suchen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;48.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;oder
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;49.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wahrnehmen)
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;50.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;, um einen Zauber mit dem Merkmal
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;51.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Illusion
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;52.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;zu durchschauen, sind um +1 erleichtert. Auch gegenüber unsichtbaren Wesen oder Personen mit dem Status
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;53.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Unsichtbar
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;54.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;ist eine Probe auf
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;55.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sinnesschärfe
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;56.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;um +1 erleichtert.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;57.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;58.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;59.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;60.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;10 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;61.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Weissagung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;62.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Prophezeiungen sind meistens ein zweischneidiges Schwert. Druiden, die sich auf die Kunst der Weissagung verstehen, können durch einen Blick in die vermeintliche Zukunft gute Ratschläge erteilen, jedoch verunsichern sie oft auch denjenigen, an den die Prophezeiung gerichtet ist.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;63.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;64.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Der Druide kann eine Weissagung aussprechen. Diese ist immer mit einem guten und einem schlechten Omen verbunden. Das freiwillige Ziel, für das die Weissagung bestimmt ist, bekommt bis zum Ende der Wirkungsdauer 1 Schip. Dieser Schip kann auch das Maximum der Person übersteigen. Allerdings erhält die Person auch auf alle Fertigkeitsproben, bei denen mindestens eine Teilprobe auf IN geht, bis zum Ende der Wirkungsdauer eine Erschwernis von –1. Der Druide kann die Weissagung auch auf sich selbst anwenden.Die Wirkung der Prophezeiung hält bis zum Ende des aktuellen Abenteuers an.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;65.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;66.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;67.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;68.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;15 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;69.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1300;Wissensaustausch
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;70.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die meisten Hexen stehen dem Austausch von Zaubern zwischen ihresgleichen und den Angehörigen anderer Traditionen skeptisch gegenüber. Einige Hexen hingegen begrüßen den Austausch, um ihre eigenen Möglichkeiten zu erweitern und ihre Zauberkräfte stärker variieren zu können.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;71.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regel
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;72.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Die Hexe hat durch ein höheres Verständnis fremder Magie weniger Schwierigkeiten, Zaubersprüche anderer Traditionen zu verändern. Bei Zaubern aus einer anderen Tradition können Modifikationen durchgeführt werden (siehe
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;73.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Regelwerk
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;74.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seite
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;75.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;256
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;76.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;).
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;77.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzung
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;78.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;passende Zauberstil-SF
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;79.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;80.0;23;-1.0;GMuH_Die_streitenden_Königreiche;1000;20 Abenteuerpunkte

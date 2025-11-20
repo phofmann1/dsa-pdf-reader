@@ -1,0 +1,399 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;5;-1.0;GMuH_Die_streitenden_Königreiche;3100;PROFESSIONEN
+PDTrueTypeFont SDSEYD+Andalus;false;false;2.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1800;Weltliche Professionen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1300;Bognerin
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;4.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;190 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Fertigkeitsspezialisierung Holzbearbeitung, Weg der Bognerin
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bögen 12, Dolche 8, Raufen 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kraftakt 3, Sinnesschärfe 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Menschenkenntnis 2, Überreden 2, Willenskraft 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fährtensuchen 4, Fesseln 3, Orientierung 3,
+PDType0Font/PDCIDFontType2, PostScript name: FXEEFI+GentiumBasic;false;false;20.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 5, Tierkunde 5, Wildnisleben 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Götter & Kulte 2, Kriegskunst 4, Rechnen 2, Sagen & Legenden 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;23.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDType0Font/PDCIDFontType2, PostScript name: FXEEFI+GentiumBasic;false;false;24.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handel 5, Holzbearbeitung 8, Malen &
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zeichnen 2
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Entfernungssinn, Herausragender Sinn (Sicht)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;30.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Adel
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;33.0;5;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blind, Eingeschränkter Sinn (Sicht), Unfähig Holzbearbeitung, Verstümmelt
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;2.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1300;Deichbauer
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;3.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;200 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;6.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;8.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Deichbauer, Fertigkeitsspezialisierung Steinbearbeitung, Weg des Deichbauers
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;10.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hiebwaffen 8, Raufen 8, Zweihandhiebwaffen 10
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;13.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Klettern 6, Körperbeherrschung 5, Kraftakt 6, Schwimmen 6, Sinnesschärfe 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;15.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;16.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Menschenkenntnis 2, Überreden 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;17.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;18.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fischen & Angeln 4, Orientierung 4,
+PDType0Font/PDCIDFontType2, PostScript name: GUFIJG+GentiumBasic;false;false;19.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 2, Tierkunde 3, Wildnisleben 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDType0Font/PDCIDFontType2, PostScript name: GUFIJG+GentiumBasic;false;false;21.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geographie 3, Götter & Kulte 3, Mechanik 4, Rechnen 4, Sternkunde 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;22.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDType0Font/PDCIDFontType2, PostScript name: GUFIJG+GentiumBasic;false;false;23.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Boote & Schiffe 3, Holzbearbeitung 4,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Malen & Zeichnen 4, Steinbearbeitung 6
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Entfernungssinn, Kälteresistenz, Richtungssinn, Zeitgefühl
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schlechte Eigenschaften
+PDType0Font/PDCIDFontType2, PostScript name: GUFIJG+GentiumBasic;false;false;29.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Aberglaube), Verpflichtungen (Grundherr)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;30.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Adel, Reich
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: GUFIJG+GentiumBasic;false;false;33.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blind, Kälteempfindlich,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;6;-1.0;GMuH_Die_streitenden_Königreiche;1000;Krankheitsanfällig, Niedrige Zähigkeit
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1300;Holzfäller
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;2.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;233 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 2 Abenteuerpunkte, Fertigkeitsspezialisierung Holzbearbeitung, Weg des Holzfällers
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8, Raufen 10, Hiebwaffen 8, Zweihandhiebwaffen 10
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;12.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Klettern 5, Körperbeherrschung 4, Kraftakt 6, Schwimmen 2, Selbstbeherrschung 3, Sinnesschärfe 3, Zechen 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einschüchtern 4, Willenskraft 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fährtensuchen 3, Orientierung 5,
+PDType0Font/PDCIDFontType2, PostScript name: NXSTDS+GentiumBasic;false;false;18.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 6, Tierkunde 4, Wildnisleben 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;19.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Götter & Kulte 2, Sagen & Legenden 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fahrzeuge 2, Heilkunde Wunden 3, Holzbearbeitung 7
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Begabung (Holzbearbeitung), Hohe Zähigkeit
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Niedrige Seelenkraft, Persönlichkeitsschwächen (Unheimlich, Weltfremd), Schlechte Eigenschaften (Aberglaube)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Adel
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;7;-1.0;GMuH_Die_streitenden_Königreiche;1000;Niedrige Zähigkeit
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont SDSEYD+Andalus;false;false;2.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1800;Kämpferprofessionen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1300;Andergaster Waldritter
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;4.0;8;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;6.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;302 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;MU 13 (für die SF Waldritter-Stil), GE 13 (für die SF Finte I), KO 13 (für die SF Belastungsgewöhnung I), KK 13 (für die SF Wuchtschlag I), Adel (5 AP), SF Berittener Kampf (für die SF Waldritter-Stil) (20 AP), Kultur Andergaster
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Fertigkeitsspezialisierung Reiten, Belastungsgewöhnung I, Finte I, Waldritter-Stil, Wuchtschlag I
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen 10, Raufen 10, Schwerter 11, Zweihandschwerter 11, eine der folgenden Kampftechniken 10: Bögen, Hiebwaffen, Kettenwaffen, Zweihandhiebwaffen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;15.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körperbeherrschung 5, Kraftakt 5, Reiten 8, Schwimmen 3, Selbstbeherrschung 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Etikette 3, Menschenkenntnis 3, Willenskraft 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fährtensuchen 3, Orientierung 3, Tierkunde 3, Wildnisleben 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;22.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geschichtswissen 2, Götter & Kulte 3, Kriegskunst 4, Sagen & Legenden 6
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;24.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Holzbearbeitung 6
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hohe Lebenskraft, Reich, Verbesserte Regeneration (Lebensenergie), Zäher Hund
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Persönlichkeitsschwächen (Arroganz, Eitelkeit, Vorurteile gegen Nostrier), Prinzipientreue I-III (Ritterkodex<br> ehrenhaftes Verhalten, Schutz der Schwachen), Schlechte
+PDType0Font/PDCIDFontType2, PostScript name: SBBWVI+GentiumBasic;false;false;30.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eigenschaften (Aberglaube), Verpflichtungen II
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Lehnsherr)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;33.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;34.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;35.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Fettleibigkeit, Schlechte Regeneration (Lebensenergie)*) Bitte beachte, dass für die Sonderfertigkeit
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;36.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Berittener Kampf
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;37.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein FW in
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;38.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;Reiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;39.0;8;-1.0;GMuH_Die_streitenden_Königreiche;1000;von 10 notwendig ist. Der Werte ist auf 8 gesetzt, um nicht durch einen Bonus eines Kulturpakets einen Wert von höher als 10 zu erhalten. Steigere einfach mit AP die fehlenden Punkte auf das Talent, wenn dein Held weniger als 10 darin aufweist.
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1300;Nostrische Seenritterin
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;2.0;9;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;4.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;292 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;MU 13 (für die SF Seenritter-Stil), GE 13 (für die SF Finte I), KO 13 (für die SF Belastungsgewöhnung I), KK 13 (für die SF Wuchtschlag I), Adel (5 AP) , SF Berittener Kampf (für die SF Seenritter-Stil) (20 AP), Kultur Nostrier
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Fertigkeitsspezialisierung Reiten, Belastungsgewöhnung I, Finte I, Seenritter-Stil, Wuchtschlag I
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lanzen 10, Raufen 10, Schwerter 11, Zweihandschwerter 11, eine der folgenden Kampftechniken 10: Bögen, Hiebwaffen, Kettenwaffen, Zweihandhiebwaffen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körperbeherrschung 5, Kraftakt 5, Reiten 8, Schwimmen 3, Selbstbeherrschung 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Etikette 3, Menschenkenntnis 3, Willenskraft 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fährtensuchen 3, Fischen & Angeln 6,
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Orientierung 3, Tierkunde 3, Wildnisleben 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;22.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geschichtswissen 2, Götter & Kulte 3, Kriegskunst 4, Sagen & Legenden 6
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;24.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung 5
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hohe Lebenskraft, Reich, Verbesserte Regeneration (Lebensenergie), Zäher Hund
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Persönlichkeitsschwächen (Arroganz, Eitelkeit, Vorurteile gegen Andergaster), Prinzipientreue I-III (Ritterkodex<br> ehrenhaftes Verhalten, Schutz der Schwachen), Schlechte Eigenschaften (Aberglaube),
+PDType0Font/PDCIDFontType2, PostScript name: LKMKWW+GentiumBasic;false;false;30.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verpflichtungen II (Lehnsherr)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Fettleibigkeit, Schlechte Regeneration (Lebensenergie)*) Bitte beachte, dass für die Sonderfertigkeit
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;35.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Berittener Kampf
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein FW in
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;37.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;Reiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;9;-1.0;GMuH_Die_streitenden_Königreiche;1000;von 10 notwendig ist. Der Werte ist auf 8 gesetzt, um nicht durch einen Bonus eines Kulturpakets einen Wert von höher als 10 zu erhalten. Steigere einfach mit AP die fehlenden Punkte auf das Talent, wenn dein Held weniger als 10 darin aufweist.
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont SDSEYD+Andalus;false;false;2.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1800;Zaubererprofessionen
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1300;Andergaster Mehrer der Macht
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;4.0;10;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;6.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;351 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Druiden) (125 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Bindung des Dolches, Brecher des Willens
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8, Raufen 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;15.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Selbstbeherrschung 4, Sinnesschärfe 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einschüchtern 4, Menschenkenntnis 5, Überreden 2, Verkleiden 5, Willenskraft 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: XQQZDY+GentiumBasic;false;false;21.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 4, Tierkunde 4, Wildnisleben 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;22.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geographie 3, Geschichtswissen 5, Götter & Kulte 4, Magiekunde 5, Rechnen 6, Rechtskunde 4, Sagen & Legenden 4, Sternkunde 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;24.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 3, Heilkunde Krankheit 3,
+PDType0Font/PDCIDFontType2, PostScript name: XQQZDY+GentiumBasic;false;false;26.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Heilkunde Seele 5, Holzbearbeitung 3,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung 6
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein Zaubertrick aus folgender Liste: Bartwuchs, Trocken, Signatur, Große Verwirrung 6, Horriphobus 6, Odem 4, Respondami 5, Sensibar 4, Zunge betäu-
+PDType0Font/PDCIDFontType2, PostScript name: XQQZDY+GentiumBasic;false;false;30.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;ben 5, Zwingtanz 4
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hohe Seelenkraft,
+PDType0Font/PDCIDFontType2, PostScript name: XQQZDY+GentiumBasic;false;false;33.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Krankheitsresistenz, Richtungssinn,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Verbesserte Regeneration (Astralenergie), Zeitgefühl
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schlechte Eigenschaft (Neugier)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDType0Font/PDCIDFontType2, PostScript name: XQQZDY+GentiumBasic;false;false;38.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eisenaffine Aura
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;40.0;10;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Niedrige Seelenkraft, Schlechte Regeneration (Astralenergie)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1300;Andergaster Sumudiener
+PDTrueTypeFont MUQUSP+TimesNewRomanPSMT;false;false;2.0;11;-1.0;GMuH_Die_streitenden_Königreiche;800;
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1300;
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;4.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;350 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Druiden) (125 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Bindung des Dolches, Wächter der Göttin
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;12.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;13.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Selbstbeherrschung 3, Sinnesschärfe 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Bekehren & Überzeugen 4, Menschenkenntnis 4, Überreden 4, Willenskraft 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;18.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;19.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 6, Tierkunde 6,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wildnisleben 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geschichtswissen 5, Götter & Kulte 4, Magiekunde 5, Rechnen 3,
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;23.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Rechtskunde 6, Sagen & Legenden 5,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sternkunde 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;25.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 3, Heilkunde Krankheit 4, Heilkunde Seele 2, Holzbearbeitung 3,
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;27.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Steinbearbeitung 6
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein Zaubertrick aus folgen-
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;30.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;der Liste: Bartwuchs, Beeren & Nüsse, Lockruf, Trocken, Atemnot 5, Elementarer Diener 6, Herr über das Tierreich 6,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Manifesto 10, Pestilenz erspüren 4,
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;32.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sumus Elixiere 4, Zunge betäuben 5
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hohe Seelenkraft, Krankheitsresistenz, Richtungssinn, Verbesserte Regeneration (Astralenergie), Zeitgefühl
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;36.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Lästige Mindergeister, Schlechte Eigenschaft (Neugier)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;38.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Eisenaffine Aura
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;39.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDType0Font/PDCIDFontType2, PostScript name: GQNJZG+GentiumBasic;false;false;40.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Niedrige
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;41.0;11;-1.0;GMuH_Die_streitenden_Königreiche;1000;Seelenkraft, Schlechte Regeneration (Astralenergie)
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;2.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1300;Graumagier (Kampfseminar Andergast)
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;3.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;387 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;6.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Gildenmagier) (155 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;8.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 10 Abenteuerpunkte, Bindung des Stabes, Scholar des Kampfseminars zu Andergast
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;10.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8, Raufen 10, Schwerter 8, Stangenwaffen 11
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;13.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Klettern 4, Körperbeherrschung 5, Schwimmen 3, Selbstbeherrschung 4, Sinnesschärfe 3, Verbergen 1, Zechen 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;15.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;16.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Etikette 3, Menschenkenntnis 2, Willenskraft 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;17.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;18.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Orientierung 3,
+PDType0Font/PDCIDFontType2, PostScript name: WVPMKA+GentiumBasic;false;false;19.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 4, Tierkunde 4,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wildnisleben 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geographie 1, Geschichtswissen 2, Götter & Kulte 3, Kriegskunst 6, Magiekunde 5, Rechnen 4, Sagen & Legenden 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;23.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 1, Heilkunde Wunden 2, Holzbearbeitung 3, Lederbearbeitung 2, Malen & Zeichnen 2, Stoffbearbeitung 2
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;25.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;einen Zaubertrick aus folgender Liste:
+PDType0Font/PDCIDFontType2, PostScript name: WVPMKA+GentiumBasic;false;false;27.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Feuerfinger, Glücksgriff, Waffensäuberung,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Armatrutz 5, Attributo (Körperkraft) 4, Balsam 4, Blitz 6, Duplicatus 5, Fulminictus (Elfen) 4, Ignisphaero 6
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Entfernungssinn, Hohe Seelenkraft, Richtungssinn, Verbesserte Regeneration (Astralenergie), Zäher Hund
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schlechte Eigenschaften (Neugier, Vorurteile – vor allem gegen Nostrier
+PDType0Font/PDCIDFontType2, PostScript name: WVPMKA+GentiumBasic;false;false;33.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;und Frauen, Weltfremd), Verpflichtungen II
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Akademie, Gilde, Königreich Andergast)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;37.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;12;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Niedrige Seelenkraft, Schlechte Regeneration (Astralenergie)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1300;Nostrische Eulenhexe (Verschwiegene Schwesternschaft)
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;2.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;444 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Hexen) (135 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 4 Abenteuerpunkte, Aura verbergen, Flugsalbe, Jägerinnen, Vertrautenbindung
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 11, Hiebwaffen 10, Raufen 11, Wurfwaffen 10
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;12.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fliegen 7, Klettern 5, Körperbeherrschung 4, Sinnesschärfe 4, Tanzen 4, Verbergen 6
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Einschüchtern 3, Menschenkenntnis 4, Überreden 3, Verkleiden 6, Willenskraft 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;17.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fährtensuchen 3, Orientierung 5,
+PDType0Font/PDCIDFontType2, PostScript name: TVVOPG+GentiumBasic;false;false;18.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Pflanzenkunde 4, Tierkunde 4, Wildnisleben 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;19.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Götter & Kulte 3, Magiekunde 4, Sagen & Legenden 5
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 2, Heilkunde Wunden 3, Holzbearbeitung 3, Lederbearbeitung 2, Stoffbearbeitung 2
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber & Magische Handlungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein Zaubertrick aus folgender Liste: Bauchreden, Hexenblick, Kehrbesen, Schnipsen, Trocken, Würze, Harmlose Gestalt 6, Hexenholz 4, Hexenknoten 5, Hexenkrallen 6, Krötensprung 4, Radau 5, Spinnenlauf 4<br>
+PDType0Font/PDCIDFontType2, PostScript name: TVVOPG+GentiumBasic;false;false;25.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hexenflüche für insgesamt 12 AP
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;26.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;27.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Altersresistenz (nur bei Eigeborenen), Verhüllte Aura
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;28.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;29.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Keine Flugsalbe, Kein Vertrautentier, Schlechte Eigenschaften (Jähzorn, Neugier, Rachsucht)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;30.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;31.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;32.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;33.0;13;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont SDSEYD+Andalus;false;false;1.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1200;Glaube, Macht & Heldenmut – Die Streitenden Königreiche
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;2.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1300;Nostrische Schlangenhexe (Schwesternschaft des Wissens)
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;3.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;4.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;5.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;356 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;6.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;7.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Hexen) (135 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;8.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;9.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 10 Abenteuerpunkte, Flugsalbe, Nattern der Nacht, Vertrautenbindung
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;10.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;11.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;12.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;13.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;14.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Fliegen 5, Tanzen 3, Verbergen 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;15.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;16.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Betören 2, Etikette 2, Menschenkenntnis 6, Überreden 4, Willenskraft 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;17.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur:
+PDType0Font/PDCIDFontType2, PostScript name: DJSHUM+GentiumBasic;false;false;18.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Orientierung 3, Pflanzenkunde 3,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;19.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Tierkunde 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;20.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;21.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geographie 3, Geschichtswissen 4, Götter & Kulte 4, Magiekunde 6, Rechnen 3, Sagen & Legenden 5, Sternkunde 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;22.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;23.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 3, Malen & Zeichnen 4, Lebensmittelbearbeitung 2, Stoffbearbeitung 2
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;24.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber & Magische Handlungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;25.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein Zaubertrick aus folgender Liste: Duft, Hexenblick, Lockruf, Kehrbesen, Ängste lindern 4, Blick in die Gedanken 6, Disruptivo 4, Harmlose Gestalt 5, Hexenknoten 4, Schlangenruf 6, Vipernblick 5<br>
+PDType0Font/PDCIDFontType2, PostScript name: DJSHUM+GentiumBasic;false;false;26.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hexenflüche für insgesamt 10 AP
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Altersresistenz (nur bei Eigeborenen), Verhüllte Aura
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Keine Flugsalbe, Kein Vertrautentier, Schlechte Eigenschaften (Jähzorn, Neugier, Rachsucht)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;31.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;14;-1.0;GMuH_Die_streitenden_Königreiche;1000;Angst vor ... (Schlangen)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;1.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1300;Weißmagierin (Akademie von Licht und Dunkelheit zu Nostria)
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;2.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Professionspaket
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;3.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;AP-Wert
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;4.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;337 Abenteuerpunkte
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;5.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Voraussetzungen
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;6.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Vorteil Zauberer (25 AP), SF Tradition (Gildenmagier) (155 AP)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;7.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sonderfertigkeiten
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;8.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Sprachen und Schriften für insgesamt 10 Abenteuerpunkte, Bindung des Stabes, Scholar der Akademie von Licht und Dunkelheit zu Nostria
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;9.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Kampftechniken
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;10.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Dolche 8, Raufen 8, Stangenwaffen 8
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;11.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Talente
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;12.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Körper:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;13.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schwimmen 3, Selbstbeherrschung 4, Sinnesschärfe 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;14.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Gesellschaft:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;15.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Etikette 3, Überreden 1, Willenskraft 3
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;16.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Natur
+PDType0Font/PDCIDFontType2, PostScript name: XJUGOY+GentiumBasic;false;false;17.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Orientierung 3, Pflanzenkunde 5,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;18.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Tierkunde 3, Wildnisleben 2
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;19.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Wissen:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;20.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Geographie 2, Geschichtswissen 2, Götter & Kulte 4, Kriegskunst 3, Magiekunde 5, Rechnen 4, Sagen & Legenden 6, Sternkunde 4
+PDTrueTypeFont GBOKTG+GentiumBasic-Italic;false;true;21.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Handwerk:
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;22.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Alchimie 2, Boote & Schiffe 3, Malen & Zeichnen 5, Heilkunde Wunden 3, Holzbearbeitung 3, 6 AP zum Steigern anderer Handwerkstalente
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;23.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Zauber
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;24.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;ein Zaubertrick aus folgender Liste:
+PDType0Font/PDCIDFontType2, PostScript name: XJUGOY+GentiumBasic;false;false;25.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Abkühlung, Feuerfinger, Leselampe, Analys 5,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;26.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Armatrutz 5, Caldofrigo 5, Corpofrigo 5, Dunkelheit 6, Flim Flam 4, Nebelwand (Elfen) 4
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;27.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;28.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Hohe Seelenkraft, Verbesserte Regeneration (Astralenergie)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;29.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Empfohlene Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;30.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Schlechte Eigenschaften
+PDType0Font/PDCIDFontType2, PostScript name: XJUGOY+GentiumBasic;false;false;31.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Neugier, Weltfremd), Verpflichtungen II
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;32.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;(Akademie, Gilde, Königreich Nostria oder Orden der Schlange der Erkenntnis)
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;33.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Vorteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;34.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;keine
+PDTrueTypeFont REDYKF+GentiumBasic-Bold;true;false;35.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Ungeeignete Nachteile
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;36.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Angst vor ... (Dunkelheit),
+PDType0Font/PDCIDFontType2, PostScript name: XJUGOY+GentiumBasic;false;false;37.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Blutrausch, Lichtempfindlich, Nachtblind,
+PDTrueTypeFont OXPGUL+GentiumBasic;false;false;38.0;15;-1.0;GMuH_Die_streitenden_Königreiche;1000;Niedrige Seelenkraft, Persönlichkeitsschwächen (Arroganz, Eitelkeit), Schlechte Eigenschaften (Goldgier), Schlechte Regeneration (Astralenergie)

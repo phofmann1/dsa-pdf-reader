@@ -1,0 +1,650 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;65.0;28;-1.0;Helden_des_Dornenreiches;1300;Drohgebärden
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;66.0;28;-1.0;Helden_des_Dornenreiches;1000;Barbarinnen und andere Kämpfer können durch wilde Schreie oder einschüchterndes Auftreten ihre Gegner in Angst und Schrecken versetzen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;67.0;28;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;68.0;28;-1.0;Helden_des_Dornenreiches;1000;Durch die Sonderfertigkeit erwirbt die Heldin eine Einsatzmöglichkeit für das Talent Einschüchtern. Die Abenteurerin kann mittels
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;69.0;28;-1.0;Helden_des_Dornenreiches;1000;Einschüchtern (Drohung)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;70.0;28;-1.0;Helden_des_Dornenreiches;1000;ihre Gegner während eines Kampfes in Angst versetzen. Die Heldin muss 1 Aktion aufwenden. Danach legt ihre Spielerin eine Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;71.0;28;-1.0;Helden_des_Dornenreiches;1000;Einschüchtern (Drohung)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;72.0;28;-1.0;Helden_des_Dornenreiches;1000;ab. Bis zu QS+1 andere Personen ihrer Wahl in ihrer Sicht- und Hörreichweite bekommen in der nächsten Kampfrunde einen Malus von –1 AT, –1 Verteidigung, FK –1 (der Bonus ist nicht kumulativ mit weiteren Anwendungen der SF Drohgebärden).
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;73.0;28;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;74.0;28;-1.0;Helden_des_Dornenreiches;1000;Einschüchtern 4
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;75.0;28;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;76.0;28;-1.0;Helden_des_Dornenreiches;1000;10 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;77.0;28;-1.0;Helden_des_Dornenreiches;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;29;-1.0;Helden_des_Dornenreiches;1200;Helden aus dem Dornenreich
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;2.0;29;-1.0;Helden_des_Dornenreiches;1300;Einnahmequelle
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;29;-1.0;Helden_des_Dornenreiches;1000;Einige Helden sind deutlich geschickter darin, durch ihre Profession und Talente Geld zu verdienen. Ihre Einnahmequelle nutzen sie regelmäßiger und wissen, wie man genug Kunden und Schaulustige anzieht.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;29;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;5.0;29;-1.0;Helden_des_Dornenreiches;1000;Der Held kann ein Talent zum Geld verdienen (siehe
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;6.0;29;-1.0;Helden_des_Dornenreiches;1000;Aventurisches Kompendium
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;7.0;29;-1.0;Helden_des_Dornenreiches;1000;Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;8.0;29;-1.0;Helden_des_Dornenreiches;1000;11
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;9.0;29;-1.0;Helden_des_Dornenreiches;1000;) doppelt
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;10.0;29;-1.0;Helden_des_Dornenreiches;1000;so häufig wie üblich pro Tag oder Vorstellung einsetzen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;11.0;29;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;12.0;29;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;13.0;29;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;14.0;29;-1.0;Helden_des_Dornenreiches;1000;8 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;15.0;29;-1.0;Helden_des_Dornenreiches;1300;Gerüchte aufschnappen
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;16.0;29;-1.0;Helden_des_Dornenreiches;1000;Manche Heldin hat einfach ein Händchen für die rich
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;17.0;29;-1.0;Helden_des_Dornenreiches;1000;-tigen Gesprächspartner und ist stets zur rechten
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;18.0;29;-1.0;Helden_des_Dornenreiches;1000;Zeit am rechten Ort. Es fällt ihr besonders leicht, im Alltagsgeschehen für sie nützliche Gerüchte und Infor
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;29;-1.0;Helden_des_Dornenreiches;1000;-mationen aufzuschnappen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;20.0;29;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;21.0;29;-1.0;Helden_des_Dornenreiches;1000;Die Heldin bekommt eine neue Einsatzmöglich
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;22.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;23.0;29;-1.0;Helden_des_Dornenreiches;1000;keit für das Talent
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;24.0;29;-1.0;Helden_des_Dornenreiches;1000;Gassenwissen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;25.0;29;-1.0;Helden_des_Dornenreiches;1000;. Sie kann einmal am
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;26.0;29;-1.0;Helden_des_Dornenreiches;1000;Tag in einem entsprechenden Umfeld eine Probe able
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;27.0;29;-1.0;Helden_des_Dornenreiches;1000;-gen und erhält je nach QS mehr oder weniger passen-
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;28.0;29;-1.0;Helden_des_Dornenreiches;1000;de Gerüchte zugetragen, die für sie vorteilhafte Infor
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;29.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;30.0;29;-1.0;Helden_des_Dornenreiches;1000;mationen beinhalten. Da es sich um Gerüchte handelt,
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;31.0;29;-1.0;Helden_des_Dornenreiches;1000;sind jedoch stets auch Fehlinformationen oder Unstimmigkeiten enthalten.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;29;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;33.0;29;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;29;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;35.0;29;-1.0;Helden_des_Dornenreiches;1000;10 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;36.0;29;-1.0;Helden_des_Dornenreiches;1300;Handwerkskunst
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;37.0;29;-1.0;Helden_des_Dornenreiches;1000;Nicht jeder Aventurier kennt sich in jedem Handwerk
+PDType0Font/PDCIDFontType2, PostScript name: PDYJKE+GentiumBasic;false;false;38.0;29;-1.0;Helden_des_Dornenreiches;1000;gleich gut aus. Jene Handwerker, die ein bestimmtes
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;39.0;29;-1.0;Helden_des_Dornenreiches;1000;Die vorliegende Regel ist eine
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;40.0;29;-1.0;Helden_des_Dornenreiches;1000;Fokusregel der Stufe I
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;41.0;29;-1.0;Helden_des_Dornenreiches;1000;für den Themenkomplex
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;42.0;29;-1.0;Helden_des_Dornenreiches;1000;Sonderfertigkeiten
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;43.0;29;-1.0;Helden_des_Dornenreiches;1000;. Bei Talent-, Kampf- Zauber oder Liturgiestilen handelt es sich um spezielle Sonderfertigkeiten, die besondere Fähigkeiten eines Helden abbilden. Sie stehen nicht jedem Helden frei zur Verfügung, sondern sind mit der Ausbildung an einer bestimmten Krieger- oder Magierakademie, an einer Schwertmeisterschule, bei einem privaten Lehrmeister oder mit jahrelanger Übung in einem bestimmten Bereich verbunden.Mithilfe von Stilsonderfertigkeiten kann man als Spieler seinen Helden deutlich aus der Masse hervorheben. Nicht jeder Abenteurer verfügt über diese Art von Sonderfertigkeit<br> ein Held muss dafür einige Jahre den Stil verinnerlicht haben.Talent-, Kampf-, Zauber- und Liturgiestile funktionieren wie reguläre Sonderfertigkeiten, mit einigen Unterschieden:
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;44.0;29;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;45.0;29;-1.0;Helden_des_Dornenreiches;1000;Ein Held kann aus jeder Kategorie maximal einen Stil beherrschen: je einen Talent-, Zauber- und Li
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;46.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;47.0;29;-1.0;Helden_des_Dornenreiches;1000;turgiestil sowie jeweils einen bewaffneten und ei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;48.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;49.0;29;-1.0;Helden_des_Dornenreiches;1000;nen waffenlosen Kampfstil. Über bestimmte Son
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;50.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;51.0;29;-1.0;Helden_des_Dornenreiches;1000;derfertigkeiten ist es möglich, zwei gleichartige Stile miteinander zu kombinieren.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;52.0;29;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;53.0;29;-1.0;Helden_des_Dornenreiches;1000;Wer eine Stilsonderfertigkeit beherrscht, kann wei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;54.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;55.0;29;-1.0;Helden_des_Dornenreiches;1000;tere, zu dem Stil passende Erweiterte Sonderfertig
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;56.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;57.0;29;-1.0;Helden_des_Dornenreiches;1000;keiten erwerben. Welche das sind, ist bei der jewei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;58.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;59.0;29;-1.0;Helden_des_Dornenreiches;1000;ligen Stilsonderfertigkeit angegeben. Ein Held ohne einen passenden Stil kann eine Erweiterte Sonder
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;60.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;61.0;29;-1.0;Helden_des_Dornenreiches;1000;fertigkeit nicht erwerben.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;62.0;29;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;63.0;29;-1.0;Helden_des_Dornenreiches;1000;Stilsonderfertigkeiten können nur bei der entspre
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;64.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;65.0;29;-1.0;Helden_des_Dornenreiches;1000;chenden Institution oder einer geeigneten Einzel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;66.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;67.0;29;-1.0;Helden_des_Dornenreiches;1000;person erworben werden, also beispielsweise an einer Kriegerakademie, bei einer Handwerksgilde, in einem Hexenzirkel oder an einem Göttertempel.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;68.0;29;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;69.0;29;-1.0;Helden_des_Dornenreiches;1000;Es dauert mehrere Jahre, bis ein Held den Stil so sehr verinnerlicht hat, dass er die entsprechende Sonderfertigkeit erlernen kann.Weitere Informationen zu Talentstilen findest du im
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;70.0;29;-1.0;Helden_des_Dornenreiches;1000;Aventurischen Kompendium II
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;71.0;29;-1.0;Helden_des_Dornenreiches;1000;auf Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;72.0;29;-1.0;Helden_des_Dornenreiches;1000;68
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;73.0;29;-1.0;Helden_des_Dornenreiches;1000;oder im
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;74.0;29;-1.0;Helden_des_Dornenreiches;1000;Kodex des Schwertes
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;75.0;29;-1.0;Helden_des_Dornenreiches;1000;auf Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;76.0;29;-1.0;Helden_des_Dornenreiches;1000;276
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;77.0;29;-1.0;Helden_des_Dornenreiches;1000;.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;78.0;29;-1.0;Helden_des_Dornenreiches;1300;Weg des Händlers
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;79.0;29;-1.0;Helden_des_Dornenreiches;1000;Wie sonst kaum jemand, ist der Händler in der Lage zu feilschen und somit seinen Gewinn zu verbessern.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;80.0;29;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;81.0;29;-1.0;Helden_des_Dornenreiches;1000;Der Held bekommt eine Erleichterung von +1 auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;82.0;29;-1.0;Helden_des_Dornenreiches;1000;Handel (Feilschen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;83.0;29;-1.0;Helden_des_Dornenreiches;1000;oder
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;84.0;29;-1.0;Helden_des_Dornenreiches;1000;Geldwechsel)
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;85.0;29;-1.0;Helden_des_Dornenreiches;1000;. Außerdem benötigt der Held bei Erfolgs- und Sammelproben auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;86.0;29;-1.0;Helden_des_Dornenreiches;1000;Rechnen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;87.0;29;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;88.0;29;-1.0;Helden_des_Dornenreiches;1000;nur die Hälfte der angegebenen Zeit bzw. der angegebe
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;89.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;90.0;29;-1.0;Helden_des_Dornenreiches;1000;nen Intervalldauer.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;91.0;29;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;92.0;29;-1.0;Helden_des_Dornenreiches;1000;Gerüchte auf
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;93.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;94.0;29;-1.0;Helden_des_Dornenreiches;1000;schnappen, Handwerkskunst, Verhandlungsgeschick
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;95.0;29;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;96.0;29;-1.0;Helden_des_Dornenreiches;1000;Handel 8
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;97.0;29;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;98.0;29;-1.0;Helden_des_Dornenreiches;1000;10 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;99.0;29;-1.0;Helden_des_Dornenreiches;1300;Weg des Tänzers
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;100.0;29;-1.0;Helden_des_Dornenreiches;1000;Wer sein Leben dem Tanz verschrieben hat, kann sich in den Schrittfolgen verlieren und seinen Bewegungen damit eine verblüffende Mühelosigkeit verleihen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;101.0;29;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;102.0;29;-1.0;Helden_des_Dornenreiches;1000;Proben auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;103.0;29;-1.0;Helden_des_Dornenreiches;1000;Tanzen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;104.0;29;-1.0;Helden_des_Dornenreiches;1000;sind um +1 erleichtert. Außer
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;105.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;106.0;29;-1.0;Helden_des_Dornenreiches;1000;dem erhält der Held einen Bonus von +1 auf AW, so
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;107.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;108.0;29;-1.0;Helden_des_Dornenreiches;1000;lange er nicht unter Stufen des Zustands
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;109.0;29;-1.0;Helden_des_Dornenreiches;1000;Belastung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;110.0;29;-1.0;Helden_des_Dornenreiches;1000;leidet.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;111.0;29;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;112.0;29;-1.0;Helden_des_Dornenreiches;1000;Einnahmequel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;113.0;29;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;114.0;29;-1.0;Helden_des_Dornenreiches;1000;le, Körperliches Geschick, Kunstbegabt
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;115.0;29;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;116.0;29;-1.0;Helden_des_Dornenreiches;1000;Tanzen 8
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;117.0;29;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;118.0;29;-1.0;Helden_des_Dornenreiches;1000;20 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;119.0;29;-1.0;Helden_des_Dornenreiches;1800;Talentstilsonderfertigkeiten
+PDTrueTypeFont UUAWIP+Andalus;false;false;120.0;29;-1.0;Helden_des_Dornenreiches;1300;I
+PDTrueTypeFont UUAWIP+Andalus;false;false;121.0;29;-1.0;Helden_des_Dornenreiches;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;1.0;30;-1.0;Helden_des_Dornenreiches;1000;Gebiet gemeistert haben, können leichter großartige Objekte herstellen als einfache Gesellen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;2.0;30;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;30;-1.0;Helden_des_Dornenreiches;1000;Einige Handwerkstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit der Meisterin bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;30;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;5.0;30;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;6.0;30;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;7.0;30;-1.0;Helden_des_Dornenreiches;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;8.0;30;-1.0;Helden_des_Dornenreiches;1300;Körperliches Geschick
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;9.0;30;-1.0;Helden_des_Dornenreiches;1000;Hat sich eine Heldin darin geübt, kann sie in einer speziellen körperlichen Fähigkeit durch besondere Höchstleistungen glänzen. Sie hebt sich dadurch von anderen auf diesem Gebiet ab.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;10.0;30;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;11.0;30;-1.0;Helden_des_Dornenreiches;1000;Einige Körpertalente, die für die Arbeit der Heldin von großer Bedeutung sind, gehen ihr deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt sie fortan +1 FP (bis zu einem Maximum von 18 FP). Die Heldin kann sich in Absprache mit der Meisterin bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;12.0;30;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;13.0;30;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;14.0;30;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;15.0;30;-1.0;Helden_des_Dornenreiches;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;16.0;30;-1.0;Helden_des_Dornenreiches;1300;Kunstbegabt
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;17.0;30;-1.0;Helden_des_Dornenreiches;1000;Manch ein musisch begabter Held ist nicht auf eine Kunst beschränkt, sondern zeichnet sich durch das Verständnis für eine ganze Palette an Fähigkeiten aus.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;18.0;30;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;30;-1.0;Helden_des_Dornenreiches;1000;Der Held hat in den Talenten
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;20.0;30;-1.0;Helden_des_Dornenreiches;1000;Malen & Zeichnen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;21.0;30;-1.0;Helden_des_Dornenreiches;1000;,
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;22.0;30;-1.0;Helden_des_Dornenreiches;1000;Musizieren
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;23.0;30;-1.0;Helden_des_Dornenreiches;1000;,
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;24.0;30;-1.0;Helden_des_Dornenreiches;1000;Singen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;25.0;30;-1.0;Helden_des_Dornenreiches;1000;und
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;26.0;30;-1.0;Helden_des_Dornenreiches;1000;Tanzen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;27.0;30;-1.0;Helden_des_Dornenreiches;1000;ein wenig Ahnung. Legt er eine Probe auf eines dieser Talente (oder nach Meisterentscheid ein anderes Talent im Zusammenhang mit Kunst oder Erschaffung von Kunst) ab, so kann er bei Gelingen +1 QS addieren (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;28.0;30;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;29.0;30;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;30.0;30;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;31.0;30;-1.0;Helden_des_Dornenreiches;1000;20 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;30;-1.0;Helden_des_Dornenreiches;1300;Verhandlungsgeschick
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;33.0;30;-1.0;Helden_des_Dornenreiches;1000;Der Held ist so geübt im Feilschen, dass er beim Verhandeln mehr Geld herausschlagen kann als andere. Seine Argumente sind überzeugender, seine Strategie wohl überdacht und er nutzt jede Schwäche seines Verhandlungspartners gnadenlos aus.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;30;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;35.0;30;-1.0;Helden_des_Dornenreiches;1000;Der Held kann mit Proben auf das Talent
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;36.0;30;-1.0;Helden_des_Dornenreiches;1000;Handel (Feilschen)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;37.0;30;-1.0;Helden_des_Dornenreiches;1000;pro Netto-QS den Preis um 20 % zu seinen Gunsten verändern (kein Maximum, wie sonst üblich, aber als Minimum 10 %).
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;38.0;30;-1.0;Helden_des_Dornenreiches;1000;Voraussetzung
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;39.0;30;-1.0;Helden_des_Dornenreiches;1000;passende Talentstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;40.0;30;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;41.0;30;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;42.0;30;-1.0;Helden_des_Dornenreiches;1800;Neue Kampftechnik
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;43.0;30;-1.0;Helden_des_Dornenreiches;1300;Fächer
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;44.0;30;-1.0;Helden_des_Dornenreiches;1000;Die seltenen und vor allem in Aranien gebräuchlichen Fächerwaffen können von erfahrenen Kämpfern als kleine Schilde und Parierwaffen gleichermaßen einge
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;45.0;30;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;46.0;30;-1.0;Helden_des_Dornenreiches;1000;setzt werden.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;47.0;30;-1.0;Helden_des_Dornenreiches;1000;Besonderheiten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;48.0;30;-1.0;Helden_des_Dornenreiches;1000;Fächer ein- oder ausklappen dauert jeweils 1 Aktion. Mit dem ausgeklappten Fächer kann man versuchen, Geschosse (Bolzen, Pfeile, Kugeln, Wurfdolche – und Scheiben u. Ä., nicht aber Wurfspeere undäxte) wie mit einem Schild zu parieren, allerdings erleidet man bei der Parade zusätzlich zu den üblichen Modifikatoren
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;49.0;30;-1.0;Helden_des_Dornenreiches;1000;(siehe Regelwerk
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;50.0;30;-1.0;Helden_des_Dornenreiches;1000;Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;51.0;30;-1.0;Helden_des_Dornenreiches;1000;244
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;52.0;30;-1.0;Helden_des_Dornenreiches;1000;) noch eine Erschwernis von 1. Mit einem offenen Fächer können nur Nahkampfangrif
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;53.0;30;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;54.0;30;-1.0;Helden_des_Dornenreiches;1000;fe der Kampftechniken
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;55.0;30;-1.0;Helden_des_Dornenreiches;1000;Raufen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;56.0;30;-1.0;Helden_des_Dornenreiches;1000;,
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;57.0;30;-1.0;Helden_des_Dornenreiches;1000;Dolche
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;58.0;30;-1.0;Helden_des_Dornenreiches;1000;und
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;59.0;30;-1.0;Helden_des_Dornenreiches;1000;Fechtwaffen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;60.0;30;-1.0;Helden_des_Dornenreiches;1000;
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;61.0;30;-1.0;Helden_des_Dornenreiches;1000;pariert werden sowie Fernkampftechniken (siehe oben). Nur ein offener Fächer kann als kleiner Schild dienen. Mit geschlossenem Fächer können Waffen aller Kampftechniken außer
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;62.0;30;-1.0;Helden_des_Dornenreiches;1000;Kettenwaffen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;63.0;30;-1.0;Helden_des_Dornenreiches;1000;,
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;64.0;30;-1.0;Helden_des_Dornenreiches;1000;Zweihandhiebwaffen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;65.0;30;-1.0;Helden_des_Dornenreiches;1000;,
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;66.0;30;-1.0;Helden_des_Dornenreiches;1000;Zweihandschwerter
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;67.0;30;-1.0;Helden_des_Dornenreiches;1000;und Fernkampftechniken pa
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;68.0;30;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;69.0;30;-1.0;Helden_des_Dornenreiches;1000;riert werden. Nur ein geschlossener Fächer kann als Parierwaffe dienen. Je nach Fächer können die oben genannten Angaben abweichen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;70.0;30;-1.0;Helden_des_Dornenreiches;1000;Leiteigenschaft
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;71.0;30;-1.0;Helden_des_Dornenreiches;1000;GE
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;72.0;30;-1.0;Helden_des_Dornenreiches;1000;Steigerungsfaktor
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;73.0;30;-1.0;Helden_des_Dornenreiches;1000;C
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;31;-1.0;Helden_des_Dornenreiches;1200;Helden aus dem Dornenreich
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;2.0;31;-1.0;Helden_des_Dornenreiches;1300;Herunterstoßen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;31;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)Berittene sind in der Auseinandersetzung mit Fußkämpfern deutlich im Vorteil. Es ist jedoch möglich, einen Reiter mittels einer Stangenwaffe aus dem Sattel zu ziehen und ihn damit seines Vorteils zu berauben.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;31;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;5.0;31;-1.0;Helden_des_Dornenreiches;1000;Gelingt dem Helden eine um 4 erschwerte Attacke und misslingt die Verteidigung des Gegners, erleidet dieser minimalen Waffenschaden (wie gewürfelte 1 bei den TP, Bonus durch Schadensschwelle zählt mit) und droht vom Reittier zu stürzen. Er muss sofort eine Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;6.0;31;-1.0;Helden_des_Dornenreiches;1000;Reiten (Kampfmanöver)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;7.0;31;-1.0;Helden_des_Dornenreiches;1000;erschwert um 2 ablegen, bei Misslingen stürzt der Reiter von seinem Reittier und erleidet Sturzschaden (siehe Regelwerk Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;8.0;31;-1.0;Helden_des_Dornenreiches;1000;340
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;9.0;31;-1.0;Helden_des_Dornenreiches;1000;).
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;10.0;31;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;11.0;31;-1.0;Helden_des_Dornenreiches;1000;–4
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;12.0;31;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;13.0;31;-1.0;Helden_des_Dornenreiches;1000;KK 13
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;14.0;31;-1.0;Helden_des_Dornenreiches;1000;Kampftechnik
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;15.0;31;-1.0;Helden_des_Dornenreiches;1000;Stangenwaffen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;16.0;31;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;17.0;31;-1.0;Helden_des_Dornenreiches;1000;12 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;18.0;31;-1.0;Helden_des_Dornenreiches;1300;Klingensturm
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;31;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)Erfahrene Kämpfer vermögen es, ihre Gegner mit einem tödlichen Sturm von Hieben einzudecken.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;20.0;31;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;21.0;31;-1.0;Helden_des_Dornenreiches;1000;Die Abenteurerin vermag in 1 Aktion zwei einzelne Attacken zu schlagen. Beide Attacken sind um jeweils 2 erschwert. Der zweite Angriff bekommt einen Malus von –2 TP. Das ausgewürfelte Minimum beträgt aber immer mindestens 1 TP.Die Angriffe können sich gegen verschiedene Ziele innerhalb der Angriffsdistanz richten. Wird ein Klingensturm mit einem Basismanöver kombiniert, muss dieses für beide Attacken identisch sein. Sollte der Heldin während der ersten AT ein Patzer unterlaufen, verfällt die zweite AT. Das Klingensturm-Manöver kann nicht zusammen mit einem Schild, einer Parierwaffe oder einer weiteren Einhandwaffe kombiniert werden. Der Bonus durch die SF Einhändiger Kampf kann beim Einsatz des Klingensturm benutzt werden.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;22.0;31;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;23.0;31;-1.0;Helden_des_Dornenreiches;1000;–2
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;24.0;31;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;25.0;31;-1.0;Helden_des_Dornenreiches;1000;Einhändiger Kampf
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;26.0;31;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;27.0;31;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fechtwaffen, Hiebwaffen, Schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;28.0;31;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;29.0;31;-1.0;Helden_des_Dornenreiches;1000;25 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;30.0;31;-1.0;Helden_des_Dornenreiches;1300;Wirbelangriff I-II
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;31.0;31;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)Ein Wirbelangriff ist ein Angriff gegen mehrere Gegner, der allerdings etwas schwächer ausgeführt wird, da die Wucht des Angriffs nicht auf einen Widersacher konzentriert werden kann.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;31;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;33.0;31;-1.0;Helden_des_Dornenreiches;1000;Die angegriffenen Gegner dürfen auf den Angriff getrennt reagieren. Die erste AT ist um –2, die zweite um –4 und die dritte um –6 erschwert. Wenn die Verteidigung der Gegner misslingt, wird für jeden Gegner einzeln Schaden ausgewürfelt. Ein Treffer richtet 2 TP weniger an als üblich (bis zu einem Minimum von 0 TP).Wirbelangriff I erlaubt den Angriff auf zwei Gegner, Wirbelangriff II den Angriff auf drei Gegner. Ein Patzer bei einem der Angriffe bedeutet, dass keine weiteren Attacken des Wirbelangriffs in dieser KR ausgeführt werden können.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;31;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;35.0;31;-1.0;Helden_des_Dornenreiches;1000;–2 (erste AT), –4 (zweite AT), –6 (dritte AT)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;36.0;31;-1.0;Helden_des_Dornenreiches;900;Voraussetzungen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;37.0;31;-1.0;Helden_des_Dornenreiches;900;Stufe I: GE 15<br> Stufe II: GE 17, Wirbelangriff I
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;38.0;31;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;39.0;31;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fächer, Fechtwaffen, Raufen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;40.0;31;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;41.0;31;-1.0;Helden_des_Dornenreiches;1000;Stufe I/II: 25/35 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;42.0;31;-1.0;Helden_des_Dornenreiches;1800;Kampfsonderfertigkeiten
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;32;-1.0;Helden_des_Dornenreiches;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont UUAWIP+Andalus;false;false;2.0;32;-1.0;Helden_des_Dornenreiches;1300;I
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;32;-1.0;Helden_des_Dornenreiches;1000;Für grundlegende Regeln zu Stilsonderfertigkeiten und erweiterte Sonderfertigkeiten siehe Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;32;-1.0;Helden_des_Dornenreiches;1000;28
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;5.0;32;-1.0;Helden_des_Dornenreiches;1000;in diesem Buch. Weitere Informationen zu Kampf-
+PDType0Font/PDCIDFontType2, PostScript name: ZQHWUK+GentiumBasic;false;false;6.0;32;-1.0;Helden_des_Dornenreiches;1000;stilen findest du im
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;7.0;32;-1.0;Helden_des_Dornenreiches;1000;Aventurischen Kompendium
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;8.0;32;-1.0;Helden_des_Dornenreiches;1000;auf Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;9.0;32;-1.0;Helden_des_Dornenreiches;1000;145
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;10.0;32;-1.0;Helden_des_Dornenreiches;1000;oder im
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;11.0;32;-1.0;Helden_des_Dornenreiches;1000;Kodex des Schwertes
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;12.0;32;-1.0;Helden_des_Dornenreiches;1000;auf Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;13.0;32;-1.0;Helden_des_Dornenreiches;1000;308
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;14.0;32;-1.0;Helden_des_Dornenreiches;1000;.Kampfstile werden in bewaffnete Kampfstile und waffenlose Kampfstile unterschieden. Bewaffnete Kampfstile sind mit folgendem Symbol gekennzeichnet:Waffenlose Kampfstile sind mit diesem Symbol gekennzeichnet:Ein Held kann aus beiden Kategorien nur jeweils eine Kampfstilsonderfertigkeit beherrschen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;15.0;32;-1.0;Helden_des_Dornenreiches;1300;Aranischer Sippenkrieger-Stil
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;16.0;32;-1.0;Helden_des_Dornenreiches;1000;(passiv)
+PDTrueTypeFont UUAWIP+Andalus;false;false;17.0;32;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;18.0;32;-1.0;Helden_des_Dornenreiches;1000;Die Sippenkrieger Araniens sind mit der Wahrung der Ordnung betraut. Viele von ihnen geben sich daher einen grimmigen Anschein und versuchen bereits vor dem Kampf, ihre Gegner mit einer Zurschaustellung ihrer Waffenfinesse davon zu überzeugen, dass sie sich besser nicht auf einen Kampf einlassen sollten.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;19.0;32;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;20.0;32;-1.0;Helden_des_Dornenreiches;1000;Wer über den
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;21.0;32;-1.0;Helden_des_Dornenreiches;1000;Aranischen Sippenkrieger-Stil
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;22.0;32;-1.0;Helden_des_Dornenreiches;1000;verfügt, der kann mit 1 freien Aktion zu Beginn des Kampfes einen kulturschaffenden Gegner in 16 Schritt Radius auswählen und eine Vergleichsprobe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;23.0;32;-1.0;Helden_des_Dornenreiches;1000;Einschüchtern (Provozieren)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;24.0;32;-1.0;Helden_des_Dornenreiches;1000;gegen
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;25.0;32;-1.0;Helden_des_Dornenreiches;1000;Willenskraft (Einschüchtern widerstehen)
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;26.0;32;-1.0;Helden_des_Dornenreiches;1000;ablegen. Gelingt die Probe, so schreckt der Gegner des Sippenkrieger zurück und seine AT sinkt für die Dauer des Kampfes um –2.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;27.0;32;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;28.0;32;-1.0;Helden_des_Dornenreiches;1000;Defensives Ver-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;29.0;32;-1.0;Helden_des_Dornenreiches;1000;halten, Reizen, Verbesserte Aufmerksamkeit
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;30.0;32;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;31.0;32;-1.0;Helden_des_Dornenreiches;1000;MU 13
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;32;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;33.0;32;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;32;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;35.0;32;-1.0;Helden_des_Dornenreiches;1000;12 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;36.0;32;-1.0;Helden_des_Dornenreiches;1300;Baburin-Stil
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;37.0;32;-1.0;Helden_des_Dornenreiches;1000;(passiv) Die Kriegerinnen aus Baburin werden in verschiedenen Taktiken geschult und können schnell Schwächen ihrer Feinde ausmachen. Dies nutzen sie zur Vorbereitung ih
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;38.0;32;-1.0;Helden_des_Dornenreiches;1000;-rer eigenen Angriffe aus.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;39.0;32;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;40.0;32;-1.0;Helden_des_Dornenreiches;1000;Eine Kriegerin aus Baburin kann mittels 1 freien Aktion im Kampf eine Probe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;41.0;32;-1.0;Helden_des_Dornenreiches;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;42.0;32;-1.0;Helden_des_Dornenreiches;1000;ablegen. Sie muss vor dem Ablegen der Probe einen Gegner in Sichtreichweite bestimmen. Gelingt die Probe, so bekommt sie für die laufende KR einen Bonus von +1 AT, +1 AW, +1 PA und +1 FK gegen den benannten Widersacher.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;43.0;32;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Kampfsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;44.0;32;-1.0;Helden_des_Dornenreiches;1000;Aufspießen, Fah
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;45.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;46.0;32;-1.0;Helden_des_Dornenreiches;1000;render Schütze, Wuchtiger Wurf
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;47.0;32;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;48.0;32;-1.0;Helden_des_Dornenreiches;1000;IN 13
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;49.0;32;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;50.0;32;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;51.0;32;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;52.0;32;-1.0;Helden_des_Dornenreiches;1000;10 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;53.0;32;-1.0;Helden_des_Dornenreiches;1300;Ishannah al’Kira-Stil
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;54.0;32;-1.0;Helden_des_Dornenreiches;1000;(passiv)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;55.0;32;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;56.0;32;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;57.0;32;-1.0;Helden_des_Dornenreiches;1000;Der Kampfstil des Flammenreihers, den die Balayan-Meisterin Ishannah al’Kira lehrt, setzt auf Anmut und fließende Bewegungen im Zusammenspiel von Säbel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;58.0;32;-1.0;Helden_des_Dornenreiches;1000;und Kriegsfächer.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;59.0;32;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;60.0;32;-1.0;Helden_des_Dornenreiches;1000;Eine Heldin, die über diesen Stil verfügt, erhält bei der Benutzung eines Fächers als Parierwaffe oder Schild einen PA-Bonus von +1 für die Hauptwaffe (der durch die SF
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;61.0;32;-1.0;Helden_des_Dornenreiches;1000;Klingenfänger
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;62.0;32;-1.0;Helden_des_Dornenreiches;1000;für Parierwaffen einen Ge
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;63.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;64.0;32;-1.0;Helden_des_Dornenreiches;1000;samtbonus von +2 verleiht). Zudem benötigt sie nur 1 freie Aktion zum Ein- oder Ausklappen des Fächers (statt 1 Aktion). Wenn sie mit ausgeklapptem Fächer ein Geschoss parieren will, erhält sie außerdem keine Erschwernis von –1.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;65.0;32;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Kampfsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;66.0;32;-1.0;Helden_des_Dornenreiches;1000;Hohe Klin
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;67.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;68.0;32;-1.0;Helden_des_Dornenreiches;1000;ge, Machtvoller Wirbelangriff, Verbesserter Doppelangriff
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;69.0;32;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;70.0;32;-1.0;Helden_des_Dornenreiches;1000;GE 13, SF Klingenfänger
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;71.0;32;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;72.0;32;-1.0;Helden_des_Dornenreiches;1000;Fächer, Schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;73.0;32;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;74.0;32;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;75.0;32;-1.0;Helden_des_Dornenreiches;1300;Rosenritter-Stil
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;76.0;32;-1.0;Helden_des_Dornenreiches;1000;(passiv)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;77.0;32;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;78.0;32;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;79.0;32;-1.0;Helden_des_Dornenreiches;1000;Für die Prinzipien der Göttinnen Rondra und Rahja glei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;80.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;81.0;32;-1.0;Helden_des_Dornenreiches;1000;chermaßen kämpft der Orden der Ritter der Rose. Lei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;82.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;83.0;32;-1.0;Helden_des_Dornenreiches;1000;denschaft und Entschlossenheit führen ihn zum Sieg über seine Feinde, um die Welt zu einem besseren Ort zu machen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;84.0;32;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;85.0;32;-1.0;Helden_des_Dornenreiches;1000;Für einen Helden mit diesem Kampfstil sind Pro
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;86.0;32;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;87.0;32;-1.0;Helden_des_Dornenreiches;1000;ben auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;88.0;32;-1.0;Helden_des_Dornenreiches;1000;Selbstbeherrschung (Handlungsfähigkeit bewahren)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;89.0;32;-1.0;Helden_des_Dornenreiches;1000;und
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;90.0;32;-1.0;Helden_des_Dornenreiches;1000;Willenskraft (Bedrohungen standhalten
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;91.0;32;-1.0;Helden_des_Dornenreiches;1000;oder
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;92.0;32;-1.0;Helden_des_Dornenreiches;1000;Einschüchtern widerstehen)
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;93.0;32;-1.0;Helden_des_Dornenreiches;1000;während eines Kampfes um +1 erleichtert.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;94.0;32;-1.0;Helden_des_Dornenreiches;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;95.0;32;-1.0;Helden_des_Dornenreiches;1000;Defensives Ver-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;96.0;32;-1.0;Helden_des_Dornenreiches;1000;halten, Offensives Verhalten, Vorbeiziehen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;97.0;32;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;98.0;32;-1.0;Helden_des_Dornenreiches;1000;MU 13
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;99.0;32;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;100.0;32;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;101.0;32;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;102.0;32;-1.0;Helden_des_Dornenreiches;1000;20 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;103.0;32;-1.0;Helden_des_Dornenreiches;800;BKBKWK
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;33;-1.0;Helden_des_Dornenreiches;1200;Helden aus dem Dornenreich
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;2.0;33;-1.0;Helden_des_Dornenreiches;1300;Aufspießen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;33;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;33;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;5.0;33;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;6.0;33;-1.0;Helden_des_Dornenreiches;1000;Kämpfer, die geschickt genug sind, können in einer flie
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;7.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;8.0;33;-1.0;Helden_des_Dornenreiches;1000;ßenden Bewegung sowohl ihren Gegner zu Fall bringen als ihn auch am Boden fixieren.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;9.0;33;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;10.0;33;-1.0;Helden_des_Dornenreiches;1000;Gelingt die um –6 erschwerte AT und misslingt die Verteidigung, so ist das Opfer zu Boden geworfen wor
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;11.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;12.0;33;-1.0;Helden_des_Dornenreiches;1000;den und wurde festgenagelt. Der übliche Schaden von 1W3 TP durch die SF
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;13.0;33;-1.0;Helden_des_Dornenreiches;1000;Zu Fall bringen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;14.0;33;-1.0;Helden_des_Dornenreiches;1000;kommt beim Aufspie
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;15.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;16.0;33;-1.0;Helden_des_Dornenreiches;1000;ßen nicht zu tragen.In den nachfolgenden KR gelingt die AT automatisch, ohne dass der Spieler würfeln muss. Jede KR richtet der Angriff +1 TP mehr an (in der ersten KR noch keinen zu
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;17.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;18.0;33;-1.0;Helden_des_Dornenreiches;1000;sätzlichen TP, in der 2. KR +1 TP, in der 3. KR +2 TP usw.). Die TP werden wie üblich ausgewürfelt. Der Feind er
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;20.0;33;-1.0;Helden_des_Dornenreiches;1000;hält den Status
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;21.0;33;-1.0;Helden_des_Dornenreiches;1000;Fixiert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;22.0;33;-1.0;Helden_des_Dornenreiches;1000;und
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;23.0;33;-1.0;Helden_des_Dornenreiches;1000;Liegend
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;24.0;33;-1.0;Helden_des_Dornenreiches;1000;. Der Angreifer kann am Ende einer KR entscheiden loszulassen. Um sich zu befreien, muss das Opfer eine Vergleichsprobe auf
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;25.0;33;-1.0;Helden_des_Dornenreiches;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;26.0;33;-1.0;Helden_des_Dornenreiches;1000;gegen den Angreifer gewinnen.
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;27.0;33;-1.0;Helden_des_Dornenreiches;1000;Jede Probe kostet 1 Aktion. Das Manöver
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;28.0;33;-1.0;Helden_des_Dornenreiches;1000;Festnageln
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;29.0;33;-1.0;Helden_des_Dornenreiches;1000;kann nur gegen gleichgroße oder die nächstkleinere Größen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;30.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;31.0;33;-1.0;Helden_des_Dornenreiches;1000;kategorie angewandt werden. Misslingt die AT, so steht dem Gegner ein Passierschlag zu.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;33;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;33.0;33;-1.0;Helden_des_Dornenreiches;1000;–6
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;33;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;35.0;33;-1.0;Helden_des_Dornenreiches;1000;GE 15 oder KK 15, SF Festnageln, SF Zu Fall bringen, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;36.0;33;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;37.0;33;-1.0;Helden_des_Dornenreiches;1000;Stangenwaffen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;38.0;33;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;39.0;33;-1.0;Helden_des_Dornenreiches;1000;20 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;40.0;33;-1.0;Helden_des_Dornenreiches;1300;Defensives Verhalten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;41.0;33;-1.0;Helden_des_Dornenreiches;1000;(passiv)Manchmal ist es für eine Heldin sehr wichtig, sich auf ihre Verteidigung zu Ungunsten ihrer Angriffsmöglich
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;42.0;33;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;43.0;33;-1.0;Helden_des_Dornenreiches;1000;keiten zu konzentrieren.
+PDTrueTypeFont UUAWIP+Andalus;false;false;44.0;33;-1.0;Helden_des_Dornenreiches;1800;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;45.0;33;-1.0;Helden_des_Dornenreiches;1300;Angetäuschter Angriff
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;46.0;33;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)Meister der Finte können ihre Angriffe besonders gut mit einer bestimmten Waffenkombination vorbereiten, beispielsweise mit einem Schild und einem Kurzschwert oder einem Rapier und einem Linkhand-Dolch. Hinter einigen Waffen lassen sich nicht nur Angriffe gut verbergen, auch durch die Kombination mit einem leichten Stoß oder einer Art Kreuzblock mit Waffe und Schild tun sich so in der Abwehr des Gegners schnell Lücken auf.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;47.0;33;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;48.0;33;-1.0;Helden_des_Dornenreiches;1000;Um diese Sonderfertigkeit nutzen zu können, muss sie mit einer Finte kombiniert werden. Sollte dem Gegner die Verteidigung gegen die Finte misslingen und er über seinen regulären VW gewürfelt haben (die Finte also nicht notwendig gewesen sein, um zu treffen), richtet der Treffer +1 TP an.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;49.0;33;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;50.0;33;-1.0;Helden_des_Dornenreiches;1000;GE 15, Finte I, passende Kampf stil - sonder fertigkeit
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;51.0;33;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;52.0;33;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fechtwaffen, Raufen, Schilde, Schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;53.0;33;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;54.0;33;-1.0;Helden_des_Dornenreiches;1000;10 Abenteuerpunkte
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;55.0;33;-1.0;Helden_des_Dornenreiches;1000;Beispiel: Geron verfügt über die SF Finte I und Angetäuschter Angriff. Er senkt mit der Finte I die PA seines Gegners von 11 auf 9. Gerons Attacke mit der Finte gelingt und sein Gegner würfelt eine 13. Da Geron die Finte nicht gebraucht hätte, um zu treffen, richtet sein Angriff nun +1 TP an. Hätte sein Gegner eine 10 oder 11 gewürfelt, hätte Geron den TP-Bonus nicht bekommen, denn dann wäre die Finte notwendig gewesen, um den Gegner zu treffen, aber immerhin hätte er seinen Widersacher dann dank der Finte getroffen. Bei 1-9 hätte der Gegner pariert.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;1.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;2.0;34;-1.0;Helden_des_Dornenreiches;1000;Sollte die Heldin Erschwernisse auf ihre Verteidigung erleiden, gleich welchen Ursprungs (bis auf Sicht-
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;3.0;34;-1.0;Helden_des_Dornenreiches;1000;modifikatoren), so kann sie durch ihr ausgezeichnetes Defensiverhalten entscheiden, 1 oder 2 Punkte Erschwer
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;4.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;5.0;34;-1.0;Helden_des_Dornenreiches;1000;nis zu ignorieren. Sollte mehr als 2 Punkte Erschwernis
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;6.0;34;-1.0;Helden_des_Dornenreiches;1000;vorhanden sein, muss sie den Rest der Erschwernis hin-
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;7.0;34;-1.0;Helden_des_Dornenreiches;1000;nehmen. Für jeden Punkt Erschwernis, den sie ignorie
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;8.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;9.0;34;-1.0;Helden_des_Dornenreiches;1000;ren möchte, erleidet sie bis zum Ende der nächsten KR eine Erschwernis von –2 auf AT und FK.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;10.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;11.0;34;-1.0;Helden_des_Dornenreiches;1000;IN 15, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;12.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;13.0;34;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;14.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SKKAVY+GentiumBasic;false;false;15.0;34;-1.0;Helden_des_Dornenreiches;1000;12 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;16.0;34;-1.0;Helden_des_Dornenreiches;1300;Fahrender Schütze (passiv)
+PDTrueTypeFont UUAWIP+Andalus;false;false;17.0;34;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;18.0;34;-1.0;Helden_des_Dornenreiches;1000;Wer von einem Streitwagen aus einen Bogen, eine Arm
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;20.0;34;-1.0;Helden_des_Dornenreiches;1000;brust oder eine Wurfwaffe benutzen möchte, muss beim Zielen Rücksicht auf die Bewegung und das Ruckeln des Gefährts nehmen. Wer darin aber geübt ist, der ist ein tödlicher, beweglicher Fernkämpfer.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;21.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;22.0;34;-1.0;Helden_des_Dornenreiches;1000;Bewegt sich das Reittier gehend fort, dann ist das Schießen für die Abenteurerin nicht mehr erschwert. Im Galopp sind Fernkampfangriffe nur noch um –2 er
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;23.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;24.0;34;-1.0;Helden_des_Dornenreiches;1000;schwert. Beim Trab sind Schüsse um –4 erschwert.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;25.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;26.0;34;-1.0;Helden_des_Dornenreiches;1000;Fahrzeuge 10, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;27.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;28.0;34;-1.0;Helden_des_Dornenreiches;1000;alle Fernkampftechniken
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;29.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;30.0;34;-1.0;Helden_des_Dornenreiches;1000;5 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;31.0;34;-1.0;Helden_des_Dornenreiches;1300;Hohe Klinge
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;32.0;34;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)
+PDTrueTypeFont UUAWIP+Andalus;false;false;33.0;34;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;34.0;34;-1.0;Helden_des_Dornenreiches;1000;Der Held führt seine Klinge über dem Kopf, um weit aus
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;35.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;36.0;34;-1.0;Helden_des_Dornenreiches;1000;holende Attacken ausführen zu können.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;37.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;38.0;34;-1.0;Helden_des_Dornenreiches;1000;Das Manöver
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;39.0;34;-1.0;Helden_des_Dornenreiches;1000;Hohe Klinge
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;40.0;34;-1.0;Helden_des_Dornenreiches;1000;muss am Anfang der KR angesagt werden. Der Abenteurer bekommt einen Bo
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;41.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;42.0;34;-1.0;Helden_des_Dornenreiches;1000;nus von +1 AT und +1 TP, allerdings ist seine Verteidi
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;43.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;44.0;34;-1.0;Helden_des_Dornenreiches;1000;gung bis zum Ende der KR halbiert.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;45.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;46.0;34;-1.0;Helden_des_Dornenreiches;1000;passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;47.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;48.0;34;-1.0;Helden_des_Dornenreiches;1000;Fechtwaffen, Schwerter, Zweihand
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;49.0;34;-1.0;Helden_des_Dornenreiches;1000;-schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;50.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;51.0;34;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;52.0;34;-1.0;Helden_des_Dornenreiches;1300;Machtvoller Wirbelangriff
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;53.0;34;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;54.0;34;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;55.0;34;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;56.0;34;-1.0;Helden_des_Dornenreiches;1000;Mit kleinen und leichten Waffen ist es möglich, einen noch deutlich mächtigeren Wirbelangriff durchzuführen. Eine Heldin muss dazu geschickt und schnell sein und die Grundlagen des normalen Wirbelangriffs beherrschen. Ist sie dazu in der Lage, kann sie in einer fließenden Be
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;57.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;58.0;34;-1.0;Helden_des_Dornenreiches;1000;wegung bis zu drei Gegner nacheinander angreifen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;59.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;60.0;34;-1.0;Helden_des_Dornenreiches;1000;Die Heldin kann mit dieser Sonderfertigkeit drei Ziele in Angriffsdistanz mit 1 Aktion angreifen. Sie muss vor dem Angriff ansagen, in welcher Reihenfol
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;61.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;62.0;34;-1.0;Helden_des_Dornenreiches;1000;ge sie die drei Gegner angreifen möchte. Die AT gegen den ersten Gegner wird wie gewöhnlich ausgeführt. Ob die Verteidigung des Gegners gelungen ist, ist dabei un
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;63.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;64.0;34;-1.0;Helden_des_Dornenreiches;1000;erheblich. Sie kann noch in derselben Aktion eine wei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;65.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;66.0;34;-1.0;Helden_des_Dornenreiches;1000;tere, um –4 erschwerte AT gegen den zweiten Gegner ausführen. Anschließend kann sie noch eine dritte AT gegen einen dritten Gegner ausführen. Diese AT ist um –6 erschwert. Für die Bewegung zwischen den Gegnern muss die Heldin über 1 freie Aktion verfügen und diese auch einsetzen. Die Attacken dürfen nicht gegen den
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;67.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;68.0;34;-1.0;Helden_des_Dornenreiches;1000;selben Gegner gerichtet sein.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;69.0;34;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;70.0;34;-1.0;Helden_des_Dornenreiches;1000;–4 (zweite AT), –6 (dritte AT)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;71.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;72.0;34;-1.0;Helden_des_Dornenreiches;1000;SF Wirbelangriff, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;73.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;74.0;34;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fächer, Raufen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;75.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;76.0;34;-1.0;Helden_des_Dornenreiches;1000;25 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;77.0;34;-1.0;Helden_des_Dornenreiches;1300;Offensives Verhalten
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;78.0;34;-1.0;Helden_des_Dornenreiches;1000;(passiv)Angriff ist die beste Verteidigung, so wurde es schon an der berühmten, mittlerweile untergegangenen Wehrheimer Akademie gelehrt. Eine Heldin kann versuchen, Offensiv
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;79.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;80.0;34;-1.0;Helden_des_Dornenreiches;1000;einschränkungen bis zu einem gewissen Grad zu kompen
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;81.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;82.0;34;-1.0;Helden_des_Dornenreiches;1000;sieren, aber nur zu Lasten ihres Abwehrverhaltens.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;83.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;84.0;34;-1.0;Helden_des_Dornenreiches;1000;Sollte die Heldin Erschwernisse auf ihre AT erlei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;85.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;86.0;34;-1.0;Helden_des_Dornenreiches;1000;den, gleich welchen Ursprungs (bis auf Sichtmodifika
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;87.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;88.0;34;-1.0;Helden_des_Dornenreiches;1000;toren), so kann sie durch ihr ausgezeichnetes Offensiv
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;89.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;90.0;34;-1.0;Helden_des_Dornenreiches;1000;verhalten entscheiden, 1 oder 2 Punkte Erschwernis zu ignorieren. Sollte mehr als 2 Punkte Erschwernis vor
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;91.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;92.0;34;-1.0;Helden_des_Dornenreiches;1000;handen sein, muss sie den Rest der Erschwernis hin
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;93.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;94.0;34;-1.0;Helden_des_Dornenreiches;1000;nehmen. Für jeden Punkt Erschwernis, den sie ignorie
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;95.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;96.0;34;-1.0;Helden_des_Dornenreiches;1000;ren möchte, erleidet sie bis zum Ende der nächsten KR eine Erschwernis von –1 auf alle Verteidigungen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;97.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;98.0;34;-1.0;Helden_des_Dornenreiches;1000;MU 15, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;99.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;100.0;34;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;101.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;102.0;34;-1.0;Helden_des_Dornenreiches;1000;12 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;103.0;34;-1.0;Helden_des_Dornenreiches;1300;Reizen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;104.0;34;-1.0;Helden_des_Dornenreiches;1000;(passiv)Ab und zu ist es sinnvoll, wenn eine Heldin die Angrif
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;105.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;106.0;34;-1.0;Helden_des_Dornenreiches;1000;fe eines Gegners oder einer größeren Kreatur auf sich lenkt, um ihren Kampfgefährten zu ermöglichen zu flie
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;107.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;108.0;34;-1.0;Helden_des_Dornenreiches;1000;hen oder andere Angriffe vorzubereiten. Durch das Ma
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;109.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;110.0;34;-1.0;Helden_des_Dornenreiches;1000;növer kann man einen Gegner dazu bringen, von ande
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;111.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;112.0;34;-1.0;Helden_des_Dornenreiches;1000;ren abzulassen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;113.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;114.0;34;-1.0;Helden_des_Dornenreiches;1000;Die Heldin kann versuchen, ihren Gegner zu rei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;115.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;116.0;34;-1.0;Helden_des_Dornenreiches;1000;zen. Dazu muss ihr eine um –4 erschwerte AT gelin
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;117.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;118.0;34;-1.0;Helden_des_Dornenreiches;1000;gen und sie muss mindestens 1 SP bei dem Gegner ver
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;119.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;120.0;34;-1.0;Helden_des_Dornenreiches;1000;ursachen, den sie reizen will. Gelingt dies, so müssen sich alle Angriffe des Gegners bis zum Ende der nächs
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;121.0;34;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;122.0;34;-1.0;Helden_des_Dornenreiches;1000;ten KR gegen die Heldin richten.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;123.0;34;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;124.0;34;-1.0;Helden_des_Dornenreiches;1000;–4
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;125.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;126.0;34;-1.0;Helden_des_Dornenreiches;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;127.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;128.0;34;-1.0;Helden_des_Dornenreiches;1000;alle Nahkampftechniken
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;129.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;130.0;34;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;131.0;34;-1.0;Helden_des_Dornenreiches;1300;Verbesserte Aufmerksamkeit
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;132.0;34;-1.0;Helden_des_Dornenreiches;1000;(passiv)Ein Held, der besonders aufmerksam ist, lässt sich nicht mehr so einfach überraschen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;133.0;34;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;134.0;34;-1.0;Helden_des_Dornenreiches;1000;Erleidet ein Held den Status
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;135.0;34;-1.0;Helden_des_Dornenreiches;1000;Überrascht
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;136.0;34;-1.0;Helden_des_Dornenreiches;1000;, so kann er sich verteidigen und erleidet nur eine Erschwernis von –2 auf Verteidigungen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;137.0;34;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;138.0;34;-1.0;Helden_des_Dornenreiches;1000;SF Aufmerksamkeit, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;139.0;34;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;140.0;34;-1.0;Helden_des_Dornenreiches;1000;alle
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;141.0;34;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;142.0;34;-1.0;Helden_des_Dornenreiches;1000;12 Abenteuerpunkte
+PDTrueTypeFont UUAWIP+Andalus;false;false;1.0;35;-1.0;Helden_des_Dornenreiches;1200;Helden aus dem Dornenreich
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;2.0;35;-1.0;Helden_des_Dornenreiches;1300;Verbesserter Doppelangriff
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;3.0;35;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;4.0;35;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;5.0;35;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;6.0;35;-1.0;Helden_des_Dornenreiches;1000;Wer sich im Umgang mit zwei Waffen geübt hat und das Manöver des Doppelangriffs beherrscht, der kann diese Fähigkeit noch verfeinern, um den Angriff präziser und gefährlicher zu machen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;7.0;35;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;8.0;35;-1.0;Helden_des_Dornenreiches;1000;Der
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;9.0;35;-1.0;Helden_des_Dornenreiches;1000;Verbesserte Doppelangriff
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;10.0;35;-1.0;Helden_des_Dornenreiches;1000;muss im Beidhändi
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;11.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;12.0;35;-1.0;Helden_des_Dornenreiches;1000;gen Kampf angewandt werden. Die erste AT des Hel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;13.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;14.0;35;-1.0;Helden_des_Dornenreiches;1000;den ist um –2 erschwert, die zweite AT um +2 erleich
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;15.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;16.0;35;-1.0;Helden_des_Dornenreiches;1000;tert. Die Verteidigung des Gegners sinkt um 3. Zudem richtet die zweite Attacke +1 TP an. Alle Verteidigun
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;17.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;18.0;35;-1.0;Helden_des_Dornenreiches;1000;gen des Helden in dieser Kampfrunde entfallen. Miss
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;19.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;20.0;35;-1.0;Helden_des_Dornenreiches;1000;lingt eine der beiden Attacken, so ist die Verteidigung des Gegners nicht gesenkt, aber der Held verliert den
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;21.0;35;-1.0;Helden_des_Dornenreiches;1000;-noch alle Verteidigungen.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;22.0;35;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;23.0;35;-1.0;Helden_des_Dornenreiches;1000;–2 (erste AT)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;24.0;35;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;25.0;35;-1.0;Helden_des_Dornenreiches;1000;SF Doppelangriff, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;26.0;35;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;27.0;35;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fächer, Fechtwaffen, Hiebwaf
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;28.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;29.0;35;-1.0;Helden_des_Dornenreiches;1000;fen, Schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;30.0;35;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;31.0;35;-1.0;Helden_des_Dornenreiches;1000;25 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;32.0;35;-1.0;Helden_des_Dornenreiches;1300;Vorbeiziehen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;33.0;35;-1.0;Helden_des_Dornenreiches;1000;(Spezialmanöver)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;34.0;35;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;35.0;35;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;36.0;35;-1.0;Helden_des_Dornenreiches;1000;Eine riskante Technik ist das Vorbeiziehen am Gegner. Dadurch hat man kurzfristig einige Vorteile, allerdings besteht die Gefahr, dass der Kontrahent das Manöver
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;37.0;35;-1.0;Helden_des_Dornenreiches;1000;durchschaut und einen Gegenangriff startet.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;38.0;35;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;39.0;35;-1.0;Helden_des_Dornenreiches;1000;Um an einem Gegner vorbeizuziehen, muss eine um –4 erschwerte AT gelingen. Gelingt sie, gleich ob verteidigt oder nicht, so genießt der Held bis zum Ende der nächsten KR die
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;40.0;35;-1.0;Helden_des_Dornenreiches;1000;Vorteilhafte Position
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;41.0;35;-1.0;Helden_des_Dornenreiches;1000;gegenüber dem Feind (siehe
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;42.0;35;-1.0;Helden_des_Dornenreiches;1000;Regelwerk
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;43.0;35;-1.0;Helden_des_Dornenreiches;1000;Seite
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;44.0;35;-1.0;Helden_des_Dornenreiches;1000;238
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;45.0;35;-1.0;Helden_des_Dornenreiches;1000;), gegen den er das Manöver eingesetzt hat. Eine gelungene und unvertei
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;46.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;47.0;35;-1.0;Helden_des_Dornenreiches;1000;digte AT verursacht wie üblich Schaden. Bei einer un
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;48.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;49.0;35;-1.0;Helden_des_Dornenreiches;1000;verteidigten AT kann sein Gegner außerdem bis zum Ende der nächsten KR keine Manöver einsetzen.Das Manöver lässt sich nur gegen Kulturschaffende der Größenkategorien
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;50.0;35;-1.0;Helden_des_Dornenreiches;1000;klein
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;51.0;35;-1.0;Helden_des_Dornenreiches;1000;und
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;52.0;35;-1.0;Helden_des_Dornenreiches;1000;mittel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;53.0;35;-1.0;Helden_des_Dornenreiches;1000;anwenden. Bei Misslingen der AT steht dem Widersacher ein Passier
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;54.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;55.0;35;-1.0;Helden_des_Dornenreiches;1000;schlag zu.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;56.0;35;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;57.0;35;-1.0;Helden_des_Dornenreiches;1000;–4
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;58.0;35;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;59.0;35;-1.0;Helden_des_Dornenreiches;1000;GE 15, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;60.0;35;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;61.0;35;-1.0;Helden_des_Dornenreiches;1000;Dolche, Fechtwaffen, Hiebwaffen, Schwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;62.0;35;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;63.0;35;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;64.0;35;-1.0;Helden_des_Dornenreiches;1300;Weiter Schwung
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;65.0;35;-1.0;Helden_des_Dornenreiches;1000;(Basismanöver)Einige Kämpfer versuchen die Reichweite der Waffe op
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;66.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;67.0;35;-1.0;Helden_des_Dornenreiches;1000;timal zu nutzen und schwingen sie bei einem Angriff halbkreisförmig um sich.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;68.0;35;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;69.0;35;-1.0;Helden_des_Dornenreiches;1000;Bei Einsatz des um 2 erschwerten Manövers gilt der Held bis zum Ende der KR in einer Nah
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;70.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;71.0;35;-1.0;Helden_des_Dornenreiches;1000;kampfreichweite, die eine Stufe höher ist als die eigentliche Reichweite seiner Waffe. Zudem erhält er einen Bonus von +1 TP.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;72.0;35;-1.0;Helden_des_Dornenreiches;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;73.0;35;-1.0;Helden_des_Dornenreiches;1000;–2
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;74.0;35;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;75.0;35;-1.0;Helden_des_Dornenreiches;1000;passende Kampfstilsonderfertigkeit
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;76.0;35;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;77.0;35;-1.0;Helden_des_Dornenreiches;1000;Zweihandhiebwaffen, Zweihandschwerter
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;78.0;35;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;79.0;35;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;80.0;35;-1.0;Helden_des_Dornenreiches;1300;Wuchtiger Wurf
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;81.0;35;-1.0;Helden_des_Dornenreiches;1000;(passiv)
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;82.0;35;-1.0;Helden_des_Dornenreiches;1300;
+PDTrueTypeFont UUAWIP+Andalus;false;false;83.0;35;-1.0;Helden_des_Dornenreiches;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;84.0;35;-1.0;Helden_des_Dornenreiches;1000;Ob eine Wurfwaffe großen Schaden anrichtet, bemisst sich nicht nur an der Art der Waffe, sondern ebenso durch die Wucht, mit der sie geworfen wird. Einige Ex
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;85.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;86.0;35;-1.0;Helden_des_Dornenreiches;1000;perten unter den Fernkämpfern wissen zudem die rich
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;87.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;88.0;35;-1.0;Helden_des_Dornenreiches;1000;tige Technik einzusetzen, um möglichst verheerende Wunden anzurichten.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;89.0;35;-1.0;Helden_des_Dornenreiches;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;90.0;35;-1.0;Helden_des_Dornenreiches;1000;Verfügt ein Abenteurer über die SF
+PDTrueTypeFont OLYMCB+GentiumBasic-Italic;false;true;91.0;35;-1.0;Helden_des_Dornenreiches;1000;Wuchtiger Wurf
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;92.0;35;-1.0;Helden_des_Dornenreiches;1000;, aktiviert er für Wurfwaffen die Schadensschwel
+PDTrueTypeFont SRBKGT+GentiumBasic;false;false;93.0;35;-1.0;Helden_des_Dornenreiches;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;94.0;35;-1.0;Helden_des_Dornenreiches;1000;le KK 14. Mit jedem KK-Punkt über 14 richtet er +1 TP mit Wurfwaffen an.
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;95.0;35;-1.0;Helden_des_Dornenreiches;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;96.0;35;-1.0;Helden_des_Dornenreiches;1000;KK 15, passende Kampfstil-SF
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;97.0;35;-1.0;Helden_des_Dornenreiches;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;98.0;35;-1.0;Helden_des_Dornenreiches;1000;Wurfwaffen
+PDTrueTypeFont RNMESV+GentiumBasic-Bold;true;false;99.0;35;-1.0;Helden_des_Dornenreiches;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: UUAWIP+GentiumBasic;false;false;100.0;35;-1.0;Helden_des_Dornenreiches;1000;15 Abenteuerpunkte

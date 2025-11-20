@@ -1,0 +1,1338 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;17.0;272;-1.0;Kodex_der_Magie;1300;Akademie der Erscheinungen zu Grangor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;272;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;272;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;20.0;272;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;272;-1.0;Kodex_der_Magie;1000;Angst auslösen, Aromatis Illusionis, Manus Illusionius, Pestodem
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;272;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;272;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;24.0;272;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;272;-1.0;Kodex_der_Magie;1000;Pfad des Illusionisten (292 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;26.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;272;-1.0;Kodex_der_Magie;1000;Oculus Astralis 5 statt Geisteressenz 10, Manus Illusionis 5 statt Geisterruf 5, Aromatis Illusionis 4 statt Projektimago 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;28.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;272;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;30.0;272;-1.0;Kodex_der_Magie;1000;Pfad des Geisterbeschwörers (317 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;31.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;272;-1.0;Kodex_der_Magie;1000;Geisterbeschwörung 3 statt
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;33.0;272;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;272;-1.0;Kodex_der_Magie;1000;Auris Illusionis 4, Angst auslösen 6 statt Ignorantia 5, Pestodem 2 statt Menetekel 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;35.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;272;-1.0;Kodex_der_Magie;1000;Geisterruf auf 10
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;37.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;272;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;39.0;272;-1.0;Kodex_der_Magie;1300;Akademie der Geistigen Kraft zu Fasar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;40.0;272;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;272;-1.0;Kodex_der_Magie;1000;tolerant
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;272;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: OEWXTR+GentiumBasic;false;false;43.0;272;-1.0;Kodex_der_Magie;1000;Ecliptifactus, Einflussbann, Erinne
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;272;-1.0;Kodex_der_Magie;1000;-rung verlasse dich, Höllenpein, Ignorantia, Imperavi, Magischer Raub, Memorabia, Paralysis, Schwarzer Schrecken, Sensibar, Widerwille
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;272;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;272;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;47.0;272;-1.0;Kodex_der_Magie;1000;Pfad der harten Hand (343 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;48.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;272;-1.0;Kodex_der_Magie;1000;Höllenpein 4 statt Odem 4, Imperavi 4 statt Somnigravis (Elfen) 4, Memorabia 6 statt Bannbaladin 6, Magischer Raub 4 statt Corpofesso 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;50.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;272;-1.0;Kodex_der_Magie;1000;Betören 4 statt 3, Menschenkenntnis 6 statt 5, Willenskraft 7 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;52.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;272;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 0 statt 2, Stangenwaffen 6 statt 8
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;54.0;272;-1.0;Kodex_der_Magie;1000;Pfad der weichen Hand (329 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;55.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OEWXTR+GentiumBasic;false;false;56.0;272;-1.0;Kodex_der_Magie;1000;Einflussbann 4 statt Corpofesso 4,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;272;-1.0;Kodex_der_Magie;1000;Erinnerung verlasse dich 4 statt Odem 4, Magischer Raub 4 statt Somnigravis (Elfen) 4, Widerwille 6 statt Horriphobus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;58.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;272;-1.0;Kodex_der_Magie;1000;Betören 5 statt 3, Menschenkenntnis 6 statt 5, Willenskraft 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;60.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;272;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 0 statt 2, Stangenwaffen 6 statt 8
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;272;-1.0;Kodex_der_Magie;1300;Akademie der Geistreisen zu Belhanka
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;272;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;272;-1.0;Kodex_der_Magie;1000;tolerant
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;272;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;272;-1.0;Kodex_der_Magie;1000;Analys, Attributo (Körperkraft), Balsam Salabunde, Bannbaladin, Firnlauf, Flim Flam, Gedankenbilder, Körperlose Reise, Manifesto, Movimento, Odem, Sensibar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;67.0;272;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;272;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;69.0;272;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;272;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;272;-1.0;Kodex_der_Magie;1000;Pfad der Bewegung (290 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;72.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;73.0;272;-1.0;Kodex_der_Magie;1000;Bannbaladin 4 statt Motoricus 4,
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;74.0;272;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;272;-1.0;Kodex_der_Magie;1000;Firn-
+PDType0Font/PDCIDFontType2, PostScript name: OEWXTR+GentiumBasic;false;false;76.0;272;-1.0;Kodex_der_Magie;1000;lauf statt Animatio 4, Movimento 5 statt Blitz dich find
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;77.0;272;-1.0;Kodex_der_Magie;1000;5, Odem 6 statt Foramen 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;78.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;79.0;272;-1.0;Kodex_der_Magie;1000;Klettern 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;272;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;272;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;82.0;272;-1.0;Kodex_der_Magie;1000;Pfad der Reise (294 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;83.0;272;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;272;-1.0;Kodex_der_Magie;1000;Gedankenbilder 5 statt Telekinesebann 5, Körperlose Reise 4 statt Animatio 4, Movimen-
+PDType0Font/PDCIDFontType2, PostScript name: OEWXTR+GentiumBasic;false;false;85.0;272;-1.0;Kodex_der_Magie;1000;to 5 statt Blitz dich find 5, Odem 6 statt Foramen 6
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;273;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;2.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;273;-1.0;Kodex_der_Magie;1000;Boote & Schiffe 2 statt 0, Fahrzeuge 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;4.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;273;-1.0;Kodex_der_Magie;1300;Akademie der Herrschaft zu Elenvina
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;273;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;273;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;273;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;273;-1.0;Kodex_der_Magie;1000;Analys, Attributo (Körperkraft), Balsam Salabunde, Blick aufs Wesen, Blick in die Ge-
+PDType0Font/PDCIDFontType2, PostScript name: LYBQDX+GentiumBasic;false;false;10.0;273;-1.0;Kodex_der_Magie;1000;danken, Cryptographo, Einflussbann, Flim Flam, Gar
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;273;-1.0;Kodex_der_Magie;1000;-dianum, Imperavi, Odem, Psychostabilis, Sensibar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;273;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;273;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;14.0;273;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;273;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;16.0;273;-1.0;Kodex_der_Magie;1000;Pfad der Herrschaft (311 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;17.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;273;-1.0;Kodex_der_Magie;1000;Imperavi 4 statt Somnigravis 4, Kar-
+PDType0Font/PDCIDFontType2, PostScript name: LYBQDX+GentiumBasic;false;false;19.0;273;-1.0;Kodex_der_Magie;1000;nifilo 4 statt Gardianum 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;21.0;273;-1.0;Kodex_der_Magie;1000;Pfad der Widerstandskraft (306 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;22.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LYBQDX+GentiumBasic;false;false;23.0;273;-1.0;Kodex_der_Magie;1000;Psychostabilis 4 statt Einflussbann 4,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;273;-1.0;Kodex_der_Magie;1000;Sensibar 4 statt Somnigravis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;25.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;273;-1.0;Kodex_der_Magie;1000;Willenskraft 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;27.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;273;-1.0;Kodex_der_Magie;1000;Etikette 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;273;-1.0;Kodex_der_Magie;1300;Akademie der Hohen Magie zu Punin
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;30.0;273;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;273;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;273;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;273;-1.0;Kodex_der_Magie;1000;Adlerauge, Adlerschwinge, Arcanovi, Axxeleratus, Band und Fessel, Dämonenbann, Debilitatio, Desintegratus, Dschinnenruf, Erinnerung verlasse dich, Exposami, Gedankenbilder, Harmlose Gestalt, Ignisphaero, Ignorantia, Invercano, Magischer Raub, Meister der Elemente, Memorabia, Memorans, Nihilogravo, Nuntiovolo, Objectobscuro, Oculus Astralis, Tiergedanken, Widerwille
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;273;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;273;-1.0;Kodex_der_Magie;1000;Höllenpein
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;273;-1.0;Kodex_der_Magie;1000;Invocatoren-Zweig (326 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;37.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;273;-1.0;Kodex_der_Magie;1000;Elementarer Diener 7 statt Oculus Astralis 7, Invocatio Minor 4 statt Xenographus 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;273;-1.0;Kodex_der_Magie;1000;Sphärenkunde 8 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;273;-1.0;Kodex_der_Magie;1000;Magiekunde 6 statt 8
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;273;-1.0;Kodex_der_Magie;1000;Observatoren-Zweig (322 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;44.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;273;-1.0;Kodex_der_Magie;1000;Adlerauge 4 statt Invocatio Minima 8, Memorans 4 statt Xenographus 4, Manus Miracula 4 statt Manifesto 8
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;46.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;273;-1.0;Kodex_der_Magie;1000;Sinnesschärfe 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;48.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;273;-1.0;Kodex_der_Magie;1000;Tierkunde 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;273;-1.0;Kodex_der_Magie;1300;Akademie der magischen Rüstung zu Gareth
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;51.0;273;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;273;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;273;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;273;-1.0;Kodex_der_Magie;1000;Analys, Attributo (Körperkraft), Bal-
+PDType0Font/PDCIDFontType2, PostScript name: SWKWXJ+GentiumBasic;false;false;55.0;273;-1.0;Kodex_der_Magie;1000;sam Salabunde, Blitz dich find, Duplicatus, Einfluss
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;273;-1.0;Kodex_der_Magie;1000;-bann, Flim Flam, Hellsichtbann, Ignifaxius, Ignorantia, Odem, Paralysis, Psychostabilis, Sapefacta, Silentium
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;273;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;273;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;59.0;273;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;273;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, Bannbaladin, Horriphobus,
+PDType0Font/PDCIDFontType2, PostScript name: SWKWXJ+GentiumBasic;false;false;61.0;273;-1.0;Kodex_der_Magie;1000;Imperavi, Karnifilo, Plumbumbarum, Respondami,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;273;-1.0;Kodex_der_Magie;1000;Somnigravis.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;273;-1.0;Kodex_der_Magie;1000;Pfad des Leibwächters (297 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;64.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;273;-1.0;Kodex_der_Magie;1000;Hellsichtbann 4 statt Illusionsbann 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;66.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;273;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;68.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;69.0;273;-1.0;Kodex_der_Magie;1000;Pfad des Beraters (294 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;70.0;273;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: SWKWXJ+GentiumBasic;false;false;71.0;273;-1.0;Kodex_der_Magie;1000;Einflussbann 4 statt Illusionsbann 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;72.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;73.0;273;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;74.0;273;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;273;-1.0;Kodex_der_Magie;1000;Stangenwaffen 8 statt 10
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;274;-1.0;Kodex_der_Magie;1300;Akademie der Verformungen zu Lowangen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;274;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;274;-1.0;Kodex_der_Magie;1000;Adlerschwinge, Attributo (Körperkraft), Falkenauge, Haselbusch, Movimento, Objectobscuro, Wasseratem
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;274;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;274;-1.0;Kodex_der_Magie;1000;folgende Zauber werden nicht unterrichtet: Schwarz und Rot, Transmutare, Chimaeroform
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;274;-1.0;Kodex_der_Magie;1000;Heilkunst-Zweig (314 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;9.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;274;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft) 5 statt Armatrutz 5, Balsam Salabunde 6 statt Corpofesso 6, Wasseratem 4 statt Visibili (Elfen) 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;11.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;274;-1.0;Kodex_der_Magie;1000;Heilkunde Wunden 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;13.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;274;-1.0;Kodex_der_Magie;1000;Stangenwaffen 7 statt 8
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;15.0;274;-1.0;Kodex_der_Magie;1000;Verwandlungs-Zweig (318 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;274;-1.0;Kodex_der_Magie;1000;Adlerschwinge 6 statt Corpofesso 6, Attributo (Körperkraft) 5 statt Armatrutz 5, Wasseratem 4 statt Bannbaladin 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;274;-1.0;Kodex_der_Magie;1000;Geographie 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;274;-1.0;Kodex_der_Magie;1000;Heilkunde Wunden 3 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;274;-1.0;Kodex_der_Magie;1300;Akademie Schwert und Stab zu Gareth
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;274;-1.0;Kodex_der_Magie;1000;erzkonservativ
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;274;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;274;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;274;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;274;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;274;-1.0;Kodex_der_Magie;1000;Zauber des Merkmals Dämonisch oder Dämonenbeschwörungen, keine borbaradianischen Zauber<br> folgende Zauber werden nicht unterrichtet: Ängste lindern, Bannbaladin, Delicioso, Ein-
+PDType0Font/PDCIDFontType2, PostScript name: FEXMSJ+GentiumBasic;false;false;31.0;274;-1.0;Kodex_der_Magie;1000;fluss bannen, Horriphobus, Imperavi, Impersona, Invo
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FEXMSJ+GentiumBasic;false;false;33.0;274;-1.0;Kodex_der_Magie;1000;catio Maior, Invocatio Minor, Karnifilo, Schleier der Un
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;274;-1.0;Kodex_der_Magie;1000;-wissenheit, Schwarz und Rot, Skelettarius, Somnigravis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;35.0;274;-1.0;Kodex_der_Magie;1000;Schwert-Zweig (331 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;274;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;38.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;274;-1.0;Kodex_der_Magie;1000;Schwerter 11 statt 10
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;40.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;274;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;274;-1.0;Kodex_der_Magie;1000;Stab-Zweig (330 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;43.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;274;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;45.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;274;-1.0;Kodex_der_Magie;1000;Stangenwaffen 11 statt 10
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;47.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;274;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 2 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;49.0;274;-1.0;Kodex_der_Magie;1300;Akademie von Licht und Dunkelheit zu Nostria
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;274;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;274;-1.0;Kodex_der_Magie;1000;Adamantium, Attributo (Körper-
+PDType0Font/PDCIDFontType2, PostScript name: FEXMSJ+GentiumBasic;false;false;54.0;274;-1.0;Kodex_der_Magie;1000;kraft), Balsam Salabunde, Blitz dich find, Claudibus,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;274;-1.0;Kodex_der_Magie;1000;Corpofesso, Eisenrost, Exposami, Flim Flam, Fortifex,
+PDType0Font/PDCIDFontType2, PostScript name: FEXMSJ+GentiumBasic;false;false;56.0;274;-1.0;Kodex_der_Magie;1000;Fulminictus, Ignifaxius, Nihilogravo, Objectofixo,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;274;-1.0;Kodex_der_Magie;1000;Odem, Silentium
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;58.0;274;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;274;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;60.0;274;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;274;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;274;-1.0;Kodex_der_Magie;1000;Pfad der Dunkelheit (336 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;63.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;274;-1.0;Kodex_der_Magie;1000;Eisenrost 5 statt Armatrutz 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;65.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;274;-1.0;Kodex_der_Magie;1000;Pfad des Lichts (336 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;67.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;274;-1.0;Kodex_der_Magie;1000;Ignifaxius 5 statt Armatrutz 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;69.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;70.0;274;-1.0;Kodex_der_Magie;1300;Akademie zu Wagenhalt
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;72.0;274;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;74.0;274;-1.0;Kodex_der_Magie;1000;Accuratum, Adlerauge, Blick aufs
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;75.0;274;-1.0;Kodex_der_Magie;1000;Wesen, Einflussbann, Fortifex, Ignisphaero, Impersona
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;76.0;274;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;77.0;274;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zau
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;78.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;79.0;274;-1.0;Kodex_der_Magie;1000;ber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;274;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;274;-1.0;Kodex_der_Magie;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;82.0;274;-1.0;Kodex_der_Magie;1000;Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;83.0;274;-1.0;Kodex_der_Magie;1000;Pfad des Personenschutzes (408 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;84.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;85.0;274;-1.0;Kodex_der_Magie;1000;Einflussbann 4 statt Adamantium 4, Fortifex 5 statt Blick in die Gedanken 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;86.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;87.0;274;-1.0;Kodex_der_Magie;1000;Sinnesschärfe 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;88.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;89.0;274;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;90.0;274;-1.0;Kodex_der_Magie;1000;Pfad des Festungsschutzes (397 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;91.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;92.0;274;-1.0;Kodex_der_Magie;1000;Ignisphaero 4 statt Blick in die Ge
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;94.0;274;-1.0;Kodex_der_Magie;1000;danken 4, Penetrizzel 6 statt Balsam Salabunde 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;95.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;96.0;274;-1.0;Kodex_der_Magie;1000;Kriegskunst 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;97.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;98.0;274;-1.0;Kodex_der_Magie;1000;Heilkunde Gift 2 statt 4, Heilkunde Krank
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;99.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;100.0;274;-1.0;Kodex_der_Magie;1000;heiten 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;101.0;274;-1.0;Kodex_der_Magie;1300;Alrik Dagabor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;102.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;103.0;274;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;104.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;105.0;274;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;106.0;274;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;107.0;274;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;108.0;274;-1.0;Kodex_der_Magie;1000;Weg des Kämpfers (258 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;109.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;110.0;274;-1.0;Kodex_der_Magie;1000;Ignifaxius 4 statt Flim Flam 4, Para
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;111.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;112.0;274;-1.0;Kodex_der_Magie;1000;lysis 4 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;113.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;114.0;274;-1.0;Kodex_der_Magie;1000;Kriegskunst 2 statt 0, Stangenwaffen 11 statt 10
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;115.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;116.0;274;-1.0;Kodex_der_Magie;1000;Etikette 1 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;117.0;274;-1.0;Kodex_der_Magie;1000;Weg des Reisenden (255 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;118.0;274;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;119.0;274;-1.0;Kodex_der_Magie;1000;Foramen 6 statt Paralysis 6, Penetriz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;120.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;121.0;274;-1.0;Kodex_der_Magie;1000;zel 3 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;122.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;123.0;274;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;124.0;274;-1.0;Kodex_der_Magie;1000;Geographie 5 statt 4, Orientierung 4 statt 3, Wildnisleben 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;125.0;274;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;126.0;274;-1.0;Kodex_der_Magie;1000;Sphärenkunde 1 statt 3, Stangenwaffen 9 statt 10
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;127.0;274;-1.0;Kodex_der_Magie;1300;Anatomische Akademie zu Vinsalt
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;128.0;274;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;129.0;274;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;130.0;274;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;131.0;274;-1.0;Kodex_der_Magie;1000;Abvenenum, Ängste lindern, Einfluss
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;132.0;274;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZGSSMV+GentiumBasic;false;false;133.0;274;-1.0;Kodex_der_Magie;1000;bann, Memorans, Transmutare, Verwandlungsbann
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;275;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;275;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit den Merkmalen Dämonisch,
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;4.0;275;-1.0;Kodex_der_Magie;1000;Einfluss (außer Bannbaladin) oder Sphären
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;275;-1.0;Kodex_der_Magie;1000;Pfad der Kosmetik (346 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;6.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;275;-1.0;Kodex_der_Magie;1000;Transmutare 4 statt Klarum Purum 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;8.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;275;-1.0;Kodex_der_Magie;1000;Handel 3 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;10.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;275;-1.0;Kodex_der_Magie;1000;Heilkunde Krankheiten 3 statt 6
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;275;-1.0;Kodex_der_Magie;1000;Pfad der Venenik (338 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;13.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;14.0;275;-1.0;Kodex_der_Magie;1000;Abvenenum 6 statt Heptagramma 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;15.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;275;-1.0;Kodex_der_Magie;1000;Heilkunde Gift 7 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;17.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;275;-1.0;Kodex_der_Magie;1000;Heilkunde Krankheiten 4 statt 6
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;19.0;275;-1.0;Kodex_der_Magie;1300;Bannakademie von Fasar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;20.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;21.0;275;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;275;-1.0;Kodex_der_Magie;1000;Abvenenum, Adamantium, Custod-
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;24.0;275;-1.0;Kodex_der_Magie;1000;osigil, Ecliptifactus, Ignorantia, Illusionsbann, Inver
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;26.0;275;-1.0;Kodex_der_Magie;1000;cano, Klarum Purum, Objektbann, Sphärenbann, Ver
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;28.0;275;-1.0;Kodex_der_Magie;1000;wandlungsbann, Widerwille
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Dieners (357 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;32.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;33.0;275;-1.0;Kodex_der_Magie;1000;Custodosigil 5 statt Gardianum 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;34.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;35.0;275;-1.0;Kodex_der_Magie;1000;Verkleiden 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;37.0;275;-1.0;Kodex_der_Magie;1000;Sinnesschärfe 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;38.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Wächters (369 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;40.0;275;-1.0;Kodex_der_Magie;1000;Ecliptifactus 5 statt Telekinesebann 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;43.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;275;-1.0;Kodex_der_Magie;1300;Demirion Ophenos
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;46.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;47.0;275;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;48.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;49.0;275;-1.0;Kodex_der_Magie;1000;Dämonenbann, Ecliptifactus, Herz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;51.0;275;-1.0;Kodex_der_Magie;1000;schlag ruhe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;54.0;275;-1.0;Kodex_der_Magie;1000;Weg der Niederhöllen (303 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;55.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;56.0;275;-1.0;Kodex_der_Magie;1000;Ecliptifactus 4 statt Band und Fessel 4, Herzschlag ruhe 4 statt Skelettarius 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;57.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;58.0;275;-1.0;Kodex_der_Magie;1000;Einschüchtern 5 statt 4, Sphärenkunde 7
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;275;-1.0;Kodex_der_Magie;1000;statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;60.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;61.0;275;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;275;-1.0;Kodex_der_Magie;1000;Weg ohne Gnade (297 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;63.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;64.0;275;-1.0;Kodex_der_Magie;1000;Dämonenbann 4 statt Imperavi 4, Herzschlag ruhe 6 statt Invocatio Minor 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;65.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;66.0;275;-1.0;Kodex_der_Magie;1000;Einschüchtern 5 statt 4, Heilkunde Wun
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;275;-1.0;Kodex_der_Magie;1000;-den 1 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;68.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;69.0;275;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;70.0;275;-1.0;Kodex_der_Magie;1300;Drachenei-Akademie zu Khunchom
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;72.0;275;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;74.0;275;-1.0;Kodex_der_Magie;1000;Abvenenum, Custodosigil, Dschin
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: OOWPOR+GentiumBasic;false;false;76.0;275;-1.0;Kodex_der_Magie;1000;nenruf, Nihilogravo, Objectobscuro, Objectofixo
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;77.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;78.0;275;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;79.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Artefaktmagiers (338 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;275;-1.0;Kodex_der_Magie;1000;Objectobscuro 4 statt Destructibo 4,
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;82.0;275;-1.0;Kodex_der_Magie;1000;Objectofixo 5 statt Foramen 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;83.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;85.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;86.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;87.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Händlers (339 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;88.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;89.0;275;-1.0;Kodex_der_Magie;1000;Odem 4 statt Destructibo 4, Penetriz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;90.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;91.0;275;-1.0;Kodex_der_Magie;1000;zel 5 statt Foramen 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;92.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;94.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;95.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;96.0;275;-1.0;Kodex_der_Magie;1300;Dunkle Halle der Geister zu Brabak
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;97.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;98.0;275;-1.0;Kodex_der_Magie;1000;freigeistig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;99.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;100.0;275;-1.0;Kodex_der_Magie;1000;Ecliptifactus, Hartes schmelze, Ma
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;101.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;102.0;275;-1.0;Kodex_der_Magie;1000;gischer Raub, Nuntiovolo, Pandaemonium, Penta
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;103.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;104.0;275;-1.0;Kodex_der_Magie;1000;gramma, Pestodem, Reptilea, Stein wandle
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;105.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;106.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;107.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Dämonenbeschwörers (312 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;108.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;109.0;275;-1.0;Kodex_der_Magie;1000;Invocatio Minima 10 statt Geistessenz 10, Invocation Minor 6 statt Geisterruf 6, Pentagram
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;110.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;111.0;275;-1.0;Kodex_der_Magie;1000;ma 4 statt Heptagramma 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;112.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;113.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;114.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;115.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;116.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Sphärologen (311 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;117.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;118.0;275;-1.0;Kodex_der_Magie;1000;Ecliptifactus 5 statt Totes handle 5, Nuntiovolo 6 statt Skelettarius 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;119.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;120.0;275;-1.0;Kodex_der_Magie;1000;Sphärenkunde 7 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;121.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;122.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;123.0;275;-1.0;Kodex_der_Magie;1300;Halib abu’l Ketab
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;124.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;125.0;275;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;126.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;127.0;275;-1.0;Kodex_der_Magie;1000;Drachenleib, Flammenwand, Glut
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;128.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;129.0;275;-1.0;Kodex_der_Magie;1000;lauf, Ignisphaero, Unentflammbarkeit
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;130.0;275;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;131.0;275;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;132.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Abenteurers (255AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;133.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;134.0;275;-1.0;Kodex_der_Magie;1000;Armatrutz 4 statt Einflussbann 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;135.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;136.0;275;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 3 statt 0, Wildnisle
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;137.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;138.0;275;-1.0;Kodex_der_Magie;1000;ben 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;139.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;140.0;275;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 6
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;141.0;275;-1.0;Kodex_der_Magie;1000;Pfad des Pyromanten (240 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;142.0;275;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;143.0;275;-1.0;Kodex_der_Magie;1000;Drachenleib 4 statt Visibili 4, Flam
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;144.0;275;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;145.0;275;-1.0;Kodex_der_Magie;1000;menwand 5 statt Einflussbann 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;146.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;147.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;148.0;275;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;149.0;275;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;150.0;275;-1.0;Kodex_der_Magie;1300;Halle der Antimagie zu Kuslik
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;151.0;275;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;152.0;275;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;153.0;275;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: FJDDSJ+GentiumBasic;false;false;154.0;275;-1.0;Kodex_der_Magie;1000;Adlerauge, Heilungsbann, Invercano
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;276;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;276;-1.0;Kodex_der_Magie;1000;zusätzlich nur 1 Zauber des Merkmals Objekt, keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;276;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;276;-1.0;Kodex_der_Magie;1000;Zauber des Merkmals Dämonisch oder Dämonenbeschwörungen, borbaradianischen Zauber<br> folgende Zauber werden nicht unterrichtet: Accuratum, Adamantium, Aeolito, Arcanovi, Caldofrigo, Dunkelheit, Fortifex, Invocatio Maior, In-
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;5.0;276;-1.0;Kodex_der_Magie;1000;vocatio Minor, Karnifilo, Objectofixo, Silentium, Ske
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;6.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;7.0;276;-1.0;Kodex_der_Magie;1000;lettarius, Unberührt von Satinav
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;276;-1.0;Kodex_der_Magie;1000;Defensor-Zweig (326 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;9.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;276;-1.0;Kodex_der_Magie;1000;Invercano 6 statt 5, Disruptivo 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;11.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;276;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;276;-1.0;Kodex_der_Magie;1000;Magiekunde 6 statt 7, Menschenkenntnis
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;14.0;276;-1.0;Kodex_der_Magie;1000;4 statt 3, Sphärenkunde 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;15.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;16.0;276;-1.0;Kodex_der_Magie;1000;Betören 0 statt 1, Pflanzenkunde 0 statt 1,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;276;-1.0;Kodex_der_Magie;1000;Tierkunde 0 statt 1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;276;-1.0;Kodex_der_Magie;1000;Contemplator-Zweig (317 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;276;-1.0;Kodex_der_Magie;1000;Adlerauge 5 statt Disruptivo 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;276;-1.0;Kodex_der_Magie;1000;Etikette 7 statt 6, Rechtskunde 4 statt 2, Tanzen 2 statt 1, Überreden 3 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;23.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;24.0;276;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 0 statt 1, Sphärenkunde 3
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;276;-1.0;Kodex_der_Magie;1000;statt 5, Tierkunde 0 statt 1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;26.0;276;-1.0;Kodex_der_Magie;1300;Halle der Erleuchtung zu Al’Anfa
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;276;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;276;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;276;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;276;-1.0;Kodex_der_Magie;1000;Armatrutz, Blick in die Gedanken, Desintegratus, Fortifex, Fulminictus, Gardianum, Ignisphaero, Incendio, Invocatio Minor, Klarum Purum,
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;31.0;276;-1.0;Kodex_der_Magie;1000;Lunge des Leviatan, Schwarzer Schrecken
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;276;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;276;-1.0;Kodex_der_Magie;1000;Caldofrigo, Heptagramma,
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;34.0;276;-1.0;Kodex_der_Magie;1000;Skelettarius
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;35.0;276;-1.0;Kodex_der_Magie;1000;Leibmagier-Zweig (349 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;276;-1.0;Kodex_der_Magie;1000;Blick in die Gedanken 4 statt Invocatio Minima 4, Gardianum 7 statt Horriphobus 7
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;38.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;276;-1.0;Kodex_der_Magie;1000;Etikette 5 statt 4, Tanzen 4 statt 2, Verkleiden 3 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;40.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;41.0;276;-1.0;Kodex_der_Magie;1000;Alchimie 3 statt 5, Pflanzenkunde 2 statt
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;276;-1.0;Kodex_der_Magie;1000;3, Tierkunde 1 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;276;-1.0;Kodex_der_Magie;1000;Seekrieg-Zweig (342 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;44.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;276;-1.0;Kodex_der_Magie;1000;Fortifex 4 statt Abvenenum 4,
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;46.0;276;-1.0;Kodex_der_Magie;1000;Schwarzer Schrecken 6 statt Horriphobus 7, Desinteg
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;276;-1.0;Kodex_der_Magie;1000;-ratus 4 statt Invocatio Minima 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;48.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;49.0;276;-1.0;Kodex_der_Magie;1000;Boote & Schiffe 2 statt 0, Geographie 4 statt 2, Schwimmen 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;50.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;276;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 2 statt 4, Tanzen 0 statt 2, Verkleiden 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;276;-1.0;Kodex_der_Magie;1300;Halle der Macht zu Lowangen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;276;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;276;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;55.0;276;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;276;-1.0;Kodex_der_Magie;1000;Analys, Armatrutz, Attributo (Kör-
+PDType0Font/PDCIDFontType2, PostScript name: ZTWEMV+GentiumBasic;false;false;57.0;276;-1.0;Kodex_der_Magie;1000;perkraft), Axxeleratus, Balsam Salabunde, Ignifaxius, Imperavi, Karnifilo, Odem, Schleier, Sensibar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;58.0;276;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;276;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;60.0;276;-1.0;Kodex_der_Magie;1000;Pfad der Beherrschung (324 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;61.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;276;-1.0;Kodex_der_Magie;1000;Imperavi 4 statt Somnigravis 4, Kar-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;63.0;276;-1.0;Kodex_der_Magie;1000;nifilo 4 statt Gardianum 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;64.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;276;-1.0;Kodex_der_Magie;1000;Pfad der Willenskraft (319 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;66.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;67.0;276;-1.0;Kodex_der_Magie;1000;Psychostabilis 4 statt Einflussbann 4,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;276;-1.0;Kodex_der_Magie;1000;Sensibar 4 statt Somnigravis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;69.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;70.0;276;-1.0;Kodex_der_Magie;1000;Willenskraft 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;71.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;72.0;276;-1.0;Kodex_der_Magie;1000;Etikette 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;276;-1.0;Kodex_der_Magie;1300;Halle der Metamorphose zu Kuslik
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;74.0;276;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;75.0;276;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;76.0;276;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;77.0;276;-1.0;Kodex_der_Magie;1000;Abvenenum, Adamantium, Corpof
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;78.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;79.0;276;-1.0;Kodex_der_Magie;1000;rigo, Custodosigil, Einflussbann, Heilungsbann, Kla
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;80.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;81.0;276;-1.0;Kodex_der_Magie;1000;rum Purum, Nihilogravo, Objectobscuro
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;82.0;276;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;83.0;276;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zau
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;85.0;276;-1.0;Kodex_der_Magie;1000;ber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;86.0;276;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;87.0;276;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;88.0;276;-1.0;Kodex_der_Magie;1000;Pfad der giftigen Schlange (301 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;89.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;90.0;276;-1.0;Kodex_der_Magie;1000;Klarum Purum 5 statt Adlerschwinge 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;91.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;92.0;276;-1.0;Kodex_der_Magie;1000;Alchimie 5 statt 3, Heilkunde Gift 5 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;93.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;94.0;276;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;95.0;276;-1.0;Kodex_der_Magie;1000;Pfad der gehäuteten Schlange (295 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;96.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;97.0;276;-1.0;Kodex_der_Magie;1000;Nihilogravo 5 statt Psychostabilis 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;98.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): Überreden 4 statt 2Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;99.0;276;-1.0;Kodex_der_Magie;1000;Bekehren & Überzeugen 2 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;100.0;276;-1.0;Kodex_der_Magie;1300;Halle der Winde zu Olport
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;101.0;276;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;102.0;276;-1.0;Kodex_der_Magie;1000;tolerant
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;103.0;276;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;104.0;276;-1.0;Kodex_der_Magie;1000;Adlerauge, Böser Blick, Caldofrigo, Corpofrigo, Dunkelheit, Eins mit der Natur, Eiswand, Federleib, Fortifex, Gedankenbilder, Gletscherform, Hagelschlag, Hartes schmelze, Ignisphaero, Luftpfeil, Movimento, Nihilogravo, Orcanofaxius, Orcanosphae
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;105.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;106.0;276;-1.0;Kodex_der_Magie;1000;ro, Ruhe Körper, Solidirid, Sphärenbann, Stillstand, Sturmwand, Verwandlungsbann, Weiches erstarre, Wellenlauf, Wellenwand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;107.0;276;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;108.0;276;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zau
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;109.0;276;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;110.0;276;-1.0;Kodex_der_Magie;1000;ber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;111.0;276;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;112.0;276;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;113.0;276;-1.0;Kodex_der_Magie;1000;Pfad der Kapermagierin (352 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;114.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;115.0;276;-1.0;Kodex_der_Magie;1000;Solidirid 5 statt Hexagramma 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;116.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;117.0;276;-1.0;Kodex_der_Magie;1000;Schwimmen 6 statt 4, Boote & Schiffe 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;118.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;119.0;276;-1.0;Kodex_der_Magie;1000;Überreden 0 statt 2, Willenskraft 3 statt 4, Sphärenkunde 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;120.0;276;-1.0;Kodex_der_Magie;1000;Pfad der Windruferin (350 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;121.0;276;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;122.0;276;-1.0;Kodex_der_Magie;1000;Orcanofaxius 5 statt Hexagramma 4, Stillstand 4 statt Nebelwand 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;123.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;124.0;276;-1.0;Kodex_der_Magie;1000;Fliegen 3 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;125.0;276;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: LEQOYX+GentiumBasic;false;false;126.0;276;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 2 statt 4, Malen & Zeichnen 2 statt 4
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;277;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;277;-1.0;Kodex_der_Magie;1300;Halle des Lebens zu Norburg
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;277;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;277;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;277;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;6.0;277;-1.0;Kodex_der_Magie;1000;Abvenenum, Analys, Attributo (Körperkraft), Bannbaladin, Blick in die Gedanken,
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;7.0;277;-1.0;Kodex_der_Magie;1000;Blitz dich find, Duplicatus, Einflussbann, Flim Flam,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;8.0;277;-1.0;Kodex_der_Magie;1000;Memorans, Odem, Psychostabilis, Sapefacta, Sensibar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;277;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;277;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;11.0;277;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;277;-1.0;Kodex_der_Magie;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;13.0;277;-1.0;Kodex_der_Magie;1000;Dämonenbeschwörungen, keine Zauber, die TP oder
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;277;-1.0;Kodex_der_Magie;1000;SP bei Kulturschaffenden verursachen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;15.0;277;-1.0;Kodex_der_Magie;1000;Pfad der Alchimie (347 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;277;-1.0;Kodex_der_Magie;1000;Abvenenum 5 statt Ängste lindern 5, Blick in die Gedanken 4 statt Paralysis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;277;-1.0;Kodex_der_Magie;1000;Alchimie 8 statt 6, Heilkunde Gift 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;277;-1.0;Kodex_der_Magie;1000;Heilkunde Wunden 5 statt 6
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;277;-1.0;Kodex_der_Magie;1000;Pfad der Kräuterkunde (344 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;23.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;277;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft) 5 statt Ängste lindern 5, Blick in die Gedanken 4 statt Paralysis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;25.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;26.0;277;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 7 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;27.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;28.0;277;-1.0;Kodex_der_Magie;1300;Halle des Quecksilbers zu Festum
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;277;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;277;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;277;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;32.0;277;-1.0;Kodex_der_Magie;1000;Custodosigil, Erzpfeil, Felsenform,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;277;-1.0;Kodex_der_Magie;1000;Nihilogravo, Objektbann
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;277;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;277;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;277;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: WGWIWB+GentiumBasic-Bold;true;false;37.0;277;-1.0;Kodex_der_Magie;1000;Pfad des Stofflichen (309 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;38.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;39.0;277;-1.0;Kodex_der_Magie;1000;Felsenform 5 statt Caldofrigo 5, Ob
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;277;-1.0;Kodex_der_Magie;1000;-jektbann 6 statt Silentium 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;277;-1.0;Kodex_der_Magie;1000;–
+PDType0Font/PDCIDFontType2, PostScript name: WGWIWB+GentiumBasic-Bold;true;false;43.0;277;-1.0;Kodex_der_Magie;1000;Pfad des Verborgenen (304 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;44.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;277;-1.0;Kodex_der_Magie;1000;Nihilogravo 5 statt Adamantium 4,
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;46.0;277;-1.0;Kodex_der_Magie;1000;Custodosigil 6 statt Objektofixo 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;47.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;277;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;49.0;277;-1.0;Kodex_der_Magie;1300;Halle des vollendeten Kampfes zu Bethana
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;277;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;277;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;277;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;277;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft), Blitz dich
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;54.0;277;-1.0;Kodex_der_Magie;1000;find, Corpofrigo, Eisenrost, Gardianum, Horriphobus,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;277;-1.0;Kodex_der_Magie;1000;Motoricus, Odem, Paralysis, Pentagramma, Plumbumbarum, Psychostabilis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;56.0;277;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;277;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;58.0;277;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;277;-1.0;Kodex_der_Magie;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;60.0;277;-1.0;Kodex_der_Magie;1000;Dämonenbeschwörungen, Ängste lindern, Dschin
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;277;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: TEIQGH+GentiumBasic;false;false;62.0;277;-1.0;Kodex_der_Magie;1000;nenruf, Einflussbann, Elementarer Diener, Imperavi, Invocatio Maior, Invocatio Minima, Invocatio Minor, Karnifilo
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;277;-1.0;Kodex_der_Magie;1000;Pfad des Körpers (367 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;64.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;277;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft) 5 statt Balsam
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;66.0;277;-1.0;Kodex_der_Magie;1000;Salabunde 5, Blitz dich find 4 statt Desintegratus 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;67.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;68.0;277;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 2 statt 0, Kriegs
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;69.0;277;-1.0;Kodex_der_Magie;1000;-kunst 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;70.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;71.0;277;-1.0;Kodex_der_Magie;1000;Magiekunde 3 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;72.0;277;-1.0;Kodex_der_Magie;1000;Pfad des Willens (354 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;73.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;74.0;277;-1.0;Kodex_der_Magie;1000;Paralysis 4 statt
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;75.0;277;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;76.0;277;-1.0;Kodex_der_Magie;1000;Desintegratus 4, Psy
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;77.0;277;-1.0;Kodex_der_Magie;1000;-chostabilis 5 statt Fulminictus 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;78.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;79.0;277;-1.0;Kodex_der_Magie;1000;Bekehren & Überzeugen 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;81.0;277;-1.0;Kodex_der_Magie;1000;Kriegskunst 1 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;82.0;277;-1.0;Kodex_der_Magie;1300;Hesindius Lichtblick
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;83.0;277;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;84.0;277;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;85.0;277;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;86.0;277;-1.0;Kodex_der_Magie;1000;Ablativum, Abvenenum, Aufwe-
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;87.0;277;-1.0;Kodex_der_Magie;1000;cken, Dämonenbann
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;88.0;277;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;89.0;277;-1.0;Kodex_der_Magie;1000;keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;90.0;277;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;91.0;277;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, keine
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;92.0;277;-1.0;Kodex_der_Magie;1000;borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;93.0;277;-1.0;Kodex_der_Magie;1000;Weg der Bekämpfung des Bösen (283 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;94.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;95.0;277;-1.0;Kodex_der_Magie;1000;Ablativum 4 statt Gardianum 4, Blitz dich find 4 statt Motoricus 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;96.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;97.0;277;-1.0;Kodex_der_Magie;1000;Selbstbeherrschung 5 statt 4, Stangen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;98.0;277;-1.0;Kodex_der_Magie;1000;-waffen 9 statt 8
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;99.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;100.0;277;-1.0;Kodex_der_Magie;1000;Heilkunde Seele 2 statt 3, Magiekunde 4
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;101.0;277;-1.0;Kodex_der_Magie;1000;statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;102.0;277;-1.0;Kodex_der_Magie;1000;Weg der Unterstützung des Guten (267 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;103.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;104.0;277;-1.0;Kodex_der_Magie;1000;Aufwecken 6 statt Somnigravis (El
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;105.0;277;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;106.0;277;-1.0;Kodex_der_Magie;1000;fen) 6, Physiostabilis 4 statt Armatrutz 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;107.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;108.0;277;-1.0;Kodex_der_Magie;1000;Heilkunde Wunden 4 statt 3, Pflanzen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;109.0;277;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;110.0;277;-1.0;Kodex_der_Magie;1000;kunde 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;111.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;112.0;277;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 5, Rechnen 4 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;113.0;277;-1.0;Kodex_der_Magie;1300;Heptagonakademie zu Yol-Ghurmak
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;114.0;277;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;115.0;277;-1.0;Kodex_der_Magie;1000;freigeistig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;116.0;277;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;117.0;277;-1.0;Kodex_der_Magie;1000;Ablativum, Angst auslösen, Chimae
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;118.0;277;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;119.0;277;-1.0;Kodex_der_Magie;1000;roform, Debilitatio, Geisterruf, Geistessenz, Höllen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;120.0;277;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;121.0;277;-1.0;Kodex_der_Magie;1000;pein, Imperavi, Karnifilo, Last des Alters, Nekropathia, Nuntiovolo, Pestodem, Schwarz und Rot, Skelettarius,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;122.0;277;-1.0;Kodex_der_Magie;1000;Totes handle, Widerwille
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;123.0;277;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;124.0;277;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;125.0;277;-1.0;Kodex_der_Magie;1000;Pfad der Chimärologie (389 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;126.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;127.0;277;-1.0;Kodex_der_Magie;1000;Chimaeroform 6 statt Invocatio Mi
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;128.0;277;-1.0;Kodex_der_Magie;1000;-nor 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;129.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;130.0;277;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 3 statt 0, Tierkunde 4 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;131.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;132.0;277;-1.0;Kodex_der_Magie;1000;Sphärenkunde 3 statt 7
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;133.0;277;-1.0;Kodex_der_Magie;1000;Pfad der Nekromantie (375 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;134.0;277;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;135.0;277;-1.0;Kodex_der_Magie;1000;Skelettarius 6 statt Invocatio Minima
+PDType0Font/PDCIDFontType2, PostScript name: NBDWVT+GentiumBasic;false;false;136.0;277;-1.0;Kodex_der_Magie;1000;10, Totes wandle 6 statt Invocatio Minor 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;137.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;138.0;277;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;139.0;277;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;140.0;277;-1.0;Kodex_der_Magie;1000;Sphärenkunde 5 statt 7
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;278;-1.0;Kodex_der_Magie;1300;Informations-Institut zu Rommilys
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;278;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;278;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;278;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;278;-1.0;Kodex_der_Magie;1000;Foramen, Hellsichtbann, Ignorantia, Illusionsbann, Invercano, Memorabia, Memorans, Sphärenbann, Tiergedanken, Widerwille, Xenographus
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;278;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;278;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit den Merkmalen Dämonisch oder Sphären, folgende Zauber werden nicht unterrichtet: Bannbaladin, Horriphobus, Somnigravis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;278;-1.0;Kodex_der_Magie;1000;Pfad des Inspektors (343 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;9.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;278;-1.0;Kodex_der_Magie;1000;Ignorantia 5 statt Objectovoco 5, Memorabia 5 statt Analys 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;11.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;278;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 6 statt 4, Überreden 5 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;13.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;278;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;15.0;278;-1.0;Kodex_der_Magie;1000;Pfad des Kryptographen (332 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: VGUIDD+GentiumBasic;false;false;17.0;278;-1.0;Kodex_der_Magie;1000;Illusionsbann 4 statt Einflussbann 4,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;278;-1.0;Kodex_der_Magie;1000;Xenographus 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;278;-1.0;Kodex_der_Magie;1000;Sinnesschärfe 6 statt 4, Malen & Zeichnen 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;278;-1.0;Kodex_der_Magie;1000;Bekehren & Überzeugen 0 statt 3, Fesseln 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;278;-1.0;Kodex_der_Magie;1300;Kampfseminar zu Andergast
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;24.0;278;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;278;-1.0;Kodex_der_Magie;1000;Traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;26.0;278;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;278;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft), Bannbaladin, Eisenrost, Falkenauge, Flim Flam, Gardianum, Horriphobus, Ignifaxius, Klarum Purum, Motoricus, Odem, Paralysis, Plumbumbarum, Sensibar, Visibili
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;28.0;278;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;278;-1.0;Kodex_der_Magie;1000;Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;30.0;278;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;278;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, Imperavi, Respondami
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;278;-1.0;Kodex_der_Magie;1000;Pfad des Krieges (390 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;33.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;278;-1.0;Kodex_der_Magie;1000;Ignifaxius 5 statt Duplicatus 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;35.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;278;-1.0;Kodex_der_Magie;1000;Kriegskunst 7 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;37.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;38.0;278;-1.0;Kodex_der_Magie;1000;Pfad der Zerstörung (393 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;278;-1.0;Kodex_der_Magie;1000;Ignisphaero 4 statt Balsam Salabunde 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;278;-1.0;Kodex_der_Magie;1300;Khelbara ay Baburia
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;278;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;278;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;278;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;278;-1.0;Kodex_der_Magie;1000;Ängste lindern,
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;47.0;278;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;278;-1.0;Kodex_der_Magie;1000;Aufwecken,
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;49.0;278;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;278;-1.0;Kodex_der_Magie;1000;Corpofesso, Eigene Ängste, Heilungsbann, Hellsichtbann, Invocatio Maior, Invocatio Minor, Klarum Purum, Satuarias Herrlichkeit, Schwarzer Schrecken
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;51.0;278;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;278;-1.0;Kodex_der_Magie;1000;zusätzlich nur 1 Zauber des Merkmals Elementar<br> keine Zauber, die TP oder SP bei Kulturschaffenden verursachen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;278;-1.0;Kodex_der_Magie;1000;Weg der Heilerin (364 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;54.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;278;-1.0;Kodex_der_Magie;1000;Corpofesso 6 statt Horriphobus 6, Klarum Purum 5 statt Schmerzen lindern 5, Lunge des Leviatan 4 statt Invocatio Minima 4, Visibili 4 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;56.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;278;-1.0;Kodex_der_Magie;1000;Heilkunde Gift 5 statt 4, Heilkunde Krankheiten 6 statt 5, Heilkunde Wunden 7 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;58.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;278;-1.0;Kodex_der_Magie;1000;Fesseln 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;60.0;278;-1.0;Kodex_der_Magie;1000;Weg der Verführerin (369 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;61.0;278;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;278;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;278;-1.0;Kodex_der_Magie;1000;Corpofesso 6 statt Horriphobus 6, Satuarias Herrlichkeit 5 statt Schmerzen lindern 5, Transversalis 4 statt Invocatio Minima 4, Leidensbund 4 statt 5, Visibili 4 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;64.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;278;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;278;-1.0;Kodex_der_Magie;1000;Betören 5 statt 3, Fesseln 3 statt 2, Überreden 3 statt 2, Verkleiden 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;67.0;278;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;278;-1.0;Kodex_der_Magie;1000;Heilkunde Krankheiten 4 statt 5, Selbstbeherrschung 3 statt 5
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;279;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;279;-1.0;Kodex_der_Magie;1300;Konzil der Elemente zu Drakonia
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;279;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;279;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;279;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;6.0;279;-1.0;Kodex_der_Magie;1000;allgemein: Eins mit der Natur, Hexagramma, Sphärenbann<br> Eis: Frigisphaero<br> Erz: Archosphaero<br> Feuer: Feuerpfeil<br> Humus: Humosphaero, Sumus Elixiere, Weisheit der Bäume<br> Luft: Nihilogravo, Orcanosphaero, Sturmwand<br> Wasser: Aquasphaero, Nebelwand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;7.0;279;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;8.0;279;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit den Merkmalen Dämonisch, Einfluss oder Illusion, folgende Zauber werden nicht unterrichtet: Invocatio Minima, Invocatio Minor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;279;-1.0;Kodex_der_Magie;1000;Pfad des Experimentalisten (303 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;10.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;279;-1.0;Kodex_der_Magie;1000;zusätzlich je nach Element
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;12.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;279;-1.0;Kodex_der_Magie;1000;Malen & Zeichnen 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;14.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;279;-1.0;Kodex_der_Magie;1000;Klettern 2 statt 3, Körperbeherrschung 0 statt 2, Wildnisleben 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;16.0;279;-1.0;Kodex_der_Magie;1000;Pfad des Feldforschers (320 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;17.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;279;-1.0;Kodex_der_Magie;1000;zusätzlich je nach Element
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;279;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 5 statt 2, Wildnisleben 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;279;-1.0;Kodex_der_Magie;1000;Willenskraft 3 statt 5, Sphärenkunde 4 statt 6, Alchimie 3 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;279;-1.0;Kodex_der_Magie;1300;Kreis der Einfühlung
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;24.0;279;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;279;-1.0;Kodex_der_Magie;1000;freigeistig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;26.0;279;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;279;-1.0;Kodex_der_Magie;1000;Adlerauge, Adlerschwinge, Armatrutz, Attributo (Körperkraft), Axxeleratus, Blick
+PDType0Font/PDCIDFontType2, PostScript name: XEKLAZ+GentiumBasic;false;false;28.0;279;-1.0;Kodex_der_Magie;1000;aufs Wesen, Blitz dich find, Corpofesso, Exposami,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;279;-1.0;Kodex_der_Magie;1000;Flim Flam, Hellsichtbann, Memorans, Movimento, Objectovoco, Ruhe Körper, Traumgestalt
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;30.0;279;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;279;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;32.0;279;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;279;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, keine Zauber, die TP oder SP bei Kulturschaffenden verursachen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;279;-1.0;Kodex_der_Magie;1000;Einfühlungs-Zweig (304 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;35.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;279;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft) 4 statt Sensibar 4, Blick aufs Wesen 3 statt
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;37.0;279;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;279;-1.0;Kodex_der_Magie;1000;Balsam Salabunde 3, Exposami 4 statt Bannbaladin 4, Hellsichtbann 4 statt Tiergedanken 4, Memorans 4 statt Odem 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;279;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;279;-1.0;Kodex_der_Magie;1000;Wildnisleben 3 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;279;-1.0;Kodex_der_Magie;1000;Wildnis-Zweig (296 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;44.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;279;-1.0;Kodex_der_Magie;1000;Adlerauge 3 statt
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;46.0;279;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;279;-1.0;Kodex_der_Magie;1000;Balsam 3, Adlerschwinge 4 statt Bannbaladin 4, Exposami 6 statt Blick in die Gedanken 6, Movimento 4 statt Gedankenbilder 4, Ruhe Körper 4 statt Sensibar 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;48.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;279;-1.0;Kodex_der_Magie;1000;Wildnisleben 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;50.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;279;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;279;-1.0;Kodex_der_Magie;1300;Magierkolleg zu Honingen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;279;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;279;-1.0;Kodex_der_Magie;1000;tolerant
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;55.0;279;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;279;-1.0;Kodex_der_Magie;1000;alle, nach Meisterentscheid
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;279;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;279;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;59.0;279;-1.0;Kodex_der_Magie;1000;Pfad der Gemeinschaft (258 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;60.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;279;-1.0;Kodex_der_Magie;1000;Elfenstimme 4 statt Horriphobus 4, Gedankenbilder 5 statt Paralysis 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;62.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;279;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;64.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;279;-1.0;Kodex_der_Magie;1000;Pfad der Vielfalt (270 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;67.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;279;-1.0;Kodex_der_Magie;1000;Chamaelioni 4 statt Fulminictus 4, Salander 6 statt Paralysis 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;69.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;71.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;72.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;279;-1.0;Kodex_der_Magie;1300;Nachtwinde
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;74.0;279;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;279;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;76.0;279;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;77.0;279;-1.0;Kodex_der_Magie;1000;Ablativum, Dämonisches Verges-
+PDType0Font/PDCIDFontType2, PostScript name: QCVLGN+GentiumBasic;false;false;78.0;279;-1.0;Kodex_der_Magie;1000;sen, Ecliptifactus, Einflussbann, Erinnerung verlasse
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;79.0;279;-1.0;Kodex_der_Magie;1000;dich, Harmlose Gestalt, Herzschlag ruhe, Ignorantia, Impersona, Schwarz und Rot
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;80.0;279;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;82.0;279;-1.0;Kodex_der_Magie;1000;Pfad der Entschlossenheit (425 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;83.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;279;-1.0;Kodex_der_Magie;1000;Dämonisches Vergessen 4 statt Hellsichtbann 5, Herzschlag ruhe 6 statt Fulminictus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;85.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;86.0;279;-1.0;Kodex_der_Magie;1000;Willenskraft 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;87.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;88.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;89.0;279;-1.0;Kodex_der_Magie;1000;Pfad der Heimlichkeit (413 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;90.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;91.0;279;-1.0;Kodex_der_Magie;1000;Ignorantia 5 statt Magischer Raub 5, Silentium 6 statt Psychostabilis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;92.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;279;-1.0;Kodex_der_Magie;1000;Verbergen 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;94.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;95.0;279;-1.0;Kodex_der_Magie;1000;Wildnisleben 0 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;96.0;279;-1.0;Kodex_der_Magie;1300;Pentagramm-Akademie zu Rashdul
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;97.0;279;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;98.0;279;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;99.0;279;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;100.0;279;-1.0;Kodex_der_Magie;1000;Adamantium, Caldofrigo, Dämonenbann, Dornenwand, Eiswand, Erzpfeil, Felsenform, Geisterruf, Geistessenz, Luftpfeil, Nebelwand, Orcanofaxius, Sphärenbann, Steinwand, Sturmwand, Wellenwand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;101.0;279;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;102.0;279;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;103.0;279;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;104.0;279;-1.0;Kodex_der_Magie;1000;Pfad des Erdbändigers (326 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;105.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;106.0;279;-1.0;Kodex_der_Magie;1000;Adamantium 4 statt Aeolito 4, Steinwand 5 statt Flammenwand 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;107.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;108.0;279;-1.0;Kodex_der_Magie;1000;Steinbearbeitung 4 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;109.0;279;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;110.0;279;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;111.0;279;-1.0;Kodex_der_Magie;1000;Pfad des Luftbändigers (322 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;112.0;279;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;113.0;279;-1.0;Kodex_der_Magie;1000;Luftpfeil 4 statt Stein wandle 4, Orcanofaxius 5 statt Flammenwand 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;1.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;280;-1.0;Kodex_der_Magie;1000;Fliegen 3 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;3.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;280;-1.0;Kodex_der_Magie;1000;–
+PDType0Font/PDCIDFontType2, PostScript name: DRZBGN+GentiumBasic-Bold;true;false;5.0;280;-1.0;Kodex_der_Magie;1300;Rafim Bey
+PDType0Font/PDCIDFontType2, PostScript name: DRZBGN+GentiumBasic-Bold;true;false;6.0;280;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;280;-1.0;Kodex_der_Magie;1000;traditionell
+PDType0Font/PDCIDFontType2, PostScript name: DRZBGN+GentiumBasic-Bold;true;false;8.0;280;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;280;-1.0;Kodex_der_Magie;1000;Analys, Balsam Salabunde, Bann-
+PDType0Font/PDCIDFontType2, PostScript name: GTNTWH+GentiumBasic;false;false;10.0;280;-1.0;Kodex_der_Magie;1000;baladin, Blick in die Gedanken, Blitz dich find, Ele
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;280;-1.0;Kodex_der_Magie;1000;-mentarbann, Fulminictus, Hartes Schmelze, Heptagramma, Hexagramma, Klarum Purum, Odem, Salander
+PDType0Font/PDCIDFontType2, PostScript name: DRZBGN+GentiumBasic-Bold;true;false;12.0;280;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;280;-1.0;Kodex_der_Magie;1000;–
+PDType0Font/PDCIDFontType2, PostScript name: DRZBGN+GentiumBasic-Bold;true;false;14.0;280;-1.0;Kodex_der_Magie;1000;Dämonen-Zweig (300 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;15.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;280;-1.0;Kodex_der_Magie;1000;Heptagramma 3 statt Abvenenum 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;17.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;280;-1.0;Kodex_der_Magie;1000;Elementar-Zweig (300 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;280;-1.0;Kodex_der_Magie;1000;Hexagramma 3 statt Abvenenum 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+): –Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;280;-1.0;Kodex_der_Magie;1300;Rashduler Dämonologen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;280;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;280;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;280;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;280;-1.0;Kodex_der_Magie;1000;Adamantium, Caldofrigo, Corpofrigo, Dämonenbann, Dornenwand, Eiswand, Erzpfeil, Felsenform, Flammenwand, Luftpfeil, Nebelwand, Nekropathia, Skelettarius, Sphärenbann, Steinwand, Sturmwand, Stein wandle, Totes handle, Wellenwand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;280;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;280;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;280;-1.0;Kodex_der_Magie;1000;Pfad des Golembauers (351 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;30.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;280;-1.0;Kodex_der_Magie;1000;Dämonenbann 4 statt Heptagramma 4, Felsenform 4 statt Geistessenz 10, Stein wandle 6 statt Geisterruf 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;32.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;280;-1.0;Kodex_der_Magie;1000;Steinbearbeitung 5 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;34.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;280;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;280;-1.0;Kodex_der_Magie;1000;Pfad des Totenbeschwörers (333 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;37.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;280;-1.0;Kodex_der_Magie;1000;Skelettarius 6 statt 5, Totes handle 6 statt Invocatio Minor 6, Nekropathia 4 statt Pentagramma 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;280;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;280;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;280;-1.0;Kodex_der_Magie;1300;Schule der Austreibung zu Perricum
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;44.0;280;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;280;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;46.0;280;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: XOUHAZ+GentiumBasic;false;false;47.0;280;-1.0;Kodex_der_Magie;1000;Dämonenbann, Einflussbann, Eige
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;280;-1.0;Kodex_der_Magie;1000;-ne Ängste, Erinnerung Verlasse Dich, Höllenpein, Kar-
+PDType0Font/PDCIDFontType2, PostScript name: XOUHAZ+GentiumBasic;false;false;49.0;280;-1.0;Kodex_der_Magie;1000;nifilo, Invocatio Maior, Invocatio Minor, Invercano,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;280;-1.0;Kodex_der_Magie;1000;Memorabia, Schwarzer Schrecken
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;51.0;280;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;280;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;280;-1.0;Kodex_der_Magie;1000;Exorzisten-Zweig (342 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;54.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;280;-1.0;Kodex_der_Magie;1000;Dämonenbann 5 statt Illusionsbann 5, Memorabia 4 statt Ängste lindern 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;56.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;280;-1.0;Kodex_der_Magie;1000;Selbstbeherrschung 6 statt 4, Sphärenkunde 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;58.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;280;-1.0;Kodex_der_Magie;1000;Bekehren & Überzeugen 2 statt 4, Heilkunde Seele 3 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;60.0;280;-1.0;Kodex_der_Magie;1000;Seelenheiler-Zweig (332 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;61.0;280;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;280;-1.0;Kodex_der_Magie;1000;Erinnerung verlasse dich 7 statt Pentagramma 7, Memorabia 5 statt Heptagramma 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;63.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;280;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 5 statt 4, Heilkunde Seele 6 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;65.0;280;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;280;-1.0;Kodex_der_Magie;1000;Raufen 8 statt 10, Sphärenkunde 4 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;67.0;280;-1.0;Kodex_der_Magie;1300;Schule der Beherrschung zu Neersand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;68.0;280;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;69.0;280;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;70.0;280;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;71.0;280;-1.0;Kodex_der_Magie;1000;Gedankenbilder, Movimento, Ruhe Körper
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;72.0;280;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;73.0;280;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;74.0;280;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;280;-1.0;Kodex_der_Magie;1000;,
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;281;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;281;-1.0;Kodex_der_Magie;1000;folgende Zauber werden nicht unterrichtet: Aeolito, Corpofesso, Fulminictus, Ignifaxius, Invocatio Minima, Invocatio Minor, Paralysis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;281;-1.0;Kodex_der_Magie;1000;Pfad des Friedens (296 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;4.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;281;-1.0;Kodex_der_Magie;1000;Ruhe Körper 4 statt Imperavi 5, Gedankenbilder 6 statt Horriphobus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;6.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;281;-1.0;Kodex_der_Magie;1000;Heilkunde Seele 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;8.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;281;-1.0;Kodex_der_Magie;1000;Stangenwaffen 6 statt 8, Heilkunde Gift 0 statt 2, Heilkunde Wunden 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;281;-1.0;Kodex_der_Magie;1000;Pfad des Zwanges (331 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;11.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;281;-1.0;Kodex_der_Magie;1000;Plumbumbarum 6 statt Sensibar 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;13.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;281;-1.0;Kodex_der_Magie;1000;Einschüchtern 3 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;15.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;281;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;17.0;281;-1.0;Kodex_der_Magie;1300;Schule der Hellsicht zu Thorwal
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;281;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;281;-1.0;Kodex_der_Magie;1000;tolerant
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;20.0;281;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;281;-1.0;Kodex_der_Magie;1000;Exposami, Gedankenbilder, Gefunden, Magischer Raub, Projectimago, Tiergedanken
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;281;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;281;-1.0;Kodex_der_Magie;1000;keine Zauber des Merkmals Dämonisch oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;24.0;281;-1.0;Kodex_der_Magie;1000;Philosophen-Zweig (320 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;25.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;281;-1.0;Kodex_der_Magie;1000;Exposami 4 statt Penetrizzel 4, Gedankenbilder 4 statt Balsam Salabunde 4, Projectimago 4 statt Xenographus 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;27.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;281;-1.0;Kodex_der_Magie;1000;Geschichtswissen 5 statt 3, Götter & Kulte 4 statt 2, Sagen & Legenden 4 statt 3, Sternkunde 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;29.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;281;-1.0;Kodex_der_Magie;1000;Klettern 0 statt 2, Körperbeherrschung 1 statt 2, Selbstbeherrschung 1 statt 2, Wildnisleben 0 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;281;-1.0;Kodex_der_Magie;1000;Reisender-Zweig (333 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;32.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;281;-1.0;Kodex_der_Magie;1000;Gedankenbilder 5 statt Oculus Astralis 5, Magischer Raub 4 statt Penetrizzel 4, Tiergedanken 4 statt Odem 4, Xenographus 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;34.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;281;-1.0;Kodex_der_Magie;1000;Boote & Schiffe 2 statt 1, Geographie 6 statt 5, Körperbeherrschung 3 statt 2, Schwimmen 3 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;281;-1.0;Kodex_der_Magie;1000;Magiekunde 4 statt 5, Menschenkenntnis 2 statt 4, Selbstbeherrschung 1 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;38.0;281;-1.0;Kodex_der_Magie;1300;Schule der variablen Form zu Mirham
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;39.0;281;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;281;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;41.0;281;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;281;-1.0;Kodex_der_Magie;1000;Abvenenum, Caldofrigo, Objectobscuro, Custodosigil, Dunkelheit, Stein wandle, Verwandlungsbann +3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;281;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;281;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;281;-1.0;Kodex_der_Magie;1000;Pfad des Golems (343 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;46.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: FHPXDE+GentiumBasic;false;false;47.0;281;-1.0;Kodex_der_Magie;1000;Objectobscuro 5 statt Objectofixo 5,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;281;-1.0;Kodex_der_Magie;1000;Stein wandle 6 statt Desintegratus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;49.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;281;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;51.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;281;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;53.0;281;-1.0;Kodex_der_Magie;1000;Pfad des Schattens (336 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;54.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;55.0;281;-1.0;Kodex_der_Magie;1000;Silentium 5 statt Objectofixo 5, Cus
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;281;-1.0;Kodex_der_Magie;1000;-todosigil 6 statt Desintegratus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;57.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;281;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;59.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;281;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;61.0;281;-1.0;Kodex_der_Magie;1300;Schule der Vierfachen Verwandlung zu Sinoda
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;281;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;281;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;64.0;281;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;65.0;281;-1.0;Kodex_der_Magie;1000;Corpofrigo, Invercano, Karnifilo, Memorans, Objectobscuro, Physiostabilis, Schwarz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;281;-1.0;Kodex_der_Magie;1000;und Rot
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;67.0;281;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;281;-1.0;Kodex_der_Magie;1000;keine Zauber des Merkmals
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;69.0;281;-1.0;Kodex_der_Magie;1000;Dämonisch oder Dämonenbeschwörungen, keine bor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;281;-1.0;Kodex_der_Magie;1000;-baradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;281;-1.0;Kodex_der_Magie;1000;Selbstverwandler-Zweig (363 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;72.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;73.0;281;-1.0;Kodex_der_Magie;1000;Fischflosse 5 statt Verwandlungs
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;74.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;75.0;281;-1.0;Kodex_der_Magie;1000;bann 5, Physiostabilis 5 statt Pentagramma 5, Wolfs
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;76.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;77.0;281;-1.0;Kodex_der_Magie;1000;tatze 7 statt Paralysis 7
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;78.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;79.0;281;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;81.0;281;-1.0;Kodex_der_Magie;1000;Heilkunde Gift 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;82.0;281;-1.0;Kodex_der_Magie;1000;Fremdverwandler-Zweig (347 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;83.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;84.0;281;-1.0;Kodex_der_Magie;1000;Corpofrigo 5 statt Axxeleratus 5, Kar
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;85.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;86.0;281;-1.0;Kodex_der_Magie;1000;nifilo 4 statt Verwandlungsbann 4, Physiostabilis 5 statt Pentagramma 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;87.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;88.0;281;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;89.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;90.0;281;-1.0;Kodex_der_Magie;1000;Heilkunde Gift 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;91.0;281;-1.0;Kodex_der_Magie;1300;Schule des Direkten Weges zu Gerasim
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;92.0;281;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;281;-1.0;Kodex_der_Magie;1000;freigeistig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;94.0;281;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;95.0;281;-1.0;Kodex_der_Magie;1000;Aeolito, Band und Fessel, Blitz dich find, Blick in die Gedanken, Chamaelioni, Ge
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;96.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;97.0;281;-1.0;Kodex_der_Magie;1000;dankenbilder, Haselbusch, Nebelwand, Objectobscu
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;98.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;99.0;281;-1.0;Kodex_der_Magie;1000;ro, Ruhe Körper, Solidirid, Spurlos, Tiergedanken, Telekinesebann
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;100.0;281;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;101.0;281;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;102.0;281;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;103.0;281;-1.0;Kodex_der_Magie;1000;Zauber des Merkmals
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;104.0;281;-1.0;Kodex_der_Magie;1000;Dämonisch oder Dämonenbeschwörungen, keine bor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;105.0;281;-1.0;Kodex_der_Magie;1000;-baradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;106.0;281;-1.0;Kodex_der_Magie;1000;Menschlicher Zweig (311 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;107.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;108.0;281;-1.0;Kodex_der_Magie;1000;Aeolito 5 statt Wirbelform 5, Ruhe Körper 5 statt Motoricus 5, Spurlos 6 statt Attributo (Klugheit) 6, Telekinesebann 6 statt Balsam Salabun
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;109.0;281;-1.0;Kodex_der_Magie;1000;-de 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;110.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;111.0;281;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;112.0;281;-1.0;Kodex_der_Magie;1000;Klettern 3 statt 1, Körperbeherrschung 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;113.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;114.0;281;-1.0;Kodex_der_Magie;1000;Verbergen 1 statt 2
+PDType0Font/PDCIDFontType2, PostScript name: TVITRC+GentiumBasic-Bold;true;false;115.0;281;-1.0;Kodex_der_Magie;1000;Elfischer Zweig (304 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;116.0;281;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;117.0;281;-1.0;Kodex_der_Magie;1000;Chamaelioni (Elfen) 4 statt Transver
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;118.0;281;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;119.0;281;-1.0;Kodex_der_Magie;1000;salis 4, Gedankenbilder 6 statt Attributo (Klugheit) 6, Haselbusch 5 statt Wirbelform 5, Spurlos 5 statt
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;120.0;281;-1.0;Kodex_der_Magie;1000;Motoricus 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;121.0;281;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;122.0;281;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: PPFVNK+GentiumBasic;false;false;123.0;281;-1.0;Kodex_der_Magie;1000;Pflanzenkunde 5 statt 4, Tierkunde 5 statt 4, Wildnisleben 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;1.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;282;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 2 statt 4, Rechtskunde 0 statt 1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;282;-1.0;Kodex_der_Magie;1300;Schule des magischen Wissens zu Methumis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;282;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;282;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;282;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;282;-1.0;Kodex_der_Magie;1000;Attributo (Körperkraft), Balsam Sa-
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;8.0;282;-1.0;Kodex_der_Magie;1000;labunde, Blick in die Gedanken, Blitz dich find, Expo
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;282;-1.0;Kodex_der_Magie;1000;-sami, Flim Flam, Foramen, Fulminictus, Gardianum, Impersona, Odem,Verwandlungsbann
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;282;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;282;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;12.0;282;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;282;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;14.0;282;-1.0;Kodex_der_Magie;1000;Feldforscher-Zweig (267 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;15.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;282;-1.0;Kodex_der_Magie;1000;Balsam Salabunde 5 statt Blick aufs
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;17.0;282;-1.0;Kodex_der_Magie;1000;Wesen 5, Blitz dich find 4 statt Sensibar 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;282;-1.0;Kodex_der_Magie;1000;Wildnisleben 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;21.0;282;-1.0;Kodex_der_Magie;1000;Theoretiker-Zweig (263 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;22.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;282;-1.0;Kodex_der_Magie;1000;Blick in die Gedanken 4 statt Illusionsbann 4, Odem 4 statt Sensibar 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;24.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;282;-1.0;Kodex_der_Magie;1000;Geschichtswissen 7 statt 5, Magiekunde 7 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;26.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;27.0;282;-1.0;Kodex_der_Magie;1000;Etikette 2 statt 4, Überreden 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;28.0;282;-1.0;Kodex_der_Magie;1300;Schule des Seienden Scheins zu Zorgan
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;282;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;282;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;282;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;282;-1.0;Kodex_der_Magie;1000;Chamaelioni, Harmlose Gestalt, Ignorantia, Impersona, Projectimago
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;33.0;282;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;282;-1.0;Kodex_der_Magie;1000;keine Zauber des Merkmals Dämonisch oder Dämonenbeschwörungen, keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;35.0;282;-1.0;Kodex_der_Magie;1000;Gaukler-Zweig (249 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;37.0;282;-1.0;Kodex_der_Magie;1000;Harmlose Gestalt (Hexen) 5 statt Visi
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;282;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;39.0;282;-1.0;Kodex_der_Magie;1000;bili (Elfen) 5, Ignorantia 5 statt Duplicatus 5, Imperso
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;282;-1.0;Kodex_der_Magie;1000;-na 6 statt Illusionsbann 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;282;-1.0;Kodex_der_Magie;1000;Brett- & Glücksspiel 3 statt 2, Gaukeleien 4 statt 3, Zechen 3 statt 1
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;43.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;282;-1.0;Kodex_der_Magie;1000;Geschichtswissen 1 statt 2, Magiekunde 2 statt 4, Reiten 1 statt 2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;282;-1.0;Kodex_der_Magie;1000;Hofkünstler-Zweig (263 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;46.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;282;-1.0;Kodex_der_Magie;1000;Chamaelioni 6 statt Illusionsbann 6,
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;48.0;282;-1.0;Kodex_der_Magie;1000;Impersona 5 statt Visibili (Elfen) 5, Projectimago 4
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;282;-1.0;Kodex_der_Magie;1000;statt Manus Illusionis 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;50.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;51.0;282;-1.0;Kodex_der_Magie;1000;Betören 3 statt 2, Etikette 6 statt 4,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;282;-1.0;Kodex_der_Magie;1000;Rechtskunde 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;53.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: KYNCVU+GentiumBasic;false;false;54.0;282;-1.0;Kodex_der_Magie;1000;Gaukeleien 2 statt 3, Pflanzenkunde 1
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;282;-1.0;Kodex_der_Magie;1000;statt 2, Tierkunde 0 statt 2
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;56.0;282;-1.0;Kodex_der_Magie;1300;Seminar der elfischen Verständi
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;282;-1.0;Kodex_der_Magie;1300;-
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;58.0;282;-1.0;Kodex_der_Magie;1300;gung und natürlichen Heilung zu Donnerbach
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;59.0;282;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;282;-1.0;Kodex_der_Magie;1000;bodenständig
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;61.0;282;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;282;-1.0;Kodex_der_Magie;1000;Ängste lindern, Gedankenbilder, Hellsichtbann, Movimento, Ruhe Körper, Tiergedanken
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;63.0;282;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;282;-1.0;Kodex_der_Magie;1000;zusätzlich nur 1 Zauber des Merkmals Elementar und nur 1 Zauber des Merkmals Illusion, keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;282;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;282;-1.0;Kodex_der_Magie;1000;Zauber des Merkmals Dämonisch oder Dämonenbeschwörungen, keine borbaradianischen Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;67.0;282;-1.0;Kodex_der_Magie;1000;Heiler-Zweig (314 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;68.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;69.0;282;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;282;-1.0;Kodex_der_Magie;1000;Hellsichtbann 4 statt Bannbaladin 4, Ruhe Körper 5 statt Blick aufs Wesen (Elfen) 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;71.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;72.0;282;-1.0;Kodex_der_Magie;1000;Alchimie 5 statt 3, Heilkunde Gift 5 statt 3, Heilkunde Krankheiten 5 statt 4, Heilkunde Wunden 6
+PDType0Font/PDCIDFontType2, PostScript name: XNWSVU+GentiumBasic;false;false;73.0;282;-1.0;Kodex_der_Magie;1000;statt 4, Pflanzenkunde 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;74.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;282;-1.0;Kodex_der_Magie;1000;Körperbeherrschung 0 statt 2, Sagen & Legenden 2 statt 3, Stangenwaffen 6 statt 8
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;76.0;282;-1.0;Kodex_der_Magie;1000;Verständigungs-Zweig (295 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;77.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;78.0;282;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;79.0;282;-1.0;Kodex_der_Magie;1000;Gedankenbilder 4 statt Attributo (Körperkraft) 4, Hellsichtbann 5 statt Klarum Purum 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;282;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 4 statt 3, Heilkunde Seele 5 statt 3, Überreden 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;82.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: XNWSVU+GentiumBasic;false;false;83.0;282;-1.0;Kodex_der_Magie;1000;Heilkunde Wunden 3 statt 4, Pflanzen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;282;-1.0;Kodex_der_Magie;1000;-kunde 2 statt 4, Tierkunde 2 statt 4
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;85.0;282;-1.0;Kodex_der_Magie;1300;Sevastana Gevendar
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;86.0;282;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;87.0;282;-1.0;Kodex_der_Magie;1000;bodenständig
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;88.0;282;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;89.0;282;-1.0;Kodex_der_Magie;1000;Abvenenum, Adamantium, Ängste lindern, Armatrutz, Balsam Salabunde, Bannbaladin,
+PDType0Font/PDCIDFontType2, PostScript name: XNWSVU+GentiumBasic;false;false;90.0;282;-1.0;Kodex_der_Magie;1000;Blitz dich find, Claudibus, Flim Flam, Hartes schmelze, Klarum Purum, Memorans, Motoricus, Objectofixo,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;91.0;282;-1.0;Kodex_der_Magie;1000;Weiches erstarre
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;92.0;282;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;282;-1.0;Kodex_der_Magie;1000;–
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;94.0;282;-1.0;Kodex_der_Magie;1000;Bordmagus-Zweig (383 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;95.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;96.0;282;-1.0;Kodex_der_Magie;1000;Klarum Purum 3 statt Odem 3, Weiches erstarre 3 statt Attributo (Körperkraft) 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;97.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;98.0;282;-1.0;Kodex_der_Magie;1000;Boote & Schiffe 7 statt 6, Schwimmen 4 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;99.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDType0Font/PDCIDFontType2, PostScript name: ZQVEXQ+GentiumBasic-Bold;true;false;100.0;282;-1.0;Kodex_der_Magie;1000;Kriegszug-Zweig (372 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;101.0;282;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;102.0;282;-1.0;Kodex_der_Magie;1000;Hartes schmelze 3 statt Odem 3, Blitz
+PDType0Font/PDCIDFontType2, PostScript name: XNWSVU+GentiumBasic;false;false;103.0;282;-1.0;Kodex_der_Magie;1000;dich find 3 statt Attributo (Körperkraft 3)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;104.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;105.0;282;-1.0;Kodex_der_Magie;1000;Kriegskunst 8 statt 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;106.0;282;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;107.0;282;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 3 statt 5
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;283;-1.0;Kodex_der_Magie;1200;Erweiterte Magieregeln
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;283;-1.0;Kodex_der_Magie;1300;Shanada von Ben-Oni
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;283;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;283;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;283;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;6.0;283;-1.0;Kodex_der_Magie;1000;Einflussbann, Invercano, Nuntiovo
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;8.0;283;-1.0;Kodex_der_Magie;1000;lo, Sphärenbann
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;283;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;10.0;283;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;11.0;283;-1.0;Kodex_der_Magie;1000;Pfad der Dämonenjägerin (365 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;12.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;13.0;283;-1.0;Kodex_der_Magie;1000;Ignifaxius 6 statt Invocatio Minor 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;14.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;283;-1.0;Kodex_der_Magie;1000;-
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;17.0;283;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 0 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;283;-1.0;Kodex_der_Magie;1000;Pfad der Dämonologenjägerin (365 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;20.0;283;-1.0;Kodex_der_Magie;1000;Sphärenbann 5 statt Debilitatio 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;22.0;283;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 5 statt 3
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;23.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;24.0;283;-1.0;Kodex_der_Magie;1000;Sphärenkunde 4 statt 6
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;283;-1.0;Kodex_der_Magie;1300;Stoerrebrandt-Kolleg zu Riva
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;26.0;283;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;27.0;283;-1.0;Kodex_der_Magie;1000;aufgeschlossen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;28.0;283;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;29.0;283;-1.0;Kodex_der_Magie;1000;Accuratum, Adlerauge, Analys, Blick aufs Wesen, Blick in die Gedanken, Duplicatus, Flim Flam, Foramen, Fortifex, Fulminictus, Hellsichtbann, Ig
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;31.0;283;-1.0;Kodex_der_Magie;1000;nifaxius, Ignisphaero, Impersona, Manifesto, Memorans, Odem, Penetrizzel, Psychostabilis, Sapefacta, Sensibar
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;283;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;33.0;283;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zau
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;35.0;283;-1.0;Kodex_der_Magie;1000;ber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;36.0;283;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;37.0;283;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;38.0;283;-1.0;Kodex_der_Magie;1000;Berater-Zweig (319 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;39.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;40.0;283;-1.0;Kodex_der_Magie;1000;Accuratum 6 statt Horriphobus 6, Hellsichtbann 4 statt Armatrutz 4, Impersona 6 statt Gardianum 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;41.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;42.0;283;-1.0;Kodex_der_Magie;1000;Handel 6 statt 5, Überreden 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;43.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;44.0;283;-1.0;Kodex_der_Magie;1000;Wildnisleben 2 statt 3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;283;-1.0;Kodex_der_Magie;1000;Leibmagier-Zweig (343 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;46.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;47.0;283;-1.0;Kodex_der_Magie;1000;Duplicatus 4 statt Blitz dich find 4, Ig
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;49.0;283;-1.0;Kodex_der_Magie;1000;nifaxius 6 statt Custodosigil 6, Ignisphaero 6 statt Hor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;51.0;283;-1.0;Kodex_der_Magie;1000;riphobus 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;52.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;53.0;283;-1.0;Kodex_der_Magie;1000;Kriegskunst 2 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;54.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;55.0;283;-1.0;Kodex_der_Magie;1000;Handel 3 statt 5
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;56.0;283;-1.0;Kodex_der_Magie;1300;Töchter Niobaras
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;283;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;58.0;283;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;59.0;283;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;60.0;283;-1.0;Kodex_der_Magie;1000;Adlerauge,
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;61.0;283;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;62.0;283;-1.0;Kodex_der_Magie;1000;Ängste lindern, Dämonenbann, Ignorantia, Menetekel, Ruhe Körper, Unberührt von Satinav
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;283;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;64.0;283;-1.0;Kodex_der_Magie;1000;keine Zauber mit dem Merk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;283;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;66.0;283;-1.0;Kodex_der_Magie;1000;mal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;67.0;283;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;68.0;283;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;69.0;283;-1.0;Kodex_der_Magie;1000;Weg der Geheimnisse (346 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;70.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDType0Font/PDCIDFontType2, PostScript name: ALUQLO+GentiumBasic;false;false;71.0;283;-1.0;Kodex_der_Magie;1000;Adlerauge 6 statt Odem 6, Ignorantia 4 statt Widerwille 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;72.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;283;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;74.0;283;-1.0;Kodex_der_Magie;1000;Magiekunde 6 statt 4, Geschichtswissen 7 statt 6, Sternkunde 8 statt 7
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;75.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;76.0;283;-1.0;Kodex_der_Magie;1000;Betören 0 statt 2, Menschenkenntnis 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;77.0;283;-1.0;Kodex_der_Magie;1000;Weg der Offenbarung (346 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;78.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;79.0;283;-1.0;Kodex_der_Magie;1000;Adlerauge 4 statt Widerwille 4, Ängste lindern 4 statt Memorans 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;81.0;283;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;82.0;283;-1.0;Kodex_der_Magie;1000;Gassenwissen 3 statt 2, Heilkunde Seele 4 statt 3, Menschenkenntnis 6 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;83.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;84.0;283;-1.0;Kodex_der_Magie;1000;Sphärenkunde 2 statt 4, Stangenwaffen 6 statt 8
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;85.0;283;-1.0;Kodex_der_Magie;1300;Vadif sal Karim
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;86.0;283;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;87.0;283;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;88.0;283;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;89.0;283;-1.0;Kodex_der_Magie;1000;Archofaxius, Archosphaero, Elementarbann, Orcanosphaero, Verwandlungsbann, Wolfstatze
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;90.0;283;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;91.0;283;-1.0;Kodex_der_Magie;1000;keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;92.0;283;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;93.0;283;-1.0;Kodex_der_Magie;1000;oder Dämonenbeschwörungen, keine borbaradianischen Zauber
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;94.0;283;-1.0;Kodex_der_Magie;1000;Weg des Wüstenzauberers (377 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;95.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;96.0;283;-1.0;Kodex_der_Magie;1000;Archofaxius 4 statt Aeolito 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;97.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;98.0;283;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;99.0;283;-1.0;Kodex_der_Magie;1000;Sphärenkunde 6 statt 4, Wildnisleben 5 statt 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;100.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;101.0;283;-1.0;Kodex_der_Magie;1000;Dolche 7 statt 8, Heilkunde Wunden 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;102.0;283;-1.0;Kodex_der_Magie;1000;Weg des Tieres (380 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;103.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;104.0;283;-1.0;Kodex_der_Magie;1000;Wolfstatze 4 statt Aeolito 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;105.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;106.0;283;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;107.0;283;-1.0;Kodex_der_Magie;1000;Tierkunde 7 statt 5
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;108.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;109.0;283;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 2 statt 4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;110.0;283;-1.0;Kodex_der_Magie;1300;Zauberschule des Kalifen zu Mherwed
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;111.0;283;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;112.0;283;-1.0;Kodex_der_Magie;1000;bodenständig
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;113.0;283;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;114.0;283;-1.0;Kodex_der_Magie;1000;Custodosigil, Erzpfeil, Felsform, Luftpfeil, Nihilogravo, Objektbann, Sphärenbann, Wirbelform
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;115.0;283;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;116.0;283;-1.0;Kodex_der_Magie;1000;keine borbaradianischen Zauber, keine Zauber mit dem Merkmal
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;117.0;283;-1.0;Kodex_der_Magie;1000;Dämonisch
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;118.0;283;-1.0;Kodex_der_Magie;1000;Pfad des Wüstensandes (322AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;119.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;120.0;283;-1.0;Kodex_der_Magie;1000;Erzpfeil 5 statt Caldofrigo 5, Felsform 4 statt Klarum Purum 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;121.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;122.0;283;-1.0;Kodex_der_Magie;1000;Reiten 3 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;123.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;124.0;283;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;125.0;283;-1.0;Kodex_der_Magie;1000;Pfad des Wüstenwindes (319 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;126.0;283;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;127.0;283;-1.0;Kodex_der_Magie;1000;Luftpfeil 5 statt Caldofrigo 5, Wirbelform 4 statt Adamantium 6
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;128.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;129.0;283;-1.0;Kodex_der_Magie;1000;Fliegen 3 statt 0
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;130.0;283;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;131.0;283;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;284;-1.0;Kodex_der_Magie;1300;Kalliomathëa Dorikeikos von Sorabis
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;284;-1.0;Kodex_der_Magie;1000;Leitlinie
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;284;-1.0;Kodex_der_Magie;1000;traditionell
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;284;-1.0;Kodex_der_Magie;1000;Wahlzauberpaket
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;284;-1.0;Kodex_der_Magie;1000;Auge des Limbus,
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;284;-1.0;Kodex_der_Magie;1000;
+PDType0Font/PDCIDFontType2, PostScript name: LIWKJS+GentiumBasic;false;false;7.0;284;-1.0;Kodex_der_Magie;1000;Einflussbann,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;8.0;284;-1.0;Kodex_der_Magie;1000;Flim Flam, Fortifex, Hellsichtbann, Ignifaxius, Körperlose Reise, Motoricus, Psychostabilis,
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;284;-1.0;Kodex_der_Magie;1000;Eingeschränkte Zauber
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;284;-1.0;Kodex_der_Magie;1000;–
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;11.0;284;-1.0;Kodex_der_Magie;1000;Pfad der Hellsicht (371 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;12.0;284;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;284;-1.0;Kodex_der_Magie;1000;Hellsichtbann 4 statt Gardianum 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;14.0;284;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;284;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 5 statt 3, Überreden 4 statt 2
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;284;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–): –
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;17.0;284;-1.0;Kodex_der_Magie;1000;Pfad der Sphären (393 AP)
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;284;-1.0;Kodex_der_Magie;1000;Zauberänderungen:
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;284;-1.0;Kodex_der_Magie;1000;Auge des Limbus 4 statt Blick in die Gedanken 4
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;284;-1.0;Kodex_der_Magie;1000;Fertigkeiten (+):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;284;-1.0;Kodex_der_Magie;1000;Sphärenkunde 8 statt 7
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;22.0;284;-1.0;Kodex_der_Magie;1000;Fertigkeiten (–):
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;284;-1.0;Kodex_der_Magie;1000;Menschenkenntnis 1 statt 3Bei den Erben der Gräber und Agrimeton gibt es keine Unterrichtsabweichungen.

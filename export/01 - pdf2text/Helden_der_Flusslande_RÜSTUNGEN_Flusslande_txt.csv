@@ -1,0 +1,169 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;70;-1.0;Helden_der_Flusslande;1800;Rüstzeug
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;2.0;70;-1.0;Helden_der_Flusslande;1000;Koscher GambesonKomplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;3.0;70;-1.0;Helden_der_Flusslande;1000;einf
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;4.0;70;-1.0;Helden_der_Flusslande;900;ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;5.0;70;-1.0;Helden_der_Flusslande;1000;Koscher Gambeson
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;6.0;70;-1.0;Helden_der_Flusslande;1000;21–3,25 Stn80 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;7.0;70;-1.0;Helden_der_Flusslande;1000;Anmerkung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;8.0;70;-1.0;Helden_der_Flusslande;1000;Der Koscher Gambeson ist eine Variante der Stoffrüstung.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;9.0;70;-1.0;Helden_der_Flusslande;1000;Rüstungsvorteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;70;-1.0;Helden_der_Flusslande;1000;Ein Koscher Gambeson verfügt über einen Kälteschutz von 1. Gegen Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;11.0;70;-1.0;Helden_der_Flusslande;1000;Kettenwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;70;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;13.0;70;-1.0;Helden_der_Flusslande;1000;Zweihandhiebwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;70;-1.0;Helden_der_Flusslande;1000;schützt der Koscher Gambeson mit RS 3.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;15.0;70;-1.0;Helden_der_Flusslande;1000;Rüstungsnachteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;16.0;70;-1.0;Helden_der_Flusslande;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;17.0;70;-1.0;Helden_der_Flusslande;1000;Dolche
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;18.0;70;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;19.0;70;-1.0;Helden_der_Flusslande;1000;Fechtwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;70;-1.0;Helden_der_Flusslande;1000;sowie Bolzen und Pfeile schützt der Koscher Gambeson nur mit RS 1.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;21.0;70;-1.0;Helden_der_Flusslande;1000;Albenhuser PlattenharnischKomplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;70;-1.0;Helden_der_Flusslande;1000;komp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;23.0;70;-1.0;Helden_der_Flusslande;900;ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;24.0;70;-1.0;Helden_der_Flusslande;1000;Albenhuser Plattenharnisch
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;25.0;70;-1.0;Helden_der_Flusslande;1000;63–12 Stn275 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;26.0;70;-1.0;Helden_der_Flusslande;1000;Anmerkung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;27.0;70;-1.0;Helden_der_Flusslande;1000;Der Albenhuser Plattenharnisch ist eine Variante der Plattenrüstung.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;28.0;70;-1.0;Helden_der_Flusslande;1000;Rüstungsvorteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;29.0;70;-1.0;Helden_der_Flusslande;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;30.0;70;-1.0;Helden_der_Flusslande;1000;Dolche
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;31.0;70;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;32.0;70;-1.0;Helden_der_Flusslande;1000;Fechtwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;33.0;70;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;34.0;70;-1.0;Helden_der_Flusslande;1000;Lanzen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;35.0;70;-1.0;Helden_der_Flusslande;1000;schützt der Albenhuser Plattenharnisch mit einem RS von 7.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;36.0;70;-1.0;Helden_der_Flusslande;1000;Rüstungsnachteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;37.0;70;-1.0;Helden_der_Flusslande;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;38.0;70;-1.0;Helden_der_Flusslande;1000;Kettenwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;39.0;70;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;40.0;70;-1.0;Helden_der_Flusslande;1000;Zweihandhiebwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;41.0;70;-1.0;Helden_der_Flusslande;1000;schützt der Albenhuser Plattenharnisch nur mit einem RS von 3. Gegenüber Angriffen von hinten schützt der Albenhuser Plattenharnisch nur mit einem RS von 1.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;42.0;70;-1.0;Helden_der_Flusslande;1300;Der Koscher Gambeson
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;43.0;70;-1.0;Helden_der_Flusslande;900;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;44.0;70;-1.0;Helden_der_Flusslande;900;Gebt fein Acht, denn das hier ist keine zweit
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;45.0;70;-1.0;Helden_der_Flusslande;900;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;46.0;70;-1.0;Helden_der_Flusslande;900;klassige Ware, wie man sie Euch wo
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;47.0;70;-1.0;Helden_der_Flusslande;900;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;48.0;70;-1.0;Helden_der_Flusslande;900;möglich im Außerkosch aufschwatzen würde. Oh nein, dieses gute Stück ist echt koscher. Bester Leinen
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;49.0;70;-1.0;Helden_der_Flusslande;900;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;50.0;70;-1.0;Helden_der_Flusslande;900;stoff, gefüttert mit Rosshaaren und verstärkt mit stabilen Le
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;51.0;70;-1.0;Helden_der_Flusslande;900;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;52.0;70;-1.0;Helden_der_Flusslande;900;derstreifen und eisernen Nieten. Eine bessere Arbeit werdet Ihr nir
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;53.0;70;-1.0;Helden_der_Flusslande;900;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;54.0;70;-1.0;Helden_der_Flusslande;900;gendwo finden.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;55.0;70;-1.0;Helden_der_Flusslande;900;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;56.0;70;-1.0;Helden_der_Flusslande;1000;—gehört auf dem Markt in Angbar, neuzeitlich
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;57.0;70;-1.0;Helden_der_Flusslande;1000;Wenngleich die Schmiedekunst in den Flusslanden einen hohen Stel
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;59.0;70;-1.0;Helden_der_Flusslande;1000;lenwert einnimmt, kann sich auch in den Nordmarken und im Kosch nicht jeder Streiter eine teure Metallrüs
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;60.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;61.0;70;-1.0;Helden_der_Flusslande;1000;tung leisten. So ist vor allem bei Dorfbütteln und den Landwehraufgeboten des örtlichen Adels, aber auch bei Straßenräubern und Flusspiraten der Koscher Gambeson weit verbreitet. Der wattierte Waffenrock, wie man ihn im Kosch anfertigt, besitzt eingesteppte Röhren, die mit Hanf oder Rosshaar gefüllt sind. Zusätzlich werden diese Polster mit aufgenähten Lederstücken und Metallnieten verstärkt, was die Schutzwirkung der Rüstung gegenüber Hieben verstärkt. Aufgrund seiner einfachen Machart lässt sich der Waffenrock leicht ausbessern und reparie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;62.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;63.0;70;-1.0;Helden_der_Flusslande;1000;ren. Ein Vorteil gegenüber Metallrüstungen besitzt der Koscher Gambeson außerdem in kalten Nächten unter freiem Himmel und im Winter, vermag er es doch, seinen Träger vorzüglich warm zu halten.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;70;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;65.0;70;-1.0;Helden_der_Flusslande;1000;Recht bequem, so ein Koscher Gambeson. Ich glaube, daran könnte ich mich gewöhnen.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;70;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;67.0;70;-1.0;Helden_der_Flusslande;1000;—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;68.0;70;-1.0;Helden_der_Flusslande;1300;Der Albenhuser Plattenharnisch
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;69.0;70;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;70.0;70;-1.0;Helden_der_Flusslande;1000;Rena steht also diesem Flussgardisten gegen
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;71.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;72.0;70;-1.0;Helden_der_Flusslande;1000;über, aber mit ihrem Säbel ist einfach kein Vor
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;73.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;74.0;70;-1.0;Helden_der_Flusslande;1000;beikommen an seinem Schwert. Und wo es ihr doch einmal gelingt, gleiten ihre Hiebe am Kü
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;75.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;76.0;70;-1.0;Helden_der_Flusslande;1000;rass des Burschen ab. Da habe ich mich von hinten an ihn herangeschlichen und ihm die Klinge in den Rücken gestoßen. Da hat ihm der Plattenharnisch vor der Brust auch nichts mehr genützt.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;77.0;70;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;78.0;70;-1.0;Helden_der_Flusslande;1000;—Wolfrida Klingenbruch, Flusspiratin am Großen Fluss, 1039 BF
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;79.0;70;-1.0;Helden_der_Flusslande;1000;Seit geraumer Zeit haben sich Platten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;80.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;81.0;70;-1.0;Helden_der_Flusslande;1000;rüstungen in den Nordmarken auch bei den Fußtruppen und leichten Reitereinheiten durchgesetzt. Besonderer Beliebtheit erfreut sich dabei der Albenhuser Plattenharnisch, eine regionale Varian
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;82.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;83.0;70;-1.0;Helden_der_Flusslande;1000;te des Kürasses, die in den Waffenschmieden in Albenhus und Elenvina in großer Zahl hergestellt wird. Kernstück der Rüstung ist eine robuste Metallschale, die häufig mit göttergefälligen oder patriotischen Gravuren verziert ist. Sie wird vor die Brust geschnallt und durch gepolsterte Lederriemen am Rücken des Trägers befestigt. Der Plat
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;84.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;85.0;70;-1.0;Helden_der_Flusslande;1000;tenharnisch schützt Brustkorb, Bauch und Schultern bei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;86.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;87.0;70;-1.0;Helden_der_Flusslande;1000;nahe ebenso effektiv wie eine massive Plattenrüstung. Gegen Angriffe, die auf Arme, Beine und den Rücken zie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;88.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;89.0;70;-1.0;Helden_der_Flusslande;1000;len, bietet er dagegen kaum Schutz. Ein Vorteil ist das vergleichsweise geringe Gewicht der Rüstung, die ihren Träger im Kampf und auf dem Marsch weit weniger ein
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;90.0;70;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;91.0;70;-1.0;Helden_der_Flusslande;1000;schränkt als eine schwere Plattenrüstung.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;92.0;70;-1.0;Helden_der_Flusslande;900;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;93.0;70;-1.0;Helden_der_Flusslande;900;Eine Rüstung, die meinen Rücken ungeschützt lässt, die verursacht mir ein flaues Gefühl im Magen. Und mag der Brustharnisch auch noch so schön verziert sein.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;94.0;70;-1.0;Helden_der_Flusslande;900;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;95.0;70;-1.0;Helden_der_Flusslande;1000;—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont XDDCID+Andalus;false;false;1.0;71;-1.0;Helden_der_Flusslande;1200;Rüstkammer der Flusslande
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;2.0;71;-1.0;Helden_der_Flusslande;1300;Die Nordmärker Ritterrüstung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;3.0;71;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;4.0;71;-1.0;Helden_der_Flusslande;1000;In der Tjoste sollte ich dann also gegen eine Streiterin aus den Nordmarken antreten. Sie trug eine schwere Plattenrüstung, eine wirklich ausgezeichnete Arbeit. Ich habe das prächtige Stück in Gedanken schon in meinem Rittersaal bei den ande
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;5.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;6.0;71;-1.0;Helden_der_Flusslande;1000;ren Trophäen an der Wand hängen sehen. Aber ich hätte den Sieg nicht vor dem Kampf feiern sollen. Am Abend zuvor habe ich wohl zu tief in den Becher geschaut, denn sie hat mich im zweiten Lanzengang aus dem Sattel gestoßen. Rondra sei es geklagt, das hätte wirklich besser laufen können.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;7.0;71;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;8.0;71;-1.0;Helden_der_Flusslande;1000;—Baron Alwan von Unterallertissen-Rabenmund auf dem Großen Kaiserturnier zu Gareth, 1041 BF
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;9.0;71;-1.0;Helden_der_Flusslande;1000;In den Nordmarken steht das Rittertum noch immer in voller Blüte, und jene Frauen und Männer, die die Auszeichnung des Rit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;10.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;11.0;71;-1.0;Helden_der_Flusslande;1000;terschlags empfangen haben, tragen voller Stolz ihre schwere Platten
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;12.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;13.0;71;-1.0;Helden_der_Flusslande;1000;rüstung. Nicht selten handelt es sich dabei um alte Erbstücke, die sich seit
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;14.0;71;-1.0;Helden_der_Flusslande;1000;vielen Generationen in Familien-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;15.0;71;-1.0;Helden_der_Flusslande;1000;besitz befinden und im Laufe der Zeit immer wieder ausgebessert und ergänzt wurden, um sie den Bedingungen auf dem Schlachtfeld anzupassen. Die Nordmärker Ritter
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;16.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;17.0;71;-1.0;Helden_der_Flusslande;1000;rüstung ist eine Ganzkörperrüstung, die aus bestem Stahl gefertigt wird und ihrem Träger einen exzellenten Schutz bietet. Die Plattenstücke sind
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;18.0;71;-1.0;Helden_der_Flusslande;1000;so geformt, dass sie nicht nur schweren
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;19.0;71;-1.0;Helden_der_Flusslande;1000;Hieben standhalten können, sondern auch schwächere Hiebe leichter abglei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;20.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;21.0;71;-1.0;Helden_der_Flusslande;1000;ten lassen. Der Preis für dieses Maxi
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;22.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;23.0;71;-1.0;Helden_der_Flusslande;1000;mum an Panzerung ist allerdings ein beachtliches Gewicht von 38 Stein und mehr, das die Beweglichkeit des Strei
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;24.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;25.0;71;-1.0;Helden_der_Flusslande;1000;ters einschränkt und ihn insbesondere beim Kampf zu Fuß schwerfälliger und
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;26.0;71;-1.0;Helden_der_Flusslande;1000;langsamer agieren lässt.
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;27.0;71;-1.0;Helden_der_Flusslande;1000;Während ältere Exemplare vereinzelt noch die Gelen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;28.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;29.0;71;-1.0;Helden_der_Flusslande;1000;ke ungeschützt lassen, um dem Ritter ein höheres Maß an Bewegungsfreiheit zu ermöglichen, sind die neueren Modelle so konstruiert, dass sie keine Blöße für eine Klinge bieten. Die Rüstungsteile sind dazu entweder an einer stabilen Aufhängung aus Lederriemen ange
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;30.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;31.0;71;-1.0;Helden_der_Flusslande;1000;bracht, die an der wattierten Unterkleidung des Kämp
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;32.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;33.0;71;-1.0;Helden_der_Flusslande;1000;fers befestigt sind, oder die einzelnen Metallplatten sind so passgenau miteinander vernietet, dass buchstäblich jede Stelle des Körpers geschützt ist. Als Königsdisziplin der Harnischmacher und Plattner gilt es, die einzelnen Rüstungsteile so geschickt aneinander und an die Statur des Trägers anzupassen und mit flexiblen Führungs
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;34.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;35.0;71;-1.0;Helden_der_Flusslande;1000;schienen zu versehen, dass die möglichen Verschie
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;36.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: UBPKSJ+GentiumBasic;false;false;37.0;71;-1.0;Helden_der_Flusslande;1000;bungen der kleineren Metallplatten untereinander durch das Geschübe festgelegt sind.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;38.0;71;-1.0;Helden_der_Flusslande;1000;Nordmärker RitterrüstungKomplexität
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;39.0;71;-1.0;Helden_der_Flusslande;1000;komp (3 AP)
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;40.0;71;-1.0;Helden_der_Flusslande;900;ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreis
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;41.0;71;-1.0;Helden_der_Flusslande;1000;Nordmärker Ritterrüstung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;42.0;71;-1.0;Helden_der_Flusslande;1000;74–38 Stn2.200 S
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;43.0;71;-1.0;Helden_der_Flusslande;1000;Anmerkung
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;44.0;71;-1.0;Helden_der_Flusslande;1000;Die Nordmärker Ritterrüstung ist eine Variante der Gestechrüstung.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;45.0;71;-1.0;Helden_der_Flusslande;1000;Rüstungsvorteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;46.0;71;-1.0;Helden_der_Flusslande;1000;Gegen Waffen der Kampftechniken
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;47.0;71;-1.0;Helden_der_Flusslande;1000;Dolche
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;48.0;71;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;49.0;71;-1.0;Helden_der_Flusslande;1000;Fechtwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;50.0;71;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;51.0;71;-1.0;Helden_der_Flusslande;1000;Hiebwaffen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;52.0;71;-1.0;Helden_der_Flusslande;1000;,
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;53.0;71;-1.0;Helden_der_Flusslande;1000;Raufen
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;54.0;71;-1.0;Helden_der_Flusslande;1000;und
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;55.0;71;-1.0;Helden_der_Flusslande;1000;Schwerter
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;56.0;71;-1.0;Helden_der_Flusslande;1000;schützt die Nordmärker Ritterrüstung mit einem RS von 8.
+PDTrueTypeFont JIAWUF+GentiumBasic-Bold;true;false;57.0;71;-1.0;Helden_der_Flusslande;1000;Rüstungsnachteil
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;58.0;71;-1.0;Helden_der_Flusslande;1000;Als Fußkämpfer erleidet der Träger einer Nordmärker Ritterrüstung zusätzliche Abzüge von jeweils –1 auf GS und INI.»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;59.0;71;-1.0;Helden_der_Flusslande;1000;Ich kann wirklich nicht verstehen, warum sich jemand freiwillig in so viel Eisen einsper
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;60.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;61.0;71;-1.0;Helden_der_Flusslande;1000;ren lässt. Kein Wunder, dass die meisten nord
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;62.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;63.0;71;-1.0;Helden_der_Flusslande;1000;märkischen Adligen so verbohrt sind.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;64.0;71;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;65.0;71;-1.0;Helden_der_Flusslande;1000;—Rowena aus dem Überwals, bornische Katzenhexe
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;66.0;71;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;67.0;71;-1.0;Helden_der_Flusslande;1000;Ja, sonderlich gut bewegen kann man sich damit bestimmt nicht.«—Carolan Calavanti, Vinsalter Streuner
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;68.0;71;-1.0;Helden_der_Flusslande;1000;»
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;69.0;71;-1.0;Helden_der_Flusslande;1000;Aber wenn ihr auf dem Schlachtfeld steht und der Feind von allen Seiten auf euch ein
+PDTrueTypeFont BWZAMV+GentiumBasic-Italic;false;true;70.0;71;-1.0;Helden_der_Flusslande;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;71.0;71;-1.0;Helden_der_Flusslande;1000;stürmt, dann ist so eine Ritterrüstung eine gute Lebensversicherung. Da kommt so leicht kein Treffer durch, das könnt ihr mir glauben.
+PDTrueTypeFont QVMMOR+GentiumBasic;false;false;72.0;71;-1.0;Helden_der_Flusslande;1000;«
+PDType0Font/PDCIDFontType2, PostScript name: FCCYQN+GentiumBasic-Italic;false;true;73.0;71;-1.0;Helden_der_Flusslande;1000;—Geron Waisenmacher, Doppelsöldner

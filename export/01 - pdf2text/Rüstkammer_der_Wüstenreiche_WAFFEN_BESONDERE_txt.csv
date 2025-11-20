@@ -1,0 +1,129 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont HGEFEU+Andalus;false;false;1.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1200;Die Rüstkammer
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;2.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1300;Allgemeines zu Talismanen
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;3.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDType3Font null;false;false;4.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;*
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;5.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;6.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Talismane sind unzerbrechlich.
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;7.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDType3Font null;false;false;8.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;*
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;9.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;10.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Talismane können entweder in der Hand eines Geweihten der passenden Tradition durch Karmaenergie aktiviert werden oder durch den Einsatz eines Schicksalspunkts. Dabei muss allerdings die Gottheit ihr bzw. das Pantheon sein Einverständnis geben, was einen Missbrauch durch Schurken verhindert, aber durchaus auch Nichtgläubigen den Einsatz im Sinne der göttlichen Ideale ermöglicht.
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;11.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDType3Font null;false;false;12.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;*
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;13.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;14.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Um die genaue Wirkung zu bestimmen, würfeln Talismane mit einem FW von 18 gegen 14/14/14.
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;15.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDType3Font null;false;false;16.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;*
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;17.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;18.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Talismane können durch (namenlose, dämonische) Rituale entweiht werden. Danach kann man sie zerstören.
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;19.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDType3Font null;false;false;20.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;*
+PDType1CFont EKJNIV+TheDarkEyeRegular;false;false;21.0;20;-1.0;Rüstkammer_der_Wüstenreiche;700;
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;22.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Extrem mächtige (namenlose, dämonische) Rituale können Talismane auch pervertieren.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;23.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1300;Eisenrost
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;24.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Zauber lässt ein metallenes Objekt schlagartig verrosten, was es spröde und zerbrechlich macht.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;25.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Probe
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;26.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;KL/CH/GE
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;27.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wirkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;28.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Metallene Gegenstände verlieren 20 Strukturpunkte. Sinken die Strukturpunkte dadurch unter 1, zerfrisst der Rost das Objekt so stark, dass es nicht mehr verwendbar ist.Um metallene Rüstungen zu zerstören, benötigt der Zauberer so viele QS, wie die Rüstung Rüstungsschutz aufweist. Bei metallenen Waffen der Kampftechniken Dolche und Raufen müssen 1 QS erzielt werden, bei anderen Waffen mindestens 2 QS. Zweihandwaffen können nur mit mindestens 3 QS zerstört werden. Besonders hochwertige Waffen und Rüstungen benötigen nach Meisterentscheid 1 QS zusätzlich, um zerstört zu werden. Erzielte QS gegen Waffen und Rüstungen summieren sich auf.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;29.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zauberdauer
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;30.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;4 Aktionen
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;31.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;AsP-Kosten
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;32.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;8 AsP
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;33.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Reichweite
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;34.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;4 Schritt
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;35.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wirkungsdauer
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;36.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;sofort
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;37.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Zielkategorie
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;38.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Objekte (Profane Objekte)
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;39.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Merkmal
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;40.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Objekt
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;41.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Verbreitung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;42.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gildenmagier, Hexen
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;43.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Steigerungsfaktor
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;44.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;C
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;45.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1300;Esravun, Sternenschwert des Mautaban
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;46.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Sie sind zäh und ihre Haut ist dick. Doch Esravun wurde geschmiedet aus dem Eisen des Himmelssteins, der Elem von Dere tilgte – und ich, die strafende Hand des Kalifen, werde seine vernichtende Klinge nun durch ihre Reihen tragen.«—der Mautaban zu einer Gruppe Abenteurer, gehört in der Khôm, 1045 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;47.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Neunundneunzig mal neunundneunzig Schläge soll es der Überlieferung nach gedauert haben, den gefürchteten Doppelkhunchomer Esravun zu fertigen. Das Sternenschwert wurde aus dem Eisen des Meteors geschmiedet, der einst Elem in den Abgrund riss. Es ist das berühmteste Schwert im Reich des Kalifats. Esravun wird vom Oberhaupt aller novadischen Stämme an den „Vollstrecker seines Willens“ (tul.: Mautaban) vergeben. Dieser bekleidet damit das Amt des Heermeisters und Scharfrichters zugleich. Viele Rechtsbrecher verloren ihren Kopf durch das Richtschwert des Kalifen, doch auch manch schicksalhafte Schlacht erlebte diese Waffe. So kämpfte die Klinge im
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;48.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Khômkrieg
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;49.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;gegen die Al’Anfaner und half in der
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;50.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Dritten Dämonenschlach
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;51.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;t bei der Vernichtung der Truppen des Dämonenmeisters
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;52.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Borbarad
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;53.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;. Es heißt, der Träger des Khunchomers wird vom Geiste Rastullahs ergriffen, wenn er das Schwert führt, dessen leicht gebogene Klinge schwarz in der heißen Sonne der Khôm glänzt. Das Heft aus geschwärztem Silber und Gold gilt als Zeichen seines Edelmuts. Die drei Rubine am Knauf
+PDType0Font/PDCIDFontType2, PostScript name: UTITQU+GentiumBasic;false;false;54.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;symbolisieren Stärke, Ausdauer und Einfluss.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;55.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1300;Der Tausendjährige Zweihänder
+PDType0Font/PDCIDFontType2, PostScript name: XVWLGO+GentiumBasic-Italic;false;true;56.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;»O Sahib, glaubt mir, es ist die verfluchte Klinge des Blutkai
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;57.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;-sers Fran-Horas! Sie hat diesen Ort der Grausamkeit geschaffen, nicht der Dschinn.«—gehört in der Taverne ›Windstärke 13‹ in Thalusa, neuzeitlich
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;58.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Das Henkerschwert Thalusiens gehört zu den berüchtigtsten Waffen Aventuriens. Die genaue Herkunft und auch das Metall, aus dem es geschmiedet ist, sind bis
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;59.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Esravun, das Sternenschwert des MautabanKomplexität
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;60.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;–
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;61.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Beschreibung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;62.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;ein legendärer Doppelkhunchomer, geschmiedet aus dem Meteor von Elem, besteht aus Meteoreisen und Endurium
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;63.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;NameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisEsravun
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;64.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;(2H)Zweihandschwerter2W6+5KK 14+2/–2mittel2 Stein130 HFunbezahlbar
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;65.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;66.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Die Waffe ist magisch und besteht zu 50 % aus Endurium, zu 50 % aus Meteoreisen. Der Träger des Objekts hört alle 1W6 Tage wispernde Stimmen in einer ihm unbekannten Sprache.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;67.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffenvorteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;68.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Gelingt dem Träger Esravuns ein Kritischer Erfolg, ist der Bestätigungswurf um +2 Punkte erleichtert.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;69.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffennachteil
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;70.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Mit Esravun sind
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;71.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;Finten
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;72.0;20;-1.0;Rüstkammer_der_Wüstenreiche;1000;um zusätzlich –1 erschwert.
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;1.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;heute nicht bekannt. Erstmals erwähnt wurde die Klinge vor fünfhundert Jahren. Schon damals diente es als Richtschwert Thalusas. Legenden erzählen von anderen Orten, wo es durch seine bloße Anwesenheit Angst und Schrecken verbreitete. Eine Sage berichtet sogar, es hätte dem blutigen
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;2.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Fran-Horas
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;3.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;gehört und der Rubin am Knauf würde Teile seiner Seele tragen. So verwundert es nicht, dass ei-
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;4.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;nige Gelehrte behaupten, die Waffe sei verflucht.
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;5.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wissensdurstige, die diesen Gerüchten nachge-
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;6.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;hen, finden sich allzu schnell auf dem Richtblock
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;7.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;des Scharfrichters wieder und erhalten eine erste und letzte Möglichkeit, einen Blick auf die Klinge zu erhaschen – denn nach alter Tradition dürfen Hinrichtungen in Thalusa nur mit diesem zeremoniellen Zweihänder und der
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;8.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;güldenen Blutschale
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;9.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;, in die der Kopf des Unglücklichen fällt, vollzogen werden. Bei der Vollstreckung der Urteile wird die auf Hochglanz polierte Waffe in einer Prozession an den Henker übergeben, der dann den Verurteilten richtet. Wird das Haupt des Delinquenten nicht mit einem Schlag vom Rumpf getrennt, so gilt er forthin als begnadigt.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;10.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1300;Der Schleier des Nebels
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;11.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;»Heute erzähle ich eine Geschichte, die meine Schwester aus Fasar mitbrachte. [...] Radscha war entschlossen, ihren Sohn Alef Aytan zu retten, kein Preis war zu hoch, um ihn der Herrin der Schwarzfaulen Lust in den Niederhöllen zu entreißen. So opferte sie ihre Schleier, sieben an der Zahl, um die Prüfungen der Finsternis zu bestehen. [...]Bis zur dritten Prüfung konnte sich Radscha vor den Augen der Sterblichen verbergen, denn der Schleier des Nebels verhüllte ihre Schritte. Als sie ihn fallen ließ, jauchzten die Seelen und schrien im Schmerz ihren Namen, denn die verzweifelte Hoffnung, sie sei gekommen, sie aus den Niederhöllen zu retten, fraß die Gepeinigten von innen auf. Doch Radscha schritt vorüber, Tränen rannen ihr das gleißende Antlitz herab. Sie musste gehen, weiter, weiter, ohne den Schleier, der sie vor ihrem Gewissen geschützt hatte.«—Märchen, erzählt von Haimamud Tulachim ben Yakuban, 1044 BF
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;12.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Schleier des Nebels soll der dritte Schleier sein, den Rahja bei ihrer Rettung Levthans aus der Domäne Belkelels trug. Manch ein Haimamud im Wüstenreich kennt Märchen von einem hauchzarten Umhang, der irgendwo in der Wüste auf Raschtuls Atem tanzt, sich mal in Ruinen zum Schlafen bettet und dann plötzlich in höchster Not einem Sterblichen das Leben rettet. Denn der als verschollen geglaubte heilige Schleier macht seinen Träger unsichtbar – zumindest vor allen sterblichen Lebewesen. Da seine Kräfte die Moral der Sterblichen offen herausfordern, wandert er, erhoben von einem Windstoß, meist schnell weiter in sein nächstes Versteck, um von Sterblichen in der Not gefunden zu werden.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;13.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Tausendjährige ZweihänderKomplexität
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;14.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;–
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;15.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;NameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisTausendjähriger Zweihänder
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;16.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;(2H)Zweihandschwerter2W6+7KK 14–1/–3mittel7 Stein180 HFunbezahlbar
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;17.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Anmerkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;18.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wer das Schwert führt, erhält
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;19.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Persönlichkeitsschwächen (Gerechtigkeitswahn, Grausamkeit
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;20.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;und
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;21.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Unheimlich)
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;22.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;und den Nachteil
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;23.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Schlechte Regeneration (Lebensenergie) II
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;24.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;wegen andauernder
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;25.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Schlaflosigkeit. Wenn eine Attacke SP verursacht, erleidet das Opfer 1 Stufe
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;26.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Schmerz
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;27.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;für 1
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;28.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Stunde.
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;29.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;30.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Diese Schmerzstufen sind kumulativ. Bei einer unverteidigten Attacke muss das Op
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;31.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;32.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;fer mit 1W6 würfeln. Bei 1-2 wurde der Hals getroffen und die TP verdoppeln sich.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;33.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffenvorteil
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;34.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Erzielt der Träger des Tausendjährigen Zweihänders einen Kritischen Erfolg oder richtet gegen einen Feind 16+ SP an, so müssen alle Gegner in Angriffsdistanz eine Probe auf
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;35.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Willenskraft (Einschüchtern widerstehen)
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;36.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;erschwert um –3 ablegen. Bei Misslingen erhält ein Gegner 1 Stufe
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;37.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Furcht
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;38.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;für 5 KR. Spielst du mit den Fokusregeln für Trefferzonen, richtet ein Treffer gegen den Kopf TP x 2 an.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;39.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Waffennachteil
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;40.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Mit dem Tausendjährigen Zweihänder lassen sich keine
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;41.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Finten
+PDType0Font/PDCIDFontType2, PostScript name: QUGOCC+GentiumBasic;false;false;42.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;einsetzen.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;43.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Schleier des NebelsBeschreibung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;44.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;ein Schleier aus durchsichtiger blauer Seide, von seinen endlosen Reisen braun verkrustet
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;45.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Wirkung
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;46.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Der Träger des Schleiers kann von Lebewesen und Seelen bzw. Geistern von einstigen Lebewesen nicht mehr sinnlich wahrgenommen werden, wenn er das nicht will. Er ist groß genug, um zwei Lebewesen der Größenkategorie
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;47.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;mittel
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;48.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;oder ein
+PDTrueTypeFont FABUBY+GentiumBasic-Italic;false;true;49.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;großes
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;50.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;zu verbergen. Er macht keine Objekte unsichtbar, es sei denn, es handelt sich um Kleidung, Rüstung und Ausrüstung, die der Träger normal selbst tragen kann. Wenn der Schleier für Rahja nicht gefällige Zwecke missbraucht wird, also etwa, um jemanden hinterrücks anzugreifen, verlässt er
+PDType0Font/PDCIDFontType2, PostScript name: LXVDCH+GentiumBasic;false;false;51.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;den oder die Trägerin augenblicklich und fliegt
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;52.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;davon. Es ist unmöglich, ihn davon abzuhalten.
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;53.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Kosten
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;54.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;unbekannt<br> 8 KaP oder 1 Schip, wirkt bis zum Ablegen, aber max. 1 Stunde
+PDTrueTypeFont MINKVK+GentiumBasic-Bold;true;false;55.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;Preis
+PDTrueTypeFont KFOYTO+GentiumBasic;false;false;56.0;21;-1.0;Rüstkammer_der_Wüstenreiche;1000;unbezahlbar

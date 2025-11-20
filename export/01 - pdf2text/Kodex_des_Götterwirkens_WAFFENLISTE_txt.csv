@@ -1,0 +1,215 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;1.0;422;-1.0;Kodex_des_Götterwirkens;1000;An dieser Stelle sind weitere Nah- und Fernkampfwaf
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;2.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;3.0;422;-1.0;Kodex_des_Götterwirkens;1000;fen sowie Rüstungen aufgeführt, die von einigen Pries
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;4.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;5.0;422;-1.0;Kodex_des_Götterwirkens;1000;tern verwendet werden.
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;6.0;422;-1.0;Kodex_des_Götterwirkens;1300;Abkürzungen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;7.0;422;-1.0;Kodex_des_Götterwirkens;1000;TP
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;8.0;422;-1.0;Kodex_des_Götterwirkens;1000;Trefferpunkte
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;9.0;422;-1.0;Kodex_des_Götterwirkens;1000;LZ
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;10.0;422;-1.0;Kodex_des_Götterwirkens;1000;Ladezeit in Aktionen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;11.0;422;-1.0;Kodex_des_Götterwirkens;1000;L+S
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;12.0;422;-1.0;Kodex_des_Götterwirkens;1000;Leiteigenschaft und Schadensschwelle
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;13.0;422;-1.0;Kodex_des_Götterwirkens;1000;AT/PA-Mod
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;14.0;422;-1.0;Kodex_des_Götterwirkens;1000;Modifikator für Attacke und Parade der Waffe
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;15.0;422;-1.0;Kodex_des_Götterwirkens;1000;RW
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;16.0;422;-1.0;Kodex_des_Götterwirkens;1000;Reichweite
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;17.0;422;-1.0;Kodex_des_Götterwirkens;1000;Munitionstyp
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;18.0;422;-1.0;Kodex_des_Götterwirkens;1000;Welche Art von Munition verwendet die Waffe?
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;19.0;422;-1.0;Kodex_des_Götterwirkens;1000;Gewicht
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;20.0;422;-1.0;Kodex_des_Götterwirkens;1000;Gewicht der Waffe in Stein (Stn)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;21.0;422;-1.0;Kodex_des_Götterwirkens;1000;Länge
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;22.0;422;-1.0;Kodex_des_Götterwirkens;1000;Länge der Waffe in Halbfinger (HF)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;23.0;422;-1.0;Kodex_des_Götterwirkens;1000;Preis
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;24.0;422;-1.0;Kodex_des_Götterwirkens;1000;Preis der Waffe in Silbertalern (S)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;25.0;422;-1.0;Kodex_des_Götterwirkens;1000;Komplexität
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;26.0;422;-1.0;Kodex_des_Götterwirkens;1000;Gegenstände verfügen über unterschied
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;27.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;28.0;422;-1.0;Kodex_des_Götterwirkens;1000;liche Komplexitäten. Diese geben Auskunft darüber, wie schwer es ist, ein Objekt herzustellen, und was man dafür benötigt. Gegenstände unterteilen sich in die Komplexitäten primitiv (prim), einfach (einf) und komplex (komp).
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;29.0;422;-1.0;Kodex_des_Götterwirkens;1000;Primitive Gegenstände
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;30.0;422;-1.0;Kodex_des_Götterwirkens;1000;kann jeder herstellen, ohne dass dazu besondere Voraussetzungen erfüllt sein müssen. Dafür reicht das jeweilige Herstellungstalent aus.
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;31.0;422;-1.0;Kodex_des_Götterwirkens;1000;Einfache Gegenstände
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;32.0;422;-1.0;Kodex_des_Götterwirkens;1000;erfordern hingegen ein bestimm
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;33.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;34.0;422;-1.0;Kodex_des_Götterwirkens;1000;tes Anwendungsgebiet. In den meisten Fällen braucht man zur Herstellung ein neues Anwendungsgebiet, das erst über eine Sonderfertigkeit erworben werden muss.
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;35.0;422;-1.0;Kodex_des_Götterwirkens;1000;Komplexe Gegenstände
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;36.0;422;-1.0;Kodex_des_Götterwirkens;1000;benötigen in jedem Fall ein Berufs
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;37.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;38.0;422;-1.0;Kodex_des_Götterwirkens;1000;geheimnis, damit man sie herstellen kann. Der AP-Wert für das Berufsgeheimnis ist in Klammern hinter der Komplexität angegeben.
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;39.0;422;-1.0;Kodex_des_Götterwirkens;1000;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;40.0;422;-1.0;Kodex_des_Götterwirkens;1000;2H: Eine Waffe, die zweihändig geführt werden muss. Damit ist die Nutzung eines Schilds, einer zweiten Waffe für den beidhändigen Kampf oder die zusätz
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;41.0;422;-1.0;Kodex_des_Götterwirkens;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: RBDLSV+GentiumBasic;false;false;42.0;422;-1.0;Kodex_des_Götterwirkens;1000;liche Nutzung einer Parierwaffe ausgeschlossen.
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;43.0;422;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Dolche
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;44.0;422;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätBasiliskenzunge
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;45.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+2GE 140/–1kurz0,5 Stn30 HF50 Skomp (2 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;46.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;47.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Hesinde)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;48.0;422;-1.0;Kodex_des_Götterwirkens;800;, Hesindegeweihte Waffen sind nur von Geweihten der Hesinde oder Ordensmitgliedern der Draconiter erwerbbar.
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;49.0;422;-1.0;Kodex_des_Götterwirkens;900;Opferdolch des Namenlosen (Basiliskenzunge)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;50.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+2GE 140/–1kurz0,5 Stn30 HF50 Skomp (2 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;51.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;52.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Namenloser)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;53.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Geweihten des Namenlosen erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;54.0;422;-1.0;Kodex_des_Götterwirkens;900;Firunsmesser
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;55.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+1GE 140/–2kurz0,5 Stn35 HF60 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;56.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;57.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Firun)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;58.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Firungeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;59.0;422;-1.0;Kodex_des_Götterwirkens;900;Krummdolch
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;60.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+2GE 140/–2kurz0,5 Stn45 HF45 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;61.0;422;-1.0;Kodex_des_Götterwirkens;900;Marbodolch
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;62.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+2GE 14+1/–2kurz0,75 Stn35 HF60 Skomp (2 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;63.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;64.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Marbo)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;65.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Marbopriestern erwerbbar
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;66.0;422;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Fechtwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;67.0;422;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätDegen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;68.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+3GE 150/+1mittel0,75 Stn90 HF150 Seinf
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;69.0;422;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Hiebwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;70.0;422;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätAngroschhammer
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;71.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–2mittel1,25 Stn70 HF125 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;72.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;73.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Gravesh)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;74.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Angroschpriestern erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;75.0;422;-1.0;Kodex_des_Götterwirkens;900;Graveshhammer
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;76.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–2mittel1,25 Stn70 HF125 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;77.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;78.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Praios)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;79.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Graveshpriestern erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;80.0;422;-1.0;Kodex_des_Götterwirkens;900;Heroldsstab
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;81.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 14–1/–1mittel1,25 Stn110 HF120 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;82.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;83.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Praios)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;84.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Ucuriaten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;85.0;422;-1.0;Kodex_des_Götterwirkens;900;Ingerimmshammer
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;86.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–1mittel1,25 Stn70 HF125 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;87.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;88.0;422;-1.0;Kodex_des_Götterwirkens;800;geweiht (Ingerimm)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;89.0;422;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Ingerimmgeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;90.0;422;-1.0;Kodex_des_Götterwirkens;900;Knochenkeule, kurz
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;91.0;422;-1.0;Kodex_des_Götterwirkens;900;1W6+2KK 140/–1kurz1 Stn50 HF20 Sprim
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;92.0;422;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;93.0;422;-1.0;Kodex_des_Götterwirkens;800;Um die Knochenkeule bei der Heldenerschaffung zu erwerben, muss der Held eine schamanistische Tradition besitzen.
+PDTrueTypeFont WGQPKL+Andalus;false;false;94.0;422;-1.0;Kodex_des_Götterwirkens;1800;Waffen und Rüstungen
+PDTrueTypeFont WGQPKL+Andalus;false;false;1.0;423;-1.0;Kodex_des_Götterwirkens;1200;Anhang
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;2.0;423;-1.0;Kodex_des_Götterwirkens;900;Knochenkeule, mittel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;3.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–1mittel1,5 Stn75 HF40 Sprim
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;4.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;5.0;423;-1.0;Kodex_des_Götterwirkens;800;Um die Knochenkeule bei der Heldenerschaffung zu erwerben, muss der Held eine schamanistische Tradition besitzen.
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;6.0;423;-1.0;Kodex_des_Götterwirkens;900;Rabenschnabel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;7.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+4KK 140/–1mittel1,5 Stn110 HF105 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;8.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;9.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Boron)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;10.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Borongeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;11.0;423;-1.0;Kodex_des_Götterwirkens;900;Sonnenzepter
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;12.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–1mittel1,25 Stn70 HF250 Skomp (2 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;13.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;14.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Praios)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;15.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Praiosgeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;16.0;423;-1.0;Kodex_des_Götterwirkens;900;Widderkeule
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;17.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 140/–1mittel1 Stn60 HF70 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;18.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;19.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Levthan)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;20.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Levthanpriestern erwerbbar
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;21.0;423;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Kettenwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;22.0;423;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätGeißel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;23.0;423;-1.0;Kodex_des_Götterwirkens;900;1W3KK 16–1/–mittel1,5 Stn140 HF14 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;24.0;423;-1.0;Kodex_des_Götterwirkens;900;Hornissenstachel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;25.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+3KK 130/–mittel2 Stn100 HF80 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;26.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;27.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Shinxir)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;28.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Shinxir-Priestern erwerbbar
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;29.0;423;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Schilde
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;30.0;423;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätAmazonenschild
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;31.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6KK 16–5/+2kurz3,5 Stn–85 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;32.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;33.0;423;-1.0;Kodex_des_Götterwirkens;800;mittlerer Schild, 35 Strukturpunkte
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;34.0;423;-1.0;Kodex_des_Götterwirkens;900;Metallverstärkter Holzschild
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;35.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6KK 16–4/+1kurz4 Stn–100 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;36.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;37.0;423;-1.0;Kodex_des_Götterwirkens;800;kleiner Schild, 40 Strukturpunkte
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;38.0;423;-1.0;Kodex_des_Götterwirkens;900;Sonnenschild
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;39.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6KK 16–4/+1kurz4 Stn– 130 Skomp (1 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;40.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;41.0;423;-1.0;Kodex_des_Götterwirkens;800;kleiner Schild, 50 Strukturpunkte, Waffe ist nur von Sonnenlegionären erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;42.0;423;-1.0;Kodex_des_Götterwirkens;900;Verstärkter Holzschild
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;43.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6KK 16–4/+1kurz4 Stn–70 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;44.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;45.0;423;-1.0;Kodex_des_Götterwirkens;800;kleiner Schild, 30 Strukturpunkte
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;46.0;423;-1.0;Kodex_des_Götterwirkens;900;Walschild
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;47.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+1KK 16–5/+2kurz3,5 Stn–85 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;48.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;49.0;423;-1.0;Kodex_des_Götterwirkens;800;mittlerer Schild, 20 Strukturpunkte<br> Waffe ist nur von Swafnirgeweihten erwerbbar
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;50.0;423;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Schwerter
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;51.0;423;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätAmazonensäbel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;52.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+4GE/KK 150/0mittel2 Stn100 HF200 Skomp (2 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;53.0;423;-1.0;Kodex_des_Götterwirkens;900;Hacksäbel
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;54.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+4GE/KK 140/–1mittel2 Stn90 HF200 Seinf
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;55.0;423;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Stangenwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;56.0;423;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätAvesstab (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;57.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+1GE/KK 150/+2lang0,75 Stn170 HF25 Sprim
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;58.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;59.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Aves)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;60.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Avesgeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;61.0;423;-1.0;Kodex_des_Götterwirkens;900;Efferdbart (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;62.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+3GE/KK 150/+1lang2 Stn160 HF100 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;63.0;423;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;64.0;423;-1.0;Kodex_des_Götterwirkens;800;geweiht (Efferd)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;65.0;423;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Efferdgeweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;66.0;423;-1.0;Kodex_des_Götterwirkens;900;Maraskanischer Hakenspieß (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;67.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+2GE/KK 150/–1lang3,75 Stn170 HF65 Seinf
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;68.0;423;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Stangenwaffen (Forts.)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;69.0;423;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätPartisane (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;70.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+4GE/KK 150/–2lang3,75 Stn200 HF100 Skomp (1 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;71.0;423;-1.0;Kodex_des_Götterwirkens;900;Stoßspeer (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;72.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+5GE/KK 150/–1lang3,75 Stn200 HF100 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;73.0;423;-1.0;Kodex_des_Götterwirkens;900;Wanderstab
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;74.0;423;-1.0;Kodex_des_Götterwirkens;900;1W6+1GE/KK 150/+2lang0,75 Stn150 HF10 Sprim
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;1.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Zweihandhiebwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;2.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätKorspieß (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;3.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+6KK 130/–3lang3,5 Stn180 HF400 Skomp (3 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;4.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;5.0;424;-1.0;Kodex_des_Götterwirkens;800;geweiht (Kor)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;6.0;424;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Korgeweihten erwerbbar, der Korspieß kann die SF
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;7.0;424;-1.0;Kodex_des_Götterwirkens;800;Zu Fall bringen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;8.0;424;-1.0;Kodex_des_Götterwirkens;800;nutzen, auch wenn er keine Stangenwaffe ist.
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;9.0;424;-1.0;Kodex_des_Götterwirkens;900;Knochenkeule, lang (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;10.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+4KK 150/–2mittel4 Stn150 HF80 Sprim
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;11.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;12.0;424;-1.0;Kodex_des_Götterwirkens;800;Um die Knochenkeule bei der Heldenerschaffung zu erwerben, muss der Held eine schamanistische Tradition besitzen.
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;13.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Zweihandschwerter
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;14.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPL+SAT/PA-ModRWGewichtLängePreisKomplexitätRondrakamm (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;15.0;424;-1.0;Kodex_des_Götterwirkens;900;2W6+2KK 140/–1mittel2 Stn130 HF340 Skomp (4 AP)
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;16.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;17.0;424;-1.0;Kodex_des_Götterwirkens;800;geweiht (Rondra)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;18.0;424;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Rondrageweihten erwerbbar
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;19.0;424;-1.0;Kodex_des_Götterwirkens;1000;MunitionArtKostenSteinchen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;20.0;424;-1.0;Kodex_des_Götterwirkens;1000;0,1 S
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;21.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Bögen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;22.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPLZRWMunitionGewichtLängePreisKomplexitätFirunsbogen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;23.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+41 Aktion10/50/80Pfeile0,5 Stn130 HF60 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;24.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;25.0;424;-1.0;Kodex_des_Götterwirkens;800;geweiht (Firun)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;26.0;424;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Firungeweiten erwerbbar
+PDType0Font/PDCIDFontType2, PostScript name: GOIOER+GentiumBasic-Bold;true;false;27.0;424;-1.0;Kodex_des_Götterwirkens;900;Ifirnsbogen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;28.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+41 Aktion10/50/80Pfeile0,5 Stn130 HF60 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;29.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDType0Font/PDCIDFontType2, PostScript name: EYHCCV+GentiumBasic-Italic;false;true;30.0;424;-1.0;Kodex_des_Götterwirkens;800;geweiht (Ifirn)
+PDType0Font/PDCIDFontType2, PostScript name: RPVCCV+GentiumBasic;false;false;31.0;424;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Ifirngeweihten erwerbbar
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;32.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Diskusse
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;33.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPLZRWMunitionGewichtLängePreisKomplexitätDiskus
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;34.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+22 Aktionen5/25/40-0,75 Stn30 HF25 Seinf
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;35.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Schleudern
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;36.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPLZRWMunitionGewichtLängePreisKomplexitätSchleuder
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;37.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+22 Aktionen5/25/60
+PDType0Font/PDCIDFontType2, PostScript name: RPVCCV+GentiumBasic;false;false;38.0;424;-1.0;Kodex_des_Götterwirkens;900;Steinchen
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;39.0;424;-1.0;Kodex_des_Götterwirkens;900;0,25 Stn50 HF5 Sprim
+PDTrueTypeFont BBVJCB+GentiumBasic-BoldItalic;true;true;40.0;424;-1.0;Kodex_des_Götterwirkens;900;Kampftechnik Wurfwaffen
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;41.0;424;-1.0;Kodex_des_Götterwirkens;900;WaffeTPLZRWMunitionGewichtLängePreisKomplexität
+PDType0Font/PDCIDFontType2, PostScript name: GOIOER+GentiumBasic-Bold;true;false;42.0;424;-1.0;Kodex_des_Götterwirkens;900;Efferdbart (2H)
+PDTrueTypeFont AZMIOD+GentiumBasic;false;false;43.0;424;-1.0;Kodex_des_Götterwirkens;900;1W6+32 Aktionen2/10/15-2 Stn160 HF100 Seinf
+PDTrueTypeFont ITLEWN+GentiumBasic-Bold;true;false;44.0;424;-1.0;Kodex_des_Götterwirkens;900;Anmerkung
+PDTrueTypeFont FZAMGT+GentiumBasic-Italic;false;true;45.0;424;-1.0;Kodex_des_Götterwirkens;800;geweiht (Efferd)
+PDType0Font/PDCIDFontType2, PostScript name: RPVCCV+GentiumBasic;false;false;46.0;424;-1.0;Kodex_des_Götterwirkens;800;, Waffe ist nur von Efferdgeweihten erwerbbar

@@ -1,0 +1,556 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont HQCPYU+Andalus;false;false;1.0;279;-1.0;Archiv_der_Kreaturen;1200;Anhang
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;2.0;279;-1.0;Archiv_der_Kreaturen;1000;kann weiterhin nur durch Mondlicht oder Silberwaffen endgültig vernichtet werden. Ein Minderer Feylamia kann zwar wieder Sikaryan rauben und
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;3.0;279;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;4.0;279;-1.0;Archiv_der_Kreaturen;1000;abbauen, aber niemals mehr den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;5.0;279;-1.0;Archiv_der_Kreaturen;1000;Feylamia
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;6.0;279;-1.0;Archiv_der_Kreaturen;1000;erhalten.
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;7.0;279;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;8.0;279;-1.0;Archiv_der_Kreaturen;1000;Stufe IV hat keine weiteren Auswirkungen auf einen Minderen Feylamia. Ein Minderer Feylamia kann keine Vampirischen Gaben außer der
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;9.0;279;-1.0;Archiv_der_Kreaturen;1000;Hypnose
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;10.0;279;-1.0;Archiv_der_Kreaturen;1000;mehr einsetzen.
+PDTrueTypeFont HQCPYU+Andalus;false;false;11.0;279;-1.0;Archiv_der_Kreaturen;1800;Sikaryan-Raub-Sonderfertigkeiten
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;12.0;279;-1.0;Archiv_der_Kreaturen;1300;Blick des Nachtmahrs
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;279;-1.0;Archiv_der_Kreaturen;1000;Einige Vampire verfügen über die Fähigkeit, ihren Opfern nur mit einem eindringlichen Blick ihre Lebenskraft zu rauben.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;14.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;279;-1.0;Archiv_der_Kreaturen;1000;Konzentriert sich ein Vampir auf ein Opfer in maximal 12 (Kinder der Nacht) bzw. 13 Schritt Entfernung, kann es bei ihm einen Sikaryan-Raub durchführen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;16.0;279;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;279;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;18.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;19.0;279;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;20.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;21.0;279;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;22.0;279;-1.0;Archiv_der_Kreaturen;1000;10 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;23.0;279;-1.0;Archiv_der_Kreaturen;1300;Blutdurst der Fledermaus
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;24.0;279;-1.0;Archiv_der_Kreaturen;1000;Vampire sind Blutsauger und sie verfügen fast alle über die Fähigkeit, Fangzähne auszubilden und sich so am Blut ihres Opfers zu laben.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;25.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;26.0;279;-1.0;Archiv_der_Kreaturen;1000;Der Vampir besitzt einziehbare Fangzähne, mit denen er sein Opfer beißen kann, um einen Sikaryan-Raub durchzuführen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;27.0;279;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;28.0;279;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;29.0;279;-1.0;Archiv_der_Kreaturen;1000;Feylamia
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;30.0;279;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;31.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;32.0;279;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;33.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;34.0;279;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;35.0;279;-1.0;Archiv_der_Kreaturen;1000;beherrschen viele Sikaryan-Räuber von Anfang an
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;36.0;279;-1.0;Archiv_der_Kreaturen;1300;Kuss der Todesfee
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;37.0;279;-1.0;Archiv_der_Kreaturen;1000;Manchmal reicht nur der Kuss eines Vampirs aus, um sich der Lebenskraft seines Opfers zu bemächtigen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;38.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;39.0;279;-1.0;Archiv_der_Kreaturen;1000;Für den Sikaryan-Raub reicht ein inniger Kuss des Vampirs aus.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;40.0;279;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;41.0;279;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;42.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;43.0;279;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;44.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;45.0;279;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;46.0;279;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;47.0;279;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;48.0;279;-1.0;Archiv_der_Kreaturen;1000;8 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;49.0;279;-1.0;Archiv_der_Kreaturen;1300;Liebkosung des Schmerzes
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;50.0;279;-1.0;Archiv_der_Kreaturen;1000;Es kommt vor, dass eine liebevolle Berührung ausreicht, damit ein Vampir sich des Sikaryans seines Opfers bemächtigen kann.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;51.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;52.0;279;-1.0;Archiv_der_Kreaturen;1000;Liebkosungen und Streicheleinheiten reichen für den Sikaryan-Räuber aus, um seinem Opfer Lebenskraft zu entziehen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;53.0;279;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;54.0;279;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;55.0;279;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;56.0;279;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;57.0;279;-1.0;Archiv_der_Kreaturen;1000;8 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;58.0;279;-1.0;Archiv_der_Kreaturen;1300;Macht des Sukkubus
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;59.0;279;-1.0;Archiv_der_Kreaturen;1000;Einige Vampire können während des Liebesspiels ihre Fähigkeiten für den Sikaryan-Raub einsetzen und so das Angenehme mit dem Nützlichen verbinden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;60.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;61.0;279;-1.0;Archiv_der_Kreaturen;1000;Dem Vampir ist es möglich, während des Beischlafs einen Sikaryan-Raub durchzuführen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;62.0;279;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;63.0;279;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;64.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;65.0;279;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;66.0;279;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;67.0;279;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;68.0;279;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;69.0;279;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;70.0;279;-1.0;Archiv_der_Kreaturen;1000;5 Abenteuerpunkte<br> beherrschen Lamijanim von Anfang an
+PDTrueTypeFont HQCPYU+Andalus;false;false;71.0;279;-1.0;Archiv_der_Kreaturen;1800;Vampirische Gaben
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;72.0;279;-1.0;Archiv_der_Kreaturen;1300;Fledermausschwarm des Schreckens
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;73.0;279;-1.0;Archiv_der_Kreaturen;1000;Machtvolle Vampire können sich in einen Fledermaus-
+PDType0Font/PDCIDFontType2, PostScript name: ZAXTEU+GentiumBasic;false;false;74.0;279;-1.0;Archiv_der_Kreaturen;1000;schwarm auflösen, um so einem Kampf zu entgehen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;75.0;279;-1.0;Archiv_der_Kreaturen;1000;oder ihre Gegner zu verwirren.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;76.0;279;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;77.0;279;-1.0;Archiv_der_Kreaturen;1000;Der Vampir verwandelt sich innerhalb von 2 Aktionen in einen Schwarm Fledermäuse (Werte siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;78.0;279;-1.0;Archiv_der_Kreaturen;1000;279
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;79.0;279;-1.0;Archiv_der_Kreaturen;1000;). Die Anzahl der Fledermäuse entspricht der Höhe seiner maximalen Lebensenergie. Während der Wirkungsdauer besitzt der Vampir die Kontrolle über jedes einzelne Tier. Die Fledermäuse müssen am Ende der Wirkungsdauer zusammenkommen, damit der Vampir wieder er selbst werden kann. Solange dann noch genug Tiere am Leben sind und sich berühren, kann der Körper des Vampirs neu gebildet werden. Es sind 50 % der Fledermäuse dafür notwendig. Fledermäuse, die sich am Ende der Wirkungsdauer
+PDType0Font/PDCIDFontType2, PostScript name: ZAXTEU+GentiumBasic;false;false;80.0;279;-1.0;Archiv_der_Kreaturen;1000;nicht bei der Mehrheit der übrigen Tiere befinden,
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;81.0;279;-1.0;Archiv_der_Kreaturen;1000;sterben sofort. Der neue Körper des Vampirs weist den Schaden auf, den er vor der Verwandlung erlitten hatte. Getötete Fledermäuse kosten ihn zudem weitere Anteile seiner LeP. Dies muss mit seinem aktuellen LeP-Stand prozentual verrechnet werden. Dies gilt auch für Zustände, Status und andere Energien. Der Vampir kann weder Zauber oder andere Vampirische Gaben in Fledermausgestalt wirken, noch kann er sprechen. Zuschauer, die die Verwandlung sehen, müssen sofort eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;82.0;279;-1.0;Archiv_der_Kreaturen;1000;Willenskraft (Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;83.0;279;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;84.0;279;-1.0;Archiv_der_Kreaturen;1000;widerstehen)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;85.0;279;-1.0;Archiv_der_Kreaturen;1000;gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;86.0;279;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;87.0;279;-1.0;Archiv_der_Kreaturen;1000;des Vampirs ablegen. Bei Misslingen erleiden sie 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;88.0;279;-1.0;Archiv_der_Kreaturen;1000;Furcht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;89.0;279;-1.0;Archiv_der_Kreaturen;1000;für 13 Stunden. Die Fledermäuse verfügen über die Fähigkeit der Regeneration (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;90.0;279;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;91.0;279;-1.0;Archiv_der_Kreaturen;1000;) und
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;1.0;280;-1.0;Archiv_der_Kreaturen;1000;es gelten die gleichen Verletzbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;280;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;280;-1.0;Archiv_der_Kreaturen;1000;) und Verwundbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;280;-1.0;Archiv_der_Kreaturen;1000;282
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;280;-1.0;Archiv_der_Kreaturen;1000;) wie in der Vampirgestalt. Die Wirkungsdauer beträgt 13 Stunden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;6.0;280;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;280;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;8.0;280;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;9.0;280;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;10.0;280;-1.0;Archiv_der_Kreaturen;1000;15 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;11.0;280;-1.0;Archiv_der_Kreaturen;1300;Geschenk des Blutes
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;12.0;280;-1.0;Archiv_der_Kreaturen;1000;Indem sie einen Teil ihres Sikaryans opfern, können Vampire Sterbenden das Leben retten, bringen sich dabei jedoch in gefährliche Nähe eines Blutrauschs.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;13.0;280;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;14.0;280;-1.0;Archiv_der_Kreaturen;1000;Wenn er sich selbst eine Wunde von mindestens 2 LeP zufügt, kann ein Vampir einen Kulturschaffenden von seinem Blut trinken lassen. Dieser regeneriert dadurch augenblicklich 3W6 LeP. Der Vampir erleidet gleichzeitig 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;15.0;280;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;16.0;280;-1.0;Archiv_der_Kreaturen;1000;. Dadurch lassen sich auch Sterbende retten. Der Einsatz dieser Fähigkeit dauert mindestens 1 Aktion (nach Entscheidung des Meisters auch länger) und verursacht zusätzlich 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;17.0;280;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;18.0;280;-1.0;Archiv_der_Kreaturen;1000;bei Vampir und Nutznießer.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;19.0;280;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;20.0;280;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;21.0;280;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;22.0;280;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;23.0;280;-1.0;Archiv_der_Kreaturen;1000;15 AP
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;24.0;280;-1.0;Archiv_der_Kreaturen;1300;Gestaltwandlung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;25.0;280;-1.0;Archiv_der_Kreaturen;1000;Die Fähigkeit, die Gestalt eines getöteten Opfers anzunehmen, sagt man vor allem den Elfenvampiren nach. Tatsächlich sind dazu alle Feylamias in der Lage.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;26.0;280;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;27.0;280;-1.0;Archiv_der_Kreaturen;1000;Wenn der Feylamia einen Kulturschaffenden getötet hat, kann er dessen Gestalt annehmen. Er muss dazu eine Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;28.0;280;-1.0;Archiv_der_Kreaturen;1000;Selbstbeherrschung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;29.0;280;-1.0;Archiv_der_Kreaturen;1000;ablegen und benötigt 7–QS Minuten. In dieser Zeit muss er die Leiche
+PDType0Font/PDCIDFontType2, PostScript name: ANDKSS+GentiumBasic;false;false;30.0;280;-1.0;Archiv_der_Kreaturen;1000;gut sehen können und sie mit seinem Blick fixieren.
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;31.0;280;-1.0;Archiv_der_Kreaturen;1000;Ablenkung u. Ä. sorgt für einen Abbruch der Probe. Der Feylamia kann das Aussehen beliebig lange kopieren. Um das Aussehen fallen zu lassen, benötigt er nur 1 freie Aktion. Allerdings kann ein Feylamia eine einmal aufgegebene Gestalt nicht erneut annehmen. In der neuen Gestalt behält der Feylamia alle seine regeltechnischen Werte.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;32.0;280;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;33.0;280;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;34.0;280;-1.0;Archiv_der_Kreaturen;1000;Feylamia
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;35.0;280;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;36.0;280;-1.0;Archiv_der_Kreaturen;1000;beherrschen Feylamias von Anfang an
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;37.0;280;-1.0;Archiv_der_Kreaturen;1300;Griff des Pirschers
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;38.0;280;-1.0;Archiv_der_Kreaturen;1000;Mit dieser Fähigkeit kann ein Vampir mühelos an be-
+PDType0Font/PDCIDFontType2, PostScript name: ANDKSS+GentiumBasic;false;false;39.0;280;-1.0;Archiv_der_Kreaturen;1000;liebigen Oberflächen entlangklettern und sich sogar
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;40.0;280;-1.0;Archiv_der_Kreaturen;1000;von der Decke hängen lassen, um dort wie eine Fledermaus zu schlafen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;41.0;280;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;42.0;280;-1.0;Archiv_der_Kreaturen;1000;Hände und Füße des Vampirs erhalten die Eigen-
+PDType0Font/PDCIDFontType2, PostScript name: ANDKSS+GentiumBasic;false;false;43.0;280;-1.0;Archiv_der_Kreaturen;1000;schaft, sich auch an den glattesten Oberflächen fest
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;44.0;280;-1.0;Archiv_der_Kreaturen;1000;-saugen zu können. So kann er glatte Felswände und
+PDType0Font/PDCIDFontType2, PostScript name: ANDKSS+GentiumBasic;false;false;45.0;280;-1.0;Archiv_der_Kreaturen;1000;Mauern überwinden und an Decken Halt finden. Das
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;46.0;280;-1.0;Archiv_der_Kreaturen;1000;Gewicht des Verzauberten ändert sich nicht. Daher kann es bei verputzten Wänden passieren, dass sich der Putz an Händen und Füßen unter der Belastung von der Mauer löst. Der Vampir muss sich mindestens mit zwei Gliedmaßen festhalten, durch Kleidung hindurch wirkt die Fähigkeit jedoch nicht.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;47.0;280;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;48.0;280;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;49.0;280;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;50.0;280;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;51.0;280;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;52.0;280;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;53.0;280;-1.0;Archiv_der_Kreaturen;1000;15 AP
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;54.0;280;-1.0;Archiv_der_Kreaturen;1000;FledermausMU
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;55.0;280;-1.0;Archiv_der_Kreaturen;1000;10
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;56.0;280;-1.0;Archiv_der_Kreaturen;1000;KL
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;57.0;280;-1.0;Archiv_der_Kreaturen;1000;10 (t)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;58.0;280;-1.0;Archiv_der_Kreaturen;1000;IN
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;59.0;280;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;60.0;280;-1.0;Archiv_der_Kreaturen;1000;CH
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;61.0;280;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;62.0;280;-1.0;Archiv_der_Kreaturen;1000;FF
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;63.0;280;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;64.0;280;-1.0;Archiv_der_Kreaturen;1000;GE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;65.0;280;-1.0;Archiv_der_Kreaturen;1000;15
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;66.0;280;-1.0;Archiv_der_Kreaturen;1000;KO
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;67.0;280;-1.0;Archiv_der_Kreaturen;1000;11
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;68.0;280;-1.0;Archiv_der_Kreaturen;1000;KK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;69.0;280;-1.0;Archiv_der_Kreaturen;1000;10 (k) (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;70.0;280;-1.0;Archiv_der_Kreaturen;1000;267
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;71.0;280;-1.0;Archiv_der_Kreaturen;1000;)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;72.0;280;-1.0;Archiv_der_Kreaturen;1000;LeP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;73.0;280;-1.0;Archiv_der_Kreaturen;1000;1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;74.0;280;-1.0;Archiv_der_Kreaturen;1000;AsP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;75.0;280;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;76.0;280;-1.0;Archiv_der_Kreaturen;1000;KaP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;77.0;280;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;78.0;280;-1.0;Archiv_der_Kreaturen;1000;INI
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;79.0;280;-1.0;Archiv_der_Kreaturen;1000;16+1W6
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;80.0;280;-1.0;Archiv_der_Kreaturen;1000;VW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;81.0;280;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;82.0;280;-1.0;Archiv_der_Kreaturen;1000;SK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;83.0;280;-1.0;Archiv_der_Kreaturen;1000;–1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;84.0;280;-1.0;Archiv_der_Kreaturen;1000;ZK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;85.0;280;-1.0;Archiv_der_Kreaturen;1000;–1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;86.0;280;-1.0;Archiv_der_Kreaturen;1000;GS
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;87.0;280;-1.0;Archiv_der_Kreaturen;1000;10
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;88.0;280;-1.0;Archiv_der_Kreaturen;1000;Biss AT
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;89.0;280;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;90.0;280;-1.0;Archiv_der_Kreaturen;1000;TP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;91.0;280;-1.0;Archiv_der_Kreaturen;1000;1W6–5
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;92.0;280;-1.0;Archiv_der_Kreaturen;1000;RW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;93.0;280;-1.0;Archiv_der_Kreaturen;1000;kurz
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;94.0;280;-1.0;Archiv_der_Kreaturen;1000;RS/BE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;95.0;280;-1.0;Archiv_der_Kreaturen;1000;0/0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;96.0;280;-1.0;Archiv_der_Kreaturen;1000;Aktionen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;97.0;280;-1.0;Archiv_der_Kreaturen;1000;1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;98.0;280;-1.0;Archiv_der_Kreaturen;1000;Vorteile/Nachteile
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;99.0;280;-1.0;Archiv_der_Kreaturen;1000;Herausragender Sinn (Gehör)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;100.0;280;-1.0;Archiv_der_Kreaturen;1000;Sonderfertigkeiten
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;101.0;280;-1.0;Archiv_der_Kreaturen;1000;Ablenkung (Gegner ist automatisch abgelenkt und erhält für alle Proben eine Erschwernis von 1<br> der Fledermausschwarm muss dazu 1 Aktion pro KR aufwenden<br> Fledermäuse, die nicht Teil eines Schwarms sind, können diese SF nicht einsetzen, kein Gegner kann so mehr als eine Erschwernis von 1 erhalten)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;102.0;280;-1.0;Archiv_der_Kreaturen;1000;Talente
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;103.0;280;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern 4, Fliegen 7, Körperbeherrschung 12, Kraftakt 0, Selbstbeherrschung 4, Sinnesschärfe 14, Verbergen 13, Willenskraft 3
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;104.0;280;-1.0;Archiv_der_Kreaturen;1000;Größenkategorie
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;105.0;280;-1.0;Archiv_der_Kreaturen;1000;winzig
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;106.0;280;-1.0;Archiv_der_Kreaturen;1000;Typus
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;107.0;280;-1.0;Archiv_der_Kreaturen;1000;Tier, nicht humanoid
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;108.0;280;-1.0;Archiv_der_Kreaturen;1000;Sonderregeln
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;109.0;280;-1.0;Archiv_der_Kreaturen;1000;Schwarm:
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;110.0;280;-1.0;Archiv_der_Kreaturen;1000;Fledermäuse sind kleine Schwarmwesen (Grundgröße 3). Siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;111.0;280;-1.0;Archiv_der_Kreaturen;1000;269
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;112.0;280;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;113.0;280;-1.0;Archiv_der_Kreaturen;1000;Anmerkung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;114.0;280;-1.0;Archiv_der_Kreaturen;1000;Am Tag sind alle Proben für die Fledermäuse um –1 erschwert.
+PDTrueTypeFont HQCPYU+Andalus;false;false;1.0;281;-1.0;Archiv_der_Kreaturen;1200;Anhang
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;281;-1.0;Archiv_der_Kreaturen;1300;Hypnose
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;281;-1.0;Archiv_der_Kreaturen;1000;Elfenvampire sind dazu in der Lage, ihre Opfer zu hypnotisieren und sie zu willenlosen Werkzeugen zu machen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;281;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;281;-1.0;Archiv_der_Kreaturen;1000;Der Feylamia kann ein Ziel in bis zu 4 Schritt Reichweite hypnotisieren. Dazu legt der Vampir eine Vergleichsprobe zwischen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;6.0;281;-1.0;Archiv_der_Kreaturen;1000;Betören
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;281;-1.0;Archiv_der_Kreaturen;1000;gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;8.0;281;-1.0;Archiv_der_Kreaturen;1000;Willenskraft
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;281;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;10.0;281;-1.0;Archiv_der_Kreaturen;1000;(Betören widerstehen)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;281;-1.0;Archiv_der_Kreaturen;1000;des Ziels ab. Dies dauert 1 Aktion. Das Ziel befolgt einen einzigen Befehl des Feylamias, der seinem Selbsterhaltungstrieb nicht offensichtlich zuwiderläuft. Es wird also einen Diebstahl begehen, eine einzige Frage beantworten oder dem Vampir in einem Kampf beistehen, nicht aber von einer Klippe springen oder seine eigenen Hände verspeisen. Der Befehl kann nicht dazu eingesetzt werden, dass das Opfer während der kompletten Wirkungsdauer weitere Befehle entgegennimmt („Ich befehle dir, allen meinen Befehlen zu gehorchen.“) oder mehrere Fragen wahrheitsgemäß beantwortet. Auch lange Befehlsketten sind nicht erlaubt („Öffne die Tür, gehe hinein, mache das Licht an und zerschlage die Kiste.“), sondern nur einzelne, knappe Befehle. Der Meister hat hierbei das letzte Wort, ob ein Befehl möglich ist oder nicht. Der Einsatz der Hypnose erzeugt 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;12.0;281;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;281;-1.0;Archiv_der_Kreaturen;1000;beim Feylamia.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;14.0;281;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;281;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;16.0;281;-1.0;Archiv_der_Kreaturen;1000;Feylamia
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;17.0;281;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;18.0;281;-1.0;Archiv_der_Kreaturen;1000;beherrschen Feylamias von Anfang an
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;19.0;281;-1.0;Archiv_der_Kreaturen;1300;Nebelgestalt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;20.0;281;-1.0;Archiv_der_Kreaturen;1000;Möchte der Vampir sich ungesehen an entlegene Orte begeben oder seinen Häschern entkommen, kann er sich in Nebel verwandeln, der ihn kurze Zeit fast unangreifbar macht.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;21.0;281;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;22.0;281;-1.0;Archiv_der_Kreaturen;1000;Der Vampir kann sich in Nebel verwandeln. Dazu muss er 2 Aktionen aufwenden und ihm muss eine Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;23.0;281;-1.0;Archiv_der_Kreaturen;1000;Willenskraft
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;24.0;281;-1.0;Archiv_der_Kreaturen;1000;gelingen. Seine Kleidung und Gegenstände, die er am Körper trug, werden mitverwandelt. Der Nebel kann keinen Schaden erleiden. Zauber mit dem Merkmal Verwandlung können nicht gegen den Nebel eingesetzt werden. Der Nebel besitzt eine GS von 6 und kann sich selbst bei Gegenwind ohne Geschwindigkeitsverlust bewegen. Der Vampir kann seine Umgebung mit allen fünf Sinnen wahrnehmen. Der Vampir bleibt so lange ein Nebel, bis die Wirkungsdauer vorüber ist. Der Nebel verfügt nicht über die Fähigkeit der Regeneration (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;25.0;281;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;26.0;281;-1.0;Archiv_der_Kreaturen;1000;), kann aber nicht verletzt werden (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;27.0;281;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;28.0;281;-1.0;Archiv_der_Kreaturen;1000;), außer bei sinnvollem Einsatz von Verwundbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;29.0;281;-1.0;Archiv_der_Kreaturen;1000;282
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;30.0;281;-1.0;Archiv_der_Kreaturen;1000;). Die Wirkungsdauer beträgt QS Minuten, aber der Vampir kann die Verwandlung jederzeit rückgängig machen. Die Rückverwandlung dauert 2 Aktionen, in der der Vampir ansonsten
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;31.0;281;-1.0;Archiv_der_Kreaturen;1000;Handlungsunfähig
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;32.0;281;-1.0;Archiv_der_Kreaturen;1000;ist. Am Ende der Rückverwandlung erleidet der Vampir 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;33.0;281;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;34.0;281;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;35.0;281;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;36.0;281;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;37.0;281;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;38.0;281;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;39.0;281;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;40.0;281;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;41.0;281;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;42.0;281;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;43.0;281;-1.0;Archiv_der_Kreaturen;1000;25 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: IDDQQC+GentiumBasic-Bold;true;false;44.0;281;-1.0;Archiv_der_Kreaturen;1300;Rabengefieder
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;45.0;281;-1.0;Archiv_der_Kreaturen;1000;Kinder der Nacht im Dienste der Boronkirche treten angeblich in der Gestalt besonders großer Rabenvögel auf.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;46.0;281;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;47.0;281;-1.0;Archiv_der_Kreaturen;1000;Der Vampir verwandelt sich innerhalb von 2 Aktionen in einen stattlichen Kohlraben, wobei weiße wie schwarze Exemplare möglich sind. Der neue Körper des Vampirs weist den Schaden auf, den er vor der Verwandlung erlitten hatte. Schaden während der Verwandlung wird bei der Rückverwandlung übernommen. Dies gilt auch für Zustände, Status und andere Energien. Der Vampir kann weder Zauber oder andere Vampirische Gaben in Rabengestalt wirken, noch kann er sprechen. Zuschauer, welche die Verwandlung sehen, müssen sofort eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;48.0;281;-1.0;Archiv_der_Kreaturen;1000;Willenskraft
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;49.0;281;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;50.0;281;-1.0;Archiv_der_Kreaturen;1000;(Einschüchtern widerstehen)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;51.0;281;-1.0;Archiv_der_Kreaturen;1000;erschwert um –2 gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;52.0;281;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;53.0;281;-1.0;Archiv_der_Kreaturen;1000;des Vampirs ablegen. Bei Misslingen erleiden sie 2 Stufen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;54.0;281;-1.0;Archiv_der_Kreaturen;1000;Furcht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;55.0;281;-1.0;Archiv_der_Kreaturen;1000;für 12 Stunden. Der Kohlrabe verfügt über die Fähigkeit der Regeneration (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;56.0;281;-1.0;Archiv_der_Kreaturen;1000;272
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;57.0;281;-1.0;Archiv_der_Kreaturen;1000;) und es gelten die gleichen Verletzbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;58.0;281;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;59.0;281;-1.0;Archiv_der_Kreaturen;1000;) und Verwundbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;60.0;281;-1.0;Archiv_der_Kreaturen;1000;282
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;61.0;281;-1.0;Archiv_der_Kreaturen;1000;) wie in der Vampirgestalt. Die Wirkungsdauer beträgt maximal 12 Stunden, aber der Vampir kann die Verwandlung jederzeit rückgängig machen. Die Rückverwandlung dauert 2 Aktionen, in der der Vampir ansonsten
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;62.0;281;-1.0;Archiv_der_Kreaturen;1000;Handlungsunfähig
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;63.0;281;-1.0;Archiv_der_Kreaturen;1000;ist. Am Ende der Rückverwandlung erleidet der Vampir 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;64.0;281;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;65.0;281;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;66.0;281;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;67.0;281;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;68.0;281;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;69.0;281;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;70.0;281;-1.0;Archiv_der_Kreaturen;1000;20 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;71.0;281;-1.0;Archiv_der_Kreaturen;1000;Rabe (Kohlrabe)MU
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;72.0;281;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;73.0;281;-1.0;Archiv_der_Kreaturen;1000;KL
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;74.0;281;-1.0;Archiv_der_Kreaturen;1000;16 (t)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;75.0;281;-1.0;Archiv_der_Kreaturen;1000;IN
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;76.0;281;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;77.0;281;-1.0;Archiv_der_Kreaturen;1000;CH
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;78.0;281;-1.0;Archiv_der_Kreaturen;1000;11
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;79.0;281;-1.0;Archiv_der_Kreaturen;1000;FF
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;80.0;281;-1.0;Archiv_der_Kreaturen;1000;12
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;81.0;281;-1.0;Archiv_der_Kreaturen;1000;GE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;82.0;281;-1.0;Archiv_der_Kreaturen;1000;10
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;83.0;281;-1.0;Archiv_der_Kreaturen;1000;KO
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;84.0;281;-1.0;Archiv_der_Kreaturen;1000;6
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;85.0;281;-1.0;Archiv_der_Kreaturen;1000;KK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;86.0;281;-1.0;Archiv_der_Kreaturen;1000;9 (k)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;87.0;281;-1.0;Archiv_der_Kreaturen;1000;LeP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;88.0;281;-1.0;Archiv_der_Kreaturen;1000;5
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;89.0;281;-1.0;Archiv_der_Kreaturen;1000;AsP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;90.0;281;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;91.0;281;-1.0;Archiv_der_Kreaturen;1000;KaP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;92.0;281;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;93.0;281;-1.0;Archiv_der_Kreaturen;1000;INI
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;94.0;281;-1.0;Archiv_der_Kreaturen;1000;11+1W6
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;95.0;281;-1.0;Archiv_der_Kreaturen;1000;VW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;96.0;281;-1.0;Archiv_der_Kreaturen;1000;5
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;97.0;281;-1.0;Archiv_der_Kreaturen;1000;SK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;98.0;281;-1.0;Archiv_der_Kreaturen;1000;–1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;99.0;281;-1.0;Archiv_der_Kreaturen;1000;ZK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;100.0;281;-1.0;Archiv_der_Kreaturen;1000;–2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;101.0;281;-1.0;Archiv_der_Kreaturen;1000;GS
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;102.0;281;-1.0;Archiv_der_Kreaturen;1000;2/16 (an Boden / in der Luft)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;103.0;281;-1.0;Archiv_der_Kreaturen;1000;Schnabel AT
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;104.0;281;-1.0;Archiv_der_Kreaturen;1000;14
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;105.0;281;-1.0;Archiv_der_Kreaturen;1000;TP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;106.0;281;-1.0;Archiv_der_Kreaturen;1000;1W3–1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;107.0;281;-1.0;Archiv_der_Kreaturen;1000;RW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;108.0;281;-1.0;Archiv_der_Kreaturen;1000;kurz
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;109.0;281;-1.0;Archiv_der_Kreaturen;1000;RS/BE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;110.0;281;-1.0;Archiv_der_Kreaturen;1000;0/0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;111.0;281;-1.0;Archiv_der_Kreaturen;1000;Aktionen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;112.0;281;-1.0;Archiv_der_Kreaturen;1000;1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;113.0;281;-1.0;Archiv_der_Kreaturen;1000;Vorteile/Nachteile
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;114.0;281;-1.0;Archiv_der_Kreaturen;1000;Herausragender Sinn (Sicht)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;115.0;281;-1.0;Archiv_der_Kreaturen;1000;Sonderfertigkeiten
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;116.0;281;-1.0;Archiv_der_Kreaturen;1000;keine
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;117.0;281;-1.0;Archiv_der_Kreaturen;1000;Talente
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;118.0;281;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern 2, Fliegen 7, Körperbeherrschung 4, Kraftakt 2, Schwimmen 0, Selbstbeherrschung 4, Sinnesschärfe 12, Verbergen 2, Willenskraft 2
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;119.0;281;-1.0;Archiv_der_Kreaturen;1000;Größenkategorie
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;120.0;281;-1.0;Archiv_der_Kreaturen;1000;winzig
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;121.0;281;-1.0;Archiv_der_Kreaturen;1000;Typus
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;122.0;281;-1.0;Archiv_der_Kreaturen;1000;Tier, nicht humanoid
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;123.0;281;-1.0;Archiv_der_Kreaturen;1000;Flucht
+PDType0Font/PDCIDFontType2, PostScript name: SRPYWY+GentiumBasic;false;false;124.0;281;-1.0;Archiv_der_Kreaturen;1000;Raben fliegen üblicherweise vor Angreifern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;125.0;281;-1.0;Archiv_der_Kreaturen;1000;davon. Sind sie zum Kampf gezwungen, hacken sie im Flug nach Feinden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;126.0;281;-1.0;Archiv_der_Kreaturen;1000;Schmerz +1 bei
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;127.0;281;-1.0;Archiv_der_Kreaturen;1000;4 LeP, 3 LeP, 2 LeP, 1 LeP
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;1.0;282;-1.0;Archiv_der_Kreaturen;1300;Rabenschwarm des Unheils
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;2.0;282;-1.0;Archiv_der_Kreaturen;1000;Machtvolle Vampire können sich in einen Raben-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;3.0;282;-1.0;Archiv_der_Kreaturen;1000;schwarm auflösen, um so einem Kampf zu entgehen oder ihre Gegner zu verwirren.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;282;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;282;-1.0;Archiv_der_Kreaturen;1000;Der Vampir verwandelt sich innerhalb von 2
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;6.0;282;-1.0;Archiv_der_Kreaturen;1000;Aktionen in einen Schwarm Raben. Die Anzahl der
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;282;-1.0;Archiv_der_Kreaturen;1000;Raben entspricht der Höhe seiner maximalen Lebens-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;8.0;282;-1.0;Archiv_der_Kreaturen;1000;energie geteilt durch 5. Während der Wirkungsdauer besitzt der Vampir die Kontrolle über jedes einzelne Tier. Die Raben müssen am Ende der Wirkungsdauer zusammenkommen, damit der Vampir wieder er selbst werden kann. Solange dann noch genug Tiere am Leben sind und sich berühren, kann der Körper des Vampirs neu gebildet werden. Es sind 50 % der Raben dafür notwendig. Raben, die sich am Ende der Wirkungsdauer nicht bei der Mehrheit der übrigen Tiere befinden, sterben sofort. Der neue Körper des Vampirs weist den Schaden auf, den er vor der Ver
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;10.0;282;-1.0;Archiv_der_Kreaturen;1000;wandlung erlitten hatte. Getötete Raben kosten ihn zudem weitere Anteile seiner LeP. Dies muss mit sei
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;12.0;282;-1.0;Archiv_der_Kreaturen;1000;nem aktuellen LeP-Stand prozentual verrechnet wer
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;14.0;282;-1.0;Archiv_der_Kreaturen;1000;den. Dies gilt auch für Zustände, Status und andere Energien. Der Vampir kann während der Wirkungs
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;16.0;282;-1.0;Archiv_der_Kreaturen;1000;dauer weder Zauber oder andere Vampirische Gaben wirken, noch sprechen. Zuschauer, welche die Ver
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;18.0;282;-1.0;Archiv_der_Kreaturen;1000;wandlung sehen, müssen sofort eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;19.0;282;-1.0;Archiv_der_Kreaturen;1000;Willenskraft (Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;20.0;282;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;21.0;282;-1.0;Archiv_der_Kreaturen;1000;widerstehen)
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;22.0;282;-1.0;Archiv_der_Kreaturen;1000;gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;23.0;282;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;24.0;282;-1.0;Archiv_der_Kreaturen;1000;des Vampirs ablegen. Bei Misslingen er
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;25.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;26.0;282;-1.0;Archiv_der_Kreaturen;1000;leiden sie 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;27.0;282;-1.0;Archiv_der_Kreaturen;1000;Furcht
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;28.0;282;-1.0;Archiv_der_Kreaturen;1000;für 12 Stunden. Die Raben verfügen über die Fähigkeit der Regeneration (siehe
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;29.0;282;-1.0;Archiv_der_Kreaturen;1000;Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;30.0;282;-1.0;Archiv_der_Kreaturen;1000;274
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;31.0;282;-1.0;Archiv_der_Kreaturen;1000;) und es gelten die gleichen Verletzbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;32.0;282;-1.0;Archiv_der_Kreaturen;1000;274
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;33.0;282;-1.0;Archiv_der_Kreaturen;1000;) und Verwundbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;34.0;282;-1.0;Archiv_der_Kreaturen;1000;282
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;35.0;282;-1.0;Archiv_der_Kreaturen;1000;) wie in der Vampirgestalt. Die Wirkungsdauer be
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;36.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;37.0;282;-1.0;Archiv_der_Kreaturen;1000;trägt 12 Stunden.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;38.0;282;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;39.0;282;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;40.0;282;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;41.0;282;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: DKWOTM+GentiumBasic;false;false;42.0;282;-1.0;Archiv_der_Kreaturen;1000;15 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: NPSRDS+GentiumBasic-Bold;true;false;43.0;282;-1.0;Archiv_der_Kreaturen;1300;Riesenfledermaus des Schreckens
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;44.0;282;-1.0;Archiv_der_Kreaturen;1000;In vielen Legenden vermag sich ein Vampir nicht nur in ein Tier zu verwandeln, sondern auch in eine schreck-
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;45.0;282;-1.0;Archiv_der_Kreaturen;1000;liche Art der Vampirfledermaus, die größer ist als die gewöhnliche Art.
+PDType0Font/PDCIDFontType2, PostScript name: NPSRDS+GentiumBasic-Bold;true;false;46.0;282;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;47.0;282;-1.0;Archiv_der_Kreaturen;1000;Der Vampir verwandelt sich innerhalb von 2
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;48.0;282;-1.0;Archiv_der_Kreaturen;1000;Aktionen in eine Riesenfledermaus. Der neue Kör
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;49.0;282;-1.0;Archiv_der_Kreaturen;1000;-per des Vampirs weist den Schaden auf, den er vor
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;50.0;282;-1.0;Archiv_der_Kreaturen;1000;der Verwandlung erlitten hatte. Schaden während
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;51.0;282;-1.0;Archiv_der_Kreaturen;1000;der Verwandlung wird bei der Rückverwandlung
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;52.0;282;-1.0;Archiv_der_Kreaturen;1000;übernommen. Dies gilt auch für Zustände, Status und andere Energien. Der Vampir kann weder Zau
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;53.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;54.0;282;-1.0;Archiv_der_Kreaturen;1000;ber oder andere Vampirische Gaben in Riesenfleder
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;55.0;282;-1.0;Archiv_der_Kreaturen;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;56.0;282;-1.0;Archiv_der_Kreaturen;1000;mausgestalt wirken, noch kann er sprechen. Zu
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;57.0;282;-1.0;Archiv_der_Kreaturen;1000;-schauer, die die Verwandlung sehen, müssen sofort eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;58.0;282;-1.0;Archiv_der_Kreaturen;1000;Willenskraft (Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;59.0;282;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;60.0;282;-1.0;Archiv_der_Kreaturen;1000;widerstehen)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;61.0;282;-1.0;Archiv_der_Kreaturen;1000;erschwert um –2 gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;62.0;282;-1.0;Archiv_der_Kreaturen;1000;Einschüchtern
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;63.0;282;-1.0;Archiv_der_Kreaturen;1000;des
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;64.0;282;-1.0;Archiv_der_Kreaturen;1000;Vampirs ablegen. Bei Misslingen erleiden sie 2 Stufen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;65.0;282;-1.0;Archiv_der_Kreaturen;1000;Furcht
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;66.0;282;-1.0;Archiv_der_Kreaturen;1000;für 13 Stunden. Die Riesenfledermaus verfügt über die Fähigkeit der Regeneration (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;67.0;282;-1.0;Archiv_der_Kreaturen;1000;274
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;68.0;282;-1.0;Archiv_der_Kreaturen;1000;)
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;69.0;282;-1.0;Archiv_der_Kreaturen;1000;und es gelten die gleichen Verletzbarkeiten (siehe
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;70.0;282;-1.0;Archiv_der_Kreaturen;1000;Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;71.0;282;-1.0;Archiv_der_Kreaturen;1000;274
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;72.0;282;-1.0;Archiv_der_Kreaturen;1000;) und Verwundbarkeiten (siehe Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;73.0;282;-1.0;Archiv_der_Kreaturen;1000;280
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;74.0;282;-1.0;Archiv_der_Kreaturen;1000;)
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;75.0;282;-1.0;Archiv_der_Kreaturen;1000;wie in der Vampirgestalt. Die Wirkungsdauer beträgt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;76.0;282;-1.0;Archiv_der_Kreaturen;1000;maximal 13 Stunden, aber der Vampir kann die Ver-
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;77.0;282;-1.0;Archiv_der_Kreaturen;1000;wandlung jederzeit rückgängig machen. Die Rückver
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;78.0;282;-1.0;Archiv_der_Kreaturen;1000;-wandlung dauert 2 Aktionen, in denen der Vampir ansonsten
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;79.0;282;-1.0;Archiv_der_Kreaturen;1000;Handlungsunfähig
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;80.0;282;-1.0;Archiv_der_Kreaturen;1000;ist. Am Ende der Rück
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;81.0;282;-1.0;Archiv_der_Kreaturen;1000;-verwandlung erleidet der Vampir 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;82.0;282;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDType0Font/PDCIDFontType2, PostScript name: EEHPHK+GentiumBasic;false;false;83.0;282;-1.0;Archiv_der_Kreaturen;1000;.
+PDType0Font/PDCIDFontType2, PostScript name: NPSRDS+GentiumBasic-Bold;true;false;84.0;282;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;85.0;282;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;86.0;282;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDType0Font/PDCIDFontType2, PostScript name: NPSRDS+GentiumBasic-Bold;true;false;87.0;282;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;88.0;282;-1.0;Archiv_der_Kreaturen;1000;20 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: CGPGGE+GentiumBasic-Bold;true;false;89.0;282;-1.0;Archiv_der_Kreaturen;1000;Riesenfledermaus
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;90.0;282;-1.0;Archiv_der_Kreaturen;1000;MU
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;91.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;92.0;282;-1.0;Archiv_der_Kreaturen;1000;KL
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;93.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;94.0;282;-1.0;Archiv_der_Kreaturen;1000;IN
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;95.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;96.0;282;-1.0;Archiv_der_Kreaturen;1000;CH
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;97.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;98.0;282;-1.0;Archiv_der_Kreaturen;1000;FF
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;99.0;282;-1.0;Archiv_der_Kreaturen;1000;11
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;100.0;282;-1.0;Archiv_der_Kreaturen;1000;GE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;101.0;282;-1.0;Archiv_der_Kreaturen;1000;15
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;102.0;282;-1.0;Archiv_der_Kreaturen;1000;KO
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;103.0;282;-1.0;Archiv_der_Kreaturen;1000;11
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;104.0;282;-1.0;Archiv_der_Kreaturen;1000;KK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;105.0;282;-1.0;Archiv_der_Kreaturen;1000;14
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;106.0;282;-1.0;Archiv_der_Kreaturen;1000;LeP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;107.0;282;-1.0;Archiv_der_Kreaturen;1000;32
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;108.0;282;-1.0;Archiv_der_Kreaturen;1000;AsP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;109.0;282;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;110.0;282;-1.0;Archiv_der_Kreaturen;1000;KaP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;111.0;282;-1.0;Archiv_der_Kreaturen;1000;–
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;112.0;282;-1.0;Archiv_der_Kreaturen;1000;INI
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;113.0;282;-1.0;Archiv_der_Kreaturen;1000;14+1W6
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;114.0;282;-1.0;Archiv_der_Kreaturen;1000;VW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;115.0;282;-1.0;Archiv_der_Kreaturen;1000;8
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;116.0;282;-1.0;Archiv_der_Kreaturen;1000;SK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;117.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;118.0;282;-1.0;Archiv_der_Kreaturen;1000;ZK
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;119.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;120.0;282;-1.0;Archiv_der_Kreaturen;1000;GS
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;121.0;282;-1.0;Archiv_der_Kreaturen;1000;13 (in der Luft)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;122.0;282;-1.0;Archiv_der_Kreaturen;1000;Biss AT
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;123.0;282;-1.0;Archiv_der_Kreaturen;1000;10
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;124.0;282;-1.0;Archiv_der_Kreaturen;1000;TP
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;125.0;282;-1.0;Archiv_der_Kreaturen;1000;1W6+2(+Krankheit)*
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;126.0;282;-1.0;Archiv_der_Kreaturen;1000;RW
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;127.0;282;-1.0;Archiv_der_Kreaturen;1000;kurz
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;128.0;282;-1.0;Archiv_der_Kreaturen;1000;RS/BE
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;129.0;282;-1.0;Archiv_der_Kreaturen;1000;0/0
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;130.0;282;-1.0;Archiv_der_Kreaturen;1000;Aktionen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;131.0;282;-1.0;Archiv_der_Kreaturen;1000;1
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;132.0;282;-1.0;Archiv_der_Kreaturen;1000;Sonderfertigkeiten
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;133.0;282;-1.0;Archiv_der_Kreaturen;1000;Angriff auf ungeschützte Stellen (Biss<br> Spezialmanöver), Flugangriff (Biss), Verbeißen (Biss, Opfer erhält aber nicht den Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;134.0;282;-1.0;Archiv_der_Kreaturen;1000;Fixiert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;135.0;282;-1.0;Archiv_der_Kreaturen;1000;)
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;136.0;282;-1.0;Archiv_der_Kreaturen;1000;Talente
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;137.0;282;-1.0;Archiv_der_Kreaturen;1000;wie Vampir
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;138.0;282;-1.0;Archiv_der_Kreaturen;1000;Größenkategorie
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;139.0;282;-1.0;Archiv_der_Kreaturen;1000;klein
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;140.0;282;-1.0;Archiv_der_Kreaturen;1000;Typus
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;141.0;282;-1.0;Archiv_der_Kreaturen;1000;Tier, nicht humanoid
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;142.0;282;-1.0;Archiv_der_Kreaturen;1000;Kampfverhalten
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;143.0;282;-1.0;Archiv_der_Kreaturen;1000;individuell
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;144.0;282;-1.0;Archiv_der_Kreaturen;1000;Flucht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;145.0;282;-1.0;Archiv_der_Kreaturen;1000;individuell
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;146.0;282;-1.0;Archiv_der_Kreaturen;1000;Schmerz +1 bei
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;147.0;282;-1.0;Archiv_der_Kreaturen;1000;24 LeP, 16 LeP 8 LeP, 5 LeP oder weniger
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;148.0;282;-1.0;Archiv_der_Kreaturen;1000;Sonderregeln
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;149.0;282;-1.0;Archiv_der_Kreaturen;1000;*) Krankheitsüberträger:
+PDType0Font/PDCIDFontType2, PostScript name: SRPYWY+GentiumBasic;false;false;150.0;282;-1.0;Archiv_der_Kreaturen;1000;Riesenfledermäuse können
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;151.0;282;-1.0;Archiv_der_Kreaturen;1000;Krankheiten übertragen. Für je volle 10 SP wird mit 1W20 gewürfelt: 1-12 (keine Krankheit), 13-16 (Lutanas), 17-20 (Tollwut). Ein Held kann durch Bisse nicht an mehreren Krankheiten gleichzeitig erkranken. Ist
+PDType0Font/PDCIDFontType2, PostScript name: SRPYWY+GentiumBasic;false;false;152.0;282;-1.0;Archiv_der_Kreaturen;1000;der Held infiziert, muss eine Krankheitsprobe ablegt
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;153.0;282;-1.0;Archiv_der_Kreaturen;1000;werden. Zu Tollwut siehe
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;154.0;282;-1.0;Archiv_der_Kreaturen;1000;
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;155.0;282;-1.0;Archiv_der_Kreaturen;1000;Seite
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;156.0;282;-1.0;Archiv_der_Kreaturen;1000;295
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;157.0;282;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont HQCPYU+Andalus;false;false;1.0;283;-1.0;Archiv_der_Kreaturen;1200;Anhang
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;2.0;283;-1.0;Archiv_der_Kreaturen;1300;Ruf des Vampirs
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;3.0;283;-1.0;Archiv_der_Kreaturen;1000;Den Opfern von Vampiren sagt man nach, dass sie sich willenlos verhalten, wenn ihr Herr und Meister sie ruft.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;4.0;283;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;5.0;283;-1.0;Archiv_der_Kreaturen;1000;Kulturschaffende oder Vampire, die bereits mindestens einmal eine Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;6.0;283;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;7.0;283;-1.0;Archiv_der_Kreaturen;1000;durch den Vampir erlitten haben, können durch diese Sonderfertigkeit gerufen werden. Der Vampir muss sich 2 KR lang konzentrieren und eine Vergleichsprobe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;8.0;283;-1.0;Archiv_der_Kreaturen;1000;Willenskraft
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;9.0;283;-1.0;Archiv_der_Kreaturen;1000;gegen
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;10.0;283;-1.0;Archiv_der_Kreaturen;1000;Willenskraft (Bedrohungen standhalten)
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;11.0;283;-1.0;Archiv_der_Kreaturen;1000;des Opfers ablegen. Für jede Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;12.0;283;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;13.0;283;-1.0;Archiv_der_Kreaturen;1000;ist die Probe für den Vampir um 1 erleichtert. Gelingt dem Vampir die Probe, bewegt sich das Ziel wie im Schlafwandel zu ihm. Es erfüllt dem Vampir jeden Wunsch, den er äußert. Misslingt die Probe, hört das Opfer den Ruf, wird aber nicht beherrscht. Die Reichweite beträgt 30 Meilen. Die Beherrschung des Vampiropfers hält bis zum nächsten Sonnenaufgang an. Bei Sonnenaufgang erleidet der Vampir 1Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;14.0;283;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;15.0;283;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;16.0;283;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;17.0;283;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;18.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;19.0;283;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;20.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;21.0;283;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;22.0;283;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;23.0;283;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;24.0;283;-1.0;Archiv_der_Kreaturen;1000;15 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;25.0;283;-1.0;Archiv_der_Kreaturen;1300;Sikaryan-Gespür
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;26.0;283;-1.0;Archiv_der_Kreaturen;900;Vampire spüren die Lebenskraft eines jeden sterblichen Wesens, sodass man sich nicht an sie heranschleichen kann.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;27.0;283;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;28.0;283;-1.0;Archiv_der_Kreaturen;1000;Der Vampir spürt Sikaryan-Quellen in seiner Nähe. Jedes Wesen, das über Sikaryan verfügt, kann von dem Vampir ohne Probe wahrgenommen werden. Die Reichweite beträgt 13 Schritt. Die Fähigkeit ist immer aktiv.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;29.0;283;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;30.0;283;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;31.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;32.0;283;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;33.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;34.0;283;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;35.0;283;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;36.0;283;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;37.0;283;-1.0;Archiv_der_Kreaturen;1000;5 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;38.0;283;-1.0;Archiv_der_Kreaturen;1300;Sog des Purpurnen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;39.0;283;-1.0;Archiv_der_Kreaturen;1000;Neben der Fähigkeit Lebenskraft zu rauben, können einige Vampire ihren Opfern auch astrale Kräfte entziehen.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;40.0;283;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;41.0;283;-1.0;Archiv_der_Kreaturen;1000;Statt Sikaryan-Punkte durch seine Kräfte vom Opfer auf sich zu transferieren, kann sich der Vampir auch dazu entscheiden, stattdessen dem Opfer AsP zu rauben. Regeltechnisch muss der Vampir einen Sikaryan-Raub durchführen, aber statt 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;42.0;283;-1.0;Archiv_der_Kreaturen;1000;Sikaryan-Verlust
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;43.0;283;-1.0;Archiv_der_Kreaturen;1000;raubt er so 7 AsP vom Opfer, die er sich gutschreiben kann.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;44.0;283;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;45.0;283;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;46.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;47.0;283;-1.0;Archiv_der_Kreaturen;1000;und der Vampir muss einer magischen Tradition angehören
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;48.0;283;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;49.0;283;-1.0;Archiv_der_Kreaturen;1000;10 Abenteuerpunkte
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;50.0;283;-1.0;Archiv_der_Kreaturen;1300;Stärke des untoten Leibs
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;51.0;283;-1.0;Archiv_der_Kreaturen;1000;Vampiren wird große Kraft und Schnelligkeit nachgesagt und obwohl ihre untoten Körper sowieso kraftvoller als die von Sterblichen sind, können sie durch die Macht ihres Willens ihre Stärke kurzfristig noch weiter fokussieren.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;52.0;283;-1.0;Archiv_der_Kreaturen;1000;Regel
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;53.0;283;-1.0;Archiv_der_Kreaturen;1000;Zunächst muss der Spieler des Vampirs eine Körperliche Eigenschaft (FF, GE, KO, KK) auswählen. Danach wird eine Probe auf
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;54.0;283;-1.0;Archiv_der_Kreaturen;1000;Willenskraft
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;55.0;283;-1.0;Archiv_der_Kreaturen;1000;abgelegt. Sollte die Probe gelingen, so bekommt der Vampir für 5 Minuten einen Bonus in Höhe von QS auf die ausgewählte Eigenschaft. Am Ende der Wirkung erleidet der Vampir 1 Stufe
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;56.0;283;-1.0;Archiv_der_Kreaturen;1000;Betäubung
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;57.0;283;-1.0;Archiv_der_Kreaturen;1000;.
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;58.0;283;-1.0;Archiv_der_Kreaturen;1000;Voraussetzungen
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;59.0;283;-1.0;Archiv_der_Kreaturen;1000;Status
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;60.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Finsternis
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;61.0;283;-1.0;Archiv_der_Kreaturen;1000;,
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;62.0;283;-1.0;Archiv_der_Kreaturen;1000;Kind der Nacht
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;63.0;283;-1.0;Archiv_der_Kreaturen;1000;oder
+PDTrueTypeFont SZNYWY+GentiumBasic-Italic;false;true;64.0;283;-1.0;Archiv_der_Kreaturen;1000;Lamijah
+PDTrueTypeFont XWCCOO+GentiumBasic-Bold;true;false;65.0;283;-1.0;Archiv_der_Kreaturen;1000;AP-Wert
+PDTrueTypeFont MINOQK+GentiumBasic;false;false;66.0;283;-1.0;Archiv_der_Kreaturen;1000;10 Abenteuerpunkte

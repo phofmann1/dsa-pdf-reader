@@ -1,0 +1,91 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;1.0;152;-1.0;Aventurisches_Nekromantäum;1300;Anatomie (Spezies)
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;2.0;152;-1.0;Aventurisches_Nekromantäum;1000;Die Kenntnisse über den inneren Aufbau eines menschlichen (oder zwergischen, orkischen oder grolmischen) Körpers sind in Aventurien selten. Nur an wenigen Orten wie der al’anfanischen Akademie, dem Anatomischen Institut von Vinsalt oder bei mutigen Privatgelehrten kann ein Held das entsprechende Wissen erlangen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;3.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regel
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;4.0;152;-1.0;Aventurisches_Nekromantäum;1000;Ein Held mit Kenntnis des Körperaufbaus einer Spezies ist in der Lage, chirurgische Eingriffe im Körperinneren mit höherer Erfolgswahrscheinlichkeit vorzunehmen. Seine Proben auf
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;5.0;152;-1.0;Aventurisches_Nekromantäum;1000;Heilkunde Wunden (Amputieren
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;6.0;152;-1.0;Aventurisches_Nekromantäum;1000;,
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;7.0;152;-1.0;Aventurisches_Nekromantäum;1000;Chirurgie
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;8.0;152;-1.0;Aventurisches_Nekromantäum;1000;oder
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;9.0;152;-1.0;Aventurisches_Nekromantäum;1000;Knochenbrüche)
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;10.0;152;-1.0;Aventurisches_Nekromantäum;1000;sind um +5 erleichtert.Für jede Spezies muss die SF
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;11.0;152;-1.0;Aventurisches_Nekromantäum;1000;Anatomie
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;12.0;152;-1.0;Aventurisches_Nekromantäum;1000;einzeln erworben werden.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;13.0;152;-1.0;Aventurisches_Nekromantäum;1000;Voraussetzungen
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;14.0;152;-1.0;Aventurisches_Nekromantäum;1000;Heilkunde Wunden 10, kein Nachteil
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;15.0;152;-1.0;Aventurisches_Nekromantäum;1000;Angst vor Blut
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;16.0;152;-1.0;Aventurisches_Nekromantäum;1000;AP-Wert
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;17.0;152;-1.0;Aventurisches_Nekromantäum;1000;10 Abenteuerpunkte
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;18.0;152;-1.0;Aventurisches_Nekromantäum;1300;Nekromant
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;19.0;152;-1.0;Aventurisches_Nekromantäum;1000;Wer bestimmte komplexere Untote erschaffen will, benötigt diese Sonderfertigkeit.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;20.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regel
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;21.0;152;-1.0;Aventurisches_Nekromantäum;1000;Durch diese Sonderfertigkeit ist der Zauberer oder Geweihte in der Lage, Untote der Komplexität
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;22.0;152;-1.0;Aventurisches_Nekromantäum;1000;einfach
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;23.0;152;-1.0;Aventurisches_Nekromantäum;1000;zu erschaffen. Für Untote der Komplexität
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;24.0;152;-1.0;Aventurisches_Nekromantäum;1000;komplex
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;25.0;152;-1.0;Aventurisches_Nekromantäum;1000;benötigt er zudem ein entsprechendes Berufsgeheimnis.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;26.0;152;-1.0;Aventurisches_Nekromantäum;1000;Voraussetzungen
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;27.0;152;-1.0;Aventurisches_Nekromantäum;1000;Vorteil
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;28.0;152;-1.0;Aventurisches_Nekromantäum;1000;Geweihter
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;29.0;152;-1.0;Aventurisches_Nekromantäum;1000;oder
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;30.0;152;-1.0;Aventurisches_Nekromantäum;1000;Zauberer
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;31.0;152;-1.0;Aventurisches_Nekromantäum;1000;, Zauber TOTES HANDLE oder Liturgie
+PDTrueTypeFont KXQLHY+GentiumBasic-SC700;false;false;32.0;152;-1.0;Aventurisches_Nekromantäum;1000;U
+PDTrueTypeFont KXQLHY+GentiumBasic-SC700;false;false;33.0;152;-1.0;Aventurisches_Nekromantäum;700;ntote
+PDTrueTypeFont KXQLHY+GentiumBasic-SC700;false;false;34.0;152;-1.0;Aventurisches_Nekromantäum;1000;
+PDTrueTypeFont KXQLHY+GentiumBasic-SC700;false;false;35.0;152;-1.0;Aventurisches_Nekromantäum;700;erschaffen
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;36.0;152;-1.0;Aventurisches_Nekromantäum;1000;AP-Wert
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;37.0;152;-1.0;Aventurisches_Nekromantäum;1000;15 Abenteuerpunkte
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;38.0;152;-1.0;Aventurisches_Nekromantäum;1300;Rudelerschaffung I-III (Untote)
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;39.0;152;-1.0;Aventurisches_Nekromantäum;1000;Einige auf die Erschaffung von Untoten spezialisierte Zauberer können leichter bei einem Ritual gleich mehrere Untote der gleichen Art rufen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;40.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regel
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;41.0;152;-1.0;Aventurisches_Nekromantäum;1000;Bei Stufe I/II/III kann der Zauberer
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;42.0;152;-1.0;Aventurisches_Nekromantäum;1000;primitive
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;43.0;152;-1.0;Aventurisches_Nekromantäum;1000;/
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;44.0;152;-1.0;Aventurisches_Nekromantäum;1000;einfache
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;45.0;152;-1.0;Aventurisches_Nekromantäum;1000;/
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;46.0;152;-1.0;Aventurisches_Nekromantäum;1000;komplexe
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;47.0;152;-1.0;Aventurisches_Nekromantäum;1000;Untote im Rudel erschaffen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;48.0;152;-1.0;Aventurisches_Nekromantäum;1000;Voraussetzungen
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;49.0;152;-1.0;Aventurisches_Nekromantäum;1000;Stufe I: MU 15<br> Stufe II: MU 16, SF
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;50.0;152;-1.0;Aventurisches_Nekromantäum;1000;Nekromant
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;51.0;152;-1.0;Aventurisches_Nekromantäum;1000;, SF
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;52.0;152;-1.0;Aventurisches_Nekromantäum;1000;Rudelerschaffung I
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;53.0;152;-1.0;Aventurisches_Nekromantäum;1000;<br> Stufe III: MU 17, SF
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;54.0;152;-1.0;Aventurisches_Nekromantäum;1000;Rudelerschaffung II
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;55.0;152;-1.0;Aventurisches_Nekromantäum;1000;AP-Wert
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;56.0;152;-1.0;Aventurisches_Nekromantäum;1000;Stufe I/II/III: 10/15/20 Abenteuerpunkte
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;57.0;152;-1.0;Aventurisches_Nekromantäum;1300;Untotenschreck
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;58.0;152;-1.0;Aventurisches_Nekromantäum;1000;Mit dieser Sonderfertigkeit kann ein Geweihter Objekte gegen Untote (Hirnlose) segnen und weihen, sodass deren bloße Berührung dem Wesen schadet.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;59.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regel
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;60.0;152;-1.0;Aventurisches_Nekromantäum;1000;Gesegnete und geweihte Materialien verursachen bei Untoten (Hirnlosen)
+PDType1CFont LBARVW+TheDarkEyeRegular;false;false;61.0;152;-1.0;Aventurisches_Nekromantäum;400;#
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;62.0;152;-1.0;Aventurisches_Nekromantäum;1000;Schaden, ganz so, als seien diese Dämonen (siehe
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;63.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regelwerk
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;64.0;152;-1.0;Aventurisches_Nekromantäum;1000;Seite
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;65.0;152;-1.0;Aventurisches_Nekromantäum;1000;316
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;66.0;152;-1.0;Aventurisches_Nekromantäum;1000;). Üblicherweise sind Untote (Hirnlose) davon nicht betroffen, durch diese Sonderfertigkeit werden sie aber wie Dämonen behandelt, wenn es darum geht, ob gesegnetes oder geweihtes Material Berührungsschaden verursacht (siehe
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;67.0;152;-1.0;Aventurisches_Nekromantäum;1000;Aventurisches Götterwirken
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;68.0;152;-1.0;Aventurisches_Nekromantäum;1000;Seite
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;69.0;152;-1.0;Aventurisches_Nekromantäum;1000;69
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;70.0;152;-1.0;Aventurisches_Nekromantäum;1000;). Nicht betroffen sind Angriffe mit geweihten Waffen, die bereits eine verletzende Wirkung gegen Untote (Hirnlose) aufweisen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;71.0;152;-1.0;Aventurisches_Nekromantäum;1000;Voraussetzungen
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;72.0;152;-1.0;Aventurisches_Nekromantäum;1000;Vorteil
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;73.0;152;-1.0;Aventurisches_Nekromantäum;1000;Geweihter
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;74.0;152;-1.0;Aventurisches_Nekromantäum;1000;AP-Wert
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;75.0;152;-1.0;Aventurisches_Nekromantäum;1000;3 Abenteuerpunkte
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;76.0;152;-1.0;Aventurisches_Nekromantäum;1300;Zirkelmeister (Untote)
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;77.0;152;-1.0;Aventurisches_Nekromantäum;1000;Nicht jeder Nekromant hat genug Kraft, um in mächtigen Ritualen viele Untote gleichzeitig zu rufen. Durch diese Sonderfertigkeit kann er zusammen mit anderen Zirkelmitgliedern die Erschaffung von Untoten vornehmen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;78.0;152;-1.0;Aventurisches_Nekromantäum;1000;Regel
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;79.0;152;-1.0;Aventurisches_Nekromantäum;1000;Der Held kann Untote durch einen Nekromantenzirkel (siehe Seite
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;80.0;152;-1.0;Aventurisches_Nekromantäum;1000;139
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;81.0;152;-1.0;Aventurisches_Nekromantäum;1000;) erschaffen.
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;82.0;152;-1.0;Aventurisches_Nekromantäum;1000;Voraussetzungen
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;83.0;152;-1.0;Aventurisches_Nekromantäum;1000;SF
+PDTrueTypeFont MAPXJU+GentiumBasic-Italic;false;true;84.0;152;-1.0;Aventurisches_Nekromantäum;1000;Nekromant
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;85.0;152;-1.0;Aventurisches_Nekromantäum;1000;, Zauber TOTES HAND-LE FW 10
+PDTrueTypeFont IFQKGN+GentiumBasic-Bold;true;false;86.0;152;-1.0;Aventurisches_Nekromantäum;1000;AP-Wert
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;87.0;152;-1.0;Aventurisches_Nekromantäum;1000;12 Abenteuerpunkte
+PDType1CFont LBARVW+TheDarkEyeRegular;false;false;88.0;152;-1.0;Aventurisches_Nekromantäum;400;#
+PDTrueTypeFont FYCSQT+GentiumBasic;false;false;89.0;152;-1.0;Aventurisches_Nekromantäum;1000;Es sind explizit nur Untote (Hirnlose) betroffen, nicht andere Arten von Untoten.
+PDTrueTypeFont GCRYER+Andalus;false;false;90.0;152;-1.0;Aventurisches_Nekromantäum;1800;Neue Sonderfertigkeiten

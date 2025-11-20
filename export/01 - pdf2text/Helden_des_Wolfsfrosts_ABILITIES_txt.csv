@@ -1,0 +1,436 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;35;-1.0;Helden_des_Wolfsfrosts;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;2.0;35;-1.0;Helden_des_Wolfsfrosts;1300;Fallenbaumeisterin
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Nicht jeder kann einen hochkomplexen Mechanismus für eine Falle anfertigen, Fallenbaumeister sind darin jedoch geübt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;4.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Die Heldin bekommt durch diese Sonderfertigkeit das neue Anwendungsgebiet
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;6.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Fallen herstellen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;35;-1.0;Helden_des_Wolfsfrosts;1000;in den Talenten
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;8.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Mechanik
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;35;-1.0;Helden_des_Wolfsfrosts;1000;und
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;10.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Schlösserknacken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;35;-1.0;Helden_des_Wolfsfrosts;1000;. Sie kann fortan einfache Fallen herstellen. Für komplexe Fallen benötigt sie ein Berufsgeheimnis.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;12.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeit
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;14.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Fallen entschärfen (siehe
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;15.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Regelwerk
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;16.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;17.0;35;-1.0;Helden_des_Wolfsfrosts;1000;216
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;18.0;35;-1.0;Helden_des_Wolfsfrosts;1000;)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;35;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;20.0;35;-1.0;Helden_des_Wolfsfrosts;1000;5 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;35;-1.0;Helden_des_Wolfsfrosts;1300;Gespür für Himmelsrichtungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Einige Helden haben ein besonders feinsinniges Gespür dafür, in welcher Richtung Osten, Westen, Norden oder Süden liegen, auch wenn sie kaum Anhaltspunkte haben.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Mithilfe dieser Sonderfertigkeit besitzt ein Held ein gutes Gespür zur Bestimmung von Himmelsrichtungen. Dies erleichtert ihm bei Proben auf das Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;25.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;35;-1.0;Helden_des_Wolfsfrosts;1000;die erste Teilprobe auf IN.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung 4
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;29.0;35;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;35;-1.0;Helden_des_Wolfsfrosts;1000;3 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;31.0;35;-1.0;Helden_des_Wolfsfrosts;1300;Hunde- bzw. Dachsschlitten (Berufsgeheimnis)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Im Hohen Norden, wo viele Monde im Jahr Schnee das Land bedeckt, haben von Hunden oder Dachsen gezogene Schlitten eine weite Verbreitung als schnelles Transport- und Fortbewegungsmittel gefunden. Ein solches Gespann mit einer Meute halbwilder Tiere nur durch Verlagerungen des Gewichts zu lenken, benötigt einiges an Training und Erfahrung.Das Berufsgeheimnis muss für beide Tierarten separat erworben werden.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;33.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Fahrzeuge 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;35.0;35;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;35;-1.0;Helden_des_Wolfsfrosts;1000;4 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;37.0;35;-1.0;Helden_des_Wolfsfrosts;1300;Silberguss
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Das Wissen um die Verarbeitung von Silber ist üblicherweise Juwelieren und Goldschmieden vorbehalten. Doch gerade im Kampf gegen Werkreaturen kann es notwendig sein, auf die Schnelle Waffen aus Silber zu formen oder sie zumindest mit einer haltbaren Silberschicht zu überziehen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Der Abenteurer hat die Kenntnis, wie er mit einfachen Mitteln Silber, z. B. aus Münzen, einschmelzen und in Form gießen kann. Dazu gehört auch das Wissen, Klingen, Pfeil- und Bolzenspitzen und allerlei andere Waffen mit einer festen Silberschicht zu überziehen und diese, wo nötig, zu schärfen. Er erhält das Anwendungsgebiet
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;41.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Silberguss
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;35;-1.0;Helden_des_Wolfsfrosts;1000;im Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;43.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Metallbearbeitung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;35;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Metallbearbeitung 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;35;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;35;-1.0;Helden_des_Wolfsfrosts;1000;4 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;35;-1.0;Helden_des_Wolfsfrosts;1300;Skifahren
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Kaum ein Mittel- oder Südaventurier hat jemals Ski gesehen. Bei den Nivesen und anderen Bewohnern der schneebedeckten Landschaften des Nordens sind Ski aber beliebte Fortbewegungsmittel.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Die Abenteurerin hat Kenntnisse von Skiern und weiß auch, wie man sie benutzt. Durch die Sonderfertigkeit Skifahren erlangt sie das neue Anwendungsgebiet
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;53.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Skifahren
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;54.0;35;-1.0;Helden_des_Wolfsfrosts;1000;im Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;55.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;35;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;57.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 4
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;59.0;35;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;35;-1.0;Helden_des_Wolfsfrosts;1000;4 Abenteuerpunkte
+PDTrueTypeFont TVAJEL+Andalus;false;false;61.0;35;-1.0;Helden_des_Wolfsfrosts;1800;Talentstilsonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Die vorliegende Regel ist eine
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;63.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Fokusregel der Stufe I
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;35;-1.0;Helden_des_Wolfsfrosts;1000;für den Themenkomplex
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;65.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;35;-1.0;Helden_des_Wolfsfrosts;1000;. Bei Talent-, Kampf- Zauber oder Liturgiestilen handelt es sich um spezielle Sonderfertigkeiten, die besondere Fähigkeiten eines Helden abbilden. Sie stehen nicht jedem Helden frei zur Verfügung, sondern sind mit der Ausbildung an einer bestimmten Krieger- oder Magierakademie, an einer Schwertmeisterschule, bei einem privaten Lehrmeister oder mit jahrelanger Übung in einem bestimmten Bereich verbunden.Mithilfe von Stilsonderfertigkeiten kann man als Spieler seinen Helden deutlich aus der Masse hervorheben. Nicht jeder Abenteurer verfügt über diese Art von Sonderfertigkeit<br> ein Held muss dafür einige Jahre den Stil verinnerlicht haben.Talent-, Kampf-, Zauber- und Liturgiestile funktionieren wie reguläre Sonderfertigkeiten, mit einigen Unterschieden:
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;35;-1.0;Helden_des_Wolfsfrosts;1000;Ein Held kann aus jeder Kategorie maximal einen Stil beherrschen: je einen Talent-, Zauber- und Li
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;35;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;35;-1.0;Helden_des_Wolfsfrosts;1000;turgiestil sowie jeweils einen bewaffneten und
+PDTrueTypeFont TVAJEL+Andalus;false;false;70.0;35;-1.0;Helden_des_Wolfsfrosts;1300;I
+PDTrueTypeFont TVAJEL+Andalus;false;false;71.0;35;-1.0;Helden_des_Wolfsfrosts;1200;Regeln des Wolfsfrosts
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;1.0;36;-1.0;Helden_des_Wolfsfrosts;1000;einen waffenlosen Kampfstil. Über bestimmte Sonderfertigkeiten ist es möglich, zwei gleichartige Stile miteinander zu kombinieren.
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;2.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Wer eine Stilsonderfertigkeit beherrscht, kann wei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;4.0;36;-1.0;Helden_des_Wolfsfrosts;1000;tere, zu dem Stil passende erweiterte Sonderfertig
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;6.0;36;-1.0;Helden_des_Wolfsfrosts;1000;keiten erwerben. Welche das sind, ist bei der jewei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;8.0;36;-1.0;Helden_des_Wolfsfrosts;1000;ligen Stilsonderfertigkeit angegeben. Ein Held ohne einen passenden Stil kann eine erweiterte Sonder
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;10.0;36;-1.0;Helden_des_Wolfsfrosts;1000;fertigkeit nicht erwerben.
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;12.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Stilsonderfertigkeiten können nur bei der entspre
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;14.0;36;-1.0;Helden_des_Wolfsfrosts;1000;chenden Institution oder einer geeigneten Einzel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;16.0;36;-1.0;Helden_des_Wolfsfrosts;1000;person erworben werden, also beispielsweise an einer Kriegerakademie, bei einer Handwerksgilde, in einem Hexenzirkel oder an einem Göttertempel.
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;18.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Es dauert mehrere Jahre, bis ein Held den Stil so sehr verinnerlicht hat, dass er die entsprechende Sonderfertigkeit erlernen kann.Weitere Informationen zu Talentstilen findest du im
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Aventurischen Kompendium II
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;20.0;36;-1.0;Helden_des_Wolfsfrosts;1000;auf Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;36;-1.0;Helden_des_Wolfsfrosts;1000;68
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;36;-1.0;Helden_des_Wolfsfrosts;1000;oder im
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Kodex des Schwertes
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;36;-1.0;Helden_des_Wolfsfrosts;1000;auf Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;36;-1.0;Helden_des_Wolfsfrosts;1000;276
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;36;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;36;-1.0;Helden_des_Wolfsfrosts;1300;Weg des Fallenstellers
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;28.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Fallensteller sind geschickte Jäger, die ihre Beute nicht
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;36;-1.0;Helden_des_Wolfsfrosts;1000;verfolgen, sondern Fallen auslegen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;30.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;31.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Ein Held mit dieser Sonderfertigkeit erhält bei der Jagd mit Fallen eine Erleichterung von 1 bei Pro
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;33.0;36;-1.0;Helden_des_Wolfsfrosts;1000;ben auf
+PDType0Font/PDCIDFontType2, PostScript name: OLNFMV+GentiumBasic-Italic;false;true;34.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Tierkunde (Wildtiere)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;36;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;36.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;37.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erfolgreicher Jäger, Fährtenleser, Meister der Orientierung
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;38.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;39.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 8, Tierkunde 6
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;40.0;36;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;41.0;36;-1.0;Helden_des_Wolfsfrosts;1000;8 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;42.0;36;-1.0;Helden_des_Wolfsfrosts;1300;Weg des Jägers
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;43.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Niemand ist besser in der Jagd auf Tiere ausgebildet als ein professioneller Jäger. Er nimmt leicht die Fährte jedes Wildtieres auf und zeigt sich äußerst geschickt im Erlegeben der Beute.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;44.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;45.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Ein Held mit dieser Sonderfertigkeit erhält bei der Pirschjagd eine Erleichterung von 1 bei Proben
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;36;-1.0;Helden_des_Wolfsfrosts;1000;auf
+PDType0Font/PDCIDFontType2, PostScript name: OLNFMV+GentiumBasic-Italic;false;true;47.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Tierkunde (Wildtiere)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;36;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;50.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erfolgreicher Jäger, Fährtenleser, Kind der Natur
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;52.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen 6, Tierkunde 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;53.0;36;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;54.0;36;-1.0;Helden_des_Wolfsfrosts;1000;8 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;55.0;36;-1.0;Helden_des_Wolfsfrosts;1300;Weg des Prospektors
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;56.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Prospektoren kennen sich mit Bodenschätzen und der Förderung dergleichen bestens aus. Sie wissen, wo man nach ihnen suchen muss und unter welchen Umständen man sie fördern kann.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;57.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;58.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Proben auf
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;59.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Steinbearbeitung
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;60.0;36;-1.0;Helden_des_Wolfsfrosts;1000;, um Erkennt
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;61.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;62.0;36;-1.0;Helden_des_Wolfsfrosts;1000;nisse über Bodenschätze einzuholen, sind um 1
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;63.0;36;-1.0;Helden_des_Wolfsfrosts;1000;erleichtert.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;64.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Gesteinskunde,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;66.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Gute Verarbeitung,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;68.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Meister der Orientierung
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;70.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;71.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Steinbearbeitung 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;72.0;36;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;73.0;36;-1.0;Helden_des_Wolfsfrosts;1000;5 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;74.0;36;-1.0;Helden_des_Wolfsfrosts;1300;Weg der Seefahrerin
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;75.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Auf einem Schiff muss man in der Lage sein, sich gegen die Wellen und den schwankenden Untergrund zu be
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;76.0;36;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;77.0;36;-1.0;Helden_des_Wolfsfrosts;1000;haupten. Eine Seefahrerin ist so daran gewöhnt, dass ihr eine unruhige See kaum Kopfzerbrechen bereitet und sie auch in sonstigen Situationen einen sicheren Stand
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;78.0;36;-1.0;Helden_des_Wolfsfrosts;1000;aufweist.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;79.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;80.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Die Heldin erhält bei
+PDType0Font/PDCIDFontType2, PostScript name: OLNFMV+GentiumBasic-Italic;false;true;81.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung (Balance)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;82.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;83.0;36;-1.0;Helden_des_Wolfsfrosts;1000;eine Erleichterung von 1.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;84.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;85.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Kind der Natur,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;86.0;36;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;87.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Meister der Orientierung, Seemannsgarn
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;88.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;89.0;36;-1.0;Helden_des_Wolfsfrosts;1000;Körperbeherrschung 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;90.0;36;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;91.0;36;-1.0;Helden_des_Wolfsfrosts;1000;5 Abenteuerpunkte
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;37;-1.0;Helden_des_Wolfsfrosts;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;2.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Erfolgreicher Jäger
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;3.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Viele Helden verstehen sich auf die Jagd, um in der Natur zu überleben. Aber wie in vielen Gebieten, gibt es auch bei der Jagd große Unterschiede zwischen der Qualität der Jäger. Wer sich genug darin übt, kann zu einem der erfolgreichsten Jäger werden und bringt deutlich mehr Beute mit nach Hause als andere.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;4.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;5.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Ein Held mit dieser Sonderfertigkeit erzielt bei gelungenen Proben auf
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;6.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Tierkunde (Wildtiere)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;37;-1.0;Helden_des_Wolfsfrosts;1000;bei
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;8.0;37;-1.0;Helden_des_Wolfsfrosts;1000;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;37;-1.0;Helden_des_Wolfsfrosts;1000;der Jagd +1 QS (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;10.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Sonderfertigkeit Jäger, passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;12.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;37;-1.0;Helden_des_Wolfsfrosts;1000;8 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;14.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Fährtenleser
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Der Held ist darin geschult, mit Leichtigkeit die Fährte eines Tieres zu erkennen und ihr zu folgen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;16.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Der Held bekommt eine Erleichterung von 1 bei
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;18.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Fährtensuchen (tierische Spuren)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;37;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;20.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;21.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;22.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;37;-1.0;Helden_des_Wolfsfrosts;1000;10 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;24.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Gesteinskunde
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;25.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Nur ein Spezialist kann den genauen Wert eines Edelsteins und sein Gewicht in Karat richtig einschätzen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;26.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;27.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Wendet der Held das Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;28.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Steinbearbeitung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;37;-1.0;Helden_des_Wolfsfrosts;1000;an,
+PDType0Font/PDCIDFontType2, PostScript name: GBTFPC+GentiumBasic;false;false;30.0;37;-1.0;Helden_des_Wolfsfrosts;1000;um herauszufinden, mit welchem Edelstein er es zu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;31.0;37;-1.0;Helden_des_Wolfsfrosts;1000;hat, wie viel Karat und welchen Wert er besitzt, so bekommt er eine Erleichterung von 1.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;32.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;33.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;34.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;35.0;37;-1.0;Helden_des_Wolfsfrosts;1000;3 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;36.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Gute Verarbeitung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;37.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Eine gute Verarbeitung sorgt für einen höheren Wert eines hergestellten Gegenstands. Helden, die sich die notwendige Mühe machen, ein Objekt mit Liebe und Sorgfalt zu er-
+PDType0Font/PDCIDFontType2, PostScript name: GBTFPC+GentiumBasic;false;false;38.0;37;-1.0;Helden_des_Wolfsfrosts;1000;schaffen, können dadurch den Verkaufspreis beeinflussen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Die Heldin kann sich ein Handwerkstalent aussuchen, dass zu ihrer Profession passt. Wenn sie damit etwas herstellt, steigt der Verkaufspreis des Objektes aufgrund der gelungenen Verarbeitung oder der besonderen Schönheit um 10 %.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;41.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;43.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;37;-1.0;Helden_des_Wolfsfrosts;1000;5 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Kind der Natur
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Der Held kennt sich bestens in der Natur aus und hat sich auf eine bestimmte Fähigkeit spezialisiert, die für die Ausübung seiner Arbeit besonders wichtig ist.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;47.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Einige Naturtalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;49.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;37;-1.0;Helden_des_Wolfsfrosts;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;53.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Meister der Orientierung
+PDType0Font/PDCIDFontType2, PostScript name: GBTFPC+GentiumBasic;false;false;54.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Sich in einer Stadt oder der Wildnis zurechtzufinden
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;37;-1.0;Helden_des_Wolfsfrosts;1000;ist nicht jedermanns Sache. Es gibt aber Helden, die ein scheinbar angeborenes Talent dafür haben, die Himmelsrichtung zu bestimmen und sicher jeden Weg zu
+PDType0Font/PDCIDFontType2, PostScript name: GBTFPC+GentiumBasic;false;false;56.0;37;-1.0;Helden_des_Wolfsfrosts;1000;finden.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;57.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Der Held bekommt eine Erleichterung von 1 bei
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;59.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Orientierung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;37;-1.0;Helden_des_Wolfsfrosts;1000;.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;61.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;63.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;37;-1.0;Helden_des_Wolfsfrosts;1000;10 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;65.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Seemannsgarn
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;66.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Seeleute und Märchenerzähler sind bekannt dafür, unglaubliche Geschichten zu erzählen. Sie sind oftmals, trotz all der Flunkereien, für die Zuhörer so faszinierend, dass sie an deren Wahrheitsgehalt glauben.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;67.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;68.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Der Held kann eine unglaubliche (teilweise erlogene) Geschichte erzählen, die seine Zuhörer aber möglicherweise glauben. Nach Wahl kann der Held statt Überreden auch
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;69.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Sagen & Legenden
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;70.0;37;-1.0;Helden_des_Wolfsfrosts;1000;zum Lügen verwenden. Um den Wahrheitsgehalt zu überprüfen, kann sein Gegenüber eine Vergleichsprobe auf
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;71.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Menschenkenntnis (Lügen durchschauen)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;72.0;37;-1.0;Helden_des_Wolfsfrosts;1000;gegen Überreden oder
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;73.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Sagen & Legenden
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;74.0;37;-1.0;Helden_des_Wolfsfrosts;1000;einsetzen, allerdings mit einer Erschwernis von 1.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;75.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;76.0;37;-1.0;Helden_des_Wolfsfrosts;1000;passender Talentstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;77.0;37;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;78.0;37;-1.0;Helden_des_Wolfsfrosts;1000;8 Abenteuerpunkte
+PDTrueTypeFont TVAJEL+Andalus;false;false;79.0;37;-1.0;Helden_des_Wolfsfrosts;1800;Kampfsonderfertigkeiten
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;80.0;37;-1.0;Helden_des_Wolfsfrosts;1300;Betäubungswurf
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;81.0;37;-1.0;Helden_des_Wolfsfrosts;1300;
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;82.0;37;-1.0;Helden_des_Wolfsfrosts;1000;(Spezialmanöver)Von klein auf lernen die Nivesen den Umgang mit der
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;83.0;37;-1.0;Helden_des_Wolfsfrosts;1000;Roke
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;84.0;37;-1.0;Helden_des_Wolfsfrosts;1000;, ihrer stumpfen Wurfkeule, mit der sie ihre
+PDType0Font/PDCIDFontType2, PostScript name: GBTFPC+GentiumBasic;false;false;85.0;37;-1.0;Helden_des_Wolfsfrosts;1000;halbwilden Karenherden lenken. Das stumpfe Wurfins
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;86.0;37;-1.0;Helden_des_Wolfsfrosts;1000;-trument vermag entlaufene Tiere zu betäuben, um sie zur Herde zurückzubringen. Natürlich lässt sich so eine Keule auch gegen Gegner einsetzen.
+PDTrueTypeFont TVAJEL+Andalus;false;false;87.0;37;-1.0;Helden_des_Wolfsfrosts;1200;Regeln des Wolfsfrosts
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;1.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;2.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Gelingt die um –2 erschwerte FK-Probe und misslingt die Verteidigung, richtet der Angriff 1W3 TP an. Der Getroffene muss eine Probe auf
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;3.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Selbstbeherrschung (Handlungsfähigkeit bewahren)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;38;-1.0;Helden_des_Wolfsfrosts;1000;erschwert um die Anzahl der angerichteten TP ablegen (egal ob Schaden verursacht wurde oder nicht). Bei Misslingen erleidet er 1 Stufe
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;5.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Betäubung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;6.0;38;-1.0;Helden_des_Wolfsfrosts;1000;. Das Manöver lässt sich nur gegen Kulturschaffende und Tiere bis eine Größenkategorie größer oder kleiner des Helden anwenden. Ja, das bedeutet, dass ein Betäubungswurf gegen Ungeheuer wirkungslos ist.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;7.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Erschwernis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;8.0;38;-1.0;Helden_des_Wolfsfrosts;1000;–2
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;9.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;10.0;38;-1.0;Helden_des_Wolfsfrosts;1000;KK 13
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;11.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;12.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Wurfwaffen (nur solche mit wenigstens einer stumpfen Seite)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;13.0;38;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;14.0;38;-1.0;Helden_des_Wolfsfrosts;1000;20 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;15.0;38;-1.0;Helden_des_Wolfsfrosts;1300;Harpunieren
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;16.0;38;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)Einen Walspieß mit Kraft so in einen riesigen Wal oder Hai zu schleudern, dass er deren dicke Haut durchdringt und sich mit seinen Widerhaken fest im Ziel verankert, ist eine Kunst, die vor allem Walfänger erlernen. Allerdings gibt es immer wieder Leute, die behaupten, man könne damit auch Oger und ähnlich riesenhafte Ungeheuer zur Strecke bringen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;17.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;18.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Die Erschwernis von –4 bei Proben auf FK mit dem Walspieß entfällt und es wird nur der einfache RS des Ziels genutzt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;19.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Erschwernis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;20.0;38;-1.0;Helden_des_Wolfsfrosts;1000;–
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;21.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzung
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;22.0;38;-1.0;Helden_des_Wolfsfrosts;1000;KK 15
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;23.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;24.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Wurfwaffen (nur Walspieß)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;38;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;26.0;38;-1.0;Helden_des_Wolfsfrosts;1000;20 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;27.0;38;-1.0;Helden_des_Wolfsfrosts;1300;Ungeheuer-Schlächter (einzelne Spezies)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;28.0;38;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)Der Held hat seine Kenntnisse im Kampf mit einer einzelnen Ungeheuer-Spezies* so vertieft, dass es ihm leichter fällt, ihr Schaden zuzufügen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;29.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Regel G
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;30.0;38;-1.0;Helden_des_Wolfsfrosts;1000;elingt die
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;31.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;32.0;38;-1.0;Helden_des_Wolfsfrosts;1000;-Probe der Sonderfertigkeit
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;33.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Ungeheuer-Taktik
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;34.0;38;-1.0;Helden_des_Wolfsfrosts;1000;verursacht der Held in den QS Kampfrunden des Bonus bei erfolgreichen Angriffen 2 TP zusätzlich. Außerdem gelingen ihm in dieser Zeit Glückliche Attacken gegen die gewählte Ungeheuer-Spezies bereits bei einer bestätigten 2.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;35.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;36.0;38;-1.0;Helden_des_Wolfsfrosts;1000;SF
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;37.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Ungeheuer-Taktik
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;38.0;38;-1.0;Helden_des_Wolfsfrosts;1000;(gleiche Spezies)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;40.0;38;-1.0;Helden_des_Wolfsfrosts;1000;alle
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;41.0;38;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;38;-1.0;Helden_des_Wolfsfrosts;1000;10 Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;43.0;38;-1.0;Helden_des_Wolfsfrosts;1300;Ungeheuer-Taktik (einzelne Spezies)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;44.0;38;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)Mancher Held hat sich auf die Bekämpfung eines bestimmten Ungeheuers spezialisiert und kennt dessen Schwächen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;45.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;46.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Durch die Sonderfertigkeit erwirbt der Held eine Einsatzmöglichkeit für das Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;47.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;38;-1.0;Helden_des_Wolfsfrosts;1000;. Im Kampf gegen ein bestimmtes Ungeheuer kann er 1 Aktion aufwenden, um eine Probe auf
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;49.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;38;-1.0;Helden_des_Wolfsfrosts;1000;abzulegen. Bei Erfolg erhält er QS in Kampfrunden einen Bonus von +2 AT und +2 FK.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;51.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;52.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Tierkunde 8, Kriegskunst 8
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;53.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;54.0;38;-1.0;Helden_des_Wolfsfrosts;1000;alle
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;55.0;38;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;56.0;38;-1.0;Helden_des_Wolfsfrosts;1000;5 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;57.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Es können nur Wesen ausgewählt werden, bei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;58.0;38;-1.0;Helden_des_Wolfsfrosts;1000;denen die Meisterin festlegt, dass sie im Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;59.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Tierkunde
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;60.0;38;-1.0;Helden_des_Wolfsfrosts;1000;unter das An-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;61.0;38;-1.0;Helden_des_Wolfsfrosts;1000;wendungsgebiet
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;62.0;38;-1.0;Helden_des_Wolfsfrosts;1000;Ungeheuer
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;63.0;38;-1.0;Helden_des_Wolfsfrosts;1000;fallen. Entsprechend sind z. B. Dämonen, Feen, Geister und gewöhnliche Tiere nicht wählbar. Vam
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;38;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;38;-1.0;Helden_des_Wolfsfrosts;1000;pire und Werwölfe sind explizit wählbar.
+PDTrueTypeFont TVAJEL+Andalus;false;false;1.0;39;-1.0;Helden_des_Wolfsfrosts;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;2.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Für grundlegende Regeln zu Stilsonderfertigkeiten und erweiterten Sonderfertigkeiten siehe Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;3.0;39;-1.0;Helden_des_Wolfsfrosts;1000;34
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;4.0;39;-1.0;Helden_des_Wolfsfrosts;1000;in diesem Buch. Weitere Informationen zu Kampf-
+PDType0Font/PDCIDFontType2, PostScript name: SCQRBE+GentiumBasic;false;false;5.0;39;-1.0;Helden_des_Wolfsfrosts;1000;stilen findest du im
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;6.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Aventurischen Kompendium
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;7.0;39;-1.0;Helden_des_Wolfsfrosts;1000;auf Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;8.0;39;-1.0;Helden_des_Wolfsfrosts;1000;145
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;9.0;39;-1.0;Helden_des_Wolfsfrosts;1000;oder im
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;10.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kodex des Schwertes
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;11.0;39;-1.0;Helden_des_Wolfsfrosts;1000;auf Seite
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;12.0;39;-1.0;Helden_des_Wolfsfrosts;1000;308
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;13.0;39;-1.0;Helden_des_Wolfsfrosts;1000;. Kampfstile werden in
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;14.0;39;-1.0;Helden_des_Wolfsfrosts;1000;bewaffnete Kampfstile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;15.0;39;-1.0;Helden_des_Wolfsfrosts;1000;und
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;16.0;39;-1.0;Helden_des_Wolfsfrosts;1000;waffenlose Kampfstile
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;17.0;39;-1.0;Helden_des_Wolfsfrosts;1000;unterschieden. Bewaffnete Kampfstile sind mit dem Symbol gekennzeichnet, waffenlose Kampfstile sind mit dem Symbol gekennzeichnet. Ein Held kann aus beiden Kategorien nur jeweils eine Kampfstilsonderfertigkeit beherrschen.
+PDType0Font/PDCIDFontType2, PostScript name: RYBLNG+GentiumBasic-Bold;true;false;18.0;39;-1.0;Helden_des_Wolfsfrosts;1300;Jäger der Verfluchten-Stil
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;19.0;39;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;20.0;39;-1.0;Helden_des_Wolfsfrosts;1300;
+PDTrueTypeFont TVAJEL+Andalus;false;false;21.0;39;-1.0;Helden_des_Wolfsfrosts;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;22.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Die Jäger der Verfluchten werden von ihren Lehrmeis
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;23.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;24.0;39;-1.0;Helden_des_Wolfsfrosts;1000;tern akribisch im Kampf gegen Kreaturen der Nacht, vor allem Vampire und Werkreaturen, die sich unter den Menschen verbergen, ausgebildet. Sie verfügen über viel Wissen zu den Schwachstellen solcher Wesen und wie man sich ihnen zur Wehr setzt.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;25.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;26.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Gegen Vampire und Werkreaturen richtet der Jä
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;27.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;28.0;39;-1.0;Helden_des_Wolfsfrosts;1000;ger der Verfluchten beim erfolgreichen Einsatz eines Basis- oder Spezialmanövers +1 TP an. Außerdem ist seine Verteidigung gegen diese Wesen immer um +1
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;29.0;39;-1.0;Helden_des_Wolfsfrosts;1000;erleichtert.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;30.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Erweiterte Kampfsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;31.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Aufspießen, Blitzreflexe, Erweiterte Ungeheuer-TaktikVoraussetzungen: MU 13
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;32.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;33.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Dolche, Fechtwaffen, Hiebwaffen, Schwerter, Stangenwaffen, Zweihandhiebwaffen, Zweihandschwerter
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;34.0;39;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;35.0;39;-1.0;Helden_des_Wolfsfrosts;1000;15 Abenteuerpunkte
+PDTrueTypeFont TVAJEL+Andalus;false;false;36.0;39;-1.0;Helden_des_Wolfsfrosts;1800;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;37.0;39;-1.0;Helden_des_Wolfsfrosts;1300;Aufspießen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;38.0;39;-1.0;Helden_des_Wolfsfrosts;1000;(Spezialmanöver)
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;39.0;39;-1.0;Helden_des_Wolfsfrosts;1300;
+PDTrueTypeFont TVAJEL+Andalus;false;false;40.0;39;-1.0;Helden_des_Wolfsfrosts;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;41.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kämpfer, die geschickt genug sind, können in einer flie
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;42.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;43.0;39;-1.0;Helden_des_Wolfsfrosts;1000;ßenden Bewegung sowohl ihren Gegner zu Fall bringen als ihn auch am Boden fixieren.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;44.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;45.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Gelingt die um 6 erschwerte AT und misslingt die Verteidigung, so ist das Opfer zu Boden geworfen worden und wurde festgenagelt. Der übliche Schaden von 1W3 TP durch die SF
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;46.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Zu Fall bringen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;47.0;39;-1.0;Helden_des_Wolfsfrosts;1000;kommt beim Aufspießen nicht zu tragen.In den nachfolgenden KR gelingt die AT automatisch, ohne dass der Spieler würfeln muss. Jede KR rich
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;48.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;49.0;39;-1.0;Helden_des_Wolfsfrosts;1000;tet der Angriff +1 TP an (in der ersten KR noch kei
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;50.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;51.0;39;-1.0;Helden_des_Wolfsfrosts;1000;nen zusätzlichen TP, in der 2. KR +1 TP, in der 3. KR +2 TP usw.). Die TP werden wie üblich ausgewürfelt. Der Feind erhält den Status
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;52.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Fixiert
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;53.0;39;-1.0;Helden_des_Wolfsfrosts;1000;und
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;54.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Liegend
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;55.0;39;-1.0;Helden_des_Wolfsfrosts;1000;. Der
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;56.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Angreifer kann am Ende einer KR entscheiden loszu
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;57.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;58.0;39;-1.0;Helden_des_Wolfsfrosts;1000;lassen. Um sich zu befreien, muss das Opfer eine Ver
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;59.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;60.0;39;-1.0;Helden_des_Wolfsfrosts;1000;gleichsprobe auf
+PDType0Font/PDCIDFontType2, PostScript name: OLNFMV+GentiumBasic-Italic;false;true;61.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;62.0;39;-1.0;Helden_des_Wolfsfrosts;1000;gegen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;63.0;39;-1.0;Helden_des_Wolfsfrosts;1000;den Angreifer gewinnen. Jede Probe kostet 1 Aktion. Das Festnageln-Manöver kann nur gegen gleich große oder die nächstkleinere Größenkategorie angewandt
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;64.0;39;-1.0;Helden_des_Wolfsfrosts;1000;werden. Misslingt die AT, so steht dem Gegner ein
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;65.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Passierschlag zu.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;66.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;67.0;39;-1.0;Helden_des_Wolfsfrosts;1000;–6
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;68.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;69.0;39;-1.0;Helden_des_Wolfsfrosts;1000;GE 15 oder KK 15, Festnageln, Zu Fall bringen, passende Kampfstilsonderfertigkeit
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;70.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;71.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Stangenwaffen
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;72.0;39;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;73.0;39;-1.0;Helden_des_Wolfsfrosts;1000;20 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: QTMROR+GentiumBasic-Bold;true;false;74.0;39;-1.0;Helden_des_Wolfsfrosts;1300;Blitzreflexe
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;75.0;39;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)
+PDTrueTypeFont TVAJEL+Andalus;false;false;76.0;39;-1.0;Helden_des_Wolfsfrosts;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;77.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Wer über Blitzreflexe verfügt, der kann deutlich schnel
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;78.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-ler auf einen ersten Angriff reagieren und so vielleicht einem Treffer entgehen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;79.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;80.0;39;-1.0;Helden_des_Wolfsfrosts;1000;In der ersten KR eines jeden Kampfs verfügt der Held über einen Bonus von +2 VW.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;81.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;82.0;39;-1.0;Helden_des_Wolfsfrosts;1000;GE 13,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;83.0;39;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;84.0;39;-1.0;Helden_des_Wolfsfrosts;1000;passende Kampfstil-
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;85.0;39;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;86.0;39;-1.0;Helden_des_Wolfsfrosts;1000;sonderfertigkeit
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;87.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;88.0;39;-1.0;Helden_des_Wolfsfrosts;1000;alle
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;89.0;39;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;90.0;39;-1.0;Helden_des_Wolfsfrosts;1000;12
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;91.0;39;-1.0;Helden_des_Wolfsfrosts;1000;
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;92.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Abenteuerpunkte
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;93.0;39;-1.0;Helden_des_Wolfsfrosts;1300;Erweiterte Ungeheuer-Taktik (einzelne Spezies)
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;94.0;39;-1.0;Helden_des_Wolfsfrosts;1000;(passiv)
+PDTrueTypeFont TVAJEL+Andalus;false;false;95.0;39;-1.0;Helden_des_Wolfsfrosts;800;BK
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;96.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Der Held hat so viel Überblick bei der Bekämpfung eines bestimmten Ungeheuers erlangt, dass er seine Gefähr
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;97.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;98.0;39;-1.0;Helden_des_Wolfsfrosts;1000;ten im Kampf gegen die Kreatur anleiten kann.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;99.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;100.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Durch die Sonderfertigkeit kann der Held seine Einsatzmöglichkeit für das Talent
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;101.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst nutzen, um bei einer erfolgreichen Probe bis zu QS/2 Gefährten die gleichen Boni
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;102.0;39;-1.0;Helden_des_Wolfsfrosts;1000;im Kampf gegen ein bestimmtes Unge
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;103.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;104.0;39;-1.0;Helden_des_Wolfsfrosts;1000;heuer* zu verleihen, die auch er erhält (das schließt eventuelle Boni aus der SF
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;105.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Ungeheuer-Schlächter
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;106.0;39;-1.0;Helden_des_Wolfsfrosts;1000;ein). Die Kampfgefährten müssen dafür mindestens einen
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;107.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;108.0;39;-1.0;Helden_des_Wolfsfrosts;1000;-FW von 8 aufweisen.
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;109.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;110.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kriegskunst 10,
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;111.0;39;-1.0;Helden_des_Wolfsfrosts;1000;SF
+PDTrueTypeFont NMYZYX+GentiumBasic-Italic;false;true;112.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Ungeheuer-Taktik
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;113.0;39;-1.0;Helden_des_Wolfsfrosts;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;114.0;39;-1.0;Helden_des_Wolfsfrosts;1000;passender Kampfstil
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;115.0;39;-1.0;Helden_des_Wolfsfrosts;1000;Kampftechniken
+PDTrueTypeFont RSWXCP+GentiumBasic;false;false;116.0;39;-1.0;Helden_des_Wolfsfrosts;1000;alle
+PDTrueTypeFont PPXLAT+GentiumBasic-Bold;true;false;117.0;39;-1.0;Helden_des_Wolfsfrosts;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: SWLDQN+GentiumBasic;false;false;118.0;39;-1.0;Helden_des_Wolfsfrosts;1000;20 Abenteuerpunkte
+PDTrueTypeFont TVAJEL+Andalus;false;false;119.0;39;-1.0;Helden_des_Wolfsfrosts;1300;I
+PDTrueTypeFont TVAJEL+Andalus;false;false;120.0;39;-1.0;Helden_des_Wolfsfrosts;800;BKWK
+PDTrueTypeFont TVAJEL+Andalus;false;false;121.0;39;-1.0;Helden_des_Wolfsfrosts;1200;Regeln des Wolfsfrosts
