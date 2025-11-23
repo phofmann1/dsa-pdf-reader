@@ -443,7 +443,7 @@ public enum WeaponKey {
   nivesenbogen_lienen,
   pfaehler,
   nivesen_wurfkeule_rooke,
-  walspieß,
+  walspiess,
   shakagra_giftdolch_atorai,
   shakagra_buckler_bordar,
   shakagra_langschild_borukar,

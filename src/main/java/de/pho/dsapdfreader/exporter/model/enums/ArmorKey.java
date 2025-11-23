@@ -60,7 +60,7 @@ public enum ArmorKey {
     albenhuser_plattenharnisch,
     nordmaerker_ritterruestung,
     isnatoscher_kettengeflecht,
-    keke_chitinruestung,
+    bastruestung_tung_mano,
     keke_chitinruestung_keke_mako,
     miniwatu_lederharnisch_watu_mako,
     epharit_ruestung_gumijok_mano,

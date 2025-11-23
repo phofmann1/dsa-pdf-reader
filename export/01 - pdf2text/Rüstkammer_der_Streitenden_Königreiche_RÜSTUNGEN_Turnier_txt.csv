@@ -1,15 +1,15 @@
 FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
-PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;27.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;TurnierrüstungKomplexität
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;28.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;komp (5 AP)
-PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;29.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisTurnierrüstung
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;30.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;85–40 Stn3.000+ S
-PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;31.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;900;Anmerkung
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;32.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;900;Auf einem Pferd können bei der Turnierrüstung von der BE 2 statt nur 1 abgezogen werden. Ein Held kann sich in einer Turnierrüstung nicht schneller als seine halbe GS bewegen.
-PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;33.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Rüstungsvorteil
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;34.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Bei einer Probe auf
-PDTrueTypeFont LYRINM+GentiumBasic-Italic;false;true;35.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Etikette (Benehmen)
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;36.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;, um einen Gegner beim Turnier zu fordern, ist die Teilprobe auf CH um 1 erleichtert, wenn der Held eine Turnierrüstung trägt.
-PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;37.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Rüstungsnachteil
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;38.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Um auf ein Reittier aufzusteigen, benötigt der Träger der Turnierrüstung Hilfe (durch eine andere Person oder eine Aufsatzhilfe) und mindestens 10 KR Zeit.Proben auf
-PDTrueTypeFont LYRINM+GentiumBasic-Italic;false;true;39.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;Sinnesschärfe (Suchen oder Wahrnehmen)
-PDTrueTypeFont XEOKED+GentiumBasic;false;false;40.0;17;-1.0;Rüstkammer_der_Streitenden_Königreiche;1000;, bei denen der Hör- oder Sehsinn eine Rolle spielen, sind um 2 erschwert.
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;27.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;TurnierrüstungKomplexität
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;28.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;komp (5 AP)
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;29.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;ArtRüstungsschutzBelastung (Stufe)zusätzliche AbzügeGewichtPreisTurnierrüstung
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;30.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;85–40 Stn3.000+ S
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;31.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;900;Anmerkung
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;32.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;900;Auf einem Pferd können bei der Turnierrüstung von der BE 2 statt nur 1 abgezogen werden. Ein Held kann sich in einer Turnierrüstung nicht schneller als seine halbe GS bewegen.
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;33.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Rüstungsvorteil
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;34.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Bei einer Probe auf
+PDTrueTypeFont LYRINM+GentiumBasic-Italic;false;true;35.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Etikette (Benehmen)
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;36.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;, um einen Gegner beim Turnier zu fordern, ist die Teilprobe auf CH um 1 erleichtert, wenn der Held eine Turnierrüstung trägt.
+PDTrueTypeFont VBPYCH+GentiumBasic-Bold;true;false;37.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Rüstungsnachteil
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;38.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Um auf ein Reittier aufzusteigen, benötigt der Träger der Turnierrüstung Hilfe (durch eine andere Person oder eine Aufsatzhilfe) und mindestens 10 KR Zeit.Proben auf
+PDTrueTypeFont LYRINM+GentiumBasic-Italic;false;true;39.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;Sinnesschärfe (Suchen oder Wahrnehmen)
+PDTrueTypeFont XEOKED+GentiumBasic;false;false;40.0;17;-1.0;Rüstkammer_der_streitenden_Königreiche;1000;, bei denen der Hör- oder Sehsinn eine Rolle spielen, sind um 2 erschwert.

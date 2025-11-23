@@ -153,8 +153,8 @@ public class DsaPdfReaderMain {
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";

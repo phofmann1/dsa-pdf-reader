@@ -1,0 +1,382 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;76;-1.0;Helden_der_Siebenwindküste;3100;DIE RÜSTKAMMER
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;2.0;76;-1.0;Helden_der_Siebenwindküste;1000;»Die Bauernwehr dient dem Schutz der einfachen Leute. Wenn man sie zerhauen hat, geht man damit einfach ins nächste Dorf und wirft es dem Schmied in die Esse. Das Beste ist nämlich: So gut wie jeder kann sie reparieren!«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont KYDWUY+Andalus;false;false;3.0;76;-1.0;Helden_der_Siebenwindküste;1800;Waffen
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;4.0;76;-1.0;Helden_der_Siebenwindküste;1300;Die Albernische Bauernwehr
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;5.0;76;-1.0;Helden_der_Siebenwindküste;900;»Damit hatten diese Waffenknechte nicht gerechnet. Als sie näherkamen, da zogen wir unsere Bauernwehren, echte Nahkampfwaffen, die beinahe jeder Schmied an der Siebenwindküste zu schmieden versteht, solange er genug Eisen dafür zur Verfügung hat. Ohne viel Brimborium werden diese Klingen gemacht, aus einem Stück Erz, und jeder gute Freie weiß eine einzusetzen, denn das ist unser gutes Recht. Die haben doch wirklich geglaubt, dass wir ihnen nichts entgegenzusetzen hätten, ihnen und ihren albernen Spießen. Aber wir sind freie Albernier, die sich von nichts und niemandem einschüchtern lassen – schon gar nicht von Nordmärker Landwehr! Wir haben sie dann einfach niedergemäht, wie echte Bauern das Gras auf dem Feld!«—ein ungenanntes Mitglied der Bredenhager Landwehr, 1034 BF
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;6.0;76;-1.0;Helden_der_Siebenwindküste;1000;Jeder Freie in Albernia, ob Bauer, Handwerker oder Fischer, besitzt das Recht, eine kurze Klinge zu tragen. Allerdings sind echte Schwerter oder fein verzierte Sä-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;7.0;76;-1.0;Helden_der_Siebenwindküste;1000;bel für die einfache Landbevölkerung häufig zu teuer.
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;8.0;76;-1.0;Helden_der_Siebenwindküste;1000;Daher greifen jene, die sich dem Schwertzug eines Adligen anschließen oder Heim und Hof verteidigen wol-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;9.0;76;-1.0;Helden_der_Siebenwindküste;1000;len, häufig zur sogenannten Bauernwehr. Auch wenn
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;10.0;76;-1.0;Helden_der_Siebenwindküste;1000;der Adel diese Waffe nicht immer gerne sieht, wird sie doch voller Stolz geführt und hat so manche Feldschlacht entschieden.Beinahe jeder Hufschmied ist in der Lage, eine Bauernwehr zu schmieden, weil er bei der Herstellung fast nur auf die Ausgestaltung der Klinge achten muss, die Waffen meist sehr schmucklos daherkommen und keine anderen Materialien bei ihrer Herstellung nötig sind. Für gewöhnlich besitzt die Albernische Bauernwehr eine grob geschmiedete Klinge, deren hinteres Ende einfach in ein Oval ausgeschmiedet wird, um sie zu greifen. Selten sind die Klingen zur Gänze scharf ausgeschliffen, sodass man sie auch mit einer zweiten Hand greifen könnte. Sie laufen aber spitz zu, um üble Wunden verursachen zu können. Die meisten Kämpfer mit der Bauernwehr haben nur wenig Erfahrung an der Waffe, und setzen daher gerne Techniken aus dem albernischen Raufen ein.
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;77;-1.0;Helden_der_Siebenwindküste;1200;Rüstkammer der Siebenwindküste
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;2.0;77;-1.0;Helden_der_Siebenwindküste;1000;Albernische Bauernwehr (Cedruath)Komplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;3.0;77;-1.0;Helden_der_Siebenwindküste;1000;prim
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;4.0;77;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;5.0;77;-1.0;Helden_der_Siebenwindküste;1000;Albernische Bauernwehr (Cedruath)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;6.0;77;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+3GE 15 / KK 140/–2mittel1 Stn65 HF80 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;7.0;77;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;8.0;77;-1.0;Helden_der_Siebenwindküste;1000;Bei dem Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;9.0;77;-1.0;Helden_der_Siebenwindküste;1000;Wuchtschlag
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;10.0;77;-1.0;Helden_der_Siebenwindküste;1000;richtet die Albernische Bauernwehr +1 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;11.0;77;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;77;-1.0;Helden_der_Siebenwindküste;1000;Unterläuft dem Träger der Albernischen Bauernwehr ein bestätigter Patzer, verliert er seine Waffe. Dies geschieht zusätzlich zu den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht das Verlieren der Waffe ist. Nach einem mindestens 5 KR geführten Kampf muss der Träger der Waffe eine Probe auf
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;13.0;77;-1.0;Helden_der_Siebenwindküste;1000;Selbstbeherrschung (Schmerzen ignorieren)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;77;-1.0;Helden_der_Siebenwindküste;1000;bestehen, ansonsten erleidet er 1 Stufe
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;15.0;77;-1.0;Helden_der_Siebenwindküste;1000;Schmerz
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;16.0;77;-1.0;Helden_der_Siebenwindküste;1000;.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;77;-1.0;Helden_der_Siebenwindküste;1000;Albernischer AnderthalbhänderKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;18.0;77;-1.0;Helden_der_Siebenwindküste;1000;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;19.0;77;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;20.0;77;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;77;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;22.0;77;-1.0;Helden_der_Siebenwindküste;1000;Albernischer Anderthalbhänder
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;23.0;77;-1.0;Helden_der_Siebenwindküste;1000;(2H)Zweihandschwerter1W6+6KK 140/0mittel2,25 Stn140 HF360 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;24.0;77;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;25.0;77;-1.0;Helden_der_Siebenwindküste;1000;In beengter Umgebung erleidet der Träger der Waffe nur Abzüge von –1 auf AT und PA (statt –4 auf AT und PA).
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;26.0;77;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;27.0;77;-1.0;Helden_der_Siebenwindküste;1000;Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;28.0;77;-1.0;Helden_der_Siebenwindküste;1000;Finte
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;29.0;77;-1.0;Helden_der_Siebenwindküste;1000;ist um zusätzlich –1 erschwert.
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;30.0;77;-1.0;Helden_der_Siebenwindküste;1000;Der Stahl des Grifflochs wird häufig mit Streifen aus Le
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;77;-1.0;Helden_der_Siebenwindküste;1000;-der oder Stoff umwickelt, um einerseits die Grifffestigkeit zu erhöhen und andererseits die Hände beim Einsatz der Waffe zu schonen. Um Eindruck zu schinden, werden manche Bauernwehren auch mit bunten Bändern verziert, die von der Grifföse herabhängen. Echte Kämpfer verzichten meist jedoch auf solch fraglos hüb-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;32.0;77;-1.0;Helden_der_Siebenwindküste;1000;sches, aber häufig behinderndes Beiwerk.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;33.0;77;-1.0;Helden_der_Siebenwindküste;1300;Der Albernische Anderthalbhänder
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;34.0;77;-1.0;Helden_der_Siebenwindküste;1000;»Da staunte der Schweinsfolder Ritter nicht schlecht, das kann ich dir sagen. Ließ sich von seinem Knappen aus dem Sattel helfen und sich in aller Seelenruhe den Zweihänder reichen. Dann begann er, wie von Sinnen – glücklicherweise auch ohne Verstand – auf mich einzudreschen. Mein treues Schwert war aber so gut gemacht, dass ich die Angriffe abwehren konnte, wenngleich manchmal nur mit Mühe. Wucht hatte der Schweinsfolder, das zumindest lasse ich ihm.Dann machte er seinen letzten Fehler! Ein Hieb brachte ihn kurz aus dem Gleichgewicht. Ich packte meinen Anderthalbhänder an der Fehlschärfe, unterlief seinen Schwertradius und rammte ihm mit beiden Händen meine Klinge in den Bauch, da wo seine Rüstung beweglich und schwach war. Ich sage dir, jetzt weiß ich, warum die Ritter von da so heißen. Er klappte zusammen wie ein Kartenhaus und quiekte wie ein Schwein, als er sein Leben ließ!«
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;35.0;77;-1.0;Helden_der_Siebenwindküste;1000;—Aidran Belfarin, Dienstritter der Honinger Gräfin, 1035 BF
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;36.0;77;-1.0;Helden_der_Siebenwindküste;1000;»Aber wie kannst du wissen, dass einer solchen Waffe, zumal einer sehr alten, kein Feenzauber innewohnt? Nicht immer ist die Magie der Anderswelt auch leicht als solche zu erkennen. Carolan war drei Nächte lang ein Frosch, nachdem er heimlich die Klinge der Baronin mitnehmen wollte ...«—Mirhiban al’Orhima, tulamidische Feuermagierin»Die Klinge ist hervorragend ausgewogen. Auch wenn das Umgreifen sich leicht nachteilig auf schnelles Antäuschen auswirkt, den Albernischen Zweihänder sollte man nicht unterschätzen.«—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;37.0;77;-1.0;Helden_der_Siebenwindküste;1000;Viele Adlige und Krieger Albernias und des Windhag verstehen sich auf das Führen des Anderthalbhänders. Die Waffe ist so weit verbreitet, dass sie vor allem bei den alteingesessenen Familien des Abagund und der
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;38.0;77;-1.0;Helden_der_Siebenwindküste;1000;Winhaller Lande häufig sogar als Hauptwaffe geführt
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;39.0;77;-1.0;Helden_der_Siebenwindküste;1000;wird. Einige der Klingen sind alte Familienerbstücke, und nicht selten sind sie verzaubert, weil einst eine Fee ihren Segen darüber gesprochen hat.Sie können auch mit einer Hand an der Klinge und einer am Griff geführt werden. Sofern man die richtige Umgreiftechnik beherrscht, kann man die Waffe also auch trotzt ihrer Länge gut in engen Gassen, dichtem Dornicht oder im Gedränge an Deck eines Schiffes führen.Meisterliche Nutzer des Albernischen Anderthalbhänders verstehen es, die Klinge besonders schnell auf verschiedene Entfernungen einzustellen, und können sich so auch unter widrigsten Bedingungen ihrer Gegner erwehren.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;1.0;78;-1.0;Helden_der_Siebenwindküste;1300;Das Albernische Langschwert
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;2.0;78;-1.0;Helden_der_Siebenwindküste;1000;»Das Schwert gilt in vielen Teilen unseres Landes noch als Sinnbild für die Herrschaft der alten Kaiser Bosparans und heute als Symbol der Garether Kaiser. Es mag eine feine Waffe sein, aber auf dem Schiffsdeck nutze ich lieber den Säbel und in den Wäldern ein Kurzschwert. Die großen Häuser, die der Meinung sind, sie könnten uns beherrschen, die hängen an ihren Schwertern. Ich frage mich manchmal, ob sie diese Klingen nutzen oder nur über ihren Kamin hängen, um ihren Anspruch geltend zu machen.In den Händen eines Distelritters ist ein Schwert jedoch eine todbringende Waffe, da vertu dich nicht! Sie wissen die Klinge zu führen und machen von ihr reichlich Gebrauch. Wir Flussleute haben auch noch Axt und Speer, die uns die Freiheit sichern, und es ist unser gutes Recht als Freie, sie zu tragen. Aber auch ich will nicht verhehlen, dass ich stolz bin auf Wogenbrecher, das Schwert meiner Ahnen, das an meiner Seite hängt. Was? Du willst wohl seine Schneide kosten? Zieh blank, du unverschämter Bastard!«—Umwyr ui Llud, albernischer Ritter, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;3.0;78;-1.0;Helden_der_Siebenwindküste;1000;Die meisten klassischen Einhandschwerter der Siebenwindküste wirken schwer und gedrun-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;4.0;78;-1.0;Helden_der_Siebenwindküste;1000;gen und können den Einfluss der thor
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;5.0;78;-1.0;Helden_der_Siebenwindküste;1000;-walschen Breitschwerter nicht verhehlen. Die stabilen Klingen können selbst gegen Schilde effektiv geführt werden, haben jedoch nur selten eine lange Parierstange. Weit gebräuchlicher sind ornamentale Knebel, die den Griff von der breiten, vorderlastigen Klinge trennen. Viele Ausfertigungen weisen eine ausgeprägte Hohlkehle auf, in der kunstvolle Gravuren zu entdecken sind. Beim alber-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;6.0;78;-1.0;Helden_der_Siebenwindküste;1000;nischen Langschwert erinnern diese häufig an
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;7.0;78;-1.0;Helden_der_Siebenwindküste;1000;alte thorwalsche Runen, manchmal auch an verschlungene Zeichen und Symbole, die man von alten Menhiren oder Feentoren kennt.Viele Schwerter der Region tragen klangvolle Namen. Mal vergibt der Schmied einen solchen, sobald er das Wesen der Waffe einschätzen kann, mal wählt ihr künftiger Träger oder sogar eine Fee, die Segen oder Fluch darüber spricht, einen Namen. Die Namen mancher Waffen ändern sich auch mit der Zeit, und so erzählen nicht wenige dieser Bezeichnungen auch die Geschichte einer Klinge und ihrer Träger.Berühmt geworden ist das Schwert
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;8.0;78;-1.0;Helden_der_Siebenwindküste;1000;Drachenfuß
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;9.0;78;-1.0;Helden_der_Siebenwindküste;1000;, das den Markgrafen des Windhag gehörte. Sein Name wandelte sich zunächst in
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;10.0;78;-1.0;Helden_der_Siebenwindküste;1000;Scherenschreck
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;11.0;78;-1.0;Helden_der_Siebenwindküste;1000;, nachdem ein Efferdgeweihter es für Markgraf Rateral Sanin weihte, dann zu
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;12.0;78;-1.0;Helden_der_Siebenwindküste;1000;Tentakelgroll
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;13.0;78;-1.0;Helden_der_Siebenwindküste;1000;, als er es gegen die Heptarchen führte. Heute ruht es unter dem Namen
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;14.0;78;-1.0;Helden_der_Siebenwindküste;1000;Grauwacht
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;15.0;78;-1.0;Helden_der_Siebenwindküste;1000;in der Festung der Sanins.Ebenfalls sehr berühmt geworden ist das Schwert
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;16.0;78;-1.0;Helden_der_Siebenwindküste;1000;Ai-
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;17.0;78;-1.0;Helden_der_Siebenwindküste;1000;fiall
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;18.0;78;-1.0;Helden_der_Siebenwindküste;1000;, das den Fürsten von Albernia gehört. Die Sage weiß zu berichten, dass es aus Beschlägen von Schiffen geschmiedet wurde, die während der Großen Flut an Land gespült wurden. Seine Klinge soll in Meerschaum gehärtet worden sein, als Mahnung, stets Efferds Gebote zu befolgen. Eine blaue Perle von ungewöhnlicher Herzform ziert den Knauf und soll einst ein Geschenk des Flussvaters an eine der ersten Prinzessinnen des Königshauses gewesen sein. Besonders gegen unheilige Kreaturen der Charyptoroth soll die Klinge äußerst wirkungsvoll sein.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;19.0;78;-1.0;Helden_der_Siebenwindküste;900;Albernisches LangschwertKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;20.0;78;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;78;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;22.0;78;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;23.0;78;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;24.0;78;-1.0;Helden_der_Siebenwindküste;1000;Albernisches Langschwert
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;25.0;78;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+4GE/KK 14–1/–1mittel1,5 Stn90 HF180 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;26.0;78;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;27.0;78;-1.0;Helden_der_Siebenwindküste;1000;Mit dem Albernischen Langschwert kann man das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;28.0;78;-1.0;Helden_der_Siebenwindküste;1000;Schildspalter
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;29.0;78;-1.0;Helden_der_Siebenwindküste;1000;ausführen, auch wenn die Kampftechnik Schwerter dies eigentlich nicht gestattet. Gegen Fechtwaffen und Schwerter erhält sein Träger einen Bonus von +1 AT.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;30.0;78;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;78;-1.0;Helden_der_Siebenwindküste;1000;Gegen Waffen der Kampftechniken Zweihandhiebwaffen und Zweihandschwerter erleidet man einen zusätzlichen Malus von 2 auf PA.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;32.0;78;-1.0;Helden_der_Siebenwindküste;1000;»Ich selbst hab meinen Namen ja mehrfach geändert, aber mein Schwert andauernd umbenennen – kommt gar nicht infrage!«—Geron Waisenmacher, Doppelsöldner»Aber das ist doch eine feine Sache, wenn mit einer Klinge Großes vollbracht wurde! Denk nur mal an Antworter und Vergelter, die Waffen des legendären Schwertkönigs Raidri Conchobair. Die hießen früher mal Gift und Galle, als sie noch in der Hand der Blutzwillinge auf Maraskan waren.«—Bruder Hilbert, Perainegeweihter»Aber so ganz Unrecht hat Geron nicht, viele Schwerter tragen schließlich einen Namen, der aus ihnen selbst kommt. Denkt nur an die Götterklinge Siebenstreich, die sogar meinem Volk bekannt ist.«
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;33.0;78;-1.0;Helden_der_Siebenwindküste;1000;—Layariel Wipfelglanz, elfische Auenläuferin
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;79;-1.0;Helden_der_Siebenwindküste;1200;Rüstkammer der Siebenwindküste
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;2.0;79;-1.0;Helden_der_Siebenwindküste;1300;Der Efferdbart
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;3.0;79;-1.0;Helden_der_Siebenwindküste;1000;»Der Efferdbart steht nicht nur für die Verbundenheit der Bruderschaft von Wind und Wogen zum endlosen Meer, mit dieser Waffe sind wir auch bestens gegen die Schrecken der Widersacherin gewappnet. Die meisten Stücke tragen Efferds Segen, damit sie alles unheilige Gezücht der Unbarmherzigen Ersäuferin zu zerschmettern vermögen.Wie es sich für eine Waffe gehört, die ganz und gar in Diensten des unbändigen Alten Gottes steht, kann man sie sowohl an Land benutzen als auch, wenn man zur Gänze von Efferds Element umfangen ist. Viele Geweihte tragen die traditionelle Waffe lediglich als Standessymbol, aber es gibt so manch einen unter ihnen, der den Efferdbart auch im Kampf einzusetzen weiß.
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;4.0;79;-1.0;Helden_der_Siebenwindküste;1000;«
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;5.0;79;-1.0;Helden_der_Siebenwindküste;1000;—Connar von Quintian-Quandt, efferdgeweihter Meister der Brandung des Siebenwindmeers, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;6.0;79;-1.0;Helden_der_Siebenwindküste;1000;Der Efferdbart ist eine Variante des Dreizacks, bei der die Zinken nicht in einer Reihe, sondern in einem Dreieck angeordnet sind. Manche Ausfertigungen tragen in dessen Mitte einen weiteren
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;7.0;79;-1.0;Helden_der_Siebenwindküste;1000;spitzen Dorn. Obwohl der Efferdbart häufig nur
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;8.0;79;-1.0;Helden_der_Siebenwindküste;1000;zu liturgischen Zwecken eingesetzt wird, wurde er doch einst als Waffe konzipiert. Daher weisen seine Zacken nur selten Widerhaken auf, damit er nach einem erfolgreichen Angriff schnell wieder eingesetzt werden kann.Am Ende des meist aus Zeder gefertigten Schafts werden gern kostbare Muscheln oder Seeschnecken befestigt, das Holz mit Haihaut umwickelt und mit blauen Bändern geschmückt. Auch verschlungene Schuppen- oder Wellenmuster, eingelassene Aquamarine oder leuchtende Gwen-Petryl-Splitter zieren so manchen Efferdbart.
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;9.0;79;-1.0;Helden_der_Siebenwindküste;900;Neben seiner Funktion als rituelle Waffe der Geweihten des Launischen lässt sich der Efferdbart auch hervorragend gegen Meeresungeheuer und Tentakelwesen der Erzdämonin Charyptoroth einsetzen. Nur sehr selten gibt es profane Ausführungen, die keine
+PDTrueTypeFont TWRYQG+GentiumBasic-SC700;false;false;10.0;79;-1.0;Helden_der_Siebenwindküste;900;o
+PDTrueTypeFont TWRYQG+GentiumBasic-SC700;false;false;11.0;79;-1.0;Helden_der_Siebenwindküste;600;bjEktwEihE
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;79;-1.0;Helden_der_Siebenwindküste;900;tragen, etwa bei besonders efferdgläubigen Fischern der Siebenwindküste. Der Efferdbart gilt als Standessymbol der Geweihten, und so wird es nicht gern gesehen, wenn ein Träger nicht zumindest ein Akoluth der Bruderschaft von Wind und Wogen ist.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;79;-1.0;Helden_der_Siebenwindküste;1000;EfferdbartKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;79;-1.0;Helden_der_Siebenwindküste;1000;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;79;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;16.0;79;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;79;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;18.0;79;-1.0;Helden_der_Siebenwindküste;1000;Efferdbart
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;19.0;79;-1.0;Helden_der_Siebenwindküste;1000;(2H)Stangenwaffen1W6+3GE/KK 150/+1 lang2 Stn160 HF100 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;20.0;79;-1.0;Helden_der_Siebenwindküste;900;Anmerkung
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;21.0;79;-1.0;Helden_der_Siebenwindküste;1000;geweiht (Efferd), nur von Efferdgeweihten erwerbbar
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;22.0;79;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;23.0;79;-1.0;Helden_der_Siebenwindküste;1000;Gegen Wesen, die über Tentakel oder Fangarme verfügen (z. B. Krakenmolch, Dekapus), richtet der Efferdbart +1 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;24.0;79;-1.0;Helden_der_Siebenwindküste;1000;
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;25.0;79;-1.0;Helden_der_Siebenwindküste;1000;Die Abzüge für den Kampf im Wasser sinken um 2. Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;26.0;79;-1.0;Helden_der_Siebenwindküste;1000;Entwaffnen
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;27.0;79;-1.0;Helden_der_Siebenwindküste;1000;ist um +1 erleichtert.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;28.0;79;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;29.0;79;-1.0;Helden_der_Siebenwindküste;1000;Gegen Rüstungen mit RS 4 oder mehr richtet der Efferdbart –2 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;30.0;79;-1.0;Helden_der_Siebenwindküste;900;NeckerdreizackKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;79;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;32.0;79;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;33.0;79;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;34.0;79;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;35.0;79;-1.0;Helden_der_Siebenwindküste;1000;Neckerdreizack
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;36.0;79;-1.0;Helden_der_Siebenwindküste;1000;(2H)Stangenwaffen1W6+4GE/KK 150/0lang2 Stn150 HF80 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;37.0;79;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;38.0;79;-1.0;Helden_der_Siebenwindküste;1000;Die Abzüge für den Kampf im oder unter Wasser sinken auf 0. Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;39.0;79;-1.0;Helden_der_Siebenwindküste;1000;Entwaffnen
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;40.0;79;-1.0;Helden_der_Siebenwindküste;1000;ist um +1 erleichtert.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;41.0;79;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;42.0;79;-1.0;Helden_der_Siebenwindküste;1000;An Land richtet der Neckerdreizack –1 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;43.0;79;-1.0;Helden_der_Siebenwindküste;1300;Der Neckerdreizack
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;44.0;79;-1.0;Helden_der_Siebenwindküste;1000;»Der Neckerdreizack ist vornehmlich eine Jagdwaffe, denn die Ozeanier sind ein äußerst friedliebendes Volk. Meist wird er genutzt, um größeres Meeresge-
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;45.0;79;-1.0;Helden_der_Siebenwindküste;1000;tier zu erlegen, Plattfische, Thunfische oder kleinere
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;46.0;79;-1.0;Helden_der_Siebenwindküste;1000;Haie. Aber auch gegen tentakelbewehrtes Gezücht kann man sich damit hervorragend verteidigen.
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;47.0;79;-1.0;Helden_der_Siebenwindküste;1000;Eine solche Waffe ist deutlich filigraner als ein her
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;48.0;79;-1.0;Helden_der_Siebenwindküste;1000;-kömmlicher Dreizack und wie geschaffen für den Einsatz in Efferds Element.«—Graustein, efferdgeweihter Bewahrer von Wind und Wogen zu Havena, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;49.0;79;-1.0;Helden_der_Siebenwindküste;1000;Schlank und elegant kommt der Neckerdreizack daher und ist nicht selten mit Perlen und Muscheln verziert. Die Waffe ist üblicherweise nicht so lang wie die Landvariante der Men-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;50.0;79;-1.0;Helden_der_Siebenwindküste;1000;schen, denn Necker sind häufig etwas kleiner
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;51.0;79;-1.0;Helden_der_Siebenwindküste;1000;und zierlicher gewachsen.Die schräg angeordneten, unterschiedlich
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;52.0;79;-1.0;Helden_der_Siebenwindküste;1000;langen Zacken ahmen häufig geschwungene
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;53.0;79;-1.0;Helden_der_Siebenwindküste;1000;Wellenformen nach und sind mit Widerhaken versehen. Aufgrund dieser Beschaffenheit gleitet die beliebte Jagdwaffe unter Wasser besonders gut, während sie an Land an Durchschlagskraft einbüßt. Der Schaft wird üblicherweise aus Korallen, Schildpatt oder Knochen gefertigt und mit der Haut von Hai
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;54.0;79;-1.0;Helden_der_Siebenwindküste;1000;oder Rochen umwickelt, um die Griffigkeit
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;55.0;79;-1.0;Helden_der_Siebenwindküste;1000;zu verbessern.Woher die Necker das Metall beziehen oder wie genau sie es zu solch kunstvollen Stücken formen, weiß niemand zu sagen. Manche vermuten, sie stammen noch aus dem untergegangen Kontinent Lahmaria und haben sich bis heute erhalten. Andere behaupten, die Waffen der Necker würden mit urtümlicher Zauberei aus den Überresten gesunkener Schiffe und der Habe Ertrunkener geformt.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;56.0;79;-1.0;Helden_der_Siebenwindküste;1000;»Ohne Feuer schmieden? Das ist Drachenwerk, sag ich dir! Vom Grund des Meeres kann nichts Gutes kommen, da hat es viel zu viel Wasser!« —Arbosch Sohn des Angrax, ambosszwergischer Meisterschmied
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;57.0;79;-1.0;Helden_der_Siebenwindküste;800;
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;1.0;80;-1.0;Helden_der_Siebenwindküste;1300;Das Albernische Entermesser und der Harbener Säbel
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;2.0;80;-1.0;Helden_der_Siebenwindküste;1000;»Jeder hat doch sofort ein Bild vor Augen, wenn er das Wort ›Entermesser‹ hört, oder? Ein verwegener Pirat, der sich an einem Seil an Bord eines Schiffes schwingt, das blitzende Entermesser zum Angriff erhoben. Träum weiter! Jedes Kind an der Siebenwindküste weiß, dass fast jeder Seesoldat so eine Klinge führt. Sie sollte auf keinem Schiff fehlen und ist keineswegs nur zum Entern da.«—Branwen ni Cerwyn, Erbin des Inseljunkers von Sturmhöhe, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;3.0;80;-1.0;Helden_der_Siebenwindküste;1000;An der Siebenwindküste ist das Entermesser in zwei Varianten bekannt: als Albernisches Entermesser oder als Harbener Säbel. Beide kommen bevorzugt auf Schiffen zum Einsatz, aber auch in den Hafenstädten sieht man sie an so manchem Waffengehänge. Bei Übungen und Kämpfen werden sie an die Schiffsbesatzung ausgegeben, für Seesöldner und Angehörige der mittel-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;4.0;80;-1.0;Helden_der_Siebenwindküste;1000;reichischen Westflotte gehören sie ohnehin zur Stan
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;5.0;80;-1.0;Helden_der_Siebenwindküste;1000;-dardbewaffnung. Doch nicht immer wird Feinden damit zugesetzt<br> das Entermesser ist auch hervorragend dazu geeignet, Taue zu kappen oder andere einfache Arbeiten an Bord zu erledigen.Das Albernische Entermesser weist eine einschneidige, leicht gebogene Klinge auf, die besonders in der Verteidigung gegen andere einhändige Klingenwaffen ihre Stärken hat. Der Harbener Säbel hingegen verfügt über eine gerade Klinge mit anderthalb Schneiden, welche besonders effektiv im Kampf gegen Leichtgerüstete ist.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;6.0;80;-1.0;Helden_der_Siebenwindküste;900;Das Albernische EntermesserKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;7.0;80;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;8.0;80;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;9.0;80;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;10.0;80;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;11.0;80;-1.0;Helden_der_Siebenwindküste;1000;Albernisches Entermesser
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;80;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+3GE/KK 150/–1mittel0,75 Stn75 HF120 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;80;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;80;-1.0;Helden_der_Siebenwindküste;1000;Gegen Dolche, Fechtwaffen und Schwerter erhält das Albernische Entermesser einen Bonus von +1 PA. Droht der Verlust der Waffe durch einen Patzer oder ein Entwaffnungs-Manöver, würfele mit 1W6. Bei 1-2 wurde die Waffe nicht fallengelassen, allerdings können bis zum Ende der nächsten KR keine AT ausgeführt werden.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;80;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;16.0;80;-1.0;Helden_der_Siebenwindküste;1000;Paraden gegen Zweihandwaffen sind mit dem Albernischen Entermesser um –1 erschwert. Das Albernische Entermesser kann nicht zweihändig geführt werden (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;80;-1.0;Helden_der_Siebenwindküste;1000;Regelwerk
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;18.0;80;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;19.0;80;-1.0;Helden_der_Siebenwindküste;1000;266
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;20.0;80;-1.0;Helden_der_Siebenwindküste;1000;).
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;80;-1.0;Helden_der_Siebenwindküste;900;Der Harbener SäbelKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;22.0;80;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;23.0;80;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;24.0;80;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;25.0;80;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;26.0;80;-1.0;Helden_der_Siebenwindküste;1000;Harbener Säbel
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;27.0;80;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+3GE/KK 150/0mittel0,9 Stn75 HF200 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;28.0;80;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;29.0;80;-1.0;Helden_der_Siebenwindküste;1000;Gegen Rüstungen mit RS 3 oder weniger richtet der Harbener Säbel +1 TP an. Droht der Verlust der Waffe durch einen Patzer oder ein Entwaffnungs-Manöver, würfele mit 1W6. Bei 1-2 wurde die Waffe nicht fallengelassen, allerdings können bis zum Ende der nächsten KR keine AT ausgeführt werden.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;30.0;80;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;80;-1.0;Helden_der_Siebenwindküste;1000;Paraden gegen Zweihandwaffen sind mit dem Harbener Säbel um –1 erschwert. Der Harbener Säbel kann nicht zweihändig geführt werden (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;32.0;80;-1.0;Helden_der_Siebenwindküste;1000;Regelwerk
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;33.0;80;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;34.0;80;-1.0;Helden_der_Siebenwindküste;1000;266
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;35.0;80;-1.0;Helden_der_Siebenwindküste;1000;).
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;36.0;80;-1.0;Helden_der_Siebenwindküste;1000;»Solche Waffen sind hervorragend an Deck zu führen, einfach weil sie nicht so lang wie ein Schwert sind. Im Kampfgetümmel kannst du damit auch mal eine Leine kappen, die dir im Weg ist, ohne dass du dir gleich die Klinge ruinierst. Geht natürlich auch alles mit einer Axt, das wohl! Aber bei Swafnir, es gibt kein Drachenboot, auf dem
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;37.0;80;-1.0;Helden_der_Siebenwindküste;1000;nicht mindestens ein Entermesser zu finden ist.«
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;38.0;80;-1.0;Helden_der_Siebenwindküste;1000;—Tjalva Garheltdottir, Premer Hetja»Dann ist ein Entermesser also eigentlich nichts anderes als ein Haumesser, oder?«—Bruder Hilbert, Perainegeweihter»Daran ist es angelehnt, aber das ist höchstens die hässliche Schwester eines echten Harbener Säbels. Den kannst du nämlich im Kampf gebrauchen. Dem Gegner mit dem Haumesser zu Leibe zu
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;39.0;80;-1.0;Helden_der_Siebenwindküste;1000;rücken, das nenn ich eher eine Verzweiflungstat.«
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;40.0;80;-1.0;Helden_der_Siebenwindküste;1000;—Geron Waisenmacher, Doppelsöldner
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;41.0;80;-1.0;Helden_der_Siebenwindküste;1000;Häufig weisen beide Ausführungen auch einen Griffkorb
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;42.0;80;-1.0;Helden_der_Siebenwindküste;1000;oder einen bügelförmigen Handschutz auf, der den Träger vor Verletzungen schützen soll. Während viele Exemplare schlicht und zweckmäßig gehalten sind, werden andere von allerlei efferdgefälligen Motiven geziert, die den zahlreichen Aberglauben der Seefahrer Rechnung tragen.
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;81;-1.0;Helden_der_Siebenwindküste;1200;Rüstkammer der Siebenwindküste
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;2.0;81;-1.0;Helden_der_Siebenwindküste;1300;Der Havener Buckler
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;3.0;81;-1.0;Helden_der_Siebenwindküste;1000;»Der Faustschild wird vor allem von den klassischen Kriegerakademien oder Rittern gerne unterschätzt, was daran liegen mag, dass die Handhabung nicht ganz trivial ist. Sein ganzes Potenzial entfaltet er nur, wenn man ihn im beidhändigen Kampf als Parierwaffe nutzt. Mit dem Havener Messer oder einem Säbel teilst du deine Hiebe aus, mit dem Buckler verteidigst du. Dank seiner geringen Größe und des niedrigen Gewichts bleibst du beweglich und kannst hervorragend damit blocken. Auch die gegnerische Klinge kannst du damit ablenken, und dann führst du deine eigene Waffe gekonnt in seine Blöße!Stoßen oder schlagen kannst du natürlich auch mit dem Buckler, falls dich dein Gegner derart in Bedrängnis gebracht hat, dass deine Klinge wirkungslos sein sollte. Ich erwarte allerdings, dass das einem meiner Zöglinge gar nicht erst passiert! Also verplempern wir unsere Zeit nicht länger mit Gerede, hoch mit den Waffen! Wollen wir doch einmal sehen, was du bisher gelernt hast.«—Schwertmeisterin Scanlail ni Uinin, zu einem ihrer Schüler, 1034 BF
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;4.0;81;-1.0;Helden_der_Siebenwindküste;1000;Der Havener Buckler ist ein Faustschild, der allerdings eher eine Parierwaffe ist, als dass er seinem Träger
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;5.0;81;-1.0;Helden_der_Siebenwindküste;1000;großflächigen Schutz bietet. Mit dem Buckler kann man
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;6.0;81;-1.0;Helden_der_Siebenwindküste;1000;die Hiebe der gegnerischen Waffe abfangen und umleiten, um dann selbst zum Angriff überzugehen.
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;7.0;81;-1.0;Helden_der_Siebenwindküste;1000;Der Havener Buckler besteht aus einer filzgefütterten
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;8.0;81;-1.0;Helden_der_Siebenwindküste;1000;Stahlplatte, die in ihrer Mitte eine halbkugelförmige Wölbung aufweist und darum herum einen etwa handbreiten Rand. Innerhalb der Halbkugel verläuft die Griffstange, mit der man den Buckler fasst, um ihn schnell zwischen sich und die gegnerische Waffe zu bringen.Als Parierwaffe wird er besonders mit Einhandschwertern, Säbeln oder Fechtwaffen kombiniert, aber auch Schützen in den Einheiten der großen Heerhaufen und Garden führen ihn manchmal neben einem Dolch.Kaum mehr wegzudenken ist der Buckler aus dem von Schwertmeisterin Scanlail ni Uinin in Havena gelehrten Albernischen Raufen. Bei diesem Kampfstil wird er neben dem Havener Messer geführt, und einige Uinin-Schwertgesellen haben es zu wahrer Meisterschaft mit dem Faustschild gebracht. Geschickt verstehen sie sich darauf, Kreuzblöcke auszuführen, um keinen Schrittbreit ihres Standes aufzugeben, oder aus der Verteidigung heraus Blößen zu erspähen und ihre Gegner
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;9.0;81;-1.0;Helden_der_Siebenwindküste;1000;empfindlich zu treffen.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;10.0;81;-1.0;Helden_der_Siebenwindküste;900;Havener BucklerKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;11.0;81;-1.0;Helden_der_Siebenwindküste;900;
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;81;-1.0;Helden_der_Siebenwindküste;1000;komp (2 AP)
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;81;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;14.0;81;-1.0;Helden_der_Siebenwindküste;1000;Havener Buckler (Vollmetallbuckler)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;15.0;81;-1.0;Helden_der_Siebenwindküste;1000;Schilde1W6+1KK 16–3/0kurz1 Stn25 HF40 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;16.0;81;-1.0;Helden_der_Siebenwindküste;1000;Anmerkung
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;17.0;81;-1.0;Helden_der_Siebenwindküste;1000;30 StrukturpunkteParierwaffe (PA-Bonus +1 für die Hauptwaffe)Der AT-Abzug gilt nur für den Angriff mit dem Schild, aber nicht, wenn man einen Schild und eine andere Hauptwaffe führt. Mit einem Vollmetallbuckler kann man versuchen, ein Geschoss zu parieren, allerdings erleidet man bei der Parade zusätzlich zu den üblichen
+PDType0Font/PDCIDFontType2, PostScript name: ZFYEFQ+GentiumBasic;false;false;18.0;81;-1.0;Helden_der_Siebenwindküste;1000;Modifikatoren (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;19.0;81;-1.0;Helden_der_Siebenwindküste;1000;Regelwerk
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;20.0;81;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;81;-1.0;Helden_der_Siebenwindküste;1000;244
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;22.0;81;-1.0;Helden_der_Siebenwindküste;1000;) noch eine Erschwernis von –1.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;23.0;81;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;24.0;81;-1.0;Helden_der_Siebenwindküste;1000;Bei einem Kritischen Erfolg richtet der Vollmetallbuckler zusätzlich 1 Stufe
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;25.0;81;-1.0;Helden_der_Siebenwindküste;1000;Betäubung
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;26.0;81;-1.0;Helden_der_Siebenwindküste;1000;an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;27.0;81;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;28.0;81;-1.0;Helden_der_Siebenwindküste;1000;Mit einem Vollmetallbuckler kann das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;29.0;81;-1.0;Helden_der_Siebenwindküste;1000;Schilddeckung
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;30.0;81;-1.0;Helden_der_Siebenwindküste;1000;nicht ausgeführt werden (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;31.0;81;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;32.0;81;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;33.0;81;-1.0;Helden_der_Siebenwindküste;1000;163
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;34.0;81;-1.0;Helden_der_Siebenwindküste;1000;). Mit dem Vollmetallbuckler lassen sich keine Attacken großer Gegner parieren.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;35.0;81;-1.0;Helden_der_Siebenwindküste;1000;»Für jemanden mit meinen Fertigkeiten genau das Richtige, dieser Havener Buckler. Vor allem ist er nicht so schwer wie ein großer Schild, da
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;36.0;81;-1.0;Helden_der_Siebenwindküste;1000;bleibe ich flink und geschwind genug, um mein
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;37.0;81;-1.0;Helden_der_Siebenwindküste;1000;Rapier noch effektiv einzusetzen.«—Carolan Calavanti, Vinsalter Streuner»So ein Unfug! Entweder man kämpft gleich mit zwei Waffen oder man trägt einen Schild, der kräftige Hiebe und sogar Pfeile abfängt. Diese Herumfuchteilei mit einer kleinen Metallscheibe ist doch albern!«—Geron Waisenmacher, Doppelsöldner»Sagt der vielgepriesene Doppelsöldner, der gerade gegen die Schwertgesellin mit Buckler verloren hat ...«—Rovena aus dem Überwals, bornische Katzenhexe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;1.0;82;-1.0;Helden_der_Siebenwindküste;1300;Das Havener Messer
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;2.0;82;-1.0;Helden_der_Siebenwindküste;1000;»Setz die Hiebe aus der Drehung und mit langem Arm an. Nutze den Wehrnagel, aber greif bloß nicht falsch, sonst gibt es blaue Finger! Er hilft dir beim Parieren, wenn du die gegnerische Waffe abfängst. Denke immer daran: Deine Klinge ist deutlich kürzer als die eines Langschwerts! Gehst du in den Kreuzblock und nimmst den Buckler dazu, achte auf einen stabilen Stand, sonst hast du zwar abgewehrt, musst dir aber eine Blöße geben, um selbst anzugreifen. Diese Waffe ist hervorragend geeignet, um Klingen zu binden, ihre Stärke jedoch liegt nicht in der Wucht eines Schlags. Nimm dich in Acht vor zweihändig geführten Häuen mit langen Waffen. Mit dem Havener Messer bist du deinem Gegner oft sehr nahe, was gut ist, wenn du nur wenig Raum hast, um zu manövrieren. Aber du willst beweglich bleiben dabei.«—Schwertmeisterin Scanlail ni Uinin, zu einem Schüler, der in die Welt ziehen wollte, 1034 BF
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;3.0;82;-1.0;Helden_der_Siebenwindküste;1000;Die Klinge des Havener Messers ist einseitig geschärft und etwas kürzer als die eines Langschwerts. Besonders bei Kämpfen auf engem Raum gewinnt man daher leicht die Oberhand. Mit der Spitze sind wirkungsvolle Stiche möglich, die robuste Klinge erlaubt gut gezielte Häue, die jedoch im Vergleich zu größeren Klingen etwas an Wucht einbüßen.Ein Markenzeichen dieser Waffe, die zumeist nur über eine schmale Parierstange verfügt, ist der sogenannte Wehr- oder Rüstnagel. Durch dieses zusätzliche Parier- element wird zum einen der Handrücken geschützt, zum anderen bietet es verschiedene Möglichkeiten in der Anbindung der gegnerischen Klinge.Die meisten Exemplare sind schmucklos ausgeformt, handelt es sich dabei doch vornehmlich um Waffen, die von Bürgern und der freien Landbevölkerung getragen werden. Mittlerweile haben aber auch Waffenknechte und Soldvolk der Siebenwindküste die kompakten Klingen für sich entdeckt. Der Kampfstil der hiesigen Schwertgesellen scheint wie für diese Waffengattung geschaffen, und inzwischen bildet Meisterin Scanlail ni Uinin sogar hauptsächlich am Havener Messer aus.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;4.0;82;-1.0;Helden_der_Siebenwindküste;1300;Der Albernische Langbogen
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;5.0;82;-1.0;Helden_der_Siebenwindküste;900;»Kein Wunder, dass die albernischen Aufständischen diese Waffe der Niedertracht so gerne benutzen, bevorzugt aus dem Hinterhalt und natürlich ohne Vorwarnung. Da müssen sie ihren Opfern nämlich nicht ins Gesicht schauen, diese Feiglinge! Ein einziger Heckenschütze ist schon eine echte Gefahr, aber wenn sie sich zusammenrotten und gleich im Dutzend antreten, dann sind all jene des Todes, die arglos sind oder keinen Schild haben.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;6.0;82;-1.0;Helden_der_Siebenwindküste;1000;Genau
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;7.0;82;-1.0;Helden_der_Siebenwindküste;900;so ist es uns ergangen, und ein ganzes Banner der Elenviner Flussgarde wurde einfach ausgelöscht! Die Abtrünnigen haben uns beim Meierhof aufgelauert. Das Sirren der Pfeile, die Schreie der Sterbenden und Verletzten, das werde ich mein Lebtag nicht vergessen. Zum Glück trug ich meinen Schild auf dem Rücken, sonst hätte es mich wohl auch erwischt. Wie ich entkommen bin? Nun ... ich denke, sowas nennt man dann einen taktischen Rückzug.«
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;8.0;82;-1.0;Helden_der_Siebenwindküste;1000;—ein Nordmärker Ritter, nach dem Massaker von Calladûn, 1027 BF
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;9.0;82;-1.0;Helden_der_Siebenwindküste;1000;Der Albernische Langbogen wird meist aus dem Holz von Esche oder Eibe gefertigt, seltener aus Ulmen- oder Ahornholz. Es braucht eine hohe Körperkraft und lange Jahre der Übung, um diese Art von
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;10.0;82;-1.0;Helden_der_Siebenwindküste;1000;Bogen sinnvoll einsetzen zu können, denn häufig ist
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;11.0;82;-1.0;Helden_der_Siebenwindküste;1000;er genauso lang, wie sein Schütze groß ist. Aus diesem Grund kann er nicht vom Rücken eines Pferdes aus eingesetzt werden und eignet sich auch nur in offenem Gelände, wie den Weiten des Seenlands oder der Abagunder Heide, zur Jagd.
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;82;-1.0;Helden_der_Siebenwindküste;900;Das enorme Zuggewicht bringt sowohl hohe Reichweite als auch große Durchschlagskraft mit sich, weswegen die albernischen Schützen bis heute im Kampf gefürchtet sind. So manches Mal haben sie Scharmützel mit zwei oder drei Salven entschieden, die sie aus sicherer Entfernung abfeuern konnten. Es heißt, dass nicht einmal eine schwere Garether
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;82;-1.0;Helden_der_Siebenwindküste;1000;Das Havener MesserKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;82;-1.0;Helden_der_Siebenwindküste;1000;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;82;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;16.0;82;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;82;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;18.0;82;-1.0;Helden_der_Siebenwindküste;1000;Havener Messer
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;19.0;82;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+3GE/KK 150/0mittel0,50 Stn75 HF200 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;20.0;82;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;21.0;82;-1.0;Helden_der_Siebenwindküste;1000;In beengter Umgebung zählt das Havener Messer als Waffe mit kurzer Reichweite. Die Erschwernis von 2 Punkten auf das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;22.0;82;-1.0;Helden_der_Siebenwindküste;1000;Binden
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;23.0;82;-1.0;Helden_der_Siebenwindküste;1000;(siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;24.0;82;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;25.0;82;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;26.0;82;-1.0;Helden_der_Siebenwindküste;1000;161
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;27.0;82;-1.0;Helden_der_Siebenwindküste;1000;) entfällt.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;28.0;82;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;29.0;82;-1.0;Helden_der_Siebenwindküste;1000;Mit einem Havener Messer sind Paraden gegen Zweihandhiebwaffen und Zweihandschwerter um –2 erschwert.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;30.0;82;-1.0;Helden_der_Siebenwindküste;1000;Wuchtschläge
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;82;-1.0;Helden_der_Siebenwindküste;1000;sind mit dem Havener Messer nur um zusätzlich –1 erschwert durchzuführen.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;32.0;82;-1.0;Helden_der_Siebenwindküste;1000;»Hrangarsdreck, Geron! Dich möchte ich mit deinem Anderthalbhänder mal unter Deck kämpfen sehen. Nach dem ersten Schlag bleibt der dir doch in irgendeinem verdammten Balken stecken. Und dann nehmen sie dich mit ihren Havener Messern
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;33.0;82;-1.0;Helden_der_Siebenwindküste;1000;aus wie einen Thunfisch, das wohl!«
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;34.0;82;-1.0;Helden_der_Siebenwindküste;1000;—Tjalva Garheltdottir, Premer Hetja»Lass ihn, Liebes. Der verdaut noch immer seine Niederlage gegen die Havener Schwertgesellin. Armer Geron, das war wohl zu viel für sein Ego.«—Rovena aus dem Überwals, bornische Katzenhexe»Vielleicht sind diese Havener Messer ja ganz praktisch, aber ich lasse lieber keinen Gegner so nah ran. Zweihandschwerter kann man auch kurz greifen, ich weiß gar nicht ...«—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;83;-1.0;Helden_der_Siebenwindküste;1200;Rüstkammer der Siebenwindküste
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;2.0;83;-1.0;Helden_der_Siebenwindküste;900;Platte den Pfeilen eines Langbogens widerstehen könne. Schilde hingegen haben sich bei der Abwehr der Geschosse
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;3.0;83;-1.0;Helden_der_Siebenwindküste;900;häufig bewährt, wenngleich ein Langbogenpfeil aus kurzer
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;4.0;83;-1.0;Helden_der_Siebenwindküste;900;Distanz auch einen Holzschild zu durchschlagen vermag.
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;5.0;83;-1.0;Helden_der_Siebenwindküste;1000;Im Bürgerkrieg zwischen Albernia und den Nordmarken setzten die Aufständischen, allen voran die gefürchteten Blauen Füchse, Langbögen oft aus dem Hinterhalt ein. Nur so konnten sie damals die schwer gerüsteten und im Nahkampf deutlich überlegenen Heerhaufen des Nordmärker Herzogs schwächen. Solche Partisanentaktiken
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;6.0;83;-1.0;Helden_der_Siebenwindküste;1000;werden häufig als unrondrianisch angeprangert, sind je
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;7.0;83;-1.0;Helden_der_Siebenwindküste;1000;-doch hoch effektiv, wie man etwa am Ausgang des Massakers von Calladûn sehen kann.Wurzelholzkeulen werden überall in Albernia benutzt, denn sie unterliegen keinerlei Verboten, wie etwa mancherorts Schwerter oder Dolche. Meist werden sie aus Weißdorn oder Schwarzdorn hergestellt, die oftmals geeignete Wurzelknoten bilden. Ihr Holz wird mit Anornîn-Butter eingeschmiert und über Feuer geräuchert, um es zu härten. So erhalten die Wurzelholzkeulen ihre charakte-
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;8.0;83;-1.0;Helden_der_Siebenwindküste;1000;ristische, schimmernde Oberfläche. Mit dem
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;9.0;83;-1.0;Helden_der_Siebenwindküste;1000;Wurzelknoten der Keule werden im Kampf heftige Schläge ausgeteilt, man kann damit aber auch wirkungsvoll blocken oder den Gegner betäuben.Es wird vermutet, dass die Shillelaghs ursprünglich Werkzeuge der Fischer waren, die damit den gefangenen Fisch erschlugen. Manchen Wurzelholzkeulen, vor allem denen aus Weißdornholz, wird nachgesagt, dass sie besonders wirkungsvoll gegen Feenwesen sein sollen, allerdings verweisen die meisten Gelehrten solche Überlieferungen ins Reich der Märchen.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;10.0;83;-1.0;Helden_der_Siebenwindküste;900;Albernischer Langbogen (Deidranath)Komplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;11.0;83;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;12.0;83;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPLZ
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;83;-1.0;Helden_der_Siebenwindküste;800;RW
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;14.0;83;-1.0;Helden_der_Siebenwindküste;900;MunitionstypGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;83;-1.0;Helden_der_Siebenwindküste;1000;Albernischer Langbogen (Deidranath)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;16.0;83;-1.0;Helden_der_Siebenwindküste;1000;(2H)Bögen1W6+82 Aktionen20/100/160Pfeile0,75 Stn200 HF80 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;83;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;18.0;83;-1.0;Helden_der_Siebenwindküste;1000;Führt der Träger eines Albernischen Langbogens einen
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;19.0;83;-1.0;Helden_der_Siebenwindküste;1000;Ballistischen Schuss
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;20.0;83;-1.0;Helden_der_Siebenwindküste;1000;(siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;83;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;22.0;83;-1.0;Helden_der_Siebenwindküste;1000;
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;23.0;83;-1.0;Helden_der_Siebenwindküste;1000;Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;24.0;83;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;25.0;83;-1.0;Helden_der_Siebenwindküste;1000;151
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;26.0;83;-1.0;Helden_der_Siebenwindküste;1000;) aus, erhöht sich die Reichweite um 20 Schritt. Gegen Rüstungen mit RS 4 oder mehr richtet der Albernische Langbogen +1 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;27.0;83;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;28.0;83;-1.0;Helden_der_Siebenwindküste;1000;Es ist nicht möglich, einen Albernischen Langbogen vom Rücken eines Reittiers aus einzusetzen. In Wäldern, die als schwierige oder schlechtere Geländetypen eingestuft werden, erleiden Schützen mit dem Langbo-
+PDType0Font/PDCIDFontType2, PostScript name: BOQBIM+GentiumBasic;false;false;29.0;83;-1.0;Helden_der_Siebenwindküste;1000;gen eine Erschwernis von –2 zusätzlich zu allen weiteren Modifikatoren des Schusses (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;30.0;83;-1.0;Helden_der_Siebenwindküste;1000;Regelwerk
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;31.0;83;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;32.0;83;-1.0;Helden_der_Siebenwindküste;1000;349
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;33.0;83;-1.0;Helden_der_Siebenwindküste;1000;).
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;34.0;83;-1.0;Helden_der_Siebenwindküste;1000;»Ich bin mir ziemlich sicher, dass die Albernier sich diesen Langbogen von den Auelfen abgeguckt haben, denn er ähnelt unseren Elfenbögen schon sehr. Vielleicht sind sie nicht ganz so kunstvoll verziert und vermutlich auch nicht so perfekt geschnitzt wie ein Elfenbogen, aber es ist schon eine beeindruckende Waffe.«
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;35.0;83;-1.0;Helden_der_Siebenwindküste;1000;—Layariel Wipfelglanz, elfische Auenläuferin
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;36.0;83;-1.0;Helden_der_Siebenwindküste;900;Albernische Wurzelholzkeule (Shillelagh)Komplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;37.0;83;-1.0;Helden_der_Siebenwindküste;900;
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;38.0;83;-1.0;Helden_der_Siebenwindküste;1000;prim
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;39.0;83;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;40.0;83;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;41.0;83;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;42.0;83;-1.0;Helden_der_Siebenwindküste;1000;Wurzelholzkeule (Shillelagh)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;43.0;83;-1.0;Helden_der_Siebenwindküste;1000;Hiebwaffen1W6+2KK 130/ –2mittel1 Stn90 HF5 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;44.0;83;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;45.0;83;-1.0;Helden_der_Siebenwindküste;1000;Wird die Wurzelholzkeule zweihändig geführt, richtet sie +2 TP statt nur +1 TP an (siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;46.0;83;-1.0;Helden_der_Siebenwindküste;1000;Regelwerk
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;47.0;83;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;48.0;83;-1.0;Helden_der_Siebenwindküste;1000;366
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;49.0;83;-1.0;Helden_der_Siebenwindküste;1000;). Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;50.0;83;-1.0;Helden_der_Siebenwindküste;1000;Betäubungsschlag
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;51.0;83;-1.0;Helden_der_Siebenwindküste;1000;(siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;52.0;83;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;53.0;83;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;54.0;83;-1.0;Helden_der_Siebenwindküste;1000;152
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;55.0;83;-1.0;Helden_der_Siebenwindküste;1000;) richtet 1W3+1 statt nur 1W3 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;56.0;83;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;57.0;83;-1.0;Helden_der_Siebenwindküste;1000;Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;58.0;83;-1.0;Helden_der_Siebenwindküste;1000;Schildspalter
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;59.0;83;-1.0;Helden_der_Siebenwindküste;1000;kann nicht ausgeführt werden.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;60.0;83;-1.0;Helden_der_Siebenwindküste;1000;»Mit der Shillelagh muss man einen Gegner nicht gleich umbringen, und damit kann man sicher auch das Korn dreschen. Ich sollte mir ein Exem- plar dieser überaus perainegefälligen Waffe zulegen! Ein solch wehrhaftes Werkzeug ist mir lange nicht untergekommen.«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;61.0;83;-1.0;Helden_der_Siebenwindküste;1300;Die Albernische Wurzelholzkeule
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;62.0;83;-1.0;Helden_der_Siebenwindküste;1000;»Es gibt Gegenden, in denen der Adel es nicht gerne sieht, wenn sich die Freien bewaffnen, selbst, wenn das unser gutes Recht ist. In manchen Städten ist das Tragen von Klingenwaffen ebenfalls untersagt. Aber wir sind ja einfallsreiche Leute, so haben unsere Vorfahren eine Keule ersonnen, die man auch als Werkzeug oder Gehhilfe benutzen kann, die Shillelagh. Glaube mir, echte Könner mit der Keule vermögen es damit, einem Gegner den Schädel einzuschlagen oder einen Angreifer geschickt zu entwaffnen. Auch wenn es nicht wie eine Waffe aussieht, du solltest den Hieb einer Wurzelholzkeule niemals unterschätzen.«—Larric Rothair, Zauberbarde, neuzeitlich
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;1.0;84;-1.0;Helden_der_Siebenwindküste;1300;Der Albernische Langdolch
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;2.0;84;-1.0;Helden_der_Siebenwindküste;1000;»Der Albernier, der ohne Waffe vor die Tür geht, den musst du mir erstmal zeigen. Mein Langdolch ist ein besonders prächtiges Stück, hier, schau dir den Griff an. Das ist der Flussvater, in seiner ganzen Majestät und mit Silber gekrönt, wie es seiner würdig ist. Aber lass dich bloß nicht täuschen: Nur weil nicht jeder den Langdolch offen am Gürtel trägt, heißt das nicht, dass er keinen dabei hat. Viele benutzen ihn als letzte Wehr und verbergen ihn daher im Stiefelschaft.«—Larric Rothair, Zauberbarde, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;3.0;84;-1.0;Helden_der_Siebenwindküste;1000;Auch wenn er gegen schwer gerüstete Gegner nur über wenig Durchschlagskraft verfügt, gilt der Langdolch als typisch albernische Waffe, da er bei der Bevölkerung weit verbreitet ist. Er wird nicht
+PDType0Font/PDCIDFontType2, PostScript name: FTQSCI+GentiumBasic;false;false;4.0;84;-1.0;Helden_der_Siebenwindküste;1000;nur als Waffe benutzt, sondern dient häufig auch
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;5.0;84;-1.0;Helden_der_Siebenwindküste;1000;als Essmesser oder schlicht dazu, den Reichtum eines Freien anzuzeigen.Der Langdolch ist ein zweischneidiger, langer Dolch, der in Albernia so gut wie nie eine Parierstange aufweist. Der hölzerne Griff ist üblicherweise spindelförmig ausgestaltet und mit aufwändigen Schnitzereien verziert, die Motive aus der albernischen Sagenwelt abbilden. Sehr beliebt sind auch verschlungene Zierden, die als Ätzungen oder Gravuren auf der Fehlschärfe aufgebracht werden. Manche umwickeln ihren Griff aber auch mit eingefärbtem Leder, während wohlhabende Albernier gern Beschläge aus Gold oder Silber anbringen lassen, um ihren Wohlstand offen zur Schau zu stellen.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;6.0;84;-1.0;Helden_der_Siebenwindküste;900;Albernischer LangdolchKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;7.0;84;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;8.0;84;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;9.0;84;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;10.0;84;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;11.0;84;-1.0;Helden_der_Siebenwindküste;1000;Albernischer Langdolch
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;12.0;84;-1.0;Helden_der_Siebenwindküste;1000;Dolche1W6+2GE 140/–1kurz0,5 Stn45 HF55 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;84;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;84;-1.0;Helden_der_Siebenwindküste;1000;Gegen Waffen mit Reichweite mittel hat der Langdolch nur einen Abzug von 1 auf AT (statt 2).
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;84;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;16.0;84;-1.0;Helden_der_Siebenwindküste;1000;Gegen Rüstungen mit RS 4 oder mehr richtet der Langdolch –1 TP an.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;84;-1.0;Helden_der_Siebenwindküste;1000;Albernische Spießaxt (Usascoall)
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;18.0;84;-1.0;Helden_der_Siebenwindküste;900;Komplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;19.0;84;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;20.0;84;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;21.0;84;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;22.0;84;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;23.0;84;-1.0;Helden_der_Siebenwindküste;1000;Spießaxt (Usascoall)
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;24.0;84;-1.0;Helden_der_Siebenwindküste;1000;(2H)Stangewaffen1W6+5GE 15 / KK 140/–2lang2,5 Stn200 HF160 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;25.0;84;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;26.0;84;-1.0;Helden_der_Siebenwindküste;1000;Das Manöver
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;27.0;84;-1.0;Helden_der_Siebenwindküste;1000;Herunterstoßen
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;28.0;84;-1.0;Helden_der_Siebenwindküste;1000;(siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;29.0;84;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;30.0;84;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;31.0;84;-1.0;Helden_der_Siebenwindküste;1000;153
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;32.0;84;-1.0;Helden_der_Siebenwindküste;1000;) ist nur um –2 erschwert (statt –4).
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;33.0;84;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;34.0;84;-1.0;Helden_der_Siebenwindküste;1000;Wendet der Träger die Sonderfertigkeit
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;35.0;84;-1.0;Helden_der_Siebenwindküste;1000;Pikenwall
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;36.0;84;-1.0;Helden_der_Siebenwindküste;1000;(siehe
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;37.0;84;-1.0;Helden_der_Siebenwindküste;1000;Aventurisches Kompendium
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;38.0;84;-1.0;Helden_der_Siebenwindküste;1000;Seite
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;39.0;84;-1.0;Helden_der_Siebenwindküste;1000;154
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;40.0;84;-1.0;Helden_der_Siebenwindküste;1000;) an, ist seine AT zusätzlich um –2 erschwert.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;41.0;84;-1.0;Helden_der_Siebenwindküste;1300;Die Albernische Spießaxt
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;42.0;84;-1.0;Helden_der_Siebenwindküste;1000;»Als die Mordmärker kamen, hat sich gezeigt, warum wir diese Waffe auch ›Adelsschreck‹ nennen. Die haben wohl gedacht, dass sie uns einfach so niederreiten können, die aufgeblasenen Ritter. Aber weit gefehlt! Mit der Usascoall haben wir sie damals der Reihe nach von ihrem hohen Ross geholt. Nach einem solchen Sturz wird auch der beste Ritter ganz kleinlaut. Allein der Anblick von einem Dutzend Spießäxten kann dafür sorgen, dass die
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;43.0;84;-1.0;Helden_der_Siebenwindküste;1000;Kavallerie es sich zweimal überlegt, einfach kopflos gegen
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;44.0;84;-1.0;Helden_der_Siebenwindküste;1000;deine Truppe anzureiten.«
+PDType0Font/PDCIDFontType2, PostScript name: XCPWUY+GentiumBasic-Italic;false;true;45.0;84;-1.0;Helden_der_Siebenwindküste;1000;—Jorm Dunkelholz, gräflich Bredenhager Grenzreiter,
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;46.0;84;-1.0;Helden_der_Siebenwindküste;1000;neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;47.0;84;-1.0;Helden_der_Siebenwindküste;1000;Im Bredenhager Land ist die Spießaxt bei den Landwehren weit verbreitet. Ihr ausladendes Axtblatt wird auf einen langen, hölzernen Schaft aufgesetzt. Diese Waffe kann äußerst effektiv gegen Reiter eingesetzt werden, was die Nordmärker während des Krieges gegen Albernia schmerzvoll erfahren mussten. Ist die Einheit dann auch noch darin geschult, die Usascoall in Formation einzusetzen, ist sie eine exzellente Waffe.In den Heckenlanden dient die Spießaxt aber auch dazu, um Dornicht und anderes Gestrüpp in Zaum zu halten oder sich einen Pfad ins Unterholz freizuschlagen. Viele Spießäxte sind reine Gebrauchsgegenstände und dementsprechend schlicht gehalten. Die Frauen und Männer des Bredenhager Grafen tragen jedoch einige besonders kunstvolle Exemplare, deren Axtblätter durchbrochen und mit Motiven aus der Nebelwelt des Gundelwalds und des Farindel geschmückt sind. Diese Usascoall sind kostbare Geschenke für Vertraute oder Recken, die sich um Bredenhag verdient gemacht haben.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;48.0;84;-1.0;Helden_der_Siebenwindküste;1000;»Sieht doch gar nicht so schlecht aus. Ich wette, damit kannst du auch gut eine Palisade verteidigen, wenn du von oben herab Schläge austeilst. Da möchte ich nicht drunter stehen.«—Tjalva Garheltdottir, Premer Hetja»Der Langdolch, den ich stibitzt habe, ist ausnehmend hübsch verziert. Dafür bekomme ich sicher einen guten Preis beim Hehler meines Vertrauens. Vielleicht behalte ich ihn aber auch, der liegt recht gut in der Hand.« —Carolan Calavanti, Vinsalter Streuner
+PDTrueTypeFont KYDWUY+Andalus;false;false;1.0;85;-1.0;Helden_der_Siebenwindküste;1200;Rüstkammer der Siebenwindküste
+PDTrueTypeFont KYDWUY+Andalus;false;false;2.0;85;-1.0;Helden_der_Siebenwindküste;1300;84
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;3.0;85;-1.0;Helden_der_Siebenwindküste;1300;Der Seesäbel
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;4.0;85;-1.0;Helden_der_Siebenwindküste;1000;»Wer es etwas wuchtiger mag als das Entermesser, der greift zum Säbel. Die meisten, die in der mittelreichischen Flotte ihren Dienst tun, wie ihr es dereinst zu tun gedenkt, wählen zwischen diesen beiden Klingen. Einige unserer Seekrieger verstehen sich meisterlich auf den Umgang, und wenn die ganze Mannschaft blankzieht, dann ist das schon ein erhabener Anblick. Das Piratenpack hat sich schon mehrfach eingenässt und die Waffen gestreckt, weil wir nur mit den Säbeln gerasselt haben! «—Uralina von Aichhain, Kommandantin der Harbener Seekadettenschule, neuzeitlich
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;5.0;85;-1.0;Helden_der_Siebenwindküste;900;Der Seesäbel ist eine längere Variante des Entermessers und unterscheidet sich nur wenig von seinem ursprünglich für die Reiterei gedachten Verwandten. Seine Klinge ist leicht gebogen, geschliffen scharf auf der einen Seite ebenso wie im oberen Viertel der Gegenseite. Die meisten Seesäbel haben einen einfachen Bügel, der den Griffkorb des Entermessers ersetzt, um an Gewicht zu sparen. Man kann die vielseitige Waffe sowohl zum Hauen als auch zum Stechen einsetzen, und auch im engen Kampfgetümmel an oder unter Deck leistet sie einem geschickten Träger hervorragende Dienste. Es gibt prächtige und
+PDType0Font/PDCIDFontType2, PostScript name: ZWFUMQ+GentiumBasic;false;false;6.0;85;-1.0;Helden_der_Siebenwindküste;900;aufwändig verzierte Exemplare, die gerne von Offizieren
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;7.0;85;-1.0;Helden_der_Siebenwindküste;900;getragen oder verdienten Veteranen als Geschenk überreicht werden. Meist zieren dann efferdgefällige Motive die Waffenbügel und Fehlschärfen, oft aber auch ein Signet oder der Wahlspruch der militärischen Einheit.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;8.0;85;-1.0;Helden_der_Siebenwindküste;900;SeesäbelKomplexität
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;9.0;85;-1.0;Helden_der_Siebenwindküste;900;einf
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;10.0;85;-1.0;Helden_der_Siebenwindküste;900;NameKampftechnikTPL+S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;11.0;85;-1.0;Helden_der_Siebenwindküste;800;AT/PA-Mod
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;12.0;85;-1.0;Helden_der_Siebenwindküste;900;RWGewichtLängePreis
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;13.0;85;-1.0;Helden_der_Siebenwindküste;1000;Seesäbel
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;14.0;85;-1.0;Helden_der_Siebenwindküste;1000;Schwerter1W6+3GE/KK 150/0mittel0,75 Stn90 HF180 S
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;15.0;85;-1.0;Helden_der_Siebenwindküste;1000;Waffenvorteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;16.0;85;-1.0;Helden_der_Siebenwindküste;1000;In beengter Umgebung erleidet der Seesäbel 2 Punkte weniger Abzüge auf AT und PA.
+PDTrueTypeFont HWUEEE+GentiumBasic-Bold;true;false;17.0;85;-1.0;Helden_der_Siebenwindküste;1000;Waffennachteil
+PDTrueTypeFont DQRGAM+GentiumBasic;false;false;18.0;85;-1.0;Helden_der_Siebenwindküste;1000;Gegen Rüstungen mit RS 4 oder höher richtet die Waffe –1 TP an.
+PDTrueTypeFont VZQKSC+GentiumBasic-Italic;false;true;19.0;85;-1.0;Helden_der_Siebenwindküste;900;»Zumindest sind die Dinger nicht ganz so mickrig wie das, was man hierzulande üblicherweise trägt, wenn man an Bord geht. Das Schiff wird schon nicht untergehen, nur weil jemand eine wuchtige Waffe dabei hat, bei Swafnir!«

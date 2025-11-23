@@ -1,477 +1,477 @@
 FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
-PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1200;Die Rüstkammer
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Baccanaq (Pantherklaue)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisBaccanaq
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Raufen1W6+3GE/KK 140/–1kurz0,6 Stn30 HF80 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;4.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wird ein mit dem
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;6.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Baccanaq
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ausgeführter Angriff pariert, erhält der Träger nicht, wie beim Raufen üblich, den halben Waffenschaden. Bei Angriffen mit dem
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;8.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Baccanaq
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;muss man also die Paraden bewaffneter Gegner nicht fürchten, allerdings immer noch ihre Angriffe.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;10.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Unterläuft dem Träger ein bestätigter Patzer, gilt die Waffe als zerstört. Dies gilt zusätzlich zur normalen Patzerwirkung.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;12.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Blasrohr (Chabala)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreisBlasrohr (kurz)
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Blasrohre1W3+12 Aktionen2/10/15Blasrohrpfeile0,3 Stn40 HF40 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;14.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;16.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schüsse auf die Distanz
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;weit
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sind nicht durch die Reichweite erschwert.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;20.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bei Schüssen auf die Distanz
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;22.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;weit
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sinken die TP um 1 weiteren Punkt (also insgesamt 1W3–1, wenn der TP-Malus für die Reichweite
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;24.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;weit
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;miteingerechnet wird).
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;NameKampftechnikTPLZRWMunitionstypGewichtLängePreisBlasrohr (lang)
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Blasrohre1W3–13 Aktionen10/50/80Blasrohrpfeile1 Stn120 HF60 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;30.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Beim Zielen (siehe
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;32.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;34.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;242
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;) erhöht sich die Erleichterung um insgesamt +1 (unabhängig davon, wie lange man zielt).
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;36.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Falls durch die Bewegung des Ziels eine Erschwernis zum Tragen kommt (siehe
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;40.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;242
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;), so erhöht sich diese zusätzlich um –1.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;42.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Das Blasrohr der Keke-Wanaq
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Sieh her, der Pfeil ist klein, nicht länger als der kürzeste meiner Finger. Aber mit dem richtigen Gift versehen, vermag er selbst einen Schattenlöwen mit einem einzigen Stich zu töten.«—Sha-Keto, geachtete Kriegerin der Keke-Wanaq, bei der der Unterweisung ihrer Tochter, neuzeitlich
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Das Blasrohr zählt bei den meisten Waldmenschenstämmen zu den wichtigsten Jagd- und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kriegswaffen. Gewöhnlich aus Bambusrohr her
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-gestellt und mit einem Mundstück aus Schilfrohr versehen, ist es sowohl leicht als auch stabil und wet-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;47.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;terbeständig. Eine geübte Schützin vermag
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;damit kleine Pfeile allein mit der Kraft ihres Atems mehrere Dutzend Schritt weit zu ver-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schießen – und das völlig lautlos. Die ver
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-breitetste Form des Blasrohrs misst etwa
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;51.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;zwei Schritt. Es existiert aber auch eine kür
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;52.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-zere Variante, die nur etwa ein Drittel dieser Länge aufweist und deren Reichweite deutlich
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;53.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;geringer ist.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;54.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Als Pfeile werden kleine, nadelförmige Knochenstücke verwendet, deren Spitze zur Kapil-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;55.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;lare ausgehölt wurde und das Gift beinhaltet.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Um ihre Flugeigenschaften zu verbessern, sind die Pfeile mit einem sorgfältig zurechtgeschnit-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;57.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tenen Gefieder versehen. Aufgrund ihrer gerin
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-gen Größe eignen sich die nadelkleinen Pfeile vor allem gegen ungeschützte Körperstellen
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;59.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Neue Kampftechnik Blasrohre
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;60.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Es gibt unterschiedlich lange Blasrohre. Kürzere
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;61.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Versionen, die auch eine geringere Reichweite aufweisen, sind beliebt bei tulamidischen und südaventurischen Attentätern, da man sie leicht unter der
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;62.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kleidung verbergen kann. Lange Blasrohre kommen vor allem bei der Jagd zum Einsatz. Ein Blasrohrpfeil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;63.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;vermag kaum eine schwere Verletzung hervorzurufen, aber die Gefahr besteht auch nicht im Pfeil, son-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;64.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;dern im Gift, in das die Spitze getaucht wurde.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;65.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Leiteigenschaft
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;66.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Fingerfertigkeit
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;67.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Steigerungsfaktor
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;68.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;B
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;69.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kampfsonderfertigkeiten für Blasrohre
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;70.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Folgende Kampfsonderfertigkeiten aus dem
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;71.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;72.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ab Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;73.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;246
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;74.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;können mit der Kampftechnik
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;75.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Blasrohre
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;76.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;genutzt werden: Aufmerksamkeit, Belas-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;77.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tungsgewöhnung I+II, Feindgespür, Kampfreflexe I-III, Präziser Schuss/Wurf I-III, Verbessertes Aus
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;78.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;79.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;weichen I-III.und verursachen nur selten ernsthafte Verletzungen.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;80.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die wahre Gefahr geht von dem in den Pfeilen enthal-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;81.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tenen Gift aus. Die Stämme des Dschungels kennen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;82.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;unterschiedliche Kontaktgifte, die sie verwenden, um Jagdbeute oder Feinde zu lähmen, zu schwächen oder
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;83.0;8;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;zu töten.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Die Entdeckerpeitsche
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Warum ich niemals ohne meine Peitsche in den Dschungel aufbreche? Nun, das gute Stück hat mir schon mehr als einmal das Leben gerettet.«—Notia Botero-Montez, meridianische Naturkundlerin und Entdeckerin, 1043 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Mit einer Länge von drei Schritt verschafft die Entdeckerpeitsche ihrem Träger eine erhebliche Reichwei-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;te. Sie besteht aus miteinander verflochtenen Leder
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schnüren, die in einer doppelzüngigen Spitze enden.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Für die Herstellung wird meist ein besonders reißfes-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tes und belastbares Leder verwendet. Bei hochwertigen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Peitschen ist sogar ein Strang aus dem feuerbeständigen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Iryanleder der südaventurischen Sumpfechsen einge
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;flochten. Spätestens seitdem die berühmtberüchtigte
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Notia Botero-Montez die Entdeckerpeitsche zu einem ihrer Markenzeichen erkoren hat, gilt sie auch unter abenteuerlustigen Gelehrten und Questadores, die aufbrechen, um dem Dschungel seine Geheimnisse zu entreißen, als unerlässliches Hilfsmittel für eine erfolgrei-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;che Expedition.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Neue Kampftechnik Peitschen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Üblicherweise werden Peitschen dazu eingesetzt,
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;17.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;um ein Zug- oder Reittier anzutreiben. Doch auch
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;18.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Sklavenhalter benutzen Peitschen, um Sklaven ein-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;19.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;zuschüchtern und Verfehlungen zu bestrafen. Peit
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;20.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-schen eignen sich zudem auch, um einen Gegner von den Beinen zu holen oder um die Waffe um ei-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;21.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nen Ast zu schlingen und als Seil zu benutzen.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;22.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Besonderheiten
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Da sie wegen der nur schwer kontrollierbaren Bewegungen kaum abzuwehren sind,
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ist die Parade gegen Peitschen um –2 erschwert.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilde können darüber hinaus gegen Peitschen nur
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ihren einfachen Bonus auf die Verteidigung nutzen.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Angriffe mit Peitschen gelten bereits ab einem Er-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;28.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gebnis von 19 als Patzer. Mit Peitschen ist keine Pa
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;30.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;rade möglich.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Leiteigenschaft
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Fingerfertigkeit
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Steigerungsfaktor
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;B
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kampfsonderfertigkeiten für Peitschen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Folgende Kampfsonderfertigkeiten aus dem
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ab Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;246
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;können mit der Kampftechnik
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;41.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Peitschen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;genutzt werden: Aufmerksamkeit, Belas-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;43.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tungsgewöhnung I+II, Berittener Kampf, Entwaff
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nen, Feindgespür, Finte I-III, Kampfreflexe I-III, Schnellziehen, Verbessertes Ausweichen I-III, Zu
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Fall bringen
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;47.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Diese Peitsche, die sie da trägt, macht
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;48.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schon etwas her, findet ihr nicht? Wenn wir
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;49.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;die nächste Stadt erreichen, hole ich mir auch so eine.«—Carolan Calavanti, Vinsalter Streuner»Um einen weiter entfernt stehenden Gegner zu überraschen, mag das Ding ja recht nützlich sein, aber wenn er erstmal an dich herangekommen ist, hast du nichts in der Hand, um seine Hiebe zu parieren.«—Geron Waisenmacher, Doppelsöldner
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;50.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Entdeckerpeitsche (Ana-Indi) Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisEntdeckerpeitsche
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;51.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Peitschen1W6FF 160/–lang3,5 Stn300 HF80 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Spezialmanöver, die mit einer Entdeckerpeitsche ausgeführt werden, sind Proben auf AW (nicht jedoch auf PA) um –1 zusätzlich erschwert.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;54.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;55.0;9;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nach einem Patzer wird das Würfelergebnis des Bestätigungswurfes um 1 erhöht.
-PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1200;Die Rüstkammer
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Der Jagdspeer der Mohaha
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;3.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Kamaluq nahm Speer und Wasserschlauch, denn er wollte auf die Jagd gehen. Als er seine Hütte verließ, begegnete er einem Frosch, der quakte: ›Geh bei Seite, du stehst mir in der Sonne.‹ Da sprach Kamaluq: ›Was quakt der Frosch den Jaguar an?‹ Und er durchbohrte ihn mit seinem Speer.«—Beginn einer weit verbreiteten Taya der Mohaha, seit vielen Generationen überliefert
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;4.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nicht nur bei den Sippen der Mohaha, sondern auch bei den meisten anderen Stämmen des Waldes zählt der Speer zu den gebräuchlichsten Jagd-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;5.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;waffen. Der Jagdspeer lässt sich vielseitig gegen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;6.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;kleine und größere Beutetiere, aber auch gegen unwillkommene Fremde oder Krieger feindlicher Stäm-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;7.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;me einsetzen. Die zum Bau der Waffe benötigten Ma
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;8.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-terialien sind im Dschungel reichlich vorhanden und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;9.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;die Anfertigung ist vergleichsweise einfach. Am Ende
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;10.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;des hölzernen Schafts ist eine stabile dreieckige Spit-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;11.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ze aus Stein, Knochen oder Horn befestigt.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;12.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Während gewöhnliche Jagdspeere schlichte Gebrauchsgegenstände sind, existieren bei vielen Stämmen auch einige besondere, reich verzierte Ex-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;13.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;emplare, denen eine rituelle Bedeutung zukommt.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;14.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Diese Speere werden beispielsweise als Warnung vor einer
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;15.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Tabu
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-Zone im Dschungel aufgestellt oder einem
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;17.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;feindlichen Stamm als Kriegserklärung überbracht.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Wisst ihr noch, wie wir damals Hals über
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;19.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kopf aus diesem Waldmenschendorf flüch
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;20.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-ten mussten? Die Narbe von dem Speer kann man immer noch sehen.«—Carolan Calavanti, Vinsalter Streuner
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;21.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Jagdspeer der Mohaha (Moha-Tepe)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisJagdspeer der Mohaha (2H)
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;22.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Stangenwaffen1W6+4GE/KK 150/–1lang1,5 Stn180 HF60 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;23.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;24.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Tiere der Größenkategorien
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;25.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;mittel
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;26.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;und
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;27.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;groß
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;richtet ein Jagdspeer der Mohaha +1 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder höher richtet der Jagdspeer der Mohaha –1 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Harpune (Nom-Ura)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreisHarpune
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wurfwaffen2W6+12 Aktionen5/20/35–1 Stn110 HF60 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nach einer FK mit der Waffe in der Reichweite
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;37.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;(egal ob getroffen oder verfehlt, nicht jedoch nach einem bestätigten Patzer) kann der Werfer sie wieder in seine Hand zurückholen, wenn er an der Schnur zieht und dafür 1 Aktion aufwendet.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder mehr richtet die Harpune –2 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;41.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Die Harpune
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;42.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Siehst du den großen Fisch mit den schmalen Flossen? Mit meiner Harpune könnte ich ihn von hier aus fangen und wir könnten ihn über unserem Feuer braten. Aber meine Harpune ist zerbrochen, als wir den Abhang heruntergestürzt sind, deshalb werden wir heute keinen Fisch essen.«—Nepi-Luhan, Flusskundiger der Napewanha, neuzeitlich
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Napewanha wie auch die benachbarten Stämme verwenden zur Jagd auf Fische und andere Wassertie-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;44.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;re eine einfache, aber effektive Harpune. Der hölzerne
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;45.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Speerstab wird von einer mit Widerhaken versehenen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;46.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Knochenspitze gekrönt. Am Schaft ist eine lange Schnur aus Leder oder geflochtenen Fasern befestigt, mit de
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;47.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-ren Hilfe die Werferin die Harpune zu sich zurückholen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;48.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;kann. Entweder, um die getroffene Beute zu sich heran
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;49.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-zuziehen oder um nach einem fehlgegangenen Wurf ei-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;50.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nen erneuten Versuch zu wagen. Wenngleich in erster Linie ein Jagdwerkzeug, findet die Harpune in Zeiten der
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;51.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Not auch als Waffe im Kampf gegen menschliche Gegner
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;52.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Verwendung. Der Schwachpunkt der Waffe ist dabei die
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schmale Knochenspitze, die bei einem Schlag gegen Me-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;54.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tallwaffen oder Rüstungen leicht zerbrechen kann.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;55.0;10;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»In Thorwal haben wir auch Harpunen. Wir benutzen sie für die Jagd auf Streifenhaie und Seeschlangen.«—Tjalva Garheltdottir, Premer Hetja»Ja, und im Golf von Riva verwenden die Seeleute sie für die Jagd auf ... Ach, ist nicht so wichtig. Jetzt schau doch nicht gleich so böse.«—Carolan Calavanti, Vinsalter Streuner
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Der Katar der Eidechsenkrieger
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Warum ich glaube, dass der Bursche zu diesen Eidechsenkriegern gehört? Seht selbst, was wir bei ihm gefunden haben. Das ist ein Katar. Er ist einer von den Kämpfern, die diese Aufrüherin Rigabi um sich geschart hat, der Dolch ist der Beweis.«—Sana Tiefhusener, Söldnerhauptfrau, 1043 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Der Katar ist ein Faustdolch, der über eine leicht gebogene Klinge verfügt und mit einem kapuzenar-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tigen Griffschutz versehen ist. Gemeinsam formen Klinge und Kapuze eine stilisierte Eidechse. Die Waffe
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;lässt sich leicht verbergen und auch im Handgemen-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ge oder in beengten Verhältnissen gut führen. Auf den
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Plantagen und in den Stadtstaaten des Südens bringt man den Katar vor allem mit den Eidechsenkriegern in
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Verbindung. Diese sind eine Gruppe von Kämpfern, die
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;zum Glauben an Tsa gefunden haben und erbittert ge-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gen Sklaverei und Sklavenhalter in Meridiana kämpfen.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nicht selten nutzen sie die Möglichkeit, ihre Klingen mit den Giften des Dschungels zu präparieren, um auch einen besser gerüsteten und bewaffneten Gegner über-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;wältigen zu können.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;13.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Das Karmulka
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Dieses Karmulka diente stets dem Schutz unseres Dorfes. Vor dir trug es Cante-Tinza, die damit sieben Sklavenjäger besiegte. Und vor ihr war Tetaka sein Träger, der den großen Schattenlöwen erschlug. Erweise auch du dich als würdig.«—Schamane Tapam-Wah bei der Übergabe des Karmulka an eine Kriegerin seines Stammes, neuzeitlich
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schwerter sind bei den meisten Stämmen der
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waldmenschen kaum verbreitet. Ein Karmulka
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;wird aber, sofern eine Sippe ein solches besitzt, sorgsam gehütet und meist von der stärksten Kriegerin oder dem stärksten Krieger des Dorfes voller
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Stolz getragen. Es handelt sich um ein Schwert aus
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schwarzem Metall von etwa einem Schritt Klingen-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;länge. Der verzierte Griff ahmt häufig die Form ei
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nes Tieres, meist die eines Jaguarkopfes nach. Alle
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;bekannten Karmulka sind erkennbar sehr alt und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;weisen eine exotische Form und Bauweise auf. Es
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;heißt, die wenigen noch existierenden Exemplare stammen von einem anderen Kontinent und keiner der Stämme verfüge mehr über das Wissen um die
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Herstellung einer solchen Waffe. Das Karmulka wird
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;von einem Besitzer an den nächsten weitervererbt, wobei entweder der Träger selbst oder, falls dieser im Kampf den Tod gefunden hat, der Schamane der Sippe
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;28.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;den neuen Hüter der Waffe auswählt. Es ist Tradtion,
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;dass jeder neue Träger der Klinge ein weiteres Detail hinzufügt, etwa in dem er einen Zacken umschleift, ein Loch hinzufügt oder auf andere Weise die Klinge ein
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;30.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;wenig anders formt.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Katar der Eidechsenkrieger (Katar-Za)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKatar der Eidechsenkrieger
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Dolche1W6+1GE 130/0kurz1,5 Stn40 HF70 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nach einem Patzer bei der Attacke wird das Würfelergebnis des Bestätigungswurfes um 1 gesenkt.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Nach einem kritischen Erfolg auf Attacke oder Parade wird das Würfelergebnis des Bestätigungswurfes um 1 erhöht.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Karmulka (Utuluschwert)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKarmulka
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schwerter1W6+4GE/KK 15+1/–1mittel1,25 Stn100 HF240 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 3 oder höher richtet das Utuluschwert +1 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;41.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Das Manöver
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Finte
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ist mit einem Utuluschwert nur um –1 zusätzlich erschwert durchführbar. Nach einem Patzer wird das Würfelergebnis des Bestätigungswurfes zudem um 2 erhöht.
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;45.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Ach was. Ich finde es richtig, was sie tun. Je
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;46.0;11;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-der, der gegen die Sklaverei kämpft, verdient Unterstützung, egal mit welchen Waffen er kämpft – solange es keine schwarze Magie ist.«—Tjalva Garheltdottir, Premer Hetja»Katar? Eidechsenkrieger? Das verstehe ich nicht. Friedfertigkeit zählt zu den wichtigsten Aspekten Tsas. Wie können sie da in ihrem Namen Krieg führen?«—Bruder Hilbert, Perainegeweihter
-PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1200;Die Rüstkammer
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sich bereits tiefer ins Dickicht zurückgezogen und wir konn-
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;3.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ten keine Spur mehr von ihnen finden.«—Bericht des Seeoffizier Diago Delazar, 1034 BF
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Yakosh-Dey sind ein streitlustiger Stamm, dessen Sippen häufig auf Kriegszüge gegen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;benachbarte Stämme, aber auch gegen ko-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;loniale Siedler ausziehen. Der bei ihnen ge
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-bräuchliche Kurzbogen wird aus dem ebenso biegsamen wie belastbaren Holz des ewigen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Dschungels gefertigt. Auffällig ist vor allem
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;der komplexe, oft aufwändig verzierte Griff, der so geformt ist, dass er sich vorzüglich in
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;die Hand des Trägers schmiegt. Der Bogen ist
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;vergleichsweise kompakt, sodass er sich auch im dichten Dschungel gut transportieren und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schnell schussbereit machen lässt. Neben den Yakosh-Dey haben auch viele weitere Waldmen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-schenstämme diese Form des Kurzbogens übernommen, allerdings sind deren Bögen gewöhnlich schlichter gehalten, besitzen sie doch meist nicht die gleiche Erfahrung und Kunstfertigkeit wie die Bogen-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;bauer der Yakosh-Dey.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Der Leichtbauschild
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;16.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Wenn sie mit Pfeilen auf euch schießen, dann verbergt euch hinter euren Schilden. Wenn sie versuchen, euch mit ihren Speeren zu stechen, dann lasst sie an euren Schilden abgleiten. Und wenn sie begreifen, dass sie euch nicht gewachsen sind, dann erhebt eure Waffen und tränkt den Boden mit ihrem abscheulichen, warmen Blut.«—K’Shorr,
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Hohepriester des Krr’Thon’Chh in H’Rezxem, 1043 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Sowohl die Achaz als auch viele Waldmenschenstämme nutzen einfache, aber effektive Schilde, die sie aus dem herstellen, was ihnen der Dschungel zur Verfü-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gung stellt. Bei den Achaz wie auch bei den Stämmen,
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;die im Gebiet des Loch Harodrôl leben, ist ein Bastschild verbreitet, der hergestellt wird, indem auf ein Gerüst aus zähem, hartem Holz mehrere Lagen Bast- und oder
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilfmatten gespannt werden.Im tiefen Dschungel sind dagegen Lederschilde üb
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;lich. Mehrere Lagen zähes Leder werden auf einen
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;25.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kurzbogen der Yakosh-Dey (Yakosh-Nipa)Komplexität einfNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Kurzbogen der Yakosh-Dey
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bögen1W6+41 Aktion10/40/70Pfeile0,5 Stn120 HF40 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schüsse auf die Distanz
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;30.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;richten 1 TP zusätzlich an (also insgesamt 1W6+6, wenn der TP-Bonus für die Reichweite
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;miteingerechnet wird).
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;34.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schüsse auf die Distanz
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;36.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sind nicht aufgrund der Reichweite erleichtert.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Das Keulenbeil der Miniwatu
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;39.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Schwerter? Meine Krieger brauchen keine Schwerter. Siehst du die Keulenbeile, die sie tragen? Du wirst es verstehen, wenn du sie damit kämpfen siehst. Unter den Keulenbeilen der Miniwatu bricht alles, ob Schild oder Schädel.«—Teto-Pahaha, Prinz der Miniwatu, 1042 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die bevorzugte Nahkampfwaffe der Miniwatu ist das Keulenbeil, eine schwere Holzkeule mit ein-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;41.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gearbeiteter Klinge aus Feuerstein oder Eisen. Mit
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;dieser Waffe haben die Miniwatu ihr Königreich erobert und die ansässigen Utulustämme unter-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;43.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;worfen. Unter den versklavten und tributpflichti
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-gen Stämmen der Gewürzinseln ist das Keulenbeil gefürchtet und gleichsam zum Symbol für die unge-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;brochene Oberherrschaft der Miniwatu geworden. Doch
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;auch manche Piratin, die hoffte, durch den Überfall auf ein Gewürzschiff schnelle Beute zu machen, musste lernen, dass die primitiv erscheinende Waffe schwere Wunden schlagen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;47.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;kann. Einzig was die Stabilität angeht, kann sich das Keulen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-beil aufgrund seiner Machart nicht mit einer geschmiedeten
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffe messen und zerbricht deutlich leichter.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;50.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Habe ich mir doch gedacht, dass dir die Waffe gefallen würde.«—Mirhiban al’Orhima, tulamidische Feuermagierin»Mit einer zwergischen Streitaxt lässt sich das natürlich nicht vergleichen, aber so ein Keulenbeil liegt schon gut in der Hand.«—Arbosch Sohn des Angrax, ambosszwergischer Meisterschmied
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;51.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Keulenbeil der Miniwatu (Watu-Baku)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKeulenbeil der Miniwatu
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;52.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Hiebwaffen1W6+4KK 140/–2mittel1,25 Stn90 HF40 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;53.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;54.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Das Manöver
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;55.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schildspalter
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;richtet +2 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;57.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;59.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1200;Der Kurzbogen der Yakosh-Dey
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;60.0;12;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Bereits während sich unser Landetrupp dem Ufer näherte, wurden wir aus dem Dschungel heraus mit Pfeilen beschossen. Ich befahl dem zweiten Boot, weiter südlich anzulanden, um dem Feind in die Flanke zu fallen, doch als wir die Stelle erreichten, an der sich die Wilden verborgen hatten, hatten sie
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;1.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Holzrahmen gezo-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;2.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gen. Die Fläche eig
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-net sich gut dazu, gefärbt oder bemalt zu werden und so
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;finden sich auf den
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilden der Kriegerinnen und Krieger häu-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;fig Motive wie Jaguarköpfe, Zähne und Klauen.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Stämme, die an den großen Flussläufen und am Meer leben, kennen den Panzerschild, der aus dem Panzer von Schildkröten
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gefertigt wird.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Kleinere Panzerschilde werden meist mithilfe von Lederbändern über Unterarm und Ellen-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;bogen geschnallt. Grö
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-ßere Schilde werden frei getragen, doch haben diese meist nur eine rituelle Bedeutung, da der Kampf damit, wie auch der Transport über längere Strecken, selbst den stärksten
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Krieger rasch erschöpft.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;13.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Die Machete
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Es war furchtbar! Der Dschungel war wie eine dichte, feindliche Wand. Überall Bäume, Farne, glitschige Lianen und nichts als garstiges Grün. Du kannst es dir nicht vorstellen, Vater! Hätten die Träger nicht die Macheten dabeigehabt, wären wir wohl keine zehn Schritte weit gekommen.«—Esmeralda Inezano, almadanische Handelsreisende, in einem Brief an ihren Stiefvater, 1043 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Berücksichtigt man alle regionalen Varianten, so ist die Machete wohl die am weitesten verbreite-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;te Waffe in ganz Meridiana. Charakteristisch ist
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;die breite, einschneidige Klinge, die sich zum Ende hin verjüngt und an einem hölzernen, meist leder-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;umwickelten Griff befestigt ist. Als Werkzeug, Waf
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;fe und Alltagsgegenstand findet man die Machete in Küstendörfern und Kolonialsiedlungen, auf Inseln und Schiffen. Unerlässlich ist sie auch bei Dschungelexpedi
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-tionen, eignet sich die Machete doch vorzüglich, um sich einen Weg durch den undurchdringlichen Regenwald zu
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schlagen. Die für Expeditionen in den Dschungel ange
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;botenen Exemplare besitzen häufig eine schmale Leder
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-schlaufe am Griff, die sich der Träger ums Handgelenk winden kann, um zu verhindern, dass ihm die Machete
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;beim Gebrauch aus den schweißnassen Fingern gleitet.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;27.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Leichtbauschild (Tung-Ko)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisBastschild
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz1,25 Stn–25 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;mittlerer Schild, 10 Strukturpunkte
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Leichter Lederschild
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz1,5 Stn–40 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;mittlerer Schild, 15 Strukturpunkte
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Panzerschild
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz2 Stn–80 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Anmerkung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;mittlerer Schild, 25 Strukturpunkte
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Gegen Angriffe der Kampftechniken
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;41.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Blasrohre
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;und
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Bögen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;erhält ein Träger des Leichtbauschilds einen Bonus von +1 auf PA. Dieser Bonus wird am Ende der Berechnung der PA des Schildträgers addiert und gilt nur für die aktive PA mit dem Schild.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;45.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Mit einem Leichtbauschild lässt sich das Manöver
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;47.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schildstoß
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;(siehe Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;49.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;XXX
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;) nicht durchführen.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;51.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Sanfte Gewalt? Hör auf zu reden, Hilbert, und hilf mir, diese Lianen zu zerschlagen!«—Tjalva Garheltdottir, Premer Hetja»An manchen Orten wächst der Wald so dicht, dass man sich nur mit sanfter Gewalt einen Weg bahnen kann.«—Bruder Hilbert, Perainegeweihter
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Machete (Shambusa)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisMachete
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schwerter1W6+3GE/KK 150/–1mittel0,75 Stn80 HF120 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;54.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;55.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Mit einer Machete können auch die Manöver der Kampftechnik
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;56.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Hiebwaffen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;57.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;angewendet werden. Dabei kommt weiterhin die Kampftechnik
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;58.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schwerter
-PDType0Font/PDCIDFontType2, PostScript name: XFZWYY+GentiumBasic;false;false;59.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;zur Anwendung. Zudem richtet die Machete +2 TP gegen Pflanzen an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;60.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;61.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Machete kann nicht zweihändig geführt werden (siehe
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;62.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;63.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;64.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;266
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;65.0;13;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;). Gegen Rüstungen mit RS 5 oder höher richtet die Machete –2 TP an.
-PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1200;Die Rüstkammer
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Der Tauchspeer der Napewanha
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;3.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Dein Plan ist töricht. Im Wasser ist dein Säbel so nutzlos wie ein Anker an Land. Die Fische sind längst davongeschwommen, ehe dein Hieb sie erreicht. Wenn du aber einen Tauchspeer verwendest und dich ihnen langsam näherst, wird dein Bauch bald gefüllt sein. Sieh her, ich zeige es dir.«—Nepi-Luhan, Flusskundiger der Napewanha, bei der Unterweisung eines Questadores, neuzeitlich
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;4.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bei den Napewanha und anderen Stämmen, die an
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;5.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seen und Gewässern vom Fischfang leben, findet man den Tauchspeer in jedem Schilfhaus. Der Schaft
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;6.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;des Speers wird aus Bambusrohr hergestellt und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;7.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;misst etwa anderthalb Schritt. An der Spitze werden
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;8.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;drei oder vier schmale Klingen angebracht, die mit Lederschnüren miteinander und mit dem Stab ver-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;9.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;knotet werden. Die Klingen sind meist ebenfalls aus
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;10.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;angespitzten und geschärften Holzstücken gefertigt,
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;11.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;seltener aus Knochen oder Eisen. Einen Kämpfer in
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;12.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;schwerer Rüstung vermag der Tauchspeer kaum zu verwunden, doch eignet er sich hervorragend, um einen Gegner auf Distanz zu halten und für seine hauptsächliche Funktion: Die Jagd auf Fische und andere
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;13.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wassertiere.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Äh ... Hilbert, ich bin nicht sicher, ob der Krieger uns zu einem gemeinsamen Essen einladen wollte, als er die Geste mit dem Speer gemacht hat.«—Geron Waisenmacher, Doppelsöldner»Ein vorzügliches Werkzeug, um einen leckeren Fisch zu fangen. Und den braten wir dann und lassen ihn uns schmecken.«—Bruder Hilbert, Perainegeweihter
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Tauchspeer der Napewanha (Nape-Tepe)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisTauchspeer der Napewanha
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Stangenwaffen1W6+4GE/KK 140/0lang1,75 Stn180 HF40 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;17.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;18.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Erschwernisse auf AT für den Kampf im Wasser (siehe
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;19.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;20.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;21.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;239
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;22.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;) sinken um 2.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;23.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;24.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder höher richtet der Tauchspeer –2 TP an.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;25.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Stachelkeule der Tschopukikuha (Tscho-Bakura)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisStachelkeule der Tschopukikuha
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;26.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Hiebwaffen1W6+4KK 14–1/–2mittel0,75 Stn70 HF16 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;27.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bei Krankheits- oder Giftproben sinkt die ZK des Opfers um 1, wenn es durch einen Angriff mit der Stachelkeule verletzt wurde.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Unterläuft dem Träger einer Keule ein bestätigter Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich zu den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Die Stachelkeule der Tschopukikuha
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Üble Waffen sind es, welche die Waldmenschen verwenden. Du solltest sie nicht unterschätzen. Sicher, ihre Keulen erscheinen einfach und ungeschlacht, aber wenn dich eine auf die Nase trifft, ist der Hieb nicht minder heftig als der eines Streitkolbens. Und einige Stämme, wie die garstigen Tschopu... äh ... kuki neigen außerdem dazu, die Stacheln ihrer Keulen mit Gift zu bestreichen.«—Baron Alwan von Unterallertissen-Rabenmund bei der Unterweisung seines Knappen, 1043 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die bei den kriegerischen Tschopukikuha, aber auch bei den benachbarten Stämmen verbreitete Form der Stachelkeule, besteht aus einem hölzernen Knüppel, dessen Schlagende mit Stacheln aus Stein oder Kno-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;34.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;chen versehen wurde. Das Griffstück ist mit Leder oder
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Fell umwickelt, um ein Abrutschen der Hand zu verhin-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;36.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;dern. Das übrige Holz wird dagegen gerne mit Schnitze
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;38.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;reien und Tierzeichnungen verziert. Nicht selten tau
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-chen die Krieger der Tschopukikuha die Stacheln ihrer Keule in Gift, sodass selbst ein Streiftreffer ausreicht,
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;40.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;um den Feind ernsthaft zu schwächen. Der Schwach
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-punkt der Waffe ist ihre geringe Bruchfestigkeit, doch vermag ein erfahrener Waldmenschenkrieger binnen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;42.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;kurzer Zeit eine neue Keule anzufertigen. Einige Tscho
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-pukikuha führen sogar eine zweite Keule mit sich, wenn sie in den Kampf ziehen, um auch bei Verlust ihrer Waf-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;44.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;fe nicht schutzlos zu sein.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;45.0;14;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Nicht gerade meine erste Wahl, wenn es in den Kampf geht, aber sie verlangt einem Respekt ab.«—Geron Waisenmacher, Doppelsöldner
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Der Wurfspeer der Anoiha
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Ah, jetzt habe ich es verstanden. Ich stelle mich hier mitten auf den Pfad und wenn diese hran-
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;3.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gaverfluchten Sklavenjäger kommen, dann drohe
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;4.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ich ihnen mit der Faust. Und wenn sie dann angelaufen kommen, um mich zu schnappen, lasst ihr eure Wurfspeere auf sie regnen. Ha, die werden Augen machen!«—Eirik „Hartbrot“ Thorason, Abenteurer aus Prem, bei der Planung eines Hinterhalts mit einem Jagdtrupp der Anoiha, 1042 BF
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Anoiha, die in den Tälern und an den Hängen des nordöstlichen Regengebirges siedeln, gelten als stol-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ze und furchtlose Kämpfer. Bei der Verteidigung
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ihres Stammesterritoriums nutzen sie die Unwegsamkeit des Geländes und als bevorzugte Waffe den Wurfspeer, mit dem sie Eindringlinge aus sicherer Entfernung, meist von einer erhöhten Position
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;aus, in die Enge treiben können. Ihre Speere sind
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;so ausbalanciert, dass sie mit großer Wucht und
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Präzision geworfen werden können. An einem
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;hölzernen Schaft von gut einem Schritt Länge ist eine
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Klinge aus Stein oder Knochen befestigt. Die schmale
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Klinge ist mit Widerhaken versehen, die es erschwe-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ren, die Waffe aus der Wunde zu ziehen. Der Wurf
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-speer eignet sich auch zum Einsatz bei der Jagd, doch verwenden die Anoiha hier meist kürzere und leich-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tere Exemplare. Mehr noch als jene, die sich im Nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-kampf hervortun, gelten unter den Anoiha diejenigen als die größten Krieger, die es im Umgang mit dem
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wurfspeer zur Meisterschaft gebracht haben.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;19.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Zwille der Oijaniha (Oijan-Palka)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;20.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Zwille der Oijaniha
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bögen1W6+21 Aktion5/25/60Steinchen0,5 Stn20 HF25 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;22.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Falls durch die Bewegung des Ziels eine Erschwernis zum Tragen kommt (siehe
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;24.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Regelwerk
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Seite
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;242
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;), so sinkt diese um 1 Punkt.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Bei Schüssen auf die Distanz
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;30.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;nah
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sinken die TP um 1 Punkt (sie erhalten also keinen TP-Bonus). Bereits eine gewürfelte 19 beim Fernkampf erfordert einen Bestätigungswurf dafür, ob es zu einem Patzer kommt.
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Die Waffe ist einfach, aber nicht ohne Eleganz.«
-PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;33.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;—Layariel Wipfelglanz, elfische Auenläuferin
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;34.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;»Aber sie ist leicht genug, dass selbst ein Kind damit umgehen kann.«—Rowena aus dem Überwals, bornische Katzenhexe»Besonders gefährlich sieht die Zwille jedenfalls nicht aus.«—Mirhiban al’Orhima, tulamidische Feuermagierin
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wurfspeer der Anoiha (Anoi-Tepe)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;36.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Wurfspeer der Anoiha
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wurfwaffen2W6+12 Aktionen10/30/50–0,6 Stn110 HF30 S
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffenvorteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Wer durch einen Wurfspeer 10+ SP erleidet, muss eine Probe auf
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;40.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Selbstbeherrschung (Handlungsfähigkeit bewahren)
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ablegen. Bei Misslingen erhält er den Status
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;42.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Liegend
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;. Die Probe ist für jeden SP über 10 um –1 erschwert.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;44.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffennachteil
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;45.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Das Manöver
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;46.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Schnellladen
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;47.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;kann mit Wurfspeeren nicht ausgeführt werden.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Anders als die anderswo auf dem Kontinent gebräuchlichen Schleudern, bei denen Geschosse durch kreisende Bewegungen der Wurfhand beschleunigt werden, spannt der Schütze beim Einsatz dieser Waffe elastische Verbindungen,
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;in denen die Munition ruht.
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Gespannt und gezielt wird sie daher viel eher wie ein Bogen, nicht wie eine
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;51.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;Stabschleuder.
-PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1300;Die Zwille der Oijaniha
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;53.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;900;»Die Oijaniha sind feige. Wenn man ihnen mit dem Speer entgegentritt, benässen sie ihren Schurz und laufen heulend davon, um sich wie Baumstinktiere in dunklen Höhlen zu verkriechen. Sobald man ihnen aber den Rücken zukehrt, fassen sie Mut, rufen Herausforderungen und schießen mit ihren Zwillen.«
-PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;54.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;—Anpa-Ha, Sklavenjägerin vom Stamm der Yakosh-Dey über die Krieger der Oijaniha, neuzeitlich
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;55.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Die Oijaniha verwenden zur Jagd, aber auch beim Kampf
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gegen Eindringlinge und bei Überfällen auf feindliche Stämme, eine handliche Zwille, die so gefertigt ist, dass
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;57.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;bereits Kinder sie bedienen können. Sie besteht aus ei
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-nem spannlangen gegabelten Holzstück und einer ledernen Schleuderschlinge, die durch ein Band aus elastischen Lianen verbunden
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;59.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;sind. Die Waffe wird mit ei
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;60.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-ner Hand am hölzernen Griff gefasst und mit der anderen
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;61.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;gespannt. Als Geschosse wer
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;62.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;-den meist kleine, scharfkan-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;63.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;tige Steine verwendet. Ein
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;64.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;geübter Schütze vermag es damit binnen kürzester Zeit, ein Dutzend Steine bis zu sechzig Schritt weit zu schie-
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;65.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;ßen. Ein weiterer Vorteil der
-PDTrueTypeFont TXQSBB+GentiumBasic;false;false;66.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;Waffe ist, dass sie klein genug ist, um sie leicht am Körper oder in einem Versteck
-PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;67.0;15;-1.0;Rüstkammer_der_Dampfenden_Dschungel;1000;verbergen zu können.
+PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1200;Die Rüstkammer
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Baccanaq (Pantherklaue)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisBaccanaq
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Raufen1W6+3GE/KK 140/–1kurz0,6 Stn30 HF80 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;4.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wird ein mit dem
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;6.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Baccanaq
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ausgeführter Angriff pariert, erhält der Träger nicht, wie beim Raufen üblich, den halben Waffenschaden. Bei Angriffen mit dem
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;8.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Baccanaq
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;muss man also die Paraden bewaffneter Gegner nicht fürchten, allerdings immer noch ihre Angriffe.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;10.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Unterläuft dem Träger ein bestätigter Patzer, gilt die Waffe als zerstört. Dies gilt zusätzlich zur normalen Patzerwirkung.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;12.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Blasrohr (Chabala)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreisBlasrohr (kurz)
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Blasrohre1W3+12 Aktionen2/10/15Blasrohrpfeile0,3 Stn40 HF40 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;14.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;16.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schüsse auf die Distanz
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;weit
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sind nicht durch die Reichweite erschwert.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;20.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bei Schüssen auf die Distanz
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;22.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;weit
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sinken die TP um 1 weiteren Punkt (also insgesamt 1W3–1, wenn der TP-Malus für die Reichweite
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;24.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;weit
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;miteingerechnet wird).
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;NameKampftechnikTPLZRWMunitionstypGewichtLängePreisBlasrohr (lang)
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Blasrohre1W3–13 Aktionen10/50/80Blasrohrpfeile1 Stn120 HF60 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;30.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Beim Zielen (siehe
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;32.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;34.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;242
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;) erhöht sich die Erleichterung um insgesamt +1 (unabhängig davon, wie lange man zielt).
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;36.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Falls durch die Bewegung des Ziels eine Erschwernis zum Tragen kommt (siehe
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;40.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;242
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;), so erhöht sich diese zusätzlich um –1.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;42.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Das Blasrohr der Keke-Wanaq
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Sieh her, der Pfeil ist klein, nicht länger als der kürzeste meiner Finger. Aber mit dem richtigen Gift versehen, vermag er selbst einen Schattenlöwen mit einem einzigen Stich zu töten.«—Sha-Keto, geachtete Kriegerin der Keke-Wanaq, bei der der Unterweisung ihrer Tochter, neuzeitlich
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Das Blasrohr zählt bei den meisten Waldmenschenstämmen zu den wichtigsten Jagd- und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kriegswaffen. Gewöhnlich aus Bambusrohr her
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-gestellt und mit einem Mundstück aus Schilfrohr versehen, ist es sowohl leicht als auch stabil und wet-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;47.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;terbeständig. Eine geübte Schützin vermag
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;damit kleine Pfeile allein mit der Kraft ihres Atems mehrere Dutzend Schritt weit zu ver-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schießen – und das völlig lautlos. Die ver
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-breitetste Form des Blasrohrs misst etwa
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;51.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;zwei Schritt. Es existiert aber auch eine kür
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;52.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-zere Variante, die nur etwa ein Drittel dieser Länge aufweist und deren Reichweite deutlich
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;53.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;geringer ist.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;54.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Als Pfeile werden kleine, nadelförmige Knochenstücke verwendet, deren Spitze zur Kapil-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;55.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;lare ausgehölt wurde und das Gift beinhaltet.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Um ihre Flugeigenschaften zu verbessern, sind die Pfeile mit einem sorgfältig zurechtgeschnit-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;57.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tenen Gefieder versehen. Aufgrund ihrer gerin
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-gen Größe eignen sich die nadelkleinen Pfeile vor allem gegen ungeschützte Körperstellen
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;59.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Neue Kampftechnik Blasrohre
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;60.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Es gibt unterschiedlich lange Blasrohre. Kürzere
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;61.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Versionen, die auch eine geringere Reichweite aufweisen, sind beliebt bei tulamidischen und südaventurischen Attentätern, da man sie leicht unter der
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;62.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kleidung verbergen kann. Lange Blasrohre kommen vor allem bei der Jagd zum Einsatz. Ein Blasrohrpfeil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;63.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;vermag kaum eine schwere Verletzung hervorzurufen, aber die Gefahr besteht auch nicht im Pfeil, son-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;64.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;dern im Gift, in das die Spitze getaucht wurde.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;65.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Leiteigenschaft
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;66.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Fingerfertigkeit
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;67.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Steigerungsfaktor
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;68.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;B
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;69.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kampfsonderfertigkeiten für Blasrohre
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;70.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Folgende Kampfsonderfertigkeiten aus dem
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;71.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;72.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ab Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;73.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;246
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;74.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;können mit der Kampftechnik
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;75.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Blasrohre
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;76.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;genutzt werden: Aufmerksamkeit, Belas-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;77.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tungsgewöhnung I+II, Feindgespür, Kampfreflexe I-III, Präziser Schuss/Wurf I-III, Verbessertes Aus
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;78.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;79.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;weichen I-III.und verursachen nur selten ernsthafte Verletzungen.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;80.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die wahre Gefahr geht von dem in den Pfeilen enthal-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;81.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tenen Gift aus. Die Stämme des Dschungels kennen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;82.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;unterschiedliche Kontaktgifte, die sie verwenden, um Jagdbeute oder Feinde zu lähmen, zu schwächen oder
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;83.0;8;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;zu töten.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Die Entdeckerpeitsche
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Warum ich niemals ohne meine Peitsche in den Dschungel aufbreche? Nun, das gute Stück hat mir schon mehr als einmal das Leben gerettet.«—Notia Botero-Montez, meridianische Naturkundlerin und Entdeckerin, 1043 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Mit einer Länge von drei Schritt verschafft die Entdeckerpeitsche ihrem Träger eine erhebliche Reichwei-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;te. Sie besteht aus miteinander verflochtenen Leder
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schnüren, die in einer doppelzüngigen Spitze enden.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Für die Herstellung wird meist ein besonders reißfes-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tes und belastbares Leder verwendet. Bei hochwertigen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Peitschen ist sogar ein Strang aus dem feuerbeständigen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Iryanleder der südaventurischen Sumpfechsen einge
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;flochten. Spätestens seitdem die berühmtberüchtigte
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Notia Botero-Montez die Entdeckerpeitsche zu einem ihrer Markenzeichen erkoren hat, gilt sie auch unter abenteuerlustigen Gelehrten und Questadores, die aufbrechen, um dem Dschungel seine Geheimnisse zu entreißen, als unerlässliches Hilfsmittel für eine erfolgrei-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;che Expedition.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Neue Kampftechnik Peitschen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Üblicherweise werden Peitschen dazu eingesetzt,
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;17.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;um ein Zug- oder Reittier anzutreiben. Doch auch
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;18.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Sklavenhalter benutzen Peitschen, um Sklaven ein-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;19.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;zuschüchtern und Verfehlungen zu bestrafen. Peit
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;20.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-schen eignen sich zudem auch, um einen Gegner von den Beinen zu holen oder um die Waffe um ei-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;21.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nen Ast zu schlingen und als Seil zu benutzen.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;22.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Besonderheiten
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Da sie wegen der nur schwer kontrollierbaren Bewegungen kaum abzuwehren sind,
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ist die Parade gegen Peitschen um –2 erschwert.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilde können darüber hinaus gegen Peitschen nur
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ihren einfachen Bonus auf die Verteidigung nutzen.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Angriffe mit Peitschen gelten bereits ab einem Er-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;28.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gebnis von 19 als Patzer. Mit Peitschen ist keine Pa
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;30.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;rade möglich.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Leiteigenschaft
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Fingerfertigkeit
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Steigerungsfaktor
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;B
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kampfsonderfertigkeiten für Peitschen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Folgende Kampfsonderfertigkeiten aus dem
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ab Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;246
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;können mit der Kampftechnik
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;41.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Peitschen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;genutzt werden: Aufmerksamkeit, Belas-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;43.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tungsgewöhnung I+II, Berittener Kampf, Entwaff
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nen, Feindgespür, Finte I-III, Kampfreflexe I-III, Schnellziehen, Verbessertes Ausweichen I-III, Zu
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Fall bringen
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;47.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Diese Peitsche, die sie da trägt, macht
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;48.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schon etwas her, findet ihr nicht? Wenn wir
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;49.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;die nächste Stadt erreichen, hole ich mir auch so eine.«—Carolan Calavanti, Vinsalter Streuner»Um einen weiter entfernt stehenden Gegner zu überraschen, mag das Ding ja recht nützlich sein, aber wenn er erstmal an dich herangekommen ist, hast du nichts in der Hand, um seine Hiebe zu parieren.«—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;50.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Entdeckerpeitsche (Ana-Indi) Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisEntdeckerpeitsche
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;51.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Peitschen1W6FF 160/–lang3,5 Stn300 HF80 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Spezialmanöver, die mit einer Entdeckerpeitsche ausgeführt werden, sind Proben auf AW (nicht jedoch auf PA) um –1 zusätzlich erschwert.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;54.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;55.0;9;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nach einem Patzer wird das Würfelergebnis des Bestätigungswurfes um 1 erhöht.
+PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1200;Die Rüstkammer
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Der Jagdspeer der Mohaha
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;3.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Kamaluq nahm Speer und Wasserschlauch, denn er wollte auf die Jagd gehen. Als er seine Hütte verließ, begegnete er einem Frosch, der quakte: ›Geh bei Seite, du stehst mir in der Sonne.‹ Da sprach Kamaluq: ›Was quakt der Frosch den Jaguar an?‹ Und er durchbohrte ihn mit seinem Speer.«—Beginn einer weit verbreiteten Taya der Mohaha, seit vielen Generationen überliefert
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;4.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nicht nur bei den Sippen der Mohaha, sondern auch bei den meisten anderen Stämmen des Waldes zählt der Speer zu den gebräuchlichsten Jagd-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;5.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;waffen. Der Jagdspeer lässt sich vielseitig gegen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;6.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;kleine und größere Beutetiere, aber auch gegen unwillkommene Fremde oder Krieger feindlicher Stäm-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;7.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;me einsetzen. Die zum Bau der Waffe benötigten Ma
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;8.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-terialien sind im Dschungel reichlich vorhanden und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;9.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;die Anfertigung ist vergleichsweise einfach. Am Ende
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;10.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;des hölzernen Schafts ist eine stabile dreieckige Spit-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;11.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ze aus Stein, Knochen oder Horn befestigt.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;12.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Während gewöhnliche Jagdspeere schlichte Gebrauchsgegenstände sind, existieren bei vielen Stämmen auch einige besondere, reich verzierte Ex-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;13.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;emplare, denen eine rituelle Bedeutung zukommt.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;14.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Diese Speere werden beispielsweise als Warnung vor einer
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;15.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Tabu
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-Zone im Dschungel aufgestellt oder einem
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;17.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;feindlichen Stamm als Kriegserklärung überbracht.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Wisst ihr noch, wie wir damals Hals über
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;19.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kopf aus diesem Waldmenschendorf flüch
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;20.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-ten mussten? Die Narbe von dem Speer kann man immer noch sehen.«—Carolan Calavanti, Vinsalter Streuner
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;21.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Jagdspeer der Mohaha (Moha-Tepe)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisJagdspeer der Mohaha (2H)
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;22.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Stangenwaffen1W6+4GE/KK 150/–1lang1,5 Stn180 HF60 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;23.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;24.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Tiere der Größenkategorien
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;25.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;mittel
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;26.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;und
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;27.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;groß
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;richtet ein Jagdspeer der Mohaha +1 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder höher richtet der Jagdspeer der Mohaha –1 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Harpune (Nom-Ura)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreisHarpune
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wurfwaffen2W6+12 Aktionen5/20/35–1 Stn110 HF60 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Ein vergifteter Blasrohrpfeil sorgt bei 1+ SP für eine Vergiftung beim Opfer.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nach einer FK mit der Waffe in der Reichweite
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;37.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;(egal ob getroffen oder verfehlt, nicht jedoch nach einem bestätigten Patzer) kann der Werfer sie wieder in seine Hand zurückholen, wenn er an der Schnur zieht und dafür 1 Aktion aufwendet.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder mehr richtet die Harpune –2 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;41.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Die Harpune
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;42.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Siehst du den großen Fisch mit den schmalen Flossen? Mit meiner Harpune könnte ich ihn von hier aus fangen und wir könnten ihn über unserem Feuer braten. Aber meine Harpune ist zerbrochen, als wir den Abhang heruntergestürzt sind, deshalb werden wir heute keinen Fisch essen.«—Nepi-Luhan, Flusskundiger der Napewanha, neuzeitlich
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Napewanha wie auch die benachbarten Stämme verwenden zur Jagd auf Fische und andere Wassertie-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;44.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;re eine einfache, aber effektive Harpune. Der hölzerne
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;45.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Speerstab wird von einer mit Widerhaken versehenen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;46.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Knochenspitze gekrönt. Am Schaft ist eine lange Schnur aus Leder oder geflochtenen Fasern befestigt, mit de
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;47.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-ren Hilfe die Werferin die Harpune zu sich zurückholen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;48.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;kann. Entweder, um die getroffene Beute zu sich heran
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;49.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-zuziehen oder um nach einem fehlgegangenen Wurf ei-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;50.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nen erneuten Versuch zu wagen. Wenngleich in erster Linie ein Jagdwerkzeug, findet die Harpune in Zeiten der
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;51.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Not auch als Waffe im Kampf gegen menschliche Gegner
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;52.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Verwendung. Der Schwachpunkt der Waffe ist dabei die
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schmale Knochenspitze, die bei einem Schlag gegen Me-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;54.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tallwaffen oder Rüstungen leicht zerbrechen kann.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;55.0;10;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»In Thorwal haben wir auch Harpunen. Wir benutzen sie für die Jagd auf Streifenhaie und Seeschlangen.«—Tjalva Garheltdottir, Premer Hetja»Ja, und im Golf von Riva verwenden die Seeleute sie für die Jagd auf ... Ach, ist nicht so wichtig. Jetzt schau doch nicht gleich so böse.«—Carolan Calavanti, Vinsalter Streuner
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Der Katar der Eidechsenkrieger
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Warum ich glaube, dass der Bursche zu diesen Eidechsenkriegern gehört? Seht selbst, was wir bei ihm gefunden haben. Das ist ein Katar. Er ist einer von den Kämpfern, die diese Aufrüherin Rigabi um sich geschart hat, der Dolch ist der Beweis.«—Sana Tiefhusener, Söldnerhauptfrau, 1043 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Der Katar ist ein Faustdolch, der über eine leicht gebogene Klinge verfügt und mit einem kapuzenar-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tigen Griffschutz versehen ist. Gemeinsam formen Klinge und Kapuze eine stilisierte Eidechse. Die Waffe
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;lässt sich leicht verbergen und auch im Handgemen-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ge oder in beengten Verhältnissen gut führen. Auf den
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Plantagen und in den Stadtstaaten des Südens bringt man den Katar vor allem mit den Eidechsenkriegern in
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Verbindung. Diese sind eine Gruppe von Kämpfern, die
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;zum Glauben an Tsa gefunden haben und erbittert ge-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gen Sklaverei und Sklavenhalter in Meridiana kämpfen.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nicht selten nutzen sie die Möglichkeit, ihre Klingen mit den Giften des Dschungels zu präparieren, um auch einen besser gerüsteten und bewaffneten Gegner über-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;wältigen zu können.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;13.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Das Karmulka
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Dieses Karmulka diente stets dem Schutz unseres Dorfes. Vor dir trug es Cante-Tinza, die damit sieben Sklavenjäger besiegte. Und vor ihr war Tetaka sein Träger, der den großen Schattenlöwen erschlug. Erweise auch du dich als würdig.«—Schamane Tapam-Wah bei der Übergabe des Karmulka an eine Kriegerin seines Stammes, neuzeitlich
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schwerter sind bei den meisten Stämmen der
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waldmenschen kaum verbreitet. Ein Karmulka
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;wird aber, sofern eine Sippe ein solches besitzt, sorgsam gehütet und meist von der stärksten Kriegerin oder dem stärksten Krieger des Dorfes voller
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Stolz getragen. Es handelt sich um ein Schwert aus
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schwarzem Metall von etwa einem Schritt Klingen-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;länge. Der verzierte Griff ahmt häufig die Form ei
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nes Tieres, meist die eines Jaguarkopfes nach. Alle
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;bekannten Karmulka sind erkennbar sehr alt und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;weisen eine exotische Form und Bauweise auf. Es
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;heißt, die wenigen noch existierenden Exemplare stammen von einem anderen Kontinent und keiner der Stämme verfüge mehr über das Wissen um die
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Herstellung einer solchen Waffe. Das Karmulka wird
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;von einem Besitzer an den nächsten weitervererbt, wobei entweder der Träger selbst oder, falls dieser im Kampf den Tod gefunden hat, der Schamane der Sippe
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;28.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;den neuen Hüter der Waffe auswählt. Es ist Tradtion,
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;dass jeder neue Träger der Klinge ein weiteres Detail hinzufügt, etwa in dem er einen Zacken umschleift, ein Loch hinzufügt oder auf andere Weise die Klinge ein
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;30.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;wenig anders formt.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Katar der Eidechsenkrieger (Katar-Za)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKatar der Eidechsenkrieger
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Dolche1W6+1GE 130/0kurz1,5 Stn40 HF70 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nach einem Patzer bei der Attacke wird das Würfelergebnis des Bestätigungswurfes um 1 gesenkt.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Nach einem kritischen Erfolg auf Attacke oder Parade wird das Würfelergebnis des Bestätigungswurfes um 1 erhöht.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Karmulka (Utuluschwert)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKarmulka
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schwerter1W6+4GE/KK 15+1/–1mittel1,25 Stn100 HF240 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 3 oder höher richtet das Utuluschwert +1 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;41.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Das Manöver
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Finte
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ist mit einem Utuluschwert nur um –1 zusätzlich erschwert durchführbar. Nach einem Patzer wird das Würfelergebnis des Bestätigungswurfes zudem um 2 erhöht.
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;45.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Ach was. Ich finde es richtig, was sie tun. Je
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;46.0;11;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-der, der gegen die Sklaverei kämpft, verdient Unterstützung, egal mit welchen Waffen er kämpft – solange es keine schwarze Magie ist.«—Tjalva Garheltdottir, Premer Hetja»Katar? Eidechsenkrieger? Das verstehe ich nicht. Friedfertigkeit zählt zu den wichtigsten Aspekten Tsas. Wie können sie da in ihrem Namen Krieg führen?«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1200;Die Rüstkammer
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sich bereits tiefer ins Dickicht zurückgezogen und wir konn-
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;3.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ten keine Spur mehr von ihnen finden.«—Bericht des Seeoffizier Diago Delazar, 1034 BF
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Yakosh-Dey sind ein streitlustiger Stamm, dessen Sippen häufig auf Kriegszüge gegen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;benachbarte Stämme, aber auch gegen ko-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;loniale Siedler ausziehen. Der bei ihnen ge
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-bräuchliche Kurzbogen wird aus dem ebenso biegsamen wie belastbaren Holz des ewigen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Dschungels gefertigt. Auffällig ist vor allem
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;der komplexe, oft aufwändig verzierte Griff, der so geformt ist, dass er sich vorzüglich in
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;die Hand des Trägers schmiegt. Der Bogen ist
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;vergleichsweise kompakt, sodass er sich auch im dichten Dschungel gut transportieren und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schnell schussbereit machen lässt. Neben den Yakosh-Dey haben auch viele weitere Waldmen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-schenstämme diese Form des Kurzbogens übernommen, allerdings sind deren Bögen gewöhnlich schlichter gehalten, besitzen sie doch meist nicht die gleiche Erfahrung und Kunstfertigkeit wie die Bogen-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;bauer der Yakosh-Dey.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Der Leichtbauschild
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;16.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Wenn sie mit Pfeilen auf euch schießen, dann verbergt euch hinter euren Schilden. Wenn sie versuchen, euch mit ihren Speeren zu stechen, dann lasst sie an euren Schilden abgleiten. Und wenn sie begreifen, dass sie euch nicht gewachsen sind, dann erhebt eure Waffen und tränkt den Boden mit ihrem abscheulichen, warmen Blut.«—K’Shorr,
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;18.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Hohepriester des Krr’Thon’Chh in H’Rezxem, 1043 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Sowohl die Achaz als auch viele Waldmenschenstämme nutzen einfache, aber effektive Schilde, die sie aus dem herstellen, was ihnen der Dschungel zur Verfü-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gung stellt. Bei den Achaz wie auch bei den Stämmen,
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;die im Gebiet des Loch Harodrôl leben, ist ein Bastschild verbreitet, der hergestellt wird, indem auf ein Gerüst aus zähem, hartem Holz mehrere Lagen Bast- und oder
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilfmatten gespannt werden.Im tiefen Dschungel sind dagegen Lederschilde üb
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;lich. Mehrere Lagen zähes Leder werden auf einen
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;25.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kurzbogen der Yakosh-Dey (Yakosh-Nipa)Komplexität einfNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Kurzbogen der Yakosh-Dey
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bögen1W6+41 Aktion10/40/70Pfeile0,5 Stn120 HF40 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schüsse auf die Distanz
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;30.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;richten 1 TP zusätzlich an (also insgesamt 1W6+6, wenn der TP-Bonus für die Reichweite
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;miteingerechnet wird).
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;34.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schüsse auf die Distanz
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;36.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sind nicht aufgrund der Reichweite erleichtert.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Das Keulenbeil der Miniwatu
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;39.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Schwerter? Meine Krieger brauchen keine Schwerter. Siehst du die Keulenbeile, die sie tragen? Du wirst es verstehen, wenn du sie damit kämpfen siehst. Unter den Keulenbeilen der Miniwatu bricht alles, ob Schild oder Schädel.«—Teto-Pahaha, Prinz der Miniwatu, 1042 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die bevorzugte Nahkampfwaffe der Miniwatu ist das Keulenbeil, eine schwere Holzkeule mit ein-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;41.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gearbeiteter Klinge aus Feuerstein oder Eisen. Mit
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;dieser Waffe haben die Miniwatu ihr Königreich erobert und die ansässigen Utulustämme unter-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;43.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;worfen. Unter den versklavten und tributpflichti
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-gen Stämmen der Gewürzinseln ist das Keulenbeil gefürchtet und gleichsam zum Symbol für die unge-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;45.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;brochene Oberherrschaft der Miniwatu geworden. Doch
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;auch manche Piratin, die hoffte, durch den Überfall auf ein Gewürzschiff schnelle Beute zu machen, musste lernen, dass die primitiv erscheinende Waffe schwere Wunden schlagen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;47.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;kann. Einzig was die Stabilität angeht, kann sich das Keulen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-beil aufgrund seiner Machart nicht mit einer geschmiedeten
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffe messen und zerbricht deutlich leichter.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;50.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Habe ich mir doch gedacht, dass dir die Waffe gefallen würde.«—Mirhiban al’Orhima, tulamidische Feuermagierin»Mit einer zwergischen Streitaxt lässt sich das natürlich nicht vergleichen, aber so ein Keulenbeil liegt schon gut in der Hand.«—Arbosch Sohn des Angrax, ambosszwergischer Meisterschmied
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;51.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Keulenbeil der Miniwatu (Watu-Baku)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisKeulenbeil der Miniwatu
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;52.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Hiebwaffen1W6+4KK 140/–2mittel1,25 Stn90 HF40 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;53.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;54.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Das Manöver
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;55.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schildspalter
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;richtet +2 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;57.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Unterläuft dem Träger der Waffe ein Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;59.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1200;Der Kurzbogen der Yakosh-Dey
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;60.0;12;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Bereits während sich unser Landetrupp dem Ufer näherte, wurden wir aus dem Dschungel heraus mit Pfeilen beschossen. Ich befahl dem zweiten Boot, weiter südlich anzulanden, um dem Feind in die Flanke zu fallen, doch als wir die Stelle erreichten, an der sich die Wilden verborgen hatten, hatten sie
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;1.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Holzrahmen gezo-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;2.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gen. Die Fläche eig
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;3.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-net sich gut dazu, gefärbt oder bemalt zu werden und so
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;4.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;finden sich auf den
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilden der Kriegerinnen und Krieger häu-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;fig Motive wie Jaguarköpfe, Zähne und Klauen.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Stämme, die an den großen Flussläufen und am Meer leben, kennen den Panzerschild, der aus dem Panzer von Schildkröten
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gefertigt wird.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Kleinere Panzerschilde werden meist mithilfe von Lederbändern über Unterarm und Ellen-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;bogen geschnallt. Grö
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-ßere Schilde werden frei getragen, doch haben diese meist nur eine rituelle Bedeutung, da der Kampf damit, wie auch der Transport über längere Strecken, selbst den stärksten
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Krieger rasch erschöpft.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;13.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Die Machete
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Es war furchtbar! Der Dschungel war wie eine dichte, feindliche Wand. Überall Bäume, Farne, glitschige Lianen und nichts als garstiges Grün. Du kannst es dir nicht vorstellen, Vater! Hätten die Träger nicht die Macheten dabeigehabt, wären wir wohl keine zehn Schritte weit gekommen.«—Esmeralda Inezano, almadanische Handelsreisende, in einem Brief an ihren Stiefvater, 1043 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Berücksichtigt man alle regionalen Varianten, so ist die Machete wohl die am weitesten verbreite-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;te Waffe in ganz Meridiana. Charakteristisch ist
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;die breite, einschneidige Klinge, die sich zum Ende hin verjüngt und an einem hölzernen, meist leder-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;umwickelten Griff befestigt ist. Als Werkzeug, Waf
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;19.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;20.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;fe und Alltagsgegenstand findet man die Machete in Küstendörfern und Kolonialsiedlungen, auf Inseln und Schiffen. Unerlässlich ist sie auch bei Dschungelexpedi
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-tionen, eignet sich die Machete doch vorzüglich, um sich einen Weg durch den undurchdringlichen Regenwald zu
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;22.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schlagen. Die für Expeditionen in den Dschungel ange
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;24.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;botenen Exemplare besitzen häufig eine schmale Leder
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-schlaufe am Griff, die sich der Träger ums Handgelenk winden kann, um zu verhindern, dass ihm die Machete
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;26.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;beim Gebrauch aus den schweißnassen Fingern gleitet.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;27.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Leichtbauschild (Tung-Ko)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisBastschild
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz1,25 Stn–25 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;mittlerer Schild, 10 Strukturpunkte
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Leichter Lederschild
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;32.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz1,5 Stn–40 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;33.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;34.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;mittlerer Schild, 15 Strukturpunkte
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Panzerschild
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;36.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schilde1W6–1KK 16–5/+2kurz2 Stn–80 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;37.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Anmerkung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;38.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;mittlerer Schild, 25 Strukturpunkte
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;39.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;40.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Gegen Angriffe der Kampftechniken
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;41.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Blasrohre
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;42.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;und
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;43.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Bögen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;44.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;erhält ein Träger des Leichtbauschilds einen Bonus von +1 auf PA. Dieser Bonus wird am Ende der Berechnung der PA des Schildträgers addiert und gilt nur für die aktive PA mit dem Schild.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;45.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;46.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Mit einem Leichtbauschild lässt sich das Manöver
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;47.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schildstoß
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;(siehe Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;49.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;XXX
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;) nicht durchführen.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;51.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Sanfte Gewalt? Hör auf zu reden, Hilbert, und hilf mir, diese Lianen zu zerschlagen!«—Tjalva Garheltdottir, Premer Hetja»An manchen Orten wächst der Wald so dicht, dass man sich nur mit sanfter Gewalt einen Weg bahnen kann.«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Machete (Shambusa)Komplexität einfNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisMachete
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;53.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schwerter1W6+3GE/KK 150/–1mittel0,75 Stn80 HF120 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;54.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;55.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Mit einer Machete können auch die Manöver der Kampftechnik
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;56.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Hiebwaffen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;57.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;angewendet werden. Dabei kommt weiterhin die Kampftechnik
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;58.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schwerter
+PDType0Font/PDCIDFontType2, PostScript name: XFZWYY+GentiumBasic;false;false;59.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;zur Anwendung. Zudem richtet die Machete +2 TP gegen Pflanzen an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;60.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;61.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Machete kann nicht zweihändig geführt werden (siehe
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;62.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;63.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;64.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;266
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;65.0;13;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;). Gegen Rüstungen mit RS 5 oder höher richtet die Machete –2 TP an.
+PDTrueTypeFont LDDQLR+Andalus;false;false;1.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1200;Die Rüstkammer
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;2.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Der Tauchspeer der Napewanha
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;3.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Dein Plan ist töricht. Im Wasser ist dein Säbel so nutzlos wie ein Anker an Land. Die Fische sind längst davongeschwommen, ehe dein Hieb sie erreicht. Wenn du aber einen Tauchspeer verwendest und dich ihnen langsam näherst, wird dein Bauch bald gefüllt sein. Sieh her, ich zeige es dir.«—Nepi-Luhan, Flusskundiger der Napewanha, bei der Unterweisung eines Questadores, neuzeitlich
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;4.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bei den Napewanha und anderen Stämmen, die an
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;5.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seen und Gewässern vom Fischfang leben, findet man den Tauchspeer in jedem Schilfhaus. Der Schaft
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;6.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;des Speers wird aus Bambusrohr hergestellt und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;7.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;misst etwa anderthalb Schritt. An der Spitze werden
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;8.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;drei oder vier schmale Klingen angebracht, die mit Lederschnüren miteinander und mit dem Stab ver-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;9.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;knotet werden. Die Klingen sind meist ebenfalls aus
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;10.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;angespitzten und geschärften Holzstücken gefertigt,
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;11.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;seltener aus Knochen oder Eisen. Einen Kämpfer in
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;12.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;schwerer Rüstung vermag der Tauchspeer kaum zu verwunden, doch eignet er sich hervorragend, um einen Gegner auf Distanz zu halten und für seine hauptsächliche Funktion: Die Jagd auf Fische und andere
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;13.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wassertiere.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;14.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Äh ... Hilbert, ich bin nicht sicher, ob der Krieger uns zu einem gemeinsamen Essen einladen wollte, als er die Geste mit dem Speer gemacht hat.«—Geron Waisenmacher, Doppelsöldner»Ein vorzügliches Werkzeug, um einen leckeren Fisch zu fangen. Und den braten wir dann und lassen ihn uns schmecken.«—Bruder Hilbert, Perainegeweihter
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;15.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Tauchspeer der Napewanha (Nape-Tepe)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisTauchspeer der Napewanha
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;16.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Stangenwaffen1W6+4GE/KK 140/0lang1,75 Stn180 HF40 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;17.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;18.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Erschwernisse auf AT für den Kampf im Wasser (siehe
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;19.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;20.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;21.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;239
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;22.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;) sinken um 2.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;23.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;24.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Gegen Rüstungen mit RS 4 oder höher richtet der Tauchspeer –2 TP an.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;25.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Stachelkeule der Tschopukikuha (Tscho-Bakura)Komplexität primNameKampftechnikTPL+SAT/PA-ModRWGewichtLängePreisStachelkeule der Tschopukikuha
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;26.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Hiebwaffen1W6+4KK 14–1/–2mittel0,75 Stn70 HF16 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;27.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;28.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bei Krankheits- oder Giftproben sinkt die ZK des Opfers um 1, wenn es durch einen Angriff mit der Stachelkeule verletzt wurde.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;29.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;30.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Unterläuft dem Träger einer Keule ein bestätigter Patzer, zerbricht seine Waffe. Dies geschieht zusätzlich zu den üblichen Auswirkungen eines Patzers, solange dessen Resultat nicht ebenfalls ein Zerbrechen der Waffe ist.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;31.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Die Stachelkeule der Tschopukikuha
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Üble Waffen sind es, welche die Waldmenschen verwenden. Du solltest sie nicht unterschätzen. Sicher, ihre Keulen erscheinen einfach und ungeschlacht, aber wenn dich eine auf die Nase trifft, ist der Hieb nicht minder heftig als der eines Streitkolbens. Und einige Stämme, wie die garstigen Tschopu... äh ... kuki neigen außerdem dazu, die Stacheln ihrer Keulen mit Gift zu bestreichen.«—Baron Alwan von Unterallertissen-Rabenmund bei der Unterweisung seines Knappen, 1043 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;33.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die bei den kriegerischen Tschopukikuha, aber auch bei den benachbarten Stämmen verbreitete Form der Stachelkeule, besteht aus einem hölzernen Knüppel, dessen Schlagende mit Stacheln aus Stein oder Kno-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;34.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;chen versehen wurde. Das Griffstück ist mit Leder oder
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;35.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Fell umwickelt, um ein Abrutschen der Hand zu verhin-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;36.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;dern. Das übrige Holz wird dagegen gerne mit Schnitze
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;38.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;reien und Tierzeichnungen verziert. Nicht selten tau
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-chen die Krieger der Tschopukikuha die Stacheln ihrer Keule in Gift, sodass selbst ein Streiftreffer ausreicht,
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;40.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;um den Feind ernsthaft zu schwächen. Der Schwach
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-punkt der Waffe ist ihre geringe Bruchfestigkeit, doch vermag ein erfahrener Waldmenschenkrieger binnen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;42.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;kurzer Zeit eine neue Keule anzufertigen. Einige Tscho
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-pukikuha führen sogar eine zweite Keule mit sich, wenn sie in den Kampf ziehen, um auch bei Verlust ihrer Waf-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;44.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;fe nicht schutzlos zu sein.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;45.0;14;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Nicht gerade meine erste Wahl, wenn es in den Kampf geht, aber sie verlangt einem Respekt ab.«—Geron Waisenmacher, Doppelsöldner
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;1.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Der Wurfspeer der Anoiha
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;2.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Ah, jetzt habe ich es verstanden. Ich stelle mich hier mitten auf den Pfad und wenn diese hran-
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;3.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gaverfluchten Sklavenjäger kommen, dann drohe
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;4.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ich ihnen mit der Faust. Und wenn sie dann angelaufen kommen, um mich zu schnappen, lasst ihr eure Wurfspeere auf sie regnen. Ha, die werden Augen machen!«—Eirik „Hartbrot“ Thorason, Abenteurer aus Prem, bei der Planung eines Hinterhalts mit einem Jagdtrupp der Anoiha, 1042 BF
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;5.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Anoiha, die in den Tälern und an den Hängen des nordöstlichen Regengebirges siedeln, gelten als stol-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;6.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ze und furchtlose Kämpfer. Bei der Verteidigung
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;7.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ihres Stammesterritoriums nutzen sie die Unwegsamkeit des Geländes und als bevorzugte Waffe den Wurfspeer, mit dem sie Eindringlinge aus sicherer Entfernung, meist von einer erhöhten Position
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;8.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;aus, in die Enge treiben können. Ihre Speere sind
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;9.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;so ausbalanciert, dass sie mit großer Wucht und
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;10.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Präzision geworfen werden können. An einem
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;11.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;hölzernen Schaft von gut einem Schritt Länge ist eine
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;12.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Klinge aus Stein oder Knochen befestigt. Die schmale
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;13.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Klinge ist mit Widerhaken versehen, die es erschwe-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;14.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ren, die Waffe aus der Wunde zu ziehen. Der Wurf
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;15.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-speer eignet sich auch zum Einsatz bei der Jagd, doch verwenden die Anoiha hier meist kürzere und leich-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;16.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tere Exemplare. Mehr noch als jene, die sich im Nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;17.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-kampf hervortun, gelten unter den Anoiha diejenigen als die größten Krieger, die es im Umgang mit dem
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;18.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wurfspeer zur Meisterschaft gebracht haben.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;19.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Zwille der Oijaniha (Oijan-Palka)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;20.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Zwille der Oijaniha
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;21.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bögen1W6+21 Aktion5/25/60Steinchen0,5 Stn20 HF25 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;22.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;23.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Falls durch die Bewegung des Ziels eine Erschwernis zum Tragen kommt (siehe
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;24.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Regelwerk
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;25.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Seite
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;26.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;242
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;27.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;), so sinkt diese um 1 Punkt.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;28.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;29.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Bei Schüssen auf die Distanz
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;30.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;nah
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;31.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sinken die TP um 1 Punkt (sie erhalten also keinen TP-Bonus). Bereits eine gewürfelte 19 beim Fernkampf erfordert einen Bestätigungswurf dafür, ob es zu einem Patzer kommt.
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;32.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Die Waffe ist einfach, aber nicht ohne Eleganz.«
+PDType0Font/PDCIDFontType2, PostScript name: BODIBL+GentiumBasic-Italic;false;true;33.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;—Layariel Wipfelglanz, elfische Auenläuferin
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;34.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;»Aber sie ist leicht genug, dass selbst ein Kind damit umgehen kann.«—Rowena aus dem Überwals, bornische Katzenhexe»Besonders gefährlich sieht die Zwille jedenfalls nicht aus.«—Mirhiban al’Orhima, tulamidische Feuermagierin
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;35.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wurfspeer der Anoiha (Anoi-Tepe)Komplexität primNameKampftechnikTPLZRWMunitionstypGewichtLängePreis
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;36.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Wurfspeer der Anoiha
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;37.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wurfwaffen2W6+12 Aktionen10/30/50–0,6 Stn110 HF30 S
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;38.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffenvorteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;39.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Wer durch einen Wurfspeer 10+ SP erleidet, muss eine Probe auf
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;40.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Selbstbeherrschung (Handlungsfähigkeit bewahren)
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;41.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ablegen. Bei Misslingen erhält er den Status
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;42.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Liegend
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;43.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;. Die Probe ist für jeden SP über 10 um –1 erschwert.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;44.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffennachteil
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;45.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Das Manöver
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;46.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Schnellladen
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;47.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;kann mit Wurfspeeren nicht ausgeführt werden.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;48.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Anders als die anderswo auf dem Kontinent gebräuchlichen Schleudern, bei denen Geschosse durch kreisende Bewegungen der Wurfhand beschleunigt werden, spannt der Schütze beim Einsatz dieser Waffe elastische Verbindungen,
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;49.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;in denen die Munition ruht.
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;50.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Gespannt und gezielt wird sie daher viel eher wie ein Bogen, nicht wie eine
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;51.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;Stabschleuder.
+PDTrueTypeFont UBAYPZ+GentiumBasic-Bold;true;false;52.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1300;Die Zwille der Oijaniha
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;53.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;900;»Die Oijaniha sind feige. Wenn man ihnen mit dem Speer entgegentritt, benässen sie ihren Schurz und laufen heulend davon, um sich wie Baumstinktiere in dunklen Höhlen zu verkriechen. Sobald man ihnen aber den Rücken zukehrt, fassen sie Mut, rufen Herausforderungen und schießen mit ihren Zwillen.«
+PDTrueTypeFont ZLEWZP+GentiumBasic-Italic;false;true;54.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;—Anpa-Ha, Sklavenjägerin vom Stamm der Yakosh-Dey über die Krieger der Oijaniha, neuzeitlich
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;55.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Die Oijaniha verwenden zur Jagd, aber auch beim Kampf
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;56.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gegen Eindringlinge und bei Überfällen auf feindliche Stämme, eine handliche Zwille, die so gefertigt ist, dass
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;57.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;bereits Kinder sie bedienen können. Sie besteht aus ei
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;58.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-nem spannlangen gegabelten Holzstück und einer ledernen Schleuderschlinge, die durch ein Band aus elastischen Lianen verbunden
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;59.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;sind. Die Waffe wird mit ei
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;60.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-ner Hand am hölzernen Griff gefasst und mit der anderen
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;61.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;gespannt. Als Geschosse wer
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;62.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;-den meist kleine, scharfkan-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;63.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;tige Steine verwendet. Ein
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;64.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;geübter Schütze vermag es damit binnen kürzester Zeit, ein Dutzend Steine bis zu sechzig Schritt weit zu schie-
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;65.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;ßen. Ein weiterer Vorteil der
+PDTrueTypeFont TXQSBB+GentiumBasic;false;false;66.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;Waffe ist, dass sie klein genug ist, um sie leicht am Körper oder in einem Versteck
+PDType0Font/PDCIDFontType2, PostScript name: HXFSHZ+GentiumBasic;false;false;67.0;15;-1.0;Rüstkammer_der_dampfenden_Dschungel;1000;verbergen zu können.
