@@ -36,7 +36,11 @@ public enum EquipmentCategoryKey
   kunsthandwerk,
   taetowierung,
   hilfsmittel,
-  zeremonialgegenstaende;
+  zeremonialgegenstaende,
+  modifikation_rüstung,
+  modifikation_munition,
+  modifikation_waffe,
+  kräuter;
 
   @JsonValue
   public int toValue() {

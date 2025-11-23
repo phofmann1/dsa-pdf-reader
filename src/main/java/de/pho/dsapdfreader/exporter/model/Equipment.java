@@ -1,5 +1,7 @@
 package de.pho.dsapdfreader.exporter.model;
 
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
@@ -10,8 +12,9 @@ import de.pho.dsapdfreader.exporter.model.enums.Publication;
 public class Equipment implements EquipmentI
 {
   public String name;
+  public List<Alias> aliasse;
   public EquipmentKey key;
-  public EquipmentCategoryKey categoryKey;
+  public EquipmentCategoryKey equipmentCategoryKey;
   public Price price;
   public int structure;
   public double weight;

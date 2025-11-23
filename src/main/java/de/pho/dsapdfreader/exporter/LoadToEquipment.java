@@ -25,7 +25,7 @@ public class LoadToEquipment
     returnValue.key = ExtractorEquipmentKey.retrieve(er.name.toLowerCase());
     returnValue.structure = (er.structure != null && !er.structure.isEmpty()) ? Integer.valueOf(er.structure.replace(".", "")) : 0;
     returnValue.color = er.color;
-    returnValue.categoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);
+    returnValue.equipmentCategoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);
     if (er.weight != null && !er.weight.isEmpty()) {
       returnValue.weight = Double.valueOf(er.weight.replace(".", "").replace(",", "."));
     }

@@ -32,7 +32,6 @@ public enum RezeptKey {
     gruener_pilzschleim,
     hesindigo,
     hirad_antidot,
-    wurara_siehe,
     horuschenoel,
     ilmenblatt_rauchpaeckchen,
     jacopo_duftbeutel,
