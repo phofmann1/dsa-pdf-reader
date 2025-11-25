@@ -153,8 +153,8 @@ public class DsaPdfReaderMain {
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -1018,6 +1018,8 @@ public class DsaPdfReaderMain {
 
         generateHerbEquipmentEntries(pures, conf);
         generateQsEntries(pures.stream().map(p -> p.checkQs).toList(), conf);
+        generateHerbNames(pures, conf);
+
 
       }
       catch (JsonProcessingException e) {
@@ -1095,6 +1097,14 @@ public class DsaPdfReaderMain {
     String prefix = "equipment_kräuter";
     writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
     writer.write(generateLocalisationString(kräuterEquips.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList()), "EquipmentKey", "name"));
+    writer.close();
+  }
+
+
+  private static void generateHerbNames(List<Herb> pures, TopicConfiguration conf) throws IOException {
+    String prefix = "kräuter";
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
+    writer.write(generateLocalisationString(pures, "HerbKey", "name"));
     writer.close();
   }
 
@@ -1930,7 +1940,7 @@ public class DsaPdfReaderMain {
     return returnValue.toString();
   }
 
-  private static String generateLocalisationString(List<EquipmentI> equipments, String enumName, String valueName) {
+  private static String generateLocalisationStringLEGACY(List<EquipmentI> equipments, String enumName, String valueName) {
     StringBuilder returnValue = new StringBuilder();
 
     //[ArmorCategoryKey.plate, $localize`:@@armorCategoryKey-0:Plattenrüstung`]
@@ -1942,6 +1952,42 @@ public class DsaPdfReaderMain {
         valueName,
         callGetter(e, valueName)
     ));
+    return returnValue.toString();
+  }
+
+  private static <T> String generateLocalisationString(
+      List<T> equipments,
+      String enumName,
+      String valueName
+  ) {
+    StringBuilder returnValue = new StringBuilder();
+
+    for (T e : equipments) {
+      try {
+        // get enum object
+        Object enumObj = e.getClass().getField("key").get(e);
+
+        if (!(enumObj instanceof Enum<?> enumValue)) {
+          throw new RuntimeException("Field 'key' is not an enum!");
+        }
+
+        int key = enumValue.ordinal();
+
+
+        appendLocalisationString(
+            returnValue,
+            enumName,
+            getEnumKeyName(enumName, key),
+            key,
+            valueName,
+            e.getClass().getField(valueName).get(e)
+        );
+      }
+      catch (NoSuchFieldException | IllegalAccessException ex) {
+        throw new RuntimeException(ex);
+      }
+    }
+
     return returnValue.toString();
   }
 
