@@ -33,5 +33,6 @@ public enum TopicEnum
   PRAEGUNG,
   RÜSTUNGEN_HELME,
   RÜSTUNGEN_TEILE,
-  HERBS
+  HERBS,
+  TAVERN
 }

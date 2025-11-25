@@ -140,4 +140,5 @@ false;Die_Winterwacht;04 - Regionen/Die Winterwacht (186);Die Winterwacht - 04 -
 false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des Gottwals - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;18;;51;;1800;1000;topic-mapping-content-gestade.xml;
 false;Almanach;04 - Regionen/Aventurischer Almanach (114);Aventurischer Almanach - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;;;;;1800;1000;topic-mapping-content-gestade.xml;
 false;Flüstern_aus_dem_Abgrund;05 - Abenteuer/Flustern aus dem Abgrund (178);Flustern aus dem Abgrund - 05 - Abenteuer.pdf;PROFESSIONS;116;;118;;1300;1000;;
-true;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;HERBS;12;;143;;1300;1000;;
+false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;HERBS;12;;143;;1300;1000;;
+true;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;TAVERN;13;;20;;1300;1100;;
