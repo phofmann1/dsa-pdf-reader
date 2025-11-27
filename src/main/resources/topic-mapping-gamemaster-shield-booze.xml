@@ -1,0 +1,86 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>13</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>25</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>58</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>13</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>67</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>81</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>38</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyConcatLinesToFirst" index="1">
+        <strategyClass>StrategyConcatLinesToFirst</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>17</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>100</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>101</value>
+            </parameter>
+            <parameter>
+                <key>seperator</key>
+                <value></value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>18</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>4</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+</topic-strategies>

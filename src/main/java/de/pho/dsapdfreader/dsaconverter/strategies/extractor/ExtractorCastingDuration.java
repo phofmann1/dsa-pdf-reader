@@ -19,13 +19,13 @@ public class ExtractorCastingDuration extends Extractor
     if (msr.name.equals("Ottarune (Ottaruna)"))
     {
       CastingDuration shortCd = new CastingDuration();
-      shortCd.castingDurationUnit = Unit.ACTION;
+      shortCd.castingDurationUnit = Unit.aktion;
       shortCd.duration = 4;
       shortCd.castingDurationSpecial = "4 Aktionen pro angefangenen 20 Personen";
       returnValue.add(shortCd);
 
       CastingDuration longCd = new CastingDuration();
-      longCd.castingDurationUnit = Unit.DAY;
+      longCd.castingDurationUnit = Unit.tag;
       longCd.duration = 4;
       longCd.castingDurationSpecial = "4 Tage pro angefangenen 20 Personen";
       returnValue.add(longCd);
@@ -45,7 +45,7 @@ public class ExtractorCastingDuration extends Extractor
     {
       returnValue = new CastingDuration();
       returnValue.duration = 1;
-      returnValue.castingDurationUnit = Unit.ACTION;
+      returnValue.castingDurationUnit = Unit.aktion;
     }
     else
     {
@@ -53,14 +53,14 @@ public class ExtractorCastingDuration extends Extractor
       {
         returnValue = new CastingDuration();
         returnValue.duration = 3;
-        returnValue.castingDurationUnit = Unit.COMBAT_ROUND;
+        returnValue.castingDurationUnit = Unit.kampfrunde;
 
       }
       else if (castingDuration.startsWith("lang"))
       {
         returnValue = new CastingDuration();
         returnValue.duration = 3;
-        returnValue.castingDurationUnit = Unit.MINUTE;
+        returnValue.castingDurationUnit = Unit.minute;
       }
       else
       {

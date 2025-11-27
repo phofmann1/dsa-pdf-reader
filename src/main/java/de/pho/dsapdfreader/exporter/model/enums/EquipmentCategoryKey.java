@@ -40,7 +40,10 @@ public enum EquipmentCategoryKey
   modifikation_rüstung,
   modifikation_munition,
   modifikation_waffe,
-  kräuter;
+  kräuter,
+  biere,
+  weine,
+  spirituosen;
 
   @JsonValue
   public int toValue() {

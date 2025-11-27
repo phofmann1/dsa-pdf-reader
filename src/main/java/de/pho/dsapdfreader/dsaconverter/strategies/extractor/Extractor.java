@@ -95,50 +95,53 @@ public abstract class Extractor
     }
   }
 
-  protected static Unit[] extractUnitsFromText(String t, String errorPrefix, boolean isMandatory)
-  {
+  public static Unit[] extractUnitsFromText(String t, String errorPrefix, boolean isMandatory) {
     List<Unit> l = new ArrayList<>();
-    if (t.contains("Aktion")) l.add(Unit.ACTION);
+    if (t.contains("Aktion")) l.add(Unit.aktion);
     // if (t.contains("")) l.add(Unit.AREA_OF_EFFECT);
-    if (t.contains("Kontinent")) l.add(Unit.CONTINENT);
-    if (t.contains("Jahrhundert")) l.add(Unit.CENTURY);
-    if (t.contains("KR") || t.contains("Kampfrunde")) l.add(Unit.COMBAT_ROUND);
-    if (t.contains("Doppelgänger")) l.add(Unit.DUPLICATE);
-    if (t.contains("Tag")) l.add(Unit.DAY);
-    if (t.contains("Stunde")) l.add(Unit.HOUR);
-    if (t.contains("sofort")) l.add(Unit.IMMEDIATE);
-    if (t.contains("Stein")) l.add(Unit.KG);
-    if (t.contains("LeP")) l.add(Unit.LEP);
-    if (t.contains("Giftstufe")) l.add(Unit.LEVEL_SICKNESS);
-    if (t.contains("Krankheitsstufe")) l.add(Unit.LEVEL_POISON);
-    if (t.contains("Minute")) l.add(Unit.MINUTE);
-    if (t.contains("Meile")) l.add(Unit.MILE);
-    if (t.contains("Schritt")) l.add(Unit.METER);
-    if (t.contains("Rechtschritt")) l.add(Unit.METERS_SQUARE);
-    if (t.contains("Monat")) l.add(Unit.MONTH);
+    if (t.contains("Kontinent")) l.add(Unit.kontinent);
+    if (t.contains("Jahrhundert")) l.add(Unit.jahrhundert);
+    if (t.contains("KR") || t.contains("Kampfrunde")) l.add(Unit.kampfrunde);
+    if (t.contains("Doppelgänger")) l.add(Unit.doppelgaenger);
+    if (t.contains("Tag")) l.add(Unit.tag);
+    if (t.contains("Stunde")) l.add(Unit.stunde);
+    if (t.contains("sofort")) l.add(Unit.sofort);
+    if (t.contains("Stein")) l.add(Unit.kilogramm);
+    if (t.contains("LeP")) l.add(Unit.lep);
+    if (t.contains("Giftstufe")) l.add(Unit.krankheit_stufe);
+    if (t.contains("Krankheitsstufe")) l.add(Unit.gift_stufe);
+    if (t.contains("Minute")) l.add(Unit.minute);
+    if (t.contains("Meile")) l.add(Unit.meile);
+    if (t.contains("Schritt")) l.add(Unit.meter);
+    if (t.contains("Rechtschritt")) l.add(Unit.quadratmeter);
+    if (t.contains("Monat")) l.add(Unit.monat);
     // if (t.contains("")) l.add(Unit.ONCE);
-    if (t.contains("permanent")) l.add(Unit.PERMANENT);
-    if (t.contains("Person")) l.add(Unit.PERSON);
+    if (t.contains("permanent")) l.add(Unit.permanent);
+    if (t.contains("Person")) l.add(Unit.person);
     // if (t.contains("")) l.add(Unit.RS);
     // if (t.contains("")) l.add( Unit.SIZE);
-    if (t.contains("Sekunde")) l.add(Unit.SECOND);
-    if (t.contains("selbst") || t.contains("Selbst")) l.add(Unit.SELF);
-    if (t.contains("Sicht")) l.add(Unit.SIGHT);
+    if (t.contains("Sekunde")) l.add(Unit.sekunde);
+    if (t.contains("selbst") || t.contains("Selbst")) l.add(Unit.selbst);
+    if (t.contains("Sicht")) l.add(Unit.sicht);
     // if (t.contains("")) l.add(Unit.SIZE_WEAPON);
-    if (t.contains("aufrechterhalten")) l.add(Unit.SUSTAINED);
+    if (t.contains("aufrechterhalten")) l.add(Unit.aufrechterhaltend);
     // if (t.contains("")) l.add( Unit.TARGET);
     // if (t.contains("")) l.add( Unit.TARGET_ASP);
     // if (t.contains("")) l.add( Unit.TARGET_ATT_KL);
-    if (t.contains("Berührung")) l.add(Unit.TOUCH);
+    if (t.contains("Berührung")) l.add(Unit.beruehrung);
     //if (t.contains("")) l.add(Unit.TURN);
     // if (t.contains("")) l.add( Unit.VOLUME_M);
-    if (t.contains("Woche")) l.add(Unit.WEEK);
-    if (t.contains("dere")) l.add(Unit.WORLD);
-    if (t.contains("Jahr")) l.add(Unit.YEAR);
+    if (t.contains("Woche")) l.add(Unit.woche);
+    if (t.contains("Dere")) l.add(Unit.welt);
+    if (t.contains("Jahr")) l.add(Unit.jahr);
+    if (t.contains("Becherchen")) l.add(Unit.becherchen);
+    if (t.contains("Becher")) l.add(Unit.becher);
+    if (t.contains("Kelch")) l.add(Unit.kelch);
+    if (t.contains("Humpen")) l.add(Unit.humpen);
+    if (t.contains("Krug")) l.add(Unit.krug);
     // if (t.contains("")) l.add(Unit.ZONE);
 
-    if (l.size() == 0 && isMandatory)
-    {
+    if (l.size() == 0 && isMandatory) {
       LOGGER.error(errorPrefix + "String (" + t + ") contains no implemented unit.");
     }
     return l.toArray(new Unit[l.size()]);

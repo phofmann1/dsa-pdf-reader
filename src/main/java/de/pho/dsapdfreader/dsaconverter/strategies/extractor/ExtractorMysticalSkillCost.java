@@ -164,7 +164,7 @@ public class ExtractorMysticalSkillCost extends Extractor {
 
             returnValue.costList = costs;
             returnValue.costListValues = values.size() > 0 ? values : null;
-            returnValue.costListUnit = Unit.RS;
+            returnValue.costListUnit = Unit.ruestungsschutz;
         }
         return restOfTxt;
     }
@@ -279,7 +279,7 @@ public class ExtractorMysticalSkillCost extends Extractor {
                 returnValue.costListValues = Arrays.stream(listUnit.split("\\/")).map(s -> s.trim()).collect(Collectors.toList());
 
             }
-            returnValue.costListUnit = restOfTxt.contains("Größe") ? Unit.SIZE : null;
+            returnValue.costListUnit = restOfTxt.contains("Größe") ? Unit.groesse : null;
         }
         return restOfTxt;
     }

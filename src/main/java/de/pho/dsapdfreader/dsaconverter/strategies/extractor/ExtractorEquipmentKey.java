@@ -16,7 +16,7 @@ public class ExtractorEquipmentKey extends Extractor
     catch (IllegalArgumentException e)
     {
       String msg = String.format("%s equipment key could not be interpreted.", name);
-      LOGGER.error(msg);
+      //LOGGER.error(msg);
     }
     return returnValue;
   }

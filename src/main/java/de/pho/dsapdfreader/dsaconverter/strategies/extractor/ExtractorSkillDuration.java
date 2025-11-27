@@ -61,17 +61,14 @@ public class ExtractorSkillDuration extends Extractor
             } else if (units.length == 1)
             {
                 returnValue.durationUnit = units[0];
-                if (returnValue.durationUnit != Unit.SUSTAINED && returnValue.durationUnit != Unit.IMMEDIATE)
-                {
+                if (returnValue.durationUnit != Unit.aufrechterhaltend && returnValue.durationUnit != Unit.sofort) {
                   returnValue.duration = extractFirstNumberFromText(durationTxt, getPrefix(msr.publication, msr.name));
                   returnValue.duration = returnValue.duration == 0 ? 1 : returnValue.duration;
-                    returnValue.isPerQS = durationTxt.contains("QS ");
+                  returnValue.isPerQS = durationTxt.contains("QS ");
                 }
             } else
             {
-                Optional<Unit> sustainedOrAny = Arrays.stream(units).filter(u ->
-                    u == Unit.SUSTAINED || u == Unit.IMMEDIATE
-                ).findFirst();
+              Optional<Unit> sustainedOrAny = Arrays.stream(units).filter(u -> u == Unit.aufrechterhaltend || u == Unit.sofort).findFirst();
                 if (sustainedOrAny.isPresent())
                 {
                     returnValue.durationUnit = sustainedOrAny.get();

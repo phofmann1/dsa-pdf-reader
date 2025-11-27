@@ -42,7 +42,7 @@ class ExtractorMysticalSkillCostTest
     expected.costMin = 4;
     expected.plusCost = 1;
     expected.plusCostPerMultiplier = 1;
-    expected.plusCostUnit = Unit.LEP;
+    expected.plusCostUnit = Unit.lep;
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -79,7 +79,7 @@ class ExtractorMysticalSkillCostTest
     expected.cost = 16;
     expected.plusCost = 8;
     expected.plusCostPerMultiplier = 5;
-    expected.plusCostUnit = Unit.MINUTE;
+    expected.plusCostUnit = Unit.minute;
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -117,7 +117,7 @@ class ExtractorMysticalSkillCostTest
     expected.cost = 2;
     expected.plusCost = 1;
     expected.plusCostPerMultiplier = 1;
-    expected.plusCostUnit = Unit.COMBAT_ROUND;
+    expected.plusCostUnit = Unit.kampfrunde;
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
   }
@@ -136,7 +136,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.costList = List.of(2, 4);
     expected.costListValues = List.of("Tasse", "Truhe");
-    expected.costListUnit = Unit.SIZE;
+    expected.costListUnit = Unit.groesse;
     expected.costText = msr.cost;
 
     assertThat(result, samePropertyValuesAs(expected));
@@ -174,7 +174,7 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.costList = List.of(4, 8, 16);
-    expected.costListUnit = Unit.RS;
+    expected.costListUnit = Unit.ruestungsschutz;
     expected.costListValues = List.of("1", "2", "3");
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
@@ -194,7 +194,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.plusCost = 4;
     expected.plusCostPerMultiplier = 1;
-    expected.plusCostUnit = Unit.DUPLICATE;
+    expected.plusCostUnit = Unit.doppelgaenger;
 
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
@@ -215,7 +215,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.costList = List.of(4, 8, 16, 32, 64);
     expected.costListValues = List.of("winzig", "klein", "mittel", "groß", "riesig");
-    expected.costListUnit = Unit.SIZE;
+    expected.costListUnit = Unit.groesse;
     expected.permanentCostList = List.of(1, 2, 4, 8, 16);
     expected.costText = msr.cost;
 
@@ -236,7 +236,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.costList = List.of(4, 8, 16, 32, 64);
     expected.costListValues = List.of("winzig", "klein", "mittel", "groß", "riesig");
-    expected.costListUnit = Unit.SIZE;
+    expected.costListUnit = Unit.groesse;
     expected.permanentCostList = List.of(0, 1, 2, 4, 8);
     expected.costText = msr.cost;
 
@@ -332,12 +332,12 @@ class ExtractorMysticalSkillCostTest
     //that
     Cost expected = new Cost();
     expected.costList = List.of(8, 16, 32, 64);
-    expected.costListUnit = Unit.SIZE;
+    expected.costListUnit = Unit.groesse;
     expected.costListValues = List.of("Tasse", "Truhe", "Tür", "Burgtor");
     expected.plusCostPerMultiplier = 5;
-    expected.plusCostUnit = Unit.MINUTE;
+    expected.plusCostUnit = Unit.minute;
     expected.plusCostList = List.of(4, 8, 16, 32);
-    expected.plusCostListUnit = Unit.SIZE;
+    expected.plusCostListUnit = Unit.groesse;
     expected.plusCostListValues = List.of("Tasse", "Truhe", "Tür", "Burgtor");
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));
@@ -391,7 +391,7 @@ class ExtractorMysticalSkillCostTest
     Cost expected = new Cost();
     expected.costMin = 4;
     expected.plusCostPerMultiplier = 5;
-    expected.plusCostUnit = Unit.MINUTE;
+    expected.plusCostUnit = Unit.minute;
     expected.plusCostHalfBase = true;
     expected.costText = msr.cost;
     assertThat(result, samePropertyValuesAs(expected));

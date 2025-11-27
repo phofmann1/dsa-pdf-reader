@@ -5,13 +5,28 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Sextet;
 import org.javatuples.Triplet;
 
 import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAP;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorAdvancementCategory;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCastingDuration;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorCheck;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorElementKeys;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorFeature;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillCost;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillDifficulty;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillKey;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillModifications;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSkillVariant;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillDuration;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkillRange;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTargetCategory;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTradtion;
 import de.pho.dsapdfreader.exporter.model.CastingDuration;
 import de.pho.dsapdfreader.exporter.model.Cost;
 import de.pho.dsapdfreader.exporter.model.MysticalSkill;
@@ -212,7 +227,7 @@ public class LoadToMysticalSkill
       nMs.skillCost.cost = p.getValue4();
       nMs.skillCost.plusCostHalfBase = true;
       nMs.skillCost.plusCost = p.getValue4() / 2;
-      nMs.skillCost.plusCostUnit = Unit.MINUTE;
+      nMs.skillCost.plusCostUnit = Unit.minute;
       nMs.skillCost.plusCostPerMultiplier = 30;
       nMs.advancementCategory = p.getValue5();
       nMs.requirementMysticalSkill = new RequirementMysticalSkill();

@@ -34,7 +34,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import de.pho.dsapdfreader.dsaconverter.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Pair;
@@ -50,7 +49,33 @@ import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmor;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorAvailability;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorLists;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorPart;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterBeverage;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterClericalObjectRituals;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterContent;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterCurriculum;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterEquipment;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterHerb;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillIncantations;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivityAndArtifacts;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimorium;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimoriumTricks;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterPraegung;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterProfession;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterProfile;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterSkillKodex;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityKodex;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterTraditionsToSpecialAbility;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeapon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeaponAvailability;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeaponLists;
 import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
+import de.pho.dsapdfreader.dsaconverter.model.BeverageRaw;
 import de.pho.dsapdfreader.dsaconverter.model.BoonRaw;
 import de.pho.dsapdfreader.dsaconverter.model.ContentRaw;
 import de.pho.dsapdfreader.dsaconverter.model.CurriculumRaw;
@@ -73,6 +98,7 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitu
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
 import de.pho.dsapdfreader.exporter.LoadToArmor;
+import de.pho.dsapdfreader.exporter.LoadToBeverage;
 import de.pho.dsapdfreader.exporter.LoadToBoon;
 import de.pho.dsapdfreader.exporter.LoadToEquipment;
 import de.pho.dsapdfreader.exporter.LoadToHerb;
@@ -125,13 +151,13 @@ public class DsaPdfReaderMain {
 
   static final CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.blasrohre, CombatSkillKey.bögen, CombatSkillKey.armbrüste, CombatSkillKey.diskusse, CombatSkillKey.schleudern, CombatSkillKey.wurfwaffen};
   static final Map<String, String> mapProfession2CurriculumRaw;
-  private static final boolean TOGGLE_READ_PDF = true;
+  private static final boolean TOGGLE_READ_PDF = false;
   private static final String PDF_BASE_PATH = "D:/Daten/Dropbox/pdf.library/RPG/DSA 5/";
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -1006,6 +1032,39 @@ public class DsaPdfReaderMain {
         throw new RuntimeException(e);
       }
 
+    }
+    case TAVERN -> {
+      try {
+        File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
+
+        List<BeverageRaw> raws = CsvHandler.readBeanFromFile(BeverageRaw.class, fIn);
+
+        List<Equipment> pures = raws.stream().map(LoadToBeverage::migrate).collect(Collectors.toList());
+
+        ObjectMapper mapper = initObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(pures);
+
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "equipment"));
+        writer.write(jsonResult);
+        writer.close();
+
+        String prefix = "equipment";
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
+        writer.write(generateLocalisationString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList()), "EquipmentKey", "name"));
+        writer.close();
+
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_remark"));
+        writer.write(generateLocalisationString(pures.stream().map(mw -> (EquipmentI) mw).collect(Collectors.toList()), "EquipmentKey", "remark"));
+        writer.close();
+      }
+      catch (JsonProcessingException e) {
+        throw new RuntimeException(e);
+      }
+      catch (IOException e) {
+        throw new RuntimeException(e);
+      }
     }
     default -> LOGGER.error(String.format("Unexpected value (parseToJson): %s", conf.topic));
     }
@@ -1969,7 +2028,7 @@ public class DsaPdfReaderMain {
   }
 
   private static void appendLocalisationString(StringBuilder returnValue, String enumName, String keyName, Integer keyValue, String valueName, Object value) {
-    if (value == null) {
+    if (value == null || ((String) value).isEmpty()) {// Achtung, der Cast auf String könnte falsch sein
       returnValue.append("//");
       returnValue.append(enumName);
       returnValue.append(".");
@@ -2168,7 +2227,7 @@ public class DsaPdfReaderMain {
     case CONTENT_LAND_UND_LEUTE -> results = new DsaConverterContent().convertTextWithMetaInfo(texts, conf);
     case PRAEGUNG -> results = DsaConverterPraegung.convertTextWithMetaInfo(texts, conf);
     case HERBS -> results = new DsaConverterHerb().convertTextWithMetaInfo(texts, conf);
-      case TAVERN -> results = new DsaConverterTavern().convertTextWithMetaInfo(texts, conf);
+    case TAVERN -> results = new DsaConverterBeverage().convertTextWithMetaInfo(texts, conf);
     default -> LOGGER.error(String.format("Unexpected value (parseToRaw): %s", conf.topic));
     }
     return results;

@@ -1,30 +1,20 @@
 package de.pho.dsapdfreader.exporter.model;
 
-import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import de.pho.dsapdfreader.exporter.model.enums.CraftingComplexityKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.Unit;
 
-public class Equipment implements EquipmentI
-{
+public class BeverageEquipment implements EquipmentI {
   public String name;
-  public List<Alias> aliasse;
   public EquipmentKey key;
-  public EquipmentCategoryKey equipmentCategoryKey;
+  public EquipmentCategoryKey equipmentCategoryKey = EquipmentCategoryKey.genussmittel_und_luxus;
   public Price price;
   public Unit baseUnit;
-  public int structure;
-  public double weight;
-  public String color;
   public Publication publication;
 
-  public CraftingComplexityKey craftingComplexity;
-  public int craftingAp;
 
   @JsonIgnore
   public String rules;
@@ -33,38 +23,32 @@ public class Equipment implements EquipmentI
   public String remark;
 
   @Override
-  public int getKeyValue()
-  {
+  public int getKeyValue() {
     return this.key.toValue();
   }
 
   @Override
-  public String getName()
-  {
+  public String getName() {
     return this.name;
   }
 
   @Override
-  public String getRules()
-  {
+  public String getRules() {
     return this.rules;
   }
 
   @Override
-  public String getAdvantage()
-  {
+  public String getAdvantage() {
     return null;
   }
 
   @Override
-  public String getDisadvantage()
-  {
+  public String getDisadvantage() {
     return null;
   }
 
   @Override
-  public String getRemark()
-  {
+  public String getRemark() {
     return this.remark;
   }
 }
