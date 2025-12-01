@@ -10,7 +10,6 @@ public class ProfileRaw implements DsaObjectI
   public String publication;
   public String description;
   public String Name;
-  public String Description;
   public String Größe;
   public String Gewicht;
   public String MU;
@@ -56,6 +55,8 @@ public class ProfileRaw implements DsaObjectI
   public String qs2;
   public String qs3;
   public String VW;
+  public String verbreitung;
+  public String lebensweise;
 
   @Override
   public String getName()

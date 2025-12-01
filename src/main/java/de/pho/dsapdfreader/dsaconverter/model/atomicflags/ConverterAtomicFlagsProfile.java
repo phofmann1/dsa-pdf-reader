@@ -51,6 +51,9 @@ public class ConverterAtomicFlagsProfile implements ConverterAtomicFlagsI
   public AtomicBoolean wasQs2;
   public AtomicBoolean wasQs3;
   public AtomicBoolean wasVW;
+  public AtomicBoolean wasVerbreitung;
+  public AtomicBoolean wasLebensweise;
+
 
   public ConverterAtomicFlagsProfile()
   {
@@ -113,5 +116,7 @@ public class ConverterAtomicFlagsProfile implements ConverterAtomicFlagsI
     wasQs2 = new AtomicBoolean(false);
     wasQs3 = new AtomicBoolean(false);
     wasVW = new AtomicBoolean(false);
+    wasVerbreitung = new AtomicBoolean(false);
+    wasLebensweise = new AtomicBoolean(false);
   }
 }

@@ -16,6 +16,8 @@ import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 public class DsaConverterProfile extends DsaConverter<ProfileRaw, ConverterAtomicFlagsProfile>
 {
 
+  public static final String KEY_Verbreitung = "Verbreitung";
+  public static final String KEY_Lebensweise = "Lebensweise";
   public static final String KEY_Größe = "Größe";
   public static final String KEY_Gewicht = "Gewicht";
   public static final String KEY_MU = "MU";
@@ -104,7 +106,9 @@ public class DsaConverterProfile extends DsaConverter<ProfileRaw, ConverterAtomi
       KEY_Kompetent,
       KEY_QS1,
       KEY_QS2,
-      KEY_QS3
+      KEY_QS3,
+          KEY_Verbreitung,
+          KEY_Lebensweise
   };
   private static final Logger LOGGER = LogManager.getLogger();
   ConverterAtomicFlagsProfile flags;
@@ -151,6 +155,7 @@ public class DsaConverterProfile extends DsaConverter<ProfileRaw, ConverterAtomi
           }
 
         });
+
     concludePredecessor(last(returnValue)); //finish the last entry in list
     return returnValue;
   }
@@ -269,6 +274,8 @@ public class DsaConverterProfile extends DsaConverter<ProfileRaw, ConverterAtomi
     this.getFlags().wasQs1.set(key.equals(KEY_QS1));
     this.getFlags().wasQs2.set(key.equals(KEY_QS2));
     this.getFlags().wasQs3.set(key.equals(KEY_QS3));
+    this.getFlags().wasVerbreitung.set(key.equals(KEY_Verbreitung));
+    this.getFlags().wasLebensweise.set(key.equals(KEY_Lebensweise));
     this.getFlags().wasWeaponName.set(couldBeWeaponName && Arrays.stream(KEYS).noneMatch(k -> k.equals(key)));
     this.getFlags().wasInformation.set(couldBeInformation && Arrays.stream(KEYS).noneMatch(k -> k.equals(key)));
   }
@@ -326,6 +333,8 @@ public class DsaConverterProfile extends DsaConverter<ProfileRaw, ConverterAtomi
       if (this.getFlags().wasQs1.get()) currentDataObject.qs1 = concatForDataValue(currentDataObject.qs1, cleanText);
       if (this.getFlags().wasQs2.get()) currentDataObject.qs2 = concatForDataValue(currentDataObject.qs2, cleanText);
       if (this.getFlags().wasQs3.get()) currentDataObject.qs3 = concatForDataValue(currentDataObject.qs3, cleanText);
+      if (this.getFlags().wasVerbreitung.get()) currentDataObject.verbreitung = concatForDataValue(currentDataObject.verbreitung, cleanText);
+      if (this.getFlags().wasLebensweise.get()) currentDataObject.lebensweise = concatForDataValue(currentDataObject.lebensweise, cleanText);
 
     }
   }
