@@ -101,7 +101,7 @@ false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kre
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;279;;283;66;1300;1100;;
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;290;22;291;17;1300;1100;topic-mapping-archiv-der-kreaturen.xml;WERWESEN
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;294;142;295;20;1300;1100;topic-mapping-archiv-der-kreaturen.xml;SONDERFERTIGKEITEN
-false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
+true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
 false;Archiv_der_Dämonen;01 - Regeln/Archiv der Damonen (178);Archiv der Damonen - 01 - Regeln.pdf;ABILITIES;307;28;307;67;1300;1100;topic-mapping-archiv-daemonen.xml;
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;BOONS;147;21;149;;1300;1100;topic-mapping-elementarium.xml;
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;PAKTE
@@ -141,4 +141,4 @@ false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des 
 false;Almanach;04 - Regionen/Aventurischer Almanach (114);Aventurischer Almanach - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;;;;;1800;1000;topic-mapping-content-gestade.xml;
 false;Flüstern_aus_dem_Abgrund;05 - Abenteuer/Flustern aus dem Abgrund (178);Flustern aus dem Abgrund - 05 - Abenteuer.pdf;PROFESSIONS;116;;118;;1300;1000;;
 false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;HERBS;12;;143;;1300;1000;;
-true;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;TAVERN;13;16;20;;1300;1100;topic-mapping-gamemaster-shield-booze.xml;
+false;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;TAVERN;13;16;20;;1300;1100;topic-mapping-gamemaster-shield-booze.xml;
