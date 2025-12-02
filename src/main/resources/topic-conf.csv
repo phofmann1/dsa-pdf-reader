@@ -8,9 +8,9 @@ false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flu
 false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;RÜSTUNGEN;76;;76;;;1000;;Zwerge
 false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;77;;78;;;1000;topic-mapping-hd-flusslande.xml;Improvisiert
 false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;WAFFEN;79;;80;;;1000;;Besondere Gegenstände
-false;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;ABILITIES;24;;32;;1300;1100;topic-mapping-hd-flusslande-abilities.xml;
+true;Helden_der_Flusslande;03 - Welt/Helden der Flusslande (181);Helden der Flusslande - 03 - Welt.pdf;ABILITIES;24;;32;;1300;1100;topic-mapping-hd-flusslande-abilities.xml;
 false;Die_Flusslande;04 - Regionen/Die Flusslande (180);Die Flusslande - 04 - Regionen.pdf;AUSRÜSTUNG;87;40;88;8;;1000;;
-false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;ABILITIES;39;;40;30;1300;1100;topic-mapping-hd-siebenwindkueste.xml;
+true;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;ABILITIES;39;;40;30;1300;1100;topic-mapping-hd-siebenwindkueste.xml;
 false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;76;;85;;;1000;;ALBERNIA
 false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;WAFFEN;86;;89;;;1000;topic-mapping-sevenwinds-weapon.xml;WINDHAG
 false;Helden_der_Siebenwindküste;03 - Welt/Helden der Siebenwindkste (217);Helden der Siebenwindkste - 03 - Welt.pdf;RÜSTUNGEN;89;8;91;;;1000;topic-mapping-hd-siebenwindkueste.xml;ALBERNIA
@@ -30,9 +30,9 @@ false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden d
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;RÜSTUNGEN;74;;74;42;;1000;;Oron
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;74;42;75;;;1000;topic-mapping-hd-dornenreich.xml;Improvisiert
 false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;WAFFEN;76;;76;;;1000;;Besondere Gegenstände
-false;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;ABILITIES;28;64;35;;1300;1100;topic-mapping-hd-dornenreich.xml;
+true;Helden_des_Dornenreiches;03 - Welt/Helden des Dornenreiches (213);Helden des Dornenreiches - 03 - Welt.pdf;ABILITIES;28;64;35;;1300;1100;topic-mapping-hd-dornenreich.xml;
 false;Das_Dornenreich;04 - Regionen/Das Dornenreich (212);Das Dornenreich - 04 - Regionen.pdf;AUSRÜSTUNG;87;11;87;31;;1000;topic-mapping-hd-dornenreich.xml;
-false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;ABILITIES;27;;38;;1300;1100;topic-mapping-hd-gottwals.xml;
+true;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;ABILITIES;27;;38;;1300;1100;topic-mapping-hd-gottwals.xml;
 false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;73;;79;;;1000;;Thorwal
 false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;RÜSTUNGEN;80;;80;;;1000;;Thorwal
 false;Helden_des_Gottwals;03 - Welt/Helden des Gottwals (200);Helden des Gottwals - 03 - Welt.pdf;WAFFEN;81;30;85;14;;1000;;Gjalskerland
@@ -45,8 +45,8 @@ false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des W
 false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;WAFFEN;79;;82;;;1000;;SHAKAGRA
 false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;RÜSTUNGEN;83;;83;;;1000;;SHAKAGRA
 false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;47;73;49;;1000;1000;topic-mapping-hd-wolfsfrost.xml;
-false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;ABILITIES;35;;39;;1300;1100;topic-mapping-hd-wolfsfrost.xml;
-false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;ABILITIES;51;15;54;;1300;1100;topic-mapping-hd-wolfsfrost.xml;MAGIE
+true;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;ABILITIES;35;;39;;1300;1100;topic-mapping-hd-wolfsfrost.xml;
+true;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;ABILITIES;51;15;54;;1300;1100;topic-mapping-hd-wolfsfrost.xml;MAGIE
 false;Helden_des_Wolfsfrosts;03 - Welt/Helden des Wolfsfrosts (231);Helden des Wolfsfrosts - 03 - Welt.pdf;PROFESSIONS;9;;20;;1300;1000;topic-mapping-hd-wolfsfrost.xml;
 false;Der_Wolfsfrost;04 - Regionen/Der Wolfsfrost (230);Der Wolfsfrost - 04 - Regionen.pdf;AUSRÜSTUNG;;;;;;1000;;
 false;Rüstkammer_der_dampfenden_Dschungel;02 - Ausrustung/Rustkammer der Dampfenden Dschungel (141);Rustkammer der Dampfenden Dschu - 02 - Ausrustung.pdf;WAFFEN;8;;15;;;1000;;DSCHUNGEL
@@ -72,7 +72,7 @@ false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche 
 false;Rüstkammer_der_Wüstenreiche;02 - Ausrustung/Rustkammer des Wustenreiche (134);Rustkammer des Wustenreiche - 02 - Ausrustung.pdf;AUSRÜSTUNG;35;52;35;;;1000;topic-mapping-dessertempire-weapon.xml;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;AUSRÜSTUNG;421;;421;;;1000;;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;WAFFENLISTE;422;;424;;;900;topic-mapping-kodex-cleric-waffenliste.xml;
-false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;ABILITIES;230;63;230;;1300;1100;topic-mapping-archiv-ausruestung.xml;
+true;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;ABILITIES;230;63;230;;1300;1100;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;WAFFEN;82;;160;;;1000;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN;161;;193;;;1000;topic-mapping-archiv-ausruestung.xml;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGEN_HELME;194;;208;;1300;1000;;
@@ -82,37 +82,37 @@ false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der 
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_WAFFEN;236;;244;;;1000;;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_RÜSTUNG;245;;246;;;1000;;
 false;Strassenstaub_und_Halsabschneider;01 - Regeln/Strassenstaub & Halsabschneider (149);Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;1000;topic-mapping-streets-equipment.xml;
-false;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
-false;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;11;37;11;60;1300;1100;;
-false;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;17;68;18;42;1300;1100;topic-mapping-katakomben-und-ruinen.xml;FALLEN
+true;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
+true;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;11;37;11;60;1300;1100;;
+true;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;17;68;18;42;1300;1100;topic-mapping-katakomben-und-ruinen.xml;FALLEN
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;CURRICULUM;272;16;284;23;1300;1000;;
 false;Kodex_der_Helden;01 - Regeln/Kodex der Helden (154);Kodex der Helden - 01 - Regeln.pdf;PROFESSIONS;98;;373;;1300;900;topic-mapping-kodex-helden-professions.xml;
 false;Kodex_der_Helden;01 - Regeln/Kodex der Helden (154);Kodex der Helden - 01 - Regeln.pdf;BOONS;391;53;418;;1300;1100;topic-mapping-kodex-helden-boons.xml;
-false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
+true;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;ABILITIES;249;;354;;1300;1100;topic-mapping-kodex-swords-abilities.xml;
 false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;SKILLS;36;59;61;;1300;1100;topic-mapping-kodex-swords-skills.xml;
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
-false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
+true;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;PRAEGUNG;253;;262;;1300;1100;;
-false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
+true;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
-false;Aventurische_Tiergefährten;02 - Ausrustung/Tiergefahrten (133);Tiergefahrten - 02 - Ausrustung.pdf;ABILITIES;129;12;129;69;1300;1000;;
-false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
-false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;266;;268;;1300;1100;;ANIMAL-SF
-false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;279;;283;66;1300;1100;;
-false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;290;22;291;17;1300;1100;topic-mapping-archiv-der-kreaturen.xml;WERWESEN
-false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;294;142;295;20;1300;1100;topic-mapping-archiv-der-kreaturen.xml;SONDERFERTIGKEITEN
-true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
-false;Archiv_der_Dämonen;01 - Regeln/Archiv der Damonen (178);Archiv der Damonen - 01 - Regeln.pdf;ABILITIES;307;28;307;67;1300;1100;topic-mapping-archiv-daemonen.xml;
+true;Aventurische_Tiergefährten;02 - Ausrustung/Tiergefahrten (133);Tiergefahrten - 02 - Ausrustung.pdf;ABILITIES;129;12;129;69;1300;1000;;
+true;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
+true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;266;;268;;1300;1100;;ANIMAL-SF
+true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;279;;283;66;1300;1100;;
+true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;290;22;291;17;1300;1100;topic-mapping-archiv-der-kreaturen.xml;WERWESEN
+true;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;294;142;295;20;1300;1100;topic-mapping-archiv-der-kreaturen.xml;SONDERFERTIGKEITEN
+false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;PROFILE;13;;267;;1800;1000;;
+true;Archiv_der_Dämonen;01 - Regeln/Archiv der Damonen (178);Archiv der Damonen - 01 - Regeln.pdf;ABILITIES;307;28;307;67;1300;1100;topic-mapping-archiv-daemonen.xml;
 false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;BOONS;147;21;149;;1300;1100;topic-mapping-elementarium.xml;
-false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;PAKTE
-false;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;162;;162;;1300;1100;topic-mapping-elementarium.xml;INVOKATION
-false;Aventurisches_Nekromantäum;03 - Welt/Aventurisches Nekromanthaum (123);Aventurisches Nekromanthaum - 03 - Welt.pdf;ABILITIES;152;;152;;1300;1100;topic-mapping-nekromanthaeum.xml;
-false;Aventurisches_Transmutarium;03 - Welt/Aventurisches Transmutarium (119);Aventurisches Transmutarium - 03 - Welt.pdf;ABILITIES;155;1;155;39;1300;1100;topic-mapping-transmutarium.xml;
+true;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;150;;152;;1300;1100;topic-mapping-elementarium.xml;PAKTE
+true;Aventurisches_Elementarium;03 - Welt/Aventurisches Elementarium (125);Aventurisches Elementarium - 03 - Welt.pdf;ABILITIES;162;;162;;1300;1100;topic-mapping-elementarium.xml;INVOKATION
+true;Aventurisches_Nekromantäum;03 - Welt/Aventurisches Nekromanthaum (123);Aventurisches Nekromanthaum - 03 - Welt.pdf;ABILITIES;152;;152;;1300;1100;topic-mapping-nekromanthaeum.xml;
+true;Aventurisches_Transmutarium;03 - Welt/Aventurisches Transmutarium (119);Aventurisches Transmutarium - 03 - Welt.pdf;ABILITIES;155;1;155;39;1300;1100;topic-mapping-transmutarium.xml;
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;BOONS;144;1;147;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;
-false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;PAKTE
-false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;157;;158;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;INVOKATION
+true;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;148;32;153;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;PAKTE
+true;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;157;;158;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;INVOKATION
 false;Geschuppte_Tyrannen;03 - Welt/Geschuppte Tyrannen (221);Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
-false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
+true;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;
@@ -127,10 +127,10 @@ false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;12;7;16;;1000;900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;18;;237;;2000;1900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;240;;395;;2000;1900;topic-mapping-divinarium.xml;
-false;GMuH_Havena;04 - Regionen/Glaube Macht & Heldenmut Havena (244);Glaube Macht & Heldenmut Havena - 04 - Regionen.pdf;ABILITIES;18;;18;;1300;1100;;
-false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;ABILITIES;16;;23;;1300;1100;;
+true;GMuH_Havena;04 - Regionen/Glaube Macht & Heldenmut Havena (244);Glaube Macht & Heldenmut Havena - 04 - Regionen.pdf;ABILITIES;18;;18;;1300;1100;;
+true;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;ABILITIES;16;;23;;1300;1100;;
 false;GMuH_Die_streitenden_Königreiche;04 - Regionen/Die Streitenden Konigreiche - Nostri (98);Die Streitenden Konigreiche - N - 04 - Regionen.pdf;PROFESSIONS;5;;15;;1300;1000;topic-mapping-gmuh-streitende-koenigreiche.xml;
-false;Weltenwanderer;03 - Welt/Weltenwanderer (233);Weltenwanderer - 03 - Welt.pdf;ABILITIES;155;100;155;;1300;1000;;
+true;Weltenwanderer;03 - Welt/Weltenwanderer (233);Weltenwanderer - 03 - Welt.pdf;ABILITIES;155;100;155;;1300;1000;;
 false;Weltenwanderer;03 - Welt/Weltenwanderer (233);Weltenwanderer - 03 - Welt.pdf;BOONS;156;;156;44;1300;1100;;
 false;Das_Dornenreich;04 - Regionen/Das Dornenreich (212);Das Dornenreich - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;19;;60;;;1000;topic-mapping-hd-dornenreich.xml;
 false;Die_Echsensümpfe;04 - Regionen/Die Echsensumpfe (218);Die Echsensumpfe - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;19;;56;;;1000;;

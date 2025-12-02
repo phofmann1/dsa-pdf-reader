@@ -82,7 +82,6 @@ public class DsaConverterBeverage extends DsaConverter<BeverageRaw, ConverterAto
           tavernMap.get(currentName.get()).description = (tavernMap.get(currentName.get()).description + " " + t.text).trim();
         }
       }
-
     });
 
     Pattern pattern = Pattern.compile("^(?<verbreitung>.*)" +
