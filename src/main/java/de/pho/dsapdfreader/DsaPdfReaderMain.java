@@ -1744,9 +1744,9 @@ public class DsaPdfReaderMain {
         keyNames.forEach(p -> {
           if (p.getValue0() != null) {
             appendLocalisationJson(returnValue.getValue0(), "SpecialAbilityKey", p.getValue0().toValue(), "name", p.getValue1());
-            appendLocalisationString(returnValue.getValue1(), "SpecialAbilityKey", p.getValue0().toValue(), "rule", raw.rules);
-            appendLocalisationString(returnValue.getValue2(), "SpecialAbilityKey", p.getValue0().toValue(), "description", raw.description);
-            appendLocalisationString(returnValue.getValue3(), "SpecialAbilityKey", p.getValue0().toValue(), "precondition", raw.preconditions);
+            appendLocalisationJson(returnValue.getValue1(), "SpecialAbilityKey", p.getValue0().toValue(), "rule", raw.rules);
+            appendLocalisationJson(returnValue.getValue2(), "SpecialAbilityKey", p.getValue0().toValue(), "description", raw.description);
+            appendLocalisationJson(returnValue.getValue3(), "SpecialAbilityKey", p.getValue0().toValue(), "precondition", raw.preconditions);
           }
           else {
             LOGGER.error("Special Ability (" + p.getValue1() + ") has no key!");
