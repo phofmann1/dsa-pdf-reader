@@ -32,6 +32,7 @@ public class SpecialAbility
   public SelectionCategory selectionCategory;
   public Integer selectSkillUsagesCount;
   public SkillCategoryKey skillCategory;
+  public Integer difficulty;
   public Boolean hasFreeText;
   public SpecialAbilityAdvancedSelection advancedAbilities;
   public List<ValueChange> valueChanges;

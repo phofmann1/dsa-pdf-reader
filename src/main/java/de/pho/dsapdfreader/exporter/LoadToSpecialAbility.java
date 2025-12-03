@@ -186,6 +186,7 @@ public class LoadToSpecialAbility
         specialAbility.isOnlyDwarfenWeapon = allowedWepons.getValue2();
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
 
+        specialAbility.difficulty = isNumeric(raw.difficulty) ? Integer.parseInt(raw.difficulty.replace("–", "-")) : null;
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
         specialAbility.requiredEntityDomainKeys = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieveDemonic(raw.verbreitung) : null;
         if (raw.kreisDerVerdammnis != null && !raw.kreisDerVerdammnis.isEmpty()) {
@@ -196,6 +197,7 @@ public class LoadToSpecialAbility
         }else if(specialAbility.category ==SpecialAbilityCategoryKey.pact_elemental) {
           specialAbility.requiredPactLevel = ExtractorPactLevel.retrieve(raw.preconditions, currentLevel);
           specialAbility.requiredEntityDomainKeys = ExtractorEntityDomain.retrieveElement(raw.preconditions);
+
         }
         if (specialAbility.key != SpecialAbilityKey.fertigkeitsspezialisierung) {
 
@@ -271,6 +273,15 @@ public class LoadToSpecialAbility
     return returnValue.stream();
   }
 
+  public static boolean isNumeric(String s) {
+    if (s == null) return false;
+    try {
+      Double.parseDouble(s);
+      return true;
+    } catch (NumberFormatException e) {
+      return false;
+    }
+  }
 
   private static SpecialAbility handleSaCategoryMixed(SpecialAbility specialAbility) {
     if (specialAbility.requirementMysticalSkill != null //REQ for mystical skills are all magic

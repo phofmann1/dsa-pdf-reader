@@ -122,8 +122,8 @@ false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - R
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_RITUALS_GRIMORIUM;452;;453;;3200;3100;;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_RITUALS_GRIMORIUM;456;;456;;3200;3100;topic-mapping-grimorium-zhayad.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;ELEMENTS_RITUALS_GRIMORIUM;478;14;478;50;3200;3100;;
-false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS;459;;468;;3200;3100;;
-false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;TRADITIONS;404;3;413;;3200;3100;topic-mapping-divinarium-traditions.xml;
+true;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;TRADITIONS;459;;468;;3200;3100;;
+true;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;TRADITIONS;404;3;413;;3200;3100;topic-mapping-divinarium-traditions.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;BLESSING_DIVINARIUM;12;7;16;;1000;900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;LITURGY_DIVINARIUM;18;;237;;2000;1900;topic-mapping-divinarium.xml;
 false;Divinarium;01 - Regeln/Divinarium Liturgia (188);Divinarium Liturgia - 01 - Regeln.pdf;CEREMONY_DIVINARIUM;240;;395;;2000;1900;topic-mapping-divinarium.xml;

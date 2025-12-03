@@ -156,8 +156,8 @@ public class DsaPdfReaderMain {
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -969,7 +969,7 @@ public class DsaPdfReaderMain {
         writer.write(jsonResultOrs);
         writer.close();
 
-        Triplet<StringBuilder, StringBuilder, StringBuilder> t = generateTraditionStringBuilders(raws);
+        Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> t = generateTraditionStringBuilders(raws);
         // name
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_names"));
         writer.write(t.getValue0().toString());
@@ -983,6 +983,11 @@ public class DsaPdfReaderMain {
         // preconditions
         writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_preconditions"));
         writer.write(t.getValue2().toString());
+        writer.close();
+
+        // ap
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "special_abilities_ap"));
+        writer.write(t.getValue3().toString());
         writer.close();
 
 
@@ -1635,8 +1640,8 @@ public class DsaPdfReaderMain {
     return returnValue.toString();
   }
 
-  private static Triplet<StringBuilder, StringBuilder, StringBuilder> generateTraditionStringBuilders(List<TraditionRaw> rawTraditions) {
-    Triplet<StringBuilder, StringBuilder, StringBuilder> returnValue = new Triplet<>(new StringBuilder(), new StringBuilder(), new StringBuilder());
+  private static Quartet<StringBuilder, StringBuilder, StringBuilder,StringBuilder> generateTraditionStringBuilders(List<TraditionRaw> rawTraditions) {
+    Quartet<StringBuilder, StringBuilder, StringBuilder,StringBuilder> returnValue = new Quartet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
     rawTraditions.forEach(raw -> {
 
       SpecialAbilityKey key = ExtractorSpecialAbility.retrieve(raw.name
@@ -1657,9 +1662,10 @@ public class DsaPdfReaderMain {
         Arrays.stream(raw.description.split("#")).filter(d -> !d.trim().isEmpty()).forEach(d -> htmlListBuilder.append("<li>").append(d.trim()).append("</li>"));
         htmlListBuilder.append("</ul>");
         if (p.getValue0() != null) {
-          returnValue.getValue0().append(p.getValue0().toValue() + " {" + p.getValue1() + "}\r\n");
-          returnValue.getValue1().append(p.getValue0().toValue() + " {" + htmlListBuilder + "} \r\n");
-          returnValue.getValue2().append(p.getValue0().toValue() + " {" + raw.preconditions + "} \r\n");
+          appendLocalisationJson(returnValue.getValue0(), p.getValue0().toValue(), p.getValue1());
+          appendLocalisationJson(returnValue.getValue1(), p.getValue0().toValue(), htmlListBuilder.toString());
+          appendLocalisationJson(returnValue.getValue2(), p.getValue0().toValue(), raw.preconditions);
+          appendLocalisationJson(returnValue.getValue3(), p.getValue0().toValue(), raw.ap);
         }
         else {
           LOGGER.error("Tradition Special Ability (" + p.getValue1() + ") has no key!");
@@ -1743,10 +1749,10 @@ public class DsaPdfReaderMain {
 
         keyNames.forEach(p -> {
           if (p.getValue0() != null) {
-            appendLocalisationJson(returnValue.getValue0(), "SpecialAbilityKey", p.getValue0().toValue(), "name", p.getValue1());
-            appendLocalisationJson(returnValue.getValue1(), "SpecialAbilityKey", p.getValue0().toValue(), "rule", raw.rules);
-            appendLocalisationJson(returnValue.getValue2(), "SpecialAbilityKey", p.getValue0().toValue(), "description", raw.description);
-            appendLocalisationJson(returnValue.getValue3(), "SpecialAbilityKey", p.getValue0().toValue(), "precondition", raw.preconditions);
+            appendLocalisationJson(returnValue.getValue0(), p.getValue0().toValue(), p.getValue1());
+            appendLocalisationJson(returnValue.getValue1(), p.getValue0().toValue(), raw.rules);
+            appendLocalisationJson(returnValue.getValue2(), p.getValue0().toValue(), raw.description);
+            appendLocalisationJson(returnValue.getValue3(), p.getValue0().toValue(), raw.preconditions);
           }
           else {
             LOGGER.error("Special Ability (" + p.getValue1() + ") has no key!");
@@ -2069,8 +2075,7 @@ public class DsaPdfReaderMain {
     returnValue.append("\r\n");
   }
 
-  private static void appendLocalisationJson(StringBuilder returnValue, String enumName, Integer keyValue, String valueName, Object value) {
-    String keyName = getEnumKeyName(enumName, keyValue);
+  private static void appendLocalisationJson(StringBuilder returnValue, Integer keyValue, Object value) {
     if (value == null || ((String) value).isEmpty()) {// Achtung, der Cast auf String könnte falsch sein
     }
     else {
@@ -2086,8 +2091,8 @@ public class DsaPdfReaderMain {
 //      returnValue.append(":");
       returnValue.append(value);
       returnValue.append("\"],");
-    }
     returnValue.append("\r\n");
+    }
   }
 
   private static String getEnumKeyName(String enumName, int keyValue) {
