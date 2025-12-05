@@ -156,8 +156,8 @@ public class DsaPdfReaderMain {
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -1640,8 +1640,8 @@ public class DsaPdfReaderMain {
     return returnValue.toString();
   }
 
-  private static Quartet<StringBuilder, StringBuilder, StringBuilder,StringBuilder> generateTraditionStringBuilders(List<TraditionRaw> rawTraditions) {
-    Quartet<StringBuilder, StringBuilder, StringBuilder,StringBuilder> returnValue = new Quartet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
+  private static Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> generateTraditionStringBuilders(List<TraditionRaw> rawTraditions) {
+    Quartet<StringBuilder, StringBuilder, StringBuilder, StringBuilder> returnValue = new Quartet<>(new StringBuilder(), new StringBuilder(), new StringBuilder(), new StringBuilder());
     rawTraditions.forEach(raw -> {
 
       SpecialAbilityKey key = ExtractorSpecialAbility.retrieve(raw.name
@@ -1830,11 +1830,11 @@ public class DsaPdfReaderMain {
   private static String generateMsName(List<MysticalSkill> rawMysticalSkills) {
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.forEach(msr -> {
-      returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication.name(), msr.name, msr.category).toValue())
-          .append(" {").append(msr.name).append("} ")
-          .append("\r\n");
       if (msr.name == null || msr.name.isEmpty()) {
         LOGGER.error("Mystical Skill ({}) has no name!", msr.name);
+      }
+      else {
+        appendLocalisationJson(returnValue, ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication.name(), msr.name, msr.category).ordinal(), msr.name);
       }
     });
     return returnValue.toString();
@@ -2091,7 +2091,7 @@ public class DsaPdfReaderMain {
 //      returnValue.append(":");
       returnValue.append(value);
       returnValue.append("\"],");
-    returnValue.append("\r\n");
+      returnValue.append("\r\n");
     }
   }
 
