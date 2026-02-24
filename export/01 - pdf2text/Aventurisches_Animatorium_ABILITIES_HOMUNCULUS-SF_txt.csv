@@ -1,0 +1,415 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;5.0;123;-1.0;Aventurisches_Animatorium;1300;HomunculusfähigkeitenAlraunenbeere
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;6.0;123;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;7.0;123;-1.0;Aventurisches_Animatorium;1000;Der Alraunige kann durch Aufwendung von Astral- und Lebenspunkten nach 8 Stunden eine Beere an seinem Haupt wachsen lassen. Das Wachsen einer zweiten Beere dauert weitere 8 Stunden. Wird eine (maximal 2) Beere einem alchimistischen Rezept entweder beim Brauen oder dem fertigen Elixier beigegeben, erhöht sich die QS pro Beere augenblicklich um 1 (max. QS 6).
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;8.0;123;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;9.0;123;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;10.0;123;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;11.0;123;-1.0;Aventurisches_Animatorium;1000;1 AsP und 6 LeP pro Beere
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;12.0;123;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;13.0;123;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;14.0;123;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;15.0;123;-1.0;Aventurisches_Animatorium;1000;Verwandlung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;16.0;123;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;17.0;123;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;18.0;123;-1.0;Aventurisches_Animatorium;1300;Alraunenschrei
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;19.0;123;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;20.0;123;-1.0;Aventurisches_Animatorium;1000;Der Alraunige wandelt auf einen Schlag seine gesamten AsP in einen magischen Schrei um, der allen Wesen in einem Radius von 3 Schritt 2W6+2 Schadenspunkte zufügt. Der Einsatz dieser Homunculusfähigkeit dauert 1 Aktion.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;21.0;123;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;22.0;123;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;23.0;123;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;24.0;123;-1.0;Aventurisches_Animatorium;1000;alle AsP, mindestens aber 8 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;25.0;123;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;26.0;123;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;27.0;123;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;28.0;123;-1.0;Aventurisches_Animatorium;1000;Verwandlung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;29.0;123;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;30.0;123;-1.0;Aventurisches_Animatorium;1000;25 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;31.0;123;-1.0;Aventurisches_Animatorium;1300;Blutkonserve
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;32.0;123;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;33.0;123;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann die Eigenschaften des Blutes seines Erschaffers magisch nachbilden und sich auf diese Weise mit dem Blut jeglicher kulturschaffender Wesen heilen. Er kann zudem mit einer gelungenen Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;34.0;123;-1.0;Aventurisches_Animatorium;1000;Magiekunde
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;35.0;123;-1.0;Aventurisches_Animatorium;1000;eine Anwendung des Blutes für QS Tage haltbar machen und konzentrieren, um es in einem Gefäß wie einen Heiltrank mit sich zu führen. Die Probe muss für eine bestimmte unmittelbar verfügbare Menge
+PDTrueTypeFont NHIDHY+Andalus;false;false;36.0;123;-1.0;Aventurisches_Animatorium;1200;Namhafte Homunculusalchimisten und ihre Homunculi
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;1.0;124;-1.0;Aventurisches_Animatorium;1000;Blut angekündigt werden, bevor diese abgelegt wird. Die Blutmenge wird in LeP ausgedrückt und muss durch entsprechende SP von einem Wesen mit Blut entnommen werden. Das Blut muss sich zur Aktivierung der Fähig-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;2.0;124;-1.0;Aventurisches_Animatorium;1000;keit außerhalb eines Körpers befinden und gilt nach Ab
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;3.0;124;-1.0;Aventurisches_Animatorium;1000;-legen der Probe als 1 Anwendung, unabhängig davon, wie viele LeP sie dem Homunculus heilen kann.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;4.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;5.0;124;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus, Salamandrischer Homunculus, Homunculushündchen, Homunculus Lemmini, Flatter-Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;6.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;7.0;124;-1.0;Aventurisches_Animatorium;1000;1 AsP pro 2 geheilten LeP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;8.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;9.0;124;-1.0;Aventurisches_Animatorium;1000;QS Tage
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;10.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;11.0;124;-1.0;Aventurisches_Animatorium;1000;Verwandlung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;12.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;13.0;124;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;14.0;124;-1.0;Aventurisches_Animatorium;1300;Elixierspeicher
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;15.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;16.0;124;-1.0;Aventurisches_Animatorium;1000;Der Alraunige kann ein pflanzliches Hilfsmittel, Gift oder Rauschmittel oder ein alchimistisches Elixier, Gift oder Rauschmittel in seinem Körper speichern, so
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;17.0;124;-1.0;Aventurisches_Animatorium;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;18.0;124;-1.0;Aventurisches_Animatorium;1000;fern es flüssig ist.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;19.0;124;-1.0;Aventurisches_Animatorium;1000;
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;20.0;124;-1.0;Aventurisches_Animatorium;1000;Die Substanz hat keine Wirkung auf
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;21.0;124;-1.0;Aventurisches_Animatorium;1000;den Homunculus und bleibt in seinem Leib haltbar. So-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;22.0;124;-1.0;Aventurisches_Animatorium;1000;bald der Alraunige die Substanz freigibt, setzt der Ver
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;23.0;124;-1.0;Aventurisches_Animatorium;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;24.0;124;-1.0;Aventurisches_Animatorium;1000;fallsprozess der Substanz wieder ein. Es kann immer nur
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;25.0;124;-1.0;Aventurisches_Animatorium;1000;eine Anwendung einer Substanz im Alraunigen Homunculus gespeichert werden. Der Alraunige ist in der Lage, die so gespeicherte Substanz eigenständig zu verwenden.
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;26.0;124;-1.0;Aventurisches_Animatorium;1000;Die Aufnahme und Abgabe der Substanz erfolgt über die
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;27.0;124;-1.0;Aventurisches_Animatorium;1000;„Haut“ und dauert je 4 Aktionen. Der Alraunige kann die
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;28.0;124;-1.0;Aventurisches_Animatorium;1000;Substanz alternativ durch einen Spuckangriff entleeren. Dies geschieht gemäß des gewöhnlichen Spuckangriffs
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;29.0;124;-1.0;Aventurisches_Animatorium;1000;innerhalb von 1 Aktion, verursacht dann jedoch den gewöhnlichen Schaden von 1W3 SP am Alraunigen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;30.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;31.0;124;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;32.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;33.0;124;-1.0;Aventurisches_Animatorium;1000;2 AsP pro Woche
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;34.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;35.0;124;-1.0;Aventurisches_Animatorium;1000;aufrechterhaltend
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;36.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;37.0;124;-1.0;Aventurisches_Animatorium;1000;Verwandlung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;38.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;39.0;124;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;40.0;124;-1.0;Aventurisches_Animatorium;1300;Gefahrenkompass
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;41.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;42.0;124;-1.0;Aventurisches_Animatorium;1000;Der Homunculus hat einen sechsten Sinn für Gefahren. Mit einer gelungenen Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;43.0;124;-1.0;Aventurisches_Animatorium;1000;Sinnesschärfe
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;44.0;124;-1.0;Aventurisches_Animatorium;1000;kann er Gefahren wie aktive Fallen, herannahende Projektile, verborgene Angreifer, einsturzgefährdete
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;45.0;124;-1.0;Aventurisches_Animatorium;1000;Gebilde und ähnliches in einem Umkreis von 25 Schritt
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;46.0;124;-1.0;Aventurisches_Animatorium;1000;lokalisieren und verfolgen, aber nicht zwangsläufig automatisch identifizieren. Handelt es sich bei der Ge
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;47.0;124;-1.0;Aventurisches_Animatorium;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;48.0;124;-1.0;Aventurisches_Animatorium;1000;fahrenquelle um ein Wesen, so kann dieses sich mit einer gelungenen Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;49.0;124;-1.0;Aventurisches_Animatorium;1000;Verbergen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;50.0;124;-1.0;Aventurisches_Animatorium;1000;, erschwert um
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;51.0;124;-1.0;Aventurisches_Animatorium;1000;die QS der Probe des Homunculus, vor dem Gefahren
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;52.0;124;-1.0;Aventurisches_Animatorium;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;53.0;124;-1.0;Aventurisches_Animatorium;1000;kompass tarnen. Wenn sich die Gefahrenquelle aus dem 25-Schritt-Radius entfernt, muss der Homunculus erneut seinen Kompass aktivieren, um ihr zu folgen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;54.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;55.0;124;-1.0;Aventurisches_Animatorium;1000;Homunculushündchen, Homunculus Lemmini
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;56.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;57.0;124;-1.0;Aventurisches_Animatorium;1000;3 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;58.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDType0Font/PDCIDFontType2, PostScript name: USBZYK+GentiumBasic;false;false;59.0;124;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;60.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;61.0;124;-1.0;Aventurisches_Animatorium;1000;Hellsicht
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;62.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;63.0;124;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;64.0;124;-1.0;Aventurisches_Animatorium;1300;Giftabsorption
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;65.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;66.0;124;-1.0;Aventurisches_Animatorium;1000;Durch Körperkontakt kann der Homunculus ein Ziel mit dem Status
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;67.0;124;-1.0;Aventurisches_Animatorium;1000;Vergiftet
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;68.0;124;-1.0;Aventurisches_Animatorium;1000;heilen und das Gift im Körper des Zieles augenblicklich neutralisieren. Die Wirkung des Giftes und der Zustand
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;69.0;124;-1.0;Aventurisches_Animatorium;1000;Vergiftet
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;70.0;124;-1.0;Aventurisches_Animatorium;1000;enden damit sofort. Dieser Vorgang dauert 1 Aktion.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;71.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;72.0;124;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus, Salamandrischer Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;73.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;74.0;124;-1.0;Aventurisches_Animatorium;1000;Giftstufe x 2 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;75.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;76.0;124;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;77.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;78.0;124;-1.0;Aventurisches_Animatorium;1000;Heilung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;79.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;80.0;124;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;81.0;124;-1.0;Aventurisches_Animatorium;1300;Giftmanipulation
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;82.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;83.0;124;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann unter Aufwendung von Astralkraft die Giftstufe eines bereits wirkenden Giftes um 1 Stufe verringern oder erhöhen (min. Stufe 1, max. Stufe 6).
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;84.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;85.0;124;-1.0;Aventurisches_Animatorium;1000;Salamandrischer Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;86.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;87.0;124;-1.0;Aventurisches_Animatorium;1000;2 AsP pro Stufe
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;88.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;89.0;124;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;90.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;91.0;124;-1.0;Aventurisches_Animatorium;1000;Objekt
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;92.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;93.0;124;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;94.0;124;-1.0;Aventurisches_Animatorium;1300;Giftübertragung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;95.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;96.0;124;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann ein Gift aus einer vergifteten Person per Hautkontakt absorbieren und einem
+PDType0Font/PDCIDFontType2, PostScript name: WQBGAG+GentiumBasic;false;false;97.0;124;-1.0;Aventurisches_Animatorium;1000;anderen Ziel per Hautkontakt einflößen. Die Giftprobe
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;98.0;124;-1.0;Aventurisches_Animatorium;1000;wird für das neue Ziel wiederholt. Das neue Ziel kann ebenso der Homunculus selbst sein. Er erhält dadurch 2 Stufen
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;99.0;124;-1.0;Aventurisches_Animatorium;1000;Betäubung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;100.0;124;-1.0;Aventurisches_Animatorium;1000;, leidet jedoch an keinen weiteren Auswirkungen des Giftes, da er gegen Gifte immun ist. Das Absorbieren und Abgeben des Giftes dauert je 1 Aktion. Eine Person, der auf diese Weise Gift entnommen wurde, verliert den Status
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;101.0;124;-1.0;Aventurisches_Animatorium;1000;Vergiftet
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;102.0;124;-1.0;Aventurisches_Animatorium;1000;und leidet statt an den Auswirkungen des Giftes nur noch an 1 Stufe
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;103.0;124;-1.0;Aventurisches_Animatorium;1000;Betäubung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;104.0;124;-1.0;Aventurisches_Animatorium;1000;.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;105.0;124;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;106.0;124;-1.0;Aventurisches_Animatorium;1000;Salamandrischer Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;107.0;124;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;108.0;124;-1.0;Aventurisches_Animatorium;1000;5 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;109.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;110.0;124;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;111.0;124;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;112.0;124;-1.0;Aventurisches_Animatorium;1000;Heilung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;113.0;124;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;114.0;124;-1.0;Aventurisches_Animatorium;1000;15 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;115.0;124;-1.0;Aventurisches_Animatorium;1300;Giftwirkung pausieren
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;116.0;124;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;117.0;124;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann bei einem vergifteten Ziel die Wirkung des Giftes anhalten und wieder aktivieren, wie es ihm beliebt. Dafür muss er sich lediglich
+PDType0Font/PDCIDFontType2, PostScript name: WQBGAG+GentiumBasic;false;false;118.0;124;-1.0;Aventurisches_Animatorium;1000;in 16 Schritt Reichweite zum Ziel befinden. Wenn das
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;119.0;124;-1.0;Aventurisches_Animatorium;1000;Ziel sich aus der Reichweite der Fähigkeit entfernt, Aktiviert sich die Giftwirkung nach 1 Aktion wieder automatisch. Die Gesamtwirkungsdauer des Giftes ändert sich durch den Einsatz der Fähigkeit nicht.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;1.0;125;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;2.0;125;-1.0;Aventurisches_Animatorium;1000;Salamandrischer Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;3.0;125;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;4.0;125;-1.0;Aventurisches_Animatorium;1000;1 AsP x Giftstufe für Anhalten, keine Kosten für Aktivieren
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;5.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;6.0;125;-1.0;Aventurisches_Animatorium;1000;Anhalten
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;7.0;125;-1.0;Aventurisches_Animatorium;1000;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;8.0;125;-1.0;Aventurisches_Animatorium;1000;sofort, Aktivieren 1 Aktion
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;9.0;125;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;10.0;125;-1.0;Aventurisches_Animatorium;1000;Heilung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;11.0;125;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;12.0;125;-1.0;Aventurisches_Animatorium;1000;15 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;13.0;125;-1.0;Aventurisches_Animatorium;1300;Heilendes Raunen
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;14.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;15.0;125;-1.0;Aventurisches_Animatorium;1000;Der Alraunige raunt einer verwelkten Pflan
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;16.0;125;-1.0;Aventurisches_Animatorium;1000;-ze zu, die sich daraufhin erholt und wieder für Rezepte nutzbar wird. Die Fähigkeit funktioniert nicht bei
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;17.0;125;-1.0;Aventurisches_Animatorium;1000;übernatürlichen Pflanzen. Der Einsatz dieser Homun
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;18.0;125;-1.0;Aventurisches_Animatorium;1000;-culusfähigkeit dauert 4 Aktionen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;19.0;125;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;20.0;125;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;21.0;125;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;22.0;125;-1.0;Aventurisches_Animatorium;1000;1 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;23.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;24.0;125;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;25.0;125;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;26.0;125;-1.0;Aventurisches_Animatorium;1000;Heilung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;27.0;125;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;28.0;125;-1.0;Aventurisches_Animatorium;1000;10 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;29.0;125;-1.0;Aventurisches_Animatorium;1300;Homunculusanalyse
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;30.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;31.0;125;-1.0;Aventurisches_Animatorium;1000;Mithilfe seiner übernatürlich verstärkten Sinnesorgane kann der Homunculus sein Gegenüber analysieren. Beim Ablegen einer Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;32.0;125;-1.0;Aventurisches_Animatorium;1000;Fischen & Angeln, Magiekunde (Magische Wesen),
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;33.0;125;-1.0;Aventurisches_Animatorium;1000;
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;34.0;125;-1.0;Aventurisches_Animatorium;1000;Menschenkenntnis (Motivation erkennen)
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;35.0;125;-1.0;Aventurisches_Animatorium;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: VPGVMI+GentiumBasic-Italic;false;true;36.0;125;-1.0;Aventurisches_Animatorium;1000;Pflanzenkunde
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;37.0;125;-1.0;Aventurisches_Animatorium;1000;,
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;38.0;125;-1.0;Aventurisches_Animatorium;1000;Sphärenkunde (Sphärenwesen) oder Tierkunde
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;39.0;125;-1.0;Aventurisches_Animatorium;1000;kann der Einsatz dieser
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;40.0;125;-1.0;Aventurisches_Animatorium;1000;Fähigkeit angekündigt werden. Gelingt die Probe, so erhält der Homunculus alle durch die entsprechende Probe zu erhaltenden Informationen über das Wesen bis einschließlich QS 3. Der Homunculus erhält außerdem die unter
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;41.0;125;-1.0;Aventurisches_Animatorium;1000;Kampfverhalten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;42.0;125;-1.0;Aventurisches_Animatorium;1000;und
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;43.0;125;-1.0;Aventurisches_Animatorium;1000;Flucht
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;44.0;125;-1.0;Aventurisches_Animatorium;1000;angegebenen Informationen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;45.0;125;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;46.0;125;-1.0;Aventurisches_Animatorium;1000;Homunculushündchen, Flat ter-Homun- culus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;47.0;125;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;48.0;125;-1.0;Aventurisches_Animatorium;1000;6 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;49.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;50.0;125;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;51.0;125;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;52.0;125;-1.0;Aventurisches_Animatorium;1000;Hellsicht
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;53.0;125;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;54.0;125;-1.0;Aventurisches_Animatorium;1000;8 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: HHKPYK+GentiumBasic-Bold;true;false;55.0;125;-1.0;Aventurisches_Animatorium;1300;Homunculusfluch
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;56.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;57.0;125;-1.0;Aventurisches_Animatorium;1000;Der Homunculus überbringt einen Fluch an
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;58.0;125;-1.0;Aventurisches_Animatorium;1000;ein vom Erschaffer ausgewähltes Opfer. Er muss hier
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;59.0;125;-1.0;Aventurisches_Animatorium;1000;-zu bis zu 7 Schritt an sein Ziel herankommen und es
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;60.0;125;-1.0;Aventurisches_Animatorium;1000;anstarren. Sobald er den Fluch auf das Opfer gewirkt
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;61.0;125;-1.0;Aventurisches_Animatorium;1000;hat, übermittelt er telepathisch die mit dem Fluch
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;62.0;125;-1.0;Aventurisches_Animatorium;1000;verbundenen Worte des Erschaffers, die die Bedin
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;63.0;125;-1.0;Aventurisches_Animatorium;1000;-gungen erklären, ob und wie der Fluch gelöst werden kann. Alternativ kann der Homunculus den Fluch zu
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;64.0;125;-1.0;Aventurisches_Animatorium;1000;einem Objekt bringen und ihn an dieses heften. Dazu
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;65.0;125;-1.0;Aventurisches_Animatorium;1000;muss der Homunculus den erfolgreich gesprochenen Fluch innerhalb von QS der Fluchprobe Stunden an
+PDType0Font/PDCIDFontType2, PostScript name: BYIFSW+GentiumBasic;false;false;66.0;125;-1.0;Aventurisches_Animatorium;1000;ein entsprechendes Objekt heften, sonst verfällt seine
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;67.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkung.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;68.0;125;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;69.0;125;-1.0;Aventurisches_Animatorium;1000;Flatter-Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;70.0;125;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;71.0;125;-1.0;Aventurisches_Animatorium;1000;3 AsP
+PDType0Font/PDCIDFontType2, PostScript name: JBKFDG+GentiumBasic-Bold;true;false;72.0;125;-1.0;Aventurisches_Animatorium;1000;Gegenstände verfluchen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;73.0;125;-1.0;Aventurisches_Animatorium;1000;Ein Homunculuserschaffer kann, wenn er über einen Homunculus mit der Homunculusfähigkeit
+PDType0Font/PDCIDFontType2, PostScript name: UCXOBK+GentiumBasic-Italic;false;true;74.0;125;-1.0;Aventurisches_Animatorium;1000;Homunculusfluch
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;75.0;125;-1.0;Aventurisches_Animatorium;1000;verfügt, einen Fluch an einen Gegenstand heften.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;76.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;77.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;78.0;125;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;79.0;125;-1.0;Aventurisches_Animatorium;1000;In diesem Fall muss er die doppelte Menge an AsP ausgeben, die der Fluch üblicherweise kostet.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;80.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;81.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;82.0;125;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;83.0;125;-1.0;Aventurisches_Animatorium;1000;Die Bedingung, um den Fluch zu brechen, wird dem Opfer telepathisch mitgeteilt. Die Bedingung muss für jeden potenziellen Kulturschaffenden gelten und darf nicht gegen eine spezielle Person gerichtet sein. (Ausnahme: Der Homunculus verfügt über die Homunculusfähigkeit
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;84.0;125;-1.0;Aventurisches_Animatorium;1000;Personalisiertes Unheil
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;85.0;125;-1.0;Aventurisches_Animatorium;1000;(siehe Seite
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;86.0;125;-1.0;Aventurisches_Animatorium;1000;125
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;87.0;125;-1.0;Aventurisches_Animatorium;1000;)).
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;88.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;89.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;90.0;125;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;91.0;125;-1.0;Aventurisches_Animatorium;1000;Der Gegenstand darf maximal tassengroß sein. Ein truhengroßer oder gar türgroßer Gegenstand kostet zusätzlich 4 bzw. 8 AsP.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;92.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;93.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;94.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType0Font/PDCIDFontType2, PostScript name: COYKJU+GentiumBasic;false;false;95.0;125;-1.0;Aventurisches_Animatorium;1000;Der Homunculus muss bei der Verfluchung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;96.0;125;-1.0;Aventurisches_Animatorium;1000;den Gegenstand berühren und benötigt 1 Stunde Zeit.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;97.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;98.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;99.0;125;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;100.0;125;-1.0;Aventurisches_Animatorium;1000;Der Erschaffer muss beim Wirken festlegen, bis zu welcher SK oder ZK der Fluch wirken soll und die entsprechende Erschwernis auf seine Probe hinnehmen.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;101.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;102.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;103.0;125;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;104.0;125;-1.0;Aventurisches_Animatorium;1000;Wenn die Probe gelingt, ist der Gegenstand
+PDType0Font/PDCIDFontType2, PostScript name: COYKJU+GentiumBasic;false;false;105.0;125;-1.0;Aventurisches_Animatorium;1000;so verflucht, als ob ein Fluch mit QS 1 auf ihm
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;106.0;125;-1.0;Aventurisches_Animatorium;1000;liegen würde.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;107.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;108.0;125;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;109.0;125;-1.0;Aventurisches_Animatorium;700;
+PDType0Font/PDCIDFontType2, PostScript name: COYKJU+GentiumBasic;false;false;110.0;125;-1.0;Aventurisches_Animatorium;1000;Verflucht wird der erste Kulturschaffende, der
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;111.0;125;-1.0;Aventurisches_Animatorium;1000;den Gegenstand berührt und dessen SK/ZK maximal so hoch ist wie die Erschwernis, die der Erschaffer des Homunculus beim Wirken des Fluchs gewählt hat. Berührt ein Kulturschaf-
+PDType0Font/PDCIDFontType2, PostScript name: COYKJU+GentiumBasic;false;false;112.0;125;-1.0;Aventurisches_Animatorium;1000;fender mit einer höheren SK/ZK den verfluch
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;113.0;125;-1.0;Aventurisches_Animatorium;1000;-ten Gegenstand, so wird der Fluch nicht ausgelöst. (Ausnahme: Der Fluch ist ein
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;114.0;125;-1.0;Aventurisches_Animatorium;1000;Personalisiertes Unheil
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;115.0;125;-1.0;Aventurisches_Animatorium;1000;. In diesem Fall muss zwar die SK/ZK des Ziels überwunden werden, der Fluch aktiviert sich jedoch bei keiner anderen Person.)
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;116.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;117.0;125;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;118.0;125;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;119.0;125;-1.0;Aventurisches_Animatorium;1000;je nach Fluch
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;120.0;125;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;121.0;125;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;122.0;125;-1.0;Aventurisches_Animatorium;1300;Homunculusspeise
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;123.0;125;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;124.0;125;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann mit einer erfolgreichen Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;125.0;125;-1.0;Aventurisches_Animatorium;1000;Lebensmittelbearbeitung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;126.0;125;-1.0;Aventurisches_Animatorium;1000;aus jeglichen normal verdaulichen Zutaten ein Festmahl zubereiten, unabhängig davon, von welcher Qualität diese sind. Dazu mischt er etwas von seinem Blut in das Gericht. Zusätzlich zu eventuellen normalen Wirkun-
+PDType0Font/PDCIDFontType2, PostScript name: FGULWO+GentiumBasic;false;false;127.0;125;-1.0;Aventurisches_Animatorium;1000;gen der Speise, empfinden alle, die von ihr gegessen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;128.0;125;-1.0;Aventurisches_Animatorium;1000;haben, den Homunculus bis zum Ende ihrer nächsten Regenerationsphase als völlig normal und behandeln ihn wie einen gewöhnlichen Kulturschaffenden. Die Verköstigten müssen zudem eine Probe auf
+PDTrueTypeFont NHIDHY+Andalus;false;false;129.0;125;-1.0;Aventurisches_Animatorium;1200;Namhafte Homunculusalchimisten und ihre Homunculi
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;1.0;126;-1.0;Aventurisches_Animatorium;1000;Willenskraft
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;2.0;126;-1.0;Aventurisches_Animatorium;1000;erschwert um die QS der Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;3.0;126;-1.0;Aventurisches_Animatorium;1000;Lebensmittelbearbeitung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;4.0;126;-1.0;Aventurisches_Animatorium;1000;ablegen. Wenn diese scheitert, steigt die Einstellungsstufe der Person gegenüber dem Homunculus für 1 Tag um 2 (siehe Bannbaladin im
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;5.0;126;-1.0;Aventurisches_Animatorium;1000;Regelwerk
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;6.0;126;-1.0;Aventurisches_Animatorium;1000;Seite
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;7.0;126;-1.0;Aventurisches_Animatorium;1000;288
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;8.0;126;-1.0;Aventurisches_Animatorium;1000;).
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;9.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;10.0;126;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus,
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;11.0;126;-1.0;Aventurisches_Animatorium;1000;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;12.0;126;-1.0;Aventurisches_Animatorium;1000;Ho mun culus - hündchen
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;13.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;14.0;126;-1.0;Aventurisches_Animatorium;1000;1 AsP + 2 LeP pro zubereiteter Portion
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;15.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;16.0;126;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;17.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDType0Font/PDCIDFontType2, PostScript name: YRCLCC+GentiumBasic;false;false;18.0;126;-1.0;Aventurisches_Animatorium;1000;Einfluss
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;19.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;20.0;126;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;21.0;126;-1.0;Aventurisches_Animatorium;1300;Homunculustherapie
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;22.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;23.0;126;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann mit einer gelungenen Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;24.0;126;-1.0;Aventurisches_Animatorium;1000;Heilkunde Seele
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;25.0;126;-1.0;Aventurisches_Animatorium;1000;erschwert um die SK des Ziels
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;26.0;126;-1.0;Aventurisches_Animatorium;1000;
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;27.0;126;-1.0;Aventurisches_Animatorium;1000;Status und Zustände von einem Ziel entfernen. Mithilfe seiner Magie können so durch das übersinnlich empathische Verständnis und Eingreifen des Homunculus
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;28.0;126;-1.0;Aventurisches_Animatorium;1000;Betäubungs
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;29.0;126;-1.0;Aventurisches_Animatorium;1000;-,
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;30.0;126;-1.0;Aventurisches_Animatorium;1000;Furcht
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;31.0;126;-1.0;Aventurisches_Animatorium;1000;-,
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;32.0;126;-1.0;Aventurisches_Animatorium;1000;Paralyse
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;33.0;126;-1.0;Aventurisches_Animatorium;1000;-,
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;34.0;126;-1.0;Aventurisches_Animatorium;1000;Schmerz
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;35.0;126;-1.0;Aventurisches_Animatorium;1000;- und
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;36.0;126;-1.0;Aventurisches_Animatorium;1000;Verwirrungs
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;37.0;126;-1.0;Aventurisches_Animatorium;1000;stufen abgebaut und die Status
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;38.0;126;-1.0;Aventurisches_Animatorium;1000;Bewusstlos
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;39.0;126;-1.0;Aventurisches_Animatorium;1000;,
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;40.0;126;-1.0;Aventurisches_Animatorium;1000;Blutrausch
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;41.0;126;-1.0;Aventurisches_Animatorium;1000;und
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;42.0;126;-1.0;Aventurisches_Animatorium;1000;Überrascht
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;43.0;126;-1.0;Aventurisches_Animatorium;1000;beendet werden. Dazu fühlt er sich kurz in die Situation des Ziels ein und kläfft ein paar einfühlende Worte. Dies dauert QS der Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;44.0;126;-1.0;Aventurisches_Animatorium;1000;Heilkunde Seele
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;45.0;126;-1.0;Aventurisches_Animatorium;1000;Aktionen pro Statusstufe bzw. Zustand (QS 1: 6 Aktionen, QS 2: 5 Aktionen usw.). Geschieht dies gegen den Willen des Ziels oder wurde dieses nicht durch Ankündigung auf die Therapie vorbereitet, so wird statt einer einfachen Probe eine Vergleichsprobe gegen die
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;46.0;126;-1.0;Aventurisches_Animatorium;1000;Willenskraft
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;47.0;126;-1.0;Aventurisches_Animatorium;1000;des Ziels fällig.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;48.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;49.0;126;-1.0;Aventurisches_Animatorium;1000;Homunculushündchen
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;50.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;51.0;126;-1.0;Aventurisches_Animatorium;1000;2 AsP pro Zustandsstufe, 5 AsP für einen Status
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;52.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;53.0;126;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;54.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;55.0;126;-1.0;Aventurisches_Animatorium;1000;Heilung
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;56.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;57.0;126;-1.0;Aventurisches_Animatorium;1000;15 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;58.0;126;-1.0;Aventurisches_Animatorium;1300;Ingredienz erspüren
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;59.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;60.0;126;-1.0;Aventurisches_Animatorium;1000;Der Homunculus kann eine Ingredienz für ein
+PDType0Font/PDCIDFontType2, PostScript name: YRCLCC+GentiumBasic;false;false;61.0;126;-1.0;Aventurisches_Animatorium;1000;Rezept ausfindig machen. Befindet sich die Ingredienz
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;62.0;126;-1.0;Aventurisches_Animatorium;1000;im Umkreis von 7 Meilen, kann der Homunculus die Richtung ausmachen, in der sich die Ingredienz be-
+PDType0Font/PDCIDFontType2, PostScript name: YRCLCC+GentiumBasic;false;false;63.0;126;-1.0;Aventurisches_Animatorium;1000;findet, jedoch nicht zwingend den exakten Weg, über
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;64.0;126;-1.0;Aventurisches_Animatorium;1000;den man zu der Ingredienz gelangt. Der Einsatz dieser Homunculusfähigkeit dauert 4 Aktionen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;65.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;66.0;126;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus, Salamandrischer Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;67.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;68.0;126;-1.0;Aventurisches_Animatorium;1000;1 AsP pro 30 Minuten
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;69.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;70.0;126;-1.0;Aventurisches_Animatorium;1000;aufrechterhaltend
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;71.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;72.0;126;-1.0;Aventurisches_Animatorium;1000;Hellsicht
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;73.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;74.0;126;-1.0;Aventurisches_Animatorium;1000;10 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;75.0;126;-1.0;Aventurisches_Animatorium;1300;Körpertresor
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;76.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;77.0;126;-1.0;Aventurisches_Animatorium;1000;Um einen Gegenstand vor Schaden oder Diebstahl zu schützen, kann der Homunculus ihn mit 1 Aktion verschlucken und verschwinden lassen. Das Objekt verschwindet für die Wirkungsdauer im Limbus und wird nach Ende der Wirkungsdauer wieder vom Homunculus hervorgewürgt. Der Homunculus kann Gegenstände verschlucken, die bis zu doppelt so groß sind wie er selbst. Stirbt der Homunculus während der Wirkungsdauer, so verbleibt der Gegenstand im Limbus. Es ist einem sterbenden Homunculus möglich, in seiner letzten Aktion den Gegenstand auf Befehl wieder hervorzuwürgen, wobei ihn dies endgültig tötet. Es ist nicht möglich, den Gegenstand anderweitig vor Ende der Wirkungsdauer wieder zurückzubekommen (es sei denn, man begibt sich auf eine beschwerliche Reise in den Limbus, um es zu suchen).
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;78.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;79.0;126;-1.0;Aventurisches_Animatorium;1000;Homunculushündchen
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;80.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;81.0;126;-1.0;Aventurisches_Animatorium;1000;1 AsP pro Tag (muss bei Verschlucken festgelegt und sofort bezahlt werden)
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;82.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;83.0;126;-1.0;Aventurisches_Animatorium;1000;nach AsP Aufwand
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;84.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;85.0;126;-1.0;Aventurisches_Animatorium;1000;Sphären
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;86.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;87.0;126;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;88.0;126;-1.0;Aventurisches_Animatorium;1300;Meisterschüler
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;89.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;90.0;126;-1.0;Aventurisches_Animatorium;1000;Der Homunculus ist zu intellektuellen
+PDType0Font/PDCIDFontType2, PostScript name: IBDOMI+GentiumBasic;false;false;91.0;126;-1.0;Aventurisches_Animatorium;1000;Höchstleistungen in der Lage und überflügelt da
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;92.0;126;-1.0;Aventurisches_Animatorium;1000;-bei bisweilen sogar seinen Erschaffer. Wann immer der Erschaffer des Homunculus und der Homunculus selbst gleichzeitig eine Probe auf ein Wissenstalent ablegen können, gilt die Probe des Homunculus automatisch als um 1 QS höher bestanden als die höchste erreichte QS unter beiden Proben, sofern sowohl der Erschaffer als auch der Homunculus die Probe bestanden haben (bis zu einem Maximum von 6). Der Einsatz der Fähigkeit muss vor Ablegen der Proben angekündigt und die Kosten müssen sofort bezahlt werden.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;93.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;94.0;126;-1.0;Aventurisches_Animatorium;1000;Flatter-Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;95.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;96.0;126;-1.0;Aventurisches_Animatorium;1000;2 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;97.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;98.0;126;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;99.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;100.0;126;-1.0;Aventurisches_Animatorium;1000;Hellsicht
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;101.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;102.0;126;-1.0;Aventurisches_Animatorium;1000;12 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;103.0;126;-1.0;Aventurisches_Animatorium;1300;Personalisiertes Unheil
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;104.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;105.0;126;-1.0;Aventurisches_Animatorium;1000;Solange der Erschaffer des Homunculus mit ihm Körperkontakt hält, ist der Erschaffer in der Lage, Elixiere, Rauschmittel und Gifte zu brauen sowie Flüche zu sprechen, die auf genau eine Person und niemand anderen wirken. Dazu werden Blut, Haare oder ein persönlicher Gegenstand der Zielperson benötigt.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;106.0;126;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;107.0;126;-1.0;Aventurisches_Animatorium;1000;Alrauniger Homunculus, Salamandrischer Homunculus, Flatter-Homunculus
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;108.0;126;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;109.0;126;-1.0;Aventurisches_Animatorium;1000;3 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;110.0;126;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;111.0;126;-1.0;Aventurisches_Animatorium;1000;sofort
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;112.0;126;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;113.0;126;-1.0;Aventurisches_Animatorium;1000;Dämonisch
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;114.0;126;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;115.0;126;-1.0;Aventurisches_Animatorium;1000;10 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;1.0;127;-1.0;Aventurisches_Animatorium;1300;Ruhe der Gottlosen
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;2.0;127;-1.0;Aventurisches_Animatorium;1000;Wirkung
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;3.0;127;-1.0;Aventurisches_Animatorium;1000;Wenn die LeP des Homunculus auf 0 oder niedriger sinken, fällt dieser, statt zu sterben, in einen tiefen Schlaf. Er ist so lange
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;4.0;127;-1.0;Aventurisches_Animatorium;1000;Bewusstlos
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;5.0;127;-1.0;Aventurisches_Animatorium;1000;und
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;6.0;127;-1.0;Aventurisches_Animatorium;1000;Handlungsunfähig
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;7.0;127;-1.0;Aventurisches_Animatorium;1000;, bis er durch das Blut seines Erschaffers vollständig geheilt wurde. LeP im Negativbereich werden dabei vollständig gesammelt und müssen alle geheilt werden, bevor die Wirkungsdauer endet. Um die Fähigkeit zu aktivieren, muss dem Homunculus eine Probe auf
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;8.0;127;-1.0;Aventurisches_Animatorium;1000;Heilkunde Wunden (Stabilisieren)
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;9.0;127;-1.0;Aventurisches_Animatorium;1000;gelingen. Die erreichte QS bestimmt, wie lange der Homunculus seine Schlafphase aufrechterhalten kann, bevor er doch stirbt. Wenn die Probe scheitert, stirbt der Homunculus sofort.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;10.0;127;-1.0;Aventurisches_Animatorium;1000;Kreaturenarten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;11.0;127;-1.0;Aventurisches_Animatorium;1000;Homunculus Lemmini
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;12.0;127;-1.0;Aventurisches_Animatorium;1000;AsP-Kosten
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;13.0;127;-1.0;Aventurisches_Animatorium;1000;alle AsP, mindestens aber 8 AsP
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;14.0;127;-1.0;Aventurisches_Animatorium;1000;Wirkungsdauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;15.0;127;-1.0;Aventurisches_Animatorium;1000;1 + QS Tage
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;16.0;127;-1.0;Aventurisches_Animatorium;1000;Merkmal
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;17.0;127;-1.0;Aventurisches_Animatorium;1000;Dämonisch
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;18.0;127;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;19.0;127;-1.0;Aventurisches_Animatorium;1000;15 Abenteuerpunkte

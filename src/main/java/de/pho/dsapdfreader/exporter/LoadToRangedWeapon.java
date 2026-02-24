@@ -5,10 +5,15 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMunitionTy
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPrice;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorTp;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorWeaponKey;
+import de.pho.dsapdfreader.exporter.model.Armor;
 import de.pho.dsapdfreader.exporter.model.RangedWeapon;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.MunitionType;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.tools.merger.ObjectMerger;
+
+import java.util.List;
+import java.util.Optional;
 
 
 public class LoadToRangedWeapon
@@ -68,5 +73,10 @@ public class LoadToRangedWeapon
 
         return returnValue;
     }
+
+  public static void applyCorrections(RangedWeapon sa, List<RangedWeapon> corrections) {
+    Optional<RangedWeapon> correction = corrections.stream().filter(c -> c.key == sa.key).findFirst();
+      correction.ifPresent(rangedWeapon -> ObjectMerger.merge(rangedWeapon, sa));
+  }
 
 }

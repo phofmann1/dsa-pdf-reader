@@ -15,9 +15,9 @@ public class ExtractorPrice extends Extractor
     Price returnValue = new Price();
     if (value == null || value.isEmpty() || value.equals("gratis"))
     {
-      returnValue.priceInSilver = 0;
-      returnValue.minPriceInSilver = 0;
-      returnValue.maxPriceInSilver = 0;
+      returnValue.priceInSilver = 0d;
+      returnValue.minPriceInSilver = 0d;
+      returnValue.maxPriceInSilver = 0d;
     }
     else
     {

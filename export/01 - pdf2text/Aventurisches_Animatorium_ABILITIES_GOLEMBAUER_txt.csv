@@ -1,0 +1,64 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;47.0;104;-1.0;Aventurisches_Animatorium;1000;Regel
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;48.0;104;-1.0;Aventurisches_Animatorium;1000;Mit dieser Sonderfertigkeit kann ein Zauberer die Wirkungsdauer des STEIN WANDLE auf permanent setzen. Der erschaffene Golem muss sich aller-
+PDType0Font/PDCIDFontType2, PostScript name: RUESMV+GentiumBasic;false;false;49.0;104;-1.0;Aventurisches_Animatorium;1000;dings regelmäßig an einer Kraftlinie aufladen (siehe
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;50.0;104;-1.0;Aventurisches_Animatorium;1000;Seite
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;51.0;104;-1.0;Aventurisches_Animatorium;1000;137
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;52.0;104;-1.0;Aventurisches_Animatorium;1000;).
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;53.0;104;-1.0;Aventurisches_Animatorium;1000;Voraussetzungen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;54.0;104;-1.0;Aventurisches_Animatorium;1000;Zaubererweiterung
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;55.0;104;-1.0;Aventurisches_Animatorium;1000;Längere Wirkungsdauer 2
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;56.0;104;-1.0;Aventurisches_Animatorium;1000;bei STEIN WANDLE, jeweils Vorstufe der SF
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;57.0;104;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;58.0;104;-1.0;Aventurisches_Animatorium;1000;primitive/einfache/komplexe Golems: 5/10/15 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;59.0;104;-1.0;Aventurisches_Animatorium;1300;Erschaffungskomplexität von Golems
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;60.0;104;-1.0;Aventurisches_Animatorium;1000;Golems werden je nach
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;61.0;104;-1.0;Aventurisches_Animatorium;1000;Erschaffungskomplexität
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;62.0;104;-1.0;Aventurisches_Animatorium;1000;in drei Kategorien sortiert:
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;63.0;104;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;64.0;104;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;65.0;104;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;66.0;104;-1.0;Aventurisches_Animatorium;1000;Primitive
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;67.0;104;-1.0;Aventurisches_Animatorium;1000;Golems können ohne Einschränkungen mit dem STEIN WANDLE erschaffen werden.
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;68.0;104;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;69.0;104;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;70.0;104;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;71.0;104;-1.0;Aventurisches_Animatorium;1000;Einfache
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;72.0;104;-1.0;Aventurisches_Animatorium;1000;Golems können nur von
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;73.0;104;-1.0;Aventurisches_Animatorium;1000;Golembauern
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;74.0;104;-1.0;Aventurisches_Animatorium;1000;er-
+PDType0Font/PDCIDFontType2, PostScript name: RUESMV+GentiumBasic;false;false;75.0;104;-1.0;Aventurisches_Animatorium;1000;schaffen werden (siehe folgende Sonderfertigkeit).
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;76.0;104;-1.0;Aventurisches_Animatorium;700;
+PDType3Font null;false;false;77.0;104;-1.0;Aventurisches_Animatorium;700;*
+PDType1CFont MQWSTA+TheDarkEyeRegular;false;false;78.0;104;-1.0;Aventurisches_Animatorium;700;
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;79.0;104;-1.0;Aventurisches_Animatorium;1000;Komplexe
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;80.0;104;-1.0;Aventurisches_Animatorium;1000;Golems erfordern zusätzlich die Kenntnis eines
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;81.0;104;-1.0;Aventurisches_Animatorium;1000;Berufsgeheimnisses
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;82.0;104;-1.0;Aventurisches_Animatorium;1000;, welches mit AP ge-
+PDType0Font/PDCIDFontType2, PostScript name: RUESMV+GentiumBasic;false;false;83.0;104;-1.0;Aventurisches_Animatorium;1000;kauft werden muss (im Spiel entspricht es einem
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;84.0;104;-1.0;Aventurisches_Animatorium;1000;konkreten vollständigen Konstruktionsentwurf für den jeweiligen Golem). Die Kosten des jeweiligen Berufsgeheimnisses kannst du dem jeweiligen Wertekasten des Golems oder dem
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;85.0;104;-1.0;Aventurisches_Animatorium;1000;Anhang
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;86.0;104;-1.0;Aventurisches_Animatorium;1000;entnehmen
+PDType0Font/PDCIDFontType2, PostScript name: RUESMV+GentiumBasic;false;false;87.0;104;-1.0;Aventurisches_Animatorium;1000;(siehe Seite
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;88.0;104;-1.0;Aventurisches_Animatorium;1000;139
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;89.0;104;-1.0;Aventurisches_Animatorium;1000;). Berufsgeheimnisse sind nicht von der Größenkategorie des Golems abhängig, sondern nur vom Material. Wer zum Beispiel winzige und große Metallgolems erschaffen möchte, muss also nur einmal das Berufsgeheimnis
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;90.0;104;-1.0;Aventurisches_Animatorium;1000;Metallgolem
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;91.0;104;-1.0;Aventurisches_Animatorium;1000;für 2 AP erwerben.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;92.0;104;-1.0;Aventurisches_Animatorium;1300;Golembauer
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;93.0;104;-1.0;Aventurisches_Animatorium;1000;Zum Bauen komplexer Golems muss ein Erschaffer sich Kenntnisse aneignen, die über das gewöhnliche Maß eines Zauberers, der sich für den Golembau interessiert, hinausgehen.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;94.0;104;-1.0;Aventurisches_Animatorium;1000;Regel
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;95.0;104;-1.0;Aventurisches_Animatorium;1000;Durch diese Sonderfertigkeit ist der Zauberer in der Lage, Golems der Komplexität
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;96.0;104;-1.0;Aventurisches_Animatorium;1000;einfach
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;97.0;104;-1.0;Aventurisches_Animatorium;1000;und
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;98.0;104;-1.0;Aventurisches_Animatorium;1000;komplex
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;99.0;104;-1.0;Aventurisches_Animatorium;1000;zu erschaffen. Für Golems der Komplexität
+PDTrueTypeFont PSKKJU+GentiumBasic-Italic;false;true;100.0;104;-1.0;Aventurisches_Animatorium;1000;komplex
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;101.0;104;-1.0;Aventurisches_Animatorium;1000;benötigt er zudem ein entsprechendes Berufsgeheimnis.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;102.0;104;-1.0;Aventurisches_Animatorium;1000;Voraussetzungen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;103.0;104;-1.0;Aventurisches_Animatorium;1000;Vorteil Zauberer, Zauber STEIN WANDLE
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;104.0;104;-1.0;Aventurisches_Animatorium;1000;AP-Wert
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;105.0;104;-1.0;Aventurisches_Animatorium;1000;30 Abenteuerpunkte
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;106.0;104;-1.0;Aventurisches_Animatorium;1000;Zaubererweiterungen
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;107.0;104;-1.0;Aventurisches_Animatorium;1000;Wer in einem Zauber einen bestimmten FW erreicht hat, kann mittels AP eine Zaubererweiterung erlernen. Diese Erweiterung verändert den bestehenden Zauber und muss vor dem Einsatz des Spruchs angekündigt werden, der ansonsten ganz regulär wie der Grundzauber durchgeführt wird. Einige Zaubererweiterungen bauen aufeinander auf und müssen in der richtigen Reihenfolge erworben werden.
+PDTrueTypeFont FVHCZO+GentiumBasic-Bold;true;false;108.0;104;-1.0;Aventurisches_Animatorium;1300;Dauerhafte Golems
+PDTrueTypeFont YIVMFC+GentiumBasic;false;false;109.0;104;-1.0;Aventurisches_Animatorium;1000;Nur die mächtigsten Golembauer können Golems dauerhaft erschaffen.

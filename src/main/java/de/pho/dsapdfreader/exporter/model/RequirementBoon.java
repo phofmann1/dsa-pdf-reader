@@ -50,6 +50,12 @@ public class RequirementBoon implements Serializable {
     this.isSameSelection = isSameSelection;
   }
 
+  public RequirementBoon(BoonKey key, boolean exists, SkillKey selectedSkillKey) {
+    this(key, exists);
+    this.selectedSkillKey = selectedSkillKey;
+  }
+
+
   public RequirementBoon(BoonKey key, boolean exists, SkillCategoryKey skillCategoryKey) {
     this(key, exists);
     this.skillCategoryKey = skillCategoryKey;

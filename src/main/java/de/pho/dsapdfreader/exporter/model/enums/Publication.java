@@ -82,7 +82,11 @@ public enum Publication
   Aventurisches_Nekromantäum,
   Aventurisches_Transmutarium,
   Flüstern_aus_dem_Abgrund,
-  GMuH_Havena;
+  GMuH_Havena,
+  Aventurisches_Animatorium,
+  Eiserne_Flamme,
+  GMuH_Dampfende_Dschungel,
+  GMuH_Sonnenküste;
 
 
   @JsonValue

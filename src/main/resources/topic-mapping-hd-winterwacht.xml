@@ -655,4 +655,281 @@
             </parameter>
         </params>
     </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>30</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>31</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>32</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>16</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>93</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="Split effect of Herbeirufung from poison on page 128">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
+    <strategy name="StrategyPutToEndOfPage" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>23.1</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>63</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyInsertLineAfter">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>33</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>23</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Kampfsonderfertigkeiten</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1800</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveLinesFromPage" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>69</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>83</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>83</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyPutToEndOfPage" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>70</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>82</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage" index="3">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>34</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>84</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>110</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>35</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>36</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>37</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>2</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyRemoveSingleLineFromPage" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>38</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>1</value>
+            </parameter>
+        </params>
+    </strategy>
+
+
 </topic-strategies>

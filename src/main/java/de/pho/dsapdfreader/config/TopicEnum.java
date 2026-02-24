@@ -34,5 +34,7 @@ public enum TopicEnum
   RÜSTUNGEN_HELME,
   RÜSTUNGEN_TEILE,
   HERBS,
-  TAVERN
+  TAVERN,
+  COMPLETE,
+  ALCHIMIE
 }

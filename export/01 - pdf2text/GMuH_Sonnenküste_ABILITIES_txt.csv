@@ -1,0 +1,921 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;15;-1.0;GMuH_Sonnenküste;1300;Ermutigender Gesang
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;15;-1.0;GMuH_Sonnenküste;1000;Der Held kennt eine Reihe von Musikstücken, die seine Zuhörer ermutigen können. Wenn er singt, vertreibt er die Angst aus den Herzen seiner Gefährten.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;15;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;15;-1.0;GMuH_Sonnenküste;1000;Ermutigender Gesang ist eine Einsatzmöglichkeit des Talents
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;15;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;15;-1.0;GMuH_Sonnenküste;1000;. Wenn der Abenteurer ein entsprechendes Lied oder ein Musikstück vorträgt, was mindestens 1 Minute in Anspruch nimmt, kann er seinen freiwilligen Zuhörern einmal innerhalb von 4 Stunden eine Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;15;-1.0;GMuH_Sonnenküste;1000;Furcht
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;15;-1.0;GMuH_Sonnenküste;1000;nehmen. Der Spieler würfelt eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;9.0;15;-1.0;GMuH_Sonnenküste;1000;Singen (unterschiedliche Anwendungsgebiete)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;15;-1.0;GMuH_Sonnenküste;1000;. Die Reichweite der Wirkung liegt bei QS x 3 Schritt, maximal kann er QS Personen seiner Wahl von der
+PDType0Font/PDCIDFontType2, PostScript name: OIWCWL+GentiumBasic;false;false;11.0;15;-1.0;GMuH_Sonnenküste;1000;Wirkung profitieren lassen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;15;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;15;-1.0;GMuH_Sonnenküste;1000;Singen 8
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;14.0;15;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;15.0;15;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;16.0;15;-1.0;GMuH_Sonnenküste;1300;Faszinierender Gesang
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;15;-1.0;GMuH_Sonnenküste;1000;Es gibt viele Möglichkeiten, Aufmerksamkeit auf sich zu lenken und dafür andere abzulenken. Durch Gesang kann eine Abenteurerin beispielsweise ihre Zuhörer einlullen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;18.0;15;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;19.0;15;-1.0;GMuH_Sonnenküste;1000;Faszinierender Gesang ist eine Einsatzmöglichkeit des Talents
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;20.0;15;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;21.0;15;-1.0;GMuH_Sonnenküste;1000;. Wenn die Heldin ein entsprechendes Lied vorträgt, das maximal 5 Minuten andauern darf, sind alle ihre Zuhörer in diesem Zeitraum so gebannt, dass sie als leicht abgelenkt gelten und sie z. B. bei Proben auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;22.0;15;-1.0;GMuH_Sonnenküste;1000;Sinnesschärfe
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;23.0;15;-1.0;GMuH_Sonnenküste;1000;eine Erschwernis von –1 erhalten. Die Spielerin würfelt eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;24.0;15;-1.0;GMuH_Sonnenküste;1000;Singen (unterschiedliche Anwendungsgebiete)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;25.0;15;-1.0;GMuH_Sonnenküste;1000;. Die Reichweite der Wirkung liegt bei QS x 3 Schritt, maximal kann die Abenteurerin QS Personen ihrer Wahl durch
+PDType0Font/PDCIDFontType2, PostScript name: OIWCWL+GentiumBasic;false;false;26.0;15;-1.0;GMuH_Sonnenküste;1000;die Wirkung beeinflussen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;15;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;15;-1.0;GMuH_Sonnenküste;1000;Singen 8
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;15;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;15;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;15;-1.0;GMuH_Sonnenküste;1300;Kräutermischung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;15;-1.0;GMuH_Sonnenküste;1000;Es muss nicht immer Tarnele oder Wirselkraut sein. Mit der richtigen Mischung kann ein Heiler auch aus anderen, einfachen Heilkräutern eine potente Kräutermischung herstellen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;15;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;15;-1.0;GMuH_Sonnenküste;1000;Die Heldin ist dazu in der Lage, eine Kräutermischung anzufertigen, die die Regeneration verbessert. Diese Mischung besteht nicht aus den üblichen Heilkräutern, die LeP regenerieren können, sondern aus einfachen, je nach Region unterschiedlichen Heilkräutern, die insgesamt pro Anwendung der Sonderfertigkeit 5 Silbertaler kosten. Alternativ kann die Heldin die Materialien auch selbst suchen. Sie benötigt dafür 4 Stunden, sofern es in der näheren Umgebung auch die nötigen Materialien gibt (was z. B. in Sand- oder Eiswüsten nicht der Fall ist). Gelingt der Heldin eine Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: SWXVAD+GentiumBasic-Italic;false;true;35.0;15;-1.0;GMuH_Sonnenküste;1000;Pflanzenkunde (Heilpflanzen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;15;-1.0;GMuH_Sonnenküste;1000;+2, so ist ihr die richtige Kräutermischung gelungen. Wird eine Mischung eingenommen, so kann mit 1W6 gewürfelt werden. Würfelt die Spielerin der Heldin eine Augenzahl kleiner oder gleich der QS, kann bei der nächsten Regenerationsphase +1 LeP addiert werden. Es dauert 1 Stunde die Kräutermischung herzustellen.Die Wirkung der Kräutermischung ist nicht kumulativ mit der LeP-Regeneration durch andere Heilkräuter, ebenso wenig kann eine Person mehr als einmal pro
+PDType0Font/PDCIDFontType2, PostScript name: VDLNQX+GentiumBasic;false;false;37.0;15;-1.0;GMuH_Sonnenküste;1000;Regenerationsphase davon profitieren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;38.0;15;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: VDLNQX+GentiumBasic;false;false;39.0;15;-1.0;GMuH_Sonnenküste;1000;Pflanzenkunde 8
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;40.0;15;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: VDLNQX+GentiumBasic;false;false;41.0;15;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;42.0;15;-1.0;GMuH_Sonnenküste;3100;SONDERFERTIGKEITEN
+PDTrueTypeFont MCCVFZ+Andalus;false;false;43.0;15;-1.0;GMuH_Sonnenküste;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;16;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;16;-1.0;GMuH_Sonnenküste;1300;Zeichen des Schicksals
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;16;-1.0;GMuH_Sonnenküste;1000;Durch die Deutung von Zeichen oder anderen Phänomenen kann ein Geweihter den Glauben an die Götter stärken und seine Zuversicht auf andere übertragen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;16;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;16;-1.0;GMuH_Sonnenküste;1000;Der Geweihte kann auf einen anderen Kulturschaffenden, auf dem der Geburtssegen oder die Initiation des Pantheons des Geweihten liegt, Schicksalspunkte übertragen (im Verhältnis 2 zu 1). Die Übertragung dauert 1 Minute und derjenige, der die Schips erhält, kann durch Zeichen des Schicksals nur einmal alle 24 Stunden Schicksalspunkte bekommen. Damit kann der Geweihte dem Kulturschaffenden auch 1 Punkt mehr verleihen, als dessen Maximum beträgt. Gibt der Kulturschaffende diesen Punkt aus, kann er bei der Regeneration von Schicksalspunkten nicht wieder über sein Maximum hinausgehen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;6.0;16;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;16;-1.0;GMuH_Sonnenküste;1000;Vorteil Geweihter, mindestens 2 Schicksalspunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;8.0;16;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;16;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;10.0;16;-1.0;GMuH_Sonnenküste;1800;Schicksalspunkte-Sonderfertigkeiten
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;17;-1.0;GMuH_Sonnenküste;1300;Weg der Bardin
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;17;-1.0;GMuH_Sonnenküste;1000;Niemand kann sich mit der künstlerischen Darbietung einer Bardin messen, zumindest nicht, wenn es um Gesangs- oder Musikdarbietungen geht.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;17;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;17;-1.0;GMuH_Sonnenküste;1000;Die Heldin erhält bei
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;17;-1.0;GMuH_Sonnenküste;1000;Musizieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;17;-1.0;GMuH_Sonnenküste;1000;und
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;17;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;17;-1.0;GMuH_Sonnenküste;1000;eine Erleichterung von +1.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;9.0;17;-1.0;GMuH_Sonnenküste;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;17;-1.0;GMuH_Sonnenküste;1000;Ermutigende Darstellung, Faszinierende Darstellung, Kunstbegabt
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;17;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;17;-1.0;GMuH_Sonnenküste;1000;Musizieren 8, Singen 8
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;17;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;17;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;17;-1.0;GMuH_Sonnenküste;1300;Weg der Gelehrten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;17;-1.0;GMuH_Sonnenküste;1000;Kaum jemand kennt sich in einem speziellen Wissensgebiet so gut aus wie die Gelehrte, sodass ihr dort kaum Fehler passieren und sie mit tiefgreifendem Wissen ihre Gefährten zu beeindrucken weiß.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;17;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;17;-1.0;GMuH_Sonnenküste;1000;Die Heldin muss ein Wissenstalent, das für ihre Profession eine tragende Rolle spielt, mit Erwerb dieses Stils auswählen und erhält darin eine Erleichterung von +1.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;17;-1.0;GMuH_Sonnenküste;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;17;-1.0;GMuH_Sonnenküste;1000;Allgemeinwissen, Fachwissen, Universalgenie
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;17;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;17;-1.0;GMuH_Sonnenküste;1000;ausgewähltes Talent FW 8
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;17;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;17;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent 5/10/15/20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;17;-1.0;GMuH_Sonnenküste;1300;Weg des Kartographen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;17;-1.0;GMuH_Sonnenküste;1000;Ein ausgebildeter Kartograph weiß genau, worauf bei der Erstellung nützlichen Kartenmaterials zu achten ist.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;17;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;17;-1.0;GMuH_Sonnenküste;1000;Die Heldin bekommt eine Erleichterung von +1 auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;29.0;17;-1.0;GMuH_Sonnenküste;1000;Geographie (Kartographie)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;17;-1.0;GMuH_Sonnenküste;1000;. Sie benötigt zudem für das Zeichnen einer Karte nur die Hälfte der Zeit, die man normalerweise braucht.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;17;-1.0;GMuH_Sonnenküste;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;17;-1.0;GMuH_Sonnenküste;1000;Fachwissen, Handwerkskunst, Universalgenie
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;17;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;17;-1.0;GMuH_Sonnenküste;1000;Malen & Zeichnen 8, SF Kartographie
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;17;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;17;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;17;-1.0;GMuH_Sonnenküste;1300;Weg des Rechtswahrers
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;17;-1.0;GMuH_Sonnenküste;1000;Wer sich auf die Spur verbrecherischen Gelichters setzt, weiß nur allzu gut, womit er sich anlegt, und kann den Methoden von Räubern und Banditen seine einschlägige Erfahrung entgegensetzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;17;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;17;-1.0;GMuH_Sonnenküste;1000;Der Held kennt sich hervorragend mit der Jagd nach Banditen und Räubern aus. Proben auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;41.0;17;-1.0;GMuH_Sonnenküste;1000;Sinnesschärfe (Hinterhalt entdecken)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;17;-1.0;GMuH_Sonnenküste;1000;und
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;43.0;17;-1.0;GMuH_Sonnenküste;1000;Willenskraft (Einschüchtern widerstehen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;17;-1.0;GMuH_Sonnenküste;1000;sind um +1 erleichtert.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;45.0;17;-1.0;GMuH_Sonnenküste;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;17;-1.0;GMuH_Sonnenküste;1000;Bedrohliche Aura, Körperliches Geschick, Kind der Natur
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;47.0;17;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;48.0;17;-1.0;GMuH_Sonnenküste;1000;Sinnesschärfe 4, Willenskraft 4
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;49.0;17;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;50.0;17;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;51.0;17;-1.0;GMuH_Sonnenküste;1800;Talentstilsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: NFCVUN+GentiumBasic-Bold;true;false;52.0;17;-1.0;GMuH_Sonnenküste;1300;Weg der Pflanzenkundlerin
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;53.0;17;-1.0;GMuH_Sonnenküste;1000;Wer sich in die Wildnis begibt, um nützliche Pflanzen zu finden, entwickelt bald ein ganz besonderes Gespür für die ergiebigsten Wuchsorte von Heil-, Gift- und Nutzpflanzen.
+PDType0Font/PDCIDFontType2, PostScript name: NFCVUN+GentiumBasic-Bold;true;false;54.0;17;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;55.0;17;-1.0;GMuH_Sonnenküste;1000;In jeder Region, für welche sie die Sonderfertigkeit
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;56.0;17;-1.0;GMuH_Sonnenküste;1000;Geländekunde
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;57.0;17;-1.0;GMuH_Sonnenküste;1000;erworben hat, erhält die Heldin bei Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: KYOYET+GentiumBasic-Italic;false;true;58.0;17;-1.0;GMuH_Sonnenküste;1000;Pflanzenkunde
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;59.0;17;-1.0;GMuH_Sonnenküste;1000;eine zusätzliche Erleichterung von +1 (insgesamt also +2).
+PDType0Font/PDCIDFontType2, PostScript name: NFCVUN+GentiumBasic-Bold;true;false;60.0;17;-1.0;GMuH_Sonnenküste;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;61.0;17;-1.0;GMuH_Sonnenküste;1000;Erfolgreicher Sammler, Kind der Natur, Meisterliche Kräutermischung
+PDType0Font/PDCIDFontType2, PostScript name: NFCVUN+GentiumBasic-Bold;true;false;62.0;17;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;63.0;17;-1.0;GMuH_Sonnenküste;1000;Pflanzenkunde 8, SF Geländekunde
+PDType0Font/PDCIDFontType2, PostScript name: NFCVUN+GentiumBasic-Bold;true;false;64.0;17;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: LCDESR+GentiumBasic;false;false;65.0;17;-1.0;GMuH_Sonnenküste;1000;5 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;18;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;18;-1.0;GMuH_Sonnenküste;1300;Allgemeinwissen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;18;-1.0;GMuH_Sonnenküste;1000;Wer über eine herausragende Allgemeinbildung verfügt, der kann zu jedem Thema etwas beitragen, auch wenn es nur Grundkenntnisse sind.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;18;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;18;-1.0;GMuH_Sonnenküste;1000;Die Heldin kann bei einer Probe auf ein Wissenstalent, die maximal um –3 erschwert sein darf, entscheiden, ob sie die Probe ablegen möchte oder diese automatisch als mit QS 1 gelungen gilt.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;6.0;18;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;18;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;8.0;18;-1.0;GMuH_Sonnenküste;1000;AP
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;18;-1.0;GMuH_Sonnenküste;1000;-
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;10.0;18;-1.0;GMuH_Sonnenküste;1000;Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;18;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;18;-1.0;GMuH_Sonnenküste;1300;Bedrohliche Aura
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;13.0;18;-1.0;GMuH_Sonnenküste;1000;Ein Held kann sich darin üben, eine furchteinflößende
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;18;-1.0;GMuH_Sonnenküste;1000;Mimik aufzusetzen. Dadurch erlangt er eine bedrohliche Ausstrahlung, die es ihm leichter macht, andere einzuschüchtern.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;18;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;18;-1.0;GMuH_Sonnenküste;1000;Von dem Helden geht eine bedrohliche Aura aus. Bei gelungenen Proben auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;17.0;18;-1.0;GMuH_Sonnenküste;1000;Einschüchtern
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;18;-1.0;GMuH_Sonnenküste;1000;erhält er +1 FP.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;18;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;18;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;18;-1.0;GMuH_Sonnenküste;1000;AP
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;18;-1.0;GMuH_Sonnenküste;1000;-
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;18;-1.0;GMuH_Sonnenküste;1000;Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;18;-1.0;GMuH_Sonnenküste;1000;5 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;18;-1.0;GMuH_Sonnenküste;1300;Erfolgreicher Sammler
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;18;-1.0;GMuH_Sonnenküste;1000;Eine verlässliche Methode, um auf Reisen stets einen vollen Magen zu haben, ist das Sammeln von essbaren Kräutern, Früchten und Pilzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;18;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;18;-1.0;GMuH_Sonnenküste;1000;Ein Held mit dieser Sonderfertigkeit erzielt bei gelungenen Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: AIDDPN+GentiumBasic-Italic;false;true;29.0;18;-1.0;GMuH_Sonnenküste;1000;Pflanzenkunde
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;18;-1.0;GMuH_Sonnenküste;1000;zur Nahrungsbeschaffung +1 QS (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;18;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;18;-1.0;GMuH_Sonnenküste;1000;SF Sammler, passende Talentstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;18;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;18;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;18;-1.0;GMuH_Sonnenküste;1300;Ermutigende Darstellung
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;36.0;18;-1.0;GMuH_Sonnenküste;1000;Künstler können durch ihre Darbietung die Moral ihrer
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;37.0;18;-1.0;GMuH_Sonnenküste;1000;Zuschauer verbessern, wenn sie sich auf deren Emotionen konzentrieren und an ihren Mut appellieren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;38.0;18;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;39.0;18;-1.0;GMuH_Sonnenküste;1000;Die Sonderfertigkeit funktioniert wie die Sonderfertigkeit
+PDType0Font/PDCIDFontType2, PostScript name: AIDDPN+GentiumBasic-Italic;false;true;40.0;18;-1.0;GMuH_Sonnenküste;1000;Ermutigender Gesang
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;41.0;18;-1.0;GMuH_Sonnenküste;1000;und lässt sich nun auch für das Talent
+PDType0Font/PDCIDFontType2, PostScript name: AIDDPN+GentiumBasic-Italic;false;true;42.0;18;-1.0;GMuH_Sonnenküste;1000;Musizieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;43.0;18;-1.0;GMuH_Sonnenküste;1000;anwenden. Dabei sind maxi-
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;44.0;18;-1.0;GMuH_Sonnenküste;1000;mal QS x 2 Zuhörer von der Wirkung betroffen (statt
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;45.0;18;-1.0;GMuH_Sonnenküste;1000;QS Personen).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;46.0;18;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;47.0;18;-1.0;GMuH_Sonnenküste;1000;Musizieren 12 oder Singen 12, SF Ermutigender Gesang, passende Talentstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;48.0;18;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;49.0;18;-1.0;GMuH_Sonnenküste;1000;5 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;50.0;18;-1.0;GMuH_Sonnenküste;1300;Fachwissen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;51.0;18;-1.0;GMuH_Sonnenküste;1000;Manchmal ist es für einen Helden sinnvoll, sich auf ein
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;52.0;18;-1.0;GMuH_Sonnenküste;1000;ganz bestimmtes Wissen zu spezialisieren. Der Held profitiert von dieser Konzentration auf dieses Wis
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;53.0;18;-1.0;GMuH_Sonnenküste;1000;-sensgebiet und kann darin durch fachliche Kompetenz glänzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;54.0;18;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;55.0;18;-1.0;GMuH_Sonnenküste;1000;Der Held muss sich auf ein Wissenstalent und
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;18;-1.0;GMuH_Sonnenküste;1000;zwei darin enthaltener Anwendungsgebiete festlegen. Legt der Held eine Probe darauf ab, kann er +1 QS addieren (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;57.0;18;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;58.0;18;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;59.0;18;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;60.0;18;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent: 4/8/12/16 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;61.0;18;-1.0;GMuH_Sonnenküste;1300;Faszinierende Darstellung
+PDType0Font/PDCIDFontType2, PostScript name: DKRVFH+GentiumBasic;false;false;62.0;18;-1.0;GMuH_Sonnenküste;1000;Sänger und Musikanten können es zu einer wahren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;63.0;18;-1.0;GMuH_Sonnenküste;1000;Meisterschaft darin bringen, durch ihre Darbietung für Ablenkung zu sorgen.
+PDTrueTypeFont MCCVFZ+Andalus;false;false;64.0;18;-1.0;GMuH_Sonnenküste;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;19;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;19;-1.0;GMuH_Sonnenküste;1000;Die Sonderfertigkeit funktioniert wie die Sonderfertigkeit
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;3.0;19;-1.0;GMuH_Sonnenküste;1000;Faszinierender Gesang
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;19;-1.0;GMuH_Sonnenküste;1000;, lässt sich nun allerdings auch für das Talent
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;19;-1.0;GMuH_Sonnenküste;1000;Musizieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;19;-1.0;GMuH_Sonnenküste;1000;anwenden. Die Wirkungsdauer ist aber nicht auf 5 Minuten begrenzt, sondern der Barde kann maximal 1 Stunde singen. Nach jeweils 5 vollen Minuten können die Zuhörer eine Vergleichsprobe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;19;-1.0;GMuH_Sonnenküste;1000;Willenskraft
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;19;-1.0;GMuH_Sonnenküste;1000;gegen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;9.0;19;-1.0;GMuH_Sonnenküste;1000;Musizieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;19;-1.0;GMuH_Sonnenküste;1000;oder
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;11.0;19;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;19;-1.0;GMuH_Sonnenküste;1000;des Barden ablegen. Bei Gelingen können sie sich entscheiden, nicht mehr zu zuhören und die Erschwernis entfällt. Der Barde kann seine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;13.0;19;-1.0;GMuH_Sonnenküste;1000;Muszieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;19;-1.0;GMuH_Sonnenküste;1000;oder
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;15.0;19;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;19;-1.0;GMuH_Sonnenküste;1000;mit einer selbstgewählten Erschwernis von bis zu –6 versehen, jeweils 2 dieser Punkte führen zu einer Erschwernis von –1 für die Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;17.0;19;-1.0;GMuH_Sonnenküste;1000;Willenskraft
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;19;-1.0;GMuH_Sonnenküste;1000;der Zuschauer.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;19;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;19;-1.0;GMuH_Sonnenküste;1000;Musizieren 12 oder Singen 12, SF Faszinierender Gesang, passende Talentstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;19;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;19;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;19;-1.0;GMuH_Sonnenküste;1300;Handwerkskunst
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;19;-1.0;GMuH_Sonnenküste;1000;Nicht jeder Aventurier kennt sich in jedem Handwerk gleich gut aus. Jene Handwerker, die ein bestimmtes Gebiet gemeistert haben, können leichter großartige Objekte herstellen als einfache Gesellen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;19;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;19;-1.0;GMuH_Sonnenküste;1000;Einige Handwerkstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;19;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;19;-1.0;GMuH_Sonnenküste;1000;passende Talentstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;19;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;19;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;19;-1.0;GMuH_Sonnenküste;1300;Kind der Natur
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;19;-1.0;GMuH_Sonnenküste;1000;Der Held kennt sich bestens in der Natur aus und hat sich auf eine bestimmte Fähigkeit spezialisiert, die für die Ausübung seiner Arbeit besonders wichtig ist.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;19;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;19;-1.0;GMuH_Sonnenküste;1000;Einige Naturtalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;19;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;19;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;19;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;19;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;19;-1.0;GMuH_Sonnenküste;1300;Körperliches Geschick
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;19;-1.0;GMuH_Sonnenküste;1000;Hat sich eine Heldin darin geübt, kann sie in einer speziellen körperlichen Fähigkeit durch besondere Höchstleistungen glänzen. Sie hebt sich dadurch von anderen auf diesem Gebiet ab.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;41.0;19;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;19;-1.0;GMuH_Sonnenküste;1000;Einige Körpertalente, die für die Arbeit der Heldin von großer Bedeutung sind, gehen ihr deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt sie fortan +1 FP (bis zu einem Maximum von 18 FP). Die Heldin kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;43.0;19;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;19;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;45.0;19;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;19;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;20;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;20;-1.0;GMuH_Sonnenküste;1300;Kunstbegabt
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;20;-1.0;GMuH_Sonnenküste;1000;Manch ein musisch begabter Held ist nicht auf eine Kunst beschränkt, sondern zeichnet sich durch das Verständnis für eine ganze Palette an Fähigkeiten aus.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;20;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;20;-1.0;GMuH_Sonnenküste;1000;Der Held hat in den Talenten
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;6.0;20;-1.0;GMuH_Sonnenküste;1000;Malen & Zeichnen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;20;-1.0;GMuH_Sonnenküste;1000;,
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;8.0;20;-1.0;GMuH_Sonnenküste;1000;Musizieren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;20;-1.0;GMuH_Sonnenküste;1000;,
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;10.0;20;-1.0;GMuH_Sonnenküste;1000;Singen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;20;-1.0;GMuH_Sonnenküste;1000;und
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;12.0;20;-1.0;GMuH_Sonnenküste;1000;Tanzen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;20;-1.0;GMuH_Sonnenküste;1000;ein wenig Ahnung. Legt er eine Probe auf eines dieser Talente (oder nach Meisterentscheid ein anderes Talent im Zusammenhang mit Kunst oder Erschaffung von Kunst), und kann er bei Gelingen +1 QS addieren (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;14.0;20;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;15.0;20;-1.0;GMuH_Sonnenküste;1000;passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;16.0;20;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;20;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;18.0;20;-1.0;GMuH_Sonnenküste;1300;Meisterliche Kräutermischung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;19.0;20;-1.0;GMuH_Sonnenküste;1000;Kräutermischungen können einem Helden das Leben retten – oder ihm zumindest Linderung verschaffen. Wer sich mit den Geheimnissen diverser Heilkräuter auskennt, kann potentere Kräutermischungen herstellen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;20.0;20;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;21.0;20;-1.0;GMuH_Sonnenküste;1000;Nutzt der Held die Sonderfertigkeit
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;22.0;20;-1.0;GMuH_Sonnenküste;1000;Kräutermischung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;23.0;20;-1.0;GMuH_Sonnenküste;1000;, heilt sein Patient 2 LeP statt 1 LeP.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;24.0;20;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;25.0;20;-1.0;GMuH_Sonnenküste;1000;Sonderfertigkeit Kräutermischung, passender Talentstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;26.0;20;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;27.0;20;-1.0;GMuH_Sonnenküste;1000;12 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;28.0;20;-1.0;GMuH_Sonnenküste;1300;Universalgenie
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;29.0;20;-1.0;GMuH_Sonnenküste;1000;Es gibt Helden, die in jedem Wissensgebiet zumindest rudimentäre Kenntnisse aufweisen. Solche Universalgenies können gelegentlich mit Wissensbrocken überraschen, für die man das Fachgebiet regelrecht studiert haben müsste.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;30.0;20;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;31.0;20;-1.0;GMuH_Sonnenküste;1000;Einige Wissenstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Wissenstalente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;32.0;20;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;33.0;20;-1.0;GMuH_Sonnenküste;1000;passende Talentstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;34.0;20;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;35.0;20;-1.0;GMuH_Sonnenküste;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;21;-1.0;GMuH_Sonnenküste;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;21;-1.0;GMuH_Sonnenküste;1300;Hylailos-Stil
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;21;-1.0;GMuH_Sonnenküste;1000;(passiv)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;21;-1.0;GMuH_Sonnenküste;1300;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;21;-1.0;GMuH_Sonnenküste;1000;Den Kriegern von Hylailos wird nachgesagt, dass sie hervorragende Leibwächter sind, die sich trotz ihrer wuchtigen Waffen ausgezeichnet in Verteidigungsgefechten schlagen. Ein großer Teil ihrer Ausbildung wird darauf verwandt, im Umgang mit dem Pailos eine spielerische Geschmeidigkeit zu lehren, die beinahe die barbarische Natur dieser Waffe vergessen lässt.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;6.0;21;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;21;-1.0;GMuH_Sonnenküste;1000;Ein Krieger von Hylailos vermag selbst wuchtige Waffen schnell und präzise zu führen. Dadurch ver-
+PDType0Font/PDCIDFontType2, PostScript name: JEYEBV+GentiumBasic;false;false;8.0;21;-1.0;GMuH_Sonnenküste;1000;bessern sich PA-Abzüge von AT/PA-Modifikatoren bei
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;21;-1.0;GMuH_Sonnenküste;1000;Waffen der Kampftechnik
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;10.0;21;-1.0;GMuH_Sonnenküste;1000;Stangenwaffen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;21;-1.0;GMuH_Sonnenküste;1000;um 1. Maximal ist dadurch ein Abzug von 0 erreichbar.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;21;-1.0;GMuH_Sonnenküste;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;21;-1.0;GMuH_Sonnenküste;1000;Mächtiger Rundumschlag, Schilddeckung, Sprungangriff
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;14.0;21;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;15.0;21;-1.0;GMuH_Sonnenküste;1000;GE 13
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;16.0;21;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;21;-1.0;GMuH_Sonnenküste;1000;Stangenwaffen
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;18.0;21;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;19.0;21;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;20.0;21;-1.0;GMuH_Sonnenküste;1300;Neetha-Stil
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;21.0;21;-1.0;GMuH_Sonnenküste;1000;(passiv)Die adligen Zöglinge der Hohen Schule der Reiterei werden an unterschiedlichen Waffen ausgebildet, die sie meisterlich vom Rücken eines Pferdes aus einzusetzen wissen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;22.0;21;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;23.0;21;-1.0;GMuH_Sonnenküste;1000;Ein Neethaner Krieger erhält wahlweise einen Bonus von +1 AT oder +1 PA, während er sich auf dem
+PDType0Font/PDCIDFontType2, PostScript name: JEYEBV+GentiumBasic;false;false;24.0;21;-1.0;GMuH_Sonnenküste;1000;Rücken eines Reittiers befindet. Der jeweilige Bonus muss am Anfang jeder KR angesagt werden. Zudem
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;25.0;21;-1.0;GMuH_Sonnenküste;1000;sind Proben auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;26.0;21;-1.0;GMuH_Sonnenküste;1000;Reiten (Kampfmanöver)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;27.0;21;-1.0;GMuH_Sonnenküste;1000;, wenn das
+PDType0Font/PDCIDFontType2, PostScript name: JEYEBV+GentiumBasic;false;false;28.0;21;-1.0;GMuH_Sonnenküste;1000;Pferd verletzt wird, nur noch bei vollen 10 SP um je
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;29.0;21;-1.0;GMuH_Sonnenküste;1000;-weils –1 erschwert statt schon bei 5 vollen SP (siehe
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;30.0;21;-1.0;GMuH_Sonnenküste;1000;Regelwerk
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;31.0;21;-1.0;GMuH_Sonnenküste;1000;Seite
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;32.0;21;-1.0;GMuH_Sonnenküste;1000;240
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;33.0;21;-1.0;GMuH_Sonnenküste;1000;).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;34.0;21;-1.0;GMuH_Sonnenküste;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;35.0;21;-1.0;GMuH_Sonnenküste;1000;Aufspießen, Machtvoller Sturmangriff, Taktische Befehle
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;36.0;21;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;37.0;21;-1.0;GMuH_Sonnenküste;1000;MU 13, SF Berittener Kampf
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;38.0;21;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;39.0;21;-1.0;GMuH_Sonnenküste;1000;alle Nahkampftechniken
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;40.0;21;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;41.0;21;-1.0;GMuH_Sonnenküste;1000;12 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;42.0;21;-1.0;GMuH_Sonnenküste;800;BKBK
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;43.0;21;-1.0;GMuH_Sonnenküste;1300;Oloranthe della Cerrano-Stil
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;21;-1.0;GMuH_Sonnenküste;1000;(passiv)Die wandernde Schwertmeisterin Oloranthe della Cerrano hat ihrerseits die Ausbildung der berühmten Havener Schwertgesellenschule durchlaufen, hat jedoch mit
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;45.0;21;-1.0;GMuH_Sonnenküste;1000;einigen meridianischen Einflüssen ihren ganz persönli
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;21;-1.0;GMuH_Sonnenküste;1000;-chen Kampfstil geprägt, der die (vermeintliche) Finesse
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;47.0;21;-1.0;GMuH_Sonnenküste;1000;eines Feindes gegen ihn einsetzt.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;48.0;21;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;49.0;21;-1.0;GMuH_Sonnenküste;1000;Kämpfer dieses Stils können Angreifer mit unre
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;50.0;21;-1.0;GMuH_Sonnenküste;1000;-gelmäßigen Schlägen der Waffe auf ihren Schild aus
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;51.0;21;-1.0;GMuH_Sonnenküste;1000;dem Konzept bringen. Zu Beginn jeder KR kann er einen einzelnen Gegner benennen. Setzt dieser Geg
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;52.0;21;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;53.0;21;-1.0;GMuH_Sonnenküste;1000;ner in der entsprechenden KR ein Spezialmanöver im
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;54.0;21;-1.0;GMuH_Sonnenküste;1000;Nahkampf gegen den Kämpfer mit diesem Kampfstil ein, so steigt die Wahrscheinlichkeit, dass er mit sei-
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;55.0;21;-1.0;GMuH_Sonnenküste;1000;ner AT einen Patzer erleiden kann, um 5 % (normaler
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;21;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;57.0;21;-1.0;GMuH_Sonnenküste;1000;weise von 20 auf 19 bis 20).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;58.0;21;-1.0;GMuH_Sonnenküste;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;59.0;21;-1.0;GMuH_Sonnenküste;1000;Angetäuschter
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;60.0;21;-1.0;GMuH_Sonnenküste;1000;Angriff, Nervös machen, Schildstoß
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;61.0;21;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;62.0;21;-1.0;GMuH_Sonnenküste;1000;GE 13
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;63.0;21;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;64.0;21;-1.0;GMuH_Sonnenküste;1000;Schwerter (nur Kusliker Säbel),
+PDType0Font/PDCIDFontType2, PostScript name: CDXPHJ+GentiumBasic;false;false;65.0;21;-1.0;GMuH_Sonnenküste;1000;Schilde (nur Buckler)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;66.0;21;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;67.0;21;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;68.0;21;-1.0;GMuH_Sonnenküste;800;BK
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;22;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;22;-1.0;GMuH_Sonnenküste;1300;Angetäuschter Angriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;22;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)Meister der Finte können ihre Angriffe besonders gut mit einer bestimmten Waffenkombination vorbereiten, beispielsweise mit einem Schild und einem Schwert. Hinter einigen Waffen lassen sich nicht nur Angriffe gut verbergen, auch durch die Kombination mit einem leichten Stoß oder einer Art Kreuzblock mit Waffe und Schild tun sich so in der Abwehr des Gegners schnell Lücken auf.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;22;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;22;-1.0;GMuH_Sonnenküste;1000;Um diese Sonderfertigkeit nutzen zu können, muss sie mit einer
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;6.0;22;-1.0;GMuH_Sonnenküste;1000;Finte
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;22;-1.0;GMuH_Sonnenküste;1000;kombiniert werden. Sollte dem Gegner die Verteidigung gegen die Finte misslingen und er über seinen regulären VW gewürfelt haben (die Finte also nicht notwendig gewesen sein, um zu treffen), richtet der Treffer +1 TP an.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;8.0;22;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;22;-1.0;GMuH_Sonnenküste;1000;GE 15, SF Finte I, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;10.0;22;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;22;-1.0;GMuH_Sonnenküste;1000;Dolche, Fechtwaffen, Raufen, Schilde, Schwerter
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;22;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;22;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;14.0;22;-1.0;GMuH_Sonnenküste;1000;Beispiel: Geron verfügt über die SF
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;15.0;22;-1.0;GMuH_Sonnenküste;1000;Finte I
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;16.0;22;-1.0;GMuH_Sonnenküste;1000;und
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;22;-1.0;GMuH_Sonnenküste;1000;Angetäuschter Angriff
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;18.0;22;-1.0;GMuH_Sonnenküste;1000;. Er senkt mit der
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;19.0;22;-1.0;GMuH_Sonnenküste;1000;Finte I
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;20.0;22;-1.0;GMuH_Sonnenküste;1000;die PA seines Gegners von 11 auf 9. Gerons Attacke mit der
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;21.0;22;-1.0;GMuH_Sonnenküste;1000;Finte
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;22.0;22;-1.0;GMuH_Sonnenküste;1000;gelingt und sein Gegner
+PDTrueTypeFont MCCVFZ+Andalus;false;false;23.0;22;-1.0;GMuH_Sonnenküste;800;BK
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;24.0;22;-1.0;GMuH_Sonnenküste;1000;würfelt eine 13. Da Geron die
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;25.0;22;-1.0;GMuH_Sonnenküste;1000;Finte
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;26.0;22;-1.0;GMuH_Sonnenküste;1000;nicht gebraucht hätte, um zu treffen, richtet sein Angriff nun +1
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;27.0;22;-1.0;GMuH_Sonnenküste;1000;TP
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;28.0;22;-1.0;GMuH_Sonnenküste;1000;an. Hätte sein Gegner eine 10 oder 11 gewürfelt, hätte Geron den
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;29.0;22;-1.0;GMuH_Sonnenküste;1000;TP
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;30.0;22;-1.0;GMuH_Sonnenküste;1000;-Bonus nicht bekommen, denn dann wäre die
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;31.0;22;-1.0;GMuH_Sonnenküste;1000;Finte
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;32.0;22;-1.0;GMuH_Sonnenküste;1000;notwendig gewesen, um den Gegner zu treffen, aber immerhin hätte er seinen Widersacher dann dank der
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;33.0;22;-1.0;GMuH_Sonnenküste;1000;Finte
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;34.0;22;-1.0;GMuH_Sonnenküste;1000;getroffen. Bei 1-9 hätte der Gegner pariert.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;22;-1.0;GMuH_Sonnenküste;1300;Mächtiger Rundumschlag
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;22;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;22;-1.0;GMuH_Sonnenküste;1300;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;22;-1.0;GMuH_Sonnenküste;1000;Wer sich auf den Einsatz eines Rundumschlags spezialisiert hat und über die nötige Kraft verfügt, kann diesen härter und präziser einsetzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;22;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;22;-1.0;GMuH_Sonnenküste;1000;Wer über den
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;41.0;22;-1.0;GMuH_Sonnenküste;1000;Mächtigen Rundumschlag
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;22;-1.0;GMuH_Sonnenküste;1000;verfügt, bekommt folgende Boni bei der Ausführung eines gewöhnlichen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;43.0;22;-1.0;GMuH_Sonnenküste;1000;Rundumschlags
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;22;-1.0;GMuH_Sonnenküste;1000;dazu: Bei der ersten Attacke +1 TP<br> bei der zweiten Attacke nur noch eine Erschwernis von –4<br> bei der dritten Attacke nur noch eine Erschwernis von –8. Zusätzlich kann der
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;45.0;22;-1.0;GMuH_Sonnenküste;1000;Rundumschlag
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;22;-1.0;GMuH_Sonnenküste;1000;(wie der
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;47.0;22;-1.0;GMuH_Sonnenküste;1000;Mächtige Rundumschlag
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;48.0;22;-1.0;GMuH_Sonnenküste;1000;) mit Stangenwaffen ausgeführt werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;49.0;22;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;50.0;22;-1.0;GMuH_Sonnenküste;1000;KK 15, SF Rundumschlag I, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;51.0;22;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;52.0;22;-1.0;GMuH_Sonnenküste;1000;Hiebwaffen, Kettenwaffen, Stangenwaffen, Zweihandschwerter, Zweihandhiebwaffen
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;53.0;22;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;54.0;22;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;55.0;22;-1.0;GMuH_Sonnenküste;1300;Machtvoller Sturmangriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;22;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;57.0;22;-1.0;GMuH_Sonnenküste;1300;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;58.0;22;-1.0;GMuH_Sonnenküste;1000;Der Machtvolle Sturmangriff verstärkt nochmals die Auswirkungen des Aufeinanderprallens einer heranstürmenden Heldin mit ihrem Gegner.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;59.0;22;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;60.0;22;-1.0;GMuH_Sonnenküste;1000;Das Manöver
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;61.0;22;-1.0;GMuH_Sonnenküste;1000;Machtvoller Sturmangriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;62.0;22;-1.0;GMuH_Sonnenküste;1000;kann nur durchgeführt werden, wenn die Angreiferin eine Anlaufstrecke von mindestens 2 Schritt hat und über eine GS von mindestens 4 verfügt. Die Bewegung ist Teil der Aktion, mit der man angreift. Ist der
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;63.0;22;-1.0;GMuH_Sonnenküste;1000;Machtvolle Sturmangriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;64.0;22;-1.0;GMuH_Sonnenküste;1000;erfolgreich, steigen die TP um 2 und die halbe GS der Angreiferin. Dieser Angriff kann regulär abgewehrt werden. Sollte der Machtvolle Sturmangriff misslingen, sinkt der VW der Heldin bis zum Ende der nächsten KR um 2.
+PDType1CFont LULTKR+TheDarkEyeRegular;false;false;65.0;22;-1.0;GMuH_Sonnenküste;400;#
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;66.0;22;-1.0;GMuH_Sonnenküste;1000;Erschwernis
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;67.0;22;-1.0;GMuH_Sonnenküste;1000;–4
+PDTrueTypeFont MCCVFZ+Andalus;false;false;68.0;22;-1.0;GMuH_Sonnenküste;800;BKBK
+PDTrueTypeFont MCCVFZ+Andalus;false;false;69.0;22;-1.0;GMuH_Sonnenküste;1800;Erweiterte Kampfsonderfertigkeiten
+PDType1CFont LULTKR+TheDarkEyeRegular;false;false;70.0;22;-1.0;GMuH_Sonnenküste;400;#
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;71.0;22;-1.0;GMuH_Sonnenküste;900;Der maximale Bonus, der durch das Addieren der (halben) GS entstehen kann, ist die volle natürliche GS des Angreifers. Auch ein Bonus durch Zauber wie den AXXELERATUS kann nur so viele zusätzliche TP einbringen, bis die volle GS des Angreifers erreicht ist. Hat jemand beispielsweise eine GS von 8, würde er aufgrund der GS +4 TP anrichten. Dies kann durch den Zauber auf maximal +8 TP erhöht werden (den Wert der vollen, natürlichen GS), wenn der Angreifer entsprechend schnell ist. Zu diesen TP kommen noch die +2 TP des Manövers hinzu, für diese gilt die Grenze der natürlichen GS nicht.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;23;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;23;-1.0;GMuH_Sonnenküste;1000;SF Sturmangriff, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;23;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;23;-1.0;GMuH_Sonnenküste;1000;Hiebwaffen, Schwerter, Stangenwaffen, Zweihandhiebwaffen, Zweihandschwerter
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;5.0;23;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;23;-1.0;GMuH_Sonnenküste;1000;25 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;7.0;23;-1.0;GMuH_Sonnenküste;1300;Nervös machen (passiv)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;23;-1.0;GMuH_Sonnenküste;1000;Einige Kämpfer lieben es, ihre Gegner nervös zu ma-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;9.0;23;-1.0;GMuH_Sonnenküste;1000;chen. Wer nervös ist, dem unterlaufen häufiger Fehler,
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;23;-1.0;GMuH_Sonnenküste;1000;und genau das ist das Ziel dieser Fähigkeit, die man häu-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;11.0;23;-1.0;GMuH_Sonnenküste;1000;fig bei Söldnern und Duellanten findet.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;23;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;13.0;23;-1.0;GMuH_Sonnenküste;1000;Durch ständige Provokationen, Gesten, Mimik
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;23;-1.0;GMuH_Sonnenküste;1000;und Gerede kann der Held einen ausgewählten Gegner in Hörreichweite nervös machen. Zu Beginn eines
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;15.0;23;-1.0;GMuH_Sonnenküste;1000;Kampfes legt der Provozierte eine Vergleichsprobe
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;23;-1.0;GMuH_Sonnenküste;1000;auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;17.0;23;-1.0;GMuH_Sonnenküste;1000;Willenskraft (Einschüchtern widerstehen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;23;-1.0;GMuH_Sonnenküste;1000;gegen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;19.0;23;-1.0;GMuH_Sonnenküste;1000;Einschüchtern (Provokation)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;23;-1.0;GMuH_Sonnenküste;1000;des Helden ab. Gelingt die
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;21.0;23;-1.0;GMuH_Sonnenküste;1000;Probe des Helden, wird sein Gegner nervös: Solange der Held 1 freie Aktion zu Beginn einer KR dafür ein
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;23;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;23.0;23;-1.0;GMuH_Sonnenküste;1000;setzt, erhöht sich die Chance auf einen Patzer für den angesprochenen Gegner um 5 % (normalerweise von 20 auf 19-20). Sollten andere Effekte die Patzerwahr
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;23;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;25.0;23;-1.0;GMuH_Sonnenküste;1000;scheinlichkeit ebenfalls beeinflussen, so werden diese mit der Wirkung der Sonderfertigkeit entsprechend verrechnet. Wendet der Held keine freien Aktionen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;23;-1.0;GMuH_Sonnenküste;1000;mehr auf, endet die Wirkung augenblicklich.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;23;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;28.0;23;-1.0;GMuH_Sonnenküste;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;23;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;23;-1.0;GMuH_Sonnenküste;1000;alle
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;23;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;23;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;23;-1.0;GMuH_Sonnenküste;1300;Schilddeckung
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;34.0;23;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;23;-1.0;GMuH_Sonnenküste;1300;
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;36.0;23;-1.0;GMuH_Sonnenküste;1000;Geübte Soldateninnen vermögen aus ihren Schilden ei
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;37.0;23;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;38.0;23;-1.0;GMuH_Sonnenküste;1000;nen kaum zu überwindenden Wall zu formen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;23;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;23;-1.0;GMuH_Sonnenküste;1000;Eine Schildkämpferin mit dieser SF kann zusammen mit einem weiteren Schildkämpfer, der sich ma-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;41.0;23;-1.0;GMuH_Sonnenküste;1000;ximal einen halben Schritt neben ihr befinden darf, eine Schilddeckung aufbauen. Die Schilde müssen in die gleiche Richtung ausgerichtet sein. Alle Kämpfer in der Schilddeckung gelten für Fernkampfangriffe als ein Ziel der nächstkleineren Größenkategorie, also
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;23;-1.0;GMuH_Sonnenküste;1000;statt
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;43.0;23;-1.0;GMuH_Sonnenküste;1000;mittel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;23;-1.0;GMuH_Sonnenküste;1000;als
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;45.0;23;-1.0;GMuH_Sonnenküste;1000;klein
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;46.0;23;-1.0;GMuH_Sonnenküste;1000;. Zudem erhalten alle einen Bonus von +1 auf die Parade mit dem Schild.Solange sich die Kämpfer in der
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;47.0;23;-1.0;GMuH_Sonnenküste;1000;Schilddeckung
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;48.0;23;-1.0;GMuH_Sonnenküste;1000;befin
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;49.0;23;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;50.0;23;-1.0;GMuH_Sonnenküste;1000;den, können sie nicht sprinten (siehe
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;51.0;23;-1.0;GMuH_Sonnenküste;1000;Regelwerk
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;52.0;23;-1.0;GMuH_Sonnenküste;1000;Seite
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;53.0;23;-1.0;GMuH_Sonnenküste;1000;229
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;54.0;23;-1.0;GMuH_Sonnenküste;1000;).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;55.0;23;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;23;-1.0;GMuH_Sonnenküste;1000;passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;57.0;23;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;58.0;23;-1.0;GMuH_Sonnenküste;1000;Schilde
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;59.0;23;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;60.0;23;-1.0;GMuH_Sonnenküste;1000;5 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;61.0;23;-1.0;GMuH_Sonnenküste;1300;Schildstoß
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;62.0;23;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;63.0;23;-1.0;GMuH_Sonnenküste;1300;
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;64.0;23;-1.0;GMuH_Sonnenküste;1000;Ein Schildstoß ermöglicht es dem Angreifer, den Vertei
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;65.0;23;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;66.0;23;-1.0;GMuH_Sonnenküste;1000;diger mehrere Schritt nach hinten zu drängen oder zu
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;67.0;23;-1.0;GMuH_Sonnenküste;1000;Fall zu bringen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;68.0;23;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;69.0;23;-1.0;GMuH_Sonnenküste;1000;Nach einer erfolgreichen und unparierten
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;70.0;23;-1.0;GMuH_Sonnenküste;1000;Schilde
+PDType0Font/PDCIDFontType2, PostScript name: QZSTWH+GentiumBasic;false;false;71.0;23;-1.0;GMuH_Sonnenküste;1000;-AT stolpert der Getroffene 1W3 Schritte zurück. Für den Verteidiger ist eine gelungene Vergleichsprobe
+PDTrueTypeFont MCCVFZ+Andalus;false;false;72.0;23;-1.0;GMuH_Sonnenküste;800;BKBK
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;73.0;23;-1.0;GMuH_Sonnenküste;1000;auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;74.0;23;-1.0;GMuH_Sonnenküste;1000;Körperbeherrschung (Balance)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;75.0;23;-1.0;GMuH_Sonnenküste;1000;gegen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;76.0;23;-1.0;GMuH_Sonnenküste;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;77.0;23;-1.0;GMuH_Sonnenküste;1000;notwendig, um nicht den Status
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;78.0;23;-1.0;GMuH_Sonnenküste;1000;Liegend
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;79.0;23;-1.0;GMuH_Sonnenküste;1000;zu erhalten. Jede Netto-QS des Angreifers treibt zudem den Verteidiger um 1 Schritt zusätzlich nach hinten. Der Verteidiger erhält bei einer unverteidigten Attacke mit dem Schildstoß TP/2 des Schilds als Schaden. Das Manöver lässt sich nur gegen Gegner der Größenkategorie
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;80.0;23;-1.0;GMuH_Sonnenküste;1000;mittel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;81.0;23;-1.0;GMuH_Sonnenküste;1000;oder kleiner einsetzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;82.0;23;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;83.0;23;-1.0;GMuH_Sonnenküste;1000;KK 13, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;84.0;23;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;85.0;23;-1.0;GMuH_Sonnenküste;1000;Schilde
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;86.0;23;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;87.0;23;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;88.0;23;-1.0;GMuH_Sonnenküste;1300;Sprungangriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;89.0;23;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;90.0;23;-1.0;GMuH_Sonnenküste;1300;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;91.0;23;-1.0;GMuH_Sonnenküste;1000;Zwar kann jeder Kämpfer versuchen, mit einem Sprung und vorgehaltener Waffe einen Feind anzugreifen, aber es erfordert eine ganz bestimmte Technik, um einen Sprungangriff mit eleganter Präzision und tödlichem Ausgang anzuwenden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;92.0;23;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;93.0;23;-1.0;GMuH_Sonnenküste;1000;Mit 1 freien Aktion kann ein Spieler vor einer AT eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;94.0;23;-1.0;GMuH_Sonnenküste;1000;Körperbeherrschung (Springen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;95.0;23;-1.0;GMuH_Sonnenküste;1000;ablegen. Der Abenteurer braucht für das Manöver einen Abstand zum Gegner von Mindestens 2 Schritt und kann bis zu GS/2 Schritt auf ihn zuspringen. Jede QS, die der Spieler dabei erzielt, kann er auf AT und TP verteilen. Dabei darf kein Bonus höher als +3 betragen. Ein weiterer Sprungangriff kann erst zwei KR später wieder ausgeführt werden. Der Held muss also eine KR auf dieses Manöver verzichten. Sollte die AT misslingen, steht dem Verteidiger ein Passierschlag zu.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;96.0;23;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;97.0;23;-1.0;GMuH_Sonnenküste;1000;GE 15, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;98.0;23;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;99.0;23;-1.0;GMuH_Sonnenküste;1000;Schwerter, Stangenwaffen
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;100.0;23;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;101.0;23;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;102.0;23;-1.0;GMuH_Sonnenküste;1300;Taktische Befehle
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;103.0;23;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver) Durch die Schulung in Taktik können geübte Kämpfer anderen Befehle erteilen, um sie so schneller und planvoller handeln zu lassen.
+PDTrueTypeFont MCCVFZ+Andalus;false;false;104.0;23;-1.0;GMuH_Sonnenküste;800;BKBK
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;24;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;24;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;24;-1.0;GMuH_Sonnenküste;1000;Der Held kann zu Beginn einer KR eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;4.0;24;-1.0;GMuH_Sonnenküste;1000;Kriegskunst
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;24;-1.0;GMuH_Sonnenküste;1000;ablegen. Das Ablegen dieser Probe kostet 1 Aktion. Bei Gelingen kann er QS/2 seiner Gefährten in Hörweite bestimmen, die in der nächsten KR als Erste handeln können. Sollten zwei oder mehr Kämpfer diese Sonderfertigkeit aufweisen, entscheidet die reguläre Initiative über die Reihenfolge, aber sie sind alle vor den übrigen Kampfteilnehmern an der Reihe. Eine Person, die die Schicksalspunkte-Option
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;6.0;24;-1.0;GMuH_Sonnenküste;1000;Erster
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;24;-1.0;GMuH_Sonnenküste;1000;verwendet, ist dennoch vor allen Kämpfern an der Reihe, die von dieser Sonderfertigkeit betroffen sind.Benutzen mehrere Kämpfer die Schicksalspunkte-Option innerhalb einer KR, hat diese SF eine höhere Priorität zur Bestimmung der Reihenfolge als der Initiative-Basiswert oder der W6-Wurf (siehe
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;8.0;24;-1.0;GMuH_Sonnenküste;1000;Regelwerk
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;24;-1.0;GMuH_Sonnenküste;1000;Seite
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;10.0;24;-1.0;GMuH_Sonnenküste;1000;29, 226
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;24;-1.0;GMuH_Sonnenküste;1000;). Es können nur Gefährten mit einem FW von 8 oder mehr in
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;12.0;24;-1.0;GMuH_Sonnenküste;1000;Kriegskunst
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;24;-1.0;GMuH_Sonnenküste;1000;von den
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;14.0;24;-1.0;GMuH_Sonnenküste;1000;Taktischen Befehlen
+PDType0Font/PDCIDFontType2, PostScript name: OYKJKG+GentiumBasic;false;false;15.0;24;-1.0;GMuH_Sonnenküste;1000;profitieren. Der Held kann selbst nicht davon
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;24;-1.0;GMuH_Sonnenküste;1000;betroffen sein.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;24;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;24;-1.0;GMuH_Sonnenküste;1000;Kriegskunst 8, SF Anführer, passende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;24;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;24;-1.0;GMuH_Sonnenküste;1000;alle
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;24;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;24;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;24;-1.0;GMuH_Sonnenküste;1300;Zweifacher Angriff
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;24;-1.0;GMuH_Sonnenküste;1000;(Spezialmanöver) Einige Reiter beherrschen einen Angriff, der einiges an Geschick voraussetzt, aber dazu führen kann, dass sie
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;25.0;24;-1.0;GMuH_Sonnenküste;1000;mit einer fließenden Bewegung sowohl einen Gegner links wie auch einen Gegner rechts von sich angreifen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;24;-1.0;GMuH_Sonnenküste;1000;können.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;24;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;24;-1.0;GMuH_Sonnenküste;1000;Dieses Spezialmanöver kann nur im berittenen
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;29.0;24;-1.0;GMuH_Sonnenküste;1000;Kampf verwendet werden. Der Held kann Zweifa
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;24;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;31.0;24;-1.0;GMuH_Sonnenküste;1000;cher Angriff einsetzen, wenn sich zwei Gegner in An
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;24;-1.0;GMuH_Sonnenküste;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;33.0;24;-1.0;GMuH_Sonnenküste;1000;griffsdistanz befinden und sich einer links und einer rechts von ihm befindet. Die beiden Angriffe zählen als 1 Aktion. Der Held kann auswählen, welchen der
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;24;-1.0;GMuH_Sonnenküste;1000;beiden Gegner er zuerst angreift. Die erste Attacke
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;35.0;24;-1.0;GMuH_Sonnenküste;1000;ist um –2 und die zweite um –6 erschwert. Wenn die Verteidigung der Gegner misslingt, wird für jeden Gegner einzeln Schaden ausgewürfelt.
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;24;-1.0;GMuH_Sonnenküste;1000;Verteidigt sein erster Gegner den Angriff, hat dies
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;37.0;24;-1.0;GMuH_Sonnenküste;1000;keine Auswirkungen auf den zweiten Angriff. Ein
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;24;-1.0;GMuH_Sonnenküste;1000;Patzer beim ersten Angriff sorgt dafür, dass der
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;39.0;24;-1.0;GMuH_Sonnenküste;1000;zweite Angriff nicht ausgeführt werden kann.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;40.0;24;-1.0;GMuH_Sonnenküste;1000;Erschwernis
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;41.0;24;-1.0;GMuH_Sonnenküste;1000;–2 (erste Attacke), –6 (zweite Attacke)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;42.0;24;-1.0;GMuH_Sonnenküste;1000;Voraussetzungen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;43.0;24;-1.0;GMuH_Sonnenküste;1000;
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;44.0;24;-1.0;GMuH_Sonnenküste;1000;GE 15, SF Berittener Kampf, pas
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;45.0;24;-1.0;GMuH_Sonnenküste;1000;-sende Kampfstil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;46.0;24;-1.0;GMuH_Sonnenküste;1000;Kampftechniken
+PDType0Font/PDCIDFontType2, PostScript name: KQGBGO+GentiumBasic;false;false;47.0;24;-1.0;GMuH_Sonnenküste;1000;Hiebwaffen, Schwerter
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;48.0;24;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;49.0;24;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;50.0;24;-1.0;GMuH_Sonnenküste;800;BK
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;25;-1.0;GMuH_Sonnenküste;1300;Scholar der Kalliomathëa Dorikeikos von Sorabis
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;25;-1.0;GMuH_Sonnenküste;1000;Schülern der gildenlosen Magisterin Kalliomathëa auf Kutaki ist es möglich, ihre Kräfte bei Hellsicht- und Sphärenzauberei besonders effektiv einzusetzen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;25;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;25;-1.0;GMuH_Sonnenküste;1000;Zauber der Merkmale
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;25;-1.0;GMuH_Sonnenküste;1000;Hellsicht
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;25;-1.0;GMuH_Sonnenküste;1000;und
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;25;-1.0;GMuH_Sonnenküste;1000;Sphären
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;25;-1.0;GMuH_Sonnenküste;1000;kosten Schüler Kalliomathëas 1 AsP weniger (die Kosten betragen jedoch mindestens 1 AsP). Diese Fähigkeit ist kompatibel zu weiteren Fähigkeiten, um AsP einzusparen, beispielsweise dem Stabzauber
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;9.0;25;-1.0;GMuH_Sonnenküste;1000;Kraftfokus
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;25;-1.0;GMuH_Sonnenküste;1000;(siehe
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;25;-1.0;GMuH_Sonnenküste;1000;Regelwerk
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;25;-1.0;GMuH_Sonnenküste;1000;Seite
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;25;-1.0;GMuH_Sonnenküste;1000;277
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;25;-1.0;GMuH_Sonnenküste;1000;).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;25;-1.0;GMuH_Sonnenküste;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;25;-1.0;GMuH_Sonnenküste;1000;Kundiger Sphärologe, Machtvolle Verbotene Pforten, Vortrefflicher Hellseher
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;25;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;25;-1.0;GMuH_Sonnenküste;1000;Sonderfertigkeit Tradition (Gildenmagier)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;25;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;25;-1.0;GMuH_Sonnenküste;1000;12 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;21.0;25;-1.0;GMuH_Sonnenküste;1800;Zauberstilsonderfertigkeiten
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;26;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;2.0;26;-1.0;GMuH_Sonnenküste;1300;Kundiger Sphärologe
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;3.0;26;-1.0;GMuH_Sonnenküste;1000;Der Zauberer verfügt über eine einzigartige Begabung auf dem Gebiet der Sphärenzauberei.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;4.0;26;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;5.0;26;-1.0;GMuH_Sonnenküste;1000;Zauber des Merkmals
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;6.0;26;-1.0;GMuH_Sonnenküste;1000;Sphären
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;7.0;26;-1.0;GMuH_Sonnenküste;1000;erhalten bei einer gelungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;8.0;26;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;9.0;26;-1.0;GMuH_Sonnenküste;1000;passender Zauberstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;10.0;26;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;11.0;26;-1.0;GMuH_Sonnenküste;1000;25 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;12.0;26;-1.0;GMuH_Sonnenküste;1300;Machtvolle Verbotene Pforten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;13.0;26;-1.0;GMuH_Sonnenküste;1000;Einige wenige Zauberer sind so sicher darin, die Verbotenen Pforten zu öffnen, um mit ihrer Lebenskraft zu zaubern, dass ihnen fast keine Missgeschicke mehr widerfahren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;14.0;26;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;15.0;26;-1.0;GMuH_Sonnenküste;1000;Wer die Verbotenen Pforten nutzt, dessen Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;16.0;26;-1.0;GMuH_Sonnenküste;1000;Selbstbeherrschung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;26;-1.0;GMuH_Sonnenküste;1000;ist um +1 erleichtert. Es müssen außerdem keine AsP aufgewendet werden, um die Verbotenen Pforten zu aktivieren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;18.0;26;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;19.0;26;-1.0;GMuH_Sonnenküste;1000;SF Verbotene Pforten, passender Zauberstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;20.0;26;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;21.0;26;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: SPCDUY+GentiumBasic-Bold;true;false;22.0;26;-1.0;GMuH_Sonnenküste;1300;Vortrefflicher Hellseher
+PDType0Font/PDCIDFontType2, PostScript name: RQNXGA+GentiumBasic;false;false;23.0;26;-1.0;GMuH_Sonnenküste;1000;Vortreffliche Hellseher können mit ihrer Zauberkraft
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;26;-1.0;GMuH_Sonnenküste;1000;in beinahe jeden beliebigen Geist eindringen, und kaum ein Phänomen bleibt ihnen verschlossen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;26;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;26;-1.0;GMuH_Sonnenküste;1000;Zauber des Merkmals
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;27.0;26;-1.0;GMuH_Sonnenküste;1000;Hellsicht
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;26;-1.0;GMuH_Sonnenküste;1000;erhalten bei einer gelungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;26;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;26;-1.0;GMuH_Sonnenküste;1000;passender Zauberstil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;26;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;26;-1.0;GMuH_Sonnenküste;1000;25 Abenteuerpunkte
+PDTrueTypeFont MCCVFZ+Andalus;false;false;33.0;26;-1.0;GMuH_Sonnenküste;1800;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;27;-1.0;GMuH_Sonnenküste;1300;Anhänger des Güldenen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;27;-1.0;GMuH_Sonnenküste;1000;Die Anhänger des Güldenen sind eine auf Täuschung ausgerichtete Strömung innerhalb des Kults des Namenlosen. Die Geweihten versuchen oft, als getarnte Geweihte anderer Götter Unheil zu verursachen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;27;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;27;-1.0;GMuH_Sonnenküste;1000;Die Anhänger des Güldenen können Liturgien und Zeremonien einer einzigen anderen Kirche nach Wahl bis zu Steigerungsfaktor B erlernen, auch wenn sie nicht die entsprechende Tradition aufweisen. Die Unterschiede zu den Originalliturgien sind so klein, dass selbst Geweihte der unterwanderten Kirche dies nur bei einer um –10 erschwerten Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;27;-1.0;GMuH_Sonnenküste;1000;Götter & Kulte (jeweilige Gottheit)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;27;-1.0;GMuH_Sonnenküste;1000;bemerken.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;7.0;27;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;27;-1.0;GMuH_Sonnenküste;1000;Geteilte Freude, Guter Handel, Missionierung
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;9.0;27;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;27;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Namenloser Kult)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;27;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;27;-1.0;GMuH_Sonnenküste;1000;30 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;27;-1.0;GMuH_Sonnenküste;1300;Freidenker
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;27;-1.0;GMuH_Sonnenküste;1000;Die Freidenker haben eine sehr liberale Weltsicht, die bisweilen an ketzerisches Gedankengut grenzt. Sie sind
+PDType0Font/PDCIDFontType2, PostScript name: OVAYGG+GentiumBasic;false;false;15.0;27;-1.0;GMuH_Sonnenküste;1000;aber auch sehr flexibel in der Nutzung von Liturgien.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;16.0;27;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;17.0;27;-1.0;GMuH_Sonnenküste;1000;Die Freidenker erhalten +1 FP, wenn sie eine Li-
+PDType0Font/PDCIDFontType2, PostScript name: OVAYGG+GentiumBasic;false;false;18.0;27;-1.0;GMuH_Sonnenküste;1000;turgie oder Zeremonie modifizieren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;27;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;27;-1.0;GMuH_Sonnenküste;1000;Aufbegehren, Langanhaltender Segen, Stille Meditation
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;27;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;27;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Hesindekirche)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;27;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;27;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;27;-1.0;GMuH_Sonnenküste;1300;Naaghot-Shaar-Kultisten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;27;-1.0;GMuH_Sonnenküste;1000;Die Naaghot-Shaar-Kultisten haben mannigfaltige Kenntnisse der Dämonenbeschwörung und können die dämonischen Diener des Namenlosen ohne große Schwierigkeiten herbeirufen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;27;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;27;-1.0;GMuH_Sonnenküste;1000;Liturgien und Zeremonien sowie Zaubersprüche und Rituale (sofern der Geweihte AsP verwendet) zur Beschwörung von Dämonen des Namenlosen sind um +2 erleichtert.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;27;-1.0;GMuH_Sonnenküste;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;27;-1.0;GMuH_Sonnenküste;1000;Aufbegehren, Erzwungene Liturgie, Geistkontrolle
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;27;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;27;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Namenloser Kult)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;27;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;27;-1.0;GMuH_Sonnenküste;1000;40 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;27;-1.0;GMuH_Sonnenküste;1300;Pastori
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;27;-1.0;GMuH_Sonnenküste;1000;Der Pastori-Zweig der Hesindekirche versucht, Wissen zu sammeln und gefährliche Quellen dem Zugriff von Unbefugten zu entziehen. Sie
+PDType0Font/PDCIDFontType2, PostScript name: OVAYGG+GentiumBasic;false;false;37.0;27;-1.0;GMuH_Sonnenküste;1000;sind den traditionellen Ansichten der Kirche verpflich
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;27;-1.0;GMuH_Sonnenküste;1000;-tet und sehen darin auch ihre Stärke.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;27;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;27;-1.0;GMuH_Sonnenküste;1000;Wenn eine Liturgie oder Zeremonie nicht durch
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;41.0;27;-1.0;GMuH_Sonnenküste;1000;eine Modifikation verändert wird, erhalten Pastori beim Wirken +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;42.0;27;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;43.0;27;-1.0;GMuH_Sonnenküste;1000;Gebieter der
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;44.0;27;-1.0;GMuH_Sonnenküste;1000;Magie, Geistkontrolle, Stilles Gebet
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;45.0;27;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;46.0;27;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Hesindekirche)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;47.0;27;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;48.0;27;-1.0;GMuH_Sonnenküste;1000;30 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;49.0;27;-1.0;GMuH_Sonnenküste;1300;Satori
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;50.0;27;-1.0;GMuH_Sonnenküste;1000;Der Satori-Zweig der Hesindekirche sammelt Wissen und bemüht sich, es der Öffentlichkeit zugänglich zu machen. Deshalb verwundert es nicht, dass sie auch andere an ihrer göttlichen Macht teilhaben lassen können.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;51.0;27;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: PHIEUE+GentiumBasic;false;false;52.0;27;-1.0;GMuH_Sonnenküste;1000;Mittels einer Berührung können Satori ein Mirakel auf einen anderen Kulturschaffenden wirken, der dann statt des Geweihten von einer Verbesserung seiner Talente profitiert. Als wohlgefällige Talente
+PDTrueTypeFont MCCVFZ+Andalus;false;false;53.0;27;-1.0;GMuH_Sonnenküste;1800;Liturgiestilsonderfertigkeiten
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;28;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;28;-1.0;GMuH_Sonnenküste;1000;gelten jene Talente, die auch bei der Tradition der Hesindegeweihten angegeben sind. Das ausgegebene Karma zählt bei der Feststellung der Entrückung nur für den Geweihten. Statt 4 KaP kostet das Mirakel 8 KaP. Der Einsatz dieser Fähigkeit kostet 1 freie Aktion.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;28;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;28;-1.0;GMuH_Sonnenküste;1000;Gebieter des Wissens, Langanhaltender Segen, Stilles Gebet
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;5.0;28;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;28;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Hesindekirche)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;7.0;28;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;28;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;9.0;28;-1.0;GMuH_Sonnenküste;1300;Stille Wanderer
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;28;-1.0;GMuH_Sonnenküste;1000;Wie ganz gewöhnliche Reisende wirken einige von Aves’ Anhängern. Sie verzichten bewusst auf den Schutz, den ihnen der Status als erkennbarer Geweihter verleihen würde, um die Welt so zu erleben, wie sie sich den meisten Menschen darstellt.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;28;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;28;-1.0;GMuH_Sonnenküste;1000;Stille Wanderer können Gesten und Gebete für ihre Liturgien weglassen, ohne dafür eine Erschwernis zu erleiden. Für Zeremonien ist dies nicht möglich.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;28;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;28;-1.0;GMuH_Sonnenküste;1000;Gebieter der Reise, Stille Andacht, Stilles Gebet
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;28;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;28;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Aveskirche)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;28;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;28;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;28;-1.0;GMuH_Sonnenküste;1300;Zugvögel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;28;-1.0;GMuH_Sonnenküste;1000;Die Anhänger der Zugvögel reisen durch ganz Aventurien und versuchen, auch die Länder jenseits des Ehernen Schwerts oder des Südmeers zu erforschen. Die Zugvögel halten dabei auch ständig Kontakt mit den Geweihten der Eltern des Aves’, sodass es gelegentlich vorkommen kann, dass ein Zugvogel auch über eine phexische oder rahjagefällige Liturgie verfügt.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;21.0;28;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;28;-1.0;GMuH_Sonnenküste;1000;Zugvögel können eine Liturgie oder Zeremonie der Tradition Phexkirche und eine Liturgie oder Zeremonie der Tradition Rahjakirche erlernen und so nutzen, als wäre sie eine Liturgie der eigenen Tradition. In beiden Fällen darf der Steigerungsfaktor maximal C betragen. Der Meister hat das letzte Wort darüber, ob die Liturgie passend und erlaubt ist. Talismane von anderen Kirchen können so jedoch nie gerufen werden.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;28;-1.0;GMuH_Sonnenküste;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;28;-1.0;GMuH_Sonnenküste;1000;Gebieter der Reise, Geteilte Freude, Verbesserte Fokussierung
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;28;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;28;-1.0;GMuH_Sonnenküste;1000;SF Tradition (Aveskirche)
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;28;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;28;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;29;-1.0;GMuH_Sonnenküste;1300;Aufbegehren
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;29;-1.0;GMuH_Sonnenküste;1000;Der Geweihte ist äußerst geschickt darin, Menschen für sich und die Ideale seiner Gottheit zu begeistern, sofern es darum geht, sie beispielsweise gegen die alte Ordnung oder Ungerechtigkeit aufbegehren zu lassen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;3.0;29;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;29;-1.0;GMuH_Sonnenküste;1000;Bei einer Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;29;-1.0;GMuH_Sonnenküste;1000;Bekehren & Überzeugen (Diskussionsführung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;29;-1.0;GMuH_Sonnenküste;1000;oder öffentliche Rede) sowie Liturgien und Predigten, die dazu dienen, Kulturschaffende
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;29;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;29;-1.0;GMuH_Sonnenküste;1000;aufzuwiegeln oder sie für ketzerische Ideen zu begeistern,
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;9.0;29;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;29;-1.0;GMuH_Sonnenküste;1000;erhält der Geweihte eine Erleichterung von +1.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;29;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;29;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;29;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;29;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;29;-1.0;GMuH_Sonnenküste;1300;Erzwungene Liturgie
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;29;-1.0;GMuH_Sonnenküste;1000;Durch seine schiere Willenskraft und durch ein intuitives Verständnis des Willens der Gottheit kann der Geweihte Liturgien erzwingen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;29;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;18.0;29;-1.0;GMuH_Sonnenküste;1000;Wenn der Geweihte die Liturgiemodifikation
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;19.0;29;-1.0;GMuH_Sonnenküste;1000;Erzwingen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;29;-1.0;GMuH_Sonnenküste;1000;einsetzt, so erhält er bei Gelingen der Liturgie
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;21.0;29;-1.0;GMuH_Sonnenküste;1000;+1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;22.0;29;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;23.0;29;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;24.0;29;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;25.0;29;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;26.0;29;-1.0;GMuH_Sonnenküste;1300;Gebieter des (Aspekts)
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;27.0;29;-1.0;GMuH_Sonnenküste;1000;Diese Sonderfertigkeit erlaubt einem Geweihten, einen Aspekt seiner Gottheit besonders gut zu meistern.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;28.0;29;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;29.0;29;-1.0;GMuH_Sonnenküste;1000;Liturgien und Zeremonien eines bestimmten As
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;30.0;29;-1.0;GMuH_Sonnenküste;1000;-pekts seiner Tradition seiner Tradition erhalten bei einer gelungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;29;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;32.0;29;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;29;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;34.0;29;-1.0;GMuH_Sonnenküste;1000;25 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;29;-1.0;GMuH_Sonnenküste;1300;Geistkontrolle
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;36.0;29;-1.0;GMuH_Sonnenküste;1000;Geweihte sind mannigfaltigen Versuchungen und schädlichen Einflüssen ausgesetzt. Durch einen starken Geist können sie sich vor vielen gefährlichen Beeinflussungen schützen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;29;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;38.0;29;-1.0;GMuH_Sonnenküste;1000;Ist der Geweihte von einer Liturgie oder einem Zauber des Merkmals
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;39.0;29;-1.0;GMuH_Sonnenküste;1000;Einfluss
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;40.0;29;-1.0;GMuH_Sonnenküste;1000;betroffen, der Zustandsstufen von
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;41.0;29;-1.0;GMuH_Sonnenküste;1000;Betäubung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;29;-1.0;GMuH_Sonnenküste;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;43.0;29;-1.0;GMuH_Sonnenküste;1000;Furcht
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;29;-1.0;GMuH_Sonnenküste;1000;,
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;45.0;29;-1.0;GMuH_Sonnenküste;1000;Schmerz
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;29;-1.0;GMuH_Sonnenküste;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;47.0;29;-1.0;GMuH_Sonnenküste;1000;Verwirrung
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;48.0;29;-1.0;GMuH_Sonnenküste;1000;verursacht, so kann er mit einer Verteidigung eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;49.0;29;-1.0;GMuH_Sonnenküste;1000;Wil-
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;50.0;29;-1.0;GMuH_Sonnenküste;1000;lenskraft
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;51.0;29;-1.0;GMuH_Sonnenküste;1000;ablegen. Gelingt die Probe, kann er die Wirkung des Zaubers für QS/2 KR unterdrücken. Die Wirkung der Liturgie oder des Zaubers setzt wieder ein, sobald der Geweihte laut Initiativeergebnis an der Reihe ist. Die KR, in der er die Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;52.0;29;-1.0;GMuH_Sonnenküste;1000;Willenskraft
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;53.0;29;-1.0;GMuH_Sonnenküste;1000;
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;54.0;29;-1.0;GMuH_Sonnenküste;1000;ablegt, zählt dabei als 1. KR der Unterdrückung.Da die Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;55.0;29;-1.0;GMuH_Sonnenküste;1000;Willenskraft
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;56.0;29;-1.0;GMuH_Sonnenküste;1000;als Verteidigung eingesetzt wird, ist diese möglicherweise erschwert, und ihr Einsatz erschwert auch weitere Verteidigungen wie üblich (siehe
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;57.0;29;-1.0;GMuH_Sonnenküste;1000;Regelwerk
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;58.0;29;-1.0;GMuH_Sonnenküste;1000;Seite
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;59.0;29;-1.0;GMuH_Sonnenküste;1000;232
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;60.0;29;-1.0;GMuH_Sonnenküste;1000;).
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;61.0;29;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;62.0;29;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;63.0;29;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;64.0;29;-1.0;GMuH_Sonnenküste;1000;25 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;65.0;29;-1.0;GMuH_Sonnenküste;1300;Geteilte Freude
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;66.0;29;-1.0;GMuH_Sonnenküste;1000;Obwohl fast ausnahmslos nur Geweihte Entrückung verspüren können, gibt es bestimmte Techniken einiger Kulte, um dieses wohltuende Gefühl auch auf andere Personen zu übertragen. Entrückung ist zwar auch mit geistiger Abwesenheit verbunden, aber das Gefühl ist für Sterbliche angenehm.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;67.0;29;-1.0;GMuH_Sonnenküste;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;68.0;29;-1.0;GMuH_Sonnenküste;1000;Die Geweihte kann eine oder zwei Stufen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;69.0;29;-1.0;GMuH_Sonnenküste;1000;Entrü-
+PDType0Font/PDCIDFontType2, PostScript name: LLSWGM+GentiumBasic-Italic;false;true;70.0;29;-1.0;GMuH_Sonnenküste;1000;ckung
+PDType0Font/PDCIDFontType2, PostScript name: NORIII+GentiumBasic;false;false;71.0;29;-1.0;GMuH_Sonnenküste;1000;mittels einer Berührung und 1 Aktion von sich auf jemand anderen übertragen. Sie muss die entsprechende Menge an Stufen, die sie übertragen möchte, auch selbst aufweisen. Die andere Person muss ein
+PDTrueTypeFont MCCVFZ+Andalus;false;false;72.0;29;-1.0;GMuH_Sonnenküste;1800;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont MCCVFZ+Andalus;false;false;1.0;30;-1.0;GMuH_Sonnenküste;1200;Glaube, Macht & Heldenmut - Die Sonnenküste
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;30;-1.0;GMuH_Sonnenküste;1000;Kulturschaffender sein, allerdings darf sie nicht über karmale Kräfte verfügen. Als wohlgefällige Talente gelten die Talente der Tradition der Geweihten, die
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;3.0;30;-1.0;GMuH_Sonnenküste;1000;Geteilte Freude
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;30;-1.0;GMuH_Sonnenküste;1000;einsetzt. Der Kulturschaffende kann während der Wirkung keine weitere
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;30;-1.0;GMuH_Sonnenküste;1000;Entrückung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;30;-1.0;GMuH_Sonnenküste;1000;erhalten. Die Geweihte behält selbst ihre Stufen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;7.0;30;-1.0;GMuH_Sonnenküste;1000;Entrückung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;30;-1.0;GMuH_Sonnenküste;1000;, kopiert sie aber gewissermaßen auf das Ziel der Liturgie. Dessen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;9.0;30;-1.0;GMuH_Sonnenküste;1000;Entrückung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;30;-1.0;GMuH_Sonnenküste;1000;hält 1 Stunde an. Bei der Geweihten verursacht der Einsatz dieser Sonderfertigkeit 1 Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;11.0;30;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;30;-1.0;GMuH_Sonnenküste;1000;.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;30;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;30;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;30;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;30;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;17.0;30;-1.0;GMuH_Sonnenküste;1300;Guter Handel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;30;-1.0;GMuH_Sonnenküste;1000;Einige Kulte scheinen ihren Geweihten ein geradezu göttliches Gespür für das Feilschen vermitteln zu können. Sie sind dadurch bei Verhandlungen um den Preis gegenüber anderen Personen im Vorteil.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;19.0;30;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;30;-1.0;GMuH_Sonnenküste;1000;Wer über diese Sonderfertigkeit verfügt, bekommt bei einer gelungenen Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;21.0;30;-1.0;GMuH_Sonnenküste;1000;Handel (Feilschen)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;30;-1.0;GMuH_Sonnenküste;1000;einen festen Bonus von +20 % und kann den Preis bis maximal 80 % zu seinen Gunsten verschieben. Der Einsatz dieser Sonderfertigkeit verursacht 1 Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;23.0;30;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;30;-1.0;GMuH_Sonnenküste;1000;.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;30;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;30;-1.0;GMuH_Sonnenküste;1000;passender Liturgiestil
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;30;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;30;-1.0;GMuH_Sonnenküste;1000;10 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;30;-1.0;GMuH_Sonnenküste;1300;Langanhaltender Segen
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;30;-1.0;GMuH_Sonnenküste;1000;Manchmal kann es für einen Geweihten wichtig sein, dass seine Liturgien deutlich länger wirken, als sie dies traditionell tun. Durch diese Sonderfertigkeit erhöht sich die Wirkungsdauer deutlich.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;31.0;30;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;30;-1.0;GMuH_Sonnenküste;1000;Gewirkte Liturgien oder Zeremonien halten 50 % länger, kosten aber auch 150 % der ursprünglichen KaP-Kosten.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;33.0;30;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;30;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;35.0;30;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;30;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;30;-1.0;GMuH_Sonnenküste;1300;Missionierung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;30;-1.0;GMuH_Sonnenküste;1000;Die Missionierung, also die Verbreitung des Glaubens, ist eine Fähigkeit, über die praktisch jeder Geweihte verfügt, aber einige Kulte und Glaubensströmungen sind besonders geschickt darin, andere für ihren Gott zu begeistern.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;30;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;30;-1.0;GMuH_Sonnenküste;1000;Der Geweihte kann Anhänger für seinen Kult rekrutieren. Er kann pro vollem Monat eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;41.0;30;-1.0;GMuH_Sonnenküste;1000;Bekehren & Überzeugen (Einzelgespräch
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;30;-1.0;GMuH_Sonnenküste;1000;oder
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;43.0;30;-1.0;GMuH_Sonnenküste;1000;öffentliche Rede)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;30;-1.0;GMuH_Sonnenküste;1000;ablegen und QS/2 Gläubige den Prinzipien
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;45.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;30;-1.0;GMuH_Sonnenküste;1000;seiner Gottheit gewogen machen. Maximal
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;47.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;48.0;30;-1.0;GMuH_Sonnenküste;1000;kann er so CH x 2 Gläubige rekrutieren. Die genaue
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;49.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;50.0;30;-1.0;GMuH_Sonnenküste;1000;Anzahl muss der Meister festlegen und sie abhängig
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;51.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;52.0;30;-1.0;GMuH_Sonnenküste;1000;von dem Ort und der Bevölkerung machen (in einem
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;53.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;54.0;30;-1.0;GMuH_Sonnenküste;1000;kleinen Dorf wird eine Praiosgeweihte nur wenige
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;55.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;30;-1.0;GMuH_Sonnenküste;1000;Personen missionieren können, ein Perainegeweihter
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;57.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;58.0;30;-1.0;GMuH_Sonnenküste;1000;hingegen deutlich mehr). Die Gläubigen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;59.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;60.0;30;-1.0;GMuH_Sonnenküste;1000;kommen regelmäßig zu den Predigten des Geweihten,
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;61.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;62.0;30;-1.0;GMuH_Sonnenküste;1000;spenden Opfergaben (etwa im Wert von Silbertalern
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;63.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;64.0;30;-1.0;GMuH_Sonnenküste;1000;gleich der Anzahl der Gläubigen im Monat)
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;65.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;66.0;30;-1.0;GMuH_Sonnenküste;1000;und sind bereit, dem Geweihten kleine Dienste im
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;67.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;68.0;30;-1.0;GMuH_Sonnenküste;1000;Namen der Gottheit zu leisten. Die Anhänger sind
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;69.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;70.0;30;-1.0;GMuH_Sonnenküste;1000;ortsgebunden, deshalb muss der Geweihter erneut
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;71.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;72.0;30;-1.0;GMuH_Sonnenküste;1000;mit der Missionierung beginnen, sollte er den Ort
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;73.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;74.0;30;-1.0;GMuH_Sonnenküste;1000;wechseln müssen.
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;75.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;76.0;30;-1.0;GMuH_Sonnenküste;1000;Die Gläubigen sind aber nicht mit den Nachteilen
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;77.0;30;-1.0;GMuH_Sonnenküste;1000;Prinzipientreue
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;78.0;30;-1.0;GMuH_Sonnenküste;1000;oder
+PDType0Font/PDCIDFontType2, PostScript name: MESKUK+GentiumBasic-Italic;false;true;79.0;30;-1.0;GMuH_Sonnenküste;1000;Verpflichtung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;80.0;30;-1.0;GMuH_Sonnenküste;1000;ausgestattet und
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;81.0;30;-1.0;GMuH_Sonnenküste;1000;
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;82.0;30;-1.0;GMuH_Sonnenküste;1000;dem Geweihten auch nicht hörig.Je nach Umgebung kann der Meister die Anzahl der
+PDType0Font/PDCIDFontType2, PostScript name: OHWWWG+GentiumBasic;false;false;83.0;30;-1.0;GMuH_Sonnenküste;1000;potenziellen Gläubigen ändern oder die Probe modifi
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;84.0;30;-1.0;GMuH_Sonnenküste;1000;-zieren, und er hat allgemein das letzte Wort darüber, was die Gläubigen bereit sind, für den Geweihten zu tun. Auch ob es überhaupt möglich ist, bestimmten Personen den Glauben des Geweihten nahezubringen, entscheidet der Meister. Helden, aber auch Personen, die andere Götter als der Geweihte verehren, sind durch Missionierung nicht einfach zu überzeugen. Entweder ist dies überhaupt nicht möglich, oder aber es erfordert erschwerte Proben oder einen deutlich längeren Zeitraum.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;85.0;30;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;86.0;30;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;87.0;30;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;88.0;30;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;89.0;30;-1.0;GMuH_Sonnenküste;1300;Stille Andacht
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;90.0;30;-1.0;GMuH_Sonnenküste;1000;Auch Geweihte leiden gelegentlich unter den Aus-
+PDType0Font/PDCIDFontType2, PostScript name: OHWWWG+GentiumBasic;false;false;91.0;30;-1.0;GMuH_Sonnenküste;1000;wirkungen bestimmter Einflüsse, die sie in ihrer
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;1.0;31;-1.0;GMuH_Sonnenküste;1000;Neuer Zustand Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;2.0;31;-1.0;GMuH_Sonnenküste;1000;Bei der
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;3.0;31;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;4.0;31;-1.0;GMuH_Sonnenküste;1000;handelt es sich um eine Form der leichten Entrückung. Sie tritt meist bei der Nutzung von Zeremonialgegenständen oder dem Einsatz von einigen Sonderfertigkeiten auf.
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;5.0;31;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;6.0;31;-1.0;GMuH_Sonnenküste;1000;baut sich alle 24 Stunden um 1 Stufe ab.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;7.0;31;-1.0;GMuH_Sonnenküste;1000;TranceTrancestufenAuswirkungStufe I
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;8.0;31;-1.0;GMuH_Sonnenküste;1000;Der Held spürt die Nähe seines Gottes, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;9.0;31;-1.0;GMuH_Sonnenküste;1000;Stufe II
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;10.0;31;-1.0;GMuH_Sonnenküste;1000;Alle Proben, außer auf Liturgien und wohlgefällige Talente, sind um –2 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;11.0;31;-1.0;GMuH_Sonnenküste;1000;Stufe III
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;12.0;31;-1.0;GMuH_Sonnenküste;1000;Alle Proben (auch Liturgien und wohlgefällige Talente) sind um –3 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;13.0;31;-1.0;GMuH_Sonnenküste;1000;Stufe IV
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;14.0;31;-1.0;GMuH_Sonnenküste;1000;Handlungsunfähig<br> Eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.Beweglichkeit stören. Durch eine stille Andacht können sie diese aber schnell wieder abbauen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;15.0;31;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;16.0;31;-1.0;GMuH_Sonnenküste;1000;Der Geweihte ist dazu in der Lage, durch eine Meditation bei sich selbst Zustandsstufen von
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;17.0;31;-1.0;GMuH_Sonnenküste;1000;Paralyse
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;18.0;31;-1.0;GMuH_Sonnenküste;1000;abzubauen. Der Spieler des Geweihten legt eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;19.0;31;-1.0;GMuH_Sonnenküste;1000;Selbstbeherrschung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;20.0;31;-1.0;GMuH_Sonnenküste;1000;ab. Bei Gelingen können QS/2 Stufen abgebaut werden. Pro vorhandener Zustandsstufe muss der Geweihte 1 Minute meditieren. Der Einsatz dieser Sonderfertigkeit verursacht 1 Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;21.0;31;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;22.0;31;-1.0;GMuH_Sonnenküste;1000;.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;23.0;31;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;24.0;31;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;25.0;31;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;26.0;31;-1.0;GMuH_Sonnenküste;1000;12 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;27.0;31;-1.0;GMuH_Sonnenküste;1300;Stille Meditation
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;28.0;31;-1.0;GMuH_Sonnenküste;1000;Störungen ihrer Konzentration können Geweihte durch eine stille Meditation wieder zurückerlangen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;29.0;31;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;30.0;31;-1.0;GMuH_Sonnenküste;1000;Der Geweihte ist dazu in der Lage, durch eine Meditation bei sich selbst Zustandsstufen von
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;31.0;31;-1.0;GMuH_Sonnenküste;1000;Betäubung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;32.0;31;-1.0;GMuH_Sonnenküste;1000;abzubauen. Der Spieler des Geweihten legt eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;33.0;31;-1.0;GMuH_Sonnenküste;1000;Selbstbeherrschung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;34.0;31;-1.0;GMuH_Sonnenküste;1000;ab. Bei Gelingen können QS/2 Stufen abgebaut werden. Pro vorhandener Zustandsstufe muss der Geweihte 1 Minute meditieren. Der Einsatz dieser Sonderfertigkeit verursacht 1 Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;35.0;31;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;36.0;31;-1.0;GMuH_Sonnenküste;1000;.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;37.0;31;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;38.0;31;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;39.0;31;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;40.0;31;-1.0;GMuH_Sonnenküste;1000;15 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;41.0;31;-1.0;GMuH_Sonnenküste;1300;Stilles Gebet
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;42.0;31;-1.0;GMuH_Sonnenküste;1000;Um geistige Umnachtung oder Benebelungen durch Rauschmittel wieder abzubauen, kann sich ein Geweihter in ein stilles Gebet vertiefen.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;43.0;31;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;44.0;31;-1.0;GMuH_Sonnenküste;1000;Der Geweihte ist dazu in der Lage, durch eine Meditation bei sich selbst Zustandsstufen von
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;45.0;31;-1.0;GMuH_Sonnenküste;1000;Verwirrung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;46.0;31;-1.0;GMuH_Sonnenküste;1000;abzubauen. Der Spieler des Geweihten legt eine Probe auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;47.0;31;-1.0;GMuH_Sonnenküste;1000;Selbstbeherrschung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;48.0;31;-1.0;GMuH_Sonnenküste;1000;ab. Bei Gelingen können QS/2 Stufen abgebaut werden. Pro vorhandener Zustandsstufe muss der Geweihte 1 Minute meditieren. Der Einsatz dieser Sonderfertigkeit verursacht 1 Stufe
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;49.0;31;-1.0;GMuH_Sonnenküste;1000;Trance
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;50.0;31;-1.0;GMuH_Sonnenküste;1000;.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;51.0;31;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;52.0;31;-1.0;GMuH_Sonnenküste;1000;passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;53.0;31;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;54.0;31;-1.0;GMuH_Sonnenküste;1000;20 Abenteuerpunkte
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;55.0;31;-1.0;GMuH_Sonnenküste;1300;Verbesserte Fokussierung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;56.0;31;-1.0;GMuH_Sonnenküste;1000;Geweihte müssen sich während des Wirkens ihrer Liturgien oft mit Störungen auseinandersetzen. Ein ruhiger Geist ist dabei hilfreich, die Konzentration nicht zu verlieren.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;57.0;31;-1.0;GMuH_Sonnenküste;1000;Regel
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;58.0;31;-1.0;GMuH_Sonnenküste;1000;Wie bei der Sonderfertigkeit
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;59.0;31;-1.0;GMuH_Sonnenküste;1000;Fokussierung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;60.0;31;-1.0;GMuH_Sonnenküste;1000;sind Proben auf
+PDTrueTypeFont IPVVAH+GentiumBasic-Italic;false;true;61.0;31;-1.0;GMuH_Sonnenküste;1000;Selbstbeherrschung (Störungen ignorieren)
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;62.0;31;-1.0;GMuH_Sonnenküste;1000;erleichtert, wenn der Held in seiner Konzentration beim Wirken von Liturgien gestört wird. Besitzt er diese verstärkte Variante, steigt die Erleichterung jedoch um 2 weitere Punkte auf insgesamt +3.
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;63.0;31;-1.0;GMuH_Sonnenküste;1000;Voraussetzung
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;64.0;31;-1.0;GMuH_Sonnenküste;1000;SF Fokussierung, passende Liturgiestil-SF
+PDTrueTypeFont ZSCKJZ+GentiumBasic-Bold;true;false;65.0;31;-1.0;GMuH_Sonnenküste;1000;AP-Wert
+PDTrueTypeFont YTNEVB+GentiumBasic;false;false;66.0;31;-1.0;GMuH_Sonnenküste;1000;8 Abenteuerpunkte

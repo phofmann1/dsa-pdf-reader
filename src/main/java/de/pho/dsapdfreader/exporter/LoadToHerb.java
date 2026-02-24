@@ -66,7 +66,7 @@ public class LoadToHerb {
     herb.bestimmungsschwierigkeit = Integer.valueOf(cleanupNumber(raw.bestimmungsschwierigkeit));
     herb.anwendungen = extractAnwendungen(raw.anwendungen);
     herb.effekteRoh = extractEffekteRoh(raw.wirkung);
-    List<Integer> prices = extractPrices(raw.preis);
+    List<Double> prices = extractPrices(raw.preis);
 
     if (!prices.isEmpty()) {
       herb.preisRoh = new Price();
@@ -236,13 +236,13 @@ public class LoadToHerb {
     return result;
   }
 
-  private static List<Integer> extractPrices(String text) {
+  private static List<Double> extractPrices(String text) {
     // Alle Zahlen im Text extrahieren
     String[] parts = text.split("\\D+"); // trennt an allen Nicht-Ziffern
-    List<Integer> numbers = new ArrayList<>();
+    List<Double> numbers = new ArrayList<>();
     for (String p : parts) {
       if (!p.isEmpty()) {
-        numbers.add(Integer.parseInt(p));
+        numbers.add(Double.parseDouble(p));
       }
     }
 

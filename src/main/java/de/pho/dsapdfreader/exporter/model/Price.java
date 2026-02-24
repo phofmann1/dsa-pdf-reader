@@ -3,9 +3,9 @@ package de.pho.dsapdfreader.exporter.model;
 import de.pho.dsapdfreader.exporter.model.enums.Unit;
 
 public class Price {
-  public double priceInSilver;
+  public Double priceInSilver;
   public Unit perUnit;
-  public double minPriceInSilver;
-  public double maxPriceInSilver;
+  public Double minPriceInSilver;
+  public Double maxPriceInSilver;
   public boolean isPricePerLevel;
 }

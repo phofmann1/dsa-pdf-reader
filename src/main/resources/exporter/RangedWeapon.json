@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Fledermaus",
+    "key": 164,
+    "combatSkillKey" : 19,
+    "publication" : 60,
+    "weight" : 0.5,
+    "size" : 120.0,
+    "price" : {
+      "priceInSilver" : 10.0,
+      "minPriceInSilver" : 0.0,
+      "maxPriceInSilver" : 0.0,
+      "isPricePerLevel" : false
+    },
+    "isImprovised" : false,
+    "distanceShort" : 5,
+    "distanceMedium" : 10,
+    "distanceLong" : 20,
+    "loadingTime" : 2,
+    "loadingTimeMagazin" : -1,
+    "magazinSize" : 1,
+    "equipmentCategoryKey" : 25
+ },
+  {
+    "key": 167,
+    "name": "Granatapfel",
+    "combatSkillKey" : 20,
+    "publication" : 60,
+    "weight" : 1,
+    "size" : 15.0,
+    "price" : {
+      "priceInSilver" : 120.0,
+      "minPriceInSilver" : 0.0,
+      "maxPriceInSilver" : 0.0,
+      "isPricePerLevel" : false
+    },
+    "isImprovised" : false,
+    "distanceShort" : 2,
+    "distanceMedium" : 4,
+    "distanceLong" : 8,
+    "loadingTime" : 2,
+    "loadingTimeMagazin" : -1,
+    "magazinSize" : 1,
+    "equipmentCategoryKey" : 25
+  }
+]

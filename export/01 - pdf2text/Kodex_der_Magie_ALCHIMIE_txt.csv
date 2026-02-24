@@ -1,0 +1,543 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;385;-1.0;Kodex_der_Magie;1200;Anhang
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;385;-1.0;Kodex_der_Magie;1300;Trunk der ruhigen Hand
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;385;-1.0;Kodex_der_Magie;1000;Der bei Grabräubern wie Einbrechern äußerst beliebte und deswegen von vielen Alchimisten hergestellte Trunk der ruhigen Hand ist eine Variante des Fingerfertigkeitselixiers. Der Trunk verschafft bei feinmotorischen Arbeiten, wie dem Knacken eines Schlosses oder dem Entschärfen einer Falle, eine extrem ruhige Hand.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;385;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;385;-1.0;Kodex_der_Magie;1000;Atmon, Finage, Finger eines Diebes, rechte Vorderpfote vom Feh, reiner Alkohol, Schwanz eines Faultiers, zerhauener Topas
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;385;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;385;-1.0;Kodex_der_Magie;1000;20 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;385;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;385;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;385;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;385;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;385;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;385;-1.0;Kodex_der_Magie;1000;1: Die erste Teilprobe auf FF bei
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;14.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;385;-1.0;Kodex_der_Magie;1000;ist um 1 erleichtert. Die Wirkung hält 15 Minuten an.2: Beide Teilproben auf FF bei
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;16.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;385;-1.0;Kodex_der_Magie;1000;sind um 1 erleichtert. Die Wirkung hält 30 Minuten an.3: Beide Teilproben auf FF bei
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;385;-1.0;Kodex_der_Magie;1000;sind um 1 erleichtert. Die Wirkung hält 1 Stunde an4: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;385;-1.0;Kodex_der_Magie;1000;sind um 1 erleichtert. Die Wirkung hält 2 Stunden an.5: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;22.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;385;-1.0;Kodex_der_Magie;1000;sind um 1 erleichtert.
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;24.0;385;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;385;-1.0;Kodex_der_Magie;1000;Die Wirkung hält 4 Stunden an.6: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;26.0;385;-1.0;Kodex_der_Magie;1000;Schlösserknacken
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;385;-1.0;Kodex_der_Magie;1000;sind um 1 erleichtert.
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;28.0;385;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;385;-1.0;Kodex_der_Magie;1000;Die Wirkung hält 8 Stunden an.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;30.0;385;-1.0;Kodex_der_Magie;1300;Alchimistensäure
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;385;-1.0;Kodex_der_Magie;1000;Alchimistensäure besteht aus einer Mischung verschiedener Säuren und kann sowohl Objekte als auch Lebewesen schädigen. Gegen Lebewesen gelten die Regeln für Feuer- und Säureschaden (siehe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;385;-1.0;Kodex_der_Magie;1000;Regelwerk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;385;-1.0;Kodex_der_Magie;1000;Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;385;-1.0;Kodex_der_Magie;1000;341
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;385;-1.0;Kodex_der_Magie;1000;).
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;385;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;385;-1.0;Kodex_der_Magie;1000;Die Säure richtet 1W3 Punkte Strukturschaden/SP pro KR an. Ist sie in ein dafür vorgesehenes Gefäß gefüllt und soll auf jemanden geworfen werden, ist dazu eine Probe auf Wurfwaffen notwendig (Reichweite 2/4/8). Dem Gefäß kann man ausweichen oder es mit einer Schild-PA abwehren. Bei einem Schild richtet die Säure Strukturschaden an. Die Säure ist extrem schwer zu löschen: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;38.0;385;-1.0;Kodex_der_Magie;1000;Körperbeherrschung
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;385;-1.0;Kodex_der_Magie;1000;sind um 2 erschwert.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;40.0;385;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;385;-1.0;Kodex_der_Magie;1000;Orazal, Quallen, Seifenreste, Schweiß einer Kröte, Splitter einer scharlatanischen Zauberkugel, verschiedene, mindere Säuren
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;385;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;43.0;385;-1.0;Kodex_der_Magie;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;44.0;385;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;385;-1.0;Kodex_der_Magie;1000;alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;46.0;385;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;385;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;48.0;385;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;385;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;385;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;385;-1.0;Kodex_der_Magie;1000;3 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;385;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;385;-1.0;Kodex_der_Magie;1000;1: Die Säure wirkt 1W3 KR.2: Die Säure wirkt 1W6 KR.3: Die Säure wirkt 1W6+2 KR.4: Die Säure wirkt 1W6+4 KR.5: Die Säure wirkt 1W6+6 KR.6: Die Säure wirkt 1W6+8 KR.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;54.0;385;-1.0;Kodex_der_Magie;1300;Antidot
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;385;-1.0;Kodex_der_Magie;1000;Das Antidot oder Gegengift wirkt gegen die meisten schwächeren Gifte, wie sie beispielsweise Schlangen oder Skorpione verwenden, um ihre Beute zu lähmenund zu töten. Sehr starke, meist alchimistische Gifte, können hiermit jedoch nicht aufgehoben werden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;56.0;385;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;385;-1.0;Kodex_der_Magie;1000;Alicorn, Belmartblätter, geharzter Wein, Giftzahn einer Sandviper, Menchalsaft, Schwarzer Lotus, Storchen- oder Ibiseier, Tulmadron, Turmalin, Zinnober
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;58.0;385;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;385;-1.0;Kodex_der_Magie;1000;40 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;60.0;385;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;385;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;385;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;385;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;64.0;385;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;385;-1.0;Kodex_der_Magie;1000;1: Hebt Gifte bis zu einer Stufe von 1 auf.2: Hebt Gifte bis zu einer Stufe von 2 auf.3: Hebt Gifte bis zu einer Stufe von 3 auf.4: Hebt Gifte bis zu einer Stufe von 4 auf.5: Hebt Gifte bis zu einer Stufe von 5 auf.6: Hebt Gifte bis zu einer Stufe von 6 auf.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;385;-1.0;Kodex_der_Magie;1300;Angstgift
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;385;-1.0;Kodex_der_Magie;1000;Angstgift ist ein alchimistisch hergestelltes Gift, das den Regeln für Gift folgt.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;68.0;385;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDType0Font/PDCIDFontType2, PostScript name: XOXDSO+GentiumBasic;false;false;69.0;385;-1.0;Kodex_der_Magie;1000;Alraune, Bärenfett, Haifisch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;385;-1.0;Kodex_der_Magie;1000;-zähne, Hasenohren, Höllenkraut, Speichel eines Berserkers, Staub aus einer Gruft, Vitriol
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;385;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;72.0;385;-1.0;Kodex_der_Magie;1000;60 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;73.0;385;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;74.0;385;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;75.0;385;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;76.0;385;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;77.0;385;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;78.0;385;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;79.0;385;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;80.0;385;-1.0;Kodex_der_Magie;1000;4 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;81.0;385;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;82.0;385;-1.0;Kodex_der_Magie;1000;Die Giftstufe entspricht der QS.
+PDTrueTypeFont NRVBUS+Andalus;false;false;83.0;385;-1.0;Kodex_der_Magie;1800;Alchimica
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;84.0;385;-1.0;Kodex_der_Magie;1000;Angstgift
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;85.0;385;-1.0;Kodex_der_Magie;1000;Wie der Name bereits sagt, löst dieses Gift gro
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;86.0;385;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;87.0;385;-1.0;Kodex_der_Magie;1000;ße Panik bei demjenigen aus, der mit einer ver
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;88.0;385;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;89.0;385;-1.0;Kodex_der_Magie;1000;gifteten Waffe getroffen wird. Die Wirkung des Angstgifts ist dabei allerdings nicht kumulativ. Wer durch das Gift Zustandsstufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;90.0;385;-1.0;Kodex_der_Magie;1000;Furcht
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;91.0;385;-1.0;Kodex_der_Magie;1000;erlitten hat, kann erst wieder am Ende der Wirkungsdau
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;92.0;385;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;93.0;385;-1.0;Kodex_der_Magie;1000;er davon betroffen sein.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;94.0;385;-1.0;Kodex_der_Magie;1000;Stufe
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;95.0;385;-1.0;Kodex_der_Magie;1000;QS
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;96.0;385;-1.0;Kodex_der_Magie;1000;Art
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;97.0;385;-1.0;Kodex_der_Magie;1000;Waffengift, alchimistisch
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;98.0;385;-1.0;Kodex_der_Magie;1000;Widerstand
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;99.0;385;-1.0;Kodex_der_Magie;1000;Seelenkraft
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;100.0;385;-1.0;Kodex_der_Magie;1000;Wirkung
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;101.0;385;-1.0;Kodex_der_Magie;1000;2 Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;102.0;385;-1.0;Kodex_der_Magie;1000;Furcht
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;103.0;385;-1.0;Kodex_der_Magie;1000;/ 1 Stufe
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;104.0;385;-1.0;Kodex_der_Magie;1000;Furcht
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;105.0;385;-1.0;Kodex_der_Magie;1000;Beginn
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;106.0;385;-1.0;Kodex_der_Magie;1000;sofort
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;107.0;385;-1.0;Kodex_der_Magie;1000;Dauer
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;108.0;385;-1.0;Kodex_der_Magie;1000;5 Minuten
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;109.0;385;-1.0;Kodex_der_Magie;1000;Kosten
+PDType0Font/PDCIDFontType2, PostScript name: ABBHJI+GentiumBasic;false;false;110.0;385;-1.0;Kodex_der_Magie;1000;je nach QS
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;386;-1.0;Kodex_der_Magie;1300;Bannstaub
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;386;-1.0;Kodex_der_Magie;1000;Der Bannstaub ist ein alchimistisches Erzeugnis, um Zauberern ihre astralen Kräfte zu nehmen. Das Pulver verursacht seine Wirkung bei Hautkontakt und muss auf ein Ziel geworfen werden, dazu ist eine Probe auf die Kampftechnik Wurfwaffen notwendig, die wie üblich
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;3.0;386;-1.0;Kodex_der_Magie;1000;modifiziert wird (Reichweite: 3/4/5, wenn als Pulver in der Hand<br> 5/10/15, wenn als Beutelchen). Um geworfe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;386;-1.0;Kodex_der_Magie;1000;-nen Staub auszuweichen, muss dem Beworfenen eine Probe auf Ausweichen gelingen. Auch hier gelten die
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;5.0;386;-1.0;Kodex_der_Magie;1000;üblichen Modifikatoren für Ausweichen im Fernkampf. Es spielt dabei keine Rolle, ob sich der Bannstaub in der Hand des Werfenden befindet oder in einem sich beim
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;6.0;386;-1.0;Kodex_der_Magie;1000;Aufprall öffnenden Säckchen.Die Wirkung von Bannstaub setzt augenblicklich ein.
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;7.0;386;-1.0;Kodex_der_Magie;1000;Bannstaub kann außerdem in Flüssigkeit gelöst als Ein
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;8.0;386;-1.0;Kodex_der_Magie;1000;-nahmegift verabreicht werden, schmeckt aber recht
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;9.0;386;-1.0;Kodex_der_Magie;1000;bitter, was das Unterfangen nicht einfach macht. Wenn der Bannstaub bei seiner Wirkung die Regeneration von
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;386;-1.0;Kodex_der_Magie;1000;AsP verhindert, dann ist damit der Zurückgewinn wäh-
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;11.0;386;-1.0;Kodex_der_Magie;1000;rend der Regenerationsphase gemeint. Die AsP, die z. B.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;386;-1.0;Kodex_der_Magie;1000;ein Zaubertrank zurückgibt, kann das Opfer von Bannstaub durchaus aufnehmen und nutzen.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;13.0;386;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;386;-1.0;Kodex_der_Magie;1000;Bernstein, Koschbasalt, Ni-
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;15.0;386;-1.0;Kodex_der_Magie;1000;trol, die Eierschale eines am 1. Praios geschlüpften
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;386;-1.0;Kodex_der_Magie;1000;Hahns, Greifenfedern, Eisenpulver, durch Sonnen-
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;17.0;386;-1.0;Kodex_der_Magie;1000;hitze destilliertes Regenwasser, reines Salz, Brabaker
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;386;-1.0;Kodex_der_Magie;1000;Vitriol, Gold, Harn vom Sonnenluchs, frische Blüten-
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;19.0;386;-1.0;Kodex_der_Magie;1000;blätter der Praiosblume (Sonnenblume)
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;20.0;386;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;21.0;386;-1.0;Kodex_der_Magie;1000;400 Silbertaler pro
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;386;-1.0;Kodex_der_Magie;1000;Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;386;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;386;-1.0;Kodex_der_Magie;1000;Archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;386;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;26.0;386;-1.0;Kodex_der_Magie;1000;–4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;386;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;28.0;386;-1.0;Kodex_der_Magie;1000;1: Das Opfer des Bannstaubs verliert sofort 1W6+2 AsP.2: Das Opfer des Bannstaubs verliert sofort 2W6+4 AsP und kann 1 Tag lang keine AsP regenerieren.3: Das Opfer des Bannstaubs verliert sofort 3W6+6 AsP und kann 1W2+1 Tage lang keine AsP
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;386;-1.0;Kodex_der_Magie;1000;regenerieren.
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;30.0;386;-1.0;Kodex_der_Magie;1000;4: Das Opfer des Bannstaubs verliert sofort 4W6+8 AsP und kann 1W3+2 Tage lang keine AsP
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;386;-1.0;Kodex_der_Magie;1000;regenerieren.
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;32.0;386;-1.0;Kodex_der_Magie;1000;5: Das Opfer des Bannstaubs verliert sofort 5W6+10 AsP und kann 1W3+3 Tage lang keine
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;386;-1.0;Kodex_der_Magie;1000;AsP regenerieren.
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;34.0;386;-1.0;Kodex_der_Magie;1000;6: Das Opfer des Bannstaubs verliert sofort 6W6+12 AsP und kann 2W3+3 Tage lang keine AsP
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;386;-1.0;Kodex_der_Magie;1000;regenerieren.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;386;-1.0;Kodex_der_Magie;1300;Berserkerelixier
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;386;-1.0;Kodex_der_Magie;1000;Das Berserkerelixier verwandelt Kämpfer in rasende Bestien. Sie greifen in ihrem Blutrausch allerdings nie denjenigen an, der ihnen das Elixier
+PDType0Font/PDCIDFontType2, PostScript name: GBYUJW+GentiumBasic;false;false;38.0;386;-1.0;Kodex_der_Magie;1000;zu Trinken gegeben hat.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;39.0;386;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;386;-1.0;Kodex_der_Magie;1000;Blut von einem durch das Beil gerichteten wahnsinnigen Mörder, echtes Premer Feuer, Feuerkraut, Feueropal, Schleimiger Sumpfknöterich
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;41.0;386;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;386;-1.0;Kodex_der_Magie;1000;70 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;386;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;386;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;386;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;386;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;47.0;386;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;386;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;49.0;386;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;386;-1.0;Kodex_der_Magie;1000;2 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;51.0;386;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;386;-1.0;Kodex_der_Magie;1000;1: Anwender ist für 5 KR im Kampf leicht aggressiv (+1 AT, –2 VW). Nach dem Ablauf der Wirkung erhält der Anwender 1 Stufe
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;53.0;386;-1.0;Kodex_der_Magie;1000;Betäubung
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;386;-1.0;Kodex_der_Magie;1000;.2: Anwender ist für 5 KR im Kampf sehr aggressiv (+2 AT, –4 VW).3: Anwender erhält Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;55.0;386;-1.0;Kodex_der_Magie;1000;Blutrausch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;386;-1.0;Kodex_der_Magie;1000;für 5 KR.4: Anwender erhält Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;57.0;386;-1.0;Kodex_der_Magie;1000;Blutrausch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;386;-1.0;Kodex_der_Magie;1000;für 10 KR.5: Anwender erhält Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;59.0;386;-1.0;Kodex_der_Magie;1000;Blutrausch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;386;-1.0;Kodex_der_Magie;1000;für 20 KR.6: Anwender erhält Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;61.0;386;-1.0;Kodex_der_Magie;1000;Blutrausch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;386;-1.0;Kodex_der_Magie;1000;für 40 KR.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;386;-1.0;Kodex_der_Magie;1300;Eulentränen
+PDType0Font/PDCIDFontType2, PostScript name: PPIRFE+GentiumBasic;false;false;64.0;386;-1.0;Kodex_der_Magie;1000;Eulentränen sind ein flüssiger alchimistischer Stoff, der
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;386;-1.0;Kodex_der_Magie;1000;in die Augen geträufelt werden muss. Durch die Erweiterung der Pupillen ist es möglich, im Dunkeln deutlich besser zu sehen. Bei jeder Anwendung der Eulentränen erleidet der Benutzer 1 SP.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;386;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;386;-1.0;Kodex_der_Magie;1000;Alraunenpulver, Auge eines Nachtwinds, Carlog, Mondsteinstaub, Praiosblumenkerne, Tollkirschensaft, Tränen einer Eule, Wasser
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;68.0;386;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;69.0;386;-1.0;Kodex_der_Magie;1000;10 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;70.0;386;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;71.0;386;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;72.0;386;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;73.0;386;-1.0;Kodex_der_Magie;1000;+/–0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;74.0;386;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;386;-1.0;Kodex_der_Magie;1000;1: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;76.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht I
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;77.0;386;-1.0;Kodex_der_Magie;1000;für 5 Minuten.2: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;78.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht I
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;79.0;386;-1.0;Kodex_der_Magie;1000;für 10 Minuten.3: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;80.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht I
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;81.0;386;-1.0;Kodex_der_Magie;1000;für 15 Minuten.4: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;82.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht II
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;83.0;386;-1.0;Kodex_der_Magie;1000;für 30 Minuten.5: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;84.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht II
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;85.0;386;-1.0;Kodex_der_Magie;1000;für 1 Stunde.6: Der Anwender bekommt den Vorteil
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;86.0;386;-1.0;Kodex_der_Magie;1000;Dämmerungssicht II
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;87.0;386;-1.0;Kodex_der_Magie;1000;für 2 Stunden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;88.0;386;-1.0;Kodex_der_Magie;1300;Heiltrank
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;89.0;386;-1.0;Kodex_der_Magie;1000;Der beste Freund des Helden ist sicher der Heiltrank. Grundstoff der meisten Heiltränke sind Heilkräuter wie Einbeeren oder Wirselkraut. Der Heiltrank kann wie der BALSAM SALA-BUNDE oder der Heilsegen jemanden von der Schwelle des Todes retten.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;90.0;386;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;91.0;386;-1.0;Kodex_der_Magie;1000;Achat, Eidechsenschwänze, Goldstaub, Hämatit, Heilkräuter wie Einbeeren oder Wirselkraut, Malachit, Morgentau, Storchen- oder Ibiseier
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;387;-1.0;Kodex_der_Magie;1200;Anhang
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;387;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;387;-1.0;Kodex_der_Magie;1000;40 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;387;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;387;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;387;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;387;-1.0;Kodex_der_Magie;1000;0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;387;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;387;-1.0;Kodex_der_Magie;1000;1: Heilt bei Einnahme 1W3 LeP.2: Heilt bei Einnahme 1W6 LeP.3: Heilt bei Einnahme 1W6+2 LeP.4: Heilt bei Einnahme 1W6+4 LeP.5: Heilt bei Einnahme 1W6+6 LeP.6: Heilt bei Einnahme 1W6+8 LeP.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;387;-1.0;Kodex_der_Magie;1300;Hylailer Feuer
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;387;-1.0;Kodex_der_Magie;1000;Hylailer Feuer wird streng überwacht und ist fast ausschließlich beim Militär der größeren Reiche Aventuriens verbreitet. Der Besitz von Hylailer Feuer ist in den meisten Regionen Aventuriens verboten.Gegen Lebewesen gelten die Regeln für Feuer- und Säureschaden (siehe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;387;-1.0;Kodex_der_Magie;1000;Regelwerk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;387;-1.0;Kodex_der_Magie;1000;Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;14.0;387;-1.0;Kodex_der_Magie;1000;341
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;387;-1.0;Kodex_der_Magie;1000;).
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;16.0;387;-1.0;Kodex_der_Magie;1000;
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;387;-1.0;Kodex_der_Magie;1000;Das Feuer richtet 1W3 Punkte Strukturschaden/SP pro KR an (durch
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;18.0;387;-1.0;Kodex_der_Magie;1000;Brennend
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;387;-1.0;Kodex_der_Magie;1000;auf kleiner Fläche). Alle 5 KR wird die Fläche, die betroffen ist, um eine Stufe größer. Ist das Hylailer Feuer in ein dafür vorgesehenes Gefäß gefüllt und soll auf jemanden geworfen werden, ist dazu eine Probe auf Wurfwaffen notwendig (Reichweite 2/4/8). Dem Gefäß kann man nur ausweichen oder eine Schild-PA ausführen. Hylailer Feuer zu löschen, ist extrem schwer: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;20.0;387;-1.0;Kodex_der_Magie;1000;Körperbeherrschung
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;387;-1.0;Kodex_der_Magie;1000;sind um 5 erschwert. Allerdings zündet das Hylailer Feuer nicht immer beim Aufprall (siehe Qualitätsstufen).
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;387;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;387;-1.0;Kodex_der_Magie;1000;Erdpech, Holzkohle, Orazal, reinster Schwefel, Steinöl, Walrat
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;24.0;387;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;25.0;387;-1.0;Kodex_der_Magie;1000;150 Silbertaler
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;26.0;387;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;27.0;387;-1.0;Kodex_der_Magie;1000;alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;28.0;387;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;29.0;387;-1.0;Kodex_der_Magie;1000;–4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;30.0;387;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;31.0;387;-1.0;Kodex_der_Magie;1000;luftdicht
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;387;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;387;-1.0;Kodex_der_Magie;1000;10 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;387;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;387;-1.0;Kodex_der_Magie;1000;1: Zündet bei 1-2 auf W6, brennt 1W6 KR lang2: Zündet bei 1-3 auf W6, brennt 1W6+2 KR lang3: Zündet bei 1-3 auf W6, brennt 2W6+4 KR lang4: Zündet bei 1-4 auf W6, brennt 2W6+6 KR lang5: Zündet bei 1-4 auf W6, brennt 3W6+8 KR lang6: Zündet bei 1-5 auf W6, brennt 3W6+10 KR lang
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;387;-1.0;Kodex_der_Magie;1300;Kaltes Licht
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;387;-1.0;Kodex_der_Magie;1000;Phosphoros, meist auch einfach nur Kaltes Licht genannt, ist ein Standard-Alchimicum, das fast jeder Alchimist brauen kann. Das Kalte Licht wird in Flüssigkeit aufbewahrt. Sobald man es herausnimmt, beginnt es zu leuchten und die Masse wird handwarm. Bei einer Berührung mit Haut oder Kleidung von 1 KR mit dem brennenden Phosphoros gilt das betroffene Kleidungsstück oder der Held selbst als auf kleiner Fläche
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;38.0;387;-1.0;Kodex_der_Magie;1000;Brennend
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;387;-1.0;Kodex_der_Magie;1000;. Die Probe auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;40.0;387;-1.0;Kodex_der_Magie;1000;Körperbeherrschung
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;387;-1.0;Kodex_der_Magie;1000;, um das Kalte Licht zu löschen, ist um 2 erschwert.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;387;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;43.0;387;-1.0;Kodex_der_Magie;1000;Bienenwachs, Eigelb, fauler Urin, Knochenasche, Phosphorpilze, Schneelaurerfett
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;44.0;387;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;387;-1.0;Kodex_der_Magie;1000;15 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;46.0;387;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;387;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;48.0;387;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;387;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;387;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;387;-1.0;Kodex_der_Magie;1000;1: Das Kalte Licht besitzt den Lichtradius einer Kerze für 0,5 Stunden.2: Das Kalte Licht besitzt den Lichtradius einer Kerze für 1 Stunde.3: Das Kalte Licht besitzt den Lichtradius einer Kerze für 1,5 Stunden.4: Das Kalte Licht besitzt den Lichtradius einer Fackel für 2 Stunden.5: Das Kalte Licht besitzt den Lichtradius einer Fackel für 2,5 Stunden.6: Das Kalte Licht besitzt den Lichtradius einer Fackel für 3 Stunden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;52.0;387;-1.0;Kodex_der_Magie;1300;Leuchtkreide
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;387;-1.0;Kodex_der_Magie;1000;Die Leuchtkreide dient verschiedenen Zwecken. In dunklen Gewölben dient sie als leuchtende und leicht zu erkennende Orientierungshilfe. Leuchtkreide kann man in vollständiger Dunkelheit bis zu 20 Schritt weit sehen. Die Kreide kann aber nicht als Lichtquelle mit einem Leuchtradius dienen. Je nach QS hat die Leuchtkraft der Kreide eine unterschiedliche Wirkungsdauer. Nach dem Ende der Haltbarkeit verliert die Kreide ihre Leuchtkraft.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;54.0;387;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;387;-1.0;Kodex_der_Magie;1000;abgebrannter Kerzendocht,
+PDType0Font/PDCIDFontType2, PostScript name: EIJEHA+GentiumBasic;false;false;56.0;387;-1.0;Kodex_der_Magie;1000;Kreide, Überreste einer elfischen Leuchtblume, Zikade
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;387;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;387;-1.0;Kodex_der_Magie;1000;12 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;59.0;387;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;387;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;61.0;387;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;387;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;387;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;387;-1.0;Kodex_der_Magie;1000;1: Die Kreide hat eine Haltbarkeit von 1 Monat.2: Die Kreide hat eine Haltbarkeit von 2 Monaten.3: Die Kreide hat eine Haltbarkeit von 3 Monaten.4: Die Kreide hat eine Haltbarkeit von 4 Monaten.5: Die Kreide hat eine Haltbarkeit von 5 Monaten.6: Die Kreide hat eine Haltbarkeit von 6 Monaten.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;387;-1.0;Kodex_der_Magie;1300;Liebestrunk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;387;-1.0;Kodex_der_Magie;1000;Auch wenn der Liebestrunk keine wahre Liebe erzeugen kann, ist er doch gerade bei jüngeren Leuten beliebt, um die Aufmerksamkeit des anderen Geschlechts zu wecken. Bei älteren Personen steht hingegen oft die potenzsteigernde Wirkung im Vordergrund. Bisweilen nehmen Paare das Mittel auch zur Steigerung der Lust gemeinsam ein.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;67.0;387;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;68.0;387;-1.0;Kodex_der_Magie;1000;Alraunen, Amethyst, Biberklötze, Erdbeeren, Granat, Hahnenkämme, Kekeyatonba, Ilmenblatt, Pollen des Schleichenden Todes, Premer Feuer, Rosenöl, Rosenquarz, Samthauch, Tabaschir, Walpenisknochen
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;69.0;387;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;70.0;387;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;71.0;387;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;72.0;387;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;1.0;388;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;2.0;388;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;3.0;388;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;4.0;388;-1.0;Kodex_der_Magie;1000;1: Die Potenz oder Fruchtbarkeit des Einnehmenden wird gesteigert.2: Der Anwender fühlt sich zudem nach Einnahme der ersten Person freundschaftlich verbunden, die es erblickt.3: Der Anwender ist zudem für die nächste Stunde stark sexuell erregt.4: Der Anwender hegt zudem für die erste Person, die er erblickt, romantische Gefühl und sexuelle Gelüste.5: Der Anwender verliebt sich zudem für einen Tag in die erste Person, die er erblickt.6: Der Anwender verliebt sich zudem für eine Woche in die erste Person, die er erblickt.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;5.0;388;-1.0;Kodex_der_Magie;1300;Pastillen gegen Schmerzen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;6.0;388;-1.0;Kodex_der_Magie;1000;Mittels dieser Pastillen können Schmerzen für kurze Zeit unterdrückt werden. Sie sind nicht nur bei reisenden Helden beliebt, sondern auch bei Patienten von Zahnreißern und bei kopfschmerzgeplagten Patriziern mit lockerer Geldkatze. Die Zustandsstufe verschwindet nach der Einnahme der Pastillen nicht, die Auswirkungen werden nur unterdrückt. Wer beispielsweise unter Stufe III Auswirkungen leidet und dank Pastillen mit QS 2 eine Stufe ignorieren kann, leidet nur noch unter den Auswirkungen von Stufe II. Sollte
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;7.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;8.0;388;-1.0;Kodex_der_Magie;1000;Stufe IV erreicht werden, nutzt die Wirkung der Pastillen nichts mehr und die Auswirkungen der IV. Stufe kommen zum Tragen. Die Wirkung der Pastillen setzt augenblicklich ein.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;388;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;388;-1.0;Kodex_der_Magie;1000;Eiswasser, Gulmond, Kandiszucker, Knoblauch, Pferdeschweiß, Steineicheln
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;11.0;388;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;388;-1.0;Kodex_der_Magie;1000;10 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;13.0;388;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;388;-1.0;Kodex_der_Magie;1000;Archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;15.0;388;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;388;-1.0;Kodex_der_Magie;1000;0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;17.0;388;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;388;-1.0;Kodex_der_Magie;1000;1: Die Auswirkungen einer Stufe
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;19.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;388;-1.0;Kodex_der_Magie;1000;können für 15 Minuten unterdrückt werden.2: Die Auswirkungen einer Stufe
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;21.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;388;-1.0;Kodex_der_Magie;1000;können für 30 Minuten unterdrückt werden.3: Die Auswirkungen von zwei Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;23.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;388;-1.0;Kodex_der_Magie;1000;können für 15 Minuten unterdrückt werden, danach noch für weitere 15 Minuten die Auswirkungen von einer Stufe
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;25.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;388;-1.0;Kodex_der_Magie;1000;.4: Die Auswirkungen von zwei Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;27.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;388;-1.0;Kodex_der_Magie;1000;können für 30 Minuten unterdrückt werden.5: Die Auswirkungen von drei Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;29.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;388;-1.0;Kodex_der_Magie;1000;können für 15 Minuten unterdrückt werden, danach noch für weitere 15 Minuten die Auswirkungen von zwei Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;31.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;388;-1.0;Kodex_der_Magie;1000;.6: Die Auswirkungen von drei Stufen
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;33.0;388;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;388;-1.0;Kodex_der_Magie;1000;können für 30 Minuten unterdrückt werden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;35.0;388;-1.0;Kodex_der_Magie;1300;Pyrophor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;388;-1.0;Kodex_der_Magie;1000;Pyrophor entzündet sich, sobald er in Luftkontakt gerät, weshalb er zur Aufbewahrung luftdicht verschlossen wird. Meistens wird er dazu benutzt, um Zaubereffekte vorzutäuschen, deshalb wird er gerne von profanen (und magiebegabten) Scharlatanen verwendet. Er eignet sich auch, um Heu oder Stroh anzuzünden, für größere Holzstücke reicht seine Hitze aber nicht aus.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;37.0;388;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;388;-1.0;Kodex_der_Magie;1000;Bleistaub, Alraunenpulver, Sporen von Bärlapp oder Orkland-Bovisten
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;39.0;388;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;388;-1.0;Kodex_der_Magie;1000;10 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;41.0;388;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;388;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;388;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;388;-1.0;Kodex_der_Magie;1000;+/–0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;388;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;388;-1.0;Kodex_der_Magie;1000;1: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;47.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +1 FP (bis zu einem Maximum von 18 FP) erhalten, wenn Pyrophor eingesetzt wird.2: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;49.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +1 FP (bis zu einem Maximum von 18 FP) erhalten, wenn Pyrophor eingesetzt wird. Herunterrieselndes Pyrophor besitzt den Lichtradius einer Kerze für 1 KR.3: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;51.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +1 FP (bis zu einem Maximum von 18 FP) erhalten, wenn Pyrophor eingesetzt wird. Herunterrieselndes Pyrophor besitzt den Lichtradius einer Kerze für 2 KR.4: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;53.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +2 FP (bis zu einem Maximum von 18 FP) erhalten, wenn Pyrophor eingesetzt wird. Herunterrieselndes Pyrophor besitzt den Lichtradius einer Kerze für 2 KR.5: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;55.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +2 FP (bis zu einem Maximum von 18 FP) erhalten, wenn Pyrophor eingesetzt wird. Herunterrieselndes Pyrophor besitzt den Lichtradius einer Kerze für 3 KR.6: Proben auf
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;57.0;388;-1.0;Kodex_der_Magie;1000;Gaukeleien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;388;-1.0;Kodex_der_Magie;1000;können nach Meisterentscheid +1 QS (bis zu einem Maximum von 6 QS) erhalten, wenn Pyrophor eingesetzt wird. Herunterrieselndes Pyrophor besitzt den Lichtradius einer Kerze für 3 KR.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;59.0;388;-1.0;Kodex_der_Magie;1300;Schlaftrunk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;388;-1.0;Kodex_der_Magie;1000;Der Schlaftrunk sorgt für erholsamen Schlaf und verbessert die Regeneration. Allerdings muss der Anwender des Schlaftrunks auch tatsächlich schlafen, um von
+PDType0Font/PDCIDFontType2, PostScript name: XPGKNO+GentiumBasic;false;false;61.0;388;-1.0;Kodex_der_Magie;1000;der Wirkung zu profitieren.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;388;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;388;-1.0;Kodex_der_Magie;1000;Einbeere, klares Regenwasser, Yagannüsse, Minze, Gulmond, Kamille, Rabenfedern, weißer Khômsand
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;64.0;388;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;388;-1.0;Kodex_der_Magie;1000;20 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;388;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;388;-1.0;Kodex_der_Magie;1000;Archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;68.0;388;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;69.0;388;-1.0;Kodex_der_Magie;1000;0
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;389;-1.0;Kodex_der_Magie;1200;Anhang
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;389;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;389;-1.0;Kodex_der_Magie;1000;1: Regeneration von 1 zusätzlichen Punkt LE, AE und KE im Schlaf während der nächsten Regenerationsphase.2: Regeneration von 2 zusätzlichen Punkten LE, AE und KE im Schlaf während der nächsten Regenerationsphase.3: Regeneration von 3 zusätzlichen Punkten LE, AE und KE im Schlaf während der nächsten Regenerationsphase.4: Regeneration von 4 zusätzlichen Punkten LE, AE und KE im Schlaf während der nächsten Regenerationsphase.5: Regeneration von 5 zusätzlichen Punkten LE, AE und KE im Schlaf während der nächsten Regenerationsphase.6: Regeneration von 6 zusätzlichen Punkten LE, AE und KE im Schlaf während der nächsten Regenerationsphase.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;389;-1.0;Kodex_der_Magie;1300;Schwadenbeutel
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;389;-1.0;Kodex_der_Magie;1000;Der Schwadenbeutel ist bei Dieben ein bewährtes Mittel, um für kurze Zeit Finsternis durch Rauch zu erzeugen. In einem Gebäude hält sich der Rauch 15 KR, außerhalb von Gebäuden 10 KR, bei Regen 5 KR, bei starker Witterung nur bis zum Ende der nächsten KR.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;389;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;389;-1.0;Kodex_der_Magie;1000;Alraunenpulver, Asche ver-
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;8.0;389;-1.0;Kodex_der_Magie;1000;kohlter Tannenzapfen, schwefliges Wasser
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;9.0;389;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;10.0;389;-1.0;Kodex_der_Magie;1000;40 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;11.0;389;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;12.0;389;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;13.0;389;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;14.0;389;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;15.0;389;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;16.0;389;-1.0;Kodex_der_Magie;1000;luftdicht
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;17.0;389;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;18.0;389;-1.0;Kodex_der_Magie;1000;3 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;19.0;389;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;20.0;389;-1.0;Kodex_der_Magie;1000;1: In 3 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;21.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 1.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;389;-1.0;Kodex_der_Magie;1000;2: In 3 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;23.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 2.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;389;-1.0;Kodex_der_Magie;1000;3: In 3 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;25.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 3.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;389;-1.0;Kodex_der_Magie;1000;4: In 3 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;27.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 4.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;389;-1.0;Kodex_der_Magie;1000;5: In 7 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;29.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 4.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;389;-1.0;Kodex_der_Magie;1000;6: In 15 Schritt Radius um den Beutel entsteht ein
+PDType0Font/PDCIDFontType2, PostScript name: QFOKTC+GentiumBasic;false;false;31.0;389;-1.0;Kodex_der_Magie;1000;Sichtmodifikator der Stufe 4.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;32.0;389;-1.0;Kodex_der_Magie;1300;Stinktöpfchen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;33.0;389;-1.0;Kodex_der_Magie;1000;Das Stinktöpfchen soll es jedem Lebewesen erschweren, sich in dessen Nähe aufzuhalten. In einem Gebäude hält der Gestank 1 Stunde, außerhalb von Gebäuden 10 Minuten, bei Regen 1 Minute, bei starker Witterung nur bis zum Ende der nächsten KR.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;34.0;389;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;35.0;389;-1.0;Kodex_der_Magie;1000;abgestandenes Wasser, Alraunenpulver, Drachendung, geriebene Rinde des Faulbaums, Sekret des Stinktiers
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;36.0;389;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;37.0;389;-1.0;Kodex_der_Magie;1000;40 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;38.0;389;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;389;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;40.0;389;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;389;-1.0;Kodex_der_Magie;1000;+/–0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;389;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;43.0;389;-1.0;Kodex_der_Magie;1000;luftdicht
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;44.0;389;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;389;-1.0;Kodex_der_Magie;1000;3 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;46.0;389;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;389;-1.0;Kodex_der_Magie;1000;1: In einem Radius von 1 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 1 auf alle Fertigkeitsproben erleiden.2: In einem Radius von 3 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 1 auf alle Fertigkeitsproben erleiden.3: In einem Radius von 3 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 1 auf alle Fertigkeitsproben erleiden. Außerdem erleiden sie den Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;48.0;389;-1.0;Kodex_der_Magie;1000;Übler Geruch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;389;-1.0;Kodex_der_Magie;1000;(siehe Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;389;-1.0;Kodex_der_Magie;1000;391
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;51.0;389;-1.0;Kodex_der_Magie;1000;) für 30 Minuten.4: In einem Radius von 7 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 1 auf alle Fertigkeitsproben erleiden. Außerdem erleiden sie den Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;52.0;389;-1.0;Kodex_der_Magie;1000;Übler Geruch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;53.0;389;-1.0;Kodex_der_Magie;1000;(siehe Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;54.0;389;-1.0;Kodex_der_Magie;1000;391
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;55.0;389;-1.0;Kodex_der_Magie;1000;) für 1 Stunde.5: In einem Radius von 7 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 1 auf alle Fertigkeitsproben erleiden. Außerdem erleiden sie den Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;56.0;389;-1.0;Kodex_der_Magie;1000;Übler Geruch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;57.0;389;-1.0;Kodex_der_Magie;1000;(siehe Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;58.0;389;-1.0;Kodex_der_Magie;1000;391
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;59.0;389;-1.0;Kodex_der_Magie;1000;) für 1 Tag.6: In einem Radius von 7 Schritt um das Töpfchen stinkt es so gewaltig, dass alle Lebewesen eine Erschwernis von 2 auf alle Fertigkeitsproben erleiden. Außerdem erleiden sie den Status
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;60.0;389;-1.0;Kodex_der_Magie;1000;Übler Geruch
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;61.0;389;-1.0;Kodex_der_Magie;1000;(siehe Seite
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;62.0;389;-1.0;Kodex_der_Magie;1000;391
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;63.0;389;-1.0;Kodex_der_Magie;1000;) für 1 Woche.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;64.0;389;-1.0;Kodex_der_Magie;1300;Unsichtbarkeitselixier
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;65.0;389;-1.0;Kodex_der_Magie;1000;Zwar kann es ausgesprochen vorteilhaft sein, unsichtbar zu werden, jedoch bedarf es einiger Zeit, bis das Elixier den gesamten Körper unsichtbar werden lässt. Die Wirkung des Elixiers hält je nach Qualitätsstufe des Elixiers unterschiedlich lange an. Das Gleiche gilt für die Dauer des Übergangs, während der Anwender unsichtbar beziehungsweise wieder sichtbar wird. Üblicherweise wird er von außen nach innen unsichtbar. Es verschwinden daher zuerst Haut und Haar, dann das Gewebe und zu guter Letzt die Knochen.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;66.0;389;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;67.0;389;-1.0;Kodex_der_Magie;1000;Alraunen, Blut eines Unsichtbaren, Chamäleonschuppen, Coelestin,
+PDType0Font/PDCIDFontType2, PostScript name: PWVZFE+GentiumBasic;false;false;68.0;389;-1.0;Kodex_der_Magie;1000;Diamant, Geisterflug, Kristallglas, Meteoreisen,
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;69.0;389;-1.0;Kodex_der_Magie;1000;rauchendes Braunöl, Späne eines misslungenen Magierstabes, Spinnennetze, Wasser aus Nebeltau, Wermut
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;70.0;389;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;71.0;389;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;72.0;389;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;73.0;389;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;74.0;389;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;75.0;389;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;76.0;389;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;77.0;389;-1.0;Kodex_der_Magie;1000;1: Der Anwender wird 1 Minute unsichtbar. Die Transformation dauert jeweils 10 Minuten.
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;1.0;390;-1.0;Kodex_der_Magie;1000;2: Der Anwender wird 3 Minuten unsichtbar. Die Transformation dauert jeweils 5 Minuten.3: Der Anwender wird 5 Minuten unsichtbar. Die Transformation dauert jeweils 2 Minuten. 4: Der Anwender wird 10 Minuten unsichtbar. Die Transformation dauert jeweils 1 Minute.5: Der Anwender wird 15 Minuten unsichtbar. Die Transformation dauert jeweils 30 Sekunden.6: Der Anwender wird 20 Minuten unsichtbar. Die Transformation dauert jeweils 15 Sekunden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;390;-1.0;Kodex_der_Magie;1300;Verwandlungselixier
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;390;-1.0;Kodex_der_Magie;1000;Mit diesem Elixier kann sich der Anwender in ein beim Brauen ausgewähltes Tier verwandeln. Die Wirkung des Elixiers hält je nach Qualitätsstufe des Elixiers unterschiedlich lange an. Auch die Verwandlung und Rückverwandlung erfordert einige Zeit und ist ausgesprochen schmerzhaft. Während der Verwandlung und Rückverwandlung leidet der Anwender unter einer Stufe des Zustandes
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;4.0;390;-1.0;Kodex_der_Magie;1000;Schmerz
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;390;-1.0;Kodex_der_Magie;1000;. In der Tiergestalt behält der Anwender seine geistigen Eigenschaften und erhält die körperlichen Eigenschaften und Fähigkeiten des Tieres. Bisher ist keine alchimistische Formel gefunden worden, mit der man sich in übernatürliche Wesen verwandeln kann oder in solche, die größer sind als ein Mensch.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;390;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;390;-1.0;Kodex_der_Magie;1000;Achat, Alkohol, Blüten des Morgendornstrauches, Ei oder Embryo des jeweiligen Tieres, Herzblut von Werkreaturen, Kairanrohr, Lapislazuli, Mäusemilch, Neunaugenblut, Quecksilber, Smaragd
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;390;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;390;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;390;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;390;-1.0;Kodex_der_Magie;1000;Hexenküche
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;390;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;390;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;14.0;390;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;390;-1.0;Kodex_der_Magie;1000;1: Der Anwender verwandelt sich für 1 Minute. Die Transformation dauert jeweils 10 Minuten. Finger, Ohren oder Zehen verwandeln sich nicht komplett mit.2: Der Anwender verwandelt sich für 2 Minuten. Die Transformation dauert jeweils 5 Minuten.3: Der Anwender verwandelt sich für 5 Minuten. Die Transformation dauert jeweils 2 Minuten.4: Der Anwender verwandelt sich für 10 Minuten. Die Transformation dauert jeweils 1 Minute.5: Der Anwender verwandelt sich für 15 Minuten. Die Transformation dauert jeweils 30 Sekunden.6: Der Anwender verwandelt sich für 20 Minuten. Die Transformation dauert jeweils 15 Sekunden.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;16.0;390;-1.0;Kodex_der_Magie;1300;Waffenbalsam
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;390;-1.0;Kodex_der_Magie;1000;Manche Wesenheiten wie Dämonen oder Elementare sind mit magischen Waffen leichter zu verletzen als mit einfachem, blankem Stahl. Da verzauberte Waffen jedoch sehr selten und ausgesprochen teuer sind, erfreut sich Waffenbalsam bei vielen reisenden Helden großer Beliebtheit, denn damit bestrichene Waffen werden zumindest kurzfristig mit ein wenig magischen Energien erfüllt. Es dauert 5 Kampfrunden, um eine Waffe mit Waffenbalsam einzureiben.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;390;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;390;-1.0;Kodex_der_Magie;1000;Asche von Greifenfedern, Bärenfett, Brabaker Vitriol, Horuschenkerne, Silberstaub, Smaragd, Schuppen eines Höhlendrachen, To-
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;20.0;390;-1.0;Kodex_der_Magie;1000;pas, Wasser aus einem fließenden Gewässer
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;21.0;390;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;22.0;390;-1.0;Kodex_der_Magie;1000;65 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;23.0;390;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;24.0;390;-1.0;Kodex_der_Magie;1000;Alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;390;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;390;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;390;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;390;-1.0;Kodex_der_Magie;1000;1: Waffe gilt für 5 Minuten als magisch.2: Waffe gilt für 15 Minuten als magisch.3: Waffe gilt für 2 Stunden als magisch, +1 TP.4: Waffe gilt für 8 Stunden als magisch, +1 TP.5: Waffe gilt für einen Tag als magisch und ist unzerbrechlich, +1 TP.6: Waffe gilt für eine Woche als magisch und ist unzerbrechlich, +1 TP.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;390;-1.0;Kodex_der_Magie;1300;Wasserodem
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;390;-1.0;Kodex_der_Magie;1000;Dieses blaue Elixier ermöglicht es, unter Wasser zu atmen und dadurch lange Tauchgänge zu vollziehen. Das angeblich von Neckern stammende Rezept ist einigen Alchimisten der Stadt bekannt. Da das Elixier unter das Alchimieverbot fällt, wird es im Geheimen hergestellt und gehandelt.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;390;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;390;-1.0;Kodex_der_Magie;1000;eine Strähne schwarzes
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;33.0;390;-1.0;Kodex_der_Magie;1000;Neckerhaar, eine große Perle, 10 Skrupel Gwen Pe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;390;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;35.0;390;-1.0;Kodex_der_Magie;1000;tryl- Staub, Kiemen eines Thunfischs, Seerosenblü
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;390;-1.0;Kodex_der_Magie;1000;-ten, ein halber Schank efferdgeweihtes Wasser
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;37.0;390;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;38.0;390;-1.0;Kodex_der_Magie;1000;100 Silbertaler pro
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;39.0;390;-1.0;Kodex_der_Magie;1000;Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;40.0;390;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;41.0;390;-1.0;Kodex_der_Magie;1000;Archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;42.0;390;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;43.0;390;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;44.0;390;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;45.0;390;-1.0;Kodex_der_Magie;1000;1: Wasseratmung für 5 Minuten.
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;46.0;390;-1.0;Kodex_der_Magie;1000;2: Wasseratmung für 10 Minuten.3: Wasseratmung für 20 Minuten.4: Wasseratmung für 40 Minuten.5: Wasseratmung, Schutz vor Unterkühlung für 60
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;47.0;390;-1.0;Kodex_der_Magie;1000;Minuten.
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;48.0;390;-1.0;Kodex_der_Magie;1000;6: Wasseratmung, Schutz vor Unterkühlung für 120
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;49.0;390;-1.0;Kodex_der_Magie;1000;Minuten.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;50.0;390;-1.0;Kodex_der_Magie;1300;Willenstrunk
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;51.0;390;-1.0;Kodex_der_Magie;1000;Um den Geist gegen Einflüsterungen und andere Ein
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;390;-1.0;Kodex_der_Magie;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: REFCCA+GentiumBasic;false;false;53.0;390;-1.0;Kodex_der_Magie;1000;flüsse zu schützen, wird häufig der Willenstrunk ein
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;390;-1.0;Kodex_der_Magie;1000;-genommen. Entsprechend ist er besonders bei Adligen und Händlern beliebt, denen wichtige Verhandlungen bevorstehen.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;55.0;390;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;390;-1.0;Kodex_der_Magie;1000;Amethyst, Bosparanienholz, Diamant, Kokosnuss, Feuerschlick, Granit, Greifenfedern, Haare aus einem Zwergenbart, Magnetit, Quecksilber, Thonnys, Unauer Salzlake
+PDTrueTypeFont NRVBUS+Andalus;false;false;1.0;391;-1.0;Kodex_der_Magie;1200;Anhang
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;2.0;391;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;3.0;391;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;4.0;391;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;5.0;391;-1.0;Kodex_der_Magie;1000;Alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;6.0;391;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;7.0;391;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;8.0;391;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;9.0;391;-1.0;Kodex_der_Magie;1000;1: Die Seelenkraft verbessert sich für 5 Minuten um 1.2: Die Seelenkraft verbessert sich für 10 Minuten um 2.3: Die Seelenkraft verbessert sich für 15 Minuten um 2.4: Die Seelenkraft verbessert sich für 20 Minuten um 2.5: Die Seelenkraft verbessert sich für 30 Minuten um 3.6: Die Seelenkraft verbessert sich für 45 Minuten um 3.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;10.0;391;-1.0;Kodex_der_Magie;1300;Zähigkeitstrunk
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;11.0;391;-1.0;Kodex_der_Magie;1000;Um seine körperlichen Widerstandskräfte gegen Gifte, Krankheiten, aber auch gegen schädliche Zauberei zu stärken, kann der Zähigkeitstrunk eingenommen werden. Er ist das Pendant zum Willenstrunk, der den Geist stärkt. Die Wirkung des Zähigkeitstrunks setzt augenblicklich ein.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;12.0;391;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;13.0;391;-1.0;Kodex_der_Magie;1000;Diamant, Finage, Kokosnuss, Granit, Ochsenblut Olginwurz, Unkraut, Unauer Salzlake
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;14.0;391;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;15.0;391;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;16.0;391;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;17.0;391;-1.0;Kodex_der_Magie;1000;Alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;18.0;391;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;19.0;391;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;20.0;391;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;21.0;391;-1.0;Kodex_der_Magie;1000;1: Die Zähigkeit verbessert sich für 5 Minuten um 1.2: Die Zähigkeit verbessert sich für 10 Minuten um 2.3: Die Zähigkeit verbessert sich für 15 Minuten um 2.4: Die Zähigkeit verbessert sich für 20 Minuten um 2.5: Die Zähigkeit verbessert sich für 30 Minuten um 3.6: Die Zähigkeit verbessert sich für 45 Minuten um 3.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;22.0;391;-1.0;Kodex_der_Magie;1300;Zaubertrank
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;23.0;391;-1.0;Kodex_der_Magie;1000;Gerne greifen Zauberer auf die belebende Wirkung von Zaubertränken zurück, um ihren Vorrat an astraler Kraft wieder aufzufüllen. Ein zentraler Bestandteil des Zaubertranks ist das Kairanrohr, das man am Neunau-
+PDType0Font/PDCIDFontType2, PostScript name: DPZMOC+GentiumBasic;false;false;24.0;391;-1.0;Kodex_der_Magie;1000;gensee finden kann.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;25.0;391;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;26.0;391;-1.0;Kodex_der_Magie;1000;Alicorn, Alraunen, Diamantstaub, Blut magischer Wesen, Drachentränen, Kairanrohr, Karfunkel, Meteoreisen, Mindoriumpulver, Orichalcum, Schnee vom 1. Hesinde, Thonnys, Topas
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;27.0;391;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;28.0;391;-1.0;Kodex_der_Magie;1000;55 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;29.0;391;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;30.0;391;-1.0;Kodex_der_Magie;1000;Alchimistisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;31.0;391;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;32.0;391;-1.0;Kodex_der_Magie;1000;–2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;33.0;391;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;34.0;391;-1.0;Kodex_der_Magie;1000;1: Regeneriert bei Einnahme 1W3 AsP.2: Regeneriert bei Einnahme 1W6 AsP.3: Regeneriert bei Einnahme 1W6+2 AsP.4: Regeneriert bei Einnahme 1W6+4 AsP.5: Regeneriert bei Einnahme 1W6+6 AsP.6: Regeneriert bei Einnahme 1W6+8 AsP.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;35.0;391;-1.0;Kodex_der_Magie;1300;Zielwasser
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;36.0;391;-1.0;Kodex_der_Magie;1000;Zielwasser ist ein alchimistisches Erzeugnis, das die Zielgenauigkeit eines Fernkämpfers deutlich verbessern kann.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;37.0;391;-1.0;Kodex_der_Magie;1000;Typische Ingredienzien
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;38.0;391;-1.0;Kodex_der_Magie;1000;Alraune, Angbarer Blutstein, Auge vom Bergadler, Brabaker Vitriol, Finage, Kairan
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;39.0;391;-1.0;Kodex_der_Magie;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;40.0;391;-1.0;Kodex_der_Magie;1000;30 Silbertaler pro Stufe
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;41.0;391;-1.0;Kodex_der_Magie;1000;Labor
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;42.0;391;-1.0;Kodex_der_Magie;1000;archaisches Labor
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;43.0;391;-1.0;Kodex_der_Magie;1000;Brauschwierigkeit
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;44.0;391;-1.0;Kodex_der_Magie;1000;–1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;45.0;391;-1.0;Kodex_der_Magie;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;46.0;391;-1.0;Kodex_der_Magie;1000;keine
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;47.0;391;-1.0;Kodex_der_Magie;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;48.0;391;-1.0;Kodex_der_Magie;1000;3 AP
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;49.0;391;-1.0;Kodex_der_Magie;1000;Qualitätsstufen
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;50.0;391;-1.0;Kodex_der_Magie;1000;1: Der FK-Wert steigt für 1 Minute um 1.2: Der FK-Wert steigt für 5 Minuten um 1.3: Der FK-Wert steigt für 5 Minuten um 2.4: Der FK-Wert steigt für 10 Minuten um 2.5: Der FK-Wert steigt für 10 Minuten um 3.6: Der FK-Wert steigt für 15 Minuten um 3.Einige Wesen sind so schwach, dass ihr KK-Wert völlig unbedeutend gegenüber dem menschlichen Bereich der Stärke ist (z. B. Insekten, Skorpione, kleine Feen). Dennoch besitzen solche Wesen einen KK-Wert, um untereinander Vergleiche ziehen und entsprechende Proben ablegen zu können. Sollte beim KK-Wert eines Wesens ein „k“ (k wie klein) angegeben sein, kennzeichnet dies die Körperkraft schwacher Wesen. Dies bedeutet auch, dass einige Talente, insbesondere
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;51.0;391;-1.0;Kodex_der_Magie;1000;Kraftakt
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;52.0;391;-1.0;Kodex_der_Magie;1000;, keinem Vergleich mit größeren Wesen standhalten. Die FW in
+PDTrueTypeFont RFRUYK+GentiumBasic-Italic;false;true;53.0;391;-1.0;Kodex_der_Magie;1000;Kraftakt
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;54.0;391;-1.0;Kodex_der_Magie;1000;ermöglichen nur einen Vergleich für die kleinen Wesen untereinander. Ein winziger Skorpion wird also nie stärker sein als ein Mensch. Für einen ungefähren Vergleich mit größeren und stärkeren Wesen kannst du die nachfolgende Tabelle nutzen.
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;55.0;391;-1.0;Kodex_der_Magie;1000;Körperkraft kleiner Wesen/Menschliche KörperkraftKleines WesenMensch0
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;56.0;391;-1.0;Kodex_der_Magie;1000;0
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;57.0;391;-1.0;Kodex_der_Magie;1000;3
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;58.0;391;-1.0;Kodex_der_Magie;1000;1
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;59.0;391;-1.0;Kodex_der_Magie;1000;6
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;60.0;391;-1.0;Kodex_der_Magie;1000;2
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;61.0;391;-1.0;Kodex_der_Magie;1000;9
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;62.0;391;-1.0;Kodex_der_Magie;1000;3
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;63.0;391;-1.0;Kodex_der_Magie;1000;12
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;64.0;391;-1.0;Kodex_der_Magie;1000;4
+PDTrueTypeFont UMFMOE+GentiumBasic-Bold;true;false;65.0;391;-1.0;Kodex_der_Magie;1000;15
+PDTrueTypeFont WPEYQA+GentiumBasic;false;false;66.0;391;-1.0;Kodex_der_Magie;1000;5
+PDTrueTypeFont NRVBUS+Andalus;false;false;67.0;391;-1.0;Kodex_der_Magie;1800;Körperkraft schwacher Wesen

@@ -480,5 +480,15 @@
       "key": 369,
       "minValue": 10
     }
+  },
+  {
+    "key": 1597,
+    "advancedAbilities" : {
+      "advancedAbilityKeys" : [ 553, 849 ],
+      "advancedAbilityKeyOptions" : [ {
+        "nOf" : 1,
+        "options" : [ 612,616 ]
+      } ]
+    }
   }
 ]

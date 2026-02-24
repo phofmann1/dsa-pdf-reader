@@ -1,0 +1,71 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategyRemoveLinesFromPage - GOLEMBAUER" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>104</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>59</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>91</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyPutToEndOfPage" index="2">
+        <strategyClass>
+            StrategyPutToEndOfPage
+        </strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>104</value>
+            </parameter>
+            <parameter>
+                <key>startEntryLineNo</key>
+                <value>47</value>
+            </parameter>
+            <parameter>
+                <key>endEntryLineNo</key>
+                <value>58</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - HOMUNCULUS-SF" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>125</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>72</value>
+            </parameter>
+            <parameter>
+                <key>untilLine</key>
+                <value>115</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveSingleLineFromPage - I" index="1">
+        <strategyClass>StrategyRemoveSingleLineFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>136</value>
+            </parameter>
+            <parameter>
+                <key>lineNo</key>
+                <value>24</value>
+            </parameter>
+        </params>
+    </strategy>
+
+</topic-strategies>

@@ -68,6 +68,21 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
 
         AtomicReference<SpecialAbilityCategoryKey> abilityCategory = new AtomicReference<>();
         if(conf.publication.equals("Archiv_der_Ausrüstung")) abilityCategory.set(SpecialAbilityCategoryKey.common);
+        else if(conf.publication.equals("Aventurisches_Animatorium")) {
+            switch(conf.fileAffix) {
+                case "HOMUNCULUS-SF":
+                    abilityCategory.set(SpecialAbilityCategoryKey.familiar);
+                    break;
+                case "GOLEMPRAEGUNG":
+                case "AUTOMATEN":
+                case "HOMUNCULUS":
+                case "GOLEMBAUER":
+                default:
+                    abilityCategory.set(SpecialAbilityCategoryKey.magic);
+                    break;
+            }
+            abilityCategory.set(SpecialAbilityCategoryKey.common);
+        }
         AtomicReference<String> abilityName = new AtomicReference<>("");
         resultList
                 .forEach(t -> {
@@ -153,7 +168,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
         }
         return switch (text) {
             case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit", "Neue Sonderfertigkeiten", "Neue SonderfertigkeitenFallen-Regeln",
-                 "Neue Sonderfertigkeiten für Kulturschaffende" -> SpecialAbilityCategoryKey.common;
+                 "Neue Sonderfertigkeiten für Kulturschaffende", "Neue Regeln" -> SpecialAbilityCategoryKey.common;
             case "Schicksalspunkte-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.fate;
             case "Talentstilsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_stile;
             case "Erweiterte Talentsonderfertigkeiten" -> SpecialAbilityCategoryKey.skill_advanced;
@@ -163,7 +178,11 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             case "Waffenlose Kampfstile" -> SpecialAbilityCategoryKey.combat_unarmed_stile;
             case "Erweiterte Kampfsonderfertigkeiten" -> SpecialAbilityCategoryKey.combat_advanced;
             case "Befehlssonderfertigkeiten" -> SpecialAbilityCategoryKey.order;
-            case "Neue magische Sonderfertigkeiten","Allgemeine magische Sonderfertigkeiten", "Sonderfertigkeiten für Chimärologen" -> SpecialAbilityCategoryKey.magic;
+            case "Neue magische Sonderfertigkeiten",
+                 "Allgemeine magische Sonderfertigkeiten",
+                 "Sonderfertigkeiten für Chimärologen",
+                 "Sonderfertigkeiten für Golembauer, Homunculusalchimisten und Automatentüftler" ->
+                    SpecialAbilityCategoryKey.magic;
             case "Erweiterte Zauberstilsonderfertigkeiten", "Erweiterte Zaubersonderfertigkeiten" ->
                     SpecialAbilityCategoryKey.magic_advanced;
             case "Prügel-Sonderfertigkeiten" -> SpecialAbilityCategoryKey.brawl;
@@ -230,6 +249,7 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
             case "Elementarpakte" -> SpecialAbilityCategoryKey.pact_elemental;
             case "Feenpakte" -> SpecialAbilityCategoryKey.pact_fairy;
             case "Die Tricks der Vertrauten" -> SpecialAbilityCategoryKey.familiar;
+            case "Homunculusfähigkeiten" -> SpecialAbilityCategoryKey.homunculus;
             case "Zauberzeichen" -> SpecialAbilityCategoryKey.magic_signs;
             case "Sonderfertigkeiten" -> SpecialAbilityCategoryKey.mixed;
 

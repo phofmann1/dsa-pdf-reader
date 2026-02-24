@@ -222,7 +222,7 @@ public abstract class Extractor
     if (t.contains("Numinoru")) returnValue.add(TraditionKey.numinoru);
     if (t.contains("Shinxir")) returnValue.add(TraditionKey.shinxir);
     if (t.contains("Szint")) returnValue.add(TraditionKey.h_szint_kult);
-    if (t.contains("Tairach")) returnValue.add(TraditionKey.hesinde);
+    if (t.contains("Tairach")) returnValue.add(TraditionKey.tairachschamane);
     if (t.contains("Zsahh")) returnValue.add(TraditionKey.zsahh);
     if (t.contains("Gravesh")) returnValue.add(TraditionKey.graveshkult);
     if (t.contains("Achazschamane")) returnValue.add(TraditionKey.achazschamane);

@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import de.pho.dsapdfreader.exporter.model.*;
 import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -29,13 +30,6 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEntityDoma
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPactLevel;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
-import de.pho.dsapdfreader.exporter.model.RequirementMysticalSkill;
-import de.pho.dsapdfreader.exporter.model.RequirementSkill;
-import de.pho.dsapdfreader.exporter.model.RequirementSkillSum;
-import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
-import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
-import de.pho.dsapdfreader.exporter.model.SkillUsage;
-import de.pho.dsapdfreader.exporter.model.SpecialAbility;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -173,7 +167,6 @@ public class LoadToSpecialAbility
         specialAbility.category = raw.abilityCategory;
         specialAbility.ap = Float.parseFloat(ExtractorAP.retrieve(raw.ap, currentLevel)+"");
         specialAbility.abilityType = ExtractorSpecialAbility.retrieveType(raw.description);
-
         specialAbility.multiselect = specialAbility.key == SpecialAbilityKey.geländekunde ? 999 :
                 ExtractorSpecialAbility.retrieveMultiselect(raw.rules);
 
@@ -186,7 +179,12 @@ public class LoadToSpecialAbility
         specialAbility.isOnlyDwarfenWeapon = allowedWepons.getValue2();
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
 
-        specialAbility.difficulty = isNumeric(raw.difficulty) ? Integer.parseInt(raw.difficulty.replace("–", "-")) : null;
+        if(specialAbility.key == SpecialAbilityKey.beschützer) {
+          System.out.println(raw.difficulty);
+          System.out.println(isNumeric(raw.difficulty.replace("–", "-")));
+          System.out.println(raw.difficulty);
+        }
+        specialAbility.difficulty = isNumeric(raw.difficulty.replace("–", "-")) ? Integer.parseInt(raw.difficulty.replace("–", "-")) : null;
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
         specialAbility.requiredEntityDomainKeys = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieveDemonic(raw.verbreitung) : null;
         if (raw.kreisDerVerdammnis != null && !raw.kreisDerVerdammnis.isEmpty()) {
@@ -267,6 +265,7 @@ public class LoadToSpecialAbility
         else if (specialReqToggle.isDemonicTrueName) returnValue.addAll(generateDemonicWahreNamen(specialAbility));
         else if (specialReqToggle.isElementalBinding) returnValue.addAll(generateElementalBinding(specialAbility));
         else if (specialReqToggle.isElementalTrueName) returnValue.addAll(generateElementalWahreNamen(specialAbility));
+        else if (specialReqToggle.isDauerhafteGolems) returnValue.addAll(generateGolemsDauerhafteGolemes(specialAbility));
         else returnValue.add(specialAbility);
       }
     }
@@ -670,6 +669,49 @@ public static Collection<? extends SpecialAbility> generateElementalWahreNamen(S
 
   return returnValue;
 }
+
+
+
+  public static Collection<? extends SpecialAbility> generateGolemsDauerhafteGolemes(SpecialAbility specialAbility) {
+    List<SpecialAbility> returnValue = new ArrayList<>();
+
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.dauerhafte_golems_primitiv,
+            "Dauerhafte Golems (primitiv)",
+            MysticalSkillKey.ritual_stein_wandle,
+            5f, null)
+    );
+
+    returnValue.get(0).requirementMysticalSkill.minValue = 0;
+    returnValue.get(0).category = SpecialAbilityCategoryKey.magic;
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.dauerhafte_golems_einfach,
+            "Dauerhafte Golems (einfach)",
+            MysticalSkillKey.ritual_stein_wandle,
+            10f, null)
+    );
+    returnValue.get(1).requirementMysticalSkill.minValue = 0;
+    returnValue.get(1).category = SpecialAbilityCategoryKey.magic;
+    returnValue.get(1).requirementsAbility = new RequirementsSpecialAbility();
+    returnValue.get(1).requirementsAbility.requirements.add(new RequirementSpecialAbility(SpecialAbilityKey.dauerhafte_golems_primitiv, null));
+
+
+    returnValue.add(generateNewTrueName(
+            ObjectMerger.merge(specialAbility, new SpecialAbility()),
+            SpecialAbilityKey.dauerhafte_golems_komplex,
+            "Dauerhafte Golems (komplex)",
+            MysticalSkillKey.ritual_stein_wandle,
+            15f, null)
+    );
+    returnValue.get(2).requirementMysticalSkill.minValue = 0;
+    returnValue.get(2).category = SpecialAbilityCategoryKey.magic;
+    returnValue.get(2).requirementsAbility = new RequirementsSpecialAbility();
+    returnValue.get(2).requirementsAbility.requirements.add(new RequirementSpecialAbility(SpecialAbilityKey.dauerhafte_golems_einfach, null));
+
+    return returnValue;
+  }
 
   public static Collection<? extends SpecialAbility> generateFairyBinding(SpecialAbility specialAbility) {
     List<SpecialAbility> returnValue = new ArrayList<>();

@@ -1,0 +1,841 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;13;-1.0;GMuH_Dampfende_Dschungel;1800;Allgemeine Sonderfertigkeiten
+PDTrueTypeFont HIIWXK+Andalus;false;false;2.0;13;-1.0;GMuH_Dampfende_Dschungel;3100;SONDERFERTIGKEITEN
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;13;-1.0;GMuH_Dampfende_Dschungel;1300;Drohgebärden
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Barbarinnen und andere Kämpfer können durch wilde Schreie oder einschüchterndes Auftreten ihre Gegner in Angst und Schrecken versetzen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Durch die Sonderfertigkeit erwirbt die Heldin eine Einsatzmöglichkeit für das Talent
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;7.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;. Die Abenteurerin kann mittels
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;9.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern (Drohung)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;ihre Gegner während eines Kampfes in Angst versetzen. Die Heldin muss 1 Aktion aufwenden. Danach legt ihre Spielerin eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;11.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern (Drohung)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;ab. Bis zu QS+1 andere Personen ihrer Wahl in ihrer Sicht- und Hörreichweite bekommen in der nächsten Kampfrunde einen Malus von –1 auf AT, VW und FK (der Malus ist nicht kumulativ mit weiteren Anwendungen der Sonderfertigkeit).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;13.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern 4
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;15.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;17.0;13;-1.0;GMuH_Dampfende_Dschungel;1800;Talentstilsonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;13;-1.0;GMuH_Dampfende_Dschungel;1300;Weg des Adligen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Wer sich seiner adligen Privilegien bewusst ist, versteht
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;20.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;es häufig, sie zu seinen Gunsten einzusetzen. Ein Adli
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;-ger kann Personen niederen Standes deutlich leichter beeindrucken oder gar einschüchtern, wenn es darauf
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;22.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;ankommt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;23.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;24.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Held mit diesem Talentstil verdoppelt die Erleichterungen in
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;25.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Bekehren & Überzeugen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;26.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;,
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;27.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;28.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;,
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;29.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Etikette (Benehmen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;30.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;und
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;31.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Überreden (Schmeicheln)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;32.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;33.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;gegenüber Personen mit niedrigeren Sozialen Stand
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;34.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;(siehe
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;35.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Regelwerk
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Seite
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;37.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;338
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;38.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;) von +1 auf +2.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;39.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;40.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;41.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Herrschaftsanspruch, Soziale Kompetenz,
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;42.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Vertrauenswürdig
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;43.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;44.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Etikette 8
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;45.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;46.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;47.0;13;-1.0;GMuH_Dampfende_Dschungel;1300;Weg des Fischers
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;48.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Ob beim Hochseefischen, beim Forel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;49.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;-lenangeln, beim Sammeln von Seeigeln
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;50.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;oder beim Tauchen nach Muscheln, wer
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;51.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;seinen Lebensunterhalt in und um das
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;52.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;nasse Element bestreitet, kann sich darin bes
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;53.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;54.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;ser fortbewegen als so manch anderer.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;55.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;56.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Held mit dieser Sonderfertigkeit erhält
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;57.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;bei Proben auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;58.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Schwimmen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;59.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;oder
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;60.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Fischen & Angeln
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;61.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;eine Erleichterung von +1.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;62.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Talentsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;63.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Erfolg
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;64.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;65.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;reicher Fischer, , Kind der Natur, Körperliches Geschick
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;66.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;67.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Schwimmen 6, Fischen & Angeln 6
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;68.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: FNJWVT+GentiumBasic;false;false;69.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;70.0;13;-1.0;GMuH_Dampfende_Dschungel;1300;Weg der Schmiedin
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;71.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Metall ist ein nützliches Material, das sich in jede erdenkliche Form bringen lässt. Eine begabte Schmiedin weiß genau, welche Eigenschaften das Metall aufweisen muss, um seine ihm zugedachte Funktion bestmöglich auszuüben.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;72.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;73.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Bei einer gelungenen Probe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;74.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Metallbearbeitung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;75.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;erhält der Held +1 FP (bis zu einem Maximum von 18 FP).Außerdem benötigt der Held bei Erfolgs- und Sammelproben auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;76.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Metallbearbeitung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;77.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;nur die Hälfte der angegebenen Zeit bzw. der angegebenen Intervalldauer.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;78.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;79.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Gute Verarbeitung, Handwerkskunst, Kraftanstrengung
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;80.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;81.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;Metallbearbeitung 8
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;82.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;83.0;13;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;14;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont HIIWXK+Andalus;false;false;2.0;14;-1.0;GMuH_Dampfende_Dschungel;1800;Erweiterte Talentsonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;14;-1.0;GMuH_Dampfende_Dschungel;1300;Erfolgreicher Fischer
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Neben der Landwirtschaft, der Jagd auf Tiere und dem Sammeln von Essbarem ist die Fischerei eine sinnvolle Beschäftigung, um sich einen vollen Magen zu sichern. Wer sich genug darin übt, kann zu einem der erfolgreichsten Fischer werden und deutlich mehr Fang mit nach Hause bringen als andere.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Held mit dieser Sonderfertigkeit erzielt bei gelungenen Proben auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;7.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Fischen & Angeln (Salzwassertiere
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;oder
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;9.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Süßwassertiere)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;bei der Nahrungsbeschaffung +1 QS (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;11.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;SF Fischer, passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;13.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;5 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;15.0;14;-1.0;GMuH_Dampfende_Dschungel;1300;Gute Verarbeitung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Eine gute Verarbeitung sorgt für einen höheren Wert eines hergestellten Gegenstands. Heldinnen, die sich die notwendige Mühe machen, ein Objekt mit Liebe und Sorgfalt zu erschaffen, können dadurch den Verkaufs-
+PDType0Font/PDCIDFontType2, PostScript name: JVENKG+GentiumBasic;false;false;17.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;preis beeinflussen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Die Heldin kann sich ein Handwerkstalent aussuchen, das zu ihrer Profession passt. Wenn sie damit etwas herstellt, steigt der Verkaufspreis des Objektes aufgrund der gelungenen Verarbeitung oder der besonderen Schönheit um 10 %.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;20.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;22.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;23.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;5 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;24.0;14;-1.0;GMuH_Dampfende_Dschungel;1300;Handwerkskunst
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Nicht jeder Aventurier kennt sich in jedem Handwerk gleich gut aus. Jene Handwerker, die ein bestimmtes Gebiet gemeistert haben, können leichter großartige Objekte herstellen als einfache Gesellen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;26.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Handwerkstalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;28.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;30.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;A-/B-/C-/D-Talent 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;14;-1.0;GMuH_Dampfende_Dschungel;1300;Herrschaftsanspruch
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Nicht jeder ist zum Herrschen geboren. Wer jedoch Übung darin hat, Untergebene zu befehligen, selbstsicher aufzutreten weiß und eine herrschaftliche Autorität ausstrahlt, kann sich einfacher durchsetzen und stößt auf weniger Widerstand.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Held kann Personen, die einen niedrigeren sozialen Stand als er selbst aufweisen, Befehle erteilen (sofern sie dem gleichen Kulturkreis angehören<br> ein Ork interessiert sich wenig für den Herrschaftsanspruch eines Elfen ...). Es muss sich dabei um direkte Befehle handeln (z. B. „Knie nieder“, „Schenk mir Wein nach“, „Wage es nicht ...“). Der Meister hat das letzte Wort darüber, welche Befehle möglich sind. Wer den Befehlen nicht nachkommen will, dem muss eine Vergleichsprobe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;36.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft (Einschüchtern widerstehen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;37.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;gegen
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;38.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;39.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;des Helden gelingen, ansonsten sind alle Handlungen, die dem Befehl zuwiderlaufen, für Netto-QS Minuten um –1 erschwert.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;40.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Sozialer Stand 3 oder höher, passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;42.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;44.0;14;-1.0;GMuH_Dampfende_Dschungel;1300;Kind der Natur
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Der Held kennt sich bestens in der Natur aus und hat sich auf eine bestimmte Fähigkeit spezialisiert, die für die Ausübung seiner Arbeit besonders wichtig ist.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;46.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;47.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Naturtalente, die für die Arbeit des Helden von großer Bedeutung sind, gehen ihm deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt er fortan +1 FP (bis zu einem Maximum von 18 FP). Der Held kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;48.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;49.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;passender Talentstil
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;50.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;51.0;14;-1.0;GMuH_Dampfende_Dschungel;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;1.0;15;-1.0;GMuH_Dampfende_Dschungel;1300;Körperliches Geschick
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;2.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Hat sich eine Heldin darin geübt, kann sie in einer speziellen körperlichen Fähigkeit durch besondere Höchstleistungen glänzen. Sie hebt sich dadurch von anderen auf diesem Gebiet ab.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Körpertalente, die für die Arbeit der Heldin von großer Bedeutung sind, gehen ihr deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt sie fortan +1 FP (bis zu einem Maximum von 18 FP). Die Heldin kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;passender Talentstil
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;7.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;9.0;15;-1.0;GMuH_Dampfende_Dschungel;1300;Kraftanstrengung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Manchmal wird von einem Helden eine wahre Kraftanstrengung eingefordert. Wer darin Übung hat, kann diese leisten, ist danach aber auch entsprechend erschöpft.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;11.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Die Heldin kann ihren FW in
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;13.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Kraftakt
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;für eine Handlung um 4 erhöhen (bis zum Maximum der Fertigkeit für maximal 1 Minute). Danach erleidet sie 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;15.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Betäubung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;17.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;18.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;passender Talentstil
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;19.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;20.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;21.0;15;-1.0;GMuH_Dampfende_Dschungel;1300;Soziale Kompetenz
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;22.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Sich an die Regeln der Etikette halten, ein Gespür für die passenden Worte, die Mimik und Gestik entwickeln und sich sicher in einem sozialen Umfeld zu bewegen, ist nicht jedermanns Sache. Eine Heldin kann diese Fähigkeit aber erlernen und dann in gesellschaftlichen Talenten brillieren.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;23.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;24.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Gesellschaftstalente, die für die Arbeit der Heldin von großer Bedeutung sind, gehen ihr deutlich leichter von der Hand. Für jedes Talent, für das die Sonderfertigkeit erworben wird, bekommt sie fortan +1 FP (bis zu einem Maximum von 18 FP). Die Heldin kann sich in Absprache mit dem Meister bis zu drei Talente aussuchen, allerdings müssen für jedes Talent die AP-Kosten der Sonderfertigkeit gezahlt werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;25.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;26.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;27.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;28.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;A-/B-/C-/D-Talent: 2/4/6/8 Abenteuerpunkte pro Talent
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;29.0;15;-1.0;GMuH_Dampfende_Dschungel;1300;Vertrauenswürdig
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;30.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Vertrauen muss man sich verdienen – es gibt jedoch auch Heldinnen, die sich darin geübt haben, Vertrauen zu erschleichen oder so aufzutreten, dass man ihnen gerne glaubt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;31.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;32.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Andere Kulturschaffende vertrauen der Heldin, sodass sie bei Vergleichsproben bei Gesellschaftstalenten (außer bei
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;33.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;34.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;,
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;35.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Menschenkenntnis
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;und
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;37.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;38.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;) +1 FP erhält.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;39.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;40.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;passende Talentstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;41.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;42.0;15;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;16;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont HIIWXK+Andalus;false;false;2.0;16;-1.0;GMuH_Dampfende_Dschungel;1800;Kampfstilsonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;Animisten-Stil der Tapo-Tikaute
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;6.0;16;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;7.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Die besondere Beziehung einer Animistin der Tapo-Tikaute zu ihrer Animistenwaffe ermöglicht ihr, einen Teil der Wucht eines Angriffs, den sie mit ihrem Schild pariert, auf den Angreifer zurückzuwerfen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;8.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;9.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Wenn die Animistin mit einem Schild, der als Animistenwaffe an sie gebunden ist, erfolgreich einen gegen sie gerichteten Angriff pariert, erhält sie +1 TP auf den nächsten Angriff mit ihrem Schild gegen den Angreifer. Die Attacke muss bis zum Ende der folgenden KR ausgeführt werden, sonst verfällt der Bonus, und dieser ist nur gegen den Gegner wirksam, dessen Angriff pariert wurde, und nur für Angriffe mit dem Schild. Werden in kurzer Zeit mehrere Attacken des gleichen Gegners pariert, steigt auch der Bonus auf TP, jeder Bonus kann aber jeweils nur bis zum Ende der KR nach jener mit der erfolgreichen PA genutzt werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;10.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;11.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Angetäuschter Angriff, Schildstoß, Tiefe Wunde
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;12.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;13.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;IN 13, SF Tradition (Animisten), SF Bindung der Waffe
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;14.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;15.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Schilde
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;16.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;20 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;Dschungelschleicher-Stil
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;20.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;21.0;16;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;22.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Das Leben in den Dschungeln Meridianas ist gefährlich und zuweilen unbarmherzig. Ein Dschungelschleicher weiß sehr genau um den Wert des Überraschungsmoments und weiß es mit todbringender Präzision zu nutzen, wenn er sich an seine Beute heranpirscht.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;23.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;24.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Gegen einen Gegner, der gegenüber dem Helden mit diesem Stil den Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;25.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Überrascht
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;26.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;aufweist, erhält dieser +2 auf AT und FK sowie +2 auf TP.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;27.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;28.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Machtvoller Kernschuss, Nachladespezialist (Blasrohre oder Wurfwaffen), Tiefe Wunde
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;29.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;30.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;GE 13
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;31.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;32.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;alle Kampftechniken
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;33.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;34.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;35.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;Eidechsenkrieger-Stil
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;37.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;38.0;16;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;39.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Viele Eidechsenkriegerinnen schulen sich, ganz den Geboten Tsas folgend, vorwiegend im waffenlosen Kampf und dem Hruruzat, doch einige unter ihnen wissen sich auch durchaus mit einem scharfen Katar ihrer Haut zu erwehren.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;40.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Kämpft die Heldin einhändig mit einer Waffe der Kampftechnik
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;42.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Dolche
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;, so erhält sie +1 AT, +1 PA oder +1 TP und kann zusätzlich die Boni aus der SF
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;44.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Einhändiger Kampf
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;erhalten. Welchen Bonus sie genießt, muss die Heldin zu Beginn jeder KR ansagen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;46.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDType0Font/PDCIDFontType2, PostScript name: EBUZHQ+GentiumBasic;false;false;47.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Blitzreflexe, Defensives
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;48.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Verhalten, Reizen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;49.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;50.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, SF Einhändiger Kampf
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;51.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;52.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Dolche
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;53.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;54.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;55.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;Geisterkrieger-Stil
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;56.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;57.0;16;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;58.0;16;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;59.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Mehr noch als die Schamanen der Utulus und Waldmenschen, gehen viele ihrer Animisten eine fast schon symbiotische Verbindung mit der Geisterwelt ein. Indem sie die wirbelnden Nipakau des Kampfes in sich einfahren lassen, steigern sie ihre kriegerischen Fähigkeiten.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;60.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;61.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Mit einer Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;62.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Selbstbeherrschung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;63.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;kann ein Geisterkrieger sein gesamtes Wesen auf die Nipakau einstimmen. Gelingt die Probe, genießt er für QS KR Boni von +1 auf AT, FK, PA, AW, TP und INI. Der Einsatz der Fähigkeit erfordert 1 Aktion, ist nur einmal pro Kampf möglich und verursacht am Ende des Kampfes 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;64.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Betäubung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;65.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;66.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;67.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Berserkerangriff, Nervös machen, Offensives Verhalten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;68.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;69.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, SF Tradition (Animisten)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;70.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;71.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;72.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;73.0;16;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;1.0;17;-1.0;GMuH_Dampfende_Dschungel;1300;Hruruzat
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;2.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont HIIWXK+Andalus;false;false;3.0;17;-1.0;GMuH_Dampfende_Dschungel;800;WK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Der vor allem mit Tritttechniken arbeitende Hruruzat-Kampfstil ist in ganz Aventurien berüchtigt. Als wahre Meisterinnen des Hruruzat gelten die Waldmenschen, die Maraskaner und die Achaz.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Bei einem erfolgreichen Angriff mit
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;7.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Raufen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;würfelt die Spielerin für die Trefferpunkte statt 1W6 mit 2W6. Das höhere Ergebnis der einzelnen Würfel wird gewertet. Sollte die Spielerin einen Pasch gewürfelt haben, so werden die Ergebnisse der beiden Würfel addiert und bilden zusammen die TP.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;9.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Fußfeger, Handkantenschlag, Sprungtritt
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;11.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, SF
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;13.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Einhändiger Kampf
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;14.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;15.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Raufen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;16.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;17;-1.0;GMuH_Dampfende_Dschungel;1300;Stammeskrieger-Stil
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;17;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;20.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;21.0;17;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;22.0;17;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;23.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Viele Stammeskrieger einzelner Kulturen zeichnet ein wilder, auf Einschüchterung ausgelegter Kampfstil aus.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;24.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Bei der Sonderfertigkeit
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;26.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Drohgebärden
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;muss der Held nur 1 freie Aktion statt einer regulären Aktion aufwenden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;28.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Berserkerangriff, Machtvoller Sturmangriff, Schmerzwut
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;30.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, Drohgebärden
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;17;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;18;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;2.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Angetäuschter Angriff
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;3.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;4.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;5.0;18;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Meister der Finte können ihre Angriffe besonders gut mit einer bestimmten Waffenkombination vorbereiten, beispielsweise mit einem Schild und einem Schwert. Hinter einigen Waffen lassen sich nicht nur Angriffe gut verbergen, auch durch die Kombination mit einem leichten Stoß oder einer Art Kreuzblock mit Waffe und Schild tun sich so in der Abwehr des Gegners schnell Lücken auf.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;7.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Um diese Sonderfertigkeit nutzen zu können, muss sie mit einer
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;9.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;kombiniert werden. Sollte dem Gegner die Verteidigung gegen die Finte misslingen und er über seinen regulären VW gewürfelt haben (die Finte also nicht notwendig gewesen sein, um zu treffen), richtet der Treffer +1 TP an.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;11.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;GE 15, SF Finte I, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;13.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Dolche, Fechtwaffen, Raufen, Schilde, Schwerter
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;15.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;17.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Beispiel: Geron verfügt über die SF
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;18.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte I
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;19.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;und
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;20.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Angetäuschter Angriff
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;21.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;. Er senkt mit der
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;22.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte I
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;23.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;die PA seines Gegners von 11 auf 9. Gerons Attacke mit der
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;24.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;25.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;gelingt und sein Gegner würfelt eine 13. Da Geron die
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;26.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;27.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;nicht gebraucht hätte, um zu treffen, richtet sein Angriff nun +1 TP an. Hätte sein Gegner eine 10 oder 11 gewürfelt, hätte Geron den TP-Bonus nicht bekommen, denn dann wäre die
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;28.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;29.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;notwendig gewesen, um den Gegner zu treffen, aber immerhin hätte er seinen Widersacher dann dank der
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;30.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Finte
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;31.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;getroffen. Bei 1-9 hätte der Gegner pariert.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Berserkerangriff
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;35.0;18;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Insbesondere bei Kämpfern aus Stammeskulturen oder jenen, die einen aggressiven Stil ohne Rücksicht auf Verluste
+PDType0Font/PDCIDFontType2, PostScript name: EBUZHQ+GentiumBasic;false;false;37.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;pflegen, sind Angriffe häufig, die einem kontrollierten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;38.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampfrausch ähneln. Ein Berserkerangriff setzt auf wuchtige Schläge, dafür vernachlässigt er die Verteidigung.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;39.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;40.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Der Held kann sich am Anfang einer KR dazu entscheiden, seine AT um bis zu 4 zu erhöhen. Für jeden Punkt AT, den er sich durch die Sonderfertigkeit verleiht, erleidet er –1 auf seinen VW. Außerdem bekommt er einen Bonus von +2 TP, unabhängig davon, um wie viele Punkte er seine AT erhöht hat. Die Wirkung hält 1W6 KR an und endet am Ende einer KR. Er kann während dieser Zeit keine Fernkampfangriffe ausführen oder Talente (außer
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;41.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;42.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;,
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;43.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;44.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;und Körpertalente) einsetzen. Am Ende der Wirkungsdauer erleidet der Held 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;45.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Betäubung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;46.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;für so viele KR, wie die Wirkung anhielt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;47.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;48.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;49.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;50.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;alle Nahkampftechniken
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;51.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;52.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: AMVDKY+GentiumBasic-Bold;true;false;53.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Blitzreflexe
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;54.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;55.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Wer über Blitzreflexe verfügt, der kann deutlich schnel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;56.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;57.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;ler auf einen ersten Angriff reagieren und so vielleicht einem Treffer entgehen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;58.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;59.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;In der ersten KR eines jeden Kampfes verfügt der Held über einen Bonus von +2 VW.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;60.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;61.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;GE 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;62.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;63.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;64.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;65.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: AMVDKY+GentiumBasic-Bold;true;false;66.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Defensives Verhalten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;67.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;68.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Manchmal ist es für eine Heldin sehr wichtig, sich auf ihre Verteidigung zu Ungunsten ihrer Angriffsmöglich
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;69.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;70.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;keiten zu konzentrieren.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;71.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;72.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Sollte die Heldin Erschwernisse auf ihre Ver
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;73.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;74.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;teidigung erleiden, gleich welchen Ursprungs (bis auf Sichtmodifikatoren), so kann sie durch ihr aus
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;75.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;76.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;gezeichnetes Defensiverhalten entscheiden, 1 oder 2 Punkte Erschwernis zu ignorieren. Sollte mehr als 2 Punkte Erschwernis vorhanden sein, muss sie den Rest der Erschwernis hinnehmen. Für jeden Punkt Er
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;77.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;78.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;schwernis, den sie ignorieren möchte, erleidet sie bis zum Ende der nächsten KR eine Erschwernis von –2 auf AT und FK.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;79.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;80.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;IN 15, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;81.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;82.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;83.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;84.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDType0Font/PDCIDFontType2, PostScript name: AMVDKY+GentiumBasic-Bold;true;false;85.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Fußfeger
+PDType0Font/PDCIDFontType2, PostScript name: XKHLUE+GentiumBasic;false;false;86.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDType0Font/PDCIDFontType2, PostScript name: AMVDKY+GentiumBasic-Bold;true;false;87.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;88.0;18;-1.0;GMuH_Dampfende_Dschungel;800;WK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;89.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Der Fußfeger ist ein Angriff, der darauf abzielt, den Feind von den Beinen zu holen. Dazu benutzt der Angreifer sein eigenes Bein und trifft damit tief gegen die Füße und Knöchel des Widersachers.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;90.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;91.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Gelingt der Heldin eine um –4 erschwerte AT und misslingt die Verteidigung des Gegners, fällt dieser zu Boden und erhält den Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;92.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Liegend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;93.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;. Schaden wird dabei nicht angerichtet.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;94.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis –
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;95.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;4
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;96.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;97.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;KK 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;98.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;99.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Raufen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;100.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;101.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;102.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;Handkantenschlag
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;103.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;104.0;18;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;105.0;18;-1.0;GMuH_Dampfende_Dschungel;800;WK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;106.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Einigen geübten waffenlosen Kämpfern ist es möglich, ihre ganze Stärke in einen einzigen, präzisen Schlag mit der Handkante zu legen, um möglichst großen Schaden anzurichten.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;107.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;108.0;18;-1.0;GMuH_Dampfende_Dschungel;1000;Um einen Handkantenschlag auszuführen, muss der Held zunächst in der KR 1 freie Aktion nutzen, um sich zu konzentrieren. Danach kann er einen Handkantenschlag gegen einen Gegner oder ein Objekt
+PDTrueTypeFont HIIWXK+Andalus;false;false;109.0;18;-1.0;GMuH_Dampfende_Dschungel;1800;Erweiterte Kampfsonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;1.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;ausführen. Sollte der Angriff erfolgreich sein, so erhöht sich der Schaden um +2 TP gegen Lebewesen und um +4 TP gegen Objekte. Die AT ist um –2 erschwert.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;2.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis –
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;3.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;2
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;4.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;5.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;6.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;7.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Raufen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;8.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;9.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;10.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;Machtvoller Kernschuss
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;11.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;12.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;13.0;19;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Ein sogenannter Machtvoller Kernschuss erfolgt auf kurze Distanz zum Ziel. Er richtet mehr Schaden aufgrund der Nähe zwischen Ziel und Schützin an.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;15.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: EBUZHQ+GentiumBasic;false;false;16.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Befindet sich die Heldin mit ihrer Fernkampf
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;-waffe in der Reichweite nah, erhöht sich der Schaden durch den Einsatz der Sonderfertigkeit
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;18.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Präziser Schuss/Wurf
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;um +1 TP pro Stufe. Insgesamt richtet ein
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;20.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Präziser Schuss/Wurf I
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;somit +3 TP, Stufe II +5 TP und Stufe III sogar +7 TP an.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;22.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;23.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;–2/–4/–6 (je nach Stufe der SF
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;24.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Präziser Schuss/Wurf
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;26.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;SF Kernschuss, SF Präziser Schuss/Wurf I, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;28.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;alle Fernkampftechniken
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;30.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;Machtvoller Sturmangriff
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;35.0;19;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Der Machtvolle Sturmangriff verstärkt nochmals die Auswirkungen des Aufeinanderprallens einer heranstürmenden Heldin mit ihrem Gegner.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;37.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;38.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Das Manöver
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;39.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Machtvoller Sturmangriff
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;40.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;kann nur durchgeführt werden, wenn die Angreiferin eine Anlaufstrecke von mindestens 2 Schritt hat und über eine GS von mindestens 4 verfügt. Die Bewegung ist Teil der Aktion, mit der man angreift. Ist der
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;41.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Machtvolle Sturmangriff
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;42.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;erfolgreich, steigen die TP um 2 und die halbe GS der Angreiferin. Dieser Angriff kann regulär abgewehrt werden. Sollte der Machtvolle Sturmangriff misslingen, sinkt der VW der Heldin bis zum Ende der nächsten KR um 2.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;43.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;44.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;–4
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;45.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;46.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;SF Sturmangriff, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;47.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;48.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Hiebwaffen, Schwerter, Stangenwaffen, Zweihandhiebwaffen, Zweihandschwerter
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;49.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;50.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;25 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;51.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;Nachladespezialist
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;52.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;53.0;19;-1.0;GMuH_Dampfende_Dschungel;1200;(Kampftechnik)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;54.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;55.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;56.0;19;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;57.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Unter den Waldmenschen und Utulus des Tiefen Südens gibt es wahre Experten im Umgang mit dem Blasrohr oder geworfenen Waffen. Diese Spezialisten können den Zeitpunkt zwischen Nachladen und Schießen oder Werfen beschleunigen, was ihnen einen entscheidenden Vorteil bringen kann.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;58.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;59.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Held mit dieser Sonderfertigkeit benötigt keine zusätzliche Aktion, um eine nachgeladene Waffe abzuschießen, sondern der Schuss oder Wurf
+PDType0Font/PDCIDFontType2, PostScript name: DGNHVS+GentiumBasic;false;false;60.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;findet gleichzeitig mit der letzten Aktion des Nachla
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;61.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;-dens statt. Diese Sonderfertigkeit muss für alle Fernkampftechniken einzeln erworben werden. Mehr zu den Ladezeiten siehe
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;62.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Regelwerk
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;63.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Seite
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;64.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;245
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;65.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;66.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;67.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;IN 13, SF Schnellladen (der jeweiligen Kampftechnik), passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;68.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;69.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Blasrohre, Wurfwaffen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;70.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;71.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;72.0;19;-1.0;GMuH_Dampfende_Dschungel;1300;Nervös machen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;73.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)Einige Kämpfer lieben es, ihre Gegner nervös zu ma-
+PDType0Font/PDCIDFontType2, PostScript name: DGNHVS+GentiumBasic;false;false;74.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;chen. Wer nervös ist, dem unterlaufen häufiger Fehler,
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;75.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;und genau das ist das Ziel dieser Fähigkeit, die man häu-
+PDType0Font/PDCIDFontType2, PostScript name: DGNHVS+GentiumBasic;false;false;76.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;fig bei Söldnern und Duellanten findet.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;77.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;78.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Durch ständige Provokationen, Gesten, Mimik und Gerede kann der Held einen ausgewählten Gegner in Hörreichweite nervös machen. Zu Beginn eines Kampfes legt der Provozierte eine Vergleichsprobe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;79.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft (Einschüchtern widerstehen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;80.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;gegen
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;81.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern (Provokation)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;82.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;des Helden ab. Gelingt die Probe des Helden, wird sein Gegner nervös: Solange der Held 1 freie Aktion zu Beginn einer KR dafür einsetzt, erhöht sich die Patzerwahrscheinlichkeit des angesprochenen Gegners um 5 % (normalerweise von 20 auf 19-20). Sollten andere Effekte die Patzerwahrscheinlichkeit
+PDType0Font/PDCIDFontType2, PostScript name: DGNHVS+GentiumBasic;false;false;83.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;ebenfalls beeinflus
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;84.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;-sen, so werden diese mit der Wirkung der Sonderfertigkeit entsprechend verrechnet. Wendet der Held keine freien Aktionen mehr auf, endet die Wirkung augenblicklich.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;85.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;86.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;87.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;88.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;89.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;90.0;19;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;91.0;19;-1.0;GMuH_Dampfende_Dschungel;900;Der maximale Bonus, der durch das Addieren der (halben) GS entstehen kann, ist die volle natürliche GS des Angreifers. Auch ein Bonus durch Zauber wie den AXXELERATUS kann nur so viele zusätzliche TP einbringen, bis die volle GS des Angreifers erreicht ist. Hat jemand beispielsweise eine GS von 8, würde er aufgrund der GS +4 TP anrichten. Dies kann durch den Zauber auf maximal +8 TP erhöht werden (den Wert der vollen, natürlichen GS), wenn der Angreifer entsprechend schnell ist. Zu diesen TP kommen noch die +2 TP des Manövers hinzu, für diese gilt die Grenze der natürlichen GS nicht.
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;20;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;2.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Offensives Verhalten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;3.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)Angriff ist die beste Verteidigung. So wurde es schon an der berühmten, mittlerweile untergegangenen Wehrheimer Akademie gelehrt. Eine Heldin kann versuchen, Offensiveinschränkungen bis zu einem gewissen Grad zu kompensieren, aber nur zu Lasten ihres Abwehrverhaltens.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;4.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;5.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Sollte die Heldin Erschwernisse auf ihre AT erlei-
+PDType0Font/PDCIDFontType2, PostScript name: ORKSJW+GentiumBasic;false;false;6.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;den, gleich welchen Ursprungs (bis auf Sichtmodifika
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;7.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;-toren), so kann sie durch ihr ausgezeichnetes Offensivverhalten entscheiden, 1 oder 2 Punkte Erschwernis zu ignorieren. Sollte mehr als 2 Punkte Erschwernis vorhanden sein, muss sie den Rest der Erschwernis hinnehmen. Für jeden Punkt Erschwernis, den sie ignorieren möchte, erleidet sie bis zum Ende der nächsten KR eine Erschwernis von –1 auf alle Verteidigungen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;8.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;9.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;MU 15, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;10.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;11.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;alle
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;12.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;13.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;14.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Reizen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;15.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)Ab und zu ist es sinnvoll, wenn eine Heldin die Angriffe eines Gegners oder einer größeren Kreatur auf sich lenkt, um
+PDType0Font/PDCIDFontType2, PostScript name: ORKSJW+GentiumBasic;false;false;16.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;ihren Kampfgefährten zu ermöglichen, zu fliehen oder an
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;-dere Angriffe vorzubereiten. Durch dieses Manöver kann man einen Gegner dazu bringen, von anderen abzulassen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Die Heldin kann versuchen, ihren Gegner zu reizen. Dazu muss ihr eine um –4 erschwerte AT gelingen und sie muss mindestens 1 SP bei dem Gegner verursachen, den sie reizen will. Gelingt dies, so müssen sich alle Angriffe des Gegners bis zum Ende der nächsten KR gegen die Heldin richten.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;20.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;22.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;23.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;alle Nahkampftechniken
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;24.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;26.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Schildstoß
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)Ein Schildstoß ermöglicht es dem Angreifer, den Verteidiger mehrere Schritt nach hinten zu drängen oder zu Fall zu bringen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;28.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Nach einer erfolgreichen und unparierten
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;30.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Schilde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;-AT stolpert der Getroffene 1W3 Schritte zurück. Für den Verteidiger ist eine gelungene Vergleichsprobe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;32.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Körperbeherrschung (Balance)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;gegen
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;34.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kraftakt (Drücken & Verbiegen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;notwendig, um nicht den Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;36.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Liegend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;37.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;zu erhalten. Jede Netto-QS des Angreifers treibt zudem den Verteidiger um 1 Schritt zusätzlich nach hinten. Der Verteidiger erhält bei einer unverteidigten Attacke mit dem Schildstoß TP/2 des Schilds als Schaden. Das Manöver lässt sich nur gegen Gegner der Größenkategorie
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;38.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;mittel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;39.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;oder kleiner einsetzen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;40.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;KK 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;42.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Schilde
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;44.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;8 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;46.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Schmerzwut
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;47.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(passiv)Bei einigen wilderen Kämpfern ist eine besondere Form des Angriffs verbreitet: die Schmerzwut. Sie stachelt den Kämpfer bei größeren Schmerzen für einen kurzen Zeitraum an und versetzt ihn in einen kleinen Kampfrausch, während dessen er besonders wütend und kraftvoll zuschlägt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;48.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;49.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Erleidet der Held mindestens 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;50.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Schmerz
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;51.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;, so bekommt er einen Bonus auf seine TP in Höhe seiner aktuellen Schmerzstufe. Der Bonus hält bis zu seiner nächsten AT oder bis zum Ende der nächsten KR an, je nachdem, was früher eintritt. Solange er den Bonus aufweist, erleidet er für seine AT keine Erschwernisse durch Schmerzstufen (für andere Handlungen aber durchaus).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;52.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;53.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;MU 13, passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;54.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;55.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;alle Nahkampftechniken
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;56.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;57.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;58.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Sprungtritt
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;59.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;60.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;61.0;20;-1.0;GMuH_Dampfende_Dschungel;800;WK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;62.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Sprungtritt ist ein gewagtes Manöver. Die Angreiferin kann damit enormen Schaden anrichten, allerdings geht sie ein hohes Risiko ein, in eine ungünstige Kampfposition zu geraten.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;63.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;64.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Die AT für einen Sprungtritt ist für die Heldin um –2 erschwert, dafür erhöhen sich die TP um 1W6. Wenn das Manöver misslingt, steht dem Verteidiger ein Passierschlag zu.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;65.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;66.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;–2
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;67.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;68.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;69.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;70.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Raufen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;71.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;72.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;20 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;73.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;Tiefe Wunde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;74.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;(Spezialmanöver)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;75.0;20;-1.0;GMuH_Dampfende_Dschungel;1300;
+PDTrueTypeFont HIIWXK+Andalus;false;false;76.0;20;-1.0;GMuH_Dampfende_Dschungel;800;BK
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;77.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Mit einer Klingenwaffe ist es Helden möglich, tiefe Wunden zu verursachen, die nachbluten können und den Gegner so schwächen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;78.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;79.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Wenn die um –2 erschwerte AT des Helden gelingt, die Verteidigung des Gegners misslingt und mindestens 1 SP verursacht wird, ist die Waffe tief in den Körper des Ziels eingedrungen. Dadurch erhält der Gegner den Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;80.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Blutend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;81.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;82.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Erschwernis
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;83.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;–2
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;84.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzungen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;85.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;passende Kampfstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;86.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Kampftechniken
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;87.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;alle (Waffe muss über eine spitze Klinge verfügen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;88.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;89.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;90.0;20;-1.0;GMuH_Dampfende_Dschungel;900;
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;91.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Die Schmerzwut ist auch kombinierbar mit dem Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;92.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Blutrausch
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;93.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;. Verfügt der Held über den Vorteil
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;94.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Zäher Hund
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;95.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;, muss er sich beim Erleiden der ersten Schmerzstufe entscheiden, ob er von der SF
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;96.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Schmerzwut
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;97.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;oder dem Vorteil
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;98.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;Zäher Hund
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;99.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;
+PDType0Font/PDCIDFontType2, PostScript name: EBUZHQ+GentiumBasic;false;false;100.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;profitieren will. Diese Ent
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;101.0;20;-1.0;GMuH_Dampfende_Dschungel;1000;-scheidung kann erst rückgängig gemacht werden, sobald er alle Schmerzstufen abgebaut hat.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;1.0;21;-1.0;GMuH_Dampfende_Dschungel;1300;Materielle Verbindung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;2.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Eine materielle Verbindung erlaubt es, den Willen und die Widerstandskraft gegen Magie bei einem Ziel zu schwächen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Verfügt der Zauberer über eine körperliche Komponente seines Ziels (ein Büschel Haare, eine kleine Phiole Blut usw.), dann sinken SK und ZK des Ziels um 1 Punkt gegen Zauber und magische Handlungen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Vorteil Zauberer
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;7.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;9.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Statuts Blutend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Den Status bekommt ein Held durch tiefe, klaffende Wunden oder kritische Treffer. Wenn ein Held den Status erhält, muss eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;11.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Selbstbeherrschung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;abgelegt werden. Der Status dauert 7–QS KR lang an und beginnt augenblicklich. Ein Patzer verdoppelt die Dauer, ein Kritischer Erfolg stoppt die Blutung sofort. Am Ende jeder KR, die der Staus andauert, erhält der Held 1 SP durch starke Nachblutungen.Um den Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;13.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Blutend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;vorzeitig zu beenden, kann der betroffene Held oder einer seiner Gefährten zusätzlich eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;15.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Heilkunde Wunden
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;erleichtert um +2 ablegen. Die Probe erfordert 1 Aktion und reduziert die Anzahl der KR um QS/2.Ein Held kann nicht gleichzeitig mehrfach unter dem Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;17.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Blutend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;18.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;leiden. Erhält er, während er noch unter dem Status leidet, diesen ein weiteres Mal, muss erneut eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;19.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Selbstbeherrschung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;20.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;gewürfelt werden. Nur der länger anhaltende Status
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;21.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Blutend
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;22.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;zählt.
+PDTrueTypeFont HIIWXK+Andalus;false;false;23.0;21;-1.0;GMuH_Dampfende_Dschungel;1800;Allgemeine magische SonderfertigkeitenZauberstilsonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;24.0;21;-1.0;GMuH_Dampfende_Dschungel;1300;Geisterseherinnen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;(Schwarze Witwen)Die Geisterseherinnen unter den Schwarzen Witwen haben sich ganz den Geistern verschrieben. Keine andere Schwarze Witwe ist derart gut darin, Geisterwesen zu rufen oder zu beherrschen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;26.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Proben auf Gesellschaftstalente gegenüber Geisterwesen sind um +1 erleichtert.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;28.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Geisterfreundin, Geistermedium, Giftmeisterin
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;30.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Hexen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;21;-1.0;GMuH_Dampfende_Dschungel;1300;Reisende
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;(Fahrende Schwesternschaft)Die Reisenden unter den Affenhexen sind meistens nicht mit Gauklern unterwegs, sondern reisen mit ihrem Vertrauten allein oder mit einer Gruppe von Abenteurern durch Aventurien, immer auf der Suche nach dem nächsten Abenteuer. Aus diesem Grund sind sie
+PDType0Font/PDCIDFontType2, PostScript name: EVRJPQ+GentiumBasic;false;false;36.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;sehr flexibel in ihrer Zauberei und haben gelernt, ihre Zaubersprüche deutlich häufiger zu verändern, als dies
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;37.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;andere Hexen tun.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;38.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDType0Font/PDCIDFontType2, PostScript name: EVRJPQ+GentiumBasic;false;false;39.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Reisende können bei Zaubern der Verbreitung Hexen immer eine Modifikation mehr durchführen, als sie eigentlich durch den FW des Zaubers dürften.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;40.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Brillanter Telekinetiker, Kesselmeisterin, Meisterliches Auraverbergen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;42.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Hexen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;44.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;21;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;22;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;2.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Sumpfhexen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;3.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;(Töchter der Erde)
+PDType0Font/PDCIDFontType2, PostScript name: FLXCDO+GentiumBasic;false;false;4.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Kaum eine andere Hexe gilt als so furchteinflößend wie
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;5.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;die Sumpfhexe. Sie kann mittels ihres Blickes Menschen einschüchtern.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;6.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;7.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Sumpfhexen sind darin gut, ihren Mitmenschen Angst einzujagen. Sie können für 4 AsP und 1 Aktion eine Vergleichsprobe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;8.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Einschüchtern (Drohung)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;9.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;gegen
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;10.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft (Einschüchtern widerstehen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;11.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;gegen einen Kulturschaffenden ablegen, der maximal 7 Schritt entfernt sein darf. Gelingt ihnen die Probe, erleidet der Kulturschaffende 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;12.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Furcht
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;13.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;. Kein Kulturschaffender kann durch diese Fähigkeit mehr als 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;14.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Furcht
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;15.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;erhalten. Diese Fähigkeit funktioniert nur gegenüber Kulturschaffenden mit SK 2 oder weniger.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;16.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Bewanderter Heilzauberer, Langer Fluch, Giftmeisterin
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Hexen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;20.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;22.0;22;-1.0;GMuH_Dampfende_Dschungel;1800;Erweiterte Zaubersonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;23.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Bewanderter Heilzauberer
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;24.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Besitzer dieser Sonderfertigkeit sind darin geschult, Heilzauber äußerst effektiv anzuwenden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;25.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;26.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Zauber des Merkmals Heilung erhalten bei einer gelungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;27.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;28.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;29.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;30.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;25 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;31.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Brillanter Telekinetiker
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;32.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Der Zauberer ist in speziellem Maße dazu befähigt, Zauber der Telekinese zu weben.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;33.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;34.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Zauber des Merkmals Telekinese erhalten bei einer gelungenen Probe +1 FP (bis zu einem Maximum von 18 FP).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;35.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;36.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;37.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;38.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;25 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;39.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Geisterfreundin
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;40.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Wer sich als Geisterfreundin bezeichnet, ist bewandert im Umgang mit den Toten und kann darauf vertrauen, dass diese eher bereit sind, auf Vorschläge einzugehen, und sich viel eher für die Sache der Hexe gewinnen lassen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;41.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;42.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Proben auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;43.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Überreden (Aufschwatzen, Herausreden, Manipulieren
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;44.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;oder
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;45.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Schmeicheln)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;46.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;, um Geister freundlich zu stimmen, gelten bei Gelingen der Probe als um 1 QS besser (bis zu einem Maximum von 6 QS) und gewähren der Hexe 1 zusätzliche Bitte.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;47.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;48.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;49.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;50.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;51.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Geistermedium
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;52.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Hexen sind als ausnehmend gute Medien für Geister bekannt und werden so zu Meisterinnen darin, solche Wesen in sich einfahren zu lassen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;53.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;54.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Die Hexe kann ein Geisterwesen, das sich maxi-
+PDType0Font/PDCIDFontType2, PostScript name: DQWQBS+GentiumBasic;false;false;55.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;mal in einem Radius von 10 Schritt um sie befinden
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;56.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;darf, in sich einfahren lassen. Dies kostet 5 Aktionen. Die Hexe hat keine Kontrolle über sich, solange sie von dem Geist besessen ist. Der Geist ersetzt ihre geistigen Eigenschaften durch seine und handelt in ihrem Körper so, wie er es wünscht. Spätestens nach 5 Minuten verlässt der Geist den Körper wieder. Jede volle Minute kann die Hexe eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;57.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;58.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;ablegen. Bei Gelingen vertreibt sie den Geist wieder aus ihrem Körper.Während der Besessenheit sind die Gesichtszüge der Hexe entstellt und unheimlich, gleich ob der Geist gute oder schlechte Absichten hegt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;59.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;60.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;61.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;62.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;63.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Giftmeisterin
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;64.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Eine Giftmeisterin unter den Hexen weiß schädliche
+PDType0Font/PDCIDFontType2, PostScript name: ZFUNXA+GentiumBasic;false;false;65.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Substanzen und Gifte effizient herzustellen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;66.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;67.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Hexen mit dieser Sonderfertigkeit können bei allen durch
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;68.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Alchimie
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;69.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;hergestellten Giften und Elixie-
+PDType0Font/PDCIDFontType2, PostScript name: ZFUNXA+GentiumBasic;false;false;70.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;ren, die spieltechnische Werte negativ beeinflussen, 4 zusätzliche AsP in das Erzeugnis fließen lassen, um
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;71.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;eine weitere Erleichterung von +1 zu erhalten (siehe
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;72.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regelwerk
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;73.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Seite
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;74.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;271
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;75.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;76.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;77.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;78.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;79.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;5 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;80.0;22;-1.0;GMuH_Dampfende_Dschungel;1300;Kesselmeisterin
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;81.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Viele Hexen verfügen über einen Zauberkessel. Einige unter den Töchtern Satuarias sind aber ganz besonders bewandert darin, die Kräfte des Kessels zu nutzen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;82.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;83.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Eine Hexe mit dieser Sonderfertigkeit kann eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;84.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Lebensmittelbearbeitung (Brauen)
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;85.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;ablegen, wenn sie Tränke, Salben oder Suppen in ihrem Hexenkessel zubereitet. Gelingt ihr die Probe, kann sie QS/2 der folgenden Optionen wählen: Die Dauer der Herstellung wird halbiert. Die Hexe hat die doppelte Menge zubereitet. Das Gekochte ist doppelt so lange haltbar wie üblich.Die Hexe kann jede Option nur einmal wählen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;86.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;87.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;88.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;89.0;22;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;1.0;23;-1.0;GMuH_Dampfende_Dschungel;1300;Langer Fluch
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;2.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Manchen Hexen ist es wichtig, dass ihre Flüche enorm lang wirken. Mit dieser Sonderfertigkeit können sie Flüche verlängern, sodass ihre Opfer länger daran leiden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;3.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;4.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Fluch, den die Hexe ausspricht, wirkt um 1 QS länger als üblich (bis zu einem Maximum von 6 QS).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;5.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;6.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;7.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;8.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;9.0;23;-1.0;GMuH_Dampfende_Dschungel;1300;Meisterliches Auraverbergen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;10.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Zauberer sind so darauf bedacht, nicht als Zauberkundige entlarvt zu werden, dass sie Techniken entwickelt haben, um ihre magische Aura noch besser zu verbergen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;11.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;12.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Das Meisterliche Auraverbergen funktioniert wie die Sonderfertigkeit
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;13.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Aura verbergen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;14.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;, mit folgenden Ausnahmen: Während der Held die Sonderfertigkeit aktiviert hat, kann er zaubern und Zauber aufrechterhalten. Beim Ausschalten der Aura steht ihm eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;15.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Willenskraft
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;16.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;zu, bei deren Gelingen er keine Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;17.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Verwirrung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;18.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;erleidet.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;19.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;20.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;SF Aura verbergen, passende Zauberstil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;21.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;22.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;23.0;23;-1.0;GMuH_Dampfende_Dschungel;1800;Liturgiestilsonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;24.0;23;-1.0;GMuH_Dampfende_Dschungel;1300;Geisterführer
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Einige Schamanen besitzen ein besonderes Gespür für Geister und die Geisterwelt, sodass es ihnen leichtfällt, diese zu rufen, aber auch zu verbannen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;26.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Der Geisterführer erhält bei allen Fertigkeitsproben, die sich mit dem Beschwören, Verbannen oder Kommunizieren mit Geistern befassen, +1 FP (bis zu einem Maximum von 18 FP).Allerdings muss ihm bei einer gelungenen Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;28.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Tierkunde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;und
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;30.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Wildnisleben
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;1 FP abgezogen werden (bis zu einem Minimum von 0 FP).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Bannmeister, Geistergefäß, Omen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Tahaya-Schamanen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;36.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;37.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;38.0;23;-1.0;GMuH_Dampfende_Dschungel;1300;Medizinleute
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;39.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Der Begriff der Medizinleute bezeichnet Schamanen, deren Stärke auf der Heilung von Körper und Geist basiert. Sie kennen sich mit zahlreichen Methoden aus, um einen Patienten wieder gesunden zu lassen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;40.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Der Medizinmann erhält bei allen Fertigkeitsproben, die sich mit Heilkunst befassen, gleich ob profaner oder karmaler Art, +1 FP (bis zu einem Maximum von 18 FP).Allerdings muss ihm bei einer gelungenen Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;42.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Magiekunde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;,
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;44.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Sphärenkunde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;und
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;46.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Sternkunde
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;47.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;1 FP abgezogen werden (bis zu einem Minimum von 0 FP).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;48.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;49.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Gesunder Geist, gesunder Körper, Heilritus, Omen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;50.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;51.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Tahaya-Schamanen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;52.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;53.0;23;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;1.0;24;-1.0;GMuH_Dampfende_Dschungel;1200;Glaube, Macht & Heldenmut - Die Dampfenden Dschungel
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;2.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Bannmeister
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;3.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Wer sich näher mit Geistern (und Dämonen) beschäftigt, insbesondere Schamanen, vermag diese Wesen auch leichter zu vertreiben.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;4.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;5.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Der Geweihte erhält beim Bannen von Geistern und Dämonen eine Erleichterung von +1.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;6.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;7.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;passende Liturgiestil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;8.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;9.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;10.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Geistergefäß
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;11.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Berühmt sind die Geistergefäße der Schamanen, in die sie Geister einschließen können, um sie unschädlich zu machen. Mit dieser Fähigkeit kann ein solches Geistergefäß erschaffen werden.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;12.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;13.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Der Geweihte kann ein Objekt von der Größe einer typischen Vase zu einem Geistergefäß machen. Wichtig ist, dass das Gefäß verschließbar ist, also z. B. über einen Deckel verfügt. Um das Geistergefäß für seinen Einsatz vorzubereiten, benötigt der Geweihte 4 Stunden. In dem Gefäß kann ein Geist eingeschlossen werden, sofern er sich in das Gefäß begibt oder man ihn dazu zwingt, z. B. mit einer Zeremonie, und es verschlossen wird. Ein eingeschlossener Geist kann das Geistergefäß solange nicht verlassen, bis der Deckel oder Verschluss geöffnet wird.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;14.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;15.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;passende Liturgiestil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;16.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;17.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;12 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;18.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Gesunder Geist, gesunder Körper
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;19.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Ein Patient, dessen Geist gesund und stabil ist, wird auch körperliche Leiden schneller überstehen können.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;20.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;21.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Diese Sonderfertigkeit eröffnet eine neue Einsatzmöglichkeit im Talent
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;22.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Heilkunde Seele
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;23.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;. Der Geweihte kann nach einer gelungenen Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;24.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Heilkunde Wunden
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;25.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;oder einer Liturgie oder Zeremonie, die mindestens 5 volle LeP wiedergegeben hat, eine Probe auf
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;26.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Heilkunde Seele
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;27.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;ablegen und dem Verletzten zusätzlich QS/2 LeP heilen. Der Einsatz dieser Sonderfertigkeit verursacht 1 Stufe
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;28.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Trance
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;29.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;(beim Geweihten).
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;30.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;31.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Bannmeister, Geistergefäß, Omen
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;32.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;33.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;SF Tradition (Tahaya-Schamanen)
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;34.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;35.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;15 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;36.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Heilritus
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;37.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;So manch eine Schamanin wurde bereits dabei beobachtet, wie sie mittels überlieferter Riten und tradierter Anrufungen Verwundete auf wundersame Weise genesen lässt.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;38.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;39.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Die Geweihte kann Karmaenergie einsetzen, um
+PDType0Font/PDCIDFontType2, PostScript name: NHIABY+GentiumBasic;false;false;40.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;durch Handauflegen und einen längeren Ritus von 30
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;41.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Minuten ein Lebewesen zu heilen. Für jeweils 2 KaP, welche die Geweihte einsetzt, erhält ihr Ziel 1 LeP zurück (bis zu ihrem LE-Maximum). Für den Einsatz dieser Fähigkeit ist keine Probe notwendig und es gibt keine Begrenzung, wie viele ihrer KaP die Geweihte einsetzen kann.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;42.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;43.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;passende Liturgiestil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;44.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;45.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;10 Abenteuerpunkte
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;46.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Omen
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;47.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Viele Geweihte sind dazu in der Lage, ein Omen zu erkennen und daraus die richtigen Schlüsse zu ziehen. So können sie ihre Handlungen zielgerichteter einsetzen und ihrer Gottheit besser dienen.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;48.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Regel
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;49.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Durch diese Sonderfertigkeit kann eine Geweihte ihr Karma dazu einsetzen, bei einer gelungenen Probe auf ein wohlgefälliges Talent das Ergebnis zu verbessern. Pro 5 KaP kann 1 FP hinzugewonnen werden (bis zu einem Maximum von insgesamt 18 FP). Maximal können so 20 KaP verwendet werden. Hierunter zählen keine Kampftechniken, auch wenn sie bei den wohlgefälligen Talenten aufgezählt sind. Bei Sammelproben gilt der Bonus nur für einen Versuch.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;50.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;Voraussetzung
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;51.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;passende Liturgiestil-SF
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;52.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;AP-Wert
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;53.0;24;-1.0;GMuH_Dampfende_Dschungel;1000;20 Abenteuerpunkte
+PDTrueTypeFont HIIWXK+Andalus;false;false;54.0;24;-1.0;GMuH_Dampfende_Dschungel;1800;Erweiterte Liturgiesonderfertigkeiten
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;55.0;24;-1.0;GMuH_Dampfende_Dschungel;1300;Neuer Zustand Trance
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;56.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Bei der
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;57.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Trance
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;58.0;24;-1.0;GMuH_Dampfende_Dschungel;900;handelt es sich um eine Form der leichten Entrückung. Sie tritt meist bei der Nutzung von Zeremonialgegenständen oder dem Einsatz von einigen Sonderfertigkeiten auf.
+PDTrueTypeFont BULHRW+GentiumBasic-Italic;false;true;59.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Trance
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;60.0;24;-1.0;GMuH_Dampfende_Dschungel;900;baut sich alle 24 Stunden um 1 Stufe ab.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;61.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Trance TrancestufenAuswirkungStufe I
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;62.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Der Held spürt die Nähe seines Gottes, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;63.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Stufe II
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;64.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Alle Proben, außer auf Liturgien und wohlgefällige Talente, sind um –2 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;65.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Stufe III
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;66.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Alle Proben (auch Liturgien und wohlgefällige Talente) sind um –3 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+PDTrueTypeFont JMUZBL+GentiumBasic-Bold;true;false;67.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Stufe IV
+PDTrueTypeFont GFGHLR+GentiumBasic;false;false;68.0;24;-1.0;GMuH_Dampfende_Dschungel;900;Handlungsunfähig<br> Eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.

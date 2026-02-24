@@ -9,6 +9,7 @@ public class SaSpecialRequirementsToggle {
     public boolean isElementalBinding = false;
     public boolean isElementalTrueName = false;
     public boolean isFairyBinding = false;
+    public boolean isDauerhafteGolems = false;
 
     public SaSpecialRequirementsToggle(String name, String publication) {
         this.isAuthor = name.equals("Schriftstellerei");
@@ -19,6 +20,7 @@ public class SaSpecialRequirementsToggle {
         this.isElementalBinding = name.equals("Bindung") && publication.equals("Aventurisches_Elementarium");
         this.isElementalTrueName = name.equals("Wahrer Name") && publication.equals("Aventurisches_Elementarium");
         this.isFairyBinding = name.equals("Bindung (Feen)");
+        this.isDauerhafteGolems = name.equals("Dauerhafte Golems");
     }
 
     public boolean isBaseRequirement() {

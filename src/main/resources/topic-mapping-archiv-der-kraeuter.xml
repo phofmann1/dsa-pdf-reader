@@ -1,0 +1,88 @@
+<topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>169</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>73</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>169</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>73.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>176</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>81</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>178</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>98</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>18</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>178</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>98.1</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+        </params>
+    </strategy>
+</topic-strategies>

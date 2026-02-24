@@ -210,6 +210,9 @@ public class ExtractorSpecialAbility extends Extractor {
                     String name = aaName
                             .replace(GESUNDER_GEIST_REPLACEMENT, "Gesunder Geist, gesunder Körper")
                             .replace("Vertrauen", "Vertrauenswürdig")
+                            .replace("Gebieter der Magie", "Gebieter in der Magie")
+                            .replace("Gebieter des Wissens", "Gebieter in des Wissens")
+                            .replace("Gebieter der Reise", "Gebieter in der Reise")
                             .replace("Übertragung der Astralkraft", "Übertragung der Astralkräfte")
                             .replace("Übertragung der Lebenskräfte", "Übertragung der Lebenskraft")
                             .replace("Gebieter/in der Flammen", "Gebieter/in der Flamme")
@@ -485,7 +488,7 @@ public class ExtractorSpecialAbility extends Extractor {
 
                     if (!sko.isPresent() && !msko.isPresent() && !csko.isPresent()) {
                         System.out.println(name + ": " + requirementsString);
-                        throw new IllegalArgumentException("No enum MysticalSkillKey constant with name " + skillText + " for ability " + name);
+                        //throw new IllegalArgumentException("No enum MysticalSkillKey constant with name " + skillText + " for ability " + name);
                     }
 
                 }

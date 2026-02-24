@@ -43,7 +43,10 @@ public enum EquipmentCategoryKey
   kräuter,
   biere,
   weine,
-  spirituosen;
+  spirituosen,
+  alchimistische_zutaten,
+  gifte,
+  drogen;
 
   @JsonValue
   public int toValue() {

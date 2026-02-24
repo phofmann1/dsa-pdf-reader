@@ -396,7 +396,8 @@ public enum SkillUsageKey
   tierheilkunde,
   tierkrankheiten_behandeln,
   mechanische_konstrukte_herstellen,
-  fallen_herstellen;
+  fallen_herstellen,
+  edelsteinschleifen;
 
   @JsonValue
   public int toValue() {

@@ -154,7 +154,7 @@ public class LoadToBoon {
         new RequirementBoon(BoonKey.hass_auf_x, false, "Kobolde"),
         new RequirementBoon(BoonKey.schlechte_eigenschaft, false, BoonVariantKey.persönlichkeitsschwäche_vorurteile, "Kobolde")
     ));
-    put(BoonKey.richtungssinn, List.of(new RequirementBoon(BoonKey.unfähig, false, true)));
+    put(BoonKey.richtungssinn, List.of(new RequirementBoon(BoonKey.unfähig, false, SkillKey.orientierung)));
     put(BoonKey.tierfreund, List.of(new RequirementBoon(BoonKey.hass_auf_x, false, true)));
     put(BoonKey.blind, List.of(
         new RequirementBoon(BoonKey.herausragender_sinn, false, BoonVariantKey.herausragender_sinn_sicht),

@@ -615,6 +615,10 @@ public class LoadToProfession {
           }
         }
 
+        if(variant.key == ProfessionKey.kartograph_in) {
+          System.out.println(variant.name);
+        }
+
         varMatcher = Pattern.compile("(?<=^\\(|^)\\d+(?= AP\\):)").matcher(variantString);
         if (varMatcher.find()) {
           variant.apValue = Integer.parseInt(varMatcher.group());
@@ -759,19 +763,30 @@ public class LoadToProfession {
               final int firstValue = (vm.find())
                   ? Integer.valueOf(vm.group())
                   : 0;
+              final int secondValue = (vm.find())
+                  ? Integer.valueOf(vm.group())
+                  : 0;
 
               if (isSkillKey) {
-                variant.skillChanges = variant.skillChanges.stream().map(sc -> {
-                      if (skillReplacedName == null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
-                        sc.valueChange = firstValue;
-                      }
-                      else if (skillReplacedName != null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
-                        sc.valueChange = firstValue;
-                        sc.skillKey = ExtractorSkill.retrieveSkillKey(skillName.trim());
-                      }
-                      return sc;
-                    }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
-                    .collect(Collectors.toList());
+                if(secondValue == 0 ){
+                  ValueChange nvc = new ValueChange();
+                  nvc.key = ValueChangeKey.skill;
+                  nvc.type = ValueChangeType.value;
+                  nvc.valueChange = firstValue;
+                  nvc.skillKey = ExtractorSkill.retrieveSkillKey(skillName.trim());
+                  variant.skillChanges.add(nvc);
+                }else {
+                  variant.skillChanges = variant.skillChanges.stream().map(sc -> {
+                            if (skillReplacedName == null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillName) && sc.type == ValueChangeType.value)) {
+                              sc.valueChange = firstValue;
+                            } else if (skillReplacedName != null && (sc.skillKey == ExtractorSkill.retrieveSkillKey(skillReplacedName.trim()) && sc.type == ValueChangeType.value)) {
+                              sc.valueChange = firstValue;
+                              sc.skillKey = ExtractorSkill.retrieveSkillKey(skillName.trim());
+                            }
+                            return sc;
+                          }).filter(sc -> sc.type != ValueChangeType.value || sc.valueChange > 0)
+                          .collect(Collectors.toList());
+                }
               }
 
               if (isCombatSkillKey) {

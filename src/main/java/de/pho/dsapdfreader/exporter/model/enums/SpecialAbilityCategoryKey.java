@@ -53,7 +53,8 @@ public enum SpecialAbilityCategoryKey
   tradition_shaman,
   mixed,
   pact_elemental,
-  pact_fairy;
+  pact_fairy,
+  homunculus;
 
   @JsonValue
   public int toValue() {

@@ -1,0 +1,890 @@
+FONT;ISBOLD;ISITALIC;ONLINE;ONPAGE;ORDER;PUBLICATION;SIZE;TEXT
+PDTrueTypeFont VHKVVX+Andalus;false;false;1.0;139;-1.0;Arkane_Schmiede;2900;ALCHIMISTISCHE REZEPTE
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;2.0;139;-1.0;Arkane_Schmiede;1000;Heilmittel
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;3.0;139;-1.0;Arkane_Schmiede;1000;Hierunter fällt alles, was LeP, AsP oder andere verlorene Werte wiederherstellt, sowie Gegengifte.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;4.0;139;-1.0;Arkane_Schmiede;1000;Gifte
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;5.0;139;-1.0;Arkane_Schmiede;1000;Alles, was Schaden verursacht und/oder über Zustände, Status oder Nachteile schwächt, fällt in diese Kategorie, auch Rauschmittel.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;6.0;139;-1.0;Arkane_Schmiede;1000;Physische Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;7.0;139;-1.0;Arkane_Schmiede;1000;Alle Alchimika, die auf den Körper wirken und seine Fähigkeiten oder Eigenschaften verändern.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;8.0;139;-1.0;Arkane_Schmiede;1000;Psychische Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;9.0;139;-1.0;Arkane_Schmiede;1000;Alle Alchimika, die auf den Geist wirken und seine Fähigkeiten oder Eigenschaften verändern.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;10.0;139;-1.0;Arkane_Schmiede;1000;Nützliches
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;11.0;139;-1.0;Arkane_Schmiede;1000;Alchimika, die allgemein nützlich in der Anwendung sind und eine Vielzahl von Effekten hervorrufen, die von keinem anderen Typ abgedeckt werden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;12.0;139;-1.0;Arkane_Schmiede;1000;Übernatürliches
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;13.0;139;-1.0;Arkane_Schmiede;1000;Alchimika, die spezielle, göttliche, dämonische oder magische Wirkungen haben (Alchimie der Sonne etc.).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;14.0;139;-1.0;Arkane_Schmiede;1300;Alkahest
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;15.0;139;-1.0;Arkane_Schmiede;1000;Alternativer Name
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;139;-1.0;Arkane_Schmiede;1000;KaiserwasserDiese legendäre Säure ist noch stärker als Königswasser und in der Lage, alles zu zerfressen. Weder vor Glas noch Edelmetallen macht sie halt, sogar magische Metalle werden zerstört. Lediglich
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;17.0;139;-1.0;Arkane_Schmiede;1000;Schalen der Alchimie
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;139;-1.0;Arkane_Schmiede;1000;und
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;19.0;139;-1.0;Arkane_Schmiede;1000;Hexenkessel
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;139;-1.0;Arkane_Schmiede;1000;können dem Alkahest widerstehen. Es gibt zahlreiche Rezepturen, die nie zuverlässig funktionieren, doch das eigentliche Problem besteht in der Handhabung der beständig blubbernden und spritzenden Säure.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;21.0;139;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;139;-1.0;Arkane_Schmiede;1000;verschiedene starke Säuren, verschiedene Gifte, Speichel eines Kaiserdrachen, Basilamine, Saft der Naftanstaude, Vitriol, Wühlschrat-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;23.0;139;-1.0;Arkane_Schmiede;1000;zähne, flüssige Lava, Staub eines im Krieg zerstörten
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;139;-1.0;Arkane_Schmiede;1000;Bauwerks, Späne einer Waffe, die mit königlichem Blut benetzt wurde, Diamantstaub
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;139;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;139;-1.0;Arkane_Schmiede;1000;400 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;139;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;139;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;29.0;139;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;139;-1.0;Arkane_Schmiede;1000;–6
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;31.0;139;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;139;-1.0;Arkane_Schmiede;1000;magisch verstärkte Braugefäße
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;139;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;139;-1.0;Arkane_Schmiede;1000;12 AP (Voraussetzung: Alchimie 14)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;35.0;139;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W3 Schritt für die nächsten 1W6 KR an allem 2W6 + 2 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;37.0;139;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W3 + 1 Schritt für die nächsten 2W6 KR an allem 2W6 + 4 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;139;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W3 + 2 Schritt für die nächsten 4W6 KR an allem 3W6 + 6 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;41.0;139;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W3 + 3 Schritt für die nächsten 6W6 KR an allem 4W6+8 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;43.0;139;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W6 + 2 Schritt für die nächsten 8W6 KR an allem 5W6 + 10 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;139;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 1W6 + 4 Schritt für die nächsten 10W6 KR an allem 6W6 + 12 Strukturschaden/SP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;47.0;139;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;48.0;139;-1.0;Arkane_Schmiede;1000;Das Alkahest verursacht in einem Radius von 2W6 + 8 für die nächsten 12W6 KR an allem 6W6 + 20 Strukturschaden/SP. Nur der Alchimist bleibt die ersten 1W6 KR unversehrt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;49.0;139;-1.0;Arkane_Schmiede;1000;Wirkungstypen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;139;-1.0;Arkane_Schmiede;1000;Die Wirkung von Alchimika lässt sich grob in Kategorien einteilen. Diese werden durch Symbole kenntlich gemacht, um dir die Suche zu erleichtern:
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;140;-1.0;Arkane_Schmiede;1300;Anderswelt-Lidschatten
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;140;-1.0;Arkane_Schmiede;1000;Tore und Wesen der Feenwelten undglobulen macht dieser puderähnliche Lidschatten sichtbar. Der Anwender trägt ihn mit einem feinen Pinsel ebenmäßig vom oberen Wimpernkranz bis unter die Augenbrauen auf.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;3.0;140;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;140;-1.0;Arkane_Schmiede;1000;Feenkäppchen-Pilz, Menchal-Blüten, Morgentau, eine bunte Murmel, Neckerkraut, Kairanrohr, Wasser des Neunaugensees
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;5.0;140;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;140;-1.0;Arkane_Schmiede;1000;25 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;140;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;140;-1.0;Arkane_Schmiede;1000;archaisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;9.0;140;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;140;-1.0;Arkane_Schmiede;1000;–1
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;11.0;140;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;12.0;140;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;13.0;140;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;14.0;140;-1.0;Arkane_Schmiede;1000;3 AP (Voraussetzung: Alchimie 4)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;15.0;140;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;140;-1.0;Arkane_Schmiede;1000;Nach dem Anwenden werden Eingänge von Feentoren undglobulen für 10 Minuten sichtbar. Sie leuchten in einem leicht irisierenden Licht.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;17.0;140;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;140;-1.0;Arkane_Schmiede;1000;wie QS 1, aber für 30 Minuten
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;19.0;140;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;140;-1.0;Arkane_Schmiede;1000;wie QS 2, aber für 1 Stunde<br> Weiterhin sind auch
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;21.0;140;-1.0;Arkane_Schmiede;1000;Pflanzen, Bäume, Sträucher sowie Gewässer erkenn
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;140;-1.0;Arkane_Schmiede;1000;-bar, in denen sich Feen aufhalten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;23.0;140;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;140;-1.0;Arkane_Schmiede;1000;wie QS 3, aber für 4 Stunden<br> Zusätzlich leuchten Feenpfade undwesen im Licht auf.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;140;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;140;-1.0;Arkane_Schmiede;1000;wie QS 4, aber für 8 Stunden<br> Die Sicht erweitert sich auf alle Objekte und Wesen aus der Anderswelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;140;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;140;-1.0;Arkane_Schmiede;1000;wie QS 5, aber für 12 Stunden. Des Weiteren erhält man zeitweise den Vorteil
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;29.0;140;-1.0;Arkane_Schmiede;1000;Feenfreund
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;140;-1.0;Arkane_Schmiede;1000;(Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;31.0;140;-1.0;Arkane_Schmiede;1000;Überreden
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;140;-1.0;Arkane_Schmiede;1000;, um Feen freundlich zu stimmen, gelten bei Gelingen der Probe als um 1 QS besser. Allerdings kann sich so die QS nie über 6 hinaus erhöhen.).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;140;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;140;-1.0;Arkane_Schmiede;1000;wie QS 6, aber für 24 Stunden<br> Der Anwender leidet für den Rest des Tages an schnell wechselnden Augenfarben (wie Nachteil
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;35.0;140;-1.0;Arkane_Schmiede;1000;Stigma
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;140;-1.0;Arkane_Schmiede;1000;,
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;37.0;140;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;140;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;140;-1.0;Arkane_Schmiede;1000;178
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;140;-1.0;Arkane_Schmiede;1000;).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;41.0;140;-1.0;Arkane_Schmiede;1300;Bannstaub
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;140;-1.0;Arkane_Schmiede;1000;Das Pulver verursacht seine Wirkung bei Hautkontakt und muss auf ein Ziel geworfen werden. Dazu ist eine Probe auf die Kampftechnik
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;43.0;140;-1.0;Arkane_Schmiede;1000;Wurfwaffen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;140;-1.0;Arkane_Schmiede;1000;notwendig, die
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;45.0;140;-1.0;Arkane_Schmiede;1000;wie üblich modifiziert wird (Reichweite: 3/4/5, wenn als
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;140;-1.0;Arkane_Schmiede;1000;Pulver in der Hand<br> 5/10/15, wenn als Beutelchen). Um geworfenem Staub auszuweichen, muss dem Beworfenen eine Probe auf Ausweichen gelingen. Auch hier gel-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;47.0;140;-1.0;Arkane_Schmiede;1000;ten die üblichen Modifikatoren für Ausweichen im Fern
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;48.0;140;-1.0;Arkane_Schmiede;1000;-kampf. Es spielt dabei keine Rolle, ob sich der Bannstaub
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;49.0;140;-1.0;Arkane_Schmiede;1000;in der Hand des Werfenden befindet oder in einem sich
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;140;-1.0;Arkane_Schmiede;1000;beim Aufprall öffnenden Säckchen. Die Wirkung von Bannstaub setzt augenblicklich ein. Bannstaub kann außerdem in Flüssigkeit gelöst als Einnahmegift verabreicht werden, schmeckt aber recht bitter, was das Unterfangen nicht einfach macht. Wenn der Bannstaub bei seiner Wirkung die Regeneration von AsP verhindert, dann ist damit der Zurückgewinn während der Regenerationsphase gemeint.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;51.0;140;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;52.0;140;-1.0;Arkane_Schmiede;1000;Bernstein, Koschbasalt, Nitriol, die Eierschale eines am 1. Praios geschlüpften Hahns, Greifenfedern, Eisenpulver, durch Sonnenhitze destilliertes Regenwasser, reines Salz, Brabaker Vitriol, Gold, Harn vom Sonnenluchs, frische Blütenblätter der Praiosblume (Sonnenblume), Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;53.0;140;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;54.0;140;-1.0;Arkane_Schmiede;1000;400 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;140;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;140;-1.0;Arkane_Schmiede;1000;archaisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;140;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;140;-1.0;Arkane_Schmiede;1000;–4
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;59.0;140;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;60.0;140;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;61.0;140;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 1W6 + 2 AsP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;63.0;140;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 2W6 + 4 AsP und kann 1 Tag lang keine AsP regenerieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;65.0;140;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 3W6 + 6 AsP und kann 1W2 + 1 Tage lang keine AsP regenerieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;67.0;140;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;68.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 4W6+ 8 AsP und kann 1W3 + 2 Tage lang keine AsP regenerieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;69.0;140;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;70.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 5W6 + 10 AsP und kann 1W3 + 3 Tage lang keine AsP regenerieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;71.0;140;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 6W6 + 12 AsP und kann 2W3 + 3 Tage lang keine AsP regenerieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;73.0;140;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;74.0;140;-1.0;Arkane_Schmiede;1000;Das Opfer des Bannstaubs verliert sofort 8W6 + 20 AsP und kann 3W6 + 10 Tage lang keine AsP regenerieren. Sollten mehr AsP abgezogen werden als vorhanden sind, müssen erst wieder so viele AsP regeneriert werden wie abgezogen werden müssten, ehe wieder AsP aufgenommen werden können.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;75.0;140;-1.0;Arkane_Schmiede;1300;Chimärengift
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;76.0;140;-1.0;Arkane_Schmiede;1000;Das Chimärengift ist eine spezielle Entwicklung der Tsakirche zur Bekämpfung und Vernichtung von Chimären, die sich nicht mehr retten lassen. Davon betroffene Chimären trennen sich wieder in die einzelnen Wesen auf, aus denen sie erschaffen worden sind, was nicht selten zu ihrem Tod führt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;77.0;140;-1.0;Arkane_Schmiede;1000;Stufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;78.0;140;-1.0;Arkane_Schmiede;1000;QS
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;79.0;140;-1.0;Arkane_Schmiede;1000;Art
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;80.0;140;-1.0;Arkane_Schmiede;1000;Waffengift, alchimistisch
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;81.0;140;-1.0;Arkane_Schmiede;1000;Widerstand
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;82.0;140;-1.0;Arkane_Schmiede;1000;Seelenkraft
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;83.0;140;-1.0;Arkane_Schmiede;1000;Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;84.0;140;-1.0;Arkane_Schmiede;1000;Ist das Ziel eine Chimäre, trennt sie sich wieder in die Wesen auf, aus denen sie erschaffen worden ist. Dies verursacht 4W6 SP pro angefangener Minute und verursacht 4 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;85.0;140;-1.0;Arkane_Schmiede;1000;Paralyse
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;86.0;140;-1.0;Arkane_Schmiede;1000;. / Ist das Ziel eine Chimäre, erleidet sie 2W6 SP pro angefangener Minute und erhält 2 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;87.0;140;-1.0;Arkane_Schmiede;1000;Paralyse.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;88.0;140;-1.0;Arkane_Schmiede;1000;Beginn
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;89.0;140;-1.0;Arkane_Schmiede;1000;sofort
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;90.0;140;-1.0;Arkane_Schmiede;1000;Dauer
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;91.0;140;-1.0;Arkane_Schmiede;1000;5 Minuten
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;92.0;140;-1.0;Arkane_Schmiede;1000;Wert/Preis
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;93.0;140;-1.0;Arkane_Schmiede;1000;60 Silbertaler pro Stufe / 180 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;94.0;140;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;95.0;140;-1.0;Arkane_Schmiede;1000;Jade, Bernstein, Gallensaft, Tränen einer Fee, Steinöl, eine abgeworfene Eidechsenhaut, Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;96.0;140;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;97.0;140;-1.0;Arkane_Schmiede;1000;60 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;98.0;140;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;99.0;140;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;100.0;140;-1.0;Arkane_Schmiede;900;
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;101.0;140;-1.0;Arkane_Schmiede;1000;Für mehr zu hyperpotenten Wirkungen siehe Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;102.0;140;-1.0;Arkane_Schmiede;1000;133
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;103.0;140;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont VHKVVX+Andalus;false;false;104.0;140;-1.0;Arkane_Schmiede;1200;Alchimistische Rezepte
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;141;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;141;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;3.0;141;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;141;-1.0;Arkane_Schmiede;1000;SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;5.0;141;-1.0;Arkane_Schmiede;1000;Göttliche Alchimie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;6.0;141;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;7.0;141;-1.0;Arkane_Schmiede;1000;3 AP (Voraussetzungen: Alchimie 12)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;8.0;141;-1.0;Arkane_Schmiede;1000;Qualitätsstufen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;9.0;141;-1.0;Arkane_Schmiede;1000;Die Giftstufe entspricht der QS.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;10.0;141;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;11.0;141;-1.0;Arkane_Schmiede;1000;Ist das Ziel eine Chimäre, trennt sie sich wieder in die Wesen auf, aus denen sie erschaffen worden ist. Dies verursacht 6W6 SP pro angefangener Minute und verursacht 4 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;12.0;141;-1.0;Arkane_Schmiede;1000;Schmerz
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;13.0;141;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;14.0;141;-1.0;Arkane_Schmiede;1300;Der Rote Leu
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;15.0;141;-1.0;Arkane_Schmiede;1000;Als großer Traum, der Generationen von Alchimisten beschäftigt hat, ist der Rote Leu ein Wunderwerk der Alchimie, aber auch ein Mittel, um grenzenlosen Reichtum anzuhäufen. Jedes Metall, egal ob Eisen, Kupfer, Zinn oder Blei wird mit ihm in Silber und Gold verwandelt. Das Potenzial der Wirkung ist jedoch größer. Je reiner der Rote Leu hergestellt wurde, desto stärker ist seine Kraft der Perfektionierung.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;16.0;141;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;17.0;141;-1.0;Arkane_Schmiede;1000;Sumuryl, Kaiserdrachentränen, Koboldseide, Alraune, Blauer Saphir, Weißer Phosphor, Frostquarz, Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;18.0;141;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;19.0;141;-1.0;Arkane_Schmiede;1000;5.000 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;20.0;141;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;21.0;141;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;22.0;141;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;23.0;141;-1.0;Arkane_Schmiede;1000;–14
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;24.0;141;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;25.0;141;-1.0;Arkane_Schmiede;1000;SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;26.0;141;-1.0;Arkane_Schmiede;1000;Göttliche Alchi
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;27.0;141;-1.0;Arkane_Schmiede;1000;-mie
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;141;-1.0;Arkane_Schmiede;1000;, Vakuum-Kammer, magisch abgeschirmtes Labor, schallabsorbierende Wände, erschütterungsfreie Laborgerätschaften
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;29.0;141;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis, Geheimwissen)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;141;-1.0;Arkane_Schmiede;1000;50 AP (Voraussetzung: Alchimie 18)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;31.0;141;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;141;-1.0;Arkane_Schmiede;1000;Unedle Metalle von maximal 40 Stein Gewicht werden in Silber verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;141;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;141;-1.0;Arkane_Schmiede;1000;Unedle Metalle von maximal 80 Stein Gewicht werden in Silber verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;35.0;141;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;141;-1.0;Arkane_Schmiede;1000;Unedle Metalle von maximal 80 Stein Gewicht werden in Gold verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;37.0;141;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;141;-1.0;Arkane_Schmiede;1000;Unedle Metalle von maximal 40 Stein Gewicht werden in Mondsilber verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;141;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;141;-1.0;Arkane_Schmiede;1000;Edle Metalle von maximal 20 Stein Gewicht werden in Arkanium verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;41.0;141;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;141;-1.0;Arkane_Schmiede;1000;Edle Metalle von maximal 5 Stein Gewicht werden in Endurium verwandelt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;43.0;141;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;141;-1.0;Arkane_Schmiede;1000;Der Rote Leu verwandelt jedes Metall von maximal einem Stein Gewicht in Titanium.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;141;-1.0;Arkane_Schmiede;1300;Elixier der Stille
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;46.0;141;-1.0;Arkane_Schmiede;1000;Mit diesem flüssigen Alchimikum entsteht eine Zone
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;47.0;141;-1.0;Arkane_Schmiede;1000;der Ruhe, die der Wirkung des SILENTIUM (siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;48.0;141;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;49.0;141;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;50.0;141;-1.0;Arkane_Schmiede;1000;298
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;51.0;141;-1.0;Arkane_Schmiede;1000;) ähnelt. Zur Anwendung kann ein Objekt mit dem Trank benetzt werden. Beim Trinken bildet sich ebenfalls eine entsprechende Stille um den Ort der Einnahme.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;52.0;141;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;53.0;141;-1.0;Arkane_Schmiede;1000;Boronie, Gewölle einer Eule, Salz, Schwamm, Eiswasser, wehende Blätter aus einem Sturm, Zwiebeln
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;54.0;141;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;55.0;141;-1.0;Arkane_Schmiede;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;56.0;141;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;57.0;141;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;58.0;141;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;59.0;141;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;60.0;141;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;61.0;141;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;62.0;141;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;63.0;141;-1.0;Arkane_Schmiede;1000;3 AP (Voraussetzung: Alchimie 8)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;64.0;141;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;65.0;141;-1.0;Arkane_Schmiede;1000;Die stationäre Zone hat einen Radius von 1 Schritt und wirkt 1 Minute lang.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;66.0;141;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;67.0;141;-1.0;Arkane_Schmiede;1000;Die stationäre Zone hat einen Radius von 2 Schritt und wirkt 2 Minuten lang.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;68.0;141;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;69.0;141;-1.0;Arkane_Schmiede;1000;Die stationäre Zone hat einen Radius von 5 Schritt und wirkt 5 Minuten lang.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;70.0;141;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;71.0;141;-1.0;Arkane_Schmiede;1000;Wie QS 3, allerdings kann sich die Zone mit dem Objekt/der Person bewegen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;72.0;141;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;73.0;141;-1.0;Arkane_Schmiede;1000;Die Zone rund um das bewegliche Objekt/den Anwender hat einen Radius von 8 Schritt und wirkt 10 Minuten lang.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;74.0;141;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;75.0;141;-1.0;Arkane_Schmiede;1000;Die Zone rund um das bewegliche Objekt/den Anwender hat einen Radius von 12 Schritt und wirkt 20 Minuten lang.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;76.0;141;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;77.0;141;-1.0;Arkane_Schmiede;1000;Wie QS 6, aber die Wirkungsdauer erhöht sich auf 1 Stunde. Verbringt jemand mehr als 10 Minuten in dieser Zone, bekommt er 2 Stunden nach Ablauf der Wirkung die Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;78.0;141;-1.0;Arkane_Schmiede;1000;Stumm
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;79.0;141;-1.0;Arkane_Schmiede;1000;und
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;80.0;141;-1.0;Arkane_Schmiede;1000;Taub
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;81.0;141;-1.0;Arkane_Schmiede;1000;(siehe jeweils
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;82.0;141;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;83.0;141;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;84.0;141;-1.0;Arkane_Schmiede;1000;36
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;85.0;141;-1.0;Arkane_Schmiede;1000;).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;86.0;141;-1.0;Arkane_Schmiede;1300;Erdkraft-Lack
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;87.0;141;-1.0;Arkane_Schmiede;1000;Nach dem Bestreichen mit dem Lack wird ein Gegenstand magnetisch.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;88.0;141;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;89.0;141;-1.0;Arkane_Schmiede;1000;Erdnelke, Eisennägel, Fleder-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;90.0;141;-1.0;Arkane_Schmiede;1000;mausflügel, Harz, Kristalle, Orazal, Sternenmetall,
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;91.0;141;-1.0;Arkane_Schmiede;1000;Vitriol
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;92.0;141;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;93.0;141;-1.0;Arkane_Schmiede;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;94.0;141;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;95.0;141;-1.0;Arkane_Schmiede;1000;archaisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;96.0;141;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;97.0;141;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;98.0;141;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;99.0;141;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;100.0;141;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;101.0;141;-1.0;Arkane_Schmiede;1000;1 AP (Voraussetzung: keine)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;102.0;141;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;103.0;141;-1.0;Arkane_Schmiede;1000;Das Objekt wird magnetisch und zieht metallische Gegenstände, auch Waffen und Rüstungen, an (Zone 1 Schritt, maximales Zuggewicht 1 Stein, Wirkungsdauer 2 KR). Um ein Objekt mit dem betroffenen Gewicht in den Händen zu behalten oder in einer getragenen Metallrüstung stehen zu bleiben, ist eine Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;104.0;141;-1.0;Arkane_Schmiede;1000;Kraftakt
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;105.0;141;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;106.0;141;-1.0;Arkane_Schmiede;1000;Ziehen & Zerren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;107.0;141;-1.0;Arkane_Schmiede;1000;+1 notwendig.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;108.0;141;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;109.0;141;-1.0;Arkane_Schmiede;1000;wie QS 1, aber Zone 2 Schritt, maximales Zuggewicht 2 Stein, Wirkungsdauer 5 KR,
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;110.0;141;-1.0;Arkane_Schmiede;1000;Kraftakt
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;111.0;141;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;112.0;141;-1.0;Arkane_Schmiede;1000;Ziehen & Zerren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;113.0;141;-1.0;Arkane_Schmiede;1000;+/– 0
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;114.0;141;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;115.0;141;-1.0;Arkane_Schmiede;1000;wie QS 1, aber Zone 3 Schritt, maximales Zuggewicht 5 Stein, Wirkungsdauer 10 KR,
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;116.0;141;-1.0;Arkane_Schmiede;1000;Kraftakt (Ziehen & Zer
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;117.0;141;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;118.0;141;-1.0;Arkane_Schmiede;1000;ren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;119.0;141;-1.0;Arkane_Schmiede;1000;–1
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;120.0;141;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;121.0;141;-1.0;Arkane_Schmiede;1000;wie QS 1, aber Zone 4 Schritt, maximales Zuggewicht 10 Stein, Wirkungsdauer 20 KR,
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;122.0;141;-1.0;Arkane_Schmiede;1000;Kraftakt
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;123.0;141;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;124.0;141;-1.0;Arkane_Schmiede;1000;Ziehen & Zer
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;125.0;141;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;126.0;141;-1.0;Arkane_Schmiede;1000;ren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;127.0;141;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;142;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;142;-1.0;Arkane_Schmiede;1000;wie QS 1, aber Zone 5 Schritt, maximales Zuggewicht 15 Stein, Wirkungsdauer 1 Minute,
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;3.0;142;-1.0;Arkane_Schmiede;1000;Kraftakt
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;142;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;5.0;142;-1.0;Arkane_Schmiede;1000;Ziehen & Zerren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;142;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;142;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;142;-1.0;Arkane_Schmiede;1000;wie QS 1, aber Zone 6 Schritt, maximales Zuggewicht 20 Stein, Wirkungsdauer 5 Minuten,
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;9.0;142;-1.0;Arkane_Schmiede;1000;Kraftakt
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;142;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;11.0;142;-1.0;Arkane_Schmiede;1000;Ziehen & Zerren)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;12.0;142;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;13.0;142;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;14.0;142;-1.0;Arkane_Schmiede;1000;Wie QS 5, aber die Wirkungsdauer erhöht sich auf 2 Stunden. Zudem verlieren alle angezogenen Metallgegenstände QS Strukturpunkte.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;15.0;142;-1.0;Arkane_Schmiede;1300;Fatas-Tabak
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;142;-1.0;Arkane_Schmiede;1000;Der Konsum von Fatas-Tabak ist mit glücklichen Fügungen verbunden. Je nach Kultur ordnet man diese Kraft Phex, Satinav oder auch dessen Tochter Fatas, der Schreiberin des Schicksals, zu. Man schnupft den Tabak von den Fingerspitzen, aus einem Papierröhrchen oder notfalls vom Handrücken.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;17.0;142;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;142;-1.0;Arkane_Schmiede;1000;Pfeifenkraut, Sternanis, weiße Jade, Kupferschmuck-Späne, Wasser einer Bergquelle, Wüstensand, Lotosfäden, Splitter eines Glücksbringers, Ecke einer zufälligen Inrahkarte
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;19.0;142;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;142;-1.0;Arkane_Schmiede;1000;100 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;21.0;142;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;142;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;23.0;142;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;142;-1.0;Arkane_Schmiede;1000;–4
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;142;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;142;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;142;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;142;-1.0;Arkane_Schmiede;1000;4 AP (Voraussetzung: Alchimie 12)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;29.0;142;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;142;-1.0;Arkane_Schmiede;1000;Der Tabak bringt für 15 Minuten Glück wie unter einem
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;31.0;142;-1.0;Arkane_Schmiede;1000;Glückssegen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;142;-1.0;Arkane_Schmiede;1000;(siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;142;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;142;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;35.0;142;-1.0;Arkane_Schmiede;1000;323
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;142;-1.0;Arkane_Schmiede;1000;).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;37.0;142;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;142;-1.0;Arkane_Schmiede;1000;Wie QS 1, zusätzlich erweitert sich das Glück auf einen
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;39.0;142;-1.0;Arkane_Schmiede;1000;Weisheitssegen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;142;-1.0;Arkane_Schmiede;1000;, jeweils für 30 Minuten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;41.0;142;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;142;-1.0;Arkane_Schmiede;1000;Das Ziel erreicht für 1 Stunde bei Fertigkeitsproben auf Talente mit höherer Wahrscheinlichkeit einen Kritischen Erfolg. Während dies üblicherweise nur bei einer gewürfelten Doppel-1 auftritt, geschieht dies beim Ziel bereits, wenn die gewürfelte Probe auf 3W20 eine 1 und eine 2 zeigen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;43.0;142;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;142;-1.0;Arkane_Schmiede;1000;wie QS 3, aber für 2 Stunden
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;142;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;142;-1.0;Arkane_Schmiede;1000;Das Ziel erreicht für 4 Stunden bei Fertigkeitsproben auf Talente mit höherer Wahrscheinlichkeit einen Kritischen Erfolg. Während dies üblicherweise nur bei einer gewürfelten Doppel-1 auftritt, geschieht dies beim Ziel bereits, wenn die gewürfelte Probe auf 3W20 eine 1 sowie eine 2 oder sogar eine Doppel-2 zeigen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;47.0;142;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;48.0;142;-1.0;Arkane_Schmiede;1000;Wie QS 5, aber für 8 Stunden. Zusätzlich gilt das Glück auch für Proben auf Kampftechniken bei einer gewürfelten 2.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;49.0;142;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;142;-1.0;Arkane_Schmiede;1000;Wie QS 6, aber für 1 Tag. Für die folgenden 24 Stunden ist der Anwender allerdings glücklos und erhält den Nachteil
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;51.0;142;-1.0;Arkane_Schmiede;1000;Pechmagnet
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;52.0;142;-1.0;Arkane_Schmiede;1000;(siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;53.0;142;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;54.0;142;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;142;-1.0;Arkane_Schmiede;1000;174
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;142;-1.0;Arkane_Schmiede;1000;).
+PDTrueTypeFont VHKVVX+Andalus;false;false;57.0;142;-1.0;Arkane_Schmiede;1200;Alchimistische Rezepte
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;143;-1.0;Arkane_Schmiede;1300;Feuerpulver
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;143;-1.0;Arkane_Schmiede;1000;Die Rezeptur von Feuerpulver ist ein eifersüchtig gehütetes Geheimnis weniger Scharlatane und Alchimisten. Wenn man es verbrennt, entstehen völlig profane, aufregende Funkenspiele. Je nach individueller Rezeptur ändern sich Farben und Streumuster der warm glimmenden Lichter. Aufgrund der Seltenheit der benötigten Zutaten, der gefährlichen Herstellung und der exklusiven Rezeptur wird man Feuerwerken mit diesem Pulver nur bei kaiserlichen Feierlichkeiten begegnen, solange man keinem Spezialisten seine Geheimnisse entlockt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;3.0;143;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;143;-1.0;Arkane_Schmiede;1000;Feuermoos und Efferdsmoos, getrocknete Feuersalamander, gemahlene Steine aus Drachenmägen, Phosphorpilze, Pyrit, Rubinstaub, Synärethikon, allerhand experimentelle Mittel, die das Pulver trocken und Mindergeister fernhalten sollen
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;5.0;143;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;143;-1.0;Arkane_Schmiede;1000;150 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;143;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;143;-1.0;Arkane_Schmiede;1000;Alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;9.0;143;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;143;-1.0;Arkane_Schmiede;1000;–5
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;11.0;143;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;12.0;143;-1.0;Arkane_Schmiede;1000;vollkommen trockene Umgebung, Schutz vor Feuerelementaren
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;13.0;143;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;14.0;143;-1.0;Arkane_Schmiede;1000;8 AP (Voraussetzung: Alchimie 14)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;15.0;143;-1.0;Arkane_Schmiede;1000;Besonderheiten
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;143;-1.0;Arkane_Schmiede;1000;Feuerpulver muss in wasserdichten Behältnissen unter Wasser gelagert werden. Wird dies nicht eingehalten, werden binnen 1W6 KR Mindergeister des Feuers angelockt, die das Feuerpulver entzünden. Wird Feuerpulver feucht, so ist es augenblicklich unbrauchbar. Bei einer 1–5 auf 1W20 entzündet es sich sofort nach der Herstellung. Ab Hitzestufe 3 muss stündlich 1W20 gewürfelt werden. Bei 1–5 auf 1W20 entzündet sich das Pulver, selbst wenn es sachgemäß unter Wasser gelagert ist, sofern dieses nicht speziell gekühlt wird.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;17.0;143;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 1 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;19.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;143;-1.0;Arkane_Schmiede;1000;auf kleiner Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;21.0;143;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 2 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 1W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;23.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;143;-1.0;Arkane_Schmiede;1000;auf kleiner Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;143;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 3 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 2W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;27.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;143;-1.0;Arkane_Schmiede;1000;auf großer Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;29.0;143;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 4 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 3W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;31.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;143;-1.0;Arkane_Schmiede;1000;auf großer Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;143;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 6 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 4W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;35.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;143;-1.0;Arkane_Schmiede;1000;, den ganzen Körper betreffend.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;37.0;143;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 8 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 5W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;39.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;143;-1.0;Arkane_Schmiede;1000;, den ganzen Körper betreffend.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;41.0;143;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;143;-1.0;Arkane_Schmiede;1000;Verzückende Lichterspiele erleuchten eine Zone von 10 Rechtsschritt. Wer sich in der Zone aufhält, erhält bei 1–2 auf 1W20 6W20 TP durch sich spontan ausdehnende bunte Funken sowie den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;43.0;143;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;143;-1.0;Arkane_Schmiede;1000;den ganzen Körper betreffend.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;143;-1.0;Arkane_Schmiede;1300;Göttlicher Balsam
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;143;-1.0;Arkane_Schmiede;1000;Neben der Alchimie der Sonne haben die Anhänger der Kirchen eine Variante des magischen Waffenbalsams (siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;47.0;143;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;48.0;143;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;49.0;143;-1.0;Arkane_Schmiede;1000;273
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;143;-1.0;Arkane_Schmiede;1000;) für Klingen und Objekte entwickelt. Die konkrete Auswahl der Ingredienzien hängt von der Gottheit ab. Zudem geben die Geweihten dieses Alchimikum nur an vertrauensvolle Personen weiter, die für ihre Prinzipien streiten. Es dauert 5 Kampfrunden, um eine Waffe mit dem Göttlichen Balsam einzureiben.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;51.0;143;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;52.0;143;-1.0;Arkane_Schmiede;1000;Feder, Schuppen oder Fell eines heiligen Tiers, Brabaker Vitriol, zermahlener
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;53.0;143;-1.0;Arkane_Schmiede;1000;Teil einer heiligen Pflanze, passender Edelstein der Gottheit, Wasser aus einem fließenden Gewässer,
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;54.0;143;-1.0;Arkane_Schmiede;1000;Weihrauch, Zwölfblatt, Karmaenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;143;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;143;-1.0;Arkane_Schmiede;1000;100 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;143;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;143;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;59.0;143;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;60.0;143;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;61.0;143;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;143;-1.0;Arkane_Schmiede;1000;SF Göttliche Alchimie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;63.0;143;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;143;-1.0;Arkane_Schmiede;1000;4 AP (Voraussetzung: Alchimie 12)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;65.0;143;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für 5 Minuten als
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;67.0;143;-1.0;Arkane_Schmiede;1000;geweiht.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;68.0;143;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;69.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für 15 Minuten als
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;70.0;143;-1.0;Arkane_Schmiede;1000;geweiht.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;71.0;143;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für 2 Stunden als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;73.0;143;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;74.0;143;-1.0;Arkane_Schmiede;1000;, +1 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;75.0;143;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;76.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für 8 Stunden als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;77.0;143;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;78.0;143;-1.0;Arkane_Schmiede;1000;, +1 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;79.0;143;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;80.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für einen Tag als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;81.0;143;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;82.0;143;-1.0;Arkane_Schmiede;1000;und ist unzerbrechlich, +1 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;83.0;143;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;84.0;143;-1.0;Arkane_Schmiede;1000;Objekt/Waffe gilt für eine Woche als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;85.0;143;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;86.0;143;-1.0;Arkane_Schmiede;1000;und ist unzerbrechlich, +1 TP.
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;87.0;143;-1.0;Arkane_Schmiede;900;
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;88.0;143;-1.0;Arkane_Schmiede;1000;Es ist in Aventurien unmöglich, Feuerpulver zu Sprengstoff weiterzuentwickeln, da die Substanz unweigerlich Feuerelementare anlockt, die es frühzeitig entzünden. Nach Meisterentscheid kann die Forschung am Feuerpulver an von Agrimoth pervertierten Orten möglich werden. Bedenke allerdings, dass dies das Gesicht von Aventurien nachhaltig verändert und sich daraus starke Ab-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;89.0;143;-1.0;Arkane_Schmiede;1000;weichungen von der offi
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;90.0;143;-1.0;Arkane_Schmiede;1000;-ziellen Spielwelt ergeben können.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;144;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;144;-1.0;Arkane_Schmiede;1000;Wie QS 6, aber für 2 Wochen. Ist ein Geweihter der Träger des Objekts/der Waffe, erhält er nach dem Anwenden
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;3.0;144;-1.0;Arkane_Schmiede;1000;Trance II
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;144;-1.0;Arkane_Schmiede;1000;(siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;5.0;144;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;144;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;144;-1.0;Arkane_Schmiede;1000;33
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;144;-1.0;Arkane_Schmiede;1000;). Nichtgeweihte Anwender erleiden stattdessen 2 Stufen
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;9.0;144;-1.0;Arkane_Schmiede;1000;Verwirrung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;144;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;11.0;144;-1.0;Arkane_Schmiede;1300;Nebelfarbe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;12.0;144;-1.0;Arkane_Schmiede;1000;Alternative Namen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;13.0;144;-1.0;Arkane_Schmiede;1000;Tarnfarbe, FallenfarbeDieses kuriose Alchimikum ist unter Scharlatanen und Illusionisten beliebt und wird meist eher belächelt, aber es soll schon von Alchimisten benutzt worden sein, um Einbrechern eine Falle zu stellen. Die zähe, klebrige Farbe ist unsichtbar und wird bei Kontakt mit Luft sichtbar, deshalb wird sie oft unter einer Schicht Öl aufbewahrt. Je nach Qualität der Farbe wird sie schnell sichtbar oder ist über einen längeren Zeitraum zunehmend besser zu sehen. Der Farbton der sichtbaren Farbe wird beim Brauen durch die Auswahl der entsprechenden Pigmente bestimmt.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;14.0;144;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;15.0;144;-1.0;Arkane_Schmiede;1000;Alraunen, Blut eines Unsichtbaren, Chamäleonschuppen, Kristallglas, rauchendes Braunöl, Coelestin, Spinnennetze, Morgentau, Kupferspäne, Wermut, Leinöl, gelbes Fichtenharz, färbende Pigmente
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;16.0;144;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;17.0;144;-1.0;Arkane_Schmiede;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;18.0;144;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;19.0;144;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;20.0;144;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;21.0;144;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;22.0;144;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;23.0;144;-1.0;Arkane_Schmiede;1000;luftdicht verschließbares Gefäß
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;24.0;144;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;25.0;144;-1.0;Arkane_Schmiede;1000;3 AP (Voraussetzung: Alchimie 4)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;26.0;144;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;27.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 5 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 10 Minuten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;28.0;144;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;29.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 10 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 5 Minuten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;30.0;144;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;31.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 15 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 2 Minuten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;32.0;144;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;33.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 20 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 1 Minute.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;34.0;144;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;35.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 30 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 30 Sekunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;36.0;144;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;37.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 45 Minuten nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 15 Sekunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;38.0;144;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;39.0;144;-1.0;Arkane_Schmiede;1000;Die Farbe ist 1W6 Stunden nach Öffnung des Gefäßes unsichtbar. Der Wechsel zu sichtbar dauert 1 Sekunde.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;40.0;144;-1.0;Arkane_Schmiede;1300;Peraines kleine Gnade
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;41.0;144;-1.0;Arkane_Schmiede;1000;Die Geweihten der Peraine haben mit diesem Elixier eine Möglichkeit entwickelt, Peraines Kraft auch zur Verfügung stellen zu können, wenn sie selbst gerade nicht vor Ort sind. Aufbewahrt werden die heilsamen Pastillen oft in den Schreinen, bei denen reisende Geweihte ab und an nach dem Rechten sehen. Genutzt werden sie nur im Notfall und mit einem Gebet auf den Lippen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;42.0;144;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;43.0;144;-1.0;Arkane_Schmiede;1000;Honig, Knoblauch, Karamell, Gesegnetes Saatgut, Heilkräuter, Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;44.0;144;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;45.0;144;-1.0;Arkane_Schmiede;1000;10 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;46.0;144;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;47.0;144;-1.0;Arkane_Schmiede;1000;archaisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;48.0;144;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;49.0;144;-1.0;Arkane_Schmiede;1000;–2
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;50.0;144;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;51.0;144;-1.0;Arkane_Schmiede;1000;SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;52.0;144;-1.0;Arkane_Schmiede;1000;Göttliche Alchimie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;53.0;144;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;54.0;144;-1.0;Arkane_Schmiede;1000;2 AP (Voraussetzung: Alchimie 10)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;144;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 2 Stunden aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;144;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 4 Stunden aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;59.0;144;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;60.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 8 Stunden aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;61.0;144;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 2 Tage aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;63.0;144;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 3 Tage aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;65.0;144;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 4 Tage aus.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;67.0;144;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;68.0;144;-1.0;Arkane_Schmiede;1000;Die Wirkung der Krankheit setzt für die nächsten 6 Tage aus. Sollte sie einen schweren Verlauf haben, wird dieser zum weniger schlimmen Verlauf. Sollt es bereits der weniger schlimme Verlauf sein, wird die Krankheit beendet.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;69.0;144;-1.0;Arkane_Schmiede;1300;Rachenputzer
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;70.0;144;-1.0;Arkane_Schmiede;1000;Das Elixier ist bislang nur an der altehrwürdigen Chamibal’Chimie-Fakultät der Drachenei-Akademie in Khunchom erhältlich. Unter der Hand erzählt man sich, die unglaublich potente Mischung sei eigentlich ein missratenes Experiment. Die geschäftstüchtigen Khunchomer Alchimisten hätten ein verbessertes Öl für die Feuerschlucker des Allaventurischen Gaukler-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;71.0;144;-1.0;Arkane_Schmiede;1000;treffens erfinden wollen. Die Wirkung ist allerdings so
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;144;-1.0;Arkane_Schmiede;1000;stark, dass der Rachenputzer für Kunstvorführungen verboten ist. Das Elixier erlaubt es, einen Feuerstrahl zu spucken, dessen Wirkung insbesondere bei höheren QS einem IGNIFAXIUS ähnelt. Das bedeutet, der aus dem Mund schießende Flammenstrahl trifft automatisch, wenn das Ziel sich nicht verteidigt (siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;73.0;144;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;74.0;144;-1.0;Arkane_Schmiede;1000;, Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;75.0;144;-1.0;Arkane_Schmiede;1000;293
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;76.0;144;-1.0;Arkane_Schmiede;1000;). Zum theatralischen Feuerspucken eignet er sich wenig, da er sehr schnell verpufft. Leicht entzündliche Gegenstände können damit allerdings in Brand gesetzt werden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;77.0;144;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;78.0;144;-1.0;Arkane_Schmiede;1000;Alchimistensäure, Nitriol, Feueropal, Nesseln der Feuerqualle, Schwefel, Zunderschwamm, Feuerschlick-Essenz
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;79.0;144;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;80.0;144;-1.0;Arkane_Schmiede;1000;80 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;81.0;144;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;82.0;144;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;83.0;144;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;84.0;144;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;85.0;144;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;86.0;144;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;87.0;144;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;88.0;144;-1.0;Arkane_Schmiede;1000;8 AP (Voraussetzung: Alchimie 12)
+PDTrueTypeFont VHKVVX+Andalus;false;false;89.0;144;-1.0;Arkane_Schmiede;1200;Alchimistische Rezepte
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;145;-1.0;Arkane_Schmiede;1000;Qualitätsstufen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;145;-1.0;Arkane_Schmiede;1000;
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;3.0;145;-1.0;Arkane_Schmiede;1000;1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 3 Schritt und verursacht 1W6 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;5.0;145;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 6 Schritt und verursacht 1W6 + 2 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;145;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 8 Schritt und verursacht 2W6 TP.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;9.0;145;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 12 Schritt und verursacht 2W6 + 2 TP. Das Ziel erleidet den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;11.0;145;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;12.0;145;-1.0;Arkane_Schmiede;1000;auf kleiner Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;13.0;145;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;14.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 16 Schritt und verursacht 2W6 + 6 TP. Das Ziel erleidet den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;15.0;145;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;145;-1.0;Arkane_Schmiede;1000;auf kleiner Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;17.0;145;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;145;-1.0;Arkane_Schmiede;1000;Der Feuerstrahl hat eine Reichweite von 32 Schritt und verursacht 2W6 + 6 TP. Ausweichen ist zusätzlich um –2 erschwert. Das Ziel erleidet den Status
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;19.0;145;-1.0;Arkane_Schmiede;1000;Brennend
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;145;-1.0;Arkane_Schmiede;1000;auf kleiner Fläche.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;21.0;145;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;145;-1.0;Arkane_Schmiede;1000;Zusätzlich
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;23.0;145;-1.0;Arkane_Schmiede;1000;
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;145;-1.0;Arkane_Schmiede;1000;zum Feuerstrahl aus dem Mund verwandeln sich für einen kurzen Moment auch die Augen in Flammenbälle und verschießen zwei weitere Strahlen. Diese sind jedoch unkontrollierbar und treffen per Zufall ein in Sichtweite
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;25.0;145;-1.0;Arkane_Schmiede;1000;befindliches Ziel. Dort verursachen sie 3W6 + 6 Scha
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;145;-1.0;Arkane_Schmiede;1000;-den. Anschließend erblindet der Anwender für 1W20 Stunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;145;-1.0;Arkane_Schmiede;1300;Respondarum
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;28.0;145;-1.0;Arkane_Schmiede;1000;Alternative Namen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;29.0;145;-1.0;Arkane_Schmiede;1000;Wahrheitstrank, WahrheitsserumEinige Wahrheitsseren sind schlichtweg hochprozentiger Alkohol oder andere Substanzen, die den Geist verwirren, doch dieses zwingt das Opfer, während der Wirkungsdauer (QS x 15 Minuten) Fragen wahrheitsgemäß antworten. Die Fragen müssen mit „Ja“ oder „Nein“ zu beantworten sein. Andere Fragen müssen nicht beantwortet werden, Lügen fällt jedoch schwerer und erfordern eine Probe auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;30.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;31.0;145;-1.0;Arkane_Schmiede;1000;. Das Ziel ist sich während der Wirkung des Tranks bewusst, was es sagt. Außerdem muss das Ziel die Sprache der Fragen verstehen und sprechen können, ansonsten kann es nicht antworten.Wenig überraschend ist das Respondarum besonders bei Organisationen wie der KGIA oder dem DBA beliebt, aber auch manche Diebesgilden und Geheimkulte nutzen es.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;32.0;145;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;33.0;145;-1.0;Arkane_Schmiede;1000;Praiosblumensamen, Blaubasaltstaub, Haare eines Betrügers, Quecksilber, Quellwasser, Quasselwurz, Gemüsedistel, Falkenfedern, Kupferspäne, verschiedene Giftpilze, Schnaps
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;34.0;145;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;35.0;145;-1.0;Arkane_Schmiede;1000;70 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;36.0;145;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;37.0;145;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;38.0;145;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;39.0;145;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;40.0;145;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;41.0;145;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;42.0;145;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;43.0;145;-1.0;Arkane_Schmiede;1000;4 AP (Voraussetzung: Alchimie 10)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;44.0;145;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;45.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 1 Frage wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;46.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;47.0;145;-1.0;Arkane_Schmiede;1000;sind um –1 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;48.0;145;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;49.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 2 Fragen wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;50.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;51.0;145;-1.0;Arkane_Schmiede;1000;sind um –1 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;52.0;145;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;53.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 3 Fragen wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;54.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;55.0;145;-1.0;Arkane_Schmiede;1000;sind um –2 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;56.0;145;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;57.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 4 Fragen wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;58.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;59.0;145;-1.0;Arkane_Schmiede;1000;sind um –2 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;60.0;145;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;61.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 5 Fragen wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;62.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;63.0;145;-1.0;Arkane_Schmiede;1000;sind um –3 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;64.0;145;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;65.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 6 Fragen wahrheitsgemäß beantworten. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;66.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;67.0;145;-1.0;Arkane_Schmiede;1000;sind um –3 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;68.0;145;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;69.0;145;-1.0;Arkane_Schmiede;1000;Das Opfer muss 7 Fragen wahrheitsgemäß beantworten, diese müssen jedoch nicht nur mit „Ja“ oder „Nein“ zu beantworten sein, solange sie gesungen (mindestens
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;70.0;145;-1.0;Arkane_Schmiede;1000;Singen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;71.0;145;-1.0;Arkane_Schmiede;1000;QS 1) oder gereimt gestellt werden. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;72.0;145;-1.0;Arkane_Schmiede;1000;Willenskraft
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;73.0;145;-1.0;Arkane_Schmiede;1000;sind um –5 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;74.0;145;-1.0;Arkane_Schmiede;1300;Seifenblasen-Packesel
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;75.0;145;-1.0;Arkane_Schmiede;1000;Auf der Grundlage von Seife und Substanzen mit Nähe zum Element Luft stellen Alchimisten einen Lastesel ohne nennenswertes Gewicht her. Nach dem Brauen der speziellen Lösung wird die Blase durch schlanke Holz-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;76.0;145;-1.0;Arkane_Schmiede;1000;stäbe samt saugfähigem Wollgarn in die finale Form ge
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;77.0;145;-1.0;Arkane_Schmiede;1000;-bracht. Diese schwebt 1–2 Schritt über dem Boden. Der Hersteller kann allerlei Gegenstände vorsichtig in die
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;78.0;145;-1.0;Arkane_Schmiede;1000;Blase schieben und sie mit einem Seidenseil fixieren, so
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;79.0;145;-1.0;Arkane_Schmiede;1000;-dass man die gefüllte Schwebekugel hinter sich herziehen kann. Die Seifenblase besitzt durch ihre Flexibilität 10 Strukturpunkte.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;80.0;145;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;81.0;145;-1.0;Arkane_Schmiede;1000;Federn eines Greifvogels, Ne-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;82.0;145;-1.0;Arkane_Schmiede;1000;bel, Natron, Öl, Insektenflügel, Orazalkleber, Seifen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;83.0;145;-1.0;Arkane_Schmiede;1000;-stücke, Wasser, Mais- oder Zuckerrübensirup
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;84.0;145;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;85.0;145;-1.0;Arkane_Schmiede;1000;15 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;86.0;145;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;87.0;145;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;88.0;145;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;89.0;145;-1.0;Arkane_Schmiede;1000;–1
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;90.0;145;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;91.0;145;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;92.0;145;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;93.0;145;-1.0;Arkane_Schmiede;1000;3 AP (Voraussetzung: Alchimie 4)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;94.0;145;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;95.0;145;-1.0;Arkane_Schmiede;1000;Es entsteht eine Seifenblase mit einem Durchmesser von
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;96.0;145;-1.0;Arkane_Schmiede;1000;40 Halbfingern mit Tragkraft von 5 Stein für 1 Stunde.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;97.0;145;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;98.0;145;-1.0;Arkane_Schmiede;1000;Wie QS 1, aber mit Tragkraft von 10 Stein für 2 Stunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;99.0;145;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;100.0;145;-1.0;Arkane_Schmiede;1000;Der Durchmesser steigt auf 1 Schritt mit einer Tragkraft von 15 Stein für 5 Stunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;101.0;145;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;102.0;145;-1.0;Arkane_Schmiede;1000;Wie QS 3, aber mit einer Tragkraft von 25 Stein für 8 Stunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;103.0;145;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;104.0;145;-1.0;Arkane_Schmiede;1000;Der Durchmesser steigt auf 1,5 Schritt mit einer Tragkraft von 50 Stein für 12 Stunden. Damit lassen sich auch tierische Begleiter durch die Luft transportieren.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;105.0;145;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;106.0;145;-1.0;Arkane_Schmiede;1000;Wie QS 5, aber die Tragkraft steigt auf 100 Stein. Somit kann sogar ein Mensch in der Blase Platz nehmen und sich ziehen lassen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;107.0;145;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;108.0;145;-1.0;Arkane_Schmiede;1000;Wie QS 6, aber für 1 Tag. Der Anwender wird am Folgetag
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;109.0;145;-1.0;Arkane_Schmiede;1000;Behäbig
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;110.0;145;-1.0;Arkane_Schmiede;1000;(siehe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;111.0;145;-1.0;Arkane_Schmiede;1000;Regelwerk
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;112.0;145;-1.0;Arkane_Schmiede;1000;Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;113.0;145;-1.0;Arkane_Schmiede;1000;171
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;114.0;145;-1.0;Arkane_Schmiede;1000;).
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;146;-1.0;Arkane_Schmiede;1300;Sonnenlicht-Elixier
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;146;-1.0;Arkane_Schmiede;1000;Das Sonnenlicht-Elixier erzeugt reines Sonnenlicht, sobald es geöffnet wird. Die Intensität und Beständigkeit des Lichts hängt davon ab, wie gut das Licht der Praiosscheibe bei der Herstellung fokussiert und gesammelt werden konnte. Die Herstellung selbst wird von der Praioskirche streng geheim gehalten, weswegen nur sehr wenige überhaupt von der Existenz eines solchen Mittels wissen. Das Sonnenlicht, welches hiermit auf höheren Stufen erzeugt wird, gilt als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;3.0;146;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;146;-1.0;Arkane_Schmiede;1000;und er-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;5.0;146;-1.0;Arkane_Schmiede;1000;zeugt entsprechend Schaden an empfindlichen Wesen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;6.0;146;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;7.0;146;-1.0;Arkane_Schmiede;1000;Saft von Bosparanien-Blättern, Bernstein, die ersten Strahlen vom Sonnenlicht eines Morgens, Gold, Praiossandelholz, Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;8.0;146;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;9.0;146;-1.0;Arkane_Schmiede;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;10.0;146;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;11.0;146;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;12.0;146;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;13.0;146;-1.0;Arkane_Schmiede;1000;–3
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;14.0;146;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;15.0;146;-1.0;Arkane_Schmiede;1000;SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;16.0;146;-1.0;Arkane_Schmiede;1000;Göttliche Alchi
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;17.0;146;-1.0;Arkane_Schmiede;1000;-mie
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;146;-1.0;Arkane_Schmiede;1000;, optische Gerätschaften
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;19.0;146;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;20.0;146;-1.0;Arkane_Schmiede;1000;5 AP (Voraussetzung: Alchimie 12)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;21.0;146;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;146;-1.0;Arkane_Schmiede;1000;Das Licht leuchtet mit der Intensität einer Kerze für 1W6 Kampfrunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;23.0;146;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;146;-1.0;Arkane_Schmiede;1000;Das Licht leuchtet mit der Intensität einer Fackel für 1W6 + 2 Kampfrunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;146;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;146;-1.0;Arkane_Schmiede;1000;Das Licht leuchtet mit der Intensität eines Lagerfeuers für 1W6 + 4 Kampfrunden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;146;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;146;-1.0;Arkane_Schmiede;1000;Die Helligkeit des Lichts reicht aus, um einen Raum von 5 mal 5 Schritt für 1W6 + 6 Kampfrunden auszuleuchten. Das Licht gilt als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;29.0;146;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;146;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;31.0;146;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;146;-1.0;Arkane_Schmiede;1000;Die Helligkeit des Lichts reicht aus, um einen großen Saal für 1W6 + 8 Kampfrunden auszuleuchten. Das Licht gilt als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;33.0;146;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;146;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;35.0;146;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;146;-1.0;Arkane_Schmiede;1000;Das Licht ist blendend hell. Es ist kaum möglich, direkt hineinzusehen. Es leuchtet für 1W6 + 10 Kampfrunden. Das Licht gilt als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;37.0;146;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;146;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;146;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;146;-1.0;Arkane_Schmiede;1000;Die gesamte Umgebung wird für 3W6 + 10 KR taghell ausgeleuchtet. Das Licht gilt als
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;41.0;146;-1.0;Arkane_Schmiede;1000;geweiht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;146;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;43.0;146;-1.0;Arkane_Schmiede;1300;Synärethikon
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;44.0;146;-1.0;Arkane_Schmiede;1000;Alternativer Name
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;45.0;146;-1.0;Arkane_Schmiede;1000;LegierungsblendDas legendäre alchimistische Elixier Synärethikon ermöglicht die vollständige Verbindung von zwei beliebigen Stoffen, sodass der Zielstoff alle Eigenschaften beider Ausgangsstoffe vereint. Angeblich wird ein Katalysator benötigt, um das Ergebnis zu lenken. Synärethikon wird von
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;146;-1.0;Arkane_Schmiede;900;
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;47.0;146;-1.0;Arkane_Schmiede;1000;Was genau Synärethikon alles zu erschaffen vermag, ist der Phantasie von Spielleiterin und Gruppe überlassen. Es ist möglich, gegensätzliche Elemente zu verbinden. So mag zum Beispiel aus Erz und Luft ein schwereloser Stein entstehen, der sich auch im Sturm nicht von der Stelle bewegt. An dieser Stelle wird das Wunder der Alchimie nur in Bezug auf eine praktische Anwendung in der Artefaktherstellung beschrieben.Koryphäen der Alchimie verwendet, um Legierungen mit anderweitig unmöglichen Eigenschaften zu erschaffen und Artefakte mehrfach zu veredeln. Die Herstellung und Handhabung des Stoffes erfordert Expertenwissen, das nur wenige besitzen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;48.0;146;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;49.0;146;-1.0;Arkane_Schmiede;1000;Gold, Theriak, schwefliger
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;146;-1.0;Arkane_Schmiede;1000;Orazal, Essenz aus Asfaloths Domäne, Orichalcum, Lignolith, Haare von Zwillingen, Eier mit zwei Dottern, genutzter Hochzeitsschmuck
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;51.0;146;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;52.0;146;-1.0;Arkane_Schmiede;1000;200 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;53.0;146;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;54.0;146;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;146;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;146;-1.0;Arkane_Schmiede;1000;–6
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;146;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;146;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;59.0;146;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;60.0;146;-1.0;Arkane_Schmiede;1000;14 AP (Voraussetzung: Alchimie 14)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;61.0;146;-1.0;Arkane_Schmiede;1000;Besonderheiten
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;146;-1.0;Arkane_Schmiede;1000;Um im Sinne der SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;63.0;146;-1.0;Arkane_Schmiede;1000;Synärethiker
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;146;-1.0;Arkane_Schmiede;1000;(siehe Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;65.0;146;-1.0;Arkane_Schmiede;1000;151
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;146;-1.0;Arkane_Schmiede;1000;) zur Mehrfachveredelung eines Artefaktes genutzt werden zu können, muss das Synärethikon während der Veredelungsprobe auf das zu veredelnde Artefakt angewandt werden.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;67.0;146;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;68.0;146;-1.0;Arkane_Schmiede;1000;Ein Artefakt kann je Anwendung Synärethikon ein weiteres Mal veredelt werden. Die Veredelungsprobe ist um –3 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;69.0;146;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;70.0;146;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist um –2 erschwert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;71.0;146;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;146;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist um –1 erschwert.
+PDTrueTypeFont VHKVVX+Andalus;false;false;73.0;146;-1.0;Arkane_Schmiede;1200;Alchimistische Rezepte
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;147;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;147;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist nicht
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;3.0;147;-1.0;Arkane_Schmiede;1000;modifiziert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;4.0;147;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;5.0;147;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist um +1 erleichtert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;6.0;147;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;7.0;147;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist um +2 erleichtert.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;8.0;147;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;9.0;147;-1.0;Arkane_Schmiede;1000;Desgleichen, aber die Veredelungsprobe ist um +4 erleichtert. Außerdem erhält das Artefakt permanent zusätzlich eine Eigenschaft eines Ausgangsstoffes des Synärethikons, z. B. heiß oder eiskalt. Alternativ erhält es zusätzlich einen chaotischen Nebeneffekt aus der Tabelle auf Seite
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;10.0;147;-1.0;Arkane_Schmiede;1000;134
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;11.0;147;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;12.0;147;-1.0;Arkane_Schmiede;1300;Trank der Gottesnähe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;13.0;147;-1.0;Arkane_Schmiede;1000;Viele Geweihte kennen das Gefühl der Nähe zu ihrer Gottheit, der Entrückung, nur zu gut. Um auch den einfachen Gläubigen dieses Gefühl nahebringen zu können, wurde der Trank der Gottesnähe ersonnen. Er symbolisiert die Hingabe des Geweihten zu seiner Gottheit und überträgt dem Anwender dasselbe Gefühl der Nähe, wie sie ein Geweihter spüren würde. Zwar sind die Grundlagen der Herstellung sehr ähnlich, die Darbietung an Gläubige ist jedoch ganz nach Kult unterschiedlich und selten in reiner Trankform. Einen solchen Trank für der Gottheit nicht gefällige Taten zu nutzen, gilt als Frevel, der je nach Schwere der Tat gar zu einem Makel auf der Seele führen kann.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;14.0;147;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;15.0;147;-1.0;Arkane_Schmiede;1000;Gesegnete Gegenstände zur Zeremoniedurchführung, Kalk, reiner Alkohol, Quellwasser, ein Tropfen Blut des Geweihten, Karmalenergie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;16.0;147;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;17.0;147;-1.0;Arkane_Schmiede;1000;15 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;18.0;147;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;19.0;147;-1.0;Arkane_Schmiede;1000;archaisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;20.0;147;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;21.0;147;-1.0;Arkane_Schmiede;1000;–1
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;22.0;147;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;23.0;147;-1.0;Arkane_Schmiede;1000;SF
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;24.0;147;-1.0;Arkane_Schmiede;1000;Göttliche Alchimie
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;147;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;147;-1.0;Arkane_Schmiede;1000;2 AP (Voraussetzung: Alchimie 10)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;27.0;147;-1.0;Arkane_Schmiede;1000;Qualitätsstufen1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;28.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 1 Stufe des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;29.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;30.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;31.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;33.0;147;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 2 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;35.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;36.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;37.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;147;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 2 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;41.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;42.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;43.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten. Für die nächsten vier Stunden baut sich die Entrückung nicht ab.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;147;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 3 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;47.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;48.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;49.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;51.0;147;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;52.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 3 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;53.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;54.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;55.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten. Für die nächsten vier Stunden baut sich die Entrückung nicht ab.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;147;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 4 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;59.0;147;-1.0;Arkane_Schmiede;1000;Entrü
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;60.0;147;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;61.0;147;-1.0;Arkane_Schmiede;1000;ckung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten. Für die nächsten vier Stunden baut sich die Entrückung nicht ab.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;63.0;147;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;147;-1.0;Arkane_Schmiede;1000;Der Anwender erhält 4 Stufen des Zustands
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;65.0;147;-1.0;Arkane_Schmiede;1000;Entrückung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;147;-1.0;Arkane_Schmiede;1000;, so als wäre er ein Geweihter der Gottheit des Alchimisten. Für die nächsten zwei Tage baut sich die Entrückung nicht ab.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;67.0;147;-1.0;Arkane_Schmiede;1300;Trank der tausend Augen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;68.0;147;-1.0;Arkane_Schmiede;1000;Die Entdeckung einer bislang unbekannten Ingredienz hat Alchimisten auf dem gesamten Kontinent in einen Experimentierrausch gestürzt. Das sogenannte Schwarze Perlmutt, eine schwarze, buntschillernde Masse, ist bislang nur über die Ferkina der Khôm-Wüste erhältlich, die es
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;69.0;147;-1.0;Arkane_Schmiede;1000;Zihashara
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;70.0;147;-1.0;Arkane_Schmiede;1000;(
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;71.0;147;-1.0;Arkane_Schmiede;1000;ferk.
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;147;-1.0;Arkane_Schmiede;1000;„schwarzes Insekt“) nennen. Der Bund des Roten Salamanders verfügt über sein Haus in Fasar bislang als einziges Labor über einen gesicherten Handelsweg. Das Schwarze Perlmutt scheint extrem potent bei Verwandlungen und optischen Illusionen zu sein, besitzt aber eine dämonische Komponente. Das bislang einzige bekannte erfolgreiche Rezept aus Fasar ist der Trank der tausend Augen, der das Sichtfeld des Anwenders verändert und erweitert. Die Sicht ist allerdings ungewohnt und überfordert insbesondere Erstanwender, die zusätzlich eine Stufe
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;73.0;147;-1.0;Arkane_Schmiede;1000;Verwirrung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;74.0;147;-1.0;Arkane_Schmiede;1000;erleiden. In höheren Qualitätsstufen ermöglicht der Trank überdies, Unsichtbares und Magisches zu erkennen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;75.0;147;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;76.0;147;-1.0;Arkane_Schmiede;1000;Schwarzes Perlmutt, Carlog,
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;77.0;147;-1.0;Arkane_Schmiede;1000;Rinderaugen, Libellenflügel, Grünschleim-Tropfen, Bra
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;78.0;147;-1.0;Arkane_Schmiede;1000;-baker Vitriol
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;1.0;148;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;2.0;148;-1.0;Arkane_Schmiede;1000;50 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;3.0;148;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;4.0;148;-1.0;Arkane_Schmiede;1000;alchimistisches Labor
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;5.0;148;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;6.0;148;-1.0;Arkane_Schmiede;1000;–4
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;7.0;148;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;8.0;148;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;9.0;148;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;10.0;148;-1.0;Arkane_Schmiede;1000;6 AP (Voraussetzung: Alchimie 14)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;11.0;148;-1.0;Arkane_Schmiede;1000;Qualitätsstufen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;12.0;148;-1.0;Arkane_Schmiede;1000;
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;13.0;148;-1.0;Arkane_Schmiede;1000;1
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;14.0;148;-1.0;Arkane_Schmiede;1000;Das Sichtfeld des Anwenders zersplittert in tausend Teile, als habe er traubenartige Insektenaugen. Er kann ultraviolettes Licht sehen, seine Sicht ist aber
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;15.0;148;-1.0;Arkane_Schmiede;1000;stark eingeschränkt. Es gilt ein Sichtmodifikator von
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;16.0;148;-1.0;Arkane_Schmiede;1000;2. Die Wirkung hält 20 Minuten an.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;17.0;148;-1.0;Arkane_Schmiede;1000;2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;18.0;148;-1.0;Arkane_Schmiede;1000;Der Anwender kann ultraviolettes Licht sehen und hat eine erweiterte Rundumsicht. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;19.0;148;-1.0;Arkane_Schmiede;1000;Sinnes
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;20.0;148;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;21.0;148;-1.0;Arkane_Schmiede;1000;schärfe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;22.0;148;-1.0;Arkane_Schmiede;1000;sind um +1 erleichtert, AW +1, auf alle anderen
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;23.0;148;-1.0;Arkane_Schmiede;1000;Handlungen gilt allerdings ein Sichtmodifikator von
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;24.0;148;-1.0;Arkane_Schmiede;1000;1. Die Wirkung hält 20 Minuten an.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;25.0;148;-1.0;Arkane_Schmiede;1000;3
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;26.0;148;-1.0;Arkane_Schmiede;1000;Der Anwender kann ultraviolettes Licht sehen und hat eine erweiterte Rundumsicht. Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;27.0;148;-1.0;Arkane_Schmiede;1000;Sinnes
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;28.0;148;-1.0;Arkane_Schmiede;1000;-
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;29.0;148;-1.0;Arkane_Schmiede;1000;schärfe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;30.0;148;-1.0;Arkane_Schmiede;1000;sind um +2 erleichtert, AW +1. Die Wirkung hält 20 Minuten an.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;31.0;148;-1.0;Arkane_Schmiede;1000;4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;32.0;148;-1.0;Arkane_Schmiede;1000;Der Anwender kann unsichtbare Dämonen und Geister sehen. Zusätzlich sind durch die erweiterte Rundumsicht Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;33.0;148;-1.0;Arkane_Schmiede;1000;Sinnesschärfe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;34.0;148;-1.0;Arkane_Schmiede;1000;um +2 erleichtert, AW +1. Die Wirkung hält 20 Minuten an.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;35.0;148;-1.0;Arkane_Schmiede;1000;5
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;36.0;148;-1.0;Arkane_Schmiede;1000;Der Anwender kann unsichtbare Dämonen sowie Geister sehen. Zusätzlich sind durch die erweiterte Rundumsicht Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;37.0;148;-1.0;Arkane_Schmiede;1000;Sinnesschärfe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;38.0;148;-1.0;Arkane_Schmiede;1000;um +3 erleichtert, AW +2. Die Wirkung hält 20 Minuten an.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;39.0;148;-1.0;Arkane_Schmiede;1000;6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;40.0;148;-1.0;Arkane_Schmiede;1000;Der Anwender nimmt die Umgebung überdeutlich und in greller Schärfe wahr. Er kann alle Arten von unsichtbaren Wesen sehen. Außerdem leuchten verzauberte Objekte oder magische Wesen mit einem buntschillernden Schimmer. Zusätzlich sind durch die erweiterte Rundumsicht Proben auf
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;41.0;148;-1.0;Arkane_Schmiede;1000;Sinnesschärfe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;42.0;148;-1.0;Arkane_Schmiede;1000;um +3 erleichtert, AW +2. Die Wirkung hält 20 Minuten an. Währenddessen erleidet der Anwender eine Stufe
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;43.0;148;-1.0;Arkane_Schmiede;1000;Verwirrung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;44.0;148;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;45.0;148;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;46.0;148;-1.0;Arkane_Schmiede;1000;In einer kompletten Rundumsicht bemerkt der Anwender jegliche kleinste Bewegung bis hin zu Ameisen, er kann unsichtbare Wesen und Magie sehen, genauso wie magnetische Felder und andere Vorgänge, die normalerweise nicht sichtbar sind. Aufgrund der vollständigen Überforderung all dieser Sinneseindrücke erleidet er 3 Stufen
+PDTrueTypeFont WHXQNV+GentiumBasic-Italic;false;true;47.0;148;-1.0;Arkane_Schmiede;1000;Verwirrung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;48.0;148;-1.0;Arkane_Schmiede;1000;und 2 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;49.0;148;-1.0;Arkane_Schmiede;1000;Schmerz
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;50.0;148;-1.0;Arkane_Schmiede;1000;. Die Wirkung hält eine Stunde an, danach fällt der Anwender für 8 Stunden in ein Koma, in dem er von Visionen von Spinnen und Ameisen geplagt wird, die ihn verfolgen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;51.0;148;-1.0;Arkane_Schmiede;1300;Traumsand
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;52.0;148;-1.0;Arkane_Schmiede;1000;Alternative Namen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;53.0;148;-1.0;Arkane_Schmiede;1000;Traumwind, Marbos GabeDer Anwender kann in die Träume eines Schlafenden eindringen und mit besonders gutem Traum-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;54.0;148;-1.0;Arkane_Schmiede;1000;sand sogar Einfluss auf sie nehmen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;55.0;148;-1.0;Arkane_Schmiede;1000;Stufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;56.0;148;-1.0;Arkane_Schmiede;1000;QS
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;57.0;148;-1.0;Arkane_Schmiede;1000;1–2
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;58.0;148;-1.0;Arkane_Schmiede;1000;Visionen ähnelnde Ausschnitte der Bilder, schwierige Deutung
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;59.0;148;-1.0;Arkane_Schmiede;1000;3–4
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;60.0;148;-1.0;Arkane_Schmiede;1000;Deutliche Wahrnehmung der Traumbilder des Träumenden
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;61.0;148;-1.0;Arkane_Schmiede;1000;5–6
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;62.0;148;-1.0;Arkane_Schmiede;1000;Tiefer Einblick in die Traumbilder des Träumenden. Ebenso sind verborgene Details erkennbar und Veränderungen möglich.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;63.0;148;-1.0;Arkane_Schmiede;1000;Art
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;64.0;148;-1.0;Arkane_Schmiede;1000;Atemgift, alchimistisch
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;65.0;148;-1.0;Arkane_Schmiede;1000;Widerstand
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;66.0;148;-1.0;Arkane_Schmiede;1000;Zähigkeit
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;67.0;148;-1.0;Arkane_Schmiede;1000;Einnahme
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;68.0;148;-1.0;Arkane_Schmiede;1000;Der Traumsand wird eingeatmet.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;69.0;148;-1.0;Arkane_Schmiede;1000;Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;70.0;148;-1.0;Arkane_Schmiede;1000;Mit diesem Rauschmittel kann der Anwender eine schlafende Person in bis zu 4 Schritt Entfernung auswählen und in dessen Träume eindringen.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;71.0;148;-1.0;Arkane_Schmiede;1000;Nebenwirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;72.0;148;-1.0;Arkane_Schmiede;1000;QS/2 SP, dazu sinkt die nächste Regeneration um –2.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;73.0;148;-1.0;Arkane_Schmiede;1000;Überdosierung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;74.0;148;-1.0;Arkane_Schmiede;1000;QS +2 SP, nach dem Ende der Wirkungsdauer erhält der Anwender 2 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;75.0;148;-1.0;Arkane_Schmiede;1000;Betäubung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;76.0;148;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;77.0;148;-1.0;Arkane_Schmiede;1000;Beginn
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;78.0;148;-1.0;Arkane_Schmiede;1000;5 Minuten
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;79.0;148;-1.0;Arkane_Schmiede;1000;Dauer
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;80.0;148;-1.0;Arkane_Schmiede;1000;QS x 10 Minuten
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;81.0;148;-1.0;Arkane_Schmiede;1000;Legalität
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;82.0;148;-1.0;Arkane_Schmiede;1000;illegal
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;83.0;148;-1.0;Arkane_Schmiede;1000;Wert/Preis
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;84.0;148;-1.0;Arkane_Schmiede;1000;10 Silbertaler pro Stufe / 15 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;85.0;148;-1.0;Arkane_Schmiede;1000;Sucht
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;86.0;148;-1.0;Arkane_Schmiede;1000;1–4 auf 1W20 (Probe bei jeder 3. Anwendung fällig)<br> 1 Anwendung pro 3 Tage
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;87.0;148;-1.0;Arkane_Schmiede;1000;Typische Ingredienzien
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;88.0;148;-1.0;Arkane_Schmiede;1000;Alprute, Alraune, Granat oder Karneol, Feder einer Taube oder eines Raben, Grau-
+PDType0Font/PDCIDFontType2, PostScript name: IDDKZD+GentiumBasic;false;false;89.0;148;-1.0;Arkane_Schmiede;1000;er Mohn, Marbobeere odertäubling, Telfiskrautsaft,
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;90.0;148;-1.0;Arkane_Schmiede;1000;Wiesentraumkraut, Zwiedestillat
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;91.0;148;-1.0;Arkane_Schmiede;1000;Kosten der Ingredienzienstufe
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;92.0;148;-1.0;Arkane_Schmiede;1000;10 Silbertaler pro Stufe
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;93.0;148;-1.0;Arkane_Schmiede;1000;Labor
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;94.0;148;-1.0;Arkane_Schmiede;1000;Hexenküche
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;95.0;148;-1.0;Arkane_Schmiede;1000;Brauschwierigkeit
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;96.0;148;-1.0;Arkane_Schmiede;1000;+1
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;97.0;148;-1.0;Arkane_Schmiede;1000;Voraussetzungen (Brauvorgang)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;98.0;148;-1.0;Arkane_Schmiede;1000;keine
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;99.0;148;-1.0;Arkane_Schmiede;1000;AP-Wert (Berufsgeheimnis)
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;100.0;148;-1.0;Arkane_Schmiede;1000;1 AP (Voraussetzungen: keine)
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;101.0;148;-1.0;Arkane_Schmiede;1000;Qualitätsstufen
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;102.0;148;-1.0;Arkane_Schmiede;1000;Die Giftstufe entspricht der QS.
+PDTrueTypeFont PTZUIJ+GentiumBasic-Bold;true;false;103.0;148;-1.0;Arkane_Schmiede;1000;Hyperpotente Wirkung
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;104.0;148;-1.0;Arkane_Schmiede;1000;Ein anderer Kulturschaffender kann zusammen mit dem Anwender in den Traum eines Schlafenden reisen. Der Anwender muss dafür den anderen Kulturschaffenden mit dem Sand im Rachen auf die Schläfe küssen. Beide Traumreisenden erleiden im Anschluss je 2 Stufen
+PDType0Font/PDCIDFontType2, PostScript name: HCIZLF+GentiumBasic-Italic;false;true;105.0;148;-1.0;Arkane_Schmiede;1000;Paralyse
+PDTrueTypeFont LNWWER+GentiumBasic;false;false;106.0;148;-1.0;Arkane_Schmiede;1000;.
+PDTrueTypeFont VHKVVX+Andalus;false;false;107.0;148;-1.0;Arkane_Schmiede;1200;Alchimistische Rezepte
