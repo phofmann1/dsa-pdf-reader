@@ -33,6 +33,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   private static final String HL_ELIXIR = "Preis (beim Alchimisten)";
   private static final String HL_ANIMALS = "TierPreis";
   private static final String HL_VEHICLE = "GegenstandPreis";
+  private static final String HL_ALCHIMICA_ARKANE_SCHMIEDEN = "Anwendung";
 
   private static final String HL_RÜSTKAMMER = "GewichtPreisKomplexität";
   private static final String HL_REGIONALBAND = "Preise";
@@ -155,6 +156,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         .replace(HL_RÜSTKAMMER, "")
         .replace(HL_REGIONALBAND, "")
         .replace(HL_REGIONALBAND_II, "")
+        .replace(HL_ALCHIMICA_ARKANE_SCHMIEDEN, "")
         .replace(currentCategory.get(), "")
         .replaceAll("^paket Wüstenreich$", "Proviantpaket Wüstenreich");
 
@@ -190,6 +192,9 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
     }
     else if (cleanText.contains(HL_REGIONALBAND_II)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND_II)));
+    }
+    else if (cleanText.contains(HL_ALCHIMICA_ARKANE_SCHMIEDEN)) {
+      currentCategory.set("alchimistische_zutaten");
     }
   }
 
@@ -247,6 +252,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         || t.text.contains(HL_RÜSTKAMMER)
         || t.text.contains(HL_REGIONALBAND)
         || t.text.contains(HL_REGIONALBAND_II)
+        || t.text.startsWith(HL_ALCHIMICA_ARKANE_SCHMIEDEN)
     );
   }
 

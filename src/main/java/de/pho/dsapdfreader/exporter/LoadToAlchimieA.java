@@ -101,14 +101,14 @@ public abstract class LoadToAlchimieA {
         if (alchimie.kostenIngredienzien != null) {
             Equipment e = new Equipment();
             e.name = "Ingredienzien " + alchimie.name + " (pro Stufe)";
-            e.key = ExtractorEquipmentKey.extractEquipmentKeyFromText(eck.name() + " " + e.name);
+            e.key = ExtractorEquipmentKey.retrieve(e.name, EquipmentCategoryKey.kräuter);
             e.equipmentCategoryKey = EquipmentCategoryKey.alchimistische_zutaten;
             e.price = alchimie.kostenIngredienzien;
             returnValue.add(e);
         }
         Equipment e = new Equipment();
         e.name = alchimie.name;
-        e.key = ExtractorEquipmentKey.extractEquipmentKeyFromText(eck.name() + " " + e.name);
+        e.key = ExtractorEquipmentKey.retrieve(e.name, EquipmentCategoryKey.kräuter);
         e.equipmentCategoryKey = EquipmentCategoryKey.alchimica;
         e.price = alchimie.preis;
         returnValue.add(e);

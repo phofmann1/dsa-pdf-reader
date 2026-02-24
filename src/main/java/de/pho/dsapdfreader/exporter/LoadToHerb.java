@@ -8,6 +8,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,15 +20,6 @@ import de.pho.dsapdfreader.exporter.model.CheckQs;
 import de.pho.dsapdfreader.exporter.model.CheckTopic;
 import de.pho.dsapdfreader.exporter.model.Price;
 import de.pho.dsapdfreader.exporter.model.Profession;
-import de.pho.dsapdfreader.exporter.model.enums.CheckQsEntryKey;
-import de.pho.dsapdfreader.exporter.model.enums.EffectCategoryKey;
-import de.pho.dsapdfreader.exporter.model.enums.EffectVectorKey;
-import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
-import de.pho.dsapdfreader.exporter.model.enums.HerbKey;
-import de.pho.dsapdfreader.exporter.model.enums.LanguageKey;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
-import de.pho.dsapdfreader.exporter.model.enums.RezeptKey;
-import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautSO;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautWirkung;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
@@ -92,16 +84,16 @@ public class LoadToHerb {
     List<EquipmentKey> returnValue = new ArrayList<>();
     boolean hasEquipmentKey = false;
     if (herb.preisRoh != null) {
-      returnValue.add(ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + herb.name + " (roh)"));
+      returnValue.add(ExtractorEquipmentKey.retrieve(herb.name + " (roh)", EquipmentCategoryKey.kräuter));
       hasEquipmentKey = true;
     }
     if (herb.preisVerarbeitet != null) {
-      returnValue.add(ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + herb.name + " (verarbeitet)"));
+      returnValue.add(ExtractorEquipmentKey.retrieve(herb.name + " (verarbeitet)", EquipmentCategoryKey.kräuter));
       hasEquipmentKey = true;
 
     }
     if (!hasEquipmentKey) {
-      returnValue.add(ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + herb.name));
+      returnValue.add(ExtractorEquipmentKey.retrieve(herb.name, EquipmentCategoryKey.kräuter));
     }
 
     return returnValue;

@@ -85,7 +85,7 @@ false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der 
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;RÜSTUNGENLISTE;225;24;225;79;;1000;;Weitere
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_WAFFEN;236;;244;;;1000;;
 false;Archiv_der_Ausrüstung;01 - Regeln/Archiv der Ausrustung (196);Archiv der Ausrustung - 01 - Regeln.pdf;VERBREITUNG_RÜSTUNG;245;;246;;;1000;;
-true;Strassenstaub_und_Halsabschneider;01 - Regeln/Strassenstaub & Halsabschneider (149);Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;1000;topic-mapping-streets-equipment.xml;
+false;Strassenstaub_und_Halsabschneider;01 - Regeln/Strassenstaub & Halsabschneider (149);Strassenstaub & Halsabschneider - 01 - Regeln.pdf;AUSRÜSTUNG;38;;47;34;;1000;topic-mapping-streets-equipment.xml;
 false;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;ABILITIES;13;;29;;1300;1100;topic-mapping-gamemaster-shield-abilities.xml;
 false;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;11;37;11;60;1300;1100;;
 false;Katakomben_und_Ruinen;03 - Welt/Meisterschirm Begleitheft - Katakom (116);Meisterschirm Begleitheft - Kat - 03 - Welt.pdf;ABILITIES;17;68;18;42;1300;1100;topic-mapping-katakomben-und-ruinen.xml;FALLEN
@@ -97,14 +97,14 @@ false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwer
 false;Kodex_des_Schwertes;01 - Regeln/Kodex des Schwertes (171);Kodex des Schwertes - 01 - Regeln.pdf;COMPLETE;0;;9999;;;;;
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;MYSTICAL_SKILL_ACTIVITIES_MAGIC;35;;384;;1000;1000;topic-mapping-kodex-magic-tradition-skills.xml;
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ABILITIES;225;;364;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
-true;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ALCHIMIE;385;;391;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
+false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;ALCHIMIE;385;;391;;1300;1100;topic-mapping-kodex-magic-abilities.xml;
 false;Kodex_der_Magie;01 - Regeln/Kodex der Magie (155);Kodex der Magie - 01 - Regeln.pdf;PRAEGUNG;253;;262;;1300;1100;;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;ABILITIES;219;;283;;1300;1100;topic-mapping-kodex-cleric-abilities.xml;
 false;Kodex_des_Götterwirkens;01 - Regeln/Kodex des Gotterwirkens (174);Kodex des Gotterwirkens - 01 - Regeln.pdf;CLERICAL_OBJECT_RITUALS;24;;207;;1300;1100;topic-mapping-kodex-cleric-object-ritual.xml;
 false;Aventurische_Tiergefährten;02 - Ausrustung/Tiergefahrten (133);Tiergefahrten - 02 - Ausrustung.pdf;ABILITIES;129;12;129;69;1300;1000;;
 false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ABILITIES;268;;271;;1300;1100;;
 false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ALCHIMIE;146;;159;;1000;1000;topic-mapping-archiv-der-kraeuter.xml;REZEPTE
-true;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ALCHIMIE;160;;179;;1000;1000;topic-mapping-archiv-der-kraeuter.xml;
+false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;ALCHIMIE;160;;179;;1000;1000;topic-mapping-archiv-der-kraeuter.xml;
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;266;;268;;1300;1100;;ANIMAL-SF
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;279;;283;66;1300;1100;;
 false;Archiv_der_Kreaturen;01 - Regeln/Archiv der Kreaturen (201);Archiv der Kreaturen - 01 - Regeln.pdf;ABILITIES;290;22;291;17;1300;1100;topic-mapping-archiv-der-kreaturen.xml;WERWESEN
@@ -127,7 +127,8 @@ false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschop
 false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschopfe der Anderswelt - 03 - Welt.pdf;ABILITIES;157;;158;;1300;1100;topic-mapping-geschoepfe-der-anderswelt.xml;INVOKATION
 false;Geschuppte_Tyrannen;03 - Welt/Geschuppte Tyrannen (221);Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
 false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
-true;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ALCHIMIE;139;;148;;1300;1000;topic-mapping-arkane-schmiede-abilities.xml;
+false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ALCHIMIE;139;;148;;1300;1000;topic-mapping-arkane-schmiede-abilities.xml;
+true;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;AUSRÜSTUNG;157;4;157;140;;1000;topic-mapping-arkane-schmiede-abilities.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;
@@ -156,5 +157,5 @@ false;Gestade_des_Gottwals;04 - Regionen/Gestade des Gottwals (199);Gestade des 
 false;Almanach;04 - Regionen/Aventurischer Almanach (114);Aventurischer Almanach - 04 - Regionen.pdf;CONTENT_LAND_UND_LEUTE;;;;;1800;1000;topic-mapping-content-gestade.xml;
 false;Flüstern_aus_dem_Abgrund;05 - Abenteuer/Flustern aus dem Abgrund (178);Flustern aus dem Abgrund - 05 - Abenteuer.pdf;PROFESSIONS;116;;118;;1300;1000;;
 false;Archiv_der_Kräuter;01 - Regeln/Archiv der Krauter (185);Archiv der Krauter - 01 - Regeln.pdf;HERBS;12;;143;;1300;1000;;
-true;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;TAVERN;13;16;20;;1300;1100;topic-mapping-gamemaster-shield-booze.xml;
+false;Schirm;03 - Welt/Meisterschirm Begleitheft (117);Meisterschirm Begleitheft - 03 - Welt.pdf;TAVERN;13;16;20;;1300;1100;topic-mapping-gamemaster-shield-booze.xml;
 false;Eiserne_Flamme;05 - Abenteuer/Eiserne Flammen (101);Eiserne Flammen - 05 - Abenteuer.pdf;ABILITIES;106;5;106;25;1300;1100;;

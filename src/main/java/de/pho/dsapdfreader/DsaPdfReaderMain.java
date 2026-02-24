@@ -165,8 +165,8 @@ public class DsaPdfReaderMain {
     private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
     private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
     private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-    //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-    private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+    private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+    //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
     private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
     private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
     private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -643,7 +643,8 @@ public class DsaPdfReaderMain {
                     File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
                     List<EquipmentRaw> raws = CsvHandler.readBeanFromFile(EquipmentRaw.class, fIn);
 
-                    List<Equipment> equipmentList = raws.stream().map(LoadToEquipment::migrate).collect(Collectors.toList());
+                    List<Equipment> equipmentList = raws.stream().map(LoadToEquipment::migrate)
+                            .collect(Collectors.toList());
 
                     if (equipmentList.size() > 0) {
                         ObjectMapper mapper = initObjectMapper();
@@ -1159,8 +1160,8 @@ public class DsaPdfReaderMain {
 
             if (p.preisRoh != null) {
                 Equipment equipment = new Equipment();
-                equipment.key = ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + p.name + " (roh)");
                 equipment.name = p.name + " (roh)";
+                equipment.key = ExtractorEquipmentKey.retrieve(equipment.name, EquipmentCategoryKey.kräuter);
                 equipment.equipmentCategoryKey = EquipmentCategoryKey.kräuter;
                 equipment.aliasse = p.alternativeNamen;
                 equipment.price = p.preisRoh;
@@ -1169,8 +1170,8 @@ public class DsaPdfReaderMain {
             }
             if (p.preisVerarbeitet != null) {
                 Equipment equipment = new Equipment();
-                equipment.key = ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + p.name + " (verarbeitet)");
                 equipment.name = p.name + " (verarbeitet)";
+                equipment.key = ExtractorEquipmentKey.retrieve(equipment.name, EquipmentCategoryKey.kräuter);
                 equipment.equipmentCategoryKey = EquipmentCategoryKey.kräuter;
                 equipment.aliasse = p.alternativeNamen;
                 equipment.price = p.preisVerarbeitet;
@@ -1180,7 +1181,7 @@ public class DsaPdfReaderMain {
 
             if (!added) {
                 Equipment equipment = new Equipment();
-                equipment.key = ExtractorEquipmentKey.extractEquipmentKeyFromText("Kräuter " + p.name);
+                equipment.key = ExtractorEquipmentKey.retrieve(p.name, EquipmentCategoryKey.kräuter);
                 equipment.name = p.name;
                 equipment.equipmentCategoryKey = EquipmentCategoryKey.kräuter;
                 equipment.aliasse = p.alternativeNamen;
