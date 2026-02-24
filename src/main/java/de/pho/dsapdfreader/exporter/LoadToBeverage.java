@@ -30,10 +30,10 @@ public class LoadToBeverage {
 
   public static Equipment migrate(BeverageRaw er) {
     Equipment returnValue = new Equipment();
-
-    returnValue.name = er.name;
-    returnValue.key = ExtractorEquipmentKey.retrieve("alkohol_" + er.name.toLowerCase());
+    returnValue.name = er.name.replaceAll("(?<=[a-zäöüß])(?=[A-ZÄÖÜ])", " ");
     returnValue.equipmentCategoryKey = extractCategoryType(er.type, er.name);
+
+    returnValue.key = ExtractorEquipmentKey.retrieve(er.name.toLowerCase(), returnValue.equipmentCategoryKey);
     returnValue.publication = Publication.valueOf(er.publication);
     Price p = new Price();
     if (er.pricePerUnit != null && !er.pricePerUnit.isEmpty()) {

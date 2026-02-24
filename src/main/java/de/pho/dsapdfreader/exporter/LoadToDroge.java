@@ -1,17 +1,17 @@
 package de.pho.dsapdfreader.exporter;
 
-import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
-import de.pho.dsapdfreader.exporter.model.Droge;
-import de.pho.dsapdfreader.exporter.model.Gift;
-import de.pho.dsapdfreader.exporter.model.QSEntry;
-import de.pho.dsapdfreader.exporter.model.enums.DrugKey;
-import de.pho.dsapdfreader.exporter.model.enums.PoisonKey;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
+import de.pho.dsapdfreader.exporter.model.QSEntry;
+import de.pho.dsapdfreader.exporter.model.enums.DrugKey;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.DrogeSO;
 
 
 public class LoadToDroge extends LoadToGift {
@@ -20,15 +20,15 @@ public class LoadToDroge extends LoadToGift {
   private LoadToDroge() {
   }
 
-  public static Droge migrate(AlchimieRaw raw) {
-      Droge droge = LoadToGift._init(raw, Droge.class);
-      droge.key = extractEnumKey(droge.name, DrugKey.class);
-      droge.einnahme = raw.einnahme;
-      droge.legalitaet = raw.legalitaet;
-      droge.nebenwirkung = raw.nebenwirkung;
-      droge.sucht = raw.sucht;
-      droge.ueberdosierung = raw.ueberdosierung;
-      return droge;
+  public static DrogeSO migrate(AlchimieRaw raw) {
+    DrogeSO droge = LoadToGift._init(raw, DrogeSO.class);
+    droge.key = Extractor.extractEnumKey(droge.name, DrugKey.class);
+    droge.einnahme = raw.einnahme;
+    droge.legalitaet = raw.legalitaet;
+    droge.nebenwirkung = raw.nebenwirkung;
+    droge.sucht = raw.sucht;
+    droge.ueberdosierung = raw.ueberdosierung;
+    return droge;
   }
 
   private static List<QSEntry> extractWirkung(String qualityLevels) {

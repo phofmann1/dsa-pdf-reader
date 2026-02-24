@@ -1,17 +1,17 @@
 package de.pho.dsapdfreader.exporter;
 
-import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
-import de.pho.dsapdfreader.exporter.model.*;
-import de.pho.dsapdfreader.exporter.model.enums.*;
-import de.pho.dsapdfreader.tools.merger.ObjectMerger;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.IntStream;
+import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
+import de.pho.dsapdfreader.exporter.model.QSEntry;
+import de.pho.dsapdfreader.exporter.model.enums.ElixierKey;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.ElixierSO;
 
 
 public class LoadToElixier extends LoadToAlchimieA {
@@ -20,12 +20,12 @@ public class LoadToElixier extends LoadToAlchimieA {
   private LoadToElixier() {
   }
 
-  public static Elixier migrate(AlchimieRaw raw) {
+  public static ElixierSO migrate(AlchimieRaw raw) {
 
-    Elixier elixier = iniAlchimie(new Elixier(), raw);
-    elixier.key = extractEnumKey(
-            elixier.name.replace("1001", "Tausend und ein "),
-            ElixierKey.class
+    ElixierSO elixier = iniAlchimie(new ElixierSO(), raw);
+    elixier.key = Extractor.extractEnumKey(
+        elixier.name.replace("1001", "Tausend und ein "),
+        ElixierKey.class
     );
     elixier.wirkung = extractWirkung(raw.qualityLevels);
     return elixier;

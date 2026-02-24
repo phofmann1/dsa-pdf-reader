@@ -291,13 +291,23 @@ public abstract class Extractor
         .replace("__", "_");
   }
 
-  protected static String getPrefix(String publication, String name)
-  {
+  public static <T extends Enum<T>> T extractEnumKey(String name, Class<T> enumClass) {
+    String enumKeyStr = Extractor.extractKeyTextFromText(name).toLowerCase();
+
+    try {
+      return Enum.valueOf(enumClass, enumKeyStr);
+    }
+    catch (IllegalArgumentException e) {
+      System.out.println(enumKeyStr + ",");
+      return null;
+    }
+  }
+
+  protected static String getPrefix(String publication, String name) {
     return publication + " - " + name + ": ";
   }
 
-  protected static List<String> convertMatcherToListString(Matcher m)
-  {
+  protected static List<String> convertMatcherToListString(Matcher m) {
     return m.results()
         .map(MatchResult::group) // Convert MatchResult to string
         .filter(v -> !v.isEmpty())

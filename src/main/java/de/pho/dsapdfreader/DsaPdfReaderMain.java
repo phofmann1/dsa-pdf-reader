@@ -34,11 +34,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import de.pho.dsapdfreader.dsaconverter.*;
-import de.pho.dsapdfreader.dsaconverter.model.*;
-import de.pho.dsapdfreader.exporter.*;
-import de.pho.dsapdfreader.exporter.model.*;
-import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Pair;
@@ -54,6 +49,48 @@ import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.config.generated.topicstrategymapping.TopicStrategies;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterAlchimie;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmor;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorAvailability;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorLists;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterArmorPart;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterBeverage;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterBoon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterClericalObjectRituals;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterContent;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterCurriculum;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterEquipment;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterHerb;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillElements;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMsyticalSkillIncantations;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillActivityAndArtifacts;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimorium;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterMysticalSkillGrimoriumTricks;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterPraegung;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterProfession;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterProfile;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterSkillKodex;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterSpecialAbilityKodex;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterTraditionsToSpecialAbility;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeapon;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeaponAvailability;
+import de.pho.dsapdfreader.dsaconverter.DsaConverterWeaponLists;
+import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
+import de.pho.dsapdfreader.dsaconverter.model.ArmorRaw;
+import de.pho.dsapdfreader.dsaconverter.model.BeverageRaw;
+import de.pho.dsapdfreader.dsaconverter.model.BoonRaw;
+import de.pho.dsapdfreader.dsaconverter.model.ContentRaw;
+import de.pho.dsapdfreader.dsaconverter.model.CurriculumRaw;
+import de.pho.dsapdfreader.dsaconverter.model.EquipmentRaw;
+import de.pho.dsapdfreader.dsaconverter.model.HerbRaw;
+import de.pho.dsapdfreader.dsaconverter.model.MeleeWeaponRaw;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalActivityObjectRitualRaw;
+import de.pho.dsapdfreader.dsaconverter.model.MysticalSkillRaw;
+import de.pho.dsapdfreader.dsaconverter.model.ProfessionRaw;
+import de.pho.dsapdfreader.dsaconverter.model.RangedWeaponRaw;
+import de.pho.dsapdfreader.dsaconverter.model.SkillRaw;
+import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
+import de.pho.dsapdfreader.dsaconverter.model.TraditionRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.DsaConverterStrategy;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorBoon;
@@ -62,6 +99,58 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorMysticalSk
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorObjectRitual;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
+import de.pho.dsapdfreader.exporter.LoadToArmor;
+import de.pho.dsapdfreader.exporter.LoadToBeverage;
+import de.pho.dsapdfreader.exporter.LoadToBoon;
+import de.pho.dsapdfreader.exporter.LoadToElixier;
+import de.pho.dsapdfreader.exporter.LoadToEquipment;
+import de.pho.dsapdfreader.exporter.LoadToHerb;
+import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
+import de.pho.dsapdfreader.exporter.LoadToMysticalSkill;
+import de.pho.dsapdfreader.exporter.LoadToObjectRitual;
+import de.pho.dsapdfreader.exporter.LoadToProfession;
+import de.pho.dsapdfreader.exporter.LoadToRangedWeapon;
+import de.pho.dsapdfreader.exporter.LoadToSkill;
+import de.pho.dsapdfreader.exporter.LoadToSpecialAbility;
+import de.pho.dsapdfreader.exporter.LoadToTraditionAbility;
+import de.pho.dsapdfreader.exporter.SaSpecialRequirementsToggle;
+import de.pho.dsapdfreader.exporter.model.Armor;
+import de.pho.dsapdfreader.exporter.model.AvailabilityWeapon;
+import de.pho.dsapdfreader.exporter.model.Boon;
+import de.pho.dsapdfreader.exporter.model.CheckQs;
+import de.pho.dsapdfreader.exporter.model.Elixier;
+import de.pho.dsapdfreader.exporter.model.Equipment;
+import de.pho.dsapdfreader.exporter.model.EquipmentI;
+import de.pho.dsapdfreader.exporter.model.MeleeWeapon;
+import de.pho.dsapdfreader.exporter.model.MysticalSkill;
+import de.pho.dsapdfreader.exporter.model.ObjectRitual;
+import de.pho.dsapdfreader.exporter.model.Price;
+import de.pho.dsapdfreader.exporter.model.Profession;
+import de.pho.dsapdfreader.exporter.model.RangedWeapon;
+import de.pho.dsapdfreader.exporter.model.RequirementBoon;
+import de.pho.dsapdfreader.exporter.model.Rezept;
+import de.pho.dsapdfreader.exporter.model.Skill;
+import de.pho.dsapdfreader.exporter.model.SkillApplication;
+import de.pho.dsapdfreader.exporter.model.SkillUsage;
+import de.pho.dsapdfreader.exporter.model.SpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.AlchimieTypeKey;
+import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
+import de.pho.dsapdfreader.exporter.model.enums.CombatSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
+import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecieKey;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.ElixierSO;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautSO;
 import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.CsvHandler;
@@ -76,8 +165,8 @@ public class DsaPdfReaderMain {
     private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
     private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
     private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-    private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-    //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+    //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+    private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
     private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
     private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
     private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -928,7 +1017,7 @@ public class DsaPdfReaderMain {
 
                     List<HerbRaw> raws = CsvHandler.readBeanFromFile(HerbRaw.class, fIn);
 
-                    List<Herb> pures = raws.stream().map(LoadToHerb::migrate).collect(Collectors.toList());
+                    List<KrautSO> pures = raws.stream().map(LoadToHerb::migrate).collect(Collectors.toList());
 
                     ObjectMapper mapper = initObjectMapper();
                     String jsonResult = mapper
@@ -957,7 +1046,7 @@ public class DsaPdfReaderMain {
 
                     List<BeverageRaw> raws = CsvHandler.readBeanFromFile(BeverageRaw.class, fIn);
 
-                    List<Equipment> pures = raws.stream().map(LoadToBeverage::migrate).collect(Collectors.toList());
+                    List<Equipment> pures = raws.stream().map(LoadToBeverage::migrate).filter(e -> e.key != null).collect(Collectors.toList());
 
                     ObjectMapper mapper = initObjectMapper();
                     String jsonResult = mapper
@@ -988,18 +1077,37 @@ public class DsaPdfReaderMain {
 
                     List<AlchimieRaw> raws = CsvHandler.readBeanFromFile(AlchimieRaw.class, fIn);
 
-                    List<Elixier> elixiers = raws.stream().filter(r -> r.type == AlchimieTypeKey.elixier).map(LoadToElixier::migrate).collect(Collectors.toList());
+                    List<ElixierSO> elixierSOs = raws.stream().filter(r -> r.type == AlchimieTypeKey.elixier).map(LoadToElixier::migrate).collect(Collectors.toList());
+                    List<Elixier> elixiers = new ArrayList<>(); //EQUIPMENT
+                    List<Rezept> elixierRezepte = new ArrayList<>(); //REZEPTE
+                    elixierSOs.forEach(eso -> {
+                        elixiers.add(new Elixier(eso));
+                        Rezept r = new Rezept(eso.name, SkillKey.alchimie, eso.brewingDifficulty);
+                        r.skillUsageKey = SkillUsageKey.elixiere;
+                        r.ingredients = eso.typicalIngredients.stream().map(ti -> Extractor.extractEnumKey(ti, EquipmentKey.class)).collect(Collectors.toList());
+                        //r.tools = eso.requirements.stream().map(ti ->  LoadToAlchimieA.extractEnumKey(ti, EquipmentKey.class)).collect(Collectors.toList());
+                        elixierRezepte.add(r);
+
+                    });
 
                     ObjectMapper mapper = initObjectMapper();
                     String jsonResult = mapper
-                            .writerWithDefaultPrettyPrinter()
-                            .writeValueAsString(elixiers);
-
-                    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "elixiere", "alchimica"));
+                        .writerWithDefaultPrettyPrinter()
+                        .writeValueAsString(elixiers);
+                    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "elixiere", "equipment_elixiere"));
                     writer.write(jsonResult);
                     writer.close();
 
-                    List<Gift> gifte = raws.stream().filter(r -> r.type == AlchimieTypeKey.gift).map(LoadToGift::migrate).collect(Collectors.toList());
+/*
+                    mapper = initObjectMapper();
+                    jsonResult = mapper
+                        .writerWithDefaultPrettyPrinter()
+                        .writeValueAsString(elixierRezepte);
+                    writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "elixiere", "rezepte"));
+                    writer.write(jsonResult);
+                    writer.close();
+
+                    List<GiftSO> gifte = raws.stream().filter(r -> r.type == AlchimieTypeKey.gift).map(LoadToGift::migrate).collect(Collectors.toList());
 
                     jsonResult = mapper
                             .writerWithDefaultPrettyPrinter()
@@ -1009,7 +1117,7 @@ public class DsaPdfReaderMain {
                     writer.write(jsonResult);
                     writer.close();
 
-                    List<Droge> drogen = raws.stream().filter(r -> r.type == AlchimieTypeKey.droge).map(LoadToDroge::migrate).collect(Collectors.toList());
+                    List<DrogeSO> drogen = raws.stream().filter(r -> r.type == AlchimieTypeKey.droge).map(LoadToDroge::migrate).collect(Collectors.toList());
 
                     jsonResult = mapper
                             .writerWithDefaultPrettyPrinter()
@@ -1018,7 +1126,7 @@ public class DsaPdfReaderMain {
                     writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "drogen", "alchimica"));
                     writer.write(jsonResult);
                     writer.close();
-
+*/
 
                 } catch (JsonProcessingException e) {
                     throw new RuntimeException(e);
@@ -1043,7 +1151,7 @@ public class DsaPdfReaderMain {
         writer.close();
     }
 
-    private static void generateHerbEquipmentEntries(List<Herb> pures, TopicConfiguration conf) throws IOException {
+    private static void generateHerbEquipmentEntries(List<KrautSO> pures, TopicConfiguration conf) throws IOException {
 
         List<Equipment> kräuterEquips = pures.stream().flatMap(p -> {
             boolean added = false;
@@ -1098,7 +1206,7 @@ public class DsaPdfReaderMain {
     }
 
 
-    private static void generateHerbNames(List<Herb> pures, TopicConfiguration conf) throws IOException {
+    private static void generateHerbNames(List<KrautSO> pures, TopicConfiguration conf) throws IOException {
         String prefix = "kräuter";
         BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_name"));
         writer.write(generateLocalisationString(pures, "HerbKey", "name"));

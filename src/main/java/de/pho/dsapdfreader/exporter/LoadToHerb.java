@@ -17,8 +17,6 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentK
 import de.pho.dsapdfreader.exporter.model.Alias;
 import de.pho.dsapdfreader.exporter.model.CheckQs;
 import de.pho.dsapdfreader.exporter.model.CheckTopic;
-import de.pho.dsapdfreader.exporter.model.Herb;
-import de.pho.dsapdfreader.exporter.model.HerbEffect;
 import de.pho.dsapdfreader.exporter.model.Price;
 import de.pho.dsapdfreader.exporter.model.Profession;
 import de.pho.dsapdfreader.exporter.model.enums.CheckQsEntryKey;
@@ -30,6 +28,8 @@ import de.pho.dsapdfreader.exporter.model.enums.LanguageKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.RezeptKey;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautSO;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautWirkung;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -53,9 +53,9 @@ public class LoadToHerb {
   private LoadToHerb() {
   }
 
-  public static Herb migrate(HerbRaw raw) {
+  public static KrautSO migrate(HerbRaw raw) {
 
-    Herb herb = new Herb();
+    KrautSO herb = new KrautSO();
     herb.name = raw.name.replace("67 Kukuka", "Kukuka");
     herb.key = extractHerbKey(herb.name);
     herb.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
@@ -88,7 +88,7 @@ public class LoadToHerb {
     return herb;
   }
 
-  private static List<EquipmentKey> extractEquipmentKeys(Herb herb) {
+  private static List<EquipmentKey> extractEquipmentKeys(KrautSO herb) {
     List<EquipmentKey> returnValue = new ArrayList<>();
     boolean hasEquipmentKey = false;
     if (herb.preisRoh != null) {
@@ -249,8 +249,8 @@ public class LoadToHerb {
     return numbers;
   }
 
-  private static List<HerbEffect> extractEffekteRoh(String rawText, boolean log) {
-    List<HerbEffect> effects = new ArrayList<>();
+  private static List<KrautWirkung> extractEffekteRoh(String rawText, boolean log) {
+    List<KrautWirkung> effects = new ArrayList<>();
     if (rawText == null || rawText.isBlank()) return effects;
 
     String text = cutOffVerarbeitet(rawText);
@@ -270,7 +270,7 @@ public class LoadToHerb {
       // Skip "keine" etc.
       if (isNoEffect(value)) continue;
 
-      HerbEffect effect = new HerbEffect();
+      KrautWirkung effect = new KrautWirkung();
       effect.vectorKey = parseVectorKey(key);
       effect.beschreibung = markdownText(value);
       effect.categories = detectCategories(value);
@@ -281,8 +281,8 @@ public class LoadToHerb {
     return effects;
   }
 
-  private static List<HerbEffect> extractEffekteRoh(String rawText) {
-    List<HerbEffect> effects = new ArrayList<>();
+  private static List<KrautWirkung> extractEffekteRoh(String rawText) {
+    List<KrautWirkung> effects = new ArrayList<>();
 
     if (rawText == null || rawText.isBlank())
       return effects;
@@ -303,7 +303,7 @@ public class LoadToHerb {
       // 3️⃣ "keine" o.Ä. überspringen
       if (isNoEffect(value)) continue;
 
-      HerbEffect effect = new HerbEffect();
+      KrautWirkung effect = new KrautWirkung();
       effect.vectorKey = vectorKey;
       effect.beschreibung = markdownText(value);
       effect.categories = detectCategories(value);

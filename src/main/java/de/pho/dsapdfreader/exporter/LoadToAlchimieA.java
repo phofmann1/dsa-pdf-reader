@@ -1,27 +1,36 @@
 package de.pho.dsapdfreader.exporter;
 
-import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
-import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentKey;
-import de.pho.dsapdfreader.exporter.model.*;
-import de.pho.dsapdfreader.exporter.model.enums.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.RecursiveTask;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
+import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEquipmentKey;
+import de.pho.dsapdfreader.exporter.model.Alias;
+import de.pho.dsapdfreader.exporter.model.Berufsgeheimnis;
+import de.pho.dsapdfreader.exporter.model.Equipment;
+import de.pho.dsapdfreader.exporter.model.Price;
+import de.pho.dsapdfreader.exporter.model.QSEntry;
+import de.pho.dsapdfreader.exporter.model.RequirementSkill;
+import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.LaborKey;
+import de.pho.dsapdfreader.exporter.model.enums.LanguageKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.sammelobjekt.AlchimieA;
+
 public abstract class LoadToAlchimieA {
 
-    public static <T extends AlchimieA> T iniAlchimie(T newObject, AlchimieRaw raw) {
-        newObject.name = raw.name;
-        newObject.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
-        newObject.berufsgeheimnis = extractBerufsgeheimnis(raw.apValue);
-        newObject.typicalIngredients = Arrays.stream(raw.typicalIngredients.split(",")).map(String::trim).toList();
-        if(raw.cost != null && !raw.cost.isEmpty()) {
-            newObject.kostenIngredienzien = new Price();
+  public static <T extends AlchimieA> T iniAlchimie(T newObject, AlchimieRaw raw) {
+    newObject.name = raw.name;
+    newObject.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
+    newObject.berufsgeheimnis = extractBerufsgeheimnis(raw.apValue);
+    newObject.typicalIngredients = Arrays.stream(raw.typicalIngredients.split(",")).map(String::trim).toList();
+    if (raw.cost != null && !raw.cost.isEmpty()) {
+      newObject.kostenIngredienzien = new Price();
             newObject.kostenIngredienzien.isPricePerLevel = true;
 
             Pattern pattern = Pattern.compile("^(\\d+)");
@@ -31,7 +40,7 @@ public abstract class LoadToAlchimieA {
                 newObject.kostenIngredienzien.priceInSilver = Double.parseDouble(matcher.group(1));
             }
         }
-        newObject.labor = extractEnumKey(raw.labor.toLowerCase(), LaborKey.class);
+    newObject.labor = Extractor.extractEnumKey(raw.labor.toLowerCase(), LaborKey.class);
         if(raw.brewingDifficulty !=  null && !raw.brewingDifficulty.isEmpty()) {
             newObject.brewingDifficulty = Integer.valueOf(raw.brewingDifficulty.replace("–", "-").replaceAll("\\+/- ?0", "0"));
         }
@@ -79,9 +88,9 @@ public abstract class LoadToAlchimieA {
                 bg.requirementsSkill = new RequirementsSkill();
                 bg.requirementsSkill.requirements = new ArrayList<>();
                 RequirementSkill req = new RequirementSkill();
-                req.minValue = Integer.parseInt(skillValueStr);
-                req.skillKey = extractEnumKey(skill.toLowerCase(), SkillKey.class);
-                bg.requirementsSkill.requirements.add(req);
+              req.minValue = Integer.parseInt(skillValueStr);
+              req.skillKey = Extractor.extractEnumKey(skill.toLowerCase(), SkillKey.class);
+              bg.requirementsSkill.requirements.add(req);
             }
         }
         return bg;
@@ -105,17 +114,6 @@ public abstract class LoadToAlchimieA {
         returnValue.add(e);
 
         return returnValue;
-    }
-
-    protected static <T extends Enum<T>> T extractEnumKey(String name, Class<T> enumClass) {
-        String enumKeyStr = Extractor.extractKeyTextFromText(name).toLowerCase();
-
-        try {
-            return Enum.valueOf(enumClass, enumKeyStr);
-        } catch (IllegalArgumentException e) {
-            System.out.println(enumKeyStr + ",");
-            return null;
-        }
     }
 
     //INTERNAL

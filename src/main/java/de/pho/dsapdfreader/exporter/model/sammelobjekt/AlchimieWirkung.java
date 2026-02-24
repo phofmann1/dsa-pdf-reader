@@ -1,4 +1,4 @@
-package de.pho.dsapdfreader.exporter.model;
+package de.pho.dsapdfreader.exporter.model.sammelobjekt;
 
 public class AlchimieWirkung {
     public String regelSevere;

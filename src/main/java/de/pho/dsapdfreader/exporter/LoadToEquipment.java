@@ -20,12 +20,11 @@ public class LoadToEquipment
   public static Equipment migrate(EquipmentRaw er)
   {
     Equipment returnValue = new Equipment();
-
-    returnValue.name = er.name;
-    returnValue.key = ExtractorEquipmentKey.retrieve(er.name.toLowerCase());
+    returnValue.name = er.name.replaceAll("(?<=[a-zäöüß])(?=[A-ZÄÖÜ])", " ");
+    returnValue.equipmentCategoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);
+    returnValue.key = ExtractorEquipmentKey.retrieve(er.name.toLowerCase(), returnValue.equipmentCategoryKey);
     returnValue.structure = (er.structure != null && !er.structure.isEmpty()) ? Integer.valueOf(er.structure.replace(".", "")) : 0;
     returnValue.color = er.color;
-    returnValue.equipmentCategoryKey = ExtractorEquipmentCategoryKey.retrieve(er.category);
     if (er.weight != null && !er.weight.isEmpty()) {
       returnValue.weight = Double.valueOf(er.weight.replace(".", "").replace(",", "."));
     }
