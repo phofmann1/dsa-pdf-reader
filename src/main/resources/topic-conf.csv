@@ -128,7 +128,8 @@ false;Geschöpfe_der_Anderswelt;03 - Welt/Geschopfe der Anderswelt (208);Geschop
 false;Geschuppte_Tyrannen;03 - Welt/Geschuppte Tyrannen (221);Geschuppte Tyrannen - 03 - Welt.pdf;BOONS;153;5;156;92;1300;1100;;
 false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ABILITIES;152;;156;8;1300;1100;topic-mapping-arkane-schmiede-abilities.xml;
 false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;ALCHIMIE;139;;148;;1300;1000;topic-mapping-arkane-schmiede-abilities.xml;
-true;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;AUSRÜSTUNG;157;4;157;140;;1000;topic-mapping-arkane-schmiede-abilities.xml;
+false;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;AUSRÜSTUNG;157;4;157;140;;1000;topic-mapping-arkane-schmiede-abilities.xml;
+true;Arkane_Schmiede;03 - Welt/Arkane Schmiede und Labore (203);Arkane Schmiede und Labore - 03 - Welt.pdf;AUSRÜSTUNG;158;;159;;;1000;topic-mapping-arkane-schmiede-abilities.xml;WeitereMaterialien
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;SPELLS_GRIMORIUM;33;;338;;3200;3100;topic-mapping-grimorium-spells.xml;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_RIME_SPELLS_GRIMORIUM;445;16;451;;3200;3100;;
 false;Grimorium;01 - Regeln/Grimorum Cantiones (156);Grimorum Cantiones - 01 - Regeln.pdf;INCANTATIONS_ZHAYAD_SPELLS_GRIMORIUM;454;8;455;;3200;3100;;

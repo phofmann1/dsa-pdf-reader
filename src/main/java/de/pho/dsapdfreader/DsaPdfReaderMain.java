@@ -160,7 +160,7 @@ public class DsaPdfReaderMain {
 
     static final CombatSkillKey[] COMBAT_SKILL_KEYS_RANGED = {CombatSkillKey.blasrohre, CombatSkillKey.bögen, CombatSkillKey.armbrüste, CombatSkillKey.diskusse, CombatSkillKey.schleudern, CombatSkillKey.wurfwaffen};
     static final Map<String, String> mapProfession2CurriculumRaw;
-    private static final boolean TOGGLE_READ_PDF = false;
+    private static final boolean TOGGLE_READ_PDF = true;
     private static final String PDF_BASE_PATH = "D:/Daten/Dropbox/pdf.library/RPG/DSA 5/";
     private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
     private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
