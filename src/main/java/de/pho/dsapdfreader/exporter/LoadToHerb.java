@@ -8,7 +8,6 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,6 +19,16 @@ import de.pho.dsapdfreader.exporter.model.CheckQs;
 import de.pho.dsapdfreader.exporter.model.CheckTopic;
 import de.pho.dsapdfreader.exporter.model.Price;
 import de.pho.dsapdfreader.exporter.model.Profession;
+import de.pho.dsapdfreader.exporter.model.enums.CheckQsEntryKey;
+import de.pho.dsapdfreader.exporter.model.enums.EffectCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.EffectVectorKey;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
+import de.pho.dsapdfreader.exporter.model.enums.HerbKey;
+import de.pho.dsapdfreader.exporter.model.enums.LanguageKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.RezeptKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautSO;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.KrautWirkung;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
@@ -241,16 +250,12 @@ public class LoadToHerb {
     return numbers;
   }
 
-  private static List<KrautWirkung> extractEffekteRoh(String rawText, boolean log) {
+  private static List<KrautWirkung> extractEffekteRoh_1(String rawText) {
     List<KrautWirkung> effects = new ArrayList<>();
     if (rawText == null || rawText.isBlank()) return effects;
 
     String text = cutOffVerarbeitet(rawText);
     Matcher matcher = VALUE_PATTERN.matcher(text);
-
-    if (log) {
-      System.out.println(rawText);
-    }
 
     while (matcher.find()) {
       String key = matcher.group(2).trim().toLowerCase();

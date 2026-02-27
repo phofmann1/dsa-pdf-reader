@@ -13,7 +13,6 @@ import de.pho.dsapdfreader.exporter.model.Alias;
 import de.pho.dsapdfreader.exporter.model.Berufsgeheimnis;
 import de.pho.dsapdfreader.exporter.model.Equipment;
 import de.pho.dsapdfreader.exporter.model.Price;
-import de.pho.dsapdfreader.exporter.model.QSEntry;
 import de.pho.dsapdfreader.exporter.model.RequirementSkill;
 import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
@@ -24,32 +23,39 @@ import de.pho.dsapdfreader.exporter.model.sammelobjekt.AlchimieA;
 
 public abstract class LoadToAlchimieA {
 
-  public static <T extends AlchimieA> T iniAlchimie(T newObject, AlchimieRaw raw) {
+  public static <T extends AlchimieA> T initAlchimie(T newObject, AlchimieRaw raw) {
     newObject.name = raw.name;
     newObject.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
     newObject.berufsgeheimnis = extractBerufsgeheimnis(raw.apValue);
-    newObject.typicalIngredients = Arrays.stream(raw.typicalIngredients.split(",")).map(String::trim).toList();
+    newObject.typicalIngredients = Arrays.stream(raw.typicalIngredients
+            .replace("Späne einer Waffe, die mit königlichem Blut benetzt wurde", "Späne einer Waffe die mit königlichem Blut benetzt wurde")
+            .replace("allerhand experimentelle Mittel, die das Pulver trocken und Mindergeister fernhalten", "allerhand experimentelle Mittel die das Pulver trocken und Mindergeister fernhalten")
+            .replace("Nägel oder Haut der Person, die den Fluch ausgesprochen hat", "Nägel oder Haut der Person die den Fluch ausgesprochen hat")
+            .replace("verschiedene,", "verschiedene")
+            .split(","))
+        .map(String::trim).toList();
     if (raw.cost != null && !raw.cost.isEmpty()) {
       newObject.kostenIngredienzien = new Price();
-            newObject.kostenIngredienzien.isPricePerLevel = true;
+      newObject.kostenIngredienzien.isPricePerLevel = true;
 
-            Pattern pattern = Pattern.compile("^(\\d+)");
-            Matcher matcher = pattern.matcher(raw.cost);
+      Pattern pattern = Pattern.compile("^(\\d+)");
+      Matcher matcher = pattern.matcher(raw.cost);
 
-            if (matcher.find()) {
-                newObject.kostenIngredienzien.priceInSilver = Double.parseDouble(matcher.group(1));
-            }
-        }
-    newObject.labor = Extractor.extractEnumKey(raw.labor.toLowerCase(), LaborKey.class);
-        if(raw.brewingDifficulty !=  null && !raw.brewingDifficulty.isEmpty()) {
-            newObject.brewingDifficulty = Integer.valueOf(raw.brewingDifficulty.replace("–", "-").replaceAll("\\+/- ?0", "0"));
-        }
-        newObject.requirements = Arrays.stream(raw.requirements.split(",")).map(String::trim).toList();
-        newObject.description = raw.description;
-        //newObject.;
-        if(raw.wertPreis != null && !raw.wertPreis.isEmpty()) {
-            newObject.preis = new Price();
-            newObject.preis.isPricePerLevel = true;
+      if (matcher.find()) {
+        newObject.kostenIngredienzien.priceInSilver = Double.parseDouble(matcher.group(1));
+      }
+    }
+
+    newObject.labor = (raw.labor != null && !raw.labor.isEmpty()) ? Extractor.extractEnumKey(raw.labor.toLowerCase(), LaborKey.class) : null;
+    if (raw.brewingDifficulty != null && !raw.brewingDifficulty.isEmpty()) {
+      newObject.brewingDifficulty = Integer.valueOf(raw.brewingDifficulty.replace("–", "-").replaceAll("\\+/- ?0", "0"));
+    }
+    newObject.requirements = Arrays.stream(raw.requirements.split(",")).map(String::trim).filter(req -> req != null && !req.isEmpty()).toList();
+    newObject.description = raw.description;
+    //newObject.;
+    if (raw.wertPreis != null && !raw.wertPreis.isEmpty()) {
+      newObject.preis = new Price();
+      newObject.preis.isPricePerLevel = true;
 
             Pattern pattern = Pattern.compile("^([\\d.]+)");
             Matcher matcher = pattern.matcher(raw.wertPreis);
@@ -59,13 +65,6 @@ public abstract class LoadToAlchimieA {
             }
         }
         newObject.besonderheiten = raw.besonderheiten;
-
-        if (raw.hyperpotenteWirkung != null && !raw.hyperpotenteWirkung.isEmpty()) {
-            newObject.hyperpotenteWirkung = new QSEntry();
-            newObject.hyperpotenteWirkung.qs = 7;
-            newObject.hyperpotenteWirkung.information = raw.hyperpotenteWirkung;
-        }
-
 
         return newObject;
     }

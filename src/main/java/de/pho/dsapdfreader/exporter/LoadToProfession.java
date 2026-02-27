@@ -589,8 +589,6 @@ public class LoadToProfession {
           if (r == null) System.out.println("extractBoonsRecommended(~259): " + str.trim());
           return r;
         }).collect(Collectors.toList());
-    if (returnValue.contains(null))
-      System.out.println("extractBoonsRecommended(~263): " + name + ": " + cleanedString + "\r\n\t" + returnValue);
     return returnValue.stream().filter(k -> k != null).collect(Collectors.toList());
   }
 
@@ -614,11 +612,6 @@ public class LoadToProfession {
             variantString = variantString.replace(nameString, "").trim();
           }
         }
-
-        if(variant.key == ProfessionKey.kartograph_in) {
-          System.out.println(variant.name);
-        }
-
         varMatcher = Pattern.compile("(?<=^\\(|^)\\d+(?= AP\\):)").matcher(variantString);
         if (varMatcher.find()) {
           variant.apValue = Integer.parseInt(varMatcher.group());

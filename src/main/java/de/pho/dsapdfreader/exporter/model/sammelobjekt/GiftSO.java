@@ -9,8 +9,8 @@ import de.pho.dsapdfreader.exporter.model.enums.PoisonKey;
 public class GiftSO extends AlchimieA {
     public PoisonKey key;
     public AttributeShort widerstand;
-    public List<String> art;
-    public String stufe;
+  public List<String> vektor;
+  public String stufe;
     public Duration beginn;
     public Duration dauer;
     public AlchimieWirkung wirkung;

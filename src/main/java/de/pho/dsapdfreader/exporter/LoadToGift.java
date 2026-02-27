@@ -31,7 +31,7 @@ public class LoadToGift extends LoadToAlchimieA {
   protected static <T extends AlchimieA> T _init(AlchimieRaw raw, Class<T> clazz) {
     try {
       T t = clazz.getDeclaredConstructor().newInstance();
-      iniAlchimie(t, raw);
+      initAlchimie(t, raw);
       //gift.widerstand;
       //gift.art;
       //gift.stufe;

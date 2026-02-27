@@ -46,7 +46,21 @@ public enum EquipmentCategoryKey
   spirituosen,
   alchimistische_zutaten,
   gifte,
-  drogen;
+  drogen,
+  unedle_metalle,
+  halbedle_metalle,
+  edle_metalle,
+  magische_metalle,
+  sternenmetalle,
+  unmetalle,
+  astralspeicher_steine,
+  gestein,
+  holz,
+  stoff,
+  koerperteile,
+  kuenstliche_materialien,
+  pflanzliche_hilfsmittel,
+  ;
 
   @JsonValue
   public int toValue() {

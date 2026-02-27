@@ -22,23 +22,24 @@ public enum PoisonKey {
     kukris,
     mandragora,
     margolaschabführmittel,
-    rattenpilzgift,
-    schattennebelgift,
-    schwarzer_lotos,
-    schwarzkorn,
-    betaeubungsgift,
-    freundfeind,
-    lichtnebler_beutel,
-    lotosoel,
-    merach_extrakt,
-    schlafgift,
-    stabiles_zazamotoxin,
-    chimaerengift;
+  rattenpilzgift,
+  schattennebelgift,
+  schwarzer_lotos,
+  schwarzkorn,
+  betaeubungsgift,
+  freundfeind,
+  lichtnebler_beutel,
+  lotosoel,
+  merach_extrakt,
+  schlafgift,
+  zazamotoxin,
+  stabiles_zazamotoxin,
+  chimaerengift;
 
-    @JsonValue
-    public int toValue() {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue() {
+    return ordinal();
+  }
 
 
 }

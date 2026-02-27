@@ -9,7 +9,10 @@ public class ExtractorEquipmentCategoryKey extends Extractor
     EquipmentCategoryKey returnValue = null;
     try
     {
-      returnValue = extractEquipmentCategoryKeyFromText(name.replaceAll("^Reisebedarf und Werkzeug$", "Reisebedarf und Werkzeuge"));
+      returnValue = extractEquipmentCategoryKeyFromText(name
+          .replaceAll("^Reisebedarf und Werkzeug$", "Reisebedarf und Werkzeuge")
+          .replaceAll("^Edelsteine$", "Edelsteine und Feingestein")
+      );
       if (returnValue == null)
         throw new IllegalArgumentException();
     }

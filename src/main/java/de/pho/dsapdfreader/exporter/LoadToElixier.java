@@ -22,12 +22,17 @@ public class LoadToElixier extends LoadToAlchimieA {
 
   public static ElixierSO migrate(AlchimieRaw raw) {
 
-    ElixierSO elixier = iniAlchimie(new ElixierSO(), raw);
+    ElixierSO elixier = initAlchimie(new ElixierSO(), raw);
     elixier.key = Extractor.extractEnumKey(
         elixier.name.replace("1001", "Tausend und ein "),
         ElixierKey.class
     );
     elixier.wirkung = extractWirkung(raw.qualityLevels);
+    if (raw.hyperpotenteWirkung != null && !raw.hyperpotenteWirkung.isEmpty()) {
+      elixier.hyperpotenteWirkung = new QSEntry();
+      elixier.hyperpotenteWirkung.qs = 7;
+      elixier.hyperpotenteWirkung.information = raw.hyperpotenteWirkung;
+    }
     return elixier;
   }
 

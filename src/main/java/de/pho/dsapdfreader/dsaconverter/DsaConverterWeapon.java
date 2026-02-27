@@ -74,9 +74,6 @@ public class DsaConverterWeapon extends DsaConverter<WeaponRaw, ConverterAtomicF
               .replace("Orkkhammer", "Orkhammer")
               .trim();
 
-          if(cleanText.startsWith("Aranischer")) {
-            System.out.println(cleanText);
-          }
 
           if (cleanText != null && !cleanText.isEmpty()) {
             // validate the flags for conf

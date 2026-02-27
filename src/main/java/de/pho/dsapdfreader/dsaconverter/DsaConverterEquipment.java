@@ -33,11 +33,24 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   private static final String HL_ELIXIR = "Preis (beim Alchimisten)";
   private static final String HL_ANIMALS = "TierPreis";
   private static final String HL_VEHICLE = "GegenstandPreis";
-  private static final String HL_ALCHIMICA_ARKANE_SCHMIEDEN = "Anwendung";
 
   private static final String HL_RÜSTKAMMER = "GewichtPreisKomplexität";
   private static final String HL_REGIONALBAND = "Preise";
   private static final String HL_REGIONALBAND_II = "Preis";
+  private static final String HL_ALCHIMICA_AS = "Anwendung";
+  private static final String HL_UNEDLE_METALLE_AS = "MaterialVerfügbarkeitPreis pro SteinUnedle Metalle";
+  private static final String HL_HALBEDLE_METALLE_AS = "Halbedle Metalle";
+  private static final String HL_EDLE_METALLE_AS = "Edle Metalle";
+  private static final String HL_MAGISCHE_METALLE_AS = "Magische Metalle";
+  private static final String HL_STERNMETALLE_AS = "Sternenmetalle";
+  private static final String HL_UNMETALLE_AS = "Unmetalle";
+  private static final String HL_ASTRALSPEICHER_STEINE_AS = "Astralspeicher-Steine";
+  private static final String HL_GESTEIN_AS = "Gestein";
+  private static final String HL_EDELSTEINE_AS = "Edelsteine";
+  private static final String HL_HOLZ_AS = "Holz";
+  private static final String HL_STOFF_AS = "Stoff";
+  private static final String HL_KOERPERTEILE_AS = "Körperteile";
+  private static final String HL_KUENSTLICHE_MATERIALIEN_AS = "Künstliche Materialien";
 
   //\d+(?= ?StP)
   private static final Pattern PAT_STRUCTURE = Pattern.compile("[\\d.]+(?= ?StP)");
@@ -54,8 +67,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   private AtomicReference<String> currentCategory;
 
   @Override
-  public List<EquipmentRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf)
-  {
+  public List<EquipmentRaw> convertTextWithMetaInfo(List<TextWithMetaInfo> resultList, TopicConfiguration conf) {
     equipmentRawList = new ArrayList<>();
     String msg = String.format("parse  result to %s", getClassName());
     LOGGER.debug(msg);
@@ -69,8 +81,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
           String cleanText = t.text
               .trim();
 
-          if (cleanText != null && !cleanText.isEmpty())
-          {
+          if (cleanText != null && !cleanText.isEmpty()) {
             // validate the flags for conf
             boolean isFirstValue = validateIsFirstValue(t, conf);
             boolean isDataKey = validateIsDataKey(t, cleanText, conf) && !isFirstValue;
@@ -78,14 +89,11 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
             finishPredecessorAndStartNew(isFirstValue, false, equipmentRawList, conf, cleanText);
 
             // handle keys
-            if (isDataKey)
-            {
-              if (cleanText.equals(KEY_REMARK))
-              {
+            if (isDataKey) {
+              if (cleanText.equals(KEY_REMARK)) {
                 flags.wasRemark.set(true);
               }
-              else
-              {
+              else {
                 this.concludePredecessor(last(equipmentRawList));//called additionally,because equipment does iterate over categories not etnries
                 this.generateNewEquipmentRaw(cleanText);
               }
@@ -122,26 +130,22 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   }
 
   @Override
-  protected String[] getKeys()
-  {
+  protected String[] getKeys() {
     return KEYS;
   }
 
   @Override
-  protected ConverterAtomicFlagsEquipment getFlags()
-  {
+  protected ConverterAtomicFlagsEquipment getFlags() {
     return this.flags;
   }
 
   @Override
-  protected String getClassName()
-  {
+  protected String getClassName() {
     return this.getClass().getCanonicalName();
   }
 
   @Override
-  protected void handleFirstValue(List<EquipmentRaw> returnValue, TopicConfiguration conf, String cleanText)
-  {
+  protected void handleFirstValue(List<EquipmentRaw> returnValue, TopicConfiguration conf, String cleanText) {
     this.applyCurrentCategory(cleanText);
 
     String name = cleanText
@@ -155,20 +159,31 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         .replace(HL_ANIMALS, "")
         .replace(HL_RÜSTKAMMER, "")
         .replace(HL_REGIONALBAND, "")
+        .replace(HL_ALCHIMICA_AS, "")
+        .replace(HL_UNEDLE_METALLE_AS, "")
+        .replace(HL_HALBEDLE_METALLE_AS, "")
+        .replace(HL_EDLE_METALLE_AS, "")
+        .replace(HL_MAGISCHE_METALLE_AS, "")
+        .replace(HL_STERNMETALLE_AS, "")
+        .replace(HL_UNMETALLE_AS, "")
+        .replace(HL_ASTRALSPEICHER_STEINE_AS, "")
+        .replace(HL_GESTEIN_AS, "")
+        .replace(HL_EDELSTEINE_AS, "")
+        .replace(HL_HOLZ_AS, "")
+        .replace(HL_STOFF_AS, "")
+        .replace(HL_KOERPERTEILE_AS, "")
+        .replace(HL_KUENSTLICHE_MATERIALIEN_AS, "")
         .replace(HL_REGIONALBAND_II, "")
-        .replace(HL_ALCHIMICA_ARKANE_SCHMIEDEN, "")
         .replace(currentCategory.get(), "")
         .replaceAll("^paket Wüstenreich$", "Proviantpaket Wüstenreich");
 
-    if (!name.isEmpty())
-    {
+    if (!name.isEmpty()) {
       this.generateNewEquipmentRaw(name);
       this.getFlags().isFirstValue.set(false);
     }
   }
 
-  private void applyCurrentCategory(String cleanText)
-  {
+  private void applyCurrentCategory(String cleanText) {
     if (cleanText.contains(HL_DIAMONDS)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf("(geschliffen")));
     }
@@ -190,23 +205,65 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
     else if (cleanText.contains(HL_REGIONALBAND)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND)));
     }
+    else if (cleanText.contains(HL_ALCHIMICA_AS)) {
+      currentCategory.set("alchimistische_zutaten");
+    }
+    else if (cleanText.contains(HL_UNEDLE_METALLE_AS)) {
+      currentCategory.set("Unedle Metalle");
+    }
+    else if (cleanText.contains(HL_HALBEDLE_METALLE_AS)) {
+      currentCategory.set(HL_HALBEDLE_METALLE_AS);
+    }
+    else if (cleanText.contains(HL_EDLE_METALLE_AS)) {
+      currentCategory.set(HL_EDLE_METALLE_AS);
+    }
+    else if (cleanText.contains(HL_MAGISCHE_METALLE_AS)) {
+      currentCategory.set(HL_MAGISCHE_METALLE_AS);
+    }
+    else if (cleanText.contains(HL_STERNMETALLE_AS)) {
+      currentCategory.set(HL_STERNMETALLE_AS);
+    }
+    else if (cleanText.contains(HL_UNMETALLE_AS)) {
+      currentCategory.set(HL_UNMETALLE_AS);
+    }
+    else if (cleanText.contains(HL_ASTRALSPEICHER_STEINE_AS)) {
+      currentCategory.set(HL_ASTRALSPEICHER_STEINE_AS);
+    }
+    else if (cleanText.contains(HL_GESTEIN_AS)) {
+      currentCategory.set(HL_GESTEIN_AS);
+    }
+    else if (cleanText.contains(HL_EDELSTEINE_AS)) {
+      currentCategory.set(HL_EDELSTEINE_AS);
+    }
+    else if (cleanText.contains(HL_HOLZ_AS)) {
+      currentCategory.set(HL_HOLZ_AS);
+    }
+    else if (cleanText.contains(HL_STOFF_AS)) {
+      currentCategory.set(HL_STOFF_AS);
+    }
+    else if (cleanText.contains(HL_KOERPERTEILE_AS)) {
+      currentCategory.set(HL_KOERPERTEILE_AS);
+    }
+    else if (cleanText.contains(HL_KUENSTLICHE_MATERIALIEN_AS)) {
+      currentCategory.set(HL_KUENSTLICHE_MATERIALIEN_AS);
+    }
+
+    else if (cleanText.contains(HL_ALCHIMICA_AS)) {
+      currentCategory.set("alchimistische_zutaten");
+    }
+
     else if (cleanText.contains(HL_REGIONALBAND_II)) {
       currentCategory.set(cleanText.substring(0, cleanText.indexOf(HL_REGIONALBAND_II)));
     }
-    else if (cleanText.contains(HL_ALCHIMICA_ARKANE_SCHMIEDEN)) {
-      currentCategory.set("alchimistische_zutaten");
-    }
   }
 
   @Override
-  protected void applyFlagsForKey(String key)
-  {
+  protected void applyFlagsForKey(String key) {
 
   }
 
   @Override
-  protected void applyDataValue(EquipmentRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic)
-  {
+  protected void applyDataValue(EquipmentRaw currentDataObject, String cleanText, boolean isBold, boolean isItalic) {
     if (currentDataObject != null && currentDataObject.category.equals(currentCategory.get())) {
       if (flags.wasRemark.get()) {
         currentDataObject.remark = concatForDataValue(currentDataObject.remark, cleanText);
@@ -239,8 +296,7 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   }
 
   @Override
-  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf)
-  {
+  public boolean validateIsFirstValue(TextWithMetaInfo t, TopicConfiguration conf) {
     return t.isBold
         && (t.text.contains(HL_BASE)
         || t.text.contains(HL_INSTRUMENT_AND_ANIMALEQUIPMENT)
@@ -252,14 +308,26 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         || t.text.contains(HL_RÜSTKAMMER)
         || t.text.contains(HL_REGIONALBAND)
         || t.text.contains(HL_REGIONALBAND_II)
-        || t.text.startsWith(HL_ALCHIMICA_ARKANE_SCHMIEDEN)
+        || t.text.startsWith(HL_ALCHIMICA_AS)
+        || t.text.startsWith(HL_UNEDLE_METALLE_AS)
+        || t.text.startsWith(HL_HALBEDLE_METALLE_AS)
+        || t.text.startsWith(HL_EDLE_METALLE_AS)
+        || t.text.startsWith(HL_MAGISCHE_METALLE_AS)
+        || t.text.startsWith(HL_STERNMETALLE_AS)
+        || t.text.startsWith(HL_UNMETALLE_AS)
+        || t.text.startsWith(HL_ASTRALSPEICHER_STEINE_AS)
+        || t.text.startsWith(HL_GESTEIN_AS)
+        || t.text.startsWith(HL_EDELSTEINE_AS)
+        || t.text.startsWith(HL_HOLZ_AS)
+        || t.text.startsWith(HL_STOFF_AS)
+        || t.text.startsWith(HL_KOERPERTEILE_AS)
+        || t.text.startsWith(HL_KUENSTLICHE_MATERIALIEN_AS)
     );
   }
 
 
   @Override
-  protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-  {
+  protected boolean validateIsDataValue(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
     return super.validateIsDataValue(t, cleanText, conf)
         && !cleanText.equals("Ausrüstung")
         && !cleanText.equals("Strassenraub & Halsabschneider")
@@ -276,22 +344,18 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
   }
 
   @Override
-  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf)
-  {
+  protected boolean validateIsDataKey(TextWithMetaInfo t, String cleanText, TopicConfiguration conf) {
     return t.isBold
         && !validateIsFirstValue(t, conf);
   }
 
   @Override
-  protected void concludePredecessor(EquipmentRaw lastEntry)
-  {
+  protected void concludePredecessor(EquipmentRaw lastEntry) {
     this.splitEntry(lastEntry);
   }
 
-  private void splitEntry(EquipmentRaw lastEntry)
-  {
-    if (lastEntry != null)
-    {
+  private void splitEntry(EquipmentRaw lastEntry) {
+    if (lastEntry != null) {
       List<EquipmentRaw> newEquipmentRaws = new ArrayList<>();
 
       String[] multipleNames = lastEntry.name != null ? lastEntry.name.split("\\/") : new String[0];
@@ -300,39 +364,31 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
       String[] multipleCraft = lastEntry.craft != null ? lastEntry.craft.split("\\/") : new String[0];
       String[] multipleWeight = lastEntry.weight != null ? lastEntry.weight.split("\\/") : new String[0];
 
-      if (multipleNames.length > 1 && multipleNames.length == multiplePrices.length)
-      {
-        for (int idx = 0; idx < multipleNames.length; idx++)
-        {
+      if (multipleNames.length > 1 && multipleNames.length == multiplePrices.length) {
+        for (int idx = 0; idx < multipleNames.length; idx++) {
           EquipmentRaw newEr = new EquipmentRaw();
           newEr.category = lastEntry.category;
           newEr.remark = lastEntry.remark;
           newEr.name = multipleNames[idx];
           newEr.price = multiplePrices[idx];
-          if (multipleNames.length == multipleCraft.length)
-          {
+          if (multipleNames.length == multipleCraft.length) {
             newEr.craft = multipleCraft[idx];
           }
-          else
-          {
+          else {
             newEr.craft = lastEntry.craft;
           }
 
-          if (multipleNames.length == multipleStructure.length)
-          {
+          if (multipleNames.length == multipleStructure.length) {
             newEr.structure = multipleStructure[idx];
           }
-          else
-          {
+          else {
             newEr.structure = lastEntry.structure;
           }
 
-          if (multipleNames.length == multipleWeight.length)
-          {
+          if (multipleNames.length == multipleWeight.length) {
             newEr.weight = multipleWeight[idx];
           }
-          else
-          {
+          else {
             newEr.weight = lastEntry.weight;
           }
 
@@ -341,10 +397,8 @@ public class DsaConverterEquipment extends DsaConverter<EquipmentRaw, ConverterA
         equipmentRawList.remove(lastEntry);
         equipmentRawList.addAll(newEquipmentRaws);
       }
-      else if (multipleWeight.length > 1 && multipleWeight.length == multiplePrices.length)
-      {
-        for (int idx = 0; idx < multipleWeight.length; idx++)
-        {
+      else if (multipleWeight.length > 1 && multipleWeight.length == multiplePrices.length) {
+        for (int idx = 0; idx < multipleWeight.length; idx++) {
           EquipmentRaw newEr = new EquipmentRaw();
           newEr.category = lastEntry.category;
           newEr.remark = lastEntry.remark;

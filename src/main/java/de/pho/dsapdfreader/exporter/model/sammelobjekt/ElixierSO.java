@@ -6,6 +6,8 @@ import de.pho.dsapdfreader.exporter.model.QSEntry;
 import de.pho.dsapdfreader.exporter.model.enums.ElixierKey;
 
 public class ElixierSO extends AlchimieA {
-    public ElixierKey key;
-    public List<QSEntry> wirkung;
+  public ElixierKey key;
+  public List<QSEntry> wirkung;
+
+  public QSEntry hyperpotenteWirkung;
 }

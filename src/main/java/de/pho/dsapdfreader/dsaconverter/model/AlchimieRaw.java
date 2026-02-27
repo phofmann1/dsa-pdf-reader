@@ -2,18 +2,19 @@ package de.pho.dsapdfreader.dsaconverter.model;
 
 import de.pho.dsapdfreader.config.TopicEnum;
 import de.pho.dsapdfreader.exporter.model.enums.AlchimieTypeKey;
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
 
 public class AlchimieRaw implements DsaObjectI{
     public String name;
     public TopicEnum topic;
     public String publication;
     public String typicalIngredients;
+    public String zutaten;
     public String cost;
     public String labor;
     public String brewingDifficulty;
     public String requirements;
     public String apValue;
+    public Boolean isGeheimwissen;
     public String qualityLevels;
     public String description;
     public String alternativeNamen;

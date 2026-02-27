@@ -15,8 +15,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import de.pho.dsapdfreader.exporter.model.*;
-import de.pho.dsapdfreader.exporter.model.enums.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.javatuples.Quartet;
@@ -30,6 +28,27 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorEntityDoma
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorPactLevel;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSkill;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.RequirementMysticalSkill;
+import de.pho.dsapdfreader.exporter.model.RequirementSkill;
+import de.pho.dsapdfreader.exporter.model.RequirementSkillSum;
+import de.pho.dsapdfreader.exporter.model.RequirementSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.RequirementsCombatSkill;
+import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
+import de.pho.dsapdfreader.exporter.model.RequirementsSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.SkillUsage;
+import de.pho.dsapdfreader.exporter.model.SpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.BoonKey;
+import de.pho.dsapdfreader.exporter.model.enums.DsaState;
+import de.pho.dsapdfreader.exporter.model.enums.LogicalOperatorKey;
+import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
+import de.pho.dsapdfreader.exporter.model.enums.SelectionCategory;
+import de.pho.dsapdfreader.exporter.model.enums.SkillApplicationKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.SkillUsageKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
+import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityKey;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
 
 
@@ -178,12 +197,6 @@ public class LoadToSpecialAbility
         specialAbility.isOnlyElfenWeapon = allowedWepons.getValue1();
         specialAbility.isOnlyDwarfenWeapon = allowedWepons.getValue2();
         specialAbility.advancedAbilities = ExtractorSpecialAbility.retrieveAdvancedAbilities(raw.advancedAbilities, specialAbility.combatSkillKeys);
-
-        if(specialAbility.key == SpecialAbilityKey.beschützer) {
-          System.out.println(raw.difficulty);
-          System.out.println(isNumeric(raw.difficulty.replace("–", "-")));
-          System.out.println(raw.difficulty);
-        }
         specialAbility.difficulty = isNumeric(raw.difficulty.replace("–", "-")) ? Integer.parseInt(raw.difficulty.replace("–", "-")) : null;
         specialAbility.hasFreeText = specialAbility.key == SpecialAbilityKey.ungeheuer_taktik; // Ungeheuer-Taktik
         specialAbility.requiredEntityDomainKeys = (raw.verbreitung != null && !raw.verbreitung.isEmpty()) ? ExtractorEntityDomain.retrieveDemonic(raw.verbreitung) : null;

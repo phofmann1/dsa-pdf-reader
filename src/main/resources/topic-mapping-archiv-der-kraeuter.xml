@@ -1,4 +1,120 @@
 <topic-strategies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./topic-mapping.xsd">
+
+    <strategy name="StrategySplitLineAfterPosition" index="1">
+        <strategyClass>StrategySplitLineAfterPosition</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>146</value>
+            </parameter>
+            <parameter>
+                <key>splitLine</key>
+                <value>51</value>
+            </parameter>
+            <parameter>
+                <key>splitAfterPosition</key>
+                <value>4</value>
+            </parameter>
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>146</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>51.1</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>147</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>99</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>149</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>91</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>150</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>77</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
+    <strategy name="StrategyRemoveLinesFromPage - Kampftechniken" index="1">
+        <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>152</value>
+            </parameter>
+            <parameter>
+                <key>fromLine</key>
+                <value>59</value>
+            </parameter>
+
+        </params>
+    </strategy>
+
+    <strategy name="StrategyReplaceStringInLine">
+        <strategyClass>StrategyReplaceStringInLine</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>154</value>
+            </parameter>
+            <parameter>
+                <key>onLine</key>
+                <value>43</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>false</value>
+            </parameter>
+            <parameter>
+                <key>isItalic</key>
+                <value>true</value>
+            </parameter>
+        </params>
+    </strategy>
+
     <strategy name="StrategySplitLineAfterPosition" index="1">
         <strategyClass>StrategySplitLineAfterPosition</strategyClass>
         <params>
