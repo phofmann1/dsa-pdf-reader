@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
-import de.pho.dsapdfreader.exporter.model.enums.HilfsmittelKey;
+import de.pho.dsapdfreader.exporter.model.enums.PflanzlichesHilfsmittelKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.HilfsmittelSO;
 import de.pho.dsapdfreader.uid.UidCategory;
@@ -17,7 +17,7 @@ public class Hilfsmittel implements EquipmentI {
 
   public String uid;
   public EquipmentKey key;
-  public HilfsmittelKey hilfsmittelKey;
+  public PflanzlichesHilfsmittelKey hilfsmittelKey;
 
   public String name;
 

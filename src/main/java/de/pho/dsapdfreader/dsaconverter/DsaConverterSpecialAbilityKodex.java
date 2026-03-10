@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 
-import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import de.pho.dsapdfreader.config.TopicConfiguration;
 import de.pho.dsapdfreader.dsaconverter.model.SpecialAbilityRaw;
 import de.pho.dsapdfreader.dsaconverter.model.atomicflags.ConverterAtomicFlagsSpecialAbility;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SpecialAbilityCategoryKey;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 
@@ -163,9 +163,9 @@ public class DsaConverterSpecialAbilityKodex extends DsaConverter<SpecialAbility
     }
 
     private SpecialAbilityCategoryKey extractTopic(String text, TopicConfiguration conf) {
-        if(text.equals("Neue Sonderfertigkeiten") && conf.publication.equals(Publication.Archiv_der_Dämonen.name())) { //Hier muss ein Split abhängig von der config gemacht werden.
-            return SpecialAbilityCategoryKey.magic;
-        }
+      if (text.equals("Neue Sonderfertigkeiten") && conf.publication.equals(Publication.archiv_der_daemonen.name())) { //Hier muss ein Split abhängig von der config gemacht werden.
+        return SpecialAbilityCategoryKey.magic;
+      }
         return switch (text) {
             case "Allgemeine Sonderfertigkeiten", "Allgemeine Sonderfertigkeit", "Neue Sonderfertigkeiten", "Neue SonderfertigkeitenFallen-Regeln",
                  "Neue Sonderfertigkeiten für Kulturschaffende", "Neue Regeln" -> SpecialAbilityCategoryKey.common;

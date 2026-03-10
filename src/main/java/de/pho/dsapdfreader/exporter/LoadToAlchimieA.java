@@ -18,7 +18,9 @@ import de.pho.dsapdfreader.exporter.model.RequirementsSkill;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.LaborKey;
 import de.pho.dsapdfreader.exporter.model.enums.LanguageKey;
+import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
+import de.pho.dsapdfreader.exporter.model.enums.TradeSecretKey;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.AlchimieA;
 
 public abstract class LoadToAlchimieA {
@@ -26,7 +28,7 @@ public abstract class LoadToAlchimieA {
   public static <T extends AlchimieA> T initAlchimie(T newObject, AlchimieRaw raw) {
     newObject.name = raw.name;
     newObject.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
-    newObject.berufsgeheimnis = extractBerufsgeheimnis(raw.apValue);
+    newObject.berufsgeheimnis = extractBerufsgeheimnis(raw.apValue, raw.name, raw.publication, raw.isGeheimwissen);
     newObject.typicalIngredients = Arrays.stream(raw.typicalIngredients
             .replace("Späne einer Waffe, die mit königlichem Blut benetzt wurde", "Späne einer Waffe die mit königlichem Blut benetzt wurde")
             .replace("allerhand experimentelle Mittel, die das Pulver trocken und Mindergeister fernhalten", "allerhand experimentelle Mittel die das Pulver trocken und Mindergeister fernhalten")
@@ -69,22 +71,28 @@ public abstract class LoadToAlchimieA {
         return newObject;
     }
 
-    private static Berufsgeheimnis extractBerufsgeheimnis(String bgh) {
-        Berufsgeheimnis bg = null;
-        Pattern pattern = Pattern.compile("(?<ap>\\d*) AP( \\(Voraussetzung(en)?: (?<skill>[A-ü &-]*[a-ü]) (?<skillValue>\\d*)\\))?");
-        Matcher matcher = pattern.matcher(bgh);
+  private static Berufsgeheimnis extractBerufsgeheimnis(String bgh, String name, String pubString, Boolean isSecret) {
+    Berufsgeheimnis bg = null;
+    Pattern pattern = Pattern.compile("(?<ap>\\d*) AP( \\(Voraussetzung(en)?: (?<skill>[A-ü &-]*[a-ü]) (?<skillValue>\\d*)\\))?");
+    Matcher matcher = pattern.matcher(bgh);
 
-        if (matcher.find()) {
-            bg = new Berufsgeheimnis();
+    if (matcher.find()) {
+      bg = new Berufsgeheimnis();
+      bg.name = name;
+      bg.key = Extractor.extractEnumKey(Extractor.extractKeyTextFromText(
+          name.replace("1001 Rausch", "Tausend und ein Rausch")
+      ).toLowerCase(), TradeSecretKey.class);
+      bg.publications = List.of(Extractor.extractEnumKey(pubString, Publication.class));
 
-            String apStr = matcher.group("ap");
-            bg.ap = Integer.parseInt(apStr);
+      bg.isSecret = isSecret != null ? isSecret : false;
+      String apStr = matcher.group("ap");
+      bg.ap = Integer.parseInt(apStr);
 
-            String skill = matcher.group("skill");       // can be null
-            String skillValueStr = matcher.group("skillValue"); // can be null
+      String skill = matcher.group("skill");       // can be null
+      String skillValueStr = matcher.group("skillValue"); // can be null
 
-            if (skill != null && skillValueStr != null) {
-                bg.requirementsSkill = new RequirementsSkill();
+      if (skill != null && skillValueStr != null) {
+        bg.requirementsSkill = new RequirementsSkill();
                 bg.requirementsSkill.requirements = new ArrayList<>();
                 RequirementSkill req = new RequirementSkill();
               req.minValue = Integer.parseInt(skillValueStr);

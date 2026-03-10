@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
 import de.pho.dsapdfreader.exporter.model.QSEntry;
-import de.pho.dsapdfreader.exporter.model.enums.DrugKey;
+import de.pho.dsapdfreader.exporter.model.enums.DrogeKey;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.DrogeSO;
 
 
@@ -22,7 +22,7 @@ public class LoadToDroge extends LoadToGift {
 
   public static DrogeSO migrate(AlchimieRaw raw) {
     DrogeSO droge = LoadToGift._init(raw, DrogeSO.class);
-    droge.key = Extractor.extractEnumKey(droge.name, DrugKey.class);
+    droge.key = Extractor.extractEnumKey(droge.name, DrogeKey.class);
     droge.einnahme = raw.einnahme;
     droge.legalitaet = raw.legalitaet;
     droge.nebenwirkung = raw.nebenwirkung;

@@ -14,6 +14,7 @@
         </params>
     </strategy>
 
+
     <strategy name="StrategyRemoveLinesFromPage" index="1">
         <strategyClass>StrategyRemoveLinesFromPage</strategyClass>
         <params>
@@ -29,6 +30,31 @@
             <parameter>
                 <key>untilLine</key>
                 <value>103</value>
+            </parameter>
+        </params>
+    </strategy>
+    <strategy name="StrategyInsertLineAfter">
+        <strategyClass>StrategyInsertLineAfter</strategyClass>
+        <params>
+            <parameter>
+                <key>applyToPage</key>
+                <value>148</value>
+            </parameter>
+            <parameter>
+                <key>insertAfterLineNo</key>
+                <value>55</value>
+            </parameter>
+            <parameter>
+                <key>text</key>
+                <value>Qualitätsstufen</value>
+            </parameter>
+            <parameter>
+                <key>size</key>
+                <value>1000</value>
+            </parameter>
+            <parameter>
+                <key>isBold</key>
+                <value>true</value>
             </parameter>
         </params>
     </strategy>

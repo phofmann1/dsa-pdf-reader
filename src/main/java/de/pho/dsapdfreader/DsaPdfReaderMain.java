@@ -24,9 +24,11 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -44,6 +46,7 @@ import org.javatuples.Triplet;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import de.pho.dsapdfreader.config.ConfigurationInitializer;
 import de.pho.dsapdfreader.config.TopicConfiguration;
@@ -102,8 +105,10 @@ import de.pho.dsapdfreader.dsaconverter.strategies.extractor.ExtractorSpecialAbi
 import de.pho.dsapdfreader.exporter.LoadToArmor;
 import de.pho.dsapdfreader.exporter.LoadToBeverage;
 import de.pho.dsapdfreader.exporter.LoadToBoon;
+import de.pho.dsapdfreader.exporter.LoadToDroge;
 import de.pho.dsapdfreader.exporter.LoadToElixier;
 import de.pho.dsapdfreader.exporter.LoadToEquipment;
+import de.pho.dsapdfreader.exporter.LoadToGift;
 import de.pho.dsapdfreader.exporter.LoadToHerb;
 import de.pho.dsapdfreader.exporter.LoadToHilfsmittel;
 import de.pho.dsapdfreader.exporter.LoadToMeleeWeapon;
@@ -117,6 +122,7 @@ import de.pho.dsapdfreader.exporter.LoadToTraditionAbility;
 import de.pho.dsapdfreader.exporter.SaSpecialRequirementsToggle;
 import de.pho.dsapdfreader.exporter.model.Armor;
 import de.pho.dsapdfreader.exporter.model.AvailabilityWeapon;
+import de.pho.dsapdfreader.exporter.model.Berufsgeheimnis;
 import de.pho.dsapdfreader.exporter.model.Boon;
 import de.pho.dsapdfreader.exporter.model.CheckQs;
 import de.pho.dsapdfreader.exporter.model.Droge;
@@ -146,11 +152,11 @@ import de.pho.dsapdfreader.exporter.model.enums.CultureKey;
 import de.pho.dsapdfreader.exporter.model.enums.ElixierKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentCategoryKey;
 import de.pho.dsapdfreader.exporter.model.enums.EquipmentKey;
-import de.pho.dsapdfreader.exporter.model.enums.HilfsmittelKey;
+import de.pho.dsapdfreader.exporter.model.enums.GiftKey;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillCategory;
 import de.pho.dsapdfreader.exporter.model.enums.MysticalSkillKey;
 import de.pho.dsapdfreader.exporter.model.enums.ObjectRitualKey;
-import de.pho.dsapdfreader.exporter.model.enums.PoisonKey;
+import de.pho.dsapdfreader.exporter.model.enums.PflanzlichesHilfsmittelKey;
 import de.pho.dsapdfreader.exporter.model.enums.ProfessionTypeKey;
 import de.pho.dsapdfreader.exporter.model.enums.Publication;
 import de.pho.dsapdfreader.exporter.model.enums.SkillKey;
@@ -168,6 +174,8 @@ import de.pho.dsapdfreader.pdf.PdfReader;
 import de.pho.dsapdfreader.pdf.model.TextWithMetaInfo;
 import de.pho.dsapdfreader.tools.csv.CsvHandler;
 import de.pho.dsapdfreader.tools.merger.ObjectMerger;
+import de.pho.dsapdfreader.uid.UidCategory;
+import de.pho.dsapdfreader.uid.UidCategorySub;
 
 public class DsaPdfReaderMain {
 
@@ -1105,35 +1113,48 @@ public class DsaPdfReaderMain {
 
         List<AlchimieRaw> raws = CsvHandler.readBeanFromFile(AlchimieRaw.class, fIn);
         List<Rezept> rezepte = new ArrayList<>(); //REZEPTE
+        List<Berufsgeheimnis> berufsgeheimnisse = new ArrayList<>(); //BERUFSGEHEIMNISSE
+        List<Equipment> ingredients = new ArrayList<>(); //BERUFSGEHEIMNISSE
 
         List<ElixierSO> elixierSOs = raws.stream().filter(r -> r.type == AlchimieTypeKey.elixier).map(LoadToElixier::migrate).collect(Collectors.toList());
-        _handleElixiere(elixierSOs, rezepte, conf);
-        List<HilfsmittelSO> hilfsmittelSOs = raws.stream().filter(r -> r.type == AlchimieTypeKey.hilfsmittel).map(LoadToHilfsmittel::migrate).collect(Collectors.toList());
-        _handleHilfsmittel(hilfsmittelSOs, rezepte, conf);
-        //List<GiftSO> gifteSOs = raws.stream().filter(r -> r.type == AlchimieTypeKey.gift).map(LoadToGift::migrate).collect(Collectors.toList());
-        //_handleGifte(gifteSOs, rezepte, conf);
-        //List<DrogeSO> drogeSOs = raws.stream().filter(r -> r.type == AlchimieTypeKey.droge).map(LoadToDroge::migrate).collect(Collectors.toList());
-        //_handleDrogen(drogeSOs, rezepte, conf);
+        _handleElixiere(elixierSOs, rezepte, ingredients, berufsgeheimnisse, conf);
+        List<HilfsmittelSO> hilfsmittelSOs = raws.stream()
+            .filter(r -> r.type == AlchimieTypeKey.hilfsmittel)
+            .map(LoadToHilfsmittel::migrate).collect(Collectors.toList());
+        _handleHilfsmittel(hilfsmittelSOs, rezepte, ingredients, conf);
+        List<GiftSO> gifteSOs = raws.stream()
+            .filter(r -> r.type == AlchimieTypeKey.gift)
+            .map(LoadToGift::migrate).collect(Collectors.toList());
+        _handleGifte(gifteSOs, rezepte, ingredients, berufsgeheimnisse, conf);
+        List<DrogeSO> drogeSOs = raws.stream()
+            .filter(r -> r.type == AlchimieTypeKey.droge)
+            .map(LoadToDroge::migrate).collect(Collectors.toList());
+        _handleDrogen(drogeSOs, rezepte, ingredients, berufsgeheimnisse, conf);
+
+
+        ObjectMapper mapper = initObjectMapper();
+        String jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(rezepte);
+        BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "rezepte"));
+        writer.write(jsonResult);
+        writer.close();
+
+        jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(berufsgeheimnisse);
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "berufsgeheimnisse"));
+        writer.write(jsonResult);
+        writer.close();
+
+        jsonResult = mapper
+            .writerWithDefaultPrettyPrinter()
+            .writeValueAsString(ingredients);
+        writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "zutaten"));
+        writer.write(jsonResult);
+        writer.close();
 
 /*
-                    mapper = initObjectMapper();
-                    jsonResult = mapper
-                        .writerWithDefaultPrettyPrinter()
-                        .writeValueAsString(rezepte);
-                    writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "elixiere", "rezepte"));
-                    writer.write(jsonResult);
-                    writer.close();
-
-                    List<GiftSO> gifte = raws.stream().filter(r -> r.type == AlchimieTypeKey.gift).map(LoadToGift::migrate).collect(Collectors.toList());
-
-                    jsonResult = mapper
-                            .writerWithDefaultPrettyPrinter()
-                            .writeValueAsString(gifte);
-
-                    writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "gifte", "alchimica"));
-                    writer.write(jsonResult);
-                    writer.close();
-
                     List<DrogeSO> drogen = raws.stream().filter(r -> r.type == AlchimieTypeKey.droge).map(LoadToDroge::migrate).collect(Collectors.toList());
 
                     jsonResult = mapper
@@ -1158,7 +1179,7 @@ public class DsaPdfReaderMain {
     }
   }
 
-  private static void _handleElixiere(List<ElixierSO> elixierSOs, List<Rezept> rezepte, TopicConfiguration conf) throws IOException {
+  private static void _handleElixiere(List<ElixierSO> elixierSOs, List<Rezept> rezepte, List<Equipment> ingredients, List<Berufsgeheimnis> berufsgeheimnisse, TopicConfiguration conf) throws IOException {
     List<Pair<ElixierKey, String>> elixierKeyToNameList = new ArrayList<>();
     List<Pair<ElixierKey, String>> elixierKeyToBeschreibungList = new ArrayList<>();
     List<Pair<ElixierKey, String>> elixierKeyToBesonderheitenList = new ArrayList<>();
@@ -1172,26 +1193,26 @@ public class DsaPdfReaderMain {
       elixierKeyToBeschreibungList.add(new Pair(e.elixierKey, eso.description));
       elixierKeyToBesonderheitenList.add(new Pair(e.elixierKey, eso.besonderheiten));
       elixierKeyToWirkungList.addAll(_extractWirkungElixierTranslation(eso, e.key));
-
-
-      //generateRecipe(eso, rezepte, SkillKey.alchimie, EquipmentCategoryKey.elixiere, e.key);
+      generateRecipe(eso, rezepte, ingredients, SkillKey.alchimie, EquipmentCategoryKey.elixiere, e.key);
+      if (eso.berufsgeheimnis != null) berufsgeheimnisse.add(eso.berufsgeheimnis);
     });
 
     ObjectMapper mapper = initObjectMapper();
     String jsonResult = mapper
         .writerWithDefaultPrettyPrinter()
         .writeValueAsString(elixiere);
-    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "elixiere", "equipment_elixiere"));
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + UidCategorySub.elixier.externalId(), UidCategory.ausruestung_elixier.externalId()));
     writer.write(jsonResult);
     writer.close();
-    generateTranslation(elixierKeyToNameList, conf, "equipment_elixiere", "name");
-    generateTranslation(elixierKeyToBeschreibungList, conf, "equipment_elixiere", "beschreibung");
-    generateTranslation(elixierKeyToBesonderheitenList, conf, "equipment_elixiere", "besonderheiten");
+    generateTranslation(elixierKeyToNameList, conf, UidCategory.ausruestung_elixier.externalId(), "name");
+    generateTranslation(elixierKeyToBeschreibungList, conf, UidCategory.ausruestung_elixier.externalId(), "beschreibung");
+    generateTranslation(elixierKeyToBesonderheitenList, conf, UidCategory.ausruestung_elixier.externalId(), "besonderheiten");
+    generateTranslationCategorized(elixierKeyToWirkungList, conf, UidCategory.ausruestung_elixier.externalId(), "wirkung");
   }
 
-  private static void _handleHilfsmittel(List<HilfsmittelSO> sos, List<Rezept> rezepte, TopicConfiguration conf) throws IOException {
-    List<Pair<HilfsmittelKey, String>> keyToNameList = new ArrayList<>();
-    List<Pair<HilfsmittelKey, String>> keyToBeschreibungList = new ArrayList<>();
+  private static void _handleHilfsmittel(List<HilfsmittelSO> sos, List<Rezept> rezepte, List<Equipment> ingredients, TopicConfiguration conf) throws IOException {
+    List<Pair<PflanzlichesHilfsmittelKey, String>> keyToNameList = new ArrayList<>();
+    List<Pair<PflanzlichesHilfsmittelKey, String>> keyToBeschreibungList = new ArrayList<>();
 
     List<Hilfsmittel> results = new ArrayList<>(); //EQUIPMENT
     sos.forEach(so -> {
@@ -1199,26 +1220,24 @@ public class DsaPdfReaderMain {
       results.add(e);
       keyToNameList.add(new Pair(e.hilfsmittelKey, so.name));
       keyToBeschreibungList.add(new Pair(e.hilfsmittelKey, so.beschreibung));
-
-
-      generateRecipeHilfsmittel(so, rezepte, SkillKey.pflanzenkunde, EquipmentCategoryKey.hilfsmittel, e.key);
+      generateRecipeHilfsmittel(so, rezepte, ingredients, SkillKey.pflanzenkunde, EquipmentCategoryKey.hilfsmittel, e.key);
     });
 
     ObjectMapper mapper = initObjectMapper();
     String jsonResult = mapper
         .writerWithDefaultPrettyPrinter()
         .writeValueAsString(results);
-    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "results", "equipment_elixiere"));
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + UidCategorySub.hilfsmittel.externalId(), UidCategory.ausruestung_hilfsmittel.externalId()));
     writer.write(jsonResult);
     writer.close();
-    generateTranslation(keyToNameList, conf, "equipment_pflanzliche_hilfsmittel", "name");
-    generateTranslation(keyToBeschreibungList, conf, "equipment_pflanzliche_hilfsmittel", "beschreibung");
+    generateTranslation(keyToNameList, conf, UidCategory.ausruestung_hilfsmittel.externalId(), "name");
+    generateTranslation(keyToBeschreibungList, conf, UidCategory.ausruestung_hilfsmittel.externalId(), "beschreibung");
   }
 
-  private static void _handleGifte(List<GiftSO> giftSOs, List<Rezept> rezepte, TopicConfiguration conf) throws IOException {
-    List<Pair<PoisonKey, String>> poisonKeyToNameList = new ArrayList<>();
-    List<Pair<PoisonKey, String>> poisonKeyToBeschreibungList = new ArrayList<>();
-    List<Pair<PoisonKey, String>> poisonKeyToBesonderheitenList = new ArrayList<>();
+  private static void _handleGifte(List<GiftSO> giftSOs, List<Rezept> rezepte, List<Equipment> ingredients, List<Berufsgeheimnis> berufsgeheimnisse, TopicConfiguration conf) throws IOException {
+    List<Pair<GiftKey, String>> poisonKeyToNameList = new ArrayList<>();
+    List<Pair<GiftKey, String>> poisonKeyToBeschreibungList = new ArrayList<>();
+    List<Pair<GiftKey, String>> poisonKeyToBesonderheitenList = new ArrayList<>();
 
     List<Gift> gifte = new ArrayList<>(); //EQUIPMENT
     giftSOs.forEach(gso -> {
@@ -1227,26 +1246,27 @@ public class DsaPdfReaderMain {
       poisonKeyToNameList.add(new Pair(g.giftKey, gso.name));
       poisonKeyToBeschreibungList.add(new Pair(g.giftKey, gso.description));
       poisonKeyToBesonderheitenList.add(new Pair(g.giftKey, gso.besonderheiten));
-      generateRecipe(gso, rezepte, SkillKey.alchimie, EquipmentCategoryKey.gifte, g.key);
+      generateRecipe(gso, rezepte, ingredients, SkillKey.alchimie, EquipmentCategoryKey.gifte, g.key);
+      if (gso.berufsgeheimnis != null) berufsgeheimnisse.add(gso.berufsgeheimnis);
     });
 
     ObjectMapper mapper = initObjectMapper();
     String jsonResult = mapper
         .writerWithDefaultPrettyPrinter()
         .writeValueAsString(gifte);
-    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "gifte", "equipment_gifte"));
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + UidCategorySub.gift.externalId(), UidCategory.ausruestung_gift.externalId()));
     writer.write(jsonResult);
     writer.close();
 
-    generateTranslation(poisonKeyToNameList, conf, "equipment_gifte", "name");
-    generateTranslation(poisonKeyToBeschreibungList, conf, "equipment_gifte", "beschreibung");
-    generateTranslation(poisonKeyToBesonderheitenList, conf, "equipment_gifte", "besonderheiten");
+    generateTranslation(poisonKeyToNameList, conf, UidCategory.ausruestung_gift.externalId(), "name");
+    generateTranslation(poisonKeyToBeschreibungList, conf, UidCategory.ausruestung_gift.externalId(), "beschreibung");
+    generateTranslation(poisonKeyToBesonderheitenList, conf, UidCategory.ausruestung_gift.externalId(), "besonderheiten");
   }
 
-  private static void _handleDrogen(List<DrogeSO> drogeSOs, List<Rezept> rezepte, TopicConfiguration conf) throws IOException {
-    List<Pair<PoisonKey, String>> drogenKeyToNameList = new ArrayList<>();
-    List<Pair<PoisonKey, String>> drogenKeyToBeschreibungList = new ArrayList<>();
-    List<Pair<PoisonKey, String>> drogenKeyToBesonderheitenList = new ArrayList<>();
+  private static void _handleDrogen(List<DrogeSO> drogeSOs, List<Rezept> rezepte, List<Equipment> ingredients, List<Berufsgeheimnis> berufsgeheimnisse, TopicConfiguration conf) throws IOException {
+    List<Pair<GiftKey, String>> drogenKeyToNameList = new ArrayList<>();
+    List<Pair<GiftKey, String>> drogenKeyToBeschreibungList = new ArrayList<>();
+    List<Pair<GiftKey, String>> drogenKeyToBesonderheitenList = new ArrayList<>();
 
     List<Droge> drogen = new ArrayList<>(); //EQUIPMENT
     drogeSOs.forEach(dso -> {
@@ -1255,20 +1275,21 @@ public class DsaPdfReaderMain {
       drogenKeyToNameList.add(new Pair(d.drogeKey, dso.name));
       drogenKeyToBeschreibungList.add(new Pair(d.drogeKey, dso.description));
       drogenKeyToBesonderheitenList.add(new Pair(d.drogeKey, dso.besonderheiten));
-      generateRecipe(dso, rezepte, SkillKey.alchimie, EquipmentCategoryKey.drogen, d.key);
+      generateRecipe(dso, rezepte, ingredients, SkillKey.alchimie, EquipmentCategoryKey.drogen, d.key);
+      if (dso.berufsgeheimnis != null) berufsgeheimnisse.add(dso.berufsgeheimnis);
     });
 
     ObjectMapper mapper = initObjectMapper();
     String jsonResult = mapper
         .writerWithDefaultPrettyPrinter()
         .writeValueAsString(drogen);
-    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + "droge", "equipment_droge"));
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix + UidCategorySub.droge.externalId(), UidCategory.ausruestung_droge.externalId()));
     writer.write(jsonResult);
     writer.close();
 
-    generateTranslation(drogenKeyToNameList, conf, "equipment_drogen", "name");
-    generateTranslation(drogenKeyToBeschreibungList, conf, "equipment_drogen", "beschreibung");
-    generateTranslation(drogenKeyToBesonderheitenList, conf, "equipment_drogen", "besonderheiten");
+    generateTranslation(drogenKeyToNameList, conf, UidCategory.ausruestung_droge.externalId(), "name");
+    generateTranslation(drogenKeyToBeschreibungList, conf, UidCategory.ausruestung_droge.externalId(), "beschreibung");
+    generateTranslation(drogenKeyToBesonderheitenList, conf, UidCategory.ausruestung_droge.externalId(), "besonderheiten");
   }
 
   private static List<Triplet<ElixierKey, Integer, String>> _extractWirkungElixierTranslation(ElixierSO eso, EquipmentKey key) {
@@ -1283,10 +1304,23 @@ public class DsaPdfReaderMain {
     return returnValue;
   }
 
-  private static void generateRecipe(AlchimieA a, List<Rezept> rezepte, SkillKey sk, EquipmentCategoryKey eck, EquipmentKey equipmentKey) {
+  private static void generateRecipe(AlchimieA a, List<Rezept> rezepte, List<Equipment> ingredients, SkillKey sk, EquipmentCategoryKey eck, EquipmentKey equipmentKey) {
     Rezept r = new Rezept(a.name, eck, sk, a.brewingDifficulty, equipmentKey);
     r.labor = a.labor;
-    r.ingredients = a.typicalIngredients.stream().map(ti -> ExtractorEquipmentKey.retrieveCategoryAsFallback(ti, EquipmentCategoryKey.alchimistische_zutaten)).collect(Collectors.toList());
+    r.ingredients = a.typicalIngredients.stream()
+        .filter(z -> z != null && !z.isEmpty())
+        .map(ti -> {
+          Equipment e = new Equipment();
+          e.key = ExtractorEquipmentKey.retrieveCategoryAsFallback(ti, EquipmentCategoryKey.alchimistische_zutaten);
+
+          if (e.key.name().startsWith(UidCategorySub.zutatalchimie.prefix)) {
+            e.name = ti;
+            e.price = new Price();
+            e.equipmentCategoryKey = EquipmentCategoryKey.alchimistische_zutaten;
+            ingredients.add(e);
+          }
+          return e.key;
+        }).collect(Collectors.toList());
     r.requirements = a.requirements.stream().filter(req -> !req.equals("keine") && !req.matches("SF [A-ZÖÄÜ a-zöäü]*(,|$)")).collect(Collectors.toList());
     List<RequirementSpecialAbility> reqs = a.requirements.stream().filter(req -> req.matches("SF [A-ZÖÄÜ a-zöäü]*(,|$)"))
         .map(sfTxt -> ExtractorSpecialAbility.retrieve(sfTxt.replace("SF ", "").replaceAll("Göttliche Alchimie$", "Göttliche Alchimie I")))
@@ -1303,12 +1337,19 @@ public class DsaPdfReaderMain {
     rezepte.add(r);
   }
 
-  private static void generateRecipeHilfsmittel(HilfsmittelSO a, List<Rezept> rezepte, SkillKey sk, EquipmentCategoryKey eck, EquipmentKey equipmentKey) {
+  private static void generateRecipeHilfsmittel(HilfsmittelSO a, List<Rezept> rezepte, List<Equipment> ingredients, SkillKey sk, EquipmentCategoryKey eck, EquipmentKey equipmentKey) {
     Rezept r = new Rezept(a.name, eck, sk, a.verarbeitungsschwierigkeit, equipmentKey);
     r.ingredients = a.zutaten.stream()
         .filter(z -> z != null && !z.isEmpty())
-        .map(ti -> ExtractorEquipmentKey.retrieveCategoryAsFallback(ti, EquipmentCategoryKey.alchimistische_zutaten))
-        .collect(Collectors.toList());
+        .map(ti -> {
+          Equipment e = new Equipment();
+          e.key = ExtractorEquipmentKey.retrieveCategoryAsFallback(ti, EquipmentCategoryKey.alchimistische_zutaten);
+          e.name = ti;
+          e.price = new Price();
+          e.equipmentCategoryKey = EquipmentCategoryKey.alchimistische_zutaten;
+          ingredients.add(e);
+          return e.key;
+        }).collect(Collectors.toList());
     r.requirements = a.typischeHilfsmittel.stream().filter(req -> !req.equals("keine") && !req.matches("SF [A-ZÖÄÜ a-zöäü]*(,|$)")).collect(Collectors.toList());
 
     rezepte.add(r);
@@ -1393,6 +1434,12 @@ public class DsaPdfReaderMain {
     writer.close();
   }
 
+  private static <T extends Enum> void generateTranslationCategorized(List<Triplet<T, Integer, String>> tList, TopicConfiguration conf, String prefix, String translationField) throws IOException {
+    BufferedWriter writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, prefix + "_" + translationField));
+    writer.write(generateLocalisationStringCategorized(tList));
+    writer.close();
+  }
+
   private static <T extends Enum> String generateLocalisationString(List<Pair<T, String>> entries, String translationField) {
     StringBuilder result = new StringBuilder();
 
@@ -1414,6 +1461,25 @@ public class DsaPdfReaderMain {
     return result.toString();
   }
 
+  private static <T extends Enum<T>> String generateLocalisationStringCategorized(List<Triplet<T, Integer, String>> entries) throws JsonProcessingException {
+
+    Map<String, Map<Integer, String>> result = new LinkedHashMap<>();
+
+    for (Triplet<T, Integer, String> triplet : entries) {
+      String enumKey = triplet.getValue0().name().toLowerCase();
+      int mapKey = triplet.getValue1();
+      String text = triplet.getValue2();
+
+      result
+          .computeIfAbsent(enumKey, k -> new TreeMap<>())
+          .put(mapKey, text);
+    }
+
+    ObjectMapper mapper = new ObjectMapper();
+    mapper.enable(SerializationFeature.INDENT_OUTPUT);
+    return mapper.writeValueAsString(result);
+  }
+
 
   private static void generateEquipmentRemarks(List<? extends EquipmentI> pures, TopicConfiguration conf) throws IOException {
     String prefix = "equipment";
@@ -1433,8 +1499,8 @@ public class DsaPdfReaderMain {
 
   private static List<? extends SpecialAbility> generateTraditionsByPublication(String publication) {
     return switch (Publication.valueOf(publication)) {
-      case Kodex_der_Magie -> generateMagicTraditions();
-      case Kodex_des_Götterwirkens -> generateClericalTraditions();
+      case kodex_der_magie -> generateMagicTraditions();
+      case kodex_des_goetterwirkens -> generateClericalTraditions();
       default -> new ArrayList<>();
     };
   }

@@ -38,8 +38,8 @@ public class LoadToElixier extends LoadToAlchimieA {
 
   private static List<QSEntry> extractWirkung(String qualityLevels) {
     List<String> parts = Arrays.stream(qualityLevels
-            .replaceAll("^\\d:", "")
-            .split("[1-6]:")).filter(s ->  s != null && !s.isEmpty()).toList();
+        .replaceAll("^\\d:|^<b>\\d<\\/b>", "")
+        .split("[1-6]:|<b>[1-6]<\\/b>")).filter(s -> s != null && !s.isEmpty()).toList();
 
     return IntStream.range(0, parts.size())
             .mapToObj(i -> {

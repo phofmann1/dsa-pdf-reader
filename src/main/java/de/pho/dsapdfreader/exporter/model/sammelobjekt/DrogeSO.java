@@ -1,9 +1,9 @@
 package de.pho.dsapdfreader.exporter.model.sammelobjekt;
 
-import de.pho.dsapdfreader.exporter.model.enums.DrugKey;
+import de.pho.dsapdfreader.exporter.model.enums.DrogeKey;
 
 public class DrogeSO extends GiftSO {
-  public DrugKey key;
+  public DrogeKey key;
   public String einnahme;
   public String legalitaet;
   public String nebenwirkung;

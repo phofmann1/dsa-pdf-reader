@@ -71,6 +71,7 @@ public class CsvHandler
             CsvToBean<T> cb = new CsvToBeanBuilder(reader)
                 .withType(clazz)
                 .withSeparator(SEPARATOR)
+                .withIgnoreLeadingWhiteSpace(true)
                 .build();
             returnValue = cb.parse();
             reader.close();

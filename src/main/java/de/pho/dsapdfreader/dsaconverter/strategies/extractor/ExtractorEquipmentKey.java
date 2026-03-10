@@ -7,12 +7,14 @@ import de.pho.dsapdfreader.uid.UidCategorySub;
 public class ExtractorEquipmentKey extends Extractor {
 
   private static final String[] PREFIX = {
-      UidCategorySub.elixier.externalId(),
-      UidCategorySub.kraut.externalId(),
-      UidCategorySub.alkohol.externalId(),
-      UidCategorySub.zutatalchimie.externalId(),
-      UidCategorySub.material.externalId(),
-      UidCategorySub.gift.externalId(),
+      UidCategorySub.kraut.prefix,
+      UidCategorySub.alkohol.prefix,
+      UidCategorySub.elixier.prefix,
+      UidCategorySub.droge.prefix,
+      UidCategorySub.gift.prefix,
+      UidCategorySub.hilfsmittel.prefix,
+      UidCategorySub.material.prefix,
+      UidCategorySub.zutatalchimie.prefix,
   };
 
   public static EquipmentKey retrieve(String name, EquipmentCategoryKey eck) {
@@ -42,6 +44,7 @@ public class ExtractorEquipmentKey extends Extractor {
         .replace("echtes Premer Feuer", "Premer Feuer")
         .replaceAll("Alraunen(?=\\s|$)", "Alraune")
         .replace("fernhaltensollen", "fernhalten sollen")
+        .replace("Boronwein (Vragieswurzel)", "Boronwein")
         .replace("verschiedene", "").trim();
     try {
       if (isPrefixFallback) {

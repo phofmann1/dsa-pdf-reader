@@ -160,20 +160,24 @@ public enum RezeptKey {
     feuerschlick_essenz,
     feuerschlick_pulver,
     katzenaugensalbe,
-    regenbogenstaub,
-    traumsand,
-    blutblattkranz,
-    gruenschleim_tropfen,
-    lulanientrunk,
-    menchal_ruestung,
-    praiosmilch,
-    sansaro_paste,
-    schwammzunder,
-    wirseltrank,
-    ;
+  regenbogenstaub,
+  traumsand,
+  blutblattkranz,
+  gruenschleim_tropfen,
+  lulanientrunk,
+  menchal_ruestung,
+  praiosmilch,
+  sansaro_paste,
+  schwammzunder,
+  wirseltrank,
+  dornrosenoel,
+  lotoswein,
+  mibel_absud,
+  moarana_liebessaft,
+  ;
 
-    @JsonValue
-    public int toValue() {
-        return ordinal();
-    }
+  @JsonValue
+  public int toValue() {
+    return ordinal();
+  }
 }

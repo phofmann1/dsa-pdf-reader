@@ -2,7 +2,7 @@ package de.pho.dsapdfreader.exporter.model.enums;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public enum HilfsmittelKey {
+public enum PflanzlichesHilfsmittelKey {
   atanax,
   atmonbrei,
   blasrohr,

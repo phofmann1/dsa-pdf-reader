@@ -67,7 +67,7 @@ public enum UidCategory {
     return String.join("_", ids);
   }
 
-  protected String externalId() {
+  public String externalId() {
     return this.id;
   }
 }

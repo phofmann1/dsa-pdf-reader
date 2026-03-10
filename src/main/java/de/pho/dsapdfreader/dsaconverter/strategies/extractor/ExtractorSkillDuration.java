@@ -75,15 +75,46 @@ public class ExtractorSkillDuration extends Extractor
                 }
             }
 
-            if (returnValue.durationSpecial == null || returnValue.durationSpecial.isEmpty())
-            {
-                String specInBrackets = extractTextBetweenBrackets(msr.duration);
-                String specAfterComma = msr.duration.contains(",") ? msr.duration.substring(msr.duration.indexOf(",") + 1).trim() : "";
-                returnValue.durationSpecial = (specInBrackets != null) ? specInBrackets : (
-                    specAfterComma
-                );
+            if (returnValue.durationSpecial == null || returnValue.durationSpecial.isEmpty()) {
+              String specInBrackets = extractTextBetweenBrackets(msr.duration);
+              String specAfterComma = msr.duration.contains(",") ? msr.duration.substring(msr.duration.indexOf(",") + 1).trim() : "";
+              returnValue.durationSpecial = (specInBrackets != null) ? specInBrackets : (
+                  specAfterComma
+              );
             }
         }
-        return returnValue;
+      return returnValue;
     }
+
+  public static Duration retrieveDurationFromRaw(String raw) {
+
+    Duration returnValue = new Duration();
+    Unit[] units = extractUnitsFromText(raw, "", false);
+    if (units.length == 0) {
+      returnValue.durationSpecial = raw;
+    }
+    else if (units.length == 1) {
+      returnValue.durationUnit = units[0];
+      if (returnValue.durationUnit != Unit.aufrechterhaltend && returnValue.durationUnit != Unit.sofort) {
+        returnValue.duration = extractFirstNumberFromText(raw, "");
+        returnValue.duration = returnValue.duration == 0 ? 1 : returnValue.duration;
+        returnValue.isPerQS = raw.contains("QS ");
+      }
+    }
+    else {
+      Optional<Unit> sustainedOrAny = Arrays.stream(units).filter(u -> u == Unit.aufrechterhaltend || u == Unit.sofort).findFirst();
+      if (sustainedOrAny.isPresent()) {
+        returnValue.durationUnit = sustainedOrAny.get();
+      }
+    }
+
+    if (returnValue.durationSpecial == null || returnValue.durationSpecial.isEmpty()) {
+      String specInBrackets = extractTextBetweenBrackets(raw);
+      String specAfterComma = raw.contains(",") ? raw.substring(raw.indexOf(",") + 1).trim() : "";
+      returnValue.durationSpecial = (specInBrackets != null) ? specInBrackets : (
+          specAfterComma
+      );
+    }
+    return returnValue;
+  }
 }

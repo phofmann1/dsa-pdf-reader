@@ -60,7 +60,7 @@ public class LoadToHerb {
     herb.name = raw.name.replace("67 Kukuka", "Kukuka");
     herb.key = extractHerbKey(herb.name);
     herb.alternativeNamen = Arrays.stream(raw.alternativeNamen.split(",")).flatMap(t -> parseEntry(t).stream()).toList();
-    herb.publications = List.of(Publication.Archiv_der_Kräuter);
+    herb.publications = List.of(Publication.archiv_der_kraeuter);
     herb.landschaftstypen = new ArrayList<>();
     herb.regionen = new ArrayList<>();
     herb.suchschwierigkeit = Integer.valueOf(cleanupNumber(raw.suchschwierigkeit));

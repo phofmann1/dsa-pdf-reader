@@ -1607,11 +1607,11 @@ public enum SpecialAbilityKey {
     geisterkrieger_stil,
     weg_des_rechtswahrers,
     oloranthe_della_cerrano_stil,
-    weg_des_rattenfängers
+    weg_des_rattenfängers,
 
 
+    ;
 
-;
     @JsonValue
     public int toValue() {
         return ordinal();

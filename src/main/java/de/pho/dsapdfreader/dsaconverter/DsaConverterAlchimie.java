@@ -326,7 +326,6 @@ public class DsaConverterAlchimie extends DsaConverter<AlchimieRaw, ConverterAto
     private boolean anyKeyActive() {
         ConverterAtomicFlagsAlchimie f = this.getFlags();
         return f.wasName.get()
-                || f.wasDescription.get()
                 || f.wasTypicalIngredients.get()
                 || f.wasCost.get()
                 || f.wasLabor.get()

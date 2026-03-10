@@ -29,7 +29,7 @@ public class Elixier implements EquipmentI {
   @JsonIgnore
   public QSEntry hyperpotenteWirkung;
 
-  public Price preis;
+  public Price price;
   public EquipmentCategoryKey equipmentCategoryKey = EquipmentCategoryKey.elixiere;
 
   public List<Publication> publications;
@@ -50,11 +50,15 @@ public class Elixier implements EquipmentI {
     this.hyperpotenteWirkung = eso.hyperpotenteWirkung;
 
     //Preise sind nicht in allen Publikationen gegeben, deswegen wird im Zweifelsfall die Ingredienzkosten Angabe für den Preis als minPriceInSilver genutzt
-    if (eso.preis != null) this.preis = eso.preis;
+    if (eso.preis != null) this.price = eso.preis;
     else if (eso.kostenIngredienzien != null) {
-      this.preis = eso.kostenIngredienzien;
-      this.preis.minPriceInSilver = this.preis.priceInSilver;
-      this.preis.priceInSilver = null;
+      this.price = eso.kostenIngredienzien;
+      this.price.minPriceInSilver = this.price.priceInSilver;
+      this.price.priceInSilver = null;
+    }
+    else {
+      this.price = new Price();
+      this.price.isPricePerLevel = true;
     }
 
 

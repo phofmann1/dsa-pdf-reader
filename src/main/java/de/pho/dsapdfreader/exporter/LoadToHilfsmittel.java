@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 import de.pho.dsapdfreader.dsaconverter.model.AlchimieRaw;
 import de.pho.dsapdfreader.dsaconverter.strategies.extractor.Extractor;
-import de.pho.dsapdfreader.exporter.model.enums.HilfsmittelKey;
+import de.pho.dsapdfreader.exporter.model.enums.PflanzlichesHilfsmittelKey;
 import de.pho.dsapdfreader.exporter.model.sammelobjekt.HilfsmittelSO;
 
 
@@ -20,7 +20,7 @@ public class LoadToHilfsmittel extends LoadToAlchimieA {
   public static HilfsmittelSO migrate(AlchimieRaw raw) {
 
     HilfsmittelSO hm = new HilfsmittelSO();
-    hm.key = Extractor.extractEnumKey(raw.name.replace("1001", "Tausend und ein "), HilfsmittelKey.class);
+    hm.key = Extractor.extractEnumKey(raw.name.replace("1001", "Tausend und ein "), PflanzlichesHilfsmittelKey.class);
     hm.name = raw.name;
     hm.beschreibung = raw.description;
     hm.zutaten = Arrays.stream(raw.typicalIngredients.split(",")).map(String::trim).toList();
