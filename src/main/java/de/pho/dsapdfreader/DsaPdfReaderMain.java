@@ -186,8 +186,8 @@ public class DsaPdfReaderMain {
   private static final String PDF_BASE_PATH_2 = "D:/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/";
   private static final String PDF_BASE_PATH_3 = "D:\\develop\\project\\pdf-archive\\";
   private static final String STRATEGY_PACKAGE = DsaConverterStrategy.class.getPackageName() + ".";
-  //private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
-  private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
+  private static final String PATH_BASE = "d:\\develop\\project\\java\\dsa-pdf-reader\\export\\";
+  //private static final String PATH_BASE = "C:\\develop\\project\\dsa-pdf-reader\\export\\";
   private static final String PATH_PDF_2_TEXT = PATH_BASE + "01 - pdf2text\\";
   private static final String FILE_PDF_2_TEXT = PATH_PDF_2_TEXT + "%s_txt.csv";
   private static final String PATH_TEXT_2_STRATEGY = PATH_BASE + "02 - applyStrategies\\";
@@ -518,6 +518,10 @@ public class DsaPdfReaderMain {
 
           writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_effects"));
           writer.write(generateMsEffectString(rawMysticalSkills));
+          writer.close();
+
+          writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_remarks"));
+          writer.write(generateMsRemarkString(rawMysticalSkills));
           writer.close();
 
           writer = generateBufferedWriter(generateFileNameTypedDirectory(FILE_RAW_2_JSON, conf.topic, conf.publication, conf.fileAffix, "mysticalskills_variant_names"));
@@ -1823,6 +1827,15 @@ public class DsaPdfReaderMain {
     StringBuilder returnValue = new StringBuilder();
     rawMysticalSkills.stream().forEach(msr -> {
       returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, Extractor.retrieveMsCategory(msr.topic)).toValue() + " {" + msr.effect + "}\r\n");
+    });
+    return returnValue.toString();
+
+  }
+
+  private static String generateMsRemarkString(List<MysticalSkillRaw> rawMysticalSkills) {
+    StringBuilder returnValue = new StringBuilder();
+    rawMysticalSkills.stream().forEach(msr -> {
+      returnValue.append(ExtractorMysticalSkillKey.retrieveMysticalSkillKey(msr.publication, msr.name, Extractor.retrieveMsCategory(msr.topic)).toValue() + " {" + msr.remarks + "}\r\n");
     });
     return returnValue.toString();
 

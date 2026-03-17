@@ -354,23 +354,4 @@
         </params>
     </strategy>
 
-    <strategy name="StrategyPutToEndOfPage - Erweiterte ZSF 354" index="3">
-        <strategyClass>
-            StrategyPutToEndOfPage
-        </strategyClass>
-        <params>
-            <parameter>
-                <key>applyToPage</key>
-                <value>354</value>
-            </parameter>
-            <parameter>
-                <key>startEntryLineNo</key>
-                <value>1</value>
-            </parameter>
-            <parameter>
-                <key>endEntryLineNo</key>
-                <value>50</value>
-            </parameter>
-        </params>
-    </strategy>
 </topic-strategies>

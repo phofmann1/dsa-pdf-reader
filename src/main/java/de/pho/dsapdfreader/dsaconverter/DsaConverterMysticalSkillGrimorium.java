@@ -164,10 +164,13 @@ public class DsaConverterMysticalSkillGrimorium extends DsaConverter<MysticalSki
         this.getFlags().initDataFlags();
         newEntry.setTopic(conf.topic);
         newEntry.setPublication(conf.publication);
-        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM || conf.topic == TopicEnum.BLESSING_DIVINARIUM) {
-          newEntry.cost = "1 AsP";
+        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM|| conf.topic == TopicEnum.BLESSING_DIVINARIUM) {
           newEntry.castingDuration = "1 Aktion";
         }
+
+        if (conf.topic == TopicEnum.TRICKS_GRIMORIUM) newEntry.cost = "1 AsP";
+        else if(conf.topic == TopicEnum.BLESSING_DIVINARIUM) newEntry.cost = "1 KaP";
+
         returnValue.add(newEntry);
 
         lastPage.set(t.onPage);
