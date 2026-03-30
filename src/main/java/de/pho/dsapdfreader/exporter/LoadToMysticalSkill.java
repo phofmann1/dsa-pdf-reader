@@ -275,7 +275,7 @@ public class LoadToMysticalSkill
   {
     MysticalSkill ms = new MysticalSkill();
     ms.features = (msCategory == MysticalSkillCategory.magicSign && (msr.feature == null || msr.feature.isEmpty())) ? List.of(MysticalSkillFeature.defensive) : ExtractorFeature.retrieveFeatures(msr);
-    ms.publication = Publication.valueOf(msr.publication);
+    ms.publication = Publication.valueOf(msr.publication.toLowerCase());
     ms.category = msCategory;
     List<CastingDuration> castingDurations = ExtractorCastingDuration.retrieveCastingDurations(msr, ms.category);
     castingDurations.sort((a, b) -> a.castingDurationUnit == null
