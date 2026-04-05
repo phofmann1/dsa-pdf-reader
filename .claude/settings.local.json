@@ -171,7 +171,16 @@
       "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:org.apache.logging.log4j+AND+a:log4j-core&rows=1&wt=json\")",
       "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:jakarta.xml.bind+AND+a:jakarta.xml.bind-api&rows=1&wt=json\")",
       "Bash(./mvnw -q exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.DsaMarkdownReaderMain\")",
-      "Bash(./mvnw clean:*)"
+      "Bash(./mvnw clean:*)",
+      "Bash(./mvnw exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.BoonComparisonMain\" -q)",
+      "Bash(./mvnw -q exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.BoonComparisonMain\")",
+      "Bash(./mvnw -q exec:java -Dexec.mainClass=de.pho.dsapdfreader.BoonComparisonMain -Dexec.classpathScope=compile)",
+      "Bash(./mvnw -q dependency:build-classpath -Dmdep.outputFile=/dev/stdout)",
+      "Bash(java -cp \"target/classes;$\\(./mvnw -q dependency:build-classpath -Dmdep.outputFile=/dev/stdout)",
+      "Bash(./mvnw -q dependency:build-classpath -Dmdep.outputFile=cp.txt)",
+      "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.BoonComparisonMain)",
+      "Bash(npx ng:*)",
+      "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.FormulaExtractorMain)"
     ]
   }
 }

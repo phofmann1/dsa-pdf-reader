@@ -51,21 +51,20 @@ public class DsaMarkdownReaderMain
 
     private static final String[] SCAN_SUBDIRS = {
         //"04 - Regionen",
-        "04 - Regionen\\Das Wustenreich (111)",
-        //"01 - Regeln"
+        //"04 - Regionen\\Das Wustenreich (111)",
+        "01 - Regeln"
     };
 
     // Was soll laufen?
-    private static final boolean RUN_RAW_EXTRACTION = true;    // Stufe 0: PDF → Rohdaten JSON
+    private static final boolean RUN_RAW_EXTRACTION = false;    // Stufe 0: PDF → Rohdaten JSON
     private static final boolean EXTRACT_TEXT = true;            // Stufe 0: Text-Rohdaten extrahieren
-    private static final boolean EXTRACT_IMAGES = true;          // Stufe 0: Bild-Rohdaten extrahieren
+    private static final boolean EXTRACT_IMAGES = false;          // Stufe 0: Bild-Rohdaten extrahieren
     private static final boolean EXTRACT_RECTS = true;           // Stufe 0: Vektor-Rechtecke extrahieren
     private static final boolean RUN_HEADINGS_ONLY = true;       // Stufe 1: Headings + Body → _headings.md
     private static final boolean HEADINGS_INCLUDE_BODY = true;   // Stufe 1b: Body-Text mit ausgeben
     private static final boolean INCLUDE_IMAGES = false;          // Stufe 1: Bilder als ![image]() einbinden
     private static final boolean INCLUDE_ORNAMENTS = false;       // Stufe 1: Ornament-Zeichen mit <span> ausgeben
-    private static final boolean RUN_IMAGE_EXTRACTION = false;   // Stufe 2: separat, bereits erledigt
-    private static final boolean RUN_VAULT_GENERATION = true;    // Stufe 3: Markdown → Obsidian Vault
+    private static final boolean RUN_VAULT_GENERATION = false;    // Stufe 3: Markdown → Obsidian Vault
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
