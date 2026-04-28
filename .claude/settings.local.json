@@ -180,7 +180,24 @@
       "Bash(./mvnw -q dependency:build-classpath -Dmdep.outputFile=cp.txt)",
       "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.BoonComparisonMain)",
       "Bash(npx ng:*)",
-      "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.FormulaExtractorMain)"
+      "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.FormulaExtractorMain)",
+      "Bash(java -cp 'target/classes;__TRACKED_VAR__' de.pho.dsapdfreader.ProfileExtractorMain)",
+      "Bash(java -cp 'target/classes;__TRACKED_VAR__' -e ':*)",
+      "Read(//d/Daten/OneDrive/pdf.library/RPG/DSA 5 - SL/**)",
+      "Read(//d/Daten/Dropbox/pdf.library/RPG/DSA 5/**)",
+      "Bash(cmd //c \"mvn compile -pl . -q\")",
+      "Bash(./mvnw exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.ProfileExtractorMain\" -q)",
+      "Bash(./mvnw exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.ProfileExtractorMain\" -Dexec.classpathScope=compile)",
+      "Bash(./mvnw exec:java \"-Dexec.mainClass=de.pho.dsapdfreader.ProfileExtractorMain\")",
+      "Bash(./mvnw -q dependency:build-classpath -Dmdep.outputFile=.cp.txt)",
+      "Bash(java -cp \"target/classes;$\\(cat .cp.txt\\)\" de.pho.dsapdfreader.ProfileExtractorMain)",
+      "Bash(./mvnw exec:java -Dexec.mainClass=\"de.pho.dsapdfreader.ProfileExtractorMain\")",
+      "Bash(java -cp \"target/classes;$\\(./mvnw -q dependency:build-classpath -Dmdep.outputFile=/dev/stdout \\)\" de.pho.dsapdfreader.ProfileExtractorMain)",
+      "Bash(./mvnw -q exec:java -Dexec.mainClass=de.pho.dsapdfreader.ProfileExtractorMain)",
+      "Bash(java -cp \"target/classes;$\\(cat .cp.txt\\)\" de.pho.dsapdfreader.PublicationExtractorMain)",
+      "Bash(java -cp \"target/classes;$\\(cat .cp.txt\\)\" de.pho.dsapdfreader.MysticalSkillExtractorMain)",
+      "Bash(mkdir -p export/adventures)",
+      "Bash(java -cp \"target/classes;$\\(cat .cp.txt\\)\" de.pho.dsapdfreader.AdventureExtractorMain)"
     ]
   }
 }

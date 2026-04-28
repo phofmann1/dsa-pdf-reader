@@ -44,7 +44,24 @@ public enum UidCategory {
 
   talent("talent"),
   talent_anwendung(talent, UidCategorySub.anwendungsgebiet),
-  talent_einsatz(talent, UidCategorySub.einsatzmoeglichkeit);
+  talent_einsatz(talent, UidCategorySub.einsatzmoeglichkeit),
+
+  profile("profil"),
+  profile_kulturschaffend(profile, UidCategorySub.kulturschaffend),
+  profile_tier(profile, UidCategorySub.tier),
+  profile_pflanzen(profile, UidCategorySub.pflanzen),
+  profile_fee(profile, UidCategorySub.fee),
+  profile_chimaere(profile, UidCategorySub.chimaere),
+  profile_drache(profile, UidCategorySub.drache),
+  profile_daimonide(profile, UidCategorySub.daimonide),
+  profile_geist(profile, UidCategorySub.geist),
+  profile_hirnlose(profile, UidCategorySub.hirnlose),
+  profile_vampir(profile, UidCategorySub.vampir),
+  profile_nicht_lebende_untot_beseelte(profile, UidCategorySub.nicht_lebende_untot_beseelte),
+  profile_daemon(profile, UidCategorySub.daemon),
+  profile_elementar(profile, UidCategorySub.elementar),
+  profile_unelementar(profile, UidCategorySub.unelementar),
+  profile_golem(profile, UidCategorySub.golem);
   public final String prefix;
   private final String id;
 

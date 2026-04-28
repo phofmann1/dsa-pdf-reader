@@ -485,8 +485,14 @@ public class DsaPdfReaderMain {
         File fIn = new File(generateFileName(FILE_STRATEGY_2_RAW, conf));
 
         List<MysticalSkillRaw> rawMysticalSkills = CsvHandler.readBeanFromFile(MysticalSkillRaw.class, fIn);
-        List<MysticalSkill> mysticalSkills = rawMysticalSkills.stream().flatMap(r -> LoadToMysticalSkill.migrate(r, Extractor.retrieveMsCategory(r.topic))).collect(Collectors.toList());
-
+        List<MysticalSkill> correctionsMas = initExporterCorrections(MysticalSkill.class);
+        List<MysticalSkill> mysticalSkills = rawMysticalSkills.stream()
+                .flatMap(r -> LoadToMysticalSkill.migrate(r, Extractor.retrieveMsCategory(r.topic)))
+                .map(msa -> {
+                  LoadToMysticalSkill.applyCorrections(msa, correctionsMas);
+                  return msa;
+                })
+                .collect(Collectors.toList());
         ObjectMapper mapper = initObjectMapper();
         String jsonResult = mapper
             .writerWithDefaultPrettyPrinter()
@@ -1502,7 +1508,7 @@ public class DsaPdfReaderMain {
 
 
   private static List<? extends SpecialAbility> generateTraditionsByPublication(String publication) {
-    return switch (Publication.valueOf(publication)) {
+    return switch (Publication.valueOf(publication.toLowerCase())) {
       case kodex_der_magie -> generateMagicTraditions();
       case kodex_des_goetterwirkens -> generateClericalTraditions();
       default -> new ArrayList<>();

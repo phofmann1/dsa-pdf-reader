@@ -1,0 +1,86 @@
+{
+  "subVariants": [
+    {
+      "baseProfileKey": "weiche_golemiden",
+      "variants": [
+        {
+          "name": "Aschegolemid",
+          "modifications": {
+            "specialRulesAdd": [
+              { "name": "Feuerimmunität", "rule": "Aschegolemiden sind immun gegen Feuerschaden und nicht brennbar." }
+            ]
+          }
+        },
+        {
+          "name": "Laubgolemid",
+          "modifications": {
+            "rsAdd": 1,
+            "lepAdd": 20
+          }
+        },
+        {
+          "name": "Lehmgolemid",
+          "modifications": {
+            "specialRulesAdd": [
+              { "name": "Empfindlichkeit gegenüber Feuchtigkeit und Hitze", "rule": "Sind Lehmgolemiden zu lange Feuchtigkeit (z. B. Regen) oder großer Hitze ausgesetzt, schmelzen oder vertrocknen sie. Die Meisterin kann entscheiden, dass der Golemid dadurch Schaden erleidet. Je nach Situation, etwa bei starkem Regen oder Wüstensonne, kann der Golemid nach Meisterentscheid sogar jede KR oder stündlich den angegebenen Schaden erleiden." },
+              { "name": "Formlos", "rule": "Der Körper des Golemiden ist so formbar, dass er selbst durch einen Türspalt oder ein dichtes Gitter hindurchpasst." }
+            ],
+            "skillAdd": { "einschüchtern": 4 }
+          }
+        },
+        {
+          "name": "Schneegolemid",
+          "modifications": {
+            "tpAdd": 2
+          }
+        },
+        {
+          "name": "Staubgolemid",
+          "modifications": {
+            "specialRulesAdd": [
+              { "name": "Regeneration I", "rule": "Der Staubgolemid regeneriert 1 LeP pro KR." }
+            ],
+            "allAttributesAdd": -1,
+            "allSkillsAdd": -1
+          }
+        }
+      ],
+      "commonSpecialRules": [
+        { "name": "Golemiden-Regeln", "rule": "Für weiche Golemiden gelten die allgemeinen Golemiden-Regeln." }
+      ]
+    },
+    {
+      "baseProfileKey": "feste_golemiden",
+      "variants": [
+        {
+          "name": "Kieselgolemid",
+          "modifications": {
+            "specialRulesAdd": [
+              { "name": "Halbformlos", "rule": "Der Körper des Golemiden ist leicht formbar, sodass er nach Meisterentscheid durch größere Ritzen, die etwa 2-4 Halbfinger groß sind, hindurchpasst." }
+            ],
+            "rsRandomAdd": "1W3"
+          }
+        },
+        {
+          "name": "Erdsteingolemid",
+          "modifications": {
+            "specialRulesAdd": [
+              { "name": "Regeneration I", "rule": "Der Erdsteingolemid regeneriert 1 LeP pro KR." }
+            ],
+            "rsAdd": 1
+          }
+        },
+        {
+          "name": "Quarzgolemid",
+          "modifications": {
+            "tpAdd": 2
+          }
+        }
+      ],
+      "commonSpecialRules": [
+        { "name": "Feuerimmunität", "rule": "Die festen Golemiden sind immun gegen Feuerschaden und nicht brennbar." },
+        { "name": "Golemiden-Regeln", "rule": "Für feste Golemiden gelten die allgemeinen Golemiden-Regeln." }
+      ]
+    }
+  ]
+}

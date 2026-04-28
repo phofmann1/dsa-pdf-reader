@@ -32,9 +32,35 @@ public class ObjectMerger
           {
             Object sourceValue = field.get(source);
             if (sourceValue instanceof List || List.class.isAssignableFrom(field.getType()) && sourceValue != null) {
-              List copyList = field.get(target) == null ? new ArrayList() : new ArrayList<>((List) field.get(target));
-              copyList.addAll((List) sourceValue);
-              field.set(target, copyList);
+              List sourceList = (List) sourceValue;
+              List targetList = field.get(target) == null ? new ArrayList() : new ArrayList<>((List) field.get(target));
+
+              // Intelligentes Merge: wenn Elemente ein "key"-Feld haben,
+              // per Key matchen und überschreiben statt blind anhängen
+              if (!sourceList.isEmpty() && hasKeyField(sourceList.get(0)))
+              {
+                for (Object srcItem : sourceList)
+                {
+                  Object srcKey = getKeyValue(srcItem);
+                  boolean replaced = false;
+                  for (int idx = 0; idx < targetList.size(); idx++)
+                  {
+                    Object tgtKey = getKeyValue(targetList.get(idx));
+                    if (srcKey != null && srcKey.equals(tgtKey))
+                    {
+                      targetList.set(idx, merge(srcItem, targetList.get(idx)));
+                      replaced = true;
+                      break;
+                    }
+                  }
+                  if (!replaced) targetList.add(srcItem);
+                }
+              }
+              else
+              {
+                targetList.addAll(sourceList);
+              }
+              field.set(target, targetList);
             }
             else if (sourceValue != null && !isSimpleType(sourceValue.getClass()) && !field.getType().isEnum()) {
               //if the source value is not null we check if it is a simple type
@@ -64,6 +90,25 @@ public class ObjectMerger
   private static boolean isEmptyList(Object o) throws IllegalAccessException
   {
     return (o instanceof List) && ((List) o).size() == 0;
+  }
+
+  private static boolean hasKeyField(Object obj)
+  {
+    if (obj == null) return false;
+    try { obj.getClass().getDeclaredField("key"); return true; }
+    catch (NoSuchFieldException e) { return false; }
+  }
+
+  private static Object getKeyValue(Object obj)
+  {
+    if (obj == null) return null;
+    try
+    {
+      Field keyField = obj.getClass().getDeclaredField("key");
+      keyField.setAccessible(true);
+      return keyField.get(obj);
+    }
+    catch (NoSuchFieldException | IllegalAccessException e) { return null; }
   }
 
   //method to determine if the type is a simple type

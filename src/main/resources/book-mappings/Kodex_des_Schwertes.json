@@ -1,0 +1,56 @@
+{
+  "_ignore": [
+    "Kodex",
+    "Checkliste",
+    "Passive, Basis- und Spezialmanöver",
+    "Themen-Vorteil und Themen-Nachteil",
+    "Tricks",
+    "Unterschiedliche Erfahrungsgrade",
+    "Waffen anderer Völker und Einschränkungen"
+  ],
+
+  "Heilungsspezialgebiet": {
+    "ngDsaMaster": "Heilungsspezialist",
+    "variantFormat": "{master} ({variant})",
+    "variantRename": {
+      "Zahnbehandlung": "Zahnebehandlung"
+    }
+  },
+  "Schnellladen": {
+    "ngDsaMaster": "Schnellladen",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["Armbrüste", "Blasrohre", "Bögen", "Diskus", "Schleudern", "Wurfwaffen"]
+  },
+  "Nachladespezialist": {
+    "ngDsaMaster": "Nachladespezialist",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["Armbrüste", "Blasrohre", "Bögen", "Diskus", "Schleudern", "Wurfwaffen"]
+  },
+  "Beeindruckende Vorstellung": {
+    "ngDsaMaster": "Beeindruckende Vorstellung",
+    "variantFormat": "{master} {variant}"
+  },
+  "Schriftstellerei": {
+    "ngDsaMaster": "Schriftstellerei",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": [
+      "(Brett- & Glücksspiele)",
+      "Geographie", "Geschichte", "Götter & Kulte", "Hetzschriften",
+      "Kriegskunst", "Kriminalgeschichten", "Liebesroman",
+      "Magiekunde", "Mechanik", "Märchen", "Poesie",
+      "Rechnen", "Rechtskunde", "Romane",
+      "Sphärenkunde", "Sternkunde"
+    ]
+  },
+  "Giftverstärkung": {
+    "ngDsaMaster": "Giftverstärkung",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["Alchimie", "Pflanzenkunde", "Steinbearbeitung", "Tierkunde"]
+  },
+  "Machtvoller Wirbelangriff": {
+    "ngDsaMaster": "Machtvoller  Wirbelangriff"
+  },
+  "Mächtiger Rundumschlag": {
+    "ngDsaMaster": "Mächtiger  Rundumschlag"
+  }
+}

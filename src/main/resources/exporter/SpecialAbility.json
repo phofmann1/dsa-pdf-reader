@@ -137,6 +137,10 @@
     ]
   },
   {
+    "key": 633,
+    "multiselect": 999
+  },
+  {
     "key": 674,
     "newSkillUsageKey": 358
   },
@@ -269,6 +273,19 @@
         "mysticalSkillCategory": 19
       }
     ]
+  },
+
+  {
+    "key": 1093,
+    "name": "Reversalis I",
+    "selectionCategory": 2,
+    "multiselect": 999
+  },
+  {
+    "key": 1094,
+    "name": "Reversalis II",
+    "selectionCategory": 2,
+    "multiselect": 999
   },
   {
     "key": 1060,

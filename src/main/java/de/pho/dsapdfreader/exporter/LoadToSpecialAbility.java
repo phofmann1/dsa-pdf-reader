@@ -182,7 +182,7 @@ public class LoadToSpecialAbility
         if (specialReqToggle.isBaseRequirement())
           specialAbility.key = ExtractorSpecialAbility.retrieve(specialAbility.name);
 
-        specialAbility.publication = Publication.valueOf(raw.publication);
+        specialAbility.publication = Publication.valueOf(raw.publication.toLowerCase());
         specialAbility.category = raw.abilityCategory;
         specialAbility.ap = Float.parseFloat(ExtractorAP.retrieve(raw.ap, currentLevel)+"");
         specialAbility.abilityType = ExtractorSpecialAbility.retrieveType(raw.description);
