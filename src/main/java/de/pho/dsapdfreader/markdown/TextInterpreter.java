@@ -1555,6 +1555,33 @@ public class TextInterpreter
             }
         }
 
+        // Fallback 2: ALLCAPS-Display-Heading (z.B. "VORWORT", "IMPRESSUM",
+        // "KAPITEL 1: GRUNDREGELN"). Bei manchen Display-/Ornament-Fonts ist
+        // die deklarierte fontSize kleiner als die optisch gerenderte Hoehe,
+        // weshalb die Standard-Schwellen (>14, >25) nicht greifen.
+        // Heuristik: alle Buchstaben Grossbuchstaben, kurz, fontSize merklich
+        // ueber bodyFontSize, kein Doppelpunkt am Ende (sonst Inline-Marker).
+        if (level == 0 && isShort && !endsWithColon)
+        {
+            int letters = 0, uppers = 0;
+            for (int i = 0; i < text.length(); i++)
+            {
+                char c = text.charAt(i);
+                if (Character.isLetter(c))
+                {
+                    letters++;
+                    if (Character.isUpperCase(c)) uppers++;
+                }
+            }
+            boolean allCaps = letters >= 4 && uppers == letters;
+            if (allCaps && dominantSize > bodyFontSize + 1f)
+            {
+                if (dominantSize > bodyFontSize + 8f) level = 1;
+                else if (dominantSize > bodyFontSize + 3f) level = 2;
+                else level = 3;
+            }
+        }
+
         if (level > 0)
         {
             // Heading hat Vorrang vor Bullet (Bullet-Icon ist nur Dekoration)
@@ -1653,6 +1680,32 @@ public class TextInterpreter
     {
         if (page.chars == null || page.chars.isEmpty()) return "";
 
+        // Schritt 0: Footer-/Kolumnentitel-Bereich verwerfen.
+        // Typischer Aufbau: Seitenzahl + Kapiteltitel im untersten ~35pt-Streifen
+        // (z. B. "6 Vorwort", "171"). Verhindert dass diese Token als Body-Text
+        // mitgenommen werden.
+        if (page.pageHeight > 0)
+        {
+            float footerCutoff = page.pageHeight - 35f;
+            page.chars.removeIf(c -> c.y > footerCutoff);
+        }
+
+        // Schritt 0c: Boxen vom Hauptlauftext trennen.
+        // Box-Inhalte werden separat unten gerendert mit Box-Anfang/Ende-Markern.
+        // Damit fliesst Box-Text nicht in die Spalten-/Tabellenheuristik des Body.
+        List<de.pho.dsapdfreader.book.BoxExtractor.BoxRegion> extractedBoxes = new ArrayList<>();
+        if (page.rects != null && !page.rects.isEmpty())
+        {
+            de.pho.dsapdfreader.book.BoxExtractor extractor =
+                new de.pho.dsapdfreader.book.BoxExtractor();
+            de.pho.dsapdfreader.book.BoxExtractor.SplitResult split = extractor.split(page);
+            if (!split.boxes.isEmpty())
+            {
+                page.chars = split.mainPage.chars;
+                extractedBoxes.addAll(split.boxes);
+            }
+        }
+
         // Schritt 0a: Initiale/grosse Zeichen mit Folgezeichen zusammenfuehren
         // Wenn ein grosses Zeichen (Initial) existiert und nachfolgende Zeichen
         // in dessen Bounding-Box fallen (Y-Bereich ueberlappt), werden sie
@@ -1706,9 +1759,29 @@ public class TextInterpreter
                 boolean muchLargerThanBody = avgSize > bodyFontSize * 1.4f;
 
                 // Fullwidth Heading: bold+groesser ODER deutlich groesser (zentrierte Headlines)
+                // ABER: nicht wenn an splitX eine grosse Luecke ist — dann sind es
+                // zwei separate Spalten-Headings auf gleicher Y-Position (z. B. zwei
+                // Sonderfertigkeiten-Titel nebeneinander).
                 if ((largerThanBody && mostlyBold) || muchLargerThanBody)
                 {
-                    fullWidthYs.add((float) line.y);
+                    boolean splitGap = false;
+                    for (int j = 1; j < sorted.size(); j++)
+                    {
+                        ClassifiedChar prev = sorted.get(j - 1);
+                        ClassifiedChar cur = sorted.get(j);
+                        float gap = cur.raw.x - (prev.raw.x + prev.raw.width);
+                        if (gap > 12f
+                            && prev.raw.x + prev.raw.width < splitX
+                            && cur.raw.x > splitX)
+                        {
+                            splitGap = true;
+                            break;
+                        }
+                    }
+                    if (!splitGap)
+                    {
+                        fullWidthYs.add((float) line.y);
+                    }
                     continue;
                 }
 
@@ -1828,10 +1901,8 @@ public class TextInterpreter
 
             if (dividers.isEmpty())
             {
-                // Keine Divider: einfache Spaltenausgabe
-                markdown.append("<!-- Spalte 1 -->\n");
+                // Keine Divider: einfache Spaltenausgabe (einspaltig konsolidiert)
                 appendLinesWithTables(markdown, leftLines);
-                markdown.append("<!-- Spalte 2 -->\n");
                 appendLinesWithTables(markdown, rightLines);
             }
             else
@@ -1872,19 +1943,16 @@ public class TextInterpreter
 
                     if (!leftSection.isEmpty())
                     {
-                        markdown.append("<!-- Spalte 1 -->\n");
                         appendLinesWithTables(markdown, leftSection);
                     }
                     if (!rightSection.isEmpty())
                     {
-                        markdown.append("<!-- Spalte 2 -->\n");
                         appendLinesWithTables(markdown, rightSection);
                     }
 
                     // Divider-Block ausgeben (Cross-column Tabelle oder Heading)
                     if (bi < dividerBlocks.size())
                     {
-                        markdown.append("<!-- Vollbreite -->\n");
                         appendLinesWithTables(markdown, dividerBlocks.get(bi));
                     }
                 }
@@ -1893,16 +1961,13 @@ public class TextInterpreter
             // Untere Fullwidth
             if (!bottomFw.isEmpty())
             {
-                markdown.append("<!-- Vollbreite -->\n");
                 appendLinesWithTables(markdown, bottomFw);
             }
         }
         else if (hasColumns)
         {
-            markdown.append("<!-- Spalte 1 -->\n");
             leftLines.sort(Comparator.comparingDouble(l -> l.y));
             appendLinesWithTables(markdown, leftLines);
-            markdown.append("<!-- Spalte 2 -->\n");
             rightLines.sort(Comparator.comparingDouble(l -> l.y));
             appendLinesWithTables(markdown, rightLines);
         }
@@ -1913,10 +1978,105 @@ public class TextInterpreter
             appendLinesWithTables(markdown, fullWidthLines);
         }
 
+        // Bild-Platzhalter sammeln (Hinweise, ohne Extraktion).
+        // Filter: echte Inhaltsbilder, keine Bullet-Icons, kein Seitenhintergrund.
+        if (page.images != null && !page.images.isEmpty())
+        {
+            List<RawPageData.RawImage> realImages = new ArrayList<>();
+            for (RawPageData.RawImage img : page.images)
+            {
+                float iw = Math.abs(img.width);
+                float ih = Math.abs(img.height);
+                if (iw < 50 || ih < 50) continue; // Bullet/Icon
+                if (page.pageWidth > 0 && page.pageHeight > 0
+                    && iw * ih > page.pageWidth * page.pageHeight * 0.85f) continue; // Hintergrund
+                realImages.add(img);
+            }
+            if (!realImages.isEmpty())
+            {
+                realImages.sort(Comparator.comparingDouble(i -> i.y));
+                if (markdown.length() > 0 && markdown.charAt(markdown.length() - 1) != '\n')
+                    markdown.append('\n');
+                markdown.append('\n');
+                for (int idx = 0; idx < realImages.size(); idx++)
+                {
+                    RawPageData.RawImage img = realImages.get(idx);
+                    markdown.append(String.format(
+                        "<!-- Bild %d: y=%.0f x=%.0f size=%.0fx%.0f -->%n",
+                        idx + 1, img.y, img.x, Math.abs(img.width), Math.abs(img.height)));
+                }
+            }
+        }
+
+        // Box-Inhalte rendern: jede Box als eigener Markdown-Abschnitt mit klaren
+        // Anfang/Ende-Markern. Box-Text fliesst nicht mehr im Body mit.
+        // Wir rendern nicht rekursiv ueber interpretPage, sondern direkt ueber
+        // buildLines + lineToMarkdown — kein Spalten-Histogramm noetig
+        // (Boxen sind klein, einspaltig).
+        if (!extractedBoxes.isEmpty())
+        {
+            extractedBoxes.sort(Comparator.comparingDouble(b -> b.y));
+            for (int idx = 0; idx < extractedBoxes.size(); idx++)
+            {
+                de.pho.dsapdfreader.book.BoxExtractor.BoxRegion box = extractedBoxes.get(idx);
+                if (box.chars.size() < 5) continue;
+                List<ClassifiedChar> boxClassified = classifyChars(box.chars);
+                List<TextLine> boxLines = buildLines(boxClassified);
+                if (boxLines.isEmpty()) continue;
+                boxLines.sort(Comparator.comparingDouble(l -> l.y));
+                StringBuilder boxMd = new StringBuilder();
+                appendLinesWithTables(boxMd, boxLines);
+                String boxText = boxMd.toString().stripTrailing();
+                if (boxText.isEmpty()) continue;
+                if (markdown.length() > 0 && markdown.charAt(markdown.length() - 1) != '\n')
+                    markdown.append('\n');
+                markdown.append('\n');
+                markdown.append(String.format(
+                    "<!-- Box-Anfang %d: y=%.0f x=%.0f size=%.0fx%.0f -->%n",
+                    idx + 1, box.y, box.x, box.width, box.height));
+                markdown.append(boxText).append('\n');
+                markdown.append("<!-- Box-Ende ").append(idx + 1).append(" -->\n");
+            }
+        }
+
         // Cleanup
         String result = markdown.toString();
         result = result.replaceAll("(?m)^.*Peter Hofmann \\(Order #\\d+\\).*\n?", "");
         result = result.replaceAll("(?m)^\\d{1,3}\\s*\n", "");
+        // Aufeinander folgende Tabellen mit gleicher Spaltenanzahl zusammenführen.
+        // Detect-Pipeline trennt Tabellen durch Spalten-/Box-Aufteilung manchmal in
+        // mehrere Mini-Tabellen mit Plain-Text-Lines dazwischen — auf Markdown-Ebene
+        // zusammenfassen, weil das robuster ist als auf Cell-Ebene.
+        result = mergeAdjacentMarkdownTables(result);
+        // Bullet-Glyphen am Zeilenanfang in Markdown-Listenpunkte umwandeln
+        // "**• Foo:** Bar"  -> "- **Foo:** Bar"
+        // "• Foo"           -> "- Foo"
+        result = result.replaceAll("(?m)^\\*\\*•\\s+", "- **");
+        result = result.replaceAll("(?m)^•\\s+", "- ");
+        // Trennstriche bei umbrochenen Wörtern entfernen.
+        // "Gewinnersei- te" -> "Gewinnerseite", "Or- kräuber" -> "Orkräuber".
+        // Nur greifen wenn beide Seiten Kleinbuchstaben sind (legitime
+        // Bindestrich-Komposita wie "Lebens-Energie" oder "DSA-Regeln" haben
+        // entweder keinen Leerraum oder Großbuchstaben dahinter und bleiben unangetastet).
+        result = result.replaceAll("([a-zäöüß])-\\s+([a-zäöüß])", "$1$2");
+        // Inhaltsverzeichnis-Seiten reduzieren. Seitenverweise eines Buchs sind in
+        // digitaler Aufarbeitung nicht mehr relevant — wir behalten nur das Heading.
+        if (result.matches("(?s)^\\s*(?:#{1,3})\\s+INHALTSVERZEICHNIS\\b.*"))
+        {
+            int nl = result.indexOf('\n');
+            String head = nl > 0 ? result.substring(0, nl) : result;
+            result = head + "\n\n<!-- Inhaltsverzeichnis weggelassen — Seitenverweise im digitalen Format irrelevant -->\n";
+        }
+        // Mehrzeilige Display-Headings zusammenfuehren:
+        // Wenn zwei aufeinanderfolgende #/##/### Headings derselben Stufe direkt aufeinander
+        // folgen UND der erste mit Doppelpunkt endet ODER beide ALLCAPS sind, dann mergen.
+        // Z. B. "# KAPITEL 1:" + "# GRUNDREGELN" -> "# KAPITEL 1: GRUNDREGELN"
+        result = result.replaceAll(
+            "(?m)^(#{1,3})\\s+([^\\n]*?:)\\s*\\n\\1\\s+([\\p{Lu}\\p{N}][^\\n]*)$",
+            "$1 $2 $3");
+        result = result.replaceAll(
+            "(?m)^(#{1,3})\\s+([\\p{Lu}\\p{N}][\\p{Lu}\\p{N}\\s]{2,})\\s*\\n\\1\\s+([\\p{Lu}\\p{N}][\\p{Lu}\\p{N}\\s]{2,})$",
+            "$1 $2 $3");
         return result;
     }
 
@@ -2118,11 +2278,116 @@ public class TextInterpreter
         SplitResult headingGapCheck = splitLineAtGaps(line, GAP_THRESHOLD);
         boolean hasTableGaps = headingGapCheck != null && headingGapCheck.row.cells.size() >= 3;
 
-        boolean isHeading = !hasTableGaps && ((dominantSize > 10.5f && allBold && isShortLine)
+        // Display-Schrift erkennen (Andalus = DSA-Heading-Schrift, deutlich groeszer
+        // als typischer Body). GentiumBasic-Bold ist eine Sub-Heading-Schrift mit
+        // kleinerer Pt-Groesze — sollte auf ### gehen, nicht ##.
+        boolean inDisplayFont = false;
+        for (FormattedSpan s : spans)
+        {
+            if (s.isOrnament) continue;
+            String fam = s.fontFamily;
+            if (fam != null && (fam.contains("Andalus") || fam.contains("Display")))
+            {
+                inDisplayFont = true;
+                break;
+            }
+        }
+        boolean isHeading = !hasTableGaps && (
+            (dominantSize > 10.5f && allBold && isShortLine && (inDisplayFont || dominantSize > 14f))
             || (dominantSize > 15 && isShortLine));
-        boolean isSubHeading = !hasTableGaps && (dominantSize > 8.5f && dominantSize <= 10.5f && allBold && isShortLine);
+        boolean isSubHeading = !hasTableGaps && (
+            // Bold + groeszer als Body, aber unter Display-Schwelle: Sub-Sektion
+            (dominantSize > 10.5f && allBold && isShortLine && !inDisplayFont && dominantSize <= 14f)
+            // Klassischer Sub-Heading-Pfad (Bold im Bereich zwischen Body und 10.5pt)
+            || (dominantSize > 8.5f && dominantSize <= 10.5f && allBold && isShortLine));
+        // H1 fuer wirklich grosse Display-Headlines (Cover, Kapitel-Titel)
+        boolean isH1 = false;
 
-        if (isHeading) result.append("## ");
+        // ALLCAPS-Display-Headings (z.B. "VORWORT", "IMPRESSUM", "KAPITEL 1: GRUNDREGELN").
+        // Bei manchen Display-Fonts ist die deklarierte fontSize kleiner als die optisch
+        // gerenderte Hoehe, weshalb die Standard-Schwellen (>15) nicht greifen — und bei
+        // grossem Display-Tracking wird die Zeile faelschlich als Tabelle erkannt
+        // (Buchstabenabstand > GAP_THRESHOLD). Beides muss diese Heuristik ueberstimmen.
+        // Wichtig: Display-Glyphen mit fontSize > 30 werden frueher als isInitial markiert,
+        // duerfen aber hier NICHT herausgefiltert werden — sonst sieht der Heading-Detector
+        // grosse Display-Headlines gar nicht.
+        if (!isHeading && !isSubHeading && isShortLine)
+        {
+            String joined = spans.stream()
+                .filter(s -> !s.isOrnament)
+                .map(s -> s.text.toString())
+                .reduce("", String::concat)
+                .trim();
+            int letters = 0, uppers = 0;
+            for (int i = 0; i < joined.length(); i++)
+            {
+                char c = joined.charAt(i);
+                if (Character.isLetter(c))
+                {
+                    letters++;
+                    if (Character.isUpperCase(c)) uppers++;
+                }
+            }
+            boolean allCaps = letters >= 4 && uppers == letters;
+            boolean endsWithColon = joined.endsWith(":");
+            // Display-Schrift einheitlich? Dann sind grosse Gaps Letter-Tracking, nicht Tabelle.
+            boolean uniformDisplay = false;
+            if (!spans.isEmpty())
+            {
+                String firstFamily = spans.get(0).fontFamily;
+                float firstSize = spans.get(0).fontSize;
+                uniformDisplay = spans.stream()
+                    .filter(s -> !s.isOrnament)
+                    .allMatch(s -> firstFamily.equals(s.fontFamily)
+                        && Math.abs(s.fontSize - firstSize) < 0.5f);
+            }
+            // Maximale Glyph-fontSize (Initiale werden im dominantSize sonst untergewichtet)
+            float maxGlyphSize = 0f;
+            for (FormattedSpan s : spans)
+            {
+                if (s.isOrnament) continue;
+                if (s.fontSize > maxGlyphSize) maxGlyphSize = s.fontSize;
+            }
+            if (allCaps)
+            {
+                if (!endsWithColon && dominantSize > 11.5f && !hasTableGaps)
+                {
+                    isHeading = true;
+                }
+                else if (uniformDisplay && maxGlyphSize > 18f)
+                {
+                    // Display-ALLCAPS mit weitem Tracking — Tabellen-Gaps sind ein
+                    // Mess-Artefakt, der Heading-Status ist eindeutig.
+                    // Doppelpunkt erlaubt (z. B. "KAPITEL 1:" bei zweizeiligen Display-Headers).
+                    isHeading = true;
+                }
+                // Sehr grosse Display-Caps -> H1 (Cover, Kapiteleroeffnung)
+                if (isHeading && uniformDisplay && maxGlyphSize > 26f) isH1 = true;
+            }
+        }
+        // Mixed-Case Display-Headings (z. B. "Kodex des Schwertes", "Komplexitaetsgrade
+        // der Regeln") — wenn die Glyphen einheitlich gross sind, isH1 bei sehr grosser
+        // Schrift, isHeading kommt vom Standardpfad.
+        if (isHeading && !isH1 && !spans.isEmpty())
+        {
+            float maxGlyphSize2 = 0f;
+            String firstFamily = spans.get(0).fontFamily;
+            float firstSize = spans.get(0).fontSize;
+            boolean uniformDisplay2 = true;
+            for (FormattedSpan s : spans)
+            {
+                if (s.isOrnament) continue;
+                if (s.fontSize > maxGlyphSize2) maxGlyphSize2 = s.fontSize;
+                if (!firstFamily.equals(s.fontFamily) || Math.abs(s.fontSize - firstSize) >= 0.5f)
+                {
+                    uniformDisplay2 = false;
+                }
+            }
+            if (uniformDisplay2 && maxGlyphSize2 > 26f) isH1 = true;
+        }
+
+        if (isH1) result.append("# ");
+        else if (isHeading) result.append("## ");
         else if (isSubHeading) result.append("### ");
 
         for (int i = 0; i < spans.size(); i++)
@@ -2155,7 +2420,7 @@ public class TextInterpreter
             if (effectiveBold && span.italic) result.append("***").append(text).append("*** ");
             else if (effectiveBold)
             {
-                if (!isHeading && !isSubHeading) result.append("**").append(text).append("** ");
+                if (!isHeading && !isSubHeading && !isH1) result.append("**").append(text).append("** ");
                 else result.append(text).append(" ");
             }
             else if (span.italic) result.append("*").append(text).append("* ");
@@ -2716,6 +2981,18 @@ public class TextInterpreter
     {
         if (table.rows.isEmpty()) return;
 
+        // Markdown-Tabellen brauchen eine Leerzeile vor der Header-Zeile, sonst
+        // werden sie nicht als Tabelle gerendert.
+        if (markdown.length() > 0)
+        {
+            String tail = markdown.substring(Math.max(0, markdown.length() - 2));
+            if (!tail.endsWith("\n\n"))
+            {
+                if (tail.endsWith("\n")) markdown.append('\n');
+                else markdown.append("\n\n");
+            }
+        }
+
         // Spaltenanzahl normalisieren
         int maxCols = table.rows.stream().mapToInt(r -> r.cells.size()).max().orElse(0);
 
@@ -2774,11 +3051,34 @@ public class TextInterpreter
 
                 if (currentRows.isEmpty())
                 {
+                    // Header-Recovery: pruefe ob die direkt vorhergehende Line ein
+                    // bold Tabellen-Header ist, der durch zu kleine Gaps nicht selbst
+                    // als Tabellenzeile erkannt wurde (z.B. "Gift Stufe Art Widerstand
+                    // Beginn Dauer Preis" mit Header-Worten enger gesetzt als Daten).
+                    int headerStart = i;
+                    if (i > 0)
+                    {
+                        TextLine prev = lines.get(i - 1);
+                        if (isBoldHeaderCandidate(prev))
+                        {
+                            // Force-split den Header an den Daten-Cell-X-Positionen.
+                            // Damit auch dicht gesetzte Header ("Stufe Art" mit 12pt Lücke)
+                            // korrekt in die Datenzeilen-Cells aufgeteilt werden.
+                            SplitResult headerSplit = forceSplitAtPositions(prev, split.gapEnds);
+                            if (headerSplit != null
+                                && headerSplit.row.cells.size() == split.row.cells.size())
+                            {
+                                currentRows.add(headerSplit.row);
+                                currentGapEnds.add(headerSplit.gapEnds);
+                                headerStart = i - 1;
+                            }
+                        }
+                    }
                     // Erste Zeile definiert die Referenz-Positionen
                     currentRows.add(split.row);
                     currentGapEnds.add(split.gapEnds);
                     referenceGapEnds = split.gapEnds;
-                    firstIdx = i;
+                    firstIdx = headerStart;
                     lastIdx = i;
                     tableColCount = split.row.cells.size();
                 }
@@ -2789,6 +3089,53 @@ public class TextInterpreter
                     currentRows.add(split.row);
                     currentGapEnds.add(split.gapEnds);
                     lastIdx = i;
+                }
+                else if (currentRows.size() == 1 && split.row.cells.size() > tableColCount)
+                {
+                    // Header hat zu wenige Cells (Header-Worte stehen enger zusammen als
+                    // Daten-Cells). Refit den Header anhand der Datenzeile-Gap-Positionen
+                    // (force-split). Behebt z. B. "Gift Stufe Art Widerstand Beginn Dauer
+                    // Preis" wo "Stufe Art" nur 12pt Lücke hat, Daten aber 27pt.
+                    SplitResult headerRefit = forceSplitAtPositions(lines.get(firstIdx), split.gapEnds);
+                    if (headerRefit != null && headerRefit.row.cells.size() == split.row.cells.size())
+                    {
+                        currentRows.set(0, headerRefit.row);
+                        currentGapEnds.set(0, headerRefit.gapEnds);
+                        referenceGapEnds = split.gapEnds;
+                        tableColCount = split.row.cells.size();
+                        currentRows.add(split.row);
+                        currentGapEnds.add(split.gapEnds);
+                        lastIdx = i;
+                        continue;
+                    }
+                    // Refit fehlgeschlagen — fall through zur Standard-Behandlung
+                    // Andere Spaltenanzahl oder Gap-Positionen passen nicht:
+                    // versuche mit Referenz-Positionen aufzuteilen
+                    SplitResult refSplit = splitLineByReference(line, referenceGapEnds);
+                    if (refSplit != null && refSplit.row.cells.size() == tableColCount
+                        && gapPositionsAlign(refSplit.gapEnds, referenceGapEnds, GAP_POS_TOLERANCE))
+                    {
+                        currentRows.add(refSplit.row);
+                        currentGapEnds.add(refSplit.gapEnds);
+                        lastIdx = i;
+                    }
+                    else
+                    {
+                        if (currentRows.size() >= MIN_TABLE_ROWS
+                            && checkGapConsistency(currentGapEnds)
+                            && !isProbablyColumnFlow(currentRows, tableColCount))
+                        {
+                            tables.add(new DetectedTable(currentRows, firstIdx, lastIdx));
+                        }
+                        currentRows = new ArrayList<>();
+                        currentRows.add(split.row);
+                        currentGapEnds = new ArrayList<>();
+                        currentGapEnds.add(split.gapEnds);
+                        referenceGapEnds = split.gapEnds;
+                        firstIdx = i;
+                        lastIdx = i;
+                        tableColCount = split.row.cells.size();
+                    }
                 }
                 else
                 {
@@ -2812,7 +3159,9 @@ public class TextInterpreter
                     }
                     else
                     {
-                        if (currentRows.size() >= MIN_TABLE_ROWS && checkGapConsistency(currentGapEnds))
+                        if (currentRows.size() >= MIN_TABLE_ROWS
+                            && checkGapConsistency(currentGapEnds)
+                            && !isProbablyColumnFlow(currentRows, tableColCount))
                         {
                             tables.add(new DetectedTable(currentRows, firstIdx, lastIdx));
                         }
@@ -2841,28 +3190,127 @@ public class TextInterpreter
                         hadContinuation = false;
                         continue;
                     }
+                    // Erweiterung: niedrigere Gap-Schwelle versuchen (Bold-Tabellenzeilen
+                    // mit dichter gepackter erster Zelle wie "**Körperbeherr-** GE/GE/KO ja D ...").
+                    SplitResult lowSplit = splitLineAtGaps(line, GAP_THRESHOLD_IN_TABLE);
+                    if (lowSplit != null && lowSplit.row.cells.size() == tableColCount
+                        && gapPositionsAlign(lowSplit.gapEnds, referenceGapEnds, GAP_POS_TOLERANCE))
+                    {
+                        currentRows.add(lowSplit.row);
+                        currentGapEnds.add(lowSplit.gapEnds);
+                        lastIdx = i;
+                        hadContinuation = false;
+                        continue;
+                    }
+                    // Letzter Fallback: Force-split an Referenz-Cell-Positionen.
+                    // Strenge Schutzmaßnahmen, damit weder Headings noch Cell-Continuations
+                    // fälschlich als neue Tabellenzeile aufgenommen werden:
+                    //   • Y-Spacing zur vorigen Reihe < 2x typischer Tabellen-Spacing
+                    //   • Bold-Start in Cell 0
+                    //   • Nicht deutlich größere fontSize als die erste Tabellenzeile (Heading-Schutz)
+                    //   • Mindestens 3 nicht-leere Cells (sonst Continuation, nicht eigene Reihe)
+                    if (lastIdx >= 0 && lastIdx < lines.size())
+                    {
+                        float lineSpacing = (float) (line.y - lines.get(lastIdx).y);
+                        float typicalT = (lastIdx - firstIdx > 0)
+                            ? (float)(lines.get(lastIdx).y - lines.get(firstIdx).y) / (lastIdx - firstIdx)
+                            : 14.0f;
+                        if (lineSpacing > 0 && lineSpacing < typicalT * 2.0f)
+                        {
+                            SplitResult forced = forceSplitAtPositions(line, referenceGapEnds);
+                            if (forced != null && forced.row.cells.size() == tableColCount)
+                            {
+                                boolean hasBoldStart = !line.chars.isEmpty()
+                                    && line.chars.stream()
+                                        .filter(c -> !c.raw.text.isBlank())
+                                        .findFirst()
+                                        .map(c -> c.isBold)
+                                        .orElse(false);
+                                int nonEmpty = 0;
+                                for (String c : forced.row.cells)
+                                {
+                                    if (!c.trim().isEmpty()) nonEmpty++;
+                                }
+                                float lineMaxFs = 0f;
+                                for (ClassifiedChar ch : line.chars)
+                                {
+                                    if (ch.raw.text == null || ch.raw.text.isBlank()) continue;
+                                    if (ch.raw.fontSize > lineMaxFs) lineMaxFs = ch.raw.fontSize;
+                                }
+                                float refMaxFs = 0f;
+                                for (ClassifiedChar ch : lines.get(firstIdx).chars)
+                                {
+                                    if (ch.raw.text == null || ch.raw.text.isBlank()) continue;
+                                    if (ch.raw.fontSize > refMaxFs) refMaxFs = ch.raw.fontSize;
+                                }
+                                boolean fontOk = lineMaxFs <= refMaxFs + 1.5f;
+                                if (hasBoldStart && fontOk && nonEmpty >= 3)
+                                {
+                                    currentRows.add(forced.row);
+                                    currentGapEnds.add(forced.gapEnds);
+                                    lastIdx = i;
+                                    hadContinuation = false;
+                                    continue;
+                                }
+                            }
+                        }
+                    }
                 }
 
-                // Continuation-Zeile pruefen
-                if (!currentRows.isEmpty() && !line.chars.isEmpty() && !hadContinuation)
+                // Continuation-Zeile pruefen — pro Cell, mehrfach pro Tabelle erlaubt.
+                // Eine non-table-line kann eine umbrochene Zellen-Fortsetzung sein.
+                // Bestimme die Ziel-Cell anhand der X-Startposition: passt sie zu einer
+                // Cell-Start-X (Cell 0 oder gapEnds[N-1] der Referenz), ist es eine
+                // Continuation dieser Cell der LETZTEN Tabellenzeile.
+                if (!currentRows.isEmpty() && !line.chars.isEmpty())
                 {
                     String lineText = extractText(line.chars);
                     TextLine firstLine = lines.get(firstIdx);
-                    if (!firstLine.chars.isEmpty()
-                        && Math.abs(line.chars.get(0).raw.x - firstLine.chars.get(0).raw.x) < 10
-                        && lineText.length() < 40
-                        && currentRows.get(currentRows.size() - 1).cells.get(0).length() < 80)
+                    if (!firstLine.chars.isEmpty() && lineText.length() < 80
+                        && !lineText.isBlank())
                     {
+                        float lineX = line.chars.get(0).raw.x;
+                        int cellIdx = -1;
+                        float bestDist = Float.MAX_VALUE;
+                        float cell0X = firstLine.chars.get(0).raw.x;
+                        float d0 = Math.abs(lineX - cell0X);
+                        if (d0 < 15)
+                        {
+                            cellIdx = 0;
+                            bestDist = d0;
+                        }
+                        if (referenceGapEnds != null)
+                        {
+                            for (int k = 0; k < referenceGapEnds.length; k++)
+                            {
+                                float dist = Math.abs(lineX - referenceGapEnds[k]);
+                                if (dist < bestDist && dist < 15)
+                                {
+                                    cellIdx = k + 1;
+                                    bestDist = dist;
+                                }
+                            }
+                        }
                         TableRow lastRow = currentRows.get(currentRows.size() - 1);
-                        lastRow.cells.set(0, lastRow.cells.get(0) + " " + lineText);
-                        lastIdx = i;
-                        hadContinuation = true;
-                        continue;
+                        if (cellIdx >= 0 && cellIdx < lastRow.cells.size())
+                        {
+                            String cur = lastRow.cells.get(cellIdx);
+                            // Nicht endlos akkumulieren — Zelle darf nicht uebermaessig wachsen
+                            if (cur.length() < 200)
+                            {
+                                lastRow.cells.set(cellIdx, cur + " " + lineText);
+                                lastIdx = i;
+                                hadContinuation = true;
+                                continue;
+                            }
+                        }
                     }
                 }
 
                 // Tabelle beenden
-                if (currentRows.size() >= MIN_TABLE_ROWS && (tableColCount >= 4 || checkGapConsistency(currentGapEnds)))
+                if (currentRows.size() >= MIN_TABLE_ROWS
+                    && (tableColCount >= 4 || checkGapConsistency(currentGapEnds))
+                    && !isProbablyColumnFlow(currentRows, tableColCount))
                 {
                     tables.add(new DetectedTable(currentRows, firstIdx, lastIdx));
                 }
@@ -2876,12 +3324,416 @@ public class TextInterpreter
             }
         }
 
-        if (currentRows.size() >= MIN_TABLE_ROWS && (tableColCount >= 4 || checkGapConsistency(currentGapEnds)))
+        if (currentRows.size() >= MIN_TABLE_ROWS
+            && (tableColCount >= 4 || checkGapConsistency(currentGapEnds))
+            && !isProbablyColumnFlow(currentRows, tableColCount))
         {
             tables.add(new DetectedTable(currentRows, firstIdx, lastIdx));
         }
 
+        // Post-Pass A: Spalten-Verfeinerung. Wenn alle Reihen einer Tabelle mit
+        // niedrigerem Threshold konsistent MEHR Cells liefern, splitten wir alle
+        // Reihen neu. Behebt Tabellen wie S. 19 "Modifikator | Bewertung | Klettern"
+        // wo die Cell-Lücken (8-12pt) unter dem Standard-Threshold von 14pt liegen.
+        for (DetectedTable table : tables)
+        {
+            if (table.rows.size() < 3) continue;
+            int origCols = table.rows.get(0).cells.size();
+            // Sammle pro Reihe Cell-Anzahl mit niedrigerem Threshold (8pt)
+            int[] lowCols = new int[table.rows.size()];
+            float[][] lowGapEnds = new float[table.rows.size()][];
+            int validRows = 0;
+            for (int r = 0; r < table.rows.size(); r++)
+            {
+                int lineIdx = table.startLineIdx + r;
+                if (lineIdx >= lines.size()) { lowCols[r] = -1; continue; }
+                SplitResult lowSplit = splitLineAtGaps(lines.get(lineIdx), 8.0f);
+                if (lowSplit == null)
+                {
+                    lowCols[r] = -1;
+                    continue;
+                }
+                lowCols[r] = lowSplit.row.cells.size();
+                lowGapEnds[r] = lowSplit.gapEnds;
+                validRows++;
+            }
+            if (validRows < table.rows.size() / 2) continue;
+            // Häufigste Cell-Anzahl mit niedrigem Threshold finden
+            java.util.Map<Integer, Integer> counts = new java.util.HashMap<>();
+            for (int c : lowCols) if (c > 0) counts.merge(c, 1, Integer::sum);
+            int targetCols = counts.entrySet().stream()
+                .max(java.util.Map.Entry.comparingByValue())
+                .map(java.util.Map.Entry::getKey).orElse(origCols);
+            if (targetCols <= origCols) continue;
+            // Reihen mit weniger Cells über force-split auf Referenz-Positionen anpassen
+            float[] refGapEnds = null;
+            for (int r = 0; r < table.rows.size(); r++)
+            {
+                if (lowCols[r] == targetCols) { refGapEnds = lowGapEnds[r]; break; }
+            }
+            if (refGapEnds == null) continue;
+            for (int r = 0; r < table.rows.size(); r++)
+            {
+                int lineIdx = table.startLineIdx + r;
+                if (lineIdx >= lines.size()) continue;
+                if (lowCols[r] == targetCols)
+                {
+                    SplitResult ls = splitLineAtGaps(lines.get(lineIdx), 8.0f);
+                    if (ls != null) table.rows.set(r, ls.row);
+                }
+                else
+                {
+                    SplitResult fs = forceSplitAtPositions(lines.get(lineIdx), refGapEnds);
+                    if (fs != null && fs.row.cells.size() == targetCols)
+                    {
+                        table.rows.set(r, fs.row);
+                    }
+                }
+            }
+        }
+
+        // Post-Pass B2: Tabellen mit gleicher Spaltenanzahl und konsistentem Y-Spacing
+        // zusammenführen. Mehrzeilige Cells (z. B. "Fernrohr,/zusammenschiebbar") trennen
+        // sonst eine logische Tabelle in mehrere Mini-Tabellen mit Plain-Text-Lines
+        // dazwischen. Diese Plain-Text-Lines werden als Cell-Continuations erkannt und
+        // an die letzte Reihe der vorigen Tabelle angehängt.
+        for (int t = tables.size() - 2; t >= 0; t--)
+        {
+            DetectedTable a = tables.get(t);
+            DetectedTable b = tables.get(t + 1);
+            if (a.rows.isEmpty() || b.rows.isEmpty()) continue;
+            int aCols = a.rows.get(0).cells.size();
+            int bCols = b.rows.get(0).cells.size();
+            if (aCols != bCols) continue;
+            if (a.endLineIdx >= lines.size() || b.startLineIdx >= lines.size()) continue;
+            // Y-Spacing innerhalb a (Mittel ueber Reihen)
+            if (a.endLineIdx <= a.startLineIdx) continue;
+            float aSpacing = (float) (lines.get(a.endLineIdx).y - lines.get(a.startLineIdx).y)
+                / (a.endLineIdx - a.startLineIdx);
+            // Y-Distanz zwischen Tabellen-Ende und naechster Tabellen-Anfang
+            float gapY = (float) (lines.get(b.startLineIdx).y - lines.get(a.endLineIdx).y);
+            // Akzeptiere Lücke wenn sie maximal 4x typischen Tabellen-Spacings entspricht
+            if (aSpacing <= 0 || gapY > aSpacing * 4 || gapY < 0) continue;
+            // Lines dazwischen als Cell-Continuation der letzten Reihe von a aufnehmen.
+            // Bestimme Cell-Index anhand der X-Position des ersten Chars.
+            // Referenz-Cell-X aus a.rows.get(0) reichlich abgleichen — wir nutzen die
+            // first-row-Lines.
+            TextLine firstRow = lines.get(a.startLineIdx);
+            float[] cellStarts = new float[aCols];
+            // Cell 0 startet bei firstRow.chars[0].x; Cells 1..N-1 könnten via splitLine ermittelt werden
+            if (!firstRow.chars.isEmpty()) cellStarts[0] = firstRow.chars.get(0).raw.x;
+            SplitResult fr = splitLineAtGaps(firstRow, GAP_THRESHOLD);
+            if (fr != null && fr.gapEnds != null)
+            {
+                int n = Math.min(cellStarts.length - 1, fr.gapEnds.length);
+                for (int k = 0; k < n; k++) cellStarts[k + 1] = fr.gapEnds[k];
+            }
+            for (int li = a.endLineIdx + 1; li < b.startLineIdx; li++)
+            {
+                TextLine cl = lines.get(li);
+                if (cl.chars.isEmpty()) continue;
+                String text = extractText(cl.chars).trim();
+                if (text.isEmpty() || text.length() > 80) continue;
+                float clX = cl.chars.get(0).raw.x;
+                int targetCell = -1;
+                float bestDist = Float.MAX_VALUE;
+                for (int k = 0; k < cellStarts.length; k++)
+                {
+                    float dist = Math.abs(clX - cellStarts[k]);
+                    if (dist < bestDist && dist < 15)
+                    {
+                        bestDist = dist;
+                        targetCell = k;
+                    }
+                }
+                TableRow lastRow = a.rows.get(a.rows.size() - 1);
+                if (targetCell >= 0 && targetCell < lastRow.cells.size())
+                {
+                    String cur = lastRow.cells.get(targetCell);
+                    if (cur.length() < 200)
+                    {
+                        lastRow.cells.set(targetCell, cur.isEmpty() ? text : cur + " " + text);
+                    }
+                }
+            }
+            // Reihen aus b in a aufnehmen
+            a.rows.addAll(b.rows);
+            a.endLineIdx = b.endLineIdx;
+            tables.remove(t + 1);
+        }
+
+        // Post-Pass B: aufeinanderfolgende Tabellenzeilen mergen, wenn die zweite
+        // eine Cell-Continuation der ersten ist (nummerierte Tabellen mit umbrochener
+        // Zelle). Beispiel: "4 Geschickte | Bis zum Ende..." + "Kampfbewegungen | einsetzen."
+        // werden zusammengezogen.
+        for (DetectedTable table : tables)
+        {
+            for (int r = table.rows.size() - 1; r > 0; r--)
+            {
+                TableRow prev = table.rows.get(r - 1);
+                TableRow curr = table.rows.get(r);
+                if (looksLikeRowContinuation(prev, curr))
+                {
+                    int n = Math.min(prev.cells.size(), curr.cells.size());
+                    for (int c = 0; c < n; c++)
+                    {
+                        String prevCell = prev.cells.get(c);
+                        String currCell = curr.cells.get(c);
+                        if (currCell.isEmpty()) continue;
+                        prev.cells.set(c, prevCell.isEmpty() ? currCell
+                                                              : prevCell + " " + currCell);
+                    }
+                    table.rows.remove(r);
+                }
+            }
+        }
+
         return tables;
+    }
+
+    /**
+     * Heuristik: Tabellenzeile ist die Fortsetzung der Vorgaengerzeile mit umbrochenen
+     * Zellen. Konservativ — derzeit greift es nur bei nummerierten Tabellen, in denen
+     * die Vorgaengerzeile mit einer Zahl/einem Buchstaben-Marker beginnt und die neue
+     * Zeile keinen solchen Marker hat (typisch fuer Cell-Wraps).
+     */
+    private boolean looksLikeRowContinuation(TableRow prev, TableRow curr)
+    {
+        if (prev.cells.size() != curr.cells.size()) return false;
+        if (prev.cells.isEmpty()) return false;
+        String prevFirst = prev.cells.get(0).trim();
+        String currFirst = curr.cells.get(0).trim();
+        if (prevFirst.isEmpty() || currFirst.isEmpty()) return false;
+        boolean prevHasNumberMarker = Character.isDigit(prevFirst.charAt(0));
+        boolean currHasNumberMarker = !currFirst.isEmpty() && Character.isDigit(currFirst.charAt(0));
+        if (prevHasNumberMarker && !currHasNumberMarker)
+        {
+            // Continuation, wenn die neue Zeile ohne Listen-Index startet
+            return true;
+        }
+        // Alternative: vorherige Zeile endete mit Bindestrich (umbrochenes Wort)
+        for (int c = 0; c < prev.cells.size(); c++)
+        {
+            String pc = prev.cells.get(c).stripTrailing();
+            if (pc.endsWith("-") && pc.length() > 2
+                && Character.isLetter(pc.charAt(pc.length() - 2)))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Markdown-Level-Merge: zwei aufeinander folgende Tabellen mit gleicher
+     * Spaltenanzahl werden zu einer einzigen Tabelle zusammengezogen. Plain-Text-Lines
+     * zwischen den Tabellen werden — wenn sie kurz sind und mit Kleinbuchstaben/Komma
+     * starten — als Cell-Continuation an die letzte Reihe der ersten Tabelle gehängt.
+     * Lange Lines oder Headings dazwischen brechen den Merge ab.
+     */
+    String mergeAdjacentMarkdownTables(String md)
+    {
+        String[] lines = md.split("\n", -1);
+        StringBuilder out = new StringBuilder();
+        int i = 0;
+        while (i < lines.length)
+        {
+            // Tabellen-Anfang erkennen: Line beginnt mit "| " UND naechste Line ist Separator
+            if (i + 1 < lines.length
+                && lines[i].startsWith("| ")
+                && lines[i + 1].matches("^\\|( -+ \\|)+\\s*$"))
+            {
+                // Sammle die ganze erste Tabelle
+                List<String> tableLines = new ArrayList<>();
+                tableLines.add(lines[i]);          // Header
+                tableLines.add(lines[i + 1]);      // Separator
+                int colCount = countTableColumns(lines[i]);
+                int j = i + 2;
+                while (j < lines.length && lines[j].startsWith("| ")
+                       && countTableColumns(lines[j]) == colCount)
+                {
+                    tableLines.add(lines[j]);
+                    j++;
+                }
+                // Suche eine direkt anschliessende Tabelle gleicher Spaltenanzahl
+                while (true)
+                {
+                    int gapStart = j;
+                    int gapEnd = j;
+                    boolean gapHasHeading = false;
+                    boolean gapHasLongLine = false;
+                    while (gapEnd < lines.length
+                           && !(gapEnd + 1 < lines.length
+                                && lines[gapEnd].startsWith("| ")
+                                && lines[gapEnd + 1].matches("^\\|( -+ \\|)+\\s*$")))
+                    {
+                        String gl = lines[gapEnd];
+                        if (gl.startsWith("#")) gapHasHeading = true;
+                        if (gl.length() > 80) gapHasLongLine = true;
+                        gapEnd++;
+                    }
+                    int gapSize = gapEnd - gapStart;
+                    if (gapSize > 5 || gapEnd >= lines.length) break;
+                    if (gapHasLongLine) break;
+                    int nextHeader = gapEnd;
+                    int nextCols = countTableColumns(lines[nextHeader]);
+                    if (nextCols != colCount) break;
+                    // Merge: Lines zwischen den Tabellen als Cell-0-Continuation an
+                    // die letzte Reihe der ersten Tabelle.
+                    for (int g = gapStart; g < gapEnd; g++)
+                    {
+                        String gtext = lines[g].trim();
+                        if (gtext.isEmpty()) continue;
+                        if (gtext.startsWith("#"))
+                        {
+                            // Heading-Marker entfernen, Text als Continuation
+                            gtext = gtext.replaceFirst("^#+\\s+", "");
+                        }
+                        if (gtext.isEmpty()) continue;
+                        // An letzte Tabellenreihe (Zelle 0) anhängen
+                        int lastRowIdx = tableLines.size() - 1;
+                        String lastRow = tableLines.get(lastRowIdx);
+                        // Zelle 0 finden und ergänzen
+                        int firstPipe = lastRow.indexOf("| ");
+                        int secondPipe = lastRow.indexOf(" |", firstPipe + 2);
+                        if (firstPipe >= 0 && secondPipe > firstPipe)
+                        {
+                            String cell0 = lastRow.substring(firstPipe + 2, secondPipe);
+                            String newCell0 = cell0.isEmpty() ? gtext : cell0 + " " + gtext;
+                            tableLines.set(lastRowIdx,
+                                lastRow.substring(0, firstPipe + 2) + newCell0
+                                    + lastRow.substring(secondPipe));
+                        }
+                    }
+                    // Reihen der zweiten Tabelle (ohne Header & Separator) anhängen
+                    int k = nextHeader + 2;
+                    // Header der zweiten Tabelle ggf. ALS Datenzeile übernehmen wenn er
+                    // wie eine Datenzeile aussieht (kein typischer Header-Stil)
+                    tableLines.add(lines[nextHeader]);
+                    while (k < lines.length && lines[k].startsWith("| ")
+                           && countTableColumns(lines[k]) == colCount)
+                    {
+                        tableLines.add(lines[k]);
+                        k++;
+                    }
+                    j = k;
+                }
+                // Tabelle ausgeben
+                for (String tl : tableLines)
+                {
+                    out.append(tl).append('\n');
+                }
+                i = j;
+                continue;
+            }
+            out.append(lines[i]).append('\n');
+            i++;
+        }
+        // Trailing-Newline normalisieren
+        String s = out.toString();
+        if (s.endsWith("\n\n")) s = s.substring(0, s.length() - 1);
+        return s;
+    }
+
+    private int countTableColumns(String line)
+    {
+        if (line == null || !line.startsWith("|")) return 0;
+        int count = 0;
+        for (int k = 0; k < line.length(); k++)
+        {
+            if (line.charAt(k) == '|') count++;
+        }
+        return Math.max(0, count - 1); // n pipes → n-1 cells
+    }
+
+    /**
+     * Force-Split einer Zeile an gegebenen Referenz-X-Positionen, OHNE Gap-Schwelle.
+     * Anders als {@link #splitLineByReference} braucht es keine echte Lücke an der
+     * Position — chars werden anhand ihrer X-Koordinate dem Cell-Bin zugeordnet, in
+     * den sie laut Referenz-Positionen gehören. Wird beim Header-Recovery genutzt,
+     * wenn der Header dichter gesetzt ist als die Daten.
+     */
+    private SplitResult forceSplitAtPositions(TextLine line, float[] refGapEnds)
+    {
+        if (line.chars.isEmpty() || refGapEnds == null || refGapEnds.length == 0) return null;
+        List<ClassifiedChar> sorted = new ArrayList<>(line.chars);
+        sorted.sort(Comparator.comparingDouble(c -> c.raw.x));
+        List<String> cells = new ArrayList<>();
+        List<ClassifiedChar> cellChars = new ArrayList<>();
+        float[] gapEnds = new float[refGapEnds.length];
+        int splitIdx = 0;
+        for (ClassifiedChar ch : sorted)
+        {
+            // Wenn das Zeichen in den naechsten Cell-Bereich gehoert (X >= ref-Position),
+            // schliesze die aktuelle Zelle ab und starte die naechste.
+            while (splitIdx < refGapEnds.length && ch.raw.x >= refGapEnds[splitIdx] - 2f)
+            {
+                cells.add(extractText(cellChars));
+                gapEnds[splitIdx] = ch.raw.x;
+                cellChars = new ArrayList<>();
+                splitIdx++;
+            }
+            cellChars.add(ch);
+        }
+        cells.add(extractText(cellChars));
+        // Falls keine chars in eine bestimmte Cell fielen, Cell als leer auffuellen
+        while (cells.size() < refGapEnds.length + 1) cells.add("");
+        return new SplitResult(new TableRow(cells), gapEnds);
+    }
+
+    /**
+     * Pruefen ob eine Zeile ein bold-Header-Kandidat ist (kurz, mehrheitlich bold,
+     * kein Body-Text-Stil). Wird genutzt, um Tabellen-Header zu re-claimen, die
+     * wegen zu kleiner Header-Wort-Luecken nicht selbst als Tabellenzeile erkannt
+     * wurden.
+     */
+    private boolean isBoldHeaderCandidate(TextLine line)
+    {
+        if (line.chars.isEmpty()) return false;
+        int total = 0, bold = 0;
+        StringBuilder sb = new StringBuilder();
+        for (ClassifiedChar ch : line.chars)
+        {
+            if (ch.raw.text == null || ch.raw.text.isBlank()) continue;
+            total++;
+            if (ch.isBold) bold++;
+            sb.append(ch.raw.text);
+        }
+        if (total < 4 || total > 80) return false;
+        if (bold < total * 0.8) return false;
+        String text = sb.toString().trim();
+        // Mind. 2 Worte (Header haben mehrere Spaltennamen)
+        if (!text.contains(" ")) return false;
+        // Endet mit Doppelpunkt = inline-Marker, kein Header
+        if (text.endsWith(":")) return false;
+        return true;
+    }
+
+    /**
+     * Heuristik: false-positive Tabelle aus zweispaltigem Fliesstext.
+     *
+     * Echte 2-Spalten-Tabellen sind typischerweise key-value-Strukturen mit
+     * mindestens einer kurzen Spalte (Label, Wert, Modifikator). Wenn beide
+     * Spalten konsistent Prosa-Laenge enthalten (Mittelwert > 30 Zeichen je
+     * Spalte), handelt es sich vermutlich um zwei Spalten Fliesstext, die
+     * wegen der Spaltenluecke versehentlich als Tabelle erkannt wurden.
+     */
+    private boolean isProbablyColumnFlow(List<TableRow> rows, int colCount)
+    {
+        if (colCount != 2 || rows.size() < 2) return false;
+        long sumLeft = 0, sumRight = 0;
+        int n = 0;
+        for (TableRow row : rows)
+        {
+            if (row.cells.size() < 2) continue;
+            sumLeft += row.cells.get(0).length();
+            sumRight += row.cells.get(1).length();
+            n++;
+        }
+        if (n == 0) return false;
+        double avgLeft = (double) sumLeft / n;
+        double avgRight = (double) sumRight / n;
+        return avgLeft > 30 && avgRight > 30;
     }
 
     /**
@@ -3295,6 +4147,21 @@ public class TextInterpreter
 
     private float findColumnSplitByHistogram(List<RawPageData.RawChar> chars, float pageWidth)
     {
+        // Display-only-Pages (Cover, Kapitel-Titelseiten) duerfen NIE in Spalten
+        // gesplittet werden — sonst zerreisst es Headlines wie "Kodex des Schwertes"
+        // in der Mitte. Heuristik: sehr wenige Chars insgesamt ODER alle non-blank
+        // chars haben fontSize > 18 (Display-Schrift, kein Fliesstext).
+        int nonBlank = 0;
+        int displayChars = 0;
+        for (RawPageData.RawChar ch : chars)
+        {
+            if (ch.text == null || ch.text.isBlank()) continue;
+            nonBlank++;
+            if (ch.fontSize > 18f) displayChars++;
+        }
+        if (nonBlank > 0 && nonBlank < 80) return -1;
+        if (nonBlank > 0 && displayChars >= nonBlank * 0.85) return -1;
+
         int numBins = (int) Math.ceil(pageWidth / BIN_WIDTH);
         int[] histogram = new int[numBins];
 
@@ -4791,8 +5658,8 @@ public class TextInterpreter
     static class DetectedTable
     {
         final List<TableRow> rows;
-        final int startLineIdx;
-        final int endLineIdx;
+        int startLineIdx;
+        int endLineIdx;
         DetectedTable(List<TableRow> rows, int startLineIdx, int endLineIdx)
         {
             this.rows = rows;

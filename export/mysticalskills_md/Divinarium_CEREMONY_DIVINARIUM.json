@@ -1,0 +1,3149 @@
+[ {
+  "key" : 5,
+  "name" : "Ackersegen",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 17,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 13 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 25 ],
+  "publication" : 49
+}, {
+  "key" : 27,
+  "name" : "Arcanum Interdictum",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP, davon 4 KaP permanent (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 27 ],
+  "publication" : 49
+}, {
+  "key" : 79,
+  "name" : "Berauschender Wein",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 20, 29 ],
+  "publication" : 49
+}, {
+  "key" : 92,
+  "name" : "Bild für die Ewigkeit",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 13, 24 ],
+  "publication" : 49
+}, {
+  "key" : 99,
+  "name" : "Blick in die Flammen",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "2 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 0 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 1, 16 ],
+  "publication" : 49
+}, {
+  "key" : 128,
+  "name" : "Dämonenpakt brechen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP, 8 davon permanent",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 9, 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 133,
+  "name" : "Delphingestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 7 ],
+  "publication" : 49
+}, {
+  "key" : 139,
+  "name" : "Diener der Erde",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 140,
+  "name" : "Diener der Flammen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 1 ],
+  "publication" : 49
+}, {
+  "key" : 141,
+  "name" : "Diener der Kälte",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 142,
+  "name" : "Diener der Wellen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 143,
+  "name" : "Diener der Wolken",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 144,
+  "name" : "Diener des Erzes",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3, 16 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 1 ],
+  "publication" : 49
+}, {
+  "key" : 159,
+  "name" : "Eidechsengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 838,
+  "name" : "Eidechsenregeneration",
+  "check" : [ 2, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 164,
+  "name" : "Einflüsterung",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 20 ],
+  "publication" : 49
+}, {
+  "key" : 166,
+  "name" : "Eisbärengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 9 ],
+  "publication" : 49
+}, {
+  "key" : 175,
+  "name" : "Elsterngestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 26 ],
+  "publication" : 49
+}, {
+  "key" : 183,
+  "name" : "Erinnern",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 13, 24 ],
+  "publication" : 49
+}, {
+  "key" : 195,
+  "name" : "Exorzismus",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 2, 16 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 198,
+  "name" : "Falkengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 27 ],
+  "publication" : 49
+}, {
+  "key" : 207,
+  "name" : "Fest der Freude",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 6,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 20, 29 ],
+  "publication" : 49
+}, {
+  "key" : 1116,
+  "name" : "Flugechsengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 1117,
+  "name" : "Freie Seelenfahrt",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 2,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 232,
+  "name" : "Frostschutz",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4  KaP (Aktivierung der Zeremonie) + 2 KaP pro 30 Minuten",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 1,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 9, 15 ],
+  "publication" : 49
+}, {
+  "key" : 234,
+  "name" : "Fruchtbarkeit",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 25, 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 235,
+  "name" : "Fuchsgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 26 ],
+  "publication" : 49
+}, {
+  "key" : 237,
+  "name" : "Gänsegestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 35 ],
+  "publication" : 49
+}, {
+  "key" : 1118,
+  "name" : "Geiergestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 21 ],
+  "publication" : 49
+}, {
+  "key" : 251,
+  "name" : "Geistersprache",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 252,
+  "name" : "Geistheilung",
+  "check" : [ 1, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "aP (Kosten sind nicht modifizier- | innerhalb von 48 Stunden begonnen wird. Die ur- | | bar) | sprüngliche Wirkung kommt ebenfalls zum Tragen. |",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19 ],
+  "traditions" : [ 31 ],
+  "publication" : 49
+}, {
+  "key" : 255,
+  "name" : "Geschlechterwechsel",
+  "check" : [ 0, 2, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 29, 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 257,
+  "name" : "Geschwinder Schritt",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 8,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 3, 55 ],
+  "publication" : 49
+}, {
+  "key" : 263,
+  "name" : "Geweihter Panzer",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 1, 16, 18, 30, 34 ],
+  "publication" : 49
+}, {
+  "key" : 1120,
+  "name" : "Gnade des Vergessens",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "aP (Kosten sind nicht modifizierbar) | Schläfe. Dabei greift er sich mit der anderen Hand an | | Reichweite: Berührung | die Brust und führt sie dann als Faust an die eigene | | Wirkungsdauer: 1 Jahr | Stirn. Während er bekräftigend nickt, bittet er: „Tai- | | Zielkategorie: Kulturschaffende | rach, sei aus Deinem Geist geopfert, dass Du …“. Der | | Verbreitung: Tairachschamanen (Geisterwelt) | Schamane schildert das Ereignis und fährt fort: „Er | | Steigerungsfaktor: C | schaffe Raum für Vertrauen in mich, seinen Diener!“ | Die meisten Berichte über den Einsatz dieser Zeremonie sind eher Gruselgeschichten denn nüchterne Erzählungen und so ist unter vielen Menschen umstritten, welche Macht tatsächlich in diesem Wirken liegt. Aus der Zeit der Orkenstürme heißt es von gefangenen Offizieren der Gardetruppen, welche unter dem Einfluss dieser Kraft zum Feind überliefen und danach gegen ihre Freunde stritten. Manche erzählen, dass die Fähigkeit der Schamanen Oger zu kontrollieren auf diese Macht zurückgeht. Doch auch unter Orks soll diese Fähigkeit Anwendung finden. Es heißt manche Schamanen hätten auf diese Art die Macht im Harordak übernommen, dem Duo aus kämpferischem Häuptling und Schamane, welches jeden Orkstamm führt. Durch diese Zeremonie machen sie sich zum vertrauenswürdigen Berater des als Brazoraghpriester angesehenen Häuptlings und lenken auf diese Weise aus dem Hintergrund den Stamm durch Einflüsterungen. Doch auch von solchen Schamanen wird berichtet, die auf diese Weise die Erinnerung an den Fehlschlag eines Rituals aus dem Gedächtnis der Begleiter tilgen und ihnen so wieder Vertrauen in ihre Fähigkeiten geben, um nicht erschlagen oder davongejagt zu werden. Gerade bei einer Wirkung von 5 Jahren und mehr ist dies eine dauerhafte Lösung, bei kürzerer Wirkung werden die so getäuschten Gefährten bald darauf in eine ehrenhafte aber aussichtslose Auseinandersetzung geschickt, wo sie als Helden sterben und ihr Wissen mit ins Totenreich nehmen. <!-- Seite 293 -->",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 17,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 16 ],
+  "traditions" : [ 31 ],
+  "publication" : 49
+}, {
+  "key" : 273,
+  "name" : "Göttliche Erkenntnis",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4  KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 24 ],
+  "publication" : 49
+}, {
+  "key" : 275,
+  "name" : "Göttliche Präzision",
+  "check" : [ 0, 2, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "advancementCategory" : 2,
+  "traditions" : [ 9, 15 ],
+  "publication" : 49
+}, {
+  "key" : 281,
+  "name" : "Greifenruf",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 27 ],
+  "publication" : 49
+}, {
+  "key" : 285,
+  "name" : "Große Waffenweihe",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "64 KaP (davon 4 permanent)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 7 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 16, 18, 30, 55 ],
+  "publication" : 49
+}, {
+  "key" : 289,
+  "name" : "Guter Fang",
+  "check" : [ 2, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 7 ],
+  "publication" : 49
+}, {
+  "key" : 302,
+  "name" : "Häutung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32  KaP, davon 2 permanent (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 304,
+  "name" : "Heiliger Schwur",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 308,
+  "name" : "Heilschlaf",
+  "check" : [ 0, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 24,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 25 ],
+  "publication" : 49
+}, {
+  "key" : 322,
+  "name" : "Herr der Meere",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 8,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 34 ],
+  "publication" : 49
+}, {
+  "key" : 333,
+  "name" : "Hilfe in der Not",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 3, 15 ],
+  "publication" : 49
+}, {
+  "key" : 348,
+  "name" : "Hundegestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 1, 16 ],
+  "publication" : 49
+}, {
+  "key" : 363,
+  "name" : "Inspiration",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 6,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 13, 36 ],
+  "publication" : 49
+}, {
+  "key" : 370,
+  "name" : "Jagdglück",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4  KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 9 ],
+  "publication" : 49
+}, {
+  "key" : 371,
+  "name" : "Jaguargestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 375,
+  "name" : "Jugendlichkeit",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32  KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 23, 29, 36, 57 ],
+  "publication" : 49
+}, {
+  "key" : 388,
+  "name" : "Kleine Moralstärkung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 3, 7, 34 ],
+  "publication" : 49
+}, {
+  "key" : 407,
+  "name" : "Kriegszustand",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "128 KaP (davon 16 permanent)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 30 ],
+  "publication" : 49
+}, {
+  "key" : 417,
+  "name" : "Läuterung des Erzes",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 1, 16, 52 ],
+  "publication" : 49
+}, {
+  "key" : 421,
+  "name" : "Lebenstausch",
+  "check" : [ 0, 2, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 9 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 21 ],
+  "publication" : 49
+}, {
+  "key" : 422,
+  "name" : "Leichtfüßig",
+  "check" : [ 2, 3, 5 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 8,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 3, 36 ],
+  "publication" : 49
+}, {
+  "key" : 1121,
+  "name" : "Leitende Strömung",
+  "check" : [ 1, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "KaP | gen 8 KaP. |",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "traditions" : [ 7, 54 ],
+  "publication" : 49
+}, {
+  "key" : 427,
+  "name" : "Liebestätowierung",
+  "check" : [ 2, 3, 4 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 29 ],
+  "publication" : 49
+}, {
+  "key" : 438,
+  "name" : "Liturgieabsorption",
+  "check" : [ 0, 0, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "mindestens 16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 13,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "advancementCategory" : 4,
+  "traditions" : [ 23 ],
+  "publication" : 49
+}, {
+  "key" : 441,
+  "name" : "Löwengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 30 ],
+  "publication" : 49
+}, {
+  "key" : 442,
+  "name" : "Luchsgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 27 ],
+  "publication" : 49
+}, {
+  "key" : 458,
+  "name" : "Makelloser Leib",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 29, 36 ],
+  "publication" : 49
+}, {
+  "key" : 465,
+  "name" : "Marbidenmacht",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 21 ],
+  "publication" : 49
+}, {
+  "key" : 499,
+  "name" : "Metallerhitzung",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 2,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 1, 16, 52 ],
+  "publication" : 49
+}, {
+  "key" : 505,
+  "name" : "Moralstärkung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 7 ],
+  "publication" : 49
+}, {
+  "key" : 509,
+  "name" : "Mungogestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 26 ],
+  "publication" : 49
+}, {
+  "key" : 513,
+  "name" : "Nahrungsreinigung",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 35 ],
+  "publication" : 49
+}, {
+  "key" : 519,
+  "name" : "Nebelleib",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 7, 26 ],
+  "publication" : 49
+}, {
+  "key" : 520,
+  "name" : "Nebelschwaden",
+  "check" : [ 2, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 7 ],
+  "publication" : 49
+}, {
+  "key" : 1122,
+  "name" : "Numinorus Fluch",
+  "check" : [ 0, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP pro angefangene 20 Schritt Länge des Wasserfahrzeugs",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "advancementCategory" : 4,
+  "traditions" : [ 54 ],
+  "publication" : 49
+}, {
+  "key" : 530,
+  "name" : "Objektweihe",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP, davon 2 permanent (nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 2,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 1123,
+  "name" : "Ogerbindung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32  KaP, davon 8 permanent (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 2,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 56 ],
+  "publication" : 49
+}, {
+  "key" : 546,
+  "name" : "Panthergestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 18 ],
+  "publication" : 49
+}, {
+  "key" : 548,
+  "name" : "Paradiesvogelgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 3 ],
+  "publication" : 49
+}, {
+  "key" : 558,
+  "name" : "Pferdegestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 29 ],
+  "publication" : 49
+}, {
+  "key" : 1124,
+  "name" : "Pflanzenkraft",
+  "check" : [ 1, 2, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4 KaP (Kosten nicht modifizierbar)",
+    "cost" : 4,
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 13 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 569,
+  "name" : "Rabengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 21 ],
+  "publication" : 49
+}, {
+  "key" : 572,
+  "name" : "Rat der Ahnen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 16 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 578,
+  "name" : "Regenkontrolle",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 7 ],
+  "publication" : 49
+}, {
+  "key" : 581,
+  "name" : "Reisesegen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 12,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 3, 9, 35 ],
+  "publication" : 49
+}, {
+  "key" : 597,
+  "name" : "Sättigung",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 12,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 25, 35 ],
+  "publication" : 49
+}, {
+  "key" : 599,
+  "name" : "Schaffenskraft",
+  "check" : [ 2, 3, 4 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "aP (Kosten sind nicht modifizierbar) | Feuer und setzt sich mit den Anderen rings um dieses. | | Reichweite: 8 Schritt | Alle halten ihre Handflächen zum Feuer und zum Ab- | | Wirkungsdauer: QS/2 Tage | schluss legen sie diese auf ihr Gesicht. Der Geweihte | | Zielkategorie: Kulturschaffende | beendet die Anrufung mit den Worten: „Allmächtiger | | Verbreitung: Angrosch (Erz), Ingerimm (Handwerk) | Baumeister der Welt, gewähre uns Deine Gnade, um | | Steigerungsfaktor: B | Außergewöhnliches zu schaffen!“ | - Ingerimm: Der Geweihte eröffnet die Zeremonie | Liturgieerweiterungen: | mit den Worten: „Himmlischer Schmied, in Deinem | | # Längere Wirkungsdauer (FW 8, 2 AP): Die Wir- | Namen wollen wir Großes vollbringen, schau mit | | kungsdauer beträgt QS Tage. | Wohlwollen auf Deine Diener!“ Dann tragen die Teil- | | # Kürzere Zeremoniedauer (FW 10, 2 AP): Die Zere- | nehmer Rohstoffe zusammen und beginnen symbo- | | moniedauer beträgt 30 Minuten. | lisch mit der Verarbeitung. Der Geweihte beendet die | | # Vielseitige Begabung (FW 12, 4 AP): Die Erleich- | Zeremonie in einem Kreis mit den weiteren Zielen | | terung gilt auf bis zu 3 Handwerkstalente, die der Ge- | und den Worten: „Alverans Hammer, Du weißt, was | | weihte benennen muss. | dieses [Rohstoff] werden möchte, lass es uns in die | - Kosten modifizierbar (FW 14, 4  AP): Die Kosten perfekte Form bringen!“ Dabei lässt er seinen Ingesind doch modifizierbar. rimmshammer locker auf den Rohstoff niederfahren. Ingerimmgeweihte greifen gerne die Schutzheiligen des jeweiligen Handwerks auf, wie z. B.: – Bäcker: Dythlind, fleißige Bäckerin, starb beim Löschen einer Feuersbrunst in Bosparan – Färber: Thallian, Entdecker der Purpurfärbung – Fleischer: Helmbrecht, Erfinder der Sikrami (würzige Dauerhartwurst) – Glasbläser: Zachariad, erster Glasbläser des Lieblichen Feldes – Graveure: Coruna, Erschafferin des Reichssiegel der Klugen Kaiser – Harnischmacher: Rondralieb, Leibschmiedin von Kaiser Raul – Schneider: Ysinthe, Schöpferin des Gewands, in dem Hal vergöttlicht wurde – Schuster: Sylvette, Zeugmacherin von Geron dem Einhändigen – Seiler: Stordian, Erschaffer des Stordischen Knoten, der nur durch einen Schwertstreich gelöst werden konnte – Stellmacher: Odelinde, Erschafferin des Streitwagens von Kaiser Alrik – Töpfer: Firunian, Erfinder der Garether Emaille <!-- Seite 351 -->",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 17,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "traditions" : [ 9, 16, 30 ],
+  "publication" : 49
+}, {
+  "key" : 1125,
+  "name" : "Schattenrochengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 54 ],
+  "publication" : 49
+}, {
+  "key" : 608,
+  "name" : "Schlangenfluch",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "publication" : 49
+}, {
+  "key" : 609,
+  "name" : "Schlangengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 13 ],
+  "publication" : 49
+}, {
+  "key" : 620,
+  "name" : "Schmetterlingsgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 29 ],
+  "publication" : 49
+}, {
+  "key" : 629,
+  "name" : "Schwanengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 15 ],
+  "publication" : 49
+}, {
+  "key" : 633,
+  "name" : "Seelenbannung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32  KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 23 ],
+  "publication" : 49
+}, {
+  "key" : 634,
+  "name" : "Seelenprüfung",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 1126,
+  "name" : "Seemonsterruf",
+  "check" : [ 0, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 2,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 54 ],
+  "publication" : 49
+}, {
+  "key" : 639,
+  "name" : "Segnung des Heims",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 35 ],
+  "publication" : 49
+}, {
+  "key" : 642,
+  "name" : "Selbstopferung",
+  "check" : [ 0, 0, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "32 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "publication" : 49
+}, {
+  "key" : 646,
+  "name" : "Sicherer Tritt",
+  "check" : [ 2, 3, 5 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8  KaP (Aktivierung der Zeremonie) + 4 KaP pro 4 Stunden",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 1,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 9 ],
+  "publication" : 49
+}, {
+  "key" : 654,
+  "name" : "Sippenbann",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16  KaP, davon 2  KaP permanent (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 2,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 660,
+  "name" : "Speisung",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 35 ],
+  "publication" : 49
+}, {
+  "key" : 667,
+  "name" : "Stärkung der Wildnis",
+  "check" : [ 0, 2, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "aP (Kosten nicht modifizierbar) | # Starke Hilfe (FW 14, 4 AP): Das Ziel erhält +2 FP | | Reichweite: selbst | auf alle wohlgefälligen Talente. | | Wirkungsdauer: QS x 3 Minuten | # Längere Wirkungsdauer 2 (FW 16, 6  AP): Die | | Zielkategorie: Kulturschaffende | Wirkungsdauer beträgt QS x 5 Minuten. Vorausset- | | Verbreitung: Firun (Jagd) | zung: Liturgieerweiterung Längere Wirkungsdauer 1. | | Steigerungsfaktor: B | | Geste und Gebet: | - Firun: Bei dieser Zeremonie wendet der Geweihte sich weniger mit Worten als mit zielgerichteten Gefühlen und fokussierten Handlungen an seinen Gott. Sobald er mit sich und seinem Ziel im Reinen ist, wendet er sich gen Firun und hebt grüßend sein Firunsmesser. Im Winter wird der Geweihte zusätzlich den Boden mit bloßer Haut berühren und nach Möglichkeit etwas Schnee über seinen Scheitel streuen, ehe er raunt: „Herr der schneebedeckten Weiten, weise mir den Weg!“ oder „Heil dir, Alter vom Berg, schärfe meinen Blick, stärke meinen Leib, kühle meinen Sinn!“ Wann immer der Geweihte sich in der Wildnis bewegt, hat er zahlreiche Herausforderungen zu bestehen, von denen die meisten unvorhergesehen hereinbrechen. Wenn die Vorräte knapp werden oder verderben, wenn ein Schneesturm aufzieht, wenn Feinde dem Firuni zusetzen oder ein bekannter Weg unpassierbar ist, muss der Geweihte in der Lage sein, diese Schwierigkeiten kraft der eigenen Fähigkeiten zu überwinden. Ein Firungeweihter wird zunächst versuchen, all diese Fährnisse alleine aus dem Weg zu schaffen. Doch wenn die Bürde zu groß ist und die Hindernisse unüberwindbar sind, wendet er sich hilfesuchend an seinen Gott. Die Gefühle und Handlungen, die er vorbereitend durchlebt und durchführt, sollen im Zusammenhang mit dem stehen, was der Geweihte benötigt. Ist er dringend auf einen Erfolg bei der Nahrungsbeschaffung angewiesen, wird er seine Ausrüstung sorgsam überprüfen und bereit machen. Sucht er einen neuen, gangbaren Weg, beobachtet er den Himmel, bei Nacht die Sterne, lauscht dem Wind oder nimmt Witterung. Benötigt er eine sichere Lagerstatt, lässt er sich auf seine Umgebung ein, spürt ihren Schwingungen nach und sucht hilfreiche Hinweise. <!-- Seite 367 -->",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 0 ],
+  "traditions" : [ 9 ],
+  "publication" : 49
+}, {
+  "key" : 669,
+  "name" : "Staub und Schimmel",
+  "check" : [ 2, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "2/4/8/16  KaP für ein Objekt von der Größe eines/einer Tasse/ Truhe/Tür/Burgtors (dolchgroße Waffen fallen unter tassengroße Objekte, Waffen von der Größe eines Schwerts unter Truhengröße und Zweihänder gelten in diesem Sinne als Objekte von der Größe einer Tür.)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 23 ],
+  "publication" : 49
+}, {
+  "key" : 1127,
+  "name" : "Storchengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 25 ],
+  "publication" : 49
+}, {
+  "key" : 1128,
+  "name" : "Tabu-Zone",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 685,
+  "name" : "Talismanverankerung",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16  KaP, davon 4 permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 49
+}, {
+  "key" : 712,
+  "name" : "Taubengestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 21 ],
+  "publication" : 49
+}, {
+  "key" : 735,
+  "name" : "Traumbild",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 21 ],
+  "publication" : 49
+}, {
+  "key" : 737,
+  "name" : "Traumgesicht",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 5, 21 ],
+  "publication" : 49
+}, {
+  "key" : 1130,
+  "name" : "Travias Wachgänse",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 2,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "advancementCategory" : 2,
+  "traditions" : [ 35 ],
+  "publication" : 49
+}, {
+  "key" : 754,
+  "name" : "Untote erschaffen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "4/8/16/32/64  KaP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 0/1/2/4/8  KaP permanent (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 21 ],
+  "publication" : 49
+}, {
+  "key" : 759,
+  "name" : "Vergessen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5 ],
+  "publication" : 49
+}, {
+  "key" : 774,
+  "name" : "Waffenfluch",
+  "check" : [ 0, 2, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8/16/32  KaP für Geschosse, Dolche und Raufen-Waffen/alle übrigen Waffen/Zweihandwaffen",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 23 ],
+  "publication" : 49
+}, {
+  "key" : 783,
+  "name" : "Wegweiser",
+  "check" : [ 1, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 3 ],
+  "publication" : 49
+}, {
+  "key" : 786,
+  "name" : "Weihe des Heims",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 16, 30, 35 ],
+  "publication" : 49
+}, {
+  "key" : 795,
+  "name" : "Widdergestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 20 ],
+  "publication" : 49
+}, {
+  "key" : 797,
+  "name" : "Wiederherstellung",
+  "check" : [ 0, 4, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 1, 16, 36 ],
+  "publication" : 49
+}, {
+  "key" : 801,
+  "name" : "Winterschlaf",
+  "check" : [ 0, 2, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 5, 9, 21, 25 ],
+  "publication" : 49
+}, {
+  "key" : 807,
+  "name" : "Wolfsfluch",
+  "check" : [ 0, 1, 3 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "KaP | Liturgieerweiterung Längere Wirkungsdauer 2. |",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 9 ],
+  "traditions" : [ 31 ],
+  "publication" : 49
+}, {
+  "key" : 808,
+  "name" : "Wolfsgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 2,
+  "publication" : 49
+}, {
+  "key" : 829,
+  "name" : "Zuflucht",
+  "check" : [ 2, 3, 6 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "8  KaP pro Person (Kosten sind nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 6,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "traditions" : [ 9, 15, 35 ],
+  "publication" : 49
+}, {
+  "key" : 836,
+  "name" : "Zwergwalgestalt",
+  "check" : [ 0, 1, 2 ],
+  "category" : 13,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 3,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 34 ],
+  "publication" : 49
+} ]

@@ -1,0 +1,1753 @@
+[ {
+  "key" : 3,
+  "name" : "Accuratum",
+  "check" : [ 1, 3, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 32 ],
+  "publication" : 35
+}, {
+  "key" : 6,
+  "name" : "Adamantium",
+  "check" : [ 1, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 6, 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 20,
+  "name" : "Animatio",
+  "check" : [ 1, 2, 5 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 21,
+  "name" : "Applicatus",
+  "check" : [ 1, 2, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP + Kosten des fixierten Zaubers",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 26,
+  "name" : "Arcanovi",
+  "check" : [ 1, 2, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 1053,
+  "name" : "Aurum Argentor",
+  "check" : [ 1, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP, davon 1 AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 58,
+  "name" : "Band der Freundschaft",
+  "check" : [ 2, 3, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 71,
+  "name" : "Bärenruhe",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8, 10, 12, 19 ],
+  "publication" : 35
+}, {
+  "key" : 97,
+  "name" : "Blick durch fremde Augen",
+  "check" : [ 0, 2, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 26 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 14 ],
+  "publication" : 35
+}, {
+  "key" : 101,
+  "name" : "Blick in die Vergangenheit",
+  "check" : [ 0, 1, 2 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 10, 11, 12, 19 ],
+  "publication" : 35
+}, {
+  "key" : 112,
+  "name" : "Brandform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 117,
+  "name" : "Caldofrigo",
+  "check" : [ 2, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 119,
+  "name" : "Chimaeroform",
+  "check" : [ 1, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4/8/16/32/64  AsP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 1/2/4/8/16 AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 13, 9 ],
+  "features" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 120,
+  "name" : "Chronoklassis",
+  "check" : [ 1, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64  AsP, davon 8  AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 8, 11, 14, 19 ],
+  "publication" : 35
+}, {
+  "key" : 121,
+  "name" : "Chrononautos",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP, davon 16 AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 8, 11, 14, 19 ],
+  "publication" : 35
+}, {
+  "key" : 125,
+  "name" : "Custodosigil",
+  "check" : [ 0, 1, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 127,
+  "name" : "Dämonenpakt beenden",
+  "check" : [ 0, 2, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP, davon 8 permanent",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 9, 5 ],
+  "features" : [ 1 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 10, 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 137,
+  "name" : "Destructibo",
+  "check" : [ 1, 1, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16  AsP + so viele eigene permanente AsP, wie im Zielobjekt gespeichert sind (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 2,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 149,
+  "name" : "Dschinnenruf",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 10, 11 ],
+  "publication" : 35
+}, {
+  "key" : 165,
+  "name" : "Eins mit der Natur",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 8, 10, 12 ],
+  "publication" : 35
+}, {
+  "key" : 172,
+  "name" : "Elementarer Diener",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 10, 11 ],
+  "publication" : 35
+}, {
+  "key" : 181,
+  "name" : "Ergebenheit der Wogen",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 182,
+  "name" : "Erhabenheit des Marmors",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 10, 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 204,
+  "name" : "Felsenform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 8, 19 ],
+  "publication" : 35
+}, {
+  "key" : 222,
+  "name" : "Freiheit der Wolken",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 242,
+  "name" : "Gefäß der Jahre",
+  "check" : [ 0, 1, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 245,
+  "name" : "Geisterbeschwörung",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 16 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 10, 11, 12, 14 ],
+  "publication" : 35
+}, {
+  "key" : 250,
+  "name" : "Geisterruf",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 16 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 10, 11, 12, 14 ],
+  "publication" : 35
+}, {
+  "key" : 266,
+  "name" : "Gletscherform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 299,
+  "name" : "Hartes schmelze",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "2/4 AsP für einen Gegenstand von der Größe einer Tasse/Truhe (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 354,
+  "name" : "Immortalis Lebenszeit",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP, davon 16 AsP permanent (Kosten nicht modifizierbar) Es soll Techniken geben, mit denen man die Kosten des Zaubers auf andere Wesen übertragen kann, aber dieses Wissen ist nicht in der Kenntnis des Rituals selbst enthalten.",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 360,
+  "name" : "Infinitum Immerdar",
+  "check" : [ 1, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP, davon 8 AsP permanent + Kosten des Zaubers, der in dem Objekt wirken soll",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 8, 10, 11, 14, 19 ],
+  "publication" : 35
+}, {
+  "key" : 366,
+  "name" : "Invocatio Maior",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 2 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11, 14, 47 ],
+  "publication" : 35
+}, {
+  "key" : 367,
+  "name" : "Invocatio Maxima",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 2 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 11, 14, 47 ],
+  "publication" : 35
+}, {
+  "key" : 369,
+  "name" : "Invocatio Minor",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 2 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11, 14, 47 ],
+  "publication" : 35
+}, {
+  "key" : 385,
+  "name" : "Klarheit des Eises",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 399,
+  "name" : "Körperlose Reise",
+  "check" : [ 0, 1, 2 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8  AsP (Aktivierung des Zaubers) + 4 AsP pro 10 Minuten",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 1,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 11 ],
+  "publication" : 35
+}, {
+  "key" : 423,
+  "name" : "Leidensbund",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 11, 12, 19 ],
+  "publication" : 35
+}, {
+  "key" : 451,
+  "name" : "Madas Spiegel",
+  "check" : [ 0, 1, 2 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 14 ],
+  "publication" : 35
+}, {
+  "key" : 457,
+  "name" : "Magischer Raub",
+  "check" : [ 0, 1, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 10, 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 469,
+  "name" : "Meister der Elemente",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 3 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 10, 11 ],
+  "publication" : 35
+}, {
+  "key" : 496,
+  "name" : "Memorabia Falsifir",
+  "check" : [ 1, 2, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 11 ],
+  "publication" : 35
+}, {
+  "key" : 508,
+  "name" : "Movimento",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 522,
+  "name" : "Nekropathia",
+  "check" : [ 0, 1, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 10, 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 523,
+  "name" : "Nihilogravo",
+  "check" : [ 1, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 51 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 559,
+  "name" : "Pflanzenform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8, 19 ],
+  "publication" : 35
+}, {
+  "key" : 562,
+  "name" : "Planastrale",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 579,
+  "name" : "Reinheit der Lohe",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 1054,
+  "name" : "Riesengestalt",
+  "check" : [ 1, 4, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 11 ],
+  "publication" : 35
+}, {
+  "key" : 586,
+  "name" : "Ruf der Feenwesen",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 14 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 588,
+  "name" : "Ruhe Körper",
+  "check" : [ 1, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8, 11, 12, 19 ],
+  "publication" : 35
+}, {
+  "key" : 637,
+  "name" : "Seelenwanderung",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "64 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 5 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 6, 11, 14, 19 ],
+  "publication" : 35
+}, {
+  "key" : 666,
+  "name" : "Standhafter Wächter",
+  "check" : [ 0, 2, 5 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 1055,
+  "name" : "Staub wandle",
+  "check" : [ 0, 1, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4/8/16/32/64 AsP für die Größenkategorie winzig / klein / mittel / groß / riesig , davon 1/2/4/8/16 AsP permanent (Kosten nicht modifizierbar)",
+    "cost" : 64,
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 4,
+    "rangeUnit" : 16,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 670,
+  "name" : "Stein wandle",
+  "check" : [ 0, 1, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4/8/16/32/64  AsP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 1/2/4/8/16 AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 730,
+  "name" : "Totes handle",
+  "check" : [ 0, 1, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4/8/16/32/64  AsP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 0/1/2/4/8  AsP permanent (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 5 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 11, 19, 47 ],
+  "publication" : 35
+}, {
+  "key" : 1056,
+  "name" : "Transformatio",
+  "check" : [ 1, 4, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8/16/32/64  AsP (Aktivierung des Zaubers) + 4/8/16/32 AsP pro 5 Minuten für einen Gegenstand von der Größe einer Tasse/Truhe/Tür/ Burgtor",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 1,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 8, 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 10, 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 733,
+  "name" : "Transmutare",
+  "check" : [ 2, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 14 ],
+  "spellVariants" : [ {
+    "name" : "Stimme und Geruch (FW 8, 3 AP): Auch die Stimme und der Geruch des Ziels lassen sich verändern. Dadurch sind keine Vorteile wie Angenehmer Geruch oder Wohlklang möglich. - Körperveränderung (FW 10, 3 AP): Die Hexe kann bis zu QS/2 Bonuspunkte auf FF, GE, KO und KK verteilen. - Reichweite Berührung (FW  12, 3  AP): Als Reichweite gilt Berührung. Das Ritual kann nur auf Kulturschaffende übertragen werden. Es entstehen zusätzliche Kosten in Höhe von 16 AsP. Bei nicht freiwilligen Zielen gilt die ZK als Erschwernis. - Geschlecht und Gewicht",
+    "minLevel" : 14,
+    "ap" : 6,
+    "description" : "Geschlecht und Gewicht lassen sich doch beliebig ändern. Dadurch werden keine Vorteile oder Nachteile freigeschaltet. Man kann die Hexe durch eine Probe auf Sinnesschärfe (Suchen oder Wahrnehmen) –QS/2 dennoch identifizieren. Die Zeugung oder die Empfängnis von Nachkommen ist unter Einfluss dieses Zaubers nicht möglich. - Andere Spezies (FW  16, 6  AP): Die Hexe kann etwa die Hälfte ihres Körpers so verändern, dass er Merkmale einer anderen Spezies aufweist (Fell, Schuppen, veränderte Körperform usw.). Man kann die Hexe durch eine Probe auf Sinnesschärfe (Suchen oder Wahrnehmen) –QS enttarnen."
+  } ],
+  "publication" : 35
+}, {
+  "key" : 738,
+  "name" : "Traumgestalt",
+  "check" : [ 0, 2, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 8, 10, 12, 14 ],
+  "publication" : 35
+}, {
+  "key" : 744,
+  "name" : "Unberührt von Satinav",
+  "check" : [ 1, 2, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 52 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8, 19 ],
+  "publication" : 35
+}, {
+  "key" : 1057,
+  "name" : "Weiches erstarre",
+  "check" : [ 0, 1, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "4 AsP + 1 AsP pro Raumschritt",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 787,
+  "name" : "Weisheit der Bäume",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "32 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 6, 8, 10, 14 ],
+  "publication" : 35
+}, {
+  "key" : 796,
+  "name" : "Widerwille",
+  "check" : [ 2, 3, 5 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 803,
+  "name" : "Wirbelform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 805,
+  "name" : "Wogenform",
+  "check" : [ 1, 4, 7 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 6, 8, 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 816,
+  "name" : "Xenographus",
+  "check" : [ 0, 1, 2 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 19, 19 ],
+  "features" : [ 26 ],
+  "advancementCategory" : 1,
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 820,
+  "name" : "Zauberklinge Geisterspeer",
+  "check" : [ 1, 2, 4 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "abhängig von der Waffe (siehe unten) (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 822,
+  "name" : "Zaubernahrung",
+  "check" : [ 0, 2, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 824,
+  "name" : "Zauberschnurren",
+  "check" : [ 0, 2, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 12, 14 ],
+  "publication" : 35
+}, {
+  "key" : 825,
+  "name" : "Zauberwesen der Natur",
+  "check" : [ 0, 3, 6 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "8 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 14 ],
+  "features" : [ 47 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 826,
+  "name" : "Zauberzwang",
+  "check" : [ 0, 1, 3 ],
+  "category" : 1,
+  "skillCost" : {
+    "costText" : "16 AsP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "advancementCategory" : 3,
+  "traditions" : [ 14, 19 ],
+  "publication" : 35
+} ]

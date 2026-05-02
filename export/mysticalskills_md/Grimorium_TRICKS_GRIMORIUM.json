@@ -1,0 +1,1640 @@
+[ {
+  "key" : 0,
+  "name" : "Abkühlung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 37 ],
+  "publication" : 35
+}, {
+  "key" : 25,
+  "name" : "Aranische Rasur",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 11, 14, 32 ],
+  "publication" : 35
+}, {
+  "key" : 32,
+  "name" : "Astrales Leuchten",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 26 ],
+  "traditions" : [ 11, 19, 37 ],
+  "publication" : 35
+}, {
+  "key" : 1058,
+  "name" : "Astralmanifestation",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 42,
+  "name" : "Auffälliger Stil",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 855,
+  "name" : "Aura der Eitelkeit",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 839,
+  "name" : "Bartwuchs",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 6, 10 ],
+  "publication" : 35
+}, {
+  "key" : 73,
+  "name" : "Bauchreden",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 32, 33 ],
+  "publication" : 35
+}, {
+  "key" : 840,
+  "name" : "Beeren & Nüsse",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 9 ],
+  "features" : [ 7 ],
+  "traditions" : [ 6, 10, 12 ],
+  "publication" : 35
+}, {
+  "key" : 80,
+  "name" : "Bereit zum Aufbruch",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 81,
+  "name" : "Beruhigung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "traditions" : [ 11, 37 ],
+  "publication" : 35
+}, {
+  "key" : 98,
+  "name" : "Blick in den Limbus",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 26 ],
+  "traditions" : [ 11, 19, 47 ],
+  "publication" : 35
+}, {
+  "key" : 107,
+  "name" : "Blütenduft",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 6, 8, 11 ],
+  "publication" : 35
+}, {
+  "key" : 1059,
+  "name" : "Buchschließer",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11, 39 ],
+  "publication" : 35
+}, {
+  "key" : 864,
+  "name" : "Dämonling",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 5 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 150,
+  "name" : "Duft",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 37 ],
+  "publication" : 35
+}, {
+  "key" : 156,
+  "name" : "Ehrfürchtiges Verhalten",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 2, 11 ],
+  "publication" : 35
+}, {
+  "key" : 856,
+  "name" : "Einfache Telekinese",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 2, 11, 19, 32, 37 ],
+  "publication" : 35
+}, {
+  "key" : 168,
+  "name" : "Eiskalter Blick",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 6, 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 841,
+  "name" : "Elementarling",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "traditions" : [ 6, 10, 11 ],
+  "publication" : 35
+}, {
+  "key" : 173,
+  "name" : "Elfenhaar",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 857,
+  "name" : "Essenz der Niederhöllen",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 47 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 202,
+  "name" : "Feenfüße",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 19, 37, 58, 49 ],
+  "publication" : 35
+}, {
+  "key" : 842,
+  "name" : "Feenzauber",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 47 ],
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 208,
+  "name" : "Feuerfinger",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 10 ],
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 858,
+  "name" : "Feuerspiel",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 10 ],
+  "traditions" : [ 10, 11 ],
+  "publication" : 35
+}, {
+  "key" : 859,
+  "name" : "Flammenhaar",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 5 ],
+  "traditions" : [ 2, 11 ],
+  "publication" : 35
+}, {
+  "key" : 249,
+  "name" : "Geistergeräusche",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 1060,
+  "name" : "Gelöscht",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11, 58 ],
+  "publication" : 35
+}, {
+  "key" : 254,
+  "name" : "Geräuschhexerei",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 12, 33 ],
+  "publication" : 35
+}, {
+  "key" : 1061,
+  "name" : "Geräuschschutz",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 267,
+  "name" : "Glücksgriff",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 26 ],
+  "traditions" : [ 19, 32, 37 ],
+  "publication" : 35
+}, {
+  "key" : 287,
+  "name" : "Grußworte",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 8, 11 ],
+  "publication" : 35
+}, {
+  "key" : 1062,
+  "name" : "Gut behütet",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 288,
+  "name" : "Guten Morgen",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 290,
+  "name" : "Haarpracht",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 14, 32 ],
+  "publication" : 35
+}, {
+  "key" : 843,
+  "name" : "Hand der Antimagie",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "features" : [ 1 ],
+  "traditions" : [ 11, 19, 58 ],
+  "publication" : 35
+}, {
+  "key" : 295,
+  "name" : "Handwärmer",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 10, 19 ],
+  "publication" : 35
+}, {
+  "key" : 1063,
+  "name" : "Hautbild",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 2, 49 ],
+  "publication" : 35
+}, {
+  "key" : 306,
+  "name" : "Heilsame Berührung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "traditions" : [ 6, 11, 39 ],
+  "publication" : 35
+}, {
+  "key" : 314,
+  "name" : "Heller Stern",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 326,
+  "name" : "Hexenblick",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "traditions" : [ 14 ],
+  "publication" : 35
+}, {
+  "key" : 340,
+  "name" : "Hintergrundmusik",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 4, 11, 32, 38 ],
+  "publication" : 35
+}, {
+  "key" : 844,
+  "name" : "Hundekeks",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 10, 12 ],
+  "publication" : 35
+}, {
+  "key" : 362,
+  "name" : "Insektenbann",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 2, 6, 11, 12, 14 ],
+  "publication" : 35
+}, {
+  "key" : 1064,
+  "name" : "Jagdtrommel",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 2, 12 ],
+  "publication" : 35
+}, {
+  "key" : 1065,
+  "name" : "Keimling",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 5,
+    "durationUnit" : 7,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "features" : [ 10 ],
+  "traditions" : [ 6, 8 ],
+  "publication" : 35
+}, {
+  "key" : 383,
+  "name" : "Kehrbesen",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 14 ],
+  "publication" : 35
+}, {
+  "key" : 845,
+  "name" : "Kleiner fliegender Teppich",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 394,
+  "name" : "Kleingeld",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 47 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 395,
+  "name" : "Kneifen",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 51 ],
+  "traditions" : [ 12, 33 ],
+  "publication" : 35
+}, {
+  "key" : 397,
+  "name" : "Konstante Temperatur",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 11, 37 ],
+  "publication" : 35
+}, {
+  "key" : 846,
+  "name" : "Körperpflege",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 24 ],
+  "traditions" : [ 2, 11 ],
+  "publication" : 35
+}, {
+  "key" : 1066,
+  "name" : "Kreide",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 847,
+  "name" : "Kriegsbemalung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 2, 11 ],
+  "publication" : 35
+}, {
+  "key" : 848,
+  "name" : "Laufendes Händchen",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "features" : [ 5 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 865,
+  "name" : "Leselampe",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 10 ],
+  "traditions" : [ 11, 19, 39, 58 ],
+  "publication" : 35
+}, {
+  "key" : 424,
+  "name" : "Leuchtblume",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 13 ],
+  "features" : [ 57 ],
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 440,
+  "name" : "Lockruf",
+  "category" : 2,
+  "targetCategories" : [ 9 ],
+  "features" : [ 7 ],
+  "traditions" : [ 6, 12 ],
+  "publication" : 35
+}, {
+  "key" : 444,
+  "name" : "Luftstoß",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 8, 11 ],
+  "publication" : 35
+}, {
+  "key" : 512,
+  "name" : "Nagellack",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 11, 14, 38 ],
+  "publication" : 35
+}, {
+  "key" : 540,
+  "name" : "Ordentlich",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 1067,
+  "name" : "Patron-Illusion",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 2 ],
+  "publication" : 35
+}, {
+  "key" : 849,
+  "name" : "Pflanzenempathie",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 13 ],
+  "features" : [ 26 ],
+  "traditions" : [ 2, 6 ],
+  "publication" : 35
+}, {
+  "key" : 1068,
+  "name" : "Platscher",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 4,
+    "rangeUnit" : 16,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 10 ],
+  "traditions" : [ 6, 10 ],
+  "publication" : 35
+}, {
+  "key" : 568,
+  "name" : "Putziges Tierchen",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 9 ],
+  "features" : [ 7 ],
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 575,
+  "name" : "Regenbogenaugen",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 19, 32 ],
+  "publication" : 35
+}, {
+  "key" : 1069,
+  "name" : "Regenschirm",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 585,
+  "name" : "Rohrstock",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 589,
+  "name" : "Ruhige Ausstrahlung",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 2, 6, 10, 11, 39 ],
+  "publication" : 35
+}, {
+  "key" : 590,
+  "name" : "Rührlöffel",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 14, 37 ],
+  "publication" : 35
+}, {
+  "key" : 591,
+  "name" : "Rutschiger Boden",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 38 ],
+  "traditions" : [ 33 ],
+  "publication" : 35
+}, {
+  "key" : 593,
+  "name" : "Sandfigur",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 1070,
+  "name" : "Sauberes Werkzeug",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 49 ],
+  "publication" : 35
+}, {
+  "key" : 851,
+  "name" : "Schattenspiel",
+  "category" : 2,
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11, 32 ],
+  "publication" : 35
+}, {
+  "key" : 610,
+  "name" : "Schlangenhände",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 19 ],
+  "publication" : 35
+}, {
+  "key" : 621,
+  "name" : "Schminken",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 30,
+    "durationUnit" : 7,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11, 14, 32, 38 ],
+  "publication" : 35
+}, {
+  "key" : 622,
+  "name" : "Schmutzabweisend",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 624,
+  "name" : "Schnipsen",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 19, 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 1071,
+  "name" : "Schönschrift",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11, 37 ],
+  "publication" : 35
+}, {
+  "key" : 1072,
+  "name" : "Schulgong",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 1073,
+  "name" : "Schutz vor dem Tierpatron",
+  "category" : 2,
+  "targetCategories" : [ 9 ],
+  "features" : [ 7 ],
+  "traditions" : [ 2 ],
+  "publication" : 35
+}, {
+  "key" : 641,
+  "name" : "Selbstarchivierung",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 852,
+  "name" : "Siegel der Elemente",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 6, 11 ],
+  "publication" : 35
+}, {
+  "key" : 651,
+  "name" : "Signatur",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 39, 58, 49 ],
+  "publication" : 35
+}, {
+  "key" : 860,
+  "name" : "Sprechendes Kästchen",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11, 19 ],
+  "publication" : 35
+}, {
+  "key" : 1074,
+  "name" : "Stabhalter",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 850,
+  "name" : "Steinempathie",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 26 ],
+  "traditions" : [ 10 ],
+  "publication" : 35
+}, {
+  "key" : 677,
+  "name" : "Strahlendes Lächeln",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 4, 32, 33 ],
+  "publication" : 35
+}, {
+  "key" : 1075,
+  "name" : "Tafelschwamm",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 711,
+  "name" : "Tätowierung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 11, 49 ],
+  "publication" : 35
+}, {
+  "key" : 719,
+  "name" : "Tentakelgriff",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 725,
+  "name" : "Tierpflege",
+  "category" : 2,
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 14 ],
+  "publication" : 35
+}, {
+  "key" : 727,
+  "name" : "Tiertrick",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 47 ],
+  "traditions" : [ 12, 32, 33, 39 ],
+  "publication" : 35
+}, {
+  "key" : 1076,
+  "name" : "Totenmaske",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 741,
+  "name" : "Trocken",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5, 7 ],
+  "features" : [ 10 ],
+  "traditions" : [ 0 ],
+  "publication" : 35
+}, {
+  "key" : 1077,
+  "name" : "Türklinkenbetätiger",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 861,
+  "name" : "Türklopfer",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 853,
+  "name" : "Übergangen",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 862,
+  "name" : "Unauffälliger Stab",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11, 14 ],
+  "publication" : 35
+}, {
+  "key" : 752,
+  "name" : "Unheimliches Lachen",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11, 14, 47 ],
+  "publication" : 35
+}, {
+  "key" : 758,
+  "name" : "Verbundenheitsgefühl",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 760,
+  "name" : "Verneigung",
+  "category" : 2,
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 11, 47 ],
+  "publication" : 35
+}, {
+  "key" : 761,
+  "name" : "Verrücktes Kichern",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 7 ],
+  "traditions" : [ 14 ],
+  "publication" : 35
+}, {
+  "key" : 1078,
+  "name" : "Waffensäuberung",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 38 ],
+  "traditions" : [ 2, 11 ],
+  "publication" : 35
+}, {
+  "key" : 1079,
+  "name" : "Warmes Blut",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 26 ],
+  "traditions" : [ 19 ],
+  "publication" : 35
+}, {
+  "key" : 780,
+  "name" : "Wasserhöhe",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 12 ],
+  "features" : [ 26 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 854,
+  "name" : "Wechselschein",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 47 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 789,
+  "name" : "Weisheit des Leytfadens",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 28 ],
+  "traditions" : [ 11 ],
+  "publication" : 35
+}, {
+  "key" : 863,
+  "name" : "Wind im Haar",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 10 ],
+  "traditions" : [ 6, 11 ],
+  "publication" : 35
+}, {
+  "key" : 806,
+  "name" : "Wohlgeruch",
+  "category" : 2,
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 14,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "targetCategories" : [ 5 ],
+  "features" : [ 57 ],
+  "traditions" : [ 8 ],
+  "publication" : 35
+}, {
+  "key" : 813,
+  "name" : "Würze",
+  "category" : 2,
+  "skillDuration" : {
+    "duration" : 0,
+    "durationUnit" : 0,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 28 ],
+  "traditions" : [ 14, 37 ],
+  "publication" : 35
+}, {
+  "key" : 819,
+  "name" : "Zauberfeder",
+  "check" : [ 0, 1, 3 ],
+  "category" : 2,
+  "skillCost" : {
+    "costText" : "8 AsP (Kosten nicht modifizierbar)",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "targetCategories" : [ 7 ],
+  "features" : [ 51 ],
+  "advancementCategory" : 4,
+  "traditions" : [ 11 ],
+  "publication" : 35
+} ]

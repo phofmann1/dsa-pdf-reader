@@ -1,0 +1,36 @@
+[ {
+  "key" : 790,
+  "name" : "Weisheitssegen",
+  "check" : [ 0, 0, 2 ],
+  "casting" : {
+    "castingDurationUnit" : 4,
+    "castingDuration" : 2
+  },
+  "category" : 11,
+  "skillCost" : {
+    "costText" : "16 KaP",
+    "costMin" : 0,
+    "plusCost" : 0,
+    "plusCostPerMultiplier" : 0,
+    "plusCostPerMax" : 0,
+    "plusCostHalfBase" : false,
+    "permanentCost" : 0
+  },
+  "skillRange" : {
+    "range" : 0,
+    "rangeUnit" : 15,
+    "isPerQs" : false,
+    "isRadius" : false
+  },
+  "skillDuration" : {
+    "duration" : 12,
+    "durationUnit" : 8,
+    "isPerQS" : false,
+    "maxDuration" : 0,
+    "maxIsPerQs" : false
+  },
+  "targetCategories" : [ 5 ],
+  "advancementCategory" : 2,
+  "traditions" : [ 0 ],
+  "publication" : 49
+} ]
