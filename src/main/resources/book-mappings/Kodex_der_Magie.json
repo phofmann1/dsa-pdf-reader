@@ -1,0 +1,72 @@
+{
+  "_ignore": [
+    "Bannzeichen",
+    "Der Zauberstecken",
+    "Die Druidensichel",
+    "Die Echsenhaube",
+    "Die Goblinkeule",
+    "Die Goblinzauberinnen",
+    "Die Hauerkette",
+    "Die Zauberschale",
+    "Die kristallomantische Kristallkugel",
+    "Elfenlieder",
+    "Fluggerät",
+    "Volumen",
+    "Zauberkleidung",
+    "Traditionen",
+    "Angriff auf ungeschützte Stellen"
+  ],
+
+
+  "Merkmalskenntnis": {
+    "ngDsaMaster": "Merkmalskenntnis",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["I", "II", "III"]
+  },
+
+  "Herrschaft über Dämonen": {
+    "ngDsaMaster": "Herrschaft über Dämonen",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["I", "II", "III"]
+  },
+
+  "Gegnerische Zauberpraxis": {
+    "ngDsaMaster": "Gegnerische Zauberpraxis",
+    "variantFormat": "{master} {variant}",
+    "explicitVariants": ["Eis", "Erz", "Feuer", "Humus", "Luft", "Wasser"]
+  },
+
+  "Artisten (Fahrende Schwester)":               { "ngDsaMaster": "Artisten" },
+  "Bewahrer des Uralten (Hüter der Kraft)":      { "ngDsaMaster": "Bewahrer des Uralten" },
+  "Brecher des Willens (Mehrer der Macht)":      { "ngDsaMaster": "Brecher des Willens" },
+  "Erdverbundene (Tochter der Erde)":            { "ngDsaMaster": "Erdverbundene" },
+  "Geflügelte Töchter (Seherin von Heute und Morgen)": { "ngDsaMaster": "Geflügelte Töchter" },
+  "Geisterseherinnen (Schwarze Witwen)":         { "ngDsaMaster": "Geisterseherinnen" },
+  "Graue Katzen (Schöne der Nacht)":             { "ngDsaMaster": "Graue Katzen" },
+  "Hüterin des Hains (Haindruiden)":             { "ngDsaMaster": "Hüterin des Hains" },
+  "Jägerinnen (Verschwiegene Schwester)":        { "ngDsaMaster": "Jägerinnen" },
+  "Kinder der Lüfte (Verschwiegene Schwester)":  { "ngDsaMaster": "Kinder der Lüfte" },
+  "Konzilsmeister (Konzilsdruiden)":             { "ngDsaMaster": "Konzilsmeister" },
+  "Meister der elementaren Gewalten (Konzilsdruiden)": { "ngDsaMaster": "Meister der elementaren Gewalten" },
+  "Meister des Kreises (Hüter der Kraft)":       { "ngDsaMaster": "Meister des Kreises" },
+  "Meister vom Wald (Sumudiener)":               { "ngDsaMaster": "Meister vom Wald" },
+  "Rabenschwestern (Seherin von Heute und Morgen)": { "ngDsaMaster": "Rabenschwestern" },
+  "Reisende (Fahrende Schwester)":               { "ngDsaMaster": "Reisende" },
+  "Rote Jungfern (Schwarze Witwen)":             { "ngDsaMaster": "Rote Jungfern" },
+  "Rächerinnen Lycosas (Schwarze Witwe)":        { "ngDsaMaster": "Rächerinnen Lycosas" },
+  "Salonlöwinnen (Schöne der Nacht)":            { "ngDsaMaster": "Salonlöwinnen" },
+  "Spiritualistinnen (Seherin von Heute und Morgen)": { "ngDsaMaster": "Spiritualistinnen" },
+  "Sumpfhexen (Tochter der Erde)":               { "ngDsaMaster": "Sumpfhexen" },
+  "Töchter des Kessels (Tochter der Erde)":      { "ngDsaMaster": "Töchter des Kessels" },
+  "Unscheinbare (Mehrer der Macht)":             { "ngDsaMaster": "Unscheinbare" },
+  "Wahrsagerinnen (Fahrende Schwester)":         { "ngDsaMaster": "Wahrsagerinnen" },
+  "Waldhexen (Verschwiegene Schwester)":         { "ngDsaMaster": "Waldhexen" },
+  "Weiße Leute (Haindruiden)":                   { "ngDsaMaster": "Weiße Leute" },
+  "Wildkatzen (Schöne der Nacht)":               { "ngDsaMaster": "Wildkatzen" },
+  "Wächter der Göttin (Sumudiener)":             { "ngDsaMaster": "Wächter der Göttin" },
+
+  "Kinder der Kobra (Schwester des":     { "ngDsaMaster": "Kinder der Kobra" },
+  "Madaschwestern (Schwester des":       { "ngDsaMaster": "Madaschwestern" },
+  "Nattern der Nacht (Schwester des":    { "ngDsaMaster": "Nattern der Nacht" },
+  "Rabenschwestern (Seherin von Heute":  { "ngDsaMaster": "Rabenschwestern" }
+}

@@ -38,6 +38,9 @@ public class BookStructuredBuilder {
             "\\s+([IVX]{1,5})(?:\\s*[-/]\\s*([IVX]{1,5}))+\\s*$");
     private static final Pattern P_TRAILING_STAGE = Pattern.compile(
             "\\s+[IVX]{1,5}(?:\\s*[-/]\\s*[IVX]{1,5})+\\s*$");
+    /** Stufen-Range INNERHALB einer Trailing-Klammer: "Blutmagie (Ottagalder I-III)". */
+    private static final Pattern P_TRAILING_STAGE_IN_PAREN = Pattern.compile(
+            "^(.*?\\()(.+?)(\\s+[IVX]{1,5}(?:\\s*[-/]\\s*[IVX]{1,5})+)(\\))\\s*$");
 
     /** Heading-Name ist Muell (Page-Number, Tabellen-Header, Klammer-Untertitel). */
     private static boolean isJunkHeading(String title) {
@@ -168,7 +171,7 @@ public class BookStructuredBuilder {
     }
 
     private static final Pattern P_SF_SECTION = Pattern.compile(
-            "(?i)sonderfertigkeit|kampfstil|magiestil|zauberstil|liturgiestil|talentstil|themengruppe");
+            "(?i)sonderfertigkeit|kampfstil|magiestil|zauberstil|liturgiestil|talentstil|themengruppe|strömung");
 
     /**
      * Section-Pfade, in denen ein Block-Kandidat KEINE Sonderfertigkeit ist —
@@ -251,11 +254,18 @@ public class BookStructuredBuilder {
                     && !isJunkHeading(n.title)
                     && isPlausibleAbilityName(n.title);
             if (shouldPromote) {
-                // Stage-Splitting auch im Fallback ("Beistand der Goetter I/II" → "I" + "II")
+                // Stage-Splitting auch im Fallback ("Beistand der Goetter I/II" → "I" + "II",
+                // "Blutmagie (Ottagalder I-III)" → 3 Bloecke).
                 int[] stages = parseStageRange(n.title);
-                String[] names = stages.length > 0
-                        ? expandStageNames(n.title, stages)
-                        : new String[]{n.title};
+                String[] names;
+                if (stages.length > 0) {
+                    names = expandStageNames(n.title, stages);
+                } else {
+                    int[] parenStages = parseParenStageRange(n.title);
+                    names = parenStages.length > 0
+                            ? expandParenStageNames(n.title, parenStages)
+                            : new String[]{n.title};
+                }
                 for (String name : names) {
                     StructuredBlock blk = new StructuredBlock();
                     blk.id = String.format("blk_%05d", blockSeq.next());
@@ -457,7 +467,14 @@ public class BookStructuredBuilder {
                 || p.fields.containsKey("kreis")
                 || p.fields.containsKey("kampftechnik")
                 || p.fields.containsKey("probe");
-        boolean hasVor = hasAp && hasOutcome && hasContext;
+        // Tradition-/Aspekte-Headings im Goetterwirken haben oft nur ap-wert +
+        // voraussetzung, ohne klassischen Outcome-Field — der Outcome steht im
+        // Body-Fliesstext. Lockerung: wenn der Title als Tradition/Aspekte
+        // erkennbar ist, reichen ap-wert + voraussetzung.
+        boolean isTraditionHeading = p.title != null
+                && (p.title.startsWith("Die Aspekte ") || p.title.startsWith("Die Tradition "));
+        boolean hasVor = (hasAp && hasOutcome && hasContext)
+                || (isTraditionHeading && hasAp && hasContext);
         // kind-Klassifikation anhand der Pflichtfeld-Kombination:
         //   liturgiezeit → Liturgie (NICHT als ability)
         //   probe + wirkung + (reichweite/wirkungsdauer) → Zauber (NICHT als ability)
@@ -487,6 +504,14 @@ public class BookStructuredBuilder {
             // Operational Type-Marker (passiv/aktiv/...) abtrennen — Variant-Marker bleiben
             // erhalten (werden vom CompositeExpander interpretiert).
             String cleanTitle = p.title;
+            // Soft-Hyphens (U+00AD) aus PDF-Layout normalisieren:
+            //   "Wort­ wort" (mit Leerzeichen)  → "Wortwort"  (Silbentrennung)
+            //   "I­III" (ohne Leerzeichen)      → "I-III"     (Range-Bindestrich)
+            cleanTitle = cleanTitle
+                    .replace("­ ", "")
+                    .replace(" ­", "")
+                    .replace("­", "-")
+                    .replaceAll("\\s+", " ").trim();
             while (true) {
                 String stripped = CompositeExpander.stripOperational(cleanTitle);
                 if (stripped.equals(cleanTitle)) break;
@@ -494,11 +519,21 @@ public class BookStructuredBuilder {
             }
             String typeMarker = p.headingLine != null ? p.headingLine.typeMarker : null;
 
-            // Stufen-Range im Namen ("Wuchtschlag I-III", "Heilkraft I/II/III") → mehrere Bloecke
+            // Stufen-Range im Namen ("Wuchtschlag I-III", "Heilkraft I/II/III") → mehrere Bloecke.
+            // Zuerst trailing Stage-Range (Wuchtschlag I-III), dann Stage-Range
+            // INNERHALB einer Klammer (Blutmagie (Ottagalder I-III)).
             int[] stages = parseStageRange(cleanTitle);
-            String[] names = stages.length > 0
-                    ? expandStageNames(cleanTitle, stages)
-                    : new String[]{cleanTitle};
+            String[] names;
+            if (stages.length > 0) {
+                names = expandStageNames(cleanTitle, stages);
+            } else {
+                int[] parenStages = parseParenStageRange(cleanTitle);
+                if (parenStages.length > 0) {
+                    names = expandParenStageNames(cleanTitle, parenStages);
+                } else {
+                    names = new String[]{cleanTitle};
+                }
+            }
 
             for (String name : names) {
                 StructuredBlock blk = new StructuredBlock();
@@ -775,6 +810,48 @@ public class BookStructuredBuilder {
         String[] result = new String[stages.length];
         for (int i = 0; i < stages.length; i++) {
             result[i] = base + " " + intToRoman(stages[i]);
+        }
+        return result;
+    }
+
+    /**
+     * Parst Stufen INNERHALB einer Trailing-Klammer:
+     * {@code "Blutmagie (Ottagalder I-III)"} → liefert [1, 2, 3].
+     * Liefert leeres Array, wenn der Name nicht dem Pattern entspricht.
+     */
+    static int[] parseParenStageRange(String name) {
+        if (name == null) return new int[0];
+        Matcher m = P_TRAILING_STAGE_IN_PAREN.matcher(name);
+        if (!m.matches()) return new int[0];
+        String stageSuffix = m.group(3).trim();
+        String[] tokens = stageSuffix.split("\\s*[-/]\\s*");
+        int[] stages = new int[tokens.length];
+        for (int i = 0; i < tokens.length; i++) {
+            stages[i] = romanToInt(tokens[i]);
+            if (stages[i] <= 0 || stages[i] > 10) return new int[0];
+        }
+        if (stages.length == 2 && stageSuffix.contains("-") && stages[0] < stages[1]) {
+            int[] expanded = new int[stages[1] - stages[0] + 1];
+            for (int i = 0; i < expanded.length; i++) expanded[i] = stages[0] + i;
+            return expanded;
+        }
+        return stages;
+    }
+
+    /**
+     * Erzeugt die Namen fuer eine Klammer-Stufen-Range:
+     * {@code "Blutmagie (Ottagalder I-III)"} mit stages [1,2,3] →
+     * {@code ["Blutmagie (Ottagalder I)", "(...II)", "(...III)"]}.
+     */
+    static String[] expandParenStageNames(String fullName, int[] stages) {
+        Matcher m = P_TRAILING_STAGE_IN_PAREN.matcher(fullName);
+        if (!m.matches()) return new String[]{fullName};
+        String prefix = m.group(1);   // "Blutmagie ("
+        String inner = m.group(2);    // "Ottagalder"
+        String close = m.group(4);    // ")"
+        String[] result = new String[stages.length];
+        for (int i = 0; i < stages.length; i++) {
+            result[i] = prefix + inner + " " + intToRoman(stages[i]) + close;
         }
         return result;
     }

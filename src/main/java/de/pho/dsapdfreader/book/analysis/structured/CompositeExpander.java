@@ -35,7 +35,10 @@ public class CompositeExpander {
             "passiv", "aktiv", "basis",
             "spezialmanöver", "spezialmanover",
             "basismanöver", "basismanover",
-            "manöver", "manover");
+            "manöver", "manover",
+            // Klassen-Marker fuer SFs/Zauber-Disambiguierung
+            // ng-dsa nutzt diese Suffixe nicht — wir strippen sie.
+            "zauber", "liturgie", "zeremonie", "ritual");
 
     /**
      * Klammer-Inhalt, der eine Variant-Kategorie markiert. Mapping zur
@@ -54,7 +57,8 @@ public class CompositeExpander {
             Map.entry("spezies",           "spezies"),
             Map.entry("einzelne spezies",  "spezies"),
             Map.entry("giftart",           "giftart"),
-            Map.entry("schrift",           "schrift")
+            Map.entry("schrift",           "schrift"),
+            Map.entry("element",           "element")
     );
 
     /** Pattern: "Folgende ... koennen erworben werden: A, B, C, D" */
