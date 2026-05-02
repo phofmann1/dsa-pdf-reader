@@ -50,13 +50,14 @@ public class DsaMarkdownReaderMain
     //private static final String[] SCAN_SUBDIRS = null;
 
     private static final String[] SCAN_SUBDIRS = {
-        //"04 - Regionen",
-        //"04 - Regionen\\Das Wustenreich (111)",
-        "01 - Regeln"
+        "01 - Regeln",
+        "02 - Ausrustung",
+        "04 - Regionen",
+        "05 - Abenteuer"
     };
 
     // Was soll laufen?
-    private static final boolean RUN_RAW_EXTRACTION = false;    // Stufe 0: PDF → Rohdaten JSON
+    private static final boolean RUN_RAW_EXTRACTION = true;     // Stufe 0: PDF → Rohdaten JSON
     private static final boolean EXTRACT_TEXT = true;            // Stufe 0: Text-Rohdaten extrahieren
     private static final boolean EXTRACT_IMAGES = false;          // Stufe 0: Bild-Rohdaten extrahieren
     private static final boolean EXTRACT_RECTS = true;           // Stufe 0: Vektor-Rechtecke extrahieren

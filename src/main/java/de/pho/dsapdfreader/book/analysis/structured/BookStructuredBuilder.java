@@ -314,13 +314,28 @@ public class BookStructuredBuilder {
      * ability-Datensatz fliessen.
      */
     private static String inferBlockKind(Map<String, String> fields) {
-        // Liturgie: liturgiezeit ODER aspekt (Geweihten-Aspekt) — beides ist im
-        // jeweiligen Buch der primaere Discriminator. Im Kodex des Goetterwirkens
-        // wird "Aspekt:" konsistent als Liturgie-Marker verwendet.
-        if (fields.containsKey("liturgiezeit") || fields.containsKey("aspekt")) return "liturgy";
+        // Liturgie/Zeremonie/Segen: liturgiezeit/aspekt/stossgebete als
+        // primaere Discriminatoren. Im Divinarium auch reichweite +
+        // wirkungsdauer + zielkategorie OHNE merkmal (das haben Zauber).
+        if (fields.containsKey("liturgiezeit") || fields.containsKey("aspekt")
+                || fields.containsKey("stossgebete") || fields.containsKey("stoßgebete")
+                || fields.containsKey("zeremoniedauer")) return "liturgy";
+        // Zauber/Ritual/Trick: das Merkmal-Feld ist fuer Zauber das eindeutige
+        // Signal (Antimagie, Daemonisch, Einfluss, Heilung, Hellsicht, ...).
+        if (fields.containsKey("merkmal")
+                && (fields.containsKey("reichweite") || fields.containsKey("wirkungsdauer"))) {
+            return "spell";
+        }
         if (fields.containsKey("probe") && fields.containsKey("wirkung")
                 && (fields.containsKey("reichweite") || fields.containsKey("wirkungsdauer"))) {
             return "spell";
+        }
+        // Mystischer Block ohne Merkmal aber mit Liturgie-typischen Feldern
+        // (Reichweite + Wirkungsdauer + Zielkategorie + Verbreitung) → liturgy
+        if (fields.containsKey("reichweite") && fields.containsKey("wirkungsdauer")
+                && fields.containsKey("zielkategorie")
+                && fields.containsKey("verbreitung")) {
+            return "liturgy";
         }
         return "ability";
     }
@@ -473,8 +488,20 @@ public class BookStructuredBuilder {
         // erkennbar ist, reichen ap-wert + voraussetzung.
         boolean isTraditionHeading = p.title != null
                 && (p.title.startsWith("Die Aspekte ") || p.title.startsWith("Die Tradition "));
+        // Mystical-Promotion-Path fuer Zauber/Liturgien/Tricks/Segnungen:
+        // Diese haben weder ap-wert noch voraussetzung, dafuer aber den Triple
+        // Reichweite + Wirkungsdauer + Zielkategorie und in der Regel Merkmal
+        // (fuer Zauber) bzw. Verbreitung + Liturgiezeit (fuer Liturgien).
+        boolean isMysticalBlock =
+                p.fields.containsKey("reichweite")
+                && p.fields.containsKey("wirkungsdauer")
+                && (p.fields.containsKey("zielkategorie")
+                    || p.fields.containsKey("merkmal")
+                    || p.fields.containsKey("liturgiezeit")
+                    || p.fields.containsKey("zauberdauer"));
         boolean hasVor = (hasAp && hasOutcome && hasContext)
-                || (isTraditionHeading && hasAp && hasContext);
+                || (isTraditionHeading && hasAp && hasContext)
+                || isMysticalBlock;
         // kind-Klassifikation anhand der Pflichtfeld-Kombination:
         //   liturgiezeit → Liturgie (NICHT als ability)
         //   probe + wirkung + (reichweite/wirkungsdauer) → Zauber (NICHT als ability)
@@ -500,7 +527,11 @@ public class BookStructuredBuilder {
         boolean junkTitle = isJunkHeading(p.title);
         String nonAbilityKind = detectNonAbilityKind(parentStack);
         if (nonAbilityKind != null) inferredKind = nonAbilityKind;
-        if (hasVor && hasAp && !hasChildBlocks && !junkTitle) {
+        // hasAp-Check nur fuer klassische SFs/Tradition (ability/boon-Path).
+        // Mystical-Bloecke haben kein ap-wert, brauchen ihn auch nicht.
+        boolean canPromote = hasVor && !hasChildBlocks && !junkTitle
+                && (isMysticalBlock || hasAp);
+        if (canPromote) {
             // Operational Type-Marker (passiv/aktiv/...) abtrennen — Variant-Marker bleiben
             // erhalten (werden vom CompositeExpander interpretiert).
             String cleanTitle = p.title;
@@ -520,18 +551,26 @@ public class BookStructuredBuilder {
             String typeMarker = p.headingLine != null ? p.headingLine.typeMarker : null;
 
             // Stufen-Range im Namen ("Wuchtschlag I-III", "Heilkraft I/II/III") → mehrere Bloecke.
-            // Zuerst trailing Stage-Range (Wuchtschlag I-III), dann Stage-Range
-            // INNERHALB einer Klammer (Blutmagie (Ottagalder I-III)).
-            int[] stages = parseStageRange(cleanTitle);
+            // BOONs sind hiervon ausgenommen: ng-dsa fuehrt Vor-/Nachteile mit
+            // Stufen als EINEN Eintrag mit (*)-Suffix, nicht als N Einzelstufen.
             String[] names;
-            if (stages.length > 0) {
-                names = expandStageNames(cleanTitle, stages);
+            if ("boon".equals(inferredKind)) {
+                // ng-dsa fuehrt BOONs als EINEN Eintrag ohne Stufen-Suffix
+                // ("Adel I-III" → "Adel"). Klammer-Suffixe fuer Sub-Variants
+                // (z.B. "Drachenblut (Einhorndrache)") bleiben erhalten.
+                String boonName = P_TRAILING_STAGE.matcher(cleanTitle).replaceAll("").trim();
+                names = new String[]{boonName};
             } else {
-                int[] parenStages = parseParenStageRange(cleanTitle);
-                if (parenStages.length > 0) {
-                    names = expandParenStageNames(cleanTitle, parenStages);
+                int[] stages = parseStageRange(cleanTitle);
+                if (stages.length > 0) {
+                    names = expandStageNames(cleanTitle, stages);
                 } else {
-                    names = new String[]{cleanTitle};
+                    int[] parenStages = parseParenStageRange(cleanTitle);
+                    if (parenStages.length > 0) {
+                        names = expandParenStageNames(cleanTitle, parenStages);
+                    } else {
+                        names = new String[]{cleanTitle};
+                    }
                 }
             }
 
