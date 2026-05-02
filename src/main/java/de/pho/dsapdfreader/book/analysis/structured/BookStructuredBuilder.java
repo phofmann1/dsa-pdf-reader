@@ -46,25 +46,28 @@ public class BookStructuredBuilder {
         if (t.isEmpty()) return true;
         // Klammer-Untertitel: "(Anwendungsgebiet)", "(Kampftechnik)"
         if (t.startsWith("(")) return true;
+        // Klammer-Continuation: Zerrissener Block-Name wie "und Morgen)" oder
+        // "Wissens)" — endet mit ")" ohne ein "(" zu enthalten. Reste eines
+        // Klammer-Zusatzes der durch Spalten-/Seitenumbruch geteilt wurde.
+        if (t.endsWith(")") && t.indexOf('(') < 0) return true;
         // Reine Ziffern oder Page-Marker: "155", "250 Kapitel 7: Sonderfertigkeiten"
         if (t.matches("\\d+(\\s+Kapitel\\s+\\d+.*)?")) return true;
         // Kapitel-Header die mit Ziffer + "Kapitel" anfangen: "9 Sozialer Stand 87"
         if (t.matches("^\\d+\\s+.*\\s+\\d+$")) return true;
-        // Tabellen-Header-Heuristik: SEHR viele kurze Tokens. Schwelle hoch
-        // angesetzt, damit echte SF-Namen mit kurzen Woertern wie "Guter Gardist,
-        // boeser Gardist" oder "Meister der improvisierten Waffen" nicht
-        // faelschlich gefiltert werden.
-        String stripped = t
-                .replaceAll("\\s*\\([a-zA-ZäöüÄÖÜ\\s]+\\)\\s*$", "")            // (passiv)
-                .replaceAll("\\s+[IVX]{1,5}(\\s*[-/]\\s*[IVX]{1,5})*\\s*$", "") // I-II / I/II/III
-                .trim();
-        if (stripped.isEmpty()) return true;
-        String[] tokens = stripped.split("\\s+");
-        if (tokens.length >= 6) {
-            int chars = 0;
-            for (String tok : tokens) chars += tok.length();
-            if ((double) chars / tokens.length < 7.0) return true;
-        }
+        // Section-Header "Die <X> im Detail" / "<X> im Detail" — diese sind im
+        // Kodex der Magie konsistent als Sammel-Section fuer mehrere Zauber
+        // verwendet, kein einzelner Zauber/SF.
+        if (t.toLowerCase().endsWith(" im detail")) return true;
+        // Kolumnentitel (Page-Header): 1-3 Ziffern + Leerzeichen + Kapitel-Titel.
+        // Beispiel: "226 Erweiterte Magieregeln", "316 Magische Sonderfertigkeiten",
+        // "380 Anhang", "102 Traditionen". Echte SFs/Zauber/Liturgien beginnen
+        // niemals mit einer Zahl, daher false-positive-Risiko praktisch null.
+        if (t.matches("^\\d{1,3}\\s+[A-ZÄÖÜ\\p{L}].*$")) return true;
+        // Tabellen-Header-Heuristik: ehemals Token-Length-Average-Filter, der
+        // aber Scholar-/Akademie-Namen mit Stoppwoertern ("Scholar der Akademie
+        // der Erscheinungen zu Grangor": avg 6.0 chars) faelschlich aussortiert
+        // hat. Echte Tabellen werden vom StructuredPageBuilder ohnehin als
+        // separate Sublines erkannt — die Heuristik hier ist redundant.
         return false;
     }
 
@@ -110,6 +113,14 @@ public class BookStructuredBuilder {
         for (FontStyleKey k : clusters.orderedKeys()) {
             result.clusters.add(BookStructured.ClusterEntry.from(clusters.tierFor(k), k, clusters));
         }
+
+        // Tier-Normalisierung: Cluster-Aussreisser (Heading-Tiers mit nur einem
+        // einzigen Vorkommen, das aber kleiner/oberhalb der haeufigeren Tiers
+        // ist) sind oft optisch hervorgehobene Eroeffnungs-Headings (z.B. "Die
+        // Magiersiegel" im Kodex der Magie als grosses Tier-1, das alle
+        // nachfolgenden Tier-2-Sections faelschlich einsaugt). Demote solche
+        // Singletons auf das naechst-grosse vorhandene Tier.
+        normalizeSingletonTiers(allLines);
 
         aggregateHierarchy(allLines, result);
 
@@ -157,7 +168,60 @@ public class BookStructuredBuilder {
     }
 
     private static final Pattern P_SF_SECTION = Pattern.compile(
-            "(?i)sonderfertigkeit|kampfstil|magiestil|liturgiestil|talentstil|themengruppe");
+            "(?i)sonderfertigkeit|kampfstil|magiestil|zauberstil|liturgiestil|talentstil|themengruppe");
+
+    /**
+     * Section-Pfade, in denen ein Block-Kandidat KEINE Sonderfertigkeit ist —
+     * Vorteile/Nachteile (Boons), Zauberzeichen, Bannzeichen, Detail-Headings.
+     * Ein Block, dessen Pfad-Vorfahre auf eines dieser Keywords matcht, wird
+     * nicht als ability promoviert (auch wenn er Pflichtfelder traegt).
+     */
+    private static final Pattern P_NON_ABILITY_SECTION = Pattern.compile(
+            "(?i)vorteil|nachteil|zauberzeichen|bannzeichen|im\\s+detail");
+
+    /**
+     * Demotet Heading-Tiers, die im gesamten Buch nur einen einzigen
+     * Vorkommen haben UND kleiner sind als das haeufigste Heading-Tier.
+     * Tritt bei optisch hervorgehobenen Eroeffnungs-Headings auf, deren
+     * Schrift einen eigenen Cluster bildet — typisch "Die Magiersiegel"
+     * im Kodex der Magie. Ohne diesen Fix saugen sie alle folgenden Tier-2
+     * Sections als ihre Children ein.
+     */
+    private static void normalizeSingletonTiers(List<StructuredLine> lines) {
+        java.util.Map<Integer, Integer> tierCount = new java.util.HashMap<>();
+        for (StructuredLine l : lines) {
+            if (l.tier > 0) tierCount.merge(l.tier, 1, Integer::sum);
+        }
+        if (tierCount.size() < 2) return;
+        // Das "Haupt"-Heading-Tier ist das mit den meisten Vorkommen
+        int dominantTier = tierCount.entrySet().stream()
+                .max(java.util.Map.Entry.comparingByValue())
+                .get().getKey();
+        for (StructuredLine l : lines) {
+            if (l.tier > 0 && l.tier < dominantTier
+                    && tierCount.getOrDefault(l.tier, 0) <= 2) {
+                l.tier = dominantTier;
+            }
+        }
+    }
+
+    /**
+     * Liefert den Non-Ability-Kind, falls ein Vorfahre im parent-Stack auf eine
+     * Non-Ability-Section matcht. Mapping:
+     *   "Vorteil"/"Nachteil" → "boon"
+     *   "Zauberzeichen"/"Bannzeichen"/"im Detail" → "other"
+     * Liefert null, wenn keiner der Vorfahren matcht.
+     */
+    private static String detectNonAbilityKind(List<Pending> parentStack) {
+        for (Pending p : parentStack) {
+            if (p.title == null) continue;
+            String t = p.title.toLowerCase();
+            if (t.contains("vorteil") || t.contains("nachteil")) return "boon";
+            if (t.contains("zauberzeichen") || t.contains("bannzeichen")
+                    || t.contains("im detail")) return "other";
+        }
+        return null;
+    }
 
     private static void promoteRec(List<StructuredHierarchyNode> nodes, boolean inSfSection,
                                     BookStructured book, Counter blockSeq) {
@@ -408,7 +472,18 @@ public class BookStructuredBuilder {
         // sub-Hierarchien tragen (z.B. Variants oder Stufen-Sub-Headings).
         boolean hasChildBlocks = !p.blocks.isEmpty();
 
-        if (hasVor && hasAp && !hasChildBlocks) {
+        // Hierarchischer Klassifikator:
+        // (1) Ein Heading, das selbst als Junk klassifiziert ist (Page-Header,
+        //     Klammer-Continuation, Kapitel-Marker, "im Detail"), darf NIE zu
+        //     einem Block werden — auch nicht mit Pflichtfeldern.
+        // (2) Liegt der Block-Kandidat unter einer Non-Ability-Section, dann
+        //     bekommt er einen anderen kind ("boon" fuer Vorteil/Nachteil,
+        //     "other" fuer Zauberzeichen/Bannzeichen/Detail-Sections). Block
+        //     bleibt erhalten, wird aber im ability-Filter nicht mehr gezaehlt.
+        boolean junkTitle = isJunkHeading(p.title);
+        String nonAbilityKind = detectNonAbilityKind(parentStack);
+        if (nonAbilityKind != null) inferredKind = nonAbilityKind;
+        if (hasVor && hasAp && !hasChildBlocks && !junkTitle) {
             // Operational Type-Marker (passiv/aktiv/...) abtrennen — Variant-Marker bleiben
             // erhalten (werden vom CompositeExpander interpretiert).
             String cleanTitle = p.title;
