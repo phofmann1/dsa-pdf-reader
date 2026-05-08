@@ -76,11 +76,71 @@ public class BoxExtractor {
     /** Filtert RawRects auf wahrscheinliche Boxen. */
     public List<BoxRegion> identifyBoxes(RawPageData page) {
         List<BoxRegion> result = new ArrayList<>();
-        if (page.rects == null) return result;
         int idx = 0;
-        for (RawPageData.RawRect r : page.rects) {
-            if (!isLikelyBox(r, page.pageWidth, page.pageHeight)) continue;
-            result.add(new BoxRegion(idx++, r));
+        if (page.rects != null) {
+            for (RawPageData.RawRect r : page.rects) {
+                if (!isLikelyBox(r, page.pageWidth, page.pageHeight)) continue;
+                result.add(new BoxRegion(idx++, r));
+            }
+        }
+        // Banner-Bild-Paare als Profilkasten erkennen.
+        // Streng: 538x54 (±5pt) bei x=20 (±5pt), zwei Banner pro Seite (oben/
+        // unten umrahmen den Profilkasten). Diese Form taucht in DSA5-Buechern
+        // wie "Archiv der Daemonen" und "Archiv der Kreaturen" auf — der
+        // Profilkasten hat keinen Vektor-Hintergrund, sondern nur die beiden
+        // Banner-Bilder als visuelle Trennung.
+        for (BoxRegion banner : identifyBannerImageBoxes(page, idx)) {
+            result.add(banner);
+            idx = Math.max(idx, banner.boxIndex + 1);
+        }
+        return result;
+    }
+
+    /**
+     * Erkennt Profilkaesten ueber ein Paar identischer schmaler Banner-Bilder
+     * (oben und unten). Die Heuristik ist absichtlich eng gefasst, um nur
+     * echte Profil-Banner zu treffen (keine Illustrationen).
+     */
+    private List<BoxRegion> identifyBannerImageBoxes(RawPageData page, int startIdx) {
+        List<BoxRegion> result = new ArrayList<>();
+        if (page.images == null || page.images.isEmpty()) return result;
+        List<RawPageData.RawImage> banners = new ArrayList<>();
+        for (RawPageData.RawImage img : page.images) {
+            float w = img.width;
+            float h = img.height;
+            float x = img.x;
+            // Strenge Kriterien — nur die typischen DSA5-Profil-Banner.
+            if (w < 530f || w > 545f) continue;
+            if (h < 50f || h > 58f) continue;
+            if (x < 10f || x > 30f) continue;
+            banners.add(img);
+        }
+        if (banners.size() < 2) return result;
+        banners.sort(java.util.Comparator.comparingDouble(i -> i.y));
+        boolean[] used = new boolean[banners.size()];
+        int idx = startIdx;
+        for (int i = 0; i < banners.size(); i++) {
+            if (used[i]) continue;
+            RawPageData.RawImage top = banners.get(i);
+            // Top-Banner muss am Seitenanfang sein (y < 80pt).
+            if (top.y > 80f) continue;
+            for (int j = i + 1; j < banners.size(); j++) {
+                if (used[j]) continue;
+                RawPageData.RawImage bot = banners.get(j);
+                // Banner-Paar: gleicher x-Bereich, vernuenftiger y-Abstand.
+                if (Math.abs(bot.x - top.x) > 3f) continue;
+                if (Math.abs(bot.width - top.width) > 3f) continue;
+                float yGap = bot.y - (top.y + top.height);
+                if (yGap < 80f || yGap > 700f) continue;
+                used[i] = true; used[j] = true;
+                float boxX = top.x;
+                float boxY = top.y + top.height;            // unter dem Top-Banner
+                float boxW = top.width;
+                float boxH = bot.y - (top.y + top.height);  // bis zum Bottom-Banner
+                result.add(new BoxRegion(idx++, boxX, boxY, boxW, boxH,
+                        new float[]{0.95f, 0.95f, 0.85f}));
+                break;
+            }
         }
         return result;
     }

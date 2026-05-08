@@ -1979,15 +1979,14 @@ public class TextInterpreter
                         else if (gapStart >= splitX) tableGapsRight++;
                         else tableGapsStraddling++;
                     }
-                    boolean uniformLeftOrRight =
-                            (tableGapsLeft == 0 || tableGapsRight == 0)
-                            && tableGapsStraddling >= 1;
-                    // Fallback: wenn keine Tabellen-Gaps gefunden, aber der "klassische"
-                    // GAP_THRESHOLD-Counter mind. 2 grosse Luecken zaehlt UND eine
-                    // Spalten-uebergreifende Luecke vorhanden ist, gilt es trotzdem als
-                    // Spaltentrennung (kleinere Tische mit ~15pt-Cell-Gaps werden so
-                    // trotzdem nicht zu fullwidth degradiert wenn die Spaltentrennung greift).
-                    if (tableGaps >= 2 && !uniformLeftOrRight)
+                    // Fullwidth nur wenn die Tabellen-Gaps WIRKLICH ueber die Spalten
+                    // gehen — entweder direkt straddling, oder Gaps in beiden Haelften.
+                    // Reine "Stat-Block links + Body rechts"-Layouts (alle Gaps in einer
+                    // Spalte, KEIN straddling) sind keine cross-column-Tabellen.
+                    boolean isCrossColumn =
+                            (tableGapsLeft >= 1 && tableGapsRight >= 1)
+                            || tableGapsStraddling >= 1;
+                    if (tableGaps >= 2 && isCrossColumn)
                     {
                         fullWidthYs.add((float) line.y);
                     }
@@ -2257,18 +2256,23 @@ public class TextInterpreter
             {
                 de.pho.dsapdfreader.book.BoxExtractor.BoxRegion box = extractedBoxes.get(idx);
                 if (box.chars.size() < 5) continue;
-                List<ClassifiedChar> boxClassified = classifyChars(box.chars);
-                List<TextLine> boxLines = buildLines(boxClassified);
-                if (boxLines.isEmpty()) continue;
-                boxLines.sort(Comparator.comparingDouble(l -> l.y));
-                StringBuilder boxMd = new StringBuilder();
-                appendLinesWithTables(boxMd, boxLines);
-                String boxText = boxMd.toString().stripTrailing();
+
+                // Box-Rendering durch rekursiven interpretPage-Aufruf:
+                // dadurch greift die volle Pipeline (mergeInitial, Spalten-
+                // Histogramm, Line-basierte Tabellen, Fullwidth-Headings) auch
+                // im Box-Inneren. Das ist insbesondere fuer breite Profilkaesten
+                // wichtig, die zwei Spalten umspannen.
+                String boxText = renderBoxAsSubPage(box, page).stripTrailing();
                 if (boxText.isEmpty()) continue;
 
                 // Heading-Guess: erste Heading-/Bold-Zeile aus dem Box-MD ziehen.
                 String headingGuess = guessBoxHeading(boxText);
-                boolean hasOwnHeading = hasExplicitHeading(boxText);
+                // Profilkaesten ohne Titel-Zeile (z. B. Stat-Block, dessen Heading
+                // auf der vorigen Seite liegt) erkennen wir am Fehlen eines
+                // Heading als ERSTE Inhaltszeile. Ein "###"-Heading mitten im
+                // Stat-Block (z. B. "### Anrufungsschwierigkeit: -4") gilt
+                // hier NICHT als Titel.
+                boolean hasOwnHeading = hasTitleHeading(boxText);
 
                 // Box ohne eigene Heading: per 2D-Naehe auf eine Body-Heading mappen
                 // (Boxen ohne Titel verweisen ueber ein Auge-Symbol auf einen Body-Heading;
@@ -2601,10 +2605,25 @@ public class TextInterpreter
             }
         }
 
-        boolean isHeading = !hasTableGaps && !looksLikeBodyContinuation && (
+        // Attribut-Wächter: Bold-Body-Zeile mit Doppelpunkt ist ein Attribut
+        // (z. B. "Anrufungsschwierigkeit: -4", "Sphärenkunde (Sphärenwesen):"),
+        // KEINE Heading. Auch wenn der Wert versehentlich mit fett gesetzt wurde
+        // (PDF-Editfehler), darf die Zeile nicht zur Sub-Heading promoviert werden,
+        // sondern bleibt als Bold-Body-Text bestehen.
+        boolean looksLikeBoldAttribute = false;
+        if (allBold && dominantSize <= 11.5f && !inDisplayFont)
+        {
+            String joinedAttr = spans.stream()
+                    .filter(s -> !s.isOrnament)
+                    .map(s -> s.text.toString())
+                    .reduce("", String::concat);
+            if (joinedAttr.contains(":")) looksLikeBoldAttribute = true;
+        }
+
+        boolean isHeading = !hasTableGaps && !looksLikeBodyContinuation && !looksLikeBoldAttribute && (
             (dominantSize > 10.5f && allBold && isShortLine && (inDisplayFont || dominantSize > 14f))
             || (dominantSize > 15 && isShortLine));
-        boolean isSubHeading = !hasTableGaps && !looksLikeBodyContinuation && (
+        boolean isSubHeading = !hasTableGaps && !looksLikeBodyContinuation && !looksLikeBoldAttribute && (
             // Bold + groeszer als Body, aber unter Display-Schwelle: Sub-Sektion
             (dominantSize > 10.5f && allBold && isShortLine && !inDisplayFont && dominantSize <= 14f)
             // Klassischer Sub-Heading-Pfad (Bold im Bereich zwischen Body und 10.5pt)
@@ -3562,6 +3581,26 @@ public class TextInterpreter
     }
 
     /**
+     * Strenger als {@link #hasExplicitHeading}: liefert nur dann true, wenn
+     * die ERSTE Inhalts-Zeile eine echte Heading-Zeile ist. Damit erkennen wir
+     * Profilkaesten ohne Titel — der Wertblock fuer "Sharbazz" auf S66
+     * beginnt z. B. mit "**Groesse:**" und nicht mit "### Sharbazz", die
+     * Kreatur-Heading liegt auf der vorigen Seite. Solche Boxen sollten ihre
+     * Heading per Body-Lookup beziehen.
+     */
+    static boolean hasTitleHeading(String boxMd)
+    {
+        if (boxMd == null) return false;
+        for (String raw : boxMd.split("\n"))
+        {
+            String l = raw.strip();
+            if (l.isEmpty() || l.startsWith("<!--")) continue;
+            return l.startsWith("#");
+        }
+        return false;
+    }
+
+    /**
      * Liefert den Heading-Text aus dem Body, auf den der Kasten per Auge-Symbol
      * verweist. Da das Auge-Symbol nicht in jeder PDF-Variante als Bild oder Glyph
      * extrahierbar ist (manche Buecher zeichnen es als Vektor-Pfad), fungiert
@@ -3577,6 +3616,69 @@ public class TextInterpreter
      *
      * @return Heading-Text oder {@code null}, wenn keine Zuordnung moeglich.
      */
+    /**
+     * Rendert eine Box ueber den vollen interpretPage-Pfad: erzeugt eine
+     * synthetische Sub-Page mit den Box-Chars/Rects/Images und ruft eine
+     * frische TextInterpreter-Instanz darauf auf. Damit gilt im Box-Inneren
+     * dieselbe Pipeline wie im Body — Spalten-Histogramm, Line-Tabellen,
+     * Fullwidth-Headings, Listen-Erkennung.
+     *
+     * <p>Filterregeln fuer die Sub-Page:
+     * <ul>
+     *   <li>Rects/Images werden nur uebernommen, wenn ihr Mittelpunkt in den
+     *       Box-Bounds liegt (sonst koennte der Sub-Aufruf wieder dieselbe
+     *       Box als Container detektieren).</li>
+     *   <li>pageWidth/pageHeight bleiben die der Parent-Page — so funktioniert
+     *       das Spalten-Histogramm, weil Box-Chars absolute X-Koords haben.</li>
+     *   <li>Inline-Box-Marker werden im Sub-Renderer aktiviert, falls die Box
+     *       wiederum innere (rekursive) Boxen enthaelt — derzeit selten.</li>
+     * </ul>
+     */
+    private String renderBoxAsSubPage(de.pho.dsapdfreader.book.BoxExtractor.BoxRegion box,
+                                      RawPageData parentPage)
+    {
+        RawPageData sub = new RawPageData();
+        sub.pageNumber = parentPage.pageNumber;
+        sub.pageWidth = parentPage.pageWidth;
+        sub.pageHeight = parentPage.pageHeight;
+        sub.chars = new ArrayList<>(box.chars);
+
+        float bxL = box.x, bxR = box.x + box.width;
+        float byT = box.y, byB = box.y + box.height;
+
+        sub.rects = new ArrayList<>();
+        if (parentPage.rects != null)
+        {
+            for (RawPageData.RawRect r : parentPage.rects)
+            {
+                // Nur Linien-Rects in die Sub-Page durchreichen — gefuellte Box-
+                // Rects wuerden vom BoxExtractor des Sub-Aufrufs erneut als Box
+                // erkannt (rekursive Selbst-Detektion). Wir wollen nur die
+                // Tabellen-Trennlinien fuer LineBasedTableDetector behalten.
+                if (!r.isLine) continue;
+                float cx = r.x + r.width / 2f;
+                float cy = r.y + r.height / 2f;
+                if (cx < bxL || cx > bxR || cy < byT || cy > byB) continue;
+                sub.rects.add(r);
+            }
+        }
+        sub.images = new ArrayList<>();
+        if (parentPage.images != null)
+        {
+            for (RawPageData.RawImage img : parentPage.images)
+            {
+                float cx = img.x + img.width / 2f;
+                float cy = img.y + img.height / 2f;
+                if (cx >= bxL && cx <= bxR && cy >= byT && cy <= byB)
+                    sub.images.add(img);
+            }
+        }
+
+        TextInterpreter sub_ti = new TextInterpreter();
+        sub_ti.setEmitBoxesInline(true); // innere Boxen inline halten
+        return sub_ti.interpretPage(sub);
+    }
+
     static String resolveBoxHeadingFromBody(de.pho.dsapdfreader.book.BoxExtractor.BoxRegion box,
                                             List<RawPageData.RawImage> eyeGlyphs,
                                             List<HeadingAnchor> bodyHeadings)
