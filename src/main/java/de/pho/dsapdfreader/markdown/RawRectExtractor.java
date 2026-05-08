@@ -128,8 +128,43 @@ public class RawRectExtractor extends PDFGraphicsStreamEngine
     @Override
     public void strokePath() throws IOException
     {
-        // Nur Umrandung, kein Fill — ignorieren
+        // Strokes erfassen — wichtig fuer Tabellen-Trennlinien (horizontaler
+        // Strich) und Header-Unterstreichungen, die als gestreichelter Pfad
+        // gezeichnet sein koennen.
+        processStrokedPath();
         currentPath = new GeneralPath();
+    }
+
+    private void processStrokedPath()
+    {
+        Rectangle2D bounds = currentPath.getBounds2D();
+        float w = (float) bounds.getWidth();
+        float h = (float) bounds.getHeight();
+
+        // Lange duenne Linien interessieren uns (Trennlinien)
+        if (w < 20 && h < 20) return;
+        if (w > 5 && h > 5) return; // weder waagerecht-duenn noch senkrecht-duenn
+        // Mindestens eine Dimension muss gross sein, die andere klein
+        float[] strokeColor = new float[]{0, 0, 0};
+        try
+        {
+            PDColor color = getGraphicsState().getStrokingColor();
+            if (color != null && color.getComponents() != null
+                    && color.getComponents().length >= 3)
+            {
+                strokeColor = color.getComponents();
+            }
+        }
+        catch (Exception e) { /* Fallback schwarz */ }
+
+        float opacity = (float) getGraphicsState().getAlphaConstant();
+        float pdfX = (float) bounds.getX();
+        float pdfY = (float) bounds.getY();
+        float rectY = currentPageHeight - pdfY - h;
+
+        RawPageData.RawRect line = new RawPageData.RawRect(
+                pdfX, rectY, w, h, strokeColor, opacity, true);
+        pageRects.computeIfAbsent(currentPage, k -> new ArrayList<>()).add(line);
     }
 
     private void processFilledPath()
@@ -138,8 +173,15 @@ public class RawRectExtractor extends PDFGraphicsStreamEngine
         float w = (float) bounds.getWidth();
         float h = (float) bounds.getHeight();
 
-        // Zu kleine Rechtecke ignorieren (Linien, Punkte)
-        if (w < 10 || h < 10) return;
+        // Sehr kleine Rechtecke (Punkte) ignorieren.
+        if (w < 1.5f && h < 1.5f) return;
+        // Pfade die nichts haben? skip.
+        if (w <= 0 || h <= 0) return;
+        // Erkennen, ob es eine duenne Linie ist (eine Dimension gross, andere < 2pt)
+        boolean isLine = (h < 2f && w >= 20f) || (w < 2f && h >= 20f);
+        // Wenn weder Box (w>=10 && h>=10) noch Linie → Punkt/Glyph: skip.
+        boolean isBox = w >= 10f && h >= 10f;
+        if (!isBox && !isLine) return;
 
         // Fuellfarbe auslesen
         float[] fillColor = new float[]{0, 0, 0};
@@ -170,7 +212,7 @@ public class RawRectExtractor extends PDFGraphicsStreamEngine
         float rectY = currentPageHeight - pdfY - h;
 
         RawPageData.RawRect rect = new RawPageData.RawRect(
-            pdfX, rectY, w, h, fillColor, opacity
+            pdfX, rectY, w, h, fillColor, opacity, isLine
         );
 
         pageRects.computeIfAbsent(currentPage, k -> new ArrayList<>()).add(rect);

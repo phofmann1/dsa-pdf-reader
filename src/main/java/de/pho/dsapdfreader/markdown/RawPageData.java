@@ -128,6 +128,10 @@ public class RawPageData
         public float height;
         public float[] fillColor;  // RGB [0-1]
         public float opacity;      // 0=transparent, 1=deckend
+        /** Linie statt Box. true = duennes Rechteck (Hoehe oder Breite &lt; 2pt) ODER
+         *  ein gestrickter Pfad (strokePath). Typisch: Tabellen-Trennlinien,
+         *  Header-Unterstreichungen. */
+        public boolean isLine;
 
         public RawRect()
         {
@@ -136,12 +140,19 @@ public class RawPageData
         public RawRect(float x, float y, float width, float height,
                        float[] fillColor, float opacity)
         {
+            this(x, y, width, height, fillColor, opacity, false);
+        }
+
+        public RawRect(float x, float y, float width, float height,
+                       float[] fillColor, float opacity, boolean isLine)
+        {
             this.x = x;
             this.y = y;
             this.width = width;
             this.height = height;
             this.fillColor = fillColor;
             this.opacity = opacity;
+            this.isLine = isLine;
         }
     }
 }

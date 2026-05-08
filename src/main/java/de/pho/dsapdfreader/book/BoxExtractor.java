@@ -18,8 +18,18 @@ import java.util.List;
  *   <li>nicht volle Seitenhoehe: height &lt; 92 % der Seitenhoehe</li>
  *   <li>Aspect Ratio nicht extrem (zwischen 0.05 und 20)</li>
  * </ul>
+ *
+ * <p>Nach dem Split werden Box-Regionen, die sich ueberlappen oder dicht
+ * untereinander stehen (typisch fuer Header-Bar + Body bei zweifarbigen
+ * Kaesten), zu einer logischen Box zusammengefuehrt — sonst landen Heading
+ * und Body in getrennten Dateien.
  */
 public class BoxExtractor {
+
+    /** Maximaler vertikaler Abstand zwischen Header-Bar und Body, der noch als "ein Kasten" gilt. */
+    static final float MAX_MERGE_Y_GAP = 5f;
+    /** Mindest-Anteil der X-Ueberlappung an der schmaleren Box, damit zwei Boxen als gestapelt gelten. */
+    static final float MIN_MERGE_X_OVERLAP_RATIO = 0.8f;
 
     /** Eine erkannte Box mit Bounds und zugehoerigen Chars. */
     public static class BoxRegion {
@@ -35,6 +45,15 @@ public class BoxExtractor {
             this.width = r.width;
             this.height = r.height;
             this.fillColor = r.fillColor;
+        }
+
+        public BoxRegion(int boxIndex, float x, float y, float width, float height, float[] fillColor) {
+            this.boxIndex = boxIndex;
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.fillColor = fillColor;
         }
 
         public boolean contains(RawPageData.RawChar c) {
@@ -95,6 +114,9 @@ public class BoxExtractor {
             }
         }
 
+        // Header-Bar + Body zu einem logischen Kasten zusammenfuehren.
+        boxes = mergeOverlappingBoxes(boxes);
+
         // Boxen ohne Chars verwerfen (waren wahrscheinlich Layout-Rechtecke ohne Text)
         boxes.removeIf(b -> b.chars.size() < 5);
 
@@ -108,6 +130,64 @@ public class BoxExtractor {
         mainPage.rects = new ArrayList<>();
 
         return new SplitResult(mainPage, boxes);
+    }
+
+    /**
+     * Fuehrt Box-Regionen, die sich ueberlappen oder dicht uebereinander stehen,
+     * iterativ zu einer Box zusammen. Bricht ab, sobald ein Durchlauf keine
+     * weitere Verschmelzung findet.
+     */
+    static List<BoxRegion> mergeOverlappingBoxes(List<BoxRegion> input) {
+        List<BoxRegion> boxes = new ArrayList<>(input);
+        boolean changed = true;
+        while (changed) {
+            changed = false;
+            outer:
+            for (int i = 0; i < boxes.size(); i++) {
+                for (int j = i + 1; j < boxes.size(); j++) {
+                    if (shouldMerge(boxes.get(i), boxes.get(j))) {
+                        BoxRegion merged = mergePair(boxes.get(i), boxes.get(j));
+                        // groessere Box-Indizes zuerst entfernen, um Indexverschiebungen zu vermeiden
+                        boxes.remove(j);
+                        boxes.remove(i);
+                        boxes.add(merged);
+                        changed = true;
+                        break outer;
+                    }
+                }
+            }
+        }
+        return boxes;
+    }
+
+    static boolean shouldMerge(BoxRegion a, BoxRegion b) {
+        // Echte Ueberlappung: rechteckige Bounds schneiden sich.
+        boolean overlaps = a.x < b.x + b.width && b.x < a.x + a.width
+                && a.y < b.y + b.height && b.y < a.y + a.height;
+        if (overlaps) return true;
+
+        // Gestapelt mit kleinem vertikalen Abstand und ausreichender X-Ueberlappung.
+        BoxRegion upper = a.y <= b.y ? a : b;
+        BoxRegion lower = a.y <= b.y ? b : a;
+        float yGap = lower.y - (upper.y + upper.height);
+        if (yGap < 0 || yGap > MAX_MERGE_Y_GAP) return false;
+        float xOverlap = Math.min(a.x + a.width, b.x + b.width) - Math.max(a.x, b.x);
+        float minWidth = Math.min(a.width, b.width);
+        return minWidth > 0 && xOverlap >= MIN_MERGE_X_OVERLAP_RATIO * minWidth;
+    }
+
+    private static BoxRegion mergePair(BoxRegion a, BoxRegion b) {
+        float x = Math.min(a.x, b.x);
+        float y = Math.min(a.y, b.y);
+        float maxRight = Math.max(a.x + a.width, b.x + b.width);
+        float maxBottom = Math.max(a.y + a.height, b.y + b.height);
+        // groessere Box dominiert die fillColor — als Hint fuer "Body-Farbe"
+        float[] fill = (a.width * a.height >= b.width * b.height) ? a.fillColor : b.fillColor;
+        BoxRegion merged = new BoxRegion(Math.min(a.boxIndex, b.boxIndex),
+                x, y, maxRight - x, maxBottom - y, fill);
+        merged.chars.addAll(a.chars);
+        merged.chars.addAll(b.chars);
+        return merged;
     }
 
     private boolean isLikelyBox(RawPageData.RawRect r, float pageWidth, float pageHeight) {

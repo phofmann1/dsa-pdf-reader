@@ -30,7 +30,7 @@ class BookSnapshotTest {
     /** publication-id -> Pfad zum aktuellen Markdown-Output */
     private static final java.util.Map<String, Path> ACTUAL_DIRS = java.util.Map.of(
             "schwertes",
-            Path.of("export/markdown/text/01 - Regeln/Kodex des Schwertes (171)/Kodex des Schwertes - 01 - Regeln")
+            Path.of("export/markdown/text/01 - Regeln/Kodex des Schwertes (171)/Kodex des Schwertes - 01 - Regeln/raw")
     );
 
     private static final boolean UPDATE = Boolean.parseBoolean(System.getProperty("snapshot.update", "false"));
