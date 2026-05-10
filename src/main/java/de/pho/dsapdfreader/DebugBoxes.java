@@ -7,9 +7,11 @@ import java.nio.file.Path;
 
 public class DebugBoxes {
     public static void main(String[] args) throws Exception {
+        int pn = Integer.parseInt(args[0]);
+        String book = args.length > 1 ? args[1]
+                : "01 - Regeln/Archiv der Damonen (178)/Archiv der Damonen - 01 - Regeln";
         Path p = Path.of(String.format(
-                "export/markdown/raw/01 - Regeln/Archiv der Damonen (178)/Archiv der Damonen - 01 - Regeln/page_%03d.json",
-                Integer.parseInt(args[0])));
+                "export/markdown/raw/%s/page_%03d.json", book, pn));
         RawPageData page = new ObjectMapper().readValue(p.toFile(), RawPageData.class);
         BoxExtractor be = new BoxExtractor();
         var boxes = be.identifyBoxes(page);

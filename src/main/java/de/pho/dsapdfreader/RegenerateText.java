@@ -108,6 +108,24 @@ public class RegenerateText
                     RawPageData page = MAPPER.readValue(rawFile.toFile(), RawPageData.class);
                     String markdown = interpreter.interpretPage(page);
 
+                    // Orphan-Heading-Move: wenn der Body am ENDE mit einer Heading-Zeile
+                    // endet UND fuer diese Seite eine Box extrahiert wurde, gehoert die
+                    // Heading vermutlich zur Box (der Box-Inhalt war urspruenglich
+                    // unmittelbar unter der Heading und wurde als Box ausgelagert).
+                    // Wir verschieben die Heading dann in den Box-Heading-Slot.
+                    java.util.List<TextInterpreter.BoxRendering> pageBoxes =
+                            new java.util.ArrayList<>(interpreter.getLastBoxes());
+                    OrphanResult orphan = extractOrphanHeading(markdown);
+                    if (orphan != null && !pageBoxes.isEmpty()) {
+                        markdown = orphan.bodyWithoutHeading;
+                        // Heading dem letzten (untersten) Box-Eintrag zuweisen.
+                        TextInterpreter.BoxRendering target = pageBoxes.get(pageBoxes.size() - 1);
+                        for (TextInterpreter.BoxRendering b : pageBoxes) {
+                            if (b.y > target.y) target = b;
+                        }
+                        target.headingGuess = orphan.headingText;
+                    }
+
                     Path pageFile = pageMdDir.resolve(String.format("seite_%03d.md", page.pageNumber));
                     try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(pageFile, StandardCharsets.UTF_8)))
                     {
@@ -120,7 +138,7 @@ public class RegenerateText
                     // Volltext: keine Seitenzahl-Trenner mehr.
                     fullText.append(markdown);
 
-                    for (TextInterpreter.BoxRendering box : interpreter.getLastBoxes())
+                    for (TextInterpreter.BoxRendering box : pageBoxes)
                     {
                         String fileName = buildBoxFileName(box, boxNameCounts);
                         Path boxFile = resultDir.resolve(fileName);
@@ -139,8 +157,13 @@ public class RegenerateText
                     totalPages++;
                 }
 
+                // Cross-page-Tabellen-Merge auf den fertigen Volltext: zwei adjacent
+                // Tabellen mit gleicher Spaltenanzahl, getrennt nur durch Page-
+                // Boundaries, werden zu EINER Tabelle zusammengezogen (z. B.
+                // Schwertes S26→S27 Entrueckungs-Tabelle).
+                String volltext = interpreter.mergeAdjacentMarkdownTables(fullText.toString());
                 Path fullFile = resultDir.resolve("_volltext.md");
-                Files.writeString(fullFile, fullText.toString(), StandardCharsets.UTF_8);
+                Files.writeString(fullFile, volltext, StandardCharsets.UTF_8);
 
                 totalDirs++;
                 if (totalDirs % 50 == 0)
@@ -151,6 +174,50 @@ public class RegenerateText
         }
 
         System.out.println("Done: " + totalDirs + " books, " + totalPages + " pages regenerated.");
+    }
+
+    private record OrphanResult(String headingText, String bodyWithoutHeading) {}
+
+    /**
+     * Pruefen ob das Body-Markdown am Ende mit einer Heading-Zeile abschliesst,
+     * unter der KEIN Inhalt mehr steht (nach dem Heading nur Leerzeilen oder
+     * HTML-Kommentare). Liefert die Heading + den Body ohne diese Heading-Zeile,
+     * sonst {@code null}.
+     *
+     * <p>Beispiel: Body endet mit
+     * <pre>
+     * #### Mein Profil
+     *
+     * </pre>
+     * → headingText = "Mein Profil", bodyWithoutHeading endet vor dieser Zeile.
+     */
+    static OrphanResult extractOrphanHeading(String markdown) {
+        if (markdown == null || markdown.isEmpty()) return null;
+        // Mehrfach-Heading-Trail abziehen: solange am Ende eine Heading-Zeile
+        // steht (## ... bis ###### ...), entferne sie und sammle die Texte.
+        // Das fängt Faelle ab wo eine Section-Heading auf zwei Zeilen mit
+        // unterschiedlichen Levels gerendert wurde (z. B. Goetterwirken S425:
+        // "#### Ruestungen" + "##### Ruestungen").
+        String body = markdown;
+        java.util.List<String> headings = new java.util.ArrayList<>();
+        while (true) {
+            String trimmed = body.stripTrailing();
+            int lastNewline = trimmed.lastIndexOf('\n');
+            String lastLine = lastNewline >= 0 ? trimmed.substring(lastNewline + 1) : trimmed;
+            if (!lastLine.startsWith("#")) break;
+            if (lastLine.startsWith("# ") && !lastLine.startsWith("## ")) break;
+            String h = lastLine.replaceFirst("^#+\\s*", "").trim();
+            if (h.isEmpty()) break;
+            headings.add(0, h);
+            body = lastNewline >= 0 ? trimmed.substring(0, lastNewline) : "";
+        }
+        if (headings.isEmpty()) return null;
+        // Praefix-Doppelungen kollabieren: "Ruestungen", "Ruestungen" → eine Heading.
+        java.util.List<String> dedup = new java.util.ArrayList<>();
+        for (String h : headings) if (dedup.isEmpty() || !dedup.get(dedup.size() - 1).equals(h)) dedup.add(h);
+        String headingText = String.join(" ", dedup);
+        if (!body.isEmpty() && !body.endsWith("\n")) body = body + "\n";
+        return new OrphanResult(headingText, body);
     }
 
     /**

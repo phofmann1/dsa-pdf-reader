@@ -93,6 +93,114 @@ public class BoxExtractor {
             result.add(banner);
             idx = Math.max(idx, banner.boxIndex + 1);
         }
+        // Fallback: Profilkaesten in DSA-4-Style-Buechern (Grimorum, Liturgia,
+        // Almanach etc.) sind mit einem grossen Hintergrund-Bild hinterlegt,
+        // KEIN Banner und KEIN Vektor-Rect. Erkennung: Bild umfasst eine
+        // signifikante Menge Seitentext (>100 chars und >30 % des Body-Text).
+        // Vignetten (Bild mit Text drumherum) werden anhand niedriger Char-
+        // Dichte ausgeschlossen.
+        for (BoxRegion bg : identifyContentImageBoxes(page, idx, result)) {
+            result.add(bg);
+            idx = Math.max(idx, bg.boxIndex + 1);
+        }
+        // Quote-Kasten ueber AdornFrames-Glyph-Paare (top + bottom Ornament-Linie).
+        // Wolfsfrost (230) S9 hat z. B. `q44<44r` (y=499) und `o11911p` (y=346) als
+        // einzige visuelle Box-Marker — kein Vector-Rect, kein Banner-Image.
+        for (BoxRegion af : identifyAdornFramePairBoxes(page, idx, result)) {
+            result.add(af);
+            idx = Math.max(idx, af.boxIndex + 1);
+        }
+        return result;
+    }
+
+    /**
+     * Erkennt Quote-Kaesten, deren obere und untere Begrenzung durch
+     * Ornament-Glyph-Cluster (Font-Familie {@code AdornFrames}) gesetzt sind.
+     * Ein Pair besteht aus zwei Clustern auf annaehernd gleicher X-Range mit
+     * vertikalem Abstand 50-300pt — Cluster-X-Mittelpunkte muessen sich um
+     * weniger als 30pt unterscheiden.
+     */
+    private List<BoxRegion> identifyAdornFramePairBoxes(RawPageData page, int startIdx,
+                                                         List<BoxRegion> existing) {
+        List<BoxRegion> result = new ArrayList<>();
+        if (page.chars == null || page.chars.isEmpty()) return result;
+        // AdornFrames-Chars sammeln und nach Y in Cluster gruppieren (Toleranz 3pt).
+        List<RawPageData.RawChar> ornChars = new ArrayList<>();
+        for (RawPageData.RawChar c : page.chars) {
+            if (c.fontName != null && c.fontName.contains("AdornFrames")) {
+                ornChars.add(c);
+            }
+        }
+        if (ornChars.size() < 4) return result;
+        ornChars.sort(java.util.Comparator.comparingDouble(c -> c.y));
+        List<List<RawPageData.RawChar>> clusters = new ArrayList<>();
+        List<RawPageData.RawChar> current = new ArrayList<>();
+        float currentY = Float.NaN;
+        for (RawPageData.RawChar c : ornChars) {
+            if (current.isEmpty() || Math.abs(c.y - currentY) < 3f) {
+                current.add(c);
+                currentY = c.y;
+            } else {
+                clusters.add(current);
+                current = new ArrayList<>();
+                current.add(c);
+                currentY = c.y;
+            }
+        }
+        if (!current.isEmpty()) clusters.add(current);
+        if (clusters.size() < 2) return result;
+        // Cluster-Bounds berechnen
+        record Cluster(float xMin, float xMax, float y, float xCenter) {}
+        List<Cluster> cls = new ArrayList<>();
+        for (List<RawPageData.RawChar> grp : clusters) {
+            if (grp.size() < 2) continue;
+            float xMin = Float.MAX_VALUE, xMax = -Float.MAX_VALUE, ySum = 0;
+            for (RawPageData.RawChar c : grp) {
+                xMin = Math.min(xMin, c.x);
+                xMax = Math.max(xMax, c.x + c.width);
+                ySum += c.y;
+            }
+            cls.add(new Cluster(xMin, xMax, ySum / grp.size(), (xMin + xMax) / 2f));
+        }
+        if (cls.size() < 2) return result;
+        boolean[] used = new boolean[cls.size()];
+        int idx = startIdx;
+        // Pair-Suche: bottom (kleines y) + top (grosses y) mit y-Diff 50-300pt.
+        for (int i = 0; i < cls.size(); i++) {
+            if (used[i]) continue;
+            for (int j = i + 1; j < cls.size(); j++) {
+                if (used[j]) continue;
+                Cluster a = cls.get(i), b = cls.get(j);
+                Cluster bottom = a.y < b.y ? a : b;
+                Cluster top = a.y < b.y ? b : a;
+                float yGap = top.y - bottom.y;
+                if (yGap < 50f || yGap > 300f) continue;
+                if (Math.abs(top.xCenter - bottom.xCenter) > 30f) continue;
+                float boxX = Math.min(bottom.xMin, top.xMin) - 5f;
+                float boxRight = Math.max(bottom.xMax, top.xMax) + 5f;
+                // Marker-Glyph ist sehr gross (typ. 50pt), visuelle Bottom-Linie
+                // liegt ~25pt unter der Baseline und kann eine Folge-Zeile ueber-
+                // decken. Box am Bottom entsprechend grosszuegig erweitern.
+                float boxY = bottom.y - 25f;
+                float boxH = (top.y - bottom.y) + 35f;
+                float boxW = boxRight - boxX;
+                // Doppel-Detection mit bestehender Box vermeiden.
+                boolean overlap = false;
+                for (BoxRegion ex : existing) {
+                    float ix1 = Math.max(boxX, ex.x), iy1 = Math.max(boxY, ex.y);
+                    float ix2 = Math.min(boxX + boxW, ex.x + ex.width);
+                    float iy2 = Math.min(boxY + boxH, ex.y + ex.height);
+                    if (ix2 <= ix1 || iy2 <= iy1) continue;
+                    float interArea = (ix2 - ix1) * (iy2 - iy1);
+                    if (interArea > 0.30f * boxW * boxH) { overlap = true; break; }
+                }
+                if (overlap) continue;
+                used[i] = true; used[j] = true;
+                result.add(new BoxRegion(idx++, boxX, boxY, boxW, boxH,
+                        new float[]{0.95f, 0.92f, 0.82f}));
+                break;
+            }
+        }
         return result;
     }
 
@@ -145,6 +253,78 @@ public class BoxExtractor {
         return result;
     }
 
+    /**
+     * Profilkasten-Detection ueber Hintergrund-Bilder mit substanziellem
+     * Text-Inhalt. Trifft Buecher wie Grimorum Cantiones / Divinarium Liturgia
+     * (524x737-Format), wo jede Spell-/Liturgie-Profilseite mit einer
+     * Pergament-/Buch-Grafik hinterlegt ist.
+     *
+     * <p>Heuristik:
+     * <ul>
+     *   <li>Bild ist kein Voll-Seiten-Hintergrund (w &lt; 95 % oder h &lt; 95 %
+     *       der Seitenflaeche, abzueglich Off-Page-Bereiche).</li>
+     *   <li>Bild ist groesser als typische Vignetten (w &gt;= 200, h &gt;= 200).</li>
+     *   <li>Mehr als 100 nicht-Whitespace-Chars haben ihren Mittelpunkt im Bild
+     *       UND mind. 30 % des Body-Texts liegt im Bild
+     *       — schliesst Vignetten aus, um die Text fliesst.</li>
+     *   <li>Char-Dichte mind. 3 / 1000 pt² (zusaetzliche Schutzschicht gegen
+     *       sehr sparsam ueberlappende Vignetten).</li>
+     *   <li>Keine substanzielle Ueberlappung mit bereits erkannten Boxen
+     *       (vermeidet Doppel-Detection bei Buechern mit Banner-Pair).</li>
+     * </ul>
+     */
+    private List<BoxRegion> identifyContentImageBoxes(RawPageData page, int startIdx,
+                                                       List<BoxRegion> existing) {
+        List<BoxRegion> result = new ArrayList<>();
+        if (page.images == null || page.images.isEmpty()) return result;
+        if (page.chars == null || page.chars.isEmpty()) return result;
+        float pw = page.pageWidth, ph = page.pageHeight;
+        if (pw <= 0 || ph <= 0) return result;
+        int totalNonBlank = 0;
+        for (RawPageData.RawChar c : page.chars) {
+            if (c.text != null && !c.text.isBlank()) totalNonBlank++;
+        }
+        if (totalNonBlank < 50) return result; // leere/Bildseiten ueberspringen
+        int idx = startIdx;
+        for (RawPageData.RawImage img : page.images) {
+            float w = img.width, h = img.height;
+            float x = img.x, y = img.y;
+            if (w < 200f || h < 200f) continue;
+            // Off-page Bilder skippen
+            if (x < -10f || y < -10f) continue;
+            if (x + w > pw + 10f || y + h > ph + 10f) continue;
+            // Voll-Seiten-Hintergrund skippen
+            if (w >= pw * 0.95f && h >= ph * 0.95f) continue;
+            int charsInside = 0;
+            for (RawPageData.RawChar c : page.chars) {
+                if (c.text == null || c.text.isBlank()) continue;
+                float cx = c.x + c.width / 2f;
+                float cy = c.y + c.height / 2f;
+                if (cx >= x && cx <= x + w && cy >= y && cy <= y + h) charsInside++;
+            }
+            if (charsInside < 100) continue;
+            float ratio = (float) charsInside / totalNonBlank;
+            if (ratio < 0.30f) continue;
+            float density = (float) charsInside / (w * h) * 1000f;
+            if (density < 3f) continue;
+            // Ueberlappt eine bestehende Box mehr als 30 %? Skip.
+            boolean overlap = false;
+            float ax2 = x + w, ay2 = y + h;
+            for (BoxRegion ex : existing) {
+                float ix1 = Math.max(x, ex.x), iy1 = Math.max(y, ex.y);
+                float ix2 = Math.min(ax2, ex.x + ex.width);
+                float iy2 = Math.min(ay2, ex.y + ex.height);
+                if (ix2 <= ix1 || iy2 <= iy1) continue;
+                float interArea = (ix2 - ix1) * (iy2 - iy1);
+                if (interArea > 0.30f * w * h) { overlap = true; break; }
+            }
+            if (overlap) continue;
+            result.add(new BoxRegion(idx++, x, y, w, h,
+                    new float[]{0.95f, 0.92f, 0.82f}));
+        }
+        return result;
+    }
+
     /** Splittet die Page in Hauptlauftext-Chars und Box-Chars. */
     public SplitResult split(RawPageData page) {
         List<BoxRegion> boxes = identifyBoxes(page);
@@ -156,6 +336,11 @@ public class BoxExtractor {
 
         if (page.chars != null) {
             for (RawPageData.RawChar c : page.chars) {
+                // AdornFrames-Marker (Box-Top/Bottom-Ornament) komplett verwerfen —
+                // sie wurden bereits zur Box-Detection ausgewertet und sind reine
+                // Dekoration. Wuerden sie in die Sub-Page gereicht, erkennt der
+                // innere BoxExtractor sie erneut als Pair → endlose Rekursion.
+                if (c.fontName != null && c.fontName.contains("AdornFrames")) continue;
                 BoxRegion containing = null;
                 for (BoxRegion b : boxes) {
                     if (b.contains(c)) {

@@ -314,7 +314,6 @@ class SchwertesVolltextTablesTest {
     // und werden gruen, sobald 4.7 implementiert ist.
     // -------------------------------------------------------------------
 
-    @Disabled("Phase 4.7: Entrueckung-Tabelle laeuft S26-rechts → S27-links, aktuell zwei separate Tabellen.")
     @Test
     @DisplayName("S26/S27 Volltext: Entrueckungs-Tabelle (cross-page) exakt")
     void s26_entrueckung_crossPage_exakt() {
@@ -329,7 +328,7 @@ class SchwertesVolltextTablesTest {
                 """);
     }
 
-    @Disabled("Phase 4.7: Paralyse-Tabelle laeuft S27-rechts → S28-links und mischt aktuell mit Schmerz-Body.")
+    @Disabled("Cross-page-Merge selbst funktioniert; Stufe IV-Cell bekommt aber Schmerz-Body-Inhalt eingemischt — separater Body-Bleeding-Bug")
     @Test
     @DisplayName("S27/S28 Volltext: Paralyse-Tabelle (cross-page) exakt")
     void s27_paralyse_crossPage_exakt() {

@@ -48,7 +48,8 @@ public class TextInterpreter
     // Ornament-Schriftarten: rein dekorative Zeichen ohne Textinhalt
     private static final java.util.Set<String> ORNAMENT_FONTS = java.util.Set.of(
         "TypeEmbellishmentsOne",
-        "PaganSymbols"
+        "PaganSymbols",
+        "AdornFrames"
     );
 
     // Toggle: Body-Text in Headings-Ausgabe einschliessen
@@ -71,7 +72,9 @@ public class TextInterpreter
     {
         public final int index;          // 1-basiert, in Y-Reihenfolge auf der Seite
         public final int pageNumber;
-        public final String headingGuess; // erste Heading-/Bold-Zeile, gesaeubert; ggf. ""
+        // Kann nachtraeglich vom Caller (RegenerateText) ueberschrieben werden,
+        // wenn die orphan-heading-Regel greift.
+        public String headingGuess;       // erste Heading-/Bold-Zeile, gesaeubert; ggf. ""
         public final String markdown;     // Box-Inhalt als MD (ohne Anfang/Ende-Marker)
         public final float x, y, width, height;
         /** True wenn der Heading aus einem Auge-Symbol-Bezug stammt (nicht aus Box-Inhalt). */
@@ -1820,7 +1823,9 @@ public class TextInterpreter
         // Box-Inhalte werden separat unten gerendert mit Box-Anfang/Ende-Markern.
         // Damit fliesst Box-Text nicht in die Spalten-/Tabellenheuristik des Body.
         List<de.pho.dsapdfreader.book.BoxExtractor.BoxRegion> extractedBoxes = new ArrayList<>();
-        if (page.rects != null && !page.rects.isEmpty())
+        // BoxExtractor laeuft IMMER — er erkennt Boxen aus Vektor-Rects, Banner-
+        // Bildern UND Content-Image-Hintergruenden. Auch Seiten ohne rects (z. B.
+        // Grimorum) koennen ueber Bilder Boxen liefern.
         {
             de.pho.dsapdfreader.book.BoxExtractor extractor =
                 new de.pho.dsapdfreader.book.BoxExtractor();
@@ -1907,8 +1912,23 @@ public class TextInterpreter
                 // Kurze Heading-Style-Zeile, die splitX kreuzt (zentrierte Headline wie
                 // "Proben" auf S12 — chars von x=265-309 mit splitX=300) wuerde sonst in
                 // zwei Stuecke zerrissen. Solche Zeilen direkt als fullwidth markieren.
-                if (!spansColumns && crossesSplit && (largerThanBody || muchLargerThanBody)
-                        && line.chars.size() <= 40)
+                //
+                // Auch: zentrierte Display-Headings auf Poetry-Seiten (Goetterwirken
+                // S293 "Praios" bei x=280-326, splitX=236 wegen breitem Gutter) — sie
+                // kreuzen splitX nicht, sind aber tatsaechlich UEBER Page-Center
+                // ZENTRIERT (linker Rand und rechter Rand sind beide ungefaehr
+                // gleich weit von der Page-Mitte entfernt). Eine Heading-Zeile, die
+                // nur in EINER Spalte links-buendig steht (z. B. S400 "Sikaryan-
+                // Raub" bei x=299-376), darf NICHT als fullwidth gelten.
+                float pageCenterX = page.pageWidth > 0 ? page.pageWidth / 2f : -1f;
+                float lineCenterX = (lineMinX + lineMaxX) / 2f;
+                boolean headingCenteredOverPage = pageCenterX > 0
+                        && Math.abs(lineCenterX - pageCenterX) < 30f
+                        && lineMinX < pageCenterX - 10f
+                        && lineMaxX > pageCenterX + 10f;
+                if (!spansColumns && (largerThanBody || muchLargerThanBody)
+                        && line.chars.size() <= 40
+                        && (crossesSplit || headingCenteredOverPage))
                 {
                     fullWidthYs.add((float) line.y);
                     continue;
@@ -1979,13 +1999,18 @@ public class TextInterpreter
                         else if (gapStart >= splitX) tableGapsRight++;
                         else tableGapsStraddling++;
                     }
-                    // Fullwidth nur wenn die Tabellen-Gaps WIRKLICH ueber die Spalten
-                    // gehen — entweder direkt straddling, oder Gaps in beiden Haelften.
-                    // Reine "Stat-Block links + Body rechts"-Layouts (alle Gaps in einer
-                    // Spalte, KEIN straddling) sind keine cross-column-Tabellen.
-                    boolean isCrossColumn =
-                            (tableGapsLeft >= 1 && tableGapsRight >= 1)
-                            || tableGapsStraddling >= 1;
+                    // Fullwidth-Cross-Column-Tabelle: mehrere Cell-Trennungen ueber
+                    // die Zeile verteilt. Eine "echte" Tabelle braucht entweder
+                    //   • mind. 3 grosse Gaps insgesamt (klare Multi-Cell-Struktur,
+                    //     egal ob auf einer Seite oder beiden — z. B. S420
+                    //     Ausruestungs-Tabelle mit Adlerfedern| 1 Strukt | – | 1-5 S),
+                    //   • ODER Tabellen-Struktur in beiden Spalten-Haelften
+                    //     (mind. 1 Gap links UND mind. 1 Gap rechts).
+                    // Reine "Stat-Block links + Body rechts"-Layouts (S400 Stufe II:
+                    // 1 Gap links, kein Gap rechts, 1 Straddling) zaehlen NICHT als
+                    // cross-column und werden korrekt in Spalten gesplittet.
+                    boolean isCrossColumn = tableGaps >= 3
+                            || (tableGapsLeft >= 1 && tableGapsRight >= 1);
                     if (tableGaps >= 2 && isCrossColumn)
                     {
                         fullWidthYs.add((float) line.y);
@@ -2031,6 +2056,47 @@ public class TextInterpreter
             // Cross-column Tabellen: beide Spalten haben Tabellenstruktur an gleichen Y-Positionen
             java.util.Set<Float> crossColumnYs = detectCrossColumnTableYs(classified, splitX, fullWidthYs);
             fullWidthYs.addAll(crossColumnYs);
+            if (Boolean.getBoolean("debug.wrap")) {
+                java.util.List<Float> sorted = new java.util.ArrayList<>(fullWidthYs);
+                java.util.Collections.sort(sorted);
+                System.err.printf("page=%d splitX=%.1f fullWidthYs(before-prop)=%s%n",
+                        page.pageNumber, splitX, sorted);
+            }
+
+            // Cell-Wrap-Propagation: zwischen zwei fullwidth-Y-Werten kann eine
+            // schmale Wrap-Zeile liegen, die nur in einer Spalte Inhalt hat
+            // (z. B. Goetterwirken S420 "sinde, Nandus)" als Cell-1-Wrap der
+            // Echsenschuppen-Zeile). Solche Lines wuerden sonst in den Spalten-
+            // Bucket fallen und nie mit ihrer Tabellen-Reihe gemergt werden.
+            // Heuristik: jede preLine, die zwischen zwei fullwidth-Y-Werten mit
+            // typischem Reihen-Abstand liegt, gehoert zur Tabelle und wird auch
+            // fullwidth.
+            if (!fullWidthYs.isEmpty()) {
+                java.util.List<Float> fwSorted = new java.util.ArrayList<>(fullWidthYs);
+                java.util.Collections.sort(fwSorted);
+                for (TextLine line : preLines) {
+                    if (line.chars.isEmpty()) continue;
+                    if (fullWidthYs.contains((float) line.y)) continue;
+                    // Vorigen + naechsten fullwidth-Y finden
+                    Float prevFw = null, nextFw = null;
+                    for (float fw : fwSorted) {
+                        if (fw < line.y) prevFw = fw;
+                        else if (fw > line.y && nextFw == null) { nextFw = fw; break; }
+                    }
+                    if (prevFw == null || nextFw == null) continue;
+                    float gapBelow = (float) line.y - prevFw;
+                    float gapAbove = nextFw - (float) line.y;
+                    // Wrap-Line liegt eng oberhalb von prev (typischerweise weniger
+                    // als ~14pt — eine Body-Line-Hoehe).
+                    if (gapBelow < 4f || gapBelow > 20f) continue;
+                    if (gapAbove < 4f || gapAbove > 35f) continue;
+                    if (Boolean.getBoolean("debug.bucket")) {
+                        System.err.printf("  WrapPropagation: y=%.1f (gapBelow=%.1f gapAbove=%.1f)%n",
+                                line.y, gapBelow, gapAbove);
+                    }
+                    fullWidthYs.add((float) line.y);
+                }
+            }
 
             // Alles unterhalb des Cutoffs ist fullwidth
             for (ClassifiedChar ch : classified)
@@ -2059,6 +2125,17 @@ public class TextInterpreter
         List<TextLine> leftLines = buildLines(leftChars);
         List<TextLine> rightLines = buildLines(rightChars);
         List<TextLine> fullWidthLines = buildLines(fullWidthChars);
+
+        // Banner-Heading-Merge: zwei aufeinander folgende Heading-TextLines
+        // (gleiche fontSize, > Body-Size), die innerhalb DESSELBEN Banner-Bilds
+        // liegen (z. B. Goetterwirken S251 "KAPITEL 4: KARMALE" + "SONDER-
+        // FERTIGKEITEN" beide im 580x122-Banner), gehoeren zu EINEM logischen
+        // Heading. Mergen durch Y-Anpassung damit lineToMarkdown sie als eine
+        // Zeile rendert. Lines, die NICHT in derselben Banner-Box liegen,
+        // bleiben getrennt (S261 "Liturgiestil..." vs "Praios-Stroemungen").
+        mergeBannerHeadings(fullWidthLines, page, false);
+        mergeBannerHeadings(leftLines, page, true);
+        mergeBannerHeadings(rightLines, page, true);
 
         // Pseudo-TextLines fuer line-basierte Tabellen einsortieren — pro Tabelle
         // entsprechend ihrer x-Range (linke Spalte / rechte Spalte / fullwidth).
@@ -2506,37 +2583,17 @@ public class TextInterpreter
             currentSpan.text.append(ch.raw.text);
         }
 
-        // SmallCaps-Korrektur: Grossbuchstaben anhand der fontSize erkennen
+        // SmallCaps-Korrektur: in einer Small-Caps-Font sind ALLE Buchstaben
+        // optisch Grossbuchstaben (kleinere Glyphen sind die small-cap-Variante
+        // der Kleinbuchstaben). Der Text-Stream liefert haeufig eine Mix-Case-
+        // Pseudo-Form ("Ein ÜbErblick ÜbEr"), die wir auf reine Grossbuchstaben
+        // normalisieren.
         for (FormattedSpan span : spans)
         {
             if (!span.isSmallCaps || span.chars.size() < 2) continue;
-
-            // Kleinste fontSize im Span = Kleinbuchstaben-Groesse
-            float minSize = span.chars.stream()
-                .map(c -> c.raw.fontSize)
-                .min(Float::compare).orElse(0f);
-
-            // Nur korrigieren wenn es tatsaechlich unterschiedliche Groessen gibt
-            float maxSize = span.chars.stream()
-                .map(c -> c.raw.fontSize)
-                .max(Float::compare).orElse(0f);
-            if (maxSize - minSize < 1.0f) continue;
-
-            // Text neu aufbauen mit korrekter Gross/Kleinschreibung
-            StringBuilder fixed = new StringBuilder();
-            for (ClassifiedChar ch : span.chars)
-            {
-                if (ch.raw.fontSize > minSize + 0.5f)
-                {
-                    fixed.append(ch.raw.text.toUpperCase());
-                }
-                else
-                {
-                    fixed.append(ch.raw.text);
-                }
-            }
+            String upper = span.text.toString().toUpperCase();
             span.text.setLength(0);
-            span.text.append(fixed);
+            span.text.append(upper);
         }
 
         // Markdown zusammenbauen
@@ -2714,9 +2771,35 @@ public class TextInterpreter
             if (uniformDisplay2 && maxGlyphSize2 > 26f) isH1 = true;
         }
 
+        // Heading-Level-Mapping ueber maximale Glyph-Schriftgroesse.
+        // Robuster als avgSize, weil Display-Tracking und Initialen den Schnitt
+        // verfaelschen. Bandbreite:
+        //   H1 (#)       Display-Caps > 26pt  (Kapitel-Cover-Headlines)
+        //   H2 (##)      Display 17-26pt       (Kapitel-Titel)
+        //   H3 (###)     Display 13-17pt       (Sektionen)
+        //   H4 (####)    Bold 11.5-13pt        (Unterthemen)
+        //   H5 (#####)   Bold 9-11.5pt         (Body-Bold-Eintraege)
+        //   H6 (######)  Bold &lt; 9pt          (Sub-Body-Detailtitel)
+        float maxLineSize = 0f;
+        for (FormattedSpan s : spans) {
+            if (s.isOrnament) continue;
+            if (s.fontSize > maxLineSize) maxLineSize = s.fontSize;
+        }
         if (isH1) result.append("# ");
-        else if (isHeading) result.append("## ");
-        else if (isSubHeading) result.append("### ");
+        else if (isHeading || isSubHeading) {
+            String hashes;
+            if (maxLineSize > 26f) hashes = "# ";
+            else if (maxLineSize > 17f) hashes = "## ";
+            else if (maxLineSize > 13f) hashes = "### ";
+            else if (maxLineSize > 9.5f) hashes = "#### ";
+            else if (maxLineSize > 7.5f) hashes = "##### ";
+            else hashes = "###### ";
+            // isHeading-Klassifikation steht fuer eine bewusst grosse Headline
+            // (oder Display-Schrift) und sollte mindestens H3 sein, auch wenn
+            // die Glyphen knapp ueber Body liegen.
+            if (isHeading && hashes.length() > 4) hashes = "### ";
+            result.append(hashes);
+        }
 
         for (int i = 0; i < spans.size(); i++)
         {
@@ -2842,21 +2925,14 @@ public class TextInterpreter
             currentSpan.text.append(ch.raw.text);
         }
 
-        // SmallCaps-Korrektur
+        // SmallCaps-Korrektur — alle Buchstaben in Small-Caps-Spans sind
+        // optisch Grossbuchstaben.
         for (FormattedSpan span : spans)
         {
             if (!span.isSmallCaps || span.chars.size() < 2) continue;
-            float minSize = span.chars.stream().map(c -> c.raw.fontSize).min(Float::compare).orElse(0f);
-            float maxSize = span.chars.stream().map(c -> c.raw.fontSize).max(Float::compare).orElse(0f);
-            if (maxSize - minSize < 1.0f) continue;
-            StringBuilder fixed = new StringBuilder();
-            for (ClassifiedChar ch : span.chars)
-            {
-                if (ch.raw.fontSize > minSize + 0.5f) fixed.append(ch.raw.text.toUpperCase());
-                else fixed.append(ch.raw.text);
-            }
+            String upper = span.text.toString().toUpperCase();
             span.text.setLength(0);
-            span.text.append(fixed);
+            span.text.append(upper);
         }
 
         return spans;
@@ -3617,6 +3693,83 @@ public class TextInterpreter
      * @return Heading-Text oder {@code null}, wenn keine Zuordnung moeglich.
      */
     /**
+     * Merged zwei aufeinander folgende Heading-Lines, wenn beide in derselben
+     * Banner-Image-Region liegen. Damit werden zweizeilige Banner-Headings
+     * (z. B. "KAPITEL 4: KARMALE\nSONDERFERTIGKEITEN") zu einer Zeile.
+     *
+     * <p>Voraussetzungen fuers Merging:
+     * <ul>
+     *   <li>Beide Lines haben Heading-Schriftgroesse (&gt; 13pt).</li>
+     *   <li>Beide Lines haben dieselbe Schriftgroesse (Toleranz 0.5pt).</li>
+     *   <li>Y-Distanz beider Lines &lt; 60pt.</li>
+     *   <li>Es existiert ein Banner-Image (height 30-150, width &gt; 200), das
+     *       BEIDE Y-Werte einschliesst (mit etwas Toleranz).</li>
+     * </ul>
+     */
+    private void mergeBannerHeadings(List<TextLine> lines, RawPageData page, boolean columnScope) {
+        if (lines == null || lines.size() < 2) return;
+        // Banner-Kandidaten: breite, niedrige Bilder
+        List<RawPageData.RawImage> banners = new java.util.ArrayList<>();
+        if (page.images != null) {
+            for (RawPageData.RawImage img : page.images) {
+                if (img.width >= 200f && img.height >= 30f && img.height <= 150f) {
+                    banners.add(img);
+                }
+            }
+        }
+
+        // Lines nach Y sortieren
+        lines.sort(Comparator.comparingDouble(l -> l.y));
+        for (int i = 0; i + 1 < lines.size(); i++) {
+            TextLine a = lines.get(i);
+            TextLine b = lines.get(i + 1);
+            if (a.chars.isEmpty() || b.chars.isEmpty()) continue;
+            float aSize = (float) a.chars.stream().mapToDouble(c -> c.raw.fontSize).max().orElse(0);
+            float bSize = (float) b.chars.stream().mapToDouble(c -> c.raw.fontSize).max().orElse(0);
+            if (aSize <= 13f || bSize <= 13f) continue;
+            if (Math.abs(aSize - bSize) > 0.5f) continue;
+            if (b.y - a.y > 60f) continue;
+            // 1) Banner-Pfad: beide Lines in DEMSELBEN Banner-Bild eingeschlossen.
+            boolean inSameBanner = false;
+            for (RawPageData.RawImage banner : banners) {
+                float yT = banner.y - 5f;
+                float yB = banner.y + banner.height + 5f;
+                if (a.y >= yT && a.y <= yB && b.y >= yT && b.y <= yB) {
+                    inSameBanner = true;
+                    break;
+                }
+            }
+            // 2) Same-Font-Pfad: beide Lines nutzen ueberwiegend dieselbe
+            //    Heading-Font (z. B. Wolfsfrost-Buch RomicStd-SC700) — kein
+            //    Banner noetig. Voraussetzung: identische FontFamily auf
+            //    Mehrheit der Chars beider Lines.
+            // Same-font-Merge (ohne Banner) wurde versuchsweise hinzugefuegt fuer
+            // Wolfsfrost S9 "EIN ÜBERBLICK ÜBER\nDEN WOLFSFROST" — fuehrt aber zu
+            // Regression bei Schwertes S367/368/369 (## Erweiterte... wird zu
+            // plain text, weil Heading-Klassifikation nach Merge nicht mehr greift)
+            // und Goetterwirken S261 (## Liturgiestil... verschwindet). Daher
+            // wieder rein Banner-basiert.
+            if (!inSameBanner) continue;
+            // Merge: alle Chars der zweiten Line bekommen die Y der ersten Line.
+            for (ClassifiedChar c : b.chars) a.chars.add(c);
+            b.chars.clear();
+        }
+        lines.removeIf(l -> l.chars.isEmpty());
+    }
+
+    private static String dominantFontFamily(TextLine line) {
+        java.util.Map<String, Integer> counts = new java.util.HashMap<>();
+        for (ClassifiedChar ch : line.chars) {
+            String f = ch.family != null ? ch.family : "";
+            counts.merge(f, 1, Integer::sum);
+        }
+        return counts.entrySet().stream()
+                .max(java.util.Map.Entry.comparingByValue())
+                .map(java.util.Map.Entry::getKey)
+                .orElse("");
+    }
+
+    /**
      * Rendert eine Box ueber den vollen interpretPage-Pfad: erzeugt eine
      * synthetische Sub-Page mit den Box-Chars/Rects/Images und ruft eine
      * frische TextInterpreter-Instanz darauf auf. Damit gilt im Box-Inneren
@@ -3662,17 +3815,10 @@ public class TextInterpreter
                 sub.rects.add(r);
             }
         }
+        // Sub-Page bekommt KEINE Images. Sonst wuerde der innere
+        // BoxExtractor-Aufruf das gleiche definierende Bild (Banner-Pair oder
+        // Content-Image) erneut als Box erkennen — endlose Rekursion.
         sub.images = new ArrayList<>();
-        if (parentPage.images != null)
-        {
-            for (RawPageData.RawImage img : parentPage.images)
-            {
-                float cx = img.x + img.width / 2f;
-                float cy = img.y + img.height / 2f;
-                if (cx >= bxL && cx <= bxR && cy >= byT && cy <= byB)
-                    sub.images.add(img);
-            }
-        }
 
         TextInterpreter sub_ti = new TextInterpreter();
         sub_ti.setEmitBoxesInline(true); // innere Boxen inline halten
@@ -3983,6 +4129,23 @@ public class TextInterpreter
                 }
                 else
                 {
+                    // Wenn wenige Cells fehlen UND wir bereits eine Referenz haben,
+                    // direkt force-split an Referenz-Positionen versuchen. Faengt
+                    // Faelle ab wo ein einzelner Inter-Cell-Gap minimal unter der
+                    // Schwelle liegt (z. B. S420 Echsen-Wrap-Reihe: 17pt-Gap statt
+                    // typischer 90pt+; sonst wuerde die Tabelle zerrissen).
+                    if (split.row.cells.size() < tableColCount && referenceGapEnds != null)
+                    {
+                        SplitResult forced = forceSplitAtPositions(line, referenceGapEnds);
+                        if (forced != null && forced.row.cells.size() == tableColCount)
+                        {
+                            currentRows.add(forced.row);
+                            currentGapEnds.add(forced.gapEnds);
+                            currentRowLineIdx.add(i);
+                            lastIdx = i;
+                            continue;
+                        }
+                    }
                     // Andere Spaltenanzahl oder Gap-Positionen passen nicht:
                     // versuche mit Referenz-Positionen aufzuteilen
                     SplitResult refSplit = splitLineByReference(line, referenceGapEnds);
@@ -3997,11 +4160,26 @@ public class TextInterpreter
                     else if (split.row.cells.size() >= tableColCount - 2 && split.row.cells.size() >= 3
                              && gapPositionsAlign(split.gapEnds, referenceGapEnds, GAP_POS_TOLERANCE))
                     {
-                        // Nahe Spaltenanzahl mit passenden Gap-Positionen: akzeptieren und auffuellen
-                        currentRows.add(split.row);
-                        currentGapEnds.add(split.gapEnds);
-                        currentRowLineIdx.add(i);
-                        lastIdx = i;
+                        // Nahe Spaltenanzahl mit passenden Gap-Positionen: erst per
+                        // forceSplit auf Referenz-Positionen probieren — eine fehlende
+                        // Cell entsteht oft nur, weil ein einzelner Gap minimal unter
+                        // der Schwelle liegt (z. B. S420 Echsen-Reihe: 17pt-Gap
+                        // zwischen wrap-cell-1 und cell-2 unter GAP_THRESHOLD=18).
+                        SplitResult forced = forceSplitAtPositions(line, referenceGapEnds);
+                        if (forced != null && forced.row.cells.size() == tableColCount)
+                        {
+                            currentRows.add(forced.row);
+                            currentGapEnds.add(forced.gapEnds);
+                            currentRowLineIdx.add(i);
+                            lastIdx = i;
+                        }
+                        else
+                        {
+                            currentRows.add(split.row);
+                            currentGapEnds.add(split.gapEnds);
+                            currentRowLineIdx.add(i);
+                            lastIdx = i;
+                        }
                     }
                     else
                     {
@@ -4173,9 +4351,30 @@ public class TextInterpreter
                     }
                     String lineText = extractText(line.chars);
                     TextLine firstLine = lines.get(firstIdx);
+                    // Continuation-Wächter: ALLE Chars der Zeile muessen in EINER
+                    // Cell-X-Range liegen. Eine Zeile, die ueber mehrere Cells
+                    // spannt (z. B. Eigenblut-Reihe mit allen 4 Cells gefuellt),
+                    // ist eine echte neue Reihe, kein Cell-Wrap der Vorgaengerin.
+                    boolean charsInOneCell = true;
+                    if (!line.chars.isEmpty() && referenceGapEnds != null
+                            && referenceGapEnds.length >= 1)
+                    {
+                        // Erste interne Cell-Trennung = referenceGapEnds[0]
+                        // (das Ende der ersten Cell). Wenn die Zeile Chars
+                        // links UND rechts dieser Trennung hat, sind es zwei
+                        // Cells.
+                        boolean hasLeft = false, hasRight = false;
+                        float bound = referenceGapEnds[0];
+                        for (ClassifiedChar ch : line.chars) {
+                            float cx = ch.raw.x + ch.raw.width / 2f;
+                            if (cx < bound - 1f) hasLeft = true;
+                            else if (cx > bound + 1f) hasRight = true;
+                            if (hasLeft && hasRight) { charsInOneCell = false; break; }
+                        }
+                    }
                     if (spacingOk
                         && !firstLine.chars.isEmpty() && lineText.length() < 80
-                        && !lineText.isBlank())
+                        && !lineText.isBlank() && charsInOneCell)
                     {
                         float lineX = line.chars.get(0).raw.x;
                         int cellIdx = -1;
@@ -4610,7 +4809,7 @@ public class TextInterpreter
      * starten — als Cell-Continuation an die letzte Reihe der ersten Tabelle gehängt.
      * Lange Lines oder Headings dazwischen brechen den Merge ab.
      */
-    String mergeAdjacentMarkdownTables(String md)
+    public String mergeAdjacentMarkdownTables(String md)
     {
         String[] lines = md.split("\n", -1);
         StringBuilder out = new StringBuilder();
